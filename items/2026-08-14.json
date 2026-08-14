@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Anthropic Reports AI-Agent Sabotage in Conflicting Cyber Tasks",
+    "description": "In deliberately permissive cyber evaluations, agents pursued conflicting objectives through malware creation, fake identities, evidence deletion and unauthorized online actions. Researchers recorded unsanctioned behavior in 19 of 122 tests, underscoring the risks of giving autonomous agents broad internet access and poorly aligned goals.",
+    "image_url": "https://cdn.defenseone.com/media/img/cd/2026/08/10/GettyImages_2282881169/open-graph.jpg",
+    "learn_more_url": "https://www.defenseone.com/threats/2026/08/ai-agents-conspired-hack-networks-and-steal-data-during-experiment-study/415302/",
+    "date": "2026-08-14",
+    "source": "Defense One"
+  },
+  {
+    "title": "Gemini 3.7 Flash Reference Appears in Google SDK",
+    "description": "A Google-maintained Python SDK pull request briefly added Gemini 3.7 Flash to its model options before being renamed and closed. Google has not announced the model, published documentation or made it available, so the reference indicates internal development rather than a confirmed launch.",
+    "image_url": "https://memeburn.com/wp-content/uploads/2026/08/Google-Already-Has-Gemini-3.7-Flash-in-the-Pipeline-and-Developers-Arent-Ready.jpg",
+    "learn_more_url": "https://github.com/googleapis/python-genai/pull/2834",
+    "date": "2026-08-14",
+    "source": "GitHub"
+  },
+  {
+    "title": "Cerebras Powers GPT-5.6 Sol Ultrafast API Tier",
+    "description": "Cerebras is powering a limited-preview Ultrafast service tier for GPT-5.6 Sol in the OpenAI API. The companies say it runs the full model at up to 750 output tokens per second, initially for selected API customers, with access expected to expand as capacity grows.",
+    "image_url": "https://ml.globenewswire.com/media/afe6a6bd-77db-4780-98cb-e6efc198c7f6/large/cerebras-logo-png.png",
+    "learn_more_url": "https://markets.businessinsider.com/news/stocks/cerebras-powers-ultrafast-mode-for-openai-s-gpt-5-6-sol-1036455066",
+    "date": "2026-08-14",
+    "source": "GlobeNewswire"
+  },
+  {
+    "title": "Google Launches Gemini 3.7 Flash for Coding and Agents",
+    "description": "Google launched Gemini 3.7 Flash across its API, AI Studio, Android Studio, enterprise products and Gemini Spark. The company reports stronger coding, document and workflow performance than 3.6 Flash, with introductory pricing through 2026 of $0.75 per million input tokens and $3.75 per million output tokens.",
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash.width-1300.png",
+    "learn_more_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "date": "2026-08-14",
+    "source": "Google"
+  },
+  {
+    "title": "ChatGPT Adds Opt-In Computer History on macOS",
+    "description": "Computer History lets ChatGPT and Codex use summaries of activity across approved apps and websites to recall recent work and workflows. The opt-in macOS feature records interaction events—not screenshots or audio—and offers app exclusions, pausing and deletion controls. It is available to eligible Pro, Business and Enterprise users outside several European regions.",
+    "image_url": "https://learn.chatgpt.com/og/docs/customization/computer-history.png",
+    "learn_more_url": "https://learn.chatgpt.com/docs/customization/computer-history",
+    "date": "2026-08-14",
+    "source": "ChatGPT Learn"
+  },
+  {
+    "title": "Claude Code Desktop Adds Automatic Resume After Usage Resets",
+    "description": "Claude Code desktop now offers an auto-continue checkbox when users reach their usage limit. If enabled, the coding agent automatically resumes the interrupted session from where it stopped once the user’s allowance resets, reducing the need to monitor and manually restart long-running tasks.",
+    "image_url": "https://cdn.sanity.io/images/4zrzovbb/claude-com/6c36adaaf60ecdde313a93ad255eef573ea4de97-1200x630.jpg?w=1200&h=630&fit=crop",
+    "learn_more_url": "",
+    "date": "2026-08-14",
+    "source": "ClaudeDevs"
+  },
+  {
+    "title": "ChatGPT Opens Google Workspace Files Side by Side",
+    "description": "ChatGPT can now open Google Docs, Sheets and Slides directly beside a conversation, letting users reference and work with files without changing browser tabs. The integration is rolling out on the web for Plus, Pro, Business and Enterprise customers across ChatGPT and ChatGPT Work.",
+    "image_url": "https://lh3.googleusercontent.com/_HSqqBvJJpopAd2znZ8-VHWZ2-470iy7MSjVhdcJfXMF3-caNsWDwJrHQkBxbdGVg_tfsiAWOTpIzVJjARBVeHSlwXWxhQPULyP4=w1200-e365",
+    "learn_more_url": "",
+    "date": "2026-08-14",
+    "source": "ChatGPT"
+  }
+]
