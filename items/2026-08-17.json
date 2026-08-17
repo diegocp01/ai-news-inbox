@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Z.ai releases GLM-5.3 for coding and cybersecurity tasks",
+    "description": "Z.ai released GLM-5.3, a post-trained update using the same base model as GLM-5.2, with gains focused on agentic coding and cybersecurity. It is available through the GLM Coding Plan, while direct API access and open weights are planned after further safety testing.",
+    "image_url": "https://cdn.thenewstack.io/media/2026/06/3b7fe4c3-michael-l5jn-7kemls-unsplash-scaled.jpg",
+    "learn_more_url": "https://thenewstack.io/glm-5-3-post-training-coding/",
+    "date": "2026-08-17",
+    "source": "The New Stack"
+  },
+  {
+    "title": "Activists stage anti-AI protest inside OpenAI’s Bellevue office",
+    "description": "Anti-AI demonstrators reportedly entered the lobby of OpenAI’s Bellevue, Washington, office wearing pink “AI AGENT” vests and carrying balloons. The theatrical action portrayed “rogue AI agents” to highlight concerns about advanced AI; available reports indicated no property damage, arrests or public OpenAI response.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6iFRMxhUWyxFR6zpThf2Am/1f826b5095ca8854064989ecec465049/SEO_Banner_2400x1350_04.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://nypost.com/2026/08/15/tech/protesters-storm-openais-office-with-balloons-and-costumes/",
+    "date": "2026-08-17",
+    "source": "New York Post"
+  }
+]
