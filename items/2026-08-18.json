@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Dario Amodei Says AI Must Deliver Medical Breakthroughs to Earn Public Trust",
+    "description": "Anthropic CEO Dario Amodei said AI companies have overpromised and that public trust will return only through concrete results, arguing that “actually curing cancer”—not repeating promises about it—would be more persuasive.",
+    "image_url": "https://i.insider.com/6a81e5a4e3df4d0cbe6868de?width=1200&format=jpeg",
+    "learn_more_url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+    "date": "2026-08-18",
+    "source": "Business Insider"
+  },
+  {
+    "title": "Codex Configuration Enables a One-Million-Token Window for GPT-5.6 Sol",
+    "description": "OpenAI documented an optional Codex configuration that assigns GPT-5.6 Sol a one-million-token context budget and starts automatic compaction at 900,000 tokens. The model supports a 1.05-million-token window; users can apply the settings in config.toml or for one CLI session, then restart Codex and begin a new session.",
+    "image_url": "https://developers.openai.com/og/api/docs/models/gpt-5.6-sol.png",
+    "learn_more_url": "",
+    "date": "2026-08-18",
+    "source": "OpenAI Docs"
+  },
+  {
+    "title": "Alibaba Launches HappyShrimp AI Music Model in Beta",
+    "description": "Alibaba released HappyShrimp 1.0 in beta, generating full songs—including melodies, arrangements, lyrics, and vocals—from text prompts about emotions, stories, or genres. Users can also supply lyrics, request instrumentals, and specify instrumentation, vocal style, and emotional progression; Alibaba plans to collaborate with Taihe Music Group.",
+    "image_url": "https://www.happyshrimp.ai/opengraph-image?7db3e896bb8c09d5",
+    "learn_more_url": "https://finance.yahoo.com/technology/ai/articles/alibaba-launches-ai-music-generation-115551584.html",
+    "date": "2026-08-18",
+    "source": "Bloomberg"
+  },
+  {
+    "title": "Man Receives Eight Years’ Probation After ChatGPT Messages Trigger FBI Alert",
+    "description": "Former Goldman Sachs analyst Darren Zhou pleaded guilty to threatening to kill, aggravated stalking, and using a communications device to commit a felony after ChatGPT messages detailing plans against his ex-girlfriend were reported to the FBI. He received eight years’ probation, including two years’ community control with an ankle monitor.",
+    "image_url": "https://www.sun-sentinel.com/wp-content/uploads/2026/08/Screenshot-2026-08-14-131307-e1786727856393.jpg",
+    "learn_more_url": "https://www.sun-sentinel.com/2026/08/14/financial-analyst-sentenced-to-probation-after-telling-chatgpt-about-plans-to-rape-and-kill-his-ex/",
+    "date": "2026-08-18",
+    "source": "Sun Sentinel"
+  },
+  {
+    "title": "ChatGPT Maps Begins a Phased Rollout",
+    "description": "ChatGPT has begun a phased rollout of Maps, a dedicated places experience accessible from navigation or the /maps command for interactive location-based conversations. Reports first documented availability for EU users, while fresh user screenshots show the Maps label marked “New”; OpenAI has not published a detailed launch announcement.",
+    "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/08/10035420/a-combined-image-of-the-openai-logo-and-ceo-sam-altman-7-800x420.jpeg",
+    "learn_more_url": "https://cryptobriefing.com/openai-chatgpt-maps-eu-rollout/",
+    "date": "2026-08-18",
+    "source": "Crypto Briefing"
+  },
+  {
+    "title": "Claude Code Adds /design Skill for Editable UI Artboards",
+    "description": "Anthropic released /design in research preview for Claude Code’s CLI and Desktop. The skill generates editable UI artboards through Claude Design’s artifact workflow, letting developers compare options, refine one, and ask Claude to implement it. Claude’s live product page confirms /design works directly in Claude Code and /design-sync imports design systems.",
+    "image_url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a32f0ce3acdbbc3c4395c05_og-claude-design.jpg",
+    "learn_more_url": "https://claude.com/product/design",
+    "date": "2026-08-18",
+    "source": "Anthropic"
+  },
+  {
+    "title": "Cursor Launches Origin Code Hosting in Early Beta",
+    "description": "Cursor launched Origin, its code-hosting platform, in early beta for paid plans. It supports hosted repositories, code browsing, pull requests, AI agents, real-time GitHub syncing, and integrations with Vercel, Depot, and Buildkite. GitHub remains the source of truth for imported repositories, while comments and review activity sync both ways.",
+    "image_url": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/og-origin-code-hosting-08-17-26-iibBEcxTigpnjXaBULY8Du327sx4P1.png",
+    "learn_more_url": "https://cursor.com/changelog/origin-code-hosting",
+    "date": "2026-08-18",
+    "source": "Cursor"
+  },
+  {
+    "title": "macOS 26.7 Files Reveal Camera-Equipped AirPods Demo",
+    "description": "MacRumors found a demo for unreleased camera-equipped AirPods in macOS Tahoe 26.7’s release candidate. The footage shows Visual Intelligence identifying a book and saving information, while system text says Siri can answer questions about the wearer’s surroundings. References identify the device as B790; Apple has not announced it.",
+    "image_url": "https://images.macrumors.com/t/SOHgBhxUfe4Ryp5RbEH-XfLIghI=/1600x/article-new/2026/08/apple-camera-airpods.jpg",
+    "learn_more_url": "https://www.macrumors.com/2026/08/17/camera-equipped-airpods-macos-26-7/",
+    "date": "2026-08-18",
+    "source": "MacRumors"
+  }
+]
