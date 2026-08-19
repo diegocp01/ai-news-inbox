@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Researchers Test Self-Propagating “Mind Viruses” in LLM Agent Networks",
+    "description": "Researchers evolved “mind viruses”—ideas that prompt LLM agents to retransmit them—and observed spread in coding teams and reset-context chains. Harmful payloads spread less reliably, newer models were generally less susceptible, and a short system-prompt warning nearly eliminated infections. The authors call the current risk real but limited.",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "learn_more_url": "https://arxiv.org/abs/2608.10218",
+    "date": "2026-08-19",
+    "source": "arXiv"
+  },
+  {
+    "title": "Claude Cowork Expands to Mobile and Web on Paid Plans",
+    "description": "Anthropic says Claude Cowork is now available on web and mobile across all paid plans, expanding the agentic workspace beyond desktop access. Users can start or monitor delegated tasks from more devices, while the free plan remains excluded.",
+    "image_url": "https://www.google.com/s2/favicons?domain=claude.com&sz=256",
+    "learn_more_url": "",
+    "date": "2026-08-19",
+    "source": "Claude"
+  },
+  {
+    "title": "OpenAI Slows Frontier Training Over Advanced Cyber Risks",
+    "description": "OpenAI says it paused reinforcement-learning training for two weeks and is keeping its largest planned frontier run on hold while strengthening monitoring, isolation, and safeguards for models approaching critical cyber capability. Smaller experiments will continue before any larger run resumes.",
+    "image_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=256",
+    "learn_more_url": "",
+    "date": "2026-08-19",
+    "source": "OpenAI"
+  },
+  {
+    "title": "Claude Adds Gmail Sending and Google Drive File Actions",
+    "description": "Anthropic says Claude can now draft and send Gmail replies and manage files in Google Drive through connected accounts. Users control when actions require approval, and the new connector capabilities are available across all paid Claude plans.",
+    "image_url": "https://www.google.com/s2/favicons?domain=claude.com&sz=256",
+    "learn_more_url": "",
+    "date": "2026-08-19",
+    "source": "Claude"
+  },
+  {
+    "title": "Claude Demonstrates Gains in Protein Design and Chemical Analysis",
+    "description": "Anthropic reports Claude designed binders for 14 of 15 protein targets, with 22.6–35.1% hit rates versus 10–15% in typical campaigns. External labs validated the designs. Separately, Opus 5 processed NMR and LC-MS files in 23 and 19 minutes, closely matching a contract lab’s results. Advanced biological capabilities remain access-restricted.",
+    "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/e3758f1bc27af0786f4249cc1ab194fc2c6cce63-3840x2160.png",
+    "learn_more_url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+    "date": "2026-08-19",
+    "source": "Anthropic"
+  },
+  {
+    "title": "GenBio AI Previews a Unified, Stateful Model of Human Cells",
+    "description": "GenBio AI previewed AIDO Cell, a unified, stateful model intended to simulate DNA, RNA, proteins, regulatory networks, and cellular behavior while propagating interventions across levels. Its case studies reproduce established biology; the company says it is not yet a high-fidelity model of any specific cell line, so independent validation remains limited.",
+    "image_url": "https://www.statnews.com/wp-content/uploads/2026/08/AIDO-Cell-image-1-1024x576.jpg",
+    "learn_more_url": "https://www.statnews.com/2026/08/18/david-baker-genbio-ai-new-virtual-model-unveiled-aido-cell/",
+    "date": "2026-08-19",
+    "source": "STAT"
+  },
+  {
+    "title": "Terence Tao Examines Mathematics in an Age of AI-Generated Proofs",
+    "description": "In an essay based on his 2026 ICM lecture, Terence Tao argues that AI may shift mathematics from proof scarcity to proof abundance, exposing bottlenecks in verification, exposition, peer review, and canonicalization. He urges transparent tool disclosure, human responsibility, stronger attribution, and greater value for explaining and digesting results—not merely generating proofs.",
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "learn_more_url": "https://arxiv.org/abs/2608.16753",
+    "date": "2026-08-19",
+    "source": "arXiv"
+  }
+]
