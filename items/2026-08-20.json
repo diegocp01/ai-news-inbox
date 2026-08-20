@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Grok 4.6 becomes available on Amazon Bedrock",
+    "description": "Amazon Bedrock now offers Grok 4.6 through its Responses API. AWS lists a 500,000-token context window, image and text input, configurable reasoning levels, and support for long-running coding, agentic, and knowledge-work tasks.",
+    "image_url": "https://docs.aws.amazon.com/images/bedrock/latest/userguide/images/models/xai.png",
+    "learn_more_url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/",
+    "date": "2026-08-20",
+    "source": "AWS"
+  },
+  {
+    "title": "OpenAI previews private safety processing for zero-retention customers",
+    "description": "OpenAI says eligible API customers can continue using Zero Data Retention with frontier models. Its previewed Private Safety Processing analyzes patterns across related interactions while keeping content customer-controlled or encrypted with customer-held keys; OpenAI receives limited safety signals rather than prompts or responses. Early testing is underway, with rollout and a white paper planned for September.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4bH42IUP1LSYL5WNIs0ya1/ed6b0e324c8f142d964229474d7ee601/codex-seo-private-intelligence-v3-1787157696296.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "",
+    "date": "2026-08-20",
+    "source": "OpenAI"
+  },
+  {
+    "title": "Anthropic extends higher Claude Code weekly limits through August 31",
+    "description": "Anthropic is extending Claude Code’s temporary 50% increase in weekly usage limits through August 31. The company hopes to make the increase permanent but warns that strong model demand could constrain capacity over the coming weeks.",
+    "image_url": "https://cdn.sanity.io/images/4zrzovbb/claude-com/6c36adaaf60ecdde313a93ad255eef573ea4de97-1200x630.jpg?w=1200&h=630&fit=crop",
+    "learn_more_url": "",
+    "date": "2026-08-20",
+    "source": "Claude Developers"
+  },
+  {
+    "title": "Stripe agrees to acquire OpenRouter",
+    "description": "Stripe has agreed to acquire AI model marketplace and gateway OpenRouter. The transaction is subject to customary closing conditions and is expected to close within weeks. OpenRouter says its name, product, roadmap, integrations, and model-neutral routing will remain unchanged. Financial terms were not disclosed.",
+    "image_url": "https://openrouter.ai/blog/images/openrouter-stripe.png",
+    "learn_more_url": "https://www.axios.com/pro/fintech-deals/2026/08/19/stripe-openrouter-acquisition",
+    "date": "2026-08-20",
+    "source": "Axios"
+  },
+  {
+    "title": "Nvidia H200 shipments begin reaching Chinese technology companies",
+    "description": "The Financial Times reports ByteDance and Tencent each received roughly 10,000 Nvidia H200 processors in recent weeks, versus U.S. approvals for up to 100,000 apiece. Beijing reportedly requires the hardware to remain outside mainland China, including in Hong Kong, to support domestic chipmakers. Reuters could not independently verify the report; Nvidia did not comment.",
+    "image_url": "https://i.brecorder.com/large/2026/08/19080134d496ba1.webp",
+    "learn_more_url": "https://www.brecorder.com/news/40435527",
+    "date": "2026-08-20",
+    "source": "Reuters"
+  },
+  {
+    "title": "Hermes Desktop adds Bot Mode for teams of named agents",
+    "description": "Nous Research has added Bot Mode to Hermes Desktop, turning isolated Hermes profiles into named bots with their own models, memories, skills, chats, avatars, and schedules. Bots can hand off work through @mentions, message one another, and collaborate in persistent group chats. The feature now ships as a default-on desktop plugin, with no manual installation required.",
+    "image_url": "https://github.com/user-attachments/assets/63c1e177-d098-42c4-999e-64cfaa493024",
+    "learn_more_url": "https://github.com/NousResearch/Hermes-Bot-Mode",
+    "date": "2026-08-20",
+    "source": "Nous Research"
+  },
+  {
+    "title": "Google’s $10 million bid for Spirit Airlines data faces court delay",
+    "description": "Google won a $10 million bid for bankrupt Spirit Airlines’ internal business data—including employee emails, Teams messages, spreadsheets, calendars, and operations records—to develop products and train AI. A bankruptcy court delayed approval until September 9 after the flight-attendant union sought privacy safeguards. Spirit says records will be de-identified and exclude customer information.",
+    "image_url": "https://hermes.media.static.aol.com/media/2026/08/19/bbf972c0-d0d8-3076-9b00-6308a9ff9ba0/505c5f9d-5327-43d6-bd30-c46f4f65323c.jpg",
+    "learn_more_url": "https://www.aol.com/articles/us-court-delays-hearing-googles-000447000.html",
+    "date": "2026-08-20",
+    "source": "Reuters"
+  },
+  {
+    "title": "ChatGPT web can send emails from writing blocks",
+    "description": "ChatGPT’s web writing blocks can send generated emails directly after users connect an email account, eliminating copy-paste into a separate client. The inline editor supports revisions and one-click tone or clarity suggestions before sending. An OpenAI product lead is asking users for feedback; availability may depend on account plan and workspace settings.",
+    "image_url": "https://techmymoney.com/wp-content/uploads/2026/06/chatgpt_email_writing_block.jpg",
+    "learn_more_url": "https://techmymoney.com/2026/06/07/chatgpt-web-interface-direct-email-sending-news/",
+    "date": "2026-08-20",
+    "source": "Tech My Money"
+  },
+  {
+    "title": "Generalist AI Introduces GEN-1.5 for One-Shot Robot Learning",
+    "description": "Generalist AI says GEN-1.5 can learn unseen robot manipulation tasks from 3–12 seconds of demonstration data placed in its context window, achieving a reported 59% average success rate without additional training and adapting its behavior when tools change.",
+    "image_url": "https://www.assemblymag.com/ext/resources/2026/08/19/generalist-ai.jpg?height=635&t=1787173539&width=1200",
+    "learn_more_url": "https://www.assemblymag.com/articles/100321-physical-ai-model-learns-new-robot-tasks-from-seconds-of-demonstration",
+    "date": "2026-08-20",
+    "source": "Assembly Magazine"
+  },
+  {
+    "title": "Asana Uses Codex to Complete a Testing-System Migration in Two Weeks",
+    "description": "Asana says up to four Codex agents helped remove its outdated Enzyme testing system in 1.5 weeks across two calendar weeks, with engineers checking progress twice daily and reviewing every change. The company reports about $12,000 in model and infrastructure costs versus a previous five-year, roughly $6 million staffing estimate.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/QuPTOlw5BZCStCK9oVFW2/d80ca15c2876853ba7789109f075e8f5/oai_asana_SEO.real.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "",
+    "date": "2026-08-20",
+    "source": "OpenAI"
+  }
+]
