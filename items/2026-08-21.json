@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Personalized mRNA Melanoma Therapy Reports First Positive Phase 3 Result",
+    "description": "Moderna and Merck report that personalized mRNA therapy intismeran plus Keytruda significantly improved recurrence-free and distant-metastasis-free survival in a 1,137-patient Phase 3 melanoma trial. Its algorithmic workflow selects up to 34 tumor mutations for each patient. Full efficacy data, overall-survival results and regulatory review are still pending.",
+    "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2020/12/GettyImages-1290558683.jpg",
+    "learn_more_url": "https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/",
+    "date": "2026-08-21",
+    "source": "Ars Technica"
+  },
+  {
+    "title": "Claude Code Adds a Built-In Concise Output Style",
+    "description": "Claude Code 2.1.237 adds a built-in Concise output style that leads with results and skips preambles and narration while keeping the work equally thorough. Users can enable it under Output style in /config.",
+    "image_url": "https://opengraph.githubassets.com/d7abb0fb7eb2c14a5033de61693ace8071b1d5d5048443fd9a8cff19c7dbce1a/anthropics/claude-code/releases/tag/v2.1.237",
+    "learn_more_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
+    "date": "2026-08-21",
+    "source": "GitHub"
+  },
+  {
+    "title": "ChatGPT Desktop Adds Read-Only Sharing for Local Codex Threads",
+    "description": "OpenAI has added read-only snapshots for local Codex threads on all plans through ChatGPT’s macOS desktop app. Snapshots remain static; personal links can be opened by anyone, while workspace links stay within the originating workspace. Codex redacts known secret patterns, but users should review sensitive content and can revoke links in Data Controls.",
+    "image_url": "https://learn.chatgpt.com/og/docs/changelog.png",
+    "learn_more_url": "",
+    "date": "2026-08-21",
+    "source": "OpenAI"
+  },
+  {
+    "title": "ChatGPT Desktop Adds an Apple Messages Plugin",
+    "description": "OpenAI’s Apple Messages plugin can search, read and send iMessage, SMS and RCS chats through the macOS Messages app from ChatGPT Work and Codex. It is available on all plans, currently only in the Apple Silicon desktop build; sending requires approval by default, and it does not work in regular ChatGPT chats, CLI, IDE, web or mobile.",
+    "image_url": "https://learn.chatgpt.com/og/docs/plugins.png",
+    "learn_more_url": "",
+    "date": "2026-08-21",
+    "source": "OpenAI"
+  },
+  {
+    "title": "ChatGPT Sites Adds Workspace Co-Editing",
+    "description": "Where available, ChatGPT Sites now lets owners invite active members of the same workspace as editors. Collaborators can modify a Site, save versions and publish updates after the owner’s first publish. Owners retain control of audience, settings, analytics, access, restoration and ownership; editors can also read the Site’s live database data.",
+    "image_url": "https://learn.chatgpt.com/og/docs/sites.png",
+    "learn_more_url": "",
+    "date": "2026-08-21",
+    "source": "OpenAI"
+  }
+]
