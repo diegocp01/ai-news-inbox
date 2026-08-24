@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Codex reaches 20 million active users",
+    "description": "OpenAI says Codex reached 20 million active users and will give every Codex and ChatGPT Work user a banked usage reset. The company is also investigating reports of limits draining faster, although it says it has not detected abnormal behavior.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/2Z64goaCYuEmGe825kLJFB/ccd8ea0a41e98a3a273357ae621dfe72/codex-og-image.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "",
+    "date": "2026-08-24",
+    "source": "OpenAI"
+  },
+  {
+    "title": "Grok Bot expands access across SuperGrok and Cursor plans",
+    "description": "SpaceXAI has expanded Grok Bot access to SuperGrok Plus, Cursor Pro+, and all Cursor Teams subscribers. The company also says other users can try the AI agent through a limited-usage free trial.",
+    "image_url": "https://x.ai/images/news/grok-bot-more-plans-og.webp",
+    "learn_more_url": "",
+    "date": "2026-08-24",
+    "source": "SpaceXAI"
+  },
+  {
+    "title": "OpenAI cuts GPT-5.6 Sol API and credit pricing for three months",
+    "description": "OpenAI is reducing GPT-5.6 Sol API and credit prices by more than 20% for three months. Lower pricing is available via API and rolling out to eligible ChatGPT Work and Codex credit plans; Pro, Plus, and Business subscription usage is unchanged.",
+    "image_url": "https://cdn.ttweb.net/News/images/401728.jpg?preset=w800_q70",
+    "learn_more_url": "https://breakingthenews.net/Article/OpenAI-cuts-GPT-5.6-Sol-API-price-by-20/66966858",
+    "date": "2026-08-24",
+    "source": "Breaking the News"
+  },
+  {
+    "title": "NVIDIA’s AVO agent scores 100 on the ARC-AGI-3 public set",
+    "description": "NVIDIA says its general-purpose AVO agent, powered by Claude Opus 5, earned a 100.00 RHAE score and completed all 183 levels across ARC-AGI-3’s 25 public environments without task instructions. The result covers only the public set—not the semi-private or private competition sets—and evaluates the complete agent system, not the model alone.",
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/ARC-AGI-3-benchmark-nvidia-avo-public-set-games.gif",
+    "learn_more_url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/",
+    "date": "2026-08-24",
+    "source": "NVIDIA Technical Blog"
+  },
+  {
+    "title": "Harvey unveils Tenet, a legal AI model post-trained from Kimi K3",
+    "description": "Harvey introduced Tenet, its first post-trained open-weight model, built with Fireworks Research on Kimi K3 for long-horizon legal tasks. The company reports improved legal benchmark performance and cost efficiency, while describing the system as a research preview.",
+    "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/08/21/812b600a-89f6-4831-92d0-72687e3074d3_002d5221.jpg?itok=7RUzJjga&v=1787304053",
+    "learn_more_url": "https://www.scmp.com/tech/tech-trends/article/3364827/openai-backed-legal-tech-firm-pivots-chinese-kimi-k3-open-weight-model",
+    "date": "2026-08-24",
+    "source": "South China Morning Post"
+  },
+  {
+    "title": "X-Humanoid robot posts 9.39-second 100-meter time at Beijing games",
+    "description": "Organizers said an X-Humanoid robot completed 100 meters in 9.39 seconds at the World Humanoid Robot Games, quicker than Usain Bolt’s 9.58-second human record. The result belongs to a robot competition and does not replace the ratified human athletics record.",
+    "image_url": "https://dims.apnews.com/dims4/default/a59ba71/2147483647/strip/true/crop/5404x3601+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F29%2Fe1%2F154fcfc6dad2a6a88bf3d33859ba%2F08c5e467f79f4f4682b04c2164c20ada",
+    "learn_more_url": "https://apnews.com/article/china-humanoid-robot-games-us-86cb8e310843151a77057e4cb764b4e2",
+    "date": "2026-08-24",
+    "source": "Associated Press"
+  },
+  {
+    "title": "Liquid Death and Garage Beer satirize AI data center water use",
+    "description": "Liquid Death and Garage Beer teamed with Jason Kelce on a satirical music video asking consumers to send urine to AI data centers as coolant, using the stunt to highlight the facilities’ substantial water consumption.",
+    "image_url": "https://imgproxy.divecdn.com/4TTVsbikh50z2WkRVXY-iahhJ-ymBLHGKyQ0LAQ-l74/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HQi1QUi0xNi05LmpwZw==.webp",
+    "learn_more_url": "https://www.marketingdive.com/news/liquid-death-and-garage-beer-take-on-ai-data-centers-with-pee/827879/",
+    "date": "2026-08-24",
+    "source": "Marketing Dive"
+  }
+]
