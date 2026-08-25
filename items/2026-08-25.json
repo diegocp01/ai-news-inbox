@@ -1,0 +1,18 @@
+[
+  {
+    "title": "SpaceXAI to Deploy NVIDIA Vera CPUs for Agentic AI",
+    "description": "SpaceXAI will deploy NVIDIA Vera CPUs to accelerate agent orchestration, code execution and data processing while keeping GPUs utilized. It also plans to base its first-generation Starmind orbital AI satellite on an optimized Vera Rubin NVL72 system.",
+    "image_url": "https://iprsoftwaremedia.com/219/files/202608/65b0fd8afd27d9721e6235c3cd203198/6a8bbea73d63320f3189b09c_nvidia-vera-cpu/nvidia-vera-cpu_263e9dd8-503b-4fbb-a459-8a61473aa44a-prv.jpg?v=263e9dd8-503b-4fbb-a459-8a61473aa44a",
+    "learn_more_url": "https://nvidianews.nvidia.com/news/spacexai-adopts-nvidia-vera-cpu-to-accelerate-agentic-ai-at-massive-scale",
+    "date": "2026-08-25",
+    "source": "NVIDIA Newsroom"
+  },
+  {
+    "title": "OpenAI Restores Five-Hour Usage Windows for ChatGPT Plus",
+    "description": "OpenAI says Plus accounts will again face a five-hour usage window across ChatGPT Work and Codex from August 25, helping balance compute demand and prevent accidental exhaustion of weekly allowances. The restriction will remain disabled for the $100 and $200 Pro tiers for the coming months.",
+    "image_url": "https://learn.chatgpt.com/og/docs/pricing.png",
+    "learn_more_url": "",
+    "date": "2026-08-25",
+    "source": "OpenAI announcement"
+  }
+]
