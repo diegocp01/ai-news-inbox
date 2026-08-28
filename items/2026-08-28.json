@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Hugging Face unveils $399 open-source Microduck robot",
+    "description": "Hugging Face unveiled Microduck, a $399, 25-centimeter open-source biped with 15 actuators and onboard sensors. Aimed at reinforcement-learning developers, it was demonstrated walking, gripping objects with its beak, recovering from falls, and roller-skating.",
+    "image_url": "https://images.axios.com/_KmRotHWb39moadsq5KJHPF2ApM=/0x0:4240x2385/1366x768/2026/08/26/1787778211497.jpeg",
+    "learn_more_url": "https://www.axios.com/2026/08/27/hugging-face-debuts-microduck-a-399-robot",
+    "date": "2026-08-28",
+    "source": "Axios"
+  },
+  {
+    "title": "Nvidia reportedly agrees to acquire Hugging Face for $12.9 billion",
+    "description": "The Information reports Nvidia agreed to acquire Hugging Face for $12.9 billion, though neither company has confirmed the deal. The acquisition would bring a major open-source AI model and developer platform under the leading AI chipmaker, expanding Nvidia further into software and model distribution.",
+    "image_url": "https://image.cnbcfm.com/api/v1/image/107291118-1692832899082-gettyimages-1608151041-HUGGING_FACE_AI.jpeg?v=1701200698&w=1920&h=1080",
+    "learn_more_url": "https://www.cnbc.com/2026/08/27/nvidia-hugging-face-acquisition.html",
+    "date": "2026-08-28",
+    "source": "CNBC"
+  },
+  {
+    "title": "Google launches Gemini Omni 1.1 Flash video model",
+    "description": "Google launched Gemini Omni 1.1 Flash with scene extension, first-and-last-frame interpolation, 360p drafts and 4K upscaling. The model is available through Google AI Studio, enterprise APIs and Flow; scene extension is also in the Gemini app. It currently tops Arena’s text-to-video leaderboard with a 1515 ±16 score.",
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Omni_1-1_Flash_hero.width-1300.png",
+    "learn_more_url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+    "date": "2026-08-28",
+    "source": "Google DeepMind"
+  },
+  {
+    "title": "Anthropic previews Model Hardware Standard for AI-controlled devices",
+    "description": "Anthropic opened an early research preview of the Model Hardware Standard, a model-agnostic specification for agents to discover and safely operate programmable lab and manufacturing equipment through MCP, command-line tools or APIs. Initial partners are testing it with microscopes, liquid handlers, robotic arms and quantum-computing hardware ahead of a planned open-source release.",
+    "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/ebfc315e9854ada0b6bae009ffd9c63c41f9a5ab-1280x720.png",
+    "learn_more_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+    "date": "2026-08-28",
+    "source": "Anthropic"
+  }
+]
