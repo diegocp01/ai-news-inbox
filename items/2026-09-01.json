@@ -1,0 +1,42 @@
+[
+  {
+    "title": "ChatGPT Ads reaches $1 billion annualized revenue run rate",
+    "description": "OpenAI says ChatGPT Ads reached a $1 billion annualized revenue run rate in under 200 days. The platform now spans more than 40 countries, with self-service buying expanding across India, Europe, the Middle East and North Africa; ads remain limited to Free and Go users.",
+    "image_url": "https://www.reuters.com/resizer/v2/SLXDLB4RPNKUTFO7QON5KD6ODA.jpg?auth=17d582ef5e30ec293e9c32ba55199e9ee829c8ef183d5ffa45188b0c2442a823&width=1920&quality=80",
+    "learn_more_url": "https://www.reuters.com/business/media-telecom/openais-ad-business-hits-1-billion-annualized-revenue-run-rate-2026-08-31/",
+    "date": "2026-09-01",
+    "source": "Reuters"
+  },
+  {
+    "title": "ChatGPT mobile surfaces reusable reference photos for image creation",
+    "description": "A screenshot appears to show a new Reference photos option in ChatGPT mobile’s Personalization settings, allowing a saved likeness to guide future image creation. OpenAI previously described a one-time likeness upload, but broad availability, supported plans and platforms, and detailed photo-retention controls remain unclear.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/02/chatgpt-caricature-trend-how-to-hero-3-scaled.jpg",
+    "learn_more_url": "",
+    "date": "2026-09-01",
+    "source": "OpenAI"
+  },
+  {
+    "title": "Grok Bot adds Outlook, Calendar and OneDrive plugins",
+    "description": "Grok Bot’s Cursor-backed plugin marketplace now includes Outlook, Outlook Calendar, and OneDrive. Outlook can search, read, and send email; Calendar can create, update, and cancel events; OneDrive supports browsing, searching, and reading files. The broad “write across Microsoft accounts” claim therefore does not apply to OneDrive.",
+    "image_url": "https://camo.githubusercontent.com/739b85d1945f8dab503a5fa195b3c5c64294d7cb2be8de316904c951a96ad90b/68747470733a2f2f637572736f722e636f6d2f6172746966616374732f632f6172742d32636238623366612d386663362d343561332d613163302d343961663632636139393037",
+    "learn_more_url": "https://github.com/cursor/plugins/pull/276",
+    "date": "2026-09-01",
+    "source": "Cursor"
+  },
+  {
+    "title": "Pentagon launches Grok for Government on GenAI.mil",
+    "description": "The Pentagon launched Starshield AI’s Grok for Government on GenAI.mil for controlled unclassified information at Impact Level 5. It offers multiple reasoning modes, persistent projects, customizable workspaces and reusable playbooks, joining Gemini and ChatGPT Mil on a platform that the department says has onboarded 1.7 million users.",
+    "image_url": "https://defensescoop.com/wp-content/uploads/sites/8/2026/08/GettyImages-2284791228-e1788207084579.jpg",
+    "learn_more_url": "https://www.war.gov/News/Releases/Release/Article/4586482/department-of-war-launches-starshield-ais-grok-for-government-on-genaimil/",
+    "date": "2026-09-01",
+    "source": "U.S. Department of War"
+  },
+  {
+    "title": "OpenClaw 2.0 ships its largest update yet",
+    "description": "OpenClaw 2.0 is the open-source agent platform’s biggest release, built from more than 16,000 pull requests by 933 contributors. It simplifies onboarding, rebuilds the browser interface and adds shared cloud sessions for collaborative work with context intact, while critics caution that some protections—including code sandboxing—remain user-configured rather than default.",
+    "image_url": "https://image.theregister.com/4094099.jpg?imageId=4094099&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "learn_more_url": "https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492",
+    "date": "2026-09-01",
+    "source": "OpenClaw / The Register"
+  }
+]
