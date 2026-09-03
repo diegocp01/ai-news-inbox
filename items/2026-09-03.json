@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Alibaba releases Qwen3.8-Max-0902 with coding and agent upgrades",
+    "description": "Alibaba’s upgraded Qwen3.8-Max snapshot adds further post-training for coding, multi-tool agents and long-horizon work while retaining a 1-million-token context window. QwenCloud lists API pricing at $2 per million input tokens, $6 per million output tokens, and $0.17–$0.25 for cache reads.",
+    "image_url": "https://i0.wp.com/technode.com/wp-content/uploads/2025/10/qwen.png?fit=1920%2C1080&ssl=1",
+    "learn_more_url": "https://www.qwencloud.com/models/qwen3.8-max-0902",
+    "date": "2026-09-03",
+    "source": "QwenCloud"
+  },
+  {
+    "title": "GitSpawn flaws let malicious repositories execute code through AI coding agents",
+    "description": "Manifold Security found eight GitSpawn vulnerabilities across seven coding agents, where malicious repository configuration delivered via ZIP or shared folders could trigger host-level code execution during automatic Git context gathering. Claude Code’s fsmonitor issue, Codex and Cursor were patched, but four findings remained unpatched at publication.",
+    "image_url": "https://framerusercontent.com/images/q63TNYz950InDFceigV1qr9PsI.png?width=2528&height=1696",
+    "learn_more_url": "https://www.manifold.security/blog/ai-coding-agents-git-hijack",
+    "date": "2026-09-03",
+    "source": "Manifold Security"
+  },
+  {
+    "title": "Google launches Gemini 3.8 Flash for coding and agent workflows",
+    "description": "Google is rolling out Gemini 3.8 Flash for long-horizon software engineering, autonomous agents and complex enterprise workflows. It is available to Google AI subscribers in the Gemini app and through Antigravity and AI Studio, with introductory API pricing of $0.75 per million input tokens and $3.75 per million output tokens through December 31.",
+    "image_url": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/09/Gemini-3.8-Flash-benchmarks.jpg?ssl=1",
+    "learn_more_url": "https://9to5google.com/2026/09/02/gemini-3-8-flash-launch/",
+    "date": "2026-09-03",
+    "source": "9to5Google"
+  },
+  {
+    "title": "US government backs OpenAI’s fair-use position in New York Times copyright case",
+    "description": "In an advisory brief, the Trump administration urged a federal court to reject broad claims that LLM training on copyrighted text requires licensing, arguing training is generally transformative fair use. The government said a contrary rule could impede scientific progress, prosperity and national security; the court will decide the case.",
+    "image_url": "https://www.reuters.com/resizer/v2/NC6QO2KCIVKX3P74THGM2D7VIU.jpg?auth=9bb716b22c89d5f969825963912d98184ea683e97cae18bb6cc40833b6b641e5&width=1080&quality=80",
+    "learn_more_url": "https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/",
+    "date": "2026-09-03",
+    "source": "Reuters"
+  },
+  {
+    "title": "Sam Altman compares one almond’s water use with thousands of ChatGPT queries",
+    "description": "Sam Altman called AI water-use concerns overblown and said growing one California almond uses more water than thousands of ChatGPT queries. The comparison was not independently verified; his published 0.32-milliliter per-query estimate and a 2019 study’s 3.56-liter almond estimate imply roughly 11,000 queries, while total data-center water demand remains location-dependent.",
+    "image_url": "https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/8c1c7f1e-f93b-4312-acd3-9a2150afaf1e/main/1280x720/15m34s557ms/match/image.jpg",
+    "learn_more_url": "https://tech.yahoo.com/ai/articles/sam-altman-says-fears-ai-002017032.html",
+    "date": "2026-09-03",
+    "source": "Business Insider via Yahoo Tech"
+  },
+  {
+    "title": "Claude adds desktop computer control to Cowork and Claude Code",
+    "description": "Anthropic has added computer control to Claude Cowork and Claude Code in research preview for Pro and Max users on macOS and Windows. Claude can click, type and open approved apps; background-window operation is the default on macOS 15+, while the desktop must remain awake and running. No sandbox separates Claude from approved apps.",
+    "image_url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69c0acb66ca028e43998d824_Cowork-Dispatch-Blog-Permissions.png",
+    "learn_more_url": "https://claude.com/blog/dispatch-and-computer-use",
+    "date": "2026-09-03",
+    "source": "Claude by Anthropic"
+  },
+  {
+    "title": "Google launches Pics for collaborative AI image creation and editing",
+    "description": "Google Pics, an AI image-generation and object-based editing app built into Workspace, is rolling out to Google AI Pro and Ultra subscribers and eligible Business, Enterprise and Education plans. Users can edit individual objects and in-image text, translate text, upscale to 4K and collaborate; Docs and Slides integration is live, with broader Drive editing coming soon.",
+    "image_url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Hero_Thumbnail.max-1300x1300.jpg",
+    "learn_more_url": "https://workspace.google.com/blog/product-announcements/google-pics-brings-pro-level-ai-image-creation-and-editing-to-google-workspace",
+    "date": "2026-09-03",
+    "source": "Google Workspace Blog"
+  },
+  {
+    "title": "Ato unveils a voice-first AI companion designed for older adults",
+    "description": "Ato unveiled a new screen-free, voice-first AI companion for older adults after a beta involving more than 2,500 families. It offers conversations, reminders, calls, messages, games and family activity reports without cameras; audio recordings are not stored, although encrypted personal insights may be retained. Preorders are open, with shipping planned for December 2026.",
+    "image_url": "https://heyato.ai/launch/libby-smiling.webp",
+    "learn_more_url": "",
+    "date": "2026-09-03",
+    "source": "Ato"
+  },
+  {
+    "title": "Meta releases Muse Spark 1.3 for coding and agentic workflows",
+    "description": "Meta released Muse Spark 1.3 through Muse Code and its Model API, calling it the family’s largest improvement yet for coding and agentic workloads. The company says it delivers frontier-level performance at low cost and plans to release open-weight Muse Spark models soon, though no timetable was provided.",
+    "image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.2365-6/741888780_1335161144859187_4416712401061192452_n.png?_nc_cat=108&ccb=1-7&_nc_sid=aa6a2f&_nc_ohc=035RilvDqSsQ7kNvwFjHibO&_nc_oc=AdqlKm-UQjoqE8icI-PbAA8glB8A0JjDkMkUaziR-0zMzv4eCWv-eCn_si_ysFG9Keg&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=_sdPmm8dtSeDqyZwzqqzhg&_nc_ss=7920f&oh=00_AQKXz0oP_VJIVjdBQmNAYJW5qi-NM1XsQ9aptF9AUGnWmQ&oe=6A9E5E91",
+    "learn_more_url": "https://developer.meta.com/ai/models/muse-spark/",
+    "date": "2026-09-03",
+    "source": "Meta"
+  },
+  {
+    "title": "New York City pauses classroom AI for students through eighth grade",
+    "description": "New York City imposed a one-year moratorium on student-facing generative AI for nearly 600,000 public-school students in 2-K through eighth grade. Companion chatbots are barred across all grades, while high schools will offer AI-literacy modules and limited supervised pilots. Teachers may still use approved AI for planning, but not grading.",
+    "image_url": "https://www.nyc.gov/content/dam/nycgov/mayors-office/images/press-releases/2026/09/ai-moratorium-in-school--1.jpg",
+    "learn_more_url": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+    "date": "2026-09-03",
+    "source": "NYC Mayor's Office"
+  }
+]
