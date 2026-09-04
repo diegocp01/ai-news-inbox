@@ -1,0 +1,74 @@
+[
+  {
+    "title": "OpenAI launches GPT-6 Astra with limited initial access",
+    "description": "OpenAI launched GPT-6 Astra through limited Daybreak Access, with broader ChatGPT and API availability promised in coming days. The company says its agentic model can perform complex professional tasks and has reached a “critical” cybersecurity-capability threshold; President Greg Brockman said he believes it may qualify as AGI.",
+    "image_url": "https://images.axios.com/1WBM3-KVcVPMQvbRndQWELRQJXs=/0x0:1280x720/1366x768/2026/09/03/1788450549349.jpg",
+    "learn_more_url": "https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman",
+    "date": "2026-09-04",
+    "source": "Axios"
+  },
+  {
+    "title": "ChatGPT, Claude and Grok experience overlapping outages",
+    "description": "ChatGPT, Claude and Grok experienced overlapping outages Thursday, disrupting chatbots, coding tools and APIs for many users. The services have since recovered. OpenAI blamed a routing error and Anthropic an infrastructure issue, while xAI gave no cause; there is no confirmed evidence the incidents were connected.",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&strip=all&crop=0%2C0.011761938367442%2C100%2C99.976476123265&w=2400",
+    "learn_more_url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+    "date": "2026-09-04",
+    "source": "The Verge"
+  },
+  {
+    "title": "OpenAI introduces GPT-6 Astra for agentic professional work",
+    "description": "OpenAI introduced GPT-6 Astra, an agentic model for computer use, software engineering, cybersecurity, science and professional workflows. Limited Daybreak access starts immediately, with ChatGPT Plus, Pro, Business and Enterprise, API and AWS availability planned over coming days. OpenAI’s benchmark and alignment claims remain company-reported, including its first “critical” cybersecurity designation.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6ibCaqsoO7F6XCNCIO8zaZ/9475cdebc1f0af100414f1c85860fc4c/Hero_16x9.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+    "date": "2026-09-04",
+    "source": "The Verge"
+  },
+  {
+    "title": "Tesla prepares Austin debut for its Cybercab robotaxi",
+    "description": "Tesla is holding an invitation-only Cybercab event in Austin on Thursday for its two-seat autonomous taxi, designed without a steering wheel or pedals. Texas records list 45 Cybercabs authorized for driverless operations, but registration does not prove they are carrying paying passengers; launch scope, safety performance and wider availability remain unclear.",
+    "image_url": "https://www.reuters.com/resizer/v2/4EQMCDXYHZMHLHZCS6GKVJICU4.jpg?auth=73ed232d7da15058470b6605b15a8855f36ffb7b4b1b91f6f064a2c928021521&height=1005&width=1920&quality=80&smart=true",
+    "learn_more_url": "https://www.reuters.com/business/autos-transportation/tesla-set-hold-cybercab-event-austin-texas-2026-09-02/",
+    "date": "2026-09-04",
+    "source": "Reuters"
+  },
+  {
+    "title": "Dyson launches $499 AI-powered CameraJet toothbrush",
+    "description": "Dyson’s $499 CameraJet combines an electric toothbrush, liquid flosser and 100,000-pixel camera. On-device machine learning analyzes 28 images per second to detect gaps and trigger mouth-rinse jets within 100 milliseconds. It is available for preorder in the US and ships September 8; Dyson says camera images are neither stored nor uploaded.",
+    "image_url": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/oral-care/electric-toothbrush/camerajet/rcc/WEB-682-OC-CATEGORY-PAGE-MODULE_1.jpg?$responsive$",
+    "learn_more_url": "https://www.dyson.com/oral-care",
+    "date": "2026-09-04",
+    "source": "Dyson"
+  },
+  {
+    "title": "OpenAI offers daily banked resets during Astra rollout",
+    "description": "OpenAI’s Thibault “Tibo” Sottiaux says paid ChatGPT subscribers will receive one banked usage reset for each day their account lacks GPT-6 Astra access, beginning September 3. The first was expected within about three hours. Banked resets are saved for later redemption rather than automatically refreshing usage; Astra’s rollout may take several days.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6ibCaqsoO7F6XCNCIO8zaZ/9475cdebc1f0af100414f1c85860fc4c/Hero_16x9.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "",
+    "date": "2026-09-04",
+    "source": "Tibo Sottiaux (OpenAI)"
+  },
+  {
+    "title": "AREX-Skill Expands Automated ML Research Library to 5,000 Skills",
+    "description": "VectorSpaceLab’s open-source AREX-Skill library offers more than 5,000 executable skills distilled from 1,000 machine-learning repositories, with a router that supplies coding agents such as Codex and Claude Code with task-relevant workflows, validation steps, and recovery guidance.",
+    "image_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/main/assets/hero.png",
+    "learn_more_url": "https://github.com/VectorSpaceLab/AREX-Skill",
+    "date": "2026-09-04",
+    "source": "github.com"
+  },
+  {
+    "title": "Anker Introduces MindBase AI Smart Home Hub and NAS",
+    "description": "Anker’s MindBase combines a Matter-compatible smart home hub, expandable NAS storage and on-device AI that analyzes connected security-camera footage, assesses potential risks and can trigger responses without sending personal data to the cloud.",
+    "image_url": "https://www.engadget.com/img/gallery/ankers-mindbase-is-a-smart-home-hub-nas-and-security-guard/l-intro-1788361945.jpg",
+    "learn_more_url": "https://www.engadget.com/2249482/anker-mindbase-is-a-smart-home-hub-nas-and-security-guard/",
+    "date": "2026-09-04",
+    "source": "engadget.com"
+  },
+  {
+    "title": "EarlyEval Predicts Agent Outcomes to Reduce Evaluation Costs",
+    "description": "EarlyEval uses lightweight classifiers to predict success or failure before an AI agent finishes a benchmark task. Across SWE-bench Verified, TerminalBench, and Toolathlon, the authors report cutting 13%–26% of execution steps and up to 44.1% of input tokens, with average resolve-rate changes limited to roughly one or two percentage points.",
+    "image_url": "https://arxiv.org/html/2609.02783v1/overview.png",
+    "learn_more_url": "https://arxiv.org/abs/2609.02783",
+    "date": "2026-09-04",
+    "source": "arxiv.org"
+  }
+]
