@@ -1,0 +1,74 @@
+[
+  {
+    "title": "OpenAI Reports Coding Agents Log 3.1 Workdays per Human Workday",
+    "description": "OpenAI says coding agents now log 3.1 agent-workdays per human workday across its research organization, while the median researcher uses over $600 in daily inference. The figures measure runtime rather than research output, and people still set priorities, assess results, and frequently intervene in longer tasks.",
+    "image_url": "https://the-decoder.com/wp-content/uploads/2026/09/openai_gpt_6_stars_astra.png",
+    "learn_more_url": "https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time/",
+    "date": "2026-09-09",
+    "source": "the-decoder.com"
+  },
+  {
+    "title": "Rentosertib Study Finds Lower Proteomic Age Estimates",
+    "description": "Six proteomic aging models estimated lower biological ages among 42 lung-disease patients treated with AI-designed rentosertib in a 12-week Phase 2a trial, but researchers caution that the analysis cannot distinguish slowed aging from disease-specific treatment effects.",
+    "image_url": "https://insilico.com/images/news/rentosertib-proteomic-aging-clocks-20260907.png",
+    "learn_more_url": "https://www.nature.com/articles/s41587-026-03286-y",
+    "date": "2026-09-09",
+    "source": "nature.com"
+  },
+  {
+    "title": "NBC News Poll Finds Broad U.S. Concern About AI",
+    "description": "An NBC News Decision Desk poll found 70% of U.S. adults more worried than excited about AI, 69% opposed local AI data centers and 81% believed government regulation was insufficient, with concerns crossing party lines.",
+    "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2026-09/260904-nbc-news-ai-poll-3x2-jg-608522.jpg",
+    "learn_more_url": "https://www.nbcnews.com/politics/politics-news/poll-polarized-america-unites-deep-concerns-ai-rcna595525",
+    "date": "2026-09-09",
+    "source": "nbcnews.com"
+  },
+  {
+    "title": "OpenAI launches ChatGPT Images 2.5 with faster, more precise editing",
+    "description": "OpenAI says Images 2.5 cuts generation latency by up to 50%, improves reference-image fidelity and consistency across edits, and adds image comments, Sketch, templates, and prompt sharing. It is available across all ChatGPT tiers, ChatGPT Work, and Codex on desktop, mobile, and web.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6J668sj93QnQ8PWP7epUDv/3dbd2d2350053d96b03477d0fdb2e2c6/images2point5_16-9c.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://9to5mac.com/2026/09/08/openai-releases-chatgpt-images-2-5-with-sharper-details-and-more-precise-editing/",
+    "date": "2026-09-09",
+    "source": "9to5Mac"
+  },
+  {
+    "title": "OpenAI claims AI-generated proof resolves the Navier–Stokes Millennium problem",
+    "description": "OpenAI released an analytical proof and Lean formalization claiming that smooth, forced three-dimensional Navier–Stokes flow can develop a finite-time singularity, resolving specified variants of the Millennium Prize problem. The company says an internal AI system produced the proof; independent mathematical scrutiny is still beginning.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/75EbpsuBOy5LbUgCppWXD1/88da8c19dcf76d6f4f8fd7485dcb6346/navier-stokes-light-master.png?w=3840&q=90&fm=webp",
+    "learn_more_url": "https://www.scientificamerican.com/article/openai-claims-blockbuster-math-breakthrough-amid-swirl-of-controversy/",
+    "date": "2026-09-09",
+    "source": "Scientific American"
+  },
+  {
+    "title": "Meta launches Muse personal AI agent in the U.S.",
+    "description": "Muse can pursue longer-term goals and act across connected services, including sending emails, booking travel, filling forms, and making purchases while continuing after the app closes. Meta says sensitive actions require approval and run inside a dedicated cloud VM. Muse is rolling out on iOS, Android, the web, and WhatsApp in the U.S.",
+    "image_url": "https://about.fb.com/wp-content/uploads/2026/09/Introducing-Muse_-Personal-AI-Agent_SocialShare.jpg?w=1200",
+    "learn_more_url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+    "date": "2026-09-09",
+    "source": "Meta Newsroom"
+  },
+  {
+    "title": "Meta Launches Muse Personal AI Agent for Everyday Tasks",
+    "description": "Meta’s Muse can send emails, make bookings, shop, and complete web tasks through its own cloud computer, requesting approval for sensitive actions. It is rolling out in the United States through dedicated apps and WhatsApp, with free usage and paid subscriptions.",
+    "image_url": "https://about.fb.com/wp-content/uploads/2026/09/Introducing-Muse_-Personal-AI-Agent_SocialShare.jpg?w=1200",
+    "learn_more_url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+    "date": "2026-09-09",
+    "source": "about.fb.com"
+  },
+  {
+    "title": "OpenAI Launches ChatGPT Images 2.5",
+    "description": "ChatGPT Images 2.5 adds faster generation, sharper output, more precise editing, sketch-based creation, templates, and prompt sharing. OpenAI also released two API models: Flare for faster general-purpose generation and Sunburst for detailed editing workflows.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6J668sj93QnQ8PWP7epUDv/3dbd2d2350053d96b03477d0fdb2e2c6/images2point5_16-9c.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
+    "date": "2026-09-09",
+    "source": "theverge.com"
+  },
+  {
+    "title": "OpenAI Claims AI System Solved Navier–Stokes Millennium Problem",
+    "description": "OpenAI says an unreleased model coordinated roughly 10,000 agents to produce a proof in 88 hours. The result awaits independent scrutiny, while NYU mathematician Tristan Buckmaster questioned whether private Codex work influenced it; OpenAI denied accessing specific user data but could not rule out broader de-identified training effects.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7hiHADoMhgN0iDcje9Xdei/2dae059c10a0dfa3e2814ebb522e9df2/navier-stokes-og.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://www.nature.com/articles/d41586-026-02842-5",
+    "date": "2026-09-09",
+    "source": "nature.com"
+  }
+]
