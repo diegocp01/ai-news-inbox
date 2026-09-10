@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Grok Bot adds in-chat forms and login handoffs",
+    "description": "SpaceXAI says users can now complete forms and login requests for Grok Bot inside the chat, with support for any password manager, reducing the need to switch into the Bot’s remote computer for credential entry.",
+    "image_url": "https://play-lh.googleusercontent.com/lE3aEeo33qbau7pGsFQNSDyCBZK_Aokrqf5frcWMPFtsoW5xpciXzaI5m4LyshEoKzRSldwqFTRB39vbGLOx-7M=w526-h296-rw",
+    "learn_more_url": "https://www.linkedin.com/company/spacexai",
+    "date": "2026-09-10",
+    "source": "SpaceXAI LinkedIn"
+  },
+  {
+    "title": "Jensen Huang says “AGI has arrived” with GPT-6 Astra",
+    "description": "Nvidia CEO Jensen Huang said “AGI has arrived,” crediting OpenAI’s GPT-6 Astra and the Nvidia hardware used to train it. The declaration is an industry executive’s claim, not a technical finding: AGI has no agreed definition, and researchers dispute whether current systems demonstrate broad human-level intelligence.",
+    "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-2212776462-e1788903138688.jpg?format=webp&w=1440&quality=75",
+    "learn_more_url": "https://fortune.com/2026/09/09/markets-agi-nvidia-singularity-wall-street/",
+    "date": "2026-09-10",
+    "source": "Fortune"
+  },
+  {
+    "title": "AI-assisted WeWorm could hijack WeChat accounts without a click",
+    "description": "Calif researchers used AI to discover and weaponize a WeChat calling flaw, building a zero-click worm in about a week. It could seize accounts and spread across iOS and Android contacts; full device compromise required chaining other bugs. Tencent mitigated the exploit, and no real-world infections were reported.",
+    "image_url": "https://calif.io/weworm.b1a91c8b.jpeg",
+    "learn_more_url": "https://www.nytimes.com/2026/09/08/us/politics/calif-ai-worm-wechat-hack.html",
+    "date": "2026-09-10",
+    "source": "The New York Times"
+  },
+  {
+    "title": "Anthropic researcher Jacob Coxon resigns over superintelligence risks",
+    "description": "Jacob Coxon, who spent three years on pretraining at OpenAI and Anthropic, resigned from Anthropic, accusing both labs of irresponsibly racing toward self-improving superintelligence. His extinction-risk warning is a personal assessment; Anthropic alignment lead Evan Hubinger publicly agreed the concern is genuine while saying current-model risk remains low.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2063425288.jpg?resize=1200,818",
+    "learn_more_url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
+    "date": "2026-09-10",
+    "source": "TechCrunch"
+  },
+  {
+    "title": "Suno launches v6 music models trained with licensed catalogs",
+    "description": "Suno launched v6, v6-wild and v6-mini, developed with Warner Music Group, BMG and Believe. The models add natural-language song editing, mashups, sampling and multimodal prompts. V6 and v6-wild require Pro or Premier; v6-mini is available free. Suno plans to retire its previous models.",
+    "image_url": "https://suno.com/blog/introducing-v6/opengraph-image?4a0be6b3238f1ddc",
+    "learn_more_url": "https://www.suno.com/blog/introducing-v6",
+    "date": "2026-09-10",
+    "source": "Suno"
+  },
+  {
+    "title": "Paul Christiano joins the OpenAI Foundation Board",
+    "description": "OpenAI appointed alignment researcher Paul Christiano to its Foundation Board and Safety and Security Committee. He will be a non-voting observer on the company’s PBC board. Christiano founded the Alignment Research Center, previously led alignment research at OpenAI and currently advises NIST’s Center for AI Standards and Innovation.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/182NzFWut4sS5hBGtIVsq5/c2620026fe60121fe6543a992c7477ea/paul-christiano-joins-openai-foundation-board--seo-v001.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://ng.investing.com/news/stock-market-news/openai-appoints-paul-christiano-to-foundation-board-93CH-2689961",
+    "date": "2026-09-10",
+    "source": "Investing.com"
+  },
+  {
+    "title": "ChatGPT Voice adds selectable models for search and reasoning",
+    "description": "OpenAI says ChatGPT Voice can now hand search and reasoning tasks to the user-selected model and effort level, including GPT-5.6 Sol and, for Pro users, GPT-6 Astra. GPT-Live still manages the real-time spoken conversation; the selected frontier model handles deeper work behind the scenes.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/54glGpDpS58mKdx6Y3GobW/6ea5121851a36b8cf0505a96be2de994/bidi-art-card_16_9__1_.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "",
+    "date": "2026-09-10",
+    "source": "OpenAI"
+  },
+  {
+    "title": "GPT-6 Astra completes all 48 levels of “I’m Not a Robot”",
+    "description": "OpenAI engineer Sharif Shameem demonstrated GPT-6 Astra completing all 48 levels of Neal Agarwal’s “I’m Not a Robot” browser game using visual reasoning and computer controls. The result highlights stronger interface-navigation abilities, but the game parodies CAPTCHA challenges—it is not evidence that Astra defeated production systems such as reCAPTCHA.",
+    "image_url": "https://wimg.sedaily.com/news/cms/2026/09/09/news-p.v1.20260909.116908a97f1b49269598783ea936afc1_P1.png",
+    "learn_more_url": "https://en.sedaily.com/international/2026/09/09/openai-model-cracks-im-not-a-robot-captcha-test",
+    "date": "2026-09-10",
+    "source": "Seoul Economic Daily"
+  },
+  {
+    "title": "DeepSeek releases V4.1-Flash multimodal model",
+    "description": "DeepSeek released V4.1-Flash, a native multimodal 552-billion-parameter mixture-of-experts model activating 8 billion parameters for input and 16 billion for output. The company says its architecture sharply reduces KV-cache storage; the model is live as deepseek-flash, with V4-Pro requests scheduled to route to it at Flash rates from September 14.",
+    "image_url": "https://www.reuters.com/resizer/v2/BZ6NNJCPYJKE7EBSNGONJYFO3Y.jpg?auth=4e227425821995de02064b7f40584b48bc2110502e57da0bd4a95621c4c35692&width=1920&quality=80",
+    "learn_more_url": "https://www.reuters.com/world/asia-pacific/chinas-deepseek-launches-v41-flash-model-2026-09-10/",
+    "date": "2026-09-10",
+    "source": "reuters.com"
+  },
+  {
+    "title": "OpenAI details its agent-based Defense Factory for continuous cybersecurity",
+    "description": "OpenAI says its Defense Factory uses Codex agents, isolated environments and human review to continuously discover, validate, route, patch and retest software vulnerabilities. The system emerged from a 250-plus-person security sprint spanning more than 100 service areas.",
+    "image_url": "https://cdn.openai.com/the-defense-factory/9ed8fb44-cc38-484b-bae9-5eab7c5ffb92/df-ogimage.png",
+    "learn_more_url": "https://runtimewire.com/article/openai-defense-factory-security-sprint",
+    "date": "2026-09-10",
+    "source": "RuntimeWire"
+  }
+]
