@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Suno Launches v6 AI Music Model Family",
+    "description": "Suno launched v6, v6-wild, and v6-mini, developed with Warner Music Group, BMG, and Believe using licensed and user data. The two full models require paid plans, while mini is free. Suno plans to retire older models and develop opt-in, paid experiences allowing fans to remix participating artists’ music.",
+    "image_url": "https://cdn.sanity.io/images/cl7b1q1i/production/286c4de5b97a18b0c2d3bc85dc99ae4181d2940b-1920x1080.jpg?auto=format&fit=max&w=2400",
+    "learn_more_url": "https://about.suno.com/blog/introducing-v6",
+    "date": "2026-09-11",
+    "source": "about.suno.com"
+  },
+  {
+    "title": "OpenAI launches Data agent for ChatGPT Work",
+    "description": "OpenAI’s new Data agent connects ChatGPT Work to approved company data, documents, semantic layers and business-intelligence tools. Users can investigate metrics, create shareable interactive dashboards and initiate approved follow-up actions through natural-language conversations, while administrators control connections and access.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/2UxvYcTeyyfNcGIxHFKW06/82ff8662f3a80f6b7319afb2a25dc6ae/put-data-to-work--seo-v001.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "",
+    "date": "2026-09-11",
+    "source": "OpenAI"
+  },
+  {
+    "title": "Anthropic Researcher Resigns Over Self-Improving AI Risks",
+    "description": "Pretraining researcher Jacob Coxon resigned from Anthropic, warning that competition with OpenAI could accelerate uncontrolled self-improving AI. Anthropic alignment lead Evan Hubinger echoed the catastrophic-risk concern but said current models pose substantially less danger than hypothetical recursively improving systems.",
+    "image_url": "https://media.wired.com/photos/6aa1afc94eb21a2db77402a8/1:1/w_2560,c_limit/Security_InterviewWithAnthropicGuyWhoQuitBecauseAI_v-ezgif.com-video-to-gif-converter.gif",
+    "learn_more_url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
+    "date": "2026-09-11",
+    "source": "wired.com"
+  },
+  {
+    "title": "Suno Launches Three v6 AI Music Models with Licensed Catalogs",
+    "description": "Suno launched v6, v6-wild, and v6-mini, developed with Warner Music Group, BMG, and Believe using licensed music. The company plans to retire earlier models and develop paid, opt-in artist experiences, while copyright litigation involving Sony and Universal continues.",
+    "image_url": "https://cdn.sanity.io/images/cl7b1q1i/production/286c4de5b97a18b0c2d3bc85dc99ae4181d2940b-1920x1080.jpg?auto=format&fit=max&w=2400",
+    "learn_more_url": "https://about.suno.com/blog/introducing-v6",
+    "date": "2026-09-11",
+    "source": "about.suno.com"
+  },
+  {
+    "title": "OpenAI warns Astra demand could force a pause in new Pro subscriptions",
+    "description": "OpenAI product lead Thibault Sottiaux said unprecedented GPT-6 Astra demand could force a temporary pause in new Pro subscriptions to protect service for existing customers. OpenAI has not announced that sign-ups have stopped, and its public pricing page still advertises Pro purchases.",
+    "image_url": "https://i.gzn.jp/img/2026/09/10/openai-astra-high-growth/00.png",
+    "learn_more_url": "https://gigazine.net/gsc_news/en/20260910-openai-astra-high-growth/",
+    "date": "2026-09-11",
+    "source": "GIGAZINE"
+  },
+  {
+    "title": "OpenAI releases GPT-Live-1 for full-duplex voice agents",
+    "description": "OpenAI released GPT-Live-1 through a new Live API endpoint for full-duplex voice agents that can listen and speak simultaneously, handle interruptions, support telephony and delegate reasoning or tools to a backend model. Voice sessions cost $0.05 per minute, with backend usage billed separately.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7Mz7MwoSyFLdOMk26N1hCA/b66e84b656c1d666fc2adc1c56ff67f1/introducing-gpt-live-1-green-seo.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "",
+    "date": "2026-09-11",
+    "source": "OpenAI"
+  },
+  {
+    "title": "Anthropic reports evolving malicious uses of Claude across seven threat areas",
+    "description": "Anthropic says it disrupted malicious Claude use across seven harm areas between December 2025 and August 2026. Cases involved increasingly orchestrated cyberattacks, surveillance of dissidents, influence operations, weapons and biological misuse, fraud, and illicit model distillation; Anthropic says it banned accounts, strengthened safeguards, and shared intelligence.",
+    "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/7a4426f8ffe57e7de23ff36906fb1cc3efe2a82b-1200x630.jpg",
+    "learn_more_url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+    "date": "2026-09-11",
+    "source": "Anthropic"
+  },
+  {
+    "title": "OpenAI launches ChatGPT for Financial Services",
+    "description": "OpenAI launched a GPT-6 Astra-powered ChatGPT Work offering for eligible financial institutions, developed with Morgan Stanley and Evercore. It combines built-in premium financial data, granular citations, firm templates and enterprise controls to support investment research, financial modeling and client materials.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/2Tj0j0dTcedAZ2PMSbTg4j/f1155b4361dcd8f4c85c12833233ebba/OAI_Finances_4_16x9-_SEO.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://www.reuters.com/business/openai-launches-chatgpt-financial-services-industry-2026-09-10/",
+    "date": "2026-09-11",
+    "source": "Reuters"
+  }
+]
