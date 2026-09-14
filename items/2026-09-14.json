@@ -1,0 +1,82 @@
+[
+  {
+    "title": "OpenAI to retire GPT-5.3-Codex-Spark",
+    "description": "OpenAI plans to retire its real-time coding model GPT-5.3-Codex-Spark next week. Codex product lead Tibo cited declining usage, stronger alternatives, and the opportunity to redirect computing capacity toward future models.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4Q63HBcSm7ApkQDi9iKpop/162358403746b44556f501fdd34de954/GPT-5.3-Codex-Spark_ArtCard_16x9.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://techflowpost.com/en-US/newsletter/135875",
+    "date": "2026-09-14",
+    "source": "TechFlow"
+  },
+  {
+    "title": "SpaceXAI schedules three-day Grok Bot company-building livestream",
+    "description": "Three SpaceXAI staffers will attempt to build a company and product from scratch with Grok Bot during a September 15–17 livestream. The team plans to develop a business plan, choose features, and conduct engineering work, alongside sessions covering sales, support, and marketing.",
+    "image_url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ct/32ce60bc-4352-4c82-841d-c7f5a3b2817f.png",
+    "learn_more_url": "https://luma.com/3ifrgttw",
+    "date": "2026-09-14",
+    "source": "Luma"
+  },
+  {
+    "title": "Karen X. Cheng creates an AI-powered personalized morning newspaper",
+    "description": "Creator Karen X. Cheng built “The Morning Newspaper,” a Grok Bot that gathers information from her email and calendar, lays out a personalized newspaper, and prints it while she sleeps. The reusable Bot is available through Grok Bot’s marketplace.",
+    "image_url": "https://x.ai/images/news/introducing-grok-bot-og-2.png",
+    "learn_more_url": "",
+    "date": "2026-09-14",
+    "source": "Grok Bot Marketplace"
+  },
+  {
+    "title": "Yu Deng jokes about leaving mathematics if AI solves every problem",
+    "description": "Fields Medalist Yu Deng reportedly joked that if AI becomes able to solve every mathematical problem, he would retire from mathematics and write romance fiction. In other interviews, Deng has said he expects AI to assist rather than replace mathematicians and has described science-fiction writing as an alternative career.",
+    "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/07/Yu-Deng-cr-Kristen-Norman-Social-1.jpg",
+    "learn_more_url": "",
+    "date": "2026-09-14",
+    "source": "Quanta Magazine"
+  },
+  {
+    "title": "OpenAI introduces Mini as Codex’s new mascot",
+    "description": "OpenAI has introduced Mini as a new mascot for Codex. The character extends Codex’s animated-companion concept, whose optional desktop pets visually indicate when agent work is running, awaiting input, or ready for review.",
+    "image_url": "https://learn.chatgpt.com/og/docs/pets.png",
+    "learn_more_url": "",
+    "date": "2026-09-14",
+    "source": "OpenAI"
+  },
+  {
+    "title": "Dario Amodei Calls for Slower AI Capability Development",
+    "description": "Anthropic CEO Dario Amodei argues that frontier AI capabilities should advance more slowly so safety work can catch up, citing recursive self-improvement and recent cybersecurity incidents. His three-part proposal calls for embedded third-party evaluators, coordination among democratic countries, and eventual global agreements.",
+    "image_url": "https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6aa5311897ee19af5d9f2cd9_og_we-must-pace-the-frontier.jpg",
+    "learn_more_url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "date": "2026-09-14",
+    "source": "Dario Amodei"
+  },
+  {
+    "title": "OpenAI Pledges Employee-Level Access for Independent Evaluators",
+    "description": "Sam Altman says OpenAI agrees with Dario Amodei’s call to pace frontier AI development and will match Anthropic’s commitment to give independent evaluators employee-like access. He says the issue has been a primary topic inside OpenAI in recent weeks, with further details coming soon.",
+    "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-2287521404-e1789173294554.jpg?resize=1200,600",
+    "learn_more_url": "",
+    "date": "2026-09-14",
+    "source": "Sam Altman"
+  },
+  {
+    "title": "Microsoft Adds Grok Models to Copilot in Word, Excel, and PowerPoint",
+    "description": "Microsoft is rolling out SpaceXAI’s Grok models as selectable options in Copilot for Word, Excel, and PowerPoint. The preview starts with eligible Frontier organizations, requires administrator opt-in, and excludes EU, EFTA, and UK customers; Microsoft says it will evaluate feedback before expanding availability.",
+    "image_url": "https://techau.com.au/wp-content/uploads/2026/09/Grok-comes-to-Copilot.jpg",
+    "learn_more_url": "https://techau.com.au/microsoft-adds-spacexais-grok-llm-to-copilot-across-word-excel-and-powerpoint/",
+    "date": "2026-09-14",
+    "source": "techAU"
+  },
+  {
+    "title": "Trump downplays AI risks amid calls to slow development",
+    "description": "President Trump dismissed warnings about rapid AI development and resisted calls for a coordinated slowdown, arguing that the US must preserve its lead over China. His remarks followed appeals from Anthropic’s Dario Amodei, OpenAI’s Sam Altman and xAI’s Elon Musk to reduce the risk of serious harm.",
+    "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/05d0/live/2a71c0a0-af92-11f1-bc1f-3f186ca4140c.jpg",
+    "learn_more_url": "https://www.bbc.com/news/articles/c7v48vp31mdo",
+    "date": "2026-09-14",
+    "source": "BBC News"
+  },
+  {
+    "title": "OpenAI launches managed Agents API in public beta",
+    "description": "OpenAI’s public-beta Agents API gives developers the managed Codex harness for durable sessions, context compaction, tool use and subagent orchestration. Agents can run in OpenAI-hosted, partner or self-managed environments; the API adds no separate fee beyond model, tool and sandbox usage.",
+    "image_url": "https://www.infoworld.com/wp-content/uploads/2026/09/4221163-0-45684000-1789129449-shutterstock_2525341257.jpg?quality=50&strip=all&w=1024",
+    "learn_more_url": "https://www.infoworld.com/article/4221163/openai-launches-managed-agents-api-to-simplify-enterprise-ai-agent-development.html",
+    "date": "2026-09-14",
+    "source": "InfoWorld"
+  }
+]
