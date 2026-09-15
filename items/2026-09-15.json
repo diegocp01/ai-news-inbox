@@ -1,0 +1,90 @@
+[
+  {
+    "title": "AI Assistance Improves Detection of Fetal Brain Malformations",
+    "description": "A randomized trial across five Chinese hospitals found that AI assistance increased sonographers’ sensitivity for detecting ten fetal brain malformations without significantly reducing specificity. The study covered 1,584 scans from high-risk pregnancies, and clinicians retained responsibility for diagnosis.",
+    "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9779/7610718/e198347da6cc/EMS123320-f007.jpg",
+    "learn_more_url": "https://doi.org/10.1016/j.landig.2026.101040",
+    "date": "2026-09-15",
+    "source": "The Lancet Digital Health"
+  },
+  {
+    "title": "MIT’s HardFlow enforces constraints without model retraining",
+    "description": "MIT researchers introduced HardFlow, an inference-time method that steers pretrained flow-matching models so final outputs satisfy hard safety or physical constraints. In experiments spanning robotics, control, and image editing, the team reports perfect constraint satisfaction and stronger solution quality than baseline methods without retraining.",
+    "image_url": "https://news.mit.edu/sites/default/files/download/202609/MIT-Hard-Constrained-01-Press.jpg",
+    "learn_more_url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
+    "date": "2026-09-15",
+    "source": "MIT News"
+  },
+  {
+    "title": "Perplexity uses GPT-6 Astra across production workflows",
+    "description": "Perplexity says it uses GPT-6 Astra to craft communications, modify software, monitor production systems, and generate simulated service responses for end-to-end testing. According to an OpenAI case study, the company checks the model’s work less frequently than it did with earlier generations.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/2ONJEXhA8M9IGON14JgHTc/4450550ce2d8b38c7fe2e7825839c92a/og.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://techobserver.in/news/enterprise-it/artificial-intelligence/perplexity-gpt-6-astra-production-systems-329212/",
+    "date": "2026-09-15",
+    "source": "Tech Observer"
+  },
+  {
+    "title": "China rejects U.S. tech leaders’ calls to slow AI development",
+    "description": "China’s Foreign Ministry rejected calls from Dario Amodei and other U.S. technology leaders to pace frontier AI development. Spokesperson Guo Jiakun said “fearmongering, confrontation and malicious competition” would disrupt global AI governance, while Beijing called for open, inclusive and ethical development.",
+    "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260914-ai-2-rs-cda16c.jpg",
+    "learn_more_url": "https://www.nbcnews.com/world/china/china-ai-slowdown-trump-amodei-altman-threat-cold-war-rcna597631",
+    "date": "2026-09-15",
+    "source": "NBC News"
+  },
+  {
+    "title": "Apple releases iOS 27 with Siri AI in beta",
+    "description": "Apple released iOS 27 with Siri AI, a beta assistant offering personal-context retrieval, onscreen awareness, web answers and systemwide app actions. Siri AI initially requires an Apple Intelligence-compatible device set to English; it is unavailable at launch in China and on iPhone, iPad and Apple Watch in the EU.",
+    "image_url": "https://www.apple.com/newsroom/images/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/tile/Apple-Siri-AI-hero-video-lp.jpg.og.jpg?202609141711",
+    "learn_more_url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+    "date": "2026-09-15",
+    "source": "Apple Newsroom"
+  },
+  {
+    "title": "DeepMind safety researcher leaves for METR over AI risk concerns",
+    "description": "Former Google DeepMind safety researcher Josh Engels left to join nonprofit evaluator METR, warning that advanced AI may escape human control. He said “there are no adults in the room” and cited recent autonomous-agent incidents; the claim that AI could kill humanity reflects a broader risk scenario, not a confirmed outcome.",
+    "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260910-anthropic-ch-1433-ff98e1.jpg",
+    "learn_more_url": "https://www.nbcnews.com/tech/security/two-ai-researchers-leave-anthropic-google-safety-concerns-rcna597086",
+    "date": "2026-09-15",
+    "source": "NBC News"
+  },
+  {
+    "title": "Tapes Together Strong: The Co-evolution of Computation and Cooperation",
+    "description": "Researchers introduce Autopoietic Game Theory, evolving randomly initialized Z80 programs whose computation, replication and social behavior share finite energy. Their simulations find scarcity can make parasitic stealing self-limiting and favor cooperation; spatial structure preserves complexity under unequal resources. Results remain limited to a simplified Prisoner’s Dilemma and Z80 substrate.",
+    "image_url": "https://arxiv.org/html/2609.10817v1/introFig.png",
+    "learn_more_url": "https://arxiv.org/abs/2609.10817",
+    "date": "2026-09-15",
+    "source": "arXiv"
+  },
+  {
+    "title": "ChatGPT gift cards launch in the US",
+    "description": "OpenAI has launched non-reloadable ChatGPT gift cards through select U.S. retailers, currently as digital cards from $15 to $250. Redeeming a card adds its full value to a USD wallet for eligible subscriptions, renewals, upgrades and credit purchases on ChatGPT web; app-store purchases and API credits are excluded.",
+    "image_url": "https://help.openai.com/logo.png",
+    "learn_more_url": "https://news.cocoloop.cn/en/2026/09/openai-gift-card-web-only/",
+    "date": "2026-09-15",
+    "source": "Cocoloop"
+  },
+  {
+    "title": "Elon Musk previews Grok 4.8 training milestone",
+    "description": "Musk called Grok 4.8 a “2.5T model” trained with SpaceXAI’s new C++ stack and said its current training stage would finish this week before reinforcement learning begins. SpaceXAI has not published a model card, benchmarks, API identifier or release date, and Musk did not define what “2.5T” measures.",
+    "image_url": "https://runtimewire.com/og/spacexai-grok-4-8-reinforcement-learning-cpp-stack.16x9.jpg?v=og2-q9hwc8",
+    "learn_more_url": "https://runtimewire.com/article/spacexai-grok-4-8-reinforcement-learning-cpp-stack",
+    "date": "2026-09-15",
+    "source": "RuntimeWire"
+  },
+  {
+    "title": "Microsoft Publishes Draft Code of Conduct for MAI Models",
+    "description": "Microsoft’s draft rules say its MAI models should remain under human control, accept correction or shutdown, avoid claiming feelings or personhood, and observe non-overridable safety limits. The company is seeking public feedback for six weeks before publishing a revised version later this year.",
+    "image_url": "https://microsoft.ai/wp-content/uploads/2026/09/MAI-Code-of-Conduct-Hero-BLUE.png",
+    "learn_more_url": "https://www.reuters.com/legal/litigation/microsoft-drafts-code-conduct-keep-its-ai-under-human-control-2026-09-14/",
+    "date": "2026-09-15",
+    "source": "Reuters"
+  },
+  {
+    "title": "Trump and China Push Back on Calls to Slow AI",
+    "description": "President Trump dismissed warnings about an AI takeover while China criticized calls to curb its capabilities as fearmongering and harmful competition, underscoring obstacles to international coordination on slowing frontier AI development.",
+    "image_url": "https://dims.apnews.com/dims4/default/c6a218b/2147483647/strip/true/crop/6626x4415+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F50%2F0d%2F533541a6c95c58aad11c130d9eda%2F2245d4841e514f3baeb96cbf891120f3",
+    "learn_more_url": "https://apnews.com/article/china-anthropic-ai-us-amodei-3da458d2c078da3e60900728d59f1ae8",
+    "date": "2026-09-15",
+    "source": "Associated Press"
+  }
+]
