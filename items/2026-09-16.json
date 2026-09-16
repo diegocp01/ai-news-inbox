@@ -1,0 +1,98 @@
+[
+  {
+    "title": "ShadowPEFT lands in Hugging Face PEFT",
+    "description": "Hugging Face PEFT now supports ShadowPEFT through ShadowConfig and get_peft_model. The method trains a lightweight, detachable shadow network alongside a frozen base model; project benchmarks report results competitive with LoRA, while its modular design targets edge deployment and independent adapter versioning.",
+    "image_url": "https://github.com/ShadowLLM/shadow-peft/raw/main/assets/ShadowPEFT-preview.png",
+    "learn_more_url": "https://github.com/ShadowLLM/shadow-peft",
+    "date": "2026-09-16",
+    "source": "ShadowLLM"
+  },
+  {
+    "title": "OpenAI confirms AI safety coordination with Anthropic and Google DeepMind",
+    "description": "OpenAI says it has worked with Anthropic and Google DeepMind for several weeks on AI safety measures. Policy chief Chris Lehane said the companies can coordinate without an antitrust waiver as concern grows over the economic and security risks of increasingly capable models.",
+    "image_url": "https://static.toiimg.com/thumb/msid-134267385,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "learn_more_url": "https://news.bloomberglaw.com/antitrust/openai-says-its-working-with-anthropic-google-on-ai-safety",
+    "date": "2026-09-16",
+    "source": "Bloomberg Law"
+  },
+  {
+    "title": "UBTECH starts production at 10,000-unit humanoid robot factory",
+    "description": "UBTECH says its new 14,000-square-meter Liuzhou facility is the world’s first smart factory designed to produce more than 10,000 industrial humanoids annually, with a 10-minute production cadence. Built with Siemens Digital Industries Software, it makes Walker S and Cruzr models while robots assist with handling and logistics.",
+    "image_url": "https://www.globaltimes.cn/Portals/0/attachment/2026/2026-09-14/b31d739f-f3b3-422a-9d67-f079804fff6e.jpeg",
+    "learn_more_url": "https://www.globaltimes.cn/page/202609/1370528.shtml",
+    "date": "2026-09-16",
+    "source": "Global Times"
+  },
+  {
+    "title": "China showcases autonomous BG-5 robotic fish",
+    "description": "Boyagongdao Marine Technology Group displayed the 3-kilogram BG-5 at Beijing’s CIFTIS. The golden-arowana-inspired robot uses sensors for autonomous obstacle avoidance and a multi-jointed tail for propulsion; its listed 5-meter depth and 0.6-meter-per-second speed suit shallow-water monitoring, although no operational surveillance deployment was announced.",
+    "image_url": "https://images.cnbctv18.com/uploads/2026/09/brics-9-2026-09-4e1c2f1a02226b962ec3bcd2d7a9ad82.jpg?im=FitAndFill,width=1200,height=675",
+    "learn_more_url": "https://www.cnbctv18.com/world/china-unveils-lifelike-golden-dragon-fish-underwater-robot-how-its-different-19990334.htm",
+    "date": "2026-09-16",
+    "source": "CNBC TV18"
+  },
+  {
+    "title": "Google launches Gemini 3.8 Live and Extended Thinking",
+    "description": "Google launched Gemini 3.8 Live for low-latency speech-to-speech interaction and an Extended Thinking version for complex, multi-step voice tasks. Both support visual context and background tool calls across 97 languages and are rolling out through the Gemini API, AI Studio and selected Google products, with enterprise availability varying by service.",
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3-8_live___keyword__blog-social.width-1300.png",
+    "learn_more_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+    "date": "2026-09-16",
+    "source": "Google"
+  },
+  {
+    "title": "OpenAI schedules GPT-5.5 retirement for October 14",
+    "description": "OpenAI says GPT-5.5 will leave ChatGPT, ChatGPT Work and Codex across all plans on October 14. Codex users are advised to move to GPT-5.6 Sol or GPT-6 Astra; the announcement does not indicate that GPT-5.5 API access is ending.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/2Bh47W4cA48dvG5FbDtNQH/5897109fb0de6fc3125c0c35c4f60001/Hero_Art_Card_16x9.jpg?w=1600&h=900&fit=fill",
+    "learn_more_url": "",
+    "date": "2026-09-16",
+    "source": "OpenAI"
+  },
+  {
+    "title": "TypeSafe AI launches Jev for fast, structured software decisions",
+    "description": "TypeSafe AI emerged from stealth with Jev, an early-access “System One” model that returns typed probabilistic decisions instead of generating text. Built for software workflows such as classification, routing and scoring, Jev provides confidence estimates and uses parallel output generation; TypeSafe claims 70–500 millisecond latency and 40–200× higher speed than conventional LLMs on suitable tasks.",
+    "image_url": "https://image.theregister.com/5296715.webp?imageId=5296715&width=960&height=548&format=jpg",
+    "learn_more_url": "https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711",
+    "date": "2026-09-16",
+    "source": "The Register"
+  },
+  {
+    "title": "Odyssey unveils Odyssey-3 foundation world model",
+    "description": "Odyssey unveiled Odyssey-3, an autoregressive diffusion-transformer world model adapted with action decoders for robot arms, humanoids, vehicles, simulated drone flight and games. Company-run tests included closed-loop driving on Indian roads after 20 hours of simulated data. Public release is planned within weeks; independent evaluations and detailed benchmarks are not yet available.",
+    "image_url": "https://framerusercontent.com/assets/JU7BjLegfmzvfZ2iaaZ0CIAWWag.jpg",
+    "learn_more_url": "https://odyssey.systems/introducing-odyssey-3",
+    "date": "2026-09-16",
+    "source": "Odyssey"
+  },
+  {
+    "title": "Salesforce and Nvidia Introduce Koa CRM Reasoning Model",
+    "description": "Salesforce and Nvidia introduced Koa, a CRM reasoning model built by post-training Nemotron 3 Super on synthetic enterprise scenarios without customer data. Salesforce says Koa matched or exceeded leading models on its CRM benchmark with three times fewer errors. It is available to select Agentforce pilots, with U.S. general availability expected in winter 2026.",
+    "image_url": "https://www.salesforce.com/in/news/wp-content/uploads/sites/20/2026/09/789_0926_Dreamforce_T09_Salesforce-and-NVIDIA-Launch-Cerebro-a-Reasoning-Model-Custom-Built-for-the-Enterprise_v2_091126-1-1-1.jpg?bc=HL",
+    "learn_more_url": "https://www.salesforce.com/news/press-releases/2026/09/15/koa-reasoning-model/",
+    "date": "2026-09-16",
+    "source": "Salesforce"
+  },
+  {
+    "title": "TypeSafe Launches Jev for Fast, Structured Software Decisions",
+    "description": "TypeSafe’s Jev, now in early access, returns confidence-scored choices from predefined outputs rather than generating text. The company reports 70–500 ms latency and $42 per billion input tokens; its fixed schema prevents off-format responses, not incorrect decisions.",
+    "image_url": "https://framerusercontent.com/images/GJQ5GxP1M9gB8CwqrvtTA9fAMA.png?height=1008&width=1230",
+    "learn_more_url": "https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711",
+    "date": "2026-09-16",
+    "source": "The Register"
+  },
+  {
+    "title": "Preprint Maps Five Levels of Recursive AI Self-Improvement",
+    "description": "A 33-author preprint proposes five levels of recursive self-improvement, from executing human-designed upgrades to revising the mechanisms that produce future improvements. The survey says current evidence is strongest at early levels, with software engineering offering faster feedback than science, robotics, or healthcare; reliable evaluation and human oversight remain key barriers.",
+    "image_url": "https://theseus-labs-rsi.github.io/research/roadmap.svg",
+    "learn_more_url": "https://arxiv.org/abs/2609.11873",
+    "date": "2026-09-16",
+    "source": "arXiv"
+  },
+  {
+    "title": "TypeSafe AI launches Jev for fast, structured software decisions",
+    "description": "TypeSafe AI emerged from stealth with Jev, an early-access “System One” model that returns typed probabilistic decisions instead of generating text. Built for software workflows such as classification, routing and scoring, Jev provides confidence estimates and uses parallel output generation; TypeSafe claims 70–500 millisecond latency and 40–200× higher speed than conventional LLMs on suitable tasks.",
+    "image_url": "https://image.theregister.com/5296715.webp?imageId=5296715&width=960&height=548&format=jpg",
+    "learn_more_url": "https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711",
+    "date": "2026-09-16",
+    "source": "The Register"
+  }
+]
