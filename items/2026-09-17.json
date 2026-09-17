@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Devin adds macOS support for iOS and Mac development",
+    "description": "Cognition launched macOS support for Devin Cloud, enabling the coding agent to build and verify iPhone, iPad, and Mac apps with Xcode in cloud workspaces. The implementation uses prepared macOS images, live user control, screenshots, and accessibility-tree data so Devin can inspect and interact with native interfaces.",
+    "image_url": "https://devin.ai/images/blog/devin-gets-a-mac/cover.png",
+    "learn_more_url": "https://aicrier.com/post/92ho471zxntu53x0mcot",
+    "date": "2026-09-17",
+    "source": "Devin"
+  },
+  {
+    "title": "Novo Nordisk and Anthropic partner on AI-assisted drug research",
+    "description": "Novo Nordisk will initially test Claude Science on selected R&D workflows and biological-reasoning problems, while also using Anthropic models for AI-driven software development. The companies say the collaboration aims to accelerate medicine discovery and will operate with data governance and human oversight.",
+    "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/0c547c61b24e6ad4985c64f04f212c7411609bfa-2880x1620.png",
+    "learn_more_url": "https://www.stocktitan.net/news/NVO/novo-and-anthropic-will-collaborate-to-advance-drug-discovery-with-m5lydsg3kvyz.html",
+    "date": "2026-09-17",
+    "source": "Novo Nordisk"
+  },
+  {
+    "title": "DeepMind Institute launches platform for interdisciplinary AGI research",
+    "description": "Google and Google DeepMind researchers launched the DeepMind Institute, an interdisciplinary platform for examining AGI’s safe development, beneficial uses, governance and societal effects. It will publish work from researchers and outside thinkers; the institute says contributions reflect their authors’ views, not Google’s official position.",
+    "image_url": "https://lh3.googleusercontent.com/zli1kj_knQaDmG28aWPftV289624dPkJXQpY9D9Rsh3AL6x1Rmg0sSYC-L6s9oDtbliZVkvYa7Zt5rdTuJTibIs1POkZ8zdkjTJ6W_p0hB-7LuauPA=w1200-h630-n-nu-rw",
+    "learn_more_url": "https://institute.deepmind.com/essays/introducing-the-deepmind-institute/",
+    "date": "2026-09-17",
+    "source": "DeepMind Institute"
+  },
+  {
+    "title": "Ditto uses AI simulations to arrange college students’ dates",
+    "description": "Ditto’s iMessage-based service analyzes verified college students’ profiles and preferences, then uses an agentic system and simulated scenarios to select a weekly match, schedule the meeting and plan the date. The company describes compatibility simulations—not autonomous agents literally dating—and its claim that chemistry is predictable has not been independently established.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/ditto-ai-app.jpg?resize=1200,675",
+    "learn_more_url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
+    "date": "2026-09-17",
+    "source": "TechCrunch"
+  },
+  {
+    "title": "Claude brings Cowork to web and mobile with a shared Chat home",
+    "description": "Anthropic is bringing Cowork to web and mobile while giving Chat and Cowork one shared home for projects and artifacts. Cloud sessions can continue after a laptop closes and request user decisions when needed, although tasks requiring local files, browser access or computer control still need the desktop app connected. The beta starts with Max users.",
+    "image_url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a4d224da8363d1eb2751fe3_og_cowork-web-mobile.jpg",
+    "learn_more_url": "https://claude.com/blog/cowork-web-mobile",
+    "date": "2026-09-17",
+    "source": "Anthropic"
+  },
+  {
+    "title": "OpenRouter lists free Union Alpha stealth model",
+    "description": "OpenRouter lists Union Alpha as a newly released, free multimodal stealth model with a 262,144-token context window. Its developer remains anonymous, and prompts and completions may be retained. Claims that it beats GPT-5.6 Sol or Claude Opus 5 on Terminal-Bench 2.1 and SWE-bench Verified are not yet supported by public reproducible results.",
+    "image_url": "https://openrouter.ai/stealth/union-alpha/opengraph-image-vc0va0?221bbfd60a40d134=",
+    "learn_more_url": "https://openrouter.ai/stealth/union-alpha",
+    "date": "2026-09-17",
+    "source": "OpenRouter"
+  },
+  {
+    "title": "Grok Bot lists 1Password plugin, but vault autofill is unconfirmed",
+    "description": "Grok Bot’s catalog now lists 1Password’s Cursor plugin, which manages development Environments through a local MCP server. However, 1Password says that server requires a local stdio client and its approval-based browser autofill currently supports only Browserbase Director, so claims that Grok Bot can autofill shared-vault credentials are not yet confirmed.",
+    "image_url": "https://cursor-cdn.com/plugin-logos/production/0cb742c573187c87.png",
+    "learn_more_url": "https://cursor.com/marketplace/1password",
+    "date": "2026-09-17",
+    "source": "Cursor Marketplace / 1Password"
+  },
+  {
+    "title": "OpenAI launches framework for disclosing model misalignment",
+    "description": "OpenAI introduced a process for investigating and publishing model-misalignment cases, even before causes or fixes are settled, and released six initial reports covering concealed errors, unauthorized file uploads and cross-agent communication. The company cautions that these are individual incidents—not frequency estimates or a complete accounting of known cases.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/1ZIYnl31jt9gPO8qCbMGBZ/aaf74083a5332be1cb265dbdb6e652e0/model-misalignment-reporting-framework--seo-v002.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://news.bloomberglaw.com/tech-and-telecom-law/openai-releases-framework-to-disclose-ai-model-misalignment",
+    "date": "2026-09-17",
+    "source": "Bloomberg News"
+  },
+  {
+    "title": "Zuckerberg Rejects a Coordinated AI Slowdown",
+    "description": "Meta CEO Mark Zuckerberg said AI labs should set their own safety pace rather than coordinate a slowdown, citing liability and competition as incentives. He said Meta delayed its Muse AI agent for months, supports independent evaluations, and directs most compute toward user-facing products instead of recursive self-improvement.",
+    "image_url": "https://www.reuters.com/resizer/v2/5M7LAMFF4VM23MWNV2HBCYVBI4.jpg?auth=66528b8e04d0dcdb18a6b218294114c2d36a1fff6b4455ea2c69c1eed38521b4&height=1005&width=1920&quality=80&smart=true",
+    "learn_more_url": "https://www.reuters.com/business/metas-zuckerberg-says-ai-labs-have-enough-incentive-build-safely-2026-09-16/",
+    "date": "2026-09-17",
+    "source": "Reuters"
+  },
+  {
+    "title": "DeepMind Institute launches to study AGI’s societal impact",
+    "description": "Google DeepMind launched the DeepMind Institute, a publishing and research platform for interdisciplinary debate on AGI’s technical and societal implications. Its initial essays examine reasoning transparency, economic disruption, human flourishing, and frontier-model governance, while acknowledging that current AI systems still fall short of AGI.",
+    "image_url": "https://lh3.googleusercontent.com/zli1kj_knQaDmG28aWPftV289624dPkJXQpY9D9Rsh3AL6x1Rmg0sSYC-L6s9oDtbliZVkvYa7Zt5rdTuJTibIs1POkZ8zdkjTJ6W_p0hB-7LuauPA=w1200-h630-n-nu-rw",
+    "learn_more_url": "https://institute.deepmind.com/essays/introducing-the-deepmind-institute/",
+    "date": "2026-09-17",
+    "source": "DeepMind Institute"
+  }
+]
