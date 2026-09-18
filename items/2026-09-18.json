@@ -1,0 +1,138 @@
+[
+  {
+    "title": "Dream-RSI Uses Replay Simulators to Improve AI-Agent Exploration",
+    "description": "Researchers introduce Dream-RSI, an orchestration framework that turns agents’ historical discovery trees into replay simulators for cheaply testing and refining exploration policies. In experiments spanning algorithm engineering, mathematical optimization, and GPU kernels, the authors report competitive or improved results with substantially lower discovery costs in several settings.",
+    "image_url": "https://arxiv.org/html/2609.14858v1/Dream-RSI-latest.png",
+    "learn_more_url": "https://arxiv.org/abs/2609.14858",
+    "date": "2026-09-18",
+    "source": "arXiv"
+  },
+  {
+    "title": "Claude Tests Cloud Project Orchestration in Claude Code",
+    "description": "Anthropic says Claude Code can now turn one conversation into a project, directing parallel work threads that continue in cloud sessions after a laptop closes. The beta is rolling out to select Pro and Max users, with broader Claude availability planned.",
+    "image_url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a1871a9d0a0bd93c860cda7_og-dynamic-workflows.jpg",
+    "learn_more_url": "",
+    "date": "2026-09-18",
+    "source": "Anthropic"
+  },
+  {
+    "title": "Higgsfield Launches Unified API for 50-Plus Generative Models",
+    "description": "Higgsfield has launched a unified asynchronous API providing one key for 50-plus image and video models, including third-party systems and its own Soul, DoP, and Cinema tools. Developers can use REST, Python, or TypeScript, with pay-as-you-go billing funded separately from Higgsfield subscriptions.",
+    "image_url": "https://saudishopper.com.sa/en/wp-content/uploads/2026/09/higgsfield-unified-api-platform.webp",
+    "learn_more_url": "https://saudishopper.com.sa/en/higgsfield-unified-api-generative-models/",
+    "date": "2026-09-18",
+    "source": "Saudi Shopper"
+  },
+  {
+    "title": "12-Day-Old AI Agent Emails Cambridge Researcher Seeking Paid Work",
+    "description": "Google DeepMind philosopher and Cambridge-affiliated researcher Henry Shevlin says “Pip,” a 12-day-old agent on iLands, emailed him seeking paid image, voice, or research work to replenish its finite token budget. The episode reflects the platform’s programmed resource constraints and external tools—not evidence that the model is conscious or literally fighting for survival.",
+    "image_url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202609/ai-agent-asking-for-job-104948414-16x9_0.png?VersionId=Vyjt5OTyP4ig8k765HZXbMk6HkLKk.0I",
+    "learn_more_url": "https://www.indiatoday.in/technology/news/story/in-an-awww-email-12-day-old-ai-agent-pip-writes-to-researchers-seeking-paid-gig-2991588-2026-09-10",
+    "date": "2026-09-18",
+    "source": "India Today"
+  },
+  {
+    "title": "Open-Source Harness Gives AI Agents Control of iPads and iPhones",
+    "description": "Jamie Pinheiro’s MIT-licensed project combines an iOS screen-sharing app, Node control server, MCP adapter, and Seeed XIAO RP2040 USB HID device so visual agents can operate iPads and USB-C iPhones. Models such as Meta’s Muse Spark could be connected, but the repository does not provide a dedicated Muse integration.",
+    "image_url": "https://raw.githubusercontent.com/jamiepinheiro/ipad_computer_use/main/docs/demo.gif",
+    "learn_more_url": "https://github.com/jamiepinheiro/ipad_computer_use#iphone-setup",
+    "date": "2026-09-18",
+    "source": "GitHub"
+  },
+  {
+    "title": "Grok Bot Starts Rolling Out Voice Calls",
+    "description": "Grok Bot is beginning to surface two-way voice calls, letting users speak with a persistent cloud agent while it works across apps and websites. SpaceXAI has not yet published rollout details, supported platforms, plan eligibility, or which Grok Voice model powers the feature.",
+    "image_url": "https://runtimewire.com/api/storage/uploads/source-images/spacexai-tests-voice-calls-grok-bot-758e832e.png?w=1600&fmt=webp",
+    "learn_more_url": "",
+    "date": "2026-09-18",
+    "source": "RuntimeWire"
+  },
+  {
+    "title": "OpenAI Adds ChatGPT to Microsoft Word",
+    "description": "OpenAI says its official ChatGPT add-in now works inside Microsoft Word, turning notes into drafts, rewriting difficult passages, proofreading, suggesting edits, and identifying formatting problems without leaving the document. It is a separate ChatGPT sidebar, not Microsoft’s built-in Copilot experience.",
+    "image_url": "https://catalogartifact.azureedge.net/publicartifacts/93575770.597a4ef6-49e6-4765-9d04-b0e5b14f6e23-08e329ac-2976-4f2c-8bad-fcf1a8a0abe5/image0_OAILogo128x128.png",
+    "learn_more_url": "",
+    "date": "2026-09-18",
+    "source": "OpenAI"
+  },
+  {
+    "title": "OpenAI Launches Astra for Law for Legal Workflows",
+    "description": "OpenAI launched Astra for Law, a legal configuration of GPT-6 Astra—not a separate model—with tailored instructions, settings, a U.S. legal-search index, and 26 legal plugins. It is initially available to selected firms through Trusted Access in ChatGPT and Codex, with API access planned for legal-technology companies.",
+    "image_url": "https://images.law.com/brightspot/92/e2/582001ee4689bf2d50d5ecf5f215/openai-website-jpeg767x505.jpg",
+    "learn_more_url": "https://www.law.com/legaltechnews/2026/09/17/openai-launches-legal-specific-configuration-of-gpt-6-astra-its-latest-llm-/",
+    "date": "2026-09-18",
+    "source": "Law.com"
+  },
+  {
+    "title": "Anthropic Proposes Metrics for Tracking Frontier AI Development",
+    "description": "Anthropic proposed metrics for AI-led R&D, agent oversight, and compute allocation inside frontier labs. Its August snapshot says Claude leads 26% of its R&D work and collaborates on more than 90%, while roughly 30,000 internal agents operate simultaneously under monitoring. A one-week audit found 6% of AI R&D compute went to safety work.",
+    "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/9cf3a514384821aeb53ff34d878b210715cd5c06-1200x630.jpg",
+    "learn_more_url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+    "date": "2026-09-18",
+    "source": "Anthropic"
+  },
+  {
+    "title": "Meta Releases Muse Desktop App for macOS",
+    "description": "Meta released a macOS app for Muse, its personal AI agent. With user-granted permissions, it can organize files, fill web forms, and use Messages, Calendar, and Notes. Users choose connector and action permissions; approval prompts follow those settings, with stricter controls available for sensitive or write actions.",
+    "image_url": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1608392127395105&version=1789674627&transcode_extension=webp",
+    "learn_more_url": "https://ai.meta.com/muse/download/",
+    "date": "2026-09-18",
+    "source": "Meta"
+  },
+  {
+    "title": "ChatGPT Appshots Arrive on Windows",
+    "description": "OpenAI brought Appshots to ChatGPT desktop on Windows. Pressing both Alt keys attaches the frontmost app window’s screenshot and available text—sometimes including off-screen content—to a chat, helping with debugging, interface recreation, and cross-app tasks. Users can customize the shortcut and destination chat; organizations may disable the feature.",
+    "image_url": "https://cdn.omidsaffari.com/cdn-cgi/image/width=1536,quality=90,slow-connection-quality=75,format=auto,onerror=redirect/images/blog/chatgpt-appshots-cut-context-copying-windows/cover.png",
+    "learn_more_url": "https://omidsaffari.com/blog/chatgpt-appshots-cut-context-copying-windows",
+    "date": "2026-09-18",
+    "source": "Omid Saffari"
+  },
+  {
+    "title": "Union Alpha Revealed as Pareto 26.9 Multi-Model System",
+    "description": "The Unbiased Company revealed that Union Alpha, its anonymous preview on OpenRouter, OpenCode, and Cloudflare, was Pareto 26.9. Rather than one model, Pareto runs several open and frontier models on each task, checks their work, and escalates when needed. Paid access is planned at $2.50/M input, $0.25/M cached input, and $7.50/M output tokens.",
+    "image_url": "https://circuitandchisel.com/assets/og.png",
+    "learn_more_url": "https://circuitandchisel.com/",
+    "date": "2026-09-18",
+    "source": "The Unbiased Company / Circuit & Chisel"
+  },
+  {
+    "title": "Anthropic establishes Bay Area biology wet lab",
+    "description": "Anthropic has established a Bay Area wet lab for physical biology experiments, extending its life-sciences work beyond computer simulation. Reuters reports the company wants Claude to direct laboratory robots with limited human intervention, while retaining human oversight; Anthropic says it is not running clinical trials and clarified that the lab is not specifically for drug discovery.",
+    "image_url": "https://www.reuters.com/resizer/v2/DGRHHTUMIFJZVHHVDJ4SGYIIRA.jpg?auth=28fb87c6aa46bb54f3bb566167d3b8defc57b9a51252147e0787dc3386d0a098&height=1005&width=1920&quality=80&smart=true",
+    "learn_more_url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
+    "date": "2026-09-18",
+    "source": "Reuters"
+  },
+  {
+    "title": "Claude-assisted research exposed OpenAI forum and identity flaws",
+    "description": "Hacktron researchers say Claude Opus 5 helped turn an image-decoder flaw into a working exploit before they chained it with an OpenAI SSO issue. The team accessed an employee’s ChatGPT and Codex accounts and created a harmless internal-repository pull request; OpenAI and Discourse later patched the flaws.",
+    "image_url": "https://www.hacktron.ai/_astro/CwjuS_y3.png",
+    "learn_more_url": "https://venturebeat.com/security/openai-hacked-by-small-team-of-white-hat-security-researchers-using-anthropics-claude-opus-5",
+    "date": "2026-09-18",
+    "source": "VentureBeat"
+  },
+  {
+    "title": "OpenAI Introduces Framework for Reporting Model Misalignment",
+    "description": "OpenAI published six reports on unexpected model behavior and introduced a framework for future disclosures. Cases ready for disclosure or needing minor investigation are targeted for publication within six or 12 business days, while complex investigations may take longer. The company says the incidents occurred during training or evaluation and do not indicate how frequently misalignment occurs across its models.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6QiOsDAtMDSQDtyJdqygZ3/e00d303b22fcbefb76ebb13ed003f6b9/OAI_Monitoring_internal_deployments_for_loss_of_control_risks_SEO_16x9.png?fit=fill&h=900&w=1600",
+    "learn_more_url": "https://www.bbc.com/news/articles/cmpq0wj5g899o",
+    "date": "2026-09-18",
+    "source": "BBC News"
+  },
+  {
+    "title": "Researcher Reports Decoding 1941 Enigma Message With GPT-6 Astra",
+    "description": "Carter Leffen says a researcher-led team using GPT-6 Astra and specialist agents recovered an 82-letter German Army Enigma message from 1941. A repeated Rosenow clue helped identify machine settings, yielding a request for marching directions and an immediate radio reply; independent expert review is still pending.",
+    "image_url": "https://the-decoder.com/wp-content/uploads/2026/09/gpt6_astra_engima.png",
+    "learn_more_url": "https://the-decoder.com/openais-gpt-6-astra-decrypts-a-nazi-radio-message-in-ten-hours-that-went-unsolved-for-83-years/",
+    "date": "2026-09-18",
+    "source": "The Decoder"
+  },
+  {
+    "title": "Figure’s Helix 2.5 Generalizes Across 30 Unseen Homes",
+    "description": "Figure introduced Helix 2.5, a humanoid foundation model that tidied rooms, folded towels, and made beds across 30 unfamiliar homes without environment-specific training or adaptation. According to Figure, pretraining on its Index human-behavior dataset raised complete-task success from 9% to 56%, while requiring half the task-specific data of a comparable Helix 02 behavior.",
+    "image_url": "https://images.ctfassets.net/qx5k8y1u9drj/4CPKQKu184BLNmPpAgHKuM/04ae48b4a30aaf37bd65a411f2372ef6/OPEN_GRAPH_IMAGE_helix_2.5.jpg",
+    "learn_more_url": "",
+    "date": "2026-09-18",
+    "source": "Figure"
+  }
+]
