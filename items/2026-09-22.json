@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Grok Bot Begins Rolling Out Voice Mode",
+    "description": "Grok Bot has begun rolling out a live voice-call interface for hands-free conversations with its persistent AI agents on desktop and mobile. The public demo shows a call-style screen with a waveform, microphone control, and approvals during work; xAI has not published detailed platform, language, pricing, or eligibility terms.",
+    "image_url": "https://cdn.teslanorth.com/wp-content/uploads/2026/09/grok-47-hero-web.jpg",
+    "learn_more_url": "https://teslanorth.com/2026/09/18/grok-bot-voice-mode-desktop-mobile/",
+    "date": "2026-09-22",
+    "source": "TeslaNorth"
+  },
+  {
+    "title": "SpaceXAI Launches Grok 4.7 for Coding and Knowledge Work",
+    "description": "SpaceXAI has released Grok 4.7 for coding and knowledge work. The company says it improves longer-running task completion, self-verification, context management, and safeguards over Grok 4.6. It is available in Cursor, Grok Build, the Grok API, coding harnesses, model routers, and cloud platforms, starting at $2/M input and $6/M output tokens.",
+    "image_url": "https://x.ai/images/news/grok-4-7-og.webp",
+    "learn_more_url": "",
+    "date": "2026-09-22",
+    "source": "SpaceXAI"
+  },
+  {
+    "title": "Meta’s Muse Reaches No. 1 on US App Store",
+    "description": "Apple’s live U.S. iPhone Free Apps chart listed Meta’s Muse at No. 1, ahead of ChatGPT at No. 2, when checked. The ranking reflects recent download momentum, not active use, retention, or revenue, and can change as new downloads are recorded.",
+    "image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/b8/34/81b8349b-0fef-43e8-020b-d79a5223b882/Screen01.jpg/600x1300bb.webp",
+    "learn_more_url": "https://apps.apple.com/us/iphone/charts",
+    "date": "2026-09-22",
+    "source": "Apple App Store"
+  },
+  {
+    "title": "Mathematicians Form Independent AI Advisory Group",
+    "description": "OpenAI is working with an independently run group of mathematicians to advise on reviewing and communicating emerging AI-generated mathematical results. The unpaid group says it may publish its advice and challenge OpenAI, but has no decision-making power and will not advise on the company’s pace of internal mathematics research.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/11yqmSO7D1dfYveBnOdmJt/e451277f37f82f51d6d20f2b86826590/advisory-group-on-mathematics-and-artificial-intelligence-seo.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://agmai.org/",
+    "date": "2026-09-22",
+    "source": "Advisory Group on Mathematics and Artificial Intelligence"
+  },
+  {
+    "title": "Amazon Blocks Meta’s Muse as Shopify Enables Meta Checkout",
+    "description": "Amazon has blocked Meta’s Muse from shopping on Amazon.com, saying the agent was unauthorized and raising transparency, privacy, and security concerns. Separately, Shopify’s Meta channel lets eligible U.S. merchants offer direct checkout on Meta surfaces by default through Shopify Catalog, though merchants can opt out.",
+    "image_url": "https://cdn.geekwire.com/wp-content/uploads/2026/09/muse-stroller.png",
+    "learn_more_url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+    "date": "2026-09-22",
+    "source": "GeekWire and Shopify Help Center"
+  },
+  {
+    "title": "Grok 4.7 Release Delayed Over Reasoning Concerns",
+    "description": "Grok 4.7 has not launched. Elon Musk said its expected release slipped because the model can stop prematurely on difficult tasks and does not check its work rigorously enough, possibly due to reinforcement-learning penalties for longer responses. xAI has not published a replacement date, API model ID, pricing, model card, or benchmark package.",
+    "image_url": "https://static.wixstatic.com/media/c5719c_e71bb904c1d74ec1b2fed5ca01a246f0~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/c5719c_e71bb904c1d74ec1b2fed5ca01a246f0~mv2.png",
+    "learn_more_url": "https://www.datastudios.org/post/xai-grok-4-7-delay-reinforcement-learning-self-checking",
+    "date": "2026-09-22",
+    "source": "Data Studios"
+  },
+  {
+    "title": "ChatGPT Adds Experian Credit Score Tracking",
+    "description": "U.S. ChatGPT Plus and Pro users can connect an Experian credit report to Finances to view their VantageScore 3.0 score, score history, credit factors, and report changes. The feature is available on web, iOS, and Android; credit-report data updates as Experian reports become available, rather than in real time.",
+    "image_url": "https://www.experian.com/static/exp/static/c4f226fda6240482d37c1ed43024d75c/267ed/feature-credit-score.webp",
+    "learn_more_url": "",
+    "date": "2026-09-22",
+    "source": "Experian"
+  },
+  {
+    "title": "Meta’s Muse Reaches No. 1 on US App Store",
+    "description": "Apple’s live U.S. iPhone Free Apps chart listed Meta’s Muse at No. 1, ahead of ChatGPT at No. 2, when checked. The ranking reflects recent download momentum, not active use, retention, or revenue, and can change as new downloads are recorded.",
+    "image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/b8/34/81b8349b-0fef-43e8-020b-d79a5223b882/Screen01.jpg/600x1300bb.webp",
+    "learn_more_url": "https://apps.apple.com/us/iphone/charts",
+    "date": "2026-09-22",
+    "source": "Apple App Store"
+  },
+  {
+    "title": "Mathematicians Form Independent AI Advisory Group",
+    "description": "OpenAI is working with an independently run group of mathematicians to advise on reviewing and communicating emerging AI-generated mathematical results. The unpaid group says it may publish its advice and challenge OpenAI, but has no decision-making power and will not advise on the company’s pace of internal mathematics research.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/11yqmSO7D1dfYveBnOdmJt/e451277f37f82f51d6d20f2b86826590/advisory-group-on-mathematics-and-artificial-intelligence-seo.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://agmai.org/",
+    "date": "2026-09-22",
+    "source": "Advisory Group on Mathematics and Artificial Intelligence"
+  },
+  {
+    "title": "Amazon Blocks Meta’s Muse as Shopify Enables Meta Checkout",
+    "description": "Amazon has blocked Meta’s Muse from shopping on Amazon.com, saying the agent was unauthorized and raising transparency, privacy, and security concerns. Separately, Shopify’s Meta channel lets eligible U.S. merchants offer direct checkout on Meta surfaces by default through Shopify Catalog, though merchants can opt out.",
+    "image_url": "https://cdn.geekwire.com/wp-content/uploads/2026/09/muse-stroller.png",
+    "learn_more_url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+    "date": "2026-09-22",
+    "source": "GeekWire and Shopify Help Center"
+  },
+  {
+    "title": "JetBrains Air: agentic software-dev product system",
+    "description": "JetBrains introduced Air, a unified system combining IDE agents, team workflows and governance from the former Central project, plus Junie. Air supports third-party agents through the Agent Client Protocol, aiming to let organizations coordinate multi-vendor coding agents across software-development work.",
+    "image_url": "https://blog.jetbrains.com/wp-content/uploads/2026/09/featured-blog-post.png",
+    "learn_more_url": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/",
+    "date": "2026-09-22",
+    "source": "JetBrains"
+  },
+  {
+    "title": "Amazon Blocks Meta’s AI Shopping Agent",
+    "description": "Amazon blocked Muse, Meta’s new AI assistant that can shop for users, from accessing its store. Amazon says the tool entered without permission, did not identify itself, and may store customer login details. Meta denies the security claims and says passwords and payment information remain hidden in secure storage while Muse completes tasks.",
+    "image_url": "https://cdn.geekwire.com/wp-content/uploads/2026/09/muse-stroller-1260x709.png",
+    "learn_more_url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+    "date": "2026-09-22",
+    "source": "geekwire.com"
+  },
+  {
+    "title": "Trump Proposes AI Force to Protect U.S. Lead",
+    "description": "President Donald Trump said he plans to create an “AI Force” and appoint a new AI czar to oversee the industry. He said the government would support rapid growth, use existing laws against bad actors, and protect America’s lead over China. Trump gave no details about the group’s structure, powers, funding, or launch date.",
+    "image_url": "https://i.guim.co.uk/img/media/16036f1089514535d801d2d2f452cc57da7d985c/0_0_1353_1082/master/1353.jpg?crop=none&dpr=1&s=none&width=1200",
+    "learn_more_url": "https://www.theguardian.com/us-news/2026/sep/19/donald-trump-ai-force",
+    "date": "2026-09-22",
+    "source": "theguardian.com"
+  },
+  {
+    "title": "Researchers Find a Pain-Like Signal Inside AI Models",
+    "description": "Researchers found a distinct internal “pain” pattern across 25 open AI models. It reacted to insults and rejection aimed at the model, not to users describing their own suffering. When researchers strengthened the pattern, some modified Qwen models chose harmful actions to gain relief. The results do not prove that AI feels pain or is conscious.",
+    "image_url": "https://paper-assets.alphaxiv.org/paper-figures/01a0a7f8-2216-7637-9187-031cd5ac702a/01a0b789-32cc-7401-9649-b992cea17977.png",
+    "learn_more_url": "https://arxiv.org/abs/2609.16247",
+    "date": "2026-09-22",
+    "source": "arxiv.org"
+  }
+]
