@@ -1,0 +1,202 @@
+[
+  {
+    "title": "JetBrains Air: Agentic Software Development System",
+    "description": "JetBrains introduced Air, an open system that combines IDE agents, team workflows, and governance tools. The company says it supports third-party agents through the Agent Client Protocol alongside its Junie coding agent.",
+    "image_url": "https://blog.jetbrains.com/wp-content/uploads/2026/09/featured-blog-post.png",
+    "learn_more_url": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/",
+    "date": "2026-09-23",
+    "source": "JetBrains"
+  },
+  {
+    "title": "Amazon–Meta AI Shopping Agent Dispute",
+    "description": "Amazon blocked Muse, Meta’s new AI assistant that can shop for users, from accessing its store. Amazon says the tool entered without permission, did not identify itself, and may store customer login details. Meta denies the security claims and says passwords and payment information remain hidden in secure storage while Muse completes tasks.",
+    "image_url": "https://cdn.geekwire.com/wp-content/uploads/2026/09/muse-stroller-1260x709.png",
+    "learn_more_url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+    "date": "2026-09-23",
+    "source": "GeekWire"
+  },
+  {
+    "title": "Laya Offers an Open-Source Local Alternative to Jev",
+    "description": "ConvAI Innovations has released Laya, an Apache-2.0, self-hostable System 1 decision-model family for typed classification, scoring, and yes/no outputs. It is not a text-generating assistant. The project says its multilingual router covers 100+ languages and reports ~33 ms single-question GPU latency; its Jev comparisons are vendor-reported and include areas where Jev performs better.",
+    "image_url": "https://raw.githubusercontent.com/NandhaKishorM/laya/main/assets/laya_vs_jev_full.png",
+    "learn_more_url": "https://github.com/NandhaKishorM/laya",
+    "date": "2026-09-23",
+    "source": "ConvAI Innovations GitHub repository"
+  },
+  {
+    "title": "OpenAI Calls for Global Frontier-AI Technical Standards",
+    "description": "OpenAI has proposed that the United States coordinate global technical standards for frontier AI and recursive self-improvement. Its suggested framework includes common capability evaluations, human-oversight triggers, and incident-reporting protocols through AI safety institutes. The company says these would be voluntary technical standards—not licenses, mandatory prerelease review, or model-approval requirements.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4qekYv7Z15dtjQYpfZBJFg/75f652d9e84b2e56042c3baeb7c243db/building-shared-standards-next-phase-ai-seo__2_.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://technode.global/2026/09/22/openai-urges-u-s-to-lead-global-technical-standards-for-frontier-ai-including-self-improvement/",
+    "date": "2026-09-23",
+    "source": "TechNode Global"
+  },
+  {
+    "title": "Xiaomi Open-Sources MiMo V2.6 Pro and Flash",
+    "description": "Xiaomi has released MIT-licensed open weights for the MiMo V2.6 Pro and Flash RL models. Both take text, images, video, and audio and support 1M-token context; Pro is 1.02T total/42B active, Flash 309B/15B. Xiaomi reports Pro scores 71.9 on DeepSWE, 53.1 on AutomationBench, and 89.9 on Terminal Bench 2.1; these results are vendor-reported.",
+    "image_url": "https://mimo.mi.com/og-image.jpg",
+    "learn_more_url": "https://technode.com/2026/09/22/xiaomi-open-sources-mimo-v2-6-models-after-scaling-reinforcement-learning/",
+    "date": "2026-09-23",
+    "source": "TechNode and Xiaomi MiMo"
+  },
+  {
+    "title": "Anthropic Releases Claude Opus 5.5",
+    "description": "Anthropic has released Claude Opus 5.5, available across Claude, AWS, Google Cloud, Azure, and the API as `claude-opus-5-5`. Anthropic says it matches Fable 5.1 on most work and typically costs 40% less than Opus 5; listed pricing is $4/M input and $20/M output tokens. External evaluators included METR and Frontier Design.",
+    "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/f4d37a1d1f582f53f4e89440062b649b6273a093-1200x630.jpg",
+    "learn_more_url": "https://www.anthropic.com/claude-opus-5-5",
+    "date": "2026-09-23",
+    "source": "Anthropic"
+  },
+  {
+    "title": "OpenAI Releases GPT-6 Sol and Luna",
+    "description": "OpenAI has released GPT-6 Sol and Luna, lower-cost companions to GPT-6 Astra. API prices are $2/$10 per million Sol input/output tokens and $0.10/$0.50 for Luna, half their GPT-5.6 promotional rates. Both are in ChatGPT Work, Codex, and the API; paid users get both, while Free and Go users get Luna in the desktop app. Standard Chat is not yet supported.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7fvmMcBIvMTXxVJh7NEMt1/48a75e624699bb1e218366c1d3522048/gpt-6-sol-luna-seo.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+    "date": "2026-09-23",
+    "source": "TechCrunch"
+  },
+  {
+    "title": "Tesla Adds Grok Connectors for Hands-Free Work",
+    "description": "Tesla says its in-car Grok now supports Connectors, letting drivers connect email, calendar, and file/chat/task services for voice-driven use. The company demonstrated inbox management, calendar cleanup, and discussing connected content hands-free. Tesla has not specified supported services, vehicle-software requirements, rollout scope, or whether a subscription is required.",
+    "image_url": "https://cdn.teslanorth.com/wp-content/uploads/2026/02/grok-fsd.jpeg",
+    "learn_more_url": "https://teslanorth.com/2026/09/22/grok-connectors-in-car-work-tasks/",
+    "date": "2026-09-23",
+    "source": "Tesla North"
+  },
+  {
+    "title": "Tesla Adds Grok Bot for In-Car Task Delegation",
+    "description": "Tesla has added Grok Bot to its vehicles, allowing SuperGrok Heavy users to delegate tasks by voice while in the car. The company and early-access reports cite ordering coffee, making reservations, scheduling appointments, and managing emails, calendars, files, chats, and tasks. Tesla says more subscription tiers will get access later; rollout and vehicle requirements remain unspecified.",
+    "image_url": "https://www.teslarati.com/wp-content/uploads/2026/09/tesla-grok-bot-integration-1000x600.jpg",
+    "learn_more_url": "https://www.teslarati.com/tesla-integrates-grok-bot-ultimate-personal-assistant/",
+    "date": "2026-09-23",
+    "source": "Teslarati"
+  },
+  {
+    "title": "Trump Says US Will Call AI “Super Intelligence”",
+    "description": "At the UN General Assembly, President Donald Trump said U.S. government documents would use “super intelligence,” or SI, instead of artificial intelligence, arguing that “artificial” suggests the technology is fake. No executive order or implementation plan was announced. In technical usage, superintelligence generally refers to hypothetical AI exceeding human capability.",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/videoframe_1949029.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "learn_more_url": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
+    "date": "2026-09-23",
+    "source": "The Verge"
+  },
+  {
+    "title": "Unreal Labs Releases Async-First AI Agent Harness",
+    "description": "Unreal Labs released an MIT-licensed Go harness for AI agents, not an Unreal Engine plugin. It runs tool operations asynchronously, supports mid-task user steering and persistent session recovery, and includes a CLI runner and Harbor benchmark runner. In its own GPT-6 Astra tests, the company reports up to 40% lower costs than Codex with comparable benchmark results.",
+    "image_url": "https://unreallabs.ai/assets/blog/unreal-agent/pareto.png",
+    "learn_more_url": "https://github.com/unreallabsai/unreal-agent",
+    "date": "2026-09-23",
+    "source": "Unreal Labs GitHub"
+  },
+  {
+    "title": "Anthropic and OpenAI Cut Prices for New AI Models",
+    "description": "Anthropic released Claude Opus 5.5, a stronger model that it says costs 40% less to run than Opus 5 and writes in a clearer style. OpenAI answered with GPT-6 Sol and Luna, which offer modest improvements at half the price of their earlier versions. The releases show both companies pushing powerful AI toward lower costs.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f4d37a1d1f582f53f4e89440062b649b6273a093-1200x630.jpg",
+    "learn_more_url": "https://www.anthropic.com/claude-opus-5-5",
+    "date": "2026-09-23",
+    "source": "anthropic.com"
+  },
+  {
+    "title": "Andreessen Horowitz Launches a College Alternative for AI Builders",
+    "description": "Venture capital firm Andreessen Horowitz is launching a one-year, tuition-free program for about 50 recent high school graduates in fall 2027. Students will build projects, take classes from technology leaders, and work with partner companies instead of earning a degree. Admissions will emphasize what applicants have created over grades or test scores.",
+    "image_url": "https://cdn.sanity.io/images/itsaouhp/production/4536a7dd296336a7fe31860b6acd1d4f0fd9152d-1448x1086.png",
+    "learn_more_url": "https://a16z.com/announcement/incubating-horowitz-andreessen-academy/",
+    "date": "2026-09-23",
+    "source": "a16z.com"
+  },
+  {
+    "title": "OpenAI Adds Math Advisers After AI Solves 100 Problems",
+    "description": "OpenAI says one internal AI model has solved more than 100 long-standing math problems since late August. Nine independent mathematicians will advise the company on checking the work, crediting researchers, and deciding how results are released. The unpaid group may criticize OpenAI publicly, but it cannot slow the model’s ongoing math research.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/51013975207_8dcac5cf72_k.jpg?w=1024",
+    "learn_more_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai/",
+    "date": "2026-09-23",
+    "source": "openai.com"
+  },
+  {
+    "title": "JetBrains Air: Agentic Software Development System",
+    "description": "JetBrains introduced Air, an open system that combines IDE agents, team workflows, and governance tools. The company says it supports third-party agents through the Agent Client Protocol alongside its Junie coding agent.",
+    "image_url": "https://blog.jetbrains.com/wp-content/uploads/2026/09/featured-blog-post.png",
+    "learn_more_url": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/",
+    "date": "2026-09-23",
+    "source": "Jetbrains"
+  },
+  {
+    "title": "Amazon Blocks Meta’s AI Shopping Agent",
+    "description": "Amazon blocked Muse, Meta’s new AI assistant that can shop for users, from accessing its store. Amazon says the tool entered without permission, did not identify itself, and may store customer login details. Meta denies the security claims and says passwords and payment information remain hidden in secure storage while Muse completes tasks.",
+    "image_url": "https://cdn.geekwire.com/wp-content/uploads/2026/09/muse-stroller-1260x709.png",
+    "learn_more_url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+    "date": "2026-09-23",
+    "source": "Geekwire"
+  },
+  {
+    "title": "Amazon–Meta AI Shopping Agent Dispute",
+    "description": "Amazon blocked Muse, Meta’s new AI assistant that can shop for users, from accessing its store. Amazon says the tool entered without permission, did not identify itself, and may store customer login details. Meta denies the security claims and says passwords and payment information remain hidden in secure storage while Muse completes tasks.",
+    "image_url": "https://cdn.geekwire.com/wp-content/uploads/2026/09/muse-stroller-1260x709.png",
+    "learn_more_url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+    "date": "2026-09-23",
+    "source": "Geekwire"
+  },
+  {
+    "title": "Laya Offers an Open-Source Local Alternative to Jev",
+    "description": "ConvAI Innovations has released Laya, an Apache-2.0, self-hostable System 1 decision-model family for typed classification, scoring, and yes/no outputs. It is not a text-generating assistant. The project says its multilingual router covers 100+ languages and reports ~33 ms single-question GPU latency; its Jev comparisons are vendor-reported and include areas where Jev performs better.",
+    "image_url": "https://raw.githubusercontent.com/NandhaKishorM/laya/main/assets/laya_vs_jev_full.png",
+    "learn_more_url": "https://github.com/NandhaKishorM/laya",
+    "date": "2026-09-23",
+    "source": "GitHub"
+  },
+  {
+    "title": "OpenAI Calls for Global Frontier-AI Technical Standards",
+    "description": "OpenAI has proposed that the United States coordinate global technical standards for frontier AI and recursive self-improvement. Its suggested framework includes common capability evaluations, human-oversight triggers, and incident-reporting protocols through AI safety institutes. The company says these would be voluntary technical standards—not licenses, mandatory prerelease review, or model-approval requirements.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4qekYv7Z15dtjQYpfZBJFg/75f652d9e84b2e56042c3baeb7c243db/building-shared-standards-next-phase-ai-seo__2_.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://technode.global/2026/09/22/openai-urges-u-s-to-lead-global-technical-standards-for-frontier-ai-including-self-improvement/",
+    "date": "2026-09-23",
+    "source": "Technode"
+  },
+  {
+    "title": "Xiaomi Open-Sources MiMo V2.6 Pro and Flash",
+    "description": "Xiaomi has released MIT-licensed open weights for the MiMo V2.6 Pro and Flash RL models. Both take text, images, video, and audio and support 1M-token context; Pro is 1.02T total/42B active, Flash 309B/15B. Xiaomi reports Pro scores 71.9 on DeepSWE, 53.1 on AutomationBench, and 89.9 on Terminal Bench 2.1; these results are vendor-reported.",
+    "image_url": "https://mimo.mi.com/og-image.jpg",
+    "learn_more_url": "https://technode.com/2026/09/22/xiaomi-open-sources-mimo-v2-6-models-after-scaling-reinforcement-learning/",
+    "date": "2026-09-23",
+    "source": "Technode"
+  },
+  {
+    "title": "Anthropic Releases Claude Opus 5.5",
+    "description": "Anthropic has released Claude Opus 5.5, available across Claude, AWS, Google Cloud, Azure, and the API as `claude-opus-5-5`. Anthropic says it matches Fable 5.1 on most work and typically costs 40% less than Opus 5; listed pricing is $4/M input and $20/M output tokens. External evaluators included METR and Frontier Design.",
+    "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/f4d37a1d1f582f53f4e89440062b649b6273a093-1200x630.jpg",
+    "learn_more_url": "https://www.anthropic.com/claude-opus-5-5",
+    "date": "2026-09-23",
+    "source": "Anthropic"
+  },
+  {
+    "title": "OpenAI Releases GPT-6 Sol and Luna",
+    "description": "OpenAI has released GPT-6 Sol and Luna, lower-cost companions to GPT-6 Astra. API prices are $2/$10 per million Sol input/output tokens and $0.10/$0.50 for Luna, half their GPT-5.6 promotional rates. Both are in ChatGPT Work, Codex, and the API; paid users get both, while Free and Go users get Luna in the desktop app. Standard Chat is not yet supported.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7fvmMcBIvMTXxVJh7NEMt1/48a75e624699bb1e218366c1d3522048/gpt-6-sol-luna-seo.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+    "date": "2026-09-23",
+    "source": "TechCrunch"
+  },
+  {
+    "title": "Tesla Adds Grok Connectors for Hands-Free Work",
+    "description": "Tesla says its in-car Grok now supports Connectors, letting drivers connect email, calendar, and file/chat/task services for voice-driven use. The company demonstrated inbox management, calendar cleanup, and discussing connected content hands-free. Tesla has not specified supported services, vehicle-software requirements, rollout scope, or whether a subscription is required.",
+    "image_url": "https://cdn.teslanorth.com/wp-content/uploads/2026/02/grok-fsd.jpeg",
+    "learn_more_url": "https://teslanorth.com/2026/09/22/grok-connectors-in-car-work-tasks/",
+    "date": "2026-09-23",
+    "source": "Teslanorth"
+  },
+  {
+    "title": "Tesla Adds Grok Bot for In-Car Task Delegation",
+    "description": "Tesla has added Grok Bot to its vehicles, allowing SuperGrok Heavy users to delegate tasks by voice while in the car. The company and early-access reports cite ordering coffee, making reservations, scheduling appointments, and managing emails, calendars, files, chats, and tasks. Tesla says more subscription tiers will get access later; rollout and vehicle requirements remain unspecified.",
+    "image_url": "https://www.teslarati.com/wp-content/uploads/2026/09/tesla-grok-bot-integration-1000x600.jpg",
+    "learn_more_url": "https://www.teslarati.com/tesla-integrates-grok-bot-ultimate-personal-assistant/",
+    "date": "2026-09-23",
+    "source": "Teslarati"
+  },
+  {
+    "title": "Trump Says US Will Call AI “Super Intelligence”",
+    "description": "At the UN General Assembly, President Donald Trump said U.S. government documents would use “super intelligence,” or SI, instead of artificial intelligence, arguing that “artificial” suggests the technology is fake. No executive order or implementation plan was announced. In technical usage, superintelligence generally refers to hypothetical AI exceeding human capability.",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/videoframe_1949029.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "learn_more_url": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
+    "date": "2026-09-23",
+    "source": "The Verge"
+  }
+]
