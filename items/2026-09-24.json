@@ -1,0 +1,122 @@
+[
+  {
+    "title": "OpenSEO Offers Self-Hosted SEO Research and AI-Agent Access",
+    "description": "OpenSEO is an MIT-licensed, self-hostable SEO platform for keyword research, rankings, backlinks, site audits, and AI-search visibility. Its MCP server and agent skills let AI assistants query project data. Docker and Cloudflare deployments are documented; self-hosted users bring a DataForSEO API key and pay for data usage separately. A hosted option is also available.",
+    "image_url": "https://assets.openalternative.co/tools/ndntml9ufyjhmyk5wp16v8vz/screenshot.webp?v=1787837104144",
+    "learn_more_url": "https://openalternative.co/openseo",
+    "date": "2026-09-24",
+    "source": "OpenAlternative"
+  },
+  {
+    "title": "GPT-6 Astra Completes DrivingBench’s Low-Speed Cone Course",
+    "description": "DrivingBench reports that GPT-6 Astra, using Codex and camera/telemetry tools, completed a cone course in a real Toyota Corolla on its second attempt. It was the only finisher among four models tested, but failed its first and third attempts. The test used an empty parking lot, low speeds, and a human ready to brake; it does not demonstrate road-ready autonomy.",
+    "image_url": "https://drivingbench.com/og/home.png",
+    "learn_more_url": "https://drivingbench.com/report/",
+    "date": "2026-09-24",
+    "source": "DrivingBench"
+  },
+  {
+    "title": "Context.dev Combines Web Scraping Outputs in One API",
+    "description": "Context.dev’s Scrape endpoint lets developers request Markdown, HTML, screenshots, images, original bytes, and structured extraction from one URL in a single call. The company says it handles rendering, proxies, and retries. URL scraping supports webpages and common linked documents, including PDF and Office files; its broader range of uploaded file types uses a separate Parse API.",
+    "image_url": "https://www.context.dev/home/scrape-page-preview.webp",
+    "learn_more_url": "https://docs.context.dev/api-reference/web-scraping/scrape",
+    "date": "2026-09-24",
+    "source": "Context.dev documentation"
+  },
+  {
+    "title": "ChatGPT Voice Adds Plugins and Web/Mobile Work Support",
+    "description": "OpenAI is rolling out plugin access in ChatGPT Voice, including email, calendar, and Slack, plus voice control of ChatGPT Work on web and mobile for creating documents, presentations, spreadsheets, and sites. GPT-Live handles conversation while eligible GPT-6 Astra, Sol, or Luna models can handle delegated work. Access depends on plan and workspace permissions; sensitive actions require on-screen approval.",
+    "image_url": "https://the-decoder.com/wp-content/uploads/2026/06/openai_logo_chatgpt-2-1200x675.png",
+    "learn_more_url": "https://the-decoder.com/chatgpt-voice-gets-closer-to-her-with-email-calendar-and-slack-access/",
+    "date": "2026-09-24",
+    "source": "The Decoder"
+  },
+  {
+    "title": "Anthropic Opens Biology Lab and Reports Claude-Assisted Enzyme Discovery",
+    "description": "Anthropic says its new molecular biology group used Claude agents to search DNA data and identify an uncharacterized reverse-transcriptase system in bacteriophages with CRISPR-like repeat arrays. Human scientists reviewed the finding and performed initial lab tests. The underlying enzyme was previously known; the associated repeats and accessory protein were not. The system’s function and potential applications remain unknown.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg",
+    "learn_more_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "date": "2026-09-24",
+    "source": "Anthropic"
+  },
+  {
+    "title": "Claude Marketplace Brings Tools, Agents and Service Partners Together",
+    "description": "Anthropic’s Claude Marketplace now brings connectors and plugins, Claude-powered partner products, and implementation firms into one directory. Listings include Slack and Notion integrations, products from Cursor and CrowdStrike, and service partners Accenture and Deloitte. Organizations with an existing Anthropic spending commitment can apply some of it toward eligible partner software; listings and purchase terms vary.",
+    "image_url": "https://assets.claude.com/1cde1c05b64c6b7f11e7b2d511fcc14d271f10c8.jpg?w=1200&h=630&fit=crop",
+    "learn_more_url": "https://claude.com/marketplace",
+    "date": "2026-09-24",
+    "source": "Claude Marketplace"
+  },
+  {
+    "title": "Meta Announces Dedicated Email Addresses for Muse Agents",
+    "description": "Meta says its Muse agents are getting their own email addresses. Users will be able to forward messages or add Muse to an email thread to delegate work and communicate with the agent directly. This differs from giving Muse access to a user’s existing inbox. The announcement does not establish that dedicated addresses are available to every user yet.",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_C.png?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+    "learn_more_url": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026",
+    "date": "2026-09-24",
+    "source": "The Verge"
+  },
+  {
+    "title": "Claude Code Cloud Sessions Leave Research Preview",
+    "description": "Claude Code cloud sessions are now generally available, letting coding tasks continue after a laptop closes. Pro, Max, Team, and eligible Enterprise users can start sessions from the web, app, or CLI. Existing Pro and Max subscribers can claim one-time cloud-session credits of $100 and $250, respectively; these are not recurring increases to plan limits.",
+    "image_url": "https://forest.watch.impress.co.jp/img/wf/list/2142/708/image_top.png",
+    "learn_more_url": "https://forest.watch.impress.co.jp/docs/news/2142708.html",
+    "date": "2026-09-24",
+    "source": "Impress Watch"
+  },
+  {
+    "title": "Meta Previews Keychain-Sized Muse Charm AI Device",
+    "description": "Meta previewed Muse Charm, a small standalone device for talking to its Muse AI agent without opening a phone app. It has a screen and fingerprint-activated voice interface and can be carried on a keychain. Meta aims to ship it in December, but says only a few prototypes exist so far; pricing and final hardware details remain unannounced.",
+    "image_url": "https://lookaside.fbsbx.com/elementpath/media/?media_id=2171414533787499&version=1790009167&transcode_extension=webp",
+    "learn_more_url": "https://www.meta.com/muse-charm/",
+    "date": "2026-09-24",
+    "source": "Meta"
+  },
+  {
+    "title": "Meta Plans to Bring Muse Agent to Its AI Glasses",
+    "description": "Meta says its Muse personal agent is coming to AI glasses in the coming months. Wearers will be able to say the agent’s name to activate it, then ask for help booking appointments or finding products they see. Muse is expected to work in the background and follow up. Meta has not specified availability for every existing glasses model.",
+    "image_url": "https://lookaside.fbsbx.com/mwp/media/?path=wp-content%2Fuploads%2F2026%2F09%2FRay-Ban-Meta-Gen-3-Lifestyle2-scaled.webp",
+    "learn_more_url": "https://www.meta.com/blog/muse-personal-agent-ai-glasses/",
+    "date": "2026-09-24",
+    "source": "Meta"
+  },
+  {
+    "title": "Opus 5.5 Effort Changes Preserve Claude Code’s Prompt Cache",
+    "description": "Claude Code documentation says switching effort mid-session on Opus 5.5 preserves the prompt cache when using an API key or Claude subscription. Opus 5.5 was added in Claude Code v2.1.280. The cache exception does not apply through Bedrock, Google Cloud’s Agent Platform, Claude apps gateways, or certain disabled-beta and HIPAA configurations.",
+    "image_url": "https://mintcdn.com/claude-code/VbDJw--l6T9a9Wvm/images/prompt-caching-prefix.svg?w=1100&fit=max&auto=format&n=VbDJw--l6T9a9Wvm&q=85&s=4478e371efd228755a9260811c9584a8",
+    "learn_more_url": "https://code.claude.com/docs/en/prompt-caching",
+    "date": "2026-09-24",
+    "source": "Claude Code"
+  },
+  {
+    "title": "LemonSlice Releases CWM-1 Interactive Avatar Model",
+    "description": "LemonSlice released Character World Model-1, a real-time video diffusion model that animates a character’s face, body, hands, and surroundings from an image during a conversation. An emotion engine controls actions and expressions. The company says anyone can try it in its web app; API access is limited to Ultra and Enterprise customers.",
+    "image_url": "https://lemonslice.com/cwm-1/launch.webp",
+    "learn_more_url": "https://lemonslice.com/cwm-1",
+    "date": "2026-09-24",
+    "source": "LemonSlice"
+  },
+  {
+    "title": "Claude Finds a Possible New DNA-Editing System",
+    "description": "Anthropic says about 950 Claude agents searched DNA databases and spotted a previously unrecognized enzyme system in viruses that infect bacteria. Its repeating DNA resembles CRISPR, which scientists use to edit genes. Early lab tests suggest the system, called ART, may be useful, but researchers still do not know its main function.",
+    "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg",
+    "learn_more_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "date": "2026-09-24",
+    "source": "anthropic.com"
+  },
+  {
+    "title": "Claude Now Handles 26% of Anthropic’s AI Research",
+    "description": "Anthropic says Claude now completes 26% of its AI research and development tasks from a high-level prompt, while people still supervise the work. Claude helps with more than 90% of those tasks, but none run fully without human involvement. Anthropic also reports about 30,000 monitored agents and plans outside checks of its measurements.",
+    "image_url": "https://www.anthropic.com/_next/image?q=75&url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F31704b297a9350f392f143ea078561f36cd14908-1920x1230.png&w=3840",
+    "learn_more_url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+    "date": "2026-09-24",
+    "source": "anthropic.com"
+  },
+  {
+    "title": "Claude Helps Health Teams Track Ebola Outbreak in the DRC",
+    "description": "Anthropic says WHO Africa, CEPI, and a Congolese biomedical institute are using Claude to support the Bundibugyo Ebola response. Tasks include compiling situation reports, comparing disease forecasts, organizing vaccine research, and analyzing viral genomes. WHO staff report cutting report preparation from a full day to under an hour. Human specialists retain scientific and response decisions.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/01a7f8f55e83f615a5d9c0fad56863f1863a41d9-1200x630.jpg",
+    "learn_more_url": "https://www.anthropic.com/features/ebola-response",
+    "date": "2026-09-24",
+    "source": "Anthropic"
+  }
+]
