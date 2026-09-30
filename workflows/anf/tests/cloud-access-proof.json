@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "purpose": "Cloud-only ANF read/write test; not a production intake or website item",
+  "verified_at": "2026-09-30T16:10:00Z",
+  "test_data_only": true
+}
