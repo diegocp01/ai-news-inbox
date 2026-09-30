@@ -1,0 +1,6 @@
+{
+  "summary_max_words": 60,
+  "forbidden_url_domains": ["x.com", "twitter.com", "openai.com", "chatgpt.com", "huggingface.co", "hf.co"],
+  "forbidden_url_suffixes": [".ai"],
+  "forbidden_image_domains": ["pbs.twimg.com", "twimg.com", "x.com", "twitter.com"]
+}

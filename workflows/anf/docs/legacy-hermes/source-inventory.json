@@ -1,0 +1,164 @@
+[
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/SKILL.md",
+    "published_relative_path": "communication/ai-newsletter-items/SKILL.md",
+    "original_sha256": "b40dda890b04c8c38deab2d706c8bf83293c67dadd7f563736fd86faf3808262",
+    "sanitized_sha256": "5a61b60b59eb93c1413ebe3855b333ee2c322641dc547c44fa45d81f602696e8",
+    "original_bytes": 89677,
+    "sanitized_bytes": 89710,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/acquisition-announcements.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/acquisition-announcements.md",
+    "original_sha256": "18f27ba0815a240c01978021033e50be06c3eb63769822b763c611852e92dbeb",
+    "sanitized_sha256": "18f27ba0815a240c01978021033e50be06c3eb63769822b763c611852e92dbeb",
+    "original_bytes": 1917,
+    "sanitized_bytes": 1917,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/ambiguous-topics-commerce-and-benchmarks.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/ambiguous-topics-commerce-and-benchmarks.md",
+    "original_sha256": "41fe1b227ee50f672cff50b73ff6134d2c2d33322cae1e344b813d5da3ed7a47",
+    "sanitized_sha256": "38a2a53e6e559e026befe2af6873fd6353a397f79b22dde5f846d2f03096afc7",
+    "original_bytes": 3018,
+    "sanitized_bytes": 3021,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/app-launches-streaming-and-executive-departures.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/app-launches-streaming-and-executive-departures.md",
+    "original_sha256": "ed38bce63ac5cb734a2b1bf3390a581a436b85464de2d169e14abcfaf278febe",
+    "sanitized_sha256": "ed38bce63ac5cb734a2b1bf3390a581a436b85464de2d169e14abcfaf278febe",
+    "original_bytes": 3659,
+    "sanitized_bytes": 3659,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/chatgpt-desktop-and-sites-live-verification.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/chatgpt-desktop-and-sites-live-verification.md",
+    "original_sha256": "16e7c530749241438d93b86b94b8a291253cc497b332d9f92966e34d44584d10",
+    "sanitized_sha256": "16e7c530749241438d93b86b94b8a291253cc497b332d9f92966e34d44584d10",
+    "original_bytes": 3402,
+    "sanitized_bytes": 3402,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/chatgpt-sites-and-ai-cheating-claims.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/chatgpt-sites-and-ai-cheating-claims.md",
+    "original_sha256": "0ee8b3cb3779d2a3843eab5a28bf11642f4f6d7f3579a9f285927fa01912313c",
+    "sanitized_sha256": "0ee8b3cb3779d2a3843eab5a28bf11642f4f6d7f3579a9f285927fa01912313c",
+    "original_bytes": 1735,
+    "sanitized_bytes": 1735,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/checkpointed-export-queue.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/checkpointed-export-queue.md",
+    "original_sha256": "4c1640c1da7d6917d0d79d4526dd4954a0b3a9c79e964812630703f92b77e4a5",
+    "sanitized_sha256": "36640cdaa80f8fe4281f200cbad9777f6710e586a8eae722cd2fd4530730b7e5",
+    "original_bytes": 5335,
+    "sanitized_bytes": 5350,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/deepseek-live-model-verification.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/deepseek-live-model-verification.md",
+    "original_sha256": "a84a88fde208315719548d1ef9f661bd6b63b6aa1c1c36efb6a818aca689a5ab",
+    "sanitized_sha256": "a84a88fde208315719548d1ef9f661bd6b63b6aa1c1c36efb6a818aca689a5ab",
+    "original_bytes": 1756,
+    "sanitized_bytes": 1756,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/executive-forecasts-and-developer-api-launches.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/executive-forecasts-and-developer-api-launches.md",
+    "original_sha256": "6b4e58d29ef77203c7e5946b60575f73d3382d5e36a8c2d4e8f5ffeca94d7d05",
+    "sanitized_sha256": "6b4e58d29ef77203c7e5946b60575f73d3382d5e36a8c2d4e8f5ffeca94d7d05",
+    "original_bytes": 2415,
+    "sanitized_bytes": 2415,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/feature-launches-and-education-robots.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/feature-launches-and-education-robots.md",
+    "original_sha256": "906fe37e2dc0e1839fce160cee36e18704439bee0afda75f3da49800dcff14a0",
+    "sanitized_sha256": "906fe37e2dc0e1839fce160cee36e18704439bee0afda75f3da49800dcff14a0",
+    "original_bytes": 4330,
+    "sanitized_bytes": 4330,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/grok-product-surface-verification.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/grok-product-surface-verification.md",
+    "original_sha256": "039d07aa6c3ff4390d99cd91ba94a8522be0f7dcd409afd8862d1aeb920711df",
+    "sanitized_sha256": "039d07aa6c3ff4390d99cd91ba94a8522be0f7dcd409afd8862d1aeb920711df",
+    "original_bytes": 4650,
+    "sanitized_bytes": 4650,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/research-and-provenance-verification.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/research-and-provenance-verification.md",
+    "original_sha256": "20a9e6cdf881f5c43e7e52930db4c0351e308c369204a67f6e3c5fbfdfad47ef",
+    "sanitized_sha256": "20a9e6cdf881f5c43e7e52930db4c0351e308c369204a67f6e3c5fbfdfad47ef",
+    "original_bytes": 3376,
+    "sanitized_bytes": 3376,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/same-day-model-name-disambiguation.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/same-day-model-name-disambiguation.md",
+    "original_sha256": "3385a8e9ba14fdc489a54286454205e6ca29fadd86266288f7875c34f6acaac0",
+    "sanitized_sha256": "3385a8e9ba14fdc489a54286454205e6ca29fadd86266288f7875c34f6acaac0",
+    "original_bytes": 927,
+    "sanitized_bytes": 927,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/source-extraction.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/source-extraction.md",
+    "original_sha256": "9888c531584fcc8e7df6782c88e381fe7ea28bf222b73045f0ca8cd7ad88eb9e",
+    "sanitized_sha256": "9888c531584fcc8e7df6782c88e381fe7ea28bf222b73045f0ca8cd7ad88eb9e",
+    "original_bytes": 18050,
+    "sanitized_bytes": 18050,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/wordpress-rest-metadata-recovery.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/wordpress-rest-metadata-recovery.md",
+    "original_sha256": "deb6a23b37436cec814e5a929848c707cae12e12f757023322885dd5b8cd4d46",
+    "sanitized_sha256": "deb6a23b37436cec814e5a929848c707cae12e12f757023322885dd5b8cd4d46",
+    "original_bytes": 2602,
+    "sanitized_bytes": 2602,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/world-model-and-spatial-generation-launches.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/world-model-and-spatial-generation-launches.md",
+    "original_sha256": "8d9a53033f8acaf3d22b26cb62efdc65b65574461e32fd21fc5cbc183af42fb2",
+    "sanitized_sha256": "8d9a53033f8acaf3d22b26cb62efdc65b65574461e32fd21fc5cbc183af42fb2",
+    "original_bytes": 3119,
+    "sanitized_bytes": 3119,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/ai-newsletter-items/references/x-social-metadata-recovery.md",
+    "published_relative_path": "communication/ai-newsletter-items/references/x-social-metadata-recovery.md",
+    "original_sha256": "d6245e31caea7ee38e5791c8696ef0eef410967c0f27faee517127ab3b7f14b4",
+    "sanitized_sha256": "d6245e31caea7ee38e5791c8696ef0eef410967c0f27faee517127ab3b7f14b4",
+    "original_bytes": 2387,
+    "sanitized_bytes": 2387,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  },
+  {
+    "original_relative_path": ".hermes/skills/communication/compile-anfs/SKILL.md",
+    "published_relative_path": "communication/compile-anfs/SKILL.md",
+    "original_sha256": "39e14319aae64ae6c2d955d674a681f275e3ad817a2e7b39cef205aa89a0097c",
+    "sanitized_sha256": "81fd1152d7e69a7699026dbf632c6e2692ec00e56ce94ad435c0bc313c11fa8d",
+    "original_bytes": 5253,
+    "sanitized_bytes": 5256,
+    "sanitization": "Personal name generalized; all sections and examples retained. No credentials or private Telegram IDs were present."
+  }
+]

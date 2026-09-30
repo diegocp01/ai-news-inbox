@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "generation": 1,
+  "updated_at": "2026-09-30T16:13:00+00:00",
+  "next_id": 3,
+  "records": [
+    {
+      "id": 1,
+      "revisions": [
+        {
+          "created_at": "2026-09-30T16:13:00+00:00",
+          "block": "Title: OpenAI Launches Dots, Always-On Personal AI Agents\nURL: https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/\nImage URL: https://techcrunch.com/wp-content/uploads/2026/09/Screenshot-2026-09-29-at-1.16.22-PM.jpg?w=988\nSummary: OpenAI is rolling out GPT-6 Astra-powered Dots to Pro and Business Premium users in eligible markets, with an admin-enabled Enterprise beta. Each agent has a cloud computer and works across connected apps, ChatGPT, Slack, and Teams. One Dot is included; conversations do not consume ChatGPT limits, but delegated Codex and ChatGPT Work tasks do. Unprompted proactive research is read-only.",
+          "sha256": "4a57cbbaaf4cf8ac633abc20c24efa9f588f62cde990a1e970607d59e1387457",
+          "source": "TechCrunch",
+          "request_id": "seed_4a57cbbaaf4cf8ac633abc20c24efa9f588f62cde990a1e970607d59e1387457",
+          "mode": "user_finalized_seed",
+          "provenance": {
+            "kind": "user_supplied_finalized_seed",
+            "evidence_sha256": "59553c7f471d8efc7afbb27c2ab176fd01492950d2e25d5ae9b2d044079e0e82",
+            "image_verification": "preserved_prior_final_output_no_fresh_check"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "revisions": [
+        {
+          "created_at": "2026-09-30T16:13:00+00:00",
+          "block": "Title: OpenAI DevDay Expands Agents, Cloud Coding, and Collaboration\nURL: https://runtimewire.com/article/everything-openai-announced-at-the-devday-2026-keynote\nImage URL: https://runtimewire.com/og/everything-openai-announced-at-the-devday-2026-keynote.16x9.jpg?v=og2-16f559n\nSummary: OpenAI unveiled Dots, ChatGPT Space, GPT-6.1 Sol, Astra Ultrafast, and a $500 Pro tier with 25× Plus usage. Codex gained reusable cloud environments and a redesigned CLI; local execution remains supported. Dots also serves business and enterprise plans, not just Pro. Decisions API enters limited preview, while Agents API remains in public beta with new computer-use capabilities.",
+          "sha256": "bc786399e56b6c538ce2c5a1add50470676ecf893ec2d9bd81b4f3439585fecd",
+          "source": "Runtimewire",
+          "request_id": "seed_bc786399e56b6c538ce2c5a1add50470676ecf893ec2d9bd81b4f3439585fecd",
+          "mode": "user_finalized_seed",
+          "provenance": {
+            "kind": "user_supplied_finalized_seed",
+            "evidence_sha256": "59553c7f471d8efc7afbb27c2ab176fd01492950d2e25d5ae9b2d044079e0e82",
+            "image_verification": "preserved_prior_final_output_no_fresh_check"
+          }
+        }
+      ]
+    }
+  ],
+  "requests": {
+    "seed_4a57cbbaaf4cf8ac633abc20c24efa9f588f62cde990a1e970607d59e1387457": {
+      "status": "finalized",
+      "received_at": "2026-09-30T16:13:00+00:00",
+      "finalized_at": "2026-09-30T16:13:00+00:00",
+      "received_sequence": 1,
+      "expected_items": 1,
+      "mode": "user_finalized_seed",
+      "corrects_record_id": null,
+      "trusted_route_sha256": null,
+      "records": [
+        {
+          "id": 1,
+          "revision": 1,
+          "sha256": "4a57cbbaaf4cf8ac633abc20c24efa9f588f62cde990a1e970607d59e1387457"
+        }
+      ],
+      "evidence_sha256": "59553c7f471d8efc7afbb27c2ab176fd01492950d2e25d5ae9b2d044079e0e82"
+    },
+    "seed_bc786399e56b6c538ce2c5a1add50470676ecf893ec2d9bd81b4f3439585fecd": {
+      "status": "finalized",
+      "received_at": "2026-09-30T16:13:00+00:00",
+      "finalized_at": "2026-09-30T16:13:00+00:00",
+      "received_sequence": 2,
+      "expected_items": 1,
+      "mode": "user_finalized_seed",
+      "corrects_record_id": null,
+      "trusted_route_sha256": null,
+      "records": [
+        {
+          "id": 2,
+          "revision": 1,
+          "sha256": "bc786399e56b6c538ce2c5a1add50470676ecf893ec2d9bd81b4f3439585fecd"
+        }
+      ],
+      "evidence_sha256": "59553c7f471d8efc7afbb27c2ab176fd01492950d2e25d5ae9b2d044079e0e82"
+    }
+  },
+  "batches": {},
+  "pending_batch_id": null,
+  "replacement_batch": null,
+  "checkpoint": 0,
+  "checkpoint_history": [],
+  "operations": {
+    "initialize_forward_only_anf": {
+      "sha256": "9171e66f95da13b8f309b8d64cff624101c0742c02cfbb349ed6adae5894021e",
+      "result": {
+        "status": "initialized",
+        "initial_pending_count": 2
+      }
+    }
+  },
+  "migration": {
+    "status": "reconciled",
+    "at": "2026-09-30T16:13:00+00:00",
+    "evidence_sha256": "7c70faf95334e6eb34cebe5d4185e7e42b8855d8d8ac341a04c8971e118ff6fb"
+  }
+}
