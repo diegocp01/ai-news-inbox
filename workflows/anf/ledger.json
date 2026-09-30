@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 4,
-  "updated_at": "2026-09-30T17:20:26.315392+00:00",
-  "next_id": 4,
+  "generation": 5,
+  "updated_at": "2026-09-30T17:23:03.978741+00:00",
+  "next_id": 5,
   "records": [
     {
       "id": 1,
@@ -49,6 +49,19 @@
           "sha256": "3756640fd1a81d8beacb3cba784274cc894f75f96bc4582ef0922e9517838bf0",
           "source": "TechCrunch",
           "request_id": "7f9fa03e5cd30210ebfa68aa533aec23e8f9ba48b9d29b238e8838e24e957c2e",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "revisions": [
+        {
+          "created_at": "2026-09-30T17:23:03.978741+00:00",
+          "block": "Title: Cursor Adds Inline Charts and Diagrams With /visualize\nURL: https://vibecoding.tech/news/2026/09/29/cursor-visualize-charts-chat\nImage URL: https://vibecoding.tech/news/2026/09/29/cursor-visualize-charts-chat/opengraph-image\nSummary: Cursor says its /visualize command can analyze data and generate charts and diagrams directly inside chat. The feature is available in the Agents Window, letting users view visual answers inline within their conversation.",
+          "sha256": "ab9a41eaebfd5f253f76dbf01260871cbe6b1e1781d292ea2b901c0cc3ef51e9",
+          "source": "vibecoding.tech",
+          "request_id": "9e12604c35447e324a014b1124a5af05a3053ff2e0b7a8645aca2d8de55b4498",
           "mode": "standard"
         }
       ]
@@ -109,13 +122,21 @@
       ]
     },
     "9e12604c35447e324a014b1124a5af05a3053ff2e0b7a8645aca2d8de55b4498": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-09-30T17:20:26.315392+00:00",
       "received_sequence": 4,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-09-30T17:23:03.978741+00:00",
+      "records": [
+        {
+          "id": 4,
+          "revision": 1,
+          "sha256": "ab9a41eaebfd5f253f76dbf01260871cbe6b1e1781d292ea2b901c0cc3ef51e9"
+        }
+      ]
     }
   },
   "batches": {},
@@ -158,6 +179,21 @@
       "result": {
         "status": "received",
         "request_id": "9e12604c35447e324a014b1124a5af05a3053ff2e0b7a8645aca2d8de55b4498"
+      }
+    },
+    "e284e1f2857e8ab5a9ec26d2a581ae402ed1e6b39034d4a7c8031cf718e2a84d": {
+      "sha256": "89b4ce6787d48015bec9c736403dc59cf05b36a2e076d04e1725e03054ce638b",
+      "result": {
+        "status": "finalized",
+        "request_id": "9e12604c35447e324a014b1124a5af05a3053ff2e0b7a8645aca2d8de55b4498",
+        "records": [
+          {
+            "id": 4,
+            "revision": 1,
+            "sha256": "ab9a41eaebfd5f253f76dbf01260871cbe6b1e1781d292ea2b901c0cc3ef51e9"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
