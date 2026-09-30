@@ -6,7 +6,7 @@ This is a portability guide derived from the original Hermes ANF workflow. It is
 
 `../runtime_protocol.md` is the authoritative cloud execution contract. This document preserves the broader migration analysis. The current implementation records durable received/finalized/reconciled intake states, freezes batch-specific intake cutoffs, publishes items plus metadata in one atomic CAS commit, and requires genuine native attachment receipts before acknowledgment. Trusted preprocessed routes are disabled by default, and the current 60-word maximum applies to every new summary even on an explicitly approved route. Full original editorial sources remain unchanged under `legacy-hermes/`.
 
-The current deployment is forward-only: only the two explicitly supplied pending items are in its ledger, as IDs 1–2 with checkpoint 0. No previous queue/history/news is imported. Existing publication files are untouched. Compilation remains paused until the old compiler stop is confirmed.
+The current deployment is forward-only: it started with the two explicitly supplied pending items as IDs 1–2 with checkpoint 0 and now records subsequent intake. No previous queue/history/news is imported. Existing publication files are untouched. Current runtime configuration enables compilation and records the user's cutover confirmation; scheduler state is external to the repository.
 
 ## Preserved editorial contract
 
@@ -32,7 +32,7 @@ The original prose permits blank trusted fields, while its old Python queue reje
 1. Record an accepted intake before beginning research, including its source message/request identity when available, input kind, and ordered item identities.
 2. Track received, researching, finalized, queued/read-back-verified, superseded, rejected with reason, or unresolved states. An error-only or non-ANF final response does not resolve an accepted intake.
 3. Normalize only the agreed four-line representation. The original queue strips outer whitespace and hashes the exact remaining UTF-8 block with SHA-256. Exact block duplicates are retries across the entire retained history, including already exported records. Similar titles or stories are not automatic duplicates.
-4. Write a finalized block idempotently and read it back by record identity/hash before exposing it as finished. For an ambiguous write, inspect persisted state before retrying.
+4. Write a finalized block idempotently and read it back by record identity/hash before exposing it as finished. Run `../intake_output_gate.py` with the exact operation and fresh connector snapshot/observation as specified in `../runtime_protocol.md`; only its verified output may supply final response blocks. For an ambiguous write, inspect persisted state before retrying. The pure Python gate validates supplied observations; actual GitHub calls and authentic readback remain the connector's responsibility.
 5. Preserve explicit corrections. A superseded still-pending intake must not ship beside its replacement. Never rewrite already acknowledged exports merely to apply a later correction. A published-but-delivery-unconfirmed batch is immutable and requires reconciliation rather than mutation.
 6. Gate preparation/publication on completeness: each accepted intake must be accounted for, and every finalized outgoing block must have exact durable queue parity. Keep an explicit reason/evidence for a manual reconciliation.
 7. Do not import the old numeric session-message baseline into an unrelated cloud journal namespace. Preserve the historical baseline as evidence and establish the new boundary only after old coverage is reconciled.
@@ -54,7 +54,7 @@ The old validator scans finalized ANF-only assistant responses after its baselin
 
 ## Forward-only cutover gates
 
-1. Start only from the checked-in two-item ledger with checkpoint 0; do not import previous news, queues, exports, or checkpoint data.
+1. The initial boundary was the two supplied items with checkpoint 0. Continue from the current live ledger; never reset it to that initial state or import previous news, queues, exports, or checkpoint data.
 2. Fetch the latest GitHub branch for every operation and preserve existing `items/` files unchanged.
 3. Verify atomic multi-file CAS commits and exact readback before claiming any save or publication.
 4. Require user confirmation that the old compiler will no longer run, without accessing or modifying the old computer. Then record the confirmation hash, enable the compilation flag, and resume the weekday 08:00 America/New_York schedule.
@@ -77,3 +77,4 @@ The Pi can remain a thin publisher while cloud work supplies authorized content.
 ## Included legacy sources
 
 See `legacy-hermes/README.md` and `legacy-hermes/source-inventory.json`. The original ANF skill, every reference, and the compile skill are retained in full, with personal names generalized. No raw queue/history, Telegram identity, runtime credential, service unit, personal dataset, or private archive manifest is included in this publishable documentation folder.
+

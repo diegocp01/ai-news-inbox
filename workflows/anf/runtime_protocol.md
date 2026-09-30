@@ -6,7 +6,7 @@ This is a forward-only ANF workflow. The user's latest instruction excludes all 
 
 The authorized GitHub integration has successfully created and read back a proof file. Atomic multi-file CAS commit behavior still must be honored and verified when deploying this package and at every later operation. No worker in this package writes GitHub or accesses the old machine.
 
-Compilation starts paused: `runtime_config.json` contains `compilation_enabled: false`. Once the user confirms the old compiler will no longer run, atomically set it to true and put the SHA-256 digest of that exact confirmation in `cutover_confirmation_sha256`. Read it back before enabling the saved schedule. Never visit or modify the old computer to infer that confirmation. This gate blocks prepare, publish, and begin-delivery; intake remains durable while waiting.
+Compilation was initially paused. The current `runtime_config.json` now contains `compilation_enabled: true` and the SHA-256 digest of the user's cutover confirmation. The cutover gate remains enforced by the engine; scheduler state must be checked separately. Never visit or modify the old computer to infer or reconfirm that confirmation.
 
 The intended schedule is Monday–Friday at 08:00 America/New_York, including DST. A paused schedule has no actual next run. The engine itself contains no scheduler, GitHub client, sender, machine access, or credentials.
 
@@ -17,6 +17,7 @@ The two initial records preserve exact user-supplied finalized blocks and source
 Repository: `diegocp01/ai-news-inbox`, branch `main`.
 
 - `workflows/anf/ledger_engine.py`: pure Python 3 standard-library state/commit-plan engine
+- `workflows/anf/intake_output_gate.py`: read-only deterministic final-intake-output verifier; no network, writes, or credentials
 - `workflows/anf/policy.json`: authoritative machine-readable final URL, image-host, and 60-word limits
 - `workflows/anf/runtime_config.json`: explicitly approved trusted-route hashes; empty/disabled by default
 - `workflows/anf/ledger.json`: authoritative durable queue, ingress ledger, revisions, pending batches, delivery attempts, operations, and checkpoints for this new forward-only queue
@@ -67,12 +68,60 @@ Mutations also require `operation_id` and `at`, for example `2026-10-01T12:00:00
 2. One received sequence is assigned by the atomic commit order. Research may run in parallel, but `finalize`, `correct`, and `reconcile_intake` are blocked while an earlier received intake remains unresolved. This keeps new record IDs in durable ingress order without losing late results. Duplicate requests use the same request ID and do not create another ingress.
 3. Research and editorial verification are performed outside the engine. Apply the complete intake skill and relevant references: neutral title/tone, claim/source alignment, a real verified image, and no adjacent unrequested stories. The engine checks four physical lines, the word count, HTTP(S) URL syntax, forbidden domains/subdomains/suffixes, and an explicit image-verification assertion. It cannot verify article truth, image bytes, neutrality, or authenticity itself.
 4. Commit `finalize` with `request_id` and exactly `expected_items` entries in `items`: each has `block`, optional public publisher `source`, and `image_verified: true` for standard intake. This is atomic across all items. A malformed second item leaves the entire intake received/unresolved.
-5. Read back each exact block, revision, and SHA-256 before returning it to the user. An exact duplicate anywhere in full revision/history resolves to that existing record without incrementing IDs or requeuing delivered/superseded content. If the matched content is superseded, do not present it as a newly queued current correction.
+5. Read back each exact block, revision, and SHA-256, then run the required executable intake-output gate below before returning it to the user. An exact duplicate anywhere in full revision/history resolves to that existing record without incrementing IDs or requeuing delivered/superseded content. If the matched content is superseded, do not present it as a newly queued current correction.
 6. Error-only processing results remain unresolved. Do not silently discard them or move a baseline past them. `reconcile_intake` requires one `record_ids` entry per expected item plus `evidence_sha256`, which must attest to an externally checked per-item mapping. Repeated IDs are permitted only when separately supplied items are genuine duplicates; do not repeat one arbitrary ID to cover missing research. The engine records current revision/hash references for each mapping.
 
 For a correction, `receive` must include `corrects_record_id` before processing. This ensures a correction to a frozen batch blocks that batch until resolved. Commit `correct` with matching `request_id`, `record_id`, `block`, optional source, and image verification. Only unpublished records above the checkpoint may change. Each revision preserves previous content, source, digest, request provenance, and timestamp. Source-only changes also produce revisions. Published or delivered content is never rewritten.
 
 If a correction touches a prepared unpublished batch, retain its old artifacts as `superseded`; the replacement freezes the same membership and intake cutoff with the corrected revisions. New arrivals remain for the following batch.
+
+### Required executable intake-output gate
+
+The only approved source of a final intake response is the exact `items[].block`
+released by `intake_output_gate.py` with exit code 0, `status: intake_output_verified`,
+and `ready_to_send: true` for the same request/operation. A planner's `finalized`
+result, its candidate ledger, `committed` flag, or an existing output file is never
+enough. All planner outputs explicitly set `ready_to_send: false`.
+
+After the atomic GitHub commit and exact changed-file readback:
+
+1. Fetch `main` HEAD and the coherent complete snapshot at that SHA through the
+   authorized GitHub plugin. Re-read `main` after the blobs are fetched. If HEAD
+   changed, refetch at the new HEAD rather than combine snapshots. This also
+   recovers an ambiguous commit response: look for the exact original operation,
+   without writing another record or inventing a replacement timestamp.
+2. Supply the original `finalize` or `correct` operation unchanged, the fresh
+   `snapshot`, and an `observation` object with `repository: diegocp01/ai-news-inbox`,
+   `branch: main`, `head` equal to the final observed HEAD, `observed_at` equal to
+   that UTC read time, and `snapshot_sha256` equal to
+   `ledger_engine.digest(ledger_engine.canonical(snapshot))`. Build this from
+   actual connector results; never apply a plan locally and label it a readback.
+3. Run `python3 workflows/anf/intake_output_gate.py --input readback.json --output intake-output.json`.
+   Input keys are `snapshot`, `operation`, and `observation`. No credentials or
+   private transport identifiers belong in these files or in the repository.
+4. The verifier requires an observation no more than 300 seconds old according to
+   its real UTC clock, complete valid ledger state, exact original operation hash,
+   a finalized request, identical persisted result/request references, and exact
+   block/revision/SHA-256 agreement. An uncommitted operation, stale or mismatched
+   readback, edited block, or superseded revision fails closed with exit code 1,
+   `ready_to_send: false`, and no released blocks. A normal validation failure
+   replaces an existing output artifact with the blocked result. Always check this
+   invocation's exit code; never reuse an old success after any execution/I/O error.
+5. Only return the released bytes. Respect each item's `queue_status`: an existing
+   `published` or `delivered` duplicate was verified, not newly queued. For a
+   superseded duplicate, report that fact without presenting an obsolete block as
+   a current ANF. Do not repeat an already answered intake merely because a replay
+   passes the gate. This verifier grants no compilation attachment-delivery or
+   resend permission and does not advance any checkpoint.
+
+The boundary is explicit: Python deterministically validates the supplied state
+and observation bindings; the GitHub plugin/assistant must actually perform the
+commit and authentic fresh reads. The digest binds inputs but is not a GitHub
+signature. This no-network package cannot independently prove snapshot origin or
+freshness, run connector calls itself, or force the chat platform to route all
+free-form replies through Python. Within this workflow, skipping the gate is an
+error, not a supported shortcut. New sessions must fetch this protocol and code
+from GitHub rather than rely on conversational memory.
 
 ### Trusted preprocessed route
 
@@ -122,4 +171,5 @@ The engine retains generic import operations for test coverage/backward compatib
 - A user asks for an old already delivered file: recovery-send the existing immutable attachment only under that explicit request; do not re-publish or move the checkpoint
 - GitHub integration denied, missing atomic CAS support, native delivery unavailable, or unconfirmed compiler cutover: surface the exact blocker and keep production schedule paused
 
-The included tests prove deterministic local state behavior with a simulated atomic CAS repository. They do not prove GitHub write access, connector-level CAS semantics, a real production send, external source/image verification, or a completed cutover. The real two-record ledger is intentionally still gated against compilation until the old compiler stop is confirmed.
+The included tests prove deterministic local state behavior with a simulated atomic CAS repository. They do not prove GitHub write access, connector-level CAS semantics, a real production send, external source/image verification, or a completed cutover. The live ledger includes subsequent intake, and current configuration records the confirmed compiler cutover. Scheduler state and real delivery still require independent checks.
+

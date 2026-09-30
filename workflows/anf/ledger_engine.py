@@ -716,7 +716,7 @@ def plan(snapshot, operation):
         if kind == "preview":
             result["items"] = [{"id": r["id"], "revision": len(r["revisions"]), **revision(r)}
                                for r in state["records"] if r["id"] > state["checkpoint"]]
-        return {"base_sha": head, "changes": [], "result": result, "committed": False}
+        return {"base_sha": head, "changes": [], "result": result, "committed": False, "ready_to_send": False}
     require(LEDGER in files or kind in {"initialize", "import_archive"}, "Initialize or import the ledger first")
     op_id = opaque(operation.get("operation_id"), "operation ID")
     op_hash = digest(canonical(operation))
@@ -725,7 +725,7 @@ def plan(snapshot, operation):
         require(prior["sha256"] == op_hash, "Operation ID reused for a different operation")
         return {"base_sha": head, "changes": [], "result": {"status": "operation_replayed", "original_result": prior["result"],
                       "current_state": result_status(state)}, "replayed": True,
-                "committed": True, "operation_id": op_id, "send_authorized": False,
+                "committed": True, "operation_id": op_id, "send_authorized": False, "ready_to_send": False,
                 "warning": "Prior operation found. Never resend on replay; reconcile existing delivery intent."}
     changes = {}
     result = transition(state, files, operation, policy, head, changes)
@@ -738,7 +738,7 @@ def plan(snapshot, operation):
     return {"base_sha": head, "operation_id": op_id,
             "changes": [{"path": path, "content": content} for path, content in sorted(changes.items())],
             "result": result, "committed": False,
-            "send_authorized": False,
+            "send_authorized": False, "ready_to_send": False,
             "warning": "Plan only. Save every change in one CAS commit and read back before reporting success or sending."}
 
 
@@ -756,9 +756,10 @@ def main():
             sys.stdout.write(output)
         return 0
     except (LedgerError, KeyError, TypeError, ValueError, AttributeError, OSError) as exc:
-        sys.stdout.write(encoded({"status": "error", "saved": False, "checkpoint_advanced": False,
+        sys.stdout.write(encoded({"status": "error", "saved": False, "ready_to_send": False, "checkpoint_advanced": False,
                                  "error": str(exc)}))
         return 1
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
