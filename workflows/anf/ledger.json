@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 9,
-  "updated_at": "2026-09-30T21:33:36.526432+00:00",
-  "next_id": 6,
+  "generation": 10,
+  "updated_at": "2026-09-30T21:34:54.437193+00:00",
+  "next_id": 7,
   "records": [
     {
       "id": 1,
@@ -75,6 +75,19 @@
           "sha256": "2e98545c516c6d7b5a8021e31bfed59562aa30bf07ff4a23f3227ed686be0bf3",
           "source": "Google",
           "request_id": "70419f086263c2f60c06cb2e6abac73f9e29671ce6c892b1b287f8dd0e2dad18",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "revisions": [
+        {
+          "created_at": "2026-09-30T21:34:54.437193+00:00",
+          "block": "Title: Grok Bot Expands Software Development Workflows\nURL:\nImage URL: https://us1.discourse-cdn.com/cursor1/optimized/3X/a/8/a8e7e0e3458205b6145d5c77795027f97f654a28_2_1024x576.jpeg\nSummary: Grok Bot says its AI teammates can delegate coding tasks to Cursor, manage pull requests through GitHub and Origin plugins, and send video demonstrations of the software they build.",
+          "sha256": "2db14388d9a7b82d0ad5787f9fdb0d59795e5c70e3a10afcb8bda57272be2291",
+          "source": "Grok Bot",
+          "request_id": "b0f05ae9ff5f8ccab5f71d8bb1cd2d5b405c32c009e2a311f3787a49a5c72065",
           "mode": "standard"
         }
       ]
@@ -169,13 +182,21 @@
       ]
     },
     "b0f05ae9ff5f8ccab5f71d8bb1cd2d5b405c32c009e2a311f3787a49a5c72065": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-09-30T21:32:11.046964+00:00",
       "received_sequence": 6,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-09-30T21:34:54.437193+00:00",
+      "records": [
+        {
+          "id": 6,
+          "revision": 1,
+          "sha256": "2db14388d9a7b82d0ad5787f9fdb0d59795e5c70e3a10afcb8bda57272be2291"
+        }
+      ]
     },
     "6eb46582f71aa5bb8a8ee17168b720b397ee339ddceeb4b0b449e8467fa3581f": {
       "status": "received",
@@ -278,6 +299,21 @@
       "result": {
         "status": "received",
         "request_id": "6eb46582f71aa5bb8a8ee17168b720b397ee339ddceeb4b0b449e8467fa3581f"
+      }
+    },
+    "7b96ae5220e50c261825d777a0f1edcc4987bacc0646fdc4111a91b2853db390": {
+      "sha256": "8a7d7d017923271626b013faf13a700b7af15de23930d99872c772e88b835139",
+      "result": {
+        "status": "finalized",
+        "request_id": "b0f05ae9ff5f8ccab5f71d8bb1cd2d5b405c32c009e2a311f3787a49a5c72065",
+        "records": [
+          {
+            "id": 6,
+            "revision": 1,
+            "sha256": "2db14388d9a7b82d0ad5787f9fdb0d59795e5c70e3a10afcb8bda57272be2291"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
