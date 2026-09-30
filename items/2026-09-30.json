@@ -1,0 +1,90 @@
+[
+  {
+    "title": "OpenAI to Reopen $200 Pro Plan With Lower API-Equivalent Usage",
+    "description": "OpenAI’s Tibo Sottiaux says the $200 Pro plan will reopen to new subscribers September 30 with revised usage accounting worth about half the previous plan in API-price terms. The five-hour limit will not return; weekly usage can be spent flexibly. New features that do not count against usage are promised but unspecified. Exact allowances and effects on existing subscribers remain unclear.",
+    "image_url": "https://image.blocktempo.com/2026/09/openai-1.jpg",
+    "learn_more_url": "https://officechai.com/ai/openais-200-plan-now-will-now-only-give-half-the-usage-as-before/",
+    "date": "2026-09-30",
+    "source": "OfficeChai"
+  },
+  {
+    "title": "OpenAI Outlines Safety Cases for Frontier AI Training",
+    "description": "OpenAI says frontier reinforcement-learning runs should have evidence-backed safety documentation covering alignment, containment, and monitoring. Its proposed practices include cross-team dissent, senior leaders’ vetoes, auditor access, and mechanisms to pause unsafe runs. OpenAI calls full safety cases an aspirational goal and says these recommendations are still being implemented; they do not cover deployment.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7pgu4BdlPJCuac2hOkAnS9/2b074a0c7a643bbf330a5d93235655e4/towards-safety-cases-for-frontier-ai-training-seo.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://www.resultsense.com/news/2026-09-29-openai-safety-cases-frontier-training/",
+    "date": "2026-09-30",
+    "source": "Resultsense"
+  },
+  {
+    "title": "America.gov Launches With AI Assistance for Federal Services",
+    "description": "The U.S. launched America.gov with an AI chatbot for questions about federal programs and services. Newsweek tested answers that linked to government sources; officials say the tool uses Gemini and Grok. It is free and requires no login. Passport renewals and other transactions are planned, not available at launch.",
+    "image_url": "https://assets.newsweek.com/wp-content/uploads/2026/09/AP26272519915679.jpg?w=1200&crop=1",
+    "learn_more_url": "https://www.newsweek.com/trump-launches-america-gov-ai-government-website-12501100",
+    "date": "2026-09-30",
+    "source": "Newsweek"
+  },
+  {
+    "title": "xAI’s dot.com Redirects to Grok After OpenAI’s Dots Launch",
+    "description": "After OpenAI unveiled its Dots agent, users noticed that dot.com redirects to xAI’s Grok page. TechCrunch reports the domain was transferred in July, before the launch—not bought afterward. Neither Musk nor xAI has confirmed that the purchase or redirect was intended as a prank.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/02/elon-musk-election-afd-purple.jpg?resize=1200,826",
+    "learn_more_url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+    "date": "2026-09-30",
+    "source": "TechCrunch"
+  },
+  {
+    "title": "Trump Orders Executive Agencies to Call AI “Super Intelligence”",
+    "description": "A September 29 order directs executive agencies to use “Super Intelligence” or “SI” instead of “AI” in new non-statutory communications, where legally permitted. Earlier documents remain unchanged, and the existing statutory AI definition initially applies. The White House science adviser must propose legislative language within 60 days. The renaming does not establish that current systems are superintelligent.",
+    "image_url": "https://image.cnbcfm.com/api/v1/image/108369843-1790714143425-gettyimages-2297772865-kbd15194_ma2yjhl4.jpeg?v=1790714187&w=1920&h=1080",
+    "learn_more_url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
+    "date": "2026-09-30",
+    "source": "The White House"
+  },
+  {
+    "title": "OpenAI Reports Growing Use of Coding Agents in Research",
+    "description": "OpenAI says it has reached its “automated research intern” milestone: agents handling well-defined tasks under human direction. By mid-August, agent runtime totaled 3.1 workdays per human workday across its research organization. These preliminary, company-reported metrics do not establish an equivalent productivity gain; over half of successful tasks estimated at four to eight human hours required intervention.",
+    "image_url": "https://static.simonwillison.net/static/2026/openai-agent-usage.webp",
+    "learn_more_url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+    "date": "2026-09-30",
+    "source": "Simon Willison"
+  },
+  {
+    "title": "OpenAI Releases GPT-6.1 Sol for Coding and Professional Work",
+    "description": "OpenAI says GPT-6.1 Sol approaches GPT-6 Astra’s performance in coding, computer use, and professional tasks at one-fifth its standard token prices. It is available in the API, ChatGPT Work, and Codex for Plus, Pro, Business, Enterprise, and Edu users—not standard Chat. API pricing is $2 input, $0.10 cached input, and $10 output per million tokens.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
+    "learn_more_url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+    "date": "2026-09-30",
+    "source": "TechCrunch"
+  },
+  {
+    "title": "OpenAI Launches Always-on AI Agents Inside ChatGPT",
+    "description": "OpenAI introduced dots, always-on AI agents in ChatGPT that keep working between conversations from their own cloud computers. Each can connect to thousands of apps, handle repeat tasks, and return results for review. Dots use GPT-6 Astra and can follow up with users through ChatGPT, Slack, Teams, email, or text messages.",
+    "image_url": "https://help.openai.com/og-image.png",
+    "learn_more_url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+    "date": "2026-09-30",
+    "source": "help.openai.com"
+  },
+  {
+    "title": "Anthropic IPO Filing Reveals Huge Losses and AI Risks",
+    "description": "A leaked IPO filing shows Anthropic, the company behind the Claude chatbot, grew revenue twelvefold to nearly $4.6 billion in 2025 but lost $8 billion from operations. It is reportedly seeking a valuation above $2 trillion while committing $518 billion to computing infrastructure. The filing also warns that advanced AI could threaten humanity.",
+    "image_url": "https://content-media.investing.com/trkd-images/LYNXMPEM8R1UR_L.jpg",
+    "learn_more_url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
+    "date": "2026-09-30",
+    "source": "Reuters"
+  },
+  {
+    "title": "U.S. Launches AI Gateway for Federal Services",
+    "description": "The Trump administration launched America.gov, an AI chatbot that answers questions using official federal websites and Google’s Gemini and xAI’s Grok models. The service is designed to spare people from searching across many government sites. By early 2027, officials aim to let users renew passports, enroll in Medicare, and file forms through the same site.",
+    "image_url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/WH47-Social-Share-Card.jpg",
+    "learn_more_url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-streamlines-access-to-government-services-through-america-gov/",
+    "date": "2026-09-30",
+    "source": "whitehouse.gov"
+  },
+  {
+    "title": "OpenAI to Reopen $200 Pro Plan With Lower API-Equivalent Usage",
+    "description": "OpenAI’s Tibo Sottiaux says the $200 Pro plan will reopen to new subscribers September 30 with usage worth about half the previous plan in API-price terms. The five-hour limit will not return. He also promised features that won’t consume usage, but did not identify them. Exact allowances and the effect on existing subscribers remain unclear.",
+    "image_url": "https://image.blocktempo.com/2026/09/openai-1.jpg",
+    "learn_more_url": "https://officechai.com/ai/openais-200-plan-now-will-now-only-give-half-the-usage-as-before/",
+    "date": "2026-09-30",
+    "source": "OfficeChai"
+  }
+]
