@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 6,
-  "updated_at": "2026-09-30T20:48:52.584975+00:00",
-  "next_id": 5,
+  "generation": 7,
+  "updated_at": "2026-09-30T20:50:15.867806+00:00",
+  "next_id": 6,
   "records": [
     {
       "id": 1,
@@ -62,6 +62,19 @@
           "sha256": "ab9a41eaebfd5f253f76dbf01260871cbe6b1e1781d292ea2b901c0cc3ef51e9",
           "source": "vibecoding.tech",
           "request_id": "9e12604c35447e324a014b1124a5af05a3053ff2e0b7a8645aca2d8de55b4498",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "revisions": [
+        {
+          "created_at": "2026-09-30T20:50:15.867806+00:00",
+          "block": "Title: Google announces Gemini 4 Argon with phased rollout\nURL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png\nSummary: Google announced Gemini 4 Argon, initially rolling out to trusted cyber defenders through its Fairwind Program. Google says the model supports up to one million output tokens for complex coding, enterprise work and cybersecurity defense. Broader access remains pending safety testing, with paid API customers and Google AI Ultra subscribers first in line.",
+          "sha256": "2e98545c516c6d7b5a8021e31bfed59562aa30bf07ff4a23f3227ed686be0bf3",
+          "source": "Google",
+          "request_id": "70419f086263c2f60c06cb2e6abac73f9e29671ce6c892b1b287f8dd0e2dad18",
           "mode": "standard"
         }
       ]
@@ -139,13 +152,21 @@
       ]
     },
     "70419f086263c2f60c06cb2e6abac73f9e29671ce6c892b1b287f8dd0e2dad18": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-09-30T20:48:52.584975+00:00",
       "received_sequence": 5,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-09-30T20:50:15.867806+00:00",
+      "records": [
+        {
+          "id": 5,
+          "revision": 1,
+          "sha256": "2e98545c516c6d7b5a8021e31bfed59562aa30bf07ff4a23f3227ed686be0bf3"
+        }
+      ]
     }
   },
   "batches": {},
@@ -210,6 +231,21 @@
       "result": {
         "status": "received",
         "request_id": "70419f086263c2f60c06cb2e6abac73f9e29671ce6c892b1b287f8dd0e2dad18"
+      }
+    },
+    "e8494f59664f8f91ec0d61b91c4396daa472a173ac7fc99505306d1ec545da96": {
+      "sha256": "cfe57ed54892f3b423512b692d25e3245e380e5c5e9ccfdb40089d79bc4f1022",
+      "result": {
+        "status": "finalized",
+        "request_id": "70419f086263c2f60c06cb2e6abac73f9e29671ce6c892b1b287f8dd0e2dad18",
+        "records": [
+          {
+            "id": 5,
+            "revision": 1,
+            "sha256": "2e98545c516c6d7b5a8021e31bfed59562aa30bf07ff4a23f3227ed686be0bf3"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
