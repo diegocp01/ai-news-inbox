@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 2,
-  "updated_at": "2026-09-30T16:32:24.434666+00:00",
-  "next_id": 3,
+  "generation": 3,
+  "updated_at": "2026-09-30T16:35:16.708175+00:00",
+  "next_id": 4,
   "records": [
     {
       "id": 1,
@@ -37,6 +37,19 @@
             "evidence_sha256": "59553c7f471d8efc7afbb27c2ab176fd01492950d2e25d5ae9b2d044079e0e82",
             "image_verification": "preserved_prior_final_output_no_fresh_check"
           }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "revisions": [
+        {
+          "created_at": "2026-09-30T16:35:16.708175+00:00",
+          "block": "Title: Meta Disputes Muse Message-Access Allegation\nURL: https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/\nImage URL: https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200\nSummary: Meta disputes journalist Jason Aten’s claim that its Muse AI agent read his private Mac messages without permission. Aten says Full Disk Access was disabled; Meta says users must enable both that permission and the Messages connector before the app can read messages.",
+          "sha256": "3756640fd1a81d8beacb3cba784274cc894f75f96bc4582ef0922e9517838bf0",
+          "source": "TechCrunch",
+          "request_id": "7f9fa03e5cd30210ebfa68aa533aec23e8f9ba48b9d29b238e8838e24e957c2e",
+          "mode": "standard"
         }
       ]
     }
@@ -79,13 +92,21 @@
       "evidence_sha256": "59553c7f471d8efc7afbb27c2ab176fd01492950d2e25d5ae9b2d044079e0e82"
     },
     "7f9fa03e5cd30210ebfa68aa533aec23e8f9ba48b9d29b238e8838e24e957c2e": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-09-30T16:32:24.434666+00:00",
       "received_sequence": 3,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-09-30T16:35:16.708175+00:00",
+      "records": [
+        {
+          "id": 3,
+          "revision": 1,
+          "sha256": "3756640fd1a81d8beacb3cba784274cc894f75f96bc4582ef0922e9517838bf0"
+        }
+      ]
     }
   },
   "batches": {},
@@ -106,6 +127,21 @@
       "result": {
         "status": "received",
         "request_id": "7f9fa03e5cd30210ebfa68aa533aec23e8f9ba48b9d29b238e8838e24e957c2e"
+      }
+    },
+    "8068204b450f0874c40345674bee6e57d16a337d09e7d4847cef138940dace73": {
+      "sha256": "fa9037948ea9ee18fd017731d1812d7f234413e7099a578070a0ca6b19535868",
+      "result": {
+        "status": "finalized",
+        "request_id": "7f9fa03e5cd30210ebfa68aa533aec23e8f9ba48b9d29b238e8838e24e957c2e",
+        "records": [
+          {
+            "id": 3,
+            "revision": 1,
+            "sha256": "3756640fd1a81d8beacb3cba784274cc894f75f96bc4582ef0922e9517838bf0"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
