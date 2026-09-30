@@ -1,5 +1,5 @@
 {
   "trusted_preprocessed_route_sha256": [],
-  "compilation_enabled": false,
-  "cutover_confirmation_sha256": null
+  "compilation_enabled": true,
+  "cutover_confirmation_sha256": "aaf9c3473a3cd380753a74ef6055b868e87b35cb8bb2c8d36915d493dcd716ee"
 }
