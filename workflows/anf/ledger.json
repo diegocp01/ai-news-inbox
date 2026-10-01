@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 20,
-  "updated_at": "2026-10-01T11:33:45.615193+00:00",
+  "generation": 21,
+  "updated_at": "2026-10-01T12:57:38.762386+00:00",
   "next_id": 12,
   "records": [
     {
@@ -358,8 +358,88 @@
       "corrects_record_id": null
     }
   },
-  "batches": {},
-  "pending_batch_id": null,
+  "batches": {
+    "67144aee9d333f6dfd1b423a": {
+      "batch_id": "67144aee9d333f6dfd1b423a",
+      "status": "prepared",
+      "checkpoint_before": 0,
+      "prepared_at": "2026-10-01T12:57:38.762386+00:00",
+      "intake_cutoff": 12,
+      "records": [
+        {
+          "id": 1,
+          "revision": 1,
+          "sha256": "4a57cbbaaf4cf8ac633abc20c24efa9f588f62cde990a1e970607d59e1387457"
+        },
+        {
+          "id": 2,
+          "revision": 1,
+          "sha256": "bc786399e56b6c538ce2c5a1add50470676ecf893ec2d9bd81b4f3439585fecd"
+        },
+        {
+          "id": 3,
+          "revision": 1,
+          "sha256": "3756640fd1a81d8beacb3cba784274cc894f75f96bc4582ef0922e9517838bf0"
+        },
+        {
+          "id": 4,
+          "revision": 1,
+          "sha256": "ab9a41eaebfd5f253f76dbf01260871cbe6b1e1781d292ea2b901c0cc3ef51e9"
+        },
+        {
+          "id": 5,
+          "revision": 1,
+          "sha256": "2e98545c516c6d7b5a8021e31bfed59562aa30bf07ff4a23f3227ed686be0bf3"
+        },
+        {
+          "id": 6,
+          "revision": 1,
+          "sha256": "2db14388d9a7b82d0ad5787f9fdb0d59795e5c70e3a10afcb8bda57272be2291"
+        },
+        {
+          "id": 7,
+          "revision": 1,
+          "sha256": "a554a42c1bddb0360716c4216435db2989ad3050dd3060578622125fe03bda5b"
+        },
+        {
+          "id": 8,
+          "revision": 1,
+          "sha256": "55d146c2e46c768933d5caa19e07a823f5e1c9084e1f2c3fad4f0bad532d0335"
+        },
+        {
+          "id": 9,
+          "revision": 1,
+          "sha256": "4b82d6cd32662a324a3fe91e7d2736479b2ef834a924a41015e8f35274ea2d6b"
+        },
+        {
+          "id": 10,
+          "revision": 1,
+          "sha256": "bc74ea988ee26fbb367e6ca4aa394d4fe68a06d20eebed7b1c973e5a8d5cae5b"
+        },
+        {
+          "id": 11,
+          "revision": 1,
+          "sha256": "f12257538e2723feaf0191d996068ca05b9b3d9d3bbe31196ddb34f6c8ad5c89"
+        }
+      ],
+      "first_id": 1,
+      "last_id": 11,
+      "count": 11,
+      "txt_path": "workflows/anf/batches/67144aee9d333f6dfd1b423a.txt",
+      "json_path": "workflows/anf/batches/67144aee9d333f6dfd1b423a.json",
+      "txt_sha256": "3da0293abc90079244a9cbc387b7551d6ffdafcaf19c2f2ab5e1285db089735b",
+      "json_sha256": "6a202d6c3212392e7ffc7e582578d63f05d0fb550f0cd69fe5602440868268b8",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "eligibility_at": "2026-10-01T12:00:00+00:00",
+      "deferred_request_ids": [
+        "2433d4721acdf2483e2a6562730c7bcaef34838f2f7bd2e1feeba8eff159ffaf"
+      ]
+    }
+  },
+  "pending_batch_id": "67144aee9d333f6dfd1b423a",
   "replacement_batch": null,
   "checkpoint": 0,
   "checkpoint_history": [],
@@ -574,6 +654,92 @@
       "result": {
         "status": "received",
         "request_id": "2433d4721acdf2483e2a6562730c7bcaef34838f2f7bd2e1feeba8eff159ffaf"
+      }
+    },
+    "f40220e8b48810c28ad407d657345c5a0f2d9f87153425898c9660ca6488a4e8": {
+      "sha256": "361b0d8d4109e94608f7a5bd99e4c57a25ac17c570a4d9ec029a054805befbab",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "67144aee9d333f6dfd1b423a",
+          "status": "prepared",
+          "checkpoint_before": 0,
+          "prepared_at": "2026-10-01T12:57:38.762386+00:00",
+          "intake_cutoff": 12,
+          "records": [
+            {
+              "id": 1,
+              "revision": 1,
+              "sha256": "4a57cbbaaf4cf8ac633abc20c24efa9f588f62cde990a1e970607d59e1387457"
+            },
+            {
+              "id": 2,
+              "revision": 1,
+              "sha256": "bc786399e56b6c538ce2c5a1add50470676ecf893ec2d9bd81b4f3439585fecd"
+            },
+            {
+              "id": 3,
+              "revision": 1,
+              "sha256": "3756640fd1a81d8beacb3cba784274cc894f75f96bc4582ef0922e9517838bf0"
+            },
+            {
+              "id": 4,
+              "revision": 1,
+              "sha256": "ab9a41eaebfd5f253f76dbf01260871cbe6b1e1781d292ea2b901c0cc3ef51e9"
+            },
+            {
+              "id": 5,
+              "revision": 1,
+              "sha256": "2e98545c516c6d7b5a8021e31bfed59562aa30bf07ff4a23f3227ed686be0bf3"
+            },
+            {
+              "id": 6,
+              "revision": 1,
+              "sha256": "2db14388d9a7b82d0ad5787f9fdb0d59795e5c70e3a10afcb8bda57272be2291"
+            },
+            {
+              "id": 7,
+              "revision": 1,
+              "sha256": "a554a42c1bddb0360716c4216435db2989ad3050dd3060578622125fe03bda5b"
+            },
+            {
+              "id": 8,
+              "revision": 1,
+              "sha256": "55d146c2e46c768933d5caa19e07a823f5e1c9084e1f2c3fad4f0bad532d0335"
+            },
+            {
+              "id": 9,
+              "revision": 1,
+              "sha256": "4b82d6cd32662a324a3fe91e7d2736479b2ef834a924a41015e8f35274ea2d6b"
+            },
+            {
+              "id": 10,
+              "revision": 1,
+              "sha256": "bc74ea988ee26fbb367e6ca4aa394d4fe68a06d20eebed7b1c973e5a8d5cae5b"
+            },
+            {
+              "id": 11,
+              "revision": 1,
+              "sha256": "f12257538e2723feaf0191d996068ca05b9b3d9d3bbe31196ddb34f6c8ad5c89"
+            }
+          ],
+          "first_id": 1,
+          "last_id": 11,
+          "count": 11,
+          "txt_path": "workflows/anf/batches/67144aee9d333f6dfd1b423a.txt",
+          "json_path": "workflows/anf/batches/67144aee9d333f6dfd1b423a.json",
+          "txt_sha256": "3da0293abc90079244a9cbc387b7551d6ffdafcaf19c2f2ab5e1285db089735b",
+          "json_sha256": "6a202d6c3212392e7ffc7e582578d63f05d0fb550f0cd69fe5602440868268b8",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "eligibility_at": "2026-10-01T12:00:00+00:00",
+          "deferred_request_ids": [
+            "2433d4721acdf2483e2a6562730c7bcaef34838f2f7bd2e1feeba8eff159ffaf"
+          ]
+        }
       }
     }
   },

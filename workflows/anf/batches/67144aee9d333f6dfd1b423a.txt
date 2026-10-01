@@ -1,0 +1,60 @@
+Title: OpenAI Launches Dots, Always-On Personal AI Agents
+URL: https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/
+Image URL: https://techcrunch.com/wp-content/uploads/2026/09/Screenshot-2026-09-29-at-1.16.22-PM.jpg?w=988
+Summary: OpenAI is rolling out GPT-6 Astra-powered Dots to Pro and Business Premium users in eligible markets, with an admin-enabled Enterprise beta. Each agent has a cloud computer and works across connected apps, ChatGPT, Slack, and Teams. One Dot is included; conversations do not consume ChatGPT limits, but delegated Codex and ChatGPT Work tasks do. Unprompted proactive research is read-only.
+
+Title: OpenAI DevDay Expands Agents, Cloud Coding, and Collaboration
+URL: https://runtimewire.com/article/everything-openai-announced-at-the-devday-2026-keynote
+Image URL: https://runtimewire.com/og/everything-openai-announced-at-the-devday-2026-keynote.16x9.jpg?v=og2-16f559n
+Summary: OpenAI unveiled Dots, ChatGPT Space, GPT-6.1 Sol, Astra Ultrafast, and a $500 Pro tier with 25× Plus usage. Codex gained reusable cloud environments and a redesigned CLI; local execution remains supported. Dots also serves business and enterprise plans, not just Pro. Decisions API enters limited preview, while Agents API remains in public beta with new computer-use capabilities.
+
+Title: Meta Disputes Muse Message-Access Allegation
+URL: https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/
+Image URL: https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200
+Summary: Meta disputes journalist Jason Aten’s claim that its Muse AI agent read his private Mac messages without permission. Aten says Full Disk Access was disabled; Meta says users must enable both that permission and the Messages connector before the app can read messages.
+
+Title: Cursor Adds Inline Charts and Diagrams With /visualize
+URL: https://vibecoding.tech/news/2026/09/29/cursor-visualize-charts-chat
+Image URL: https://vibecoding.tech/news/2026/09/29/cursor-visualize-charts-chat/opengraph-image
+Summary: Cursor says its /visualize command can analyze data and generate charts and diagrams directly inside chat. The feature is available in the Agents Window, letting users view visual answers inline within their conversation.
+
+Title: Google announces Gemini 4 Argon with phased rollout
+URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png
+Summary: Google announced Gemini 4 Argon, initially rolling out to trusted cyber defenders through its Fairwind Program. Google says the model supports up to one million output tokens for complex coding, enterprise work and cybersecurity defense. Broader access remains pending safety testing, with paid API customers and Google AI Ultra subscribers first in line.
+
+Title: Grok Bot Expands Software Development Workflows
+URL:
+Image URL: https://us1.discourse-cdn.com/cursor1/optimized/3X/a/8/a8e7e0e3458205b6145d5c77795027f97f654a28_2_1024x576.jpeg
+Summary: Grok Bot says its AI teammates can delegate coding tasks to Cursor, manage pull requests through GitHub and Origin plugins, and send video demonstrations of the software they build.
+
+Title: OpenAI Introduces Shareable ChatGPT Profiles for Sites and Plugins
+URL: https://techbytes.app/posts/chatgpt-shareable-profiles-sites-connected-plugins/
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/aB63r2gBV8LU2iVdqe8gi/fb99275504cecc014ddcad1c98cbbc17/SHAREABLE_PROFILES_PMM_Deanna_.png?w=1920&q=90&fm=webp
+Summary: OpenAI is rolling out shareable ChatGPT profiles that bring Sites and plugins together for discovery and reuse. Shared skills remain within workspaces. The feature is available to Free, Go, Plus, Pro, and Business users on web and desktop, with Enterprise support coming soon.
+
+Title: Alpha Opens AI-Driven School in Chicago
+URL: https://www.cbsnews.com/video/teacherless-ai-driven-school-opens-in-chicago/
+Image URL: https://assets3.cbsnewsstatic.com/hub/i/r/2026/09/30/5d4c08d6-3266-4828-9847-ee1927465969/thumbnail/1200x630/75ce3429e06926a2fdbdbe33be60629d/cbsn-fusion-teacherless-ai-driven-school-opens-in-chicago-thumbnail.jpg
+Summary: Alpha’s Chicago campus opened September 8, offering AI-led core lessons and human guides. The school claims students can master core subjects in two hours daily, leaving afternoons for life skills. CBS reports growing opposition to classroom AI; Brookings researcher Rebecca Winthrop says Alpha’s claimed results lack clear independent validation.
+
+Title: Hegseth Announces AI and Autonomous Warfare Command
+URL: https://abcnews.com/Politics/hegseth-targets-militarys-top-brass-deeper-cuts-officials/story?id=136867592
+Image URL: https://i.abcnewsfe.com/a/69648bd7-26f8-473f-93b6-8cf3834731dd/hegseth-3-rt-gmh-260930_1790798566290_hpMain_16x9.jpg?w=1600
+Summary: Pete Hegseth announced plans for AUTOWARCOM, a new four-star military command intended to expand autonomous systems, drones and AI across U.S. forces. In his State of the Force address, he also described a 20% reduction across senior military officer ranks and positions.
+
+Title: OpenAI Opens ChatGPT to Native Plugin Experiences
+URL: https://learnetto.com/openai-devday-2026-announcements
+Image URL: https://developers.openai.com/images/apps-sdk/extensions/chatgpt-plugin-surfaces.webp
+Summary: OpenAI introduced plugin extensions that let developers build sidebar apps, interactive conversation panels and file viewers inside ChatGPT. The company says its platform reaches 1.2 billion weekly users, with improved recommendations surfacing relevant plugins in conversations. Users choose which plugins to use and approve their access.
+
+Title: ChatGPT Space Adds Collaborative Pages and Shared File Storage
+URL: https://venturebeat.com/technology/openai-launches-dots-always-on-ai-agent-coworkers-and-chatgpt-space-where-they-can-collaborate-with-human-teams
+Image URL: https://images.ctfassets.net/8su2tbn87fck/2vNA5pJy6IlMdh7bmq5BSD/5c597e5783768cef326754d07405647a/module_5_Alfred-collab_1x1_V4.png?fm=webp&q=80&w=1144
+Summary: OpenAI introduced ChatGPT Space, replacing Library for Pro, Business and Enterprise users. Its Pages combine editable text, images, charts and interactive tools with real-time collaboration. Users can @mention ChatGPT or their dot in comments to request changes or next steps. Page creation and editing are available on web and desktop.
+
+
+
+
+
+.
