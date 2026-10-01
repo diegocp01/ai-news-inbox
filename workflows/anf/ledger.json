@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 23,
-  "updated_at": "2026-10-01T13:00:36.156376+00:00",
+  "generation": 24,
+  "updated_at": "2026-10-01T13:04:42.465532+00:00",
   "next_id": 12,
   "records": [
     {
@@ -361,7 +361,7 @@
   "batches": {
     "67144aee9d333f6dfd1b423a": {
       "batch_id": "67144aee9d333f6dfd1b423a",
-      "status": "published",
+      "status": "delivered",
       "checkpoint_before": 0,
       "prepared_at": "2026-10-01T12:57:38.762386+00:00",
       "intake_cutoff": 12,
@@ -430,14 +430,24 @@
       "txt_sha256": "3da0293abc90079244a9cbc387b7551d6ffdafcaf19c2f2ab5e1285db089735b",
       "json_sha256": "6a202d6c3212392e7ffc7e582578d63f05d0fb550f0cd69fe5602440868268b8",
       "delivery": {
-        "status": "in_flight",
+        "status": "accepted",
         "attempts": [
           {
             "attempt_id": "ba143308ba464e21e04134006fc2c32f313e92ef1e45d4d30b779f76b9d9183d",
             "started_at": "2026-10-01T13:00:36.156376+00:00",
-            "status": "in_flight",
+            "status": "accepted",
             "target_sha256": "ad7073dc3a984f7e003bc8f7772de35618c9d4ce0960670eaf722652a4531d48",
-            "publication_observed_head": "814ba9cd30795eeda2bfda0b4624b2e6c8eca89a"
+            "publication_observed_head": "814ba9cd30795eeda2bfda0b4624b2e6c8eca89a",
+            "receipt": {
+              "channel": "chatgpt",
+              "accepted": true,
+              "accepted_at": "2026-10-01T13:03:42.471646+00:00",
+              "attachment_sha256": "3da0293abc90079244a9cbc387b7551d6ffdafcaf19c2f2ab5e1285db089735b",
+              "target_sha256": "ad7073dc3a984f7e003bc8f7772de35618c9d4ce0960670eaf722652a4531d48",
+              "message_receipt_sha256": "69e21a9ddf72632277453c795c1e754c049946e25ca71aab985a999ecf5250ad",
+              "native_attachment_receipt_sha256": "9b9ab61a54e9ed9f6b340a044b4d62b2f015fdc85f2327f6b380e19370185a51"
+            },
+            "outcome_at": "2026-10-01T13:04:42.465532+00:00"
           }
         ]
       },
@@ -450,13 +460,31 @@
         "sha256": "6a202d6c3212392e7ffc7e582578d63f05d0fb550f0cd69fe5602440868268b8",
         "published_at": "2026-10-01T12:59:18.165877+00:00",
         "planned_from_head": "6413ffb39c331bc8b84d23177cfae9f7fcf3252a"
-      }
+      },
+      "acknowledged_at": "2026-10-01T13:04:42.465532+00:00"
     }
   },
-  "pending_batch_id": "67144aee9d333f6dfd1b423a",
+  "pending_batch_id": null,
   "replacement_batch": null,
-  "checkpoint": 0,
-  "checkpoint_history": [],
+  "checkpoint": 11,
+  "checkpoint_history": [
+    {
+      "kind": "delivery_acknowledgment",
+      "before": 0,
+      "checkpoint": 11,
+      "at": "2026-10-01T13:04:42.465532+00:00",
+      "batch_id": "67144aee9d333f6dfd1b423a",
+      "receipt": {
+        "channel": "chatgpt",
+        "accepted": true,
+        "accepted_at": "2026-10-01T13:03:42.471646+00:00",
+        "attachment_sha256": "3da0293abc90079244a9cbc387b7551d6ffdafcaf19c2f2ab5e1285db089735b",
+        "target_sha256": "ad7073dc3a984f7e003bc8f7772de35618c9d4ce0960670eaf722652a4531d48",
+        "message_receipt_sha256": "69e21a9ddf72632277453c795c1e754c049946e25ca71aab985a999ecf5250ad",
+        "native_attachment_receipt_sha256": "9b9ab61a54e9ed9f6b340a044b4d62b2f015fdc85f2327f6b380e19370185a51"
+      }
+    }
+  ],
   "operations": {
     "initialize_forward_only_anf": {
       "sha256": "9171e66f95da13b8f309b8d64cff624101c0742c02cfbb349ed6adae5894021e",
@@ -777,6 +805,20 @@
         "attempt_id": "ba143308ba464e21e04134006fc2c32f313e92ef1e45d4d30b779f76b9d9183d",
         "txt_path": "workflows/anf/batches/67144aee9d333f6dfd1b423a.txt",
         "txt_sha256": "3da0293abc90079244a9cbc387b7551d6ffdafcaf19c2f2ab5e1285db089735b"
+      }
+    },
+    "a7def00b00c05e24be09870a27b3afad8407912034ae41afc447fa3a3adab313": {
+      "sha256": "a7ddd93b7e08735c65b89d36e336dd1a34789e9f24c13dcdd709726bf610449d",
+      "result": {
+        "status": "acknowledgment_planned",
+        "checkpoint": 11,
+        "batch_id": "67144aee9d333f6dfd1b423a",
+        "publication": {
+          "path": "items/2026-10-01.json",
+          "sha256": "6a202d6c3212392e7ffc7e582578d63f05d0fb550f0cd69fe5602440868268b8",
+          "published_at": "2026-10-01T12:59:18.165877+00:00",
+          "planned_from_head": "6413ffb39c331bc8b84d23177cfae9f7fcf3252a"
+        }
       }
     }
   },
