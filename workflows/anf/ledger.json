@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 12,
-  "updated_at": "2026-10-01T02:11:17.167357+00:00",
-  "next_id": 8,
+  "generation": 13,
+  "updated_at": "2026-10-01T02:12:53.104000+00:00",
+  "next_id": 9,
   "records": [
     {
       "id": 1,
@@ -101,6 +101,19 @@
           "sha256": "a554a42c1bddb0360716c4216435db2989ad3050dd3060578622125fe03bda5b",
           "source": "Tech Bytes",
           "request_id": "6eb46582f71aa5bb8a8ee17168b720b397ee339ddceeb4b0b449e8467fa3581f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "revisions": [
+        {
+          "created_at": "2026-10-01T02:12:53.104000+00:00",
+          "block": "Title: Alpha Opens AI-Driven School in Chicago\nURL: https://www.cbsnews.com/video/teacherless-ai-driven-school-opens-in-chicago/\nImage URL: https://assets3.cbsnewsstatic.com/hub/i/r/2026/09/30/5d4c08d6-3266-4828-9847-ee1927465969/thumbnail/1200x630/75ce3429e06926a2fdbdbe33be60629d/cbsn-fusion-teacherless-ai-driven-school-opens-in-chicago-thumbnail.jpg\nSummary: Alpha’s Chicago campus opened September 8, offering AI-led core lessons and human guides. The school claims students can master core subjects in two hours daily, leaving afternoons for life skills. CBS reports growing opposition to classroom AI; Brookings researcher Rebecca Winthrop says Alpha’s claimed results lack clear independent validation.",
+          "sha256": "55d146c2e46c768933d5caa19e07a823f5e1c9084e1f2c3fad4f0bad532d0335",
+          "source": "CBS News",
+          "request_id": "d2462b8be5c0603a84fceef4cb713fef17a42f4149c9d1e46b785765cb6b8935",
           "mode": "standard"
         }
       ]
@@ -229,13 +242,21 @@
       ]
     },
     "d2462b8be5c0603a84fceef4cb713fef17a42f4149c9d1e46b785765cb6b8935": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-01T02:11:17.167357+00:00",
       "received_sequence": 8,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-01T02:12:53.104000+00:00",
+      "records": [
+        {
+          "id": 8,
+          "revision": 1,
+          "sha256": "55d146c2e46c768933d5caa19e07a823f5e1c9084e1f2c3fad4f0bad532d0335"
+        }
+      ]
     }
   },
   "batches": {},
@@ -366,6 +387,21 @@
       "result": {
         "status": "received",
         "request_id": "d2462b8be5c0603a84fceef4cb713fef17a42f4149c9d1e46b785765cb6b8935"
+      }
+    },
+    "21eaffdaa28876328cbcffe84683e03137f681f28bb573f6f758d3f2b6109231": {
+      "sha256": "49edc37034084c901404bf81625eb031ea7b43282af45721409ed55099c0c841",
+      "result": {
+        "status": "finalized",
+        "request_id": "d2462b8be5c0603a84fceef4cb713fef17a42f4149c9d1e46b785765cb6b8935",
+        "records": [
+          {
+            "id": 8,
+            "revision": 1,
+            "sha256": "55d146c2e46c768933d5caa19e07a823f5e1c9084e1f2c3fad4f0bad532d0335"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
