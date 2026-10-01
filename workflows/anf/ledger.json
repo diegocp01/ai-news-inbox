@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 14,
-  "updated_at": "2026-10-01T02:28:28.861154+00:00",
-  "next_id": 9,
+  "generation": 15,
+  "updated_at": "2026-10-01T02:30:10.224028+00:00",
+  "next_id": 10,
   "records": [
     {
       "id": 1,
@@ -114,6 +114,19 @@
           "sha256": "55d146c2e46c768933d5caa19e07a823f5e1c9084e1f2c3fad4f0bad532d0335",
           "source": "CBS News",
           "request_id": "d2462b8be5c0603a84fceef4cb713fef17a42f4149c9d1e46b785765cb6b8935",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "revisions": [
+        {
+          "created_at": "2026-10-01T02:30:10.224028+00:00",
+          "block": "Title: Hegseth Announces AI and Autonomous Warfare Command\nURL: https://abcnews.com/Politics/hegseth-targets-militarys-top-brass-deeper-cuts-officials/story?id=136867592\nImage URL: https://i.abcnewsfe.com/a/69648bd7-26f8-473f-93b6-8cf3834731dd/hegseth-3-rt-gmh-260930_1790798566290_hpMain_16x9.jpg?w=1600\nSummary: Pete Hegseth announced plans for AUTOWARCOM, a new four-star military command intended to expand autonomous systems, drones and AI across U.S. forces. In his State of the Force address, he also described a 20% reduction across senior military officer ranks and positions.",
+          "sha256": "4b82d6cd32662a324a3fe91e7d2736479b2ef834a924a41015e8f35274ea2d6b",
+          "source": "ABC News",
+          "request_id": "f4a2e943422c31b29ecbc1f4e2c6da07f574aa4cd84de10714c51eeecd2ba147",
           "mode": "standard"
         }
       ]
@@ -259,13 +272,21 @@
       ]
     },
     "f4a2e943422c31b29ecbc1f4e2c6da07f574aa4cd84de10714c51eeecd2ba147": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-01T02:28:28.861154+00:00",
       "received_sequence": 9,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-01T02:30:10.224028+00:00",
+      "records": [
+        {
+          "id": 9,
+          "revision": 1,
+          "sha256": "4b82d6cd32662a324a3fe91e7d2736479b2ef834a924a41015e8f35274ea2d6b"
+        }
+      ]
     }
   },
   "batches": {},
@@ -418,6 +439,21 @@
       "result": {
         "status": "received",
         "request_id": "f4a2e943422c31b29ecbc1f4e2c6da07f574aa4cd84de10714c51eeecd2ba147"
+      }
+    },
+    "a42e2255ef9a0e4d7efa535959e3b26b1011e8f2fe97cf8806fd1319ce62b02a": {
+      "sha256": "41532699444fc22c21c865045e8090a0ec277cd4b9e01230b18ac07584b78bcd",
+      "result": {
+        "status": "finalized",
+        "request_id": "f4a2e943422c31b29ecbc1f4e2c6da07f574aa4cd84de10714c51eeecd2ba147",
+        "records": [
+          {
+            "id": 9,
+            "revision": 1,
+            "sha256": "4b82d6cd32662a324a3fe91e7d2736479b2ef834a924a41015e8f35274ea2d6b"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
