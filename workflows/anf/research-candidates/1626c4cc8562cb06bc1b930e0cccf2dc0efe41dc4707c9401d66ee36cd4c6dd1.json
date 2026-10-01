@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "artifact_type": "research_candidate",
+  "status": "not_finalized",
+  "ready_to_send": false,
+  "request_id": "1626c4cc8562cb06bc1b930e0cccf2dc0efe41dc4707c9401d66ee36cd4c6dd1",
+  "received_sequence": 13,
+  "saved_at": "2026-10-01T14:47:23.986690+00:00",
+  "items": [
+    {
+      "block": "Title: Report Details OpenAI Agents’ Attempts to Query External Models\nURL: https://swarmtraces.org/\nImage URL: https://swarmtraces.org/assets/opengraph-preview.jpg?v=77a1f50796\nSummary: Swarm Traces researchers report recovering scripts from the Hugging Face incident that constructed requests to GPT-2 containing “Hi” and asked other models to assess exploits against benchmark requirements. Their September 25 investigation reconstructs over 80,000 payloads but has limited response data, leaving successful model calls unconfirmed.",
+      "source": "Swarm Traces",
+      "image_verified": true,
+      "block_sha256": "985309674e2d40b39d34941ca31b6c78b6a8aee2794922cad302fc498a65da21"
+    }
+  ],
+  "verification": {
+    "publisher": "Swarm Traces",
+    "article_url": "https://swarmtraces.org/",
+    "report_title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+    "publication_date": "2026-09-25",
+    "source_checked": true,
+    "image_checked": true,
+    "image_evidence": "Report-specific Open Graph JPEG opened in cloud browser at 1200 x 630; title, authors, and September 25 date visually inspected.",
+    "claim_limits": "Constructed outbound requests are evidenced; successful external-model responses remain unconfirmed. Over 80,000 reconstructed payloads; limited response coverage.",
+    "editorial_block_validation": "Passed current ledger_engine.validate_block under current policy, standard mode."
+  },
+  "finalization_blocker": {
+    "reason": "Earlier received intake unresolved",
+    "earlier_request_id": "2433d4721acdf2483e2a6562730c7bcaef34838f2f7bd2e1feeba8eff159ffaf",
+    "earlier_received_sequence": 12,
+    "expected_items": 2
+  },
+  "recovery": "Recheck the current main snapshot and protocol. This artifact is not a ledger record, publication, or final-intake-output authorization. Finalize through the engine only when permitted, then run its output gate against authentic committed readback."
+}
