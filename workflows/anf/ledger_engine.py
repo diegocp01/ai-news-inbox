@@ -399,9 +399,14 @@ def active_request(state, operation):
     require(request_id in state["requests"], "Receive intake durably before processing it")
     request = state["requests"][request_id]
     require(request["status"] == "received", "Intake is already resolved; use its existing durable result")
-    earlier = [key for key, value in state["requests"].items() if value["status"] == "received"
+    # Independent requests finish independently. Only competing corrections to
+    # the same record retain ingress order, preventing stale results overwrites.
+    target = request.get("corrects_record_id")
+    earlier = [key for key, value in state["requests"].items() if target is not None
+               and value["status"] == "received"
+               and value.get("corrects_record_id") == target
                and value["received_sequence"] < request["received_sequence"]]
-    require(not earlier, "Finalize earlier received intakes first: " + ", ".join(earlier))
+    require(not earlier, "Finalize earlier received corrections for this record first: " + ", ".join(earlier))
     return request_id, request
 
 

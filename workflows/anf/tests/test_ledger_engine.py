@@ -195,15 +195,17 @@ class LedgerTests(unittest.TestCase):
         with self.assertRaisesRegex(e.LedgerError, 'Unresolved intakes'):
             self.repo.execute('publish', batch_id=batch)
 
-    def test_finalize_respects_durable_receive_order(self):
+    def test_finalize_preserves_receive_provenance_and_uses_completion_order(self):
         self.repo.execute('receive', request_id='first')
+        first = copy.deepcopy(self.repo.state['requests']['first'])
         self.repo.execute('receive', request_id='second')
-        with self.assertRaisesRegex(e.LedgerError, 'earlier received'):
-            self.repo.execute('finalize', request_id='second', items=[{'block': block('Second'), 'image_verified': True}])
-        self.repo.execute('finalize', request_id='first', items=[{'block': block('First'), 'image_verified': True}])
         self.repo.execute('finalize', request_id='second', items=[{'block': block('Second'), 'image_verified': True}])
-        self.assertIn('First', self.repo.state['records'][0]['revisions'][0]['block'])
-        self.assertIn('Second', self.repo.state['records'][1]['revisions'][0]['block'])
+        self.assertEqual(self.repo.state['requests']['first'], first)
+        self.repo.execute('finalize', request_id='first', items=[{'block': block('First'), 'image_verified': True}])
+        self.assertIn('Second', self.repo.state['records'][0]['revisions'][0]['block'])
+        self.assertIn('First', self.repo.state['records'][1]['revisions'][0]['block'])
+        self.assertEqual(self.repo.state['requests']['first']['received_sequence'], 1)
+        self.assertEqual(self.repo.state['requests']['second']['received_sequence'], 2)
 
     def test_reconciliation_cannot_drop_expected_items(self):
         self.repo.add()

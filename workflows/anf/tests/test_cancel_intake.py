@@ -50,8 +50,7 @@ class CancelIntakeTests(unittest.TestCase):
 
     def test_next_intake_can_finalize_after_cancellation(self):
         self.repo.execute('receive', request_id='tomorrow')
-        with self.assertRaisesRegex(e.LedgerError, 'earlier'):
-            self.repo.execute('finalize', request_id='tomorrow', items=[{'block':block(), 'image_verified':True}])
+        self.assertEqual(self.repo.state['requests']['abandoned']['status'], 'received')
         self.cancel()
         result = self.repo.execute('finalize', request_id='tomorrow', items=[{'block':block(), 'image_verified':True}])
         self.assertEqual(result['records'][0]['id'], 1)
@@ -116,13 +115,15 @@ class CancelIntakeTests(unittest.TestCase):
             with self.subTest(mutate=mutate), self.assertRaises(e.LedgerError):
                 e.plan(snapshot, {'kind':'status'})
 
-    def test_another_unresolved_intake_remains_blocking(self):
+    def test_another_unresolved_intake_remains_preserved(self):
         self.repo.execute('receive', request_id='other')
         self.repo.execute('receive', request_id='third')
         self.cancel()
         self.assertEqual(e.plan(self.repo.snapshot(), {'kind':'status'})['result']['unresolved_requests'], ['other','third'])
-        with self.assertRaisesRegex(e.LedgerError, 'earlier'):
-            self.repo.execute('finalize', request_id='third', items=[{'block':block(), 'image_verified':True}])
+        before = copy.deepcopy(self.repo.state['requests']['other'])
+        self.repo.execute('finalize', request_id='third', items=[{'block':block(), 'image_verified':True}])
+        self.assertEqual(self.repo.state['requests']['other'], before)
+        self.assertEqual(self.repo.state['requests']['abandoned']['status'], 'cancelled')
 
     def test_pending_deferred_batch_bytes_and_publication_unchanged(self):
         self.repo = Repository().initialize()
