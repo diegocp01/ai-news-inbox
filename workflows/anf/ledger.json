@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 30,
-  "updated_at": "2026-10-01T19:09:18.374698+00:00",
-  "next_id": 15,
+  "generation": 31,
+  "updated_at": "2026-10-01T19:12:52.848315+00:00",
+  "next_id": 16,
   "records": [
     {
       "id": 1,
@@ -192,6 +192,19 @@
           "sha256": "c18ff8c068cb1ad56d8bec110e9508d4b07da016fd620908fb200828f42ef946",
           "source": "arXiv",
           "request_id": "bf48d53f38bf1a7f102f1d960b423ade5827ff2b241292041c6ab0ac36d03d215",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "revisions": [
+        {
+          "created_at": "2026-10-01T19:12:52.848315+00:00",
+          "block": "Title: Tavus previews Griffin for real-time AI video conversations\nURL: https://www.tavus.io/griffin\nImage URL: https://mms.businesswire.com/media/20261001092598/en/2919928/5/Master_7.gif\nSummary: Tavus introduced Griffin, a full-duplex AI model for real-time video conversations, with Griffin-Lite limited to selected research testers. The company reports that 26 of 54 participants mistook it for a human after one-minute calls. NVIDIA’s VideoFDB lists Griffin-Lite highest among evaluated AI systems on generation and perception scores.",
+          "sha256": "917baa1b98b740074376fccf0184a9da6f3e77f762a555b8664ec5709e5094e0",
+          "source": "Tavus",
+          "request_id": "ede10fcfe9ae68cff54eea61ff3007d5f13de5196916e3eeef80601751d3d2cc",
           "mode": "standard"
         }
       ]
@@ -446,13 +459,21 @@
       ]
     },
     "ede10fcfe9ae68cff54eea61ff3007d5f13de5196916e3eeef80601751d3d2cc": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-01T19:09:18.374698+00:00",
       "received_sequence": 15,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-01T19:12:52.848315+00:00",
+      "records": [
+        {
+          "id": 15,
+          "revision": 1,
+          "sha256": "917baa1b98b740074376fccf0184a9da6f3e77f762a555b8664ec5709e5094e0"
+        }
+      ]
     }
   },
   "batches": {
@@ -982,6 +1003,21 @@
       "result": {
         "status": "received",
         "request_id": "ede10fcfe9ae68cff54eea61ff3007d5f13de5196916e3eeef80601751d3d2cc"
+      }
+    },
+    "e6d5259fd01b64de0893fcedcfc775aaefb3e35dae8afb90f46e08c6b69410a5": {
+      "sha256": "8a54b3b3c7b2222acfc806ac18c6b7a5fca45538f63140775d7c5e013badc941",
+      "result": {
+        "status": "finalized",
+        "request_id": "ede10fcfe9ae68cff54eea61ff3007d5f13de5196916e3eeef80601751d3d2cc",
+        "records": [
+          {
+            "id": 15,
+            "revision": 1,
+            "sha256": "917baa1b98b740074376fccf0184a9da6f3e77f762a555b8664ec5709e5094e0"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
