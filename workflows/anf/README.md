@@ -8,6 +8,8 @@ Compilation is enabled in the current `runtime_config.json`, with the recorded u
 
 Scheduled compilation passes the intended 08:00 New York boundary as UTC `eligibility_at`, including on delayed runs. It compiles the ready contiguous record prefix and explicitly defers unfinished intake without resolving or losing it. A pending correction to a selected record still blocks. Retries preserve an existing batch's membership, cutoffs and deferrals; acknowledgment advances only through that batch after accepted native TXT delivery.
 
+An abandoned received intake can be closed only with explicit user authorization through audited `cancel_intake`. It preserves ingress history and expected counts, adds no articles and never changes publications or checkpoints. Cancellation is terminal and cannot be replayed as finalization. See `runtime_protocol.md` for exact authorization, target-hash, atomic-CAS and fresh-readback requirements; routine failures must remain unresolved, not auto-cancelled.
+
 Run isolated tests:
 
 ```sh

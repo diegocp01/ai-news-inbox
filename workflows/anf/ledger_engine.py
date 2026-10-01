@@ -187,6 +187,20 @@ def find_duplicate(state, block):
     return None
 
 
+def validate_cancellation_operation(op):
+    require(isinstance(op, dict) and set(op) == {
+        "kind", "operation_id", "at", "request_id", "reason_code",
+        "authorization_sha256", "expected_request_sha256"}, "Invalid cancellation operation fields")
+    require(op["kind"] == "cancel_intake" and op["reason_code"] == "user_requested_cancellation",
+            "Cancellation requires explicit user authorization, not an automatic failure policy")
+    opaque(op["operation_id"], "operation ID")
+    opaque(op["request_id"], "request ID")
+    timestamp(op["at"])
+    sha(op["authorization_sha256"], "cancellation authorization hash")
+    require(op["authorization_sha256"] != "0" * 64, "Missing cancellation authorization evidence")
+    sha(op["expected_request_sha256"], "expected request hash")
+
+
 def verify_state(state, files):
     require(state.get("schema") == SCHEMA, "Unsupported ledger schema")
     if state.get("updated_at") is not None:
@@ -209,10 +223,30 @@ def verify_state(state, files):
             timestamp(rev.get("created_at"))
     for request_id, request in state["requests"].items():
         opaque(request_id, "request ID")
-        require(request.get("status") in {"received", "finalized", "reconciled"}, "Invalid intake status")
+        require(request.get("status") in {"received", "finalized", "reconciled", "cancelled"}, "Invalid intake status")
         require(integer(request.get("expected_items"), 1), "Invalid expected item count")
         require(integer(request.get("received_sequence"), 1), "Invalid intake ingress sequence")
-        if request["status"] != "received":
+        if request["status"] == "cancelled":
+            audit = request.get("cancellation")
+            validate_cancellation_operation(audit)
+            require(audit["request_id"] == request_id and not request.get("records"),
+                    "Cancelled intake cannot contain finalized records")
+            require(timestamp(request.get("cancelled_at")) == timestamp(audit["at"])
+                    and datetime.fromisoformat(timestamp(request["received_at"]))
+                    <= datetime.fromisoformat(request["cancelled_at"])
+                    <= datetime.fromisoformat(timestamp(state["updated_at"])), "Invalid cancellation chronology")
+            before = copy.deepcopy(request)
+            before.pop("cancellation")
+            before.pop("cancelled_at")
+            before["status"] = "received"
+            require(digest(canonical(before)) == audit["expected_request_sha256"],
+                    "Cancelled intake differs from authorized target state")
+            persisted = state["operations"].get(audit["operation_id"], {})
+            require(persisted.get("sha256") == digest(canonical(audit))
+                    and persisted.get("result") == {"status": "intake_cancelled", "request_id": request_id,
+                        "expected_items": request["expected_items"], "cancelled_at": request["cancelled_at"],
+                        "checkpoint_advanced": False}, "Cancellation audit operation is missing or altered")
+        elif request["status"] != "received":
             require(isinstance(request.get("records"), list) and len(request["records"]) == request["expected_items"],
                     "Resolved intake count differs from expected items")
             for ref in request["records"]:
@@ -221,6 +255,9 @@ def verify_state(state, files):
                         "Resolved intake has a missing revision")
                 require(record["revisions"][ref["revision"] - 1]["sha256"] == ref["sha256"],
                         "Resolved intake has a mismatched digest")
+        if request["status"] != "cancelled":
+            require("cancellation" not in request and "cancelled_at" not in request,
+                    "Cancelled intake cannot be reopened")
     for batch_id, batch in state["batches"].items():
         require(batch_id == batch.get("batch_id") and batch.get("status") in {
             "prepared", "published", "delivered", "superseded"}, "Invalid batch state")
@@ -526,6 +563,20 @@ def transition(state, files, op, policy, head, changes):
                                           "expected_items": count, "mode": mode, "trusted_route_sha256": trusted_route,
                                           "corrects_record_id": correction_target}
         return {"status": "received", "request_id": request_id}
+    if kind == "cancel_intake":
+        validate_cancellation_operation(op)
+        request_id = op["request_id"]
+        require(request_id in state["requests"], "Cancellation target does not exist")
+        request = state["requests"][request_id]
+        require(request["status"] == "received", "Only unresolved received intake can be cancelled")
+        require(not request.get("records") and not any(
+            rev.get("request_id") == request_id for record in state["records"] for rev in record["revisions"]),
+            "Cancellation cannot discard finalized records")
+        require(digest(canonical(request)) == op["expected_request_sha256"],
+                "Cancellation target changed; refetch and request new authorization")
+        request.update(status="cancelled", cancelled_at=now, cancellation=copy.deepcopy(op))
+        return {"status": "intake_cancelled", "request_id": request_id,
+                "expected_items": request["expected_items"], "cancelled_at": now, "checkpoint_advanced": False}
     if kind == "finalize":
         request_id, request = active_request(state, op)
         require(request.get("corrects_record_id") is None, "Use correct for a correction intake")
