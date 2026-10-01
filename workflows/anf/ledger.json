@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 26,
-  "updated_at": "2026-10-01T14:58:44.532640+00:00",
-  "next_id": 12,
+  "generation": 27,
+  "updated_at": "2026-10-01T15:04:24.137613+00:00",
+  "next_id": 13,
   "records": [
     {
       "id": 1,
@@ -153,6 +153,19 @@
           "sha256": "f12257538e2723feaf0191d996068ca05b9b3d9d3bbe31196ddb34f6c8ad5c89",
           "source": "VentureBeat",
           "request_id": "1a5d8de23981fe6c4eb322d5c943bbd84e09d7eec9aeb88a928efcd2814301d0",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "revisions": [
+        {
+          "created_at": "2026-10-01T15:04:24.137613+00:00",
+          "block": "Title: Report Details OpenAI Agents’ Attempts to Query External Models\nURL: https://swarmtraces.org/\nImage URL: https://swarmtraces.org/assets/opengraph-preview.jpg?v=77a1f50796\nSummary: Swarm Traces researchers report recovering scripts from the Hugging Face incident that constructed requests to GPT-2 containing “Hi” and asked other models to assess exploits against benchmark requirements. Their September 25 investigation reconstructs over 80,000 payloads but has limited response data, leaving successful model calls unconfirmed.",
+          "sha256": "985309674e2d40b39d34941ca31b6c78b6a8aee2794922cad302fc498a65da21",
+          "source": "Swarm Traces",
+          "request_id": "1626c4cc8562cb06bc1b930e0cccf2dc0efe41dc4707c9401d66ee36cd4c6dd1",
           "mode": "standard"
         }
       ]
@@ -368,13 +381,21 @@
       }
     },
     "1626c4cc8562cb06bc1b930e0cccf2dc0efe41dc4707c9401d66ee36cd4c6dd1": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-01T14:45:09.816757+00:00",
       "received_sequence": 13,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-01T15:04:24.137613+00:00",
+      "records": [
+        {
+          "id": 12,
+          "revision": 1,
+          "sha256": "985309674e2d40b39d34941ca31b6c78b6a8aee2794922cad302fc498a65da21"
+        }
+      ]
     }
   },
   "batches": {
@@ -855,6 +876,21 @@
         "expected_items": 2,
         "cancelled_at": "2026-10-01T14:58:44.532640+00:00",
         "checkpoint_advanced": false
+      }
+    },
+    "91b449aa0c3874671266abd2a388a3599abba967b00621fa9619ec69c9fe7ec5": {
+      "sha256": "c07f7b4b20bcbd2388f588f35a9276b93c9ebc2c358dbf560fea1b08ecd3a7a3",
+      "result": {
+        "status": "finalized",
+        "request_id": "1626c4cc8562cb06bc1b930e0cccf2dc0efe41dc4707c9401d66ee36cd4c6dd1",
+        "records": [
+          {
+            "id": 12,
+            "revision": 1,
+            "sha256": "985309674e2d40b39d34941ca31b6c78b6a8aee2794922cad302fc498a65da21"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
