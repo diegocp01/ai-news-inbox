@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 17,
-  "updated_at": "2026-10-01T02:38:13.158070+00:00",
-  "next_id": 10,
+  "generation": 18,
+  "updated_at": "2026-10-01T02:40:30.291977+00:00",
+  "next_id": 11,
   "records": [
     {
       "id": 1,
@@ -127,6 +127,19 @@
           "sha256": "4b82d6cd32662a324a3fe91e7d2736479b2ef834a924a41015e8f35274ea2d6b",
           "source": "ABC News",
           "request_id": "f4a2e943422c31b29ecbc1f4e2c6da07f574aa4cd84de10714c51eeecd2ba147",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "revisions": [
+        {
+          "created_at": "2026-10-01T02:40:30.291977+00:00",
+          "block": "Title: OpenAI Opens ChatGPT to Native Plugin Experiences\nURL: https://learnetto.com/openai-devday-2026-announcements\nImage URL: https://developers.openai.com/images/apps-sdk/extensions/chatgpt-plugin-surfaces.webp\nSummary: OpenAI introduced plugin extensions that let developers build sidebar apps, interactive conversation panels and file viewers inside ChatGPT. The company says its platform reaches 1.2 billion weekly users, with improved recommendations surfacing relevant plugins in conversations. Users choose which plugins to use and approve their access.",
+          "sha256": "bc74ea988ee26fbb367e6ca4aa394d4fe68a06d20eebed7b1c973e5a8d5cae5b",
+          "source": "Learnetto",
+          "request_id": "8912e092161fcf079e0a730fb63857288980b1ad93eb3e092294d7259056de6d",
           "mode": "standard"
         }
       ]
@@ -289,13 +302,21 @@
       ]
     },
     "8912e092161fcf079e0a730fb63857288980b1ad93eb3e092294d7259056de6d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-01T02:38:13.155872+00:00",
       "received_sequence": 10,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-01T02:40:30.291977+00:00",
+      "records": [
+        {
+          "id": 10,
+          "revision": 1,
+          "sha256": "bc74ea988ee26fbb367e6ca4aa394d4fe68a06d20eebed7b1c973e5a8d5cae5b"
+        }
+      ]
     },
     "1a5d8de23981fe6c4eb322d5c943bbd84e09d7eec9aeb88a928efcd2814301d0": {
       "status": "received",
@@ -486,6 +507,21 @@
       "result": {
         "status": "received",
         "request_id": "1a5d8de23981fe6c4eb322d5c943bbd84e09d7eec9aeb88a928efcd2814301d0"
+      }
+    },
+    "532d85fb888e8eaf2e0fc16800e22efca6ee9dffb883463daa02e6cfc0f2c218": {
+      "sha256": "ee74268ae458d9aed5fa890e64e6bf0dd0b579faa9b0f212164b6e728bb57e05",
+      "result": {
+        "status": "finalized",
+        "request_id": "8912e092161fcf079e0a730fb63857288980b1ad93eb3e092294d7259056de6d",
+        "records": [
+          {
+            "id": 10,
+            "revision": 1,
+            "sha256": "bc74ea988ee26fbb367e6ca4aa394d4fe68a06d20eebed7b1c973e5a8d5cae5b"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
