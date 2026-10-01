@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 28,
-  "updated_at": "2026-10-01T16:48:16+00:00",
-  "next_id": 13,
+  "generation": 29,
+  "updated_at": "2026-10-01T16:56:44+00:00",
+  "next_id": 15,
   "records": [
     {
       "id": 1,
@@ -166,6 +166,32 @@
           "sha256": "985309674e2d40b39d34941ca31b6c78b6a8aee2794922cad302fc498a65da21",
           "source": "Swarm Traces",
           "request_id": "1626c4cc8562cb06bc1b930e0cccf2dc0efe41dc4707c9401d66ee36cd4c6dd1",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "revisions": [
+        {
+          "created_at": "2026-10-01T16:56:44+00:00",
+          "block": "Title: UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement\nURL: https://arxiv.org/abs/2609.38721\nImage URL: https://arxiv.org/html/2609.38721v1/unievo_yining_v2.png\nSummary: UniEvo-VL uses critique-guided self-distillation to improve image generation. The authors report that a model learns corrective guidance supplied to a teacher using a different prompt context, then generates from the original prompt. On Qwen-Image-2512, GenEval scores rise from 0.747 to 0.808. Results vary across tasks, with mixed text-rendering outcomes.",
+          "sha256": "ca27007496b479d5c0d82232e1d046670b860dc6e2b722b865de376da8e138a7",
+          "source": "arXiv",
+          "request_id": "bf48d53f38bf1a7f102f1d960b423ade5827ff2b241292041c6ab0ac36d03d215",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "revisions": [
+        {
+          "created_at": "2026-10-01T16:56:44+00:00",
+          "block": "Title: False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents\nURL: https://arxiv.org/abs/2609.39102\nImage URL: https://cdn-uploads.huggingface.co/production/uploads/6a401f3dc0f1edc69347e4b6/4vTS3cIA38Qp74k2jfOjs.png\nSummary: The authors identify shared mistakes in self-evolving search agents that inflate internal rewards. CrossFit separates source documents used to train feedback solvers, reducing this false agreement. Across seven search benchmarks, it improves average scores by 8.8 and 8.4 points for two model sizes versus standard self-evolution. Shared pretraining errors and overlapping evidence remain limitations.",
+          "sha256": "c18ff8c068cb1ad56d8bec110e9508d4b07da016fd620908fb200828f42ef946",
+          "source": "arXiv",
+          "request_id": "bf48d53f38bf1a7f102f1d960b423ade5827ff2b241292041c6ab0ac36d03d215",
           "mode": "standard"
         }
       ]
@@ -398,13 +424,26 @@
       ]
     },
     "bf48d53f38bf1a7f102f1d960b423ade5827ff2b241292041c6ab0ac36d03d215": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-01T16:48:16+00:00",
       "received_sequence": 14,
       "expected_items": 2,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-01T16:56:44+00:00",
+      "records": [
+        {
+          "id": 13,
+          "revision": 1,
+          "sha256": "ca27007496b479d5c0d82232e1d046670b860dc6e2b722b865de376da8e138a7"
+        },
+        {
+          "id": 14,
+          "revision": 1,
+          "sha256": "c18ff8c068cb1ad56d8bec110e9508d4b07da016fd620908fb200828f42ef946"
+        }
+      ]
     }
   },
   "batches": {
@@ -907,6 +946,26 @@
       "result": {
         "status": "received",
         "request_id": "bf48d53f38bf1a7f102f1d960b423ade5827ff2b241292041c6ab0ac36d03d215"
+      }
+    },
+    "4213bc0fce080cfc9134d3ed2b8b1bd476e6bff0797c469d788223f7c905cedf1": {
+      "sha256": "1ef07bcf606f4e80c74a4f34538bc880be29add4a8d0e99c7c8d50233a93933f",
+      "result": {
+        "status": "finalized",
+        "request_id": "bf48d53f38bf1a7f102f1d960b423ade5827ff2b241292041c6ab0ac36d03d215",
+        "records": [
+          {
+            "id": 13,
+            "revision": 1,
+            "sha256": "ca27007496b479d5c0d82232e1d046670b860dc6e2b722b865de376da8e138a7"
+          },
+          {
+            "id": 14,
+            "revision": 1,
+            "sha256": "c18ff8c068cb1ad56d8bec110e9508d4b07da016fd620908fb200828f42ef946"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
