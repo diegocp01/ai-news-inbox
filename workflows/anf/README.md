@@ -6,6 +6,8 @@ This deployment preserves the skill behavior and starts a new queue. It began wi
 
 Compilation is enabled in the current `runtime_config.json`, with the recorded user cutover-confirmation digest. The intended saved schedule is Monday–Friday 08:00 America/New_York; scheduler state is external to this repository. No access to the old machine is needed or authorized.
 
+Scheduled compilation passes the intended 08:00 New York boundary as UTC `eligibility_at`, including on delayed runs. It compiles the ready contiguous record prefix and explicitly defers unfinished intake without resolving or losing it. A pending correction to a selected record still blocks. Retries preserve an existing batch's membership, cutoffs and deferrals; acknowledgment advances only through that batch after accepted native TXT delivery.
+
 Run isolated tests:
 
 ```sh

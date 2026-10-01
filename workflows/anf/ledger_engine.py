@@ -237,6 +237,20 @@ def verify_state(state, files):
                 "Invalid batch checkpoint")
         require(batch_ids == [rid for rid in ids if batch["checkpoint_before"] < rid <= batch["last_id"]],
                 "Batch skips queued records")
+        deferred = batch.get("deferred_request_ids", [])
+        require(isinstance(deferred, list) and all(isinstance(key, str) for key in deferred)
+                and len(deferred) == len(set(deferred)), "Invalid deferred intake list")
+        for key in deferred:
+            require(key in state["requests"]
+                    and state["requests"][key]["received_sequence"] <= batch["intake_cutoff"]
+                    and state["requests"][key].get("corrects_record_id") not in batch_ids,
+                    "Invalid deferred intake or selected-record correction")
+        if "eligibility_at" in batch:
+            eligible_at = datetime.fromisoformat(timestamp(batch["eligibility_at"]))
+            require(eligible_at <= datetime.fromisoformat(batch["prepared_at"]),
+                    "Eligibility cutoff is after preparation")
+            require(all(datetime.fromisoformat(lookup(state, rid)["revisions"][0]["created_at"]) <= eligible_at
+                        for rid in batch_ids), "Batch contains a record created after its cutoff")
         require(batch_id == digest(canonical({"checkpoint": batch["checkpoint_before"],
                                              "records": batch["records"]}))[:24], "Batch identity mismatch")
         delivery = batch.get("delivery")
@@ -330,9 +344,10 @@ def intake_gate(state, batch=None):
     selected_ids = {ref["id"] for ref in batch.get("records", [])} if batch else set()
     if batch and "record_ids" in batch:
         selected_ids = set(batch["record_ids"])
+    deferred = set(batch.get("deferred_request_ids", [])) if batch else set()
     unresolved = [key for key, value in state["requests"].items() if value["status"] == "received"
-                  and (cutoff is None or value["received_sequence"] <= cutoff
-                       or value.get("corrects_record_id") in selected_ids)]
+                  and (value.get("corrects_record_id") in selected_ids
+                       or (key not in deferred and (cutoff is None or value["received_sequence"] <= cutoff)))]
     require(not unresolved, "Unresolved intakes: " + ", ".join(unresolved))
 
 
@@ -567,6 +582,9 @@ def transition(state, files, op, policy, head, changes):
                     batch.update(status="superseded", superseded_at=now, corrected_record=old_ref)
                     state["replacement_batch"] = {"record_ids": [ref["id"] for ref in batch["records"]],
                                                   "intake_cutoff": batch["intake_cutoff"]}
+                    for key in ("eligibility_at", "deferred_request_ids"):
+                        if key in batch:
+                            state["replacement_batch"][key] = copy.deepcopy(batch[key])
                     state["pending_batch_id"] = None
         request.update(status="finalized", finalized_at=now, records=[reference(record)])
         return {"status": "corrected", "record": reference(record)}
@@ -576,11 +594,29 @@ def transition(state, files, op, policy, head, changes):
             intake_gate(state, batch)
             return {"status": "prepared", "retry": True, "batch": copy.deepcopy(batch)}
         replacement = state.get("replacement_batch")
-        intake_gate(state, replacement)
         selected = ([lookup(state, rid) for rid in replacement["record_ids"]] if replacement else
                     [r for r in state["records"] if r["id"] > state["checkpoint"]])
         cutoff = replacement["intake_cutoff"] if replacement else max(
             (request["received_sequence"] for request in state["requests"].values()), default=0)
+        selection = replacement
+        if replacement is None and op.get("eligibility_at") is not None:
+            eligibility_at = timestamp(op["eligibility_at"])
+            require(datetime.fromisoformat(eligibility_at) <= datetime.fromisoformat(now),
+                    "Eligibility cutoff cannot be in the future")
+            # Keep an ID prefix: never skip a late revision and acknowledge past it.
+            eligible = []
+            for record in selected:
+                if datetime.fromisoformat(revision(record)["created_at"]) > datetime.fromisoformat(eligibility_at):
+                    break
+                eligible.append(record)
+            selected = eligible
+            selected_ids = {record["id"] for record in selected}
+            selection = {"intake_cutoff": cutoff, "record_ids": sorted(selected_ids),
+                         "eligibility_at": eligibility_at,
+                         "deferred_request_ids": [key for key, request in state["requests"].items()
+                             if request["status"] == "received"
+                             and request.get("corrects_record_id") not in selected_ids]}
+        intake_gate(state, selection)
         if not selected:
             return {"status": "empty", "checkpoint": state["checkpoint"]}
         refs = [reference(r) for r in selected]
@@ -593,6 +629,10 @@ def transition(state, files, op, policy, head, changes):
                  "prepared_at": now, "intake_cutoff": cutoff, "records": refs, "first_id": selected[0]["id"], "last_id": selected[-1]["id"],
                  "count": len(selected), "txt_path": base + ".txt", "json_path": base + ".json",
                  "txt_sha256": digest(txt), "json_sha256": digest(js), "delivery": {"status": "not_started", "attempts": []}}
+        if selection:
+            for key in ("eligibility_at", "deferred_request_ids"):
+                if key in selection:
+                    batch[key] = copy.deepcopy(selection[key])
         put_immutable(files, changes, batch["txt_path"], txt)
         put_immutable(files, changes, batch["json_path"], js)
         state["batches"][batch_id] = batch
@@ -762,4 +802,3 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
