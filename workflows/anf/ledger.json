@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 32,
-  "updated_at": "2026-10-01T20:31:45.077529+00:00",
-  "next_id": 16,
+  "generation": 33,
+  "updated_at": "2026-10-01T20:33:57.611123+00:00",
+  "next_id": 17,
   "records": [
     {
       "id": 1,
@@ -205,6 +205,19 @@
           "sha256": "917baa1b98b740074376fccf0184a9da6f3e77f762a555b8664ec5709e5094e0",
           "source": "Tavus",
           "request_id": "ede10fcfe9ae68cff54eea61ff3007d5f13de5196916e3eeef80601751d3d2cc",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "revisions": [
+        {
+          "created_at": "2026-10-01T20:33:57.611123+00:00",
+          "block": "Title: Matthew Schwartz Shares BootLoops for AI-Assisted Science\nURL: https://www.anthropic.com/research/claude-shaped-science\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/5dca367673e615ac7abbbdac9f44733d1f52638a-2000x1125.jpg\nSummary: Physicist Matthew Schwartz describes BootLoops, an open-source toolkit built with Claude for exact scientific calculations. He reports 36 manuscripts across 18 fields in three months, with domain experts steering technically correct results toward useful questions. The work remains human-guided; Schwartz cautions that Claude’s conclusions and automated checks still require scrutiny.",
+          "sha256": "5a6137903589c7ea2a04a946378106a1cb75407e8311501482d9ebe475973831",
+          "source": "Anthropic",
+          "request_id": "1d2ccc29ac760e5dc5f96e03dae5db08fb50f3d5599b0dfe141866dc85e7412a",
           "mode": "standard"
         }
       ]
@@ -476,13 +489,21 @@
       ]
     },
     "1d2ccc29ac760e5dc5f96e03dae5db08fb50f3d5599b0dfe141866dc85e7412a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-01T20:31:45.077529+00:00",
       "received_sequence": 16,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-01T20:33:57.611123+00:00",
+      "records": [
+        {
+          "id": 16,
+          "revision": 1,
+          "sha256": "5a6137903589c7ea2a04a946378106a1cb75407e8311501482d9ebe475973831"
+        }
+      ]
     }
   },
   "batches": {
@@ -1034,6 +1055,21 @@
       "result": {
         "status": "received",
         "request_id": "1d2ccc29ac760e5dc5f96e03dae5db08fb50f3d5599b0dfe141866dc85e7412a"
+      }
+    },
+    "4ffe5889699119bed74f7b8431deb2f9893ab44edf5a1fd0c9da31f454ebda4d": {
+      "sha256": "48bf2ba48e7aa94a332810d7781e1383e7ed4f22fbca11cd06b165846d8b40d3",
+      "result": {
+        "status": "finalized",
+        "request_id": "1d2ccc29ac760e5dc5f96e03dae5db08fb50f3d5599b0dfe141866dc85e7412a",
+        "records": [
+          {
+            "id": 16,
+            "revision": 1,
+            "sha256": "5a6137903589c7ea2a04a946378106a1cb75407e8311501482d9ebe475973831"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
