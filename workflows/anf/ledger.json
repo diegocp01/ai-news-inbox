@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 55,
-  "updated_at": "2026-10-02T15:03:31.471628+00:00",
+  "generation": 56,
+  "updated_at": "2026-10-02T15:08:19.148111+00:00",
   "next_id": 24,
   "records": [
     {
@@ -1687,6 +1687,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a6e5635f25847dc69d19c3ae1e66dcd22942d85391efdcb7bdf12ce2f80b155d": {
+      "sha256": "7b67577c5e50e4928b84fbbfb568b70785e467b509833841d5c642419edb27fb",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 23,
+          "revision": 1,
+          "sha256": "80497962e6a10b7d78e7e5572bae376165b5d81dfe5bed685a8174ef605559da"
+        },
+        "editorial_sha256": "9d78ba213dc771a9b18052b4bb384215dfc498375ddc17d30e0f4d7832f8c994"
+      }
     }
   },
   "migration": {
@@ -1862,6 +1874,60 @@
         "sha256": "3f1e5400305e267ebe7445f15c517383a72cba7e63ce8d3d3f487f9980b7f6e2",
         "reviewed_at": "2026-10-02T14:58:25.660671+00:00",
         "operation_id": "d816808da6043266a9dc3b8435c6b1117c3b537a22c151cd7c774cff09c3b008"
+      }
+    ],
+    "23:1": [
+      {
+        "reference": {
+          "id": 23,
+          "revision": 1,
+          "sha256": "80497962e6a10b7d78e7e5572bae376165b5d81dfe5bed685a8174ef605559da"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer app model availability and access limits, without substantive API, software implementation, or research methods.",
+            "evidence_sha256": "365f271a9ede7c6395c43712aa8d4b21dbcf2acac44801d2604a1892664053cf"
+          },
+          "quality": {
+            "article": {
+              "url": "https://promptblueprints.tech/news-article/grok-4-7-reportedly-appears-in-the-grok-app/",
+              "final_url": "https://promptblueprints.tech/news-article/grok-4-7-reportedly-appears-in-the-grok-app/",
+              "redirect_chain": [
+                "https://promptblueprints.tech/news-article/grok-4-7-reportedly-appears-in-the-grok-app/"
+              ],
+              "checked_at": "2026-10-02T15:07:01.469073+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "bc20759aa6a6db93bdadd6a3ff3c0cd5e405b2dc39c8502e8b0d358ec8360532"
+            },
+            "image": {
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/db/09/83db098c-6eab-384e-303b-6a083db14330/Placeholder.mill/1200x630wa.jpg",
+              "final_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/db/09/83db098c-6eab-384e-303b-6a083db14330/Placeholder.mill/1200x630wa.jpg",
+              "redirect_chain": [
+                "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/db/09/83db098c-6eab-384e-303b-6a083db14330/Placeholder.mill/1200x630wa.jpg"
+              ],
+              "checked_at": "2026-10-02T15:07:05.965900+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "9d2f604ce821ec5bbd5665de7c659856b905fa32cf2f81fae34a5bffe59397cd",
+              "content_type": "image/jpeg",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "993d031bf14f463467b876f31a4faa268b83414ab2a4ee4296ddd9692cd123b6",
+              "relevance": "official_logo",
+              "relevance_note": "Actual Grok app icon supplied by its official Apple App Store listing, visually inspected at 1200 by 630. A generic product fallback, not claimed as a screenshot of the rollout.",
+              "story_specific_available": false,
+              "fallback_reason": "The compliant authentic Expert-mode screenshot is only 469 by 321 pixels, below the 600-pixel minimum width. The original 1236 by 698 screenshot is on forbidden twimg. The publisher hero contains illustrative mode controls not matching the source screenshot and was rejected; other checked assets are undersized or unavailable. Official store artwork is used rather than enlarging a small screenshot or implying unverified UI."
+            }
+          }
+        },
+        "sha256": "9d78ba213dc771a9b18052b4bb384215dfc498375ddc17d30e0f4d7832f8c994",
+        "reviewed_at": "2026-10-02T15:08:19.148111+00:00",
+        "operation_id": "a6e5635f25847dc69d19c3ae1e66dcd22942d85391efdcb7bdf12ce2f80b155d"
       }
     ]
   }
