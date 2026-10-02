@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 36,
-  "updated_at": "2026-10-02T03:09:40.415423+00:00",
-  "next_id": 18,
+  "generation": 37,
+  "updated_at": "2026-10-02T03:14:03.920221+00:00",
+  "next_id": 19,
   "records": [
     {
       "id": 1,
@@ -231,6 +231,19 @@
           "sha256": "212d1f3c956ebfaad23cdb98adc8a7dd308a822697dcbb6dba795bee62b524b1",
           "source": "Lumina (@LuminaBench)",
           "request_id": "c56152d6325a3b541d633df0aa42cb51dce0e62fd749d16b74aff2c821339aaf",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "revisions": [
+        {
+          "created_at": "2026-10-02T03:14:03.920221+00:00",
+          "block": "Title: OpenAI Reduces GPT-6 Pro Chat Limits on Pro 200\nURL: https://www.engadget.com/2272106/openai-adds-dollar500-pro-subscription-nerfs-its-existing-dollar200-tier/\nImage URL: https://www.engadget.com/img/gallery/openai-adds-500-pro-subscription-nerfs-its-existing-200-tier/l-intro-1790697735.jpg\nSummary: OpenAI is cutting GPT-6 Pro’s Chat allowance on its $200/month Pro plan from 200 to 100 messages weekly. Eligible existing subscribers keep their current limits through October 29, 2026; the reduction starts October 30. New subscribers without grandfathering receive the lower allowance immediately. The subscription price stays unchanged.",
+          "sha256": "fb329cc30971802805fd889b2d20820ad4f458c2bf15f024663bf35274c044b8",
+          "source": "Engadget",
+          "request_id": "ffc23238d9ed66ff4a2ed766c4e1f137cfd01dd87747e11c1f3000d6a18aa856",
           "mode": "standard"
         }
       ]
@@ -536,13 +549,21 @@
       ]
     },
     "ffc23238d9ed66ff4a2ed766c4e1f137cfd01dd87747e11c1f3000d6a18aa856": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-02T03:09:40.415423+00:00",
       "received_sequence": 18,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-02T03:14:03.920221+00:00",
+      "records": [
+        {
+          "id": 18,
+          "revision": 1,
+          "sha256": "fb329cc30971802805fd889b2d20820ad4f458c2bf15f024663bf35274c044b8"
+        }
+      ]
     }
   },
   "batches": {
@@ -1138,6 +1159,21 @@
       "result": {
         "status": "received",
         "request_id": "ffc23238d9ed66ff4a2ed766c4e1f137cfd01dd87747e11c1f3000d6a18aa856"
+      }
+    },
+    "bd4e2559e2caf113b431d523e580c07629eb4ab78a84ebe2d8acd4067d00948b": {
+      "sha256": "63badf64f07d96eb80cf5b4cae26af68edfd921e2791aca8ed52f08b1520d57b",
+      "result": {
+        "status": "finalized",
+        "request_id": "ffc23238d9ed66ff4a2ed766c4e1f137cfd01dd87747e11c1f3000d6a18aa856",
+        "records": [
+          {
+            "id": 18,
+            "revision": 1,
+            "sha256": "fb329cc30971802805fd889b2d20820ad4f458c2bf15f024663bf35274c044b8"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
