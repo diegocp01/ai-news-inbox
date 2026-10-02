@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 49,
-  "updated_at": "2026-10-02T14:46:05.053726+00:00",
+  "generation": 50,
+  "updated_at": "2026-10-02T14:50:31.279060+00:00",
   "next_id": 22,
   "records": [
     {
@@ -1572,11 +1572,31 @@
         "status": "received",
         "request_id": "f4e481429b0cac791c3cffab1cfec89c7533b8a1e9f6cc71e136088e20c7c1d4"
       }
+    },
+    "4bcee601d907adf951e8f43f05d2e76f3c586c6396370f12cb81ed00d5413b37": {
+      "sha256": "bcf3b0873769e0113dbbac5ba09b12bc6be1419a8e2d84a5678398f90d62cc84",
+      "result": {
+        "status": "url_rejection_recorded",
+        "rejection_id": "4bcee601d907adf951e8f43f05d2e76f3c586c6396370f12cb81ed00d5413b37"
+      }
     }
   },
   "migration": {
     "status": "reconciled",
     "at": "2026-09-30T16:13:00+00:00",
     "evidence_sha256": "7c70faf95334e6eb34cebe5d4185e7e42b8855d8d8ac341a04c8971e118ff6fb"
-  }
+  },
+  "url_rejections": [
+    {
+      "url": "https://cdn-uploads.huggingface.co/production/uploads/6a401f3dc0f1edc69347e4b6/4vTS3cIA38Qp74k2jfOjs.png",
+      "field": "image",
+      "scope": "url",
+      "environment": "chase",
+      "reason": "user_reported_block",
+      "rejection_id": "4bcee601d907adf951e8f43f05d2e76f3c586c6396370f12cb81ed00d5413b37",
+      "created_at": "2026-10-02T14:50:31.279060+00:00",
+      "evidence_sha256": "dd1dbfbe848031efe1535035e4d3e77b88eba71ac4bb924f43d8ec98e176d969",
+      "evidence_kind": "private_message_reference"
+    }
+  ]
 }

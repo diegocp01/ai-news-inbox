@@ -25,6 +25,11 @@ class Repository:
         self.head = '0' * 40
         self.files = {e.POLICY: (ROOT / 'policy.json').read_text(), e.CONFIG: e.encoded({
             'trusted_preprocessed_route_sha256': [], 'compilation_enabled': True, 'cutover_confirmation_sha256': HASH})}
+        # The original suite proves legacy state/format compatibility. V2 has its
+        # own production-policy tests in test_editorial_quality.py.
+        legacy_policy = json.loads(self.files[e.POLICY])
+        legacy_policy["export_format_version"] = 1
+        self.files[e.POLICY] = e.encoded(legacy_policy)
         self.seq = 0
         self.ops = 0
 

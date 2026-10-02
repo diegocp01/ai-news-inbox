@@ -87,7 +87,7 @@ def verify_intake_output(snapshot, operation, observation, *, now=None):
                       "Source differs from the committed operation")
         published = any(batch["status"] in {"published", "delivered"} and any(
             member["id"] == record["id"] for member in batch["records"]) for batch in state["batches"].values())
-        queue_status = "delivered" if record["id"] <= state["checkpoint"] else ("published" if published else "queued")
+        queue_status = "delivered" if record["id"] in e.delivered_ids(state) else ("published" if published else "queued")
         released.append({**ref, "block": rev["block"], "source": rev["source"], "queue_status": queue_status})
     return {"status": "intake_output_verified", "ready_to_send": True, "purpose": "intake_response",
             "operation_id": op_id, "request_id": request_id, "verified_head": snapshot["head"],

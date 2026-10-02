@@ -35,4 +35,6 @@ Each file contains a JSON array:
 ]
 ```
 
+Technical-audience items in new batches additionally contain `"ds": true` as a JSON boolean. The key is omitted for general news and legacy items; it is never `false`. The original six fields remain unchanged. See [the ANF editorial contract](workflows/anf/docs/EDITORIAL-QUALITY.md) for classification and quality checks.
+
 The AI history timeline is curated separately; adding an item here does not automatically add it to that timeline.

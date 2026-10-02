@@ -1,6 +1,24 @@
 {
   "summary_max_words": 60,
-  "forbidden_url_domains": ["x.com", "twitter.com", "openai.com", "chatgpt.com", "huggingface.co", "hf.co"],
-  "forbidden_url_suffixes": [".ai"],
-  "forbidden_image_domains": ["pbs.twimg.com", "twimg.com", "x.com", "twitter.com"]
+  "forbidden_url_domains": [
+    "x.com",
+    "twitter.com",
+    "openai.com",
+    "chatgpt.com",
+    "huggingface.co",
+    "hf.co"
+  ],
+  "forbidden_url_suffixes": [
+    ".ai"
+  ],
+  "forbidden_image_domains": [
+    "pbs.twimg.com",
+    "twimg.com",
+    "x.com",
+    "twitter.com"
+  ],
+  "export_format_version": 2,
+  "min_image_width": 600,
+  "min_image_height": 315,
+  "quality_max_age_hours": 48
 }

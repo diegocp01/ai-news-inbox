@@ -100,8 +100,50 @@ def matches_domain(hostname, domains):
     return any(hostname == domain or hostname.endswith("." + domain) for domain in domains)
 
 
+def output_url_allowed(url, field, policy, rejections=()):
+    hostname = host(url)
+    domains = list(policy["forbidden_url_domains"])
+    if field == "image":
+        domains += policy["forbidden_image_domains"]
+    require(not matches_domain(hostname, domains)
+            and not any(hostname.endswith(s) for s in policy["forbidden_url_suffixes"]),
+            "Final " + field + " URL violates domain policy")
+    for rule in rejections:
+        if rule.get("resolved_at") or rule["field"] not in {field, "both"}:
+            continue
+        rejected = url == rule["url"] if rule["scope"] == "url" else matches_domain(hostname, [host(rule["url"])])
+        require(not rejected, "Final " + field + " URL matches evidenced rejection " + rule["rejection_id"])
+
+
+
+def frozen_conflict_gate(state, batch):
+    """New adverse evidence stops sending; never rewrites already frozen bytes."""
+    for index, ref in enumerate(batch["records"]):
+        record = lookup(state, ref["id"])
+        rev = record["revisions"][ref["revision"] - 1]
+        _, fields = block_fields(rev["block"], preserve=True)
+        editorial = batch.get("editorial", [])
+        frozen_review = editorial[index] if editorial else None
+        origin = origin_request(state, record).get("origin", {})
+        if origin.get("kind") == "data_science_corner":
+            require(frozen_review is not None and frozen_review["audience"]["decision"] == "technical",
+                    "Frozen audience conflicts with authenticated DataScienceCorner provenance; report for recovery")
+        for field, key in (("article", "learn_more_url"), ("image", "image_url")):
+            urls = [fields[key]] if fields[key] else []
+            if frozen_review:
+                urls += frozen_review["quality"][field].get("redirect_chain", [])
+            # Only new explicit adverse observations apply here. Do not retrofit
+            # current policy or quality age onto frozen legacy artifacts.
+            for url in urls:
+                for rule in state.get("url_rejections", []):
+                    if rule.get("resolved_at") or rule["field"] not in {field, "both"}:
+                        continue
+                    rejected = url == rule["url"] if rule["scope"] == "url" else matches_domain(host(url), [host(rule["url"])])
+                    require(not rejected, "Frozen output matches an active evidenced rejection; report for recovery")
+
+
 def validate_block(content, policy, mode="standard", image_verified=False):
-    require(mode in {"standard", "trusted_preprocessed", "user_finalized_seed"}, "Unknown intake mode")
+    require(mode in {"standard", "trusted_preprocessed", "user_finalized_seed", "image_url_only"}, "Unknown intake mode")
     block, fields = block_fields(content, preserve=mode == "trusted_preprocessed")
     require(len(fields["description"].split()) <= policy["summary_max_words"], "Summary exceeds word limit")
     if mode == "trusted_preprocessed":
@@ -114,9 +156,12 @@ def validate_block(content, policy, mode="standard", image_verified=False):
         require(not matches_domain(hostname, policy["forbidden_url_domains"])
                 and not any(hostname.endswith(s) for s in policy["forbidden_url_suffixes"]),
                 "Final learn-more URL violates domain policy")
-    require(not matches_domain(host(fields["image_url"]), policy["forbidden_image_domains"]),
-            "Image URL violates domain policy")
-    if mode != "user_finalized_seed":
+    if policy.get("export_format_version", 1) >= 2:
+        output_url_allowed(fields["image_url"], "image", policy)
+    else:
+        require(not matches_domain(host(fields["image_url"]), policy["forbidden_image_domains"]),
+                "Image URL violates domain policy")
+    if mode not in {"user_finalized_seed", "image_url_only"}:
         require(image_verified is True, "Final image must be externally verified as a real image")
     return block
 
@@ -137,19 +182,118 @@ def infer_source(url):
     return stem.replace("-", " ").title()
 
 
-def github_items(entries, export_date):
+def github_items(entries, export_date, editorial=None):
     result = []
-    for entry in entries:
+    for index, entry in enumerate(entries):
         _, fields = block_fields(entry["block"], preserve=True)
         result.append({"title": fields["title"], "description": fields["description"],
                        "image_url": fields["image_url"], "learn_more_url": fields["learn_more_url"],
                        "date": export_date,
                        "source": entry["source"] or infer_source(fields["learn_more_url"])})
+        if editorial is not None and editorial[index]["audience"]["decision"] == "technical":
+            result[-1]["ds"] = True
     return result
 
 
-def render_txt(entries):
-    return "\n\n".join(entry["block"] for entry in entries) + TRAILER
+def render_txt(entries, editorial=None):
+    return "\n\n".join(entry["block"] + (
+        "\nds: true" if editorial is not None and editorial[index]["audience"]["decision"] == "technical" else "")
+        for index, entry in enumerate(entries)) + TRAILER
+
+
+
+def validate_origin(origin):
+    require(isinstance(origin, dict) and set(origin) == {"kind", "evidence_sha256"}
+            and origin["kind"] == "data_science_corner", "Invalid authenticated source provenance")
+    sha(origin["evidence_sha256"], "source provenance evidence")
+
+
+def validate_editorial(editorial, rev, request, policy, rejections=(), at=None):
+    require(isinstance(editorial, dict) and {"audience", "quality"} <= set(editorial) <= {"audience", "quality", "origin"}, "Editorial review is required")
+    if "origin" in editorial:
+        validate_origin(editorial["origin"])
+        request = {**request, "origin": editorial["origin"]}
+    audience = editorial["audience"]
+    require(isinstance(audience, dict) and set(audience) == {"decision", "basis", "rationale", "evidence_sha256"},
+            "Invalid audience review")
+    require(audience["decision"] in {"technical", "general"}, "Audience must be explicitly technical or general")
+    require(audience["basis"] in {"api", "developer_tool", "open_source", "research", "technical_practice", "general", "data_science_corner"},
+            "Invalid audience basis")
+    require((audience["decision"] == "general") == (audience["basis"] == "general"), "Audience decision and basis disagree")
+    require(isinstance(audience["rationale"], str) and 10 <= len(audience["rationale"].strip()) <= 1000,
+            "Audience needs a public-safe evidence-based rationale")
+    sha(audience["evidence_sha256"], "audience evidence")
+    if request.get("origin", {}).get("kind") == "data_science_corner":
+        require(audience["decision"] == "technical" and audience["basis"] == "data_science_corner",
+                "DataScienceCorner provenance always requires ds: true")
+    if audience["basis"] == "data_science_corner":
+        require(request.get("origin", {}).get("kind") == "data_science_corner", "DataScienceCorner needs authenticated ingress provenance")
+    quality = editorial["quality"]
+    require(isinstance(quality, dict) and set(quality) == {"article", "image"}, "Both URL and image reviews are required")
+    _, fields = block_fields(rev["block"], preserve=True)
+    for field, output_key in (("article", "learn_more_url"), ("image", "image_url")):
+        check = quality[field]
+        require(isinstance(check, dict) and check.get("url") == fields[output_key], "Quality review must bind exact output URL")
+        checked_at = datetime.fromisoformat(timestamp(check.get("checked_at")))
+        sha(check.get("evidence_sha256"), "quality evidence")
+        if at is not None:
+            age = (datetime.fromisoformat(timestamp(at)) - checked_at).total_seconds()
+            require(0 <= age <= policy.get("quality_max_age_hours", 48) * 3600, "Quality review is stale or future-dated")
+        if field == "article" and not check["url"]:
+            require(check.get("status") == "blank_no_compliant_source", "Blank URL needs a documented no-compliant-source review")
+            continue
+        require(check.get("status") == "accessible_here", "Output URL must have actually loaded in the available environment")
+        require(check.get("chase_status") in {"unknown", "verified_accessible"}, "Chase status must distinguish unknown from verified")
+        if check["chase_status"] == "verified_accessible":
+            sha(check.get("chase_evidence_sha256"), "actual Chase verification evidence")
+        chain = check.get("redirect_chain")
+        require(isinstance(chain, list) and chain and chain[0] == check["url"]
+                and chain[-1] == check.get("final_url"), "Record every observed redirect including output and final URLs")
+        for url in chain:
+            output_url_allowed(url, field, policy, rejections)
+        if field == "article":
+            require(check.get("same_event") is True, "Article must match this exact story")
+        else:
+            require(isinstance(check.get("content_type"), str) and check["content_type"].startswith("image/"), "Image response must have an image MIME type")
+            require(check.get("pixels_inspected") is True, "Inspect actual image pixels, not just metadata")
+            require(integer(check.get("width"), policy.get("min_image_width", 600))
+                    and integer(check.get("height"), policy.get("min_image_height", 315)), "Image resolution is below the quality floor")
+            require(check.get("relevance") in {"story_specific", "topic_specific", "official_logo"}, "Reject unrelated or generic decorative images")
+            require(isinstance(check.get("relevance_note"), str) and 10 <= len(check["relevance_note"].strip()) <= 1000,
+                    "Describe the inspected pixels and their connection to the story")
+            sha(check.get("image_bytes_sha256"), "inspected image bytes")
+            if check["relevance"] != "story_specific":
+                require(check.get("story_specific_available") is False and isinstance(check.get("fallback_reason"), str)
+                        and len(check["fallback_reason"].strip()) >= 10, "Use available story-specific imagery before any fallback")
+    return editorial
+
+
+def origin_request(state, record):
+    # Source provenance follows the story across corrections and exact duplicates.
+    for request in state["requests"].values():
+        if request.get("origin", {}).get("kind") == "data_science_corner" and any(
+                ref["id"] == record["id"] for ref in request.get("records", [])):
+            return request
+    for key, reviews in state.get("editorial_reviews", {}).items():
+        if key.split(":")[0] == str(record["id"]):
+            for review in reviews:
+                origin = review["editorial"].get("origin")
+                if origin:
+                    return {"origin": origin}
+    return state["requests"].get(revision(record).get("request_id"), {})
+
+
+def review_for(state, record):
+    key = str(record["id"]) + ":" + str(len(record["revisions"]))
+    reviews = state.get("editorial_reviews", {}).get(key, [])
+    return copy.deepcopy(reviews[-1]["editorial"]) if reviews else None
+
+
+def assert_unfrozen(state, record):
+    require(record["id"] > state["checkpoint"], "Cannot review delivered history")
+    require(not any(batch["status"] in {"prepared", "published", "delivered"} and any(
+        ref["id"] == record["id"] for ref in batch["records"]) for batch in state["batches"].values()),
+        "Cannot change editorial review for a frozen batch; retain retry bytes")
 
 
 def fresh_state():
@@ -165,6 +309,18 @@ def revision(record):
 def reference(record):
     return {"id": record["id"], "revision": len(record["revisions"]),
             "sha256": revision(record)["sha256"]}
+
+
+def delivered_ids(state):
+    # The contiguous checkpoint alone is insufficient after a sparse v2 batch.
+    return {r["id"] for r in state["records"] if r["id"] <= state["checkpoint"]} | {
+        ref["id"] for batch in state["batches"].values() if batch["status"] == "delivered"
+        for ref in batch["records"]}
+
+
+def queued_records(state):
+    delivered = delivered_ids(state)
+    return [record for record in state["records"] if record["id"] not in delivered]
 
 
 def lookup(state, record_id):
@@ -221,8 +377,29 @@ def verify_state(state, files):
             block_fields(rev.get("block"), preserve=True)
             require(rev.get("sha256") == digest(rev["block"]), "Record hash mismatch")
             timestamp(rev.get("created_at"))
+    for key, reviews in state.get("editorial_reviews", {}).items():
+        require(isinstance(key, str) and re.fullmatch(r"[1-9][0-9]*:[1-9][0-9]*", key)
+                and isinstance(reviews, list) and reviews, "Invalid editorial review history")
+        rid, index = map(int, key.split(":"))
+        record = lookup(state, rid)
+        require(index <= len(record["revisions"]), "Editorial review revision is missing")
+        for review in reviews:
+            require(review["reference"] == {"id": rid, "revision": index, "sha256": record["revisions"][index-1]["sha256"]},
+                    "Editorial review does not match revision")
+            require(review["sha256"] == digest(canonical(review["editorial"])), "Editorial review hash mismatch")
+            timestamp(review["reviewed_at"])
+            require(review.get("operation_id") in state["operations"], "Editorial review lacks audited operation")
+    for rule in state.get("url_rejections", []):
+        host(rule["url"])
+        require(rule["field"] in {"article", "image", "both"} and rule["scope"] in {"url", "host"}, "Invalid rejection rule")
+        sha(rule["evidence_sha256"])
+        timestamp(rule["created_at"])
     for request_id, request in state["requests"].items():
         opaque(request_id, "request ID")
+        if "origin" in request:
+            validate_origin(request["origin"])
+        if request.get("mode") == "image_url_only":
+            sha(request.get("image_review_deferral_evidence_sha256"), "image-review deferral evidence")
         require(request.get("status") in {"received", "finalized", "reconciled", "cancelled"}, "Invalid intake status")
         require(integer(request.get("expected_items"), 1), "Invalid expected item count")
         require(integer(request.get("received_sequence"), 1), "Invalid intake ingress sequence")
@@ -272,8 +449,9 @@ def verify_state(state, files):
                 and batch.get("count") == len(batch_ids), "Batch boundary/count mismatch")
         require(integer(batch.get("checkpoint_before")) and batch["checkpoint_before"] < batch_ids[0],
                 "Invalid batch checkpoint")
-        require(batch_ids == [rid for rid in ids if batch["checkpoint_before"] < rid <= batch["last_id"]],
-                "Batch skips queued records")
+        if batch.get("format_version", 1) == 1:
+            require(batch_ids == [rid for rid in ids if batch["checkpoint_before"] < rid <= batch["last_id"]],
+                    "Batch skips queued records")
         deferred = batch.get("deferred_request_ids", [])
         require(isinstance(deferred, list) and all(isinstance(key, str) for key in deferred)
                 and len(deferred) == len(set(deferred)), "Invalid deferred intake list")
@@ -308,7 +486,11 @@ def verify_state(state, files):
         require((batch["status"] == "delivered") == (delivery["status"] == "accepted"),
                 "Delivered/accepted state mismatch")
         if batch["status"] == "delivered":
-            require(state["checkpoint"] >= batch["last_id"], "Delivered batch exceeds checkpoint")
+            if batch.get("format_version", 1) == 1:
+                require(state["checkpoint"] >= batch["last_id"], "Delivered batch exceeds checkpoint")
+            else:
+                require(integer(batch.get("checkpoint_after")) and batch["checkpoint_before"] <= batch["checkpoint_after"] <= state["checkpoint"],
+                        "Invalid sparse-batch checkpoint")
             receipt = delivery["attempts"][-1].get("receipt", {})
             require(receipt.get("accepted") is True and receipt.get("channel") == "chatgpt"
                     and receipt.get("attachment_sha256") == batch.get("txt_sha256")
@@ -322,7 +504,7 @@ def verify_state(state, files):
             sha(receipt.get("message_receipt_sha256"))
             sha(receipt.get("native_attachment_receipt_sha256"))
             require(any(event.get("kind") == "delivery_acknowledgment" and event.get("batch_id") == batch_id
-                        and event.get("checkpoint") == batch["last_id"] and event.get("receipt") == receipt
+                        and event.get("checkpoint") == batch.get("checkpoint_after", batch["last_id"]) and event.get("receipt") == receipt
                         for event in state["checkpoint_history"]), "Delivery lacks matching checkpoint history")
         for ref in batch["records"]:
             record = lookup(state, ref["id"])
@@ -333,7 +515,15 @@ def verify_state(state, files):
             if batch["status"] in {"prepared", "published"}:
                 require(ref == reference(record), "Pending batch references a superseded record")
             entries.append(rev)
-        txt, js = render_txt(entries), encoded(github_items(entries, batch["prepared_at"][:10]))
+        version = batch.get("format_version", 1)
+        require(version in {1, 2}, "Unsupported frozen export format")
+        editorial = batch.get("editorial") if version == 2 else None
+        if version == 2:
+            require(isinstance(editorial, list) and len(editorial) == len(entries), "Missing frozen editorial reviews")
+            for ref, review in zip(batch["records"], editorial):
+                history = state.get("editorial_reviews", {}).get(str(ref["id"]) + ":" + str(ref["revision"]), [])
+                require(any(item["editorial"] == review for item in history), "Frozen review lacks durable provenance")
+        txt, js = render_txt(entries, editorial), encoded(github_items(entries, batch["prepared_at"][:10], editorial))
         require(files.get(batch["txt_path"]) == txt and batch["txt_sha256"] == digest(txt),
                 "Immutable TXT artifact is missing or altered")
         require(files.get(batch["json_path"]) == js and batch["json_sha256"] == digest(js),
@@ -342,6 +532,12 @@ def verify_state(state, files):
         if batch["status"] in {"published", "delivered"}:
             require(isinstance(publication, dict) and publication.get("sha256") == digest(js)
                     and files.get(publication.get("path")) == js, "Published item is missing or altered")
+    occupied = set()
+    for batch in state["batches"].values():
+        if batch["status"] in {"prepared", "published", "delivered"}:
+            membership = {ref["id"] for ref in batch["records"]}
+            require(not occupied.intersection(membership), "Record appears in competing or duplicate delivery batches")
+            occupied.update(membership)
     history = state.get("checkpoint_history")
     require(isinstance(history, list), "Invalid checkpoint history")
     for event in history:
@@ -412,8 +608,11 @@ def active_request(state, operation):
 
 def make_revision(block, source, now, request_id, mode):
     require(isinstance(source, str), "Source must be a string")
-    return {"created_at": now, "block": block, "sha256": digest(block), "source": source.strip(),
-            "request_id": request_id, "mode": mode}
+    result = {"created_at": now, "block": block, "sha256": digest(block), "source": source.strip(),
+              "request_id": request_id, "mode": mode}
+    if mode == "image_url_only":
+        result["image_verification"] = "pending_compilation_review"
+    return result
 
 
 def put_immutable(files, changes, path, content):
@@ -424,7 +623,7 @@ def put_immutable(files, changes, path, content):
 
 def result_status(state):
     return {"status": "ok", "records": len(state["records"]), "last_record_id": state["next_id"] - 1,
-            "checkpoint": state["checkpoint"], "queued_count": sum(r["id"] > state["checkpoint"] for r in state["records"]),
+            "checkpoint": state["checkpoint"], "queued_count": len(queued_records(state)),
             "pending_batch_id": state["pending_batch_id"], "migration": state["migration"]["status"],
             "unresolved_requests": [key for key, value in state["requests"].items() if value["status"] == "received"]}
 
@@ -548,16 +747,22 @@ def transition(state, files, op, policy, head, changes):
         count = op.get("expected_items", 1)
         mode = op.get("mode", "standard")
         require(integer(count, 1) and count <= 1000, "Invalid intake count")
-        require(mode in {"standard", "trusted_preprocessed"}, "Invalid intake mode")
+        require(mode in {"standard", "trusted_preprocessed", "image_url_only"}, "Invalid intake mode")
+        if mode == "image_url_only":
+            sha(op.get("image_review_deferral_evidence_sha256"), "image-review deferral authorization evidence")
         trusted_route = op.get("trusted_route_sha256")
         if mode == "trusted_preprocessed":
             require(trusted_route in policy.get("trusted_preprocessed_route_sha256", []),
                     "Trusted preprocessed route is disabled or not explicitly authorized")
+        if "origin" in op:
+            validate_origin(op["origin"])
         if request_id in state["requests"]:
             prior = state["requests"][request_id]
             require(prior["expected_items"] == count and prior["mode"] == mode
                     and prior.get("trusted_route_sha256") == trusted_route
-                    and prior.get("corrects_record_id") == op.get("corrects_record_id"), "Request identity conflict")
+                    and prior.get("corrects_record_id") == op.get("corrects_record_id")
+                    and prior.get("origin") == op.get("origin")
+                    and prior.get("image_review_deferral_evidence_sha256") == op.get("image_review_deferral_evidence_sha256"), "Request identity conflict")
             return {"status": "already_received", "request_id": request_id, "intake_status": prior["status"]}
         correction_target = op.get("corrects_record_id")
         if correction_target is not None:
@@ -567,6 +772,10 @@ def transition(state, files, op, policy, head, changes):
                                           "received_sequence": max((r["received_sequence"] for r in state["requests"].values()), default=0) + 1,
                                           "expected_items": count, "mode": mode, "trusted_route_sha256": trusted_route,
                                           "corrects_record_id": correction_target}
+        if "origin" in op:
+            state["requests"][request_id]["origin"] = copy.deepcopy(op["origin"])
+        if mode == "image_url_only":
+            state["requests"][request_id]["image_review_deferral_evidence_sha256"] = op["image_review_deferral_evidence_sha256"]
         return {"status": "received", "request_id": request_id}
     if kind == "cancel_intake":
         validate_cancellation_operation(op)
@@ -644,6 +853,39 @@ def transition(state, files, op, policy, head, changes):
                     state["pending_batch_id"] = None
         request.update(status="finalized", finalized_at=now, records=[reference(record)])
         return {"status": "corrected", "record": reference(record)}
+    if kind == "review_record":
+        record = lookup(state, op.get("record_id"))
+        assert_unfrozen(state, record)
+        require(op.get("expected_reference") == reference(record), "Review target changed; refetch revision")
+        request = origin_request(state, record)
+        editorial = validate_editorial(op.get("editorial"), revision(record), request, policy,
+                                      state.get("url_rejections", []), now)
+        key = str(record["id"]) + ":" + str(len(record["revisions"]))
+        audit = {"reference": reference(record), "editorial": copy.deepcopy(editorial),
+                 "sha256": digest(canonical(editorial)), "reviewed_at": now, "operation_id": op["operation_id"]}
+        state.setdefault("editorial_reviews", {}).setdefault(key, []).append(audit)
+        return {"status": "editorial_reviewed", "record": reference(record), "editorial_sha256": audit["sha256"]}
+    if kind == "reject_url":
+        url = op.get("url")
+        host(url)
+        require(op.get("field") in {"article", "image", "both"} and op.get("scope") in {"url", "host"}, "Invalid rejection scope")
+        require(op.get("environment") in {"chase", "available_environment", "editorial"}, "Invalid rejection environment")
+        require(op.get("reason") in {"user_reported_block", "observed_block", "not_same_event", "irrelevant_image", "low_resolution", "not_image", "unstable_url"}, "Invalid rejection reason")
+        require(op["scope"] != "host" or op["reason"] in {"user_reported_block", "observed_block"},
+                "A bad image or wrong story cannot justify blocking a whole host")
+        evidence = sha(op.get("evidence_sha256"))
+        rule = {key: op[key] for key in ("url", "field", "scope", "environment", "reason")}
+        rule.update(rejection_id=op["operation_id"], created_at=now, evidence_sha256=evidence)
+        if "evidence_kind" in op:
+            require(op["evidence_kind"] in {"private_message_reference", "report_content", "access_observation"}, "Invalid rejection evidence kind")
+            rule["evidence_kind"] = op["evidence_kind"]
+        state.setdefault("url_rejections", []).append(rule)
+        return {"status": "url_rejection_recorded", "rejection_id": rule["rejection_id"]}
+    if kind == "resolve_url_rejection":
+        matches = [rule for rule in state.get("url_rejections", []) if rule["rejection_id"] == op.get("rejection_id")]
+        require(len(matches) == 1 and not matches[0].get("resolved_at"), "No active matching rejection")
+        matches[0].update(resolved_at=now, resolution_evidence_sha256=sha(op.get("evidence_sha256")))
+        return {"status": "url_rejection_resolved", "rejection_id": op["rejection_id"]}
     if kind == "prepare":
         if state["pending_batch_id"]:
             batch = state["batches"][state["pending_batch_id"]]
@@ -651,7 +893,7 @@ def transition(state, files, op, policy, head, changes):
             return {"status": "prepared", "retry": True, "batch": copy.deepcopy(batch)}
         replacement = state.get("replacement_batch")
         selected = ([lookup(state, rid) for rid in replacement["record_ids"]] if replacement else
-                    [r for r in state["records"] if r["id"] > state["checkpoint"]])
+                    queued_records(state))
         cutoff = replacement["intake_cutoff"] if replacement else max(
             (request["received_sequence"] for request in state["requests"].values()), default=0)
         selection = replacement
@@ -659,11 +901,14 @@ def transition(state, files, op, policy, head, changes):
             eligibility_at = timestamp(op["eligibility_at"])
             require(datetime.fromisoformat(eligibility_at) <= datetime.fromisoformat(now),
                     "Eligibility cutoff cannot be in the future")
-            # Keep an ID prefix: never skip a late revision and acknowledge past it.
+            # Legacy batches retain their prefix rule. V2 can freeze a ready
+            # subset because acknowledgments track delivered IDs independently.
             eligible = []
             for record in selected:
                 if datetime.fromisoformat(revision(record)["created_at"]) > datetime.fromisoformat(eligibility_at):
-                    break
+                    if policy.get("export_format_version", 1) == 1:
+                        break
+                    continue
                 eligible.append(record)
             selected = eligible
             selected_ids = {record["id"] for record in selected}
@@ -672,19 +917,46 @@ def transition(state, files, op, policy, head, changes):
                          "deferred_request_ids": [key for key, request in state["requests"].items()
                              if request["status"] == "received"
                              and request.get("corrects_record_id") not in selected_ids]}
+        editorial = None
+        deferred_records = []
+        if policy.get("export_format_version", 1) == 2 and selected:
+            editorial, ready = [], []
+            correction_targets = {request.get("corrects_record_id") for request in state["requests"].values()
+                                  if request["status"] == "received"}
+            for record in selected:
+                review = review_for(state, record)
+                try:
+                    require(record["id"] not in correction_targets, "Unresolved correction targets this record")
+                    validate_editorial(review, revision(record), origin_request(state, record),
+                                       policy, state.get("url_rejections", []), now)
+                except LedgerError as exc:
+                    deferred_records.append({"id": record["id"], "reason": str(exc)})
+                    continue
+                ready.append(record)
+                editorial.append(review)
+            if replacement:
+                require(not deferred_records, "Replacement editorial review incomplete; preserve frozen membership")
+            selected = ready
+            if selection is not None and not replacement:
+                selected_ids = {record["id"] for record in selected}
+                selection["record_ids"] = sorted(selected_ids)
+                selection["deferred_request_ids"] = [key for key, request in state["requests"].items()
+                    if request["status"] == "received" and request.get("corrects_record_id") not in selected_ids]
         intake_gate(state, selection)
         if not selected:
-            return {"status": "empty", "checkpoint": state["checkpoint"]}
+            return {"status": "empty", "checkpoint": state["checkpoint"], "deferred_records": deferred_records}
         refs = [reference(r) for r in selected]
         batch_id = digest(canonical({"checkpoint": state["checkpoint"], "records": refs}))[:24]
         require(batch_id not in state["batches"], "Batch identity already exists")
         entries = [revision(r) for r in selected]
-        txt, js = render_txt(entries), encoded(github_items(entries, now[:10]))
+        txt, js = render_txt(entries, editorial), encoded(github_items(entries, now[:10], editorial))
         base = ROOT + "batches/" + batch_id
         batch = {"batch_id": batch_id, "status": "prepared", "checkpoint_before": state["checkpoint"],
                  "prepared_at": now, "intake_cutoff": cutoff, "records": refs, "first_id": selected[0]["id"], "last_id": selected[-1]["id"],
                  "count": len(selected), "txt_path": base + ".txt", "json_path": base + ".json",
                  "txt_sha256": digest(txt), "json_sha256": digest(js), "delivery": {"status": "not_started", "attempts": []}}
+        if editorial is not None:
+            batch.update(format_version=2, editorial=copy.deepcopy(editorial), deferred_records=deferred_records)
         if selection:
             for key in ("eligibility_at", "deferred_request_ids"):
                 if key in selection:
@@ -698,6 +970,7 @@ def transition(state, files, op, policy, head, changes):
     if kind == "publish":
         batch = pending_batch(state, op)
         intake_gate(state, batch)
+        frozen_conflict_gate(state, batch)
         if batch["status"] == "published":
             return {"status": "already_published", "publication": batch["publication"]}
         require(batch["status"] == "prepared", "Batch must be prepared")
@@ -717,6 +990,7 @@ def transition(state, files, op, policy, head, changes):
     if kind == "begin_delivery":
         batch = pending_batch(state, op)
         intake_gate(state, batch)
+        frozen_conflict_gate(state, batch)
         require(batch["status"] == "published", "GitHub publication must be durably visible before sending")
         delivery = batch["delivery"]
         require(delivery["status"] in {"not_started", "failed"},
@@ -765,10 +1039,20 @@ def transition(state, files, op, policy, head, changes):
         attempt.update(status="accepted", receipt=safe_receipt, outcome_at=now)
         delivery["status"] = "accepted"
         batch.update(status="delivered", acknowledged_at=now)
+        checkpoint_after = state["checkpoint"]
+        delivered = delivered_ids(state)
+        for record in state["records"]:
+            if record["id"] <= checkpoint_after:
+                continue
+            if record["id"] not in delivered:
+                break
+            checkpoint_after = record["id"]
+        if batch.get("format_version", 1) == 2:
+            batch["checkpoint_after"] = checkpoint_after
         state["checkpoint_history"].append({"kind": "delivery_acknowledgment", "before": state["checkpoint"],
-                                            "checkpoint": batch["last_id"], "at": now,
+                                            "checkpoint": checkpoint_after, "at": now,
                                             "batch_id": batch["batch_id"], "receipt": safe_receipt})
-        state["checkpoint"] = batch["last_id"]
+        state["checkpoint"] = checkpoint_after
         state["pending_batch_id"] = None
         return {"status": "acknowledgment_planned", "checkpoint": state["checkpoint"],
                 "batch_id": batch["batch_id"], "publication": batch["publication"]}
@@ -786,10 +1070,14 @@ def plan(snapshot, operation):
             "Snapshot files must be a full UTF-8 path/content map for items and workflows/anf")
     require(POLICY in files, "Policy file is missing")
     policy = json.loads(files[POLICY])
-    require(set(policy) == {"summary_max_words", "forbidden_url_domains", "forbidden_url_suffixes", "forbidden_image_domains"},
+    required_policy = {"summary_max_words", "forbidden_url_domains", "forbidden_url_suffixes", "forbidden_image_domains"}
+    require(required_policy <= set(policy) <= required_policy | {"export_format_version", "min_image_width", "min_image_height", "quality_max_age_hours"},
             "Invalid policy shape")
     require(integer(policy["summary_max_words"], 1) and all(isinstance(policy[key], list) and all(
-        isinstance(v, str) and v for v in policy[key]) for key in policy if key != "summary_max_words"), "Invalid policy")
+        isinstance(v, str) and v for v in policy[key]) for key in required_policy - {"summary_max_words"}), "Invalid policy")
+    require(policy.get("export_format_version", 1) in {1, 2}, "Invalid export format version")
+    for key in ("min_image_width", "min_image_height", "quality_max_age_hours"):
+        require(integer(policy.get(key, 1), 1), "Invalid quality policy")
     config = json.loads(files.get(CONFIG, '{"trusted_preprocessed_route_sha256": [], "compilation_enabled": false, "cutover_confirmation_sha256": null}'))
     require(isinstance(config, dict) and set(config) == {
         "trusted_preprocessed_route_sha256", "compilation_enabled", "cutover_confirmation_sha256"}
@@ -811,7 +1099,7 @@ def plan(snapshot, operation):
         result = result_status(state)
         if kind == "preview":
             result["items"] = [{"id": r["id"], "revision": len(r["revisions"]), **revision(r)}
-                               for r in state["records"] if r["id"] > state["checkpoint"]]
+                               for r in queued_records(state)]
         return {"base_sha": head, "changes": [], "result": result, "committed": False, "ready_to_send": False}
     require(LEDGER in files or kind in {"initialize", "import_archive"}, "Initialize or import the ledger first")
     op_id = opaque(operation.get("operation_id"), "operation ID")

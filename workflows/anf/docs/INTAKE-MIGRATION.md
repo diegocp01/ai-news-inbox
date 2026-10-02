@@ -8,14 +8,24 @@ This is a portability guide derived from the original Hermes ANF workflow. It is
 
 The current deployment is forward-only: it started with the two explicitly supplied pending items as IDs 1–2 with checkpoint 0 and now records subsequent intake. No previous queue/history/news is imported. Existing publication files are untouched. Current runtime configuration enables compilation and records the user's cutover confirmation; scheduler state is external to the repository.
 
+## Current export extension
+
+The [2026-10-02 editorial supplement](EDITORIAL-QUALITY.md) is authoritative for
+new audience classification, evidence-backed review, URL/image quality and
+Chase uncertainty. Intake remains four lines. New compiled TXT adds a fifth
+`ds: true` after Summary only when technical; JSON adds only boolean `ds: true`.
+Legacy/frozen artifacts remain unchanged, and old clients need no new intake
+fields. Current machine-readable policy is `../policy.json`; archived skill
+frontmatter is historical and must not override it.
+
 ## Preserved editorial contract
 
 - Trigger on an explicit `Anf:`/`anf:` or AI-newsletter-format request containing a URL, topic, social post, screenshot, or brief claim. A new screenshot in an active ANF exchange counts as another intake when context establishes that purpose.
 - Produce exactly four labeled lines: `Title:`, `URL:`, `Image URL:`, `Summary:`. Multiple requested distinct stories produce separate blocks, in arrival order, with one blank line between blocks. Explanatory commentary is excluded from the ANF itself.
 - Use a neutral title and a summary of at most 60 words. Attribute company claims, uncertain reports, benchmarks, and forecasts. Distinguish previews from shipping features, models from harnesses, and product surfaces from one another.
 - Read the original full skill and the relevant references before researching. Preserve all 16 references, including the two files absent from the old skill's final reference list.
-- The frontmatter `metadata.hermes.anf_policy` is the original policy source of truth. Final learn-more URLs reject the listed domains and their subdomains: `x.com`, `twitter.com`, `openai.com`, `chatgpt.com`, `huggingface.co`, `hf.co`; they also reject hostnames ending in `.ai`. If no current, same-event compliant page exists, the URL line is blank.
-- The separate image policy rejects `pbs.twimg.com`, `twimg.com`, `x.com`, and `twitter.com` and their subdomains. A blocked article domain does not by itself block its separately hosted image. Use a real direct image URL, check relevance and image resolution, and prefer a story-specific asset over a logo.
+- The frontmatter `metadata.hermes.anf_policy` records the original policy. Current `../policy.json` and the editorial supplement take precedence. Final learn-more URLs reject the listed domains and their subdomains: `x.com`, `twitter.com`, `openai.com`, `chatgpt.com`, `huggingface.co`, `hf.co`; they also reject hostnames ending in `.ai`. If no current, same-event compliant page exists, the URL line is blank.
+- The archived separate image policy rejected `pbs.twimg.com`, `twimg.com`, `x.com`, and `twitter.com` and their subdomains. For new output, the 2026-10-02 [editorial supplement](EDITORIAL-QUALITY.md) now applies all article-domain restrictions to images and redirects too. The image is judged by its actual host; a separately hosted compliant image may still qualify. Use a real direct image URL, check relevance and image resolution, and prefer a story-specific asset over a logo.
 - Resolve exact event identity, inspect canonical metadata and article or repository body, and verify material claims against primary/current evidence. An older adjacent launch can provide relevant imagery but cannot establish a new launch.
 - These inherited editorial URL restrictions do not prohibit reading primary sources for verification. They govern final output fields. Current platform safety, privacy, and confirmation requirements continue to apply.
 
@@ -43,11 +53,11 @@ The old validator scans finalized ANF-only assistant responses after its baselin
 
 - Prepare the eligible records in ascending original intake order. Freeze the chosen record set, rendered TXT, JSON objects, hashes, and stable batch identity. New arrivals belong to a later batch.
 - Join blocks with one blank line. New-format TXT ends with exactly five empty lines and a final dot, implemented as `\n\n\n\n\n\n.` after the final block. Preserve existing immutable historical TXT bytes even if an early file predates this trailer convention.
-- JSON is a raw array with `title`, `description`, `image_url`, `learn_more_url`, `date`, and `source`. The legacy exporter uses the UTC preparation date. It uses explicit `source` when nonempty, otherwise its original hostname-to-publication inference. Reconciliation must apply this inference before comparing exported objects.
+- JSON is a raw array with `title`, `description`, `image_url`, `learn_more_url`, `date`, and `source`, plus optional boolean `ds: true` in v2. The legacy exporter uses the UTC preparation date. It uses explicit `source` when nonempty, otherwise its original hostname-to-publication inference. Reconciliation must apply this inference before comparing exported objects.
 - Publication is append-only: choose one unused `items/YYYY-MM-DD.json` path, adding `-2`, `-3`, etc. only for a distinct batch when needed. Never alter or delete an existing published file as a retry mechanism.
 - Publish the new items file and its publication metadata in the same atomic Git commit. Read back exact bytes/hash afterward. A CAS conflict requires a new coherent snapshot and plan. An already committed pending publication is reused; if its path differs from the immutable content, stop for reconciliation.
 - Publish the frozen batch before delivering its exact TXT. A publication failure leaves the batch pending without moving the checkpoint. A delivery failure retains the same published path and batch for retry.
-- Record accepted delivery separately from publication. Advance the contiguous checkpoint only through a batch whose required publication and delivery outcomes are confirmed by the adapter. A successful tool invocation without a delivery receipt must not invent receipt certainty.
+- Record accepted delivery separately from publication. Record only the batch whose publication and delivery outcomes are confirmed by the adapter as delivered. V2 permits a ready subset; advance the checkpoint only through contiguous delivered record IDs and exclude above-checkpoint delivered records from later exports. A successful tool invocation without a delivery receipt must not invent receipt certainty.
 - A user-reported receipt dispute is resolved by locating/resending the existing immutable TXT, when authorized, without republishing JSON or acknowledging the batch again. Explain the evidence as reported delivery/checkpoint advancement rather than asserting what the user saw.
 - Serialize intake/prepare/acknowledgement and transaction transitions. A single cutover prevents the old and new compilers from operating independently against cloned queues.
 - A hypothetical preview is read-only. It does not prepare, send, publish, or move the checkpoint. An empty queue produces no file.
