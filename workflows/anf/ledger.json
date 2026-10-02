@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 51,
-  "updated_at": "2026-10-02T14:54:02.835864+00:00",
+  "generation": 52,
+  "updated_at": "2026-10-02T14:55:23.915876+00:00",
   "next_id": 23,
   "records": [
     {
@@ -1615,6 +1615,18 @@
         ],
         "duplicates": []
       }
+    },
+    "df264270847fee2ae0c14fec0d46a5c06d1a1fb02faa2315bcf50992c073760f": {
+      "sha256": "f99b31e865cbea76cdd24e06561fd32647231c3bb438e0891001d5df67709856",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 20,
+          "revision": 1,
+          "sha256": "b43a71540334f3633c9713dddb7291b4e0ec0a983e31d286b992e800567102d0"
+        },
+        "editorial_sha256": "a42972ab5fe0eaeef1f8b5a54239db4bdd50892d0c1837cf12e48aebc694eb48"
+      }
     }
   },
   "migration": {
@@ -1634,5 +1646,59 @@
       "evidence_sha256": "dd1dbfbe848031efe1535035e4d3e77b88eba71ac4bb924f43d8ec98e176d969",
       "evidence_kind": "private_message_reference"
     }
-  ]
+  ],
+  "editorial_reviews": {
+    "20:1": [
+      {
+        "reference": {
+          "id": 20,
+          "revision": 1,
+          "sha256": "b43a71540334f3633c9713dddb7291b4e0ec0a983e31d286b992e800567102d0"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The report describes Carter Church using GPT-6 Astra to decipher an 1809 letter sent by Eugène to Marmont at Napoleon’s request. It foregrounds historical context, historians’ responses, translation verification, and potential applications to historical research. It briefly explains homophonic substitution and the use of a partial key, but does not substantively cover data science, statistics, model architecture, training, engineering, or API implementation.",
+            "evidence_sha256": "057b53e0d173e51761cbbbca438a13179347bcd5d6badc6a5a23e4a09b9d8ae4"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon",
+              "final_url": "https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon",
+              "redirect_chain": [
+                "https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon"
+              ],
+              "checked_at": "2026-10-02T14:33:37.113492Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "057b53e0d173e51761cbbbca438a13179347bcd5d6badc6a5a23e4a09b9d8ae4",
+              "same_event": true
+            },
+            "image": {
+              "url": "https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png",
+              "final_url": "https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png",
+              "redirect_chain": [
+                "https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png"
+              ],
+              "checked_at": "2026-10-02T14:33:42.924198Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "f2fd8eb6f99fe11146ab159a1e69dd488622d44ce5c463aa7132ba87c4d8232d",
+              "content_type": "image/png",
+              "width": 1051,
+              "height": 1246,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "a6904e2929de0f302e607f4d77d9863a9e868a9d95acff129e0cd69fcc39b6f7",
+              "relevance": "story_specific",
+              "relevance_note": "The article links to Carter Church’s Marmont writeup, whose lead image src resolves exactly to this PNG. Pixel inspection shows the handwritten cipher plate, with a French introductory line and dense rows of cipher symbols, directly illustrating the letter being decoded."
+            }
+          }
+        },
+        "sha256": "a42972ab5fe0eaeef1f8b5a54239db4bdd50892d0c1837cf12e48aebc694eb48",
+        "reviewed_at": "2026-10-02T14:55:23.915876+00:00",
+        "operation_id": "df264270847fee2ae0c14fec0d46a5c06d1a1fb02faa2315bcf50992c073760f"
+      }
+    ]
+  }
 }
