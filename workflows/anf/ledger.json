@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 50,
-  "updated_at": "2026-10-02T14:50:31.279060+00:00",
-  "next_id": 22,
+  "generation": 51,
+  "updated_at": "2026-10-02T14:54:02.835864+00:00",
+  "next_id": 23,
   "records": [
     {
       "id": 1,
@@ -283,6 +283,19 @@
           "sha256": "799c355c66f2d7af2b9f5c5ea834b01ea390c7b809ce1ac7768a56c567d02b07",
           "source": "TAO",
           "request_id": "aed96920c6cb6e7e3475fc4ec178161c999d586456705ba9768e80b8b0b5f572",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "revisions": [
+        {
+          "created_at": "2026-10-02T14:54:02.835864+00:00",
+          "block": "Title: Grok Joins XChat Group Conversations\nURL: https://www.basenor.com/blogs/news/grok-is-now-live-in-xchat-ask-it-anything\nImage URL: https://www.basenor.com/cdn/shop/articles/fb306e21fb9ad4b472f62032078610a0.jpg?v=1790931779\nSummary: X now lets Premium+ subscribers add Grok to XChat conversations and ask questions without leaving the chat. X says it and SpaceXAI gain access to all messages sent while Grok is present, so those messages are not end-to-end encrypted. Removing Grok ends its access to new messages.",
+          "sha256": "ecd7c74e814b9fa4c5cbff268a60e457e526c74f97384f6e53852c55b87c3715",
+          "source": "BASENOR",
+          "request_id": "89836beae9b85ecde92006e65fdae98d67d158106782820a43b186f89fdff48c",
           "mode": "standard"
         }
       ]
@@ -656,13 +669,21 @@
       ]
     },
     "89836beae9b85ecde92006e65fdae98d67d158106782820a43b186f89fdff48c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-02T14:46:05.050362+00:00",
       "received_sequence": 22,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-02T14:54:02.835864+00:00",
+      "records": [
+        {
+          "id": 22,
+          "revision": 1,
+          "sha256": "ecd7c74e814b9fa4c5cbff268a60e457e526c74f97384f6e53852c55b87c3715"
+        }
+      ]
     },
     "f4e481429b0cac791c3cffab1cfec89c7533b8a1e9f6cc71e136088e20c7c1d4": {
       "status": "received",
@@ -1578,6 +1599,21 @@
       "result": {
         "status": "url_rejection_recorded",
         "rejection_id": "4bcee601d907adf951e8f43f05d2e76f3c586c6396370f12cb81ed00d5413b37"
+      }
+    },
+    "fdde489dfe004c304720b95141db9b7c2397e6c127f13e823106704ee15a7327": {
+      "sha256": "43e443e5fa15a74dd3e536a19d3ada8e798bec2da12f548d3aa7da7dbbe7f17e",
+      "result": {
+        "status": "finalized",
+        "request_id": "89836beae9b85ecde92006e65fdae98d67d158106782820a43b186f89fdff48c",
+        "records": [
+          {
+            "id": 22,
+            "revision": 1,
+            "sha256": "ecd7c74e814b9fa4c5cbff268a60e457e526c74f97384f6e53852c55b87c3715"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
