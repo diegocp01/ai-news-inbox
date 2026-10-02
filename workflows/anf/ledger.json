@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 53,
-  "updated_at": "2026-10-02T14:56:43.210512+00:00",
+  "generation": 54,
+  "updated_at": "2026-10-02T14:58:25.660671+00:00",
   "next_id": 23,
   "records": [
     {
@@ -1639,6 +1639,18 @@
         },
         "editorial_sha256": "4396c42ec2faad7c296b0de1d929392d2c28b4747e14d46b058d2978e0f7eadc"
       }
+    },
+    "d816808da6043266a9dc3b8435c6b1117c3b537a22c151cd7c774cff09c3b008": {
+      "sha256": "b2c500a48003f3744979d45a69b79208234c5dc9df9291bea065250bf1770db5",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 22,
+          "revision": 1,
+          "sha256": "ecd7c74e814b9fa4c5cbff268a60e457e526c74f97384f6e53852c55b87c3715"
+        },
+        "editorial_sha256": "3f1e5400305e267ebe7445f15c517383a72cba7e63ce8d3d3f487f9980b7f6e2"
+      }
     }
   },
   "migration": {
@@ -1762,6 +1774,58 @@
         "sha256": "4396c42ec2faad7c296b0de1d929392d2c28b4747e14d46b058d2978e0f7eadc",
         "reviewed_at": "2026-10-02T14:56:43.210512+00:00",
         "operation_id": "734590ec1b889546348fab4b370445fc4329bec81357b9e4692d1183bb7cb888"
+      }
+    ],
+    "22:1": [
+      {
+        "reference": {
+          "id": 22,
+          "revision": 1,
+          "sha256": "ecd7c74e814b9fa4c5cbff268a60e457e526c74f97384f6e53852c55b87c3715"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer group-messaging feature and its practical privacy tradeoff; no substantive developer implementation, API, or technical research content.",
+            "evidence_sha256": "eb3a3a4cf63e669fc3727c0dfac8b3d572bbf36d5839edcd04c0ae54e933f898"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.basenor.com/blogs/news/grok-is-now-live-in-xchat-ask-it-anything",
+              "final_url": "https://www.basenor.com/blogs/news/grok-is-now-live-in-xchat-ask-it-anything",
+              "redirect_chain": [
+                "https://www.basenor.com/blogs/news/grok-is-now-live-in-xchat-ask-it-anything"
+              ],
+              "checked_at": "2026-10-02T14:52:23+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "6ee8e797a5bd84b738f6dde667f1d3d4d041e84b7e6b37182229de2dda448b29"
+            },
+            "image": {
+              "url": "https://www.basenor.com/cdn/shop/articles/fb306e21fb9ad4b472f62032078610a0.jpg?v=1790931779",
+              "final_url": "https://www.basenor.com/cdn/shop/articles/fb306e21fb9ad4b472f62032078610a0.jpg?v=1790931779",
+              "redirect_chain": [
+                "https://www.basenor.com/cdn/shop/articles/fb306e21fb9ad4b472f62032078610a0.jpg?v=1790931779"
+              ],
+              "checked_at": "2026-10-02T14:50:53+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "6bb409ac5928f4b41930b8e36cf1cf331d8afc2a50f73372eb44bc6a79f9effa",
+              "content_type": "image/jpeg",
+              "width": 1080,
+              "height": 1080,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "db3bc9032770b1a00044886f0ecb617b6d69001a78c101a2ce73137f63eb9ac4",
+              "relevance": "story_specific",
+              "relevance_note": "BASENOR hosts the exact launch-video opening frame showing Benji Taylor and Alex Abraham discussing the airport departure time. Compared with actual XChat launch video."
+            }
+          }
+        },
+        "sha256": "3f1e5400305e267ebe7445f15c517383a72cba7e63ce8d3d3f487f9980b7f6e2",
+        "reviewed_at": "2026-10-02T14:58:25.660671+00:00",
+        "operation_id": "d816808da6043266a9dc3b8435c6b1117c3b537a22c151cd7c774cff09c3b008"
       }
     ]
   }
