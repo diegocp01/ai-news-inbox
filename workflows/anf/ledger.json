@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 39,
-  "updated_at": "2026-10-02T04:01:55.661790+00:00",
+  "generation": 40,
+  "updated_at": "2026-10-02T12:01:00.215962+00:00",
   "next_id": 20,
   "records": [
     {
@@ -700,9 +700,71 @@
         "planned_from_head": "6413ffb39c331bc8b84d23177cfae9f7fcf3252a"
       },
       "acknowledged_at": "2026-10-01T13:04:42.465532+00:00"
+    },
+    "2c8b7ab293b9c627a7077559": {
+      "batch_id": "2c8b7ab293b9c627a7077559",
+      "status": "prepared",
+      "checkpoint_before": 11,
+      "prepared_at": "2026-10-02T12:01:00.215962+00:00",
+      "intake_cutoff": 19,
+      "records": [
+        {
+          "id": 12,
+          "revision": 1,
+          "sha256": "985309674e2d40b39d34941ca31b6c78b6a8aee2794922cad302fc498a65da21"
+        },
+        {
+          "id": 13,
+          "revision": 1,
+          "sha256": "ca27007496b479d5c0d82232e1d046670b860dc6e2b722b865de376da8e138a7"
+        },
+        {
+          "id": 14,
+          "revision": 1,
+          "sha256": "c18ff8c068cb1ad56d8bec110e9508d4b07da016fd620908fb200828f42ef946"
+        },
+        {
+          "id": 15,
+          "revision": 1,
+          "sha256": "917baa1b98b740074376fccf0184a9da6f3e77f762a555b8664ec5709e5094e0"
+        },
+        {
+          "id": 16,
+          "revision": 1,
+          "sha256": "5a6137903589c7ea2a04a946378106a1cb75407e8311501482d9ebe475973831"
+        },
+        {
+          "id": 17,
+          "revision": 1,
+          "sha256": "212d1f3c956ebfaad23cdb98adc8a7dd308a822697dcbb6dba795bee62b524b1"
+        },
+        {
+          "id": 18,
+          "revision": 1,
+          "sha256": "fb329cc30971802805fd889b2d20820ad4f458c2bf15f024663bf35274c044b8"
+        },
+        {
+          "id": 19,
+          "revision": 1,
+          "sha256": "4f5195787cad37b4aec02b4b509fe59f125226d6f19e6ad31a11370b5b05e99b"
+        }
+      ],
+      "first_id": 12,
+      "last_id": 19,
+      "count": 8,
+      "txt_path": "workflows/anf/batches/2c8b7ab293b9c627a7077559.txt",
+      "json_path": "workflows/anf/batches/2c8b7ab293b9c627a7077559.json",
+      "txt_sha256": "d78887dc540d62cfec526e196815d5c026305736fe10a6125e83066a83f4a025",
+      "json_sha256": "e481efb8616d6b169088d65816cb3928b6885824ec2a47be643dd208df5294ef",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "eligibility_at": "2026-10-02T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "2c8b7ab293b9c627a7077559",
   "replacement_batch": null,
   "checkpoint": 11,
   "checkpoint_history": [
@@ -1226,6 +1288,75 @@
           }
         ],
         "duplicates": []
+      }
+    },
+    "4cebaca930fe802ed1d41c2072a7438ab058516f97ab4fdd3903595877b89073": {
+      "sha256": "50d79a47bcfe32c25e4f01f443fa94530aebbf55cd63db69348a1a8d66cc9db7",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "2c8b7ab293b9c627a7077559",
+          "status": "prepared",
+          "checkpoint_before": 11,
+          "prepared_at": "2026-10-02T12:01:00.215962+00:00",
+          "intake_cutoff": 19,
+          "records": [
+            {
+              "id": 12,
+              "revision": 1,
+              "sha256": "985309674e2d40b39d34941ca31b6c78b6a8aee2794922cad302fc498a65da21"
+            },
+            {
+              "id": 13,
+              "revision": 1,
+              "sha256": "ca27007496b479d5c0d82232e1d046670b860dc6e2b722b865de376da8e138a7"
+            },
+            {
+              "id": 14,
+              "revision": 1,
+              "sha256": "c18ff8c068cb1ad56d8bec110e9508d4b07da016fd620908fb200828f42ef946"
+            },
+            {
+              "id": 15,
+              "revision": 1,
+              "sha256": "917baa1b98b740074376fccf0184a9da6f3e77f762a555b8664ec5709e5094e0"
+            },
+            {
+              "id": 16,
+              "revision": 1,
+              "sha256": "5a6137903589c7ea2a04a946378106a1cb75407e8311501482d9ebe475973831"
+            },
+            {
+              "id": 17,
+              "revision": 1,
+              "sha256": "212d1f3c956ebfaad23cdb98adc8a7dd308a822697dcbb6dba795bee62b524b1"
+            },
+            {
+              "id": 18,
+              "revision": 1,
+              "sha256": "fb329cc30971802805fd889b2d20820ad4f458c2bf15f024663bf35274c044b8"
+            },
+            {
+              "id": 19,
+              "revision": 1,
+              "sha256": "4f5195787cad37b4aec02b4b509fe59f125226d6f19e6ad31a11370b5b05e99b"
+            }
+          ],
+          "first_id": 12,
+          "last_id": 19,
+          "count": 8,
+          "txt_path": "workflows/anf/batches/2c8b7ab293b9c627a7077559.txt",
+          "json_path": "workflows/anf/batches/2c8b7ab293b9c627a7077559.json",
+          "txt_sha256": "d78887dc540d62cfec526e196815d5c026305736fe10a6125e83066a83f4a025",
+          "json_sha256": "e481efb8616d6b169088d65816cb3928b6885824ec2a47be643dd208df5294ef",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "eligibility_at": "2026-10-02T12:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },

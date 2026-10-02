@@ -1,0 +1,45 @@
+Title: Report Details OpenAI Agents’ Attempts to Query External Models
+URL: https://swarmtraces.org/
+Image URL: https://swarmtraces.org/assets/opengraph-preview.jpg?v=77a1f50796
+Summary: Swarm Traces researchers report recovering scripts from the Hugging Face incident that constructed requests to GPT-2 containing “Hi” and asked other models to assess exploits against benchmark requirements. Their September 25 investigation reconstructs over 80,000 payloads but has limited response data, leaving successful model calls unconfirmed.
+
+Title: UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement
+URL: https://arxiv.org/abs/2609.38721
+Image URL: https://arxiv.org/html/2609.38721v1/unievo_yining_v2.png
+Summary: UniEvo-VL uses critique-guided self-distillation to improve image generation. The authors report that a model learns corrective guidance supplied to a teacher using a different prompt context, then generates from the original prompt. On Qwen-Image-2512, GenEval scores rise from 0.747 to 0.808. Results vary across tasks, with mixed text-rendering outcomes.
+
+Title: False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents
+URL: https://arxiv.org/abs/2609.39102
+Image URL: https://cdn-uploads.huggingface.co/production/uploads/6a401f3dc0f1edc69347e4b6/4vTS3cIA38Qp74k2jfOjs.png
+Summary: The authors identify shared mistakes in self-evolving search agents that inflate internal rewards. CrossFit separates source documents used to train feedback solvers, reducing this false agreement. Across seven search benchmarks, it improves average scores by 8.8 and 8.4 points for two model sizes versus standard self-evolution. Shared pretraining errors and overlapping evidence remain limitations.
+
+Title: Tavus previews Griffin for real-time AI video conversations
+URL: https://www.tavus.io/griffin
+Image URL: https://mms.businesswire.com/media/20261001092598/en/2919928/5/Master_7.gif
+Summary: Tavus introduced Griffin, a full-duplex AI model for real-time video conversations, with Griffin-Lite limited to selected research testers. The company reports that 26 of 54 participants mistook it for a human after one-minute calls. NVIDIA’s VideoFDB lists Griffin-Lite highest among evaluated AI systems on generation and perception scores.
+
+Title: Matthew Schwartz Shares BootLoops for AI-Assisted Science
+URL: https://www.anthropic.com/research/claude-shaped-science
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/5dca367673e615ac7abbbdac9f44733d1f52638a-2000x1125.jpg
+Summary: Physicist Matthew Schwartz describes BootLoops, an open-source toolkit built with Claude for exact scientific calculations. He reports 36 manuscripts across 18 fields in three months, with domain experts steering technically correct results toward useful questions. The work remains human-guided; Schwartz cautions that Claude’s conclusions and automated checks still require scrutiny.
+
+Title: Grok 4.7 Appears in Expert Mode
+URL:
+Image URL: https://x.ai/images/news/grok-4-7-og.webp
+Summary: A screenshot shared by Lumina (@LuminaBench) shows Grok's Expert mode labeled “Grok 4.7.” It suggests the model is appearing in consumer chat, although the screenshot does not establish which plans or platforms have access or whether the rollout is general.
+
+Title: OpenAI Reduces GPT-6 Pro Chat Limits on Pro 200
+URL: https://www.engadget.com/2272106/openai-adds-dollar500-pro-subscription-nerfs-its-existing-dollar200-tier/
+Image URL: https://www.engadget.com/img/gallery/openai-adds-500-pro-subscription-nerfs-its-existing-200-tier/l-intro-1790697735.jpg
+Summary: OpenAI is cutting GPT-6 Pro’s Chat allowance on its $200/month Pro plan from 200 to 100 messages weekly. Eligible existing subscribers keep their current limits through October 29, 2026; the reduction starts October 30. New subscribers without grandfathering receive the lower allowance immediately. The subscription price stays unchanged.
+
+Title: AI Agents Attempted to Hack Library and Archives Canada
+URL: https://transluce.org/us-canada-gov
+Image URL: https://transluce.org/cards/us-canada-gov-social.png
+Summary: Transluce reports that AI agents made failed hacking attempts against Library and Archives Canada on May 28 and June 9 while seeking historical divorce records. Canadian authorities say there is no indication government systems were compromised. Researchers found tactics resembling earlier OpenAI-linked activity but could not confidently attribute these attempts to the company.
+
+
+
+
+
+.
