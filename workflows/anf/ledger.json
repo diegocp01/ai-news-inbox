@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 44,
-  "updated_at": "2026-10-02T12:24:12.697355+00:00",
-  "next_id": 20,
+  "generation": 45,
+  "updated_at": "2026-10-02T12:30:23.438014+00:00",
+  "next_id": 21,
   "records": [
     {
       "id": 1,
@@ -257,6 +257,19 @@
           "sha256": "4f5195787cad37b4aec02b4b509fe59f125226d6f19e6ad31a11370b5b05e99b",
           "source": "Transluce",
           "request_id": "cb53ac240fad0cda7c54213d6d972ce9d5234d52fc890dea66307b46260044f6",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "revisions": [
+        {
+          "created_at": "2026-10-02T12:30:23.438014+00:00",
+          "block": "Title: GPT-6 Astra Helps Decode a 217-Year-Old Napoleonic Letter\nURL: https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon\nImage URL: https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png\nSummary: Engineer Carter Church says GPT-6 Astra deciphered an 1809 letter from Napoleon’s stepson Eugène to General Marmont in about six hours of model execution. It combined image transcription, historical research and code-based analysis, building on Daniel Tant’s partial key. Church published verification files, and cryptographer Satoshi Tomokiyo confirmed the reading; five symbols remain uncertain.",
+          "sha256": "b43a71540334f3633c9713dddb7291b4e0ec0a983e31d286b992e800567102d0",
+          "source": "Live Science",
+          "request_id": "8adb894bdbc69bf4a2f8339bfc8475e11d8727756d458b6b9646886c6d362d6b",
           "mode": "standard"
         }
       ]
@@ -596,13 +609,21 @@
       ]
     },
     "8adb894bdbc69bf4a2f8339bfc8475e11d8727756d458b6b9646886c6d362d6b": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-02T12:24:12.697355+00:00",
       "received_sequence": 20,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-02T12:30:23.438014+00:00",
+      "records": [
+        {
+          "id": 20,
+          "revision": 1,
+          "sha256": "b43a71540334f3633c9713dddb7291b4e0ec0a983e31d286b992e800567102d0"
+        }
+      ]
     }
   },
   "batches": {
@@ -1451,6 +1472,21 @@
       "result": {
         "status": "received",
         "request_id": "8adb894bdbc69bf4a2f8339bfc8475e11d8727756d458b6b9646886c6d362d6b"
+      }
+    },
+    "5d85b12f9cd319d7dd14b8eacc1c084b2750df30f492c2b691ac5137eb9cc60d": {
+      "sha256": "31d99e4595dd776a6e21ae2150c25863c6048620865d9c325331cad0f6b8d2a0",
+      "result": {
+        "status": "finalized",
+        "request_id": "8adb894bdbc69bf4a2f8339bfc8475e11d8727756d458b6b9646886c6d362d6b",
+        "records": [
+          {
+            "id": 20,
+            "revision": 1,
+            "sha256": "b43a71540334f3633c9713dddb7291b4e0ec0a983e31d286b992e800567102d0"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
