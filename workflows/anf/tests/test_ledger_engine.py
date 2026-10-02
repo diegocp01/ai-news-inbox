@@ -29,6 +29,7 @@ class Repository:
         # own production-policy tests in test_editorial_quality.py.
         legacy_policy = json.loads(self.files[e.POLICY])
         legacy_policy["export_format_version"] = 1
+        legacy_policy["preserve_separate_submissions"] = False
         self.files[e.POLICY] = e.encoded(legacy_policy)
         self.seq = 0
         self.ops = 0

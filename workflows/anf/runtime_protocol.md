@@ -1,5 +1,18 @@
 # ANF cloud ledger runtime protocol
 
+## Separate submissions are preserved (2026-10-02 update)
+
+The user's latest instruction disables automatic story/content deduplication.
+`preserve_separate_submissions: true` in policy means each separately accepted
+submission receives its own record, even with identical content or URL, and is
+compiled normally once reviewed. Never suppress it or reconcile it into an older
+story merely because it repeats. The user removes duplicates manually. Retrying
+the SAME request/operation is still idempotent, and delivery retry protection is
+unchanged. Explicit user-requested corrections still revise their declared
+unpublished target rather than create or collapse another story. Historical
+previously collapsed duplicate mappings remain unchanged; do not resurrect or
+rewrite them automatically.
+
 ## Current audience and quality contract (2026-10-02)
 
 Read [docs/EDITORIAL-QUALITY.md](docs/EDITORIAL-QUALITY.md) before new compilation.
@@ -80,11 +93,11 @@ Mutations also require `operation_id` and `at`, for example `2026-10-01T12:00:00
 ## Ingress and finalization
 
 1. At the actual accepted intake boundary, commit `receive` with `request_id`, `expected_items`, and optional `mode` (`standard` by default). Every accepted request must be durably received before acknowledging acceptance, beginning research, or scheduling processing. A crash before this save cannot be detected by the engine; the ingress bridge must treat it as failed acceptance and visibly recover/retry.
-2. One received sequence is assigned by the atomic receive commit order for provenance. Independent requests may research and finalize in any completion order: an unfinished bot or manual request never blocks another independent intake. New record IDs are assigned contiguously by atomic finalization commit order, not receive order; unresolved requests retain their original sequence, expected item count, and status, and can finalize later with subsequent record IDs. Exact duplicates do not allocate another ID. `correct` and correction reconciliation retain receive order only among unresolved corrections targeting the same record, preventing stale correction results from overwriting a newer result. Unrelated requests do not block corrections. Declared-target, unpublished-record, frozen-batch, deduplication, and output-gate checks remain mandatory. Duplicate requests use the same request ID and do not create another ingress.
+2. One received sequence is assigned by the atomic receive commit order for provenance. Independent requests may research and finalize in any completion order: an unfinished bot or manual request never blocks another independent intake. New record IDs are assigned contiguously by atomic finalization commit order, not receive order; unresolved requests retain their original sequence, expected item count, and status, and can finalize later with subsequent record IDs. Each separate accepted item allocates its own ID even when its URL or block exactly matches another story; only retries of the same request/operation are idempotent. `correct` and correction reconciliation retain receive order only among unresolved corrections targeting the same record, preventing stale correction results from overwriting a newer result. Unrelated requests do not block corrections. Declared-target, unpublished-record, frozen-batch, retry-idempotence and output-gate checks remain mandatory. Retries of one submission retain its request ID; genuinely separate submissions use distinct opaque identities.
 3. Research and editorial verification are performed outside the engine. Apply the complete intake skill and relevant references: neutral title/tone, claim/source alignment, a real verified image, and no adjacent unrequested stories. The engine checks four physical lines, the word count, HTTP(S) URL syntax, forbidden domains/subdomains/suffixes, and an explicit image-verification assertion. It cannot verify article truth, image bytes, neutrality, or authenticity itself.
 4. For the user-authorized temporary newsletter intake priority, `receive` may use `image_url_only` plus `image_review_deferral_evidence_sha256` as documented in the editorial supplement. This retains a real nonempty syntactically valid image URL without asserting unperformed image checks; quality review remains mandatory before new compilation. Commit `finalize` with `request_id` and exactly `expected_items` entries in `items`: each has `block`, optional public publisher `source`, and `image_verified: true` for standard intake. This is atomic across all items. A malformed second item leaves the entire intake received/unresolved.
-5. Read back each exact block, revision, and SHA-256, then run the required executable intake-output gate below before returning it to the user. An exact duplicate anywhere in full revision/history resolves to that existing record without incrementing IDs or requeuing delivered/superseded content. If the matched content is superseded, do not present it as a newly queued current correction.
-6. Error-only processing results remain unresolved. Do not silently discard them or move a baseline past them. `reconcile_intake` requires one `record_ids` entry per expected item plus `evidence_sha256`, which must attest to an externally checked per-item mapping. Repeated IDs are permitted only when separately supplied items are genuine duplicates; do not repeat one arbitrary ID to cover missing research. The engine records current revision/hash references for each mapping. Explicitly user-authorized abandonment instead uses `cancel_intake` below; it is never inferred from a failed run or a compilation cutoff.
+5. Read back each exact block, revision, and SHA-256, then run the required executable intake-output gate below before returning it to the user. A new separate submission creates its own record even when it matches full history exactly. Existing historical duplicate mappings and operation replays retain their original references; do not reinterpret those old results as newly queued content.
+6. Error-only processing results remain unresolved. Do not silently discard them or move a baseline past them. `reconcile_intake` requires one `record_ids` entry per expected item plus `evidence_sha256`, which must attest to an externally checked per-item mapping. Under the current policy, reconciliation additionally requires `reconciliation_reason: user_authorized_mapping` and `authorization_sha256` from actual explicit approval of that mapping. Never use it automatically to suppress a repeated story; do not repeat one arbitrary ID to cover missing research. The engine records current revision/hash references for each mapping. Explicitly user-authorized abandonment instead uses `cancel_intake` below; it is never inferred from a failed run or a compilation cutoff.
 
 ### Explicit user-authorized cancellation
 
@@ -131,8 +144,8 @@ After the atomic GitHub commit and exact changed-file readback:
    replaces an existing output artifact with the blocked result. Always check this
    invocation's exit code; never reuse an old success after any execution/I/O error.
 5. Only return the released bytes. Respect each item's `queue_status`: an existing
-   `published` or `delivered` duplicate was verified, not newly queued. For a
-   superseded duplicate, report that fact without presenting an obsolete block as
+   `published` or `delivered` result from a retry/historical duplicate mapping was
+   verified, not newly queued. For a superseded historical duplicate, report that fact without presenting an obsolete block as
    a current ANF. Do not repeat an already answered intake merely because a replay
    passes the gate. This verifier grants no compilation attachment-delivery or
    resend permission and does not advance any checkpoint.
@@ -180,7 +193,7 @@ Do not import any old queue, archive, prior news, checkpoints, or export files. 
 
 `initialize` can seed explicitly selected finalized blocks using `initial_items`, a `boundary_evidence_sha256`, and `seed_evidence_sha256`. It applies the structural, URL-domain, and 60-word checks without pretending to repeat the prior image verification. The checked-in initial ledger is already initialized; do not run initialize again or overwrite it with a fresh local copy after the branch has advanced.
 
-Future exact duplicates are rejected against the full history of this new ledger, including superseded/delivered revisions. Existing `items/` filenames must still be fetched for collision detection and left immutable. If the user separately asks to check whether a future story appeared in older published JSON, read those existing files without importing them into the ledger or silently changing this starting boundary.
+Future separately submitted articles are preserved even when identical to full history. Same-request/operation retry protection remains enabled. No historical duplicate mapping is changed by this policy update. Existing `items/` filenames must still be fetched for collision detection and left immutable. If the user separately asks to check whether a future story appeared in older published JSON, read those existing files without importing them into the ledger or silently changing this starting boundary.
 
 The engine retains generic import operations for test coverage/backward compatibility, but they are out of scope and must not be used for this deployment. Nothing under `imports/` is included in the deployment.
 

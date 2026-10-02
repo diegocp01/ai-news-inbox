@@ -84,14 +84,16 @@ class EditorialTests(unittest.TestCase):
         self.add_review(rid=1,editorial=ed)
         bid=self.repo.prepared();self.assertIs(json.loads(self.repo.files[self.repo.state['batches'][bid]['json_path']])[0]['ds'],True)
 
-    def test_provenance_follows_correction_and_duplicate(self):
+    def test_provenance_follows_own_correction_not_separate_identical_submission(self):
         self.repo.add('Original')
         self.repo.execute('receive',request_id='ds_bot',origin={'kind':'data_science_corner','evidence_sha256':HASH})
         self.repo.execute('finalize',request_id='ds_bot',items=[{'block':block('Original'),'image_verified':True}])
-        self.repo.execute('receive',request_id='correction',corrects_record_id=1)
-        self.repo.execute('correct',request_id='correction',record_id=1,block=block('Corrected'),image_verified=True)
+        self.repo.execute('receive',request_id='correction',corrects_record_id=2)
+        self.repo.execute('correct',request_id='correction',record_id=2,block=block('Corrected'),image_verified=True)
         with self.assertRaisesRegex(e.LedgerError,'DataScienceCorner'):
-            self.add_review(rid=1,editorial=review(block('Corrected')))
+            self.add_review(rid=2,editorial=review(block('Corrected')))
+        self.add_review(rid=1,editorial=review(block('Original')))
+        self.assertEqual(len(self.repo.state['records']),2)
 
     def test_bool_false_string_ds_and_missing_classification_rejected(self):
         self.repo.add()
@@ -248,7 +250,7 @@ class EditorialTests(unittest.TestCase):
         self.assertEqual([r['id'] for r in self.repo.execute('preview')['items']],[4])
         self.assertEqual(self.repo.state['batches'][gap]['checkpoint_after'],3)
         self.assertEqual(self.repo.state['batches'][bid]['checkpoint_after'],1)
-        self.assertEqual(self.repo.add('Ready third')['duplicates'][0]['id'],3)
+        self.assertEqual(self.repo.add('Ready third')['records'][0]['id'],5)
 
     def test_unready_first_does_not_hold_later_ready_or_ack_past_gap(self):
         self.repo.add('Unready first');self.add_review('Ready second')
@@ -344,11 +346,87 @@ class EditorialTests(unittest.TestCase):
             self.assertEqual(self.repo.state['checkpoint'],0)
 
     def test_late_ds_provenance_blocks_wrong_frozen_classification(self):
+        # Compatibility with pre-change ledgers/writers that collapsed duplicates.
+        policy=json.loads(self.repo.files[e.POLICY]);policy['preserve_separate_submissions']=False
+        self.repo.files[e.POLICY]=e.encoded(policy)
         self.add_review('General at preparation');bid=self.repo.prepared()
         self.repo.execute('receive',request_id='ds_duplicate',origin={'kind':'data_science_corner','evidence_sha256':HASH})
         self.repo.execute('finalize',request_id='ds_duplicate',items=[{'block':block('General at preparation'),'image_verified':True}])
         with self.assertRaisesRegex(e.LedgerError,'Frozen audience conflicts'):
             self.repo.execute('publish',batch_id=bid)
         self.assertNotIn('ds:',self.repo.files[self.repo.state['batches'][bid]['txt_path']])
+
+    def test_separate_identical_submissions_get_distinct_records_and_both_export(self):
+        first=self.repo.add('Same article');second=self.repo.add('Same article')
+        self.assertEqual([first['records'][0]['id'],second['records'][0]['id']],[1,2])
+        self.assertEqual(first['duplicates'],[]);self.assertEqual(second['duplicates'],[])
+        self.add_review(rid=1);self.add_review(rid=2)
+        bid=self.repo.prepared();b=self.repo.state['batches'][bid]
+        self.assertEqual([r['id'] for r in b['records']],[1,2])
+        payload=json.loads(self.repo.files[b['json_path']]);self.assertEqual(len(payload),2);self.assertEqual(payload[0],payload[1])
+        self.assertEqual(self.repo.files[b['txt_path']].count('Title: Same article'),2)
+
+    def test_same_request_and_operation_retries_allocate_no_new_record(self):
+        self.repo.execute('receive',request_id='same')
+        op=self.repo.operation('finalize',request_id='same',items=[{'block':block('Same'),'image_verified':True}])
+        self.repo.commit(e.plan(self.repo.snapshot(),op))
+        replay=e.plan(self.repo.snapshot(),op);self.assertTrue(replay['replayed']);self.assertEqual(replay['changes'],[])
+        self.repo.execute('receive',request_id='same')
+        with self.assertRaisesRegex(e.LedgerError,'already resolved'):
+            self.repo.execute('finalize',request_id='same',items=[{'block':block('Same'),'image_verified':True}])
+        self.assertEqual(len(self.repo.state['records']),1)
+
+    def test_identical_items_in_one_accepted_submission_preserve_expected_count(self):
+        self.repo.execute('receive',request_id='two',expected_items=2)
+        result=self.repo.execute('finalize',request_id='two',items=[{'block':block('Same'),'image_verified':True}]*2)
+        self.assertEqual([r['id'] for r in result['records']],[1,2]);self.assertEqual(result['duplicates'],[])
+
+    def test_separate_submission_of_delivered_content_is_new_without_rewriting_history(self):
+        self.add_review('Repeat',True);bid=self.repo.published();self.repo.begin(bid);self.repo.acknowledge(bid)
+        before=copy.deepcopy(self.repo.state['batches'][bid]);files={p:v for p,v in self.repo.files.items() if p.startswith(('items/','workflows/anf/batches/'))}
+        self.assertEqual(self.repo.add('Repeat')['records'][0]['id'],2)
+        self.assertEqual(self.repo.state['checkpoint'],1);self.assertEqual(self.repo.state['batches'][bid],before)
+        for p,v in files.items():self.assertEqual(self.repo.files[p],v)
+        self.assertEqual([r['id'] for r in self.repo.execute('preview')['items']],[2])
+
+    def test_explicit_correction_can_match_other_record_without_collapsing(self):
+        self.repo.add('First');self.repo.add('Second')
+        self.repo.execute('receive',request_id='explicit_correction',corrects_record_id=2)
+        result=self.repo.execute('correct',request_id='explicit_correction',record_id=2,block=block('First'),image_verified=True)
+        self.assertEqual(result['record']['id'],2);self.assertEqual(result['record']['revision'],2)
+        self.assertEqual(len(self.repo.state['records']),2)
+        self.assertEqual(e.revision(self.repo.state['records'][0])['block'],e.revision(self.repo.state['records'][1])['block'])
+
+    def test_automatic_reconciliation_cannot_suppress_a_separate_submission(self):
+        self.repo.add('Existing');self.repo.execute('receive',request_id='new')
+        before=self.repo.snapshot()
+        with self.assertRaisesRegex(e.LedgerError,'automatically reconciled'):
+            self.repo.execute('reconcile_intake',request_id='new',record_ids=[1],evidence_sha256=HASH)
+        self.assertEqual(self.repo.snapshot(),before)
+        self.repo.execute('reconcile_intake',request_id='new',record_ids=[1],evidence_sha256=HASH,
+                          reconciliation_reason='user_authorized_mapping',authorization_sha256=HASH)
+        self.assertEqual(self.repo.state['requests']['new']['status'],'reconciled')
+
+    def test_delivery_retry_remains_exact_once_with_separate_same_story_queued(self):
+        self.add_review('Same');bid=self.repo.published();self.repo.begin(bid)
+        self.repo.execute('delivery_failed',batch_id=bid,attempt_id='attempt_1',definitely_not_accepted=True,evidence_sha256=HASH)
+        self.repo.add('Same');pub=self.repo.state['batches'][bid]['publication']
+        self.assertEqual(self.repo.execute('prepare')['batch']['records'][0]['id'],1)
+        self.assertEqual(self.repo.execute('publish',batch_id=bid)['publication'],pub)
+        self.repo.begin(bid,attempt='retry');self.repo.acknowledge(bid,attempt='retry')
+        self.assertEqual(self.repo.state['checkpoint'],1)
+        self.assertEqual([r['id'] for r in self.repo.execute('preview')['items']],[2])
+
+    def test_output_gate_releases_new_identical_submission_as_new_record(self):
+        from datetime import datetime
+        from test_intake_output_gate import gate
+        self.repo.add('Identical')
+        self.repo.execute('receive',request_id='new_identical')
+        op=self.repo.operation('finalize',request_id='new_identical',items=[{'block':block('Identical'),'image_verified':True}])
+        self.repo.commit(e.plan(self.repo.snapshot(),op));snap=self.repo.snapshot()
+        observation={'repository':gate.REPOSITORY,'branch':'main','head':snap['head'],'observed_at':T,'snapshot_sha256':e.digest(e.canonical(snap))}
+        result=gate.verify_intake_output(snap,op,observation,now=datetime.fromisoformat(T))
+        self.assertEqual(result['items'][0]['id'],2);self.assertEqual(result['items'][0]['queue_status'],'queued')
+        self.assertEqual(result['items'][0]['block'],block('Identical'))
 
 if __name__ == '__main__': unittest.main()

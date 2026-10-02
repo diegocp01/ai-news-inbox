@@ -800,7 +800,9 @@ def transition(state, files, op, policy, head, changes):
         for item in items:
             require(isinstance(item, dict), "Each finalized item must be an object")
             block = validate_block(item.get("block"), policy, request["mode"], item.get("image_verified"))
-            duplicate = find_duplicate(state, block)
+            # Separate accepted submissions are editorial content, not retries.
+            # Only request/operation identity provides retry idempotence.
+            duplicate = None if policy.get("preserve_separate_submissions", False) else find_duplicate(state, block)
             if duplicate:
                 refs.append({key: duplicate[key] for key in ("id", "revision", "sha256")})
                 duplicates.append(duplicate)
@@ -817,9 +819,18 @@ def transition(state, files, op, policy, head, changes):
         record_ids = op.get("record_ids")
         require(isinstance(record_ids, list) and len(record_ids) == request["expected_items"],
                 "Reconciliation needs one matching durable record for every expected item")
+        if policy.get("preserve_separate_submissions", False):
+            # Mapping a new submission to another request's record suppresses
+            # content. It is never an automatic duplicate-recovery shortcut.
+            require(op.get("reconciliation_reason") == "user_authorized_mapping",
+                    "Separate submissions cannot be automatically reconciled as duplicates")
+            sha(op.get("authorization_sha256"), "explicit reconciliation authorization")
         request.update(status="reconciled", finalized_at=now,
                        records=[reference(lookup(state, rid)) for rid in record_ids],
                        evidence_sha256=sha(op.get("evidence_sha256")))
+        if policy.get("preserve_separate_submissions", False):
+            request["reconciliation_authorization_sha256"] = op["authorization_sha256"]
+            request["reconciliation_reason"] = op["reconciliation_reason"]
         return {"status": "intake_reconciled", "request_id": request_id, "records": request["records"]}
     if kind == "correct":
         request_id, request = active_request(state, op)
@@ -832,7 +843,8 @@ def transition(state, files, op, policy, head, changes):
                 ref["id"] == record["id"] for ref in batch["records"])), "Cannot correct a published record")
         block = validate_block(op.get("block"), policy, request["mode"], op.get("image_verified"))
         duplicate = find_duplicate(state, block)
-        require(not duplicate or (duplicate["id"] == record["id"] and not duplicate["superseded"]),
+        require(policy.get("preserve_separate_submissions", False) or not duplicate
+                or (duplicate["id"] == record["id"] and not duplicate["superseded"]),
                 "Correction duplicates historical content; reconcile explicitly instead")
         source = op.get("source", revision(record)["source"])
         require(isinstance(source, str), "Source must be a string")
@@ -1071,11 +1083,12 @@ def plan(snapshot, operation):
     require(POLICY in files, "Policy file is missing")
     policy = json.loads(files[POLICY])
     required_policy = {"summary_max_words", "forbidden_url_domains", "forbidden_url_suffixes", "forbidden_image_domains"}
-    require(required_policy <= set(policy) <= required_policy | {"export_format_version", "min_image_width", "min_image_height", "quality_max_age_hours"},
+    require(required_policy <= set(policy) <= required_policy | {"export_format_version", "min_image_width", "min_image_height", "quality_max_age_hours", "preserve_separate_submissions"},
             "Invalid policy shape")
     require(integer(policy["summary_max_words"], 1) and all(isinstance(policy[key], list) and all(
         isinstance(v, str) and v for v in policy[key]) for key in required_policy - {"summary_max_words"}), "Invalid policy")
     require(policy.get("export_format_version", 1) in {1, 2}, "Invalid export format version")
+    require(type(policy.get("preserve_separate_submissions", False)) is bool, "Invalid submission policy")
     for key in ("min_image_width", "min_image_height", "quality_max_age_hours"):
         require(integer(policy.get(key, 1), 1), "Invalid quality policy")
     config = json.loads(files.get(CONFIG, '{"trusted_preprocessed_route_sha256": [], "compilation_enabled": false, "cutover_confirmation_sha256": null}'))

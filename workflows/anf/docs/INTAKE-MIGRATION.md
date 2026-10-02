@@ -2,6 +2,16 @@
 
 This is a portability guide derived from the original Hermes ANF workflow. It is documentation, not authorization to publish, send, enable a schedule, establish credentials, or advance a checkpoint. The accompanying legacy instruction files preserve the full editorial knowledge base. Their Hermes commands and Telegram routing describe the old runtime and must not be executed as cloud-runner instructions.
 
+## Latest submission policy override
+
+The user's 2026-10-02 instruction disables automatic story deduplication:
+separate accepted submissions retain separate records even when the content or
+URL is identical. Only the same request/operation and delivery retries remain
+idempotent. Do not suppress or reconcile another submission as a duplicate;
+the user removes those manually. Explicit requested corrections still use their
+declared record. This overrides any older content-deduplication guidance below
+or in the preserved legacy sources. Historical mappings and exports are unchanged.
+
 ## Current implementation precedence
 
 `../runtime_protocol.md` is the authoritative cloud execution contract. This document preserves the broader migration analysis. The current implementation records durable received/finalized/reconciled intake states, freezes batch-specific intake cutoffs, publishes items plus metadata in one atomic CAS commit, and requires genuine native attachment receipts before acknowledgment. Trusted preprocessed routes are disabled by default, and the current 60-word maximum applies to every new summary even on an explicitly approved route. Full original editorial sources remain unchanged under `legacy-hermes/`.
@@ -41,7 +51,7 @@ The original prose permits blank trusted fields, while its old Python queue reje
 
 1. Record an accepted intake before beginning research, including its source message/request identity when available, input kind, and ordered item identities.
 2. Track received, researching, finalized, queued/read-back-verified, superseded, rejected with reason, or unresolved states. An error-only or non-ANF final response does not resolve an accepted intake.
-3. Normalize only the agreed four-line representation. The original queue strips outer whitespace and hashes the exact remaining UTF-8 block with SHA-256. Exact block duplicates are retries across the entire retained history, including already exported records. Similar titles or stories are not automatic duplicates.
+3. Normalize only the agreed four-line representation. The original queue strips outer whitespace and hashes the exact remaining UTF-8 block with SHA-256. Exact block hashes verify integrity. Under current policy, separately accepted submissions remain separate even when identical; retries are recognized by request/operation identity, never content similarity.
 4. Write a finalized block idempotently and read it back by record identity/hash before exposing it as finished. Run `../intake_output_gate.py` with the exact operation and fresh connector snapshot/observation as specified in `../runtime_protocol.md`; only its verified output may supply final response blocks. For an ambiguous write, inspect persisted state before retrying. The pure Python gate validates supplied observations; actual GitHub calls and authentic readback remain the connector's responsibility.
 5. Preserve explicit corrections. A superseded still-pending intake must not ship beside its replacement. Never rewrite already acknowledged exports merely to apply a later correction. A published-but-delivery-unconfirmed batch is immutable and requires reconciliation rather than mutation.
 6. Gate preparation/publication on completeness: each accepted intake must be accounted for, and every finalized outgoing block must have exact durable queue parity. Keep an explicit reason/evidence for a manual reconciliation.

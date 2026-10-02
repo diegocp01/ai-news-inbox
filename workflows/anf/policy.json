@@ -20,5 +20,6 @@
   "export_format_version": 2,
   "min_image_width": 600,
   "min_image_height": 315,
-  "quality_max_age_hours": 48
+  "quality_max_age_hours": 48,
+  "preserve_separate_submissions": true
 }

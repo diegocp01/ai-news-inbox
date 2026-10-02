@@ -66,7 +66,7 @@ adds the review. At `receive`, an authenticated data-science route may add:
 ```
 
 For legacy intake whose source is verified later, the same `origin` object may
-be inside `editorial`. Provenance follows corrections and exact duplicates and
+be inside `editorial`. Provenance follows corrections and historical duplicate mappings and
 cannot be downgraded by a later general review. It does not grant a trusted
 preprocessed route or bypass normal content/image checks. Never publish raw
 sender addresses, messages, transport IDs, signed URLs, tokens or private proof.
@@ -250,9 +250,10 @@ failure. Try a relevant alternate, inspect it, and report what remains blocked.
 Use independent receive requests for independent stories where the bridge has
 not accepted a combined request; an already accepted multi-item request keeps
 its original expected count and atomic finalization. Do not silently split or
-cancel it. Check same-event published/queued stories before retrying; exact-block
-deduplication does not detect rewritten versions of the same event. Never lower
-claim/image standards or duplicate a published story merely to make a bot run
+cancel it. Preserve separate submissions even if their story, URL or text repeats; the user
+removes duplicates manually. Only reconcile uncertain writes of the same request
+and protect its retry identity. Never suppress or map a new submission to an
+older article automatically. Never lower claim/image standards to make a bot run
 look successful.
 
 ## Temporary newsletter intake priority: image URL first
@@ -286,3 +287,33 @@ scientific result that was not established, or erase meaningful uncertainty.
 Audience classification still follows the article's actual substance, not the
 simplified title. This is future editorial guidance, not permission to rewrite
 already delivered articles or today's immutable batch.
+
+
+## Preserve repeated submissions; deduplicate only technical retries
+
+Effective immediately on the user's 2026-10-02 instruction,
+`policy.json` sets `preserve_separate_submissions: true`. Every separately
+accepted item gets a separate record, even when its complete block, title or URL
+is identical to a queued, superseded or delivered story. Distinct repeated items
+inside one explicitly accepted multi-item request also keep separate record IDs.
+Compile and deliver those records normally; the user will remove story duplicates
+manually. Do not silently suppress, merge, cancel or reconcile them into older
+records. Content hashes remain integrity checks, not submission identity.
+
+The request ID binds one actual accepted submission, using its unique transport
+identity (privately hashed where needed), never just a URL/title/content hash.
+Retries keep it and the same operation identity/body. Do not mint a new request merely to retry a failed
+or uncertain save. An already finalized request remains resolved; recover its
+persisted result and output-gate verification. Publication/delivery retries still
+use the same frozen batch/file and require accepted receipts before acknowledgment.
+One explicit later resubmission is different from an accidental transport retry.
+
+Explicit user-requested corrections remain supported via declared
+`corrects_record_id` and `correct`; they may match another record's content
+without collapsing records. `reconcile_intake` is not an automatic duplicate
+shortcut: current policy requires `reconciliation_reason: user_authorized_mapping`
+and `authorization_sha256` bound to explicit user approval, in addition to normal
+mapping evidence. The bridge must verify that approval; the engine cannot prove
+it from a digest. Historical records, previously resolved duplicate mappings,
+published files, frozen batch bytes and checkpoints are untouched by this policy
+migration. They are not automatically reopened or re-exported.

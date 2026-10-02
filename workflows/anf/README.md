@@ -44,3 +44,12 @@ without holding other ready items; the contiguous checkpoint catches up only aft
 apply to image URLs and every redirect. Actual pixel inspection, dimensions,
 image/story relevance and honest Chase uncertainty are required. Legacy/frozen
 batches retain their exact bytes. No prior publication is rewritten.
+
+## Repeated stories are preserved
+
+The latest user instruction enables `preserve_separate_submissions: true`.
+Separately accepted submissions get separate records and exports even if their
+content or URL matches. The user removes story duplicates manually. Same-request
+and same-operation retries remain idempotent, and delivery retries retain exact
+frozen files. Do not automatically suppress or reconcile repeated stories.
+Explicit user-requested corrections and historical artifacts remain intact.
