@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 54,
-  "updated_at": "2026-10-02T14:58:25.660671+00:00",
-  "next_id": 23,
+  "generation": 55,
+  "updated_at": "2026-10-02T15:03:31.471628+00:00",
+  "next_id": 24,
   "records": [
     {
       "id": 1,
@@ -296,6 +296,19 @@
           "sha256": "ecd7c74e814b9fa4c5cbff268a60e457e526c74f97384f6e53852c55b87c3715",
           "source": "BASENOR",
           "request_id": "89836beae9b85ecde92006e65fdae98d67d158106782820a43b186f89fdff48c",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "revisions": [
+        {
+          "created_at": "2026-10-02T15:03:31.471628+00:00",
+          "block": "Title: Grok 4.7 Appears in Consumer Chat\nURL: https://promptblueprints.tech/news-article/grok-4-7-reportedly-appears-in-the-grok-app/\nImage URL: https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/db/09/83db098c-6eab-384e-303b-6a083db14330/Placeholder.mill/1200x630wa.jpg\nSummary: User reports and screenshots show Grok 4.7 appearing under Expert mode in the consumer Grok app. Mark Kretschmann says it is available for chat and research following its earlier developer-focused release. The evidence does not establish which subscriptions or platforms have access, or whether the rollout is universal.",
+          "sha256": "80497962e6a10b7d78e7e5572bae376165b5d81dfe5bed685a8174ef605559da",
+          "source": "Prompt Blueprints",
+          "request_id": "f4e481429b0cac791c3cffab1cfec89c7533b8a1e9f6cc71e136088e20c7c1d4",
           "mode": "standard"
         }
       ]
@@ -686,13 +699,21 @@
       ]
     },
     "f4e481429b0cac791c3cffab1cfec89c7533b8a1e9f6cc71e136088e20c7c1d4": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-02T14:46:05.053726+00:00",
       "received_sequence": 23,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-02T15:03:31.471628+00:00",
+      "records": [
+        {
+          "id": 23,
+          "revision": 1,
+          "sha256": "80497962e6a10b7d78e7e5572bae376165b5d81dfe5bed685a8174ef605559da"
+        }
+      ]
     }
   },
   "batches": {
@@ -1650,6 +1671,21 @@
           "sha256": "ecd7c74e814b9fa4c5cbff268a60e457e526c74f97384f6e53852c55b87c3715"
         },
         "editorial_sha256": "3f1e5400305e267ebe7445f15c517383a72cba7e63ce8d3d3f487f9980b7f6e2"
+      }
+    },
+    "59741dacaf0234531d9efeb0ddcecf31630b5cd62751dfae1430c556b85643db": {
+      "sha256": "8eb60de0caa62a0a5c9eac7ac3e50d260462e87e1ebd64dceb7567985fa66f44",
+      "result": {
+        "status": "finalized",
+        "request_id": "f4e481429b0cac791c3cffab1cfec89c7533b8a1e9f6cc71e136088e20c7c1d4",
+        "records": [
+          {
+            "id": 23,
+            "revision": 1,
+            "sha256": "80497962e6a10b7d78e7e5572bae376165b5d81dfe5bed685a8174ef605559da"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
