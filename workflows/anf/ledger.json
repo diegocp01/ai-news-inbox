@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 52,
-  "updated_at": "2026-10-02T14:55:23.915876+00:00",
+  "generation": 53,
+  "updated_at": "2026-10-02T14:56:43.210512+00:00",
   "next_id": 23,
   "records": [
     {
@@ -1627,6 +1627,18 @@
         },
         "editorial_sha256": "a42972ab5fe0eaeef1f8b5a54239db4bdd50892d0c1837cf12e48aebc694eb48"
       }
+    },
+    "734590ec1b889546348fab4b370445fc4329bec81357b9e4692d1183bb7cb888": {
+      "sha256": "1994add56d96d3ef2d75213fe33a6b4a510c77673088ad6068c524d7b8e8e87d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 21,
+          "revision": 1,
+          "sha256": "799c355c66f2d7af2b9f5c5ea834b01ea390c7b809ce1ac7768a56c567d02b07"
+        },
+        "editorial_sha256": "4396c42ec2faad7c296b0de1d929392d2c28b4747e14d46b058d2978e0f7eadc"
+      }
     }
   },
   "migration": {
@@ -1698,6 +1710,58 @@
         "sha256": "a42972ab5fe0eaeef1f8b5a54239db4bdd50892d0c1837cf12e48aebc694eb48",
         "reviewed_at": "2026-10-02T14:55:23.915876+00:00",
         "operation_id": "df264270847fee2ae0c14fec0d46a5c06d1a1fb02faa2315bcf50992c073760f"
+      }
+    ],
+    "21:1": [
+      {
+        "reference": {
+          "id": 21,
+          "revision": 1,
+          "sha256": "799c355c66f2d7af2b9f5c5ea834b01ea390c7b809ce1ac7768a56c567d02b07"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer AI assistant feature update covering proactive suggestions and app notifications; no data science, statistical methodology, model architecture, training, engineering implementation, or developer API content.",
+            "evidence_sha256": "1ee1fe97587d45e6530ab0af53e1c7c1b9e6740135dfb55a5173c7da873b8384"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.tao.media/grok-bot-adds-proactive-suggestions-that-spot-work-without-being-asked/",
+              "final_url": "https://www.tao.media/grok-bot-adds-proactive-suggestions-that-spot-work-without-being-asked/",
+              "redirect_chain": [
+                "https://www.tao.media/grok-bot-adds-proactive-suggestions-that-spot-work-without-being-asked/"
+              ],
+              "checked_at": "2026-10-02T14:20:42+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "2f1a3b36b5b4fda133643da1a72375b31e7faa3829c6dba403dda6ab5dd7ef00",
+              "same_event": true
+            },
+            "image": {
+              "url": "https://storage.ghost.io/c/78/0b/780ba906-b1a7-4bf0-873c-bdd5c32e5331/content/images/size/w1200/2026/10/AI-Assistant-Notification-Interface.png",
+              "final_url": "https://storage.ghost.io/c/78/0b/780ba906-b1a7-4bf0-873c-bdd5c32e5331/content/images/size/w1200/2026/10/AI-Assistant-Notification-Interface.png",
+              "redirect_chain": [
+                "https://storage.ghost.io/c/78/0b/780ba906-b1a7-4bf0-873c-bdd5c32e5331/content/images/size/w1200/2026/10/AI-Assistant-Notification-Interface.png"
+              ],
+              "checked_at": "2026-10-02T14:21:52+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "3650ecff322c6bc26f49ede5cdef8e85486ebbe07d17c4184248acee80cfcf21",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 675,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "105bf0b5869978bf6839fe5c6f91072d55485702b240061773b0c178a8ef99ad",
+              "relevance": "story_specific",
+              "relevance_note": "Clear 16:9 editorial illustration of a phone showing a Chief of Staff notification offering to fix a triple-booked 2pm calendar; matches the launch video demo, which was separately pixel-inspected at 3 seconds."
+            }
+          }
+        },
+        "sha256": "4396c42ec2faad7c296b0de1d929392d2c28b4747e14d46b058d2978e0f7eadc",
+        "reviewed_at": "2026-10-02T14:56:43.210512+00:00",
+        "operation_id": "734590ec1b889546348fab4b370445fc4329bec81357b9e4692d1183bb7cb888"
       }
     ]
   }
