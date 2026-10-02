@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 34,
-  "updated_at": "2026-10-01T23:14:31.832623+00:00",
-  "next_id": 17,
+  "generation": 35,
+  "updated_at": "2026-10-02T00:02:05.970030+00:00",
+  "next_id": 18,
   "records": [
     {
       "id": 1,
@@ -218,6 +218,19 @@
           "sha256": "5a6137903589c7ea2a04a946378106a1cb75407e8311501482d9ebe475973831",
           "source": "Anthropic",
           "request_id": "1d2ccc29ac760e5dc5f96e03dae5db08fb50f3d5599b0dfe141866dc85e7412a",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "revisions": [
+        {
+          "created_at": "2026-10-02T00:02:05.970030+00:00",
+          "block": "Title: Grok 4.7 Appears in Expert Mode\nURL:\nImage URL: https://x.ai/images/news/grok-4-7-og.webp\nSummary: A screenshot shared by Lumina (@LuminaBench) shows Grok's Expert mode labeled “Grok 4.7.” It suggests the model is appearing in consumer chat, although the screenshot does not establish which plans or platforms have access or whether the rollout is general.",
+          "sha256": "212d1f3c956ebfaad23cdb98adc8a7dd308a822697dcbb6dba795bee62b524b1",
+          "source": "Lumina (@LuminaBench)",
+          "request_id": "c56152d6325a3b541d633df0aa42cb51dce0e62fd749d16b74aff2c821339aaf",
           "mode": "standard"
         }
       ]
@@ -506,13 +519,21 @@
       ]
     },
     "c56152d6325a3b541d633df0aa42cb51dce0e62fd749d16b74aff2c821339aaf": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-01T23:14:31.832623+00:00",
       "received_sequence": 17,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-02T00:02:05.970030+00:00",
+      "records": [
+        {
+          "id": 17,
+          "revision": 1,
+          "sha256": "212d1f3c956ebfaad23cdb98adc8a7dd308a822697dcbb6dba795bee62b524b1"
+        }
+      ]
     }
   },
   "batches": {
@@ -1086,6 +1107,21 @@
       "result": {
         "status": "received",
         "request_id": "c56152d6325a3b541d633df0aa42cb51dce0e62fd749d16b74aff2c821339aaf"
+      }
+    },
+    "e35b2b20831917cfbe693e7b13de37257a93781adff05c241a2f37aeedd8a199": {
+      "sha256": "292b18932fff5b3ee8e153ef10048636e604b0bd0ec82b7709fd24f9028f82bd",
+      "result": {
+        "status": "finalized",
+        "request_id": "c56152d6325a3b541d633df0aa42cb51dce0e62fd749d16b74aff2c821339aaf",
+        "records": [
+          {
+            "id": 17,
+            "revision": 1,
+            "sha256": "212d1f3c956ebfaad23cdb98adc8a7dd308a822697dcbb6dba795bee62b524b1"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
