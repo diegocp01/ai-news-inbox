@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 58,
-  "updated_at": "2026-10-03T15:37:21.783082+00:00",
+  "generation": 59,
+  "updated_at": "2026-10-03T15:38:47.333770+00:00",
   "next_id": 25,
   "records": [
     {
@@ -1751,6 +1751,18 @@
         ],
         "duplicates": []
       }
+    },
+    "531c0847a0a4fcb62f5da81bdda35a2363e1bff353b6f893c62586046f020937": {
+      "sha256": "94da35258333a97e7cc279c57394064fd5e99fc80f83628387896835f389bb2f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 24,
+          "revision": 1,
+          "sha256": "17b343336f8544f042de81fb85c66e0aa5213f85bf0b0474c5c1fc95e2658401"
+        },
+        "editorial_sha256": "78ee7f37c447d749038ffa96f16f841b31bee9cf15444714e8ab81bb930e0a7a"
+      }
     }
   },
   "migration": {
@@ -1980,6 +1992,60 @@
         "sha256": "9d78ba213dc771a9b18052b4bb384215dfc498375ddc17d30e0f4d7832f8c994",
         "reviewed_at": "2026-10-02T15:08:19.148111+00:00",
         "operation_id": "a6e5635f25847dc69d19c3ae1e66dcd22942d85391efdcb7bdf12ce2f80b155d"
+      }
+    ],
+    "24:1": [
+      {
+        "reference": {
+          "id": 24,
+          "revision": 1,
+          "sha256": "17b343336f8544f042de81fb85c66e0aa5213f85bf0b0474c5c1fc95e2658401"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research paper analyzes AI R&D automation, recursive research capacity and technical bottlenecks alongside governance responses.",
+            "evidence_sha256": "6a55a8e277a4f327dce48f245b592972879b8bf2e0aeddec5a15c336de273929"
+          },
+          "quality": {
+            "article": {
+              "url": "https://casp.ac/reports/intelligence-explosion",
+              "final_url": "https://casp.ac/reports/intelligence-explosion",
+              "redirect_chain": [
+                "https://casp.ac/reports/intelligence-explosion"
+              ],
+              "checked_at": "2026-10-03T15:32:01Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "f9b76597bee993dd763088af6ccaa5d07e792b0b53bec82f37a15d257d167a7f"
+            },
+            "image": {
+              "url": "https://storage.googleapis.com/gpt-engineer-file-uploads/AwmrFUJUl1Miu5dNMpFBx8P372K3/social-images/social-1783516958074-CASP_Social_Logos_White.webp",
+              "final_url": "https://storage.googleapis.com/gpt-engineer-file-uploads/AwmrFUJUl1Miu5dNMpFBx8P372K3/social-images/social-1783516958074-CASP_Social_Logos_White.webp",
+              "redirect_chain": [
+                "https://storage.googleapis.com/gpt-engineer-file-uploads/AwmrFUJUl1Miu5dNMpFBx8P372K3/social-images/social-1783516958074-CASP_Social_Logos_White.webp"
+              ],
+              "checked_at": "2026-10-03T15:35:22.225446+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "2a527e8abbb7dc0c500587065c8c2d9e37d898032a0f818b24979cf8066e2ccb",
+              "content_type": "image/webp",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "a8656d4ade0947009dbd0cc911851619425e081d47f7748bc6df9404553cac28",
+              "relevance": "official_logo",
+              "relevance_note": "Official Cambridge and CASP social card linked from the report page.",
+              "story_specific_available": false,
+              "fallback_reason": "The report page exposes only publisher branding; alternate publisher artwork was abstract and no usable story-specific image was verified."
+            }
+          }
+        },
+        "sha256": "78ee7f37c447d749038ffa96f16f841b31bee9cf15444714e8ab81bb930e0a7a",
+        "reviewed_at": "2026-10-03T15:38:47.333770+00:00",
+        "operation_id": "531c0847a0a4fcb62f5da81bdda35a2363e1bff353b6f893c62586046f020937"
       }
     ]
   }
