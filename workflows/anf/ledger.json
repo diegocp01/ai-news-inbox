@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 61,
-  "updated_at": "2026-10-04T16:31:20.904487+00:00",
+  "generation": 62,
+  "updated_at": "2026-10-04T16:32:23.804270+00:00",
   "next_id": 26,
   "records": [
     {
@@ -1815,6 +1815,18 @@
         ],
         "duplicates": []
       }
+    },
+    "58e32e1e17e2e86fcc158f2409e70131a1034d401ffed467fd428a7ca490eda5": {
+      "sha256": "c46fb0c0af9ceb9d998f177c3d078b5d3f9518fb5d53a0f08c82717802f11ae0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 25,
+          "revision": 1,
+          "sha256": "642131f1443b0def154ac6bf59d8fba6afc54fff2ae074c7a8911a57e97b812e"
+        },
+        "editorial_sha256": "1bf8e7e136652d89d928a6371f5ab4d11506ce6bb27289ba4637edf1fc483cf0"
+      }
     }
   },
   "migration": {
@@ -2098,6 +2110,58 @@
         "sha256": "78ee7f37c447d749038ffa96f16f841b31bee9cf15444714e8ab81bb930e0a7a",
         "reviewed_at": "2026-10-03T15:38:47.333770+00:00",
         "operation_id": "531c0847a0a4fcb62f5da81bdda35a2363e1bff353b6f893c62586046f020937"
+      }
+    ],
+    "25:1": [
+      {
+        "reference": {
+          "id": 25,
+          "revision": 1,
+          "sha256": "642131f1443b0def154ac6bf59d8fba6afc54fff2ae074c7a8911a57e97b812e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "News about regulatory approval and licensing for a robot-combat exhibition, without a technical implementation or research focus.",
+            "evidence_sha256": "e904afa3865634d355b5fe5d1d2175b69652a161def7e59e245c6c905930aede"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.tweaktown.com/news/113875/california-sends-cease-and-desist-over-human-vs-terminator-cage-fight/index.html",
+              "final_url": "https://www.tweaktown.com/news/113875/california-sends-cease-and-desist-over-human-vs-terminator-cage-fight/index.html",
+              "redirect_chain": [
+                "https://www.tweaktown.com/news/113875/california-sends-cease-and-desist-over-human-vs-terminator-cage-fight/index.html"
+              ],
+              "checked_at": "2026-10-04T16:30:18.089909+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "ec6ba2232bb71fc3603ea69accb20a6c3003bad97d8253080f8ffdea0157ce53"
+            },
+            "image": {
+              "url": "https://static.tweaktown.com/news/1/1/113875_1_california-sends-cease-and-desist-over-human-versus-terminator-cage-fight_full.jpg",
+              "final_url": "https://static.tweaktown.com/news/1/1/113875_1_california-sends-cease-and-desist-over-human-versus-terminator-cage-fight_full.jpg",
+              "redirect_chain": [
+                "https://static.tweaktown.com/news/1/1/113875_1_california-sends-cease-and-desist-over-human-versus-terminator-cage-fight_full.jpg"
+              ],
+              "checked_at": "2026-10-04T16:29:36.412949+00:00",
+              "content_type": "image/jpeg",
+              "width": 1492,
+              "height": 839,
+              "image_bytes_sha256": "7c40b5a3c6cd6c62f3cefdd4d9ada59dc9eea7899542633432f86c77acaea0b0",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "7935d8d204ebbb00ac79d406d51cb93ad66380bb3b136fac9e4c8413e1ee55d9",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Verified same-event article artwork shows the REK humanoid and human fighter in the cage exhibition."
+            }
+          }
+        },
+        "sha256": "1bf8e7e136652d89d928a6371f5ab4d11506ce6bb27289ba4637edf1fc483cf0",
+        "reviewed_at": "2026-10-04T16:32:23.804270+00:00",
+        "operation_id": "58e32e1e17e2e86fcc158f2409e70131a1034d401ffed467fd428a7ca490eda5"
       }
     ]
   }
