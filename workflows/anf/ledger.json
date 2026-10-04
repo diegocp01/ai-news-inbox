@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 60,
-  "updated_at": "2026-10-04T16:26:59.965843+00:00",
-  "next_id": 25,
+  "generation": 61,
+  "updated_at": "2026-10-04T16:31:20.904487+00:00",
+  "next_id": 26,
   "records": [
     {
       "id": 1,
@@ -322,6 +322,19 @@
           "sha256": "17b343336f8544f042de81fb85c66e0aa5213f85bf0b0474c5c1fc95e2658401",
           "source": "Cambridge Programme on AI Science & Policy",
           "request_id": "29c3b1e4c21c0c61ed9f5e70b2ddf5fb472672827d47a722080daf47952bd8f5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "revisions": [
+        {
+          "created_at": "2026-10-04T16:31:20.904487+00:00",
+          "block": "Title: California Tells Startup to Stop Unlicensed Human-Robot Fights\nURL: https://www.tweaktown.com/news/113875/california-sends-cease-and-desist-over-human-vs-terminator-cage-fight/index.html\nImage URL: https://static.tweaktown.com/news/1/1/113875_1_california-sends-cease-and-desist-over-human-versus-terminator-cage-fight_full.jpg\nSummary: A notice shared by REK founder Cix Liv says California’s athletic commission ordered the startup to stop unapproved or unlicensed boxing or MMA exhibitions involving humans after a September 18 human-versus-robot event. The humanoid was remotely controlled; the order concerns approval and licensing rather than a blanket ban on robot fights.",
+          "sha256": "642131f1443b0def154ac6bf59d8fba6afc54fff2ae074c7a8911a57e97b812e",
+          "source": "TweakTown",
+          "request_id": "595d95276c0a1924aceae41454e4709f50e0a5725d0cebaf220b8a4edf840d75",
           "mode": "standard"
         }
       ]
@@ -746,13 +759,21 @@
       ]
     },
     "595d95276c0a1924aceae41454e4709f50e0a5725d0cebaf220b8a4edf840d75": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-04T16:26:59.965843+00:00",
       "received_sequence": 25,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-04T16:31:20.904487+00:00",
+      "records": [
+        {
+          "id": 25,
+          "revision": 1,
+          "sha256": "642131f1443b0def154ac6bf59d8fba6afc54fff2ae074c7a8911a57e97b812e"
+        }
+      ]
     }
   },
   "batches": {
@@ -1778,6 +1799,21 @@
       "result": {
         "status": "received",
         "request_id": "595d95276c0a1924aceae41454e4709f50e0a5725d0cebaf220b8a4edf840d75"
+      }
+    },
+    "df947a82e70422d2eaa4b286d07f51819a4a7298c586d46dbf7afd0c29846b5f": {
+      "sha256": "85a81a1784267997ebe51352472119cc83efa9c19ddb987c97698c65936eb892",
+      "result": {
+        "status": "finalized",
+        "request_id": "595d95276c0a1924aceae41454e4709f50e0a5725d0cebaf220b8a4edf840d75",
+        "records": [
+          {
+            "id": 25,
+            "revision": 1,
+            "sha256": "642131f1443b0def154ac6bf59d8fba6afc54fff2ae074c7a8911a57e97b812e"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
