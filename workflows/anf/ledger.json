@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 68,
-  "updated_at": "2026-10-05T12:10:55.223609+00:00",
+  "generation": 69,
+  "updated_at": "2026-10-05T12:17:40.825000+00:00",
   "next_id": 29,
   "records": [
     {
@@ -1981,6 +1981,18 @@
         },
         "editorial_sha256": "646fc514088a24fa6f3725a3182a27c2e44821a5c4c260c20331e85ea272ae3e"
       }
+    },
+    "e7572a93126d0cc52724c22f7ca79d8d8146a5c57548fcf87107a3bf893f5760": {
+      "sha256": "a4503ce212175cf9e79e01d347dfbc0e342c6a43843c69bb5346bbd5adcdca72",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 27,
+          "revision": 1,
+          "sha256": "f98f26970bcb286cda6e4f0d0b28c6b76856fd3941eae9b890482f28f9b41298"
+        },
+        "editorial_sha256": "3a7bd31bbe1b8d381e28d5b552b98e2eecab8e4f44a98fb03d87c701be1c678e"
+      }
     }
   },
   "migration": {
@@ -2418,6 +2430,26 @@
         "sha256": "20e0419129b458a98f8e6ffa3240674c41b8a4a8a97091946b6177705556c2d2",
         "reviewed_at": "2026-10-05T00:23:04.971017+00:00",
         "operation_id": "3ab6d803d047238c1ad828561c6298ea5b6e8218d0cc61e7893ee09a7ecbbf9c"
+      }
+    ],
+    "27:1": [
+      {
+        "reference": {
+          "id": 27,
+          "revision": 1,
+          "sha256": "f98f26970bcb286cda6e4f0d0b28c6b76856fd3941eae9b890482f28f9b41298"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General news and personal commentary about a safety employee’s resignation and corporate safety culture, rather than a technical method, tool, API or research result.",
+            "evidence_sha256": "d225b18f008b28696ab64b7e28dbcd1ceb7255de68c18e89bedf510f7f13361f"
+          }
+        },
+        "sha256": "3a7bd31bbe1b8d381e28d5b552b98e2eecab8e4f44a98fb03d87c701be1c678e",
+        "reviewed_at": "2026-10-05T12:17:40.825000+00:00",
+        "operation_id": "e7572a93126d0cc52724c22f7ca79d8d8146a5c57548fcf87107a3bf893f5760"
       }
     ]
   }
