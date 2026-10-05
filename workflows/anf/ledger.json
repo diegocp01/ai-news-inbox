@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 72,
-  "updated_at": "2026-10-05T12:19:33.866000+00:00",
+  "generation": 73,
+  "updated_at": "2026-10-05T12:21:44.996000+00:00",
   "next_id": 29,
   "records": [
     {
@@ -1110,8 +1110,16 @@
       "txt_sha256": "fb84e5a7be957f86acd2d548c3f9bbe3c450680ee1b9481abe5f431d9044ec81",
       "json_sha256": "41f678b0a184e9d6fda07436f9f36892f45e3f8b9cf2efeb1505c6d2817594f6",
       "delivery": {
-        "status": "not_started",
-        "attempts": []
+        "status": "in_flight",
+        "attempts": [
+          {
+            "attempt_id": "5f22827601af3122badb357ceb9e6d521fb553d75bd50d73502dc5a2d0514488",
+            "started_at": "2026-10-05T12:21:44.996000+00:00",
+            "status": "in_flight",
+            "target_sha256": "3d8291ee3df561d758808b075867e4cbed8d4a58a40c6dadab665d5acb6cdd48",
+            "publication_observed_head": "8ec9db5751a7cd1d49a54a701bb9a140cfe00bdf"
+          }
+        ]
       },
       "format_version": 2,
       "editorial": [
@@ -2772,6 +2780,16 @@
           "published_at": "2026-10-05T12:19:33.866000+00:00",
           "planned_from_head": "1e9d5368a04b7ad1567c8bacf787ecbc04d02b8c"
         }
+      }
+    },
+    "5738eb00a8f8c6cc3619fdfffd9726c2c7234d0153d5e18bdfed7bdcc765873a": {
+      "sha256": "592dab65927c3d0e60898b8f03bce715dbba1ed28277493a8d1faa5cb3f5fb49",
+      "result": {
+        "status": "delivery_intent_planned",
+        "batch_id": "4428236a8612ed115da9484a",
+        "attempt_id": "5f22827601af3122badb357ceb9e6d521fb553d75bd50d73502dc5a2d0514488",
+        "txt_path": "workflows/anf/batches/4428236a8612ed115da9484a.txt",
+        "txt_sha256": "fb84e5a7be957f86acd2d548c3f9bbe3c450680ee1b9481abe5f431d9044ec81"
       }
     }
   },
