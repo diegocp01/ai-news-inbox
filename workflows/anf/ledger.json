@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 88,
-  "updated_at": "2026-10-05T17:37:35.779131+00:00",
+  "generation": 89,
+  "updated_at": "2026-10-05T17:39:49.479603+00:00",
   "next_id": 34,
   "records": [
     {
@@ -3141,6 +3141,18 @@
         ],
         "duplicates": []
       }
+    },
+    "efc0d7a0ffc61d2bc57ab647978d96d39aea31a70049a862f1fd791697bb497f": {
+      "sha256": "1e0f60351048b93f00ffe7facf07726a90d603d29950a018399a04e7af6b7b5f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 33,
+          "revision": 1,
+          "sha256": "3e2f8aa68106944bb6a243a5311e357208091f6850fc282436eab8f0c1b96e83"
+        },
+        "editorial_sha256": "c8606ae953347ca02cfe1527570f83bd0f955f0aaa0094d1d32e2f4bff9c0efb"
+      }
     }
   },
   "migration": {
@@ -3835,6 +3847,58 @@
         "sha256": "67bd7ec7b62b7fc955911fb6a38ad2d13d09c05cb10ea2832df7d05a657d32e9",
         "reviewed_at": "2026-10-05T17:34:45.532063+00:00",
         "operation_id": "f9212d0dee99411920318df5bce4f786a6ae98cc280ad51f277750e09feb616a"
+      }
+    ],
+    "33:1": [
+      {
+        "reference": {
+          "id": 33,
+          "revision": 1,
+          "sha256": "3e2f8aa68106944bb6a243a5311e357208091f6850fc282436eab8f0c1b96e83"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Studio provides a shared visual-editing timeline for an AI coding-agent video production workflow built on HTML and deterministic rendering.",
+            "evidence_sha256": "cfcd276a1fb1576a24ba00ae172c41b5028bb49a54142c3fc5afcda96560aae4"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.hyperframes.dev/",
+              "final_url": "https://www.hyperframes.dev/",
+              "redirect_chain": [
+                "https://www.hyperframes.dev/"
+              ],
+              "checked_at": "2026-10-05T17:21:15+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "cfcd276a1fb1576a24ba00ae172c41b5028bb49a54142c3fc5afcda96560aae4"
+            },
+            "image": {
+              "url": "https://www.hyperframes.dev/og-studio-redesign-2026-10.png",
+              "final_url": "https://www.hyperframes.dev/og-studio-redesign-2026-10.png",
+              "redirect_chain": [
+                "https://www.hyperframes.dev/og-studio-redesign-2026-10.png"
+              ],
+              "checked_at": "2026-10-05T17:23:18.776235+00:00",
+              "content_type": "image/png",
+              "width": 2400,
+              "height": 1260,
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Official HyperFrames Studio launch graphic with new editor name, agent-built video-editor tagline, and preview screen. Clear full-size readable product visual.",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "7f7266811ec8b1fe91bb59cb3783dfff31f936e227272c2137d500bd0856115c",
+              "image_bytes_sha256": "ad36c45bbf0e31a568fd3381f0d49c2f0678cbbc985a7a69fce0b487d4fb1e3f"
+            }
+          }
+        },
+        "sha256": "c8606ae953347ca02cfe1527570f83bd0f955f0aaa0094d1d32e2f4bff9c0efb",
+        "reviewed_at": "2026-10-05T17:39:49.479603+00:00",
+        "operation_id": "efc0d7a0ffc61d2bc57ab647978d96d39aea31a70049a862f1fd791697bb497f"
       }
     ]
   }
