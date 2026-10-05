@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 63,
-  "updated_at": "2026-10-05T00:18:29.093714+00:00",
-  "next_id": 26,
+  "generation": 64,
+  "updated_at": "2026-10-05T00:21:38.533926+00:00",
+  "next_id": 27,
   "records": [
     {
       "id": 1,
@@ -335,6 +335,19 @@
           "sha256": "642131f1443b0def154ac6bf59d8fba6afc54fff2ae074c7a8911a57e97b812e",
           "source": "TweakTown",
           "request_id": "595d95276c0a1924aceae41454e4709f50e0a5725d0cebaf220b8a4edf840d75",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "revisions": [
+        {
+          "created_at": "2026-10-05T00:21:38.533926+00:00",
+          "block": "Title: Trump Creates Federal Task Force to Coordinate AI Policy\nURL: https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122\nImage URL: https://i.abcnewsfe.com/a/4d697d3a-2e13-4674-92a0-8f8b93221be7/donald-trump-13-gty-gmh-260929_1790709019897_hpMain.jpg\nSummary: President Donald Trump announced the Super Intelligence Force to coordinate federal AI efforts and engagement with companies, consumers and other groups. Led by intelligence director Jay Clayton and three other officials, the task force aims to maintain U.S. AI leadership and protect Americans' interests. The announcement did not specify its oversight powers.",
+          "sha256": "2697d0aca1694677fd2602feaad6bfc781f08f197528689e29d464e92a6a6503",
+          "source": "ABC News",
+          "request_id": "739e0dc989e79dc29fab04dbb2fa0bdc6dffcd0e392b3655a9a7eef2a8e046e7",
           "mode": "standard"
         }
       ]
@@ -776,13 +789,21 @@
       ]
     },
     "739e0dc989e79dc29fab04dbb2fa0bdc6dffcd0e392b3655a9a7eef2a8e046e7": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-05T00:18:29.093714+00:00",
       "received_sequence": 26,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-05T00:21:38.533926+00:00",
+      "records": [
+        {
+          "id": 26,
+          "revision": 1,
+          "sha256": "2697d0aca1694677fd2602feaad6bfc781f08f197528689e29d464e92a6a6503"
+        }
+      ]
     }
   },
   "batches": {
@@ -1842,6 +1863,21 @@
       "result": {
         "status": "received",
         "request_id": "739e0dc989e79dc29fab04dbb2fa0bdc6dffcd0e392b3655a9a7eef2a8e046e7"
+      }
+    },
+    "6ea24fdd3aeaeda333dcfb5c0b3e2f1768287104ab936d2ff1b7e316ff05b5f9": {
+      "sha256": "de28a72e6a8b8cc2b379c95a858bfdc17a0f137e68a62a56944665a7059a3f0f",
+      "result": {
+        "status": "finalized",
+        "request_id": "739e0dc989e79dc29fab04dbb2fa0bdc6dffcd0e392b3655a9a7eef2a8e046e7",
+        "records": [
+          {
+            "id": 26,
+            "revision": 1,
+            "sha256": "2697d0aca1694677fd2602feaad6bfc781f08f197528689e29d464e92a6a6503"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
