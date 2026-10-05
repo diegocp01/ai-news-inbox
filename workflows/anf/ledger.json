@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 87,
-  "updated_at": "2026-10-05T17:36:35.143527+00:00",
-  "next_id": 33,
+  "generation": 88,
+  "updated_at": "2026-10-05T17:37:35.779131+00:00",
+  "next_id": 34,
   "records": [
     {
       "id": 1,
@@ -428,6 +428,19 @@
           "sha256": "f040e63f03fb6c1a7852cb0140a37869bd2230c9aa83b1adf90938defa6c9616",
           "source": "Superpower Daily",
           "request_id": "f23856ac2f74465f70a6eb4c46b7283382d4e94590472575bdaabffcd31c4afa",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "revisions": [
+        {
+          "created_at": "2026-10-05T17:37:35.779131+00:00",
+          "block": "Title: New Video Editor Lets People and AI Agents Work Together\nURL: https://www.hyperframes.dev/\nImage URL: https://www.hyperframes.dev/og-studio-redesign-2026-10.png\nSummary: HyperFrames launched Studio, a video editor where AI agents create videos from descriptions and users refine the same timeline. Users can draw or comment on frames to request edits, with hundreds of templates and examples available. The desktop app is offered for macOS and Linux, with Windows listed as coming soon.",
+          "sha256": "3e2f8aa68106944bb6a243a5311e357208091f6850fc282436eab8f0c1b96e83",
+          "source": "HyperFrames",
+          "request_id": "d0cc66af57d9117f8f59f6ec4fd550a6e7d9aa60b4a32497f096fbb3ee0494ee",
           "mode": "standard"
         }
       ]
@@ -977,13 +990,21 @@
       ]
     },
     "d0cc66af57d9117f8f59f6ec4fd550a6e7d9aa60b4a32497f096fbb3ee0494ee": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-05T17:36:35.143527+00:00",
       "received_sequence": 32,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-05T17:37:35.779131+00:00",
+      "records": [
+        {
+          "id": 33,
+          "revision": 1,
+          "sha256": "3e2f8aa68106944bb6a243a5311e357208091f6850fc282436eab8f0c1b96e83"
+        }
+      ]
     }
   },
   "batches": {
@@ -3104,6 +3125,21 @@
       "result": {
         "status": "received",
         "request_id": "d0cc66af57d9117f8f59f6ec4fd550a6e7d9aa60b4a32497f096fbb3ee0494ee"
+      }
+    },
+    "02ba54fd47fe4351d81c44547e5a793d25be386eade742332db0577894807939": {
+      "sha256": "29e4c05444e5f65111063b48dfa4ad0a162c2d49d44b73fd5ebaff3534068fa5",
+      "result": {
+        "status": "finalized",
+        "request_id": "d0cc66af57d9117f8f59f6ec4fd550a6e7d9aa60b4a32497f096fbb3ee0494ee",
+        "records": [
+          {
+            "id": 33,
+            "revision": 1,
+            "sha256": "3e2f8aa68106944bb6a243a5311e357208091f6850fc282436eab8f0c1b96e83"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
