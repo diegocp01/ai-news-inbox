@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 69,
-  "updated_at": "2026-10-05T12:17:40.825000+00:00",
+  "generation": 70,
+  "updated_at": "2026-10-05T12:18:07.524000+00:00",
   "next_id": 29,
   "records": [
     {
@@ -1993,6 +1993,18 @@
         },
         "editorial_sha256": "3a7bd31bbe1b8d381e28d5b552b98e2eecab8e4f44a98fb03d87c701be1c678e"
       }
+    },
+    "1b86068dbed03456c3bec2b523bca01648cd96d6314581de5980066420c2fc70": {
+      "sha256": "7446ebc3ef51fbfd8ff373fbcd834d330ed8959a15942ba0aac4fd86683d249a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 28,
+          "revision": 1,
+          "sha256": "03275488b426722860c328bfc0269e26c3201d7fe23c3a0303aa4d858dfd09b4"
+        },
+        "editorial_sha256": "bc725b3011d10947fa742ae95577870bfa0a35445a5df2322e15abdc660b57fd"
+      }
     }
   },
   "migration": {
@@ -2450,6 +2462,26 @@
         "sha256": "3a7bd31bbe1b8d381e28d5b552b98e2eecab8e4f44a98fb03d87c701be1c678e",
         "reviewed_at": "2026-10-05T12:17:40.825000+00:00",
         "operation_id": "e7572a93126d0cc52724c22f7ca79d8d8146a5c57548fcf87107a3bf893f5760"
+      }
+    ],
+    "28:1": [
+      {
+        "reference": {
+          "id": 28,
+          "revision": 1,
+          "sha256": "03275488b426722860c328bfc0269e26c3201d7fe23c3a0303aa4d858dfd09b4"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General reporting about Anthropic’s religious consultations, ethical questions and uncertainty about AI consciousness, rather than instructions or findings materially intended for developers or researchers.",
+            "evidence_sha256": "1f7adf68823f5182f2b64c2cc3009ef99112cc63a72913ff934da1e5cb00cc3c"
+          }
+        },
+        "sha256": "bc725b3011d10947fa742ae95577870bfa0a35445a5df2322e15abdc660b57fd",
+        "reviewed_at": "2026-10-05T12:18:07.524000+00:00",
+        "operation_id": "1b86068dbed03456c3bec2b523bca01648cd96d6314581de5980066420c2fc70"
       }
     ]
   }
