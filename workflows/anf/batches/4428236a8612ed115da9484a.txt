@@ -1,0 +1,51 @@
+Title: GPT-6 Astra Helps Decode a 217-Year-Old Napoleonic Letter
+URL: https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon
+Image URL: https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png
+Summary: Engineer Carter Church says GPT-6 Astra deciphered an 1809 letter from Napoleon’s stepson Eugène to General Marmont in about six hours of model execution. It combined image transcription, historical research and code-based analysis, building on Daniel Tant’s partial key. Church published verification files, and cryptographer Satoshi Tomokiyo confirmed the reading; five symbols remain uncertain.
+
+Title: Grok Bot Rolls Out Proactive Suggestions
+URL: https://www.tao.media/grok-bot-adds-proactive-suggestions-that-spot-work-without-being-asked/
+Image URL: https://storage.ghost.io/c/78/0b/780ba906-b1a7-4bf0-873c-bdd5c32e5331/content/images/size/w1200/2026/10/AI-Assistant-Notification-Interface.png
+Summary: Grok Bot is rolling out proactive suggestions from a designated Primary Bot, which identifies tasks and offers help without a prompt. The company says suggestions do not count against usage. Its demo shows a calendar-conflict app notification; the announcement does not specify SMS delivery or instant alerts for every important email.
+
+Title: Grok Joins XChat Group Conversations
+URL: https://www.basenor.com/blogs/news/grok-is-now-live-in-xchat-ask-it-anything
+Image URL: https://www.basenor.com/cdn/shop/articles/fb306e21fb9ad4b472f62032078610a0.jpg?v=1790931779
+Summary: X now lets Premium+ subscribers add Grok to XChat conversations and ask questions without leaving the chat. X says it and SpaceXAI gain access to all messages sent while Grok is present, so those messages are not end-to-end encrypted. Removing Grok ends its access to new messages.
+
+Title: Grok 4.7 Appears in Consumer Chat
+URL: https://promptblueprints.tech/news-article/grok-4-7-reportedly-appears-in-the-grok-app/
+Image URL: https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/db/09/83db098c-6eab-384e-303b-6a083db14330/Placeholder.mill/1200x630wa.jpg
+Summary: User reports and screenshots show Grok 4.7 appearing under Expert mode in the consumer Grok app. Mark Kretschmann says it is available for chat and research following its earlier developer-focused release. The evidence does not establish which subscriptions or platforms have access, or whether the rollout is universal.
+
+Title: AI Could Compress Years of Progress Into Months, Researchers Say
+URL: https://casp.ac/reports/intelligence-explosion
+Image URL: https://storage.googleapis.com/gpt-engineer-file-uploads/AwmrFUJUl1Miu5dNMpFBx8P372K3/social-images/social-1783516958074-CASP_Social_Logos_White.webp
+Summary: A Cambridge report argues that AI systems doing AI research could compress years of progress into months or less. The authors say this could accelerate scientific breakthroughs but also weaken human oversight and concentrate power. With substantial uncertainty remaining, they urge governments to monitor automated research, develop safeguards and prepare for rapid change.
+ds: true
+
+Title: California Tells Startup to Stop Unlicensed Human-Robot Fights
+URL: https://www.tweaktown.com/news/113875/california-sends-cease-and-desist-over-human-vs-terminator-cage-fight/index.html
+Image URL: https://static.tweaktown.com/news/1/1/113875_1_california-sends-cease-and-desist-over-human-versus-terminator-cage-fight_full.jpg
+Summary: A notice shared by REK founder Cix Liv says California’s athletic commission ordered the startup to stop unapproved or unlicensed boxing or MMA exhibitions involving humans after a September 18 human-versus-robot event. The humanoid was remotely controlled; the order concerns approval and licensing rather than a blanket ban on robot fights.
+
+Title: Trump Creates Federal Task Force to Coordinate AI Policy
+URL: https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122
+Image URL: https://i.abcnewsfe.com/a/4d697d3a-2e13-4674-92a0-8f8b93221be7/donald-trump-13-gty-gmh-260929_1790709019897_hpMain.jpg
+Summary: President Donald Trump announced the Super Intelligence Force to coordinate federal AI efforts and engagement with companies, consumers and other groups. Led by intelligence director Jay Clayton and three other officials, the task force aims to maintain U.S. AI leadership and protect Americans' interests. The announcement did not specify its oversight powers.
+
+Title: OpenAI Safety Reports Leader Resigns, Questions Company’s Safety Approach
+URL: https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/
+Image URL: https://ururdpfrzia9go9m.public.blob.vercel-storage.com/editorial/hero/1791096751278-atlantic-og.jpg.jpg
+Summary: David Robinson, who led OpenAI’s safety reports, resigned after three and a half years. In an Atlantic essay, he argued that rapid development leaves too little room for safety improvements and called for safeguards like those in nuclear power and aviation. OpenAI defended its practices, saying it pauses training or withholds models when needed to manage risks.
+
+Title: Anthropic Consults Religious Scholars on AI Ethics
+URL: https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html
+Image URL: https://images.indianexpress.com/2026/10/US-7.jpg?w=1024
+Summary: Anthropic has consulted religious scholars from several faiths about guiding Claude’s behavior, The New York Times reports. Co-founder Chris Olah also discussed whether AI models could have feelings or awareness. He said he does not know whether they are conscious, and some participants remain skeptical. Anthropic declined to explain whether the discussions have changed its models.
+
+
+
+
+
+.

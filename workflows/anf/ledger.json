@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 70,
-  "updated_at": "2026-10-05T12:18:07.524000+00:00",
+  "generation": 71,
+  "updated_at": "2026-10-05T12:19:00.148000+00:00",
   "next_id": 29,
   "records": [
     {
@@ -1048,9 +1048,380 @@
         "planned_from_head": "416ca099b5140fb168de43a6e0a7e184f56d2ed2"
       },
       "acknowledged_at": "2026-10-02T12:08:58.793419+00:00"
+    },
+    "4428236a8612ed115da9484a": {
+      "batch_id": "4428236a8612ed115da9484a",
+      "status": "prepared",
+      "checkpoint_before": 19,
+      "prepared_at": "2026-10-05T12:19:00.148000+00:00",
+      "intake_cutoff": 27,
+      "records": [
+        {
+          "id": 20,
+          "revision": 1,
+          "sha256": "b43a71540334f3633c9713dddb7291b4e0ec0a983e31d286b992e800567102d0"
+        },
+        {
+          "id": 21,
+          "revision": 1,
+          "sha256": "799c355c66f2d7af2b9f5c5ea834b01ea390c7b809ce1ac7768a56c567d02b07"
+        },
+        {
+          "id": 22,
+          "revision": 1,
+          "sha256": "ecd7c74e814b9fa4c5cbff268a60e457e526c74f97384f6e53852c55b87c3715"
+        },
+        {
+          "id": 23,
+          "revision": 1,
+          "sha256": "80497962e6a10b7d78e7e5572bae376165b5d81dfe5bed685a8174ef605559da"
+        },
+        {
+          "id": 24,
+          "revision": 1,
+          "sha256": "17b343336f8544f042de81fb85c66e0aa5213f85bf0b0474c5c1fc95e2658401"
+        },
+        {
+          "id": 25,
+          "revision": 1,
+          "sha256": "642131f1443b0def154ac6bf59d8fba6afc54fff2ae074c7a8911a57e97b812e"
+        },
+        {
+          "id": 26,
+          "revision": 1,
+          "sha256": "2697d0aca1694677fd2602feaad6bfc781f08f197528689e29d464e92a6a6503"
+        },
+        {
+          "id": 27,
+          "revision": 1,
+          "sha256": "f98f26970bcb286cda6e4f0d0b28c6b76856fd3941eae9b890482f28f9b41298"
+        },
+        {
+          "id": 28,
+          "revision": 1,
+          "sha256": "03275488b426722860c328bfc0269e26c3201d7fe23c3a0303aa4d858dfd09b4"
+        }
+      ],
+      "first_id": 20,
+      "last_id": 28,
+      "count": 9,
+      "txt_path": "workflows/anf/batches/4428236a8612ed115da9484a.txt",
+      "json_path": "workflows/anf/batches/4428236a8612ed115da9484a.json",
+      "txt_sha256": "fb84e5a7be957f86acd2d548c3f9bbe3c450680ee1b9481abe5f431d9044ec81",
+      "json_sha256": "41f678b0a184e9d6fda07436f9f36892f45e3f8b9cf2efeb1505c6d2817594f6",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General science reporting about an AI-assisted historical decipherment, centered on the letter, historical context and expert reactions. It offers no substantive developer, data-science or model-implementation guidance. The technical detail in a linked source does not change this article’s general readership.",
+            "evidence_sha256": "fc833514c8cf393cd36b81d6abf0d598efdc189c69c846b1f6ece2ce8b96f01a"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon",
+              "final_url": "https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon",
+              "redirect_chain": [
+                "https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon"
+              ],
+              "checked_at": "2026-10-05T12:07:12.595958+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "a7fc3136c7077be7a486350fb5ba5b5e9484796bf15ab5d1a914817f1cfd183d"
+            },
+            "image": {
+              "url": "https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png",
+              "final_url": "https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png",
+              "redirect_chain": [
+                "https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png"
+              ],
+              "checked_at": "2026-10-05T12:07:12.594294+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "40229037fd281f9730de9b6abf4ad0f4c35f6e78ab9988bcb03e721f5fbd8378",
+              "content_type": "image/png",
+              "width": 1051,
+              "height": 1246,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "a6904e2929de0f302e607f4d77d9863a9e868a9d95acff129e0cd69fcc39b6f7",
+              "relevance": "story_specific",
+              "relevance_note": "Inspected handwritten cipher plate from Church’s linked Marmont writeup; its caption identifies the exact letter being deciphered. It is more directly relevant than the article’s Wagram painting."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer AI assistant feature update covering proactive suggestions and app notifications; no data science, statistical methodology, model architecture, training, engineering implementation, or developer API content.",
+            "evidence_sha256": "1ee1fe97587d45e6530ab0af53e1c7c1b9e6740135dfb55a5173c7da873b8384"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.tao.media/grok-bot-adds-proactive-suggestions-that-spot-work-without-being-asked/",
+              "final_url": "https://www.tao.media/grok-bot-adds-proactive-suggestions-that-spot-work-without-being-asked/",
+              "redirect_chain": [
+                "https://www.tao.media/grok-bot-adds-proactive-suggestions-that-spot-work-without-being-asked/"
+              ],
+              "checked_at": "2026-10-02T14:20:42+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "2f1a3b36b5b4fda133643da1a72375b31e7faa3829c6dba403dda6ab5dd7ef00",
+              "same_event": true
+            },
+            "image": {
+              "url": "https://storage.ghost.io/c/78/0b/780ba906-b1a7-4bf0-873c-bdd5c32e5331/content/images/size/w1200/2026/10/AI-Assistant-Notification-Interface.png",
+              "final_url": "https://storage.ghost.io/c/78/0b/780ba906-b1a7-4bf0-873c-bdd5c32e5331/content/images/size/w1200/2026/10/AI-Assistant-Notification-Interface.png",
+              "redirect_chain": [
+                "https://storage.ghost.io/c/78/0b/780ba906-b1a7-4bf0-873c-bdd5c32e5331/content/images/size/w1200/2026/10/AI-Assistant-Notification-Interface.png"
+              ],
+              "checked_at": "2026-10-02T14:21:52+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "3650ecff322c6bc26f49ede5cdef8e85486ebbe07d17c4184248acee80cfcf21",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 675,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "105bf0b5869978bf6839fe5c6f91072d55485702b240061773b0c178a8ef99ad",
+              "relevance": "story_specific",
+              "relevance_note": "Clear 16:9 editorial illustration of a phone showing a Chief of Staff notification offering to fix a triple-booked 2pm calendar; matches the launch video demo, which was separately pixel-inspected at 3 seconds."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer group-messaging feature and its practical privacy tradeoff; no substantive developer implementation, API, or technical research content.",
+            "evidence_sha256": "eb3a3a4cf63e669fc3727c0dfac8b3d572bbf36d5839edcd04c0ae54e933f898"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.basenor.com/blogs/news/grok-is-now-live-in-xchat-ask-it-anything",
+              "final_url": "https://www.basenor.com/blogs/news/grok-is-now-live-in-xchat-ask-it-anything",
+              "redirect_chain": [
+                "https://www.basenor.com/blogs/news/grok-is-now-live-in-xchat-ask-it-anything"
+              ],
+              "checked_at": "2026-10-02T14:52:23+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "6ee8e797a5bd84b738f6dde667f1d3d4d041e84b7e6b37182229de2dda448b29"
+            },
+            "image": {
+              "url": "https://www.basenor.com/cdn/shop/articles/fb306e21fb9ad4b472f62032078610a0.jpg?v=1790931779",
+              "final_url": "https://www.basenor.com/cdn/shop/articles/fb306e21fb9ad4b472f62032078610a0.jpg?v=1790931779",
+              "redirect_chain": [
+                "https://www.basenor.com/cdn/shop/articles/fb306e21fb9ad4b472f62032078610a0.jpg?v=1790931779"
+              ],
+              "checked_at": "2026-10-02T14:50:53+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "6bb409ac5928f4b41930b8e36cf1cf331d8afc2a50f73372eb44bc6a79f9effa",
+              "content_type": "image/jpeg",
+              "width": 1080,
+              "height": 1080,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "db3bc9032770b1a00044886f0ecb617b6d69001a78c101a2ce73137f63eb9ac4",
+              "relevance": "story_specific",
+              "relevance_note": "BASENOR hosts the exact launch-video opening frame showing Benji Taylor and Alex Abraham discussing the airport departure time. Compared with actual XChat launch video."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer app model availability and access limits, without substantive API, software implementation, or research methods.",
+            "evidence_sha256": "365f271a9ede7c6395c43712aa8d4b21dbcf2acac44801d2604a1892664053cf"
+          },
+          "quality": {
+            "article": {
+              "url": "https://promptblueprints.tech/news-article/grok-4-7-reportedly-appears-in-the-grok-app/",
+              "final_url": "https://promptblueprints.tech/news-article/grok-4-7-reportedly-appears-in-the-grok-app/",
+              "redirect_chain": [
+                "https://promptblueprints.tech/news-article/grok-4-7-reportedly-appears-in-the-grok-app/"
+              ],
+              "checked_at": "2026-10-02T15:07:01.469073+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "bc20759aa6a6db93bdadd6a3ff3c0cd5e405b2dc39c8502e8b0d358ec8360532"
+            },
+            "image": {
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/db/09/83db098c-6eab-384e-303b-6a083db14330/Placeholder.mill/1200x630wa.jpg",
+              "final_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/db/09/83db098c-6eab-384e-303b-6a083db14330/Placeholder.mill/1200x630wa.jpg",
+              "redirect_chain": [
+                "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/db/09/83db098c-6eab-384e-303b-6a083db14330/Placeholder.mill/1200x630wa.jpg"
+              ],
+              "checked_at": "2026-10-02T15:07:05.965900+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "9d2f604ce821ec5bbd5665de7c659856b905fa32cf2f81fae34a5bffe59397cd",
+              "content_type": "image/jpeg",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "993d031bf14f463467b876f31a4faa268b83414ab2a4ee4296ddd9692cd123b6",
+              "relevance": "official_logo",
+              "relevance_note": "Actual Grok app icon supplied by its official Apple App Store listing, visually inspected at 1200 by 630. A generic product fallback, not claimed as a screenshot of the rollout.",
+              "story_specific_available": false,
+              "fallback_reason": "The compliant authentic Expert-mode screenshot is only 469 by 321 pixels, below the 600-pixel minimum width. The original 1236 by 698 screenshot is on forbidden twimg. The publisher hero contains illustrative mode controls not matching the source screenshot and was rejected; other checked assets are undersized or unavailable. Official store artwork is used rather than enlarging a small screenshot or implying unverified UI."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research paper analyzes AI R&D automation, recursive research capacity and technical bottlenecks alongside governance responses.",
+            "evidence_sha256": "6a55a8e277a4f327dce48f245b592972879b8bf2e0aeddec5a15c336de273929"
+          },
+          "quality": {
+            "article": {
+              "url": "https://casp.ac/reports/intelligence-explosion",
+              "final_url": "https://casp.ac/reports/intelligence-explosion",
+              "redirect_chain": [
+                "https://casp.ac/reports/intelligence-explosion"
+              ],
+              "checked_at": "2026-10-03T15:32:01Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "f9b76597bee993dd763088af6ccaa5d07e792b0b53bec82f37a15d257d167a7f"
+            },
+            "image": {
+              "url": "https://storage.googleapis.com/gpt-engineer-file-uploads/AwmrFUJUl1Miu5dNMpFBx8P372K3/social-images/social-1783516958074-CASP_Social_Logos_White.webp",
+              "final_url": "https://storage.googleapis.com/gpt-engineer-file-uploads/AwmrFUJUl1Miu5dNMpFBx8P372K3/social-images/social-1783516958074-CASP_Social_Logos_White.webp",
+              "redirect_chain": [
+                "https://storage.googleapis.com/gpt-engineer-file-uploads/AwmrFUJUl1Miu5dNMpFBx8P372K3/social-images/social-1783516958074-CASP_Social_Logos_White.webp"
+              ],
+              "checked_at": "2026-10-03T15:35:22.225446+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "2a527e8abbb7dc0c500587065c8c2d9e37d898032a0f818b24979cf8066e2ccb",
+              "content_type": "image/webp",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "a8656d4ade0947009dbd0cc911851619425e081d47f7748bc6df9404553cac28",
+              "relevance": "official_logo",
+              "relevance_note": "Official Cambridge and CASP social card linked from the report page.",
+              "story_specific_available": false,
+              "fallback_reason": "The report page exposes only publisher branding; alternate publisher artwork was abstract and no usable story-specific image was verified."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "News about regulatory approval and licensing for a robot-combat exhibition, without a technical implementation or research focus.",
+            "evidence_sha256": "e904afa3865634d355b5fe5d1d2175b69652a161def7e59e245c6c905930aede"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.tweaktown.com/news/113875/california-sends-cease-and-desist-over-human-vs-terminator-cage-fight/index.html",
+              "final_url": "https://www.tweaktown.com/news/113875/california-sends-cease-and-desist-over-human-vs-terminator-cage-fight/index.html",
+              "redirect_chain": [
+                "https://www.tweaktown.com/news/113875/california-sends-cease-and-desist-over-human-vs-terminator-cage-fight/index.html"
+              ],
+              "checked_at": "2026-10-04T16:30:18.089909+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "ec6ba2232bb71fc3603ea69accb20a6c3003bad97d8253080f8ffdea0157ce53"
+            },
+            "image": {
+              "url": "https://static.tweaktown.com/news/1/1/113875_1_california-sends-cease-and-desist-over-human-versus-terminator-cage-fight_full.jpg",
+              "final_url": "https://static.tweaktown.com/news/1/1/113875_1_california-sends-cease-and-desist-over-human-versus-terminator-cage-fight_full.jpg",
+              "redirect_chain": [
+                "https://static.tweaktown.com/news/1/1/113875_1_california-sends-cease-and-desist-over-human-versus-terminator-cage-fight_full.jpg"
+              ],
+              "checked_at": "2026-10-04T16:29:36.412949+00:00",
+              "content_type": "image/jpeg",
+              "width": 1492,
+              "height": 839,
+              "image_bytes_sha256": "7c40b5a3c6cd6c62f3cefdd4d9ada59dc9eea7899542633432f86c77acaea0b0",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "7935d8d204ebbb00ac79d406d51cb93ad66380bb3b136fac9e4c8413e1ee55d9",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Verified same-event article artwork shows the REK humanoid and human fighter in the cage exhibition."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Federal AI policy and public oversight news for a broad audience; no developer or research use.",
+            "evidence_sha256": "08d839e9accf363b32cf5ab2a79e73d7f85756e21d70ea526c8803db9b9f68e9"
+          },
+          "quality": {
+            "article": {
+              "url": "https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122",
+              "final_url": "https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122",
+              "redirect_chain": [
+                "https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122"
+              ],
+              "checked_at": "2026-10-05T00:21:21.755226+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "6a57170c1a4cbb11dab0465fe4d237da8453ef06820633ba783feb691ab0f8cf"
+            },
+            "image": {
+              "url": "https://i.abcnewsfe.com/a/4d697d3a-2e13-4674-92a0-8f8b93221be7/donald-trump-13-gty-gmh-260929_1790709019897_hpMain.jpg",
+              "final_url": "https://i.abcnewsfe.com/a/4d697d3a-2e13-4674-92a0-8f8b93221be7/donald-trump-13-gty-gmh-260929_1790709019897_hpMain.jpg",
+              "redirect_chain": [
+                "https://i.abcnewsfe.com/a/4d697d3a-2e13-4674-92a0-8f8b93221be7/donald-trump-13-gty-gmh-260929_1790709019897_hpMain.jpg"
+              ],
+              "checked_at": "2026-10-05T00:20:24.084851+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "6b59d9bfd34637547d6a71252c92721116c680703130eb27bd58aa797a12c11e",
+              "content_type": "image/jpeg",
+              "width": 3072,
+              "height": 2048,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "32e8d0d4dfa7b3c6cddf6d9c0970b8b8f74a690c396e5f4dff84e21e11047426",
+              "relevance": "story_specific",
+              "relevance_note": "Verified in-article photograph of Trump and technology executives at the September 29 White House AI meeting that preceded the task-force announcement; it depicts that context, not the October 4 social post."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General news and personal commentary about a safety employee’s resignation and corporate safety culture, rather than a technical method, tool, API or research result.",
+            "evidence_sha256": "d225b18f008b28696ab64b7e28dbcd1ceb7255de68c18e89bedf510f7f13361f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General reporting about Anthropic’s religious consultations, ethical questions and uncertainty about AI consciousness, rather than instructions or findings materially intended for developers or researchers.",
+            "evidence_sha256": "1f7adf68823f5182f2b64c2cc3009ef99112cc63a72913ff934da1e5cb00cc3c"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-05T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "4428236a8612ed115da9484a",
   "replacement_batch": null,
   "checkpoint": 19,
   "checkpoint_history": [
@@ -2004,6 +2375,384 @@
           "sha256": "03275488b426722860c328bfc0269e26c3201d7fe23c3a0303aa4d858dfd09b4"
         },
         "editorial_sha256": "bc725b3011d10947fa742ae95577870bfa0a35445a5df2322e15abdc660b57fd"
+      }
+    },
+    "2ffbdca598bce3166ad62ec6fec5a0b307c3518ac952e0c8246ff072a603980c": {
+      "sha256": "457f1308c21fd23db07e3146af54b530a1c4f0f363042aa04a8dd367f107168a",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "4428236a8612ed115da9484a",
+          "status": "prepared",
+          "checkpoint_before": 19,
+          "prepared_at": "2026-10-05T12:19:00.148000+00:00",
+          "intake_cutoff": 27,
+          "records": [
+            {
+              "id": 20,
+              "revision": 1,
+              "sha256": "b43a71540334f3633c9713dddb7291b4e0ec0a983e31d286b992e800567102d0"
+            },
+            {
+              "id": 21,
+              "revision": 1,
+              "sha256": "799c355c66f2d7af2b9f5c5ea834b01ea390c7b809ce1ac7768a56c567d02b07"
+            },
+            {
+              "id": 22,
+              "revision": 1,
+              "sha256": "ecd7c74e814b9fa4c5cbff268a60e457e526c74f97384f6e53852c55b87c3715"
+            },
+            {
+              "id": 23,
+              "revision": 1,
+              "sha256": "80497962e6a10b7d78e7e5572bae376165b5d81dfe5bed685a8174ef605559da"
+            },
+            {
+              "id": 24,
+              "revision": 1,
+              "sha256": "17b343336f8544f042de81fb85c66e0aa5213f85bf0b0474c5c1fc95e2658401"
+            },
+            {
+              "id": 25,
+              "revision": 1,
+              "sha256": "642131f1443b0def154ac6bf59d8fba6afc54fff2ae074c7a8911a57e97b812e"
+            },
+            {
+              "id": 26,
+              "revision": 1,
+              "sha256": "2697d0aca1694677fd2602feaad6bfc781f08f197528689e29d464e92a6a6503"
+            },
+            {
+              "id": 27,
+              "revision": 1,
+              "sha256": "f98f26970bcb286cda6e4f0d0b28c6b76856fd3941eae9b890482f28f9b41298"
+            },
+            {
+              "id": 28,
+              "revision": 1,
+              "sha256": "03275488b426722860c328bfc0269e26c3201d7fe23c3a0303aa4d858dfd09b4"
+            }
+          ],
+          "first_id": 20,
+          "last_id": 28,
+          "count": 9,
+          "txt_path": "workflows/anf/batches/4428236a8612ed115da9484a.txt",
+          "json_path": "workflows/anf/batches/4428236a8612ed115da9484a.json",
+          "txt_sha256": "fb84e5a7be957f86acd2d548c3f9bbe3c450680ee1b9481abe5f431d9044ec81",
+          "json_sha256": "41f678b0a184e9d6fda07436f9f36892f45e3f8b9cf2efeb1505c6d2817594f6",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General science reporting about an AI-assisted historical decipherment, centered on the letter, historical context and expert reactions. It offers no substantive developer, data-science or model-implementation guidance. The technical detail in a linked source does not change this article’s general readership.",
+                "evidence_sha256": "fc833514c8cf393cd36b81d6abf0d598efdc189c69c846b1f6ece2ce8b96f01a"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon",
+                  "final_url": "https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon",
+                  "redirect_chain": [
+                    "https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon"
+                  ],
+                  "checked_at": "2026-10-05T12:07:12.595958+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "a7fc3136c7077be7a486350fb5ba5b5e9484796bf15ab5d1a914817f1cfd183d"
+                },
+                "image": {
+                  "url": "https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png",
+                  "final_url": "https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png",
+                  "redirect_chain": [
+                    "https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png"
+                  ],
+                  "checked_at": "2026-10-05T12:07:12.594294+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "40229037fd281f9730de9b6abf4ad0f4c35f6e78ab9988bcb03e721f5fbd8378",
+                  "content_type": "image/png",
+                  "width": 1051,
+                  "height": 1246,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "a6904e2929de0f302e607f4d77d9863a9e868a9d95acff129e0cd69fcc39b6f7",
+                  "relevance": "story_specific",
+                  "relevance_note": "Inspected handwritten cipher plate from Church’s linked Marmont writeup; its caption identifies the exact letter being deciphered. It is more directly relevant than the article’s Wagram painting."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer AI assistant feature update covering proactive suggestions and app notifications; no data science, statistical methodology, model architecture, training, engineering implementation, or developer API content.",
+                "evidence_sha256": "1ee1fe97587d45e6530ab0af53e1c7c1b9e6740135dfb55a5173c7da873b8384"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.tao.media/grok-bot-adds-proactive-suggestions-that-spot-work-without-being-asked/",
+                  "final_url": "https://www.tao.media/grok-bot-adds-proactive-suggestions-that-spot-work-without-being-asked/",
+                  "redirect_chain": [
+                    "https://www.tao.media/grok-bot-adds-proactive-suggestions-that-spot-work-without-being-asked/"
+                  ],
+                  "checked_at": "2026-10-02T14:20:42+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "2f1a3b36b5b4fda133643da1a72375b31e7faa3829c6dba403dda6ab5dd7ef00",
+                  "same_event": true
+                },
+                "image": {
+                  "url": "https://storage.ghost.io/c/78/0b/780ba906-b1a7-4bf0-873c-bdd5c32e5331/content/images/size/w1200/2026/10/AI-Assistant-Notification-Interface.png",
+                  "final_url": "https://storage.ghost.io/c/78/0b/780ba906-b1a7-4bf0-873c-bdd5c32e5331/content/images/size/w1200/2026/10/AI-Assistant-Notification-Interface.png",
+                  "redirect_chain": [
+                    "https://storage.ghost.io/c/78/0b/780ba906-b1a7-4bf0-873c-bdd5c32e5331/content/images/size/w1200/2026/10/AI-Assistant-Notification-Interface.png"
+                  ],
+                  "checked_at": "2026-10-02T14:21:52+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "3650ecff322c6bc26f49ede5cdef8e85486ebbe07d17c4184248acee80cfcf21",
+                  "content_type": "image/png",
+                  "width": 1200,
+                  "height": 675,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "105bf0b5869978bf6839fe5c6f91072d55485702b240061773b0c178a8ef99ad",
+                  "relevance": "story_specific",
+                  "relevance_note": "Clear 16:9 editorial illustration of a phone showing a Chief of Staff notification offering to fix a triple-booked 2pm calendar; matches the launch video demo, which was separately pixel-inspected at 3 seconds."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer group-messaging feature and its practical privacy tradeoff; no substantive developer implementation, API, or technical research content.",
+                "evidence_sha256": "eb3a3a4cf63e669fc3727c0dfac8b3d572bbf36d5839edcd04c0ae54e933f898"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.basenor.com/blogs/news/grok-is-now-live-in-xchat-ask-it-anything",
+                  "final_url": "https://www.basenor.com/blogs/news/grok-is-now-live-in-xchat-ask-it-anything",
+                  "redirect_chain": [
+                    "https://www.basenor.com/blogs/news/grok-is-now-live-in-xchat-ask-it-anything"
+                  ],
+                  "checked_at": "2026-10-02T14:52:23+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "6ee8e797a5bd84b738f6dde667f1d3d4d041e84b7e6b37182229de2dda448b29"
+                },
+                "image": {
+                  "url": "https://www.basenor.com/cdn/shop/articles/fb306e21fb9ad4b472f62032078610a0.jpg?v=1790931779",
+                  "final_url": "https://www.basenor.com/cdn/shop/articles/fb306e21fb9ad4b472f62032078610a0.jpg?v=1790931779",
+                  "redirect_chain": [
+                    "https://www.basenor.com/cdn/shop/articles/fb306e21fb9ad4b472f62032078610a0.jpg?v=1790931779"
+                  ],
+                  "checked_at": "2026-10-02T14:50:53+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "6bb409ac5928f4b41930b8e36cf1cf331d8afc2a50f73372eb44bc6a79f9effa",
+                  "content_type": "image/jpeg",
+                  "width": 1080,
+                  "height": 1080,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "db3bc9032770b1a00044886f0ecb617b6d69001a78c101a2ce73137f63eb9ac4",
+                  "relevance": "story_specific",
+                  "relevance_note": "BASENOR hosts the exact launch-video opening frame showing Benji Taylor and Alex Abraham discussing the airport departure time. Compared with actual XChat launch video."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer app model availability and access limits, without substantive API, software implementation, or research methods.",
+                "evidence_sha256": "365f271a9ede7c6395c43712aa8d4b21dbcf2acac44801d2604a1892664053cf"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://promptblueprints.tech/news-article/grok-4-7-reportedly-appears-in-the-grok-app/",
+                  "final_url": "https://promptblueprints.tech/news-article/grok-4-7-reportedly-appears-in-the-grok-app/",
+                  "redirect_chain": [
+                    "https://promptblueprints.tech/news-article/grok-4-7-reportedly-appears-in-the-grok-app/"
+                  ],
+                  "checked_at": "2026-10-02T15:07:01.469073+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "bc20759aa6a6db93bdadd6a3ff3c0cd5e405b2dc39c8502e8b0d358ec8360532"
+                },
+                "image": {
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/db/09/83db098c-6eab-384e-303b-6a083db14330/Placeholder.mill/1200x630wa.jpg",
+                  "final_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/db/09/83db098c-6eab-384e-303b-6a083db14330/Placeholder.mill/1200x630wa.jpg",
+                  "redirect_chain": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/db/09/83db098c-6eab-384e-303b-6a083db14330/Placeholder.mill/1200x630wa.jpg"
+                  ],
+                  "checked_at": "2026-10-02T15:07:05.965900+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "9d2f604ce821ec5bbd5665de7c659856b905fa32cf2f81fae34a5bffe59397cd",
+                  "content_type": "image/jpeg",
+                  "width": 1200,
+                  "height": 630,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "993d031bf14f463467b876f31a4faa268b83414ab2a4ee4296ddd9692cd123b6",
+                  "relevance": "official_logo",
+                  "relevance_note": "Actual Grok app icon supplied by its official Apple App Store listing, visually inspected at 1200 by 630. A generic product fallback, not claimed as a screenshot of the rollout.",
+                  "story_specific_available": false,
+                  "fallback_reason": "The compliant authentic Expert-mode screenshot is only 469 by 321 pixels, below the 600-pixel minimum width. The original 1236 by 698 screenshot is on forbidden twimg. The publisher hero contains illustrative mode controls not matching the source screenshot and was rejected; other checked assets are undersized or unavailable. Official store artwork is used rather than enlarging a small screenshot or implying unverified UI."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Research paper analyzes AI R&D automation, recursive research capacity and technical bottlenecks alongside governance responses.",
+                "evidence_sha256": "6a55a8e277a4f327dce48f245b592972879b8bf2e0aeddec5a15c336de273929"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://casp.ac/reports/intelligence-explosion",
+                  "final_url": "https://casp.ac/reports/intelligence-explosion",
+                  "redirect_chain": [
+                    "https://casp.ac/reports/intelligence-explosion"
+                  ],
+                  "checked_at": "2026-10-03T15:32:01Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "f9b76597bee993dd763088af6ccaa5d07e792b0b53bec82f37a15d257d167a7f"
+                },
+                "image": {
+                  "url": "https://storage.googleapis.com/gpt-engineer-file-uploads/AwmrFUJUl1Miu5dNMpFBx8P372K3/social-images/social-1783516958074-CASP_Social_Logos_White.webp",
+                  "final_url": "https://storage.googleapis.com/gpt-engineer-file-uploads/AwmrFUJUl1Miu5dNMpFBx8P372K3/social-images/social-1783516958074-CASP_Social_Logos_White.webp",
+                  "redirect_chain": [
+                    "https://storage.googleapis.com/gpt-engineer-file-uploads/AwmrFUJUl1Miu5dNMpFBx8P372K3/social-images/social-1783516958074-CASP_Social_Logos_White.webp"
+                  ],
+                  "checked_at": "2026-10-03T15:35:22.225446+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "2a527e8abbb7dc0c500587065c8c2d9e37d898032a0f818b24979cf8066e2ccb",
+                  "content_type": "image/webp",
+                  "width": 1200,
+                  "height": 630,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "a8656d4ade0947009dbd0cc911851619425e081d47f7748bc6df9404553cac28",
+                  "relevance": "official_logo",
+                  "relevance_note": "Official Cambridge and CASP social card linked from the report page.",
+                  "story_specific_available": false,
+                  "fallback_reason": "The report page exposes only publisher branding; alternate publisher artwork was abstract and no usable story-specific image was verified."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "News about regulatory approval and licensing for a robot-combat exhibition, without a technical implementation or research focus.",
+                "evidence_sha256": "e904afa3865634d355b5fe5d1d2175b69652a161def7e59e245c6c905930aede"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.tweaktown.com/news/113875/california-sends-cease-and-desist-over-human-vs-terminator-cage-fight/index.html",
+                  "final_url": "https://www.tweaktown.com/news/113875/california-sends-cease-and-desist-over-human-vs-terminator-cage-fight/index.html",
+                  "redirect_chain": [
+                    "https://www.tweaktown.com/news/113875/california-sends-cease-and-desist-over-human-vs-terminator-cage-fight/index.html"
+                  ],
+                  "checked_at": "2026-10-04T16:30:18.089909+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "ec6ba2232bb71fc3603ea69accb20a6c3003bad97d8253080f8ffdea0157ce53"
+                },
+                "image": {
+                  "url": "https://static.tweaktown.com/news/1/1/113875_1_california-sends-cease-and-desist-over-human-versus-terminator-cage-fight_full.jpg",
+                  "final_url": "https://static.tweaktown.com/news/1/1/113875_1_california-sends-cease-and-desist-over-human-versus-terminator-cage-fight_full.jpg",
+                  "redirect_chain": [
+                    "https://static.tweaktown.com/news/1/1/113875_1_california-sends-cease-and-desist-over-human-versus-terminator-cage-fight_full.jpg"
+                  ],
+                  "checked_at": "2026-10-04T16:29:36.412949+00:00",
+                  "content_type": "image/jpeg",
+                  "width": 1492,
+                  "height": 839,
+                  "image_bytes_sha256": "7c40b5a3c6cd6c62f3cefdd4d9ada59dc9eea7899542633432f86c77acaea0b0",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "7935d8d204ebbb00ac79d406d51cb93ad66380bb3b136fac9e4c8413e1ee55d9",
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "Verified same-event article artwork shows the REK humanoid and human fighter in the cage exhibition."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Federal AI policy and public oversight news for a broad audience; no developer or research use.",
+                "evidence_sha256": "08d839e9accf363b32cf5ab2a79e73d7f85756e21d70ea526c8803db9b9f68e9"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122",
+                  "final_url": "https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122",
+                  "redirect_chain": [
+                    "https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122"
+                  ],
+                  "checked_at": "2026-10-05T00:21:21.755226+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "6a57170c1a4cbb11dab0465fe4d237da8453ef06820633ba783feb691ab0f8cf"
+                },
+                "image": {
+                  "url": "https://i.abcnewsfe.com/a/4d697d3a-2e13-4674-92a0-8f8b93221be7/donald-trump-13-gty-gmh-260929_1790709019897_hpMain.jpg",
+                  "final_url": "https://i.abcnewsfe.com/a/4d697d3a-2e13-4674-92a0-8f8b93221be7/donald-trump-13-gty-gmh-260929_1790709019897_hpMain.jpg",
+                  "redirect_chain": [
+                    "https://i.abcnewsfe.com/a/4d697d3a-2e13-4674-92a0-8f8b93221be7/donald-trump-13-gty-gmh-260929_1790709019897_hpMain.jpg"
+                  ],
+                  "checked_at": "2026-10-05T00:20:24.084851+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "6b59d9bfd34637547d6a71252c92721116c680703130eb27bd58aa797a12c11e",
+                  "content_type": "image/jpeg",
+                  "width": 3072,
+                  "height": 2048,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "32e8d0d4dfa7b3c6cddf6d9c0970b8b8f74a690c396e5f4dff84e21e11047426",
+                  "relevance": "story_specific",
+                  "relevance_note": "Verified in-article photograph of Trump and technology executives at the September 29 White House AI meeting that preceded the task-force announcement; it depicts that context, not the October 4 social post."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General news and personal commentary about a safety employee’s resignation and corporate safety culture, rather than a technical method, tool, API or research result.",
+                "evidence_sha256": "d225b18f008b28696ab64b7e28dbcd1ceb7255de68c18e89bedf510f7f13361f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General reporting about Anthropic’s religious consultations, ethical questions and uncertainty about AI consciousness, rather than instructions or findings materially intended for developers or researchers.",
+                "evidence_sha256": "1f7adf68823f5182f2b64c2cc3009ef99112cc63a72913ff934da1e5cb00cc3c"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-05T12:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
