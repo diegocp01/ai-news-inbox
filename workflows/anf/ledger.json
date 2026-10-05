@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 76,
-  "updated_at": "2026-10-05T12:27:32.713246+00:00",
+  "generation": 77,
+  "updated_at": "2026-10-05T12:28:18.592526+00:00",
   "next_id": 30,
   "records": [
     {
@@ -2885,6 +2885,18 @@
         ],
         "duplicates": []
       }
+    },
+    "5f6537cc86f8af1f2a727bcf7ea0f80570ba85f920b5f606ca8f51cbf24d16e2": {
+      "sha256": "436e750ab03eef406bbe5bb77df8c486e06a35e6f505e70d5b002a8fd953c499",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 29,
+          "revision": 1,
+          "sha256": "2cb95438da8dc4c707651b350b983c55978c6eb7e58ab28998c8ba971a6dcb75"
+        },
+        "editorial_sha256": "dd1e5546a70e7b93166725199aee37e394f51f0f52f0e15d6ae88b1a057b0e7d"
+      }
     }
   },
   "migration": {
@@ -3362,6 +3374,58 @@
         "sha256": "bc725b3011d10947fa742ae95577870bfa0a35445a5df2322e15abdc660b57fd",
         "reviewed_at": "2026-10-05T12:18:07.524000+00:00",
         "operation_id": "1b86068dbed03456c3bec2b523bca01648cd96d6314581de5980066420c2fc70"
+      }
+    ],
+    "29:1": [
+      {
+        "reference": {
+          "id": 29,
+          "revision": 1,
+          "sha256": "2cb95438da8dc4c707651b350b983c55978c6eb7e58ab28998c8ba971a6dcb75"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The announcement introduces a TypeScript-based extension system for an AI coding tool.",
+            "evidence_sha256": "0bd2950dba27011eb23d37d81de324675077d0fd2b54a15c191f41e247510ee1"
+          },
+          "quality": {
+            "article": {
+              "url": "https://claude.com/blog/claude-code-mods",
+              "final_url": "https://claude.com/blog/claude-code-mods",
+              "redirect_chain": [
+                "https://claude.com/blog/claude-code-mods"
+              ],
+              "checked_at": "2026-10-05T12:12:54.184988+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "a07561d1974391cbe06dcc6deb03e7cc025c0f935d38884f4272be201cc02827"
+            },
+            "image": {
+              "url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abe945ed70dd868af96f9df_og_claude-code-mods.jpg",
+              "final_url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abe945ed70dd868af96f9df_og_claude-code-mods.jpg",
+              "redirect_chain": [
+                "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6abe945ed70dd868af96f9df_og_claude-code-mods.jpg"
+              ],
+              "checked_at": "2026-10-05T12:12:54.184988+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "e0549ee513e6ccc42832e8b7cdd957326026da631ddf013a7ec473dd75a8015a",
+              "content_type": "image/jpeg",
+              "width": 2000,
+              "height": 1000,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "f6f7cff456be3bdc82a3969a0e63c361b8e62260abf0bf490bda706e8dbfeb32",
+              "relevance": "story_specific",
+              "relevance_note": "Official mods announcement artwork depicting a hand adding a block; inspected at original 2000x1000 resolution."
+            }
+          }
+        },
+        "sha256": "dd1e5546a70e7b93166725199aee37e394f51f0f52f0e15d6ae88b1a057b0e7d",
+        "reviewed_at": "2026-10-05T12:28:18.592526+00:00",
+        "operation_id": "5f6537cc86f8af1f2a727bcf7ea0f80570ba85f920b5f606ca8f51cbf24d16e2"
       }
     ]
   }
