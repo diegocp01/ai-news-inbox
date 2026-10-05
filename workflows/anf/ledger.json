@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 81,
-  "updated_at": "2026-10-05T16:28:46.846453+00:00",
-  "next_id": 31,
+  "generation": 82,
+  "updated_at": "2026-10-05T16:31:46.555430+00:00",
+  "next_id": 32,
   "records": [
     {
       "id": 1,
@@ -402,6 +402,19 @@
           "sha256": "c34e7f2d93c18136fbb0a3b0679dd2842f3db3000efb3ac691576a23d99bafd1",
           "source": "Microsoft",
           "request_id": "752461d2420ad696fc80f4c1c2dd1a033ebe67b4a5728bcf3259ac6ce95a8ab5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "revisions": [
+        {
+          "created_at": "2026-10-05T16:31:46.555430+00:00",
+          "block": "Title: OpenAI to Test Visual Ads During ChatGPT Image Generation\nURL: https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/\nImage URL: https://techcrunch.com/wp-content/uploads/2026/10/new-chatgpt-ads-format-and-measurement-inline-01.webp?w=1200\nSummary: OpenAI plans to test visual ads during image generation in ChatGPT in the US later in October, starting with an initial group of advertisers. The company says ads will be clearly labeled, remain separate from generated images, and will not influence ChatGPT’s answers.",
+          "sha256": "72347cae01f94e53df97df2b7ecdb8a5c7754ab6fb341e81706441c46277a880",
+          "source": "TechCrunch",
+          "request_id": "19a533cd0b4adbf2f343b967250591b8741d07acad169d6c8a9b06f84c2c7c6b",
           "mode": "standard"
         }
       ]
@@ -917,13 +930,21 @@
       ]
     },
     "19a533cd0b4adbf2f343b967250591b8741d07acad169d6c8a9b06f84c2c7c6b": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-05T16:28:46.846453+00:00",
       "received_sequence": 30,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-05T16:31:46.555430+00:00",
+      "records": [
+        {
+          "id": 31,
+          "revision": 1,
+          "sha256": "72347cae01f94e53df97df2b7ecdb8a5c7754ab6fb341e81706441c46277a880"
+        }
+      ]
     }
   },
   "batches": {
@@ -2976,6 +2997,21 @@
       "result": {
         "status": "received",
         "request_id": "19a533cd0b4adbf2f343b967250591b8741d07acad169d6c8a9b06f84c2c7c6b"
+      }
+    },
+    "188075f129f5895eb5ad4bfab054a13280a6be6e97ffa7035500737262543de6": {
+      "sha256": "8bfdede8e2a00e1710dd084a27e46ecd997f26c462df30e2e08f1bf05d170ba5",
+      "result": {
+        "status": "finalized",
+        "request_id": "19a533cd0b4adbf2f343b967250591b8741d07acad169d6c8a9b06f84c2c7c6b",
+        "records": [
+          {
+            "id": 31,
+            "revision": 1,
+            "sha256": "72347cae01f94e53df97df2b7ecdb8a5c7754ab6fb341e81706441c46277a880"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
