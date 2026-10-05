@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 85,
-  "updated_at": "2026-10-05T17:21:12.960905+00:00",
+  "generation": 86,
+  "updated_at": "2026-10-05T17:34:45.532063+00:00",
   "next_id": 33,
   "records": [
     {
@@ -3077,6 +3077,18 @@
         ],
         "duplicates": []
       }
+    },
+    "f9212d0dee99411920318df5bce4f786a6ae98cc280ad51f277750e09feb616a": {
+      "sha256": "11be9bfb02a038ea29899b9784451ce4c324d0ff8c666ee75d420c3b498babb3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 32,
+          "revision": 1,
+          "sha256": "f040e63f03fb6c1a7852cb0140a37869bd2230c9aa83b1adf90938defa6c9616"
+        },
+        "editorial_sha256": "67bd7ec7b62b7fc955911fb6a38ad2d13d09c05cb10ea2832df7d05a657d32e9"
+      }
     }
   },
   "migration": {
@@ -3715,6 +3727,62 @@
         "sha256": "93dd430ce4c0e8562643ba53d6984431d67e1ff4f48cac40f9043123c9d7daf8",
         "reviewed_at": "2026-10-05T16:33:33.517501+00:00",
         "operation_id": "64ff149b7c76fe7b7a719ecb9b817ecf5fb2b4cefdfac0b10fac57c7290c1d59"
+      }
+    ],
+    "32:1": [
+      {
+        "reference": {
+          "id": 32,
+          "revision": 1,
+          "sha256": "f040e63f03fb6c1a7852cb0140a37869bd2230c9aa83b1adf90938defa6c9616"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "The article materially covers developer API opt-in, Codex output provenance, watermark-detection evaluation and research-access limitations.",
+            "evidence_sha256": "ef48051ab476a0edf52b45ca0400bbdb44a213d79eb31c4af50f967f9302ea29"
+          },
+          "quality": {
+            "article": {
+              "url": "https://superpowerdaily.com/posts/openai-begins-text-watermarking-rollout-with-detection-restricted-to-experts",
+              "final_url": "https://superpowerdaily.com/posts/openai-begins-text-watermarking-rollout-with-detection-restricted-to-experts",
+              "redirect_chain": [
+                "https://superpowerdaily.com/posts/openai-begins-text-watermarking-rollout-with-detection-restricted-to-experts"
+              ],
+              "http_status": 200,
+              "content_type": "text/html",
+              "checked_at": "2026-10-05T17:19:33+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "html_sha256": "cd3d5335867bf81be77e54e0034f96620c8f06f3efd5bab150d02015d4541274",
+              "observed_claims": "Article body and OpenAI October 5 primary announcement confirm EU-only eligible ChatGPT and Codex text rollout in coming weeks, global opt-in API support for select models with watermarking off by default, company-attributed Astra benchmark quality claim, and restricted initial detector access.",
+              "evidence_sha256": "3d3cc0c2170817b35cc3bd6cca15710bc251d00859ce2d5b75b9e8b1dbbff82e"
+            },
+            "image": {
+              "url": "https://superpowerdaily.com/posts/openai-begins-text-watermarking-rollout-with-detection-restricted-to-experts/opengraph-image",
+              "final_url": "https://superpowerdaily.com/posts/openai-begins-text-watermarking-rollout-with-detection-restricted-to-experts/opengraph-image",
+              "redirect_chain": [
+                "https://superpowerdaily.com/posts/openai-begins-text-watermarking-rollout-with-detection-restricted-to-experts/opengraph-image"
+              ],
+              "checked_at": "2026-10-05T17:20:17.930653+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "content_type": "image/png",
+              "image_bytes_sha256": "833ead1f05876f1c252db299e5a9fd1bf9c8f5487d2971874752af39ee3fa857",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Verified publisher image for this exact story shows its watermarking headline and a magnifying-glass illustration over text. This is editorial illustration, not a detector screenshot. Compared with the same article hero image; the headline card gives the exact story context.",
+              "evidence_sha256": "5d87d11164fc2b56d129c09039b2314d36013a77a7a8d992671044a266143e13"
+            }
+          }
+        },
+        "sha256": "67bd7ec7b62b7fc955911fb6a38ad2d13d09c05cb10ea2832df7d05a657d32e9",
+        "reviewed_at": "2026-10-05T17:34:45.532063+00:00",
+        "operation_id": "f9212d0dee99411920318df5bce4f786a6ae98cc280ad51f277750e09feb616a"
       }
     ]
   }
