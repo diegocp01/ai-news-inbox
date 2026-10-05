@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 67,
-  "updated_at": "2026-10-05T11:56:05.530743+00:00",
+  "generation": 68,
+  "updated_at": "2026-10-05T12:10:55.223609+00:00",
   "next_id": 29,
   "records": [
     {
@@ -1969,6 +1969,18 @@
         ],
         "duplicates": []
       }
+    },
+    "ec78eb90020af38887b3218e9f11d28dfa8ad6246af94825387147a36957c4a2": {
+      "sha256": "62cd7fadd5e85b5fd3edf2dfa79846125a654cc07870733c889f4d8612a52198",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 20,
+          "revision": 1,
+          "sha256": "b43a71540334f3633c9713dddb7291b4e0ec0a983e31d286b992e800567102d0"
+        },
+        "editorial_sha256": "646fc514088a24fa6f3725a3182a27c2e44821a5c4c260c20331e85ea272ae3e"
+      }
     }
   },
   "migration": {
@@ -2040,6 +2052,56 @@
         "sha256": "a42972ab5fe0eaeef1f8b5a54239db4bdd50892d0c1837cf12e48aebc694eb48",
         "reviewed_at": "2026-10-02T14:55:23.915876+00:00",
         "operation_id": "df264270847fee2ae0c14fec0d46a5c06d1a1fb02faa2315bcf50992c073760f"
+      },
+      {
+        "reference": {
+          "id": 20,
+          "revision": 1,
+          "sha256": "b43a71540334f3633c9713dddb7291b4e0ec0a983e31d286b992e800567102d0"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General science reporting about an AI-assisted historical decipherment, centered on the letter, historical context and expert reactions. It offers no substantive developer, data-science or model-implementation guidance. The technical detail in a linked source does not change this article’s general readership.",
+            "evidence_sha256": "fc833514c8cf393cd36b81d6abf0d598efdc189c69c846b1f6ece2ce8b96f01a"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon",
+              "final_url": "https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon",
+              "redirect_chain": [
+                "https://www.livescience.com/technology/artificial-intelligence/a-kind-of-rosetta-stone-ai-decodes-217-year-old-secret-letter-ordered-by-napoleon"
+              ],
+              "checked_at": "2026-10-05T12:07:12.595958+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "a7fc3136c7077be7a486350fb5ba5b5e9484796bf15ab5d1a914817f1cfd183d"
+            },
+            "image": {
+              "url": "https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png",
+              "final_url": "https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png",
+              "redirect_chain": [
+                "https://carter.church/writeups/the-letter-to-marmont/marmont-cipher-plate.png"
+              ],
+              "checked_at": "2026-10-05T12:07:12.594294+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "40229037fd281f9730de9b6abf4ad0f4c35f6e78ab9988bcb03e721f5fbd8378",
+              "content_type": "image/png",
+              "width": 1051,
+              "height": 1246,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "a6904e2929de0f302e607f4d77d9863a9e868a9d95acff129e0cd69fcc39b6f7",
+              "relevance": "story_specific",
+              "relevance_note": "Inspected handwritten cipher plate from Church’s linked Marmont writeup; its caption identifies the exact letter being deciphered. It is more directly relevant than the article’s Wagram painting."
+            }
+          }
+        },
+        "sha256": "646fc514088a24fa6f3725a3182a27c2e44821a5c4c260c20331e85ea272ae3e",
+        "reviewed_at": "2026-10-05T12:10:55.223609+00:00",
+        "operation_id": "ec78eb90020af38887b3218e9f11d28dfa8ad6246af94825387147a36957c4a2"
       }
     ],
     "21:1": [
