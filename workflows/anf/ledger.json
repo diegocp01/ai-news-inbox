@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 64,
-  "updated_at": "2026-10-05T00:21:38.533926+00:00",
+  "generation": 65,
+  "updated_at": "2026-10-05T00:23:04.971017+00:00",
   "next_id": 27,
   "records": [
     {
@@ -1879,6 +1879,18 @@
         ],
         "duplicates": []
       }
+    },
+    "3ab6d803d047238c1ad828561c6298ea5b6e8218d0cc61e7893ee09a7ecbbf9c": {
+      "sha256": "065e7cde693f9c3d6b75625898af4eccc2d5796d8da23184c4174f1350f8a5b3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 26,
+          "revision": 1,
+          "sha256": "2697d0aca1694677fd2602feaad6bfc781f08f197528689e29d464e92a6a6503"
+        },
+        "editorial_sha256": "20e0419129b458a98f8e6ffa3240674c41b8a4a8a97091946b6177705556c2d2"
+      }
     }
   },
   "migration": {
@@ -2214,6 +2226,58 @@
         "sha256": "1bf8e7e136652d89d928a6371f5ab4d11506ce6bb27289ba4637edf1fc483cf0",
         "reviewed_at": "2026-10-04T16:32:23.804270+00:00",
         "operation_id": "58e32e1e17e2e86fcc158f2409e70131a1034d401ffed467fd428a7ca490eda5"
+      }
+    ],
+    "26:1": [
+      {
+        "reference": {
+          "id": 26,
+          "revision": 1,
+          "sha256": "2697d0aca1694677fd2602feaad6bfc781f08f197528689e29d464e92a6a6503"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Federal AI policy and public oversight news for a broad audience; no developer or research use.",
+            "evidence_sha256": "08d839e9accf363b32cf5ab2a79e73d7f85756e21d70ea526c8803db9b9f68e9"
+          },
+          "quality": {
+            "article": {
+              "url": "https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122",
+              "final_url": "https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122",
+              "redirect_chain": [
+                "https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122"
+              ],
+              "checked_at": "2026-10-05T00:21:21.755226+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "6a57170c1a4cbb11dab0465fe4d237da8453ef06820633ba783feb691ab0f8cf"
+            },
+            "image": {
+              "url": "https://i.abcnewsfe.com/a/4d697d3a-2e13-4674-92a0-8f8b93221be7/donald-trump-13-gty-gmh-260929_1790709019897_hpMain.jpg",
+              "final_url": "https://i.abcnewsfe.com/a/4d697d3a-2e13-4674-92a0-8f8b93221be7/donald-trump-13-gty-gmh-260929_1790709019897_hpMain.jpg",
+              "redirect_chain": [
+                "https://i.abcnewsfe.com/a/4d697d3a-2e13-4674-92a0-8f8b93221be7/donald-trump-13-gty-gmh-260929_1790709019897_hpMain.jpg"
+              ],
+              "checked_at": "2026-10-05T00:20:24.084851+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "6b59d9bfd34637547d6a71252c92721116c680703130eb27bd58aa797a12c11e",
+              "content_type": "image/jpeg",
+              "width": 3072,
+              "height": 2048,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "32e8d0d4dfa7b3c6cddf6d9c0970b8b8f74a690c396e5f4dff84e21e11047426",
+              "relevance": "story_specific",
+              "relevance_note": "Verified in-article photograph of Trump and technology executives at the September 29 White House AI meeting that preceded the task-force announcement; it depicts that context, not the October 4 social post."
+            }
+          }
+        },
+        "sha256": "20e0419129b458a98f8e6ffa3240674c41b8a4a8a97091946b6177705556c2d2",
+        "reviewed_at": "2026-10-05T00:23:04.971017+00:00",
+        "operation_id": "3ab6d803d047238c1ad828561c6298ea5b6e8218d0cc61e7893ee09a7ecbbf9c"
       }
     ]
   }
