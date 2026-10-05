@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 79,
-  "updated_at": "2026-10-05T13:55:46.447041+00:00",
+  "generation": 80,
+  "updated_at": "2026-10-05T14:03:32.872560+00:00",
   "next_id": 31,
   "records": [
     {
@@ -2949,6 +2949,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2a39c5e18e7581c6fc93bf41d258e347fb555db1c58760e03e933d213a3018e9": {
+      "sha256": "96e72293b19660e3eb242cfba93c2dc310a57df462ab50666c9af2eaea29df69",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 30,
+          "revision": 1,
+          "sha256": "c34e7f2d93c18136fbb0a3b0679dd2842f3db3000efb3ac691576a23d99bafd1"
+        },
+        "editorial_sha256": "eac321c85b17a7095cc6e7eeb310b6eb538e7f344acc63602e5ac2572eb972cd"
+      }
     }
   },
   "migration": {
@@ -3478,6 +3490,58 @@
         "sha256": "dd1e5546a70e7b93166725199aee37e394f51f0f52f0e15d6ae88b1a057b0e7d",
         "reviewed_at": "2026-10-05T12:28:18.592526+00:00",
         "operation_id": "5f6537cc86f8af1f2a727bcf7ea0f80570ba85f920b5f606ca8f51cbf24d16e2"
+      }
+    ],
+    "30:1": [
+      {
+        "reference": {
+          "id": 30,
+          "revision": 1,
+          "sha256": "c34e7f2d93c18136fbb0a3b0679dd2842f3db3000efb3ac691576a23d99bafd1"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The article covers an executable benchmark, database-state evaluation, and repeated-trial reliability for AI agent developers and researchers.",
+            "evidence_sha256": "ed061f337b91df2d211cc1c07c6052229d16f9f051c3735a09b9ff364631c209"
+          },
+          "quality": {
+            "article": {
+              "url": "https://arxiv.org/abs/2608.19741",
+              "final_url": "https://arxiv.org/abs/2608.19741",
+              "redirect_chain": [
+                "https://arxiv.org/abs/2608.19741"
+              ],
+              "checked_at": "2026-10-05T13:53:16.753736+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "79ed0b01939217d8118d0c43916eafe428579a0f1069aa88198b2cd7588065f2"
+            },
+            "image": {
+              "url": "https://arxiv.org/html/2608.19741v4/plots/thinkingbox_structure.png",
+              "final_url": "https://arxiv.org/html/2608.19741v4/plots/thinkingbox_structure.png",
+              "redirect_chain": [
+                "https://arxiv.org/html/2608.19741v4/plots/thinkingbox_structure.png"
+              ],
+              "checked_at": "2026-10-05T13:53:56.488346+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "8d639ea1b952a9bd510c19f262fb63f08fd0e4c977ba9407f6cd99c8eb06bb3e",
+              "content_type": "image/png",
+              "width": 1672,
+              "height": 941,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "4c4e6b98a65596a0f865ccca6eabd431180470b215f40dd97ca0dcec3df073b7",
+              "relevance": "story_specific",
+              "relevance_note": "Official Figure 2 of the ThinkingBox paper: sandbox, simulated user, orchestrator, LLM agent, isolated tool session, state/side effects, executable judges, and downstream uses."
+            }
+          }
+        },
+        "sha256": "eac321c85b17a7095cc6e7eeb310b6eb538e7f344acc63602e5ac2572eb972cd",
+        "reviewed_at": "2026-10-05T14:03:32.872560+00:00",
+        "operation_id": "2a39c5e18e7581c6fc93bf41d258e347fb555db1c58760e03e933d213a3018e9"
       }
     ]
   }
