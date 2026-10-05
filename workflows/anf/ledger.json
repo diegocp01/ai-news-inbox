@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 82,
-  "updated_at": "2026-10-05T16:31:46.555430+00:00",
+  "generation": 83,
+  "updated_at": "2026-10-05T16:33:33.517501+00:00",
   "next_id": 32,
   "records": [
     {
@@ -3013,6 +3013,18 @@
         ],
         "duplicates": []
       }
+    },
+    "64ff149b7c76fe7b7a719ecb9b817ecf5fb2b4cefdfac0b10fac57c7290c1d59": {
+      "sha256": "4dbe1fbf995671f17a4f63230cea786e0aad9e77b18a7f9fc838d0402c20e80b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 31,
+          "revision": 1,
+          "sha256": "72347cae01f94e53df97df2b7ecdb8a5c7754ab6fb341e81706441c46277a880"
+        },
+        "editorial_sha256": "93dd430ce4c0e8562643ba53d6984431d67e1ff4f48cac40f9043123c9d7daf8"
+      }
     }
   },
   "migration": {
@@ -3594,6 +3606,63 @@
         "sha256": "eac321c85b17a7095cc6e7eeb310b6eb538e7f344acc63602e5ac2572eb972cd",
         "reviewed_at": "2026-10-05T14:03:32.872560+00:00",
         "operation_id": "2a39c5e18e7581c6fc93bf41d258e347fb555db1c58760e03e933d213a3018e9"
+      }
+    ],
+    "31:1": [
+      {
+        "reference": {
+          "id": 31,
+          "revision": 1,
+          "sha256": "72347cae01f94e53df97df2b7ecdb8a5c7754ab6fb341e81706441c46277a880"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer ChatGPT advertising news about a planned visual-ad test; the item is not an API, implementation tool, or technical research report.",
+            "evidence_sha256": "d20bd517336352775efe98254280c2dc5f6852a7c0089889341e4100ab8c60c6"
+          },
+          "quality": {
+            "article": {
+              "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+              "final_url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+              "redirect_chain": [
+                "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+              ],
+              "http_status": 200,
+              "content_type": "text/html",
+              "checked_at": "2026-10-05T16:33:12.390019+00:00",
+              "html_sha256": "d1bb2ad0e996fa6292c441beeec4a0245edef2f11fb7a3ffe6f2c6f974d10f2e",
+              "same_event": true,
+              "observed_claims": "OpenAI will test clearly labeled visual ads during ChatGPT image generation in the US later in October 2026 with an initial group of advertisers. The linked official Oct 5 announcement confirms separation from generated images and states answers remain independent.",
+              "evidence_sha256": "b10eee62fbaa3dde0e25f6c48f78f977817df09d166f1a67af8e672f69fe66c3",
+              "status": "accessible_here",
+              "chase_status": "unknown"
+            },
+            "image": {
+              "url": "https://techcrunch.com/wp-content/uploads/2026/10/new-chatgpt-ads-format-and-measurement-inline-01.webp?w=1200",
+              "final_url": "https://techcrunch.com/wp-content/uploads/2026/10/new-chatgpt-ads-format-and-measurement-inline-01.webp?w=1200",
+              "redirect_chain": [
+                "https://techcrunch.com/wp-content/uploads/2026/10/new-chatgpt-ads-format-and-measurement-inline-01.webp?w=1200"
+              ],
+              "status": "accessible_here",
+              "content_type": "image/jpeg",
+              "bytes": 95100,
+              "image_bytes_sha256": "a4d1791e01b8d4d530009aacd75f21c56c78900fc515b0026be65337bd2bd358",
+              "checked_at": "2026-10-05T16:30:04.462903+00:00",
+              "width": 1200,
+              "height": 600,
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Two official mockups of ChatGPT image generation show distinct, labeled Heirloom Grocery visual ads, matching the announced format.",
+              "evidence_sha256": "cd28b262583e2080b08166042477867561462d190929f5355a4e1d54408221ec",
+              "chase_status": "unknown"
+            }
+          }
+        },
+        "sha256": "93dd430ce4c0e8562643ba53d6984431d67e1ff4f48cac40f9043123c9d7daf8",
+        "reviewed_at": "2026-10-05T16:33:33.517501+00:00",
+        "operation_id": "64ff149b7c76fe7b7a719ecb9b817ecf5fb2b4cefdfac0b10fac57c7290c1d59"
       }
     ]
   }
