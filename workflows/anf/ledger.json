@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 91,
-  "updated_at": "2026-10-05T17:43:34.699200+00:00",
+  "generation": 92,
+  "updated_at": "2026-10-05T17:44:46.478680+00:00",
   "next_id": 35,
   "records": [
     {
@@ -3205,6 +3205,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a2595d1de98971021035afd92cfec80b3bf940c80d9550dbd558570a85a531e6": {
+      "sha256": "e90ffae310b234db507f9b2c4a40276c7dd550304422fe41ffc346ac3f44db1f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 34,
+          "revision": 1,
+          "sha256": "02232d8493260d20969d9418eadc2fcda63ac431c7b4ce1e1bde7f56bcca23a8"
+        },
+        "editorial_sha256": "5f849f3c59fbba230dcc273e072881d77929afb56f68144b7e809de3affd98f0"
+      }
     }
   },
   "migration": {
@@ -3951,6 +3963,58 @@
         "sha256": "c8606ae953347ca02cfe1527570f83bd0f955f0aaa0094d1d32e2f4bff9c0efb",
         "reviewed_at": "2026-10-05T17:39:49.479603+00:00",
         "operation_id": "efc0d7a0ffc61d2bc57ab647978d96d39aea31a70049a862f1fd791697bb497f"
+      }
+    ],
+    "34:1": [
+      {
+        "reference": {
+          "id": 34,
+          "revision": 1,
+          "sha256": "02232d8493260d20969d9418eadc2fcda63ac431c7b4ce1e1bde7f56bcca23a8"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General aviation milestone covering a supervised autonomous cross-country demonstration and human pilot roles; no implementation tutorial, API, research method or developer tool.",
+            "evidence_sha256": "d09f86722e0469c09482410d6f6f2f0bae5f148cbd73b5cc744aedbc5fc5fef2"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.jobyaviation.com/news/joby-completes-first-ever-fully-autonomous-flight-across-the-united-states",
+              "final_url": "https://www.jobyaviation.com/news/joby-completes-first-ever-fully-autonomous-flight-across-the-united-states",
+              "redirect_chain": [
+                "https://www.jobyaviation.com/news/joby-completes-first-ever-fully-autonomous-flight-across-the-united-states"
+              ],
+              "checked_at": "2026-10-05T17:28:24.538919+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "2317f0cfe3f56cb75c108d85cb6512510c82f7ea3bb989aec8bf3c56386f56aa"
+            },
+            "image": {
+              "url": "https://cdn.sanity.io/images/h5mp19kq/production/3c55acecf100e45f24ff38525892038007e49608-2880x1622.jpg?fm=webp&q=85&w=1600",
+              "final_url": "https://cdn.sanity.io/images/h5mp19kq/production/3c55acecf100e45f24ff38525892038007e49608-2880x1622.jpg?fm=webp&q=85&w=1600",
+              "redirect_chain": [
+                "https://cdn.sanity.io/images/h5mp19kq/production/3c55acecf100e45f24ff38525892038007e49608-2880x1622.jpg?fm=webp&q=85&w=1600"
+              ],
+              "checked_at": "2026-10-05T17:27:24.144838+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "5c97e2c5f388ab1f39411c6ff6a0f6256db42a267b266f1650a9c209cd5d7940",
+              "content_type": "image/webp",
+              "width": 1600,
+              "height": 901,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "d98633cac36d52fd5d2b802eb6c26231d8d06c2b8d7f04ad47e97ab2b2ad821d",
+              "relevance": "story_specific",
+              "relevance_note": "Official September 18 story collage depicts the J208 aircraft along its completed cross-country route, including Pacific coast, San Francisco, mountains and Outer Banks lighthouse. Actual pixels inspected; selected over an earlier single-city official flight photo."
+            }
+          }
+        },
+        "sha256": "5f849f3c59fbba230dcc273e072881d77929afb56f68144b7e809de3affd98f0",
+        "reviewed_at": "2026-10-05T17:44:46.478680+00:00",
+        "operation_id": "a2595d1de98971021035afd92cfec80b3bf940c80d9550dbd558570a85a531e6"
       }
     ]
   }
