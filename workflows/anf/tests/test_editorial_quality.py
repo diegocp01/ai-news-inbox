@@ -28,7 +28,9 @@ class EditorialTests(unittest.TestCase):
         self.enable_v2()
 
     def enable_v2(self):
-        self.repo.files[e.POLICY] = (ROOT / 'policy.json').read_text()
+        policy = json.loads((ROOT / 'policy.json').read_text())
+        policy['compilation_quality_gate'] = True
+        self.repo.files[e.POLICY] = e.encoded(policy)
 
     def add_review(self, title='Story', technical=False, rid=None, editorial=None, **kwargs):
         if rid is None:

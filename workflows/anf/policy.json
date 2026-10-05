@@ -21,5 +21,6 @@
   "min_image_width": 600,
   "min_image_height": 315,
   "quality_max_age_hours": 48,
-  "preserve_separate_submissions": true
+  "preserve_separate_submissions": true,
+  "compilation_quality_gate": false
 }

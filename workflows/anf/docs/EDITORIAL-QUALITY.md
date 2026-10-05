@@ -1,4 +1,26 @@
-# ANF audience and output quality, effective 2026-10-02
+# ANF audience and output quality, updated 2026-10-05
+
+## Latest instruction: quality checks belong to single-article work (2026-10-05)
+
+The user's latest instruction takes precedence over older compilation-review
+requirements below: source/image verification belongs to individual-article
+intake, not compilation. A source page being blocked in the available environment
+alone is acceptable when the story and claims are independently supported. Never
+claim successful access or image inspection that did not occur; domain rules,
+valid output URLs, and explicit evidenced URL rejections remain enforced.
+
+The current policy sets `compilation_quality_gate: false`. Compilation reuses
+exact durable finalized wording and existing evidence, with no source/image
+rechecks and no freshness or access-quality holds. Every selected revision still
+needs an honest evidence-backed audience review. `review_record` may contain
+`audience` and optional authenticated `origin` without `quality`; do not fabricate
+a passing quality object to save classification. Technical articles, including
+DataScienceCorner, emit `ds: true`; general articles omit it. Supplied full quality
+reviews still undergo the strict checks below. Intake validation is unchanged.
+
+Omitting the flag or setting it to `true` preserves the previous full-quality
+compilation gate for compatibility. Neither setting rewrites frozen batches,
+historical evidence, existing verification labels, or delivery receipts.
 
 This is the current supplement to `../runtime_protocol.md`. It supersedes the
 archived editorial instructions only where explicitly stated here. It creates
@@ -178,8 +200,9 @@ a quality target, never a guarantee of future availability or Chase access.
    If no acceptable image is found, report/defer it; never fabricate one or
    silently downgrade the story match.
 
-Checks must be no more than 48 hours old at new preparation (configurable in
-`policy.json`). The compiler refreshes stale reviews during its normal work.
+When the legacy `compilation_quality_gate` is enabled, checks must be no more
+than 48 hours old at new preparation (configurable in `policy.json`). With the
+current disabled gate, compilation does not refresh or re-perform these checks.
 The engine can validate the evidence fields and constraints, but cannot perform
 network fetches, inspect pixels, certify Chase, or authenticate the bridge's
 assertions. Actual browser/plugin observations remain required.
@@ -208,10 +231,12 @@ new policy or rejection evidence arrives.
 
 ## Ready-item compilation and immutable retries
 
-At compilation, review eligible records before preparing the batch. `prepare`
-v2 freezes the **ready eligible subset in record-ID order**. An absent, stale or
-rejected review explicitly defers that record in `deferred_records` without
-holding other ready articles. A scheduled unresolved correction similarly defers
+At compilation, establish any missing audience classification from existing
+evidence before preparing the batch. `prepare` v2 freezes the **ready eligible
+subset in record-ID order**. Missing audience classification, invalid output
+URLs, or explicit evidenced URL rejections defer the affected record. Missing,
+stale, or inaccessible quality evidence does not defer it with the current
+disabled quality gate; the legacy enabled gate retains those quality holds. A scheduled unresolved correction similarly defers
 its target, not unrelated ready records. If none are ready, return `empty` plus
 the reasons and make no artifact or checkpoint change. Unresolved intake remains
 separate. Do not invent evidence or silently discard a deferred article.
@@ -272,9 +297,12 @@ policy. It does not require or invent `image_verified: true`. The persisted
 revision explicitly says `image_verification: pending_compilation_review`.
 The output gate may release the durable four lines as intake; that is not proof
 of image quality or compilation readiness. Standard clients and standard mode
-remain compatible. New compilation still requires the full real image/audience
-review, with bad/unreviewed records deferred individually. Image quality must not
-silently discard a newsletter story or stop unrelated ready stories.
+remain compatible. The 2026-10-05 instruction supersedes the old requirement to
+finish image checks at compilation: current compilation needs the audience
+review only, plus unchanged URL/domain/rejection safety. Preserve the historical
+`pending_compilation_review` label without asserting that a check occurred.
+Perform source/image work when handling an individual article, not by holding
+the compiled batch.
 
 ## Plain-English titles
 

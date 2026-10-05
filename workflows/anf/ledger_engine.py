@@ -131,7 +131,7 @@ def frozen_conflict_gate(state, batch):
         for field, key in (("article", "learn_more_url"), ("image", "image_url")):
             urls = [fields[key]] if fields[key] else []
             if frozen_review:
-                urls += frozen_review["quality"][field].get("redirect_chain", [])
+                urls += frozen_review.get("quality", {}).get(field, {}).get("redirect_chain", [])
             # Only new explicit adverse observations apply here. Do not retrofit
             # current policy or quality age onto frozen legacy artifacts.
             for url in urls:
@@ -208,8 +208,8 @@ def validate_origin(origin):
     sha(origin["evidence_sha256"], "source provenance evidence")
 
 
-def validate_editorial(editorial, rev, request, policy, rejections=(), at=None):
-    require(isinstance(editorial, dict) and {"audience", "quality"} <= set(editorial) <= {"audience", "quality", "origin"}, "Editorial review is required")
+def validate_editorial(editorial, rev, request, policy, rejections=(), at=None, require_quality=True):
+    require(isinstance(editorial, dict) and {"audience"} <= set(editorial) <= {"audience", "quality", "origin"}, "Editorial audience review is required")
     if "origin" in editorial:
         validate_origin(editorial["origin"])
         request = {**request, "origin": editorial["origin"]}
@@ -228,7 +228,26 @@ def validate_editorial(editorial, rev, request, policy, rejections=(), at=None):
                 "DataScienceCorner provenance always requires ds: true")
     if audience["basis"] == "data_science_corner":
         require(request.get("origin", {}).get("kind") == "data_science_corner", "DataScienceCorner needs authenticated ingress provenance")
-    quality = editorial["quality"]
+    # Compilation can reuse durable finalized content without new access/image
+    # assertions. Domain rules and explicit adverse evidence remain mandatory.
+    _, fields = block_fields(rev["block"], preserve=True)
+    for field, output_key in (("article", "learn_more_url"), ("image", "image_url")):
+        if fields[output_key]:
+            output_url_allowed(fields[output_key], field, policy, rejections)
+        else:
+            require(field == "article", "Final image URL must not be empty")
+    if not require_quality:
+        quality = editorial.get("quality", {})
+        require(isinstance(quality, dict), "Invalid existing quality evidence")
+        for field in ("article", "image"):
+            check = quality.get(field, {})
+            require(isinstance(check, dict), "Invalid existing URL evidence")
+            chain = check.get("redirect_chain", [])
+            require(isinstance(chain, list), "Invalid existing redirect evidence")
+            for url in chain:
+                output_url_allowed(url, field, policy, rejections)
+        return editorial
+    quality = editorial.get("quality")
     require(isinstance(quality, dict) and set(quality) == {"article", "image"}, "Both URL and image reviews are required")
     _, fields = block_fields(rev["block"], preserve=True)
     for field, output_key in (("article", "learn_more_url"), ("image", "image_url")):
@@ -871,7 +890,9 @@ def transition(state, files, op, policy, head, changes):
         require(op.get("expected_reference") == reference(record), "Review target changed; refetch revision")
         request = origin_request(state, record)
         editorial = validate_editorial(op.get("editorial"), revision(record), request, policy,
-                                      state.get("url_rejections", []), now)
+                                      state.get("url_rejections", []), now,
+                                      require_quality=policy.get("compilation_quality_gate", True)
+                                      or "quality" in (op.get("editorial") or {}))
         key = str(record["id"]) + ":" + str(len(record["revisions"]))
         audit = {"reference": reference(record), "editorial": copy.deepcopy(editorial),
                  "sha256": digest(canonical(editorial)), "reviewed_at": now, "operation_id": op["operation_id"]}
@@ -940,7 +961,8 @@ def transition(state, files, op, policy, head, changes):
                 try:
                     require(record["id"] not in correction_targets, "Unresolved correction targets this record")
                     validate_editorial(review, revision(record), origin_request(state, record),
-                                       policy, state.get("url_rejections", []), now)
+                                       policy, state.get("url_rejections", []), now,
+                                       require_quality=policy.get("compilation_quality_gate", True))
                 except LedgerError as exc:
                     deferred_records.append({"id": record["id"], "reason": str(exc)})
                     continue
@@ -1083,12 +1105,13 @@ def plan(snapshot, operation):
     require(POLICY in files, "Policy file is missing")
     policy = json.loads(files[POLICY])
     required_policy = {"summary_max_words", "forbidden_url_domains", "forbidden_url_suffixes", "forbidden_image_domains"}
-    require(required_policy <= set(policy) <= required_policy | {"export_format_version", "min_image_width", "min_image_height", "quality_max_age_hours", "preserve_separate_submissions"},
+    require(required_policy <= set(policy) <= required_policy | {"export_format_version", "min_image_width", "min_image_height", "quality_max_age_hours", "preserve_separate_submissions", "compilation_quality_gate"},
             "Invalid policy shape")
     require(integer(policy["summary_max_words"], 1) and all(isinstance(policy[key], list) and all(
         isinstance(v, str) and v for v in policy[key]) for key in required_policy - {"summary_max_words"}), "Invalid policy")
     require(policy.get("export_format_version", 1) in {1, 2}, "Invalid export format version")
     require(type(policy.get("preserve_separate_submissions", False)) is bool, "Invalid submission policy")
+    require(type(policy.get("compilation_quality_gate", True)) is bool, "Invalid compilation quality policy")
     for key in ("min_image_width", "min_image_height", "quality_max_age_hours"):
         require(integer(policy.get(key, 1), 1), "Invalid quality policy")
     config = json.loads(files.get(CONFIG, '{"trusted_preprocessed_route_sha256": [], "compilation_enabled": false, "cutover_confirmation_sha256": null}'))
