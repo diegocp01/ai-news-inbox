@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 78,
-  "updated_at": "2026-10-05T13:51:19.461300+00:00",
-  "next_id": 30,
+  "generation": 79,
+  "updated_at": "2026-10-05T13:55:46.447041+00:00",
+  "next_id": 31,
   "records": [
     {
       "id": 1,
@@ -389,6 +389,19 @@
           "sha256": "2cb95438da8dc4c707651b350b983c55978c6eb7e58ab28998c8ba971a6dcb75",
           "source": "Anthropic",
           "request_id": "e4e1f047df6ce9ba25c92ab3d5cfafbfe7ff710b746bb2d482c76b58f9c70a10",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "revisions": [
+        {
+          "created_at": "2026-10-05T13:55:46.447041+00:00",
+          "block": "Title: Microsoft Benchmark Checks Whether AI Agents Finish Their Work\nURL: https://arxiv.org/abs/2608.19741\nImage URL: https://arxiv.org/html/2608.19741v4/plots/thinkingbox_structure.png\nSummary: Microsoft's ThinkingBox evaluates AI agents by checking database changes and side effects across 507 synthetic business workflows, each repeated 20 times. In results published with Hugging Face, Claude Opus 5.5 improved average accuracy over Opus 5, but both completed 241 tasks successfully in all 20 runs.",
+          "sha256": "c34e7f2d93c18136fbb0a3b0679dd2842f3db3000efb3ac691576a23d99bafd1",
+          "source": "Microsoft",
+          "request_id": "752461d2420ad696fc80f4c1c2dd1a033ebe67b4a5728bcf3259ac6ce95a8ab5",
           "mode": "standard"
         }
       ]
@@ -887,13 +900,21 @@
       ]
     },
     "752461d2420ad696fc80f4c1c2dd1a033ebe67b4a5728bcf3259ac6ce95a8ab5": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-05T13:51:19.461300+00:00",
       "received_sequence": 29,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-05T13:55:46.447041+00:00",
+      "records": [
+        {
+          "id": 30,
+          "revision": 1,
+          "sha256": "c34e7f2d93c18136fbb0a3b0679dd2842f3db3000efb3ac691576a23d99bafd1"
+        }
+      ]
     }
   },
   "batches": {
@@ -2912,6 +2933,21 @@
       "result": {
         "status": "received",
         "request_id": "752461d2420ad696fc80f4c1c2dd1a033ebe67b4a5728bcf3259ac6ce95a8ab5"
+      }
+    },
+    "bbbbca4eed2037286bb29226cf2e0d9c02e1605eff37957669c95bd3a5502dc9": {
+      "sha256": "55fc204c53870316ac69c49fd5a3443113d61b3f6b47740f58188604130e3bea",
+      "result": {
+        "status": "finalized",
+        "request_id": "752461d2420ad696fc80f4c1c2dd1a033ebe67b4a5728bcf3259ac6ce95a8ab5",
+        "records": [
+          {
+            "id": 30,
+            "revision": 1,
+            "sha256": "c34e7f2d93c18136fbb0a3b0679dd2842f3db3000efb3ac691576a23d99bafd1"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
