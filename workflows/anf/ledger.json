@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 90,
-  "updated_at": "2026-10-05T17:42:17.031258+00:00",
-  "next_id": 34,
+  "generation": 91,
+  "updated_at": "2026-10-05T17:43:34.699200+00:00",
+  "next_id": 35,
   "records": [
     {
       "id": 1,
@@ -441,6 +441,19 @@
           "sha256": "3e2f8aa68106944bb6a243a5311e357208091f6850fc282436eab8f0c1b96e83",
           "source": "HyperFrames",
           "request_id": "d0cc66af57d9117f8f59f6ec4fd550a6e7d9aa60b4a32497f096fbb3ee0494ee",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "revisions": [
+        {
+          "created_at": "2026-10-05T17:43:34.699200+00:00",
+          "block": "Title: Autonomous Plane Completes 3,199-Mile U.S. Crossing\nURL: https://www.jobyaviation.com/news/joby-completes-first-ever-fully-autonomous-flight-across-the-united-states\nImage URL: https://cdn.sanity.io/images/h5mp19kq/production/3c55acecf100e45f24ff38525892038007e49608-2880x1622.jpg?fm=webp&q=85&w=1600\nSummary: Joby says its autonomous Cessna Caravan completed the first autonomous U.S. crossing, covering 3,199 miles with multiple stops and no control inputs from its onboard safety pilot. Announced September 18, the demonstration used a remote pilot for supervision, flight-plan updates and air traffic control, while the aircraft handled taxiing, takeoffs, navigation and landings.",
+          "sha256": "02232d8493260d20969d9418eadc2fcda63ac431c7b4ce1e1bde7f56bcca23a8",
+          "source": "Joby Aviation",
+          "request_id": "03418d781a4e4c86cfb9fa59ad7645d24a68bb01dcec1712e016457bef4e8104",
           "mode": "standard"
         }
       ]
@@ -1007,13 +1020,21 @@
       ]
     },
     "03418d781a4e4c86cfb9fa59ad7645d24a68bb01dcec1712e016457bef4e8104": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-05T17:42:17.031258+00:00",
       "received_sequence": 33,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-05T17:43:34.699200+00:00",
+      "records": [
+        {
+          "id": 34,
+          "revision": 1,
+          "sha256": "02232d8493260d20969d9418eadc2fcda63ac431c7b4ce1e1bde7f56bcca23a8"
+        }
+      ]
     }
   },
   "batches": {
@@ -3168,6 +3189,21 @@
       "result": {
         "status": "received",
         "request_id": "03418d781a4e4c86cfb9fa59ad7645d24a68bb01dcec1712e016457bef4e8104"
+      }
+    },
+    "7bc3ef48e954b1b3c30d5ac089b330ec2ac9dbe7f9a748e36a3924bcba2a0b9e": {
+      "sha256": "b042a6e1687284dcc3a9fcce3b69cbb221444430fca10a807c9898e58f3c4aea",
+      "result": {
+        "status": "finalized",
+        "request_id": "03418d781a4e4c86cfb9fa59ad7645d24a68bb01dcec1712e016457bef4e8104",
+        "records": [
+          {
+            "id": 34,
+            "revision": 1,
+            "sha256": "02232d8493260d20969d9418eadc2fcda63ac431c7b4ce1e1bde7f56bcca23a8"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
