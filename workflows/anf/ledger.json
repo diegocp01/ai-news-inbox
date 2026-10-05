@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 84,
-  "updated_at": "2026-10-05T17:18:03.938323+00:00",
-  "next_id": 32,
+  "generation": 85,
+  "updated_at": "2026-10-05T17:21:12.960905+00:00",
+  "next_id": 33,
   "records": [
     {
       "id": 1,
@@ -415,6 +415,19 @@
           "sha256": "72347cae01f94e53df97df2b7ecdb8a5c7754ab6fb341e81706441c46277a880",
           "source": "TechCrunch",
           "request_id": "19a533cd0b4adbf2f343b967250591b8741d07acad169d6c8a9b06f84c2c7c6b",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "revisions": [
+        {
+          "created_at": "2026-10-05T17:21:12.960905+00:00",
+          "block": "Title: OpenAI to Add Text Watermarks to ChatGPT and Codex in the EU\nURL: https://superpowerdaily.com/posts/openai-begins-text-watermarking-rollout-with-detection-restricted-to-experts\nImage URL: https://superpowerdaily.com/posts/openai-begins-text-watermarking-rollout-with-detection-restricted-to-experts/opengraph-image\nSummary: OpenAI will add invisible text watermarks to eligible ChatGPT and Codex outputs in the EU over the coming weeks. API customers worldwide can opt in for select models, with watermarking off by default. OpenAI says its Astra benchmarks show no meaningful performance differences; detector access will initially be limited to approved researchers and expert organizations.",
+          "sha256": "f040e63f03fb6c1a7852cb0140a37869bd2230c9aa83b1adf90938defa6c9616",
+          "source": "Superpower Daily",
+          "request_id": "f23856ac2f74465f70a6eb4c46b7283382d4e94590472575bdaabffcd31c4afa",
           "mode": "standard"
         }
       ]
@@ -947,13 +960,21 @@
       ]
     },
     "f23856ac2f74465f70a6eb4c46b7283382d4e94590472575bdaabffcd31c4afa": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-05T17:18:03.938323+00:00",
       "received_sequence": 31,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-05T17:21:12.960905+00:00",
+      "records": [
+        {
+          "id": 32,
+          "revision": 1,
+          "sha256": "f040e63f03fb6c1a7852cb0140a37869bd2230c9aa83b1adf90938defa6c9616"
+        }
+      ]
     }
   },
   "batches": {
@@ -3040,6 +3061,21 @@
       "result": {
         "status": "received",
         "request_id": "f23856ac2f74465f70a6eb4c46b7283382d4e94590472575bdaabffcd31c4afa"
+      }
+    },
+    "7d4def2cd8440c809038af3176f49293843bbebc8b3bc4e02f99f9b7bf60edfd": {
+      "sha256": "e5338af7b115e3ed9f1865b11d354dd58ce222e6339fa32a07eb3c55cf92e698",
+      "result": {
+        "status": "finalized",
+        "request_id": "f23856ac2f74465f70a6eb4c46b7283382d4e94590472575bdaabffcd31c4afa",
+        "records": [
+          {
+            "id": 32,
+            "revision": 1,
+            "sha256": "f040e63f03fb6c1a7852cb0140a37869bd2230c9aa83b1adf90938defa6c9616"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
