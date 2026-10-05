@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 66,
-  "updated_at": "2026-10-05T11:39:47.612837+00:00",
-  "next_id": 27,
+  "generation": 67,
+  "updated_at": "2026-10-05T11:56:05.530743+00:00",
+  "next_id": 29,
   "records": [
     {
       "id": 1,
@@ -349,6 +349,34 @@
           "source": "ABC News",
           "request_id": "739e0dc989e79dc29fab04dbb2fa0bdc6dffcd0e392b3655a9a7eef2a8e046e7",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "revisions": [
+        {
+          "created_at": "2026-10-05T11:56:05.530743+00:00",
+          "block": "Title: OpenAI Safety Reports Leader Resigns, Questions Company’s Safety Approach\nURL: https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/\nImage URL: https://ururdpfrzia9go9m.public.blob.vercel-storage.com/editorial/hero/1791096751278-atlantic-og.jpg.jpg\nSummary: David Robinson, who led OpenAI’s safety reports, resigned after three and a half years. In an Atlantic essay, he argued that rapid development leaves too little room for safety improvements and called for safeguards like those in nuclear power and aviation. OpenAI defended its practices, saying it pauses training or withholds models when needed to manage risks.",
+          "sha256": "f98f26970bcb286cda6e4f0d0b28c6b76856fd3941eae9b890482f28f9b41298",
+          "source": "theatlantic.com",
+          "request_id": "87a0707c92b5d4d9f7d13441ae0f0eb0e2a1f84055446b4745954168cb0adaba",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "revisions": [
+        {
+          "created_at": "2026-10-05T11:56:05.530743+00:00",
+          "block": "Title: Anthropic Consults Religious Scholars on AI Ethics\nURL: https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html\nImage URL: https://images.indianexpress.com/2026/10/US-7.jpg?w=1024\nSummary: Anthropic has consulted religious scholars from several faiths about guiding Claude’s behavior, The New York Times reports. Co-founder Chris Olah also discussed whether AI models could have feelings or awareness. He said he does not know whether they are conscious, and some participants remain skeptical. Anthropic declined to explain whether the discussions have changed its models.",
+          "sha256": "03275488b426722860c328bfc0269e26c3201d7fe23c3a0303aa4d858dfd09b4",
+          "source": "nytimes.com",
+          "request_id": "87a0707c92b5d4d9f7d13441ae0f0eb0e2a1f84055446b4745954168cb0adaba",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -806,14 +834,27 @@
       ]
     },
     "87a0707c92b5d4d9f7d13441ae0f0eb0e2a1f84055446b4745954168cb0adaba": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-05T11:39:47.612837+00:00",
       "received_sequence": 27,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-05T11:56:05.530743+00:00",
+      "records": [
+        {
+          "id": 27,
+          "revision": 1,
+          "sha256": "f98f26970bcb286cda6e4f0d0b28c6b76856fd3941eae9b890482f28f9b41298"
+        },
+        {
+          "id": 28,
+          "revision": 1,
+          "sha256": "03275488b426722860c328bfc0269e26c3201d7fe23c3a0303aa4d858dfd09b4"
+        }
+      ]
     }
   },
   "batches": {
@@ -1907,6 +1948,26 @@
       "result": {
         "status": "received",
         "request_id": "87a0707c92b5d4d9f7d13441ae0f0eb0e2a1f84055446b4745954168cb0adaba"
+      }
+    },
+    "25a23f3aeb20b069ad146a1dfd825a2d0dac627ae0d468dd61e4832cad36bd28": {
+      "sha256": "3eb0fc0b83389e1829e43323d0362552ea110c470d20299939549cc65e0353ff",
+      "result": {
+        "status": "finalized",
+        "request_id": "87a0707c92b5d4d9f7d13441ae0f0eb0e2a1f84055446b4745954168cb0adaba",
+        "records": [
+          {
+            "id": 27,
+            "revision": 1,
+            "sha256": "f98f26970bcb286cda6e4f0d0b28c6b76856fd3941eae9b890482f28f9b41298"
+          },
+          {
+            "id": 28,
+            "revision": 1,
+            "sha256": "03275488b426722860c328bfc0269e26c3201d7fe23c3a0303aa4d858dfd09b4"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
