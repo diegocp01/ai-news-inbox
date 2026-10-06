@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 114,
-  "updated_at": "2026-10-06T16:29:01.294795+00:00",
-  "next_id": 42,
+  "generation": 115,
+  "updated_at": "2026-10-06T16:31:22.044050+00:00",
+  "next_id": 43,
   "records": [
     {
       "id": 1,
@@ -548,6 +548,19 @@
           "sha256": "998a433bc5d6fe70457056398d3f687012ffcd927a55d3dfd9721fa0c81d0e76",
           "source": "The Next Web",
           "request_id": "adab96d36117324bac99c936083c2f15287a9ffcde2ef1a99c7e363f88bfc576",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "revisions": [
+        {
+          "created_at": "2026-10-06T16:31:22.044050+00:00",
+          "block": "Title: Google Brings Text, Image, Video and Audio Search to Devices\nURL: https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1200.format-webp.webp\nSummary: Google released EmbeddingGemma 2, a 740-million-parameter model that maps text, including code, images, video and audio into a shared embedding space for on-device search and retrieval. It offers modular encoders, an 8,192-token context window, adjustable 128–768-dimensional embeddings through Matryoshka Representation Learning, and an Apache 2.0 license.",
+          "sha256": "e3dd7e639172f6d6ff1871aa7b806ff74576084b5da8d6040945c3bb2bba83ad",
+          "source": "Google",
+          "request_id": "3f09b0fc1ba6269bb59cc608d33287acf0ef57e3107a9016d792af83bfd7ab29",
           "mode": "standard"
         }
       ]
@@ -1227,13 +1240,21 @@
       ]
     },
     "3f09b0fc1ba6269bb59cc608d33287acf0ef57e3107a9016d792af83bfd7ab29": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-06T16:29:01.294795+00:00",
       "received_sequence": 39,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-06T16:31:22.044050+00:00",
+      "records": [
+        {
+          "id": 42,
+          "revision": 1,
+          "sha256": "e3dd7e639172f6d6ff1871aa7b806ff74576084b5da8d6040945c3bb2bba83ad"
+        }
+      ]
     }
   },
   "batches": {
@@ -4516,6 +4537,21 @@
       "result": {
         "status": "received",
         "request_id": "3f09b0fc1ba6269bb59cc608d33287acf0ef57e3107a9016d792af83bfd7ab29"
+      }
+    },
+    "40af7f62ac9a290baf95e507ee7b299e76d750e3aee5b3d431c45c7bbb0818de": {
+      "sha256": "91bbb831c7f2d690a02a8f30a6f7ec6ba6e3625689b93915ea4028f48bb919bb",
+      "result": {
+        "status": "finalized",
+        "request_id": "3f09b0fc1ba6269bb59cc608d33287acf0ef57e3107a9016d792af83bfd7ab29",
+        "records": [
+          {
+            "id": 42,
+            "revision": 1,
+            "sha256": "e3dd7e639172f6d6ff1871aa7b806ff74576084b5da8d6040945c3bb2bba83ad"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
