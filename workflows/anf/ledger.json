@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 120,
-  "updated_at": "2026-10-06T17:58:15.270543+00:00",
-  "next_id": 44,
+  "generation": 121,
+  "updated_at": "2026-10-06T18:01:12.472672+00:00",
+  "next_id": 45,
   "records": [
     {
       "id": 1,
@@ -574,6 +574,19 @@
           "sha256": "ecf243ffdf2d770b74654b5dc744df97a315a180a2e905d1acb2426e0e8d1148",
           "source": "Google",
           "request_id": "94d284284a9be12adef8ea07e02ea437dff9235c46f4ee216ae79b9598f40411",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "revisions": [
+        {
+          "created_at": "2026-10-06T18:01:12.472672+00:00",
+          "block": "Title: Claude Edits Google Docs, Sheets, and Slides\nURL: https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides\nImage URL: https://lh3.googleusercontent.com/XUT63fbiIuTxf-rDg7WcVtyTo-ahKotxhSpFYokgIfnmZ9shv55Tdg=w1280-h800\nSummary: Claude’s new Google Workspace add-on, in public beta for Pro, Max, Team, and Enterprise, edits Docs, Sheets, and Slides from a sidebar. It asks before edits by default, with an automatic-edit option. New connectors also create and edit Google files from Claude chat, with files opening beside the conversation on supported setups.",
+          "sha256": "05f373733b84488df98be356b14f39da620a3eb4200eac11aa2bc54198009d48",
+          "source": "Anthropic",
+          "request_id": "84076cd7111a4c9724fc1173554738a3c59580adde3a20d2fc17092d36116157",
           "mode": "standard"
         }
       ]
@@ -1287,13 +1300,21 @@
       ]
     },
     "84076cd7111a4c9724fc1173554738a3c59580adde3a20d2fc17092d36116157": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-06T17:58:15.270543+00:00",
       "received_sequence": 41,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-06T18:01:12.472672+00:00",
+      "records": [
+        {
+          "id": 44,
+          "revision": 1,
+          "sha256": "05f373733b84488df98be356b14f39da620a3eb4200eac11aa2bc54198009d48"
+        }
+      ]
     }
   },
   "batches": {
@@ -4644,6 +4665,21 @@
       "result": {
         "status": "received",
         "request_id": "84076cd7111a4c9724fc1173554738a3c59580adde3a20d2fc17092d36116157"
+      }
+    },
+    "2695e6d322f5d5974770d6b5025b2c4b8f4dcd4768e16a3c2c5f17c588843bfb": {
+      "sha256": "bf6ca546994b5125bd6b0d198ffc61c6ce00cd623c49e29716ca299b6272a921",
+      "result": {
+        "status": "finalized",
+        "request_id": "84076cd7111a4c9724fc1173554738a3c59580adde3a20d2fc17092d36116157",
+        "records": [
+          {
+            "id": 44,
+            "revision": 1,
+            "sha256": "05f373733b84488df98be356b14f39da620a3eb4200eac11aa2bc54198009d48"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
