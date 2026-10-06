@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 97,
-  "updated_at": "2026-10-06T02:09:39.291354+00:00",
+  "generation": 98,
+  "updated_at": "2026-10-06T02:11:16.704026+00:00",
   "next_id": 37,
   "records": [
     {
@@ -3333,6 +3333,18 @@
         ],
         "duplicates": []
       }
+    },
+    "8d7a8ed3ba8deb756c3bf74b067978a2f3b87c27ce1ce497527a6e3f71821e06": {
+      "sha256": "2c00091e21e27c905db0e6a45ae6e1dbc7f6ed277febacf2d51ae7dc30883856",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 36,
+          "revision": 1,
+          "sha256": "f84d0517b497acf4398349eb868803a83a017c6ba6af2490f634b41aaf8853e9"
+        },
+        "editorial_sha256": "2a4654da93491180dec27afcd13ba50cc3537d13c319b234d74c2442a11b44d5"
+      }
     }
   },
   "migration": {
@@ -4151,6 +4163,58 @@
         "sha256": "2ce32595f4253b80734e1624135b461649717e60c99e465244be1bd289d7b8ae",
         "reviewed_at": "2026-10-06T02:06:18.961781+00:00",
         "operation_id": "143a29f37a809dac390718a5fdd34306a779ea4ac725e27f684e382a34b16244"
+      }
+    ],
+    "36:1": [
+      {
+        "reference": {
+          "id": 36,
+          "revision": 1,
+          "sha256": "f84d0517b497acf4398349eb868803a83a017c6ba6af2490f634b41aaf8853e9"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Computational materials-science research using DFT and AI agents, with reproducible calculation inputs and experimental limitations.",
+            "evidence_sha256": "88b421c9ff0daaac59e7a9968fda98e2d82e9dd14cfbea6da4778ce99a83f9eb"
+          },
+          "quality": {
+            "article": {
+              "url": "https://github.com/spicylemonade/compensated-magnet-ledger/blob/main/BLOG.md",
+              "final_url": "https://github.com/spicylemonade/compensated-magnet-ledger/blob/main/BLOG.md",
+              "redirect_chain": [
+                "https://github.com/spicylemonade/compensated-magnet-ledger/blob/main/BLOG.md"
+              ],
+              "checked_at": "2026-10-06T02:05:00+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "88b421c9ff0daaac59e7a9968fda98e2d82e9dd14cfbea6da4778ce99a83f9eb"
+            },
+            "image": {
+              "url": "https://raw.githubusercontent.com/spicylemonade/compensated-magnet-ledger/main/docs/img/three_magnets.svg",
+              "final_url": "https://raw.githubusercontent.com/spicylemonade/compensated-magnet-ledger/main/docs/img/three_magnets.svg",
+              "redirect_chain": [
+                "https://raw.githubusercontent.com/spicylemonade/compensated-magnet-ledger/main/docs/img/three_magnets.svg"
+              ],
+              "checked_at": "2026-10-06T02:05:00+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "88b421c9ff0daaac59e7a9968fda98e2d82e9dd14cfbea6da4778ce99a83f9eb",
+              "content_type": "image/svg+xml",
+              "width": 920,
+              "height": 344,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "5190c744d09f2c35e4974a779fcc8e7149923a19611a9400e0771470628281b7",
+              "relevance": "story_specific",
+              "relevance_note": "The actual blog diagram compares ferromagnetic, antiferromagnetic and Luttinger-compensated atomic spins, net magnetism and spin sorting. The original SVG was rendered and its pixels inspected."
+            }
+          }
+        },
+        "sha256": "2a4654da93491180dec27afcd13ba50cc3537d13c319b234d74c2442a11b44d5",
+        "reviewed_at": "2026-10-06T02:11:16.704026+00:00",
+        "operation_id": "8d7a8ed3ba8deb756c3bf74b067978a2f3b87c27ce1ce497527a6e3f71821e06"
       }
     ]
   }
