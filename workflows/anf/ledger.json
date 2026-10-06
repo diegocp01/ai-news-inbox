@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 99,
-  "updated_at": "2026-10-06T11:37:38.768334+00:00",
-  "next_id": 37,
+  "generation": 100,
+  "updated_at": "2026-10-06T11:51:12.251569+00:00",
+  "next_id": 40,
   "records": [
     {
       "id": 1,
@@ -481,6 +481,48 @@
           "source": "Vals AI",
           "request_id": "1e5b16d696e5761a5f7ff229a26056c3beaa2fd0b21f3208f93a70de383b6b89",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "revisions": [
+        {
+          "created_at": "2026-10-06T11:51:12.251569+00:00",
+          "block": "Title: Reflection AI Previews Beam for Coding and Automated Tasks\nURL: https://www.helpnetsecurity.com/2026/10/06/reflections-beam-trails-top-open-models-on-coding-tests-but-claims-lower-inference-compute/\nImage URL: https://cdn.sanity.io/images/sp40emik/production/e336820112f5382aab828303f3c19f4db3891996-2712x1524.png\nSummary: Reflection AI introduced Beam, its first open-weight model, for coding, reasoning and automated tasks. The company reports reasoning scores comparable to GLM-5.2 with less estimated computing work to generate responses. These estimates exclude some processing and serving overhead. Beam is undergoing final testing; Reflection plans to release downloadable weights under Apache 2.0 later this month.",
+          "sha256": "2bbbd9c234484c7603544d8453bf2be0928cb907685c6c33a5b19d31c203359a",
+          "source": "helpnetsecurity.com",
+          "request_id": "7459546b99a9ee105613a8fa2afac02c52be488ebd2d90389955d4fc6616f14e",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "revisions": [
+        {
+          "created_at": "2026-10-06T11:51:12.251569+00:00",
+          "block": "Title: Andreessen Horowitz Ranks AI Apps by Consumer Spending\nURL: https://a16z.com/100-gen-ai-apps-7/\nImage URL: https://a16z.com/wp-content/themes/a16z/assets/images/app-gen-7/standby.webp\nSummary: Andreessen Horowitz added a U.S. consumer card spending ranking to its seventh consumer AI apps report. Citing YipitData panels, it reports ChatGPT had roughly three times as many paid U.S. consumer subscribers as Claude or Gemini. In the sample, the top 1% of AI payers averaged $903 monthly in August 2026. These U.S. samples do not measure total company revenue.",
+          "sha256": "228cb79cb453d29d19d45acf8fce41928b35df123ebec831a9d3ff09b9cada97",
+          "source": "a16z.com",
+          "request_id": "7459546b99a9ee105613a8fa2afac02c52be488ebd2d90389955d4fc6616f14e",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "revisions": [
+        {
+          "created_at": "2026-10-06T11:51:12.251569+00:00",
+          "block": "Title: OpenAI Announces EU Text Watermarking Plans\nURL: https://9to5mac.com/2026/10/05/openai-details-new-text-watermarking-system-for-chatgpt-codex-and-the-api/\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/7u8k3vMOefnc2eIwqAZlCJ/5e39aad76e07dc260070eae95d545d6f/ChatGPT_Image_5_Oct_2026__18_22_35.png?w=1600&h=900&fit=fill\nSummary: OpenAI says it will add invisible watermarks to eligible ChatGPT and Codex text in the EU over the coming weeks. API customers worldwide can opt in for selected models, with watermarking off by default. Detector access will initially be restricted to approved researchers and expert organizations. Watermarks cannot establish ownership, verify accuracy, or measure human contribution.",
+          "sha256": "d3c311fae5e2e9b6e27e739865a71c492a699fb37630718b178321b80460a37d",
+          "source": "9to5mac.com",
+          "request_id": "7459546b99a9ee105613a8fa2afac02c52be488ebd2d90389955d4fc6616f14e",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -1097,14 +1139,32 @@
       ]
     },
     "7459546b99a9ee105613a8fa2afac02c52be488ebd2d90389955d4fc6616f14e": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-06T11:37:38.768334+00:00",
       "received_sequence": 36,
       "expected_items": 3,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-06T11:51:12.251569+00:00",
+      "records": [
+        {
+          "id": 37,
+          "revision": 1,
+          "sha256": "2bbbd9c234484c7603544d8453bf2be0928cb907685c6c33a5b19d31c203359a"
+        },
+        {
+          "id": 38,
+          "revision": 1,
+          "sha256": "228cb79cb453d29d19d45acf8fce41928b35df123ebec831a9d3ff09b9cada97"
+        },
+        {
+          "id": 39,
+          "revision": 1,
+          "sha256": "d3c311fae5e2e9b6e27e739865a71c492a699fb37630718b178321b80460a37d"
+        }
+      ]
     }
   },
   "batches": {
@@ -3361,6 +3421,31 @@
       "result": {
         "status": "received",
         "request_id": "7459546b99a9ee105613a8fa2afac02c52be488ebd2d90389955d4fc6616f14e"
+      }
+    },
+    "213b6cda63a3badc8bba8091be0329602b31acb7d764b4abb40343483ced1604": {
+      "sha256": "e31f3ff941e580bf1ea907ed5ffd7e0c549cf99bb254cd1dd9df4ea5848077e7",
+      "result": {
+        "status": "finalized",
+        "request_id": "7459546b99a9ee105613a8fa2afac02c52be488ebd2d90389955d4fc6616f14e",
+        "records": [
+          {
+            "id": 37,
+            "revision": 1,
+            "sha256": "2bbbd9c234484c7603544d8453bf2be0928cb907685c6c33a5b19d31c203359a"
+          },
+          {
+            "id": 38,
+            "revision": 1,
+            "sha256": "228cb79cb453d29d19d45acf8fce41928b35df123ebec831a9d3ff09b9cada97"
+          },
+          {
+            "id": 39,
+            "revision": 1,
+            "sha256": "d3c311fae5e2e9b6e27e739865a71c492a699fb37630718b178321b80460a37d"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
