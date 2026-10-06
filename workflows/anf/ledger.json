@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 100,
-  "updated_at": "2026-10-06T11:51:12.251569+00:00",
+  "generation": 101,
+  "updated_at": "2026-10-06T12:07:28.283676+00:00",
   "next_id": 40,
   "records": [
     {
@@ -3447,6 +3447,18 @@
         ],
         "duplicates": []
       }
+    },
+    "30f801cf03cd413284bb67e53c06e5d5": {
+      "sha256": "111b8fdb2843abfa7c942b0d5695464f1d12e9031cc0f803e3b9165d796cd054",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 37,
+          "revision": 1,
+          "sha256": "2bbbd9c234484c7603544d8453bf2be0928cb907685c6c33a5b19d31c203359a"
+        },
+        "editorial_sha256": "69d7f86744b5234f2e3eaed7ff005e4e561f346ea7a4813af5648b2488cf711c"
+      }
     }
   },
   "migration": {
@@ -4317,6 +4329,26 @@
         "sha256": "2a4654da93491180dec27afcd13ba50cc3537d13c319b234d74c2442a11b44d5",
         "reviewed_at": "2026-10-06T02:11:16.704026+00:00",
         "operation_id": "8d7a8ed3ba8deb756c3bf74b067978a2f3b87c27ce1ce497527a6e3f71821e06"
+      }
+    ],
+    "37:1": [
+      {
+        "reference": {
+          "id": 37,
+          "revision": 1,
+          "sha256": "2bbbd9c234484c7603544d8453bf2be0928cb907685c6c33a5b19d31c203359a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "open_source",
+            "rationale": "The finalized article covers an open-weight coding and reasoning model, inference-compute comparisons, and planned downloadable weights for technical use.",
+            "evidence_sha256": "2bbbd9c234484c7603544d8453bf2be0928cb907685c6c33a5b19d31c203359a"
+          }
+        },
+        "sha256": "69d7f86744b5234f2e3eaed7ff005e4e561f346ea7a4813af5648b2488cf711c",
+        "reviewed_at": "2026-10-06T12:07:28.283676+00:00",
+        "operation_id": "30f801cf03cd413284bb67e53c06e5d5"
       }
     ]
   }
