@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 108,
-  "updated_at": "2026-10-06T13:20:49.681438+00:00",
-  "next_id": 40,
+  "generation": 109,
+  "updated_at": "2026-10-06T13:26:47.825346+00:00",
+  "next_id": 41,
   "records": [
     {
       "id": 1,
@@ -523,6 +523,19 @@
           "request_id": "7459546b99a9ee105613a8fa2afac02c52be488ebd2d90389955d4fc6616f14e",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "revisions": [
+        {
+          "created_at": "2026-10-06T13:26:47.825346+00:00",
+          "block": "Title: 32 AI Models Train Together to Develop Different Strengths\nURL: https://www.linkedin.com/posts/ed--li_introducing-kardashev-07-the-worlds-first-activity-7512921156421623808-ZM2v\nImage URL: https://storage.ghost.io/c/5e/61/5e6189f0-c5e0-49a0-97b4-5eddd3f43c77/content/images/2026/10/x20261006-13-kardashev-0.png\nSummary: Banbury Road introduced Kardashev-0.7, 32 models trained together with reinforcement learning to develop complementary skills. The company reports 81.3% on SuperGPQA, 79.3% on IFBench and $0.18 per million output tokens. Launch evaluation details and memory-savings baselines remain unclear; its public technical report covers smaller populations. Access is waitlisted.",
+          "sha256": "1408e6cc141ec846400ed9b9b476ce9f3d4a3acafe35a6cc77941004089d7062",
+          "source": "Banbury Road",
+          "request_id": "e2e3125c36bef3865b3c187f0f662a61cc110967a78f629eadde551b17f12e40",
+          "mode": "standard"
         }
       ]
     }
@@ -1167,13 +1180,21 @@
       ]
     },
     "e2e3125c36bef3865b3c187f0f662a61cc110967a78f629eadde551b17f12e40": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-06T13:20:49.681438+00:00",
       "received_sequence": 37,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-06T13:26:47.825346+00:00",
+      "records": [
+        {
+          "id": 40,
+          "revision": 1,
+          "sha256": "1408e6cc141ec846400ed9b9b476ce9f3d4a3acafe35a6cc77941004089d7062"
+        }
+      ]
     }
   },
   "batches": {
@@ -4388,6 +4409,21 @@
       "result": {
         "status": "received",
         "request_id": "e2e3125c36bef3865b3c187f0f662a61cc110967a78f629eadde551b17f12e40"
+      }
+    },
+    "a8d46894bc9e830191043f765e2303bf2e63133084665bb5758bf13779d2af5c": {
+      "sha256": "8a6aff0b5d73eb4e48bb4607db9201267b0fabe2ed51547be4d2b65f16ba835a",
+      "result": {
+        "status": "finalized",
+        "request_id": "e2e3125c36bef3865b3c187f0f662a61cc110967a78f629eadde551b17f12e40",
+        "records": [
+          {
+            "id": 40,
+            "revision": 1,
+            "sha256": "1408e6cc141ec846400ed9b9b476ce9f3d4a3acafe35a6cc77941004089d7062"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
