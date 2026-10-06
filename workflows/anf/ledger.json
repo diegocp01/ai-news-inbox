@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 130,
-  "updated_at": "2026-10-06T21:00:38.426637+00:00",
+  "generation": 131,
+  "updated_at": "2026-10-06T21:02:45.948928+00:00",
   "next_id": 47,
   "records": [
     {
@@ -4864,6 +4864,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b7e305f1943738b52dd2fab2648a0f0a4df1b78d814299575aaae8b6273cb1a0": {
+      "sha256": "a8f2e9cef62a2299f863106e6b8404f68c147d24b50afd4c368bb565c4dfbd37",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 46,
+          "revision": 1,
+          "sha256": "0ad22746288a76864a4b2bed3b5f59108b86aeda012e2af71bb0b205c1c1a95e"
+        },
+        "editorial_sha256": "38c82978097a551a14544c393522f01b2d15321895b7642580993684794a3868"
+      }
     }
   },
   "migration": {
@@ -6173,6 +6185,58 @@
         "sha256": "9288e5fa667bb706acb95d7ec17c5a4fdcb1a8555aa9bb36ec75a362ae400ebb",
         "reviewed_at": "2026-10-06T20:44:18.564006+00:00",
         "operation_id": "d4f48c3080ff2b1f4a41bfa77ccd1f31a8fe499329f4411ac0d081a4a082b665"
+      }
+    ],
+    "46:1": [
+      {
+        "reference": {
+          "id": 46,
+          "revision": 1,
+          "sha256": "0ad22746288a76864a4b2bed3b5f59108b86aeda012e2af71bb0b205c1c1a95e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer/productivity meeting-note feature for Pro and Business subscribers; no material developer or research focus.",
+            "evidence_sha256": "925cd30ce9eaa9e725ab14c4c401803434aa4a00e007e7c48949f32c34bccf34"
+          },
+          "quality": {
+            "article": {
+              "url": "https://chasingnext.com/updates/meetings-plugin-in-chatgpt-beta",
+              "final_url": "https://chasingnext.com/updates/meetings-plugin-in-chatgpt-beta",
+              "redirect_chain": [
+                "https://chasingnext.com/updates/meetings-plugin-in-chatgpt-beta"
+              ],
+              "checked_at": "2026-10-06T21:02:45.948928+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "eb7318e597ce65d64bc7424b61c5f4c6626ff0dec82295eab9c6adff46af19a4"
+            },
+            "image": {
+              "url": "https://assets.st-note.com/img/1790733073-4JnEfsgmUSe0PdyLMIibBOVD.png?width=1200",
+              "final_url": "https://assets.st-note.com/img/1790733073-4JnEfsgmUSe0PdyLMIibBOVD.png?width=1200",
+              "redirect_chain": [
+                "https://assets.st-note.com/img/1790733073-4JnEfsgmUSe0PdyLMIibBOVD.png?width=1200"
+              ],
+              "checked_at": "2026-10-06T21:02:45.948928+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "ae4121e6104884c8eb50ab83aacc97f5aff6cb0624d567f62de6a9fab918b6ac",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 675,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "936a723dd9b03bea798c9f00150e72250bc280f947c815e334cf45af4173cf5c",
+              "relevance": "story_specific",
+              "relevance_note": "Official Meetings visual shows recording controls, a team recap with summary/action items, and an @ChatGPT follow-up request."
+            }
+          }
+        },
+        "sha256": "38c82978097a551a14544c393522f01b2d15321895b7642580993684794a3868",
+        "reviewed_at": "2026-10-06T21:02:45.948928+00:00",
+        "operation_id": "b7e305f1943738b52dd2fab2648a0f0a4df1b78d814299575aaae8b6273cb1a0"
       }
     ]
   }
