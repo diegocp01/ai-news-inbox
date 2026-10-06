@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 93,
-  "updated_at": "2026-10-05T20:00:35.110613+00:00",
-  "next_id": 35,
+  "generation": 94,
+  "updated_at": "2026-10-06T02:05:04.759945+00:00",
+  "next_id": 36,
   "records": [
     {
       "id": 1,
@@ -454,6 +454,19 @@
           "sha256": "02232d8493260d20969d9418eadc2fcda63ac431c7b4ce1e1bde7f56bcca23a8",
           "source": "Joby Aviation",
           "request_id": "03418d781a4e4c86cfb9fa59ad7645d24a68bb01dcec1712e016457bef4e8104",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "revisions": [
+        {
+          "created_at": "2026-10-06T02:05:04.759945+00:00",
+          "block": "Title: OpenAI Starts 28 Days of Codex Improvements or Usage Resets\nURL: https://runtimewire.com/article/openai-gpt-6-models-speed-optimization-tibo-sottiaux\nImage URL: https://runtimewire.com/og/openai-gpt-6-models-speed-optimization-tibo-sottiaux.16x9.jpg?v=og2-nh92dq\nSummary: OpenAI pledged 28 days of daily Codex and ChatGPT Work improvements or full usage resets. Day one brings a claimed roughly 50% increase in default response speed for GPT-6 Astra and GPT-6.1 Sol through subscriptions, including partner tools using Sign in with ChatGPT. No settings changes are needed; reset eligibility and delivery details were not specified.",
+          "sha256": "058c4064870a04532ba7d080e8325c1180f7d23a64e15147a9e47d63cd9fa9c7",
+          "source": "RuntimeWire",
+          "request_id": "93a178389e4e1d28d39c1cdcb353a1f26f8adceb66b11343ffed1541afa5ee49",
           "mode": "standard"
         }
       ]
@@ -1037,13 +1050,21 @@
       ]
     },
     "93a178389e4e1d28d39c1cdcb353a1f26f8adceb66b11343ffed1541afa5ee49": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-05T20:00:35.110613+00:00",
       "received_sequence": 34,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-06T02:05:04.759945+00:00",
+      "records": [
+        {
+          "id": 35,
+          "revision": 1,
+          "sha256": "058c4064870a04532ba7d080e8325c1180f7d23a64e15147a9e47d63cd9fa9c7"
+        }
+      ]
     }
   },
   "batches": {
@@ -3232,6 +3253,21 @@
       "result": {
         "status": "received",
         "request_id": "93a178389e4e1d28d39c1cdcb353a1f26f8adceb66b11343ffed1541afa5ee49"
+      }
+    },
+    "eca608d678019e94d3c069342a7265089d34b2b4790efd66b9b9a44ce821ac1b": {
+      "sha256": "ddd3c19e2c5a388742b6db74acdfe48fbcac49aa96a1157b8648c6f7f38b25f8",
+      "result": {
+        "status": "finalized",
+        "request_id": "93a178389e4e1d28d39c1cdcb353a1f26f8adceb66b11343ffed1541afa5ee49",
+        "records": [
+          {
+            "id": 35,
+            "revision": 1,
+            "sha256": "058c4064870a04532ba7d080e8325c1180f7d23a64e15147a9e47d63cd9fa9c7"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
