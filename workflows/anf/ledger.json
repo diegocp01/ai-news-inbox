@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 112,
-  "updated_at": "2026-10-06T14:41:46.300410+00:00",
+  "generation": 113,
+  "updated_at": "2026-10-06T14:43:16.625410+00:00",
   "next_id": 42,
   "records": [
     {
@@ -4489,6 +4489,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e27199224f4b94aef955984dee447048cda3eda5b26dd49c12caaeec92fb8acb": {
+      "sha256": "ad1fd296ef3a9bd6f6508c6265b3562ca11a9b172d0e5354562ced2f0366dc00",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 41,
+          "revision": 1,
+          "sha256": "998a433bc5d6fe70457056398d3f687012ffcd927a55d3dfd9721fa0c81d0e76"
+        },
+        "editorial_sha256": "264c46b2e3c304bb7b09c106a8669791b6153138d4b08ef72b4ca1c4a1308f68"
+      }
     }
   },
   "migration": {
@@ -5483,6 +5495,58 @@
         "sha256": "410036dbab26770d460a322222d2ee346c48e9355d5de29ce222f9b635b1c0e5",
         "reviewed_at": "2026-10-06T13:28:51.799580+00:00",
         "operation_id": "6921f78b310ddca1e399162cb68e5cce83e1e37eb54be4acb18b91ee6fc62492"
+      }
+    ],
+    "41:1": [
+      {
+        "reference": {
+          "id": 41,
+          "revision": 1,
+          "sha256": "998a433bc5d6fe70457056398d3f687012ffcd927a55d3dfd9721fa0c81d0e76"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "api",
+            "rationale": "Substantive model architecture, API preview, benchmark evaluation and planned model-weight release for developers and researchers.",
+            "evidence_sha256": "ab79424eec30c847c2e2799d905b501edbc4ef70c9cce63f892cf76bc6dd6fc3"
+          },
+          "quality": {
+            "article": {
+              "chase_status": "unknown",
+              "checked_at": "2026-10-06T14:39:15Z",
+              "evidence_sha256": "439f1b70b1ad940ddebd63014d5865738748c32f6224f286e3480c059cbab820",
+              "final_url": "https://thenextweb.com/news/mistral-releases-large-4-a-1-trillion-parameter-open-weight-ai-model",
+              "redirect_chain": [
+                "https://thenextweb.com/news/mistral-releases-large-4-a-1-trillion-parameter-open-weight-ai-model"
+              ],
+              "same_event": true,
+              "status": "accessible_here",
+              "url": "https://thenextweb.com/news/mistral-releases-large-4-a-1-trillion-parameter-open-weight-ai-model"
+            },
+            "image": {
+              "chase_status": "unknown",
+              "checked_at": "2026-10-06T14:41:39Z",
+              "content_type": "image/png",
+              "evidence_sha256": "10c2cd4cba706bfce26f62684b1c5d4c03802a36b8a8b27bcab9cda7ff107210",
+              "final_url": "https://images.ctfassets.net/jdtwqhzvc2n1/3WiIC1kQ2sm5ArrkRh8jaC/ef56e517c15617e671dbd9590a2ea76f/image__5_?w=1000&q=100",
+              "height": 900,
+              "image_bytes_sha256": "b9c71a10887e568e5e9911c03e0bed48cf79e12cebe00f6e16783ac5b9a7709d",
+              "pixels_inspected": true,
+              "redirect_chain": [
+                "https://images.ctfassets.net/jdtwqhzvc2n1/3WiIC1kQ2sm5ArrkRh8jaC/ef56e517c15617e671dbd9590a2ea76f/image__5_?w=1000&q=100"
+              ],
+              "relevance": "story_specific",
+              "relevance_note": "Inspected launch-specific DeepSWE v1.1 chart naming Mistral Large 4 Preview. Vendor-reported scores match the current primary chart for the displayed subset; no claim of overall global leadership is inferred.",
+              "status": "accessible_here",
+              "url": "https://images.ctfassets.net/jdtwqhzvc2n1/3WiIC1kQ2sm5ArrkRh8jaC/ef56e517c15617e671dbd9590a2ea76f/image__5_?w=1000&q=100",
+              "width": 1000
+            }
+          }
+        },
+        "sha256": "264c46b2e3c304bb7b09c106a8669791b6153138d4b08ef72b4ca1c4a1308f68",
+        "reviewed_at": "2026-10-06T14:43:16.625410+00:00",
+        "operation_id": "e27199224f4b94aef955984dee447048cda3eda5b26dd49c12caaeec92fb8acb"
       }
     ]
   }
