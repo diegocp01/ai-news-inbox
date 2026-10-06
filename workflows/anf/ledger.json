@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 102,
-  "updated_at": "2026-10-06T12:09:25.877863+00:00",
+  "generation": 103,
+  "updated_at": "2026-10-06T12:10:20.653265+00:00",
   "next_id": 40,
   "records": [
     {
@@ -3471,6 +3471,18 @@
         },
         "editorial_sha256": "0192d92d42ad7dd262a80c2da8b73634ad37327ca90bfda1bab6448ba139d886"
       }
+    },
+    "bc706e9212704a2cbdf19280ae09bb99": {
+      "sha256": "45e9aa96462600ab2a3f5b86811c3b1cee63c4285d7acbed6c36d9ecbe47f021",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 39,
+          "revision": 1,
+          "sha256": "d3c311fae5e2e9b6e27e739865a71c492a699fb37630718b178321b80460a37d"
+        },
+        "editorial_sha256": "905d5cc19bacb8ccfbea2f5d52b0e4f34b34b23a57f77784ac42f088868d5a48"
+      }
     }
   },
   "migration": {
@@ -4381,6 +4393,26 @@
         "sha256": "0192d92d42ad7dd262a80c2da8b73634ad37327ca90bfda1bab6448ba139d886",
         "reviewed_at": "2026-10-06T12:09:25.877863+00:00",
         "operation_id": "c17009c2e1e0432598a250afbc8c2e59"
+      }
+    ],
+    "39:1": [
+      {
+        "reference": {
+          "id": 39,
+          "revision": 1,
+          "sha256": "d3c311fae5e2e9b6e27e739865a71c492a699fb37630718b178321b80460a37d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The finalized article reports the rollout and limitations of text watermarking across consumer AI products, without technical implementation or research methods.",
+            "evidence_sha256": "d3c311fae5e2e9b6e27e739865a71c492a699fb37630718b178321b80460a37d"
+          }
+        },
+        "sha256": "905d5cc19bacb8ccfbea2f5d52b0e4f34b34b23a57f77784ac42f088868d5a48",
+        "reviewed_at": "2026-10-06T12:10:20.653265+00:00",
+        "operation_id": "bc706e9212704a2cbdf19280ae09bb99"
       }
     ]
   }
