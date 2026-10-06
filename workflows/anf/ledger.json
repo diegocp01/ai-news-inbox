@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 127,
-  "updated_at": "2026-10-06T20:43:13.493096+00:00",
+  "generation": 128,
+  "updated_at": "2026-10-06T20:44:18.564006+00:00",
   "next_id": 46,
   "records": [
     {
@@ -4800,6 +4800,18 @@
           "sha256": "03dae6ed396c4826695751618f20e931ad112caa9239a45cfcca19ce8b064074"
         }
       }
+    },
+    "d4f48c3080ff2b1f4a41bfa77ccd1f31a8fe499329f4411ac0d081a4a082b665": {
+      "sha256": "874e96bd146d1e49d3059b6a52a913de83d021ad2f6a5e112c52190b5284a2a1",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 45,
+          "revision": 2,
+          "sha256": "03dae6ed396c4826695751618f20e931ad112caa9239a45cfcca19ce8b064074"
+        },
+        "editorial_sha256": "9288e5fa667bb706acb95d7ec17c5a4fdcb1a8555aa9bb36ec75a362ae400ebb"
+      }
     }
   },
   "migration": {
@@ -6057,6 +6069,58 @@
         "sha256": "9288e5fa667bb706acb95d7ec17c5a4fdcb1a8555aa9bb36ec75a362ae400ebb",
         "reviewed_at": "2026-10-06T20:31:26.372901+00:00",
         "operation_id": "129a1ef21e7541b988198db7ed57d7bcfe3825fbdfcf845fc3a0b39517adb3df"
+      }
+    ],
+    "45:2": [
+      {
+        "reference": {
+          "id": 45,
+          "revision": 2,
+          "sha256": "03dae6ed396c4826695751618f20e931ad112caa9239a45cfcca19ce8b064074"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The story covers a consumer healthcare pilot and its regulatory safeguards, rather than a technical method or developer implementation.",
+            "evidence_sha256": "ff6fd78cd292b64d5567d3f3c94c7fc8c7b5cd4690c1eb06faaf2aa0c2d2e26b"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.nollahealth.com/blog/ai-prescriptions-utah",
+              "final_url": "https://www.nollahealth.com/blog/ai-prescriptions-utah",
+              "redirect_chain": [
+                "https://www.nollahealth.com/blog/ai-prescriptions-utah"
+              ],
+              "checked_at": "2026-10-06T20:30:45.762978+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "ff6fd78cd292b64d5567d3f3c94c7fc8c7b5cd4690c1eb06faaf2aa0c2d2e26b"
+            },
+            "image": {
+              "url": "https://image.mux.com/4fGbjoZF02gGacrcOqIGLZOWVh700gqZN02BDZIA5QJlnk/thumbnail.webp?time=3&width=3840",
+              "final_url": "https://image.mux.com/4fGbjoZF02gGacrcOqIGLZOWVh700gqZN02BDZIA5QJlnk/thumbnail.webp?time=3&width=3840",
+              "redirect_chain": [
+                "https://image.mux.com/4fGbjoZF02gGacrcOqIGLZOWVh700gqZN02BDZIA5QJlnk/thumbnail.webp?time=3&width=3840"
+              ],
+              "checked_at": "2026-10-06T20:29:11.320870+00:00",
+              "content_type": "image/webp",
+              "width": 3840,
+              "height": 2160,
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "eedb1f841e6e2cd113d9b1de16e86bbada3578c8cbea2604c0ec2d26b685ba7f",
+              "pixels_inspected": true,
+              "image_bytes_sha256": "4f7f0497af5ef2cbbe9de23b490eb96f41bb2116aa3adccad5d404bc3bfc117e",
+              "relevance": "story_specific",
+              "relevance_note": "Visually inspected 3840 by 2160 frame from the official AI-prescriptions launch video: two seated presenters, one in a white medical coat. Chosen over the launch OpenGraph image carrying an overly broad first-prescriptions claim and the blog’s landscape photograph. The exact frame URL is embedded on Nolla’s Utah pilot page."
+            }
+          }
+        },
+        "sha256": "9288e5fa667bb706acb95d7ec17c5a4fdcb1a8555aa9bb36ec75a362ae400ebb",
+        "reviewed_at": "2026-10-06T20:44:18.564006+00:00",
+        "operation_id": "d4f48c3080ff2b1f4a41bfa77ccd1f31a8fe499329f4411ac0d081a4a082b665"
       }
     ]
   }
