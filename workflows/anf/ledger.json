@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 115,
-  "updated_at": "2026-10-06T16:31:22.044050+00:00",
+  "generation": 116,
+  "updated_at": "2026-10-06T16:33:20.496042+00:00",
   "next_id": 43,
   "records": [
     {
@@ -4553,6 +4553,18 @@
         ],
         "duplicates": []
       }
+    },
+    "786f354a37a67f6642490b445d4c96c14b3b1478beb143e9df5c2a645d4eeaec": {
+      "sha256": "29ba5d63bf1e9ee3fc2bc497f0765fee2e7d3780d8e8c03bd8cad92e831b82e6",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 42,
+          "revision": 1,
+          "sha256": "e3dd7e639172f6d6ff1871aa7b806ff74576084b5da8d6040945c3bb2bba83ad"
+        },
+        "editorial_sha256": "c8d734f2dbb73a85ba1a0734648aeaf4a31801be675dce02c016d5c59a489cca"
+      }
     }
   },
   "migration": {
@@ -5599,6 +5611,60 @@
         "sha256": "264c46b2e3c304bb7b09c106a8669791b6153138d4b08ef72b4ca1c4a1308f68",
         "reviewed_at": "2026-10-06T14:43:16.625410+00:00",
         "operation_id": "e27199224f4b94aef955984dee447048cda3eda5b26dd49c12caaeec92fb8acb"
+      }
+    ],
+    "42:1": [
+      {
+        "reference": {
+          "id": 42,
+          "revision": 1,
+          "sha256": "e3dd7e639172f6d6ff1871aa7b806ff74576084b5da8d6040945c3bb2bba83ad"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "open_source",
+            "rationale": "A deployable Apache-licensed embedding model for developers implementing on-device multimodal search and retrieval, with encoder, context and dimension configuration details.",
+            "evidence_sha256": "ae6fc6da5ebbe0fec1e18372cd6c32f9d8d0e2ec4ae3a78e215c632d08c67478"
+          },
+          "quality": {
+            "article": {
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+              "final_url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+              "redirect_chain": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+              ],
+              "checked_at": "2026-10-06T16:32:45.694692+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "5afd78b077e3c83eb5bb8552d65a82fe6b57f1e395dd110f9a9d32fa1377c673"
+            },
+            "image": {
+              "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1200.format-webp.webp",
+              "final_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1200.format-webp.webp",
+              "redirect_chain": [
+                "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1200.format-webp.webp"
+              ],
+              "checked_at": "2026-10-06T16:32:45.694692+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "6a4e10d55f9326691c54925ca2b4a11162d9bfd837ba90259a1afe5ea0d5ae7e",
+              "content_type": "image/webp",
+              "http_content_type": "application/octet-stream",
+              "content_type_basis": "Decoded WEBP magic bytes; HTTP server labels bytes application/octet-stream.",
+              "width": 1200,
+              "height": 675,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "291c0c768efca20df029e5dcacb0506d3bc1d4150dc27bff4f051abbfd590c80",
+              "relevance": "story_specific",
+              "relevance_note": "Official launch hero, visually inspected: clear dark-blue geometric card with centered EmbeddingGemma 2 title."
+            }
+          }
+        },
+        "sha256": "c8d734f2dbb73a85ba1a0734648aeaf4a31801be675dce02c016d5c59a489cca",
+        "reviewed_at": "2026-10-06T16:33:20.496042+00:00",
+        "operation_id": "786f354a37a67f6642490b445d4c96c14b3b1478beb143e9df5c2a645d4eeaec"
       }
     ]
   }
