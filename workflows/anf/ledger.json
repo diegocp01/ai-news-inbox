@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 118,
-  "updated_at": "2026-10-06T17:14:57.422047+00:00",
+  "generation": 119,
+  "updated_at": "2026-10-06T17:16:34.170432+00:00",
   "next_id": 44,
   "records": [
     {
@@ -4617,6 +4617,18 @@
         ],
         "duplicates": []
       }
+    },
+    "8e4cb390709afdeb8e7c2f251e8f824ecaad8bd09b648d94e62296c344690b51": {
+      "sha256": "3cdde36b40c2d4a1bd33df59c41ce1c8c642e0e6a798038a99cdd654fbf66e85",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 43,
+          "revision": 1,
+          "sha256": "ecf243ffdf2d770b74654b5dc744df97a315a180a2e905d1acb2426e0e8d1148"
+        },
+        "editorial_sha256": "de541bd4b0786aea2dfb36da4e953e518ba6f44b91b27f08c82edb1bea239c2d"
+      }
     }
   },
   "migration": {
@@ -5717,6 +5729,59 @@
         "sha256": "c8d734f2dbb73a85ba1a0734648aeaf4a31801be675dce02c016d5c59a489cca",
         "reviewed_at": "2026-10-06T16:33:20.496042+00:00",
         "operation_id": "786f354a37a67f6642490b445d4c96c14b3b1478beb143e9df5c2a645d4eeaec"
+      }
+    ],
+    "43:1": [
+      {
+        "reference": {
+          "id": 43,
+          "revision": 1,
+          "sha256": "ecf243ffdf2d770b74654b5dc744df97a315a180a2e905d1acb2426e0e8d1148"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A broad consumer and creator announcement about image creation, editing and rollout across Google products; API documentation corroborates the release but implementation details are not the subject of this item.",
+            "evidence_sha256": "73add9afc320feed5d8865a4f4678d505853226bd2666f40f59ce252c9ea22bb"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.reddit.com/user/NewsFromGoogle/comments/1wz6d5y/meet_our_upgraded_image_generation_model_nano/",
+              "final_url": "https://www.reddit.com/user/NewsFromGoogle/comments/1wz6d5y/meet_our_upgraded_image_generation_model_nano/",
+              "redirect_chain": [
+                "https://www.reddit.com/user/NewsFromGoogle/comments/1wz6d5y/meet_our_upgraded_image_generation_model_nano/"
+              ],
+              "checked_at": "2026-10-06T17:14:42+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "73add9afc320feed5d8865a4f4678d505853226bd2666f40f59ce252c9ea22bb",
+              "access_note": "Exact resolved post read successfully in cloud web reader and cloud browser. A separate urllib request to the earlier r/u_ alias returned 403; this does not establish a host-wide or Chase block."
+            },
+            "image": {
+              "url": "https://i.redd.it/0y9lzowodvth1.png",
+              "final_url": "https://i.redd.it/0y9lzowodvth1.png",
+              "redirect_chain": [
+                "https://i.redd.it/0y9lzowodvth1.png"
+              ],
+              "checked_at": "2026-10-06T17:13:41.485859+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "c387e297c7c83f3db9775e8915e244d8cfd6012c23599df2ad3de0730204f22d",
+              "content_type": "image/png",
+              "width": 1081,
+              "height": 1081,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "e4c120d56065a6371b7a4a9bc724b7842878891c48f745464b2e493c472ba854",
+              "relevance": "story_specific",
+              "relevance_note": "Official release collage embedded in the verified Google announcement. Clear Nano Banana 2.1 title on a dark-blue background surrounded by image and design examples. Full-resolution original chosen over a 640-pixel preview and generic Gemini API documentation artwork."
+            }
+          }
+        },
+        "sha256": "de541bd4b0786aea2dfb36da4e953e518ba6f44b91b27f08c82edb1bea239c2d",
+        "reviewed_at": "2026-10-06T17:16:34.170432+00:00",
+        "operation_id": "8e4cb390709afdeb8e7c2f251e8f824ecaad8bd09b648d94e62296c344690b51"
       }
     ]
   }
