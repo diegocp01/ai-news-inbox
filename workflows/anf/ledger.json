@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 129,
-  "updated_at": "2026-10-06T20:58:00.863079+00:00",
-  "next_id": 46,
+  "generation": 130,
+  "updated_at": "2026-10-06T21:00:38.426637+00:00",
+  "next_id": 47,
   "records": [
     {
       "id": 1,
@@ -608,6 +608,19 @@
           "sha256": "03dae6ed396c4826695751618f20e931ad112caa9239a45cfcca19ce8b064074",
           "source": "Nolla Health",
           "request_id": "d14353bd418108de9c12935407cfc493d376967e56416b9133a3aa35ec70a5b5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "revisions": [
+        {
+          "created_at": "2026-10-06T21:00:38.426637+00:00",
+          "block": "Title: ChatGPT Turns Meetings Into Notes and Follow-Ups\nURL: https://chasingnext.com/updates/meetings-plugin-in-chatgpt-beta\nImage URL: https://assets.st-note.com/img/1790733073-4JnEfsgmUSe0PdyLMIibBOVD.png?width=1200\nSummary: OpenAI’s Meetings plugin saves personalized summaries and action items in ChatGPT Space, using meeting transcripts and connected-app context. Users can keep notes private, share them, and ask ChatGPT to draft follow-ups or update plans. It’s in beta for Pro and Business on macOS; Enterprise access is limited to an alpha. Participants must consent before note-taking.",
+          "sha256": "0ad22746288a76864a4b2bed3b5f59108b86aeda012e2af71bb0b205c1c1a95e",
+          "source": "Chasing Next",
+          "request_id": "2552ea9705579e1bf7526d2fe2aaa6c9e6b548fb17b5aa6cb08429f28909d4ee",
           "mode": "standard"
         }
       ]
@@ -1372,13 +1385,21 @@
       ]
     },
     "2552ea9705579e1bf7526d2fe2aaa6c9e6b548fb17b5aa6cb08429f28909d4ee": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-06T20:58:00.863079+00:00",
       "received_sequence": 44,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-06T21:00:38.426637+00:00",
+      "records": [
+        {
+          "id": 46,
+          "revision": 1,
+          "sha256": "0ad22746288a76864a4b2bed3b5f59108b86aeda012e2af71bb0b205c1c1a95e"
+        }
+      ]
     }
   },
   "batches": {
@@ -4827,6 +4848,21 @@
       "result": {
         "status": "received",
         "request_id": "2552ea9705579e1bf7526d2fe2aaa6c9e6b548fb17b5aa6cb08429f28909d4ee"
+      }
+    },
+    "e9c7c7f4dcb1a0a3d1f9f7226d0f46bb0687b0753f39c1dd184d537ff0fd4ecd": {
+      "sha256": "0ae3775d77539375ce0f9393bdc1db6c9df06155f06879f083a2c2778fb7ce97",
+      "result": {
+        "status": "finalized",
+        "request_id": "2552ea9705579e1bf7526d2fe2aaa6c9e6b548fb17b5aa6cb08429f28909d4ee",
+        "records": [
+          {
+            "id": 46,
+            "revision": 1,
+            "sha256": "0ad22746288a76864a4b2bed3b5f59108b86aeda012e2af71bb0b205c1c1a95e"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
