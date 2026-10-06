@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 117,
-  "updated_at": "2026-10-06T17:11:08.407571+00:00",
-  "next_id": 43,
+  "generation": 118,
+  "updated_at": "2026-10-06T17:14:57.422047+00:00",
+  "next_id": 44,
   "records": [
     {
       "id": 1,
@@ -561,6 +561,19 @@
           "sha256": "e3dd7e639172f6d6ff1871aa7b806ff74576084b5da8d6040945c3bb2bba83ad",
           "source": "Google",
           "request_id": "3f09b0fc1ba6269bb59cc608d33287acf0ef57e3107a9016d792af83bfd7ab29",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "revisions": [
+        {
+          "created_at": "2026-10-06T17:14:57.422047+00:00",
+          "block": "Title: Google Updates Its AI Image Generator\nURL: https://www.reddit.com/user/NewsFromGoogle/comments/1wz6d5y/meet_our_upgraded_image_generation_model_nano/\nImage URL: https://i.redd.it/0y9lzowodvth1.png\nSummary: Google released Nano Banana 2.1, saying it improves visual design, targeted edits using masks, subject consistency and image realism. The image-generation and editing model is rolling out across the Gemini app, Google AI Studio, Flow, Search’s AI Mode and other Google products.",
+          "sha256": "ecf243ffdf2d770b74654b5dc744df97a315a180a2e905d1acb2426e0e8d1148",
+          "source": "Google",
+          "request_id": "94d284284a9be12adef8ea07e02ea437dff9235c46f4ee216ae79b9598f40411",
           "mode": "standard"
         }
       ]
@@ -1257,13 +1270,21 @@
       ]
     },
     "94d284284a9be12adef8ea07e02ea437dff9235c46f4ee216ae79b9598f40411": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-06T17:11:08.407571+00:00",
       "received_sequence": 40,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-06T17:14:57.422047+00:00",
+      "records": [
+        {
+          "id": 43,
+          "revision": 1,
+          "sha256": "ecf243ffdf2d770b74654b5dc744df97a315a180a2e905d1acb2426e0e8d1148"
+        }
+      ]
     }
   },
   "batches": {
@@ -4580,6 +4601,21 @@
       "result": {
         "status": "received",
         "request_id": "94d284284a9be12adef8ea07e02ea437dff9235c46f4ee216ae79b9598f40411"
+      }
+    },
+    "9f585b165b308579552ca8003c5353ff3ae1d6f3200bf8e6491031c6d16110d8": {
+      "sha256": "4594ca1df697c20a36c11d30db5798a684521a14e4ce6a2dbefca200ccaba69e",
+      "result": {
+        "status": "finalized",
+        "request_id": "94d284284a9be12adef8ea07e02ea437dff9235c46f4ee216ae79b9598f40411",
+        "records": [
+          {
+            "id": 43,
+            "revision": 1,
+            "sha256": "ecf243ffdf2d770b74654b5dc744df97a315a180a2e905d1acb2426e0e8d1148"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
