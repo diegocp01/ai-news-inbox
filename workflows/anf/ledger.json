@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 111,
-  "updated_at": "2026-10-06T14:37:54.978410+00:00",
-  "next_id": 41,
+  "generation": 112,
+  "updated_at": "2026-10-06T14:41:46.300410+00:00",
+  "next_id": 42,
   "records": [
     {
       "id": 1,
@@ -535,6 +535,19 @@
           "sha256": "1408e6cc141ec846400ed9b9b476ce9f3d4a3acafe35a6cc77941004089d7062",
           "source": "Banbury Road",
           "request_id": "e2e3125c36bef3865b3c187f0f662a61cc110967a78f629eadde551b17f12e40",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "revisions": [
+        {
+          "created_at": "2026-10-06T14:41:46.300410+00:00",
+          "block": "Title: Mistral Opens Preview of Large 4 AI Model\nURL: https://thenextweb.com/news/mistral-releases-large-4-a-1-trillion-parameter-open-weight-ai-model\nImage URL: https://images.ctfassets.net/jdtwqhzvc2n1/3WiIC1kQ2sm5ArrkRh8jaC/ef56e517c15617e671dbd9590a2ea76f/image__5_?w=1000&q=100\nSummary: Mistral opened a public API preview of Large 4, nicknamed Le Chonk: a multimodal model with 1 trillion parameters and 49 billion active. Trained and hosted in Europe, it targets coding, cybersecurity, finance and manufacturing. Mistral claims leading benchmark performance among U.S. and European open-weight models and strong visual-grounding results. Open weights are planned for late October.",
+          "sha256": "998a433bc5d6fe70457056398d3f687012ffcd927a55d3dfd9721fa0c81d0e76",
+          "source": "The Next Web",
+          "request_id": "adab96d36117324bac99c936083c2f15287a9ffcde2ef1a99c7e363f88bfc576",
           "mode": "standard"
         }
       ]
@@ -1197,13 +1210,21 @@
       ]
     },
     "adab96d36117324bac99c936083c2f15287a9ffcde2ef1a99c7e363f88bfc576": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-06T14:37:54.978410+00:00",
       "received_sequence": 38,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-06T14:41:46.300410+00:00",
+      "records": [
+        {
+          "id": 41,
+          "revision": 1,
+          "sha256": "998a433bc5d6fe70457056398d3f687012ffcd927a55d3dfd9721fa0c81d0e76"
+        }
+      ]
     }
   },
   "batches": {
@@ -4452,6 +4473,21 @@
       "result": {
         "status": "received",
         "request_id": "adab96d36117324bac99c936083c2f15287a9ffcde2ef1a99c7e363f88bfc576"
+      }
+    },
+    "c3f883533839ea2a7c3903715a1e7da548d9e2a7b6ba177a7dad90cebedd4b0f": {
+      "sha256": "a05fae1cfd5e6c66d378ccea4375390d9cc8806a6c31b58217d5ee622d3a6088",
+      "result": {
+        "status": "finalized",
+        "request_id": "adab96d36117324bac99c936083c2f15287a9ffcde2ef1a99c7e363f88bfc576",
+        "records": [
+          {
+            "id": 41,
+            "revision": 1,
+            "sha256": "998a433bc5d6fe70457056398d3f687012ffcd927a55d3dfd9721fa0c81d0e76"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
