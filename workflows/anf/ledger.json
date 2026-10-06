@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 101,
-  "updated_at": "2026-10-06T12:07:28.283676+00:00",
+  "generation": 102,
+  "updated_at": "2026-10-06T12:09:25.877863+00:00",
   "next_id": 40,
   "records": [
     {
@@ -3459,6 +3459,18 @@
         },
         "editorial_sha256": "69d7f86744b5234f2e3eaed7ff005e4e561f346ea7a4813af5648b2488cf711c"
       }
+    },
+    "c17009c2e1e0432598a250afbc8c2e59": {
+      "sha256": "e9154b45e2ce73fd078dee816844d9e5c5f351803fd290754e9c9d00f81f6de2",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 38,
+          "revision": 1,
+          "sha256": "228cb79cb453d29d19d45acf8fce41928b35df123ebec831a9d3ff09b9cada97"
+        },
+        "editorial_sha256": "0192d92d42ad7dd262a80c2da8b73634ad37327ca90bfda1bab6448ba139d886"
+      }
     }
   },
   "migration": {
@@ -4349,6 +4361,26 @@
         "sha256": "69d7f86744b5234f2e3eaed7ff005e4e561f346ea7a4813af5648b2488cf711c",
         "reviewed_at": "2026-10-06T12:07:28.283676+00:00",
         "operation_id": "30f801cf03cd413284bb67e53c06e5d5"
+      }
+    ],
+    "38:1": [
+      {
+        "reference": {
+          "id": 38,
+          "revision": 1,
+          "sha256": "228cb79cb453d29d19d45acf8fce41928b35df123ebec831a9d3ff09b9cada97"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The finalized article reports consumer spending and paid subscriber rankings for AI apps, aimed at a general business and product-news audience.",
+            "evidence_sha256": "228cb79cb453d29d19d45acf8fce41928b35df123ebec831a9d3ff09b9cada97"
+          }
+        },
+        "sha256": "0192d92d42ad7dd262a80c2da8b73634ad37327ca90bfda1bab6448ba139d886",
+        "reviewed_at": "2026-10-06T12:09:25.877863+00:00",
+        "operation_id": "c17009c2e1e0432598a250afbc8c2e59"
       }
     ]
   }
