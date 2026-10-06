@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 109,
-  "updated_at": "2026-10-06T13:26:47.825346+00:00",
+  "generation": 110,
+  "updated_at": "2026-10-06T13:28:51.799580+00:00",
   "next_id": 41,
   "records": [
     {
@@ -4425,6 +4425,18 @@
         ],
         "duplicates": []
       }
+    },
+    "6921f78b310ddca1e399162cb68e5cce83e1e37eb54be4acb18b91ee6fc62492": {
+      "sha256": "4d56afdb2de166056c9e7d898c5fb51f33044449d4ec134ec11f3f3acf5982c7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 40,
+          "revision": 1,
+          "sha256": "1408e6cc141ec846400ed9b9b476ce9f3d4a3acafe35a6cc77941004089d7062"
+        },
+        "editorial_sha256": "410036dbab26770d460a322222d2ee346c48e9355d5de29ce222f9b635b1c0e5"
+      }
     }
   },
   "migration": {
@@ -5355,6 +5367,70 @@
         "sha256": "905d5cc19bacb8ccfbea2f5d52b0e4f34b34b23a57f77784ac42f088868d5a48",
         "reviewed_at": "2026-10-06T12:10:20.653265+00:00",
         "operation_id": "bc706e9212704a2cbdf19280ae09bb99"
+      }
+    ],
+    "40:1": [
+      {
+        "reference": {
+          "id": 40,
+          "revision": 1,
+          "sha256": "1408e6cc141ec846400ed9b9b476ce9f3d4a3acafe35a6cc77941004089d7062"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research on reinforcement-learning population training, model specialization, benchmark scores, inference costs and shared-weight storage, intended for machine-learning researchers and developers.",
+            "evidence_sha256": "9939a5fc53f6c58b753320bdd4c51974e2af7e9e0c846576dbfa7281070e9913"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.linkedin.com/posts/ed--li_introducing-kardashev-07-the-worlds-first-activity-7512921156421623808-ZM2v",
+              "final_url": "https://www.linkedin.com/posts/ed--li_introducing-kardashev-07-the-worlds-first-activity-7512921156421623808-ZM2v",
+              "redirect_chain": [
+                "https://www.linkedin.com/posts/ed--li_introducing-kardashev-07-the-worlds-first-activity-7512921156421623808-ZM2v"
+              ],
+              "checked_at": "2026-10-06T13:22:28Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "4c1957d98c2e58e603fa82cccca0b770b7eeb463c12b0d3f98286ba3a6a9ab05",
+              "source_observations": "Downloaded the original LinkedIn-hosted 67.369-second video. Settled 39.5-second SuperGPQA chart: Kardashev-0.7 81.3%, GPT-5.5 72.7%, Qwen3.7 Max 73.6%, DeepSeek V4 Pro 69.9%. Settled 43-second IFBench chart: 79.3%, 75.9%, 79.1%, 77.0%. Settled 44.5-second cost chart: USD per 1M output tokens $0.18, $30, $4.95, $3.96 respectively. Costs imply ratios 0.006, 0.036, 0.045, which do not reproduce post's claimed 0.007–0.02 range. No specified memory comparison baseline. Claims remain company-reported; full launch evaluation protocol not established.",
+              "supporting_research": {
+                "url": "https://banburyroad.ai/research/scaling-a-diversified-model-civilization",
+                "observed_at": "2026-10-06T13:25:03Z",
+                "scope": "Public technical report tests populations through 16, with 288 held-out tasks (96 each SuperGPQA, TweetEval sentiment, MuSiQue). Best response selected using known answers; this is not demonstrated real-world answer selection. Analytical model-weight storage is 93.7% lower for 16 shared members than 16 full copies, excluding caches and activations; 16 selected members need roughly twice the passes of eight. These prior smaller-population results do not independently establish 32-model launch comparisons."
+              },
+              "availability": {
+                "url": "https://banburyroad.ai/",
+                "observed_at": "2026-10-06T13:25:03Z",
+                "text": "We’ll be releasing our first model civilization soon, join the waitlist for priority access."
+              }
+            },
+            "image": {
+              "url": "https://storage.ghost.io/c/5e/61/5e6189f0-c5e0-49a0-97b4-5eddd3f43c77/content/images/2026/10/x20261006-13-kardashev-0.png",
+              "final_url": "https://storage.ghost.io/c/5e/61/5e6189f0-c5e0-49a0-97b4-5eddd3f43c77/content/images/2026/10/x20261006-13-kardashev-0.png",
+              "redirect_chain": [
+                "https://storage.ghost.io/c/5e/61/5e6189f0-c5e0-49a0-97b4-5eddd3f43c77/content/images/2026/10/x20261006-13-kardashev-0.png"
+              ],
+              "checked_at": "2026-10-06T13:24:19Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "872e26878d817b1c64a2dde0a6827a9f15860da90784a0c1d2353f91967625d1",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "4896759424be6d5df3650794e3dd18ee57e5a2286347af63ca689e70f6ce6e12",
+              "relevance": "story_specific",
+              "relevance_note": "Navy Banbury Road visual with its logo, the headline Training a Kardashev civilization of models, and connected model-like nodes. No benchmark superiority claim embedded. Same-event AI Post Hub article's inspected hero, credited to official site; compared with original video poster and preferred clear named model-training artwork.",
+              "discovery_url": "https://www.aiposthub.com/banbury-road-kardashev-07-model-swarm/"
+            }
+          }
+        },
+        "sha256": "410036dbab26770d460a322222d2ee346c48e9355d5de29ce222f9b635b1c0e5",
+        "reviewed_at": "2026-10-06T13:28:51.799580+00:00",
+        "operation_id": "6921f78b310ddca1e399162cb68e5cce83e1e37eb54be4acb18b91ee6fc62492"
       }
     ]
   }
