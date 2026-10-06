@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 94,
-  "updated_at": "2026-10-06T02:05:04.759945+00:00",
+  "generation": 95,
+  "updated_at": "2026-10-06T02:06:18.961781+00:00",
   "next_id": 36,
   "records": [
     {
@@ -3269,6 +3269,18 @@
         ],
         "duplicates": []
       }
+    },
+    "143a29f37a809dac390718a5fdd34306a779ea4ac725e27f684e382a34b16244": {
+      "sha256": "327f7dcb28de4ffe62306a5247f74a1bc6cf2494a9a9c298d0ddcab6b4e70994",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 35,
+          "revision": 1,
+          "sha256": "058c4064870a04532ba7d080e8325c1180f7d23a64e15147a9e47d63cd9fa9c7"
+        },
+        "editorial_sha256": "2ce32595f4253b80734e1624135b461649717e60c99e465244be1bd289d7b8ae"
+      }
     }
   },
   "migration": {
@@ -4067,6 +4079,26 @@
         "sha256": "5f849f3c59fbba230dcc273e072881d77929afb56f68144b7e809de3affd98f0",
         "reviewed_at": "2026-10-05T17:44:46.478680+00:00",
         "operation_id": "a2595d1de98971021035afd92cfec80b3bf940c80d9550dbd558570a85a531e6"
+      }
+    ],
+    "35:1": [
+      {
+        "reference": {
+          "id": 35,
+          "revision": 1,
+          "sha256": "058c4064870a04532ba7d080e8325c1180f7d23a64e15147a9e47d63cd9fa9c7"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Codex developer-tool news covering model inference speed and subscription-backed integrations with coding tools.",
+            "evidence_sha256": "7c241147fbb0b6d7e8b14cd731f33a4f626da6af8306323c3866239f2de968d9"
+          }
+        },
+        "sha256": "2ce32595f4253b80734e1624135b461649717e60c99e465244be1bd289d7b8ae",
+        "reviewed_at": "2026-10-06T02:06:18.961781+00:00",
+        "operation_id": "143a29f37a809dac390718a5fdd34306a779ea4ac725e27f684e382a34b16244"
       }
     ]
   }
