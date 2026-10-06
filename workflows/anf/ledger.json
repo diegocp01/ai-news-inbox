@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 121,
-  "updated_at": "2026-10-06T18:01:12.472672+00:00",
+  "generation": 122,
+  "updated_at": "2026-10-06T18:02:37.616281+00:00",
   "next_id": 45,
   "records": [
     {
@@ -4681,6 +4681,18 @@
         ],
         "duplicates": []
       }
+    },
+    "667bde7795c9d81f06d92c6615995c59da53c57c437a97d1701f64cee0ad42b7": {
+      "sha256": "4b24f14dd8e8befe1eaef070a35f4866ed42bf672dfe025e58ade57f3e21c611",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 44,
+          "revision": 1,
+          "sha256": "05f373733b84488df98be356b14f39da620a3eb4200eac11aa2bc54198009d48"
+        },
+        "editorial_sha256": "623c37fc5bce701c468e451c98c2b05e808ab6a3c2b8f8d0144e77dfc865a3b2"
+      }
     }
   },
   "migration": {
@@ -5834,6 +5846,58 @@
         "sha256": "de541bd4b0786aea2dfb36da4e953e518ba6f44b91b27f08c82edb1bea239c2d",
         "reviewed_at": "2026-10-06T17:16:34.170432+00:00",
         "operation_id": "8e4cb390709afdeb8e7c2f251e8f824ecaad8bd09b648d94e62296c344690b51"
+      }
+    ],
+    "44:1": [
+      {
+        "reference": {
+          "id": 44,
+          "revision": 1,
+          "sha256": "05f373733b84488df98be356b14f39da620a3eb4200eac11aa2bc54198009d48"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The announcement introduces document, spreadsheet and presentation editing for everyday business productivity; it does not require developer implementation knowledge.",
+            "evidence_sha256": "44aa0cdadbfe87fcc039de2e159addb91475cafb5600123f4c81b24f736e4c31"
+          },
+          "quality": {
+            "article": {
+              "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+              "final_url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+              "redirect_chain": [
+                "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
+              ],
+              "checked_at": "2026-10-06T18:01:02Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "ba98984d6c56b292f0939dad6e043885dfe33853d0318f66cc3f615cf0a2340d"
+            },
+            "image": {
+              "url": "https://lh3.googleusercontent.com/XUT63fbiIuTxf-rDg7WcVtyTo-ahKotxhSpFYokgIfnmZ9shv55Tdg=w1280-h800",
+              "final_url": "https://lh3.googleusercontent.com/XUT63fbiIuTxf-rDg7WcVtyTo-ahKotxhSpFYokgIfnmZ9shv55Tdg=w1280-h800",
+              "redirect_chain": [
+                "https://lh3.googleusercontent.com/XUT63fbiIuTxf-rDg7WcVtyTo-ahKotxhSpFYokgIfnmZ9shv55Tdg=w1280-h800"
+              ],
+              "checked_at": "2026-10-06T18:00:24Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "4b12f7227a70e9cddc999cc823c803d178f1d0f99110644a1d8a899e5a68abce",
+              "content_type": "image/png",
+              "width": 1280,
+              "height": 800,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "362e72abb21d209acf488f621d92235a0d43cfbf329967561b44e7104a952156",
+              "relevance": "story_specific",
+              "relevance_note": "Anthropic Marketplace screenshot of Google Docs with a Claude for Docs Beta sidebar, redlined suggestion cards and an Apply all control."
+            }
+          }
+        },
+        "sha256": "623c37fc5bce701c468e451c98c2b05e808ab6a3c2b8f8d0144e77dfc865a3b2",
+        "reviewed_at": "2026-10-06T18:02:37.616281+00:00",
+        "operation_id": "667bde7795c9d81f06d92c6615995c59da53c57c437a97d1701f64cee0ad42b7"
       }
     ]
   }
