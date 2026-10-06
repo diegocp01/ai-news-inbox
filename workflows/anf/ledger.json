@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 126,
-  "updated_at": "2026-10-06T20:42:24.111900+00:00",
+  "generation": 127,
+  "updated_at": "2026-10-06T20:43:13.493096+00:00",
   "next_id": 46,
   "records": [
     {
@@ -600,6 +600,14 @@
           "sha256": "ad4f56ef9e5edd0b2ed9c8d00e2b5fec79ea4b22900cd8e64019993b99054221",
           "source": "Nolla Health",
           "request_id": "9311453de21f0c21db4aae8bbe39200694648298577722a65eb072f0cf564b38",
+          "mode": "standard"
+        },
+        {
+          "created_at": "2026-10-06T20:43:13.493096+00:00",
+          "block": "Title: Utah Approves ‘AI Doctor’ Pilot for Acne Prescriptions\nURL: https://www.nollahealth.com/blog/ai-prescriptions-utah\nImage URL: https://image.mux.com/4fGbjoZF02gGacrcOqIGLZOWVh700gqZN02BDZIA5QJlnk/thumbnail.webp?time=3&width=3840\nSummary: Utah has authorized Nolla Health to pilot AI-issued initial prescriptions for adults with mild-to-moderate acne, using face scans and a limited list of topical treatments. Two physicians must approve every prescription initially; later stages can reduce upfront review only after safety targets and state approval. Severe acne and pregnancy are excluded.",
+          "sha256": "03dae6ed396c4826695751618f20e931ad112caa9239a45cfcca19ce8b064074",
+          "source": "Nolla Health",
+          "request_id": "d14353bd418108de9c12935407cfc493d376967e56416b9133a3aa35ec70a5b5",
           "mode": "standard"
         }
       ]
@@ -1347,13 +1355,21 @@
       ]
     },
     "d14353bd418108de9c12935407cfc493d376967e56416b9133a3aa35ec70a5b5": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-06T20:42:24.111900+00:00",
       "received_sequence": 43,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": 45
+      "corrects_record_id": 45,
+      "finalized_at": "2026-10-06T20:43:13.493096+00:00",
+      "records": [
+        {
+          "id": 45,
+          "revision": 2,
+          "sha256": "03dae6ed396c4826695751618f20e931ad112caa9239a45cfcca19ce8b064074"
+        }
+      ]
     }
   },
   "batches": {
@@ -4772,6 +4788,17 @@
       "result": {
         "status": "received",
         "request_id": "d14353bd418108de9c12935407cfc493d376967e56416b9133a3aa35ec70a5b5"
+      }
+    },
+    "827215d8d9a13c6ab81e0ff0518a6bbf7d73a8c425fea0ffade3db4fc8f1da7c": {
+      "sha256": "ed977f1069350f9d923e49db4f4c870a4c858aa8140942ae8e25a10839a9010e",
+      "result": {
+        "status": "corrected",
+        "record": {
+          "id": 45,
+          "revision": 2,
+          "sha256": "03dae6ed396c4826695751618f20e931ad112caa9239a45cfcca19ce8b064074"
+        }
       }
     }
   },
