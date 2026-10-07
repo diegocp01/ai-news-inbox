@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 152,
-  "updated_at": "2026-10-07T12:00:32.952720+00:00",
+  "generation": 153,
+  "updated_at": "2026-10-07T12:01:37.449561+00:00",
   "next_id": 55,
   "records": [
     {
@@ -5365,6 +5365,18 @@
         },
         "editorial_sha256": "f985029bde5d8aca331443d2d93d8fc4f63671ef6a06369690654a37d5893af6"
       }
+    },
+    "8bfebf9b2ce948b68ee3e886550bc7ff": {
+      "sha256": "a8ec78b1077a127ecf917bb553df0ed0f50101f09c8f5435830bef9038babf53",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 52,
+          "revision": 1,
+          "sha256": "807f292b0b7767d5822a35998aeb46099f7cfa34b9aff5e0f4f9bc38f75885de"
+        },
+        "editorial_sha256": "bc7095fa2e49440153cdcdd8247fc72e0bcfcb2e190d452cbe35d17034a8466d"
+      }
     }
   },
   "migration": {
@@ -7054,6 +7066,26 @@
         "sha256": "f985029bde5d8aca331443d2d93d8fc4f63671ef6a06369690654a37d5893af6",
         "reviewed_at": "2026-10-07T12:00:32.952720+00:00",
         "operation_id": "96cf7e1a3e0f4387b1ea5d62860cd547"
+      }
+    ],
+    "52:1": [
+      {
+        "reference": {
+          "id": 52,
+          "revision": 1,
+          "sha256": "807f292b0b7767d5822a35998aeb46099f7cfa34b9aff5e0f4f9bc38f75885de"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "api",
+            "rationale": "A developer API preview and planned downloadable model release with coding and cybersecurity evaluation and access details.",
+            "evidence_sha256": "682e1ad050170a2c4c236e17d264bb37469a8c5b764263e346e1381fe188c304"
+          }
+        },
+        "sha256": "bc7095fa2e49440153cdcdd8247fc72e0bcfcb2e190d452cbe35d17034a8466d",
+        "reviewed_at": "2026-10-07T12:01:37.449561+00:00",
+        "operation_id": "8bfebf9b2ce948b68ee3e886550bc7ff"
       }
     ]
   }
