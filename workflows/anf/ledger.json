@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 142,
-  "updated_at": "2026-10-07T01:36:58.306739+00:00",
+  "generation": 143,
+  "updated_at": "2026-10-07T01:38:40.856538+00:00",
   "next_id": 50,
   "records": [
     {
@@ -5111,6 +5111,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d047b294de1fd3bf766bda87b962f6c3d3aab549bbe53a5c9731ab8d9cce8193": {
+      "sha256": "0e791d284c4f32d369001fb38067bad56195aefd8c68076cb79902422c5a15c6",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 49,
+          "revision": 1,
+          "sha256": "1063983050b6b53e66956142caef125320661911fea050c8bbdae1300fdcb845"
+        },
+        "editorial_sha256": "c3ccfa4975f344f652c35e76acfa65dd5cc8c750d29e74ed83501b5b8d53419a"
+      }
     }
   },
   "migration": {
@@ -6628,6 +6640,54 @@
         "sha256": "5974b2e473d4eadc1608962025079de29d81a20bfa4d94c2ef04c9a6789e6f86",
         "reviewed_at": "2026-10-07T01:32:52.707364+00:00",
         "operation_id": "dbd57bc9fc786187768339aef394e12ff7f3eb408d87a29a32ee1f3873807536"
+      }
+    ],
+    "49:1": [
+      {
+        "reference": {
+          "id": 49,
+          "revision": 1,
+          "sha256": "1063983050b6b53e66956142caef125320661911fea050c8bbdae1300fdcb845"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer AI assistant product improvements and planned usability features; Codex is one incidental feature area rather than a developer-focused article.",
+            "evidence_sha256": "4450fc8d1afe7ca50fd9811f48eae297745ba26cd47408436af5fad2c838c103"
+          },
+          "quality": {
+            "article": {
+              "url": "",
+              "status": "blank_no_compliant_source",
+              "checked_at": "2026-10-07T01:33:54+00:00",
+              "evidence_sha256": "3abcb773e9cd6ec0727fe6fc58616446bbb8d78b018b1d4bfe02805e3bc9f2c9"
+            },
+            "image": {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+              "final_url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+              "redirect_chain": [
+                "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill"
+              ],
+              "checked_at": "2026-10-07T01:34:05+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "bbe73c3850b355bdfbe90d07dd3de78a9ea0229d1b99ac0adf35756440ffb788",
+              "content_type": "image/png",
+              "width": 1600,
+              "height": 900,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "cc021593844d126086aa64545583d987e807d8232c68280fe9d2be83b08350e1",
+              "relevance": "topic_specific",
+              "relevance_note": "Official dots wordmark and four colorful plush dot characters clearly identify the product; the artwork does not depict the new fixes.",
+              "story_specific_available": false,
+              "fallback_reason": "The primary update is text-only, and exact-event searches found no reliable compliant coverage with an update-specific image. Official dots product artwork is the closest relevant verified fallback."
+            }
+          }
+        },
+        "sha256": "c3ccfa4975f344f652c35e76acfa65dd5cc8c750d29e74ed83501b5b8d53419a",
+        "reviewed_at": "2026-10-07T01:38:40.856538+00:00",
+        "operation_id": "d047b294de1fd3bf766bda87b962f6c3d3aab549bbe53a5c9731ab8d9cce8193"
       }
     ]
   }
