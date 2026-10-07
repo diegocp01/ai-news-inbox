@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 146,
-  "updated_at": "2026-10-07T11:41:28.998258+00:00",
+  "generation": 147,
+  "updated_at": "2026-10-07T11:42:51.012361+00:00",
   "next_id": 51,
   "records": [
     {
@@ -5192,6 +5192,18 @@
         ],
         "duplicates": []
       }
+    },
+    "64faaefec9e7e44070ca12b176edfb4a4e4b2453d2c96e34afd6cf4ebfe43520": {
+      "sha256": "d158737fef369842f3278521c482ec1e8b1e375ef16c9ade4e07f20fd321b684",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 50,
+          "revision": 1,
+          "sha256": "d48297b3e68be9829c9a7ffba9bcbc03356284f0bff1fd744a85a858037e3ceb"
+        },
+        "editorial_sha256": "ef9c8251eaad6cc333f86366d909296fbd6c45a017695d7a7573dd3ddd2e9607"
+      }
     }
   },
   "migration": {
@@ -6757,6 +6769,58 @@
         "sha256": "c3ccfa4975f344f652c35e76acfa65dd5cc8c750d29e74ed83501b5b8d53419a",
         "reviewed_at": "2026-10-07T01:38:40.856538+00:00",
         "operation_id": "d047b294de1fd3bf766bda87b962f6c3d3aab549bbe53a5c9731ab8d9cce8193"
+      }
+    ],
+    "50:1": [
+      {
+        "reference": {
+          "id": 50,
+          "revision": 1,
+          "sha256": "d48297b3e68be9829c9a7ffba9bcbc03356284f0bff1fd744a85a858037e3ceb"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General consumer AI-agent product strategy. Mentioned APIs and model routing do not provide substantive developer implementation or API launch details.",
+            "evidence_sha256": "3a48885fd46a8cbdeed16a42e0a3730af7e1cf5697d8fb712ae5fb4b6c6c3bb0"
+          },
+          "quality": {
+            "article": {
+              "url": "https://runtimewire.com/article/spacex-grok-bot-rival-model-routing",
+              "final_url": "https://runtimewire.com/article/spacex-grok-bot-rival-model-routing",
+              "redirect_chain": [
+                "https://runtimewire.com/article/spacex-grok-bot-rival-model-routing"
+              ],
+              "checked_at": "2026-10-07T11:39:37.186796+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "ba4a7cda4798965276866d34551b739f5924fe1f9362b04f57510874c197814d"
+            },
+            "image": {
+              "url": "https://runtimewire.com/og/spacex-grok-bot-rival-model-routing.16x9.jpg?v=og2-1kxmwt1",
+              "final_url": "https://runtimewire.com/og/spacex-grok-bot-rival-model-routing.16x9.jpg?v=og2-1kxmwt1",
+              "redirect_chain": [
+                "https://runtimewire.com/og/spacex-grok-bot-rival-model-routing.16x9.jpg?v=og2-1kxmwt1"
+              ],
+              "checked_at": "2026-10-07T11:39:55.402097+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "29ca775025f6c7aa1cf690ad7234ca529b14bc7f58c621325f1f8d6ed598b007",
+              "content_type": "image/jpeg",
+              "width": 1280,
+              "height": 720,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "31de273245a8b18edeb0be0c068b7bd00dc6fc224ef896a5da002fb9d0bbf359",
+              "relevance": "story_specific",
+              "relevance_note": "Publisher-labeled AI-generated editorial illustration for this exact announcement: a SpaceX-logo bot connected to chat, document, image and music symbols. It is illustrative, not a product screenshot or proof of shipped integrations."
+            }
+          }
+        },
+        "sha256": "ef9c8251eaad6cc333f86366d909296fbd6c45a017695d7a7573dd3ddd2e9607",
+        "reviewed_at": "2026-10-07T11:42:51.012361+00:00",
+        "operation_id": "64faaefec9e7e44070ca12b176edfb4a4e4b2453d2c96e34afd6cf4ebfe43520"
       }
     ]
   }
