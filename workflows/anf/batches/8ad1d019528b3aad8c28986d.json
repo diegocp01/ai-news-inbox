@@ -1,0 +1,130 @@
+[
+  {
+    "title": "32 AI Models Train Together to Develop Different Strengths",
+    "description": "Banbury Road introduced Kardashev-0.7, 32 models trained together with reinforcement learning to develop complementary skills. The company reports 81.3% on SuperGPQA, 79.3% on IFBench and $0.18 per million output tokens. Launch evaluation details and memory-savings baselines remain unclear; its public technical report covers smaller populations. Access is waitlisted.",
+    "image_url": "https://storage.ghost.io/c/5e/61/5e6189f0-c5e0-49a0-97b4-5eddd3f43c77/content/images/2026/10/x20261006-13-kardashev-0.png",
+    "learn_more_url": "https://www.linkedin.com/posts/ed--li_introducing-kardashev-07-the-worlds-first-activity-7512921156421623808-ZM2v",
+    "date": "2026-10-07",
+    "source": "Banbury Road",
+    "ds": true
+  },
+  {
+    "title": "Mistral Opens Preview of Large 4 AI Model",
+    "description": "Mistral opened a public API preview of Large 4, nicknamed Le Chonk: a multimodal model with 1 trillion parameters and 49 billion active. Trained and hosted in Europe, it targets coding, cybersecurity, finance and manufacturing. Mistral claims leading benchmark performance among U.S. and European open-weight models and strong visual-grounding results. Open weights are planned for late October.",
+    "image_url": "https://images.ctfassets.net/jdtwqhzvc2n1/3WiIC1kQ2sm5ArrkRh8jaC/ef56e517c15617e671dbd9590a2ea76f/image__5_?w=1000&q=100",
+    "learn_more_url": "https://thenextweb.com/news/mistral-releases-large-4-a-1-trillion-parameter-open-weight-ai-model",
+    "date": "2026-10-07",
+    "source": "The Next Web",
+    "ds": true
+  },
+  {
+    "title": "Google Brings Text, Image, Video and Audio Search to Devices",
+    "description": "Google released EmbeddingGemma 2, a 740-million-parameter model that maps text, including code, images, video and audio into a shared embedding space for on-device search and retrieval. It offers modular encoders, an 8,192-token context window, adjustable 128–768-dimensional embeddings through Matryoshka Representation Learning, and an Apache 2.0 license.",
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1200.format-webp.webp",
+    "learn_more_url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+    "date": "2026-10-07",
+    "source": "Google",
+    "ds": true
+  },
+  {
+    "title": "Google Updates Its AI Image Generator",
+    "description": "Google released Nano Banana 2.1, saying it improves visual design, targeted edits using masks, subject consistency and image realism. The image-generation and editing model is rolling out across the Gemini app, Google AI Studio, Flow, Search’s AI Mode and other Google products.",
+    "image_url": "https://i.redd.it/0y9lzowodvth1.png",
+    "learn_more_url": "https://www.reddit.com/user/NewsFromGoogle/comments/1wz6d5y/meet_our_upgraded_image_generation_model_nano/",
+    "date": "2026-10-07",
+    "source": "Google"
+  },
+  {
+    "title": "Claude Edits Google Docs, Sheets, and Slides",
+    "description": "Claude’s new Google Workspace add-on, in public beta for Pro, Max, Team, and Enterprise, edits Docs, Sheets, and Slides from a sidebar. It asks before edits by default, with an automatic-edit option. New connectors also create and edit Google files from Claude chat, with files opening beside the conversation on supported setups.",
+    "image_url": "https://lh3.googleusercontent.com/XUT63fbiIuTxf-rDg7WcVtyTo-ahKotxhSpFYokgIfnmZ9shv55Tdg=w1280-h800",
+    "learn_more_url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+    "date": "2026-10-07",
+    "source": "Anthropic"
+  },
+  {
+    "title": "Utah Approves ‘AI Doctor’ Pilot for Acne Prescriptions",
+    "description": "Utah has authorized Nolla Health to pilot AI-issued initial prescriptions for adults with mild-to-moderate acne, using face scans and a limited list of topical treatments. Two physicians must approve every prescription initially; later stages can reduce upfront review only after safety targets and state approval. Severe acne and pregnancy are excluded.",
+    "image_url": "https://image.mux.com/4fGbjoZF02gGacrcOqIGLZOWVh700gqZN02BDZIA5QJlnk/thumbnail.webp?time=3&width=3840",
+    "learn_more_url": "https://www.nollahealth.com/blog/ai-prescriptions-utah",
+    "date": "2026-10-07",
+    "source": "Nolla Health"
+  },
+  {
+    "title": "ChatGPT Turns Meetings Into Notes and Follow-Ups",
+    "description": "OpenAI’s Meetings plugin saves personalized summaries and action items in ChatGPT Space, using meeting transcripts and connected-app context. Users can keep notes private, share them, and ask ChatGPT to draft follow-ups or update plans. It’s in beta for Pro and Business on macOS; Enterprise access is limited to an alpha. Participants must consent before note-taking.",
+    "image_url": "https://assets.st-note.com/img/1790733073-4JnEfsgmUSe0PdyLMIibBOVD.png?width=1200",
+    "learn_more_url": "https://chasingnext.com/updates/meetings-plugin-in-chatgpt-beta",
+    "date": "2026-10-07",
+    "source": "Chasing Next"
+  },
+  {
+    "title": "OpenAI Reports AI Solutions to Hundreds of Unsolved Math Problems",
+    "description": "OpenAI released 722 mathematical manuscripts in 372 groups of related results from an unreleased model, with computer-checkable Lean proofs for many. Verification varies, and unformalized results may contain errors. At least one write-up was human-edited. An independent advisory group helped shape release practices but says its involvement is not an endorsement.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://github.com/openai/math",
+    "date": "2026-10-07",
+    "source": "OpenAI",
+    "ds": true
+  },
+  {
+    "title": "AI Rediscovers Physics Laws From Simulated Experiments",
+    "description": "Peking University researchers report that AI-Newton rediscovered Newton’s second law, energy conservation and universal gravitation from 46 predefined mechanics simulations. Using space-time data and a purpose-built symbolic framework, it derived concepts including mass and energy, averaging about 90 concepts and 50 general laws in 48-hour runs. The results demonstrate recovery of known physics.",
+    "image_url": "https://arxiv.org/html/2504.01538v2/overview.png",
+    "learn_more_url": "https://arxiv.org/abs/2504.01538",
+    "date": "2026-10-07",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "OpenAI Speeds Up dots and Fixes Notification Bugs",
+    "description": "One week after launch, OpenAI says dots now browse faster and have fixes for excess phone notifications, Outlook setup, browser rendering, approvals and enterprise access. Voice reliability, expanded Codex control, clearer work tracking, connections to multiple computers and better Windows computer control remain upcoming.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "",
+    "date": "2026-10-07",
+    "source": "OpenAI"
+  },
+  {
+    "title": "Grok Bot Plans to Match Each Task With the Right AI",
+    "description": "Elon Musk says SpaceX plans to choose task-specific models and services for Grok Bot, including Claude Opus 5.5, Midjourney and Suno, aiming for better results. The announcement does not confirm that every named integration is available. Rollout timing, model-selection controls and pricing remain unspecified.",
+    "image_url": "https://runtimewire.com/og/spacex-grok-bot-rival-model-routing.16x9.jpg?v=og2-1kxmwt1",
+    "learn_more_url": "https://runtimewire.com/article/spacex-grok-bot-rival-model-routing",
+    "date": "2026-10-07",
+    "source": "RuntimeWire"
+  },
+  {
+    "title": "OpenAI Publishes 722 Mathematics Manuscripts From Internal AI Model",
+    "description": "OpenAI published 722 mathematical manuscripts from an unreleased internal AI model, organized into 372 groups of related papers. The company says each result used computing resources equivalent to roughly three hours of ChatGPT Pro thinking on average. Many manuscripts include computer-checkable proofs, but OpenAI warns that some results without these formal proofs could contain errors.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://github.com/openai/math/blob/main/README.md",
+    "date": "2026-10-07",
+    "source": "github.com",
+    "ds": true
+  },
+  {
+    "title": "Mistral Launches Large 4 Preview Ahead of Downloadable Release",
+    "description": "Mistral has launched a public preview of Large 4 through its API, with downloadable model files planned by the end of October. The company says the model performs strongly in coding, cybersecurity and legal tests. During the preview, selected cybersecurity specialists, vetted partners and government authorities will receive access with reduced moderation and expanded cybersecurity capabilities.",
+    "image_url": "https://www.vktr.com/-/media/9fa3fc73721041a4b8ae803cf3685ba1.ashx?h=498.523&w=806.465&mw=665",
+    "learn_more_url": "https://www.vktr.com/ai-platforms/mistral-large-4-debuts-as-1t-parameter-open-weight-model/",
+    "date": "2026-10-07",
+    "source": "vktr.com",
+    "ds": true
+  },
+  {
+    "title": "Hark Launches Hark Pro for Web and Mobile",
+    "description": "Hark, founded by Brett Adcock, launched Hark Pro for web, iOS and Android. The company says it remembers preferences, suggests tasks and uses its Handoff cloud computer to research, shop and make bookings. It also says users can build custom mini-apps, with free access and paid plans offering higher usage limits.",
+    "image_url": "https://gizmodo.com/app/uploads/2026/10/Introducing-Hark-Pro-7.jpeg",
+    "learn_more_url": "https://hark.com/articles/introducing-hark-pro",
+    "date": "2026-10-07",
+    "source": "hark.com"
+  },
+  {
+    "title": "OpenAI Helps Apps Sort Content and Choose Actions",
+    "description": "OpenAI’s Decisions API is now in public beta for all developers. Powered by GPT-6 Luna, it classifies text and images, selects predefined options, and scores inputs against a rubric. OpenAI says it makes these decisions up to 10 times faster than using Luna through the Responses API, enabling quicker routing and filtering in applications.",
+    "image_url": "https://us1.discourse-cdn.com/openai1/original/4X/d/8/c/d8cf6e3a0407f847f9785a3f45949a8bad13bf73.jpeg",
+    "learn_more_url": "https://dotsfeed.com/updates/decisions-api-is-in-public-beta-get-typed-yes-no-pick-one-or-score-answers-about",
+    "date": "2026-10-07",
+    "source": "Dotsfeed",
+    "ds": true
+  }
+]

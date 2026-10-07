@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 154,
-  "updated_at": "2026-10-07T12:02:33.128274+00:00",
+  "generation": 155,
+  "updated_at": "2026-10-07T12:03:26.319873+00:00",
   "next_id": 55,
   "records": [
     {
@@ -2663,9 +2663,625 @@
       },
       "acknowledged_at": "2026-10-06T12:15:31.525664+00:00",
       "checkpoint_after": 39
+    },
+    "8ad1d019528b3aad8c28986d": {
+      "batch_id": "8ad1d019528b3aad8c28986d",
+      "status": "prepared",
+      "checkpoint_before": 39,
+      "prepared_at": "2026-10-07T12:03:26.319873+00:00",
+      "intake_cutoff": 51,
+      "records": [
+        {
+          "id": 40,
+          "revision": 1,
+          "sha256": "1408e6cc141ec846400ed9b9b476ce9f3d4a3acafe35a6cc77941004089d7062"
+        },
+        {
+          "id": 41,
+          "revision": 1,
+          "sha256": "998a433bc5d6fe70457056398d3f687012ffcd927a55d3dfd9721fa0c81d0e76"
+        },
+        {
+          "id": 42,
+          "revision": 1,
+          "sha256": "e3dd7e639172f6d6ff1871aa7b806ff74576084b5da8d6040945c3bb2bba83ad"
+        },
+        {
+          "id": 43,
+          "revision": 1,
+          "sha256": "ecf243ffdf2d770b74654b5dc744df97a315a180a2e905d1acb2426e0e8d1148"
+        },
+        {
+          "id": 44,
+          "revision": 1,
+          "sha256": "05f373733b84488df98be356b14f39da620a3eb4200eac11aa2bc54198009d48"
+        },
+        {
+          "id": 45,
+          "revision": 2,
+          "sha256": "03dae6ed396c4826695751618f20e931ad112caa9239a45cfcca19ce8b064074"
+        },
+        {
+          "id": 46,
+          "revision": 1,
+          "sha256": "0ad22746288a76864a4b2bed3b5f59108b86aeda012e2af71bb0b205c1c1a95e"
+        },
+        {
+          "id": 47,
+          "revision": 2,
+          "sha256": "62b8987b5e83674f89ab5062fa161e5099af1f0240f12d3771d33b1bc888101c"
+        },
+        {
+          "id": 48,
+          "revision": 1,
+          "sha256": "3c8099caa43bb4fded7cc4be37d3bbfba89b20185c401cf95a4ce768ad1ff053"
+        },
+        {
+          "id": 49,
+          "revision": 1,
+          "sha256": "1063983050b6b53e66956142caef125320661911fea050c8bbdae1300fdcb845"
+        },
+        {
+          "id": 50,
+          "revision": 1,
+          "sha256": "d48297b3e68be9829c9a7ffba9bcbc03356284f0bff1fd744a85a858037e3ceb"
+        },
+        {
+          "id": 51,
+          "revision": 1,
+          "sha256": "ff2d7f174b13e923b56df20011f659c4397c5f603722ddf95bcd532ac3c9d407"
+        },
+        {
+          "id": 52,
+          "revision": 1,
+          "sha256": "807f292b0b7767d5822a35998aeb46099f7cfa34b9aff5e0f4f9bc38f75885de"
+        },
+        {
+          "id": 53,
+          "revision": 1,
+          "sha256": "2a3e6a677c731b1ab79c2ade14ae701f5771def168ff093e1b36c6b4d3908e88"
+        },
+        {
+          "id": 54,
+          "revision": 1,
+          "sha256": "9c96b7aeb330fc735be577f6b806f81066b9c1f564011a7611195faa0751f336"
+        }
+      ],
+      "first_id": 40,
+      "last_id": 54,
+      "count": 15,
+      "txt_path": "workflows/anf/batches/8ad1d019528b3aad8c28986d.txt",
+      "json_path": "workflows/anf/batches/8ad1d019528b3aad8c28986d.json",
+      "txt_sha256": "dd60d2410395e3dd3597c0604afc053e61a9d1b3fc7a0c96c68af0091b9c856e",
+      "json_sha256": "1cde28ab23f724aa409ffc7a5e27bed62546a0cb5b6a2fdb1a0136abffa4a59b",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research on reinforcement-learning population training, model specialization, benchmark scores, inference costs and shared-weight storage, intended for machine-learning researchers and developers.",
+            "evidence_sha256": "9939a5fc53f6c58b753320bdd4c51974e2af7e9e0c846576dbfa7281070e9913"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.linkedin.com/posts/ed--li_introducing-kardashev-07-the-worlds-first-activity-7512921156421623808-ZM2v",
+              "final_url": "https://www.linkedin.com/posts/ed--li_introducing-kardashev-07-the-worlds-first-activity-7512921156421623808-ZM2v",
+              "redirect_chain": [
+                "https://www.linkedin.com/posts/ed--li_introducing-kardashev-07-the-worlds-first-activity-7512921156421623808-ZM2v"
+              ],
+              "checked_at": "2026-10-06T13:22:28Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "4c1957d98c2e58e603fa82cccca0b770b7eeb463c12b0d3f98286ba3a6a9ab05",
+              "source_observations": "Downloaded the original LinkedIn-hosted 67.369-second video. Settled 39.5-second SuperGPQA chart: Kardashev-0.7 81.3%, GPT-5.5 72.7%, Qwen3.7 Max 73.6%, DeepSeek V4 Pro 69.9%. Settled 43-second IFBench chart: 79.3%, 75.9%, 79.1%, 77.0%. Settled 44.5-second cost chart: USD per 1M output tokens $0.18, $30, $4.95, $3.96 respectively. Costs imply ratios 0.006, 0.036, 0.045, which do not reproduce post's claimed 0.007–0.02 range. No specified memory comparison baseline. Claims remain company-reported; full launch evaluation protocol not established.",
+              "supporting_research": {
+                "url": "https://banburyroad.ai/research/scaling-a-diversified-model-civilization",
+                "observed_at": "2026-10-06T13:25:03Z",
+                "scope": "Public technical report tests populations through 16, with 288 held-out tasks (96 each SuperGPQA, TweetEval sentiment, MuSiQue). Best response selected using known answers; this is not demonstrated real-world answer selection. Analytical model-weight storage is 93.7% lower for 16 shared members than 16 full copies, excluding caches and activations; 16 selected members need roughly twice the passes of eight. These prior smaller-population results do not independently establish 32-model launch comparisons."
+              },
+              "availability": {
+                "url": "https://banburyroad.ai/",
+                "observed_at": "2026-10-06T13:25:03Z",
+                "text": "We’ll be releasing our first model civilization soon, join the waitlist for priority access."
+              }
+            },
+            "image": {
+              "url": "https://storage.ghost.io/c/5e/61/5e6189f0-c5e0-49a0-97b4-5eddd3f43c77/content/images/2026/10/x20261006-13-kardashev-0.png",
+              "final_url": "https://storage.ghost.io/c/5e/61/5e6189f0-c5e0-49a0-97b4-5eddd3f43c77/content/images/2026/10/x20261006-13-kardashev-0.png",
+              "redirect_chain": [
+                "https://storage.ghost.io/c/5e/61/5e6189f0-c5e0-49a0-97b4-5eddd3f43c77/content/images/2026/10/x20261006-13-kardashev-0.png"
+              ],
+              "checked_at": "2026-10-06T13:24:19Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "872e26878d817b1c64a2dde0a6827a9f15860da90784a0c1d2353f91967625d1",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "4896759424be6d5df3650794e3dd18ee57e5a2286347af63ca689e70f6ce6e12",
+              "relevance": "story_specific",
+              "relevance_note": "Navy Banbury Road visual with its logo, the headline Training a Kardashev civilization of models, and connected model-like nodes. No benchmark superiority claim embedded. Same-event AI Post Hub article's inspected hero, credited to official site; compared with original video poster and preferred clear named model-training artwork.",
+              "discovery_url": "https://www.aiposthub.com/banbury-road-kardashev-07-model-swarm/"
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "api",
+            "rationale": "Substantive model architecture, API preview, benchmark evaluation and planned model-weight release for developers and researchers.",
+            "evidence_sha256": "ab79424eec30c847c2e2799d905b501edbc4ef70c9cce63f892cf76bc6dd6fc3"
+          },
+          "quality": {
+            "article": {
+              "chase_status": "unknown",
+              "checked_at": "2026-10-06T14:39:15Z",
+              "evidence_sha256": "439f1b70b1ad940ddebd63014d5865738748c32f6224f286e3480c059cbab820",
+              "final_url": "https://thenextweb.com/news/mistral-releases-large-4-a-1-trillion-parameter-open-weight-ai-model",
+              "redirect_chain": [
+                "https://thenextweb.com/news/mistral-releases-large-4-a-1-trillion-parameter-open-weight-ai-model"
+              ],
+              "same_event": true,
+              "status": "accessible_here",
+              "url": "https://thenextweb.com/news/mistral-releases-large-4-a-1-trillion-parameter-open-weight-ai-model"
+            },
+            "image": {
+              "chase_status": "unknown",
+              "checked_at": "2026-10-06T14:41:39Z",
+              "content_type": "image/png",
+              "evidence_sha256": "10c2cd4cba706bfce26f62684b1c5d4c03802a36b8a8b27bcab9cda7ff107210",
+              "final_url": "https://images.ctfassets.net/jdtwqhzvc2n1/3WiIC1kQ2sm5ArrkRh8jaC/ef56e517c15617e671dbd9590a2ea76f/image__5_?w=1000&q=100",
+              "height": 900,
+              "image_bytes_sha256": "b9c71a10887e568e5e9911c03e0bed48cf79e12cebe00f6e16783ac5b9a7709d",
+              "pixels_inspected": true,
+              "redirect_chain": [
+                "https://images.ctfassets.net/jdtwqhzvc2n1/3WiIC1kQ2sm5ArrkRh8jaC/ef56e517c15617e671dbd9590a2ea76f/image__5_?w=1000&q=100"
+              ],
+              "relevance": "story_specific",
+              "relevance_note": "Inspected launch-specific DeepSWE v1.1 chart naming Mistral Large 4 Preview. Vendor-reported scores match the current primary chart for the displayed subset; no claim of overall global leadership is inferred.",
+              "status": "accessible_here",
+              "url": "https://images.ctfassets.net/jdtwqhzvc2n1/3WiIC1kQ2sm5ArrkRh8jaC/ef56e517c15617e671dbd9590a2ea76f/image__5_?w=1000&q=100",
+              "width": 1000
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "open_source",
+            "rationale": "A deployable Apache-licensed embedding model for developers implementing on-device multimodal search and retrieval, with encoder, context and dimension configuration details.",
+            "evidence_sha256": "ae6fc6da5ebbe0fec1e18372cd6c32f9d8d0e2ec4ae3a78e215c632d08c67478"
+          },
+          "quality": {
+            "article": {
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+              "final_url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+              "redirect_chain": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+              ],
+              "checked_at": "2026-10-06T16:32:45.694692+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "5afd78b077e3c83eb5bb8552d65a82fe6b57f1e395dd110f9a9d32fa1377c673"
+            },
+            "image": {
+              "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1200.format-webp.webp",
+              "final_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1200.format-webp.webp",
+              "redirect_chain": [
+                "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1200.format-webp.webp"
+              ],
+              "checked_at": "2026-10-06T16:32:45.694692+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "6a4e10d55f9326691c54925ca2b4a11162d9bfd837ba90259a1afe5ea0d5ae7e",
+              "content_type": "image/webp",
+              "http_content_type": "application/octet-stream",
+              "content_type_basis": "Decoded WEBP magic bytes; HTTP server labels bytes application/octet-stream.",
+              "width": 1200,
+              "height": 675,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "291c0c768efca20df029e5dcacb0506d3bc1d4150dc27bff4f051abbfd590c80",
+              "relevance": "story_specific",
+              "relevance_note": "Official launch hero, visually inspected: clear dark-blue geometric card with centered EmbeddingGemma 2 title."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A broad consumer and creator announcement about image creation, editing and rollout across Google products; API documentation corroborates the release but implementation details are not the subject of this item.",
+            "evidence_sha256": "73add9afc320feed5d8865a4f4678d505853226bd2666f40f59ce252c9ea22bb"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.reddit.com/user/NewsFromGoogle/comments/1wz6d5y/meet_our_upgraded_image_generation_model_nano/",
+              "final_url": "https://www.reddit.com/user/NewsFromGoogle/comments/1wz6d5y/meet_our_upgraded_image_generation_model_nano/",
+              "redirect_chain": [
+                "https://www.reddit.com/user/NewsFromGoogle/comments/1wz6d5y/meet_our_upgraded_image_generation_model_nano/"
+              ],
+              "checked_at": "2026-10-06T17:14:42+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "73add9afc320feed5d8865a4f4678d505853226bd2666f40f59ce252c9ea22bb",
+              "access_note": "Exact resolved post read successfully in cloud web reader and cloud browser. A separate urllib request to the earlier r/u_ alias returned 403; this does not establish a host-wide or Chase block."
+            },
+            "image": {
+              "url": "https://i.redd.it/0y9lzowodvth1.png",
+              "final_url": "https://i.redd.it/0y9lzowodvth1.png",
+              "redirect_chain": [
+                "https://i.redd.it/0y9lzowodvth1.png"
+              ],
+              "checked_at": "2026-10-06T17:13:41.485859+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "c387e297c7c83f3db9775e8915e244d8cfd6012c23599df2ad3de0730204f22d",
+              "content_type": "image/png",
+              "width": 1081,
+              "height": 1081,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "e4c120d56065a6371b7a4a9bc724b7842878891c48f745464b2e493c472ba854",
+              "relevance": "story_specific",
+              "relevance_note": "Official release collage embedded in the verified Google announcement. Clear Nano Banana 2.1 title on a dark-blue background surrounded by image and design examples. Full-resolution original chosen over a 640-pixel preview and generic Gemini API documentation artwork."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The announcement introduces document, spreadsheet and presentation editing for everyday business productivity; it does not require developer implementation knowledge.",
+            "evidence_sha256": "44aa0cdadbfe87fcc039de2e159addb91475cafb5600123f4c81b24f736e4c31"
+          },
+          "quality": {
+            "article": {
+              "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+              "final_url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+              "redirect_chain": [
+                "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
+              ],
+              "checked_at": "2026-10-06T18:01:02Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "ba98984d6c56b292f0939dad6e043885dfe33853d0318f66cc3f615cf0a2340d"
+            },
+            "image": {
+              "url": "https://lh3.googleusercontent.com/XUT63fbiIuTxf-rDg7WcVtyTo-ahKotxhSpFYokgIfnmZ9shv55Tdg=w1280-h800",
+              "final_url": "https://lh3.googleusercontent.com/XUT63fbiIuTxf-rDg7WcVtyTo-ahKotxhSpFYokgIfnmZ9shv55Tdg=w1280-h800",
+              "redirect_chain": [
+                "https://lh3.googleusercontent.com/XUT63fbiIuTxf-rDg7WcVtyTo-ahKotxhSpFYokgIfnmZ9shv55Tdg=w1280-h800"
+              ],
+              "checked_at": "2026-10-06T18:00:24Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "4b12f7227a70e9cddc999cc823c803d178f1d0f99110644a1d8a899e5a68abce",
+              "content_type": "image/png",
+              "width": 1280,
+              "height": 800,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "362e72abb21d209acf488f621d92235a0d43cfbf329967561b44e7104a952156",
+              "relevance": "story_specific",
+              "relevance_note": "Anthropic Marketplace screenshot of Google Docs with a Claude for Docs Beta sidebar, redlined suggestion cards and an Apply all control."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The story covers a consumer healthcare pilot and its regulatory safeguards, rather than a technical method or developer implementation.",
+            "evidence_sha256": "ff6fd78cd292b64d5567d3f3c94c7fc8c7b5cd4690c1eb06faaf2aa0c2d2e26b"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.nollahealth.com/blog/ai-prescriptions-utah",
+              "final_url": "https://www.nollahealth.com/blog/ai-prescriptions-utah",
+              "redirect_chain": [
+                "https://www.nollahealth.com/blog/ai-prescriptions-utah"
+              ],
+              "checked_at": "2026-10-06T20:30:45.762978+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "ff6fd78cd292b64d5567d3f3c94c7fc8c7b5cd4690c1eb06faaf2aa0c2d2e26b"
+            },
+            "image": {
+              "url": "https://image.mux.com/4fGbjoZF02gGacrcOqIGLZOWVh700gqZN02BDZIA5QJlnk/thumbnail.webp?time=3&width=3840",
+              "final_url": "https://image.mux.com/4fGbjoZF02gGacrcOqIGLZOWVh700gqZN02BDZIA5QJlnk/thumbnail.webp?time=3&width=3840",
+              "redirect_chain": [
+                "https://image.mux.com/4fGbjoZF02gGacrcOqIGLZOWVh700gqZN02BDZIA5QJlnk/thumbnail.webp?time=3&width=3840"
+              ],
+              "checked_at": "2026-10-06T20:29:11.320870+00:00",
+              "content_type": "image/webp",
+              "width": 3840,
+              "height": 2160,
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "eedb1f841e6e2cd113d9b1de16e86bbada3578c8cbea2604c0ec2d26b685ba7f",
+              "pixels_inspected": true,
+              "image_bytes_sha256": "4f7f0497af5ef2cbbe9de23b490eb96f41bb2116aa3adccad5d404bc3bfc117e",
+              "relevance": "story_specific",
+              "relevance_note": "Visually inspected 3840 by 2160 frame from the official AI-prescriptions launch video: two seated presenters, one in a white medical coat. Chosen over the launch OpenGraph image carrying an overly broad first-prescriptions claim and the blog’s landscape photograph. The exact frame URL is embedded on Nolla’s Utah pilot page."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer/productivity meeting-note feature for Pro and Business subscribers; no material developer or research focus.",
+            "evidence_sha256": "925cd30ce9eaa9e725ab14c4c401803434aa4a00e007e7c48949f32c34bccf34"
+          },
+          "quality": {
+            "article": {
+              "url": "https://chasingnext.com/updates/meetings-plugin-in-chatgpt-beta",
+              "final_url": "https://chasingnext.com/updates/meetings-plugin-in-chatgpt-beta",
+              "redirect_chain": [
+                "https://chasingnext.com/updates/meetings-plugin-in-chatgpt-beta"
+              ],
+              "checked_at": "2026-10-06T21:02:45.948928+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "eb7318e597ce65d64bc7424b61c5f4c6626ff0dec82295eab9c6adff46af19a4"
+            },
+            "image": {
+              "url": "https://assets.st-note.com/img/1790733073-4JnEfsgmUSe0PdyLMIibBOVD.png?width=1200",
+              "final_url": "https://assets.st-note.com/img/1790733073-4JnEfsgmUSe0PdyLMIibBOVD.png?width=1200",
+              "redirect_chain": [
+                "https://assets.st-note.com/img/1790733073-4JnEfsgmUSe0PdyLMIibBOVD.png?width=1200"
+              ],
+              "checked_at": "2026-10-06T21:02:45.948928+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "ae4121e6104884c8eb50ab83aacc97f5aff6cb0624d567f62de6a9fab918b6ac",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 675,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "936a723dd9b03bea798c9f00150e72250bc280f947c815e334cf45af4173cf5c",
+              "relevance": "story_specific",
+              "relevance_note": "Official Meetings visual shows recording controls, a team recap with summary/action items, and an @ChatGPT follow-up request."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Technical mathematical research release with Lean proof artifacts. The revised title attributes reported solutions to OpenAI. AGMAI's October 6 statement describes solutions to hundreds of open questions; 722 remains the manuscript count, not the solved-problem count. Existing source/image checks retain their actual timestamps.",
+            "evidence_sha256": "7fd991c37f7014ab61886b286254375fd49ebab8f87c9a135e28622a155d24f9"
+          },
+          "quality": {
+            "article": {
+              "url": "https://github.com/openai/math",
+              "final_url": "https://github.com/openai/math",
+              "redirect_chain": [
+                "https://github.com/openai/math"
+              ],
+              "checked_at": "2026-10-07T00:22:55.858530+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "b4f549d5bc3c6cdd2c436e36da54d8c899102b2de88692fd147d33cb9fad1fb9"
+            },
+            "image": {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+              "final_url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+              "redirect_chain": [
+                "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill"
+              ],
+              "status": "accessible_here",
+              "content_type": "image/png",
+              "width": 1600,
+              "height": 900,
+              "image_bytes_sha256": "ffda47a55786b86fef4ef968c8c9b881b4c2ed8451e155dfac40cb89b657dfda",
+              "checked_at": "2026-10-07T00:21:12.009173+00:00",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Inspected the official October 6 release artwork: large white Sharing AI progress in mathematics title on a peach, pink and yellow textured background. Compared with the repository OpenGraph card; this release-specific visual is clearer and avoids repository popularity counters.",
+              "evidence_sha256": "9625222b320b2e6f4a0fa73521be699a6df3a8d5b3a28eddb2dfc5688610056f"
+            }
+          }
+        },
+        {
+          "audience": {
+            "basis": "research",
+            "decision": "technical",
+            "rationale": "Research paper on symbolic scientific discovery, concept induction, simulated mechanics experiments and generalization of physical laws.",
+            "evidence_sha256": "b16cdfb7730323aac18999bc7cfa7b9e68a7a67373df98361eda6609b0a6bfd3"
+          },
+          "quality": {
+            "article": {
+              "url": "https://arxiv.org/abs/2504.01538",
+              "final_url": "https://arxiv.org/abs/2504.01538",
+              "redirect_chain": [
+                "https://arxiv.org/abs/2504.01538"
+              ],
+              "checked_at": "2026-10-07T01:24:00.806110+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "941c6712b3889dce1cd625824339f9e9897e3be777274eaa26d0f92c382b1e72"
+            },
+            "image": {
+              "url": "https://arxiv.org/html/2504.01538v2/overview.png",
+              "final_url": "https://arxiv.org/html/2504.01538v2/overview.png",
+              "redirect_chain": [
+                "https://arxiv.org/html/2504.01538v2/overview.png"
+              ],
+              "checked_at": "2026-10-07T01:26:48.635540+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "8d3954abf81003c34470388093cfdc56046348ee92e5434cce236acca942462e",
+              "content_type": "image/png",
+              "width": 2836,
+              "height": 1257,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "161c07c54a31a4263a05f20cc5fbc878e50009928e30d16c77ed8ab42ef525f6",
+              "relevance": "story_specific",
+              "relevance_note": "Paper Figure 1 showing the experiment base, symbolic discovery workflow, and theory base. Inspected actual pixels and compared with Figure 2; this diagram directly explains AI-Newton and its supplied structure."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer AI assistant product improvements and planned usability features; Codex is one incidental feature area rather than a developer-focused article.",
+            "evidence_sha256": "4450fc8d1afe7ca50fd9811f48eae297745ba26cd47408436af5fad2c838c103"
+          },
+          "quality": {
+            "article": {
+              "url": "",
+              "status": "blank_no_compliant_source",
+              "checked_at": "2026-10-07T01:33:54+00:00",
+              "evidence_sha256": "3abcb773e9cd6ec0727fe6fc58616446bbb8d78b018b1d4bfe02805e3bc9f2c9"
+            },
+            "image": {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+              "final_url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+              "redirect_chain": [
+                "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill"
+              ],
+              "checked_at": "2026-10-07T01:34:05+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "bbe73c3850b355bdfbe90d07dd3de78a9ea0229d1b99ac0adf35756440ffb788",
+              "content_type": "image/png",
+              "width": 1600,
+              "height": 900,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "cc021593844d126086aa64545583d987e807d8232c68280fe9d2be83b08350e1",
+              "relevance": "topic_specific",
+              "relevance_note": "Official dots wordmark and four colorful plush dot characters clearly identify the product; the artwork does not depict the new fixes.",
+              "story_specific_available": false,
+              "fallback_reason": "The primary update is text-only, and exact-event searches found no reliable compliant coverage with an update-specific image. Official dots product artwork is the closest relevant verified fallback."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General consumer AI-agent product strategy. Mentioned APIs and model routing do not provide substantive developer implementation or API launch details.",
+            "evidence_sha256": "3a48885fd46a8cbdeed16a42e0a3730af7e1cf5697d8fb712ae5fb4b6c6c3bb0"
+          },
+          "quality": {
+            "article": {
+              "url": "https://runtimewire.com/article/spacex-grok-bot-rival-model-routing",
+              "final_url": "https://runtimewire.com/article/spacex-grok-bot-rival-model-routing",
+              "redirect_chain": [
+                "https://runtimewire.com/article/spacex-grok-bot-rival-model-routing"
+              ],
+              "checked_at": "2026-10-07T11:39:37.186796+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "ba4a7cda4798965276866d34551b739f5924fe1f9362b04f57510874c197814d"
+            },
+            "image": {
+              "url": "https://runtimewire.com/og/spacex-grok-bot-rival-model-routing.16x9.jpg?v=og2-1kxmwt1",
+              "final_url": "https://runtimewire.com/og/spacex-grok-bot-rival-model-routing.16x9.jpg?v=og2-1kxmwt1",
+              "redirect_chain": [
+                "https://runtimewire.com/og/spacex-grok-bot-rival-model-routing.16x9.jpg?v=og2-1kxmwt1"
+              ],
+              "checked_at": "2026-10-07T11:39:55.402097+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "29ca775025f6c7aa1cf690ad7234ca529b14bc7f58c621325f1f8d6ed598b007",
+              "content_type": "image/jpeg",
+              "width": 1280,
+              "height": 720,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "31de273245a8b18edeb0be0c068b7bd00dc6fc224ef896a5da002fb9d0bbf359",
+              "relevance": "story_specific",
+              "relevance_note": "Publisher-labeled AI-generated editorial illustration for this exact announcement: a SpaceX-logo bot connected to chat, document, image and music symbols. It is illustrative, not a product screenshot or proof of shipped integrations."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The item covers mathematical research manuscripts and computer-checkable proofs for researchers.",
+            "evidence_sha256": "98e52ec5a580da8f7428e59234d5f237e9cd2cc7d31d5ab117c7581d6b9e2a98"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "api",
+            "rationale": "A developer API preview and planned downloadable model release with coding and cybersecurity evaluation and access details.",
+            "evidence_sha256": "682e1ad050170a2c4c236e17d264bb37469a8c5b764263e346e1381fe188c304"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A consumer assistant launch describing everyday research, shopping, bookings and subscription access; custom mini-app creation is a consumer feature here rather than developer implementation guidance.",
+            "evidence_sha256": "aba5fb04f6afa3b55333d60acf9c052ff3394a772242be0bfa75d57d0e4e51e0"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "api",
+            "rationale": "The article describes a developer API for text/image classification, routing, and scoring.",
+            "evidence_sha256": "c7dac5f145656f14a15ecc007ee83e69818fceca1cc1e2ea5babf864765b1c93"
+          },
+          "quality": {
+            "article": {
+              "url": "https://dotsfeed.com/updates/decisions-api-is-in-public-beta-get-typed-yes-no-pick-one-or-score-answers-about",
+              "final_url": "https://dotsfeed.com/updates/decisions-api-is-in-public-beta-get-typed-yes-no-pick-one-or-score-answers-about",
+              "redirect_chain": [
+                "https://dotsfeed.com/updates/decisions-api-is-in-public-beta-get-typed-yes-no-pick-one-or-score-answers-about"
+              ],
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "checked_at": "2026-10-07T11:37:06.764910+00:00",
+              "evidence_sha256": "c7dac5f145656f14a15ecc007ee83e69818fceca1cc1e2ea5babf864765b1c93"
+            },
+            "image": {
+              "url": "https://us1.discourse-cdn.com/openai1/original/4X/d/8/c/d8cf6e3a0407f847f9785a3f45949a8bad13bf73.jpeg",
+              "final_url": "https://us1.discourse-cdn.com/openai1/original/4X/d/8/c/d8cf6e3a0407f847f9785a3f45949a8bad13bf73.jpeg",
+              "redirect_chain": [
+                "https://us1.discourse-cdn.com/openai1/original/4X/d/8/c/d8cf6e3a0407f847f9785a3f45949a8bad13bf73.jpeg"
+              ],
+              "checked_at": "2026-10-07T11:36:49.927231+00:00",
+              "content_type": "image/jpeg",
+              "image_bytes_sha256": "706df78af98e818854c8d3bbf8dd85b23d655eb4f941a3565322fedcfdf5cfaf",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "The inspected launch-video image shows two presenters, laptops and a small robot, with Introducing the Decisions API printed across it.",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "width": 1280,
+              "height": 720,
+              "evidence_sha256": "f64fab69f4ffcf3cf0f19b6ef04f20d4991bc7a73b07e844b348571eabe623aa"
+            }
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-07T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "8ad1d019528b3aad8c28986d",
   "replacement_batch": null,
   "checkpoint": 39,
   "checkpoint_history": [
@@ -5388,6 +6004,629 @@
           "sha256": "2a3e6a677c731b1ab79c2ade14ae701f5771def168ff093e1b36c6b4d3908e88"
         },
         "editorial_sha256": "d4902868b97c595470db982c6a42cbe7a1c519fec427c10f54bf88dceae5d919"
+      }
+    },
+    "dc60fd87b23544c8aebb07d0ef0a3ccd": {
+      "sha256": "a88bf0148ac5395a69271da3d2a32c1e473fad5674ac5d49cefeef9ca4cc3c08",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "8ad1d019528b3aad8c28986d",
+          "status": "prepared",
+          "checkpoint_before": 39,
+          "prepared_at": "2026-10-07T12:03:26.319873+00:00",
+          "intake_cutoff": 51,
+          "records": [
+            {
+              "id": 40,
+              "revision": 1,
+              "sha256": "1408e6cc141ec846400ed9b9b476ce9f3d4a3acafe35a6cc77941004089d7062"
+            },
+            {
+              "id": 41,
+              "revision": 1,
+              "sha256": "998a433bc5d6fe70457056398d3f687012ffcd927a55d3dfd9721fa0c81d0e76"
+            },
+            {
+              "id": 42,
+              "revision": 1,
+              "sha256": "e3dd7e639172f6d6ff1871aa7b806ff74576084b5da8d6040945c3bb2bba83ad"
+            },
+            {
+              "id": 43,
+              "revision": 1,
+              "sha256": "ecf243ffdf2d770b74654b5dc744df97a315a180a2e905d1acb2426e0e8d1148"
+            },
+            {
+              "id": 44,
+              "revision": 1,
+              "sha256": "05f373733b84488df98be356b14f39da620a3eb4200eac11aa2bc54198009d48"
+            },
+            {
+              "id": 45,
+              "revision": 2,
+              "sha256": "03dae6ed396c4826695751618f20e931ad112caa9239a45cfcca19ce8b064074"
+            },
+            {
+              "id": 46,
+              "revision": 1,
+              "sha256": "0ad22746288a76864a4b2bed3b5f59108b86aeda012e2af71bb0b205c1c1a95e"
+            },
+            {
+              "id": 47,
+              "revision": 2,
+              "sha256": "62b8987b5e83674f89ab5062fa161e5099af1f0240f12d3771d33b1bc888101c"
+            },
+            {
+              "id": 48,
+              "revision": 1,
+              "sha256": "3c8099caa43bb4fded7cc4be37d3bbfba89b20185c401cf95a4ce768ad1ff053"
+            },
+            {
+              "id": 49,
+              "revision": 1,
+              "sha256": "1063983050b6b53e66956142caef125320661911fea050c8bbdae1300fdcb845"
+            },
+            {
+              "id": 50,
+              "revision": 1,
+              "sha256": "d48297b3e68be9829c9a7ffba9bcbc03356284f0bff1fd744a85a858037e3ceb"
+            },
+            {
+              "id": 51,
+              "revision": 1,
+              "sha256": "ff2d7f174b13e923b56df20011f659c4397c5f603722ddf95bcd532ac3c9d407"
+            },
+            {
+              "id": 52,
+              "revision": 1,
+              "sha256": "807f292b0b7767d5822a35998aeb46099f7cfa34b9aff5e0f4f9bc38f75885de"
+            },
+            {
+              "id": 53,
+              "revision": 1,
+              "sha256": "2a3e6a677c731b1ab79c2ade14ae701f5771def168ff093e1b36c6b4d3908e88"
+            },
+            {
+              "id": 54,
+              "revision": 1,
+              "sha256": "9c96b7aeb330fc735be577f6b806f81066b9c1f564011a7611195faa0751f336"
+            }
+          ],
+          "first_id": 40,
+          "last_id": 54,
+          "count": 15,
+          "txt_path": "workflows/anf/batches/8ad1d019528b3aad8c28986d.txt",
+          "json_path": "workflows/anf/batches/8ad1d019528b3aad8c28986d.json",
+          "txt_sha256": "dd60d2410395e3dd3597c0604afc053e61a9d1b3fc7a0c96c68af0091b9c856e",
+          "json_sha256": "1cde28ab23f724aa409ffc7a5e27bed62546a0cb5b6a2fdb1a0136abffa4a59b",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Research on reinforcement-learning population training, model specialization, benchmark scores, inference costs and shared-weight storage, intended for machine-learning researchers and developers.",
+                "evidence_sha256": "9939a5fc53f6c58b753320bdd4c51974e2af7e9e0c846576dbfa7281070e9913"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.linkedin.com/posts/ed--li_introducing-kardashev-07-the-worlds-first-activity-7512921156421623808-ZM2v",
+                  "final_url": "https://www.linkedin.com/posts/ed--li_introducing-kardashev-07-the-worlds-first-activity-7512921156421623808-ZM2v",
+                  "redirect_chain": [
+                    "https://www.linkedin.com/posts/ed--li_introducing-kardashev-07-the-worlds-first-activity-7512921156421623808-ZM2v"
+                  ],
+                  "checked_at": "2026-10-06T13:22:28Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "4c1957d98c2e58e603fa82cccca0b770b7eeb463c12b0d3f98286ba3a6a9ab05",
+                  "source_observations": "Downloaded the original LinkedIn-hosted 67.369-second video. Settled 39.5-second SuperGPQA chart: Kardashev-0.7 81.3%, GPT-5.5 72.7%, Qwen3.7 Max 73.6%, DeepSeek V4 Pro 69.9%. Settled 43-second IFBench chart: 79.3%, 75.9%, 79.1%, 77.0%. Settled 44.5-second cost chart: USD per 1M output tokens $0.18, $30, $4.95, $3.96 respectively. Costs imply ratios 0.006, 0.036, 0.045, which do not reproduce post's claimed 0.007–0.02 range. No specified memory comparison baseline. Claims remain company-reported; full launch evaluation protocol not established.",
+                  "supporting_research": {
+                    "url": "https://banburyroad.ai/research/scaling-a-diversified-model-civilization",
+                    "observed_at": "2026-10-06T13:25:03Z",
+                    "scope": "Public technical report tests populations through 16, with 288 held-out tasks (96 each SuperGPQA, TweetEval sentiment, MuSiQue). Best response selected using known answers; this is not demonstrated real-world answer selection. Analytical model-weight storage is 93.7% lower for 16 shared members than 16 full copies, excluding caches and activations; 16 selected members need roughly twice the passes of eight. These prior smaller-population results do not independently establish 32-model launch comparisons."
+                  },
+                  "availability": {
+                    "url": "https://banburyroad.ai/",
+                    "observed_at": "2026-10-06T13:25:03Z",
+                    "text": "We’ll be releasing our first model civilization soon, join the waitlist for priority access."
+                  }
+                },
+                "image": {
+                  "url": "https://storage.ghost.io/c/5e/61/5e6189f0-c5e0-49a0-97b4-5eddd3f43c77/content/images/2026/10/x20261006-13-kardashev-0.png",
+                  "final_url": "https://storage.ghost.io/c/5e/61/5e6189f0-c5e0-49a0-97b4-5eddd3f43c77/content/images/2026/10/x20261006-13-kardashev-0.png",
+                  "redirect_chain": [
+                    "https://storage.ghost.io/c/5e/61/5e6189f0-c5e0-49a0-97b4-5eddd3f43c77/content/images/2026/10/x20261006-13-kardashev-0.png"
+                  ],
+                  "checked_at": "2026-10-06T13:24:19Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "872e26878d817b1c64a2dde0a6827a9f15860da90784a0c1d2353f91967625d1",
+                  "content_type": "image/png",
+                  "width": 1200,
+                  "height": 630,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "4896759424be6d5df3650794e3dd18ee57e5a2286347af63ca689e70f6ce6e12",
+                  "relevance": "story_specific",
+                  "relevance_note": "Navy Banbury Road visual with its logo, the headline Training a Kardashev civilization of models, and connected model-like nodes. No benchmark superiority claim embedded. Same-event AI Post Hub article's inspected hero, credited to official site; compared with original video poster and preferred clear named model-training artwork.",
+                  "discovery_url": "https://www.aiposthub.com/banbury-road-kardashev-07-model-swarm/"
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "api",
+                "rationale": "Substantive model architecture, API preview, benchmark evaluation and planned model-weight release for developers and researchers.",
+                "evidence_sha256": "ab79424eec30c847c2e2799d905b501edbc4ef70c9cce63f892cf76bc6dd6fc3"
+              },
+              "quality": {
+                "article": {
+                  "chase_status": "unknown",
+                  "checked_at": "2026-10-06T14:39:15Z",
+                  "evidence_sha256": "439f1b70b1ad940ddebd63014d5865738748c32f6224f286e3480c059cbab820",
+                  "final_url": "https://thenextweb.com/news/mistral-releases-large-4-a-1-trillion-parameter-open-weight-ai-model",
+                  "redirect_chain": [
+                    "https://thenextweb.com/news/mistral-releases-large-4-a-1-trillion-parameter-open-weight-ai-model"
+                  ],
+                  "same_event": true,
+                  "status": "accessible_here",
+                  "url": "https://thenextweb.com/news/mistral-releases-large-4-a-1-trillion-parameter-open-weight-ai-model"
+                },
+                "image": {
+                  "chase_status": "unknown",
+                  "checked_at": "2026-10-06T14:41:39Z",
+                  "content_type": "image/png",
+                  "evidence_sha256": "10c2cd4cba706bfce26f62684b1c5d4c03802a36b8a8b27bcab9cda7ff107210",
+                  "final_url": "https://images.ctfassets.net/jdtwqhzvc2n1/3WiIC1kQ2sm5ArrkRh8jaC/ef56e517c15617e671dbd9590a2ea76f/image__5_?w=1000&q=100",
+                  "height": 900,
+                  "image_bytes_sha256": "b9c71a10887e568e5e9911c03e0bed48cf79e12cebe00f6e16783ac5b9a7709d",
+                  "pixels_inspected": true,
+                  "redirect_chain": [
+                    "https://images.ctfassets.net/jdtwqhzvc2n1/3WiIC1kQ2sm5ArrkRh8jaC/ef56e517c15617e671dbd9590a2ea76f/image__5_?w=1000&q=100"
+                  ],
+                  "relevance": "story_specific",
+                  "relevance_note": "Inspected launch-specific DeepSWE v1.1 chart naming Mistral Large 4 Preview. Vendor-reported scores match the current primary chart for the displayed subset; no claim of overall global leadership is inferred.",
+                  "status": "accessible_here",
+                  "url": "https://images.ctfassets.net/jdtwqhzvc2n1/3WiIC1kQ2sm5ArrkRh8jaC/ef56e517c15617e671dbd9590a2ea76f/image__5_?w=1000&q=100",
+                  "width": 1000
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "open_source",
+                "rationale": "A deployable Apache-licensed embedding model for developers implementing on-device multimodal search and retrieval, with encoder, context and dimension configuration details.",
+                "evidence_sha256": "ae6fc6da5ebbe0fec1e18372cd6c32f9d8d0e2ec4ae3a78e215c632d08c67478"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+                  "final_url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+                  "redirect_chain": [
+                    "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+                  ],
+                  "checked_at": "2026-10-06T16:32:45.694692+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "5afd78b077e3c83eb5bb8552d65a82fe6b57f1e395dd110f9a9d32fa1377c673"
+                },
+                "image": {
+                  "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1200.format-webp.webp",
+                  "final_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1200.format-webp.webp",
+                  "redirect_chain": [
+                    "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1200.format-webp.webp"
+                  ],
+                  "checked_at": "2026-10-06T16:32:45.694692+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "6a4e10d55f9326691c54925ca2b4a11162d9bfd837ba90259a1afe5ea0d5ae7e",
+                  "content_type": "image/webp",
+                  "http_content_type": "application/octet-stream",
+                  "content_type_basis": "Decoded WEBP magic bytes; HTTP server labels bytes application/octet-stream.",
+                  "width": 1200,
+                  "height": 675,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "291c0c768efca20df029e5dcacb0506d3bc1d4150dc27bff4f051abbfd590c80",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official launch hero, visually inspected: clear dark-blue geometric card with centered EmbeddingGemma 2 title."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A broad consumer and creator announcement about image creation, editing and rollout across Google products; API documentation corroborates the release but implementation details are not the subject of this item.",
+                "evidence_sha256": "73add9afc320feed5d8865a4f4678d505853226bd2666f40f59ce252c9ea22bb"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.reddit.com/user/NewsFromGoogle/comments/1wz6d5y/meet_our_upgraded_image_generation_model_nano/",
+                  "final_url": "https://www.reddit.com/user/NewsFromGoogle/comments/1wz6d5y/meet_our_upgraded_image_generation_model_nano/",
+                  "redirect_chain": [
+                    "https://www.reddit.com/user/NewsFromGoogle/comments/1wz6d5y/meet_our_upgraded_image_generation_model_nano/"
+                  ],
+                  "checked_at": "2026-10-06T17:14:42+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "73add9afc320feed5d8865a4f4678d505853226bd2666f40f59ce252c9ea22bb",
+                  "access_note": "Exact resolved post read successfully in cloud web reader and cloud browser. A separate urllib request to the earlier r/u_ alias returned 403; this does not establish a host-wide or Chase block."
+                },
+                "image": {
+                  "url": "https://i.redd.it/0y9lzowodvth1.png",
+                  "final_url": "https://i.redd.it/0y9lzowodvth1.png",
+                  "redirect_chain": [
+                    "https://i.redd.it/0y9lzowodvth1.png"
+                  ],
+                  "checked_at": "2026-10-06T17:13:41.485859+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "c387e297c7c83f3db9775e8915e244d8cfd6012c23599df2ad3de0730204f22d",
+                  "content_type": "image/png",
+                  "width": 1081,
+                  "height": 1081,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "e4c120d56065a6371b7a4a9bc724b7842878891c48f745464b2e493c472ba854",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official release collage embedded in the verified Google announcement. Clear Nano Banana 2.1 title on a dark-blue background surrounded by image and design examples. Full-resolution original chosen over a 640-pixel preview and generic Gemini API documentation artwork."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "The announcement introduces document, spreadsheet and presentation editing for everyday business productivity; it does not require developer implementation knowledge.",
+                "evidence_sha256": "44aa0cdadbfe87fcc039de2e159addb91475cafb5600123f4c81b24f736e4c31"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+                  "final_url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+                  "redirect_chain": [
+                    "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
+                  ],
+                  "checked_at": "2026-10-06T18:01:02Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "ba98984d6c56b292f0939dad6e043885dfe33853d0318f66cc3f615cf0a2340d"
+                },
+                "image": {
+                  "url": "https://lh3.googleusercontent.com/XUT63fbiIuTxf-rDg7WcVtyTo-ahKotxhSpFYokgIfnmZ9shv55Tdg=w1280-h800",
+                  "final_url": "https://lh3.googleusercontent.com/XUT63fbiIuTxf-rDg7WcVtyTo-ahKotxhSpFYokgIfnmZ9shv55Tdg=w1280-h800",
+                  "redirect_chain": [
+                    "https://lh3.googleusercontent.com/XUT63fbiIuTxf-rDg7WcVtyTo-ahKotxhSpFYokgIfnmZ9shv55Tdg=w1280-h800"
+                  ],
+                  "checked_at": "2026-10-06T18:00:24Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "4b12f7227a70e9cddc999cc823c803d178f1d0f99110644a1d8a899e5a68abce",
+                  "content_type": "image/png",
+                  "width": 1280,
+                  "height": 800,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "362e72abb21d209acf488f621d92235a0d43cfbf329967561b44e7104a952156",
+                  "relevance": "story_specific",
+                  "relevance_note": "Anthropic Marketplace screenshot of Google Docs with a Claude for Docs Beta sidebar, redlined suggestion cards and an Apply all control."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "The story covers a consumer healthcare pilot and its regulatory safeguards, rather than a technical method or developer implementation.",
+                "evidence_sha256": "ff6fd78cd292b64d5567d3f3c94c7fc8c7b5cd4690c1eb06faaf2aa0c2d2e26b"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.nollahealth.com/blog/ai-prescriptions-utah",
+                  "final_url": "https://www.nollahealth.com/blog/ai-prescriptions-utah",
+                  "redirect_chain": [
+                    "https://www.nollahealth.com/blog/ai-prescriptions-utah"
+                  ],
+                  "checked_at": "2026-10-06T20:30:45.762978+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "ff6fd78cd292b64d5567d3f3c94c7fc8c7b5cd4690c1eb06faaf2aa0c2d2e26b"
+                },
+                "image": {
+                  "url": "https://image.mux.com/4fGbjoZF02gGacrcOqIGLZOWVh700gqZN02BDZIA5QJlnk/thumbnail.webp?time=3&width=3840",
+                  "final_url": "https://image.mux.com/4fGbjoZF02gGacrcOqIGLZOWVh700gqZN02BDZIA5QJlnk/thumbnail.webp?time=3&width=3840",
+                  "redirect_chain": [
+                    "https://image.mux.com/4fGbjoZF02gGacrcOqIGLZOWVh700gqZN02BDZIA5QJlnk/thumbnail.webp?time=3&width=3840"
+                  ],
+                  "checked_at": "2026-10-06T20:29:11.320870+00:00",
+                  "content_type": "image/webp",
+                  "width": 3840,
+                  "height": 2160,
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "eedb1f841e6e2cd113d9b1de16e86bbada3578c8cbea2604c0ec2d26b685ba7f",
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "4f7f0497af5ef2cbbe9de23b490eb96f41bb2116aa3adccad5d404bc3bfc117e",
+                  "relevance": "story_specific",
+                  "relevance_note": "Visually inspected 3840 by 2160 frame from the official AI-prescriptions launch video: two seated presenters, one in a white medical coat. Chosen over the launch OpenGraph image carrying an overly broad first-prescriptions claim and the blog’s landscape photograph. The exact frame URL is embedded on Nolla’s Utah pilot page."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer/productivity meeting-note feature for Pro and Business subscribers; no material developer or research focus.",
+                "evidence_sha256": "925cd30ce9eaa9e725ab14c4c401803434aa4a00e007e7c48949f32c34bccf34"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://chasingnext.com/updates/meetings-plugin-in-chatgpt-beta",
+                  "final_url": "https://chasingnext.com/updates/meetings-plugin-in-chatgpt-beta",
+                  "redirect_chain": [
+                    "https://chasingnext.com/updates/meetings-plugin-in-chatgpt-beta"
+                  ],
+                  "checked_at": "2026-10-06T21:02:45.948928+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "eb7318e597ce65d64bc7424b61c5f4c6626ff0dec82295eab9c6adff46af19a4"
+                },
+                "image": {
+                  "url": "https://assets.st-note.com/img/1790733073-4JnEfsgmUSe0PdyLMIibBOVD.png?width=1200",
+                  "final_url": "https://assets.st-note.com/img/1790733073-4JnEfsgmUSe0PdyLMIibBOVD.png?width=1200",
+                  "redirect_chain": [
+                    "https://assets.st-note.com/img/1790733073-4JnEfsgmUSe0PdyLMIibBOVD.png?width=1200"
+                  ],
+                  "checked_at": "2026-10-06T21:02:45.948928+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "ae4121e6104884c8eb50ab83aacc97f5aff6cb0624d567f62de6a9fab918b6ac",
+                  "content_type": "image/png",
+                  "width": 1200,
+                  "height": 675,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "936a723dd9b03bea798c9f00150e72250bc280f947c815e334cf45af4173cf5c",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official Meetings visual shows recording controls, a team recap with summary/action items, and an @ChatGPT follow-up request."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Technical mathematical research release with Lean proof artifacts. The revised title attributes reported solutions to OpenAI. AGMAI's October 6 statement describes solutions to hundreds of open questions; 722 remains the manuscript count, not the solved-problem count. Existing source/image checks retain their actual timestamps.",
+                "evidence_sha256": "7fd991c37f7014ab61886b286254375fd49ebab8f87c9a135e28622a155d24f9"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://github.com/openai/math",
+                  "final_url": "https://github.com/openai/math",
+                  "redirect_chain": [
+                    "https://github.com/openai/math"
+                  ],
+                  "checked_at": "2026-10-07T00:22:55.858530+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "b4f549d5bc3c6cdd2c436e36da54d8c899102b2de88692fd147d33cb9fad1fb9"
+                },
+                "image": {
+                  "url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+                  "final_url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+                  "redirect_chain": [
+                    "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill"
+                  ],
+                  "status": "accessible_here",
+                  "content_type": "image/png",
+                  "width": 1600,
+                  "height": 900,
+                  "image_bytes_sha256": "ffda47a55786b86fef4ef968c8c9b881b4c2ed8451e155dfac40cb89b657dfda",
+                  "checked_at": "2026-10-07T00:21:12.009173+00:00",
+                  "chase_status": "unknown",
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "Inspected the official October 6 release artwork: large white Sharing AI progress in mathematics title on a peach, pink and yellow textured background. Compared with the repository OpenGraph card; this release-specific visual is clearer and avoids repository popularity counters.",
+                  "evidence_sha256": "9625222b320b2e6f4a0fa73521be699a6df3a8d5b3a28eddb2dfc5688610056f"
+                }
+              }
+            },
+            {
+              "audience": {
+                "basis": "research",
+                "decision": "technical",
+                "rationale": "Research paper on symbolic scientific discovery, concept induction, simulated mechanics experiments and generalization of physical laws.",
+                "evidence_sha256": "b16cdfb7730323aac18999bc7cfa7b9e68a7a67373df98361eda6609b0a6bfd3"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://arxiv.org/abs/2504.01538",
+                  "final_url": "https://arxiv.org/abs/2504.01538",
+                  "redirect_chain": [
+                    "https://arxiv.org/abs/2504.01538"
+                  ],
+                  "checked_at": "2026-10-07T01:24:00.806110+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "941c6712b3889dce1cd625824339f9e9897e3be777274eaa26d0f92c382b1e72"
+                },
+                "image": {
+                  "url": "https://arxiv.org/html/2504.01538v2/overview.png",
+                  "final_url": "https://arxiv.org/html/2504.01538v2/overview.png",
+                  "redirect_chain": [
+                    "https://arxiv.org/html/2504.01538v2/overview.png"
+                  ],
+                  "checked_at": "2026-10-07T01:26:48.635540+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "8d3954abf81003c34470388093cfdc56046348ee92e5434cce236acca942462e",
+                  "content_type": "image/png",
+                  "width": 2836,
+                  "height": 1257,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "161c07c54a31a4263a05f20cc5fbc878e50009928e30d16c77ed8ab42ef525f6",
+                  "relevance": "story_specific",
+                  "relevance_note": "Paper Figure 1 showing the experiment base, symbolic discovery workflow, and theory base. Inspected actual pixels and compared with Figure 2; this diagram directly explains AI-Newton and its supplied structure."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer AI assistant product improvements and planned usability features; Codex is one incidental feature area rather than a developer-focused article.",
+                "evidence_sha256": "4450fc8d1afe7ca50fd9811f48eae297745ba26cd47408436af5fad2c838c103"
+              },
+              "quality": {
+                "article": {
+                  "url": "",
+                  "status": "blank_no_compliant_source",
+                  "checked_at": "2026-10-07T01:33:54+00:00",
+                  "evidence_sha256": "3abcb773e9cd6ec0727fe6fc58616446bbb8d78b018b1d4bfe02805e3bc9f2c9"
+                },
+                "image": {
+                  "url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+                  "final_url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+                  "redirect_chain": [
+                    "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill"
+                  ],
+                  "checked_at": "2026-10-07T01:34:05+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "bbe73c3850b355bdfbe90d07dd3de78a9ea0229d1b99ac0adf35756440ffb788",
+                  "content_type": "image/png",
+                  "width": 1600,
+                  "height": 900,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "cc021593844d126086aa64545583d987e807d8232c68280fe9d2be83b08350e1",
+                  "relevance": "topic_specific",
+                  "relevance_note": "Official dots wordmark and four colorful plush dot characters clearly identify the product; the artwork does not depict the new fixes.",
+                  "story_specific_available": false,
+                  "fallback_reason": "The primary update is text-only, and exact-event searches found no reliable compliant coverage with an update-specific image. Official dots product artwork is the closest relevant verified fallback."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General consumer AI-agent product strategy. Mentioned APIs and model routing do not provide substantive developer implementation or API launch details.",
+                "evidence_sha256": "3a48885fd46a8cbdeed16a42e0a3730af7e1cf5697d8fb712ae5fb4b6c6c3bb0"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://runtimewire.com/article/spacex-grok-bot-rival-model-routing",
+                  "final_url": "https://runtimewire.com/article/spacex-grok-bot-rival-model-routing",
+                  "redirect_chain": [
+                    "https://runtimewire.com/article/spacex-grok-bot-rival-model-routing"
+                  ],
+                  "checked_at": "2026-10-07T11:39:37.186796+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "ba4a7cda4798965276866d34551b739f5924fe1f9362b04f57510874c197814d"
+                },
+                "image": {
+                  "url": "https://runtimewire.com/og/spacex-grok-bot-rival-model-routing.16x9.jpg?v=og2-1kxmwt1",
+                  "final_url": "https://runtimewire.com/og/spacex-grok-bot-rival-model-routing.16x9.jpg?v=og2-1kxmwt1",
+                  "redirect_chain": [
+                    "https://runtimewire.com/og/spacex-grok-bot-rival-model-routing.16x9.jpg?v=og2-1kxmwt1"
+                  ],
+                  "checked_at": "2026-10-07T11:39:55.402097+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "29ca775025f6c7aa1cf690ad7234ca529b14bc7f58c621325f1f8d6ed598b007",
+                  "content_type": "image/jpeg",
+                  "width": 1280,
+                  "height": 720,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "31de273245a8b18edeb0be0c068b7bd00dc6fc224ef896a5da002fb9d0bbf359",
+                  "relevance": "story_specific",
+                  "relevance_note": "Publisher-labeled AI-generated editorial illustration for this exact announcement: a SpaceX-logo bot connected to chat, document, image and music symbols. It is illustrative, not a product screenshot or proof of shipped integrations."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The item covers mathematical research manuscripts and computer-checkable proofs for researchers.",
+                "evidence_sha256": "98e52ec5a580da8f7428e59234d5f237e9cd2cc7d31d5ab117c7581d6b9e2a98"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "api",
+                "rationale": "A developer API preview and planned downloadable model release with coding and cybersecurity evaluation and access details.",
+                "evidence_sha256": "682e1ad050170a2c4c236e17d264bb37469a8c5b764263e346e1381fe188c304"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A consumer assistant launch describing everyday research, shopping, bookings and subscription access; custom mini-app creation is a consumer feature here rather than developer implementation guidance.",
+                "evidence_sha256": "aba5fb04f6afa3b55333d60acf9c052ff3394a772242be0bfa75d57d0e4e51e0"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "api",
+                "rationale": "The article describes a developer API for text/image classification, routing, and scoring.",
+                "evidence_sha256": "c7dac5f145656f14a15ecc007ee83e69818fceca1cc1e2ea5babf864765b1c93"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://dotsfeed.com/updates/decisions-api-is-in-public-beta-get-typed-yes-no-pick-one-or-score-answers-about",
+                  "final_url": "https://dotsfeed.com/updates/decisions-api-is-in-public-beta-get-typed-yes-no-pick-one-or-score-answers-about",
+                  "redirect_chain": [
+                    "https://dotsfeed.com/updates/decisions-api-is-in-public-beta-get-typed-yes-no-pick-one-or-score-answers-about"
+                  ],
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "checked_at": "2026-10-07T11:37:06.764910+00:00",
+                  "evidence_sha256": "c7dac5f145656f14a15ecc007ee83e69818fceca1cc1e2ea5babf864765b1c93"
+                },
+                "image": {
+                  "url": "https://us1.discourse-cdn.com/openai1/original/4X/d/8/c/d8cf6e3a0407f847f9785a3f45949a8bad13bf73.jpeg",
+                  "final_url": "https://us1.discourse-cdn.com/openai1/original/4X/d/8/c/d8cf6e3a0407f847f9785a3f45949a8bad13bf73.jpeg",
+                  "redirect_chain": [
+                    "https://us1.discourse-cdn.com/openai1/original/4X/d/8/c/d8cf6e3a0407f847f9785a3f45949a8bad13bf73.jpeg"
+                  ],
+                  "checked_at": "2026-10-07T11:36:49.927231+00:00",
+                  "content_type": "image/jpeg",
+                  "image_bytes_sha256": "706df78af98e818854c8d3bbf8dd85b23d655eb4f941a3565322fedcfdf5cfaf",
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "The inspected launch-video image shows two presenters, laptops and a small robot, with Introducing the Decisions API printed across it.",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "width": 1280,
+                  "height": 720,
+                  "evidence_sha256": "f64fab69f4ffcf3cf0f19b6ef04f20d4991bc7a73b07e844b348571eabe623aa"
+                }
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-07T12:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
