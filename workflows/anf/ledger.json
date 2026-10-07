@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 150,
-  "updated_at": "2026-10-07T11:48:08.632342+00:00",
+  "generation": 151,
+  "updated_at": "2026-10-07T11:52:43.358437+00:00",
   "next_id": 55,
   "records": [
     {
@@ -5341,6 +5341,18 @@
         ],
         "duplicates": []
       }
+    },
+    "069a8a6cc710e16a128a7b57488cb0388d547d58f5ec0f0b644f7abed716dd1a": {
+      "sha256": "9b1dfc696e125e6d84682ffdd83eb887e43809a42a0ea8116557a6dcfc0bd263",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 54,
+          "revision": 1,
+          "sha256": "9c96b7aeb330fc735be577f6b806f81066b9c1f564011a7611195faa0751f336"
+        },
+        "editorial_sha256": "4a8bdcfebd95d2785d5b25b57ec5d2815aeaca96a4d1cc93be63ea2eae1e6495"
+      }
     }
   },
   "migration": {
@@ -6958,6 +6970,58 @@
         "sha256": "ef9c8251eaad6cc333f86366d909296fbd6c45a017695d7a7573dd3ddd2e9607",
         "reviewed_at": "2026-10-07T11:42:51.012361+00:00",
         "operation_id": "64faaefec9e7e44070ca12b176edfb4a4e4b2453d2c96e34afd6cf4ebfe43520"
+      }
+    ],
+    "54:1": [
+      {
+        "reference": {
+          "id": 54,
+          "revision": 1,
+          "sha256": "9c96b7aeb330fc735be577f6b806f81066b9c1f564011a7611195faa0751f336"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "api",
+            "rationale": "The article describes a developer API for text/image classification, routing, and scoring.",
+            "evidence_sha256": "c7dac5f145656f14a15ecc007ee83e69818fceca1cc1e2ea5babf864765b1c93"
+          },
+          "quality": {
+            "article": {
+              "url": "https://dotsfeed.com/updates/decisions-api-is-in-public-beta-get-typed-yes-no-pick-one-or-score-answers-about",
+              "final_url": "https://dotsfeed.com/updates/decisions-api-is-in-public-beta-get-typed-yes-no-pick-one-or-score-answers-about",
+              "redirect_chain": [
+                "https://dotsfeed.com/updates/decisions-api-is-in-public-beta-get-typed-yes-no-pick-one-or-score-answers-about"
+              ],
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "checked_at": "2026-10-07T11:37:06.764910+00:00",
+              "evidence_sha256": "c7dac5f145656f14a15ecc007ee83e69818fceca1cc1e2ea5babf864765b1c93"
+            },
+            "image": {
+              "url": "https://us1.discourse-cdn.com/openai1/original/4X/d/8/c/d8cf6e3a0407f847f9785a3f45949a8bad13bf73.jpeg",
+              "final_url": "https://us1.discourse-cdn.com/openai1/original/4X/d/8/c/d8cf6e3a0407f847f9785a3f45949a8bad13bf73.jpeg",
+              "redirect_chain": [
+                "https://us1.discourse-cdn.com/openai1/original/4X/d/8/c/d8cf6e3a0407f847f9785a3f45949a8bad13bf73.jpeg"
+              ],
+              "checked_at": "2026-10-07T11:36:49.927231+00:00",
+              "content_type": "image/jpeg",
+              "image_bytes_sha256": "706df78af98e818854c8d3bbf8dd85b23d655eb4f941a3565322fedcfdf5cfaf",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "The inspected launch-video image shows two presenters, laptops and a small robot, with Introducing the Decisions API printed across it.",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "width": 1280,
+              "height": 720,
+              "evidence_sha256": "f64fab69f4ffcf3cf0f19b6ef04f20d4991bc7a73b07e844b348571eabe623aa"
+            }
+          }
+        },
+        "sha256": "4a8bdcfebd95d2785d5b25b57ec5d2815aeaca96a4d1cc93be63ea2eae1e6495",
+        "reviewed_at": "2026-10-07T11:52:43.358437+00:00",
+        "operation_id": "069a8a6cc710e16a128a7b57488cb0388d547d58f5ec0f0b644f7abed716dd1a"
       }
     ]
   }
