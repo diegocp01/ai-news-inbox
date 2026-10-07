@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 163,
-  "updated_at": "2026-10-07T19:37:52.121687+00:00",
+  "generation": 164,
+  "updated_at": "2026-10-07T19:39:04.297395+00:00",
   "next_id": 57,
   "records": [
     {
@@ -6823,6 +6823,18 @@
         ],
         "duplicates": []
       }
+    },
+    "23344d634d375f48218f311cb628b441920196ae61a387c5e450908ab0e8f206": {
+      "sha256": "93cd3eceef3cb41eb1c8717ab95162aa628199d75f922d0401aecd257eaa38b1",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 56,
+          "revision": 1,
+          "sha256": "c1044cd3544d9eb242173a0e50a67cbd77feecdacf8b5d6d09bc210ddba478e7"
+        },
+        "editorial_sha256": "ecffb437abaa5d31d0abba8195aff9e21df01e70d9379b6a4e74dd63edb8bbb5"
+      }
     }
   },
   "migration": {
@@ -8604,6 +8616,58 @@
         "sha256": "3cadf7f44bf937bf932ce27dd7fdadae2255f1fc1d2aa6c678f02bc528ec0551",
         "reviewed_at": "2026-10-07T19:33:23.711882+00:00",
         "operation_id": "3d1be678565939f41db5b211a23db83d0651c79e3bd21f9db8058891456d891a"
+      }
+    ],
+    "56:1": [
+      {
+        "reference": {
+          "id": 56,
+          "revision": 1,
+          "sha256": "c1044cd3544d9eb242173a0e50a67cbd77feecdacf8b5d6d09bc210ddba478e7"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "api",
+            "rationale": "The model launch details API pricing, reasoning effort and high-volume developer and subagent workloads.",
+            "evidence_sha256": "bc0c8373675502ff86cf1947bc4197fe9aa2c18a1fb0fbfaabcaa088e48642ac"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/claude-haiku-5-5",
+              "final_url": "https://www.anthropic.com/claude-haiku-5-5",
+              "redirect_chain": [
+                "https://www.anthropic.com/claude-haiku-5-5"
+              ],
+              "checked_at": "2026-10-07T19:27:40Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "77bdd4a97770c22efec8ac7a94eba4ce5ce62ca6219c424688800ad975336fc5"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg"
+              ],
+              "checked_at": "2026-10-07T19:28:06Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "bc6dfbe7394b9b9065f7a00a71705c75169167913e9fdce3d68d7f864b849cb4",
+              "content_type": "image/jpeg",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "046cc1cdbe598251e37d27ad0ca0bba7aca2a3d0d89df3e3c4793f680c2f5bd5",
+              "relevance": "story_specific",
+              "relevance_note": "Official launch artwork visibly names Claude Haiku 5.5, confirmed by pixel inspection."
+            }
+          }
+        },
+        "sha256": "ecffb437abaa5d31d0abba8195aff9e21df01e70d9379b6a4e74dd63edb8bbb5",
+        "reviewed_at": "2026-10-07T19:39:04.297395+00:00",
+        "operation_id": "23344d634d375f48218f311cb628b441920196ae61a387c5e450908ab0e8f206"
       }
     ]
   }
