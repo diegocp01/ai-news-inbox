@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 141,
-  "updated_at": "2026-10-07T01:35:25.727296+00:00",
-  "next_id": 49,
+  "generation": 142,
+  "updated_at": "2026-10-07T01:36:58.306739+00:00",
+  "next_id": 50,
   "records": [
     {
       "id": 1,
@@ -655,6 +655,19 @@
           "sha256": "3c8099caa43bb4fded7cc4be37d3bbfba89b20185c401cf95a4ce768ad1ff053",
           "source": "arXiv",
           "request_id": "dfada7c3ad320be603129b05c4fc030082c169e392cc2fd6586d84525baab208",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "revisions": [
+        {
+          "created_at": "2026-10-07T01:36:58.306739+00:00",
+          "block": "Title: OpenAI Speeds Up dots and Fixes Notification Bugs\nURL: \nImage URL: https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill\nSummary: One week after launch, OpenAI says dots now browse faster and have fixes for excess phone notifications, Outlook setup, browser rendering, approvals and enterprise access. Voice reliability, expanded Codex control, clearer work tracking, connections to multiple computers and better Windows computer control remain upcoming.",
+          "sha256": "1063983050b6b53e66956142caef125320661911fea050c8bbdae1300fdcb845",
+          "source": "OpenAI",
+          "request_id": "2749c01bdb4c077a99980ac64ace7fc2ac774c9f3cc439d68e861ae9617ff841",
           "mode": "standard"
         }
       ]
@@ -1487,13 +1500,21 @@
       ]
     },
     "2749c01bdb4c077a99980ac64ace7fc2ac774c9f3cc439d68e861ae9617ff841": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-07T01:35:25.727296+00:00",
       "received_sequence": 48,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-07T01:36:58.306739+00:00",
+      "records": [
+        {
+          "id": 49,
+          "revision": 1,
+          "sha256": "1063983050b6b53e66956142caef125320661911fea050c8bbdae1300fdcb845"
+        }
+      ]
     }
   },
   "batches": {
@@ -5074,6 +5095,21 @@
       "result": {
         "status": "received",
         "request_id": "2749c01bdb4c077a99980ac64ace7fc2ac774c9f3cc439d68e861ae9617ff841"
+      }
+    },
+    "16fdbc80017bb26c4dec073fafa907807bf4620397fc84f1dcc646c0db8bbc5d": {
+      "sha256": "b7977ff9e9b46519db8c4e3a793ddc0dc7a09df7031ff6dbf98585f7e449ea59",
+      "result": {
+        "status": "finalized",
+        "request_id": "2749c01bdb4c077a99980ac64ace7fc2ac774c9f3cc439d68e861ae9617ff841",
+        "records": [
+          {
+            "id": 49,
+            "revision": 1,
+            "sha256": "1063983050b6b53e66956142caef125320661911fea050c8bbdae1300fdcb845"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
