@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 139,
-  "updated_at": "2026-10-07T01:29:14.054450+00:00",
+  "generation": 140,
+  "updated_at": "2026-10-07T01:32:52.707364+00:00",
   "next_id": 49,
   "records": [
     {
@@ -5047,6 +5047,18 @@
           "sha256": "62b8987b5e83674f89ab5062fa161e5099af1f0240f12d3771d33b1bc888101c"
         }
       }
+    },
+    "dbd57bc9fc786187768339aef394e12ff7f3eb408d87a29a32ee1f3873807536": {
+      "sha256": "0900df94ff7e1801fa11227749aa000147fe23fc0fe6e689213a2540ad850d6c",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 47,
+          "revision": 2,
+          "sha256": "62b8987b5e83674f89ab5062fa161e5099af1f0240f12d3771d33b1bc888101c"
+        },
+        "editorial_sha256": "5974b2e473d4eadc1608962025079de29d81a20bfa4d94c2ef04c9a6789e6f86"
+      }
     }
   },
   "migration": {
@@ -6512,6 +6524,58 @@
         "sha256": "11e0eaf57c1ad7c11bb24c6a601b43f3ddd39e5013a6670f0c7801ee329c048c",
         "reviewed_at": "2026-10-07T01:26:48.635540+00:00",
         "operation_id": "fbf4410db0b324f0be5ac891fca79d65a07c8dbdd45bea63252ec18a4d510fab"
+      }
+    ],
+    "47:2": [
+      {
+        "reference": {
+          "id": 47,
+          "revision": 2,
+          "sha256": "62b8987b5e83674f89ab5062fa161e5099af1f0240f12d3771d33b1bc888101c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Technical mathematical research release with Lean proof artifacts. The revised title attributes reported solutions to OpenAI. AGMAI's October 6 statement describes solutions to hundreds of open questions; 722 remains the manuscript count, not the solved-problem count. Existing source/image checks retain their actual timestamps.",
+            "evidence_sha256": "7fd991c37f7014ab61886b286254375fd49ebab8f87c9a135e28622a155d24f9"
+          },
+          "quality": {
+            "article": {
+              "url": "https://github.com/openai/math",
+              "final_url": "https://github.com/openai/math",
+              "redirect_chain": [
+                "https://github.com/openai/math"
+              ],
+              "checked_at": "2026-10-07T00:22:55.858530+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "b4f549d5bc3c6cdd2c436e36da54d8c899102b2de88692fd147d33cb9fad1fb9"
+            },
+            "image": {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+              "final_url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+              "redirect_chain": [
+                "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill"
+              ],
+              "status": "accessible_here",
+              "content_type": "image/png",
+              "width": 1600,
+              "height": 900,
+              "image_bytes_sha256": "ffda47a55786b86fef4ef968c8c9b881b4c2ed8451e155dfac40cb89b657dfda",
+              "checked_at": "2026-10-07T00:21:12.009173+00:00",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Inspected the official October 6 release artwork: large white Sharing AI progress in mathematics title on a peach, pink and yellow textured background. Compared with the repository OpenGraph card; this release-specific visual is clearer and avoids repository popularity counters.",
+              "evidence_sha256": "9625222b320b2e6f4a0fa73521be699a6df3a8d5b3a28eddb2dfc5688610056f"
+            }
+          }
+        },
+        "sha256": "5974b2e473d4eadc1608962025079de29d81a20bfa4d94c2ef04c9a6789e6f86",
+        "reviewed_at": "2026-10-07T01:32:52.707364+00:00",
+        "operation_id": "dbd57bc9fc786187768339aef394e12ff7f3eb408d87a29a32ee1f3873807536"
       }
     ]
   }
