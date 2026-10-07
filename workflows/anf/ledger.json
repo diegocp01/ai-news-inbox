@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 132,
-  "updated_at": "2026-10-07T00:19:15.572871+00:00",
-  "next_id": 47,
+  "generation": 133,
+  "updated_at": "2026-10-07T00:22:05.334409+00:00",
+  "next_id": 48,
   "records": [
     {
       "id": 1,
@@ -621,6 +621,19 @@
           "sha256": "0ad22746288a76864a4b2bed3b5f59108b86aeda012e2af71bb0b205c1c1a95e",
           "source": "Chasing Next",
           "request_id": "2552ea9705579e1bf7526d2fe2aaa6c9e6b548fb17b5aa6cb08429f28909d4ee",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "revisions": [
+        {
+          "created_at": "2026-10-07T00:22:05.334409+00:00",
+          "block": "Title: OpenAI Releases 722 AI-Generated Math Papers\nURL: https://github.com/openai/math\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI released 722 mathematical manuscripts in 372 groups of related results from an unreleased model, with computer-checkable Lean proofs for many. Verification varies, and unformalized results may contain errors. At least one write-up was human-edited. An independent advisory group helped shape release practices but says its involvement is not an endorsement.",
+          "sha256": "012401b9c8e13e4f038c7c84c8e9ff752c9dd5f55964d3d5680c33db5b7ca036",
+          "source": "OpenAI",
+          "request_id": "9d8054fa3fdf2b1fca6edd5faf9c2b41a891a7639e8c93ec0176971521c8cd3c",
           "mode": "standard"
         }
       ]
@@ -1402,13 +1415,21 @@
       ]
     },
     "9d8054fa3fdf2b1fca6edd5faf9c2b41a891a7639e8c93ec0176971521c8cd3c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-07T00:19:15.572871+00:00",
       "received_sequence": 45,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-07T00:22:05.334409+00:00",
+      "records": [
+        {
+          "id": 47,
+          "revision": 1,
+          "sha256": "012401b9c8e13e4f038c7c84c8e9ff752c9dd5f55964d3d5680c33db5b7ca036"
+        }
+      ]
     }
   },
   "batches": {
@@ -4891,6 +4912,21 @@
       "result": {
         "status": "received",
         "request_id": "9d8054fa3fdf2b1fca6edd5faf9c2b41a891a7639e8c93ec0176971521c8cd3c"
+      }
+    },
+    "03afdef3fc9610ea3b5b3faa46795e891d144d210366b84eb1a8c097fcf5928c": {
+      "sha256": "3c12122817e354de704b69445c0d90879788bda3edbf5f03cdbeb99a32469a14",
+      "result": {
+        "status": "finalized",
+        "request_id": "9d8054fa3fdf2b1fca6edd5faf9c2b41a891a7639e8c93ec0176971521c8cd3c",
+        "records": [
+          {
+            "id": 47,
+            "revision": 1,
+            "sha256": "012401b9c8e13e4f038c7c84c8e9ff752c9dd5f55964d3d5680c33db5b7ca036"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
