@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 138,
-  "updated_at": "2026-10-07T01:28:25.597921+00:00",
+  "generation": 139,
+  "updated_at": "2026-10-07T01:29:14.054450+00:00",
   "next_id": 49,
   "records": [
     {
@@ -634,6 +634,14 @@
           "sha256": "012401b9c8e13e4f038c7c84c8e9ff752c9dd5f55964d3d5680c33db5b7ca036",
           "source": "OpenAI",
           "request_id": "9d8054fa3fdf2b1fca6edd5faf9c2b41a891a7639e8c93ec0176971521c8cd3c",
+          "mode": "standard"
+        },
+        {
+          "created_at": "2026-10-07T01:29:14.054450+00:00",
+          "block": "Title: OpenAI Reports AI Solutions to Hundreds of Unsolved Math Problems\nURL: https://github.com/openai/math\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI released 722 mathematical manuscripts in 372 groups of related results from an unreleased model, with computer-checkable Lean proofs for many. Verification varies, and unformalized results may contain errors. At least one write-up was human-edited. An independent advisory group helped shape release practices but says its involvement is not an endorsement.",
+          "sha256": "62b8987b5e83674f89ab5062fa161e5099af1f0240f12d3771d33b1bc888101c",
+          "source": "OpenAI",
+          "request_id": "53176ecf4541e971be7f3967585808f809beb3612f4e916aff277d0bc1aee2a3",
           "mode": "standard"
         }
       ]
@@ -1462,13 +1470,21 @@
       ]
     },
     "53176ecf4541e971be7f3967585808f809beb3612f4e916aff277d0bc1aee2a3": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-07T01:28:25.597921+00:00",
       "received_sequence": 47,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": 47
+      "corrects_record_id": 47,
+      "finalized_at": "2026-10-07T01:29:14.054450+00:00",
+      "records": [
+        {
+          "id": 47,
+          "revision": 2,
+          "sha256": "62b8987b5e83674f89ab5062fa161e5099af1f0240f12d3771d33b1bc888101c"
+        }
+      ]
     }
   },
   "batches": {
@@ -5019,6 +5035,17 @@
       "result": {
         "status": "received",
         "request_id": "53176ecf4541e971be7f3967585808f809beb3612f4e916aff277d0bc1aee2a3"
+      }
+    },
+    "f9ee552ec0fa665f81c2a7bdd2fbeb2cfda7022bfb76dce119251f45427fba53": {
+      "sha256": "b6baea0a440e14c7833502daac21147b9fc5b01f5c15b413091798f5a089ac70",
+      "result": {
+        "status": "corrected",
+        "record": {
+          "id": 47,
+          "revision": 2,
+          "sha256": "62b8987b5e83674f89ab5062fa161e5099af1f0240f12d3771d33b1bc888101c"
+        }
       }
     }
   },
