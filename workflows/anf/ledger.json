@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 153,
-  "updated_at": "2026-10-07T12:01:37.449561+00:00",
+  "generation": 154,
+  "updated_at": "2026-10-07T12:02:33.128274+00:00",
   "next_id": 55,
   "records": [
     {
@@ -5377,6 +5377,18 @@
         },
         "editorial_sha256": "bc7095fa2e49440153cdcdd8247fc72e0bcfcb2e190d452cbe35d17034a8466d"
       }
+    },
+    "4f34a5785367467f9695e0d72c8a5825": {
+      "sha256": "0897ffdcb413b6ca19e49421a8de7646274dab8b9c114937ba6a6c6ffaf7bf0a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 53,
+          "revision": 1,
+          "sha256": "2a3e6a677c731b1ab79c2ade14ae701f5771def168ff093e1b36c6b4d3908e88"
+        },
+        "editorial_sha256": "d4902868b97c595470db982c6a42cbe7a1c519fec427c10f54bf88dceae5d919"
+      }
     }
   },
   "migration": {
@@ -7086,6 +7098,26 @@
         "sha256": "bc7095fa2e49440153cdcdd8247fc72e0bcfcb2e190d452cbe35d17034a8466d",
         "reviewed_at": "2026-10-07T12:01:37.449561+00:00",
         "operation_id": "8bfebf9b2ce948b68ee3e886550bc7ff"
+      }
+    ],
+    "53:1": [
+      {
+        "reference": {
+          "id": 53,
+          "revision": 1,
+          "sha256": "2a3e6a677c731b1ab79c2ade14ae701f5771def168ff093e1b36c6b4d3908e88"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A consumer assistant launch describing everyday research, shopping, bookings and subscription access; custom mini-app creation is a consumer feature here rather than developer implementation guidance.",
+            "evidence_sha256": "aba5fb04f6afa3b55333d60acf9c052ff3394a772242be0bfa75d57d0e4e51e0"
+          }
+        },
+        "sha256": "d4902868b97c595470db982c6a42cbe7a1c519fec427c10f54bf88dceae5d919",
+        "reviewed_at": "2026-10-07T12:02:33.128274+00:00",
+        "operation_id": "4f34a5785367467f9695e0d72c8a5825"
       }
     ]
   }
