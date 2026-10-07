@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 162,
-  "updated_at": "2026-10-07T19:36:33.373148+00:00",
-  "next_id": 56,
+  "generation": 163,
+  "updated_at": "2026-10-07T19:37:52.121687+00:00",
+  "next_id": 57,
   "records": [
     {
       "id": 1,
@@ -749,6 +749,19 @@
           "sha256": "cf71ecb483cb19b337f6c633ae6660cb121856c9dc0e7fa839c4f455b56184db",
           "source": "TechCrunch",
           "request_id": "49f766804f8aa2ae9c25ed5fe6381e75e7480ed974a747a72ce7f78eadcfd3c7",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "revisions": [
+        {
+          "created_at": "2026-10-07T19:37:52.121687+00:00",
+          "block": "Title: Claude Haiku 5.5 Cuts Token Prices by 90% for Prompts Up to 100,000 Tokens\nURL: https://www.anthropic.com/claude-haiku-5-5\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg\nSummary: Anthropic released Claude Haiku 5.5 with adjustable reasoning effort and lower API prices for high-volume tasks such as summaries and coding subagents. Token prices fall 90% versus Haiku 4.5 for prompts up to 100,000 tokens and 50% for longer prompts. The model is available through Anthropic, AWS, Google Cloud and Microsoft Azure.",
+          "sha256": "c1044cd3544d9eb242173a0e50a67cbd77feecdacf8b5d6d09bc210ddba478e7",
+          "source": "Anthropic",
+          "request_id": "f7a29ac8ed4903882201a540a58816d1efde453e1978087f87b226838a97edf8",
           "mode": "standard"
         }
       ]
@@ -1677,13 +1690,21 @@
       ]
     },
     "f7a29ac8ed4903882201a540a58816d1efde453e1978087f87b226838a97edf8": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-07T19:36:33.373148+00:00",
       "received_sequence": 53,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-07T19:37:52.121687+00:00",
+      "records": [
+        {
+          "id": 56,
+          "revision": 1,
+          "sha256": "c1044cd3544d9eb242173a0e50a67cbd77feecdacf8b5d6d09bc210ddba478e7"
+        }
+      ]
     }
   },
   "batches": {
@@ -6786,6 +6807,21 @@
       "result": {
         "status": "received",
         "request_id": "f7a29ac8ed4903882201a540a58816d1efde453e1978087f87b226838a97edf8"
+      }
+    },
+    "fc2fa79c631889a4ad543d35f8169c74d20410f4ba7be98df7e1e5886d3e4517": {
+      "sha256": "e522c867668577cf48444669a5f501117f6fffb0cec6a12a3080e4227895d52e",
+      "result": {
+        "status": "finalized",
+        "request_id": "f7a29ac8ed4903882201a540a58816d1efde453e1978087f87b226838a97edf8",
+        "records": [
+          {
+            "id": 56,
+            "revision": 1,
+            "sha256": "c1044cd3544d9eb242173a0e50a67cbd77feecdacf8b5d6d09bc210ddba478e7"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
