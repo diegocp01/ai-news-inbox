@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 148,
-  "updated_at": "2026-10-07T11:45:29.138142+00:00",
-  "next_id": 51,
+  "generation": 149,
+  "updated_at": "2026-10-07T11:47:55.375152+00:00",
+  "next_id": 54,
   "records": [
     {
       "id": 1,
@@ -682,6 +682,48 @@
           "source": "RuntimeWire",
           "request_id": "0087c862212b961a01baa37d3db38ebcc4e509f86cbad88a447a5ad485f9b667",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "revisions": [
+        {
+          "created_at": "2026-10-07T11:47:55.375152+00:00",
+          "block": "Title: OpenAI Publishes 722 Mathematics Manuscripts From Internal AI Model\nURL: https://github.com/openai/math/blob/main/README.md\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI published 722 mathematical manuscripts from an unreleased internal AI model, organized into 372 groups of related papers. The company says each result used computing resources equivalent to roughly three hours of ChatGPT Pro thinking on average. Many manuscripts include computer-checkable proofs, but OpenAI warns that some results without these formal proofs could contain errors.",
+          "sha256": "ff2d7f174b13e923b56df20011f659c4397c5f603722ddf95bcd532ac3c9d407",
+          "source": "github.com",
+          "request_id": "a1f1779aae9c01557bdfd31d65ea268e00caebf20d1bc9d2ba00549fec9c539a",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "revisions": [
+        {
+          "created_at": "2026-10-07T11:47:55.375152+00:00",
+          "block": "Title: Mistral Launches Large 4 Preview Ahead of Downloadable Release\nURL: https://www.vktr.com/ai-platforms/mistral-large-4-debuts-as-1t-parameter-open-weight-model/\nImage URL: https://www.vktr.com/-/media/9fa3fc73721041a4b8ae803cf3685ba1.ashx?h=498.523&w=806.465&mw=665\nSummary: Mistral has launched a public preview of Large 4 through its API, with downloadable model files planned by the end of October. The company says the model performs strongly in coding, cybersecurity and legal tests. During the preview, selected cybersecurity specialists, vetted partners and government authorities will receive access with reduced moderation and expanded cybersecurity capabilities.",
+          "sha256": "807f292b0b7767d5822a35998aeb46099f7cfa34b9aff5e0f4f9bc38f75885de",
+          "source": "vktr.com",
+          "request_id": "a1f1779aae9c01557bdfd31d65ea268e00caebf20d1bc9d2ba00549fec9c539a",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "revisions": [
+        {
+          "created_at": "2026-10-07T11:47:55.375152+00:00",
+          "block": "Title: Hark Launches Hark Pro for Web and Mobile\nURL: https://hark.com/articles/introducing-hark-pro\nImage URL: https://gizmodo.com/app/uploads/2026/10/Introducing-Hark-Pro-7.jpeg\nSummary: Hark, founded by Brett Adcock, launched Hark Pro for web, iOS and Android. The company says it remembers preferences, suggests tasks and uses its Handoff cloud computer to research, shop and make bookings. It also says users can build custom mini-apps, with free access and paid plans offering higher usage limits.",
+          "sha256": "2a3e6a677c731b1ab79c2ade14ae701f5771def168ff093e1b36c6b4d3908e88",
+          "source": "hark.com",
+          "request_id": "a1f1779aae9c01557bdfd31d65ea268e00caebf20d1bc9d2ba00549fec9c539a",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -1547,14 +1589,32 @@
       ]
     },
     "a1f1779aae9c01557bdfd31d65ea268e00caebf20d1bc9d2ba00549fec9c539a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-07T11:38:50.132835+00:00",
       "received_sequence": 50,
       "expected_items": 3,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-07T11:47:55.375152+00:00",
+      "records": [
+        {
+          "id": 51,
+          "revision": 1,
+          "sha256": "ff2d7f174b13e923b56df20011f659c4397c5f603722ddf95bcd532ac3c9d407"
+        },
+        {
+          "id": 52,
+          "revision": 1,
+          "sha256": "807f292b0b7767d5822a35998aeb46099f7cfa34b9aff5e0f4f9bc38f75885de"
+        },
+        {
+          "id": 53,
+          "revision": 1,
+          "sha256": "2a3e6a677c731b1ab79c2ade14ae701f5771def168ff093e1b36c6b4d3908e88"
+        }
+      ]
     },
     "ac73ce3924e53ab5a722e2d6a17e5817cbd39db75c1f86e01c80c0c12551ae31": {
       "status": "received",
@@ -5219,6 +5279,31 @@
       "result": {
         "status": "received",
         "request_id": "ac73ce3924e53ab5a722e2d6a17e5817cbd39db75c1f86e01c80c0c12551ae31"
+      }
+    },
+    "b614eb1456067294a4db351a221028e0e1ee1edd5d42edde23fe7a4945555703": {
+      "sha256": "dba01b511e2ba5ffe79184b992b423917b2665722daad4784e941f50208b6925",
+      "result": {
+        "status": "finalized",
+        "request_id": "a1f1779aae9c01557bdfd31d65ea268e00caebf20d1bc9d2ba00549fec9c539a",
+        "records": [
+          {
+            "id": 51,
+            "revision": 1,
+            "sha256": "ff2d7f174b13e923b56df20011f659c4397c5f603722ddf95bcd532ac3c9d407"
+          },
+          {
+            "id": 52,
+            "revision": 1,
+            "sha256": "807f292b0b7767d5822a35998aeb46099f7cfa34b9aff5e0f4f9bc38f75885de"
+          },
+          {
+            "id": 53,
+            "revision": 1,
+            "sha256": "2a3e6a677c731b1ab79c2ade14ae701f5771def168ff093e1b36c6b4d3908e88"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
