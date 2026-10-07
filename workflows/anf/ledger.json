@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 149,
-  "updated_at": "2026-10-07T11:47:55.375152+00:00",
-  "next_id": 54,
+  "generation": 150,
+  "updated_at": "2026-10-07T11:48:08.632342+00:00",
+  "next_id": 55,
   "records": [
     {
       "id": 1,
@@ -724,6 +724,19 @@
           "request_id": "a1f1779aae9c01557bdfd31d65ea268e00caebf20d1bc9d2ba00549fec9c539a",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "revisions": [
+        {
+          "created_at": "2026-10-07T11:48:08.632342+00:00",
+          "block": "Title: OpenAI Helps Apps Sort Content and Choose Actions\nURL: https://dotsfeed.com/updates/decisions-api-is-in-public-beta-get-typed-yes-no-pick-one-or-score-answers-about\nImage URL: https://us1.discourse-cdn.com/openai1/original/4X/d/8/c/d8cf6e3a0407f847f9785a3f45949a8bad13bf73.jpeg\nSummary: OpenAI’s Decisions API is now in public beta for all developers. Powered by GPT-6 Luna, it classifies text and images, selects predefined options, and scores inputs against a rubric. OpenAI says it makes these decisions up to 10 times faster than using Luna through the Responses API, enabling quicker routing and filtering in applications.",
+          "sha256": "9c96b7aeb330fc735be577f6b806f81066b9c1f564011a7611195faa0751f336",
+          "source": "Dotsfeed",
+          "request_id": "ac73ce3924e53ab5a722e2d6a17e5817cbd39db75c1f86e01c80c0c12551ae31",
+          "mode": "standard"
         }
       ]
     }
@@ -1617,13 +1630,21 @@
       ]
     },
     "ac73ce3924e53ab5a722e2d6a17e5817cbd39db75c1f86e01c80c0c12551ae31": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-07T11:45:29.138142+00:00",
       "received_sequence": 51,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-07T11:48:08.632342+00:00",
+      "records": [
+        {
+          "id": 54,
+          "revision": 1,
+          "sha256": "9c96b7aeb330fc735be577f6b806f81066b9c1f564011a7611195faa0751f336"
+        }
+      ]
     }
   },
   "batches": {
@@ -5301,6 +5322,21 @@
             "id": 53,
             "revision": 1,
             "sha256": "2a3e6a677c731b1ab79c2ade14ae701f5771def168ff093e1b36c6b4d3908e88"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "7faddae0b93b9ace87c5616b58230848722bfd77ab4bfe191d1b37e86fa5cd21": {
+      "sha256": "ee6fa6d2b09895f6810e9652817bc6869032188dd1a28e8333e8ae4b3305e83b",
+      "result": {
+        "status": "finalized",
+        "request_id": "ac73ce3924e53ab5a722e2d6a17e5817cbd39db75c1f86e01c80c0c12551ae31",
+        "records": [
+          {
+            "id": 54,
+            "revision": 1,
+            "sha256": "9c96b7aeb330fc735be577f6b806f81066b9c1f564011a7611195faa0751f336"
           }
         ],
         "duplicates": []
