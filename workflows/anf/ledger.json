@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 160,
-  "updated_at": "2026-10-07T19:31:23.064105+00:00",
+  "generation": 161,
+  "updated_at": "2026-10-07T19:33:23.711882+00:00",
   "next_id": 56,
   "records": [
     {
@@ -6759,6 +6759,18 @@
         ],
         "duplicates": []
       }
+    },
+    "3d1be678565939f41db5b211a23db83d0651c79e3bd21f9db8058891456d891a": {
+      "sha256": "4f787998d440f062434b1f9f5628187e93b021f30fad53336a64b2bc6ef21c05",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 55,
+          "revision": 1,
+          "sha256": "cf71ecb483cb19b337f6c633ae6660cb121856c9dc0e7fa839c4f455b56184db"
+        },
+        "editorial_sha256": "3cadf7f44bf937bf932ce27dd7fdadae2255f1fc1d2aa6c678f02bc528ec0551"
+      }
     }
   },
   "migration": {
@@ -8488,6 +8500,58 @@
         "sha256": "d4902868b97c595470db982c6a42cbe7a1c519fec427c10f54bf88dceae5d919",
         "reviewed_at": "2026-10-07T12:02:33.128274+00:00",
         "operation_id": "4f34a5785367467f9695e0d72c8a5825"
+      }
+    ],
+    "55:1": [
+      {
+        "reference": {
+          "id": 55,
+          "revision": 1,
+          "sha256": "cf71ecb483cb19b337f6c633ae6660cb121856c9dc0e7fa839c4f455b56184db"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer ChatGPT rollout of interactive answers, rather than developer or research tooling.",
+            "evidence_sha256": "3e5d72310f5d42a69aae0845a4bfb15b1ed0e6a306241d990e80b11e9c8aeaa5"
+          },
+          "quality": {
+            "article": {
+              "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+              "final_url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+              "redirect_chain": [
+                "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/"
+              ],
+              "checked_at": "2026-10-07T19:28:20+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "3e5d72310f5d42a69aae0845a4bfb15b1ed0e6a306241d990e80b11e9c8aeaa5"
+            },
+            "image": {
+              "url": "https://techcrunch.com/wp-content/uploads/2026/10/Intelligent-UI.png?resize=1200,675",
+              "final_url": "https://techcrunch.com/wp-content/uploads/2026/10/Intelligent-UI.png?resize=1200,675",
+              "redirect_chain": [
+                "https://techcrunch.com/wp-content/uploads/2026/10/Intelligent-UI.png?resize=1200,675"
+              ],
+              "checked_at": "2026-10-07T19:30:13+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "3e5d72310f5d42a69aae0845a4bfb15b1ed0e6a306241d990e80b11e9c8aeaa5",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 675,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "6c9e2f01429f11458b1d5b8bc76c9ed155efffb2d16a022af3783daacc4212fa",
+              "relevance": "story_specific",
+              "relevance_note": "Article hero shows three ChatGPT Intelligent UI examples: wardrobe visuals, an interactive calculator, and a recipe."
+            }
+          }
+        },
+        "sha256": "3cadf7f44bf937bf932ce27dd7fdadae2255f1fc1d2aa6c678f02bc528ec0551",
+        "reviewed_at": "2026-10-07T19:33:23.711882+00:00",
+        "operation_id": "3d1be678565939f41db5b211a23db83d0651c79e3bd21f9db8058891456d891a"
       }
     ]
   }
