@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 135,
-  "updated_at": "2026-10-07T01:23:23.206286+00:00",
-  "next_id": 48,
+  "generation": 136,
+  "updated_at": "2026-10-07T01:25:34.923959+00:00",
+  "next_id": 49,
   "records": [
     {
       "id": 1,
@@ -634,6 +634,19 @@
           "sha256": "012401b9c8e13e4f038c7c84c8e9ff752c9dd5f55964d3d5680c33db5b7ca036",
           "source": "OpenAI",
           "request_id": "9d8054fa3fdf2b1fca6edd5faf9c2b41a891a7639e8c93ec0176971521c8cd3c",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "revisions": [
+        {
+          "created_at": "2026-10-07T01:25:34.923959+00:00",
+          "block": "Title: AI Rediscovers Physics Laws From Simulated Experiments\nURL: https://arxiv.org/abs/2504.01538\nImage URL: https://arxiv.org/html/2504.01538v2/overview.png\nSummary: Peking University researchers report that AI-Newton rediscovered Newton’s second law, energy conservation and universal gravitation from 46 predefined mechanics simulations. Using space-time data and a purpose-built symbolic framework, it derived concepts including mass and energy, averaging about 90 concepts and 50 general laws in 48-hour runs. The results demonstrate recovery of known physics.",
+          "sha256": "3c8099caa43bb4fded7cc4be37d3bbfba89b20185c401cf95a4ce768ad1ff053",
+          "source": "arXiv",
+          "request_id": "dfada7c3ad320be603129b05c4fc030082c169e392cc2fd6586d84525baab208",
           "mode": "standard"
         }
       ]
@@ -1432,13 +1445,21 @@
       ]
     },
     "dfada7c3ad320be603129b05c4fc030082c169e392cc2fd6586d84525baab208": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-07T01:23:23.206286+00:00",
       "received_sequence": 46,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-07T01:25:34.923959+00:00",
+      "records": [
+        {
+          "id": 48,
+          "revision": 1,
+          "sha256": "3c8099caa43bb4fded7cc4be37d3bbfba89b20185c401cf95a4ce768ad1ff053"
+        }
+      ]
     }
   },
   "batches": {
@@ -4955,6 +4976,21 @@
       "result": {
         "status": "received",
         "request_id": "dfada7c3ad320be603129b05c4fc030082c169e392cc2fd6586d84525baab208"
+      }
+    },
+    "6af2d803d33ded5a17157bedaa8f988b1d09f6245aa49e9c6faf334b351d77ac": {
+      "sha256": "a6d4909a4d686510f334c4a8ee1f847ea0dac91a2146b1691aca8a68d4d2e19d",
+      "result": {
+        "status": "finalized",
+        "request_id": "dfada7c3ad320be603129b05c4fc030082c169e392cc2fd6586d84525baab208",
+        "records": [
+          {
+            "id": 48,
+            "revision": 1,
+            "sha256": "3c8099caa43bb4fded7cc4be37d3bbfba89b20185c401cf95a4ce768ad1ff053"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
