@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 136,
-  "updated_at": "2026-10-07T01:25:34.923959+00:00",
+  "generation": 137,
+  "updated_at": "2026-10-07T01:26:48.635540+00:00",
   "next_id": 49,
   "records": [
     {
@@ -4992,6 +4992,18 @@
         ],
         "duplicates": []
       }
+    },
+    "fbf4410db0b324f0be5ac891fca79d65a07c8dbdd45bea63252ec18a4d510fab": {
+      "sha256": "27d568ddf5cb209e0becdd41ced6c7e89a768744ce19df57b233d93f277f267b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 48,
+          "revision": 1,
+          "sha256": "3c8099caa43bb4fded7cc4be37d3bbfba89b20185c401cf95a4ce768ad1ff053"
+        },
+        "editorial_sha256": "11e0eaf57c1ad7c11bb24c6a601b43f3ddd39e5013a6670f0c7801ee329c048c"
+      }
     }
   },
   "migration": {
@@ -6405,6 +6417,58 @@
         "sha256": "2950f280925d99f3db6fb9775075c7b002ae6300c7f323cc6e1ce042a65311a5",
         "reviewed_at": "2026-10-07T00:23:19.737047+00:00",
         "operation_id": "abfb22d19e1580fa4a48ccfc968bbff23f975dfdfd5adf5c659fed288c71a144"
+      }
+    ],
+    "48:1": [
+      {
+        "reference": {
+          "id": 48,
+          "revision": 1,
+          "sha256": "3c8099caa43bb4fded7cc4be37d3bbfba89b20185c401cf95a4ce768ad1ff053"
+        },
+        "editorial": {
+          "audience": {
+            "basis": "research",
+            "decision": "technical",
+            "rationale": "Research paper on symbolic scientific discovery, concept induction, simulated mechanics experiments and generalization of physical laws.",
+            "evidence_sha256": "b16cdfb7730323aac18999bc7cfa7b9e68a7a67373df98361eda6609b0a6bfd3"
+          },
+          "quality": {
+            "article": {
+              "url": "https://arxiv.org/abs/2504.01538",
+              "final_url": "https://arxiv.org/abs/2504.01538",
+              "redirect_chain": [
+                "https://arxiv.org/abs/2504.01538"
+              ],
+              "checked_at": "2026-10-07T01:24:00.806110+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "941c6712b3889dce1cd625824339f9e9897e3be777274eaa26d0f92c382b1e72"
+            },
+            "image": {
+              "url": "https://arxiv.org/html/2504.01538v2/overview.png",
+              "final_url": "https://arxiv.org/html/2504.01538v2/overview.png",
+              "redirect_chain": [
+                "https://arxiv.org/html/2504.01538v2/overview.png"
+              ],
+              "checked_at": "2026-10-07T01:26:48.635540+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "8d3954abf81003c34470388093cfdc56046348ee92e5434cce236acca942462e",
+              "content_type": "image/png",
+              "width": 2836,
+              "height": 1257,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "161c07c54a31a4263a05f20cc5fbc878e50009928e30d16c77ed8ab42ef525f6",
+              "relevance": "story_specific",
+              "relevance_note": "Paper Figure 1 showing the experiment base, symbolic discovery workflow, and theory base. Inspected actual pixels and compared with Figure 2; this diagram directly explains AI-Newton and its supplied structure."
+            }
+          }
+        },
+        "sha256": "11e0eaf57c1ad7c11bb24c6a601b43f3ddd39e5013a6670f0c7801ee329c048c",
+        "reviewed_at": "2026-10-07T01:26:48.635540+00:00",
+        "operation_id": "fbf4410db0b324f0be5ac891fca79d65a07c8dbdd45bea63252ec18a4d510fab"
       }
     ]
   }
