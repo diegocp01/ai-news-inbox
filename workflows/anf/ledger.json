@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 159,
-  "updated_at": "2026-10-07T19:27:03.966271+00:00",
-  "next_id": 55,
+  "generation": 160,
+  "updated_at": "2026-10-07T19:31:23.064105+00:00",
+  "next_id": 56,
   "records": [
     {
       "id": 1,
@@ -736,6 +736,19 @@
           "sha256": "9c96b7aeb330fc735be577f6b806f81066b9c1f564011a7611195faa0751f336",
           "source": "Dotsfeed",
           "request_id": "ac73ce3924e53ab5a722e2d6a17e5817cbd39db75c1f86e01c80c0c12551ae31",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "revisions": [
+        {
+          "created_at": "2026-10-07T19:31:23.064105+00:00",
+          "block": "Title: OpenAI Brings GPT-6 and Interactive Answers to ChatGPT\nURL: https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/\nImage URL: https://techcrunch.com/wp-content/uploads/2026/10/Intelligent-UI.png?resize=1200,675\nSummary: OpenAI is rolling out GPT-6 with Intelligent UI, adding interactive charts, diagrams and tools to ChatGPT conversations. Plus, Pro, Business and Enterprise users begin receiving GPT-6 Sol on October 7; Free and Go users get GPT-6 Luna starting October 8. Enterprise access depends on admin settings. Work and Codex models are unchanged.",
+          "sha256": "cf71ecb483cb19b337f6c633ae6660cb121856c9dc0e7fa839c4f455b56184db",
+          "source": "TechCrunch",
+          "request_id": "49f766804f8aa2ae9c25ed5fe6381e75e7480ed974a747a72ce7f78eadcfd3c7",
           "mode": "standard"
         }
       ]
@@ -1647,13 +1660,21 @@
       ]
     },
     "49f766804f8aa2ae9c25ed5fe6381e75e7480ed974a747a72ce7f78eadcfd3c7": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-07T19:27:03.966271+00:00",
       "received_sequence": 52,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-07T19:31:23.064105+00:00",
+      "records": [
+        {
+          "id": 55,
+          "revision": 1,
+          "sha256": "cf71ecb483cb19b337f6c633ae6660cb121856c9dc0e7fa839c4f455b56184db"
+        }
+      ]
     }
   },
   "batches": {
@@ -6722,6 +6743,21 @@
       "result": {
         "status": "received",
         "request_id": "49f766804f8aa2ae9c25ed5fe6381e75e7480ed974a747a72ce7f78eadcfd3c7"
+      }
+    },
+    "2bd1cfbd54af9cb61bf64fa2a990f1de2d8757476ac99c797c19cb03b29f2a88": {
+      "sha256": "1939ed7d0eff505a6d98431d9510a06970cc05eabacce107cef157f8c118fd7b",
+      "result": {
+        "status": "finalized",
+        "request_id": "49f766804f8aa2ae9c25ed5fe6381e75e7480ed974a747a72ce7f78eadcfd3c7",
+        "records": [
+          {
+            "id": 55,
+            "revision": 1,
+            "sha256": "cf71ecb483cb19b337f6c633ae6660cb121856c9dc0e7fa839c4f455b56184db"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
