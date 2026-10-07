@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 151,
-  "updated_at": "2026-10-07T11:52:43.358437+00:00",
+  "generation": 152,
+  "updated_at": "2026-10-07T12:00:32.952720+00:00",
   "next_id": 55,
   "records": [
     {
@@ -5353,6 +5353,18 @@
         },
         "editorial_sha256": "4a8bdcfebd95d2785d5b25b57ec5d2815aeaca96a4d1cc93be63ea2eae1e6495"
       }
+    },
+    "96cf7e1a3e0f4387b1ea5d62860cd547": {
+      "sha256": "e5a1e1b60919d59702f8308d937aeb795c2de5d1a9f321859e58b715021fa507",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 51,
+          "revision": 1,
+          "sha256": "ff2d7f174b13e923b56df20011f659c4397c5f603722ddf95bcd532ac3c9d407"
+        },
+        "editorial_sha256": "f985029bde5d8aca331443d2d93d8fc4f63671ef6a06369690654a37d5893af6"
+      }
     }
   },
   "migration": {
@@ -7022,6 +7034,26 @@
         "sha256": "4a8bdcfebd95d2785d5b25b57ec5d2815aeaca96a4d1cc93be63ea2eae1e6495",
         "reviewed_at": "2026-10-07T11:52:43.358437+00:00",
         "operation_id": "069a8a6cc710e16a128a7b57488cb0388d547d58f5ec0f0b644f7abed716dd1a"
+      }
+    ],
+    "51:1": [
+      {
+        "reference": {
+          "id": 51,
+          "revision": 1,
+          "sha256": "ff2d7f174b13e923b56df20011f659c4397c5f603722ddf95bcd532ac3c9d407"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The item covers mathematical research manuscripts and computer-checkable proofs for researchers.",
+            "evidence_sha256": "98e52ec5a580da8f7428e59234d5f237e9cd2cc7d31d5ab117c7581d6b9e2a98"
+          }
+        },
+        "sha256": "f985029bde5d8aca331443d2d93d8fc4f63671ef6a06369690654a37d5893af6",
+        "reviewed_at": "2026-10-07T12:00:32.952720+00:00",
+        "operation_id": "96cf7e1a3e0f4387b1ea5d62860cd547"
       }
     ]
   }
