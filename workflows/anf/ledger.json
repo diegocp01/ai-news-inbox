@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 133,
-  "updated_at": "2026-10-07T00:22:05.334409+00:00",
+  "generation": 134,
+  "updated_at": "2026-10-07T00:23:19.737047+00:00",
   "next_id": 48,
   "records": [
     {
@@ -4928,6 +4928,18 @@
         ],
         "duplicates": []
       }
+    },
+    "abfb22d19e1580fa4a48ccfc968bbff23f975dfdfd5adf5c659fed288c71a144": {
+      "sha256": "05244f7be9f6ecbac7195e1382d32938851e20d98473b11b3aebb6072274ed72",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 47,
+          "revision": 1,
+          "sha256": "012401b9c8e13e4f038c7c84c8e9ff752c9dd5f55964d3d5680c33db5b7ca036"
+        },
+        "editorial_sha256": "2950f280925d99f3db6fb9775075c7b002ae6300c7f323cc6e1ce042a65311a5"
+      }
     }
   },
   "migration": {
@@ -6289,6 +6301,58 @@
         "sha256": "38c82978097a551a14544c393522f01b2d15321895b7642580993684794a3868",
         "reviewed_at": "2026-10-06T21:02:45.948928+00:00",
         "operation_id": "b7e305f1943738b52dd2fab2648a0f0a4df1b78d814299575aaae8b6273cb1a0"
+      }
+    ],
+    "47:1": [
+      {
+        "reference": {
+          "id": 47,
+          "revision": 1,
+          "sha256": "012401b9c8e13e4f038c7c84c8e9ff752c9dd5f55964d3d5680c33db5b7ca036"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The release provides mathematical research manuscripts, supporting proof artifacts and Lean formalizations for researchers. The papers have varying verification status; the model is unreleased.",
+            "evidence_sha256": "f8237bdaeca0094faca9c7711a8d5478b4c1ed0bb1c3298eb3ef029e9a69083b"
+          },
+          "quality": {
+            "article": {
+              "url": "https://github.com/openai/math",
+              "final_url": "https://github.com/openai/math",
+              "redirect_chain": [
+                "https://github.com/openai/math"
+              ],
+              "checked_at": "2026-10-07T00:22:55.858530+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "b4f549d5bc3c6cdd2c436e36da54d8c899102b2de88692fd147d33cb9fad1fb9"
+            },
+            "image": {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+              "final_url": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+              "redirect_chain": [
+                "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill"
+              ],
+              "status": "accessible_here",
+              "content_type": "image/png",
+              "width": 1600,
+              "height": 900,
+              "image_bytes_sha256": "ffda47a55786b86fef4ef968c8c9b881b4c2ed8451e155dfac40cb89b657dfda",
+              "checked_at": "2026-10-07T00:21:12.009173+00:00",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Inspected the official October 6 release artwork: large white Sharing AI progress in mathematics title on a peach, pink and yellow textured background. Compared with the repository OpenGraph card; this release-specific visual is clearer and avoids repository popularity counters.",
+              "evidence_sha256": "9625222b320b2e6f4a0fa73521be699a6df3a8d5b3a28eddb2dfc5688610056f"
+            }
+          }
+        },
+        "sha256": "2950f280925d99f3db6fb9775075c7b002ae6300c7f323cc6e1ce042a65311a5",
+        "reviewed_at": "2026-10-07T00:23:19.737047+00:00",
+        "operation_id": "abfb22d19e1580fa4a48ccfc968bbff23f975dfdfd5adf5c659fed288c71a144"
       }
     ]
   }
