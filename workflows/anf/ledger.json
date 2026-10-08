@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 198,
-  "updated_at": "2026-10-08T19:44:53.262797+00:00",
+  "generation": 199,
+  "updated_at": "2026-10-08T19:46:12.254347+00:00",
   "next_id": 70,
   "records": [
     {
@@ -8174,6 +8174,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2a2d37368eb3a67afce6c56b2c58f2d41123b9006b804d5fc2d9370853afd712": {
+      "sha256": "b3d0873ce446d9d712605f8c444cec9cdb4cd6b3100ba0e8b3302402948865ee",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 69,
+          "revision": 1,
+          "sha256": "0bbd10d55f9b889bef25889b91dd63544480b411ca8544d752219333c5fbe7ed"
+        },
+        "editorial_sha256": "2b578b4ec961a32103b246a74cb4ddd693f94bbb3d4a793810a9c33fcd812730"
+      }
     }
   },
   "migration": {
@@ -10299,6 +10311,58 @@
         "sha256": "39233b8c21e62c561ed73b3b75e536d8d16f8c7aa0b6959972c3f0054b543add",
         "reviewed_at": "2026-10-08T19:31:58.265444+00:00",
         "operation_id": "1659fde32bb08150822fd9c391db6c62355e8aaf95d02818c54d74c0126d8f71"
+      }
+    ],
+    "69:1": [
+      {
+        "reference": {
+          "id": 69,
+          "revision": 1,
+          "sha256": "0bbd10d55f9b889bef25889b91dd63544480b411ca8544d752219333c5fbe7ed"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Announcement for workplace users asking plain-language business questions and creating animations; no technical implementation or developer-focused instruction.",
+            "evidence_sha256": "5631f29bf0c7c7386c0681688cf08bf5b032f1f852c487d7724553be4aafef9e"
+          },
+          "quality": {
+            "article": {
+              "url": "https://claude.com/resources/articles/dashboards-and-motion",
+              "final_url": "https://claude.com/resources/articles/dashboards-and-motion",
+              "redirect_chain": [
+                "https://claude.com/resources/articles/dashboards-and-motion"
+              ],
+              "checked_at": "2026-10-08T19:43:40+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "5631f29bf0c7c7386c0681688cf08bf5b032f1f852c487d7724553be4aafef9e"
+            },
+            "image": {
+              "url": "https://assets.claude.com/7688d4d3b888c17cf4b3553f537f291882a92656.png",
+              "final_url": "https://assets.claude.com/7688d4d3b888c17cf4b3553f537f291882a92656.png",
+              "redirect_chain": [
+                "https://assets.claude.com/7688d4d3b888c17cf4b3553f537f291882a92656.png"
+              ],
+              "checked_at": "2026-10-08T19:44:14+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "87399eeefce86c453e6fccf0a6de75fb7bd478daa58e145510b124fb6b330aea",
+              "content_type": "image/png",
+              "width": 1920,
+              "height": 1080,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "f52b7f877c925a2c53ca2e3fce8f72183e3d501b4aef50a1b15a3c9f1a778689",
+              "relevance": "story_specific",
+              "relevance_note": "Actual launch-article screenshot of Claude generating a bike-share dashboard with metrics and charts. Clear, story-specific dashboard product visual preferred over secondary slash-command image."
+            }
+          }
+        },
+        "sha256": "2b578b4ec961a32103b246a74cb4ddd693f94bbb3d4a793810a9c33fcd812730",
+        "reviewed_at": "2026-10-08T19:46:12.254347+00:00",
+        "operation_id": "2a2d37368eb3a67afce6c56b2c58f2d41123b9006b804d5fc2d9370853afd712"
       }
     ]
   }
