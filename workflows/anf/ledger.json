@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 200,
-  "updated_at": "2026-10-08T20:27:58.741475+00:00",
-  "next_id": 70,
+  "generation": 201,
+  "updated_at": "2026-10-08T20:31:04.030038+00:00",
+  "next_id": 71,
   "records": [
     {
       "id": 1,
@@ -933,6 +933,19 @@
           "sha256": "0bbd10d55f9b889bef25889b91dd63544480b411ca8544d752219333c5fbe7ed",
           "source": "Anthropic",
           "request_id": "6b484dae071a4a3ab9d3fb99299a2067d3172fe1bded455941c73ec439254f41",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "revisions": [
+        {
+          "created_at": "2026-10-08T20:31:04.030038+00:00",
+          "block": "Title: Anthropic’s Claude Science Helps Complete UV Sky Map by Predicting Its Missing Third\nURL: https://www.anthropic.com/research/the-missing-map-of-the-sky\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/dde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png\nSummary: Astrophysicist Brice Ménard used Claude Science to combine telescope surveys and estimate the unobserved third of the ultraviolet sky. Anthropic says tests on deliberately hidden observations produced predictions within about 10% of measured values. The educational map distinguishes measured from predicted regions and includes uncertainty estimates; it does not replace new telescope observations.",
+          "sha256": "d03634c74b27fe9d746d2f564ab4ce253abff603c2fdd2c506c6e668bace7d32",
+          "source": "Anthropic",
+          "request_id": "a830f3df9036d6be719b63b63c789655999300be13fa00b828703be628bba313",
           "mode": "standard"
         }
       ]
@@ -2076,13 +2089,21 @@
       ]
     },
     "a830f3df9036d6be719b63b63c789655999300be13fa00b828703be628bba313": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-08T20:27:58.741475+00:00",
       "received_sequence": 65,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-08T20:31:04.030038+00:00",
+      "records": [
+        {
+          "id": 70,
+          "revision": 1,
+          "sha256": "d03634c74b27fe9d746d2f564ab4ce253abff603c2fdd2c506c6e668bace7d32"
+        }
+      ]
     }
   },
   "batches": {
@@ -8201,6 +8222,21 @@
       "result": {
         "status": "received",
         "request_id": "a830f3df9036d6be719b63b63c789655999300be13fa00b828703be628bba313"
+      }
+    },
+    "4d8d2bda61947c6985e4e527ee3e7a35aa9476c9a33ee24d9febe62eec0b33fe": {
+      "sha256": "22bf7b87e155e8b1e59bff24b5791ada2b06f5e1f1d5eff075715e182d9d191f",
+      "result": {
+        "status": "finalized",
+        "request_id": "a830f3df9036d6be719b63b63c789655999300be13fa00b828703be628bba313",
+        "records": [
+          {
+            "id": 70,
+            "revision": 1,
+            "sha256": "d03634c74b27fe9d746d2f564ab4ce253abff603c2fdd2c506c6e668bace7d32"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
