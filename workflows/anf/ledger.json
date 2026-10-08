@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 170,
-  "updated_at": "2026-10-08T01:47:35.038967+00:00",
+  "generation": 171,
+  "updated_at": "2026-10-08T01:48:46.894833+00:00",
   "next_id": 59,
   "records": [
     {
@@ -6967,6 +6967,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a080aca21acc3a4e3ec35c55989944cab175fae0f218ff56ae2a6ef202c2c600": {
+      "sha256": "6acc2119f284b3a7d358f9c85304efbc4ebb7667328c54896f1900aafd50bbff",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 58,
+          "revision": 1,
+          "sha256": "a68d4ea42eaa6a028f8f2b18d01311616394592ad43c21f0d6d1d53a715f2625"
+        },
+        "editorial_sha256": "2c0e9fc9e7c8f0a808d393f52fd516d378738732977392fff632f764c79b1b2f"
+      }
     }
   },
   "migration": {
@@ -8854,6 +8866,58 @@
         "sha256": "73faf1a1f9c9aded3194505d8945654b3b9f40c3739bceaaea66025b25d0b065",
         "reviewed_at": "2026-10-08T00:54:42.886037+00:00",
         "operation_id": "484590c9975abf8cc4b1ffbaf5f5d59ac1856e6b83fd07332f2255eebf1f8db9"
+      }
+    ],
+    "58:1": [
+      {
+        "reference": {
+          "id": 58,
+          "revision": 1,
+          "sha256": "a68d4ea42eaa6a028f8f2b18d01311616394592ad43c21f0d6d1d53a715f2625"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer-facing demonstration of a personalized daily news show with an existing Grok Bot and HeyGen avatar. Connector setup is ancillary; no API implementation, research or developer-tool launch is asserted.",
+            "evidence_sha256": "95dd142817e0086829c20e28ee0e569b4de3fbaf3aa6f7e5c175df56eaa80730"
+          },
+          "quality": {
+            "article": {
+              "url": "https://developers.heygen.com/mcp/grok",
+              "final_url": "https://developers.heygen.com/mcp/grok",
+              "redirect_chain": [
+                "https://developers.heygen.com/mcp/grok"
+              ],
+              "status": "accessible_here",
+              "checked_at": "2026-10-08T01:47:11.085427+00:00",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "be22db1a5aec000123cf798ef006bce9945b1290557587ec83221a4f29695173"
+            },
+            "image": {
+              "url": "https://heygen-1fa696a7.mintlify.app/_mintlify/api/og/v2?division=Documentation&title=Grok&description=Connect+HeyGen+and+HyperFrames+to+Grok+and+make+videos+from+the+chat.&theme=0718f11444b0136e541458d6&signature=1757331cc480260dd876b6c4242a284c45afc9f329abb5fe180364663fe2dd88",
+              "final_url": "https://heygen-1fa696a7.mintlify.app/_mintlify/api/og/v2?division=Documentation&title=Grok&description=Connect+HeyGen+and+HyperFrames+to+Grok+and+make+videos+from+the+chat.&theme=0718f11444b0136e541458d6&signature=1757331cc480260dd876b6c4242a284c45afc9f329abb5fe180364663fe2dd88",
+              "redirect_chain": [
+                "https://heygen-1fa696a7.mintlify.app/_mintlify/api/og/v2?division=Documentation&title=Grok&description=Connect+HeyGen+and+HyperFrames+to+Grok+and+make+videos+from+the+chat.&theme=0718f11444b0136e541458d6&signature=1757331cc480260dd876b6c4242a284c45afc9f329abb5fe180364663fe2dd88"
+              ],
+              "content_type": "image/png",
+              "image_bytes_sha256": "be3f7dd28fa30a9b6dc7f51337ef36e89eb92d81518348bb9a80539553ff9302",
+              "checked_at": "2026-10-08T01:46:46.932553+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Official Grok integration documentation card; legible HeyGen for Developers branding, Grok title, and text describing video creation in Grok. Selected over generic integration-site card and tiny Grok icon. Exact demo media is on policy-blocked twimg host.",
+              "evidence_sha256": "51c18cd679455d499cc8575fe3eaf78217e755dea13de2020aac4b00e523aab2"
+            }
+          }
+        },
+        "sha256": "2c0e9fc9e7c8f0a808d393f52fd516d378738732977392fff632f764c79b1b2f",
+        "reviewed_at": "2026-10-08T01:48:46.894833+00:00",
+        "operation_id": "a080aca21acc3a4e3ec35c55989944cab175fae0f218ff56ae2a6ef202c2c600"
       }
     ]
   }
