@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 169,
-  "updated_at": "2026-10-08T01:45:00.582216+00:00",
-  "next_id": 58,
+  "generation": 170,
+  "updated_at": "2026-10-08T01:47:35.038967+00:00",
+  "next_id": 59,
   "records": [
     {
       "id": 1,
@@ -775,6 +775,19 @@
           "sha256": "d323ddebe74e22194c6333b2c71d4b78d1e4cec91668425b7e636ebabd899fdc",
           "source": "Crypto Briefing",
           "request_id": "9b01d9ecdba1e51048e51ae08ab8ee6bb0e6f324734b09c4e990ecc330683f71",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "revisions": [
+        {
+          "created_at": "2026-10-08T01:47:35.038967+00:00",
+          "block": "Title: HeyGen Shows Grok Bot Creating Personalized News Videos\nURL: https://developers.heygen.com/mcp/grok\nImage URL: https://heygen-1fa696a7.mintlify.app/_mintlify/api/og/v2?division=Documentation&title=Grok&description=Connect+HeyGen+and+HyperFrames+to+Grok+and+make+videos+from+the+chat.&theme=0718f11444b0136e541458d6&signature=1757331cc480260dd876b6c4242a284c45afc9f329abb5fe180364663fe2dd88\nSummary: HeyGen demonstrated a Grok Bot routine that turns news from X into a daily video show hosted by the user’s AI avatar. Users add HeyGen’s MCP server as a custom connector and set a morning routine. The integration requires a paid Grok plan and uses credits from the connected HeyGen account.",
+          "sha256": "a68d4ea42eaa6a028f8f2b18d01311616394592ad43c21f0d6d1d53a715f2625",
+          "source": "HeyGen",
+          "request_id": "93dde6d26b7ea0ca1892e18610a9a458bb8a7548cd35a7ff3a74274a345f485a",
           "mode": "standard"
         }
       ]
@@ -1737,13 +1750,21 @@
       ]
     },
     "93dde6d26b7ea0ca1892e18610a9a458bb8a7548cd35a7ff3a74274a345f485a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-08T01:44:43.576064+00:00",
       "received_sequence": 55,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-08T01:47:35.038967+00:00",
+      "records": [
+        {
+          "id": 58,
+          "revision": 1,
+          "sha256": "a68d4ea42eaa6a028f8f2b18d01311616394592ad43c21f0d6d1d53a715f2625"
+        }
+      ]
     },
     "aa7699f7dd5b6de11f31d7a6e8243b3631ea42fda5d7f3b0cd51b24f2edd6d94": {
       "status": "received",
@@ -6930,6 +6951,21 @@
       "result": {
         "status": "received",
         "request_id": "aa7699f7dd5b6de11f31d7a6e8243b3631ea42fda5d7f3b0cd51b24f2edd6d94"
+      }
+    },
+    "a4548d8a141a8a15a0662b7f3e797ee9f2e93db2d5974ddca5eb38422535f706": {
+      "sha256": "3547c778fa830d232b60f70411fd4b8b85f86192aa3ccf72df62c1a8c02fd055",
+      "result": {
+        "status": "finalized",
+        "request_id": "93dde6d26b7ea0ca1892e18610a9a458bb8a7548cd35a7ff3a74274a345f485a",
+        "records": [
+          {
+            "id": 58,
+            "revision": 1,
+            "sha256": "a68d4ea42eaa6a028f8f2b18d01311616394592ad43c21f0d6d1d53a715f2625"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
