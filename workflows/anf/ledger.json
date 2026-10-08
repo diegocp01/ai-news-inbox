@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 190,
-  "updated_at": "2026-10-08T17:18:58.504185+00:00",
-  "next_id": 66,
+  "generation": 191,
+  "updated_at": "2026-10-08T17:20:11.721549+00:00",
+  "next_id": 67,
   "records": [
     {
       "id": 1,
@@ -881,6 +881,19 @@
           "sha256": "396e65eb03bfecfae790b81717ec3e01c3970d8e38e43b934bec04fde3855a93",
           "source": "Robostart",
           "request_id": "13ca888fb91d43e22602475811b7399ab13717291e0d2ccbf086b00ab7e75b62",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "revisions": [
+        {
+          "created_at": "2026-10-08T17:20:11.721549+00:00",
+          "block": "Title: Grok Bot Adds Shopify Store Management\nURL: https://github.com/cursor/plugins/blob/main/third_party/shopify-store/README.md\nImage URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628\nSummary: Grok Bot’s Shopify connector lets merchants check orders, track inventory and update product listings through chat. Available in Grok Bot 0.49 or newer, it requires Shopify sign-in and approved store access. Its instructions require user confirmation before changes to products, inventory, discounts or collections.",
+          "sha256": "c16eb6f1dd71fcaf4bb030209f018e8bea3bbb2c70a778763240a98dff3cd559",
+          "source": "Cursor / Grok Bot",
+          "request_id": "8c92bfcddd4e01ba44d27a24f9a708e77b630531daf44d7a2d29ea6f5e1e3628",
           "mode": "standard"
         }
       ]
@@ -1956,13 +1969,21 @@
       ]
     },
     "8c92bfcddd4e01ba44d27a24f9a708e77b630531daf44d7a2d29ea6f5e1e3628": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-08T17:15:18+00:00",
       "received_sequence": 61,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-08T17:20:11.721549+00:00",
+      "records": [
+        {
+          "id": 66,
+          "revision": 1,
+          "sha256": "c16eb6f1dd71fcaf4bb030209f018e8bea3bbb2c70a778763240a98dff3cd559"
+        }
+      ]
     },
     "75c85e102a0de080c4d86e0a3b90f0d263f5a7712ced07a379efa1cc662c42eb": {
       "status": "received",
@@ -7977,6 +7998,21 @@
       "result": {
         "status": "received",
         "request_id": "e22c61fa8c6c8cb4a392fd60832a628259fd4d5238ddb993298934b374d2e83f"
+      }
+    },
+    "6b49aa2aed445bee753ff8bc6dc1749ab7f430b3c5ddfe71baf7061a90c1f27f": {
+      "sha256": "88bb19f8157ad3bf89b2553a6a3ec3c77cf54ebf08dac0927c9030d6f685dd9b",
+      "result": {
+        "status": "finalized",
+        "request_id": "8c92bfcddd4e01ba44d27a24f9a708e77b630531daf44d7a2d29ea6f5e1e3628",
+        "records": [
+          {
+            "id": 66,
+            "revision": 1,
+            "sha256": "c16eb6f1dd71fcaf4bb030209f018e8bea3bbb2c70a778763240a98dff3cd559"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
