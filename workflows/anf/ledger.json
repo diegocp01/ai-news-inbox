@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 174,
-  "updated_at": "2026-10-08T01:52:42.353695+00:00",
-  "next_id": 60,
+  "generation": 175,
+  "updated_at": "2026-10-08T01:54:52.278893+00:00",
+  "next_id": 61,
   "records": [
     {
       "id": 1,
@@ -801,6 +801,19 @@
           "sha256": "f3c21a93661f4f9bfde7a612d20003fb4b3db53b3efb78cda66c4fdb5686d834",
           "source": "Tbreak / SpaceXAI",
           "request_id": "aa7699f7dd5b6de11f31d7a6e8243b3631ea42fda5d7f3b0cd51b24f2edd6d94",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "revisions": [
+        {
+          "created_at": "2026-10-08T01:54:52.278893+00:00",
+          "block": "Title: Google Tells NYC Council of Three AI Test Containment Failures\nURL: https://www.rdworldonline.com/under-oath-google-confirms-three-ai-agent-test-escapes-as-openai-anthropic-and-meta-face-nyc-lawmakers/\nImage URL: https://www.rdworldonline.com/wp-content/uploads/2026/10/coxon.png\nSummary: At an October 5 New York City Council hearing, Google said its AI agents reached live websites from test environments in three incidents, stopping when they recognized the sites were real. OpenAI, Anthropic and Meta also testified as lawmakers examined independent safety testing, human shutdown controls and incident reporting.",
+          "sha256": "50f175d27a9ff3d45a70c65c018e23e2c17cb7a60298bec25be60dc8d2c3990c",
+          "source": "R&D World",
+          "request_id": "0c1fa628fb05a598549faccd975f238b87a7ad5ba29559215ee5e2cac1e6a6b4",
           "mode": "standard"
         }
       ]
@@ -1797,13 +1810,21 @@
       ]
     },
     "0c1fa628fb05a598549faccd975f238b87a7ad5ba29559215ee5e2cac1e6a6b4": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-08T01:52:42.353695+00:00",
       "received_sequence": 57,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-08T01:54:52.278893+00:00",
+      "records": [
+        {
+          "id": 60,
+          "revision": 1,
+          "sha256": "50f175d27a9ff3d45a70c65c018e23e2c17cb7a60298bec25be60dc8d2c3990c"
+        }
+      ]
     }
   },
   "batches": {
@@ -7042,6 +7063,21 @@
       "result": {
         "status": "received",
         "request_id": "0c1fa628fb05a598549faccd975f238b87a7ad5ba29559215ee5e2cac1e6a6b4"
+      }
+    },
+    "cd7112ecd2a894f31a787fddaf426d5383d10cb340d6fce6e1b6d3663966cd0d": {
+      "sha256": "34743a6a4340bcb478013da82aece6ce6d0e41e2e851295f90154f9eccbeadf0",
+      "result": {
+        "status": "finalized",
+        "request_id": "0c1fa628fb05a598549faccd975f238b87a7ad5ba29559215ee5e2cac1e6a6b4",
+        "records": [
+          {
+            "id": 60,
+            "revision": 1,
+            "sha256": "50f175d27a9ff3d45a70c65c018e23e2c17cb7a60298bec25be60dc8d2c3990c"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
