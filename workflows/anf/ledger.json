@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 197,
-  "updated_at": "2026-10-08T19:33:25.041769+00:00",
-  "next_id": 69,
+  "generation": 198,
+  "updated_at": "2026-10-08T19:44:53.262797+00:00",
+  "next_id": 70,
   "records": [
     {
       "id": 1,
@@ -920,6 +920,19 @@
           "sha256": "3527d3299cd0ff8d26d79548be98daffdd116e3f1670734ac54353bac9f037e8",
           "source": "DeepMind Institute",
           "request_id": "e22c61fa8c6c8cb4a392fd60832a628259fd4d5238ddb993298934b374d2e83f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "revisions": [
+        {
+          "created_at": "2026-10-08T19:44:53.262797+00:00",
+          "block": "Title: Claude Adds Live Dashboards and Animated Explainers\nURL: https://claude.com/resources/articles/dashboards-and-motion\nImage URL: https://assets.claude.com/7688d4d3b888c17cf4b3553f537f291882a92656.png\nSummary: Anthropic introduced Claude Dashboards in beta on paid plans and Claude Motion on Team and Enterprise. Dashboards connect to business data and refresh automatically; Motion creates editable, code-based animations exportable as MP4s. Docs, Slides, and Design are out of beta and available on all plans, including Free.",
+          "sha256": "0bbd10d55f9b889bef25889b91dd63544480b411ca8544d752219333c5fbe7ed",
+          "source": "Anthropic",
+          "request_id": "6b484dae071a4a3ab9d3fb99299a2067d3172fe1bded455941c73ec439254f41",
           "mode": "standard"
         }
       ]
@@ -2046,13 +2059,21 @@
       ]
     },
     "6b484dae071a4a3ab9d3fb99299a2067d3172fe1bded455941c73ec439254f41": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-08T19:33:25.041769+00:00",
       "received_sequence": 64,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-08T19:44:53.262797+00:00",
+      "records": [
+        {
+          "id": 69,
+          "revision": 1,
+          "sha256": "0bbd10d55f9b889bef25889b91dd63544480b411ca8544d752219333c5fbe7ed"
+        }
+      ]
     }
   },
   "batches": {
@@ -8137,6 +8158,21 @@
       "result": {
         "status": "received",
         "request_id": "6b484dae071a4a3ab9d3fb99299a2067d3172fe1bded455941c73ec439254f41"
+      }
+    },
+    "6b30104fb7dd852789a6d8ba7f4b960a0ecdd5e4c4d32d540ae79aa943228d95": {
+      "sha256": "bb2d4f05ffa1ac13c7b5c2669f550b57d8ccbe933f29e4e0d6715af2517a91b7",
+      "result": {
+        "status": "finalized",
+        "request_id": "6b484dae071a4a3ab9d3fb99299a2067d3172fe1bded455941c73ec439254f41",
+        "records": [
+          {
+            "id": 69,
+            "revision": 1,
+            "sha256": "0bbd10d55f9b889bef25889b91dd63544480b411ca8544d752219333c5fbe7ed"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
