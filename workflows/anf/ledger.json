@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 183,
-  "updated_at": "2026-10-08T12:18:34+00:00",
-  "next_id": 63,
+  "generation": 184,
+  "updated_at": "2026-10-08T12:20:40.834156+00:00",
+  "next_id": 65,
   "records": [
     {
       "id": 1,
@@ -841,6 +841,34 @@
           "source": "arXiv",
           "request_id": "0c2f83868e86b400f6930740ef8f569df24bf163443fef40fc9f851522d10e31",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "revisions": [
+        {
+          "created_at": "2026-10-08T12:20:40.834156+00:00",
+          "block": "Title: Biohub Expands Virtual Biology Initiative with $1.8 Billion Commitment\nURL: https://biohub.org/news/virtual-biology-initiative-expansion/\nImage URL: https://biohub.org/wp-content/uploads/sites/32/2026/10/VBI-wordmark-Jade-on-dark_Social-Share_1200x630@1x.png\nSummary: Biohub says its expanded Virtual Biology Initiative brings together $1.8 billion in funding, existing data, computing and measurement technology. Partners include the U.S. Department of Energy, National Institutes of Health, Google DeepMind, Meta and Isomorphic Labs. The effort aims to build AI models that predict how cells respond to changes, using biological datasets intended for open access.",
+          "sha256": "6350f2a9de00bffaf7cd2a15c0eac3d84ae21fd3434d190ab2593dce82cf34c8",
+          "source": "biohub.org",
+          "request_id": "1694bdb3329f7d6de47c7e281bc491d67ec1d3fbe39372537363454a38ea7299",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "revisions": [
+        {
+          "created_at": "2026-10-08T12:20:40.834156+00:00",
+          "block": "Title: Musk Says Grok Bot Will Use Outside AI Models\nURL: https://www.thinkfacility.com/blog/grok-bot-will-use-claude-opus-midjourney-suno/\nImage URL: https://www.thinkfacility.com/img/briefs/grok-bot-will-use-claude-opus-midjourney-suno/grok-august-2025.jpg\nSummary: Elon Musk said Grok Bot will use outside AI models and services, including Anthropic’s Claude, Midjourney and Suno. He said the system would choose whichever option was most likely to produce the best result for each task. His announcement did not specify a start date or explain which tasks would go to each provider.",
+          "sha256": "0b34d9190f95ee39bcd534a184e76d7ccd523d31f8135c0c61c5361fce2a1884",
+          "source": "thinkfacility.com",
+          "request_id": "1694bdb3329f7d6de47c7e281bc491d67ec1d3fbe39372537363454a38ea7299",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -1853,14 +1881,27 @@
       ]
     },
     "1694bdb3329f7d6de47c7e281bc491d67ec1d3fbe39372537363454a38ea7299": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-08T12:12:16.676597+00:00",
       "received_sequence": 58,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-08T12:20:40.834156+00:00",
+      "records": [
+        {
+          "id": 63,
+          "revision": 1,
+          "sha256": "6350f2a9de00bffaf7cd2a15c0eac3d84ae21fd3434d190ab2593dce82cf34c8"
+        },
+        {
+          "id": 64,
+          "revision": 1,
+          "sha256": "0b34d9190f95ee39bcd534a184e76d7ccd523d31f8135c0c61c5361fce2a1884"
+        }
+      ]
     },
     "0c2f83868e86b400f6930740ef8f569df24bf163443fef40fc9f851522d10e31": {
       "status": "finalized",
@@ -7801,6 +7842,26 @@
             "id": 62,
             "revision": 1,
             "sha256": "06dae115b8eb0f954e698d021309caab21726e5e0f3ab463e0c1f6a4ea124c03"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "620a1fdcd28bd12d5d89a325583a87eeba8f773e747acd259fb96e8f254c5ed7": {
+      "sha256": "3c876f3ac06d5e161e9deb2f11f67ea936e0a00e80c6c5570035a3bacbf9e089",
+      "result": {
+        "status": "finalized",
+        "request_id": "1694bdb3329f7d6de47c7e281bc491d67ec1d3fbe39372537363454a38ea7299",
+        "records": [
+          {
+            "id": 63,
+            "revision": 1,
+            "sha256": "6350f2a9de00bffaf7cd2a15c0eac3d84ae21fd3434d190ab2593dce82cf34c8"
+          },
+          {
+            "id": 64,
+            "revision": 1,
+            "sha256": "0b34d9190f95ee39bcd534a184e76d7ccd523d31f8135c0c61c5361fce2a1884"
           }
         ],
         "duplicates": []
