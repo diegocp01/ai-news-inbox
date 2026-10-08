@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 175,
-  "updated_at": "2026-10-08T01:54:52.278893+00:00",
+  "generation": 176,
+  "updated_at": "2026-10-08T01:56:05.469049+00:00",
   "next_id": 61,
   "records": [
     {
@@ -7079,6 +7079,18 @@
         ],
         "duplicates": []
       }
+    },
+    "97f9e83aba6385f43ef037e4d91334978c2e60baf27427bfc5980711f32e8ddc": {
+      "sha256": "88c19bcf756935bd0aa8ba9544d3fd90b6814014c6413f216ff7e8f80f8ec748",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 60,
+          "revision": 1,
+          "sha256": "50f175d27a9ff3d45a70c65c018e23e2c17cb7a60298bec25be60dc8d2c3990c"
+        },
+        "editorial_sha256": "8c98da5561d4225efffeada3f983ece53c72d91ceb8734e0be358eb427110259"
+      }
     }
   },
   "migration": {
@@ -9072,6 +9084,26 @@
         "sha256": "2db97d1c74d7d328d599e4e7770075293bcbb47d4f858693064431d4ef83218e",
         "reviewed_at": "2026-10-08T01:51:33.632900+00:00",
         "operation_id": "ef5973f73ab8aa5cc2ff6801a1829099c353242a82a947623bc7fdee1a5f86cf"
+      }
+    ],
+    "60:1": [
+      {
+        "reference": {
+          "id": 60,
+          "revision": 1,
+          "sha256": "50f175d27a9ff3d45a70c65c018e23e2c17cb7a60298bec25be60dc8d2c3990c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Reports legislative testimony on AI safety and proposed oversight for a general news audience.",
+            "evidence_sha256": "b83e1f7104ebebf1266591ea524dd03ba45cd05cfea8ac49c613bffd656679e3"
+          }
+        },
+        "sha256": "8c98da5561d4225efffeada3f983ece53c72d91ceb8734e0be358eb427110259",
+        "reviewed_at": "2026-10-08T01:56:05.469049+00:00",
+        "operation_id": "97f9e83aba6385f43ef037e4d91334978c2e60baf27427bfc5980711f32e8ddc"
       }
     ]
   }
