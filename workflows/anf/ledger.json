@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 192,
-  "updated_at": "2026-10-08T17:21:26.550639+00:00",
-  "next_id": 67,
+  "generation": 193,
+  "updated_at": "2026-10-08T19:28:09.104001+00:00",
+  "next_id": 68,
   "records": [
     {
       "id": 1,
@@ -894,6 +894,19 @@
           "sha256": "c16eb6f1dd71fcaf4bb030209f018e8bea3bbb2c70a778763240a98dff3cd559",
           "source": "Cursor / Grok Bot",
           "request_id": "8c92bfcddd4e01ba44d27a24f9a708e77b630531daf44d7a2d29ea6f5e1e3628",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "revisions": [
+        {
+          "created_at": "2026-10-08T19:28:09.104001+00:00",
+          "block": "Title: Anthropic Commits $150 Million for AI-Powered US Science\nURL: https://www.anthropic.com/news/genesis-mission-commitment\nImage URL: https://www.anthropic.com/api/opengraph-illustration?name=Object%20DoubleHelix&backgroundColor=heather\nSummary: Anthropic committed $150 million over three years to the Genesis Mission, a federal initiative using AI for scientific discovery. The support will provide Claude, Claude Code and API credits to hundreds of research projects across more than 15 agencies, alongside training and technical assistance, with priorities including fusion energy and quantum computing.",
+          "sha256": "95d8a38d92e7353dffbf78bac639c3bffa92c3ae8351dbc5b5812dfe1ec07d23",
+          "source": "Anthropic",
+          "request_id": "75c85e102a0de080c4d86e0a3b90f0d263f5a7712ced07a379efa1cc662c42eb",
           "mode": "standard"
         }
       ]
@@ -1986,13 +1999,21 @@
       ]
     },
     "75c85e102a0de080c4d86e0a3b90f0d263f5a7712ced07a379efa1cc662c42eb": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-08T17:17:21.249396+00:00",
       "received_sequence": 62,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-08T19:28:09.104001+00:00",
+      "records": [
+        {
+          "id": 67,
+          "revision": 1,
+          "sha256": "95d8a38d92e7353dffbf78bac639c3bffa92c3ae8351dbc5b5812dfe1ec07d23"
+        }
+      ]
     },
     "e22c61fa8c6c8cb4a392fd60832a628259fd4d5238ddb993298934b374d2e83f": {
       "status": "received",
@@ -8025,6 +8046,21 @@
           "sha256": "c16eb6f1dd71fcaf4bb030209f018e8bea3bbb2c70a778763240a98dff3cd559"
         },
         "editorial_sha256": "47c26f3245ff79af3bdaf0fb9cefd9453e2f82c7ede574b639c16dcadef03773"
+      }
+    },
+    "c6cf415e9249ad5c615887b28465e06cd712d7e3c0c009be7da943b434d7a61b": {
+      "sha256": "3d1f5fcc23d6d5bfb7d7ab644cd6b9d7cb9b9e12de9401e65e40f5864b7b5ec1",
+      "result": {
+        "status": "finalized",
+        "request_id": "75c85e102a0de080c4d86e0a3b90f0d263f5a7712ced07a379efa1cc662c42eb",
+        "records": [
+          {
+            "id": 67,
+            "revision": 1,
+            "sha256": "95d8a38d92e7353dffbf78bac639c3bffa92c3ae8351dbc5b5812dfe1ec07d23"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
