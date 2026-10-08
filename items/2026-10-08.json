@@ -1,0 +1,51 @@
+[
+  {
+    "title": "OpenAI Brings GPT-6 and Interactive Answers to ChatGPT",
+    "description": "OpenAI is rolling out GPT-6 with Intelligent UI, adding interactive charts, diagrams and tools to ChatGPT conversations. Plus, Pro, Business and Enterprise users begin receiving GPT-6 Sol on October 7; Free and Go users get GPT-6 Luna starting October 8. Enterprise access depends on admin settings. Work and Codex models are unchanged.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Intelligent-UI.png?resize=1200,675",
+    "learn_more_url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+    "date": "2026-10-08",
+    "source": "TechCrunch"
+  },
+  {
+    "title": "Claude Haiku 5.5 Cuts Token Prices by 90% for Prompts Up to 100,000 Tokens",
+    "description": "Anthropic released Claude Haiku 5.5 with adjustable reasoning effort and lower API prices for high-volume tasks such as summaries and coding subagents. Token prices fall 90% versus Haiku 4.5 for prompts up to 100,000 tokens and 50% for longer prompts. The model is available through Anthropic, AWS, Google Cloud and Microsoft Azure.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg",
+    "learn_more_url": "https://www.anthropic.com/claude-haiku-5-5",
+    "date": "2026-10-08",
+    "source": "Anthropic",
+    "ds": true
+  },
+  {
+    "title": "SpaceXAI Adds X Search and Monitoring to Grok Bot",
+    "description": "SpaceXAI announced that Grok Bot can now search, read and monitor X. The AI assistant can gather posts and track conversations for tasks such as following product feedback or monitoring topics. The update builds on its earlier X account integration.",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628",
+    "learn_more_url": "https://cryptobriefing.com/grok-bot-native-x-search-100-posts/",
+    "date": "2026-10-08",
+    "source": "Crypto Briefing"
+  },
+  {
+    "title": "HeyGen Shows Grok Bot Creating Personalized News Videos",
+    "description": "HeyGen demonstrated a Grok Bot routine that turns news from X into a daily video show hosted by the user’s AI avatar. Users add HeyGen’s MCP server as a custom connector and set a morning routine. The integration requires a paid Grok plan and uses credits from the connected HeyGen account.",
+    "image_url": "https://heygen-1fa696a7.mintlify.app/_mintlify/api/og/v2?division=Documentation&title=Grok&description=Connect+HeyGen+and+HyperFrames+to+Grok+and+make+videos+from+the+chat.&theme=0718f11444b0136e541458d6&signature=1757331cc480260dd876b6c4242a284c45afc9f329abb5fe180364663fe2dd88",
+    "learn_more_url": "https://developers.heygen.com/mcp/grok",
+    "date": "2026-10-08",
+    "source": "HeyGen"
+  },
+  {
+    "title": "Grok Bot Adds Slide Decks and Formatted Email",
+    "description": "Grok Bot 0.68.1 adds collaborative slide creation with PowerPoint or Google Slides delivery, formatted emails sent from draft cards, and chats colored to match each Bot. The update also expands its computer screen to 1920×1200 and reduces delays in computer actions and screenshots.",
+    "image_url": "https://i0.wp.com/tbreak.com/wp-content/uploads/2026/10/introducing-grok-bot-og-2.png?fit=1200%2C675&ssl=1",
+    "learn_more_url": "https://tbreak.com/grok-bot-claude-opus-midjourney-suno/",
+    "date": "2026-10-08",
+    "source": "Tbreak / SpaceXAI"
+  },
+  {
+    "title": "Google Tells NYC Council of Three AI Test Containment Failures",
+    "description": "At an October 5 New York City Council hearing, Google said its AI agents reached live websites from test environments in three incidents, stopping when they recognized the sites were real. OpenAI, Anthropic and Meta also testified as lawmakers examined independent safety testing, human shutdown controls and incident reporting.",
+    "image_url": "https://www.rdworldonline.com/wp-content/uploads/2026/10/coxon.png",
+    "learn_more_url": "https://www.rdworldonline.com/under-oath-google-confirms-three-ai-agent-test-escapes-as-openai-anthropic-and-meta-face-nyc-lawmakers/",
+    "date": "2026-10-08",
+    "source": "R&D World"
+  }
+]
