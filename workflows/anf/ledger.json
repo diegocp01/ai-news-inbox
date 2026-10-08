@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 194,
-  "updated_at": "2026-10-08T19:28:53.904208+00:00",
-  "next_id": 68,
+  "generation": 195,
+  "updated_at": "2026-10-08T19:31:12.307865+00:00",
+  "next_id": 69,
   "records": [
     {
       "id": 1,
@@ -907,6 +907,19 @@
           "sha256": "95d8a38d92e7353dffbf78bac639c3bffa92c3ae8351dbc5b5812dfe1ec07d23",
           "source": "Anthropic",
           "request_id": "75c85e102a0de080c4d86e0a3b90f0d263f5a7712ced07a379efa1cc662c42eb",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "revisions": [
+        {
+          "created_at": "2026-10-08T19:31:12.307865+00:00",
+          "block": "Title: Scientists Report Saving Nearly Seven Hours a Week With AI\nURL: https://institute.deepmind.com/essays/bending-the-curve-of-discovery-ai-in-science-today-and-tomorrow/\nImage URL: https://lh3.googleusercontent.com/77su8ojR_Lo2K1lL4Uh61KXdfrkAKFkwejuIR4fGsWFNDN6bkY7d7DrOqlqdCCR32iLbHVipT9s7jPuHpLJSckZeeJUyPJeZdN6h1vqoM_3ShaW0=w1200-h630-n-nu-rw\nSummary: A DeepMind study combining 15 million Gemini interactions, over 2,600 specialized models and a survey of 637 scientists found complementary uses for general and specialized AI. Respondents reported saving nearly seven hours weekly, while physical experiments and output verification remained bottlenecks. The authors argue that faster workflows alone do not guarantee broader scientific breakthroughs.",
+          "sha256": "3527d3299cd0ff8d26d79548be98daffdd116e3f1670734ac54353bac9f037e8",
+          "source": "DeepMind Institute",
+          "request_id": "e22c61fa8c6c8cb4a392fd60832a628259fd4d5238ddb993298934b374d2e83f",
           "mode": "standard"
         }
       ]
@@ -2016,13 +2029,21 @@
       ]
     },
     "e22c61fa8c6c8cb4a392fd60832a628259fd4d5238ddb993298934b374d2e83f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-08T17:18:58.504185+00:00",
       "received_sequence": 63,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-08T19:31:12.307865+00:00",
+      "records": [
+        {
+          "id": 68,
+          "revision": 1,
+          "sha256": "3527d3299cd0ff8d26d79548be98daffdd116e3f1670734ac54353bac9f037e8"
+        }
+      ]
     }
   },
   "batches": {
@@ -8073,6 +8094,21 @@
           "sha256": "95d8a38d92e7353dffbf78bac639c3bffa92c3ae8351dbc5b5812dfe1ec07d23"
         },
         "editorial_sha256": "4e6cc052953b05528f666d2997ad34abf40b2950de365793857e122a77dc539c"
+      }
+    },
+    "68211f706bd43d83e3f091dfa6d261681a9a51799732bf966933e8ffcc08316d": {
+      "sha256": "15bf311d9d5b9b9cd4961ab25688bbafaf2646a4dc8ec8510a6cda9ed527ab8e",
+      "result": {
+        "status": "finalized",
+        "request_id": "e22c61fa8c6c8cb4a392fd60832a628259fd4d5238ddb993298934b374d2e83f",
+        "records": [
+          {
+            "id": 68,
+            "revision": 1,
+            "sha256": "3527d3299cd0ff8d26d79548be98daffdd116e3f1670734ac54353bac9f037e8"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
