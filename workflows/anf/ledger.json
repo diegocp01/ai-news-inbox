@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 185,
-  "updated_at": "2026-10-08T16:53:55.057798+00:00",
-  "next_id": 65,
+  "generation": 186,
+  "updated_at": "2026-10-08T16:56:43.668114+00:00",
+  "next_id": 66,
   "records": [
     {
       "id": 1,
@@ -869,6 +869,19 @@
           "request_id": "1694bdb3329f7d6de47c7e281bc491d67ec1d3fbe39372537363454a38ea7299",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "revisions": [
+        {
+          "created_at": "2026-10-08T16:56:43.668114+00:00",
+          "block": "Title: MW Demonstrates Ceiling-Mounted Robots for Household Chores\nURL: https://robotstart.info/article/2026/09/11/382409.html\nImage URL: https://robotstart.info/imgs/zoom1/106640.jpg\nSummary: Japanese startup MW demonstrated ceiling-mounted robotic arms putting away groceries and folding laundry in a home designed around the hardware. A human remotely controlled the Tokyo demonstration; autonomous AI operation remains under development. The rail-mounted design keeps floor space clear, and MW aims to begin selling robot-equipped homes in 2028.",
+          "sha256": "396e65eb03bfecfae790b81717ec3e01c3970d8e38e43b934bec04fde3855a93",
+          "source": "Robostart",
+          "request_id": "13ca888fb91d43e22602475811b7399ab13717291e0d2ccbf086b00ab7e75b62",
+          "mode": "standard"
         }
       ]
     }
@@ -1926,13 +1939,21 @@
       ]
     },
     "13ca888fb91d43e22602475811b7399ab13717291e0d2ccbf086b00ab7e75b62": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-08T16:53:55.057798+00:00",
       "received_sequence": 60,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-08T16:56:43.668114+00:00",
+      "records": [
+        {
+          "id": 65,
+          "revision": 1,
+          "sha256": "396e65eb03bfecfae790b81717ec3e01c3970d8e38e43b934bec04fde3855a93"
+        }
+      ]
     }
   },
   "batches": {
@@ -7881,6 +7902,21 @@
       "result": {
         "status": "received",
         "request_id": "13ca888fb91d43e22602475811b7399ab13717291e0d2ccbf086b00ab7e75b62"
+      }
+    },
+    "c3908d55206d40315b035769df49fcc4bde0afdc7a7596095964fe6c99c9f86c": {
+      "sha256": "11dd213f2cdc42dd78cd3143f6b4abdc0178722ce1e57bc245fcb20ed6e86324",
+      "result": {
+        "status": "finalized",
+        "request_id": "13ca888fb91d43e22602475811b7399ab13717291e0d2ccbf086b00ab7e75b62",
+        "records": [
+          {
+            "id": 65,
+            "revision": 1,
+            "sha256": "396e65eb03bfecfae790b81717ec3e01c3970d8e38e43b934bec04fde3855a93"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
