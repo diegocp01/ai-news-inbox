@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 201,
-  "updated_at": "2026-10-08T20:31:04.030038+00:00",
+  "generation": 202,
+  "updated_at": "2026-10-08T20:32:01.717664+00:00",
   "next_id": 71,
   "records": [
     {
@@ -8238,6 +8238,18 @@
         ],
         "duplicates": []
       }
+    },
+    "184b5e4a2bf398c43d531151a8e441ea350242ca37f66faa0c70f7d28d6d7874": {
+      "sha256": "2e68420b421bd0a3fc544eabea9dc02245736880875a35e92224213f1f3026e2",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 70,
+          "revision": 1,
+          "sha256": "d03634c74b27fe9d746d2f564ab4ce253abff603c2fdd2c506c6e668bace7d32"
+        },
+        "editorial_sha256": "5c014dc36c5b7ac0e54e8ebf0eeb21563a56683aa522ef170b401fe5a014325d"
+      }
     }
   },
   "migration": {
@@ -10415,6 +10427,58 @@
         "sha256": "2b578b4ec961a32103b246a74cb4ddd693f94bbb3d4a793810a9c33fcd812730",
         "reviewed_at": "2026-10-08T19:46:12.254347+00:00",
         "operation_id": "2a2d37368eb3a67afce6c56b2c58f2d41123b9006b804d5fc2d9370853afd712"
+      }
+    ],
+    "70:1": [
+      {
+        "reference": {
+          "id": 70,
+          "revision": 1,
+          "sha256": "d03634c74b27fe9d746d2f564ab4ce253abff603c2fdd2c506c6e668bace7d32"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research workflow explains multi-survey calibration, multiwavelength statistical inpainting, held-out validation and uncertainty in an astronomical data product.",
+            "evidence_sha256": "5b3f860f451f5c778c802dad0432dcca599008f72cb74351e1dbd388d94e80b0"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+              "final_url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+              "redirect_chain": [
+                "https://www.anthropic.com/research/the-missing-map-of-the-sky"
+              ],
+              "checked_at": "2026-10-08T20:29:07+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "5b3f860f451f5c778c802dad0432dcca599008f72cb74351e1dbd388d94e80b0"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/dde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/dde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/dde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png"
+              ],
+              "checked_at": "2026-10-08T20:29:44+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "cb4538f72d4d668cb0d5e7571a9c5caa33cbbf0991550d98da3b0b3f8151631a",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "cbae0c4db7a0acf5ab2cd68d130a0c5e3b740204c6541eae9c02504121f429c5",
+              "relevance": "story_specific",
+              "relevance_note": "Actual 1200x630 purple UV sky-map image, story-specific OpenGraph asset."
+            }
+          }
+        },
+        "sha256": "5c014dc36c5b7ac0e54e8ebf0eeb21563a56683aa522ef170b401fe5a014325d",
+        "reviewed_at": "2026-10-08T20:32:01.717664+00:00",
+        "operation_id": "184b5e4a2bf398c43d531151a8e441ea350242ca37f66faa0c70f7d28d6d7874"
       }
     ]
   }
