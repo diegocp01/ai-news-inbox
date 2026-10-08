@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 182,
-  "updated_at": "2026-10-08T12:14:12+00:00",
-  "next_id": 61,
+  "generation": 183,
+  "updated_at": "2026-10-08T12:18:34+00:00",
+  "next_id": 63,
   "records": [
     {
       "id": 1,
@@ -814,6 +814,32 @@
           "sha256": "50f175d27a9ff3d45a70c65c018e23e2c17cb7a60298bec25be60dc8d2c3990c",
           "source": "R&D World",
           "request_id": "0c1fa628fb05a598549faccd975f238b87a7ad5ba29559215ee5e2cac1e6a6b4",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "revisions": [
+        {
+          "created_at": "2026-10-08T12:18:34+00:00",
+          "block": "Title: Visual History Helps Robots Improve Task Success\nURL: https://arxiv.org/abs/2610.10528\nImage URL: https://arxiv.org/html/2610.10528v1/1_2.png\nSummary: According to Wei Huang and colleagues, Long-WAM combines video prediction pretraining with history-aware robot control. On RoboCasa GR-1, extending visual history to 19.2 seconds increased success from 63.3% to 78.7%. The authors demonstrate real-time manipulation but note that useful history length depends on task and compute.",
+          "sha256": "187e4cb8f6a361054c420338eb179e53b66275082dc5c1a4dade1880342b9480",
+          "source": "arXiv",
+          "request_id": "0c2f83868e86b400f6930740ef8f569df24bf163443fef40fc9f851522d10e31",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "revisions": [
+        {
+          "created_at": "2026-10-08T12:18:34+00:00",
+          "block": "Title: Latent Compression Speeds Up Video Generation in Wan2.1 Tests\nURL: https://arxiv.org/abs/2610.10524\nImage URL: https://cvlab-kaist.github.io/GRACE/static/images/fig2_arch.png\nSummary: Jiyoung Kim and colleagues report that GRACE compresses pretrained video models while preserving alignment between their components. On Wan2.1 image-to-video tests at 480×832, it reduced latency 11.1-fold while approximately matching the original VBench score. Compression can lose small details, and adapting another model requires additional training.",
+          "sha256": "06dae115b8eb0f954e698d021309caab21726e5e0f3ab463e0c1f6a4ea124c03",
+          "source": "arXiv",
+          "request_id": "0c2f83868e86b400f6930740ef8f569df24bf163443fef40fc9f851522d10e31",
           "mode": "standard"
         }
       ]
@@ -1837,13 +1863,26 @@
       "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
     },
     "0c2f83868e86b400f6930740ef8f569df24bf163443fef40fc9f851522d10e31": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-08T12:14:12+00:00",
       "received_sequence": 59,
       "expected_items": 2,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-08T12:18:34+00:00",
+      "records": [
+        {
+          "id": 61,
+          "revision": 1,
+          "sha256": "187e4cb8f6a361054c420338eb179e53b66275082dc5c1a4dade1880342b9480"
+        },
+        {
+          "id": 62,
+          "revision": 1,
+          "sha256": "06dae115b8eb0f954e698d021309caab21726e5e0f3ab463e0c1f6a4ea124c03"
+        }
+      ]
     }
   },
   "batches": {
@@ -7745,6 +7784,26 @@
       "result": {
         "status": "received",
         "request_id": "0c2f83868e86b400f6930740ef8f569df24bf163443fef40fc9f851522d10e31"
+      }
+    },
+    "0c2f83868e86b400f6930740ef8f569df24bf163443fef40fc9f851522d10e31-finalize": {
+      "sha256": "575b1633194f944571ce2f89dc4637f91c93f5b602fd1bb3cd1b2684a9e9cacd",
+      "result": {
+        "status": "finalized",
+        "request_id": "0c2f83868e86b400f6930740ef8f569df24bf163443fef40fc9f851522d10e31",
+        "records": [
+          {
+            "id": 61,
+            "revision": 1,
+            "sha256": "187e4cb8f6a361054c420338eb179e53b66275082dc5c1a4dade1880342b9480"
+          },
+          {
+            "id": 62,
+            "revision": 1,
+            "sha256": "06dae115b8eb0f954e698d021309caab21726e5e0f3ab463e0c1f6a4ea124c03"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
