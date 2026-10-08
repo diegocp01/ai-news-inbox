@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 191,
-  "updated_at": "2026-10-08T17:20:11.721549+00:00",
+  "generation": 192,
+  "updated_at": "2026-10-08T17:21:26.550639+00:00",
   "next_id": 67,
   "records": [
     {
@@ -8014,6 +8014,18 @@
         ],
         "duplicates": []
       }
+    },
+    "8755764ff32929f39237b9131158191f6a40d95bca74892294abe97f6af708fb": {
+      "sha256": "ae1e8686e33802d642acd4d14e8a10a6df1a0060c5e1ee3fb633a13a8e944d95",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 66,
+          "revision": 1,
+          "sha256": "c16eb6f1dd71fcaf4bb030209f018e8bea3bbb2c70a778763240a98dff3cd559"
+        },
+        "editorial_sha256": "47c26f3245ff79af3bdaf0fb9cefd9453e2f82c7ede574b639c16dcadef03773"
+      }
     }
   },
   "migration": {
@@ -10047,6 +10059,26 @@
         "sha256": "9a3bf09478f252f5fbb824971867547abf6bedfa0420582f18620ba9f1e37e10",
         "reviewed_at": "2026-10-08T16:58:05.088523+00:00",
         "operation_id": "5d42a5bced475b073455c2d002ca46f08ece5e1604e3934f0fea0056008dcaba"
+      }
+    ],
+    "66:1": [
+      {
+        "reference": {
+          "id": 66,
+          "revision": 1,
+          "sha256": "c16eb6f1dd71fcaf4bb030209f018e8bea3bbb2c70a778763240a98dff3cd559"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Shopify merchant operations through a conversational assistant; intended for store owners, distinct from the developer-focused Shopify AI Toolkit.",
+            "evidence_sha256": "e8eed1880c3eb1002e2dadb3113fa04ff2dafd22908f343b93f48c4f7334f57c"
+          }
+        },
+        "sha256": "47c26f3245ff79af3bdaf0fb9cefd9453e2f82c7ede574b639c16dcadef03773",
+        "reviewed_at": "2026-10-08T17:21:26.550639+00:00",
+        "operation_id": "8755764ff32929f39237b9131158191f6a40d95bca74892294abe97f6af708fb"
       }
     ]
   }
