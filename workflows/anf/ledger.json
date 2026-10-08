@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 193,
-  "updated_at": "2026-10-08T19:28:09.104001+00:00",
+  "generation": 194,
+  "updated_at": "2026-10-08T19:28:53.904208+00:00",
   "next_id": 68,
   "records": [
     {
@@ -8062,6 +8062,18 @@
         ],
         "duplicates": []
       }
+    },
+    "751ef5a0844e0aa15cca734621356d862546156809f95d75c3def6decd257355": {
+      "sha256": "fb7cdceebcf990eb73abd59ccebd74e7daa96758fc2fbe28b9042c3d2f1c44f7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 67,
+          "revision": 1,
+          "sha256": "95d8a38d92e7353dffbf78bac639c3bffa92c3ae8351dbc5b5812dfe1ec07d23"
+        },
+        "editorial_sha256": "4e6cc052953b05528f666d2997ad34abf40b2950de365793857e122a77dc539c"
+      }
     }
   },
   "migration": {
@@ -10115,6 +10127,26 @@
         "sha256": "47c26f3245ff79af3bdaf0fb9cefd9453e2f82c7ede574b639c16dcadef03773",
         "reviewed_at": "2026-10-08T17:21:26.550639+00:00",
         "operation_id": "8755764ff32929f39237b9131158191f6a40d95bca74892294abe97f6af708fb"
+      }
+    ],
+    "67:1": [
+      {
+        "reference": {
+          "id": 67,
+          "revision": 1,
+          "sha256": "95d8a38d92e7353dffbf78bac639c3bffa92c3ae8351dbc5b5812dfe1ec07d23"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public announcement of a three-year federal science funding and access commitment; mentions Claude Code and API credits as support, without technical methods, implementation guidance or a developer release.",
+            "evidence_sha256": "98615308a7e7835d2677d9e4636b12b3d1cb21a840db89e92dbd912cb28214e2"
+          }
+        },
+        "sha256": "4e6cc052953b05528f666d2997ad34abf40b2950de365793857e122a77dc539c",
+        "reviewed_at": "2026-10-08T19:28:53.904208+00:00",
+        "operation_id": "751ef5a0844e0aa15cca734621356d862546156809f95d75c3def6decd257355"
       }
     ]
   }
