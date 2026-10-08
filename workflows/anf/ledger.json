@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 172,
-  "updated_at": "2026-10-08T01:50:51.025212+00:00",
+  "generation": 173,
+  "updated_at": "2026-10-08T01:51:33.632900+00:00",
   "next_id": 60,
   "records": [
     {
@@ -7015,6 +7015,18 @@
         ],
         "duplicates": []
       }
+    },
+    "ef5973f73ab8aa5cc2ff6801a1829099c353242a82a947623bc7fdee1a5f86cf": {
+      "sha256": "c28147144b2b7249f480c9d84ab04115c232f2ba2c17951d519bc241ba24d4c8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 59,
+          "revision": 1,
+          "sha256": "f3c21a93661f4f9bfde7a612d20003fb4b3db53b3efb78cda66c4fdb5686d834"
+        },
+        "editorial_sha256": "2db97d1c74d7d328d599e4e7770075293bcbb47d4f858693064431d4ef83218e"
+      }
     }
   },
   "migration": {
@@ -8954,6 +8966,60 @@
         "sha256": "2c0e9fc9e7c8f0a808d393f52fd516d378738732977392fff632f764c79b1b2f",
         "reviewed_at": "2026-10-08T01:48:46.894833+00:00",
         "operation_id": "a080aca21acc3a4e3ec35c55989944cab175fae0f218ff56ae2a6ef202c2c600"
+      }
+    ],
+    "59:1": [
+      {
+        "reference": {
+          "id": 59,
+          "revision": 1,
+          "sha256": "f3c21a93661f4f9bfde7a612d20003fb4b3db53b3efb78cda66c4fdb5686d834"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer AI assistant productivity features for presentations, email, chats and computer use.",
+            "evidence_sha256": "25ea9016b7863af7ff2eed874282abfa2da197b47b3b2d5f8c38fe1321010588"
+          },
+          "quality": {
+            "article": {
+              "url": "https://tbreak.com/grok-bot-claude-opus-midjourney-suno/",
+              "final_url": "https://tbreak.com/grok-bot-claude-opus-midjourney-suno/",
+              "redirect_chain": [
+                "https://tbreak.com/grok-bot-claude-opus-midjourney-suno/"
+              ],
+              "checked_at": "2026-10-08T01:48:34.047781+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "25ea9016b7863af7ff2eed874282abfa2da197b47b3b2d5f8c38fe1321010588"
+            },
+            "image": {
+              "url": "https://i0.wp.com/tbreak.com/wp-content/uploads/2026/10/introducing-grok-bot-og-2.png?fit=1200%2C675&ssl=1",
+              "final_url": "https://i0.wp.com/tbreak.com/wp-content/uploads/2026/10/introducing-grok-bot-og-2.png?fit=1200%2C675&ssl=1",
+              "redirect_chain": [
+                "https://i0.wp.com/tbreak.com/wp-content/uploads/2026/10/introducing-grok-bot-og-2.png?fit=1200%2C675&ssl=1"
+              ],
+              "checked_at": "2026-10-08T01:49:36.086138+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "25ea9016b7863af7ff2eed874282abfa2da197b47b3b2d5f8c38fe1321010588",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 675,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "6aac96e6a2292a17f0918ed0e926211ffe104e89e6b6f21c71f5de33b2965462",
+              "relevance": "official_logo",
+              "relevance_note": "Official Grok Bot product wordmark/logo on blue background. No release-specific art exposed by primary changelog.",
+              "story_specific_available": false,
+              "fallback_reason": "Official changelog has no release-specific imagery. Its official Bot wordmark is also the supporting Tbreak article hero; the other in-article figure concerns Grok4.6 and is unrelated."
+            }
+          }
+        },
+        "sha256": "2db97d1c74d7d328d599e4e7770075293bcbb47d4f858693064431d4ef83218e",
+        "reviewed_at": "2026-10-08T01:51:33.632900+00:00",
+        "operation_id": "ef5973f73ab8aa5cc2ff6801a1829099c353242a82a947623bc7fdee1a5f86cf"
       }
     ]
   }
