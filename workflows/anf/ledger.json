@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 166,
-  "updated_at": "2026-10-08T00:53:02.229946+00:00",
+  "generation": 167,
+  "updated_at": "2026-10-08T00:54:42.886037+00:00",
   "next_id": 58,
   "records": [
     {
@@ -6887,6 +6887,18 @@
         ],
         "duplicates": []
       }
+    },
+    "484590c9975abf8cc4b1ffbaf5f5d59ac1856e6b83fd07332f2255eebf1f8db9": {
+      "sha256": "5cf7ec9cbe3e6e291d8f151c3ac438ea3343ada9570dbac9d664d11c827c8067",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 57,
+          "revision": 1,
+          "sha256": "d323ddebe74e22194c6333b2c71d4b78d1e4cec91668425b7e636ebabd899fdc"
+        },
+        "editorial_sha256": "73faf1a1f9c9aded3194505d8945654b3b9f40c3739bceaaea66025b25d0b065"
+      }
     }
   },
   "migration": {
@@ -8720,6 +8732,60 @@
         "sha256": "ecffb437abaa5d31d0abba8195aff9e21df01e70d9379b6a4e74dd63edb8bbb5",
         "reviewed_at": "2026-10-07T19:39:04.297395+00:00",
         "operation_id": "23344d634d375f48218f311cb628b441920196ae61a387c5e450908ab0e8f206"
+      }
+    ],
+    "57:1": [
+      {
+        "reference": {
+          "id": 57,
+          "revision": 1,
+          "sha256": "d323ddebe74e22194c6333b2c71d4b78d1e4cec91668425b7e636ebabd899fdc"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General consumer AI agent feature, no API/research/implementation focus.",
+            "evidence_sha256": "3151f1ecaeb968d0682bdf48be72e4755a0d6a648d16c9d9aae8d8962557272b"
+          },
+          "quality": {
+            "article": {
+              "url": "https://cryptobriefing.com/grok-bot-native-x-search-100-posts/",
+              "final_url": "https://cryptobriefing.com/grok-bot-native-x-search-100-posts/",
+              "redirect_chain": [
+                "https://cryptobriefing.com/grok-bot-native-x-search-100-posts/"
+              ],
+              "checked_at": "2026-10-08T00:51:28+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "3151f1ecaeb968d0682bdf48be72e4755a0d6a648d16c9d9aae8d8962557272b"
+            },
+            "image": {
+              "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628",
+              "final_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628",
+              "redirect_chain": [
+                "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628"
+              ],
+              "checked_at": "2026-10-08T00:52:21+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "3151f1ecaeb968d0682bdf48be72e4755a0d6a648d16c9d9aae8d8962557272b",
+              "content_type": "image/jpeg",
+              "width": 1200,
+              "height": 628,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "8998bd22e779cbde7b2566d85739ad75a94aa95ad60cee4b19270a10de48b817",
+              "relevance": "topic_specific",
+              "relevance_note": "Verified Grok Bot app icon from 9to5Mac, matching the product branding visible in the official announcement video.",
+              "story_specific_available": false,
+              "fallback_reason": "Official event media use policy-blocked twimg.com; matching coverage exposes unrelated cryptocurrency or publisher-logo imagery. Exact-event searches found no compliant relevant event image; product icon selected."
+            }
+          }
+        },
+        "sha256": "73faf1a1f9c9aded3194505d8945654b3b9f40c3739bceaaea66025b25d0b065",
+        "reviewed_at": "2026-10-08T00:54:42.886037+00:00",
+        "operation_id": "484590c9975abf8cc4b1ffbaf5f5d59ac1856e6b83fd07332f2255eebf1f8db9"
       }
     ]
   }
