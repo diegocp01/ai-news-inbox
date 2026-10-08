@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 195,
-  "updated_at": "2026-10-08T19:31:12.307865+00:00",
+  "generation": 196,
+  "updated_at": "2026-10-08T19:31:58.265444+00:00",
   "next_id": 69,
   "records": [
     {
@@ -8110,6 +8110,18 @@
         ],
         "duplicates": []
       }
+    },
+    "1659fde32bb08150822fd9c391db6c62355e8aaf95d02818c54d74c0126d8f71": {
+      "sha256": "7181280858f9f13dabede05e2638428168b017668c1f943b27ea8679964ad919",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 68,
+          "revision": 1,
+          "sha256": "3527d3299cd0ff8d26d79548be98daffdd116e3f1670734ac54353bac9f037e8"
+        },
+        "editorial_sha256": "39233b8c21e62c561ed73b3b75e536d8d16f8c7aa0b6959972c3f0054b543add"
+      }
     }
   },
   "migration": {
@@ -10183,6 +10195,58 @@
         "sha256": "4e6cc052953b05528f666d2997ad34abf40b2950de365793857e122a77dc539c",
         "reviewed_at": "2026-10-08T19:28:53.904208+00:00",
         "operation_id": "751ef5a0844e0aa15cca734621356d862546156809f95d75c3def6decd257355"
+      }
+    ],
+    "68:1": [
+      {
+        "reference": {
+          "id": 68,
+          "revision": 1,
+          "sha256": "3527d3299cd0ff8d26d79548be98daffdd116e3f1670734ac54353bac9f037e8"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research study of scientific AI workflows, model complementarity and validation bottlenecks, materially aimed at researchers.",
+            "evidence_sha256": "14d0549bc42ad40e55acb635a062b2a5fe4eca19ec43a7436d542321443ec979"
+          },
+          "quality": {
+            "article": {
+              "url": "https://institute.deepmind.com/essays/bending-the-curve-of-discovery-ai-in-science-today-and-tomorrow/",
+              "final_url": "https://institute.deepmind.com/essays/bending-the-curve-of-discovery-ai-in-science-today-and-tomorrow/",
+              "redirect_chain": [
+                "https://institute.deepmind.com/essays/bending-the-curve-of-discovery-ai-in-science-today-and-tomorrow/"
+              ],
+              "checked_at": "2026-10-08T17:21:45.487504+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "14d0549bc42ad40e55acb635a062b2a5fe4eca19ec43a7436d542321443ec979"
+            },
+            "image": {
+              "url": "https://lh3.googleusercontent.com/77su8ojR_Lo2K1lL4Uh61KXdfrkAKFkwejuIR4fGsWFNDN6bkY7d7DrOqlqdCCR32iLbHVipT9s7jPuHpLJSckZeeJUyPJeZdN6h1vqoM_3ShaW0=w1200-h630-n-nu-rw",
+              "final_url": "https://lh3.googleusercontent.com/77su8ojR_Lo2K1lL4Uh61KXdfrkAKFkwejuIR4fGsWFNDN6bkY7d7DrOqlqdCCR32iLbHVipT9s7jPuHpLJSckZeeJUyPJeZdN6h1vqoM_3ShaW0=w1200-h630-n-nu-rw",
+              "redirect_chain": [
+                "https://lh3.googleusercontent.com/77su8ojR_Lo2K1lL4Uh61KXdfrkAKFkwejuIR4fGsWFNDN6bkY7d7DrOqlqdCCR32iLbHVipT9s7jPuHpLJSckZeeJUyPJeZdN6h1vqoM_3ShaW0=w1200-h630-n-nu-rw"
+              ],
+              "checked_at": "2026-10-08T17:21:45.487504+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "14d0549bc42ad40e55acb635a062b2a5fe4eca19ec43a7436d542321443ec979",
+              "content_type": "image/webp",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "e3583369418b3f5a44f04f9927cb5f9598fea3b84f4e0a24c6798381b42b3aa2",
+              "relevance": "story_specific",
+              "relevance_note": "Official essay cover shows exact essay title and named authors; compared with in-article chart, cover is more legible and readable at newsletter scale."
+            }
+          }
+        },
+        "sha256": "39233b8c21e62c561ed73b3b75e536d8d16f8c7aa0b6959972c3f0054b543add",
+        "reviewed_at": "2026-10-08T19:31:58.265444+00:00",
+        "operation_id": "1659fde32bb08150822fd9c391db6c62355e8aaf95d02818c54d74c0126d8f71"
       }
     ]
   }
