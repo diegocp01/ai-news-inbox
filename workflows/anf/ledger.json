@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 186,
-  "updated_at": "2026-10-08T16:56:43.668114+00:00",
+  "generation": 187,
+  "updated_at": "2026-10-08T16:58:05.088523+00:00",
   "next_id": 66,
   "records": [
     {
@@ -7918,6 +7918,18 @@
         ],
         "duplicates": []
       }
+    },
+    "5d42a5bced475b073455c2d002ca46f08ece5e1604e3934f0fea0056008dcaba": {
+      "sha256": "64672c3b9a4b1fe27b851e4e16642b1f4956568b6196ffd28686f21a16acfb90",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 65,
+          "revision": 1,
+          "sha256": "396e65eb03bfecfae790b81717ec3e01c3970d8e38e43b934bec04fde3855a93"
+        },
+        "editorial_sha256": "9a3bf09478f252f5fbb824971867547abf6bedfa0420582f18620ba9f1e37e10"
+      }
     }
   },
   "migration": {
@@ -9931,6 +9943,26 @@
         "sha256": "8c98da5561d4225efffeada3f983ece53c72d91ceb8734e0be358eb427110259",
         "reviewed_at": "2026-10-08T01:56:05.469049+00:00",
         "operation_id": "97f9e83aba6385f43ef037e4d91334978c2e60baf27427bfc5980711f32e8ddc"
+      }
+    ],
+    "65:1": [
+      {
+        "reference": {
+          "id": 65,
+          "revision": 1,
+          "sha256": "396e65eb03bfecfae790b81717ec3e01c3970d8e38e43b934bec04fde3855a93"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer home robotics demonstration and planned housing availability; no technical implementation or research deliverable.",
+            "evidence_sha256": "11fe4aa45d8492dac467b9f607f8e25a663cb98e7f25399af2295700bcd9b1a7"
+          }
+        },
+        "sha256": "9a3bf09478f252f5fbb824971867547abf6bedfa0420582f18620ba9f1e37e10",
+        "reviewed_at": "2026-10-08T16:58:05.088523+00:00",
+        "operation_id": "5d42a5bced475b073455c2d002ca46f08ece5e1604e3934f0fea0056008dcaba"
       }
     ]
   }
