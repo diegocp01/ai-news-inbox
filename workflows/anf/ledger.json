@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 224,
-  "updated_at": "2026-10-09T19:20:36.431972+00:00",
-  "next_id": 76,
+  "generation": 225,
+  "updated_at": "2026-10-09T19:23:22.968109+00:00",
+  "next_id": 77,
   "records": [
     {
       "id": 1,
@@ -1014,6 +1014,19 @@
           "request_id": "2ff6b95fbe05662b4e3d8476c45419959e3511876921bad2f82d48f883a83adf",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "revisions": [
+        {
+          "created_at": "2026-10-09T19:23:22.968109+00:00",
+          "block": "Title: Grok Bot Adds Dedicated Email Addresses\nURL: https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/\nImage URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628\nSummary: Grok Bot is rolling out dedicated email addresses for its AI assistants. The addresses let bots register for services, contact businesses and arrange meetings on users’ behalf. Users can request an inbox by asking their bot; team administrators must enable the feature for their organization.",
+          "sha256": "6632e4f54e03d273056df7ff7f0bdae5001b2ecd66a3fee46744231dec1a8495",
+          "source": "9to5Mac",
+          "request_id": "1d12ed1d207256e9058f7a0325ce687099eb97bf1a319689fa4fab9ad78650da",
+          "mode": "standard"
         }
       ]
     }
@@ -2247,13 +2260,21 @@
       ]
     },
     "1d12ed1d207256e9058f7a0325ce687099eb97bf1a319689fa4fab9ad78650da": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-09T19:20:36.431972+00:00",
       "received_sequence": 70,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-09T19:23:22.968109+00:00",
+      "records": [
+        {
+          "id": 76,
+          "revision": 1,
+          "sha256": "6632e4f54e03d273056df7ff7f0bdae5001b2ecd66a3fee46744231dec1a8495"
+        }
+      ]
     }
   },
   "batches": {
@@ -9527,6 +9548,21 @@
       "result": {
         "status": "received",
         "request_id": "1d12ed1d207256e9058f7a0325ce687099eb97bf1a319689fa4fab9ad78650da"
+      }
+    },
+    "77ce077188744f7ad40f90ffda6035e5c81a19d3547bdeb2943326f44a92021a": {
+      "sha256": "a6c398894509832673aa08bdfc1a490984c6bda14df03236cbdad544033f976b",
+      "result": {
+        "status": "finalized",
+        "request_id": "1d12ed1d207256e9058f7a0325ce687099eb97bf1a319689fa4fab9ad78650da",
+        "records": [
+          {
+            "id": 76,
+            "revision": 1,
+            "sha256": "6632e4f54e03d273056df7ff7f0bdae5001b2ecd66a3fee46744231dec1a8495"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
