@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 231,
-  "updated_at": "2026-10-09T19:48:32.093272+00:00",
-  "next_id": 78,
+  "generation": 232,
+  "updated_at": "2026-10-09T19:50:00.756472+00:00",
+  "next_id": 79,
   "records": [
     {
       "id": 1,
@@ -1039,6 +1039,19 @@
           "sha256": "1c811d2e79c497dd64bfa3484fe07e4368962b5b542599e9dbdb189b03e97b57",
           "source": "Crypto Briefing",
           "request_id": "d428e311453d44323511a0dd93cb1bc704a0cff8ea8f8be3fe95877df681b1a6",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "revisions": [
+        {
+          "created_at": "2026-10-09T19:50:00.756472+00:00",
+          "block": "Title: ChatGPT Assistants Can Manage Coding Tasks and Schedules\nURL: https://nerdschalk.com/chatgpt-dots-phone-setup-codex-tasks/\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill\nSummary: OpenAI says dots can now be created in ChatGPT’s iOS and Android apps. The AI assistants can start Codex work and follow up on existing threads using context from ChatGPT conversations, Codex threads, and automations. They can also review and edit scheduled tasks in ChatGPT Work.",
+          "sha256": "6780f71be50a5db58c3484cccca0582e89dd4688b411a952c6cbe2b7877c6d2e",
+          "source": "Nerd’s Chalk",
+          "request_id": "95f5088bc70c953278b7cbf0d5638f159e6f9abcac91bbe3cfe8f9b6fda5d2b9",
           "mode": "standard"
         }
       ]
@@ -2307,13 +2320,21 @@
       ]
     },
     "95f5088bc70c953278b7cbf0d5638f159e6f9abcac91bbe3cfe8f9b6fda5d2b9": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-09T19:41:16.010186+00:00",
       "received_sequence": 72,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-09T19:50:00.756472+00:00",
+      "records": [
+        {
+          "id": 78,
+          "revision": 1,
+          "sha256": "6780f71be50a5db58c3484cccca0582e89dd4688b411a952c6cbe2b7877c6d2e"
+        }
+      ]
     }
   },
   "batches": {
@@ -9667,6 +9688,21 @@
           "sha256": "1c811d2e79c497dd64bfa3484fe07e4368962b5b542599e9dbdb189b03e97b57"
         },
         "editorial_sha256": "27f5595e1748c4d4b014edc0c14d8700b1e299298790bf21562c799925095d67"
+      }
+    },
+    "cea91ce9020843ba0e891f172d21f76e4988546182cfb32b999bf4470934b9d4": {
+      "sha256": "68c3ca233a4c4ebee0f5f52380c434cb6e6a307b4bb7e6d703539ea316e48115",
+      "result": {
+        "status": "finalized",
+        "request_id": "95f5088bc70c953278b7cbf0d5638f159e6f9abcac91bbe3cfe8f9b6fda5d2b9",
+        "records": [
+          {
+            "id": 78,
+            "revision": 1,
+            "sha256": "6780f71be50a5db58c3484cccca0582e89dd4688b411a952c6cbe2b7877c6d2e"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
