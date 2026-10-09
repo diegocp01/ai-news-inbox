@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 213,
-  "updated_at": "2026-10-09T11:38:50.728984+00:00",
+  "generation": 214,
+  "updated_at": "2026-10-09T11:58:06.660383+00:00",
   "next_id": 76,
   "records": [
     {
@@ -8520,6 +8520,18 @@
         ],
         "duplicates": []
       }
+    },
+    "ae1572299498aa981a6835d2c523f9d4e6b095a64f797d3c4b38f8412f0c0a5b": {
+      "sha256": "8c8e987890882b47a3636da825214bc2947e0c20d4a3b04fe73345c3ab08f7a8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 61,
+          "revision": 1,
+          "sha256": "187e4cb8f6a361054c420338eb179e53b66275082dc5c1a4dade1880342b9480"
+        },
+        "editorial_sha256": "157d20226b9fe3f5c53dcaeab1727c86ed3d9ced25267301eaf42157513fec59"
+      }
     }
   },
   "migration": {
@@ -10909,6 +10921,26 @@
         "sha256": "54ded2a2d7f09b9191881d44657dde9c9c67f434cab35821d79bf6390ca63769",
         "reviewed_at": "2026-10-09T01:35:17.063578+00:00",
         "operation_id": "506726c6bf2ac410d85314df7a6023b9c4e499dbe47965cb175714a999e09f0b"
+      }
+    ],
+    "61:1": [
+      {
+        "reference": {
+          "id": 61,
+          "revision": 1,
+          "sha256": "187e4cb8f6a361054c420338eb179e53b66275082dc5c1a4dade1880342b9480"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research on history-aware robot control with benchmark task-success and compute tradeoffs.",
+            "evidence_sha256": "2e0e60a27fa604a736134f22142b76a5d5949e751d7d964d3befb08bf949dcc6"
+          }
+        },
+        "sha256": "157d20226b9fe3f5c53dcaeab1727c86ed3d9ced25267301eaf42157513fec59",
+        "reviewed_at": "2026-10-09T11:58:06.660383+00:00",
+        "operation_id": "ae1572299498aa981a6835d2c523f9d4e6b095a64f797d3c4b38f8412f0c0a5b"
       }
     ]
   }
