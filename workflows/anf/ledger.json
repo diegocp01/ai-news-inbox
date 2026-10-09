@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 219,
-  "updated_at": "2026-10-09T12:01:47.073213+00:00",
+  "generation": 220,
+  "updated_at": "2026-10-09T12:02:36.748346+00:00",
   "next_id": 76,
   "records": [
     {
@@ -4199,9 +4199,426 @@
       },
       "acknowledged_at": "2026-10-08T12:11:46.552424+00:00",
       "checkpoint_after": 60
+    },
+    "c481ed29007cc666a3490fae": {
+      "batch_id": "c481ed29007cc666a3490fae",
+      "status": "prepared",
+      "checkpoint_before": 60,
+      "prepared_at": "2026-10-09T12:02:36.748346+00:00",
+      "intake_cutoff": 69,
+      "records": [
+        {
+          "id": 61,
+          "revision": 1,
+          "sha256": "187e4cb8f6a361054c420338eb179e53b66275082dc5c1a4dade1880342b9480"
+        },
+        {
+          "id": 62,
+          "revision": 1,
+          "sha256": "06dae115b8eb0f954e698d021309caab21726e5e0f3ab463e0c1f6a4ea124c03"
+        },
+        {
+          "id": 63,
+          "revision": 1,
+          "sha256": "6350f2a9de00bffaf7cd2a15c0eac3d84ae21fd3434d190ab2593dce82cf34c8"
+        },
+        {
+          "id": 64,
+          "revision": 1,
+          "sha256": "0b34d9190f95ee39bcd534a184e76d7ccd523d31f8135c0c61c5361fce2a1884"
+        },
+        {
+          "id": 65,
+          "revision": 1,
+          "sha256": "396e65eb03bfecfae790b81717ec3e01c3970d8e38e43b934bec04fde3855a93"
+        },
+        {
+          "id": 66,
+          "revision": 1,
+          "sha256": "c16eb6f1dd71fcaf4bb030209f018e8bea3bbb2c70a778763240a98dff3cd559"
+        },
+        {
+          "id": 67,
+          "revision": 1,
+          "sha256": "95d8a38d92e7353dffbf78bac639c3bffa92c3ae8351dbc5b5812dfe1ec07d23"
+        },
+        {
+          "id": 68,
+          "revision": 1,
+          "sha256": "3527d3299cd0ff8d26d79548be98daffdd116e3f1670734ac54353bac9f037e8"
+        },
+        {
+          "id": 69,
+          "revision": 1,
+          "sha256": "0bbd10d55f9b889bef25889b91dd63544480b411ca8544d752219333c5fbe7ed"
+        },
+        {
+          "id": 70,
+          "revision": 1,
+          "sha256": "d03634c74b27fe9d746d2f564ab4ce253abff603c2fdd2c506c6e668bace7d32"
+        },
+        {
+          "id": 71,
+          "revision": 1,
+          "sha256": "1fbca029165435f222ff17f196a2bb29d6c0183f22e666a371771ec607aa5122"
+        },
+        {
+          "id": 72,
+          "revision": 1,
+          "sha256": "38e30850fa00d04e419e28998b2f9169240b00df6bf113f44971946405d9ca62"
+        },
+        {
+          "id": 73,
+          "revision": 1,
+          "sha256": "9b60ead03d7887213343c01f8e9e157fed102016de4638c70a456020a43e217e"
+        },
+        {
+          "id": 74,
+          "revision": 1,
+          "sha256": "80a32b1011a696074422d11c5d2822168b4a3d0bfbeaa77012c4aa99092e7ae8"
+        },
+        {
+          "id": 75,
+          "revision": 1,
+          "sha256": "27eb8025cff6631c4a7208f85f32f55f2655f1d15842dc3d8ac92fc64afe56ee"
+        }
+      ],
+      "first_id": 61,
+      "last_id": 75,
+      "count": 15,
+      "txt_path": "workflows/anf/batches/c481ed29007cc666a3490fae.txt",
+      "json_path": "workflows/anf/batches/c481ed29007cc666a3490fae.json",
+      "txt_sha256": "d4361e49f68880a59f0aa650a77b86e4a2a49376dc42c264e11ba428bc998d89",
+      "json_sha256": "789c542160629a18c5aab4eac837b56901ed42f31a93513b5c5825c16b68b57e",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research on history-aware robot control with benchmark task-success and compute tradeoffs.",
+            "evidence_sha256": "2e0e60a27fa604a736134f22142b76a5d5949e751d7d964d3befb08bf949dcc6"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research method compresses video-generation models, with latency benchmarks and training tradeoffs.",
+            "evidence_sha256": "fc400abae8533d7a16e6b594335f3462febb7c7178fecf1737862c4300918e68"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Broad funding and partnership announcement for virtual biology, without research methods or implementation guidance.",
+            "evidence_sha256": "cef4d3b6ac34fe81415e63ee9d0a25261b6ea6f2f5bc04316d1a5216e22e2046"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer AI assistant announcement about routing tasks to external model providers.",
+            "evidence_sha256": "71f8fedcb6b3db6437169380f8e930ced1000a2e8f985469035ac5aceefeea4e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer home robotics demonstration and planned housing availability; no technical implementation or research deliverable.",
+            "evidence_sha256": "11fe4aa45d8492dac467b9f607f8e25a663cb98e7f25399af2295700bcd9b1a7"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Shopify merchant operations through a conversational assistant; intended for store owners, distinct from the developer-focused Shopify AI Toolkit.",
+            "evidence_sha256": "e8eed1880c3eb1002e2dadb3113fa04ff2dafd22908f343b93f48c4f7334f57c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public announcement of a three-year federal science funding and access commitment; mentions Claude Code and API credits as support, without technical methods, implementation guidance or a developer release.",
+            "evidence_sha256": "98615308a7e7835d2677d9e4636b12b3d1cb21a840db89e92dbd912cb28214e2"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research study of scientific AI workflows, model complementarity and validation bottlenecks, materially aimed at researchers.",
+            "evidence_sha256": "14d0549bc42ad40e55acb635a062b2a5fe4eca19ec43a7436d542321443ec979"
+          },
+          "quality": {
+            "article": {
+              "url": "https://institute.deepmind.com/essays/bending-the-curve-of-discovery-ai-in-science-today-and-tomorrow/",
+              "final_url": "https://institute.deepmind.com/essays/bending-the-curve-of-discovery-ai-in-science-today-and-tomorrow/",
+              "redirect_chain": [
+                "https://institute.deepmind.com/essays/bending-the-curve-of-discovery-ai-in-science-today-and-tomorrow/"
+              ],
+              "checked_at": "2026-10-08T17:21:45.487504+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "14d0549bc42ad40e55acb635a062b2a5fe4eca19ec43a7436d542321443ec979"
+            },
+            "image": {
+              "url": "https://lh3.googleusercontent.com/77su8ojR_Lo2K1lL4Uh61KXdfrkAKFkwejuIR4fGsWFNDN6bkY7d7DrOqlqdCCR32iLbHVipT9s7jPuHpLJSckZeeJUyPJeZdN6h1vqoM_3ShaW0=w1200-h630-n-nu-rw",
+              "final_url": "https://lh3.googleusercontent.com/77su8ojR_Lo2K1lL4Uh61KXdfrkAKFkwejuIR4fGsWFNDN6bkY7d7DrOqlqdCCR32iLbHVipT9s7jPuHpLJSckZeeJUyPJeZdN6h1vqoM_3ShaW0=w1200-h630-n-nu-rw",
+              "redirect_chain": [
+                "https://lh3.googleusercontent.com/77su8ojR_Lo2K1lL4Uh61KXdfrkAKFkwejuIR4fGsWFNDN6bkY7d7DrOqlqdCCR32iLbHVipT9s7jPuHpLJSckZeeJUyPJeZdN6h1vqoM_3ShaW0=w1200-h630-n-nu-rw"
+              ],
+              "checked_at": "2026-10-08T17:21:45.487504+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "14d0549bc42ad40e55acb635a062b2a5fe4eca19ec43a7436d542321443ec979",
+              "content_type": "image/webp",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "e3583369418b3f5a44f04f9927cb5f9598fea3b84f4e0a24c6798381b42b3aa2",
+              "relevance": "story_specific",
+              "relevance_note": "Official essay cover shows exact essay title and named authors; compared with in-article chart, cover is more legible and readable at newsletter scale."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Announcement for workplace users asking plain-language business questions and creating animations; no technical implementation or developer-focused instruction.",
+            "evidence_sha256": "5631f29bf0c7c7386c0681688cf08bf5b032f1f852c487d7724553be4aafef9e"
+          },
+          "quality": {
+            "article": {
+              "url": "https://claude.com/resources/articles/dashboards-and-motion",
+              "final_url": "https://claude.com/resources/articles/dashboards-and-motion",
+              "redirect_chain": [
+                "https://claude.com/resources/articles/dashboards-and-motion"
+              ],
+              "checked_at": "2026-10-08T19:43:40+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "5631f29bf0c7c7386c0681688cf08bf5b032f1f852c487d7724553be4aafef9e"
+            },
+            "image": {
+              "url": "https://assets.claude.com/7688d4d3b888c17cf4b3553f537f291882a92656.png",
+              "final_url": "https://assets.claude.com/7688d4d3b888c17cf4b3553f537f291882a92656.png",
+              "redirect_chain": [
+                "https://assets.claude.com/7688d4d3b888c17cf4b3553f537f291882a92656.png"
+              ],
+              "checked_at": "2026-10-08T19:44:14+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "87399eeefce86c453e6fccf0a6de75fb7bd478daa58e145510b124fb6b330aea",
+              "content_type": "image/png",
+              "width": 1920,
+              "height": 1080,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "f52b7f877c925a2c53ca2e3fce8f72183e3d501b4aef50a1b15a3c9f1a778689",
+              "relevance": "story_specific",
+              "relevance_note": "Actual launch-article screenshot of Claude generating a bike-share dashboard with metrics and charts. Clear, story-specific dashboard product visual preferred over secondary slash-command image."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research workflow explains multi-survey calibration, multiwavelength statistical inpainting, held-out validation and uncertainty in an astronomical data product.",
+            "evidence_sha256": "5b3f860f451f5c778c802dad0432dcca599008f72cb74351e1dbd388d94e80b0"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+              "final_url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+              "redirect_chain": [
+                "https://www.anthropic.com/research/the-missing-map-of-the-sky"
+              ],
+              "checked_at": "2026-10-08T20:29:07+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "5b3f860f451f5c778c802dad0432dcca599008f72cb74351e1dbd388d94e80b0"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/dde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/dde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/dde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png"
+              ],
+              "checked_at": "2026-10-08T20:29:44+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "cb4538f72d4d668cb0d5e7571a9c5caa33cbbf0991550d98da3b0b3f8151631a",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "cbae0c4db7a0acf5ab2cd68d130a0c5e3b740204c6541eae9c02504121f429c5",
+              "relevance": "story_specific",
+              "relevance_note": "Actual 1200x630 purple UV sky-map image, story-specific OpenGraph asset."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General policy announcement affecting Claude users, not technical implementation guidance.",
+            "evidence_sha256": "52e0d52e156f4c56c56c341752f67bf1e6ff3ea047982ea86f30cbe412b997b9"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+              "final_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+              "redirect_chain": [
+                "https://www.anthropic.com/news/2026-usage-policy-update"
+              ],
+              "checked_at": "2026-10-09T01:10:42.541586+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "52e0d52e156f4c56c56c341752f67bf1e6ff3ea047982ea86f30cbe412b997b9"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+              ],
+              "checked_at": "2026-10-09T01:10:42.541586+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "52e0d52e156f4c56c56c341752f67bf1e6ff3ea047982ea86f30cbe412b997b9",
+              "content_type": "image/jpeg",
+              "width": 2400,
+              "height": 1260,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "18b3c70b6298faa3457d1d79c8cd03e7ab16342d5f857cd72079459793e5bd35",
+              "relevance": "official_logo",
+              "relevance_note": "Crisp black Anthropic wordmark on light cream background; official article OpenGraph image. No in-article img elements or story-specific illustration present.",
+              "story_specific_available": false,
+              "fallback_reason": "Official announcement contains no story-specific illustration; its sole OpenGraph image is the official Anthropic wordmark."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Reports an AI-assisted astronomical data-analysis workflow, transit validation tests, open research code and remaining false-positive uncertainty.",
+            "evidence_sha256": "966a44caf9325719d7bdecd682484c02a5c7104400effb013d22da397156c67f"
+          },
+          "quality": {
+            "article": {
+              "url": "https://threadreaderapp.com/thread/2107803696058822742.html",
+              "final_url": "https://threadreaderapp.com/thread/2107803696058822742.html",
+              "redirect_chain": [
+                "https://threadreaderapp.com/thread/2107803696058822742.html"
+              ],
+              "checked_at": "2026-10-09T01:33:14.084050+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "966a44caf9325719d7bdecd682484c02a5c7104400effb013d22da397156c67f"
+            },
+            "image": {
+              "url": "https://shots.threadreader.app/thread/2107803696058822742.jpg",
+              "final_url": "https://shots.threadreader.app/thread/2107803696058822742.jpg",
+              "redirect_chain": [
+                "https://shots.threadreader.app/thread/2107803696058822742.jpg"
+              ],
+              "checked_at": "2026-10-09T01:33:14.084050+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "966a44caf9325719d7bdecd682484c02a5c7104400effb013d22da397156c67f",
+              "content_type": "image/jpeg",
+              "width": 1200,
+              "height": 628,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "92a336dc19f7af5743815f1f8203d33ee3ebe03aa606e27d5cdb105523908e2e",
+              "relevance": "story_specific",
+              "relevance_note": "Readable original-thread card showing the named researcher and his explicitly tentative planet claim; selected over a generic spacecraft photograph."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Broad government science policy and funding announcement for a general news audience; not research methods or developer implementation guidance.",
+            "evidence_sha256": "bfb87263de0a7b5813fc535ef59185e2637e8f6fbfe831ab808db417f97f72c6"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/",
+              "final_url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/",
+              "redirect_chain": [
+                "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/"
+              ],
+              "checked_at": "2026-10-09T01:31:40+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "bfb87263de0a7b5813fc535ef59185e2637e8f6fbfe831ab808db417f97f72c6"
+            },
+            "image": {
+              "url": "https://cdn.nextgov.com/media/img/cd/2026/10/08/100826WHNG/original.jpg",
+              "final_url": "https://cdn.nextgov.com/media/img/cd/2026/10/08/100826WHNG/original.jpg",
+              "redirect_chain": [
+                "https://cdn.nextgov.com/media/img/cd/2026/10/08/100826WHNG/original.jpg"
+              ],
+              "checked_at": "2026-10-09T01:32:27+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "bfb87263de0a7b5813fc535ef59185e2637e8f6fbfe831ab808db417f97f72c6",
+              "content_type": "image/jpeg",
+              "width": 1400,
+              "height": 933,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "2986c0e98d563e979ab88db2ff6e8d014d81f233d91fb0f994ec585d5baf0089",
+              "relevance": "topic_specific",
+              "relevance_note": "Sharp White House exterior with American flag; publisher-selected article photo, not summit-specific. Official fact sheet offers generic White House share card; same-event Nextgov story uses this White House photograph.",
+              "story_specific_available": false,
+              "fallback_reason": "Official fact sheet has no event image and uses a generic share card; same-event Nextgov coverage selects this verified White House exterior photograph."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General news about disputed dismissals and institutional AI safety oversight, not technical research methods.",
+            "evidence_sha256": "13f2a8f603dc6c1ad1a739087f19efa94a56424aa0f9264c2045c2c34508375b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Usage policy announcement affecting Claude users, not developer implementation or research guidance.",
+            "evidence_sha256": "bdd3c6eb3bfceb5bda9bc8a931692305b950820045ded950f5e7aeaf8ea134c4"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-09T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "c481ed29007cc666a3490fae",
   "replacement_batch": null,
   "checkpoint": 60,
   "checkpoint_history": [
@@ -8591,6 +9008,430 @@
           "sha256": "27eb8025cff6631c4a7208f85f32f55f2655f1d15842dc3d8ac92fc64afe56ee"
         },
         "editorial_sha256": "bff2a1b8ca0594ccccef8cd2701ee54934f1de857ebcedfbef7ce3be5b6de047"
+      }
+    },
+    "0542b6f59f2c698f4b66f30ae036223e206e49137834f932d62c1cdddfe14a0d": {
+      "sha256": "ec7d037f2af1742548bb53d00be20af443d4fe1b6c53e5d195f422f2b35f77c9",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "c481ed29007cc666a3490fae",
+          "status": "prepared",
+          "checkpoint_before": 60,
+          "prepared_at": "2026-10-09T12:02:36.748346+00:00",
+          "intake_cutoff": 69,
+          "records": [
+            {
+              "id": 61,
+              "revision": 1,
+              "sha256": "187e4cb8f6a361054c420338eb179e53b66275082dc5c1a4dade1880342b9480"
+            },
+            {
+              "id": 62,
+              "revision": 1,
+              "sha256": "06dae115b8eb0f954e698d021309caab21726e5e0f3ab463e0c1f6a4ea124c03"
+            },
+            {
+              "id": 63,
+              "revision": 1,
+              "sha256": "6350f2a9de00bffaf7cd2a15c0eac3d84ae21fd3434d190ab2593dce82cf34c8"
+            },
+            {
+              "id": 64,
+              "revision": 1,
+              "sha256": "0b34d9190f95ee39bcd534a184e76d7ccd523d31f8135c0c61c5361fce2a1884"
+            },
+            {
+              "id": 65,
+              "revision": 1,
+              "sha256": "396e65eb03bfecfae790b81717ec3e01c3970d8e38e43b934bec04fde3855a93"
+            },
+            {
+              "id": 66,
+              "revision": 1,
+              "sha256": "c16eb6f1dd71fcaf4bb030209f018e8bea3bbb2c70a778763240a98dff3cd559"
+            },
+            {
+              "id": 67,
+              "revision": 1,
+              "sha256": "95d8a38d92e7353dffbf78bac639c3bffa92c3ae8351dbc5b5812dfe1ec07d23"
+            },
+            {
+              "id": 68,
+              "revision": 1,
+              "sha256": "3527d3299cd0ff8d26d79548be98daffdd116e3f1670734ac54353bac9f037e8"
+            },
+            {
+              "id": 69,
+              "revision": 1,
+              "sha256": "0bbd10d55f9b889bef25889b91dd63544480b411ca8544d752219333c5fbe7ed"
+            },
+            {
+              "id": 70,
+              "revision": 1,
+              "sha256": "d03634c74b27fe9d746d2f564ab4ce253abff603c2fdd2c506c6e668bace7d32"
+            },
+            {
+              "id": 71,
+              "revision": 1,
+              "sha256": "1fbca029165435f222ff17f196a2bb29d6c0183f22e666a371771ec607aa5122"
+            },
+            {
+              "id": 72,
+              "revision": 1,
+              "sha256": "38e30850fa00d04e419e28998b2f9169240b00df6bf113f44971946405d9ca62"
+            },
+            {
+              "id": 73,
+              "revision": 1,
+              "sha256": "9b60ead03d7887213343c01f8e9e157fed102016de4638c70a456020a43e217e"
+            },
+            {
+              "id": 74,
+              "revision": 1,
+              "sha256": "80a32b1011a696074422d11c5d2822168b4a3d0bfbeaa77012c4aa99092e7ae8"
+            },
+            {
+              "id": 75,
+              "revision": 1,
+              "sha256": "27eb8025cff6631c4a7208f85f32f55f2655f1d15842dc3d8ac92fc64afe56ee"
+            }
+          ],
+          "first_id": 61,
+          "last_id": 75,
+          "count": 15,
+          "txt_path": "workflows/anf/batches/c481ed29007cc666a3490fae.txt",
+          "json_path": "workflows/anf/batches/c481ed29007cc666a3490fae.json",
+          "txt_sha256": "d4361e49f68880a59f0aa650a77b86e4a2a49376dc42c264e11ba428bc998d89",
+          "json_sha256": "789c542160629a18c5aab4eac837b56901ed42f31a93513b5c5825c16b68b57e",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Research on history-aware robot control with benchmark task-success and compute tradeoffs.",
+                "evidence_sha256": "2e0e60a27fa604a736134f22142b76a5d5949e751d7d964d3befb08bf949dcc6"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Research method compresses video-generation models, with latency benchmarks and training tradeoffs.",
+                "evidence_sha256": "fc400abae8533d7a16e6b594335f3462febb7c7178fecf1737862c4300918e68"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Broad funding and partnership announcement for virtual biology, without research methods or implementation guidance.",
+                "evidence_sha256": "cef4d3b6ac34fe81415e63ee9d0a25261b6ea6f2f5bc04316d1a5216e22e2046"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer AI assistant announcement about routing tasks to external model providers.",
+                "evidence_sha256": "71f8fedcb6b3db6437169380f8e930ced1000a2e8f985469035ac5aceefeea4e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer home robotics demonstration and planned housing availability; no technical implementation or research deliverable.",
+                "evidence_sha256": "11fe4aa45d8492dac467b9f607f8e25a663cb98e7f25399af2295700bcd9b1a7"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Shopify merchant operations through a conversational assistant; intended for store owners, distinct from the developer-focused Shopify AI Toolkit.",
+                "evidence_sha256": "e8eed1880c3eb1002e2dadb3113fa04ff2dafd22908f343b93f48c4f7334f57c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Public announcement of a three-year federal science funding and access commitment; mentions Claude Code and API credits as support, without technical methods, implementation guidance or a developer release.",
+                "evidence_sha256": "98615308a7e7835d2677d9e4636b12b3d1cb21a840db89e92dbd912cb28214e2"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Research study of scientific AI workflows, model complementarity and validation bottlenecks, materially aimed at researchers.",
+                "evidence_sha256": "14d0549bc42ad40e55acb635a062b2a5fe4eca19ec43a7436d542321443ec979"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://institute.deepmind.com/essays/bending-the-curve-of-discovery-ai-in-science-today-and-tomorrow/",
+                  "final_url": "https://institute.deepmind.com/essays/bending-the-curve-of-discovery-ai-in-science-today-and-tomorrow/",
+                  "redirect_chain": [
+                    "https://institute.deepmind.com/essays/bending-the-curve-of-discovery-ai-in-science-today-and-tomorrow/"
+                  ],
+                  "checked_at": "2026-10-08T17:21:45.487504+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "14d0549bc42ad40e55acb635a062b2a5fe4eca19ec43a7436d542321443ec979"
+                },
+                "image": {
+                  "url": "https://lh3.googleusercontent.com/77su8ojR_Lo2K1lL4Uh61KXdfrkAKFkwejuIR4fGsWFNDN6bkY7d7DrOqlqdCCR32iLbHVipT9s7jPuHpLJSckZeeJUyPJeZdN6h1vqoM_3ShaW0=w1200-h630-n-nu-rw",
+                  "final_url": "https://lh3.googleusercontent.com/77su8ojR_Lo2K1lL4Uh61KXdfrkAKFkwejuIR4fGsWFNDN6bkY7d7DrOqlqdCCR32iLbHVipT9s7jPuHpLJSckZeeJUyPJeZdN6h1vqoM_3ShaW0=w1200-h630-n-nu-rw",
+                  "redirect_chain": [
+                    "https://lh3.googleusercontent.com/77su8ojR_Lo2K1lL4Uh61KXdfrkAKFkwejuIR4fGsWFNDN6bkY7d7DrOqlqdCCR32iLbHVipT9s7jPuHpLJSckZeeJUyPJeZdN6h1vqoM_3ShaW0=w1200-h630-n-nu-rw"
+                  ],
+                  "checked_at": "2026-10-08T17:21:45.487504+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "14d0549bc42ad40e55acb635a062b2a5fe4eca19ec43a7436d542321443ec979",
+                  "content_type": "image/webp",
+                  "width": 1200,
+                  "height": 630,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "e3583369418b3f5a44f04f9927cb5f9598fea3b84f4e0a24c6798381b42b3aa2",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official essay cover shows exact essay title and named authors; compared with in-article chart, cover is more legible and readable at newsletter scale."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Announcement for workplace users asking plain-language business questions and creating animations; no technical implementation or developer-focused instruction.",
+                "evidence_sha256": "5631f29bf0c7c7386c0681688cf08bf5b032f1f852c487d7724553be4aafef9e"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://claude.com/resources/articles/dashboards-and-motion",
+                  "final_url": "https://claude.com/resources/articles/dashboards-and-motion",
+                  "redirect_chain": [
+                    "https://claude.com/resources/articles/dashboards-and-motion"
+                  ],
+                  "checked_at": "2026-10-08T19:43:40+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "5631f29bf0c7c7386c0681688cf08bf5b032f1f852c487d7724553be4aafef9e"
+                },
+                "image": {
+                  "url": "https://assets.claude.com/7688d4d3b888c17cf4b3553f537f291882a92656.png",
+                  "final_url": "https://assets.claude.com/7688d4d3b888c17cf4b3553f537f291882a92656.png",
+                  "redirect_chain": [
+                    "https://assets.claude.com/7688d4d3b888c17cf4b3553f537f291882a92656.png"
+                  ],
+                  "checked_at": "2026-10-08T19:44:14+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "87399eeefce86c453e6fccf0a6de75fb7bd478daa58e145510b124fb6b330aea",
+                  "content_type": "image/png",
+                  "width": 1920,
+                  "height": 1080,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "f52b7f877c925a2c53ca2e3fce8f72183e3d501b4aef50a1b15a3c9f1a778689",
+                  "relevance": "story_specific",
+                  "relevance_note": "Actual launch-article screenshot of Claude generating a bike-share dashboard with metrics and charts. Clear, story-specific dashboard product visual preferred over secondary slash-command image."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Research workflow explains multi-survey calibration, multiwavelength statistical inpainting, held-out validation and uncertainty in an astronomical data product.",
+                "evidence_sha256": "5b3f860f451f5c778c802dad0432dcca599008f72cb74351e1dbd388d94e80b0"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+                  "final_url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+                  "redirect_chain": [
+                    "https://www.anthropic.com/research/the-missing-map-of-the-sky"
+                  ],
+                  "checked_at": "2026-10-08T20:29:07+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "5b3f860f451f5c778c802dad0432dcca599008f72cb74351e1dbd388d94e80b0"
+                },
+                "image": {
+                  "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/dde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png",
+                  "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/dde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png",
+                  "redirect_chain": [
+                    "https://www-cdn.anthropic.com/images/4zrzovbb/website/dde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png"
+                  ],
+                  "checked_at": "2026-10-08T20:29:44+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "cb4538f72d4d668cb0d5e7571a9c5caa33cbbf0991550d98da3b0b3f8151631a",
+                  "content_type": "image/png",
+                  "width": 1200,
+                  "height": 630,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "cbae0c4db7a0acf5ab2cd68d130a0c5e3b740204c6541eae9c02504121f429c5",
+                  "relevance": "story_specific",
+                  "relevance_note": "Actual 1200x630 purple UV sky-map image, story-specific OpenGraph asset."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General policy announcement affecting Claude users, not technical implementation guidance.",
+                "evidence_sha256": "52e0d52e156f4c56c56c341752f67bf1e6ff3ea047982ea86f30cbe412b997b9"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+                  "final_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+                  "redirect_chain": [
+                    "https://www.anthropic.com/news/2026-usage-policy-update"
+                  ],
+                  "checked_at": "2026-10-09T01:10:42.541586+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "52e0d52e156f4c56c56c341752f67bf1e6ff3ea047982ea86f30cbe412b997b9"
+                },
+                "image": {
+                  "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+                  "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+                  "redirect_chain": [
+                    "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+                  ],
+                  "checked_at": "2026-10-09T01:10:42.541586+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "52e0d52e156f4c56c56c341752f67bf1e6ff3ea047982ea86f30cbe412b997b9",
+                  "content_type": "image/jpeg",
+                  "width": 2400,
+                  "height": 1260,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "18b3c70b6298faa3457d1d79c8cd03e7ab16342d5f857cd72079459793e5bd35",
+                  "relevance": "official_logo",
+                  "relevance_note": "Crisp black Anthropic wordmark on light cream background; official article OpenGraph image. No in-article img elements or story-specific illustration present.",
+                  "story_specific_available": false,
+                  "fallback_reason": "Official announcement contains no story-specific illustration; its sole OpenGraph image is the official Anthropic wordmark."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Reports an AI-assisted astronomical data-analysis workflow, transit validation tests, open research code and remaining false-positive uncertainty.",
+                "evidence_sha256": "966a44caf9325719d7bdecd682484c02a5c7104400effb013d22da397156c67f"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://threadreaderapp.com/thread/2107803696058822742.html",
+                  "final_url": "https://threadreaderapp.com/thread/2107803696058822742.html",
+                  "redirect_chain": [
+                    "https://threadreaderapp.com/thread/2107803696058822742.html"
+                  ],
+                  "checked_at": "2026-10-09T01:33:14.084050+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "966a44caf9325719d7bdecd682484c02a5c7104400effb013d22da397156c67f"
+                },
+                "image": {
+                  "url": "https://shots.threadreader.app/thread/2107803696058822742.jpg",
+                  "final_url": "https://shots.threadreader.app/thread/2107803696058822742.jpg",
+                  "redirect_chain": [
+                    "https://shots.threadreader.app/thread/2107803696058822742.jpg"
+                  ],
+                  "checked_at": "2026-10-09T01:33:14.084050+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "966a44caf9325719d7bdecd682484c02a5c7104400effb013d22da397156c67f",
+                  "content_type": "image/jpeg",
+                  "width": 1200,
+                  "height": 628,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "92a336dc19f7af5743815f1f8203d33ee3ebe03aa606e27d5cdb105523908e2e",
+                  "relevance": "story_specific",
+                  "relevance_note": "Readable original-thread card showing the named researcher and his explicitly tentative planet claim; selected over a generic spacecraft photograph."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Broad government science policy and funding announcement for a general news audience; not research methods or developer implementation guidance.",
+                "evidence_sha256": "bfb87263de0a7b5813fc535ef59185e2637e8f6fbfe831ab808db417f97f72c6"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/",
+                  "final_url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/",
+                  "redirect_chain": [
+                    "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/"
+                  ],
+                  "checked_at": "2026-10-09T01:31:40+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "bfb87263de0a7b5813fc535ef59185e2637e8f6fbfe831ab808db417f97f72c6"
+                },
+                "image": {
+                  "url": "https://cdn.nextgov.com/media/img/cd/2026/10/08/100826WHNG/original.jpg",
+                  "final_url": "https://cdn.nextgov.com/media/img/cd/2026/10/08/100826WHNG/original.jpg",
+                  "redirect_chain": [
+                    "https://cdn.nextgov.com/media/img/cd/2026/10/08/100826WHNG/original.jpg"
+                  ],
+                  "checked_at": "2026-10-09T01:32:27+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "bfb87263de0a7b5813fc535ef59185e2637e8f6fbfe831ab808db417f97f72c6",
+                  "content_type": "image/jpeg",
+                  "width": 1400,
+                  "height": 933,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "2986c0e98d563e979ab88db2ff6e8d014d81f233d91fb0f994ec585d5baf0089",
+                  "relevance": "topic_specific",
+                  "relevance_note": "Sharp White House exterior with American flag; publisher-selected article photo, not summit-specific. Official fact sheet offers generic White House share card; same-event Nextgov story uses this White House photograph.",
+                  "story_specific_available": false,
+                  "fallback_reason": "Official fact sheet has no event image and uses a generic share card; same-event Nextgov coverage selects this verified White House exterior photograph."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General news about disputed dismissals and institutional AI safety oversight, not technical research methods.",
+                "evidence_sha256": "13f2a8f603dc6c1ad1a739087f19efa94a56424aa0f9264c2045c2c34508375b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Usage policy announcement affecting Claude users, not developer implementation or research guidance.",
+                "evidence_sha256": "bdd3c6eb3bfceb5bda9bc8a931692305b950820045ded950f5e7aeaf8ea134c4"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-09T12:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
