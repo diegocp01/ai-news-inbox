@@ -1,0 +1,127 @@
+[
+  {
+    "title": "Visual History Helps Robots Improve Task Success",
+    "description": "According to Wei Huang and colleagues, Long-WAM combines video prediction pretraining with history-aware robot control. On RoboCasa GR-1, extending visual history to 19.2 seconds increased success from 63.3% to 78.7%. The authors demonstrate real-time manipulation but note that useful history length depends on task and compute.",
+    "image_url": "https://arxiv.org/html/2610.10528v1/1_2.png",
+    "learn_more_url": "https://arxiv.org/abs/2610.10528",
+    "date": "2026-10-09",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "Latent Compression Speeds Up Video Generation in Wan2.1 Tests",
+    "description": "Jiyoung Kim and colleagues report that GRACE compresses pretrained video models while preserving alignment between their components. On Wan2.1 image-to-video tests at 480×832, it reduced latency 11.1-fold while approximately matching the original VBench score. Compression can lose small details, and adapting another model requires additional training.",
+    "image_url": "https://cvlab-kaist.github.io/GRACE/static/images/fig2_arch.png",
+    "learn_more_url": "https://arxiv.org/abs/2610.10524",
+    "date": "2026-10-09",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "Biohub Expands Virtual Biology Initiative with $1.8 Billion Commitment",
+    "description": "Biohub says its expanded Virtual Biology Initiative brings together $1.8 billion in funding, existing data, computing and measurement technology. Partners include the U.S. Department of Energy, National Institutes of Health, Google DeepMind, Meta and Isomorphic Labs. The effort aims to build AI models that predict how cells respond to changes, using biological datasets intended for open access.",
+    "image_url": "https://biohub.org/wp-content/uploads/sites/32/2026/10/VBI-wordmark-Jade-on-dark_Social-Share_1200x630@1x.png",
+    "learn_more_url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+    "date": "2026-10-09",
+    "source": "biohub.org"
+  },
+  {
+    "title": "Musk Says Grok Bot Will Use Outside AI Models",
+    "description": "Elon Musk said Grok Bot will use outside AI models and services, including Anthropic’s Claude, Midjourney and Suno. He said the system would choose whichever option was most likely to produce the best result for each task. His announcement did not specify a start date or explain which tasks would go to each provider.",
+    "image_url": "https://www.thinkfacility.com/img/briefs/grok-bot-will-use-claude-opus-midjourney-suno/grok-august-2025.jpg",
+    "learn_more_url": "https://www.thinkfacility.com/blog/grok-bot-will-use-claude-opus-midjourney-suno/",
+    "date": "2026-10-09",
+    "source": "thinkfacility.com"
+  },
+  {
+    "title": "MW Demonstrates Ceiling-Mounted Robots for Household Chores",
+    "description": "Japanese startup MW demonstrated ceiling-mounted robotic arms putting away groceries and folding laundry in a home designed around the hardware. A human remotely controlled the Tokyo demonstration; autonomous AI operation remains under development. The rail-mounted design keeps floor space clear, and MW aims to begin selling robot-equipped homes in 2028.",
+    "image_url": "https://robotstart.info/imgs/zoom1/106640.jpg",
+    "learn_more_url": "https://robotstart.info/article/2026/09/11/382409.html",
+    "date": "2026-10-09",
+    "source": "Robostart"
+  },
+  {
+    "title": "Grok Bot Adds Shopify Store Management",
+    "description": "Grok Bot’s Shopify connector lets merchants check orders, track inventory and update product listings through chat. Available in Grok Bot 0.49 or newer, it requires Shopify sign-in and approved store access. Its instructions require user confirmation before changes to products, inventory, discounts or collections.",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628",
+    "learn_more_url": "https://github.com/cursor/plugins/blob/main/third_party/shopify-store/README.md",
+    "date": "2026-10-09",
+    "source": "Cursor / Grok Bot"
+  },
+  {
+    "title": "Anthropic Commits $150 Million for AI-Powered US Science",
+    "description": "Anthropic committed $150 million over three years to the Genesis Mission, a federal initiative using AI for scientific discovery. The support will provide Claude, Claude Code and API credits to hundreds of research projects across more than 15 agencies, alongside training and technical assistance, with priorities including fusion energy and quantum computing.",
+    "image_url": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20DoubleHelix&backgroundColor=heather",
+    "learn_more_url": "https://www.anthropic.com/news/genesis-mission-commitment",
+    "date": "2026-10-09",
+    "source": "Anthropic"
+  },
+  {
+    "title": "Scientists Report Saving Nearly Seven Hours a Week With AI",
+    "description": "A DeepMind study combining 15 million Gemini interactions, over 2,600 specialized models and a survey of 637 scientists found complementary uses for general and specialized AI. Respondents reported saving nearly seven hours weekly, while physical experiments and output verification remained bottlenecks. The authors argue that faster workflows alone do not guarantee broader scientific breakthroughs.",
+    "image_url": "https://lh3.googleusercontent.com/77su8ojR_Lo2K1lL4Uh61KXdfrkAKFkwejuIR4fGsWFNDN6bkY7d7DrOqlqdCCR32iLbHVipT9s7jPuHpLJSckZeeJUyPJeZdN6h1vqoM_3ShaW0=w1200-h630-n-nu-rw",
+    "learn_more_url": "https://institute.deepmind.com/essays/bending-the-curve-of-discovery-ai-in-science-today-and-tomorrow/",
+    "date": "2026-10-09",
+    "source": "DeepMind Institute",
+    "ds": true
+  },
+  {
+    "title": "Claude Adds Live Dashboards and Animated Explainers",
+    "description": "Anthropic introduced Claude Dashboards in beta on paid plans and Claude Motion on Team and Enterprise. Dashboards connect to business data and refresh automatically; Motion creates editable, code-based animations exportable as MP4s. Docs, Slides, and Design are out of beta and available on all plans, including Free.",
+    "image_url": "https://assets.claude.com/7688d4d3b888c17cf4b3553f537f291882a92656.png",
+    "learn_more_url": "https://claude.com/resources/articles/dashboards-and-motion",
+    "date": "2026-10-09",
+    "source": "Anthropic"
+  },
+  {
+    "title": "Anthropic’s Claude Science Helps Complete UV Sky Map by Predicting Its Missing Third",
+    "description": "Astrophysicist Brice Ménard used Claude Science to combine telescope surveys and estimate the unobserved third of the ultraviolet sky. Anthropic says tests on deliberately hidden observations produced predictions within about 10% of measured values. The educational map distinguishes measured from predicted regions and includes uncertainty estimates; it does not replace new telescope observations.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/dde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png",
+    "learn_more_url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+    "date": "2026-10-09",
+    "source": "Anthropic",
+    "ds": true
+  },
+  {
+    "title": "Anthropic Updates Claude’s Rules for Campaigns, Hardware and Model Abuse",
+    "description": "Anthropic’s updated Claude usage policy takes effect November 12. It removes the blanket ban on personalized campaign targeting while retaining safeguards against deception and privacy misuse, adds operator oversight for hazardous autonomous hardware, and prohibits sustained, purposeless model abuse. Ordinary frustration, creative work, and testing remain allowed; most other changes clarify existing restrictions.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+    "learn_more_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+    "date": "2026-10-09",
+    "source": "Anthropic"
+  },
+  {
+    "title": "AI Helps Identify a Possible New Planet",
+    "description": "Independent researcher Pavel Rabtsevich says he used Claude Code and Codex to analyze NASA TESS observations and investigate a planet candidate orbiting every 3.18 days. A weaker second signal remains tentative. TESS approved follow-up observations, but neither candidate is confirmed, and the main signal’s host star remains uncertain.",
+    "image_url": "https://shots.threadreader.app/thread/2107803696058822742.jpg",
+    "learn_more_url": "https://threadreaderapp.com/thread/2107803696058822742.html",
+    "date": "2026-10-09",
+    "source": "Pavel Rabtsevich",
+    "ds": true
+  },
+  {
+    "title": "White House Announces $6 Billion Science Initiative Package",
+    "description": "The White House announced science initiatives representing over $6 billion in public, private and philanthropic commitments. They include $2.4 billion in industry-provided AI tools and compute credits, regional computing infrastructure, virtual biology and research training, alongside national priorities in quantum computing, fusion and space. The package combines funding, in-kind support and partnerships.",
+    "image_url": "https://cdn.nextgov.com/media/img/cd/2026/10/08/100826WHNG/original.jpg",
+    "learn_more_url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/",
+    "date": "2026-10-09",
+    "source": "The White House"
+  },
+  {
+    "title": "Fired OpenAI Safety Researchers Publish Letter Disputing Dismissals",
+    "description": "Three fired OpenAI safety researchers published an open letter saying they acted within the company’s working norms. They warned unclear rules could hinder safety work and urged OpenAI to embed independent safety auditors. According to TechCrunch, OpenAI said the dismissals followed misconduct, denied retaliation for raising concerns, and agreed with the recommendations.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+    "learn_more_url": "https://mikitabalesni.com/letter/letter.pdf",
+    "date": "2026-10-09",
+    "source": "mikitabalesni.com"
+  },
+  {
+    "title": "Anthropic Adds Usage Policy Rule Against Abuse of Claude",
+    "description": "Anthropic’s updated usage policy prohibits sustained, needless abuse of Claude starting November 12, 2026. The company says the rule targets only extreme cases of repeated cruelty without a clear purpose, excluding ordinary frustration, pushback, dark creative themes, and model testing or research. Anthropic says Claude’s existing ability to end abusive conversations will remain the main enforcement method.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+    "learn_more_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+    "date": "2026-10-09",
+    "source": "anthropic.com"
+  }
+]
