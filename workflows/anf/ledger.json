@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 217,
-  "updated_at": "2026-10-09T11:59:58.570639+00:00",
+  "generation": 218,
+  "updated_at": "2026-10-09T12:00:33.468383+00:00",
   "next_id": 76,
   "records": [
     {
@@ -8568,6 +8568,18 @@
         },
         "editorial_sha256": "7d1ffc8faf5db663da82e39697417743e9f26030acf7a64c1ad165f636edad91"
       }
+    },
+    "5f44dd169cf468db2013568b90cdaf0c20f6141f8b9256a8f8586266349f4775": {
+      "sha256": "a22eb9cbc1c589f617c0540a8febe534458b37ab18e8a1baefa88444e08ecf49",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 74,
+          "revision": 1,
+          "sha256": "80a32b1011a696074422d11c5d2822168b4a3d0bfbeaa77012c4aa99092e7ae8"
+        },
+        "editorial_sha256": "d1bb73ee0f95cd9dd613748e7bef81cf801ed290909ded88728e59987c9257f1"
+      }
     }
   },
   "migration": {
@@ -11037,6 +11049,26 @@
         "sha256": "7d1ffc8faf5db663da82e39697417743e9f26030acf7a64c1ad165f636edad91",
         "reviewed_at": "2026-10-09T11:59:58.570639+00:00",
         "operation_id": "72c9475d535e1fa13f0222e28aaeaff67ec1cd5bef6af3e5155475c6a3ef526d"
+      }
+    ],
+    "74:1": [
+      {
+        "reference": {
+          "id": 74,
+          "revision": 1,
+          "sha256": "80a32b1011a696074422d11c5d2822168b4a3d0bfbeaa77012c4aa99092e7ae8"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General news about disputed dismissals and institutional AI safety oversight, not technical research methods.",
+            "evidence_sha256": "13f2a8f603dc6c1ad1a739087f19efa94a56424aa0f9264c2045c2c34508375b"
+          }
+        },
+        "sha256": "d1bb73ee0f95cd9dd613748e7bef81cf801ed290909ded88728e59987c9257f1",
+        "reviewed_at": "2026-10-09T12:00:33.468383+00:00",
+        "operation_id": "5f44dd169cf468db2013568b90cdaf0c20f6141f8b9256a8f8586266349f4775"
       }
     ]
   }
