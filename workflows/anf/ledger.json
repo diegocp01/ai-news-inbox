@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 209,
-  "updated_at": "2026-10-09T01:33:14.084050+00:00",
-  "next_id": 73,
+  "generation": 210,
+  "updated_at": "2026-10-09T01:34:27.203586+00:00",
+  "next_id": 74,
   "records": [
     {
       "id": 1,
@@ -972,6 +972,19 @@
           "sha256": "38e30850fa00d04e419e28998b2f9169240b00df6bf113f44971946405d9ca62",
           "source": "Pavel Rabtsevich",
           "request_id": "4aecb38ed5e4301b99360a9710a496b41099ddd2afe2f37252254cef0808d714",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "revisions": [
+        {
+          "created_at": "2026-10-09T01:34:27.203586+00:00",
+          "block": "Title: White House Announces $6 Billion Science Initiative Package\nURL: https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/\nImage URL: https://cdn.nextgov.com/media/img/cd/2026/10/08/100826WHNG/original.jpg\nSummary: The White House announced science initiatives representing over $6 billion in public, private and philanthropic commitments. They include $2.4 billion in industry-provided AI tools and compute credits, regional computing infrastructure, virtual biology and research training, alongside national priorities in quantum computing, fusion and space. The package combines funding, in-kind support and partnerships.",
+          "sha256": "9b60ead03d7887213343c01f8e9e157fed102016de4638c70a456020a43e217e",
+          "source": "The White House",
+          "request_id": "64c6ed5fe228aa28de5f772d62da951599378cf7dd5011f4a6cb0ead3d3e6bf5",
           "mode": "standard"
         }
       ]
@@ -2166,13 +2179,21 @@
       ]
     },
     "64c6ed5fe228aa28de5f772d62da951599378cf7dd5011f4a6cb0ead3d3e6bf5": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-09T01:28:36.502250+00:00",
       "received_sequence": 68,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-09T01:34:27.203586+00:00",
+      "records": [
+        {
+          "id": 73,
+          "revision": 1,
+          "sha256": "9b60ead03d7887213343c01f8e9e157fed102016de4638c70a456020a43e217e"
+        }
+      ]
     }
   },
   "batches": {
@@ -8393,6 +8414,21 @@
           "sha256": "38e30850fa00d04e419e28998b2f9169240b00df6bf113f44971946405d9ca62"
         },
         "editorial_sha256": "9af8360ab4d3e6d76b4fbc31c262e5d86f892dee0ff7fd2bce4b8a19df0df8bf"
+      }
+    },
+    "f684b704f1d47d07472ee9120b7aca0931dbe4e6b5b005a5426965ddafd054a3": {
+      "sha256": "c4ffa8b0e6e62f3db11e756868bbed98d188b86415a2691ae10c6a1519ec9ebd",
+      "result": {
+        "status": "finalized",
+        "request_id": "64c6ed5fe228aa28de5f772d62da951599378cf7dd5011f4a6cb0ead3d3e6bf5",
+        "records": [
+          {
+            "id": 73,
+            "revision": 1,
+            "sha256": "9b60ead03d7887213343c01f8e9e157fed102016de4638c70a456020a43e217e"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
