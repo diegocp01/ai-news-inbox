@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 218,
-  "updated_at": "2026-10-09T12:00:33.468383+00:00",
+  "generation": 219,
+  "updated_at": "2026-10-09T12:01:47.073213+00:00",
   "next_id": 76,
   "records": [
     {
@@ -8580,6 +8580,18 @@
         },
         "editorial_sha256": "d1bb73ee0f95cd9dd613748e7bef81cf801ed290909ded88728e59987c9257f1"
       }
+    },
+    "27a58af135202d718f738c51829e5eed4a0568f628e334116f84b4b7b0285f63": {
+      "sha256": "cea04ce10d7651a9163cac5c4d3f7ed2e1b5a5ecce6be514b2fbd4ad81ac01b3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 75,
+          "revision": 1,
+          "sha256": "27eb8025cff6631c4a7208f85f32f55f2655f1d15842dc3d8ac92fc64afe56ee"
+        },
+        "editorial_sha256": "bff2a1b8ca0594ccccef8cd2701ee54934f1de857ebcedfbef7ce3be5b6de047"
+      }
     }
   },
   "migration": {
@@ -11069,6 +11081,26 @@
         "sha256": "d1bb73ee0f95cd9dd613748e7bef81cf801ed290909ded88728e59987c9257f1",
         "reviewed_at": "2026-10-09T12:00:33.468383+00:00",
         "operation_id": "5f44dd169cf468db2013568b90cdaf0c20f6141f8b9256a8f8586266349f4775"
+      }
+    ],
+    "75:1": [
+      {
+        "reference": {
+          "id": 75,
+          "revision": 1,
+          "sha256": "27eb8025cff6631c4a7208f85f32f55f2655f1d15842dc3d8ac92fc64afe56ee"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Usage policy announcement affecting Claude users, not developer implementation or research guidance.",
+            "evidence_sha256": "bdd3c6eb3bfceb5bda9bc8a931692305b950820045ded950f5e7aeaf8ea134c4"
+          }
+        },
+        "sha256": "bff2a1b8ca0594ccccef8cd2701ee54934f1de857ebcedfbef7ce3be5b6de047",
+        "reviewed_at": "2026-10-09T12:01:47.073213+00:00",
+        "operation_id": "27a58af135202d718f738c51829e5eed4a0568f628e334116f84b4b7b0285f63"
       }
     ]
   }
