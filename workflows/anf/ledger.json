@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 230,
-  "updated_at": "2026-10-09T19:48:07.173602+00:00",
+  "generation": 231,
+  "updated_at": "2026-10-09T19:48:32.093272+00:00",
   "next_id": 78,
   "records": [
     {
@@ -9656,6 +9656,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a1180b9b00be6d8b3a6899d5fcbaea2587e00580ab4dde17da5182479adee11b": {
+      "sha256": "d494f0a0714cdadb8776dca3cce04eac20099846e617f78908a82dbbe4253def",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 77,
+          "revision": 1,
+          "sha256": "1c811d2e79c497dd64bfa3484fe07e4368962b5b542599e9dbdb189b03e97b57"
+        },
+        "editorial_sha256": "27f5595e1748c4d4b014edc0c14d8700b1e299298790bf21562c799925095d67"
+      }
     }
   },
   "migration": {
@@ -12271,6 +12283,26 @@
         "sha256": "9f56399ba931ce159d622ac692525ebea8df4774dfd9ce2370309edb39cd6ec8",
         "reviewed_at": "2026-10-09T19:27:49.121924+00:00",
         "operation_id": "5e6cef9b455386ce3cc965a5ad8b0a02595e35b179b84eabb9303a00a393dd52"
+      }
+    ],
+    "77:1": [
+      {
+        "reference": {
+          "id": 77,
+          "revision": 1,
+          "sha256": "1c811d2e79c497dd64bfa3484fe07e4368962b5b542599e9dbdb189b03e97b57"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The announcement concerns follow-up message drafting in Codex, a developer tool, and its supported desktop local/SSH workflows and models.",
+            "evidence_sha256": "1e05624b84408c096eca586a4dc30758163b3e6594b18dc6148e1508db96ec34"
+          }
+        },
+        "sha256": "27f5595e1748c4d4b014edc0c14d8700b1e299298790bf21562c799925095d67",
+        "reviewed_at": "2026-10-09T19:48:32.093272+00:00",
+        "operation_id": "a1180b9b00be6d8b3a6899d5fcbaea2587e00580ab4dde17da5182479adee11b"
       }
     ]
   }
