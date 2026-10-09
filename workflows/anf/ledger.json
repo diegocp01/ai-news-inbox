@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 208,
-  "updated_at": "2026-10-09T01:31:51.323494+00:00",
+  "generation": 209,
+  "updated_at": "2026-10-09T01:33:14.084050+00:00",
   "next_id": 73,
   "records": [
     {
@@ -8382,6 +8382,18 @@
         ],
         "duplicates": []
       }
+    },
+    "738668edf5034f806dd75c6e4c9df3ed5a21afa61471077372fc3b7d794a0c8f": {
+      "sha256": "5bd4dfd7483764e9e89752082981fa27bf62f654cc90845a6f36fb969edc4eba",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 72,
+          "revision": 1,
+          "sha256": "38e30850fa00d04e419e28998b2f9169240b00df6bf113f44971946405d9ca62"
+        },
+        "editorial_sha256": "9af8360ab4d3e6d76b4fbc31c262e5d86f892dee0ff7fd2bce4b8a19df0df8bf"
+      }
     }
   },
   "migration": {
@@ -10665,6 +10677,58 @@
         "sha256": "f3ed35044252e42678f13a4751db21f2f1ea9cd8beeffdbffa81b021a0363dc8",
         "reviewed_at": "2026-10-09T01:10:42.541586+00:00",
         "operation_id": "c5b64607722b82eba30d68fb296109b5e95573617f73c8d7bf595ce0c2c9e394"
+      }
+    ],
+    "72:1": [
+      {
+        "reference": {
+          "id": 72,
+          "revision": 1,
+          "sha256": "38e30850fa00d04e419e28998b2f9169240b00df6bf113f44971946405d9ca62"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Reports an AI-assisted astronomical data-analysis workflow, transit validation tests, open research code and remaining false-positive uncertainty.",
+            "evidence_sha256": "966a44caf9325719d7bdecd682484c02a5c7104400effb013d22da397156c67f"
+          },
+          "quality": {
+            "article": {
+              "url": "https://threadreaderapp.com/thread/2107803696058822742.html",
+              "final_url": "https://threadreaderapp.com/thread/2107803696058822742.html",
+              "redirect_chain": [
+                "https://threadreaderapp.com/thread/2107803696058822742.html"
+              ],
+              "checked_at": "2026-10-09T01:33:14.084050+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "966a44caf9325719d7bdecd682484c02a5c7104400effb013d22da397156c67f"
+            },
+            "image": {
+              "url": "https://shots.threadreader.app/thread/2107803696058822742.jpg",
+              "final_url": "https://shots.threadreader.app/thread/2107803696058822742.jpg",
+              "redirect_chain": [
+                "https://shots.threadreader.app/thread/2107803696058822742.jpg"
+              ],
+              "checked_at": "2026-10-09T01:33:14.084050+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "966a44caf9325719d7bdecd682484c02a5c7104400effb013d22da397156c67f",
+              "content_type": "image/jpeg",
+              "width": 1200,
+              "height": 628,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "92a336dc19f7af5743815f1f8203d33ee3ebe03aa606e27d5cdb105523908e2e",
+              "relevance": "story_specific",
+              "relevance_note": "Readable original-thread card showing the named researcher and his explicitly tentative planet claim; selected over a generic spacecraft photograph."
+            }
+          }
+        },
+        "sha256": "9af8360ab4d3e6d76b4fbc31c262e5d86f892dee0ff7fd2bce4b8a19df0df8bf",
+        "reviewed_at": "2026-10-09T01:33:14.084050+00:00",
+        "operation_id": "738668edf5034f806dd75c6e4c9df3ed5a21afa61471077372fc3b7d794a0c8f"
       }
     ]
   }
