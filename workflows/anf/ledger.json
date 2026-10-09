@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 225,
-  "updated_at": "2026-10-09T19:23:22.968109+00:00",
+  "generation": 226,
+  "updated_at": "2026-10-09T19:26:52.081765+00:00",
   "next_id": 77,
   "records": [
     {
@@ -9564,6 +9564,18 @@
         ],
         "duplicates": []
       }
+    },
+    "28e259c602d1391ce988a2aad21abb416cfcf227ee15cc9d448e49c87af4dc8d": {
+      "sha256": "97bd8c3d9d936151968555c2081497c216988a718ba033e836a1aa506ec601e2",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 76,
+          "revision": 1,
+          "sha256": "6632e4f54e03d273056df7ff7f0bdae5001b2ecd66a3fee46744231dec1a8495"
+        },
+        "editorial_sha256": "942d5ef4c48d71c7edc4b892004fbd6f308bc4965599d4d51d566d103a43c2b0"
+      }
     }
   },
   "migration": {
@@ -12073,6 +12085,60 @@
         "sha256": "bff2a1b8ca0594ccccef8cd2701ee54934f1de857ebcedfbef7ce3be5b6de047",
         "reviewed_at": "2026-10-09T12:01:47.073213+00:00",
         "operation_id": "27a58af135202d718f738c51829e5eed4a0568f628e334116f84b4b7b0285f63"
+      }
+    ],
+    "76:1": [
+      {
+        "reference": {
+          "id": 76,
+          "revision": 1,
+          "sha256": "6632e4f54e03d273056df7ff7f0bdae5001b2ecd66a3fee46744231dec1a8495"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer assistant email feature and rollout, without technical methods or developer implementation guidance.",
+            "evidence_sha256": "7f7c8162f172b908397911018d9aa68d88423cde98cf60f74235abce1ad79dd9"
+          },
+          "quality": {
+            "article": {
+              "url": "https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/",
+              "final_url": "https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/",
+              "redirect_chain": [
+                "https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/"
+              ],
+              "checked_at": "2026-10-09T19:22:30+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "7f7c8162f172b908397911018d9aa68d88423cde98cf60f74235abce1ad79dd9"
+            },
+            "image": {
+              "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628",
+              "final_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628",
+              "redirect_chain": [
+                "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628"
+              ],
+              "checked_at": "2026-10-09T19:22:47+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "7f7c8162f172b908397911018d9aa68d88423cde98cf60f74235abce1ad79dd9",
+              "content_type": "image/webp",
+              "width": 1200,
+              "height": 628,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "8998bd22e779cbde7b2566d85739ad75a94aa95ad60cee4b19270a10de48b817",
+              "relevance": "official_logo",
+              "relevance_note": "Inspected actual 1200x628 WEBP pixels: sharp silver Grok Bot face app icon on gray background with publisher watermark.",
+              "story_specific_available": false,
+              "fallback_reason": "Official post image is on forbidden twimg host; checked same-event 9to5Mac full article imagery, which uses this clear Grok Bot app icon. TeslaNorth indexed article also uses product branding; no usable compliant event-specific image found."
+            }
+          }
+        },
+        "sha256": "942d5ef4c48d71c7edc4b892004fbd6f308bc4965599d4d51d566d103a43c2b0",
+        "reviewed_at": "2026-10-09T19:26:52.081765+00:00",
+        "operation_id": "28e259c602d1391ce988a2aad21abb416cfcf227ee15cc9d448e49c87af4dc8d"
       }
     ]
   }
