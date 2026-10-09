@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 210,
-  "updated_at": "2026-10-09T01:34:27.203586+00:00",
+  "generation": 211,
+  "updated_at": "2026-10-09T01:35:17.063578+00:00",
   "next_id": 74,
   "records": [
     {
@@ -8430,6 +8430,18 @@
         ],
         "duplicates": []
       }
+    },
+    "506726c6bf2ac410d85314df7a6023b9c4e499dbe47965cb175714a999e09f0b": {
+      "sha256": "efd0c2793ef38f6a4c5351af433a8c0e9d2ecc8d18c7c2075b487d065f6e82a1",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 73,
+          "revision": 1,
+          "sha256": "9b60ead03d7887213343c01f8e9e157fed102016de4638c70a456020a43e217e"
+        },
+        "editorial_sha256": "54ded2a2d7f09b9191881d44657dde9c9c67f434cab35821d79bf6390ca63769"
+      }
     }
   },
   "migration": {
@@ -10765,6 +10777,60 @@
         "sha256": "9af8360ab4d3e6d76b4fbc31c262e5d86f892dee0ff7fd2bce4b8a19df0df8bf",
         "reviewed_at": "2026-10-09T01:33:14.084050+00:00",
         "operation_id": "738668edf5034f806dd75c6e4c9df3ed5a21afa61471077372fc3b7d794a0c8f"
+      }
+    ],
+    "73:1": [
+      {
+        "reference": {
+          "id": 73,
+          "revision": 1,
+          "sha256": "9b60ead03d7887213343c01f8e9e157fed102016de4638c70a456020a43e217e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Broad government science policy and funding announcement for a general news audience; not research methods or developer implementation guidance.",
+            "evidence_sha256": "bfb87263de0a7b5813fc535ef59185e2637e8f6fbfe831ab808db417f97f72c6"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/",
+              "final_url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/",
+              "redirect_chain": [
+                "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/"
+              ],
+              "checked_at": "2026-10-09T01:31:40+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "bfb87263de0a7b5813fc535ef59185e2637e8f6fbfe831ab808db417f97f72c6"
+            },
+            "image": {
+              "url": "https://cdn.nextgov.com/media/img/cd/2026/10/08/100826WHNG/original.jpg",
+              "final_url": "https://cdn.nextgov.com/media/img/cd/2026/10/08/100826WHNG/original.jpg",
+              "redirect_chain": [
+                "https://cdn.nextgov.com/media/img/cd/2026/10/08/100826WHNG/original.jpg"
+              ],
+              "checked_at": "2026-10-09T01:32:27+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "bfb87263de0a7b5813fc535ef59185e2637e8f6fbfe831ab808db417f97f72c6",
+              "content_type": "image/jpeg",
+              "width": 1400,
+              "height": 933,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "2986c0e98d563e979ab88db2ff6e8d014d81f233d91fb0f994ec585d5baf0089",
+              "relevance": "topic_specific",
+              "relevance_note": "Sharp White House exterior with American flag; publisher-selected article photo, not summit-specific. Official fact sheet offers generic White House share card; same-event Nextgov story uses this White House photograph.",
+              "story_specific_available": false,
+              "fallback_reason": "Official fact sheet has no event image and uses a generic share card; same-event Nextgov coverage selects this verified White House exterior photograph."
+            }
+          }
+        },
+        "sha256": "54ded2a2d7f09b9191881d44657dde9c9c67f434cab35821d79bf6390ca63769",
+        "reviewed_at": "2026-10-09T01:35:17.063578+00:00",
+        "operation_id": "506726c6bf2ac410d85314df7a6023b9c4e499dbe47965cb175714a999e09f0b"
       }
     ]
   }
