@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 215,
-  "updated_at": "2026-10-09T11:58:35.016006+00:00",
+  "generation": 216,
+  "updated_at": "2026-10-09T11:59:26.140579+00:00",
   "next_id": 76,
   "records": [
     {
@@ -8544,6 +8544,18 @@
         },
         "editorial_sha256": "da041febb9e69b41cf4104745c1e364eee86d9f5485b203c113843b1ca1ec411"
       }
+    },
+    "1b512c737e0b439b7588ec023f12a769b4c62efd2b5f0c63dc43ad593c3588fe": {
+      "sha256": "903fd3bd3aae9b094b7a993e5def7a2a92f9d7898d8d993e62a98f8c9e6dbdfb",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 63,
+          "revision": 1,
+          "sha256": "6350f2a9de00bffaf7cd2a15c0eac3d84ae21fd3434d190ab2593dce82cf34c8"
+        },
+        "editorial_sha256": "94e5d502ae8f110fe4444badd0bcd6948cf05b9c95a719337892e08d394a432d"
+      }
     }
   },
   "migration": {
@@ -10973,6 +10985,26 @@
         "sha256": "da041febb9e69b41cf4104745c1e364eee86d9f5485b203c113843b1ca1ec411",
         "reviewed_at": "2026-10-09T11:58:35.016006+00:00",
         "operation_id": "2c4536d83c594beef148b0695db9368f0e4576d4cf7d7b617f9f05d4898b363d"
+      }
+    ],
+    "63:1": [
+      {
+        "reference": {
+          "id": 63,
+          "revision": 1,
+          "sha256": "6350f2a9de00bffaf7cd2a15c0eac3d84ae21fd3434d190ab2593dce82cf34c8"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Broad funding and partnership announcement for virtual biology, without research methods or implementation guidance.",
+            "evidence_sha256": "cef4d3b6ac34fe81415e63ee9d0a25261b6ea6f2f5bc04316d1a5216e22e2046"
+          }
+        },
+        "sha256": "94e5d502ae8f110fe4444badd0bcd6948cf05b9c95a719337892e08d394a432d",
+        "reviewed_at": "2026-10-09T11:59:26.140579+00:00",
+        "operation_id": "1b512c737e0b439b7588ec023f12a769b4c62efd2b5f0c63dc43ad593c3588fe"
       }
     ]
   }
