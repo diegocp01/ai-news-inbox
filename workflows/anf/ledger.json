@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 212,
-  "updated_at": "2026-10-09T11:33:49.139783+00:00",
-  "next_id": 74,
+  "generation": 213,
+  "updated_at": "2026-10-09T11:38:50.728984+00:00",
+  "next_id": 76,
   "records": [
     {
       "id": 1,
@@ -986,6 +986,34 @@
           "source": "The White House",
           "request_id": "64c6ed5fe228aa28de5f772d62da951599378cf7dd5011f4a6cb0ead3d3e6bf5",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "revisions": [
+        {
+          "created_at": "2026-10-09T11:38:50.728984+00:00",
+          "block": "Title: Fired OpenAI Safety Researchers Publish Letter Disputing Dismissals\nURL: https://mikitabalesni.com/letter/letter.pdf\nImage URL: https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800\nSummary: Three fired OpenAI safety researchers published an open letter saying they acted within the company’s working norms. They warned unclear rules could hinder safety work and urged OpenAI to embed independent safety auditors. According to TechCrunch, OpenAI said the dismissals followed misconduct, denied retaliation for raising concerns, and agreed with the recommendations.",
+          "sha256": "80a32b1011a696074422d11c5d2822168b4a3d0bfbeaa77012c4aa99092e7ae8",
+          "source": "mikitabalesni.com",
+          "request_id": "2ff6b95fbe05662b4e3d8476c45419959e3511876921bad2f82d48f883a83adf",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "revisions": [
+        {
+          "created_at": "2026-10-09T11:38:50.728984+00:00",
+          "block": "Title: Anthropic Adds Usage Policy Rule Against Abuse of Claude\nURL: https://www.anthropic.com/news/2026-usage-policy-update\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg\nSummary: Anthropic’s updated usage policy prohibits sustained, needless abuse of Claude starting November 12, 2026. The company says the rule targets only extreme cases of repeated cruelty without a clear purpose, excluding ordinary frustration, pushback, dark creative themes, and model testing or research. Anthropic says Claude’s existing ability to end abusive conversations will remain the main enforcement method.",
+          "sha256": "27eb8025cff6631c4a7208f85f32f55f2655f1d15842dc3d8ac92fc64afe56ee",
+          "source": "anthropic.com",
+          "request_id": "2ff6b95fbe05662b4e3d8476c45419959e3511876921bad2f82d48f883a83adf",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -2196,14 +2224,27 @@
       ]
     },
     "2ff6b95fbe05662b4e3d8476c45419959e3511876921bad2f82d48f883a83adf": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-09T11:33:49.139783+00:00",
       "received_sequence": 69,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-09T11:38:50.728984+00:00",
+      "records": [
+        {
+          "id": 74,
+          "revision": 1,
+          "sha256": "80a32b1011a696074422d11c5d2822168b4a3d0bfbeaa77012c4aa99092e7ae8"
+        },
+        {
+          "id": 75,
+          "revision": 1,
+          "sha256": "27eb8025cff6631c4a7208f85f32f55f2655f1d15842dc3d8ac92fc64afe56ee"
+        }
+      ]
     }
   },
   "batches": {
@@ -8458,6 +8499,26 @@
       "result": {
         "status": "received",
         "request_id": "2ff6b95fbe05662b4e3d8476c45419959e3511876921bad2f82d48f883a83adf"
+      }
+    },
+    "745f259ec87e817346c9ba8f61fa2f2d269463605e8e135bb9cf7ab3be667f0d": {
+      "sha256": "8cad1834677c3fbcc125c77daadd05afa5bfbb2ec72f58df748c668068b85034",
+      "result": {
+        "status": "finalized",
+        "request_id": "2ff6b95fbe05662b4e3d8476c45419959e3511876921bad2f82d48f883a83adf",
+        "records": [
+          {
+            "id": 74,
+            "revision": 1,
+            "sha256": "80a32b1011a696074422d11c5d2822168b4a3d0bfbeaa77012c4aa99092e7ae8"
+          },
+          {
+            "id": 75,
+            "revision": 1,
+            "sha256": "27eb8025cff6631c4a7208f85f32f55f2655f1d15842dc3d8ac92fc64afe56ee"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
