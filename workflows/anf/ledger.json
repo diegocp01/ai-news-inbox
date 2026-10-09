@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 232,
-  "updated_at": "2026-10-09T19:50:00.756472+00:00",
+  "generation": 233,
+  "updated_at": "2026-10-09T19:50:25.703594+00:00",
   "next_id": 79,
   "records": [
     {
@@ -9704,6 +9704,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a6b2a580260bc02df7d984464fc65da9b943944f6414ada8820f533f48f3445c": {
+      "sha256": "4cf9915bc989e25a2893bc5d51b944706bfc7c24fef9031bfac92f3ee20e1fc2",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 78,
+          "revision": 1,
+          "sha256": "6780f71be50a5db58c3484cccca0582e89dd4688b411a952c6cbe2b7877c6d2e"
+        },
+        "editorial_sha256": "bce6e0dec63b5f10af9ede4bf65642f0eb864ead33a3ab4d2d39cdde9f8771e2"
+      }
     }
   },
   "migration": {
@@ -12339,6 +12351,60 @@
         "sha256": "27f5595e1748c4d4b014edc0c14d8700b1e299298790bf21562c799925095d67",
         "reviewed_at": "2026-10-09T19:48:32.093272+00:00",
         "operation_id": "a1180b9b00be6d8b3a6899d5fcbaea2587e00580ab4dde17da5182479adee11b"
+      }
+    ],
+    "78:1": [
+      {
+        "reference": {
+          "id": 78,
+          "revision": 1,
+          "sha256": "6780f71be50a5db58c3484cccca0582e89dd4688b411a952c6cbe2b7877c6d2e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The combined update materially covers starting and continuing Codex coding tasks with cross-thread context; developer workflow is central to the requested follow-up, alongside mobile setup and scheduled-task controls.",
+            "evidence_sha256": "5d9d4ffcfbe9fe45c9c32a1a7237d562264a48fcdc2f4ddc6450d15b5903de80"
+          },
+          "quality": {
+            "article": {
+              "url": "https://nerdschalk.com/chatgpt-dots-phone-setup-codex-tasks/",
+              "final_url": "https://nerdschalk.com/chatgpt-dots-phone-setup-codex-tasks/",
+              "redirect_chain": [
+                "https://nerdschalk.com/chatgpt-dots-phone-setup-codex-tasks/"
+              ],
+              "checked_at": "2026-10-09T19:48:42Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "116ad0b3739c47300498fee20c190fd98fdb5e9c2107f7e095769e578939d38f"
+            },
+            "image": {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+              "final_url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+              "redirect_chain": [
+                "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill"
+              ],
+              "checked_at": "2026-10-09T19:48:42Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "8b41f63b3ac6d35f8df6056a2964abb979698f684dce7e4aaa25c2f24aa53cb8",
+              "content_type": "image/png",
+              "width": 1600,
+              "height": 900,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "cc021593844d126086aa64545583d987e807d8232c68280fe9d2be83b08350e1",
+              "relevance": "official_logo",
+              "relevance_note": "Verified official dots wordmark and character artwork for this product; visual inspection confirms a clean 1600×900 image.",
+              "story_specific_available": false,
+              "fallback_reason": "Exact-post video thumbnails are on prohibited pbs.twimg.com; current official dated announcement has no in-article raster visuals and its OG image is on prohibited learn.chatgpt.com. Same-event NerdsChalk hero was visually inspected and is a generic ChatGPT logo. Older official carousel candidate was visually inspected but depicts a presentation-editing workflow rather than this update. Selected official dots wordmark is more product-specific than the generic ChatGPT art."
+            }
+          }
+        },
+        "sha256": "bce6e0dec63b5f10af9ede4bf65642f0eb864ead33a3ab4d2d39cdde9f8771e2",
+        "reviewed_at": "2026-10-09T19:50:25.703594+00:00",
+        "operation_id": "a6b2a580260bc02df7d984464fc65da9b943944f6414ada8820f533f48f3445c"
       }
     ]
   }
