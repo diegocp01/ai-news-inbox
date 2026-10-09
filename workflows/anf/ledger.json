@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 214,
-  "updated_at": "2026-10-09T11:58:06.660383+00:00",
+  "generation": 215,
+  "updated_at": "2026-10-09T11:58:35.016006+00:00",
   "next_id": 76,
   "records": [
     {
@@ -8532,6 +8532,18 @@
         },
         "editorial_sha256": "157d20226b9fe3f5c53dcaeab1727c86ed3d9ced25267301eaf42157513fec59"
       }
+    },
+    "2c4536d83c594beef148b0695db9368f0e4576d4cf7d7b617f9f05d4898b363d": {
+      "sha256": "0d34211814c70b11081e4a1c7060521c8dd25033f1b9d89f171edeb14ed258ed",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 62,
+          "revision": 1,
+          "sha256": "06dae115b8eb0f954e698d021309caab21726e5e0f3ab463e0c1f6a4ea124c03"
+        },
+        "editorial_sha256": "da041febb9e69b41cf4104745c1e364eee86d9f5485b203c113843b1ca1ec411"
+      }
     }
   },
   "migration": {
@@ -10941,6 +10953,26 @@
         "sha256": "157d20226b9fe3f5c53dcaeab1727c86ed3d9ced25267301eaf42157513fec59",
         "reviewed_at": "2026-10-09T11:58:06.660383+00:00",
         "operation_id": "ae1572299498aa981a6835d2c523f9d4e6b095a64f797d3c4b38f8412f0c0a5b"
+      }
+    ],
+    "62:1": [
+      {
+        "reference": {
+          "id": 62,
+          "revision": 1,
+          "sha256": "06dae115b8eb0f954e698d021309caab21726e5e0f3ab463e0c1f6a4ea124c03"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research method compresses video-generation models, with latency benchmarks and training tradeoffs.",
+            "evidence_sha256": "fc400abae8533d7a16e6b594335f3462febb7c7178fecf1737862c4300918e68"
+          }
+        },
+        "sha256": "da041febb9e69b41cf4104745c1e364eee86d9f5485b203c113843b1ca1ec411",
+        "reviewed_at": "2026-10-09T11:58:35.016006+00:00",
+        "operation_id": "2c4536d83c594beef148b0695db9368f0e4576d4cf7d7b617f9f05d4898b363d"
       }
     ]
   }
