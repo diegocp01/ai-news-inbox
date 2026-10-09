@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 216,
-  "updated_at": "2026-10-09T11:59:26.140579+00:00",
+  "generation": 217,
+  "updated_at": "2026-10-09T11:59:58.570639+00:00",
   "next_id": 76,
   "records": [
     {
@@ -8556,6 +8556,18 @@
         },
         "editorial_sha256": "94e5d502ae8f110fe4444badd0bcd6948cf05b9c95a719337892e08d394a432d"
       }
+    },
+    "72c9475d535e1fa13f0222e28aaeaff67ec1cd5bef6af3e5155475c6a3ef526d": {
+      "sha256": "9ccfc992e34b0fa14057c8ffc723204c8a762f0ed274dc0131558ec452acbf75",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 64,
+          "revision": 1,
+          "sha256": "0b34d9190f95ee39bcd534a184e76d7ccd523d31f8135c0c61c5361fce2a1884"
+        },
+        "editorial_sha256": "7d1ffc8faf5db663da82e39697417743e9f26030acf7a64c1ad165f636edad91"
+      }
     }
   },
   "migration": {
@@ -11005,6 +11017,26 @@
         "sha256": "94e5d502ae8f110fe4444badd0bcd6948cf05b9c95a719337892e08d394a432d",
         "reviewed_at": "2026-10-09T11:59:26.140579+00:00",
         "operation_id": "1b512c737e0b439b7588ec023f12a769b4c62efd2b5f0c63dc43ad593c3588fe"
+      }
+    ],
+    "64:1": [
+      {
+        "reference": {
+          "id": 64,
+          "revision": 1,
+          "sha256": "0b34d9190f95ee39bcd534a184e76d7ccd523d31f8135c0c61c5361fce2a1884"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer AI assistant announcement about routing tasks to external model providers.",
+            "evidence_sha256": "71f8fedcb6b3db6437169380f8e930ced1000a2e8f985469035ac5aceefeea4e"
+          }
+        },
+        "sha256": "7d1ffc8faf5db663da82e39697417743e9f26030acf7a64c1ad165f636edad91",
+        "reviewed_at": "2026-10-09T11:59:58.570639+00:00",
+        "operation_id": "72c9475d535e1fa13f0222e28aaeaff67ec1cd5bef6af3e5155475c6a3ef526d"
       }
     ]
   }
