@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 241,
-  "updated_at": "2026-10-10T04:56:47.628603+00:00",
+  "generation": 242,
+  "updated_at": "2026-10-10T05:25:44.069719+00:00",
   "next_id": 82,
   "records": [
     {
@@ -9896,6 +9896,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2dcb51aed36c0f13d40208b0bc2ba9ae12d01623462bcbc3efdf503c144e6d5d": {
+      "sha256": "160cef15205822d29cfb3079713386f8c592652998adeb545182f45ea19edf8b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 81,
+          "revision": 1,
+          "sha256": "b01b2aa8b4fc42963ffb78d49b3ce7c593fc1975eec1fcbe0b1283757db89e39"
+        },
+        "editorial_sha256": "fd72bef70e6709c239a888eebe3662e1593c70253540f08a72be1ebd17a1d607"
+      }
     }
   },
   "migration": {
@@ -12625,6 +12637,58 @@
         "sha256": "af785267822ce04362f519ef337e757259c03bdf4c9ac69c40741d4107f0c52b",
         "reviewed_at": "2026-10-10T03:46:05.283501+00:00",
         "operation_id": "0400b7ef019842ff51c07c6004a97f52f7a6b88e838656d9a07934ef1f036916"
+      }
+    ],
+    "81:1": [
+      {
+        "reference": {
+          "id": 81,
+          "revision": 1,
+          "sha256": "b01b2aa8b4fc42963ffb78d49b3ce7c593fc1975eec1fcbe0b1283757db89e39"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Subscription integration for a software-development agent, with model routing and quota details relevant to developers.",
+            "evidence_sha256": "d6ca7fd93fbaffd3c02b31cd83c92b2d38bf77d667f632ddfbcd22db02f0cd4e"
+          },
+          "quality": {
+            "article": {
+              "url": "https://cognitionai.mintlify.app/admin/billing/chatgpt",
+              "final_url": "https://cognitionai.mintlify.app/admin/billing/chatgpt",
+              "redirect_chain": [
+                "https://cognitionai.mintlify.app/admin/billing/chatgpt"
+              ],
+              "checked_at": "2026-10-10T04:56:47.644435+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "53b2d3a245fb0bfd79dda7a1c93475a1c5dbef2c3d544b773bfb50c6c6559c99"
+            },
+            "image": {
+              "url": "https://cognitionai.mintlify.app/_mintlify/api/og/v2?division=Billing&title=Use+your+ChatGPT+plan+in+Devin&description=Link+your+ChatGPT+Go%2C+Plus%2C+or+Pro+subscription+to+Devin+so+GPT+model+usage+in+your+sessions+is+billed+to+your+ChatGPT+plan+instead+of+your+Devin+quota.&theme=0713c6ac62f0fe20fbbf80d4&signature=b8e56d04a906f991e761beaf63ae16cfaf7f5f9816cf178584dc07b7fbcaec4f",
+              "final_url": "https://cognitionai.mintlify.app/_mintlify/api/og/v2?division=Billing&title=Use+your+ChatGPT+plan+in+Devin&description=Link+your+ChatGPT+Go%2C+Plus%2C+or+Pro+subscription+to+Devin+so+GPT+model+usage+in+your+sessions+is+billed+to+your+ChatGPT+plan+instead+of+your+Devin+quota.&theme=0713c6ac62f0fe20fbbf80d4&signature=b8e56d04a906f991e761beaf63ae16cfaf7f5f9816cf178584dc07b7fbcaec4f",
+              "redirect_chain": [
+                "https://cognitionai.mintlify.app/_mintlify/api/og/v2?division=Billing&title=Use+your+ChatGPT+plan+in+Devin&description=Link+your+ChatGPT+Go%2C+Plus%2C+or+Pro+subscription+to+Devin+so+GPT+model+usage+in+your+sessions+is+billed+to+your+ChatGPT+plan+instead+of+your+Devin+quota.&theme=0713c6ac62f0fe20fbbf80d4&signature=b8e56d04a906f991e761beaf63ae16cfaf7f5f9816cf178584dc07b7fbcaec4f"
+              ],
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 630,
+              "image_bytes_sha256": "ccc08e15e47f67cd770f056327000debaf0709888b0872577eb288de7c20676c",
+              "checked_at": "2026-10-10T04:56:47.644435+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "08c77dfe5b0fb718163a729b173285ed2332f287429ce42913a76a8b31e4238f",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Official documentation artwork specifically labels the ChatGPT-plan integration and lists Go, Plus, and Pro."
+            }
+          }
+        },
+        "sha256": "fd72bef70e6709c239a888eebe3662e1593c70253540f08a72be1ebd17a1d607",
+        "reviewed_at": "2026-10-10T05:25:44.069719+00:00",
+        "operation_id": "2dcb51aed36c0f13d40208b0bc2ba9ae12d01623462bcbc3efdf503c144e6d5d"
       }
     ]
   }
