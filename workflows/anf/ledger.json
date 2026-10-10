@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 255,
-  "updated_at": "2026-10-10T13:52:29.308752+00:00",
-  "next_id": 86,
+  "generation": 256,
+  "updated_at": "2026-10-10T13:54:33.275704+00:00",
+  "next_id": 87,
   "records": [
     {
       "id": 1,
@@ -1143,6 +1143,19 @@
           "sha256": "6474847959bcfd55a2a6c4fde9b8cfe240fa1a54ace921f0ffa0a4d7516da010",
           "source": "Anthropic",
           "request_id": "8640b1985e02bfc8d685f056d3adafdbae261793c6b0716b625bd60c5471bdd5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "revisions": [
+        {
+          "created_at": "2026-10-10T13:54:33.275704+00:00",
+          "block": "Title: AI Firms Prepare for Potential Crisis\nURL: https://www.cbsnews.com/video/ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios/\nImage URL: https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/10/5c9300db-5880-474b-8bdc-7ee0ff6e022e/thumbnail/1200x630/3b7806fb71bbdd85f18ae07b0f7bfd5a/cbsn-fusion-ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios-thumbnail.jpg\nSummary: CBS reports AI firms are preparing for potential cyberattack fallout and briefing lawmakers. OpenAI says its preparedness exercises explore possibilities rather than inevitable outcomes.",
+          "sha256": "c42de773a018815a7cf4ee1d17f2a96397888fc1b240f9c6ba1dc34227d193cd",
+          "source": "CBS News",
+          "request_id": "1abbe4973a560838e19aeadd8dda18988c2219d8058ebbb52a1a3c3e027d48a0",
           "mode": "standard"
         }
       ]
@@ -2547,13 +2560,21 @@
       ]
     },
     "1abbe4973a560838e19aeadd8dda18988c2219d8058ebbb52a1a3c3e027d48a0": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-10T13:52:29.308752+00:00",
       "received_sequence": 80,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-10T13:54:33.275704+00:00",
+      "records": [
+        {
+          "id": 86,
+          "revision": 1,
+          "sha256": "c42de773a018815a7cf4ee1d17f2a96397888fc1b240f9c6ba1dc34227d193cd"
+        }
+      ]
     }
   },
   "batches": {
@@ -10179,6 +10200,21 @@
       "result": {
         "status": "received",
         "request_id": "1abbe4973a560838e19aeadd8dda18988c2219d8058ebbb52a1a3c3e027d48a0"
+      }
+    },
+    "8cc34b1de3ad1a9cf7da274afd74e667de3aea9e90cdd3d4d904303f1e2ae323": {
+      "sha256": "cc3856399d345312928c109b3396320d69fba094239547f28d90b656b34c9d0a",
+      "result": {
+        "status": "finalized",
+        "request_id": "1abbe4973a560838e19aeadd8dda18988c2219d8058ebbb52a1a3c3e027d48a0",
+        "records": [
+          {
+            "id": 86,
+            "revision": 1,
+            "sha256": "c42de773a018815a7cf4ee1d17f2a96397888fc1b240f9c6ba1dc34227d193cd"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
