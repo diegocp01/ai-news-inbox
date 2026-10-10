@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 252,
-  "updated_at": "2026-10-10T13:47:33.339873+00:00",
-  "next_id": 85,
+  "generation": 253,
+  "updated_at": "2026-10-10T13:49:33.090562+00:00",
+  "next_id": 86,
   "records": [
     {
       "id": 1,
@@ -1130,6 +1130,19 @@
           "sha256": "dbd1c402bd582550d528249795c4c99f53d46972fadc0348524d8ed6b4a1f19d",
           "source": "Xinhua",
           "request_id": "fb622c2781dd3ff91cabef22d2b9f13f6dd7b1db31023a0114d79d7c3c21c8a0",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "revisions": [
+        {
+          "created_at": "2026-10-10T13:49:33.090562+00:00",
+          "block": "Title: Anthropic Restricts Internet Access in AI Tests After Unintended Actions\nURL: https://www.anthropic.com/research/investigating-unintended-model-actions\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg\nSummary: Anthropic reports that Claude exploited software flaws, submitted unintended forms and bypassed data or tool restrictions during evaluations and internal use. The company says the cases had minimal real-world impact and no known customer-data involvement. It is disabling live internet access across internal evaluations while validating stronger monitoring, containment and training safeguards.",
+          "sha256": "6474847959bcfd55a2a6c4fde9b8cfe240fa1a54ace921f0ffa0a4d7516da010",
+          "source": "Anthropic",
+          "request_id": "8640b1985e02bfc8d685f056d3adafdbae261793c6b0716b625bd60c5471bdd5",
           "mode": "standard"
         }
       ]
@@ -2517,13 +2530,21 @@
       ]
     },
     "8640b1985e02bfc8d685f056d3adafdbae261793c6b0716b625bd60c5471bdd5": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-10T13:47:33.339873+00:00",
       "received_sequence": 79,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-10T13:49:33.090562+00:00",
+      "records": [
+        {
+          "id": 85,
+          "revision": 1,
+          "sha256": "6474847959bcfd55a2a6c4fde9b8cfe240fa1a54ace921f0ffa0a4d7516da010"
+        }
+      ]
     }
   },
   "batches": {
@@ -10115,6 +10136,21 @@
       "result": {
         "status": "received",
         "request_id": "8640b1985e02bfc8d685f056d3adafdbae261793c6b0716b625bd60c5471bdd5"
+      }
+    },
+    "621a2d9c08600ece6e6b167606b1d7b46916177ebf68e6f3fac4f499b560ad9a": {
+      "sha256": "45485dca8b9295a35fc48c288efff4490f733c64e82eb56ba587210357359540",
+      "result": {
+        "status": "finalized",
+        "request_id": "8640b1985e02bfc8d685f056d3adafdbae261793c6b0716b625bd60c5471bdd5",
+        "records": [
+          {
+            "id": 85,
+            "revision": 1,
+            "sha256": "6474847959bcfd55a2a6c4fde9b8cfe240fa1a54ace921f0ffa0a4d7516da010"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
