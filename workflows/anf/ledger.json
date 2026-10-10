@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 247,
-  "updated_at": "2026-10-10T13:28:16.363944+00:00",
+  "generation": 248,
+  "updated_at": "2026-10-10T13:33:10.950834+00:00",
   "next_id": 84,
   "records": [
     {
@@ -10024,6 +10024,18 @@
         ],
         "duplicates": []
       }
+    },
+    "59045021410a68326a866105f69925b3dc7938a99bbf393a8fa87d800e6405e2": {
+      "sha256": "852baa2478b230a17a0a998f62c271324d67b2d967915e32af972eb82fd34939",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 83,
+          "revision": 1,
+          "sha256": "6f7145fc5bd914251eec54adae90d3eec0755db82bbb298dfcf33f0e972c3627"
+        },
+        "editorial_sha256": "05fc8e01c7a6883e8eeecfe0763e3fa0db360d8fd8a33c185cb828934511fc47"
+      }
     }
   },
   "migration": {
@@ -12857,6 +12869,59 @@
         "sha256": "5bc84e721be6b6806e57e055c44900f99caeb8ee852818683100247a933dc2b0",
         "reviewed_at": "2026-10-10T13:25:21.173683+00:00",
         "operation_id": "bb531221cf9571ebae5dacb3afc2d057e1e6c98a31524e9b50abfaf5d163d10b"
+      }
+    ],
+    "83:1": [
+      {
+        "reference": {
+          "id": 83,
+          "revision": 1,
+          "sha256": "6f7145fc5bd914251eec54adae90d3eec0755db82bbb298dfcf33f0e972c3627"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General consumer startup funding and planned wearable-product news, not an implementation guide, research paper, API or technical developer release.",
+            "evidence_sha256": "735c52a0af28202091f7217d8174ffc4b3e4e35d0dfbbb6c973f48ccb4d0a62d"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.forbes.com/sites/rashishrivastava/2026/10/09/vinod-khosla-backs-an-ai-startup-building-a-mind-reading-baseball-cap/",
+              "final_url": "https://tollbit.forbes.com/sites/rashishrivastava/2026/10/09/vinod-khosla-backs-an-ai-startup-building-a-mind-reading-baseball-cap/",
+              "redirect_chain": [
+                "https://www.forbes.com/sites/rashishrivastava/2026/10/09/vinod-khosla-backs-an-ai-startup-building-a-mind-reading-baseball-cap/",
+                "https://tollbit.forbes.com/sites/rashishrivastava/2026/10/09/vinod-khosla-backs-an-ai-startup-building-a-mind-reading-baseball-cap/"
+              ],
+              "checked_at": "2026-10-10T13:27:58+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "735c52a0af28202091f7217d8174ffc4b3e4e35d0dfbbb6c973f48ccb4d0a62d"
+            },
+            "image": {
+              "url": "https://app.financewire.com/storage/uploads/images/hold-release-until-9am-pt-on-friday-october-9th-20_17915582734mYR1UD1uT.jpg",
+              "final_url": "https://app.financewire.com/storage/uploads/images/hold-release-until-9am-pt-on-friday-october-9th-20_17915582734mYR1UD1uT.jpg",
+              "redirect_chain": [
+                "https://app.financewire.com/storage/uploads/images/hold-release-until-9am-pt-on-friday-october-9th-20_17915582734mYR1UD1uT.jpg"
+              ],
+              "checked_at": "2026-10-10T13:27:58+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "735c52a0af28202091f7217d8174ffc4b3e4e35d0dfbbb6c973f48ccb4d0a62d",
+              "content_type": "image/jpeg",
+              "width": 800,
+              "height": 379,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "0002f4da549caf389ad62a32cdfd15f64533e7cc4a60adb69f8fa5dac4f656cf",
+              "relevance": "story_specific",
+              "relevance_note": "Inspected Sabi baseball-cap product image distributed in the same October 9 funding announcement."
+            }
+          }
+        },
+        "sha256": "05fc8e01c7a6883e8eeecfe0763e3fa0db360d8fd8a33c185cb828934511fc47",
+        "reviewed_at": "2026-10-10T13:33:10.950834+00:00",
+        "operation_id": "59045021410a68326a866105f69925b3dc7938a99bbf393a8fa87d800e6405e2"
       }
     ]
   }
