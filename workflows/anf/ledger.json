@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 237,
-  "updated_at": "2026-10-10T03:39:25.655682+00:00",
-  "next_id": 80,
+  "generation": 238,
+  "updated_at": "2026-10-10T03:41:54.262176+00:00",
+  "next_id": 81,
   "records": [
     {
       "id": 1,
@@ -1065,6 +1065,19 @@
           "sha256": "a4b824104cc27071f7f7cf27753f4ed8783aca58e8c94b9f7a98528edc80d1d9",
           "source": "arXiv",
           "request_id": "dedcb6a1c0ce3dd6daeedb1fc57f043e33be13633f8753f9c2fa9400ece36c73",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "revisions": [
+        {
+          "created_at": "2026-10-10T03:41:54.262176+00:00",
+          "block": "Title: Google Employees Reportedly Test a New Gemini 4 Model\nURL: https://www.businessinsider.com/google-employees-test-new-gemini-4-model-argon-barium-carbon-2026-10\nImage URL: https://i.insider.com/6ac8b8997bf24b4467e699dd?width=1200&format=jpeg\nSummary: Google employees are testing a Gemini 4 version called Carbon, Business Insider reports. One employee compared its coding performance with Anthropic’s Opus 5.5 but said more testing was needed. Carbon’s release plans remain unclear, including whether it will become an Argon update or a separate model. Google declined to comment.",
+          "sha256": "5eb98897a0469079b46a92929e86733e7085c08f894021e91138dfd49d0b67a3",
+          "source": "Business Insider",
+          "request_id": "5f3c954f04ea77f194fd030f1c5a41b19f60f439031416fbf8e3d7151b90f3f0",
           "mode": "standard"
         }
       ]
@@ -2367,13 +2380,21 @@
       ]
     },
     "5f3c954f04ea77f194fd030f1c5a41b19f60f439031416fbf8e3d7151b90f3f0": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-10T03:39:25.655682+00:00",
       "received_sequence": 74,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-10T03:41:54.262176+00:00",
+      "records": [
+        {
+          "id": 80,
+          "revision": 1,
+          "sha256": "5eb98897a0469079b46a92929e86733e7085c08f894021e91138dfd49d0b67a3"
+        }
+      ]
     }
   },
   "batches": {
@@ -9795,6 +9816,21 @@
       "result": {
         "status": "received",
         "request_id": "5f3c954f04ea77f194fd030f1c5a41b19f60f439031416fbf8e3d7151b90f3f0"
+      }
+    },
+    "0273baed88401ee63762566a2f033e7d49ed68ce6d03083dfeba0309d5937ad2": {
+      "sha256": "4671b29627170d03e57e92005a48156a11eccf1bba501c59d6701ad753c7007c",
+      "result": {
+        "status": "finalized",
+        "request_id": "5f3c954f04ea77f194fd030f1c5a41b19f60f439031416fbf8e3d7151b90f3f0",
+        "records": [
+          {
+            "id": 80,
+            "revision": 1,
+            "sha256": "5eb98897a0469079b46a92929e86733e7085c08f894021e91138dfd49d0b67a3"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
