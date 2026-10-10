@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 240,
-  "updated_at": "2026-10-10T04:54:03.380445+00:00",
-  "next_id": 81,
+  "generation": 241,
+  "updated_at": "2026-10-10T04:56:47.628603+00:00",
+  "next_id": 82,
   "records": [
     {
       "id": 1,
@@ -1078,6 +1078,19 @@
           "sha256": "5eb98897a0469079b46a92929e86733e7085c08f894021e91138dfd49d0b67a3",
           "source": "Business Insider",
           "request_id": "5f3c954f04ea77f194fd030f1c5a41b19f60f439031416fbf8e3d7151b90f3f0",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "revisions": [
+        {
+          "created_at": "2026-10-10T04:56:47.628603+00:00",
+          "block": "Title: ChatGPT Plans Can Cover GPT Usage in Devin\nURL: https://cognitionai.mintlify.app/admin/billing/chatgpt\nImage URL: https://cognitionai.mintlify.app/_mintlify/api/og/v2?division=Billing&title=Use+your+ChatGPT+plan+in+Devin&description=Link+your+ChatGPT+Go%2C+Plus%2C+or+Pro+subscription+to+Devin+so+GPT+model+usage+in+your+sessions+is+billed+to+your+ChatGPT+plan+instead+of+your+Devin+quota.&theme=0713c6ac62f0fe20fbbf80d4&signature=b8e56d04a906f991e761beaf63ae16cfaf7f5f9816cf178584dc07b7fbcaec4f\nSummary: Cognition now lets ChatGPT Go, Plus, and Pro subscribers use their plan’s allowance for eligible GPT models in Devin Cloud, Desktop, and CLI. A Devin Pro, Max, or Teams subscription is still required. Other models continue using Devin quota; fast and priority GPT variants are excluded, and exhausted ChatGPT allowances fall back to Devin billing.",
+          "sha256": "b01b2aa8b4fc42963ffb78d49b3ce7c593fc1975eec1fcbe0b1283757db89e39",
+          "source": "Cognition",
+          "request_id": "f6661408cac0006c23c56f11bb9be02c3d49b2491d3b45f695e8440934facd89",
           "mode": "standard"
         }
       ]
@@ -2397,13 +2410,21 @@
       ]
     },
     "f6661408cac0006c23c56f11bb9be02c3d49b2491d3b45f695e8440934facd89": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-10T04:54:03.380445+00:00",
       "received_sequence": 75,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-10T04:56:47.628603+00:00",
+      "records": [
+        {
+          "id": 81,
+          "revision": 1,
+          "sha256": "b01b2aa8b4fc42963ffb78d49b3ce7c593fc1975eec1fcbe0b1283757db89e39"
+        }
+      ]
     }
   },
   "batches": {
@@ -9859,6 +9880,21 @@
       "result": {
         "status": "received",
         "request_id": "f6661408cac0006c23c56f11bb9be02c3d49b2491d3b45f695e8440934facd89"
+      }
+    },
+    "0b3280560331b176a49facdb3f038be4d864a612654f39f1fbdcda1197981d74": {
+      "sha256": "2e536b890d033233d121b753276874227d2c22a7b734c409db8fbcda57cc101a",
+      "result": {
+        "status": "finalized",
+        "request_id": "f6661408cac0006c23c56f11bb9be02c3d49b2491d3b45f695e8440934facd89",
+        "records": [
+          {
+            "id": 81,
+            "revision": 1,
+            "sha256": "b01b2aa8b4fc42963ffb78d49b3ce7c593fc1975eec1fcbe0b1283757db89e39"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
