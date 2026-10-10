@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 235,
-  "updated_at": "2026-10-10T00:13:36.565761+00:00",
+  "generation": 236,
+  "updated_at": "2026-10-10T00:25:00.547582+00:00",
   "next_id": 80,
   "records": [
     {
@@ -9768,6 +9768,18 @@
         ],
         "duplicates": []
       }
+    },
+    "94e5a97131910e676cbcd0c0c2ac0d93dc9b9ee97542ccd26b0f153a70b22787": {
+      "sha256": "1354277d0b650765090b360d93c09809d517d04cf4d0a757aa65090bc687aeec",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 79,
+          "revision": 1,
+          "sha256": "a4b824104cc27071f7f7cf27753f4ed8783aca58e8c94b9f7a98528edc80d1d9"
+        },
+        "editorial_sha256": "48c50599099b992c51b1cad63233a78a890f8a5ebee9d8d745c91e4217303762"
+      }
     }
   },
   "migration": {
@@ -12457,6 +12469,26 @@
         "sha256": "bce6e0dec63b5f10af9ede4bf65642f0eb864ead33a3ab4d2d39cdde9f8771e2",
         "reviewed_at": "2026-10-09T19:50:25.703594+00:00",
         "operation_id": "a6b2a580260bc02df7d984464fc65da9b943944f6414ada8820f533f48f3445c"
+      }
+    ],
+    "79:1": [
+      {
+        "reference": {
+          "id": 79,
+          "revision": 1,
+          "sha256": "a4b824104cc27071f7f7cf27753f4ed8783aca58e8c94b9f7a98528edc80d1d9"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The preprint develops and tests a theoretical method for calculating the Lyapunov spectrum of random recurrent neural networks.",
+            "evidence_sha256": "4108f5af2eb342a5058fcd6880b767b58bf5cb525010d5f37c4f48348027263b"
+          }
+        },
+        "sha256": "48c50599099b992c51b1cad63233a78a890f8a5ebee9d8d745c91e4217303762",
+        "reviewed_at": "2026-10-10T00:25:00.547582+00:00",
+        "operation_id": "94e5a97131910e676cbcd0c0c2ac0d93dc9b9ee97542ccd26b0f153a70b22787"
       }
     ]
   }
