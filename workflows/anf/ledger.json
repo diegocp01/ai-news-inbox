@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 256,
-  "updated_at": "2026-10-10T13:54:33.275704+00:00",
+  "generation": 257,
+  "updated_at": "2026-10-10T14:50:05.814208+00:00",
   "next_id": 87,
   "records": [
     {
@@ -10216,6 +10216,18 @@
         ],
         "duplicates": []
       }
+    },
+    "56eba6d2720de15d19d465ff049c118db316f9b8d94324ea836be9ba15586aa2": {
+      "sha256": "9ac1c1ab2ffbaeb8b397c0172b48847c5773baa6692366b451add192ef1eb441",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 86,
+          "revision": 1,
+          "sha256": "c42de773a018815a7cf4ee1d17f2a96397888fc1b240f9c6ba1dc34227d193cd"
+        },
+        "editorial_sha256": "76d9f428ab669e2414bef240f88cb94e37bedbaa0ab1c39ac687568dfdb2ba9b"
+      }
     }
   },
   "migration": {
@@ -13174,6 +13186,58 @@
         "sha256": "05745578bb2cbaab3b6e14a7fdafdda91ec93c6931c22b7b01f7cfab79fba708",
         "reviewed_at": "2026-10-10T13:51:11.210541+00:00",
         "operation_id": "7b1bb5d3d581745af4778457b6131abb0d12e810a1e9f085d2fc42352c13be19"
+      }
+    ],
+    "86:1": [
+      {
+        "reference": {
+          "id": 86,
+          "revision": 1,
+          "sha256": "c42de773a018815a7cf4ee1d17f2a96397888fc1b240f9c6ba1dc34227d193cd"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General news reporting on company contingency planning and congressional outreach, not a technical research or implementation article.",
+            "evidence_sha256": "4a9ff7725f2624990cbf87613de2c2550f57ad9cf99ab900614f2594e321216c"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.cbsnews.com/video/ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios/",
+              "final_url": "https://www.cbsnews.com/video/ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios/",
+              "redirect_chain": [
+                "https://www.cbsnews.com/video/ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios/"
+              ],
+              "checked_at": "2026-10-10T13:53:45+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "4a9ff7725f2624990cbf87613de2c2550f57ad9cf99ab900614f2594e321216c"
+            },
+            "image": {
+              "url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/10/5c9300db-5880-474b-8bdc-7ee0ff6e022e/thumbnail/1200x630/3b7806fb71bbdd85f18ae07b0f7bfd5a/cbsn-fusion-ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios-thumbnail.jpg",
+              "final_url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/10/5c9300db-5880-474b-8bdc-7ee0ff6e022e/thumbnail/1200x630/3b7806fb71bbdd85f18ae07b0f7bfd5a/cbsn-fusion-ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios-thumbnail.jpg",
+              "redirect_chain": [
+                "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/10/5c9300db-5880-474b-8bdc-7ee0ff6e022e/thumbnail/1200x630/3b7806fb71bbdd85f18ae07b0f7bfd5a/cbsn-fusion-ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios-thumbnail.jpg"
+              ],
+              "checked_at": "2026-10-10T13:54:05.632968+00:00",
+              "content_type": "image/jpeg",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "4a9ff7725f2624990cbf87613de2c2550f57ad9cf99ab900614f2594e321216c",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "4ce0759f599d87ce1f6d6efcff234ab6c7e093bcb190d3177242f2961a69cdf9",
+              "relevance": "story_specific",
+              "relevance_note": "Publisher-selected image for this exact CBS report depicts Sam Altman, a leader of one of the companies discussed; it is a portrait, not evidence of a disaster."
+            }
+          }
+        },
+        "sha256": "76d9f428ab669e2414bef240f88cb94e37bedbaa0ab1c39ac687568dfdb2ba9b",
+        "reviewed_at": "2026-10-10T14:50:05.814208+00:00",
+        "operation_id": "56eba6d2720de15d19d465ff049c118db316f9b8d94324ea836be9ba15586aa2"
       }
     ]
   }
