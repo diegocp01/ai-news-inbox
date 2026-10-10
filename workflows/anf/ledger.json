@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 253,
-  "updated_at": "2026-10-10T13:49:33.090562+00:00",
+  "generation": 254,
+  "updated_at": "2026-10-10T13:51:11.210541+00:00",
   "next_id": 86,
   "records": [
     {
@@ -10152,6 +10152,18 @@
         ],
         "duplicates": []
       }
+    },
+    "7b1bb5d3d581745af4778457b6131abb0d12e810a1e9f085d2fc42352c13be19": {
+      "sha256": "5f40f5545a0c70c1e6f68bf77f4c3e7d678ec2a8acf2561f8ceabbbd775b8ece",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 85,
+          "revision": 1,
+          "sha256": "6474847959bcfd55a2a6c4fde9b8cfe240fa1a54ace921f0ffa0a4d7516da010"
+        },
+        "editorial_sha256": "05745578bb2cbaab3b6e14a7fdafdda91ec93c6931c22b7b01f7cfab79fba708"
+      }
     }
   },
   "migration": {
@@ -13058,6 +13070,58 @@
         "sha256": "fec1ccbb85f35435026aab4021ac04c1021705bafebfe68186507843758be42f",
         "reviewed_at": "2026-10-10T13:45:55+00:00",
         "operation_id": "db5314986dc342ad50851ae9c57c5ed7c4c61e46109186cd5764416cb43493a8"
+      }
+    ],
+    "85:1": [
+      {
+        "reference": {
+          "id": 85,
+          "revision": 1,
+          "sha256": "6474847959bcfd55a2a6c4fde9b8cfe240fa1a54ace921f0ffa0a4d7516da010"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Technical alignment and agent-safety report describing evaluation failures, reward hacking, containment and monitoring mitigations.",
+            "evidence_sha256": "582fc3f196f0a66dee926bf57dabc6568936873cffcd9897d5f93695451546fc"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+              "final_url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+              "redirect_chain": [
+                "https://www.anthropic.com/research/investigating-unintended-model-actions"
+              ],
+              "checked_at": "2026-10-10T13:51:11.210541+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "582fc3f196f0a66dee926bf57dabc6568936873cffcd9897d5f93695451546fc"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg"
+              ],
+              "checked_at": "2026-10-10T13:51:11.210541+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "582fc3f196f0a66dee926bf57dabc6568936873cffcd9897d5f93695451546fc",
+              "content_type": "image/jpeg",
+              "width": 2000,
+              "height": 1125,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "cb3662d05fe90eafd2f76e93eb1206ed1c3c5cc1560666f2729c3346a6cc1fb9",
+              "relevance": "story_specific",
+              "relevance_note": "The inspected publisher-selected hero for this exact report depicts highlighted anomalies in measurement traces and tables; it is editorial artwork, not an incident screenshot."
+            }
+          }
+        },
+        "sha256": "05745578bb2cbaab3b6e14a7fdafdda91ec93c6931c22b7b01f7cfab79fba708",
+        "reviewed_at": "2026-10-10T13:51:11.210541+00:00",
+        "operation_id": "7b1bb5d3d581745af4778457b6131abb0d12e810a1e9f085d2fc42352c13be19"
       }
     ]
   }
