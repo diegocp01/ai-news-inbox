@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 238,
-  "updated_at": "2026-10-10T03:41:54.262176+00:00",
+  "generation": 239,
+  "updated_at": "2026-10-10T03:46:05.283501+00:00",
   "next_id": 81,
   "records": [
     {
@@ -9832,6 +9832,18 @@
         ],
         "duplicates": []
       }
+    },
+    "0400b7ef019842ff51c07c6004a97f52f7a6b88e838656d9a07934ef1f036916": {
+      "sha256": "2530224b3b46b3280b9cb24958e145d8b0ace2fdd897092232177a80ddfb9940",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 80,
+          "revision": 1,
+          "sha256": "5eb98897a0469079b46a92929e86733e7085c08f894021e91138dfd49d0b67a3"
+        },
+        "editorial_sha256": "af785267822ce04362f519ef337e757259c03bdf4c9ac69c40741d4107f0c52b"
+      }
     }
   },
   "migration": {
@@ -12541,6 +12553,26 @@
         "sha256": "48c50599099b992c51b1cad63233a78a890f8a5ebee9d8d745c91e4217303762",
         "reviewed_at": "2026-10-10T00:25:00.547582+00:00",
         "operation_id": "94e5a97131910e676cbcd0c0c2ac0d93dc9b9ee97542ccd26b0f153a70b22787"
+      }
+    ],
+    "80:1": [
+      {
+        "reference": {
+          "id": 80,
+          "revision": 1,
+          "sha256": "5eb98897a0469079b46a92929e86733e7085c08f894021e91138dfd49d0b67a3"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General business and AI-industry report about internal employee feedback and competitive positioning; no developer instructions, technical methods, public benchmark evaluation or implementation guidance.",
+            "evidence_sha256": "a6502251bd8fd99ca485f8bec4b7a74357dfdd0f7d6563ba5be524930f4cdcba"
+          }
+        },
+        "sha256": "af785267822ce04362f519ef337e757259c03bdf4c9ac69c40741d4107f0c52b",
+        "reviewed_at": "2026-10-10T03:46:05.283501+00:00",
+        "operation_id": "0400b7ef019842ff51c07c6004a97f52f7a6b88e838656d9a07934ef1f036916"
       }
     ]
   }
