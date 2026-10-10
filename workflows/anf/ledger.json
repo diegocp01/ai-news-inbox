@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 244,
-  "updated_at": "2026-10-10T13:15:39.095829+00:00",
+  "generation": 245,
+  "updated_at": "2026-10-10T13:25:21.173683+00:00",
   "next_id": 83,
   "records": [
     {
@@ -9960,6 +9960,18 @@
         ],
         "duplicates": []
       }
+    },
+    "bb531221cf9571ebae5dacb3afc2d057e1e6c98a31524e9b50abfaf5d163d10b": {
+      "sha256": "c1f08289c9a91b27b494ebc31165e9961b7202cef7fbfa7613761dd6e43a15ed",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 82,
+          "revision": 1,
+          "sha256": "2a90c17924041fc9e9a284d9abe302b42387a5a2391637420b50c605cbb67a83"
+        },
+        "editorial_sha256": "5bc84e721be6b6806e57e055c44900f99caeb8ee852818683100247a933dc2b0"
+      }
     }
   },
   "migration": {
@@ -12741,6 +12753,58 @@
         "sha256": "fd72bef70e6709c239a888eebe3662e1593c70253540f08a72be1ebd17a1d607",
         "reviewed_at": "2026-10-10T05:25:44.069719+00:00",
         "operation_id": "2dcb51aed36c0f13d40208b0bc2ba9ae12d01623462bcbc3efdf503c144e6d5d"
+      }
+    ],
+    "82:1": [
+      {
+        "reference": {
+          "id": 82,
+          "revision": 1,
+          "sha256": "2a90c17924041fc9e9a284d9abe302b42387a5a2391637420b50c605cbb67a83"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Technical world-model architecture, simulation, and task-specific control policies for physical-AI developers.",
+            "evidence_sha256": "58ea9f16e233020ae9916d320a0f114bba98325fa120e7f1aaef1dfe4aae4048"
+          },
+          "quality": {
+            "article": {
+              "url": "https://odyssey.systems/meet-odyssey-3",
+              "final_url": "https://odyssey.systems/meet-odyssey-3",
+              "redirect_chain": [
+                "https://odyssey.systems/meet-odyssey-3"
+              ],
+              "checked_at": "2026-10-10T13:15:39.103322+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "58ea9f16e233020ae9916d320a0f114bba98325fa120e7f1aaef1dfe4aae4048"
+            },
+            "image": {
+              "url": "https://framerusercontent.com/assets/8NYEsBjllIwZxkZZC8dg2uxEg.jpeg",
+              "final_url": "https://framerusercontent.com/assets/8NYEsBjllIwZxkZZC8dg2uxEg.jpeg",
+              "redirect_chain": [
+                "https://framerusercontent.com/assets/8NYEsBjllIwZxkZZC8dg2uxEg.jpeg"
+              ],
+              "checked_at": "2026-10-10T13:15:39.103322+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "10a745707e5b69dfbb03629e9202b8316ed154809e79d65635118012ffe543de",
+              "content_type": "image/jpeg",
+              "width": 1672,
+              "height": 941,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "c9d293f5183ac4af092beb7cd9a752387c28aa26b6baa72c8c9c27af81d8cd50",
+              "relevance": "story_specific",
+              "relevance_note": "Official launch OpenGraph image shows researchers viewing paired robot arms manipulating objects. Compared with 960x540 robot-arm demo poster from same article; selected larger launch artwork."
+            }
+          }
+        },
+        "sha256": "5bc84e721be6b6806e57e055c44900f99caeb8ee852818683100247a933dc2b0",
+        "reviewed_at": "2026-10-10T13:25:21.173683+00:00",
+        "operation_id": "bb531221cf9571ebae5dacb3afc2d057e1e6c98a31524e9b50abfaf5d163d10b"
       }
     ]
   }
