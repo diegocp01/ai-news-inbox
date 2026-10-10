@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 259,
-  "updated_at": "2026-10-10T18:21:45.665987+00:00",
+  "generation": 260,
+  "updated_at": "2026-10-10T18:53:59.868657+00:00",
   "next_id": 88,
   "records": [
     {
@@ -10280,6 +10280,18 @@
         ],
         "duplicates": []
       }
+    },
+    "5404f0c79d17fc6a467afb524dda021d57ee888d9598f0cc3a00de56b9525c0c": {
+      "sha256": "9a2a0f2b0439a548cba7c3c9d61f93cfe1c3ba372f31715c66c25f749c4ed05d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 87,
+          "revision": 1,
+          "sha256": "0140ce2df711317315f28340bae352ed8a84a75dfd10e9faaa822f2e0ea0f792"
+        },
+        "editorial_sha256": "27f7edc0a8bc024f9df237195699a8881ab014c35609476cb62715fd13c9984a"
+      }
     }
   },
   "migration": {
@@ -13290,6 +13302,58 @@
         "sha256": "76d9f428ab669e2414bef240f88cb94e37bedbaa0ab1c39ac687568dfdb2ba9b",
         "reviewed_at": "2026-10-10T14:50:05.814208+00:00",
         "operation_id": "56eba6d2720de15d19d465ff049c118db316f9b8d94324ea836be9ba15586aa2"
+      }
+    ],
+    "87:1": [
+      {
+        "reference": {
+          "id": 87,
+          "revision": 1,
+          "sha256": "0140ce2df711317315f28340bae352ed8a84a75dfd10e9faaa822f2e0ea0f792"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The official technical launch explains single-pass probability scoring, structured APIs, benchmark evaluations and use in developer-built agents and workflows.",
+            "evidence_sha256": "50336d2673d3638a30eb37e507a59370b8083777a8048a2c56646e226e0b16fb"
+          },
+          "quality": {
+            "article": {
+              "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+              "final_url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+              "redirect_chain": [
+                "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/"
+              ],
+              "checked_at": "2026-10-10T18:20:37.137914+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "50336d2673d3638a30eb37e507a59370b8083777a8048a2c56646e226e0b16fb"
+            },
+            "image": {
+              "url": "https://commandline.microsoft.com/wp-content/uploads/2026/10/introducing-microsoft-decision-1-our-model-for-fast-decision-making-hero.png",
+              "final_url": "https://commandline.microsoft.com/wp-content/uploads/2026/10/introducing-microsoft-decision-1-our-model-for-fast-decision-making-hero.png",
+              "redirect_chain": [
+                "https://commandline.microsoft.com/wp-content/uploads/2026/10/introducing-microsoft-decision-1-our-model-for-fast-decision-making-hero.png"
+              ],
+              "checked_at": "2026-10-10T18:20:52.980130+00:00",
+              "content_type": "image/png",
+              "width": 1600,
+              "height": 800,
+              "image_bytes_sha256": "795badd1580a53daba9261c038929d34a6d90a4bbdd16fc8044e3200c5fc130d",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "50336d2673d3638a30eb37e507a59370b8083777a8048a2c56646e226e0b16fb",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Black Microsoft-Decision-1 product name over a lime background with connected numbered nodes. Official story-specific launch hero, crisp and legible at 1600 by 800."
+            }
+          }
+        },
+        "sha256": "27f7edc0a8bc024f9df237195699a8881ab014c35609476cb62715fd13c9984a",
+        "reviewed_at": "2026-10-10T18:53:59.868657+00:00",
+        "operation_id": "5404f0c79d17fc6a467afb524dda021d57ee888d9598f0cc3a00de56b9525c0c"
       }
     ]
   }
