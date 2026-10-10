@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 250,
-  "updated_at": "2026-10-10T13:43:55+00:00",
+  "generation": 251,
+  "updated_at": "2026-10-10T13:45:55+00:00",
   "next_id": 85,
   "records": [
     {
@@ -10088,6 +10088,18 @@
         ],
         "duplicates": []
       }
+    },
+    "db5314986dc342ad50851ae9c57c5ed7c4c61e46109186cd5764416cb43493a8": {
+      "sha256": "54804bb6df15067d651cb242a3a159ae0e558e9bbf53ca8c39fe2e8b9192143d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 84,
+          "revision": 1,
+          "sha256": "dbd1c402bd582550d528249795c4c99f53d46972fadc0348524d8ed6b4a1f19d"
+        },
+        "editorial_sha256": "fec1ccbb85f35435026aab4021ac04c1021705bafebfe68186507843758be42f"
+      }
     }
   },
   "migration": {
@@ -12974,6 +12986,26 @@
         "sha256": "05fc8e01c7a6883e8eeecfe0763e3fa0db360d8fd8a33c185cb828934511fc47",
         "reviewed_at": "2026-10-10T13:33:10.950834+00:00",
         "operation_id": "59045021410a68326a866105f69925b3dc7938a99bbf393a8fa87d800e6405e2"
+      }
+    ],
+    "84:1": [
+      {
+        "reference": {
+          "id": 84,
+          "revision": 1,
+          "sha256": "dbd1c402bd582550d528249795c4c99f53d46972fadc0348524d8ed6b4a1f19d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "National employment and workforce-training policy news for general readers; no technical implementation or research methods.",
+            "evidence_sha256": "054c2226c0b468e1faa44c7cc02f9ff528d98de4967e014b3b4c03dc7bc28a9d"
+          }
+        },
+        "sha256": "fec1ccbb85f35435026aab4021ac04c1021705bafebfe68186507843758be42f",
+        "reviewed_at": "2026-10-10T13:45:55+00:00",
+        "operation_id": "db5314986dc342ad50851ae9c57c5ed7c4c61e46109186cd5764416cb43493a8"
       }
     ]
   }
