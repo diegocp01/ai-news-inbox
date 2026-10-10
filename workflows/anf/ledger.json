@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 246,
-  "updated_at": "2026-10-10T13:26:11.871057+00:00",
-  "next_id": 83,
+  "generation": 247,
+  "updated_at": "2026-10-10T13:28:16.363944+00:00",
+  "next_id": 84,
   "records": [
     {
       "id": 1,
@@ -1104,6 +1104,19 @@
           "sha256": "2a90c17924041fc9e9a284d9abe302b42387a5a2391637420b50c605cbb67a83",
           "source": "Odyssey",
           "request_id": "7c9b98985f3323a7cdbe311f149654c1df785fbd3ea676e70fed37e818db6467",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "revisions": [
+        {
+          "created_at": "2026-10-10T13:28:16.363944+00:00",
+          "block": "Title: Startup Raises $50 Million to Develop a Cap for Controlling AI With Brain Signals\nURL: https://www.forbes.com/sites/rashishrivastava/2026/10/09/vinod-khosla-backs-an-ai-startup-building-a-mind-reading-baseball-cap/\nImage URL: https://app.financewire.com/storage/uploads/images/hold-release-until-9am-pt-on-friday-october-9th-20_17915582734mYR1UD1uT.jpg\nSummary: Sabi raised $50 million in seed funding led by Khosla Ventures to develop a noninvasive baseball cap intended to translate imagined speech and deliberate mental commands into AI prompts. The company plans an early prototype demonstration at CES 2027; reliable everyday use remains unproven, and the cap is not commercially available.",
+          "sha256": "6f7145fc5bd914251eec54adae90d3eec0755db82bbb298dfcf33f0e972c3627",
+          "source": "Forbes",
+          "request_id": "8aa4d98d262b9db6f64a9ac9aab0b307def75a36d679df38e9af7ac10e8d3a73",
           "mode": "standard"
         }
       ]
@@ -2457,13 +2470,21 @@
       ]
     },
     "8aa4d98d262b9db6f64a9ac9aab0b307def75a36d679df38e9af7ac10e8d3a73": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-10T13:26:11.871057+00:00",
       "received_sequence": 77,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-10T13:28:16.363944+00:00",
+      "records": [
+        {
+          "id": 83,
+          "revision": 1,
+          "sha256": "6f7145fc5bd914251eec54adae90d3eec0755db82bbb298dfcf33f0e972c3627"
+        }
+      ]
     }
   },
   "batches": {
@@ -9987,6 +10008,21 @@
       "result": {
         "status": "received",
         "request_id": "8aa4d98d262b9db6f64a9ac9aab0b307def75a36d679df38e9af7ac10e8d3a73"
+      }
+    },
+    "7a07271cc361dcaa45af1aed7b474f05779f29ce1b34ecfba6c14e3c6f0b9001": {
+      "sha256": "3990c1b3e3f9776d100eba574e7acf33e2efe3a96a74dfd0d0988c1029460d83",
+      "result": {
+        "status": "finalized",
+        "request_id": "8aa4d98d262b9db6f64a9ac9aab0b307def75a36d679df38e9af7ac10e8d3a73",
+        "records": [
+          {
+            "id": 83,
+            "revision": 1,
+            "sha256": "6f7145fc5bd914251eec54adae90d3eec0755db82bbb298dfcf33f0e972c3627"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
