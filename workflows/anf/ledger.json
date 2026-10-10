@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 234,
-  "updated_at": "2026-10-10T00:10:48.349479+00:00",
-  "next_id": 79,
+  "generation": 235,
+  "updated_at": "2026-10-10T00:13:36.565761+00:00",
+  "next_id": 80,
   "records": [
     {
       "id": 1,
@@ -1052,6 +1052,19 @@
           "sha256": "6780f71be50a5db58c3484cccca0582e89dd4688b411a952c6cbe2b7877c6d2e",
           "source": "Nerd’s Chalk",
           "request_id": "95f5088bc70c953278b7cbf0d5638f159e6f9abcac91bbe3cfe8f9b6fda5d2b9",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "revisions": [
+        {
+          "created_at": "2026-10-10T00:13:36.565761+00:00",
+          "block": "Title: AI Helps Researcher Explain Chaos in Neural Networks\nURL: https://arxiv.org/abs/2610.12426\nImage URL: https://arxiv.org/html/2610.12426v1/spectra.svg\nSummary: David Clark reports an AI-assisted solution to a longstanding problem: calculating the full Lyapunov spectrum of random recurrent neural networks, which describes how perturbations grow or shrink. His preprint credits GPT-6 Astra with an initial derivation and Claude Opus 5.5 with code and figures. The theory agrees with simulations and characterizes the networks’ chaos.",
+          "sha256": "a4b824104cc27071f7f7cf27753f4ed8783aca58e8c94b9f7a98528edc80d1d9",
+          "source": "arXiv",
+          "request_id": "dedcb6a1c0ce3dd6daeedb1fc57f043e33be13633f8753f9c2fa9400ece36c73",
           "mode": "standard"
         }
       ]
@@ -2337,13 +2350,21 @@
       ]
     },
     "dedcb6a1c0ce3dd6daeedb1fc57f043e33be13633f8753f9c2fa9400ece36c73": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-10T00:10:48.349479+00:00",
       "received_sequence": 73,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-10T00:13:36.565761+00:00",
+      "records": [
+        {
+          "id": 79,
+          "revision": 1,
+          "sha256": "a4b824104cc27071f7f7cf27753f4ed8783aca58e8c94b9f7a98528edc80d1d9"
+        }
+      ]
     }
   },
   "batches": {
@@ -9731,6 +9752,21 @@
       "result": {
         "status": "received",
         "request_id": "dedcb6a1c0ce3dd6daeedb1fc57f043e33be13633f8753f9c2fa9400ece36c73"
+      }
+    },
+    "d6f2884e90a3a5447fa73bdb838d9594b182d91ce6006b47d18faa272ec701aa": {
+      "sha256": "775e7a67907fedece4d61b0d4732a04cf02292984d9b9c674531eb53a722da4a",
+      "result": {
+        "status": "finalized",
+        "request_id": "dedcb6a1c0ce3dd6daeedb1fc57f043e33be13633f8753f9c2fa9400ece36c73",
+        "records": [
+          {
+            "id": 79,
+            "revision": 1,
+            "sha256": "a4b824104cc27071f7f7cf27753f4ed8783aca58e8c94b9f7a98528edc80d1d9"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
