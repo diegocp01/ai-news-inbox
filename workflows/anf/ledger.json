@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 258,
-  "updated_at": "2026-10-10T18:18:37.244600+00:00",
-  "next_id": 87,
+  "generation": 259,
+  "updated_at": "2026-10-10T18:21:45.665987+00:00",
+  "next_id": 88,
   "records": [
     {
       "id": 1,
@@ -1156,6 +1156,19 @@
           "sha256": "c42de773a018815a7cf4ee1d17f2a96397888fc1b240f9c6ba1dc34227d193cd",
           "source": "CBS News",
           "request_id": "1abbe4973a560838e19aeadd8dda18988c2219d8058ebbb52a1a3c3e027d48a0",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "revisions": [
+        {
+          "created_at": "2026-10-10T18:21:45.665987+00:00",
+          "block": "Title: Microsoft Introduces an AI Model for Faster Decisions\nURL: https://commandline.microsoft.com/microsoft-decision-1-model-foundry/\nImage URL: https://commandline.microsoft.com/wp-content/uploads/2026/10/introducing-microsoft-decision-1-our-model-for-fast-decision-making-hero.png\nSummary: Microsoft introduced Microsoft-Decision-1, which scores predefined choices for routing, classification and workflow control. Microsoft reports the highest overall accuracy in its 36-benchmark comparison and lower latency than the models it tested. Internal trials include incident response, Copilot quality checks and scientific experiment planning.",
+          "sha256": "0140ce2df711317315f28340bae352ed8a84a75dfd10e9faaa822f2e0ea0f792",
+          "source": "Microsoft",
+          "request_id": "32828836701531da4bca260ccb3f2258b6b54a21c89f31331fdb259028008222",
           "mode": "standard"
         }
       ]
@@ -2577,13 +2590,21 @@
       ]
     },
     "32828836701531da4bca260ccb3f2258b6b54a21c89f31331fdb259028008222": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-10T18:18:37.244600+00:00",
       "received_sequence": 81,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-10T18:21:45.665987+00:00",
+      "records": [
+        {
+          "id": 87,
+          "revision": 1,
+          "sha256": "0140ce2df711317315f28340bae352ed8a84a75dfd10e9faaa822f2e0ea0f792"
+        }
+      ]
     }
   },
   "batches": {
@@ -10243,6 +10264,21 @@
       "result": {
         "status": "received",
         "request_id": "32828836701531da4bca260ccb3f2258b6b54a21c89f31331fdb259028008222"
+      }
+    },
+    "48a54ed10c25bbb1d3db08fe32abd4056f63cbf67bb7e53d375f25be7aae1bf2": {
+      "sha256": "23d2139f0bfc9108ef15415bc79549193a347d6fdf7b3b291dc72204a9f3d414",
+      "result": {
+        "status": "finalized",
+        "request_id": "32828836701531da4bca260ccb3f2258b6b54a21c89f31331fdb259028008222",
+        "records": [
+          {
+            "id": 87,
+            "revision": 1,
+            "sha256": "0140ce2df711317315f28340bae352ed8a84a75dfd10e9faaa822f2e0ea0f792"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
