@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 261,
-  "updated_at": "2026-10-11T02:03:42.204347+00:00",
-  "next_id": 88,
+  "generation": 262,
+  "updated_at": "2026-10-11T02:08:45.605277+00:00",
+  "next_id": 89,
   "records": [
     {
       "id": 1,
@@ -1169,6 +1169,19 @@
           "sha256": "0140ce2df711317315f28340bae352ed8a84a75dfd10e9faaa822f2e0ea0f792",
           "source": "Microsoft",
           "request_id": "32828836701531da4bca260ccb3f2258b6b54a21c89f31331fdb259028008222",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "revisions": [
+        {
+          "created_at": "2026-10-11T02:08:45.605277+00:00",
+          "block": "Title: AI Helps Developers Understand Apps Without Source Code\nURL: https://github.com/morluto/rea\nImage URL: https://repository-images.githubusercontent.com/1209966933/1a3fef9a-be4b-41f4-8830-a94c0e8288cc\nSummary: REA is an open-source toolkit that lets AI coding agents inspect apps and binaries without access to their original source code. It connects agents to reverse-engineering tools through MCP and a command-line interface, returning evidence developers can use to understand features and build their own implementations. Analysis runs locally.",
+          "sha256": "076c1abc709c5975bef6270583ffd600a4950c901957f02ed9764af9ccc69731",
+          "source": "GitHub",
+          "request_id": "8d46fd0864b5014ee066fae45171491a2a89856620ef61813141ef9e94cb00f3",
           "mode": "standard"
         }
       ]
@@ -2607,13 +2620,21 @@
       ]
     },
     "8d46fd0864b5014ee066fae45171491a2a89856620ef61813141ef9e94cb00f3": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-11T02:03:42.204347+00:00",
       "received_sequence": 82,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-11T02:08:45.605277+00:00",
+      "records": [
+        {
+          "id": 88,
+          "revision": 1,
+          "sha256": "076c1abc709c5975bef6270583ffd600a4950c901957f02ed9764af9ccc69731"
+        }
+      ]
     }
   },
   "batches": {
@@ -10307,6 +10328,21 @@
       "result": {
         "status": "received",
         "request_id": "8d46fd0864b5014ee066fae45171491a2a89856620ef61813141ef9e94cb00f3"
+      }
+    },
+    "cd7795df8a073028a6c00c3444d742fcb2ec73d113df540d53ad8bb36c8fdbcc": {
+      "sha256": "b602a2a7d98af89065f59ffd3dd5f94b4477c51379384791165e8a0bad682aa3",
+      "result": {
+        "status": "finalized",
+        "request_id": "8d46fd0864b5014ee066fae45171491a2a89856620ef61813141ef9e94cb00f3",
+        "records": [
+          {
+            "id": 88,
+            "revision": 1,
+            "sha256": "076c1abc709c5975bef6270583ffd600a4950c901957f02ed9764af9ccc69731"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
