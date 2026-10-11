@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 262,
-  "updated_at": "2026-10-11T02:08:45.605277+00:00",
+  "generation": 263,
+  "updated_at": "2026-10-11T02:14:43.329454+00:00",
   "next_id": 89,
   "records": [
     {
@@ -10344,6 +10344,18 @@
         ],
         "duplicates": []
       }
+    },
+    "41f41923e50c528a28924559ce30d7cd29dc1b465298f9594848afaa6043fefe": {
+      "sha256": "867045de59ce8852a82aff49cf4a1ae8065a9a827cfa354977de87b2215c6d56",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 88,
+          "revision": 1,
+          "sha256": "076c1abc709c5975bef6270583ffd600a4950c901957f02ed9764af9ccc69731"
+        },
+        "editorial_sha256": "328168e91826052ea6f09dcc373198cd6bcb881374cfc600515e9c889938eec9"
+      }
     }
   },
   "migration": {
@@ -13406,6 +13418,58 @@
         "sha256": "27f7edc0a8bc024f9df237195699a8881ab014c35609476cb62715fd13c9984a",
         "reviewed_at": "2026-10-10T18:53:59.868657+00:00",
         "operation_id": "5404f0c79d17fc6a467afb524dda021d57ee888d9598f0cc3a00de56b9525c0c"
+      }
+    ],
+    "88:1": [
+      {
+        "reference": {
+          "id": 88,
+          "revision": 1,
+          "sha256": "076c1abc709c5975bef6270583ffd600a4950c901957f02ed9764af9ccc69731"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "This item describes an MCP and command-line reverse-engineering toolkit for developers using AI coding agents.",
+            "evidence_sha256": "f6940a83e151ba1551c8c10955eac3eb87445e2ffd9666ed7b2c9ecf8dac56ed"
+          },
+          "quality": {
+            "article": {
+              "url": "https://github.com/morluto/rea",
+              "final_url": "https://github.com/morluto/rea",
+              "redirect_chain": [
+                "https://github.com/morluto/rea"
+              ],
+              "checked_at": "2026-10-11T02:08:16.144306+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "eac614e0d2780cee55ec4837287a819062c313046a8d67aa521a9be134bdd96f"
+            },
+            "image": {
+              "url": "https://repository-images.githubusercontent.com/1209966933/1a3fef9a-be4b-41f4-8830-a94c0e8288cc",
+              "final_url": "https://repository-images.githubusercontent.com/1209966933/1a3fef9a-be4b-41f4-8830-a94c0e8288cc",
+              "redirect_chain": [
+                "https://repository-images.githubusercontent.com/1209966933/1a3fef9a-be4b-41f4-8830-a94c0e8288cc"
+              ],
+              "checked_at": "2026-10-11T02:07:00.244932+00:00",
+              "content_type": "image/png",
+              "width": 1280,
+              "height": 640,
+              "image_bytes_sha256": "159972ba75202954a75268596f8ec5c07d80959712cb5e7c83d595107131039a",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "f6940a83e151ba1551c8c10955eac3eb87445e2ffd9666ed7b2c9ecf8dac56ed",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "The official repository graphic clearly identifies REA and shows assembly, decompiled code and the agent workflow. It is more legible at newsletter size than the dense Hopper screenshot; both were visually inspected."
+            }
+          }
+        },
+        "sha256": "328168e91826052ea6f09dcc373198cd6bcb881374cfc600515e9c889938eec9",
+        "reviewed_at": "2026-10-11T02:14:43.329454+00:00",
+        "operation_id": "41f41923e50c528a28924559ce30d7cd29dc1b465298f9594848afaa6043fefe"
       }
     ]
   }
