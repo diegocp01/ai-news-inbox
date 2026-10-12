@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 270,
-  "updated_at": "2026-10-12T12:04:49.333697+00:00",
+  "generation": 271,
+  "updated_at": "2026-10-12T14:26:50.882604+00:00",
   "next_id": 92,
   "records": [
     {
@@ -5113,9 +5113,568 @@
       },
       "acknowledged_at": "2026-10-09T12:25:47.553685+00:00",
       "checkpoint_after": 75
+    },
+    "39ed9ab1b8ee376a0b99cb65": {
+      "batch_id": "39ed9ab1b8ee376a0b99cb65",
+      "status": "prepared",
+      "checkpoint_before": 75,
+      "prepared_at": "2026-10-12T14:26:50.882604+00:00",
+      "intake_cutoff": 84,
+      "records": [
+        {
+          "id": 76,
+          "revision": 1,
+          "sha256": "6632e4f54e03d273056df7ff7f0bdae5001b2ecd66a3fee46744231dec1a8495"
+        },
+        {
+          "id": 77,
+          "revision": 1,
+          "sha256": "1c811d2e79c497dd64bfa3484fe07e4368962b5b542599e9dbdb189b03e97b57"
+        },
+        {
+          "id": 78,
+          "revision": 1,
+          "sha256": "6780f71be50a5db58c3484cccca0582e89dd4688b411a952c6cbe2b7877c6d2e"
+        },
+        {
+          "id": 79,
+          "revision": 1,
+          "sha256": "a4b824104cc27071f7f7cf27753f4ed8783aca58e8c94b9f7a98528edc80d1d9"
+        },
+        {
+          "id": 80,
+          "revision": 1,
+          "sha256": "5eb98897a0469079b46a92929e86733e7085c08f894021e91138dfd49d0b67a3"
+        },
+        {
+          "id": 81,
+          "revision": 1,
+          "sha256": "b01b2aa8b4fc42963ffb78d49b3ce7c593fc1975eec1fcbe0b1283757db89e39"
+        },
+        {
+          "id": 82,
+          "revision": 1,
+          "sha256": "2a90c17924041fc9e9a284d9abe302b42387a5a2391637420b50c605cbb67a83"
+        },
+        {
+          "id": 83,
+          "revision": 1,
+          "sha256": "6f7145fc5bd914251eec54adae90d3eec0755db82bbb298dfcf33f0e972c3627"
+        },
+        {
+          "id": 84,
+          "revision": 1,
+          "sha256": "dbd1c402bd582550d528249795c4c99f53d46972fadc0348524d8ed6b4a1f19d"
+        },
+        {
+          "id": 85,
+          "revision": 1,
+          "sha256": "6474847959bcfd55a2a6c4fde9b8cfe240fa1a54ace921f0ffa0a4d7516da010"
+        },
+        {
+          "id": 86,
+          "revision": 1,
+          "sha256": "c42de773a018815a7cf4ee1d17f2a96397888fc1b240f9c6ba1dc34227d193cd"
+        },
+        {
+          "id": 87,
+          "revision": 1,
+          "sha256": "0140ce2df711317315f28340bae352ed8a84a75dfd10e9faaa822f2e0ea0f792"
+        },
+        {
+          "id": 88,
+          "revision": 1,
+          "sha256": "076c1abc709c5975bef6270583ffd600a4950c901957f02ed9764af9ccc69731"
+        },
+        {
+          "id": 89,
+          "revision": 1,
+          "sha256": "221167a62855bb6731900729f8c862b0d17193e353c85b7491dc39d47b2de495"
+        },
+        {
+          "id": 90,
+          "revision": 1,
+          "sha256": "ce83e17ae8d1a8a821dc04e7f67970bbb53d632e4b23cd9c9bd78dfc1a6194f9"
+        },
+        {
+          "id": 91,
+          "revision": 1,
+          "sha256": "61554b4f1adaea4a8194e9e041b01a30e28524384e20fc295fe742aa77d991dd"
+        }
+      ],
+      "first_id": 76,
+      "last_id": 91,
+      "count": 16,
+      "txt_path": "workflows/anf/batches/39ed9ab1b8ee376a0b99cb65.txt",
+      "json_path": "workflows/anf/batches/39ed9ab1b8ee376a0b99cb65.json",
+      "txt_sha256": "da28d566e56bee19fe9c2828d314f8d6578dff360126c87e0ad3c99f1a44c995",
+      "json_sha256": "b33bbe11fc57dad14339a4bdcc449676c3984a2e5a3139ccd2777211fab3f19d",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer assistant email feature and rollout, without technical methods or developer implementation guidance.",
+            "evidence_sha256": "7f7c8162f172b908397911018d9aa68d88423cde98cf60f74235abce1ad79dd9"
+          },
+          "quality": {
+            "article": {
+              "url": "https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/",
+              "final_url": "https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/",
+              "redirect_chain": [
+                "https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/"
+              ],
+              "checked_at": "2026-10-09T19:22:30+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "7f7c8162f172b908397911018d9aa68d88423cde98cf60f74235abce1ad79dd9"
+            },
+            "image": {
+              "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628",
+              "final_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628",
+              "redirect_chain": [
+                "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628"
+              ],
+              "checked_at": "2026-10-09T19:22:47+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "7f7c8162f172b908397911018d9aa68d88423cde98cf60f74235abce1ad79dd9",
+              "content_type": "image/jpeg",
+              "width": 1200,
+              "height": 628,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "8998bd22e779cbde7b2566d85739ad75a94aa95ad60cee4b19270a10de48b817",
+              "relevance": "official_logo",
+              "relevance_note": "Inspected actual 1200x628 JPEG pixels: sharp silver Grok Bot face app icon on gray background with publisher watermark.",
+              "story_specific_available": false,
+              "fallback_reason": "Official post image is on forbidden twimg host; checked same-event 9to5Mac full article imagery, which uses this clear Grok Bot app icon. TeslaNorth indexed article also uses product branding; no usable compliant event-specific image found."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The announcement concerns follow-up message drafting in Codex, a developer tool, and its supported desktop local/SSH workflows and models.",
+            "evidence_sha256": "1e05624b84408c096eca586a4dc30758163b3e6594b18dc6148e1508db96ec34"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The combined update materially covers starting and continuing Codex coding tasks with cross-thread context; developer workflow is central to the requested follow-up, alongside mobile setup and scheduled-task controls.",
+            "evidence_sha256": "5d9d4ffcfbe9fe45c9c32a1a7237d562264a48fcdc2f4ddc6450d15b5903de80"
+          },
+          "quality": {
+            "article": {
+              "url": "https://nerdschalk.com/chatgpt-dots-phone-setup-codex-tasks/",
+              "final_url": "https://nerdschalk.com/chatgpt-dots-phone-setup-codex-tasks/",
+              "redirect_chain": [
+                "https://nerdschalk.com/chatgpt-dots-phone-setup-codex-tasks/"
+              ],
+              "checked_at": "2026-10-09T19:48:42Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "116ad0b3739c47300498fee20c190fd98fdb5e9c2107f7e095769e578939d38f"
+            },
+            "image": {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+              "final_url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+              "redirect_chain": [
+                "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill"
+              ],
+              "checked_at": "2026-10-09T19:48:42Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "8b41f63b3ac6d35f8df6056a2964abb979698f684dce7e4aaa25c2f24aa53cb8",
+              "content_type": "image/png",
+              "width": 1600,
+              "height": 900,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "cc021593844d126086aa64545583d987e807d8232c68280fe9d2be83b08350e1",
+              "relevance": "official_logo",
+              "relevance_note": "Verified official dots wordmark and character artwork for this product; visual inspection confirms a clean 1600×900 image.",
+              "story_specific_available": false,
+              "fallback_reason": "Exact-post video thumbnails are on prohibited pbs.twimg.com; current official dated announcement has no in-article raster visuals and its OG image is on prohibited learn.chatgpt.com. Same-event NerdsChalk hero was visually inspected and is a generic ChatGPT logo. Older official carousel candidate was visually inspected but depicts a presentation-editing workflow rather than this update. Selected official dots wordmark is more product-specific than the generic ChatGPT art."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The preprint develops and tests a theoretical method for calculating the Lyapunov spectrum of random recurrent neural networks.",
+            "evidence_sha256": "4108f5af2eb342a5058fcd6880b767b58bf5cb525010d5f37c4f48348027263b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General business and AI-industry report about internal employee feedback and competitive positioning; no developer instructions, technical methods, public benchmark evaluation or implementation guidance.",
+            "evidence_sha256": "a6502251bd8fd99ca485f8bec4b7a74357dfdd0f7d6563ba5be524930f4cdcba"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Subscription integration for a software-development agent, with model routing and quota details relevant to developers.",
+            "evidence_sha256": "d6ca7fd93fbaffd3c02b31cd83c92b2d38bf77d667f632ddfbcd22db02f0cd4e"
+          },
+          "quality": {
+            "article": {
+              "url": "https://cognitionai.mintlify.app/admin/billing/chatgpt",
+              "final_url": "https://cognitionai.mintlify.app/admin/billing/chatgpt",
+              "redirect_chain": [
+                "https://cognitionai.mintlify.app/admin/billing/chatgpt"
+              ],
+              "checked_at": "2026-10-10T04:56:47.644435+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "53b2d3a245fb0bfd79dda7a1c93475a1c5dbef2c3d544b773bfb50c6c6559c99"
+            },
+            "image": {
+              "url": "https://cognitionai.mintlify.app/_mintlify/api/og/v2?division=Billing&title=Use+your+ChatGPT+plan+in+Devin&description=Link+your+ChatGPT+Go%2C+Plus%2C+or+Pro+subscription+to+Devin+so+GPT+model+usage+in+your+sessions+is+billed+to+your+ChatGPT+plan+instead+of+your+Devin+quota.&theme=0713c6ac62f0fe20fbbf80d4&signature=b8e56d04a906f991e761beaf63ae16cfaf7f5f9816cf178584dc07b7fbcaec4f",
+              "final_url": "https://cognitionai.mintlify.app/_mintlify/api/og/v2?division=Billing&title=Use+your+ChatGPT+plan+in+Devin&description=Link+your+ChatGPT+Go%2C+Plus%2C+or+Pro+subscription+to+Devin+so+GPT+model+usage+in+your+sessions+is+billed+to+your+ChatGPT+plan+instead+of+your+Devin+quota.&theme=0713c6ac62f0fe20fbbf80d4&signature=b8e56d04a906f991e761beaf63ae16cfaf7f5f9816cf178584dc07b7fbcaec4f",
+              "redirect_chain": [
+                "https://cognitionai.mintlify.app/_mintlify/api/og/v2?division=Billing&title=Use+your+ChatGPT+plan+in+Devin&description=Link+your+ChatGPT+Go%2C+Plus%2C+or+Pro+subscription+to+Devin+so+GPT+model+usage+in+your+sessions+is+billed+to+your+ChatGPT+plan+instead+of+your+Devin+quota.&theme=0713c6ac62f0fe20fbbf80d4&signature=b8e56d04a906f991e761beaf63ae16cfaf7f5f9816cf178584dc07b7fbcaec4f"
+              ],
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 630,
+              "image_bytes_sha256": "ccc08e15e47f67cd770f056327000debaf0709888b0872577eb288de7c20676c",
+              "checked_at": "2026-10-10T04:56:47.644435+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "08c77dfe5b0fb718163a729b173285ed2332f287429ce42913a76a8b31e4238f",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Official documentation artwork specifically labels the ChatGPT-plan integration and lists Go, Plus, and Pro."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Technical world-model architecture, simulation, and task-specific control policies for physical-AI developers.",
+            "evidence_sha256": "58ea9f16e233020ae9916d320a0f114bba98325fa120e7f1aaef1dfe4aae4048"
+          },
+          "quality": {
+            "article": {
+              "url": "https://odyssey.systems/meet-odyssey-3",
+              "final_url": "https://odyssey.systems/meet-odyssey-3",
+              "redirect_chain": [
+                "https://odyssey.systems/meet-odyssey-3"
+              ],
+              "checked_at": "2026-10-10T13:15:39.103322+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "58ea9f16e233020ae9916d320a0f114bba98325fa120e7f1aaef1dfe4aae4048"
+            },
+            "image": {
+              "url": "https://framerusercontent.com/assets/8NYEsBjllIwZxkZZC8dg2uxEg.jpeg",
+              "final_url": "https://framerusercontent.com/assets/8NYEsBjllIwZxkZZC8dg2uxEg.jpeg",
+              "redirect_chain": [
+                "https://framerusercontent.com/assets/8NYEsBjllIwZxkZZC8dg2uxEg.jpeg"
+              ],
+              "checked_at": "2026-10-10T13:15:39.103322+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "10a745707e5b69dfbb03629e9202b8316ed154809e79d65635118012ffe543de",
+              "content_type": "image/jpeg",
+              "width": 1672,
+              "height": 941,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "c9d293f5183ac4af092beb7cd9a752387c28aa26b6baa72c8c9c27af81d8cd50",
+              "relevance": "story_specific",
+              "relevance_note": "Official launch OpenGraph image shows researchers viewing paired robot arms manipulating objects. Compared with 960x540 robot-arm demo poster from same article; selected larger launch artwork."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General consumer startup funding and planned wearable-product news, not an implementation guide, research paper, API or technical developer release.",
+            "evidence_sha256": "735c52a0af28202091f7217d8174ffc4b3e4e35d0dfbbb6c973f48ccb4d0a62d"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.forbes.com/sites/rashishrivastava/2026/10/09/vinod-khosla-backs-an-ai-startup-building-a-mind-reading-baseball-cap/",
+              "final_url": "https://tollbit.forbes.com/sites/rashishrivastava/2026/10/09/vinod-khosla-backs-an-ai-startup-building-a-mind-reading-baseball-cap/",
+              "redirect_chain": [
+                "https://www.forbes.com/sites/rashishrivastava/2026/10/09/vinod-khosla-backs-an-ai-startup-building-a-mind-reading-baseball-cap/",
+                "https://tollbit.forbes.com/sites/rashishrivastava/2026/10/09/vinod-khosla-backs-an-ai-startup-building-a-mind-reading-baseball-cap/"
+              ],
+              "checked_at": "2026-10-10T13:27:58+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "735c52a0af28202091f7217d8174ffc4b3e4e35d0dfbbb6c973f48ccb4d0a62d"
+            },
+            "image": {
+              "url": "https://app.financewire.com/storage/uploads/images/hold-release-until-9am-pt-on-friday-october-9th-20_17915582734mYR1UD1uT.jpg",
+              "final_url": "https://app.financewire.com/storage/uploads/images/hold-release-until-9am-pt-on-friday-october-9th-20_17915582734mYR1UD1uT.jpg",
+              "redirect_chain": [
+                "https://app.financewire.com/storage/uploads/images/hold-release-until-9am-pt-on-friday-october-9th-20_17915582734mYR1UD1uT.jpg"
+              ],
+              "checked_at": "2026-10-10T13:27:58+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "735c52a0af28202091f7217d8174ffc4b3e4e35d0dfbbb6c973f48ccb4d0a62d",
+              "content_type": "image/jpeg",
+              "width": 800,
+              "height": 379,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "0002f4da549caf389ad62a32cdfd15f64533e7cc4a60adb69f8fa5dac4f656cf",
+              "relevance": "story_specific",
+              "relevance_note": "Inspected Sabi baseball-cap product image distributed in the same October 9 funding announcement."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "National employment and workforce-training policy news for general readers; no technical implementation or research methods.",
+            "evidence_sha256": "054c2226c0b468e1faa44c7cc02f9ff528d98de4967e014b3b4c03dc7bc28a9d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Technical alignment and agent-safety report describing evaluation failures, reward hacking, containment and monitoring mitigations.",
+            "evidence_sha256": "582fc3f196f0a66dee926bf57dabc6568936873cffcd9897d5f93695451546fc"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+              "final_url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+              "redirect_chain": [
+                "https://www.anthropic.com/research/investigating-unintended-model-actions"
+              ],
+              "checked_at": "2026-10-10T13:51:11.210541+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "582fc3f196f0a66dee926bf57dabc6568936873cffcd9897d5f93695451546fc"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg"
+              ],
+              "checked_at": "2026-10-10T13:51:11.210541+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "582fc3f196f0a66dee926bf57dabc6568936873cffcd9897d5f93695451546fc",
+              "content_type": "image/jpeg",
+              "width": 2000,
+              "height": 1125,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "cb3662d05fe90eafd2f76e93eb1206ed1c3c5cc1560666f2729c3346a6cc1fb9",
+              "relevance": "story_specific",
+              "relevance_note": "The inspected publisher-selected hero for this exact report depicts highlighted anomalies in measurement traces and tables; it is editorial artwork, not an incident screenshot."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General news reporting on company contingency planning and congressional outreach, not a technical research or implementation article.",
+            "evidence_sha256": "4a9ff7725f2624990cbf87613de2c2550f57ad9cf99ab900614f2594e321216c"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.cbsnews.com/video/ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios/",
+              "final_url": "https://www.cbsnews.com/video/ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios/",
+              "redirect_chain": [
+                "https://www.cbsnews.com/video/ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios/"
+              ],
+              "checked_at": "2026-10-10T13:53:45+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "4a9ff7725f2624990cbf87613de2c2550f57ad9cf99ab900614f2594e321216c"
+            },
+            "image": {
+              "url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/10/5c9300db-5880-474b-8bdc-7ee0ff6e022e/thumbnail/1200x630/3b7806fb71bbdd85f18ae07b0f7bfd5a/cbsn-fusion-ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios-thumbnail.jpg",
+              "final_url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/10/5c9300db-5880-474b-8bdc-7ee0ff6e022e/thumbnail/1200x630/3b7806fb71bbdd85f18ae07b0f7bfd5a/cbsn-fusion-ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios-thumbnail.jpg",
+              "redirect_chain": [
+                "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/10/5c9300db-5880-474b-8bdc-7ee0ff6e022e/thumbnail/1200x630/3b7806fb71bbdd85f18ae07b0f7bfd5a/cbsn-fusion-ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios-thumbnail.jpg"
+              ],
+              "checked_at": "2026-10-10T13:54:05.632968+00:00",
+              "content_type": "image/jpeg",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "4a9ff7725f2624990cbf87613de2c2550f57ad9cf99ab900614f2594e321216c",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "4ce0759f599d87ce1f6d6efcff234ab6c7e093bcb190d3177242f2961a69cdf9",
+              "relevance": "story_specific",
+              "relevance_note": "Publisher-selected image for this exact CBS report depicts Sam Altman, a leader of one of the companies discussed; it is a portrait, not evidence of a disaster."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The official technical launch explains single-pass probability scoring, structured APIs, benchmark evaluations and use in developer-built agents and workflows.",
+            "evidence_sha256": "50336d2673d3638a30eb37e507a59370b8083777a8048a2c56646e226e0b16fb"
+          },
+          "quality": {
+            "article": {
+              "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+              "final_url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+              "redirect_chain": [
+                "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/"
+              ],
+              "checked_at": "2026-10-10T18:20:37.137914+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "50336d2673d3638a30eb37e507a59370b8083777a8048a2c56646e226e0b16fb"
+            },
+            "image": {
+              "url": "https://commandline.microsoft.com/wp-content/uploads/2026/10/introducing-microsoft-decision-1-our-model-for-fast-decision-making-hero.png",
+              "final_url": "https://commandline.microsoft.com/wp-content/uploads/2026/10/introducing-microsoft-decision-1-our-model-for-fast-decision-making-hero.png",
+              "redirect_chain": [
+                "https://commandline.microsoft.com/wp-content/uploads/2026/10/introducing-microsoft-decision-1-our-model-for-fast-decision-making-hero.png"
+              ],
+              "checked_at": "2026-10-10T18:20:52.980130+00:00",
+              "content_type": "image/png",
+              "width": 1600,
+              "height": 800,
+              "image_bytes_sha256": "795badd1580a53daba9261c038929d34a6d90a4bbdd16fc8044e3200c5fc130d",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "50336d2673d3638a30eb37e507a59370b8083777a8048a2c56646e226e0b16fb",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Black Microsoft-Decision-1 product name over a lime background with connected numbered nodes. Official story-specific launch hero, crisp and legible at 1600 by 800."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "This item describes an MCP and command-line reverse-engineering toolkit for developers using AI coding agents.",
+            "evidence_sha256": "f6940a83e151ba1551c8c10955eac3eb87445e2ffd9666ed7b2c9ecf8dac56ed"
+          },
+          "quality": {
+            "article": {
+              "url": "https://github.com/morluto/rea",
+              "final_url": "https://github.com/morluto/rea",
+              "redirect_chain": [
+                "https://github.com/morluto/rea"
+              ],
+              "checked_at": "2026-10-11T02:08:16.144306+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "eac614e0d2780cee55ec4837287a819062c313046a8d67aa521a9be134bdd96f"
+            },
+            "image": {
+              "url": "https://repository-images.githubusercontent.com/1209966933/1a3fef9a-be4b-41f4-8830-a94c0e8288cc",
+              "final_url": "https://repository-images.githubusercontent.com/1209966933/1a3fef9a-be4b-41f4-8830-a94c0e8288cc",
+              "redirect_chain": [
+                "https://repository-images.githubusercontent.com/1209966933/1a3fef9a-be4b-41f4-8830-a94c0e8288cc"
+              ],
+              "checked_at": "2026-10-11T02:07:00.244932+00:00",
+              "content_type": "image/png",
+              "width": 1280,
+              "height": 640,
+              "image_bytes_sha256": "159972ba75202954a75268596f8ec5c07d80959712cb5e7c83d595107131039a",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "f6940a83e151ba1551c8c10955eac3eb87445e2ffd9666ed7b2c9ecf8dac56ed",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "The official repository graphic clearly identifies REA and shows assembly, decompiled code and the agent workflow. It is more legible at newsletter size than the dense Hopper screenshot; both were visually inspected."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "A Claude Code developer skill that generates interactive illustrations and reusable HTML, SVG, and React code for websites and technical documentation.",
+            "evidence_sha256": "303b1adf52c840a0d61720bee53cd41f9576d4f33b69d46f6a18aba48c73d1e8"
+          },
+          "quality": {
+            "article": {
+              "url": "https://skills.wheresryan.sh/anatomy",
+              "final_url": "https://skills.wheresryan.sh/anatomy",
+              "redirect_chain": [
+                "https://skills.wheresryan.sh/anatomy"
+              ],
+              "checked_at": "2026-10-11T15:50:48.795970+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "303b1adf52c840a0d61720bee53cd41f9576d4f33b69d46f6a18aba48c73d1e8"
+            },
+            "image": {
+              "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/main/.github/assets/raptor-engine-firing.webp",
+              "final_url": "https://raw.githubusercontent.com/wheresryan22/anatomy/main/.github/assets/raptor-engine-firing.webp",
+              "redirect_chain": [
+                "https://raw.githubusercontent.com/wheresryan22/anatomy/main/.github/assets/raptor-engine-firing.webp"
+              ],
+              "checked_at": "2026-10-11T15:51:24.370301+00:00",
+              "content_type": "image/webp",
+              "width": 900,
+              "height": 940,
+              "image_bytes_sha256": "c42a9eb6aacb506f7baf0fd91d4fbb04649999e9615f9847585daff595a62d55",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Official example screenshot shows an isometric Raptor rocket engine mounted in a test stand with a red-orange WebGL exhaust plume, detailed pipes, and interaction hints.",
+              "evidence_sha256": "2b6ec1c82984868a751a251106b2d98284f9cfd452508626ab4de2ab67a8436f"
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business launch coverage of an AI manufacturing company, funding and an early power-relay product, rather than implementation guidance.",
+            "evidence_sha256": "ce83e17ae8d1a8a821dc04e7f67970bbb53d632e4b23cd9c9bd78dfc1a6194f9"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "The finalized essay summary concerns AI security engineering practices: external controls, tamper-proof logs, independent checks and operator shutdown safeguards.",
+            "evidence_sha256": "61554b4f1adaea4a8194e9e041b01a30e28524384e20fc295fe742aa77d991dd"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-12T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "39ed9ab1b8ee376a0b99cb65",
   "replacement_batch": null,
   "checkpoint": 75,
   "checkpoint_history": [
@@ -10521,6 +11080,572 @@
           "sha256": "61554b4f1adaea4a8194e9e041b01a30e28524384e20fc295fe742aa77d991dd"
         },
         "editorial_sha256": "0331dc6013b72c35cc1ad59e2119fbe8d9a050a37794934171652ab2bd24aacf"
+      }
+    },
+    "5ac4e03a4648e98008c96a615103e3ead3edfdefee16b5b72bb3b2bd5f16efa5": {
+      "sha256": "b983c563dc8607b1dd87b4d2523a326b145bbbf89dfc8c7760156aeb021f1a89",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "39ed9ab1b8ee376a0b99cb65",
+          "status": "prepared",
+          "checkpoint_before": 75,
+          "prepared_at": "2026-10-12T14:26:50.882604+00:00",
+          "intake_cutoff": 84,
+          "records": [
+            {
+              "id": 76,
+              "revision": 1,
+              "sha256": "6632e4f54e03d273056df7ff7f0bdae5001b2ecd66a3fee46744231dec1a8495"
+            },
+            {
+              "id": 77,
+              "revision": 1,
+              "sha256": "1c811d2e79c497dd64bfa3484fe07e4368962b5b542599e9dbdb189b03e97b57"
+            },
+            {
+              "id": 78,
+              "revision": 1,
+              "sha256": "6780f71be50a5db58c3484cccca0582e89dd4688b411a952c6cbe2b7877c6d2e"
+            },
+            {
+              "id": 79,
+              "revision": 1,
+              "sha256": "a4b824104cc27071f7f7cf27753f4ed8783aca58e8c94b9f7a98528edc80d1d9"
+            },
+            {
+              "id": 80,
+              "revision": 1,
+              "sha256": "5eb98897a0469079b46a92929e86733e7085c08f894021e91138dfd49d0b67a3"
+            },
+            {
+              "id": 81,
+              "revision": 1,
+              "sha256": "b01b2aa8b4fc42963ffb78d49b3ce7c593fc1975eec1fcbe0b1283757db89e39"
+            },
+            {
+              "id": 82,
+              "revision": 1,
+              "sha256": "2a90c17924041fc9e9a284d9abe302b42387a5a2391637420b50c605cbb67a83"
+            },
+            {
+              "id": 83,
+              "revision": 1,
+              "sha256": "6f7145fc5bd914251eec54adae90d3eec0755db82bbb298dfcf33f0e972c3627"
+            },
+            {
+              "id": 84,
+              "revision": 1,
+              "sha256": "dbd1c402bd582550d528249795c4c99f53d46972fadc0348524d8ed6b4a1f19d"
+            },
+            {
+              "id": 85,
+              "revision": 1,
+              "sha256": "6474847959bcfd55a2a6c4fde9b8cfe240fa1a54ace921f0ffa0a4d7516da010"
+            },
+            {
+              "id": 86,
+              "revision": 1,
+              "sha256": "c42de773a018815a7cf4ee1d17f2a96397888fc1b240f9c6ba1dc34227d193cd"
+            },
+            {
+              "id": 87,
+              "revision": 1,
+              "sha256": "0140ce2df711317315f28340bae352ed8a84a75dfd10e9faaa822f2e0ea0f792"
+            },
+            {
+              "id": 88,
+              "revision": 1,
+              "sha256": "076c1abc709c5975bef6270583ffd600a4950c901957f02ed9764af9ccc69731"
+            },
+            {
+              "id": 89,
+              "revision": 1,
+              "sha256": "221167a62855bb6731900729f8c862b0d17193e353c85b7491dc39d47b2de495"
+            },
+            {
+              "id": 90,
+              "revision": 1,
+              "sha256": "ce83e17ae8d1a8a821dc04e7f67970bbb53d632e4b23cd9c9bd78dfc1a6194f9"
+            },
+            {
+              "id": 91,
+              "revision": 1,
+              "sha256": "61554b4f1adaea4a8194e9e041b01a30e28524384e20fc295fe742aa77d991dd"
+            }
+          ],
+          "first_id": 76,
+          "last_id": 91,
+          "count": 16,
+          "txt_path": "workflows/anf/batches/39ed9ab1b8ee376a0b99cb65.txt",
+          "json_path": "workflows/anf/batches/39ed9ab1b8ee376a0b99cb65.json",
+          "txt_sha256": "da28d566e56bee19fe9c2828d314f8d6578dff360126c87e0ad3c99f1a44c995",
+          "json_sha256": "b33bbe11fc57dad14339a4bdcc449676c3984a2e5a3139ccd2777211fab3f19d",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer assistant email feature and rollout, without technical methods or developer implementation guidance.",
+                "evidence_sha256": "7f7c8162f172b908397911018d9aa68d88423cde98cf60f74235abce1ad79dd9"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/",
+                  "final_url": "https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/",
+                  "redirect_chain": [
+                    "https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/"
+                  ],
+                  "checked_at": "2026-10-09T19:22:30+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "7f7c8162f172b908397911018d9aa68d88423cde98cf60f74235abce1ad79dd9"
+                },
+                "image": {
+                  "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628",
+                  "final_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628",
+                  "redirect_chain": [
+                    "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628"
+                  ],
+                  "checked_at": "2026-10-09T19:22:47+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "7f7c8162f172b908397911018d9aa68d88423cde98cf60f74235abce1ad79dd9",
+                  "content_type": "image/jpeg",
+                  "width": 1200,
+                  "height": 628,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "8998bd22e779cbde7b2566d85739ad75a94aa95ad60cee4b19270a10de48b817",
+                  "relevance": "official_logo",
+                  "relevance_note": "Inspected actual 1200x628 JPEG pixels: sharp silver Grok Bot face app icon on gray background with publisher watermark.",
+                  "story_specific_available": false,
+                  "fallback_reason": "Official post image is on forbidden twimg host; checked same-event 9to5Mac full article imagery, which uses this clear Grok Bot app icon. TeslaNorth indexed article also uses product branding; no usable compliant event-specific image found."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "The announcement concerns follow-up message drafting in Codex, a developer tool, and its supported desktop local/SSH workflows and models.",
+                "evidence_sha256": "1e05624b84408c096eca586a4dc30758163b3e6594b18dc6148e1508db96ec34"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "The combined update materially covers starting and continuing Codex coding tasks with cross-thread context; developer workflow is central to the requested follow-up, alongside mobile setup and scheduled-task controls.",
+                "evidence_sha256": "5d9d4ffcfbe9fe45c9c32a1a7237d562264a48fcdc2f4ddc6450d15b5903de80"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://nerdschalk.com/chatgpt-dots-phone-setup-codex-tasks/",
+                  "final_url": "https://nerdschalk.com/chatgpt-dots-phone-setup-codex-tasks/",
+                  "redirect_chain": [
+                    "https://nerdschalk.com/chatgpt-dots-phone-setup-codex-tasks/"
+                  ],
+                  "checked_at": "2026-10-09T19:48:42Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "116ad0b3739c47300498fee20c190fd98fdb5e9c2107f7e095769e578939d38f"
+                },
+                "image": {
+                  "url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+                  "final_url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+                  "redirect_chain": [
+                    "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill"
+                  ],
+                  "checked_at": "2026-10-09T19:48:42Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "8b41f63b3ac6d35f8df6056a2964abb979698f684dce7e4aaa25c2f24aa53cb8",
+                  "content_type": "image/png",
+                  "width": 1600,
+                  "height": 900,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "cc021593844d126086aa64545583d987e807d8232c68280fe9d2be83b08350e1",
+                  "relevance": "official_logo",
+                  "relevance_note": "Verified official dots wordmark and character artwork for this product; visual inspection confirms a clean 1600×900 image.",
+                  "story_specific_available": false,
+                  "fallback_reason": "Exact-post video thumbnails are on prohibited pbs.twimg.com; current official dated announcement has no in-article raster visuals and its OG image is on prohibited learn.chatgpt.com. Same-event NerdsChalk hero was visually inspected and is a generic ChatGPT logo. Older official carousel candidate was visually inspected but depicts a presentation-editing workflow rather than this update. Selected official dots wordmark is more product-specific than the generic ChatGPT art."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The preprint develops and tests a theoretical method for calculating the Lyapunov spectrum of random recurrent neural networks.",
+                "evidence_sha256": "4108f5af2eb342a5058fcd6880b767b58bf5cb525010d5f37c4f48348027263b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General business and AI-industry report about internal employee feedback and competitive positioning; no developer instructions, technical methods, public benchmark evaluation or implementation guidance.",
+                "evidence_sha256": "a6502251bd8fd99ca485f8bec4b7a74357dfdd0f7d6563ba5be524930f4cdcba"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Subscription integration for a software-development agent, with model routing and quota details relevant to developers.",
+                "evidence_sha256": "d6ca7fd93fbaffd3c02b31cd83c92b2d38bf77d667f632ddfbcd22db02f0cd4e"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://cognitionai.mintlify.app/admin/billing/chatgpt",
+                  "final_url": "https://cognitionai.mintlify.app/admin/billing/chatgpt",
+                  "redirect_chain": [
+                    "https://cognitionai.mintlify.app/admin/billing/chatgpt"
+                  ],
+                  "checked_at": "2026-10-10T04:56:47.644435+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "53b2d3a245fb0bfd79dda7a1c93475a1c5dbef2c3d544b773bfb50c6c6559c99"
+                },
+                "image": {
+                  "url": "https://cognitionai.mintlify.app/_mintlify/api/og/v2?division=Billing&title=Use+your+ChatGPT+plan+in+Devin&description=Link+your+ChatGPT+Go%2C+Plus%2C+or+Pro+subscription+to+Devin+so+GPT+model+usage+in+your+sessions+is+billed+to+your+ChatGPT+plan+instead+of+your+Devin+quota.&theme=0713c6ac62f0fe20fbbf80d4&signature=b8e56d04a906f991e761beaf63ae16cfaf7f5f9816cf178584dc07b7fbcaec4f",
+                  "final_url": "https://cognitionai.mintlify.app/_mintlify/api/og/v2?division=Billing&title=Use+your+ChatGPT+plan+in+Devin&description=Link+your+ChatGPT+Go%2C+Plus%2C+or+Pro+subscription+to+Devin+so+GPT+model+usage+in+your+sessions+is+billed+to+your+ChatGPT+plan+instead+of+your+Devin+quota.&theme=0713c6ac62f0fe20fbbf80d4&signature=b8e56d04a906f991e761beaf63ae16cfaf7f5f9816cf178584dc07b7fbcaec4f",
+                  "redirect_chain": [
+                    "https://cognitionai.mintlify.app/_mintlify/api/og/v2?division=Billing&title=Use+your+ChatGPT+plan+in+Devin&description=Link+your+ChatGPT+Go%2C+Plus%2C+or+Pro+subscription+to+Devin+so+GPT+model+usage+in+your+sessions+is+billed+to+your+ChatGPT+plan+instead+of+your+Devin+quota.&theme=0713c6ac62f0fe20fbbf80d4&signature=b8e56d04a906f991e761beaf63ae16cfaf7f5f9816cf178584dc07b7fbcaec4f"
+                  ],
+                  "content_type": "image/png",
+                  "width": 1200,
+                  "height": 630,
+                  "image_bytes_sha256": "ccc08e15e47f67cd770f056327000debaf0709888b0872577eb288de7c20676c",
+                  "checked_at": "2026-10-10T04:56:47.644435+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "08c77dfe5b0fb718163a729b173285ed2332f287429ce42913a76a8b31e4238f",
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "Official documentation artwork specifically labels the ChatGPT-plan integration and lists Go, Plus, and Pro."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Technical world-model architecture, simulation, and task-specific control policies for physical-AI developers.",
+                "evidence_sha256": "58ea9f16e233020ae9916d320a0f114bba98325fa120e7f1aaef1dfe4aae4048"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://odyssey.systems/meet-odyssey-3",
+                  "final_url": "https://odyssey.systems/meet-odyssey-3",
+                  "redirect_chain": [
+                    "https://odyssey.systems/meet-odyssey-3"
+                  ],
+                  "checked_at": "2026-10-10T13:15:39.103322+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "58ea9f16e233020ae9916d320a0f114bba98325fa120e7f1aaef1dfe4aae4048"
+                },
+                "image": {
+                  "url": "https://framerusercontent.com/assets/8NYEsBjllIwZxkZZC8dg2uxEg.jpeg",
+                  "final_url": "https://framerusercontent.com/assets/8NYEsBjllIwZxkZZC8dg2uxEg.jpeg",
+                  "redirect_chain": [
+                    "https://framerusercontent.com/assets/8NYEsBjllIwZxkZZC8dg2uxEg.jpeg"
+                  ],
+                  "checked_at": "2026-10-10T13:15:39.103322+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "10a745707e5b69dfbb03629e9202b8316ed154809e79d65635118012ffe543de",
+                  "content_type": "image/jpeg",
+                  "width": 1672,
+                  "height": 941,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "c9d293f5183ac4af092beb7cd9a752387c28aa26b6baa72c8c9c27af81d8cd50",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official launch OpenGraph image shows researchers viewing paired robot arms manipulating objects. Compared with 960x540 robot-arm demo poster from same article; selected larger launch artwork."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General consumer startup funding and planned wearable-product news, not an implementation guide, research paper, API or technical developer release.",
+                "evidence_sha256": "735c52a0af28202091f7217d8174ffc4b3e4e35d0dfbbb6c973f48ccb4d0a62d"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.forbes.com/sites/rashishrivastava/2026/10/09/vinod-khosla-backs-an-ai-startup-building-a-mind-reading-baseball-cap/",
+                  "final_url": "https://tollbit.forbes.com/sites/rashishrivastava/2026/10/09/vinod-khosla-backs-an-ai-startup-building-a-mind-reading-baseball-cap/",
+                  "redirect_chain": [
+                    "https://www.forbes.com/sites/rashishrivastava/2026/10/09/vinod-khosla-backs-an-ai-startup-building-a-mind-reading-baseball-cap/",
+                    "https://tollbit.forbes.com/sites/rashishrivastava/2026/10/09/vinod-khosla-backs-an-ai-startup-building-a-mind-reading-baseball-cap/"
+                  ],
+                  "checked_at": "2026-10-10T13:27:58+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "735c52a0af28202091f7217d8174ffc4b3e4e35d0dfbbb6c973f48ccb4d0a62d"
+                },
+                "image": {
+                  "url": "https://app.financewire.com/storage/uploads/images/hold-release-until-9am-pt-on-friday-october-9th-20_17915582734mYR1UD1uT.jpg",
+                  "final_url": "https://app.financewire.com/storage/uploads/images/hold-release-until-9am-pt-on-friday-october-9th-20_17915582734mYR1UD1uT.jpg",
+                  "redirect_chain": [
+                    "https://app.financewire.com/storage/uploads/images/hold-release-until-9am-pt-on-friday-october-9th-20_17915582734mYR1UD1uT.jpg"
+                  ],
+                  "checked_at": "2026-10-10T13:27:58+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "735c52a0af28202091f7217d8174ffc4b3e4e35d0dfbbb6c973f48ccb4d0a62d",
+                  "content_type": "image/jpeg",
+                  "width": 800,
+                  "height": 379,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "0002f4da549caf389ad62a32cdfd15f64533e7cc4a60adb69f8fa5dac4f656cf",
+                  "relevance": "story_specific",
+                  "relevance_note": "Inspected Sabi baseball-cap product image distributed in the same October 9 funding announcement."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "National employment and workforce-training policy news for general readers; no technical implementation or research methods.",
+                "evidence_sha256": "054c2226c0b468e1faa44c7cc02f9ff528d98de4967e014b3b4c03dc7bc28a9d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Technical alignment and agent-safety report describing evaluation failures, reward hacking, containment and monitoring mitigations.",
+                "evidence_sha256": "582fc3f196f0a66dee926bf57dabc6568936873cffcd9897d5f93695451546fc"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+                  "final_url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+                  "redirect_chain": [
+                    "https://www.anthropic.com/research/investigating-unintended-model-actions"
+                  ],
+                  "checked_at": "2026-10-10T13:51:11.210541+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "582fc3f196f0a66dee926bf57dabc6568936873cffcd9897d5f93695451546fc"
+                },
+                "image": {
+                  "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg",
+                  "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg",
+                  "redirect_chain": [
+                    "https://www-cdn.anthropic.com/images/4zrzovbb/website/f11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg"
+                  ],
+                  "checked_at": "2026-10-10T13:51:11.210541+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "582fc3f196f0a66dee926bf57dabc6568936873cffcd9897d5f93695451546fc",
+                  "content_type": "image/jpeg",
+                  "width": 2000,
+                  "height": 1125,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "cb3662d05fe90eafd2f76e93eb1206ed1c3c5cc1560666f2729c3346a6cc1fb9",
+                  "relevance": "story_specific",
+                  "relevance_note": "The inspected publisher-selected hero for this exact report depicts highlighted anomalies in measurement traces and tables; it is editorial artwork, not an incident screenshot."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General news reporting on company contingency planning and congressional outreach, not a technical research or implementation article.",
+                "evidence_sha256": "4a9ff7725f2624990cbf87613de2c2550f57ad9cf99ab900614f2594e321216c"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.cbsnews.com/video/ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios/",
+                  "final_url": "https://www.cbsnews.com/video/ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios/",
+                  "redirect_chain": [
+                    "https://www.cbsnews.com/video/ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios/"
+                  ],
+                  "checked_at": "2026-10-10T13:53:45+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "4a9ff7725f2624990cbf87613de2c2550f57ad9cf99ab900614f2594e321216c"
+                },
+                "image": {
+                  "url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/10/5c9300db-5880-474b-8bdc-7ee0ff6e022e/thumbnail/1200x630/3b7806fb71bbdd85f18ae07b0f7bfd5a/cbsn-fusion-ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios-thumbnail.jpg",
+                  "final_url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/10/5c9300db-5880-474b-8bdc-7ee0ff6e022e/thumbnail/1200x630/3b7806fb71bbdd85f18ae07b0f7bfd5a/cbsn-fusion-ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios-thumbnail.jpg",
+                  "redirect_chain": [
+                    "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/10/5c9300db-5880-474b-8bdc-7ee0ff6e022e/thumbnail/1200x630/3b7806fb71bbdd85f18ae07b0f7bfd5a/cbsn-fusion-ai-executives-planning-day-after-scenarios-possible-catastrophic-event-axios-thumbnail.jpg"
+                  ],
+                  "checked_at": "2026-10-10T13:54:05.632968+00:00",
+                  "content_type": "image/jpeg",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "4a9ff7725f2624990cbf87613de2c2550f57ad9cf99ab900614f2594e321216c",
+                  "width": 1200,
+                  "height": 630,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "4ce0759f599d87ce1f6d6efcff234ab6c7e093bcb190d3177242f2961a69cdf9",
+                  "relevance": "story_specific",
+                  "relevance_note": "Publisher-selected image for this exact CBS report depicts Sam Altman, a leader of one of the companies discussed; it is a portrait, not evidence of a disaster."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The official technical launch explains single-pass probability scoring, structured APIs, benchmark evaluations and use in developer-built agents and workflows.",
+                "evidence_sha256": "50336d2673d3638a30eb37e507a59370b8083777a8048a2c56646e226e0b16fb"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+                  "final_url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+                  "redirect_chain": [
+                    "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/"
+                  ],
+                  "checked_at": "2026-10-10T18:20:37.137914+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "50336d2673d3638a30eb37e507a59370b8083777a8048a2c56646e226e0b16fb"
+                },
+                "image": {
+                  "url": "https://commandline.microsoft.com/wp-content/uploads/2026/10/introducing-microsoft-decision-1-our-model-for-fast-decision-making-hero.png",
+                  "final_url": "https://commandline.microsoft.com/wp-content/uploads/2026/10/introducing-microsoft-decision-1-our-model-for-fast-decision-making-hero.png",
+                  "redirect_chain": [
+                    "https://commandline.microsoft.com/wp-content/uploads/2026/10/introducing-microsoft-decision-1-our-model-for-fast-decision-making-hero.png"
+                  ],
+                  "checked_at": "2026-10-10T18:20:52.980130+00:00",
+                  "content_type": "image/png",
+                  "width": 1600,
+                  "height": 800,
+                  "image_bytes_sha256": "795badd1580a53daba9261c038929d34a6d90a4bbdd16fc8044e3200c5fc130d",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "50336d2673d3638a30eb37e507a59370b8083777a8048a2c56646e226e0b16fb",
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "Black Microsoft-Decision-1 product name over a lime background with connected numbered nodes. Official story-specific launch hero, crisp and legible at 1600 by 800."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "This item describes an MCP and command-line reverse-engineering toolkit for developers using AI coding agents.",
+                "evidence_sha256": "f6940a83e151ba1551c8c10955eac3eb87445e2ffd9666ed7b2c9ecf8dac56ed"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://github.com/morluto/rea",
+                  "final_url": "https://github.com/morluto/rea",
+                  "redirect_chain": [
+                    "https://github.com/morluto/rea"
+                  ],
+                  "checked_at": "2026-10-11T02:08:16.144306+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "eac614e0d2780cee55ec4837287a819062c313046a8d67aa521a9be134bdd96f"
+                },
+                "image": {
+                  "url": "https://repository-images.githubusercontent.com/1209966933/1a3fef9a-be4b-41f4-8830-a94c0e8288cc",
+                  "final_url": "https://repository-images.githubusercontent.com/1209966933/1a3fef9a-be4b-41f4-8830-a94c0e8288cc",
+                  "redirect_chain": [
+                    "https://repository-images.githubusercontent.com/1209966933/1a3fef9a-be4b-41f4-8830-a94c0e8288cc"
+                  ],
+                  "checked_at": "2026-10-11T02:07:00.244932+00:00",
+                  "content_type": "image/png",
+                  "width": 1280,
+                  "height": 640,
+                  "image_bytes_sha256": "159972ba75202954a75268596f8ec5c07d80959712cb5e7c83d595107131039a",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "f6940a83e151ba1551c8c10955eac3eb87445e2ffd9666ed7b2c9ecf8dac56ed",
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "The official repository graphic clearly identifies REA and shows assembly, decompiled code and the agent workflow. It is more legible at newsletter size than the dense Hopper screenshot; both were visually inspected."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "A Claude Code developer skill that generates interactive illustrations and reusable HTML, SVG, and React code for websites and technical documentation.",
+                "evidence_sha256": "303b1adf52c840a0d61720bee53cd41f9576d4f33b69d46f6a18aba48c73d1e8"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://skills.wheresryan.sh/anatomy",
+                  "final_url": "https://skills.wheresryan.sh/anatomy",
+                  "redirect_chain": [
+                    "https://skills.wheresryan.sh/anatomy"
+                  ],
+                  "checked_at": "2026-10-11T15:50:48.795970+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "303b1adf52c840a0d61720bee53cd41f9576d4f33b69d46f6a18aba48c73d1e8"
+                },
+                "image": {
+                  "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/main/.github/assets/raptor-engine-firing.webp",
+                  "final_url": "https://raw.githubusercontent.com/wheresryan22/anatomy/main/.github/assets/raptor-engine-firing.webp",
+                  "redirect_chain": [
+                    "https://raw.githubusercontent.com/wheresryan22/anatomy/main/.github/assets/raptor-engine-firing.webp"
+                  ],
+                  "checked_at": "2026-10-11T15:51:24.370301+00:00",
+                  "content_type": "image/webp",
+                  "width": 900,
+                  "height": 940,
+                  "image_bytes_sha256": "c42a9eb6aacb506f7baf0fd91d4fbb04649999e9615f9847585daff595a62d55",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "Official example screenshot shows an isometric Raptor rocket engine mounted in a test stand with a red-orange WebGL exhaust plume, detailed pipes, and interaction hints.",
+                  "evidence_sha256": "2b6ec1c82984868a751a251106b2d98284f9cfd452508626ab4de2ab67a8436f"
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Business launch coverage of an AI manufacturing company, funding and an early power-relay product, rather than implementation guidance.",
+                "evidence_sha256": "ce83e17ae8d1a8a821dc04e7f67970bbb53d632e4b23cd9c9bd78dfc1a6194f9"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "technical_practice",
+                "rationale": "The finalized essay summary concerns AI security engineering practices: external controls, tamper-proof logs, independent checks and operator shutdown safeguards.",
+                "evidence_sha256": "61554b4f1adaea4a8194e9e041b01a30e28524384e20fc295fe742aa77d991dd"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-12T12:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
