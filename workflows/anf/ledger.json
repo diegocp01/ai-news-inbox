@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 265,
-  "updated_at": "2026-10-11T15:52:51.209995+00:00",
+  "generation": 266,
+  "updated_at": "2026-10-12T02:52:26.316005+00:00",
   "next_id": 90,
   "records": [
     {
@@ -10408,6 +10408,18 @@
         ],
         "duplicates": []
       }
+    },
+    "03162bf7e842224d69198eb40db299a6785342cfe2f9b67aa6b27b9a75dde8bf": {
+      "sha256": "477f6bbcf408208fbb10c74afeca7e5eeb6cecc2645cb6f140a22193fce27397",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 89,
+          "revision": 1,
+          "sha256": "221167a62855bb6731900729f8c862b0d17193e353c85b7491dc39d47b2de495"
+        },
+        "editorial_sha256": "f4e20e9c4dec2db2897c38225d17d933747ae849cb86bb24c9a25b122957f529"
+      }
     }
   },
   "migration": {
@@ -13522,6 +13534,58 @@
         "sha256": "328168e91826052ea6f09dcc373198cd6bcb881374cfc600515e9c889938eec9",
         "reviewed_at": "2026-10-11T02:14:43.329454+00:00",
         "operation_id": "41f41923e50c528a28924559ce30d7cd29dc1b465298f9594848afaa6043fefe"
+      }
+    ],
+    "89:1": [
+      {
+        "reference": {
+          "id": 89,
+          "revision": 1,
+          "sha256": "221167a62855bb6731900729f8c862b0d17193e353c85b7491dc39d47b2de495"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "A Claude Code developer skill that generates interactive illustrations and reusable HTML, SVG, and React code for websites and technical documentation.",
+            "evidence_sha256": "303b1adf52c840a0d61720bee53cd41f9576d4f33b69d46f6a18aba48c73d1e8"
+          },
+          "quality": {
+            "article": {
+              "url": "https://skills.wheresryan.sh/anatomy",
+              "final_url": "https://skills.wheresryan.sh/anatomy",
+              "redirect_chain": [
+                "https://skills.wheresryan.sh/anatomy"
+              ],
+              "checked_at": "2026-10-11T15:50:48.795970+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "303b1adf52c840a0d61720bee53cd41f9576d4f33b69d46f6a18aba48c73d1e8"
+            },
+            "image": {
+              "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/main/.github/assets/raptor-engine-firing.webp",
+              "final_url": "https://raw.githubusercontent.com/wheresryan22/anatomy/main/.github/assets/raptor-engine-firing.webp",
+              "redirect_chain": [
+                "https://raw.githubusercontent.com/wheresryan22/anatomy/main/.github/assets/raptor-engine-firing.webp"
+              ],
+              "checked_at": "2026-10-11T15:51:24.370301+00:00",
+              "content_type": "image/webp",
+              "width": 900,
+              "height": 940,
+              "image_bytes_sha256": "c42a9eb6aacb506f7baf0fd91d4fbb04649999e9615f9847585daff595a62d55",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Official example screenshot shows an isometric Raptor rocket engine mounted in a test stand with a red-orange WebGL exhaust plume, detailed pipes, and interaction hints.",
+              "evidence_sha256": "2b6ec1c82984868a751a251106b2d98284f9cfd452508626ab4de2ab67a8436f"
+            }
+          }
+        },
+        "sha256": "f4e20e9c4dec2db2897c38225d17d933747ae849cb86bb24c9a25b122957f529",
+        "reviewed_at": "2026-10-12T02:52:26.316005+00:00",
+        "operation_id": "03162bf7e842224d69198eb40db299a6785342cfe2f9b67aa6b27b9a75dde8bf"
       }
     ]
   }
