@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 279,
-  "updated_at": "2026-10-12T21:00:14.694947+00:00",
+  "generation": 280,
+  "updated_at": "2026-10-12T21:00:54.288881+00:00",
   "next_id": 94,
   "records": [
     {
@@ -11842,6 +11842,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d2785bd85f31ec65fa8ec5e4017eb74544788ba24ac81f94782f8a35d6130859": {
+      "sha256": "cefa43ba3b8b8b286106383a7962dfced889a64e01e0f647267ba35098730d56",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 93,
+          "revision": 1,
+          "sha256": "1b2145695f68dabb82403caba154a85b6f6b2611374641dc57223059c89d5551"
+        },
+        "editorial_sha256": "69ab356b31be7fdb57a411e14f3466db42ac0a50d49cc2f44a9a826c4e767825"
+      }
     }
   },
   "migration": {
@@ -15068,6 +15080,26 @@
         "sha256": "efb2463f10cedb8bc7d200d6009f3441c16519d2c429ecbff6ca2791196c4cb3",
         "reviewed_at": "2026-10-12T18:19:46.512501+00:00",
         "operation_id": "56c77da904f93dcabb9c41465c8d53d420190ff606fb86a3d91097acc00790b1"
+      }
+    ],
+    "93:1": [
+      {
+        "reference": {
+          "id": 93,
+          "revision": 1,
+          "sha256": "1b2145695f68dabb82403caba154a85b6f6b2611374641dc57223059c89d5551"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The core subject is a research paper evaluating a specialized formal-proof system and its research results, rather than a public consumer model launch.",
+            "evidence_sha256": "bfe11703111c996d9d3c14d0d0d29e664fcc938c48b63439903430c274069c5d"
+          }
+        },
+        "sha256": "69ab356b31be7fdb57a411e14f3466db42ac0a50d49cc2f44a9a826c4e767825",
+        "reviewed_at": "2026-10-12T21:00:54.288881+00:00",
+        "operation_id": "d2785bd85f31ec65fa8ec5e4017eb74544788ba24ac81f94782f8a35d6130859"
       }
     ]
   }
