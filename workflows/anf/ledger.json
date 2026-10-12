@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 275,
-  "updated_at": "2026-10-12T18:16:21.803440+00:00",
-  "next_id": 92,
+  "generation": 276,
+  "updated_at": "2026-10-12T18:18:45.514062+00:00",
+  "next_id": 93,
   "records": [
     {
       "id": 1,
@@ -1224,6 +1224,19 @@
           "request_id": "d9db9fc8e6d50e74e2b94f71acf04f7e9ac8b169e7911264afa92ed1a2b438dd",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "revisions": [
+        {
+          "created_at": "2026-10-12T18:18:45.514062+00:00",
+          "block": "Title: New AI Model: Meta Releases Muse Wonder and Muse Wonder Full\nURL: https://about.fb.com/news/2026/10/introducing-muse-wonder-models/\nImage URL: https://about.fb.com/wp-content/uploads/2026/10/museWonder_socialShare.jpg?w=1200\nSummary: Meta released Muse Wonder and Muse Wonder Full for personal and professional tasks, with memory across conversations and support for longer jobs. Wonder is available through Meta’s API and Muse Code; Full is available to Muse Code subscribers. Wonder will reach the Muse app later, starting with subscribers.",
+          "sha256": "3af36a88874b60cedf4157461017fa40f45d0264e2ea20cc89e28adc3d93e274",
+          "source": "Meta",
+          "request_id": "b710414f3ddd32d28d4a619a44bde0a8befe4840025f08a4fc4629b1329bbf2f",
+          "mode": "standard"
         }
       ]
     }
@@ -2718,13 +2731,21 @@
       ]
     },
     "b710414f3ddd32d28d4a619a44bde0a8befe4840025f08a4fc4629b1329bbf2f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-12T18:16:21.803440+00:00",
       "received_sequence": 85,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-12T18:18:45.514062+00:00",
+      "records": [
+        {
+          "id": 92,
+          "revision": 1,
+          "sha256": "3af36a88874b60cedf4157461017fa40f45d0264e2ea20cc89e28adc3d93e274"
+        }
+      ]
     }
   },
   "batches": {
@@ -11741,6 +11762,21 @@
       "result": {
         "status": "received",
         "request_id": "b710414f3ddd32d28d4a619a44bde0a8befe4840025f08a4fc4629b1329bbf2f"
+      }
+    },
+    "c21ca3ec9074f76c619d377ca912adf76200b0ab270f49800b9978b53ed87e65": {
+      "sha256": "7699d126fc03f9ed327f4d6262d5e82822c7d60866b03886f5ed254f430b54b5",
+      "result": {
+        "status": "finalized",
+        "request_id": "b710414f3ddd32d28d4a619a44bde0a8befe4840025f08a4fc4629b1329bbf2f",
+        "records": [
+          {
+            "id": 92,
+            "revision": 1,
+            "sha256": "3af36a88874b60cedf4157461017fa40f45d0264e2ea20cc89e28adc3d93e274"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
