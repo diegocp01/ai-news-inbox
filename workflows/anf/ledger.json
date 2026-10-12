@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 267,
-  "updated_at": "2026-10-12T11:36:39.703516+00:00",
-  "next_id": 90,
+  "generation": 268,
+  "updated_at": "2026-10-12T11:42:16.174912+00:00",
+  "next_id": 92,
   "records": [
     {
       "id": 1,
@@ -1196,6 +1196,34 @@
           "source": "Anatomy",
           "request_id": "b001775169d7849c5f3ea3f793ba156e110b217334d3530f37b4c78409837ebe",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "revisions": [
+        {
+          "created_at": "2026-10-12T11:42:16.174912+00:00",
+          "block": "Title: Atomic Machines Introduces AI System for Building Micro-Machines\nURL: https://www.businesswire.com/news/home/20261007902471/en/Atomic-Machines-Emerges-from-Stealth-with-$250-Million-to-Launch-the-Matter-Compiler-an-AI-Native-Manufacturing-System-That-Builds-Micro-Machines-from-Code\nImage URL: https://www.atomicmachines.com/images/blog-origin-story-b.webp\nSummary: Atomic Machines emerged from six years in stealth, reporting $250 million raised to date. The California company says its Matter Compiler uses AI and digital instructions to build working micro-machines without new tooling for each design. It says its first product, PrimeSwitch, a power relay for AI data centers, is shipping to early customers for evaluation.",
+          "sha256": "ce83e17ae8d1a8a821dc04e7f67970bbb53d632e4b23cd9c9bd78dfc1a6194f9",
+          "source": "businesswire.com",
+          "request_id": "d9db9fc8e6d50e74e2b94f71acf04f7e9ac8b169e7911264afa92ed1a2b438dd",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "revisions": [
+        {
+          "created_at": "2026-10-12T11:42:16.174912+00:00",
+          "block": "Title: Microsoft CEO Calls for Human Controls Over AI\nURL: https://snscratchpad.com/posts/models-as-insider-risks/\nImage URL: https://techcrunch.com/wp-content/uploads/2023/11/satya-nadella-2_web.png?w=1000\nSummary: Microsoft CEO Satya Nadella published an essay arguing that companies should treat advanced AI models as potential insider risks. He called for controls outside the model, tamper-proof records people can read, and independent checks of its work. He also proposed safeguards from the start and an authorized person’s ability to pause or shut down a model mid-task.",
+          "sha256": "61554b4f1adaea4a8194e9e041b01a30e28524384e20fc295fe742aa77d991dd",
+          "source": "snscratchpad.com",
+          "request_id": "d9db9fc8e6d50e74e2b94f71acf04f7e9ac8b169e7911264afa92ed1a2b438dd",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -2667,14 +2695,27 @@
       ]
     },
     "d9db9fc8e6d50e74e2b94f71acf04f7e9ac8b169e7911264afa92ed1a2b438dd": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-12T11:36:39.703516+00:00",
       "received_sequence": 84,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-12T11:42:16.174912+00:00",
+      "records": [
+        {
+          "id": 90,
+          "revision": 1,
+          "sha256": "ce83e17ae8d1a8a821dc04e7f67970bbb53d632e4b23cd9c9bd78dfc1a6194f9"
+        },
+        {
+          "id": 91,
+          "revision": 1,
+          "sha256": "61554b4f1adaea4a8194e9e041b01a30e28524384e20fc295fe742aa77d991dd"
+        }
+      ]
     }
   },
   "batches": {
@@ -10436,6 +10477,26 @@
       "result": {
         "status": "received",
         "request_id": "d9db9fc8e6d50e74e2b94f71acf04f7e9ac8b169e7911264afa92ed1a2b438dd"
+      }
+    },
+    "1b1f6b19c2160e358a74f627975d94e8b1bb9f39bcf1e90fa6690c6148a6c96e": {
+      "sha256": "2b5e3d9f8c06a5d186f91325a1aef79942a1b8d03607ab8a50bcceabb4614b5f",
+      "result": {
+        "status": "finalized",
+        "request_id": "d9db9fc8e6d50e74e2b94f71acf04f7e9ac8b169e7911264afa92ed1a2b438dd",
+        "records": [
+          {
+            "id": 90,
+            "revision": 1,
+            "sha256": "ce83e17ae8d1a8a821dc04e7f67970bbb53d632e4b23cd9c9bd78dfc1a6194f9"
+          },
+          {
+            "id": 91,
+            "revision": 1,
+            "sha256": "61554b4f1adaea4a8194e9e041b01a30e28524384e20fc295fe742aa77d991dd"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
