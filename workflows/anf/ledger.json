@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 268,
-  "updated_at": "2026-10-12T11:42:16.174912+00:00",
+  "generation": 269,
+  "updated_at": "2026-10-12T12:03:48.467210+00:00",
   "next_id": 92,
   "records": [
     {
@@ -10498,6 +10498,18 @@
         ],
         "duplicates": []
       }
+    },
+    "1e5ff9965bc67a559fb94237ad685e5a76bdb1b8fac68ca03696e5125248366d": {
+      "sha256": "6deb32339054c5f30d7978789ba5e76d089429bf57c4b2cbc400e3bad343db0f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 90,
+          "revision": 1,
+          "sha256": "ce83e17ae8d1a8a821dc04e7f67970bbb53d632e4b23cd9c9bd78dfc1a6194f9"
+        },
+        "editorial_sha256": "c924c26b950f9002420054d0228043c8deec9720904c0e1683da04d96c9f8590"
+      }
     }
   },
   "migration": {
@@ -13664,6 +13676,26 @@
         "sha256": "f4e20e9c4dec2db2897c38225d17d933747ae849cb86bb24c9a25b122957f529",
         "reviewed_at": "2026-10-12T02:52:26.316005+00:00",
         "operation_id": "03162bf7e842224d69198eb40db299a6785342cfe2f9b67aa6b27b9a75dde8bf"
+      }
+    ],
+    "90:1": [
+      {
+        "reference": {
+          "id": 90,
+          "revision": 1,
+          "sha256": "ce83e17ae8d1a8a821dc04e7f67970bbb53d632e4b23cd9c9bd78dfc1a6194f9"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business launch coverage of an AI manufacturing company, funding and an early power-relay product, rather than implementation guidance.",
+            "evidence_sha256": "ce83e17ae8d1a8a821dc04e7f67970bbb53d632e4b23cd9c9bd78dfc1a6194f9"
+          }
+        },
+        "sha256": "c924c26b950f9002420054d0228043c8deec9720904c0e1683da04d96c9f8590",
+        "reviewed_at": "2026-10-12T12:03:48.467210+00:00",
+        "operation_id": "1e5ff9965bc67a559fb94237ad685e5a76bdb1b8fac68ca03696e5125248366d"
       }
     ]
   }
