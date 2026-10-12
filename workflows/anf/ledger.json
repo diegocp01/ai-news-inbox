@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 269,
-  "updated_at": "2026-10-12T12:03:48.467210+00:00",
+  "generation": 270,
+  "updated_at": "2026-10-12T12:04:49.333697+00:00",
   "next_id": 92,
   "records": [
     {
@@ -10510,6 +10510,18 @@
         },
         "editorial_sha256": "c924c26b950f9002420054d0228043c8deec9720904c0e1683da04d96c9f8590"
       }
+    },
+    "c0a9e22a34fc1d7e991a0b890e3ad9590496dc119bf080397d0a83daf86d0487": {
+      "sha256": "c99ab91774a0c23ce5c4ff6f956595803a238ab54948314763d0c36d8eb3f988",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 91,
+          "revision": 1,
+          "sha256": "61554b4f1adaea4a8194e9e041b01a30e28524384e20fc295fe742aa77d991dd"
+        },
+        "editorial_sha256": "0331dc6013b72c35cc1ad59e2119fbe8d9a050a37794934171652ab2bd24aacf"
+      }
     }
   },
   "migration": {
@@ -13696,6 +13708,26 @@
         "sha256": "c924c26b950f9002420054d0228043c8deec9720904c0e1683da04d96c9f8590",
         "reviewed_at": "2026-10-12T12:03:48.467210+00:00",
         "operation_id": "1e5ff9965bc67a559fb94237ad685e5a76bdb1b8fac68ca03696e5125248366d"
+      }
+    ],
+    "91:1": [
+      {
+        "reference": {
+          "id": 91,
+          "revision": 1,
+          "sha256": "61554b4f1adaea4a8194e9e041b01a30e28524384e20fc295fe742aa77d991dd"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "The finalized essay summary concerns AI security engineering practices: external controls, tamper-proof logs, independent checks and operator shutdown safeguards.",
+            "evidence_sha256": "61554b4f1adaea4a8194e9e041b01a30e28524384e20fc295fe742aa77d991dd"
+          }
+        },
+        "sha256": "0331dc6013b72c35cc1ad59e2119fbe8d9a050a37794934171652ab2bd24aacf",
+        "reviewed_at": "2026-10-12T12:04:49.333697+00:00",
+        "operation_id": "c0a9e22a34fc1d7e991a0b890e3ad9590496dc119bf080397d0a83daf86d0487"
       }
     ]
   }
