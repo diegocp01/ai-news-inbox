@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 278,
-  "updated_at": "2026-10-12T20:57:54.348279+00:00",
-  "next_id": 93,
+  "generation": 279,
+  "updated_at": "2026-10-12T21:00:14.694947+00:00",
+  "next_id": 94,
   "records": [
     {
       "id": 1,
@@ -1236,6 +1236,19 @@
           "sha256": "3af36a88874b60cedf4157461017fa40f45d0264e2ea20cc89e28adc3d93e274",
           "source": "Meta",
           "request_id": "b710414f3ddd32d28d4a619a44bde0a8befe4840025f08a4fc4629b1329bbf2f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "revisions": [
+        {
+          "created_at": "2026-10-12T21:00:14.694947+00:00",
+          "block": "Title: Google’s AlphaProof Nexus Solves Two Math Problems Open for 56 Years\nURL: https://www.thedailystar.net/news/technology/news/ai-can-now-solve-complex-mathematical-research-problems-scientists-say-4296911\nImage URL: https://arxiv.org/html/2605.22763v1/system_design_centered.png\nSummary: Google DeepMind researchers report that AlphaProof Nexus solved nine of 353 open Erdős problems, including two unanswered for 56 years, and proved 44 of 492 number-sequence conjectures. Software checked the proofs, while human experts verified that they addressed the original questions. The study is now published in Science; most attempted problems remain unsolved.",
+          "sha256": "1b2145695f68dabb82403caba154a85b6f6b2611374641dc57223059c89d5551",
+          "source": "The Daily Star",
+          "request_id": "9dc63eca0a01cf2e11f3b8eb694c40e1841e12db0982f3d0122445ec14163d47",
           "mode": "standard"
         }
       ]
@@ -2748,13 +2761,21 @@
       ]
     },
     "9dc63eca0a01cf2e11f3b8eb694c40e1841e12db0982f3d0122445ec14163d47": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-12T20:57:54.348279+00:00",
       "received_sequence": 86,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-12T21:00:14.694947+00:00",
+      "records": [
+        {
+          "id": 93,
+          "revision": 1,
+          "sha256": "1b2145695f68dabb82403caba154a85b6f6b2611374641dc57223059c89d5551"
+        }
+      ]
     }
   },
   "batches": {
@@ -11805,6 +11826,21 @@
       "result": {
         "status": "received",
         "request_id": "9dc63eca0a01cf2e11f3b8eb694c40e1841e12db0982f3d0122445ec14163d47"
+      }
+    },
+    "f1cd6ad0ecf196125ede39b52b718be964d6bea506308bfafd83bb4e22045825": {
+      "sha256": "e5b181653ad0230d66a50a9fa89212e436059b31e4cd6de5e2f5874cc623b7b5",
+      "result": {
+        "status": "finalized",
+        "request_id": "9dc63eca0a01cf2e11f3b8eb694c40e1841e12db0982f3d0122445ec14163d47",
+        "records": [
+          {
+            "id": 93,
+            "revision": 1,
+            "sha256": "1b2145695f68dabb82403caba154a85b6f6b2611374641dc57223059c89d5551"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
