@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 276,
-  "updated_at": "2026-10-12T18:18:45.514062+00:00",
+  "generation": 277,
+  "updated_at": "2026-10-12T18:19:46.512501+00:00",
   "next_id": 93,
   "records": [
     {
@@ -11778,6 +11778,18 @@
         ],
         "duplicates": []
       }
+    },
+    "56c77da904f93dcabb9c41465c8d53d420190ff606fb86a3d91097acc00790b1": {
+      "sha256": "1190c6d672e15589ae2921582e72a4b06549426b633dc39012f4e2edb418def9",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 92,
+          "revision": 1,
+          "sha256": "3af36a88874b60cedf4157461017fa40f45d0264e2ea20cc89e28adc3d93e274"
+        },
+        "editorial_sha256": "efb2463f10cedb8bc7d200d6009f3441c16519d2c429ecbff6ca2791196c4cb3"
+      }
     }
   },
   "migration": {
@@ -14984,6 +14996,26 @@
         "sha256": "0331dc6013b72c35cc1ad59e2119fbe8d9a050a37794934171652ab2bd24aacf",
         "reviewed_at": "2026-10-12T12:04:49.333697+00:00",
         "operation_id": "c0a9e22a34fc1d7e991a0b890e3ad9590496dc119bf080397d0a83daf86d0487"
+      }
+    ],
+    "92:1": [
+      {
+        "reference": {
+          "id": 92,
+          "revision": 1,
+          "sha256": "3af36a88874b60cedf4157461017fa40f45d0264e2ea20cc89e28adc3d93e274"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General model-release news about personal and professional AI tasks. Initial API and coding-product availability is incidental to the broader model launch, under the user’s October 12 audience instruction.",
+            "evidence_sha256": "ba65d29484e28483bab5678c5929e4d57a2146387d2540ba5526d09f3e12466c"
+          }
+        },
+        "sha256": "efb2463f10cedb8bc7d200d6009f3441c16519d2c429ecbff6ca2791196c4cb3",
+        "reviewed_at": "2026-10-12T18:19:46.512501+00:00",
+        "operation_id": "56c77da904f93dcabb9c41465c8d53d420190ff606fb86a3d91097acc00790b1"
       }
     ]
   }
