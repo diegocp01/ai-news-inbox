@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 303,
-  "updated_at": "2026-10-13T16:44:21.559902+00:00",
+  "generation": 304,
+  "updated_at": "2026-10-13T16:45:28.660085+00:00",
   "next_id": 102,
   "records": [
     {
@@ -12684,6 +12684,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e364d6bb7982e3f83e7a257e26c568e7c355e18a97b4bbece5c2e3f2366e637f": {
+      "sha256": "a44e02a18d50428ea46f8d71d38bad64466d6f299aee7a3145e5c5b9aed98212",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 101,
+          "revision": 1,
+          "sha256": "82f45233bd3a44e0d67a31a5118fd5c3d500f4f9d9bcb9979989c1e0eabf0f75"
+        },
+        "editorial_sha256": "2dbe2497b34e8ef6ed28488bd0b928c5a9f4a40e76c00f9fe9e671004366d26b"
+      }
     }
   },
   "migration": {
@@ -16166,6 +16178,58 @@
         "sha256": "f2adf2dac4564d711c2bc604e8bc722d3638143576c70830743b4d209b2e7c19",
         "reviewed_at": "2026-10-13T16:42:45.855114+00:00",
         "operation_id": "8ab61f7827dea995fb72229b56f20bf031278bb242da3a4b98ced2250a3e9175"
+      }
+    ],
+    "101:1": [
+      {
+        "reference": {
+          "id": 101,
+          "revision": 1,
+          "sha256": "82f45233bd3a44e0d67a31a5118fd5c3d500f4f9d9bcb9979989c1e0eabf0f75"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business and general AI-adoption news about Epic Games staffing and company strategy. It does not teach an implementation, launch a developer tool or API, or report technical research; mentioning Unreal developers does not make it a technical-audience article.",
+            "evidence_sha256": "42ffb375d3727fd492f97887ebc337e58d011eb92c700d88bd51e288e4c99ea9"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.shacknews.com/article/150982/tim-sweeney-epic-games-aims-to-survive-ai-revolution",
+              "final_url": "https://www.shacknews.com/article/150982/tim-sweeney-epic-games-aims-to-survive-ai-revolution",
+              "redirect_chain": [
+                "https://www.shacknews.com/article/150982/tim-sweeney-epic-games-aims-to-survive-ai-revolution"
+              ],
+              "checked_at": "2026-10-13T16:40:34.354335+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "f61b1fa2e7f74d5db09a8f7904c28296377487c716e6f516f321d717c2a45eae"
+            },
+            "image": {
+              "url": "https://shacknews-www.s3.amazonaws.com/assets/editorial/2026/10/tim-sweeney-epic-games-ai-pivot.JPG",
+              "final_url": "https://shacknews-www.s3.amazonaws.com/assets/editorial/2026/10/tim-sweeney-epic-games-ai-pivot.JPG",
+              "redirect_chain": [
+                "https://shacknews-www.s3.amazonaws.com/assets/editorial/2026/10/tim-sweeney-epic-games-ai-pivot.JPG"
+              ],
+              "checked_at": "2026-10-13T16:39:41.615656+00:00",
+              "content_type": "image/jpeg",
+              "width": 914,
+              "height": 920,
+              "image_bytes_sha256": "9d44b96b044612045b7893ae59ceea9ecf85c6dfebfe959ab56872e89bcb7ddb",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Legible publisher-hosted screenshot of the exact Tim Sweeney AI-pivot statement and his follow-up about making code and content faster. The image shows the author and full quoted text; preferred over two inspected generic Sweeney portraits.",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "896ff808f565cde53c14700797c5783b4344e8c70888a5ef45cd6c3f3e3dcb45"
+            }
+          }
+        },
+        "sha256": "2dbe2497b34e8ef6ed28488bd0b928c5a9f4a40e76c00f9fe9e671004366d26b",
+        "reviewed_at": "2026-10-13T16:45:28.660085+00:00",
+        "operation_id": "e364d6bb7982e3f83e7a257e26c568e7c355e18a97b4bbece5c2e3f2366e637f"
       }
     ]
   }
