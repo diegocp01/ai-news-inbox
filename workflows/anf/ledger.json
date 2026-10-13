@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 285,
-  "updated_at": "2026-10-13T02:08:34.153960+00:00",
+  "generation": 286,
+  "updated_at": "2026-10-13T02:10:02.606912+00:00",
   "next_id": 96,
   "records": [
     {
@@ -11970,6 +11970,18 @@
         ],
         "duplicates": []
       }
+    },
+    "fa17bb3ee7d862f7d08d4728ebccc2acf83069eb2a8646f056a788952a32a9e0": {
+      "sha256": "dbb58258c7eb191766d34a36c1c55c981a07661b69531bf9c6e7f35bb69dead3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 95,
+          "revision": 1,
+          "sha256": "54c3c8a807d3697ad784df2fbaa12326a5c3e1b391d3c56bc7ed1b32a6fe47e1"
+        },
+        "editorial_sha256": "0b6771ecb5237de46cc2487ae77bb24d78e6435b11bdee297892fadf448db105"
+      }
     }
   },
   "migration": {
@@ -15236,6 +15248,58 @@
         "sha256": "cfe6555da3023d22cb6182efb18f7f54e0159e99573a7e264f9031644c39ec43",
         "reviewed_at": "2026-10-13T00:01:45.214131+00:00",
         "operation_id": "2499384f5459fb60525f90caa8c39544aba849ed5477af14759dfee2e3fe3d3a"
+      }
+    ],
+    "95:1": [
+      {
+        "reference": {
+          "id": 95,
+          "revision": 1,
+          "sha256": "54c3c8a807d3697ad784df2fbaa12326a5c3e1b391d3c56bc7ed1b32a6fe47e1"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Original technical research on inference setup, controlled replication evaluation, hardware limits, model comparisons, and appendix-level methods; not broad safety reporting.",
+            "evidence_sha256": "f8110934ff383ebfaa8730b72b5212681908c34ec39feabcadb3c97c0ee4f06d"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/research/self-replicating-ai",
+              "final_url": "https://www.anthropic.com/research/self-replicating-ai",
+              "redirect_chain": [
+                "https://www.anthropic.com/research/self-replicating-ai"
+              ],
+              "checked_at": "2026-10-13T02:06:21+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "f8110934ff383ebfaa8730b72b5212681908c34ec39feabcadb3c97c0ee4f06d"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png"
+              ],
+              "checked_at": "2026-10-13T02:07:17.998925+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "19403bc43d7e09be93fb4951ab0ac9fb10dbc069ae704d14836a0f4668e9bef3",
+              "content_type": "image/png",
+              "width": 2360,
+              "height": 860,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "ebf6f97d14ee9049d307dad4d3818f3ccd84e8067c8aae3a50ee7536d0a250a6",
+              "relevance": "story_specific",
+              "relevance_note": "Legible official four-stage colored replication diagram, with inference setup highlighted as the study focus and cyber exploit stages marked not the focus. Selected over the same-page faded-stage variant after inspecting both."
+            }
+          }
+        },
+        "sha256": "0b6771ecb5237de46cc2487ae77bb24d78e6435b11bdee297892fadf448db105",
+        "reviewed_at": "2026-10-13T02:10:02.606912+00:00",
+        "operation_id": "fa17bb3ee7d862f7d08d4728ebccc2acf83069eb2a8646f056a788952a32a9e0"
       }
     ]
   }
