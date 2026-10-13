@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 281,
-  "updated_at": "2026-10-12T23:57:42.152648+00:00",
-  "next_id": 94,
+  "generation": 282,
+  "updated_at": "2026-10-13T00:00:59.968108+00:00",
+  "next_id": 95,
   "records": [
     {
       "id": 1,
@@ -1249,6 +1249,19 @@
           "sha256": "1b2145695f68dabb82403caba154a85b6f6b2611374641dc57223059c89d5551",
           "source": "The Daily Star",
           "request_id": "9dc63eca0a01cf2e11f3b8eb694c40e1841e12db0982f3d0122445ec14163d47",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "revisions": [
+        {
+          "created_at": "2026-10-13T00:00:59.968108+00:00",
+          "block": "Title: Grok, Cursor and X Premium Join One Subscription\nURL: https://forum.cursor.com/t/introducing-the-x-subscription/174450\nImage URL: https://us1.discourse-cdn.com/cursor1/original/3X/e/0/e049914b8d5226c3d31a3252bd716454c0aa35b4.jpeg\nSummary: The X Subscription combines Grok, Grok Bot, Cursor and X Premium, with paid plans starting at $8 monthly. Grok usage is shared across products and refreshes weekly. Existing subscribers can keep their plans or switch as availability rolls out. Third-party models in Cursor cost extra on the new plans.",
+          "sha256": "728d1deb19495e6b4a0e28684615551493f2e472d204c8fa49b6b7ea874a69f0",
+          "source": "SpaceXSI / Cursor",
+          "request_id": "4dbb22777970cecf420fb09bf34e1056c07625ed9685ffad962e613217512910",
           "mode": "standard"
         }
       ]
@@ -2778,13 +2791,21 @@
       ]
     },
     "4dbb22777970cecf420fb09bf34e1056c07625ed9685ffad962e613217512910": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-12T23:57:42.152648+00:00",
       "received_sequence": 87,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-13T00:00:59.968108+00:00",
+      "records": [
+        {
+          "id": 94,
+          "revision": 1,
+          "sha256": "728d1deb19495e6b4a0e28684615551493f2e472d204c8fa49b6b7ea874a69f0"
+        }
+      ]
     }
   },
   "batches": {
@@ -11869,6 +11890,21 @@
       "result": {
         "status": "received",
         "request_id": "4dbb22777970cecf420fb09bf34e1056c07625ed9685ffad962e613217512910"
+      }
+    },
+    "7f930d15af00129a67985a153a60afb3ff452f81bd70216a9827fd7c809dc2fd": {
+      "sha256": "8dd613a8f7d0213ec67334163c47708c337406a4ed2fec8e71bd1877f445977b",
+      "result": {
+        "status": "finalized",
+        "request_id": "4dbb22777970cecf420fb09bf34e1056c07625ed9685ffad962e613217512910",
+        "records": [
+          {
+            "id": 94,
+            "revision": 1,
+            "sha256": "728d1deb19495e6b4a0e28684615551493f2e472d204c8fa49b6b7ea874a69f0"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
