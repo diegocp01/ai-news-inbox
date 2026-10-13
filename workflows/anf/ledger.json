@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 305,
-  "updated_at": "2026-10-13T18:57:48.196926+00:00",
-  "next_id": 102,
+  "generation": 306,
+  "updated_at": "2026-10-13T19:02:02.125309+00:00",
+  "next_id": 103,
   "records": [
     {
       "id": 1,
@@ -1356,6 +1356,19 @@
           "sha256": "82f45233bd3a44e0d67a31a5118fd5c3d500f4f9d9bcb9979989c1e0eabf0f75",
           "source": "Shacknews",
           "request_id": "013729531cc0b7a9cca8ab10d353e85cf5d17b19c113ddd8f8a8aef5b6e0beff",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "revisions": [
+        {
+          "created_at": "2026-10-13T19:02:02.125309+00:00",
+          "block": "Title: ScaleDown Launches Specialized Models to Lower AI Costs\nURL: https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents\nImage URL: https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6acdab828208336ba4c088f6_scaledown-overview.png\nSummary: ScaleDown introduced three task-specific Constrained Decoding Models for classification, information extraction and summarization. The company says they reduce the cost and latency of routine AI workloads, with support for up to one million tokens of text and image input. LangChain added an integration for agent workflows; general-purpose models remain necessary for open-ended generation.",
+          "sha256": "83c7101757366b7d7b4821309e7f19876291427cecd05a65068e77879a46e557",
+          "source": "LangChain",
+          "request_id": "9077552dc730878c267561a9fcfd25d920d55406bbb2543c2a1a5f510ff3f61c",
           "mode": "standard"
         }
       ]
@@ -2998,13 +3011,21 @@
       ]
     },
     "9077552dc730878c267561a9fcfd25d920d55406bbb2543c2a1a5f510ff3f61c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-13T18:57:48.196926+00:00",
       "received_sequence": 93,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-13T19:02:02.125309+00:00",
+      "records": [
+        {
+          "id": 102,
+          "revision": 1,
+          "sha256": "83c7101757366b7d7b4821309e7f19876291427cecd05a65068e77879a46e557"
+        }
+      ]
     }
   },
   "batches": {
@@ -12711,6 +12732,21 @@
       "result": {
         "status": "received",
         "request_id": "9077552dc730878c267561a9fcfd25d920d55406bbb2543c2a1a5f510ff3f61c"
+      }
+    },
+    "3cbc3b8da6871be982c19381a4e3c98b76baaf135436e4a4a29f930afd85a494": {
+      "sha256": "7cc3baca5a6812adc0eaf4b3fead73198187d2b190323a49655689158fd3f1da",
+      "result": {
+        "status": "finalized",
+        "request_id": "9077552dc730878c267561a9fcfd25d920d55406bbb2543c2a1a5f510ff3f61c",
+        "records": [
+          {
+            "id": 102,
+            "revision": 1,
+            "sha256": "83c7101757366b7d7b4821309e7f19876291427cecd05a65068e77879a46e557"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
