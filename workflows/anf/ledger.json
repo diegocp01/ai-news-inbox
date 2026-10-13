@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 282,
-  "updated_at": "2026-10-13T00:00:59.968108+00:00",
+  "generation": 283,
+  "updated_at": "2026-10-13T00:01:45.214131+00:00",
   "next_id": 95,
   "records": [
     {
@@ -11906,6 +11906,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2499384f5459fb60525f90caa8c39544aba849ed5477af14759dfee2e3fe3d3a": {
+      "sha256": "25a630901f9044e3c38f42dadc1f7a1d18a1dcdf1a88a0eba556d21c7f5d29e3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 94,
+          "revision": 1,
+          "sha256": "728d1deb19495e6b4a0e28684615551493f2e472d204c8fa49b6b7ea874a69f0"
+        },
+        "editorial_sha256": "cfe6555da3023d22cb6182efb18f7f54e0159e99573a7e264f9031644c39ec43"
+      }
     }
   },
   "migration": {
@@ -15152,6 +15164,26 @@
         "sha256": "69ab356b31be7fdb57a411e14f3466db42ac0a50d49cc2f44a9a826c4e767825",
         "reviewed_at": "2026-10-12T21:00:54.288881+00:00",
         "operation_id": "d2785bd85f31ec65fa8ec5e4017eb74544788ba24ac81f94782f8a35d6130859"
+      }
+    ],
+    "94:1": [
+      {
+        "reference": {
+          "id": 94,
+          "revision": 1,
+          "sha256": "728d1deb19495e6b4a0e28684615551493f2e472d204c8fa49b6b7ea874a69f0"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General subscription bundle for broad Grok/Bot/X users; coding/API billing incidental under user October12 guidance",
+            "evidence_sha256": "9bf05295453d887b353b3642856a4c8fcae4dea4d9f1c7b5da04db6c59cbff29"
+          }
+        },
+        "sha256": "cfe6555da3023d22cb6182efb18f7f54e0159e99573a7e264f9031644c39ec43",
+        "reviewed_at": "2026-10-13T00:01:45.214131+00:00",
+        "operation_id": "2499384f5459fb60525f90caa8c39544aba849ed5477af14759dfee2e3fe3d3a"
       }
     ]
   }
