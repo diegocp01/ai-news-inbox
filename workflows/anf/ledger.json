@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 300,
-  "updated_at": "2026-10-13T16:37:24.028642+00:00",
-  "next_id": 100,
+  "generation": 301,
+  "updated_at": "2026-10-13T16:40:15.793813+00:00",
+  "next_id": 101,
   "records": [
     {
       "id": 1,
@@ -1330,6 +1330,19 @@
           "sha256": "e4d041f02600ba9f887aa3824b755a1f953299380c4e6a4a8db4b35127a367c3",
           "source": "Collov Labs",
           "request_id": "64369590591ac8d4b905bd34b31d97cd8a19cc6d21d6989c0ec3bb3c6b177363",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "revisions": [
+        {
+          "created_at": "2026-10-13T16:40:15.793813+00:00",
+          "block": "Title: New AI Model: Google Releases Gemini 4 Argon Globally\nURL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png\nSummary: Google released Gemini 4 Argon globally, including access for Google AI Pro and Ultra subscribers in the Gemini app and AI Mode in Search. The company says the model helps people tackle complex coding, business, cybersecurity and scientific tasks, and is also available through its developer and enterprise platforms.",
+          "sha256": "c28d2f2b8f7f4ce29340c5b39ad7813597f56c3f8ec1e9fff686246d7970cd72",
+          "source": "Google",
+          "request_id": "f886506c08d1c02e06a55f21c351d8197d953feb3a1ce5994c2c949d2be7ad51",
           "mode": "standard"
         }
       ]
@@ -2947,13 +2960,21 @@
       "corrects_record_id": null
     },
     "f886506c08d1c02e06a55f21c351d8197d953feb3a1ce5994c2c949d2be7ad51": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-13T16:37:24.028642+00:00",
       "received_sequence": 92,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-13T16:40:15.793813+00:00",
+      "records": [
+        {
+          "id": 100,
+          "revision": 1,
+          "sha256": "c28d2f2b8f7f4ce29340c5b39ad7813597f56c3f8ec1e9fff686246d7970cd72"
+        }
+      ]
     }
   },
   "batches": {
@@ -12599,6 +12620,21 @@
       "result": {
         "status": "received",
         "request_id": "f886506c08d1c02e06a55f21c351d8197d953feb3a1ce5994c2c949d2be7ad51"
+      }
+    },
+    "cbdf0e90e75a467873dc0fed2d799a7a34b603bfddb029768480f7882bb3a02b": {
+      "sha256": "205e5676a4b587f3e40e0b989ac1b2ef80e4f5d3630657ab75647c4eb1b3b478",
+      "result": {
+        "status": "finalized",
+        "request_id": "f886506c08d1c02e06a55f21c351d8197d953feb3a1ce5994c2c949d2be7ad51",
+        "records": [
+          {
+            "id": 100,
+            "revision": 1,
+            "sha256": "c28d2f2b8f7f4ce29340c5b39ad7813597f56c3f8ec1e9fff686246d7970cd72"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
