@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 301,
-  "updated_at": "2026-10-13T16:40:15.793813+00:00",
+  "generation": 302,
+  "updated_at": "2026-10-13T16:42:45.855114+00:00",
   "next_id": 101,
   "records": [
     {
@@ -12636,6 +12636,18 @@
         ],
         "duplicates": []
       }
+    },
+    "8ab61f7827dea995fb72229b56f20bf031278bb242da3a4b98ced2250a3e9175": {
+      "sha256": "c99f4a9aa7b6a0afb740c95e8d2b8c66efe031653a5f7791ec1d10b90698bda6",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 100,
+          "revision": 1,
+          "sha256": "c28d2f2b8f7f4ce29340c5b39ad7813597f56c3f8ec1e9fff686246d7970cd72"
+        },
+        "editorial_sha256": "f2adf2dac4564d711c2bc604e8bc722d3638143576c70830743b4d209b2e7c19"
+      }
     }
   },
   "migration": {
@@ -16066,6 +16078,58 @@
         "sha256": "f6556c6ad741c438bba808c94679ebf030bf4e542d91a53082da5752f6ed6f8b",
         "reviewed_at": "2026-10-13T15:48:35.736908+00:00",
         "operation_id": "72d480f5676b7f27469b4cb8a2fc8304d3e998c00d34f5562b0220c58dcaa66a"
+      }
+    ],
+    "100:1": [
+      {
+        "reference": {
+          "id": 100,
+          "revision": 1,
+          "sha256": "c28d2f2b8f7f4ce29340c5b39ad7813597f56c3f8ec1e9fff686246d7970cd72"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public release of a broadly usable Gemini model for consumers, enterprises and scientists. Coding, API access and pricing are supporting details rather than the primary audience or purpose.",
+            "evidence_sha256": "07e1b5636caa54ae1da55b8b43f559ca79326676c6a1f29768ca2c2e63453433"
+          },
+          "quality": {
+            "article": {
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+              "final_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+              "redirect_chain": [
+                "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+              ],
+              "checked_at": "2026-10-13T16:38:51.813496+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "d31956c091f0ea65314e5b4782aafe9b2b663d899d0ddc24da81af301ada07c5"
+            },
+            "image": {
+              "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+              "final_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+              "redirect_chain": [
+                "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png"
+              ],
+              "checked_at": "2026-10-13T16:39:17.573808+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "766ae3a14fe166b57754a575f5c78b2c123e38f44025e533f9c670ed5e48f855",
+              "content_type": "image/png",
+              "width": 1300,
+              "height": 731,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "23646e4eaecc376cd723fef7275e02d2d8023e3324366fb39e3a9edceee81aed",
+              "relevance": "story_specific",
+              "relevance_note": "Official October 13 Gemini 4 Argon launch hero showing a large translucent numeral 4 on a blue-to-cyan background. Its 1300 by 731 pixels were inspected directly; other page images are unrelated story cards or navigation icons."
+            }
+          }
+        },
+        "sha256": "f2adf2dac4564d711c2bc604e8bc722d3638143576c70830743b4d209b2e7c19",
+        "reviewed_at": "2026-10-13T16:42:45.855114+00:00",
+        "operation_id": "8ab61f7827dea995fb72229b56f20bf031278bb242da3a4b98ced2250a3e9175"
       }
     ]
   }
