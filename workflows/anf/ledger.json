@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 288,
-  "updated_at": "2026-10-13T11:51:18.569332+00:00",
+  "generation": 289,
+  "updated_at": "2026-10-13T11:58:52.361648+00:00",
   "next_id": 99,
   "records": [
     {
@@ -12084,6 +12084,18 @@
         ],
         "duplicates": []
       }
+    },
+    "15e93376f05f7007b64b95c559cb0681a9c29cd7be9c13476c7e813fe790e73b": {
+      "sha256": "869cec3f93b210e44937c0dd7b2955f49168631278533b3ba0234e3b999bba98",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 96,
+          "revision": 1,
+          "sha256": "3f210a8a3c7ba8c2e1a7efec5f4b81b6bff6359296a80953fd0389b2477c9d97"
+        },
+        "editorial_sha256": "2862536d4ad8fb5c4cbb431bbd05fd9b279e28f031355a0f0c754502facb2868"
+      }
     }
   },
   "migration": {
@@ -15402,6 +15414,26 @@
         "sha256": "0b6771ecb5237de46cc2487ae77bb24d78e6435b11bdee297892fadf448db105",
         "reviewed_at": "2026-10-13T02:10:02.606912+00:00",
         "operation_id": "fa17bb3ee7d862f7d08d4728ebccc2acf83069eb2a8646f056a788952a32a9e0"
+      }
+    ],
+    "96:1": [
+      {
+        "reference": {
+          "id": 96,
+          "revision": 1,
+          "sha256": "3f210a8a3c7ba8c2e1a7efec5f4b81b6bff6359296a80953fd0389b2477c9d97"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Broad public AI model launch; API and coding-product access are incidental to the core release announcement, based on finalized intake evidence.",
+            "evidence_sha256": "b93756be3730b21ecc516927ef607be78e2082f38ebed8e7b8aa8a6ebc2f4e86"
+          }
+        },
+        "sha256": "2862536d4ad8fb5c4cbb431bbd05fd9b279e28f031355a0f0c754502facb2868",
+        "reviewed_at": "2026-10-13T11:58:52.361648+00:00",
+        "operation_id": "15e93376f05f7007b64b95c559cb0681a9c29cd7be9c13476c7e813fe790e73b"
       }
     ]
   }
