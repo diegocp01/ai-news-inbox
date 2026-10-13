@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 306,
-  "updated_at": "2026-10-13T19:02:02.125309+00:00",
+  "generation": 307,
+  "updated_at": "2026-10-13T19:03:10.630097+00:00",
   "next_id": 103,
   "records": [
     {
@@ -12748,6 +12748,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9a81ecffe952557765ac0833bf57aa6bbd55bf132e2167293f80ecafe068e127": {
+      "sha256": "9ffccceda94929c5a6205496eb78855d420cb52d7bf35aa914e8f613d935c61c",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 102,
+          "revision": 1,
+          "sha256": "83c7101757366b7d7b4821309e7f19876291427cecd05a65068e77879a46e557"
+        },
+        "editorial_sha256": "8d76a0d7b9e907df4eb09be5f57f93b8587938072627651a9637589fe603c539"
+      }
     }
   },
   "migration": {
@@ -16282,6 +16294,58 @@
         "sha256": "2dbe2497b34e8ef6ed28488bd0b928c5a9f4a40e76c00f9fe9e671004366d26b",
         "reviewed_at": "2026-10-13T16:45:28.660085+00:00",
         "operation_id": "e364d6bb7982e3f83e7a257e26c568e7c355e18a97b4bbece5c2e3f2366e637f"
+      }
+    ],
+    "102:1": [
+      {
+        "reference": {
+          "id": 102,
+          "revision": 1,
+          "sha256": "83c7101757366b7d7b4821309e7f19876291427cecd05a65068e77879a46e557"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "api",
+            "rationale": "The launch introduces specialized model architecture and developer-facing classification, extraction and summarization APIs for production agent workflows. Its main purpose is technical implementation rather than a general consumer model release.",
+            "evidence_sha256": "caccfda378d2c86cb7f2509e77f4bfd9770835131082e2853b0f87734cbde9b7"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
+              "final_url": "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
+              "redirect_chain": [
+                "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents"
+              ],
+              "checked_at": "2026-10-13T19:00:42.038891+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "7014002e5cfc994372fb41cdc578770302535ed2c6b1ce9a320bf8bd757d2903"
+            },
+            "image": {
+              "url": "https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6acdab828208336ba4c088f6_scaledown-overview.png",
+              "final_url": "https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6acdab828208336ba4c088f6_scaledown-overview.png",
+              "redirect_chain": [
+                "https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6acdab828208336ba4c088f6_scaledown-overview.png"
+              ],
+              "checked_at": "2026-10-13T19:00:42.454599+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "7787e6ee356afda3ad1fbef918219f339dff6761c1cc6b645b98aae812cc1541",
+              "content_type": "image/png",
+              "width": 3200,
+              "height": 1680,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "1397a1a325ced19f80b61dd694eea36933647e1773a9b953a8767435583aa94d",
+              "relevance": "story_specific",
+              "relevance_note": "Legible same-day LangChain partner diagram shows ScaleDown Extract, Summarize and Classify around a frontier agent model, alongside the existing Compress capability. Selected over the inspected title cover and narrower summarization/compression diagrams."
+            }
+          }
+        },
+        "sha256": "8d76a0d7b9e907df4eb09be5f57f93b8587938072627651a9637589fe603c539",
+        "reviewed_at": "2026-10-13T19:03:10.630097+00:00",
+        "operation_id": "9a81ecffe952557765ac0833bf57aa6bbd55bf132e2167293f80ecafe068e127"
       }
     ]
   }
