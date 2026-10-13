@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 287,
-  "updated_at": "2026-10-13T11:39:33.221855+00:00",
-  "next_id": 96,
+  "generation": 288,
+  "updated_at": "2026-10-13T11:51:18.569332+00:00",
+  "next_id": 99,
   "records": [
     {
       "id": 1,
@@ -1276,6 +1276,48 @@
           "source": "Anthropic",
           "request_id": "1dce3d44f355df8077ab7b2abba47df6408a3cc525e0516dd3a6f0e4daaec324",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "revisions": [
+        {
+          "created_at": "2026-10-13T11:51:18.569332+00:00",
+          "block": "Title: Meta Releases Muse Wonder AI Models\nURL: https://about.fb.com/news/2026/10/introducing-muse-wonder-models/\nImage URL: https://about.fb.com/wp-content/uploads/2026/10/museWonder_socialShare.jpg?w=1200\nSummary: Meta released Muse Wonder and Muse Wonder Full, two AI models designed for assistants that carry out tasks for users. Wonder is available through the Meta Model API and Muse Code, while Full is available to Muse Code subscribers. Meta says Wonder will also reach the Muse app, starting with subscribers.",
+          "sha256": "3f210a8a3c7ba8c2e1a7efec5f4b81b6bff6359296a80953fd0389b2477c9d97",
+          "source": "about.fb.com",
+          "request_id": "64e85a035f84a8e3881f78a5a5a1b7e12fd4026b96bfb246724d1e0380db83c0",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "revisions": [
+        {
+          "created_at": "2026-10-13T11:51:18.569332+00:00",
+          "block": "Title: Andrej Karpathy Describes a Widening Gap in AI Understanding\nURL: https://www.businesstoday.in/technology/artificial-intelligence/story/only-5000-people-have-access-to-ai-agents-that-can-tackle-years-of-work-in-weeks-says-ai-researcher-andrej-karpathy-560943-2026-10-12\nImage URL: https://akm-img-a-in.tosshub.com/businesstoday/images/story/202610/6acc737537634-ai-124316234-16x9.jpg?size=948%3A533\nSummary: Andrej Karpathy says differences in AI access and use are widening the gap in how people understand its capabilities. His rough estimates range from about 6 billion people with little exposure to language models to roughly 5,000 with internal access to advanced systems. He links the gap to task size, access tiers, and capabilities concentrated in coding and math.",
+          "sha256": "fa13f2a9354780d88d6b33461d3034754d4bc2dd7437d5d9fd8c361ba07e0421",
+          "source": "businesstoday.in",
+          "request_id": "64e85a035f84a8e3881f78a5a5a1b7e12fd4026b96bfb246724d1e0380db83c0",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "revisions": [
+        {
+          "created_at": "2026-10-13T11:51:18.569332+00:00",
+          "block": "Title: Microsoft Announces Maia 300 Deployments for 2027\nURL: https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/\nImage URL: https://msftstories.thesourcemediaassets.com/sites/760/2026/10/Maia-300-prototype-chip-00_hero.png\nSummary: Microsoft announced Maia 300, its next AI chip, with production deployments planned for 2027. The company expects 40% more tokens per megawatt than leading GPU systems. Microsoft also plans to make Maia its primary system for running AI across its products and services, and says Maia 200 already serves production workloads including Microsoft Copilot.",
+          "sha256": "1b0486f1c8bfbb99d2ff4934055d19e95be5c2ca865a8f5b7d78a49af6aa3387",
+          "source": "blogs.microsoft.com",
+          "request_id": "64e85a035f84a8e3881f78a5a5a1b7e12fd4026b96bfb246724d1e0380db83c0",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -2838,14 +2880,32 @@
       ]
     },
     "64e85a035f84a8e3881f78a5a5a1b7e12fd4026b96bfb246724d1e0380db83c0": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-13T11:39:33.221855+00:00",
       "received_sequence": 89,
       "expected_items": 3,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-13T11:51:18.569332+00:00",
+      "records": [
+        {
+          "id": 96,
+          "revision": 1,
+          "sha256": "3f210a8a3c7ba8c2e1a7efec5f4b81b6bff6359296a80953fd0389b2477c9d97"
+        },
+        {
+          "id": 97,
+          "revision": 1,
+          "sha256": "fa13f2a9354780d88d6b33461d3034754d4bc2dd7437d5d9fd8c361ba07e0421"
+        },
+        {
+          "id": 98,
+          "revision": 1,
+          "sha256": "1b0486f1c8bfbb99d2ff4934055d19e95be5c2ca865a8f5b7d78a49af6aa3387"
+        }
+      ]
     }
   },
   "batches": {
@@ -11998,6 +12058,31 @@
       "result": {
         "status": "received",
         "request_id": "64e85a035f84a8e3881f78a5a5a1b7e12fd4026b96bfb246724d1e0380db83c0"
+      }
+    },
+    "655e9949bedf9d585ed323ab6e9397b98fa2fc8eb96e4ec64e17143db351d7a0": {
+      "sha256": "93d52d53cf0b3245091c5ddf7076806c5036ca98a987d2403c1f5509865ee5cb",
+      "result": {
+        "status": "finalized",
+        "request_id": "64e85a035f84a8e3881f78a5a5a1b7e12fd4026b96bfb246724d1e0380db83c0",
+        "records": [
+          {
+            "id": 96,
+            "revision": 1,
+            "sha256": "3f210a8a3c7ba8c2e1a7efec5f4b81b6bff6359296a80953fd0389b2477c9d97"
+          },
+          {
+            "id": 97,
+            "revision": 1,
+            "sha256": "fa13f2a9354780d88d6b33461d3034754d4bc2dd7437d5d9fd8c361ba07e0421"
+          },
+          {
+            "id": 98,
+            "revision": 1,
+            "sha256": "1b0486f1c8bfbb99d2ff4934055d19e95be5c2ca865a8f5b7d78a49af6aa3387"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
