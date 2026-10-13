@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 296,
-  "updated_at": "2026-10-13T15:42:57.159118+00:00",
-  "next_id": 99,
+  "generation": 297,
+  "updated_at": "2026-10-13T15:47:24.110192+00:00",
+  "next_id": 100,
   "records": [
     {
       "id": 1,
@@ -1318,6 +1318,19 @@
           "request_id": "64e85a035f84a8e3881f78a5a5a1b7e12fd4026b96bfb246724d1e0380db83c0",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "revisions": [
+        {
+          "created_at": "2026-10-13T15:47:24.110192+00:00",
+          "block": "Title: NewEyes AI Brings a Visual Assistant to Glasses and Earphones\nURL: https://www.neweyesai.com/store\nImage URL: https://www.neweyesai.com/aiglasses/sight-clear.png\nSummary: Collov Labs introduced NewEyes AI, a personal assistant it says can interpret users’ surroundings through cameras, respond through earphones, and remember context between interactions. The company’s Sight glasses and open-ear Halo earphones are available for preorder and work with its mobile app.",
+          "sha256": "e4d041f02600ba9f887aa3824b755a1f953299380c4e6a4a8db4b35127a367c3",
+          "source": "Collov Labs",
+          "request_id": "64369590591ac8d4b905bd34b31d97cd8a19cc6d21d6989c0ec3bb3c6b177363",
+          "mode": "standard"
         }
       ]
     }
@@ -2908,13 +2921,21 @@
       ]
     },
     "64369590591ac8d4b905bd34b31d97cd8a19cc6d21d6989c0ec3bb3c6b177363": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-13T15:42:57.159118+00:00",
       "received_sequence": 90,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-13T15:47:24.110192+00:00",
+      "records": [
+        {
+          "id": 99,
+          "revision": 1,
+          "sha256": "e4d041f02600ba9f887aa3824b755a1f953299380c4e6a4a8db4b35127a367c3"
+        }
+      ]
     }
   },
   "batches": {
@@ -12519,6 +12540,21 @@
       "result": {
         "status": "received",
         "request_id": "64369590591ac8d4b905bd34b31d97cd8a19cc6d21d6989c0ec3bb3c6b177363"
+      }
+    },
+    "f5362cdf329ad84af120808cf614c46b1c035211a096531a2168c6413e402de4": {
+      "sha256": "c4c3a18fb5e3c5c8c2c33f5614c46d497d4c6437809f6998ebabc9104e3f216a",
+      "result": {
+        "status": "finalized",
+        "request_id": "64369590591ac8d4b905bd34b31d97cd8a19cc6d21d6989c0ec3bb3c6b177363",
+        "records": [
+          {
+            "id": 99,
+            "revision": 1,
+            "sha256": "e4d041f02600ba9f887aa3824b755a1f953299380c4e6a4a8db4b35127a367c3"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
