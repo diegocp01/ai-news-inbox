@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 289,
-  "updated_at": "2026-10-13T11:58:52.361648+00:00",
+  "generation": 290,
+  "updated_at": "2026-10-13T11:59:49.271101+00:00",
   "next_id": 99,
   "records": [
     {
@@ -12096,6 +12096,18 @@
         },
         "editorial_sha256": "2862536d4ad8fb5c4cbb431bbd05fd9b279e28f031355a0f0c754502facb2868"
       }
+    },
+    "c862b9b88ae2ea0915fb1d94ced6d7b720b7420de54e107c46ea1dc77dc5a6d0": {
+      "sha256": "193f7fe527755702a57927d97f1b72ca57460b572fd7f3b2c53c22fbdb3728d8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 97,
+          "revision": 1,
+          "sha256": "fa13f2a9354780d88d6b33461d3034754d4bc2dd7437d5d9fd8c361ba07e0421"
+        },
+        "editorial_sha256": "ff9a3d756861dee5b9e1ae4c8e1f646975faeae0c5996f4975e302d876a7cc0c"
+      }
     }
   },
   "migration": {
@@ -15434,6 +15446,26 @@
         "sha256": "2862536d4ad8fb5c4cbb431bbd05fd9b279e28f031355a0f0c754502facb2868",
         "reviewed_at": "2026-10-13T11:58:52.361648+00:00",
         "operation_id": "15e93376f05f7007b64b95c559cb0681a9c29cd7be9c13476c7e813fe790e73b"
+      }
+    ],
+    "97:1": [
+      {
+        "reference": {
+          "id": 97,
+          "revision": 1,
+          "sha256": "fa13f2a9354780d88d6b33461d3034754d4bc2dd7437d5d9fd8c361ba07e0421"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General commentary about uneven public access to AI and public understanding; coding and math references are incidental, based on finalized intake evidence.",
+            "evidence_sha256": "08aec26358eb0ee9f84f39704e57e134edb0fb8c5e20fe271bee9f047e36531d"
+          }
+        },
+        "sha256": "ff9a3d756861dee5b9e1ae4c8e1f646975faeae0c5996f4975e302d876a7cc0c",
+        "reviewed_at": "2026-10-13T11:59:49.271101+00:00",
+        "operation_id": "c862b9b88ae2ea0915fb1d94ced6d7b720b7420de54e107c46ea1dc77dc5a6d0"
       }
     ]
   }
