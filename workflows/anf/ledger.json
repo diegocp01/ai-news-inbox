@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 308,
-  "updated_at": "2026-10-13T19:07:17.577856+00:00",
-  "next_id": 103,
+  "generation": 309,
+  "updated_at": "2026-10-13T19:13:25.863818+00:00",
+  "next_id": 104,
   "records": [
     {
       "id": 1,
@@ -1369,6 +1369,19 @@
           "sha256": "83c7101757366b7d7b4821309e7f19876291427cecd05a65068e77879a46e557",
           "source": "LangChain",
           "request_id": "9077552dc730878c267561a9fcfd25d920d55406bbb2543c2a1a5f510ff3f61c",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "revisions": [
+        {
+          "created_at": "2026-10-13T19:13:25.863818+00:00",
+          "block": "Title: Grok Bot Adds Email, In-Chat Apps and Public X Search\nURL:\nImage URL: https://uzgqbjufkfadoprvamcs.supabase.co/storage/v1/object/public/daily-img/grok-bot-email/grok-bot-inbox.jpg\nSummary: Eric Zakariasson says Grok Bot 0.70.2 adds an email address shared across each account’s bots, approval-required email drafts, interactive Figma, Notion and Canva cards, and public X searches without a connected account. The update also suggests bot templates, exports shared pages as PDFs and checks existing user approval before irreversible actions.",
+          "sha256": "0b891d2cfb699e9130b5c1bd7c822d3000784bb3620f5e2e075ac064976ee71f",
+          "source": "Grok Bot",
+          "request_id": "bbf1e78e008b432a1430cc047ca3fc3ef85662e5518b9cb4bf09d78f4215eb04",
           "mode": "standard"
         }
       ]
@@ -3028,13 +3041,21 @@
       ]
     },
     "bbf1e78e008b432a1430cc047ca3fc3ef85662e5518b9cb4bf09d78f4215eb04": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-13T19:07:17.577856+00:00",
       "received_sequence": 94,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-13T19:13:25.863818+00:00",
+      "records": [
+        {
+          "id": 103,
+          "revision": 1,
+          "sha256": "0b891d2cfb699e9130b5c1bd7c822d3000784bb3620f5e2e075ac064976ee71f"
+        }
+      ]
     }
   },
   "batches": {
@@ -12775,6 +12796,21 @@
       "result": {
         "status": "received",
         "request_id": "bbf1e78e008b432a1430cc047ca3fc3ef85662e5518b9cb4bf09d78f4215eb04"
+      }
+    },
+    "7bf9fb33401428a0e0ab18bb90e845c9e7a441e2cd2dcd9fb92a101c13cea762": {
+      "sha256": "58baf417313cfbb28c803a24ef93d58be262b9fb891bcdee4ae1862ff3debe65",
+      "result": {
+        "status": "finalized",
+        "request_id": "bbf1e78e008b432a1430cc047ca3fc3ef85662e5518b9cb4bf09d78f4215eb04",
+        "records": [
+          {
+            "id": 103,
+            "revision": 1,
+            "sha256": "0b891d2cfb699e9130b5c1bd7c822d3000784bb3620f5e2e075ac064976ee71f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
