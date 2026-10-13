@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 311,
-  "updated_at": "2026-10-13T19:16:24.615090+00:00",
-  "next_id": 104,
+  "generation": 312,
+  "updated_at": "2026-10-13T19:19:20.218712+00:00",
+  "next_id": 105,
   "records": [
     {
       "id": 1,
@@ -1382,6 +1382,19 @@
           "sha256": "0b891d2cfb699e9130b5c1bd7c822d3000784bb3620f5e2e075ac064976ee71f",
           "source": "Grok Bot",
           "request_id": "bbf1e78e008b432a1430cc047ca3fc3ef85662e5518b9cb4bf09d78f4215eb04",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "revisions": [
+        {
+          "created_at": "2026-10-13T19:19:20.218712+00:00",
+          "block": "Title: Grok Bot and Cursor Update Supabase Backends From Chat\nURL: https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot\nImage URL: https://supabase.com/images/blog/2026-10-13-ship-changes-to-your-supabase-backend-with-grok-bot/og.png\nSummary: Supabase now connects Grok Bot to Cursor so teams can request backend changes in chat. Cursor writes and runs the code through Supabase’s MCP server, with tools to query databases, inspect schemas, read logs and deploy Edge Functions. Supabase is also joining the SpaceXAI Partner Network.",
+          "sha256": "0f304972f2534a4dec8848860fd2c1db1920c336801ac17f389f343fa35a4d92",
+          "source": "Supabase",
+          "request_id": "9f66e77f79c4cf2f303b6eddc2600b5397c5c987950fe5cb92f65dbae98cecb7",
           "mode": "standard"
         }
       ]
@@ -3058,13 +3071,21 @@
       ]
     },
     "9f66e77f79c4cf2f303b6eddc2600b5397c5c987950fe5cb92f65dbae98cecb7": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-13T19:16:24.615090+00:00",
       "received_sequence": 95,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-13T19:19:20.218712+00:00",
+      "records": [
+        {
+          "id": 104,
+          "revision": 1,
+          "sha256": "0f304972f2534a4dec8848860fd2c1db1920c336801ac17f389f343fa35a4d92"
+        }
+      ]
     }
   },
   "batches": {
@@ -12839,6 +12860,21 @@
       "result": {
         "status": "received",
         "request_id": "9f66e77f79c4cf2f303b6eddc2600b5397c5c987950fe5cb92f65dbae98cecb7"
+      }
+    },
+    "c83b340da8a8c44eed13017c198a63e37827ba3034f70794d1377284b35aa140": {
+      "sha256": "5b70aaac89d13ef2a121cf144b5d50b81175be712a4115c78e81d060bdfb87f3",
+      "result": {
+        "status": "finalized",
+        "request_id": "9f66e77f79c4cf2f303b6eddc2600b5397c5c987950fe5cb92f65dbae98cecb7",
+        "records": [
+          {
+            "id": 104,
+            "revision": 1,
+            "sha256": "0f304972f2534a4dec8848860fd2c1db1920c336801ac17f389f343fa35a4d92"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
