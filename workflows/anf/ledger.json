@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 309,
-  "updated_at": "2026-10-13T19:13:25.863818+00:00",
+  "generation": 310,
+  "updated_at": "2026-10-13T19:14:36.208272+00:00",
   "next_id": 104,
   "records": [
     {
@@ -12812,6 +12812,18 @@
         ],
         "duplicates": []
       }
+    },
+    "40d3d84743d11cf1a12cab5527eac151d08eff34486cb1f6fb7b2b8513a2921b": {
+      "sha256": "deb5521124837af5a0355035d47dfc9ad1e20231265de2a3838429c82418bcea",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 103,
+          "revision": 1,
+          "sha256": "0b891d2cfb699e9130b5c1bd7c822d3000784bb3620f5e2e075ac064976ee71f"
+        },
+        "editorial_sha256": "8f496f71d500c38d342dc148acb99b65d58137351cde9c0b2a146004c05b78b9"
+      }
     }
   },
   "migration": {
@@ -16398,6 +16410,54 @@
         "sha256": "8d76a0d7b9e907df4eb09be5f57f93b8587938072627651a9637589fe603c539",
         "reviewed_at": "2026-10-13T19:03:10.630097+00:00",
         "operation_id": "9a81ecffe952557765ac0833bf57aa6bbd55bf132e2167293f80ecafe068e127"
+      }
+    ],
+    "103:1": [
+      {
+        "reference": {
+          "id": 103,
+          "revision": 1,
+          "sha256": "0b891d2cfb699e9130b5c1bd7c822d3000784bb3620f5e2e075ac064976ee71f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General-purpose personal assistant productivity update for everyday users; email, app cards, social search and document export, not an API, coding tool or research result.",
+            "evidence_sha256": "ad0781938d2c9140065c30e6832587c1b6a396ce6132eb7c4f85886716620a5a"
+          },
+          "quality": {
+            "article": {
+              "url": "",
+              "status": "blank_no_compliant_source",
+              "checked_at": "2026-10-13T19:11:19.605091+00:00",
+              "evidence_sha256": "ad0781938d2c9140065c30e6832587c1b6a396ce6132eb7c4f85886716620a5a"
+            },
+            "image": {
+              "url": "https://uzgqbjufkfadoprvamcs.supabase.co/storage/v1/object/public/daily-img/grok-bot-email/grok-bot-inbox.jpg",
+              "final_url": "https://uzgqbjufkfadoprvamcs.supabase.co/storage/v1/object/public/daily-img/grok-bot-email/grok-bot-inbox.jpg",
+              "redirect_chain": [
+                "https://uzgqbjufkfadoprvamcs.supabase.co/storage/v1/object/public/daily-img/grok-bot-email/grok-bot-inbox.jpg"
+              ],
+              "checked_at": "2026-10-13T19:12:32.520025+00:00",
+              "content_type": "image/jpeg",
+              "width": 2000,
+              "height": 1154,
+              "image_bytes_sha256": "e31aa9822d2ecc18266e5ee3acc5edfa124a0cdd7a93d75c0da429e2e46ab8d9",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "9edd45dd7b5b802f8a5919dbd9e9caf8d4bc1dba7469b6a0764e456beb9a9051",
+              "pixels_inspected": true,
+              "relevance": "topic_specific",
+              "relevance_note": "Clean product art of the newly available mail.grokbot.com agent-email feature included in the Grok Bot 0.70.2 release roundup; does not depict every release feature.",
+              "story_specific_available": false,
+              "fallback_reason": "No compliant image specific to the full 0.70.2 release was located after checking the exact X announcement, official changelog, official product page, official Cursor agent-email documentation, and same-feature third-party reports. The exact release poster is hosted on policy-excluded pbs.twimg.com, while the official changelog has no inline image and its OG/product artwork uses policy-excluded x.ai hosts. This verified email-feature image illustrates a principal feature included in the roundup and is more informative than generic Grok Bot logos."
+            }
+          }
+        },
+        "sha256": "8f496f71d500c38d342dc148acb99b65d58137351cde9c0b2a146004c05b78b9",
+        "reviewed_at": "2026-10-13T19:14:36.208272+00:00",
+        "operation_id": "40d3d84743d11cf1a12cab5527eac151d08eff34486cb1f6fb7b2b8513a2921b"
       }
     ]
   }
