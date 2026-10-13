@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 312,
-  "updated_at": "2026-10-13T19:19:20.218712+00:00",
+  "generation": 313,
+  "updated_at": "2026-10-13T19:19:58.089217+00:00",
   "next_id": 105,
   "records": [
     {
@@ -12876,6 +12876,18 @@
         ],
         "duplicates": []
       }
+    },
+    "dd4a84658d916ed0196ebd78f2309c10d6c319bd46eeea06e6484913f809e9a1": {
+      "sha256": "4151cd92685998a47696bd633b0dc844b78e341b7521311a399f6babf21cf252",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 104,
+          "revision": 1,
+          "sha256": "0f304972f2534a4dec8848860fd2c1db1920c336801ac17f389f343fa35a4d92"
+        },
+        "editorial_sha256": "6fa8f75b290ea0f56f13e1d592150241796de1f4f84819f352c77d98a450d770"
+      }
     }
   },
   "migration": {
@@ -16510,6 +16522,62 @@
         "sha256": "8f496f71d500c38d342dc148acb99b65d58137351cde9c0b2a146004c05b78b9",
         "reviewed_at": "2026-10-13T19:14:36.208272+00:00",
         "operation_id": "40d3d84743d11cf1a12cab5527eac151d08eff34486cb1f6fb7b2b8513a2921b"
+      }
+    ],
+    "104:1": [
+      {
+        "reference": {
+          "id": 104,
+          "revision": 1,
+          "sha256": "0f304972f2534a4dec8848860fd2c1db1920c336801ac17f389f343fa35a4d92"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The announcement describes an AI coding workflow in which Cursor executes backend changes, queries schemas and databases, reads logs, and deploys Supabase Edge Functions via MCP.",
+            "evidence_sha256": "030491f8e18a078cd71c4f02ffb6616f133faa63055f9548fa848a5e9d85a641"
+          },
+          "quality": {
+            "article": {
+              "url": "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot",
+              "final_url": "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot",
+              "redirect_chain": [
+                "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot"
+              ],
+              "status_code": 200,
+              "content_type": "text/html; charset=utf-8",
+              "body_sha256": "5dba9e9ae481e5bcf6d1900844a3fb893b18c61eb97e90581b52b24f283374d1",
+              "checked_at": "2026-10-13T19:18:43.393152+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "de5124dd94181c39022f063a4351604606a110cadccfedf3bed42f7392d731ae"
+            },
+            "image": {
+              "url": "https://supabase.com/images/blog/2026-10-13-ship-changes-to-your-supabase-backend-with-grok-bot/og.png",
+              "final_url": "https://supabase.com/images/blog/2026-10-13-ship-changes-to-your-supabase-backend-with-grok-bot/og.png",
+              "redirect_chain": [
+                "https://supabase.com/images/blog/2026-10-13-ship-changes-to-your-supabase-backend-with-grok-bot/og.png"
+              ],
+              "status_code": 200,
+              "content_type": "image/png",
+              "width": 2400,
+              "height": 1260,
+              "image_bytes_sha256": "e2ef1279285e367eae94a1b13c36edfe1bde9a534c8ce13f47eb46653d98cc80",
+              "checked_at": "2026-10-13T19:18:13.086070+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "The official announcement graphic clearly reads Supabase is now available in Grok Bot, with the Supabase mark and Grok Bot icon. It is sharp and legible at 2400 by 1260 pixels.",
+              "evidence_sha256": "73c0e004436e0be9bd8af249d73e64bc6ee07f7f668338738959abb784324350"
+            }
+          }
+        },
+        "sha256": "6fa8f75b290ea0f56f13e1d592150241796de1f4f84819f352c77d98a450d770",
+        "reviewed_at": "2026-10-13T19:19:58.089217+00:00",
+        "operation_id": "dd4a84658d916ed0196ebd78f2309c10d6c319bd46eeea06e6484913f809e9a1"
       }
     ]
   }
