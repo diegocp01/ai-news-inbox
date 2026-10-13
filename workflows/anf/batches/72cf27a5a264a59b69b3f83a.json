@@ -1,0 +1,60 @@
+[
+  {
+    "title": "New AI Model: Meta Releases Muse Wonder and Muse Wonder Full",
+    "description": "Meta released Muse Wonder and Muse Wonder Full for personal and professional tasks, with memory across conversations and support for longer jobs. Wonder is available through Meta’s API and Muse Code; Full is available to Muse Code subscribers. Wonder will reach the Muse app later, starting with subscribers.",
+    "image_url": "https://about.fb.com/wp-content/uploads/2026/10/museWonder_socialShare.jpg?w=1200",
+    "learn_more_url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+    "date": "2026-10-13",
+    "source": "Meta"
+  },
+  {
+    "title": "Google’s AlphaProof Nexus Solves Two Math Problems Open for 56 Years",
+    "description": "Google DeepMind researchers report that AlphaProof Nexus solved nine of 353 open Erdős problems, including two unanswered for 56 years, and proved 44 of 492 number-sequence conjectures. Software checked the proofs, while human experts verified that they addressed the original questions. The study is now published in Science; most attempted problems remain unsolved.",
+    "image_url": "https://arxiv.org/html/2605.22763v1/system_design_centered.png",
+    "learn_more_url": "https://www.thedailystar.net/news/technology/news/ai-can-now-solve-complex-mathematical-research-problems-scientists-say-4296911",
+    "date": "2026-10-13",
+    "source": "The Daily Star",
+    "ds": true
+  },
+  {
+    "title": "Grok, Cursor and X Premium Join One Subscription",
+    "description": "The X Subscription combines Grok, Grok Bot, Cursor and X Premium, with paid plans starting at $8 monthly. Grok usage is shared across products and refreshes weekly. Existing subscribers can keep their plans or switch as availability rolls out. Third-party models in Cursor cost extra on the new plans.",
+    "image_url": "https://us1.discourse-cdn.com/cursor1/original/3X/e/0/e049914b8d5226c3d31a3252bd716454c0aa35b4.jpeg",
+    "learn_more_url": "https://forum.cursor.com/t/introducing-the-x-subscription/174450",
+    "date": "2026-10-13",
+    "source": "SpaceXSI / Cursor"
+  },
+  {
+    "title": "AI Could Soon Copy Itself Across Everyday Devices",
+    "description": "Anthropic's experiments suggest small AI models could soon spread across connected devices. Researchers ran a model across 15 TV boxes and tested replication in a controlled network with simplified security. Small models still struggled to complete the full process; stronger models relied on separate servers, so the study does not demonstrate a self-sustaining rogue AI.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+    "learn_more_url": "https://www.anthropic.com/research/self-replicating-ai",
+    "date": "2026-10-13",
+    "source": "Anthropic",
+    "ds": true
+  },
+  {
+    "title": "Meta Releases Muse Wonder AI Models",
+    "description": "Meta released Muse Wonder and Muse Wonder Full, two AI models designed for assistants that carry out tasks for users. Wonder is available through the Meta Model API and Muse Code, while Full is available to Muse Code subscribers. Meta says Wonder will also reach the Muse app, starting with subscribers.",
+    "image_url": "https://about.fb.com/wp-content/uploads/2026/10/museWonder_socialShare.jpg?w=1200",
+    "learn_more_url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+    "date": "2026-10-13",
+    "source": "about.fb.com"
+  },
+  {
+    "title": "Andrej Karpathy Describes a Widening Gap in AI Understanding",
+    "description": "Andrej Karpathy says differences in AI access and use are widening the gap in how people understand its capabilities. His rough estimates range from about 6 billion people with little exposure to language models to roughly 5,000 with internal access to advanced systems. He links the gap to task size, access tiers, and capabilities concentrated in coding and math.",
+    "image_url": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202610/6acc737537634-ai-124316234-16x9.jpg?size=948%3A533",
+    "learn_more_url": "https://www.businesstoday.in/technology/artificial-intelligence/story/only-5000-people-have-access-to-ai-agents-that-can-tackle-years-of-work-in-weeks-says-ai-researcher-andrej-karpathy-560943-2026-10-12",
+    "date": "2026-10-13",
+    "source": "businesstoday.in"
+  },
+  {
+    "title": "Microsoft Announces Maia 300 Deployments for 2027",
+    "description": "Microsoft announced Maia 300, its next AI chip, with production deployments planned for 2027. The company expects 40% more tokens per megawatt than leading GPU systems. Microsoft also plans to make Maia its primary system for running AI across its products and services, and says Maia 200 already serves production workloads including Microsoft Copilot.",
+    "image_url": "https://msftstories.thesourcemediaassets.com/sites/760/2026/10/Maia-300-prototype-chip-00_hero.png",
+    "learn_more_url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+    "date": "2026-10-13",
+    "source": "blogs.microsoft.com"
+  }
+]

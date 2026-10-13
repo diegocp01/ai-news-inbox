@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 291,
-  "updated_at": "2026-10-13T12:00:20.749582+00:00",
+  "generation": 292,
+  "updated_at": "2026-10-13T12:01:01.042453+00:00",
   "next_id": 99,
   "records": [
     {
@@ -5888,9 +5888,158 @@
       },
       "acknowledged_at": "2026-10-12T14:53:34.890875+00:00",
       "checkpoint_after": 91
+    },
+    "72cf27a5a264a59b69b3f83a": {
+      "batch_id": "72cf27a5a264a59b69b3f83a",
+      "status": "prepared",
+      "checkpoint_before": 91,
+      "prepared_at": "2026-10-13T12:01:01.042453+00:00",
+      "intake_cutoff": 89,
+      "records": [
+        {
+          "id": 92,
+          "revision": 1,
+          "sha256": "3af36a88874b60cedf4157461017fa40f45d0264e2ea20cc89e28adc3d93e274"
+        },
+        {
+          "id": 93,
+          "revision": 1,
+          "sha256": "1b2145695f68dabb82403caba154a85b6f6b2611374641dc57223059c89d5551"
+        },
+        {
+          "id": 94,
+          "revision": 1,
+          "sha256": "728d1deb19495e6b4a0e28684615551493f2e472d204c8fa49b6b7ea874a69f0"
+        },
+        {
+          "id": 95,
+          "revision": 1,
+          "sha256": "54c3c8a807d3697ad784df2fbaa12326a5c3e1b391d3c56bc7ed1b32a6fe47e1"
+        },
+        {
+          "id": 96,
+          "revision": 1,
+          "sha256": "3f210a8a3c7ba8c2e1a7efec5f4b81b6bff6359296a80953fd0389b2477c9d97"
+        },
+        {
+          "id": 97,
+          "revision": 1,
+          "sha256": "fa13f2a9354780d88d6b33461d3034754d4bc2dd7437d5d9fd8c361ba07e0421"
+        },
+        {
+          "id": 98,
+          "revision": 1,
+          "sha256": "1b0486f1c8bfbb99d2ff4934055d19e95be5c2ca865a8f5b7d78a49af6aa3387"
+        }
+      ],
+      "first_id": 92,
+      "last_id": 98,
+      "count": 7,
+      "txt_path": "workflows/anf/batches/72cf27a5a264a59b69b3f83a.txt",
+      "json_path": "workflows/anf/batches/72cf27a5a264a59b69b3f83a.json",
+      "txt_sha256": "e8ba7997fb84caa3065f4e373fed4216a2736a54e835e91ef0416633f94eba8e",
+      "json_sha256": "d17711dad82b55be86378e22a3158d07bd7e2139e7756baa4a2e874475a3e19f",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General model-release news about personal and professional AI tasks. Initial API and coding-product availability is incidental to the broader model launch, under the user’s October 12 audience instruction.",
+            "evidence_sha256": "ba65d29484e28483bab5678c5929e4d57a2146387d2540ba5526d09f3e12466c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The core subject is a research paper evaluating a specialized formal-proof system and its research results, rather than a public consumer model launch.",
+            "evidence_sha256": "bfe11703111c996d9d3c14d0d0d29e664fcc938c48b63439903430c274069c5d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General subscription bundle for broad Grok/Bot/X users; coding/API billing incidental under user October12 guidance",
+            "evidence_sha256": "9bf05295453d887b353b3642856a4c8fcae4dea4d9f1c7b5da04db6c59cbff29"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Original technical research on inference setup, controlled replication evaluation, hardware limits, model comparisons, and appendix-level methods; not broad safety reporting.",
+            "evidence_sha256": "f8110934ff383ebfaa8730b72b5212681908c34ec39feabcadb3c97c0ee4f06d"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/research/self-replicating-ai",
+              "final_url": "https://www.anthropic.com/research/self-replicating-ai",
+              "redirect_chain": [
+                "https://www.anthropic.com/research/self-replicating-ai"
+              ],
+              "checked_at": "2026-10-13T02:06:21+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "f8110934ff383ebfaa8730b72b5212681908c34ec39feabcadb3c97c0ee4f06d"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png"
+              ],
+              "checked_at": "2026-10-13T02:07:17.998925+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "19403bc43d7e09be93fb4951ab0ac9fb10dbc069ae704d14836a0f4668e9bef3",
+              "content_type": "image/png",
+              "width": 2360,
+              "height": 860,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "ebf6f97d14ee9049d307dad4d3818f3ccd84e8067c8aae3a50ee7536d0a250a6",
+              "relevance": "story_specific",
+              "relevance_note": "Legible official four-stage colored replication diagram, with inference setup highlighted as the study focus and cyber exploit stages marked not the focus. Selected over the same-page faded-stage variant after inspecting both."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Broad public AI model launch; API and coding-product access are incidental to the core release announcement, based on finalized intake evidence.",
+            "evidence_sha256": "b93756be3730b21ecc516927ef607be78e2082f38ebed8e7b8aa8a6ebc2f4e86"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General commentary about uneven public access to AI and public understanding; coding and math references are incidental, based on finalized intake evidence.",
+            "evidence_sha256": "08aec26358eb0ee9f84f39704e57e134edb0fb8c5e20fe271bee9f047e36531d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Broad AI industry announcement about chip rollout and Microsoft infrastructure investment, not coding guidance or a technical research paper; the performance metric is incidental, based on finalized intake evidence.",
+            "evidence_sha256": "523bcc6d985592bf0abd07474b62b90159e4f93e466d0c5efa1a0b2d768cd789"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-13T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "72cf27a5a264a59b69b3f83a",
   "replacement_batch": null,
   "checkpoint": 91,
   "checkpoint_history": [
@@ -12119,6 +12268,162 @@
           "sha256": "1b0486f1c8bfbb99d2ff4934055d19e95be5c2ca865a8f5b7d78a49af6aa3387"
         },
         "editorial_sha256": "6b9cfa07f7659ea233bb9837251ccf7816459ec2ead3e2cf76a3e06d9f50b744"
+      }
+    },
+    "2645b8eaf46a4775a72f196b9f24809cb9c76531b19798193030ee811f3162b0": {
+      "sha256": "aa9f7dcc293e23ce92f4f32bf4e5f5b89c6f981e2f0631956a3e1582218bbcc3",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "72cf27a5a264a59b69b3f83a",
+          "status": "prepared",
+          "checkpoint_before": 91,
+          "prepared_at": "2026-10-13T12:01:01.042453+00:00",
+          "intake_cutoff": 89,
+          "records": [
+            {
+              "id": 92,
+              "revision": 1,
+              "sha256": "3af36a88874b60cedf4157461017fa40f45d0264e2ea20cc89e28adc3d93e274"
+            },
+            {
+              "id": 93,
+              "revision": 1,
+              "sha256": "1b2145695f68dabb82403caba154a85b6f6b2611374641dc57223059c89d5551"
+            },
+            {
+              "id": 94,
+              "revision": 1,
+              "sha256": "728d1deb19495e6b4a0e28684615551493f2e472d204c8fa49b6b7ea874a69f0"
+            },
+            {
+              "id": 95,
+              "revision": 1,
+              "sha256": "54c3c8a807d3697ad784df2fbaa12326a5c3e1b391d3c56bc7ed1b32a6fe47e1"
+            },
+            {
+              "id": 96,
+              "revision": 1,
+              "sha256": "3f210a8a3c7ba8c2e1a7efec5f4b81b6bff6359296a80953fd0389b2477c9d97"
+            },
+            {
+              "id": 97,
+              "revision": 1,
+              "sha256": "fa13f2a9354780d88d6b33461d3034754d4bc2dd7437d5d9fd8c361ba07e0421"
+            },
+            {
+              "id": 98,
+              "revision": 1,
+              "sha256": "1b0486f1c8bfbb99d2ff4934055d19e95be5c2ca865a8f5b7d78a49af6aa3387"
+            }
+          ],
+          "first_id": 92,
+          "last_id": 98,
+          "count": 7,
+          "txt_path": "workflows/anf/batches/72cf27a5a264a59b69b3f83a.txt",
+          "json_path": "workflows/anf/batches/72cf27a5a264a59b69b3f83a.json",
+          "txt_sha256": "e8ba7997fb84caa3065f4e373fed4216a2736a54e835e91ef0416633f94eba8e",
+          "json_sha256": "d17711dad82b55be86378e22a3158d07bd7e2139e7756baa4a2e874475a3e19f",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General model-release news about personal and professional AI tasks. Initial API and coding-product availability is incidental to the broader model launch, under the user’s October 12 audience instruction.",
+                "evidence_sha256": "ba65d29484e28483bab5678c5929e4d57a2146387d2540ba5526d09f3e12466c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The core subject is a research paper evaluating a specialized formal-proof system and its research results, rather than a public consumer model launch.",
+                "evidence_sha256": "bfe11703111c996d9d3c14d0d0d29e664fcc938c48b63439903430c274069c5d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General subscription bundle for broad Grok/Bot/X users; coding/API billing incidental under user October12 guidance",
+                "evidence_sha256": "9bf05295453d887b353b3642856a4c8fcae4dea4d9f1c7b5da04db6c59cbff29"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Original technical research on inference setup, controlled replication evaluation, hardware limits, model comparisons, and appendix-level methods; not broad safety reporting.",
+                "evidence_sha256": "f8110934ff383ebfaa8730b72b5212681908c34ec39feabcadb3c97c0ee4f06d"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.anthropic.com/research/self-replicating-ai",
+                  "final_url": "https://www.anthropic.com/research/self-replicating-ai",
+                  "redirect_chain": [
+                    "https://www.anthropic.com/research/self-replicating-ai"
+                  ],
+                  "checked_at": "2026-10-13T02:06:21+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "f8110934ff383ebfaa8730b72b5212681908c34ec39feabcadb3c97c0ee4f06d"
+                },
+                "image": {
+                  "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+                  "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+                  "redirect_chain": [
+                    "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png"
+                  ],
+                  "checked_at": "2026-10-13T02:07:17.998925+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "19403bc43d7e09be93fb4951ab0ac9fb10dbc069ae704d14836a0f4668e9bef3",
+                  "content_type": "image/png",
+                  "width": 2360,
+                  "height": 860,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "ebf6f97d14ee9049d307dad4d3818f3ccd84e8067c8aae3a50ee7536d0a250a6",
+                  "relevance": "story_specific",
+                  "relevance_note": "Legible official four-stage colored replication diagram, with inference setup highlighted as the study focus and cyber exploit stages marked not the focus. Selected over the same-page faded-stage variant after inspecting both."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Broad public AI model launch; API and coding-product access are incidental to the core release announcement, based on finalized intake evidence.",
+                "evidence_sha256": "b93756be3730b21ecc516927ef607be78e2082f38ebed8e7b8aa8a6ebc2f4e86"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General commentary about uneven public access to AI and public understanding; coding and math references are incidental, based on finalized intake evidence.",
+                "evidence_sha256": "08aec26358eb0ee9f84f39704e57e134edb0fb8c5e20fe271bee9f047e36531d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Broad AI industry announcement about chip rollout and Microsoft infrastructure investment, not coding guidance or a technical research paper; the performance metric is incidental, based on finalized intake evidence.",
+                "evidence_sha256": "523bcc6d985592bf0abd07474b62b90159e4f93e466d0c5efa1a0b2d768cd789"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-13T12:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
