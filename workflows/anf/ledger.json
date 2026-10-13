@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 290,
-  "updated_at": "2026-10-13T11:59:49.271101+00:00",
+  "generation": 291,
+  "updated_at": "2026-10-13T12:00:20.749582+00:00",
   "next_id": 99,
   "records": [
     {
@@ -12108,6 +12108,18 @@
         },
         "editorial_sha256": "ff9a3d756861dee5b9e1ae4c8e1f646975faeae0c5996f4975e302d876a7cc0c"
       }
+    },
+    "91e4cb6a99342bd02f4c890e85b32da5701fd6e7937feadbc10c59a720019052": {
+      "sha256": "f316bb5b46c6fada94a324a0cce764462e9f5ce4f388310193c0ef964da06f85",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 98,
+          "revision": 1,
+          "sha256": "1b0486f1c8bfbb99d2ff4934055d19e95be5c2ca865a8f5b7d78a49af6aa3387"
+        },
+        "editorial_sha256": "6b9cfa07f7659ea233bb9837251ccf7816459ec2ead3e2cf76a3e06d9f50b744"
+      }
     }
   },
   "migration": {
@@ -15466,6 +15478,26 @@
         "sha256": "ff9a3d756861dee5b9e1ae4c8e1f646975faeae0c5996f4975e302d876a7cc0c",
         "reviewed_at": "2026-10-13T11:59:49.271101+00:00",
         "operation_id": "c862b9b88ae2ea0915fb1d94ced6d7b720b7420de54e107c46ea1dc77dc5a6d0"
+      }
+    ],
+    "98:1": [
+      {
+        "reference": {
+          "id": 98,
+          "revision": 1,
+          "sha256": "1b0486f1c8bfbb99d2ff4934055d19e95be5c2ca865a8f5b7d78a49af6aa3387"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Broad AI industry announcement about chip rollout and Microsoft infrastructure investment, not coding guidance or a technical research paper; the performance metric is incidental, based on finalized intake evidence.",
+            "evidence_sha256": "523bcc6d985592bf0abd07474b62b90159e4f93e466d0c5efa1a0b2d768cd789"
+          }
+        },
+        "sha256": "6b9cfa07f7659ea233bb9837251ccf7816459ec2ead3e2cf76a3e06d9f50b744",
+        "reviewed_at": "2026-10-13T12:00:20.749582+00:00",
+        "operation_id": "91e4cb6a99342bd02f4c890e85b32da5701fd6e7937feadbc10c59a720019052"
       }
     ]
   }
