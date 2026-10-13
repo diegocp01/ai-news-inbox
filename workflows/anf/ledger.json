@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 284,
-  "updated_at": "2026-10-13T02:05:05.459513+00:00",
-  "next_id": 95,
+  "generation": 285,
+  "updated_at": "2026-10-13T02:08:34.153960+00:00",
+  "next_id": 96,
   "records": [
     {
       "id": 1,
@@ -1262,6 +1262,19 @@
           "sha256": "728d1deb19495e6b4a0e28684615551493f2e472d204c8fa49b6b7ea874a69f0",
           "source": "SpaceXSI / Cursor",
           "request_id": "4dbb22777970cecf420fb09bf34e1056c07625ed9685ffad962e613217512910",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "revisions": [
+        {
+          "created_at": "2026-10-13T02:08:34.153960+00:00",
+          "block": "Title: AI Could Soon Copy Itself Across Everyday Devices\nURL: https://www.anthropic.com/research/self-replicating-ai\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png\nSummary: Anthropic's experiments suggest small AI models could soon spread across connected devices. Researchers ran a model across 15 TV boxes and tested replication in a controlled network with simplified security. Small models still struggled to complete the full process; stronger models relied on separate servers, so the study does not demonstrate a self-sustaining rogue AI.",
+          "sha256": "54c3c8a807d3697ad784df2fbaa12326a5c3e1b391d3c56bc7ed1b32a6fe47e1",
+          "source": "Anthropic",
+          "request_id": "1dce3d44f355df8077ab7b2abba47df6408a3cc525e0516dd3a6f0e4daaec324",
           "mode": "standard"
         }
       ]
@@ -2808,13 +2821,21 @@
       ]
     },
     "1dce3d44f355df8077ab7b2abba47df6408a3cc525e0516dd3a6f0e4daaec324": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-13T02:05:05.459513+00:00",
       "received_sequence": 88,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-13T02:08:34.153960+00:00",
+      "records": [
+        {
+          "id": 95,
+          "revision": 1,
+          "sha256": "54c3c8a807d3697ad784df2fbaa12326a5c3e1b391d3c56bc7ed1b32a6fe47e1"
+        }
+      ]
     }
   },
   "batches": {
@@ -11933,6 +11954,21 @@
       "result": {
         "status": "received",
         "request_id": "1dce3d44f355df8077ab7b2abba47df6408a3cc525e0516dd3a6f0e4daaec324"
+      }
+    },
+    "4af331869b1272549105817f0988c32b6e202961baf866ebb89e3682ae6fadc6": {
+      "sha256": "3a2ae17ba6ae071eb0ce79824d8c11cbf628055c08287f388e396ab9941ab6ce",
+      "result": {
+        "status": "finalized",
+        "request_id": "1dce3d44f355df8077ab7b2abba47df6408a3cc525e0516dd3a6f0e4daaec324",
+        "records": [
+          {
+            "id": 95,
+            "revision": 1,
+            "sha256": "54c3c8a807d3697ad784df2fbaa12326a5c3e1b391d3c56bc7ed1b32a6fe47e1"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
