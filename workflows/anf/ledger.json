@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 297,
-  "updated_at": "2026-10-13T15:47:24.110192+00:00",
+  "generation": 298,
+  "updated_at": "2026-10-13T15:48:35.736908+00:00",
   "next_id": 100,
   "records": [
     {
@@ -12556,6 +12556,18 @@
         ],
         "duplicates": []
       }
+    },
+    "72d480f5676b7f27469b4cb8a2fc8304d3e998c00d34f5562b0220c58dcaa66a": {
+      "sha256": "c91a833f74532891efe076f506d384fb65ffbf9ce7706bd90d520b6b4460fd05",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 99,
+          "revision": 1,
+          "sha256": "e4d041f02600ba9f887aa3824b755a1f953299380c4e6a4a8db4b35127a367c3"
+        },
+        "editorial_sha256": "f6556c6ad741c438bba808c94679ebf030bf4e542d91a53082da5752f6ed6f8b"
+      }
     }
   },
   "migration": {
@@ -15934,6 +15946,58 @@
         "sha256": "6b9cfa07f7659ea233bb9837251ccf7816459ec2ead3e2cf76a3e06d9f50b744",
         "reviewed_at": "2026-10-13T12:00:20.749582+00:00",
         "operation_id": "91e4cb6a99342bd02f4c890e85b32da5701fd6e7937feadbc10c59a720019052"
+      }
+    ],
+    "99:1": [
+      {
+        "reference": {
+          "id": 99,
+          "revision": 1,
+          "sha256": "e4d041f02600ba9f887aa3824b755a1f953299380c4e6a4a8db4b35127a367c3"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer visual personal-assistant and wearable hardware announcement. Its primary audience is everyday users, not software developers; incidental architecture details do not change that.",
+            "evidence_sha256": "31c10bedabb8b165f3270ffa69b66f25ac1f57a94db3abfe93e61e9e8eca2182"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.neweyesai.com/store",
+              "final_url": "https://www.neweyesai.com/store",
+              "redirect_chain": [
+                "https://www.neweyesai.com/store"
+              ],
+              "checked_at": "2026-10-13T15:44:58+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "31c10bedabb8b165f3270ffa69b66f25ac1f57a94db3abfe93e61e9e8eca2182"
+            },
+            "image": {
+              "url": "https://www.neweyesai.com/aiglasses/sight-clear.png",
+              "final_url": "https://www.neweyesai.com/aiglasses/sight-clear.png",
+              "redirect_chain": [
+                "https://www.neweyesai.com/aiglasses/sight-clear.png"
+              ],
+              "checked_at": "2026-10-13T15:45:45+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "31c10bedabb8b165f3270ffa69b66f25ac1f57a94db3abfe93e61e9e8eca2182",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 576,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "aabaf39e89f52665550592927996e2d653dbc6f65573bedb462b86dbe2dcc363",
+              "relevance": "story_specific",
+              "relevance_note": "Official NewEyes Sight product render showing black camera-equipped glasses with clear lenses. Inspected pixels and selected this clear product visual over a darker wearer poster."
+            }
+          }
+        },
+        "sha256": "f6556c6ad741c438bba808c94679ebf030bf4e542d91a53082da5752f6ed6f8b",
+        "reviewed_at": "2026-10-13T15:48:35.736908+00:00",
+        "operation_id": "72d480f5676b7f27469b4cb8a2fc8304d3e998c00d34f5562b0220c58dcaa66a"
       }
     ]
   }
