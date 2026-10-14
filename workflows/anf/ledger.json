@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 341,
-  "updated_at": "2026-10-14T12:19:36.566421+00:00",
+  "generation": 342,
+  "updated_at": "2026-10-14T12:20:06.681475+00:00",
   "next_id": 116,
   "records": [
     {
@@ -13526,6 +13526,18 @@
         },
         "editorial_sha256": "420673994f14548342438397fa4cb3d3840c1d34da2b94efb6a5834f09921233"
       }
+    },
+    "a295712d018eada7894df73ae9751cbec738b04d53c8d3d1c2630645efefe4a8": {
+      "sha256": "d2aad3096e4da61472bea25b4fb0a3e0c8a8ffab88a2901632481f0adaa8c2ab",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 115,
+          "revision": 1,
+          "sha256": "5068319df0c83d5d86fcbcd381599ef0e75408dd41305619a51dfe3890c60e89"
+        },
+        "editorial_sha256": "9fee4d4b9140f60eccdf6f4c50ac73cd746d9826e0c7c86b12f090f5abc185e1"
+      }
     }
   },
   "migration": {
@@ -17666,6 +17678,26 @@
         "sha256": "420673994f14548342438397fa4cb3d3840c1d34da2b94efb6a5834f09921233",
         "reviewed_at": "2026-10-14T12:19:36.566421+00:00",
         "operation_id": "943a9fe0ed866578d301bfe48c7962b1ff74664b0facece4865401b4159b5ca8"
+      }
+    ],
+    "115:1": [
+      {
+        "reference": {
+          "id": 115,
+          "revision": 1,
+          "sha256": "5068319df0c83d5d86fcbcd381599ef0e75408dd41305619a51dfe3890c60e89"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General business news about bankruptcy, licensing and a potential asset sale affecting a consumer AI platform.",
+            "evidence_sha256": "5068319df0c83d5d86fcbcd381599ef0e75408dd41305619a51dfe3890c60e89"
+          }
+        },
+        "sha256": "9fee4d4b9140f60eccdf6f4c50ac73cd746d9826e0c7c86b12f090f5abc185e1",
+        "reviewed_at": "2026-10-14T12:20:06.681475+00:00",
+        "operation_id": "a295712d018eada7894df73ae9751cbec738b04d53c8d3d1c2630645efefe4a8"
       }
     ]
   }
