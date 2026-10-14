@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 323,
-  "updated_at": "2026-10-14T02:49:48.434167+00:00",
-  "next_id": 106,
+  "generation": 324,
+  "updated_at": "2026-10-14T02:53:13.473585+00:00",
+  "next_id": 107,
   "records": [
     {
       "id": 1,
@@ -1408,6 +1408,19 @@
           "sha256": "48946966b62f6e9043d3c2378b1796e23420456c750b46764fd48dd461053633",
           "source": "The San Francisco Standard",
           "request_id": "de72716d41cf3ca6e3edbfb4797b6b5de743db9c8ace7dd3752b42e774ac9375",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T02:53:13.473585+00:00",
+          "block": "Title: AI Helps Find Files on Your Mac by Their Contents\nURL: https://github.com/ARahim3/DigUp\nImage URL: https://opengraph.githubassets.com/184b047dc1beae6005c65fa0a3bf569595032d7f119538dd06aba55a483ad392/ARahim3/DigUp\nSummary: DigUp is a free, open-source Mac app that uses Google’s EmbeddingGemma 2 to find photos, documents, audio and video through natural-language searches. Its developer says indexing and searches stay on the device. Results can open at a matching page or timestamp. It requires Apple Silicon and macOS 14 or later.",
+          "sha256": "85845e4e2f1ab9a25d7b7fb9ef709751f4c0a2caa9c04894fa535a390beccded",
+          "source": "GitHub",
+          "request_id": "3b1fc27cb21257857dbd8f7fa833bed8a50741e1267e6a58dafbc8cefaa793b8",
           "mode": "standard"
         }
       ]
@@ -3118,13 +3131,21 @@
       ]
     },
     "3b1fc27cb21257857dbd8f7fa833bed8a50741e1267e6a58dafbc8cefaa793b8": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T02:39:14.005719+00:00",
       "received_sequence": 97,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-14T02:53:13.473585+00:00",
+      "records": [
+        {
+          "id": 106,
+          "revision": 1,
+          "sha256": "85845e4e2f1ab9a25d7b7fb9ef709751f4c0a2caa9c04894fa535a390beccded"
+        }
+      ]
     },
     "11163115af3f42a99f2236e96e09840c7bab05858841fe60dd8f08d83c1f88d7": {
       "status": "received",
@@ -13063,6 +13084,21 @@
       "result": {
         "status": "received",
         "request_id": "3056f8c1500337ae6088388427ce8f67810fe60abaad333d682d2f60a30194a0"
+      }
+    },
+    "c9f80d3defbc7b9d5b2b36f77d58a86e338dfdab135c31718e9ca4aa9896296d": {
+      "sha256": "a1b1f80c35c4b67ad0f20ddf43c864acd27ac3ef0edf1e9fcb54ed2e42524410",
+      "result": {
+        "status": "finalized",
+        "request_id": "3b1fc27cb21257857dbd8f7fa833bed8a50741e1267e6a58dafbc8cefaa793b8",
+        "records": [
+          {
+            "id": 106,
+            "revision": 1,
+            "sha256": "85845e4e2f1ab9a25d7b7fb9ef709751f4c0a2caa9c04894fa535a390beccded"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
