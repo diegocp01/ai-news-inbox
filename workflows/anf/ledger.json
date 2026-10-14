@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 315,
-  "updated_at": "2026-10-14T02:02:20.208293+00:00",
+  "generation": 316,
+  "updated_at": "2026-10-14T02:03:32.687146+00:00",
   "next_id": 106,
   "records": [
     {
@@ -12940,6 +12940,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b3e6d76a6ce18eef1032ea4e30fc8aadd146e687626a3d2888f374196f298e33": {
+      "sha256": "7d996543e58c234d04686d61b55b6bb5b75ff0a137e696109e8eb2077bedb58e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 105,
+          "revision": 1,
+          "sha256": "48946966b62f6e9043d3c2378b1796e23420456c750b46764fd48dd461053633"
+        },
+        "editorial_sha256": "aa3f060702002937b414b40ee7461a5c8125797bf041825d22492e4081b47b54"
+      }
     }
   },
   "migration": {
@@ -16630,6 +16642,58 @@
         "sha256": "6fa8f75b290ea0f56f13e1d592150241796de1f4f84819f352c77d98a450d770",
         "reviewed_at": "2026-10-13T19:19:58.089217+00:00",
         "operation_id": "dd4a84658d916ed0196ebd78f2309c10d6c319bd46eeea06e6484913f809e9a1"
+      }
+    ],
+    "105:1": [
+      {
+        "reference": {
+          "id": 105,
+          "revision": 1,
+          "sha256": "48946966b62f6e9043d3c2378b1796e23420456c750b46764fd48dd461053633"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General AI-company security news: a physical office recording-device investigation and a company claim that AI assisted forensic staff. It does not announce coding tools, APIs, token pricing or technical research.",
+            "evidence_sha256": "e770dabc44faf35bc5bdeeceae65d09242902169fec2f47a0cddc65a8a376900"
+          },
+          "quality": {
+            "article": {
+              "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+              "final_url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+              "redirect_chain": [
+                "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
+              ],
+              "checked_at": "2026-10-14T02:01:59.438825+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "b55254fcc3acd7703153f97a2ae18cdec8dbe7cfcd5fe2f926800d344ac93c0f"
+            },
+            "image": {
+              "url": "https://assets.sfstandard.com/image/994911177489/image_k101cto9v97or3q5niul74237r/-S1200x848-FPNG",
+              "final_url": "https://assets.sfstandard.com/image/994911177489/image_k101cto9v97or3q5niul74237r/-S1200x848-FPNG",
+              "redirect_chain": [
+                "https://assets.sfstandard.com/image/994911177489/image_k101cto9v97or3q5niul74237r/-S1200x848-FPNG"
+              ],
+              "checked_at": "2026-10-14T02:01:09.912421+00:00",
+              "content_type": "image/png",
+              "image_bytes_sha256": "d2811f372cd41921c76cc9313c79c8dad93a2b716e7d511004017817a5aeffb4",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "7cfe760a7b242b1ef94451d3ce7259dad7d636a66e8fd0ae60c3ab42894354ec",
+              "width": 1200,
+              "height": 848,
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Two clear documentary evidence photographs: the concealed device behind a television with a red circle, and a close-up of the board and antenna on a wood floor. Labels Figure 1 and Figure 2 (Recording Device 1) are legible. Same device as DOJ evidence. Selected from the actual SF Standard article srcset, not a guessed or manually upscaled URL."
+            }
+          }
+        },
+        "sha256": "aa3f060702002937b414b40ee7461a5c8125797bf041825d22492e4081b47b54",
+        "reviewed_at": "2026-10-14T02:03:32.687146+00:00",
+        "operation_id": "b3e6d76a6ce18eef1032ea4e30fc8aadd146e687626a3d2888f374196f298e33"
       }
     ]
   }
