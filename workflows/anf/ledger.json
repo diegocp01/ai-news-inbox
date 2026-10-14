@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 325,
-  "updated_at": "2026-10-14T02:53:31.289200+00:00",
-  "next_id": 107,
+  "generation": 326,
+  "updated_at": "2026-10-14T02:54:48.774977+00:00",
+  "next_id": 108,
   "records": [
     {
       "id": 1,
@@ -1421,6 +1421,19 @@
           "sha256": "85845e4e2f1ab9a25d7b7fb9ef709751f4c0a2caa9c04894fa535a390beccded",
           "source": "GitHub",
           "request_id": "3b1fc27cb21257857dbd8f7fa833bed8a50741e1267e6a58dafbc8cefaa793b8",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T02:54:48.774977+00:00",
+          "block": "Title: Anthropic Rebuilds Source Control for AI Coding\nURL: https://www.anthropic.com/engineering/redesigning-source-control\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/cba1eaaa67385fd00f210badaacd147de480120b-3840x1718.png\nSummary: Anthropic says it replaced Git internally with Scion after AI-assisted coding pushed daily code merges above 30,000. Built and adopted in five months, the system moves version-control operations to servers and fetches files on demand. The company describes the design for developers while cautioning that Scion is unsuitable as a general-purpose Git replacement.",
+          "sha256": "3c7aeb7dd529fe84012763ab8de6b273c34fdeb366549e9a922afdf06f5e5c26",
+          "source": "Anthropic",
+          "request_id": "11163115af3f42a99f2236e96e09840c7bab05858841fe60dd8f08d83c1f88d7",
           "mode": "standard"
         }
       ]
@@ -3148,13 +3161,21 @@
       ]
     },
     "11163115af3f42a99f2236e96e09840c7bab05858841fe60dd8f08d83c1f88d7": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T02:48:11.984520+00:00",
       "received_sequence": 98,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-14T02:54:48.774977+00:00",
+      "records": [
+        {
+          "id": 107,
+          "revision": 1,
+          "sha256": "3c7aeb7dd529fe84012763ab8de6b273c34fdeb366549e9a922afdf06f5e5c26"
+        }
+      ]
     },
     "6df4225815e4333249e00b7f3dfc584b4d427fa2deff10120cbdddde46fcbce4": {
       "status": "received",
@@ -13111,6 +13132,21 @@
           "sha256": "85845e4e2f1ab9a25d7b7fb9ef709751f4c0a2caa9c04894fa535a390beccded"
         },
         "editorial_sha256": "fcea228f69883933e045fac9afba62a34d19479689b51e9521fd1db75bda3f8b"
+      }
+    },
+    "86f5749de4abe41261921a1100e26571ac4472b87099fbe4dfb2c53d8a3b77a6": {
+      "sha256": "d4987c43474e5d49a6d7d1106d5ddfc4bd0a5e1d5713991689c1729bd704de67",
+      "result": {
+        "status": "finalized",
+        "request_id": "11163115af3f42a99f2236e96e09840c7bab05858841fe60dd8f08d83c1f88d7",
+        "records": [
+          {
+            "id": 107,
+            "revision": 1,
+            "sha256": "3c7aeb7dd529fe84012763ab8de6b273c34fdeb366549e9a922afdf06f5e5c26"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
