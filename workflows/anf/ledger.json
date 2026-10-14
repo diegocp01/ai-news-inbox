@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 351,
-  "updated_at": "2026-10-14T15:03:46.576245+00:00",
+  "generation": 352,
+  "updated_at": "2026-10-14T15:04:38.030140+00:00",
   "next_id": 118,
   "records": [
     {
@@ -15118,6 +15118,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d8f761d1726ace04ed5687ae1ca32e088606b8ead39bcc9a3add7f8dcaa5bdc8": {
+      "sha256": "a1ed844f81360cd98b1ad837fad9a2c68cc80e1ee2ea02f9b8eff69a668e9599",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 117,
+          "revision": 1,
+          "sha256": "f1ad211acbba0a250b69ac76a394f14ad43bbcd76606d8aaa3e56b7235950950"
+        },
+        "editorial_sha256": "180b44c82e43fa8056dfd1449914b7c8719163a558d5cc6f21fab04cc7922c4f"
+      }
     }
   },
   "migration": {
@@ -19326,6 +19338,60 @@
         "sha256": "74f70f0d6db1313d849bd17c2105e477f6159388214b4087a61f071eee0a05ab",
         "reviewed_at": "2026-10-14T14:15:03.605601+00:00",
         "operation_id": "929791bdea0f7888f7bf3e604727a78472730997e981775b749e8b4128b79320"
+      }
+    ],
+    "117:1": [
+      {
+        "reference": {
+          "id": 117,
+          "revision": 1,
+          "sha256": "f1ad211acbba0a250b69ac76a394f14ad43bbcd76606d8aaa3e56b7235950950"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer-facing AI video character replacement feature for creators; not technical implementation, API or research coverage.",
+            "evidence_sha256": "d7a776b16fa894b93eb5fb7120aa662a97cc3f8e4e6ee86ca5bc37dce16ff470"
+          },
+          "quality": {
+            "article": {
+              "url": "https://elevenlabs.io/app/templates/MBz9OuVgBFop3rfCFvHK",
+              "final_url": "https://elevenlabs.io/app/templates/MBz9OuVgBFop3rfCFvHK",
+              "redirect_chain": [
+                "https://elevenlabs.io/app/templates/MBz9OuVgBFop3rfCFvHK"
+              ],
+              "checked_at": "2026-10-14T15:04:38.030140+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "d7a776b16fa894b93eb5fb7120aa662a97cc3f8e4e6ee86ca5bc37dce16ff470"
+            },
+            "image": {
+              "url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/p7pnb1zj3z-Creative%20Platform%20OG.webp",
+              "final_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/p7pnb1zj3z-Creative%20Platform%20OG.webp",
+              "redirect_chain": [
+                "https://eleven-public-cdn.elevenlabs.io/payloadcms/p7pnb1zj3z-Creative%20Platform%20OG.webp"
+              ],
+              "checked_at": "2026-10-14T15:04:38.030140+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "d7a776b16fa894b93eb5fb7120aa662a97cc3f8e4e6ee86ca5bc37dce16ff470",
+              "content_type": "image/webp",
+              "width": 2400,
+              "height": 1260,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "b40f3af2d846ec9e4f160b949024161d28dfefdf34858b42a84c03c57732dfac",
+              "relevance": "topic_specific",
+              "relevance_note": "Official ElevenCreative platform visual, showing ElevenLabs branding and creative workspace interface.",
+              "story_specific_available": false,
+              "fallback_reason": "Exact Recast template image is only 400x225; its alternate preview is an expiring signed video. X story image is on a forbidden host. Used the inspected high-resolution official platform image."
+            }
+          }
+        },
+        "sha256": "180b44c82e43fa8056dfd1449914b7c8719163a558d5cc6f21fab04cc7922c4f",
+        "reviewed_at": "2026-10-14T15:04:38.030140+00:00",
+        "operation_id": "d8f761d1726ace04ed5687ae1ca32e088606b8ead39bcc9a3add7f8dcaa5bdc8"
       }
     ]
   }
