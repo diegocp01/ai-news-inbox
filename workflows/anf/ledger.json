@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 333,
-  "updated_at": "2026-10-14T02:57:28.572042+00:00",
-  "next_id": 111,
+  "generation": 334,
+  "updated_at": "2026-10-14T02:58:43.706351+00:00",
+  "next_id": 112,
   "records": [
     {
       "id": 1,
@@ -1473,6 +1473,19 @@
           "sha256": "ac917f55205333d4e062f7ed40397f6adb589b28e687897abb79723a74337b9b",
           "source": "CNBC",
           "request_id": "060245a8a694f2b67079cf5ab5bafb91152941ff0b3b531c27f26c1c3505f1b8",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T02:58:43.706351+00:00",
+          "block": "Title: Anthropic Warns AI Could Soon Spread Across Everyday Devices\nURL: https://www.anthropic.com/research/self-replicating-ai\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png\nSummary: Anthropic says small AI models may soon spread across connected devices. A 9-billion-parameter model set up inference on eight of nine hardware types; larger models completed simplified replication trials. Researchers predict smaller models could reach that capability by late 2026, but have not demonstrated a self-sustaining, real-world AI worm.",
+          "sha256": "53310ef93182ca80e328181249237ffa84e15a34a5bc3ec2dbedcf430df58c2f",
+          "source": "Anthropic",
+          "request_id": "cc5a9d8e7bcd407000cadfc6f2c09fec8f84279160adcd3376c9de24d59d8e7c",
           "mode": "standard"
         }
       ]
@@ -3268,13 +3281,21 @@
       ]
     },
     "cc5a9d8e7bcd407000cadfc6f2c09fec8f84279160adcd3376c9de24d59d8e7c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T02:49:32.108681+00:00",
       "received_sequence": 102,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-14T02:58:43.706351+00:00",
+      "records": [
+        {
+          "id": 111,
+          "revision": 1,
+          "sha256": "53310ef93182ca80e328181249237ffa84e15a34a5bc3ec2dbedcf430df58c2f"
+        }
+      ]
     },
     "3056f8c1500337ae6088388427ce8f67810fe60abaad333d682d2f60a30194a0": {
       "status": "received",
@@ -13303,6 +13324,21 @@
           "sha256": "ac917f55205333d4e062f7ed40397f6adb589b28e687897abb79723a74337b9b"
         },
         "editorial_sha256": "43981fcfa4e6e86eccaf6baf26d159f91106ed16545ee7c662cd109ab1d03a72"
+      }
+    },
+    "f0c3c5747652e6212c3e286c20817e5b2c00929e6e44bbdb7f1a73e7b8d8e3a2": {
+      "sha256": "aa3c000d6d400917f80912db3bad5d0c60f98897823587e6a0ede75714d52937",
+      "result": {
+        "status": "finalized",
+        "request_id": "cc5a9d8e7bcd407000cadfc6f2c09fec8f84279160adcd3376c9de24d59d8e7c",
+        "records": [
+          {
+            "id": 111,
+            "revision": 1,
+            "sha256": "53310ef93182ca80e328181249237ffa84e15a34a5bc3ec2dbedcf430df58c2f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
