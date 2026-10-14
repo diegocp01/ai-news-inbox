@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 324,
-  "updated_at": "2026-10-14T02:53:13.473585+00:00",
+  "generation": 325,
+  "updated_at": "2026-10-14T02:53:31.289200+00:00",
   "next_id": 107,
   "records": [
     {
@@ -13100,6 +13100,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2dca5e428537c18fcfa09415b150ca6bcb01c957171a08de1a50dfed1e899896": {
+      "sha256": "f47c221a0684f772901e0d8d8ddb15c295c6e06837cc7d99a9206d4b5c6e324f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 106,
+          "revision": 1,
+          "sha256": "85845e4e2f1ab9a25d7b7fb9ef709751f4c0a2caa9c04894fa535a390beccded"
+        },
+        "editorial_sha256": "fcea228f69883933e045fac9afba62a34d19479689b51e9521fd1db75bda3f8b"
+      }
     }
   },
   "migration": {
@@ -16842,6 +16854,58 @@
         "sha256": "aa3f060702002937b414b40ee7461a5c8125797bf041825d22492e4081b47b54",
         "reviewed_at": "2026-10-14T02:03:32.687146+00:00",
         "operation_id": "b3e6d76a6ce18eef1032ea4e30fc8aadd146e687626a3d2888f374196f298e33"
+      }
+    ],
+    "106:1": [
+      {
+        "reference": {
+          "id": 106,
+          "revision": 1,
+          "sha256": "85845e4e2f1ab9a25d7b7fb9ef709751f4c0a2caa9c04894fa535a390beccded"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The requested post introduces an installable personal file-search application for Mac users. Its primary purpose is finding ordinary photos, documents and media; optional code search and open-source implementation do not determine the audience.",
+            "evidence_sha256": "917cf0f7b370962ed1f214b23395d98407f0a19d937f8e1c16ade01b75a0574f"
+          },
+          "quality": {
+            "article": {
+              "url": "https://github.com/ARahim3/DigUp",
+              "final_url": "https://github.com/ARahim3/DigUp",
+              "redirect_chain": [
+                "https://github.com/ARahim3/DigUp"
+              ],
+              "checked_at": "2026-10-14T02:51:22.765310Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "6822bc52235885a523098622008dfd67fcabffffc6046f2c3d81ae7523df64bd"
+            },
+            "image": {
+              "url": "https://opengraph.githubassets.com/184b047dc1beae6005c65fa0a3bf569595032d7f119538dd06aba55a483ad392/ARahim3/DigUp",
+              "final_url": "https://opengraph.githubassets.com/184b047dc1beae6005c65fa0a3bf569595032d7f119538dd06aba55a483ad392/ARahim3/DigUp",
+              "redirect_chain": [
+                "https://opengraph.githubassets.com/184b047dc1beae6005c65fa0a3bf569595032d7f119538dd06aba55a483ad392/ARahim3/DigUp"
+              ],
+              "checked_at": "2026-10-14T02:51:22.765310Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "5a516fdaa645759b6fceee4cf1db24fdb6fe2faa017370f3fded41f4c9a950f2",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 600,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "bc4e62c6490544d0b48df244fb6bbca6a5d6fcc862386bee295e934ff919ee19",
+              "relevance": "story_specific",
+              "relevance_note": "Official repository OpenGraph card names DigUp and describes its file-search functionality. Clear static alternative to its demo GIF, whose first frame contains only wallpaper."
+            }
+          }
+        },
+        "sha256": "fcea228f69883933e045fac9afba62a34d19479689b51e9521fd1db75bda3f8b",
+        "reviewed_at": "2026-10-14T02:53:31.289200+00:00",
+        "operation_id": "2dca5e428537c18fcfa09415b150ca6bcb01c957171a08de1a50dfed1e899896"
       }
     ]
   }
