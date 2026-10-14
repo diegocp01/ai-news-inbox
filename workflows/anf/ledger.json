@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 326,
-  "updated_at": "2026-10-14T02:54:48.774977+00:00",
+  "generation": 327,
+  "updated_at": "2026-10-14T02:55:10.617331+00:00",
   "next_id": 108,
   "records": [
     {
@@ -13148,6 +13148,18 @@
         ],
         "duplicates": []
       }
+    },
+    "4ea55315c5690a5b2b3d8316eb197a72bd712996def102a3f930733615c33728": {
+      "sha256": "e2bbb369c0c161cf9377cb779d14e2924f9392af0ed8a82accc75f7307273adc",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 107,
+          "revision": 1,
+          "sha256": "3c7aeb7dd529fe84012763ab8de6b273c34fdeb366549e9a922afdf06f5e5c26"
+        },
+        "editorial_sha256": "138126a6a54305a5bc986b84cddbfc4e977448e7d19d1ca3e250e885fa7290d8"
+      }
     }
   },
   "migration": {
@@ -16942,6 +16954,58 @@
         "sha256": "fcea228f69883933e045fac9afba62a34d19479689b51e9521fd1db75bda3f8b",
         "reviewed_at": "2026-10-14T02:53:31.289200+00:00",
         "operation_id": "2dca5e428537c18fcfa09415b150ca6bcb01c957171a08de1a50dfed1e899896"
+      }
+    ],
+    "107:1": [
+      {
+        "reference": {
+          "id": 107,
+          "revision": 1,
+          "sha256": "3c7aeb7dd529fe84012763ab8de6b273c34fdeb366549e9a922afdf06f5e5c26"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The article explains the architecture, implementation and scaling trade-offs of an internal version-control system for developers operating large AI-assisted codebases.",
+            "evidence_sha256": "b7e4144f490efc7677c6e0b4f71d765614ca647222d7f8ced5db71287b2b06a6"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+              "final_url": "https://www.anthropic.com/engineering/redesigning-source-control",
+              "redirect_chain": [
+                "https://www.anthropic.com/engineering/redesigning-source-control"
+              ],
+              "checked_at": "2026-10-14T02:51:11.802344Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "b7e4144f490efc7677c6e0b4f71d765614ca647222d7f8ced5db71287b2b06a6"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cba1eaaa67385fd00f210badaacd147de480120b-3840x1718.png",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cba1eaaa67385fd00f210badaacd147de480120b-3840x1718.png",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/cba1eaaa67385fd00f210badaacd147de480120b-3840x1718.png"
+              ],
+              "checked_at": "2026-10-14T02:51:11.802344Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "39fa7544396d6cd6ad68e11baaf3a0f73b15c159a69082bb4e94ca7b43c9b1ca",
+              "content_type": "image/png",
+              "width": 3840,
+              "height": 1718,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "634909d8216b0242a6a8708521cd55aaeec3fa271e06887c37c9255c37a7aafe",
+              "relevance": "story_specific",
+              "relevance_note": "Legible Scion checkout architecture diagram from the actual article, showing clients, daemon, regional cache, server and storage."
+            }
+          }
+        },
+        "sha256": "138126a6a54305a5bc986b84cddbfc4e977448e7d19d1ca3e250e885fa7290d8",
+        "reviewed_at": "2026-10-14T02:55:10.617331+00:00",
+        "operation_id": "4ea55315c5690a5b2b3d8316eb197a72bd712996def102a3f930733615c33728"
       }
     ]
   }
