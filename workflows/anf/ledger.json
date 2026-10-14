@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 329,
-  "updated_at": "2026-10-14T02:55:53.068411+00:00",
-  "next_id": 109,
+  "generation": 330,
+  "updated_at": "2026-10-14T02:56:21.699546+00:00",
+  "next_id": 110,
   "records": [
     {
       "id": 1,
@@ -1447,6 +1447,19 @@
           "sha256": "c28d2f2b8f7f4ce29340c5b39ad7813597f56c3f8ec1e9fff686246d7970cd72",
           "source": "Google",
           "request_id": "6df4225815e4333249e00b7f3dfc584b4d427fa2deff10120cbdddde46fcbce4",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T02:56:21.699546+00:00",
+          "block": "Title: Arena’s Max Selects AI Models to Lower Task Costs\nURL: \nImage URL: https://cdn.sanity.io/images/ybjf12mv/migration/a1d78d8cd0be306dabffe6a8cf40443cacd6d4ee-2200x1238.png?rect=0,42,2200,1155&w=1200&h=630&fit=crop\nSummary: Arena introduced an agentic Max router that selects between Claude Fable 5.1 and GPT-6 Astra. In Arena’s live test, it reported a +14.7% net-improvement score at $3.27 median task cost, roughly matching Fable 5.1 (Max) for 37% less. Results reflect that test period; Max is available in Agent Mode for a limited time.",
+          "sha256": "9114b625161c4ea2f89f4f75e8b02fed4160ca2f6bd9db3cae5c3ee78267320c",
+          "source": "Arena",
+          "request_id": "94cb491bc0a5d9499d02f48c8a6e8c6ccebe538a0d960bd141f53a95bdd7e44f",
           "mode": "standard"
         }
       ]
@@ -3208,13 +3221,21 @@
       ]
     },
     "94cb491bc0a5d9499d02f48c8a6e8c6ccebe538a0d960bd141f53a95bdd7e44f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T02:48:58.609390+00:00",
       "received_sequence": 100,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-14T02:56:21.699546+00:00",
+      "records": [
+        {
+          "id": 109,
+          "revision": 1,
+          "sha256": "9114b625161c4ea2f89f4f75e8b02fed4160ca2f6bd9db3cae5c3ee78267320c"
+        }
+      ]
     },
     "060245a8a694f2b67079cf5ab5bafb91152941ff0b3b531c27f26c1c3505f1b8": {
       "status": "received",
@@ -13207,6 +13228,21 @@
           "sha256": "c28d2f2b8f7f4ce29340c5b39ad7813597f56c3f8ec1e9fff686246d7970cd72"
         },
         "editorial_sha256": "f81cd8460b818d22674ac25927e01b9450b5c4477535d649d1434afaa76ea8df"
+      }
+    },
+    "e0bd71fbab69f997d22fb83097f38f96b19ee94c5891f79e99351d53537cb308": {
+      "sha256": "5c5987b172d1eca86fab0a0786f510f51f2ee6e56094399f63c75313ffb848e6",
+      "result": {
+        "status": "finalized",
+        "request_id": "94cb491bc0a5d9499d02f48c8a6e8c6ccebe538a0d960bd141f53a95bdd7e44f",
+        "records": [
+          {
+            "id": 109,
+            "revision": 1,
+            "sha256": "9114b625161c4ea2f89f4f75e8b02fed4160ca2f6bd9db3cae5c3ee78267320c"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
