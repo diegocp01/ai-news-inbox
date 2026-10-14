@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 356,
-  "updated_at": "2026-10-14T16:20:45.271795+00:00",
-  "next_id": 119,
+  "generation": 357,
+  "updated_at": "2026-10-14T16:22:46.958445+00:00",
+  "next_id": 120,
   "records": [
     {
       "id": 1,
@@ -1580,6 +1580,19 @@
           "sha256": "01797823f4a2f7f1474a61256769992b628a664dd1a5a3bcea7f0c63225bb175",
           "source": "arXiv",
           "request_id": "90e640d94a40290e180e1ce1663acfa9851897312148a6aab31e3f3681f99bed",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T16:22:46.958445+00:00",
+          "block": "Title: Palantir CTO Claims Some AI Researchers Smoke, Expecting AI Cancer Cures\nURL: https://www.cbsnews.com/news/shyam-sankar-chief-technology-officer-palantir-face-the-nation-transcript-10-11-2026/\nImage URL: https://assets1.cbsnewsstatic.com/hub/i/r/2026/10/11/bc978a52-fcaa-4b71-bd76-dbb6a31d6905/thumbnail/1200x630/1a0660f61a558be8b2678172319d6e14/ftn-shyam-sankar-full-157-814326.png\nSummary: Palantir CTO Shyam Sankar claimed some AI researchers have taken up smoking to signal confidence that AI will eventually cure cancer. Speaking on CBS’s Face the Nation, he offered no names or supporting evidence and used the anecdote to criticize excessive faith in AI. His remarks do not establish a verified trend or medical breakthrough.",
+          "sha256": "c68faca4273801676ad3ad68fb96ee176dca45e680ff5b9b3ee0a2a3482e9ba9",
+          "source": "CBS News",
+          "request_id": "31e68f4e4ac371bc17b6a3c561096141865f3c8d48a4bc5c043b26bed8a92260",
           "mode": "standard"
         }
       ]
@@ -3488,13 +3501,21 @@
       ]
     },
     "31e68f4e4ac371bc17b6a3c561096141865f3c8d48a4bc5c043b26bed8a92260": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T16:16:55.536583+00:00",
       "received_sequence": 108,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-14T16:22:46.958445+00:00",
+      "records": [
+        {
+          "id": 119,
+          "revision": 1,
+          "sha256": "c68faca4273801676ad3ad68fb96ee176dca45e680ff5b9b3ee0a2a3482e9ba9"
+        }
+      ]
     }
   },
   "batches": {
@@ -15209,6 +15230,21 @@
           "sha256": "01797823f4a2f7f1474a61256769992b628a664dd1a5a3bcea7f0c63225bb175"
         },
         "editorial_sha256": "ccb1fb61274aa6fb5904e5f62289b0e4778866658f1cd7770ba70e73b46bfd06"
+      }
+    },
+    "f0876e40f373ad2a5f81ca0f83e437ace14216d8694c14b856fff994ee169144": {
+      "sha256": "6cc97aa98903aa8d1dca0de27452d69b0d6795c62c26ddfac106f84479864b7d",
+      "result": {
+        "status": "finalized",
+        "request_id": "31e68f4e4ac371bc17b6a3c561096141865f3c8d48a4bc5c043b26bed8a92260",
+        "records": [
+          {
+            "id": 119,
+            "revision": 1,
+            "sha256": "c68faca4273801676ad3ad68fb96ee176dca45e680ff5b9b3ee0a2a3482e9ba9"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
