@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 342,
-  "updated_at": "2026-10-14T12:20:06.681475+00:00",
+  "generation": 343,
+  "updated_at": "2026-10-14T12:20:27.621372+00:00",
   "next_id": 116,
   "records": [
     {
@@ -6553,9 +6553,698 @@
       },
       "acknowledged_at": "2026-10-13T12:05:53.689516+00:00",
       "checkpoint_after": 98
+    },
+    "252e5f0b9d242221fcd2abaa": {
+      "batch_id": "252e5f0b9d242221fcd2abaa",
+      "status": "prepared",
+      "checkpoint_before": 98,
+      "prepared_at": "2026-10-14T12:20:27.621372+00:00",
+      "intake_cutoff": 104,
+      "records": [
+        {
+          "id": 99,
+          "revision": 1,
+          "sha256": "e4d041f02600ba9f887aa3824b755a1f953299380c4e6a4a8db4b35127a367c3"
+        },
+        {
+          "id": 100,
+          "revision": 1,
+          "sha256": "c28d2f2b8f7f4ce29340c5b39ad7813597f56c3f8ec1e9fff686246d7970cd72"
+        },
+        {
+          "id": 101,
+          "revision": 1,
+          "sha256": "82f45233bd3a44e0d67a31a5118fd5c3d500f4f9d9bcb9979989c1e0eabf0f75"
+        },
+        {
+          "id": 102,
+          "revision": 1,
+          "sha256": "83c7101757366b7d7b4821309e7f19876291427cecd05a65068e77879a46e557"
+        },
+        {
+          "id": 103,
+          "revision": 1,
+          "sha256": "0b891d2cfb699e9130b5c1bd7c822d3000784bb3620f5e2e075ac064976ee71f"
+        },
+        {
+          "id": 104,
+          "revision": 1,
+          "sha256": "0f304972f2534a4dec8848860fd2c1db1920c336801ac17f389f343fa35a4d92"
+        },
+        {
+          "id": 105,
+          "revision": 1,
+          "sha256": "48946966b62f6e9043d3c2378b1796e23420456c750b46764fd48dd461053633"
+        },
+        {
+          "id": 106,
+          "revision": 1,
+          "sha256": "85845e4e2f1ab9a25d7b7fb9ef709751f4c0a2caa9c04894fa535a390beccded"
+        },
+        {
+          "id": 107,
+          "revision": 1,
+          "sha256": "3c7aeb7dd529fe84012763ab8de6b273c34fdeb366549e9a922afdf06f5e5c26"
+        },
+        {
+          "id": 108,
+          "revision": 1,
+          "sha256": "c28d2f2b8f7f4ce29340c5b39ad7813597f56c3f8ec1e9fff686246d7970cd72"
+        },
+        {
+          "id": 109,
+          "revision": 1,
+          "sha256": "9114b625161c4ea2f89f4f75e8b02fed4160ca2f6bd9db3cae5c3ee78267320c"
+        },
+        {
+          "id": 110,
+          "revision": 1,
+          "sha256": "ac917f55205333d4e062f7ed40397f6adb589b28e687897abb79723a74337b9b"
+        },
+        {
+          "id": 111,
+          "revision": 1,
+          "sha256": "53310ef93182ca80e328181249237ffa84e15a34a5bc3ec2dbedcf430df58c2f"
+        },
+        {
+          "id": 112,
+          "revision": 1,
+          "sha256": "1158d392bf5197b5c91e2c6dbfc4d8992493a16ace7f5f747fa1cb0e1d5bdd0b"
+        },
+        {
+          "id": 113,
+          "revision": 1,
+          "sha256": "27b1eb4f09b0447c14c71aefe38ddf4e81dce3272b43d58b423cdb12c8828037"
+        },
+        {
+          "id": 114,
+          "revision": 1,
+          "sha256": "0254ceca067b4af7c1d08aceeefcf5b4bc41c824b40eb4c7272a318419b7742e"
+        },
+        {
+          "id": 115,
+          "revision": 1,
+          "sha256": "5068319df0c83d5d86fcbcd381599ef0e75408dd41305619a51dfe3890c60e89"
+        }
+      ],
+      "first_id": 99,
+      "last_id": 115,
+      "count": 17,
+      "txt_path": "workflows/anf/batches/252e5f0b9d242221fcd2abaa.txt",
+      "json_path": "workflows/anf/batches/252e5f0b9d242221fcd2abaa.json",
+      "txt_sha256": "54236f3f6e92ec5bb19537aa735a34d5cb8510271849c12762c6d217a427cb87",
+      "json_sha256": "f925a1cef76e23c7149d135026a9147204f2823a8c0d2d4dbe80d2fa9d84975b",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer visual personal-assistant and wearable hardware announcement. Its primary audience is everyday users, not software developers; incidental architecture details do not change that.",
+            "evidence_sha256": "31c10bedabb8b165f3270ffa69b66f25ac1f57a94db3abfe93e61e9e8eca2182"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.neweyesai.com/store",
+              "final_url": "https://www.neweyesai.com/store",
+              "redirect_chain": [
+                "https://www.neweyesai.com/store"
+              ],
+              "checked_at": "2026-10-13T15:44:58+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "31c10bedabb8b165f3270ffa69b66f25ac1f57a94db3abfe93e61e9e8eca2182"
+            },
+            "image": {
+              "url": "https://www.neweyesai.com/aiglasses/sight-clear.png",
+              "final_url": "https://www.neweyesai.com/aiglasses/sight-clear.png",
+              "redirect_chain": [
+                "https://www.neweyesai.com/aiglasses/sight-clear.png"
+              ],
+              "checked_at": "2026-10-13T15:45:45+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "31c10bedabb8b165f3270ffa69b66f25ac1f57a94db3abfe93e61e9e8eca2182",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 576,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "aabaf39e89f52665550592927996e2d653dbc6f65573bedb462b86dbe2dcc363",
+              "relevance": "story_specific",
+              "relevance_note": "Official NewEyes Sight product render showing black camera-equipped glasses with clear lenses. Inspected pixels and selected this clear product visual over a darker wearer poster."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public release of a broadly usable Gemini model for consumers, enterprises and scientists. Coding, API access and pricing are supporting details rather than the primary audience or purpose.",
+            "evidence_sha256": "07e1b5636caa54ae1da55b8b43f559ca79326676c6a1f29768ca2c2e63453433"
+          },
+          "quality": {
+            "article": {
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+              "final_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+              "redirect_chain": [
+                "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+              ],
+              "checked_at": "2026-10-13T16:38:51.813496+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "d31956c091f0ea65314e5b4782aafe9b2b663d899d0ddc24da81af301ada07c5"
+            },
+            "image": {
+              "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+              "final_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+              "redirect_chain": [
+                "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png"
+              ],
+              "checked_at": "2026-10-13T16:39:17.573808+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "766ae3a14fe166b57754a575f5c78b2c123e38f44025e533f9c670ed5e48f855",
+              "content_type": "image/png",
+              "width": 1300,
+              "height": 731,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "23646e4eaecc376cd723fef7275e02d2d8023e3324366fb39e3a9edceee81aed",
+              "relevance": "story_specific",
+              "relevance_note": "Official October 13 Gemini 4 Argon launch hero showing a large translucent numeral 4 on a blue-to-cyan background. Its 1300 by 731 pixels were inspected directly; other page images are unrelated story cards or navigation icons."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business and general AI-adoption news about Epic Games staffing and company strategy. It does not teach an implementation, launch a developer tool or API, or report technical research; mentioning Unreal developers does not make it a technical-audience article.",
+            "evidence_sha256": "42ffb375d3727fd492f97887ebc337e58d011eb92c700d88bd51e288e4c99ea9"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.shacknews.com/article/150982/tim-sweeney-epic-games-aims-to-survive-ai-revolution",
+              "final_url": "https://www.shacknews.com/article/150982/tim-sweeney-epic-games-aims-to-survive-ai-revolution",
+              "redirect_chain": [
+                "https://www.shacknews.com/article/150982/tim-sweeney-epic-games-aims-to-survive-ai-revolution"
+              ],
+              "checked_at": "2026-10-13T16:40:34.354335+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "f61b1fa2e7f74d5db09a8f7904c28296377487c716e6f516f321d717c2a45eae"
+            },
+            "image": {
+              "url": "https://shacknews-www.s3.amazonaws.com/assets/editorial/2026/10/tim-sweeney-epic-games-ai-pivot.JPG",
+              "final_url": "https://shacknews-www.s3.amazonaws.com/assets/editorial/2026/10/tim-sweeney-epic-games-ai-pivot.JPG",
+              "redirect_chain": [
+                "https://shacknews-www.s3.amazonaws.com/assets/editorial/2026/10/tim-sweeney-epic-games-ai-pivot.JPG"
+              ],
+              "checked_at": "2026-10-13T16:39:41.615656+00:00",
+              "content_type": "image/jpeg",
+              "width": 914,
+              "height": 920,
+              "image_bytes_sha256": "9d44b96b044612045b7893ae59ceea9ecf85c6dfebfe959ab56872e89bcb7ddb",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Legible publisher-hosted screenshot of the exact Tim Sweeney AI-pivot statement and his follow-up about making code and content faster. The image shows the author and full quoted text; preferred over two inspected generic Sweeney portraits.",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "896ff808f565cde53c14700797c5783b4344e8c70888a5ef45cd6c3f3e3dcb45"
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "api",
+            "rationale": "The launch introduces specialized model architecture and developer-facing classification, extraction and summarization APIs for production agent workflows. Its main purpose is technical implementation rather than a general consumer model release.",
+            "evidence_sha256": "caccfda378d2c86cb7f2509e77f4bfd9770835131082e2853b0f87734cbde9b7"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
+              "final_url": "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
+              "redirect_chain": [
+                "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents"
+              ],
+              "checked_at": "2026-10-13T19:00:42.038891+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "7014002e5cfc994372fb41cdc578770302535ed2c6b1ce9a320bf8bd757d2903"
+            },
+            "image": {
+              "url": "https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6acdab828208336ba4c088f6_scaledown-overview.png",
+              "final_url": "https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6acdab828208336ba4c088f6_scaledown-overview.png",
+              "redirect_chain": [
+                "https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6acdab828208336ba4c088f6_scaledown-overview.png"
+              ],
+              "checked_at": "2026-10-13T19:00:42.454599+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "7787e6ee356afda3ad1fbef918219f339dff6761c1cc6b645b98aae812cc1541",
+              "content_type": "image/png",
+              "width": 3200,
+              "height": 1680,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "1397a1a325ced19f80b61dd694eea36933647e1773a9b953a8767435583aa94d",
+              "relevance": "story_specific",
+              "relevance_note": "Legible same-day LangChain partner diagram shows ScaleDown Extract, Summarize and Classify around a frontier agent model, alongside the existing Compress capability. Selected over the inspected title cover and narrower summarization/compression diagrams."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General-purpose personal assistant productivity update for everyday users; email, app cards, social search and document export, not an API, coding tool or research result.",
+            "evidence_sha256": "ad0781938d2c9140065c30e6832587c1b6a396ce6132eb7c4f85886716620a5a"
+          },
+          "quality": {
+            "article": {
+              "url": "",
+              "status": "blank_no_compliant_source",
+              "checked_at": "2026-10-13T19:11:19.605091+00:00",
+              "evidence_sha256": "ad0781938d2c9140065c30e6832587c1b6a396ce6132eb7c4f85886716620a5a"
+            },
+            "image": {
+              "url": "https://uzgqbjufkfadoprvamcs.supabase.co/storage/v1/object/public/daily-img/grok-bot-email/grok-bot-inbox.jpg",
+              "final_url": "https://uzgqbjufkfadoprvamcs.supabase.co/storage/v1/object/public/daily-img/grok-bot-email/grok-bot-inbox.jpg",
+              "redirect_chain": [
+                "https://uzgqbjufkfadoprvamcs.supabase.co/storage/v1/object/public/daily-img/grok-bot-email/grok-bot-inbox.jpg"
+              ],
+              "checked_at": "2026-10-13T19:12:32.520025+00:00",
+              "content_type": "image/jpeg",
+              "width": 2000,
+              "height": 1154,
+              "image_bytes_sha256": "e31aa9822d2ecc18266e5ee3acc5edfa124a0cdd7a93d75c0da429e2e46ab8d9",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "9edd45dd7b5b802f8a5919dbd9e9caf8d4bc1dba7469b6a0764e456beb9a9051",
+              "pixels_inspected": true,
+              "relevance": "topic_specific",
+              "relevance_note": "Clean product art of the newly available mail.grokbot.com agent-email feature included in the Grok Bot 0.70.2 release roundup; does not depict every release feature.",
+              "story_specific_available": false,
+              "fallback_reason": "No compliant image specific to the full 0.70.2 release was located after checking the exact X announcement, official changelog, official product page, official Cursor agent-email documentation, and same-feature third-party reports. The exact release poster is hosted on policy-excluded pbs.twimg.com, while the official changelog has no inline image and its OG/product artwork uses policy-excluded x.ai hosts. This verified email-feature image illustrates a principal feature included in the roundup and is more informative than generic Grok Bot logos."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The announcement describes an AI coding workflow in which Cursor executes backend changes, queries schemas and databases, reads logs, and deploys Supabase Edge Functions via MCP.",
+            "evidence_sha256": "030491f8e18a078cd71c4f02ffb6616f133faa63055f9548fa848a5e9d85a641"
+          },
+          "quality": {
+            "article": {
+              "url": "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot",
+              "final_url": "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot",
+              "redirect_chain": [
+                "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot"
+              ],
+              "status_code": 200,
+              "content_type": "text/html; charset=utf-8",
+              "body_sha256": "5dba9e9ae481e5bcf6d1900844a3fb893b18c61eb97e90581b52b24f283374d1",
+              "checked_at": "2026-10-13T19:18:43.393152+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "de5124dd94181c39022f063a4351604606a110cadccfedf3bed42f7392d731ae"
+            },
+            "image": {
+              "url": "https://supabase.com/images/blog/2026-10-13-ship-changes-to-your-supabase-backend-with-grok-bot/og.png",
+              "final_url": "https://supabase.com/images/blog/2026-10-13-ship-changes-to-your-supabase-backend-with-grok-bot/og.png",
+              "redirect_chain": [
+                "https://supabase.com/images/blog/2026-10-13-ship-changes-to-your-supabase-backend-with-grok-bot/og.png"
+              ],
+              "status_code": 200,
+              "content_type": "image/png",
+              "width": 2400,
+              "height": 1260,
+              "image_bytes_sha256": "e2ef1279285e367eae94a1b13c36edfe1bde9a534c8ce13f47eb46653d98cc80",
+              "checked_at": "2026-10-13T19:18:13.086070+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "The official announcement graphic clearly reads Supabase is now available in Grok Bot, with the Supabase mark and Grok Bot icon. It is sharp and legible at 2400 by 1260 pixels.",
+              "evidence_sha256": "73c0e004436e0be9bd8af249d73e64bc6ee07f7f668338738959abb784324350"
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General AI-company security news: a physical office recording-device investigation and a company claim that AI assisted forensic staff. It does not announce coding tools, APIs, token pricing or technical research.",
+            "evidence_sha256": "e770dabc44faf35bc5bdeeceae65d09242902169fec2f47a0cddc65a8a376900"
+          },
+          "quality": {
+            "article": {
+              "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+              "final_url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+              "redirect_chain": [
+                "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
+              ],
+              "checked_at": "2026-10-14T02:01:59.438825+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "b55254fcc3acd7703153f97a2ae18cdec8dbe7cfcd5fe2f926800d344ac93c0f"
+            },
+            "image": {
+              "url": "https://assets.sfstandard.com/image/994911177489/image_k101cto9v97or3q5niul74237r/-S1200x848-FPNG",
+              "final_url": "https://assets.sfstandard.com/image/994911177489/image_k101cto9v97or3q5niul74237r/-S1200x848-FPNG",
+              "redirect_chain": [
+                "https://assets.sfstandard.com/image/994911177489/image_k101cto9v97or3q5niul74237r/-S1200x848-FPNG"
+              ],
+              "checked_at": "2026-10-14T02:01:09.912421+00:00",
+              "content_type": "image/png",
+              "image_bytes_sha256": "d2811f372cd41921c76cc9313c79c8dad93a2b716e7d511004017817a5aeffb4",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "7cfe760a7b242b1ef94451d3ce7259dad7d636a66e8fd0ae60c3ab42894354ec",
+              "width": 1200,
+              "height": 848,
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Two clear documentary evidence photographs: the concealed device behind a television with a red circle, and a close-up of the board and antenna on a wood floor. Labels Figure 1 and Figure 2 (Recording Device 1) are legible. Same device as DOJ evidence. Selected from the actual SF Standard article srcset, not a guessed or manually upscaled URL."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The requested post introduces an installable personal file-search application for Mac users. Its primary purpose is finding ordinary photos, documents and media; optional code search and open-source implementation do not determine the audience.",
+            "evidence_sha256": "917cf0f7b370962ed1f214b23395d98407f0a19d937f8e1c16ade01b75a0574f"
+          },
+          "quality": {
+            "article": {
+              "url": "https://github.com/ARahim3/DigUp",
+              "final_url": "https://github.com/ARahim3/DigUp",
+              "redirect_chain": [
+                "https://github.com/ARahim3/DigUp"
+              ],
+              "checked_at": "2026-10-14T02:51:22.765310Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "6822bc52235885a523098622008dfd67fcabffffc6046f2c3d81ae7523df64bd"
+            },
+            "image": {
+              "url": "https://opengraph.githubassets.com/184b047dc1beae6005c65fa0a3bf569595032d7f119538dd06aba55a483ad392/ARahim3/DigUp",
+              "final_url": "https://opengraph.githubassets.com/184b047dc1beae6005c65fa0a3bf569595032d7f119538dd06aba55a483ad392/ARahim3/DigUp",
+              "redirect_chain": [
+                "https://opengraph.githubassets.com/184b047dc1beae6005c65fa0a3bf569595032d7f119538dd06aba55a483ad392/ARahim3/DigUp"
+              ],
+              "checked_at": "2026-10-14T02:51:22.765310Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "5a516fdaa645759b6fceee4cf1db24fdb6fe2faa017370f3fded41f4c9a950f2",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 600,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "bc4e62c6490544d0b48df244fb6bbca6a5d6fcc862386bee295e934ff919ee19",
+              "relevance": "story_specific",
+              "relevance_note": "Official repository OpenGraph card names DigUp and describes its file-search functionality. Clear static alternative to its demo GIF, whose first frame contains only wallpaper."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The article explains the architecture, implementation and scaling trade-offs of an internal version-control system for developers operating large AI-assisted codebases.",
+            "evidence_sha256": "b7e4144f490efc7677c6e0b4f71d765614ca647222d7f8ced5db71287b2b06a6"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+              "final_url": "https://www.anthropic.com/engineering/redesigning-source-control",
+              "redirect_chain": [
+                "https://www.anthropic.com/engineering/redesigning-source-control"
+              ],
+              "checked_at": "2026-10-14T02:51:11.802344Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "b7e4144f490efc7677c6e0b4f71d765614ca647222d7f8ced5db71287b2b06a6"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cba1eaaa67385fd00f210badaacd147de480120b-3840x1718.png",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cba1eaaa67385fd00f210badaacd147de480120b-3840x1718.png",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/cba1eaaa67385fd00f210badaacd147de480120b-3840x1718.png"
+              ],
+              "checked_at": "2026-10-14T02:51:11.802344Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "39fa7544396d6cd6ad68e11baaf3a0f73b15c159a69082bb4e94ca7b43c9b1ca",
+              "content_type": "image/png",
+              "width": 3840,
+              "height": 1718,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "634909d8216b0242a6a8708521cd55aaeec3fa271e06887c37c9255c37a7aafe",
+              "relevance": "story_specific",
+              "relevance_note": "Legible Scion checkout architecture diagram from the actual article, showing clients, daemon, regional cache, server and storage."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Broad public announcement of a new globally released AI model, covering consumer app and Search availability as well as businesses and developers. Technical examples do not turn this release item into implementation guidance.",
+            "evidence_sha256": "d22c2566e0fec210636a6e6ca74e04bfb8fd9e2232150766a1a2d1a3222c4067"
+          },
+          "quality": {
+            "article": {
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+              "final_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+              "redirect_chain": [
+                "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+              ],
+              "checked_at": "2026-10-14T02:52:12Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "d22c2566e0fec210636a6e6ca74e04bfb8fd9e2232150766a1a2d1a3222c4067"
+            },
+            "image": {
+              "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+              "final_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+              "redirect_chain": [
+                "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png"
+              ],
+              "checked_at": "2026-10-14T02:52:12Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "d22c2566e0fec210636a6e6ca74e04bfb8fd9e2232150766a1a2d1a3222c4067",
+              "content_type": "image/png",
+              "width": 1300,
+              "height": 731,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "23646e4eaecc376cd723fef7275e02d2d8023e3324366fb39e3a9edceee81aed",
+              "relevance": "story_specific",
+              "relevance_note": "Official release artwork shows a large translucent numeral 4 over a blue/cyan gradient. Crisp story-specific launch branding, no browser UI or unsupported performance claims."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Substantive model-routing and evaluation research for developers and researchers optimizing agent performance and cost.",
+            "evidence_sha256": "bcdff5a68cafd8c842fe86e3fb08b72b2ec78cdfd1dfc70bdddb260792bb7900"
+          },
+          "quality": {
+            "article": {
+              "url": "",
+              "status": "blank_no_compliant_source",
+              "checked_at": "2026-10-14T02:52:59.603089Z",
+              "evidence_sha256": "f114d867c1cf334f0a07971e8f986db528b64fb2fbae6cc44f0a01d96cdabd6f"
+            },
+            "image": {
+              "url": "https://cdn.sanity.io/images/ybjf12mv/migration/a1d78d8cd0be306dabffe6a8cf40443cacd6d4ee-2200x1238.png?rect=0,42,2200,1155&w=1200&h=630&fit=crop",
+              "final_url": "https://cdn.sanity.io/images/ybjf12mv/migration/a1d78d8cd0be306dabffe6a8cf40443cacd6d4ee-2200x1238.png?rect=0,42,2200,1155&w=1200&h=630&fit=crop",
+              "redirect_chain": [
+                "https://cdn.sanity.io/images/ybjf12mv/migration/a1d78d8cd0be306dabffe6a8cf40443cacd6d4ee-2200x1238.png?rect=0,42,2200,1155&w=1200&h=630&fit=crop"
+              ],
+              "checked_at": "2026-10-14T02:52:59.603089Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "f114d867c1cf334f0a07971e8f986db528b64fb2fbae6cc44f0a01d96cdabd6f",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "ee8b3fd8f4cbc41d9b67cb78b1b5f97bd46b0b5d738fc7a2c38bcc95956cac8b",
+              "relevance": "story_specific",
+              "relevance_note": "Actual PNG pixels inspected: Arena branded Max Now in Agent Arena graphic, with Max Router +14.7%, $3.27 cost-performance chart. Chart is historical launch-test illustration; not live leaderboard."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer banking access and AI-agent security policy reporting, not implementation guidance, developer tooling, or research.",
+            "evidence_sha256": "37f2adfda1f2061253f7f088458b2f8bbbc7eba9c57a54690bd47b10f95e2c43"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.linkedin.com/posts/cnbc_jpmorgan-chase-blocks-outside-ai-agents-like-activity-7515851413512699905-Sn0m",
+              "final_url": "https://www.linkedin.com/posts/cnbc_jpmorgan-chase-blocks-outside-ai-agents-like-activity-7515851413512699905-Sn0m",
+              "redirect_chain": [
+                "https://www.linkedin.com/posts/cnbc_jpmorgan-chase-blocks-outside-ai-agents-like-activity-7515851413512699905-Sn0m"
+              ],
+              "checked_at": "2026-10-14T02:52:24.864271Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "23fbb8e174a7d0a7b632bbf44ea4040b933df1637cfb0265fb7e6ec5157e03b5"
+            },
+            "image": {
+              "url": "https://wealthbridgemanagement.com/wp-content/uploads/2026/10/108403281-1791898216071-Untitled-4.jpg",
+              "final_url": "https://wealthbridgemanagement.com/wp-content/uploads/2026/10/108403281-1791898216071-Untitled-4.jpg",
+              "redirect_chain": [
+                "https://wealthbridgemanagement.com/wp-content/uploads/2026/10/108403281-1791898216071-Untitled-4.jpg"
+              ],
+              "checked_at": "2026-10-14T02:52:24.864271Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "c0a96bae2f93fcda5a72c98912567dd266348b65283829f258e9e082244eea49",
+              "content_type": "image/jpeg",
+              "width": 1920,
+              "height": 1080,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "356e1ef584c396872ba6c9d442ccf9677bb3e1d6129d10265a00b60ac095e756",
+              "relevance": "story_specific",
+              "relevance_note": "Exact same-event article lead image, showing the bank CEO and Meta CEO, verified against article caption and visually inspected."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The user requests a broad AI safety warning about potential device-to-device spread, experimental limits and uncertainty, rather than the technical methods or implementation of the underlying research.",
+            "evidence_sha256": "2d0c2ec8e5420808f061919a3f50a7658001c8a254b60e674f5078d07cf26ca9"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/research/self-replicating-ai",
+              "final_url": "https://www.anthropic.com/research/self-replicating-ai",
+              "redirect_chain": [
+                "https://www.anthropic.com/research/self-replicating-ai"
+              ],
+              "checked_at": "2026-10-14T02:51:35.350399+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "2d0c2ec8e5420808f061919a3f50a7658001c8a254b60e674f5078d07cf26ca9"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png"
+              ],
+              "checked_at": "2026-10-14T02:51:35.350399+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "c23a976a4331322fc6f0143e6795bb85108466a8617f0266b11dab0ecb869a4e",
+              "content_type": "image/png",
+              "width": 2360,
+              "height": 860,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "ebf6f97d14ee9049d307dad4d3818f3ccd84e8067c8aae3a50ee7536d0a250a6",
+              "relevance": "story_specific",
+              "relevance_note": "Legible four-stage official diagram of the replication lifecycle. Full colored version more informative than faded-stage variant."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A broadly available creator-facing speech model launch for narration, audio drama, games and short videos; the API and technical appendix are supporting access and background, not the main purpose of this item.",
+            "evidence_sha256": "c9b508f46ff2854c0b05dd7c17c1d34632831256df8048c9059c218845124fb4"
+          },
+          "quality": {
+            "article": {
+              "url": "https://fish.audio/blog/fish-audio-drama-3/",
+              "final_url": "https://fish.audio/blog/fish-audio-drama-3/",
+              "redirect_chain": [
+                "https://fish.audio/blog/fish-audio-drama-3/"
+              ],
+              "checked_at": "2026-10-14T02:54:52Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "c611b672ea1d39a4d33b4321278b8b48b54ee480efaab75f24ce6fc63c44aafb"
+            },
+            "image": {
+              "url": "https://public-platform.r2.fish.audio/media/blog-images/d42b7127d9f24eb3b222388bf81d6885",
+              "final_url": "https://public-platform.r2.fish.audio/media/blog-images/d42b7127d9f24eb3b222388bf81d6885",
+              "redirect_chain": [
+                "https://public-platform.r2.fish.audio/media/blog-images/d42b7127d9f24eb3b222388bf81d6885"
+              ],
+              "checked_at": "2026-10-14T02:54:52Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "9ff9d1d44ab43fd81dccec8de7a4b2a1634fb5d5982c2d825221520336ca54d7",
+              "content_type": "image/jpeg",
+              "width": 1920,
+              "height": 1080,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "2b759d1c5a8a54efbe66eef4a83dfb28f08b1fb60a5263f26374073c758dd302",
+              "relevance": "story_specific",
+              "relevance_note": "Inspected actual browser-displayed image pixels: Fish Audio branding, four people in a kitchen, Uncle Roger label and large Drama 3 text. Clear story-specific launch artwork, no browser chrome in source image. OG metadata says 1200x630 but decoded image is actually 1920x1080."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General news about a criminal charge and corporate physical security incident; AI assistance is contextual rather than technical implementation guidance.",
+            "evidence_sha256": "27b1eb4f09b0447c14c71aefe38ddf4e81dce3272b43d58b423cdb12c8828037"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General forecast about the timing of AI self-improvement. Research benchmarks support the forecast, but the article centers on its predicted timeline rather than technical methods or implementation.",
+            "evidence_sha256": "0254ceca067b4af7c1d08aceeefcf5b4bc41c824b40eb4c7272a318419b7742e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General business news about bankruptcy, licensing and a potential asset sale affecting a consumer AI platform.",
+            "evidence_sha256": "5068319df0c83d5d86fcbcd381599ef0e75408dd41305619a51dfe3890c60e89"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-14T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "252e5f0b9d242221fcd2abaa",
   "replacement_batch": null,
   "checkpoint": 98,
   "checkpoint_history": [
@@ -13537,6 +14226,702 @@
           "sha256": "5068319df0c83d5d86fcbcd381599ef0e75408dd41305619a51dfe3890c60e89"
         },
         "editorial_sha256": "9fee4d4b9140f60eccdf6f4c50ac73cd746d9826e0c7c86b12f090f5abc185e1"
+      }
+    },
+    "e5444ba59076b30e4741622cb9757d2a1fbc2a3fab9c5f3b11cc5bc12f1bdf83": {
+      "sha256": "9f471a53c66c285e28dbcf0f2b4199340d5f914ed79dbfff058a9ec5c18497e5",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "252e5f0b9d242221fcd2abaa",
+          "status": "prepared",
+          "checkpoint_before": 98,
+          "prepared_at": "2026-10-14T12:20:27.621372+00:00",
+          "intake_cutoff": 104,
+          "records": [
+            {
+              "id": 99,
+              "revision": 1,
+              "sha256": "e4d041f02600ba9f887aa3824b755a1f953299380c4e6a4a8db4b35127a367c3"
+            },
+            {
+              "id": 100,
+              "revision": 1,
+              "sha256": "c28d2f2b8f7f4ce29340c5b39ad7813597f56c3f8ec1e9fff686246d7970cd72"
+            },
+            {
+              "id": 101,
+              "revision": 1,
+              "sha256": "82f45233bd3a44e0d67a31a5118fd5c3d500f4f9d9bcb9979989c1e0eabf0f75"
+            },
+            {
+              "id": 102,
+              "revision": 1,
+              "sha256": "83c7101757366b7d7b4821309e7f19876291427cecd05a65068e77879a46e557"
+            },
+            {
+              "id": 103,
+              "revision": 1,
+              "sha256": "0b891d2cfb699e9130b5c1bd7c822d3000784bb3620f5e2e075ac064976ee71f"
+            },
+            {
+              "id": 104,
+              "revision": 1,
+              "sha256": "0f304972f2534a4dec8848860fd2c1db1920c336801ac17f389f343fa35a4d92"
+            },
+            {
+              "id": 105,
+              "revision": 1,
+              "sha256": "48946966b62f6e9043d3c2378b1796e23420456c750b46764fd48dd461053633"
+            },
+            {
+              "id": 106,
+              "revision": 1,
+              "sha256": "85845e4e2f1ab9a25d7b7fb9ef709751f4c0a2caa9c04894fa535a390beccded"
+            },
+            {
+              "id": 107,
+              "revision": 1,
+              "sha256": "3c7aeb7dd529fe84012763ab8de6b273c34fdeb366549e9a922afdf06f5e5c26"
+            },
+            {
+              "id": 108,
+              "revision": 1,
+              "sha256": "c28d2f2b8f7f4ce29340c5b39ad7813597f56c3f8ec1e9fff686246d7970cd72"
+            },
+            {
+              "id": 109,
+              "revision": 1,
+              "sha256": "9114b625161c4ea2f89f4f75e8b02fed4160ca2f6bd9db3cae5c3ee78267320c"
+            },
+            {
+              "id": 110,
+              "revision": 1,
+              "sha256": "ac917f55205333d4e062f7ed40397f6adb589b28e687897abb79723a74337b9b"
+            },
+            {
+              "id": 111,
+              "revision": 1,
+              "sha256": "53310ef93182ca80e328181249237ffa84e15a34a5bc3ec2dbedcf430df58c2f"
+            },
+            {
+              "id": 112,
+              "revision": 1,
+              "sha256": "1158d392bf5197b5c91e2c6dbfc4d8992493a16ace7f5f747fa1cb0e1d5bdd0b"
+            },
+            {
+              "id": 113,
+              "revision": 1,
+              "sha256": "27b1eb4f09b0447c14c71aefe38ddf4e81dce3272b43d58b423cdb12c8828037"
+            },
+            {
+              "id": 114,
+              "revision": 1,
+              "sha256": "0254ceca067b4af7c1d08aceeefcf5b4bc41c824b40eb4c7272a318419b7742e"
+            },
+            {
+              "id": 115,
+              "revision": 1,
+              "sha256": "5068319df0c83d5d86fcbcd381599ef0e75408dd41305619a51dfe3890c60e89"
+            }
+          ],
+          "first_id": 99,
+          "last_id": 115,
+          "count": 17,
+          "txt_path": "workflows/anf/batches/252e5f0b9d242221fcd2abaa.txt",
+          "json_path": "workflows/anf/batches/252e5f0b9d242221fcd2abaa.json",
+          "txt_sha256": "54236f3f6e92ec5bb19537aa735a34d5cb8510271849c12762c6d217a427cb87",
+          "json_sha256": "f925a1cef76e23c7149d135026a9147204f2823a8c0d2d4dbe80d2fa9d84975b",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer visual personal-assistant and wearable hardware announcement. Its primary audience is everyday users, not software developers; incidental architecture details do not change that.",
+                "evidence_sha256": "31c10bedabb8b165f3270ffa69b66f25ac1f57a94db3abfe93e61e9e8eca2182"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.neweyesai.com/store",
+                  "final_url": "https://www.neweyesai.com/store",
+                  "redirect_chain": [
+                    "https://www.neweyesai.com/store"
+                  ],
+                  "checked_at": "2026-10-13T15:44:58+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "31c10bedabb8b165f3270ffa69b66f25ac1f57a94db3abfe93e61e9e8eca2182"
+                },
+                "image": {
+                  "url": "https://www.neweyesai.com/aiglasses/sight-clear.png",
+                  "final_url": "https://www.neweyesai.com/aiglasses/sight-clear.png",
+                  "redirect_chain": [
+                    "https://www.neweyesai.com/aiglasses/sight-clear.png"
+                  ],
+                  "checked_at": "2026-10-13T15:45:45+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "31c10bedabb8b165f3270ffa69b66f25ac1f57a94db3abfe93e61e9e8eca2182",
+                  "content_type": "image/png",
+                  "width": 1200,
+                  "height": 576,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "aabaf39e89f52665550592927996e2d653dbc6f65573bedb462b86dbe2dcc363",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official NewEyes Sight product render showing black camera-equipped glasses with clear lenses. Inspected pixels and selected this clear product visual over a darker wearer poster."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Public release of a broadly usable Gemini model for consumers, enterprises and scientists. Coding, API access and pricing are supporting details rather than the primary audience or purpose.",
+                "evidence_sha256": "07e1b5636caa54ae1da55b8b43f559ca79326676c6a1f29768ca2c2e63453433"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+                  "final_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+                  "redirect_chain": [
+                    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+                  ],
+                  "checked_at": "2026-10-13T16:38:51.813496+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "d31956c091f0ea65314e5b4782aafe9b2b663d899d0ddc24da81af301ada07c5"
+                },
+                "image": {
+                  "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+                  "final_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+                  "redirect_chain": [
+                    "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png"
+                  ],
+                  "checked_at": "2026-10-13T16:39:17.573808+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "766ae3a14fe166b57754a575f5c78b2c123e38f44025e533f9c670ed5e48f855",
+                  "content_type": "image/png",
+                  "width": 1300,
+                  "height": 731,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "23646e4eaecc376cd723fef7275e02d2d8023e3324366fb39e3a9edceee81aed",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official October 13 Gemini 4 Argon launch hero showing a large translucent numeral 4 on a blue-to-cyan background. Its 1300 by 731 pixels were inspected directly; other page images are unrelated story cards or navigation icons."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Business and general AI-adoption news about Epic Games staffing and company strategy. It does not teach an implementation, launch a developer tool or API, or report technical research; mentioning Unreal developers does not make it a technical-audience article.",
+                "evidence_sha256": "42ffb375d3727fd492f97887ebc337e58d011eb92c700d88bd51e288e4c99ea9"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.shacknews.com/article/150982/tim-sweeney-epic-games-aims-to-survive-ai-revolution",
+                  "final_url": "https://www.shacknews.com/article/150982/tim-sweeney-epic-games-aims-to-survive-ai-revolution",
+                  "redirect_chain": [
+                    "https://www.shacknews.com/article/150982/tim-sweeney-epic-games-aims-to-survive-ai-revolution"
+                  ],
+                  "checked_at": "2026-10-13T16:40:34.354335+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "f61b1fa2e7f74d5db09a8f7904c28296377487c716e6f516f321d717c2a45eae"
+                },
+                "image": {
+                  "url": "https://shacknews-www.s3.amazonaws.com/assets/editorial/2026/10/tim-sweeney-epic-games-ai-pivot.JPG",
+                  "final_url": "https://shacknews-www.s3.amazonaws.com/assets/editorial/2026/10/tim-sweeney-epic-games-ai-pivot.JPG",
+                  "redirect_chain": [
+                    "https://shacknews-www.s3.amazonaws.com/assets/editorial/2026/10/tim-sweeney-epic-games-ai-pivot.JPG"
+                  ],
+                  "checked_at": "2026-10-13T16:39:41.615656+00:00",
+                  "content_type": "image/jpeg",
+                  "width": 914,
+                  "height": 920,
+                  "image_bytes_sha256": "9d44b96b044612045b7893ae59ceea9ecf85c6dfebfe959ab56872e89bcb7ddb",
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "Legible publisher-hosted screenshot of the exact Tim Sweeney AI-pivot statement and his follow-up about making code and content faster. The image shows the author and full quoted text; preferred over two inspected generic Sweeney portraits.",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "896ff808f565cde53c14700797c5783b4344e8c70888a5ef45cd6c3f3e3dcb45"
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "api",
+                "rationale": "The launch introduces specialized model architecture and developer-facing classification, extraction and summarization APIs for production agent workflows. Its main purpose is technical implementation rather than a general consumer model release.",
+                "evidence_sha256": "caccfda378d2c86cb7f2509e77f4bfd9770835131082e2853b0f87734cbde9b7"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
+                  "final_url": "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
+                  "redirect_chain": [
+                    "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents"
+                  ],
+                  "checked_at": "2026-10-13T19:00:42.038891+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "7014002e5cfc994372fb41cdc578770302535ed2c6b1ce9a320bf8bd757d2903"
+                },
+                "image": {
+                  "url": "https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6acdab828208336ba4c088f6_scaledown-overview.png",
+                  "final_url": "https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6acdab828208336ba4c088f6_scaledown-overview.png",
+                  "redirect_chain": [
+                    "https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6acdab828208336ba4c088f6_scaledown-overview.png"
+                  ],
+                  "checked_at": "2026-10-13T19:00:42.454599+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "7787e6ee356afda3ad1fbef918219f339dff6761c1cc6b645b98aae812cc1541",
+                  "content_type": "image/png",
+                  "width": 3200,
+                  "height": 1680,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "1397a1a325ced19f80b61dd694eea36933647e1773a9b953a8767435583aa94d",
+                  "relevance": "story_specific",
+                  "relevance_note": "Legible same-day LangChain partner diagram shows ScaleDown Extract, Summarize and Classify around a frontier agent model, alongside the existing Compress capability. Selected over the inspected title cover and narrower summarization/compression diagrams."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General-purpose personal assistant productivity update for everyday users; email, app cards, social search and document export, not an API, coding tool or research result.",
+                "evidence_sha256": "ad0781938d2c9140065c30e6832587c1b6a396ce6132eb7c4f85886716620a5a"
+              },
+              "quality": {
+                "article": {
+                  "url": "",
+                  "status": "blank_no_compliant_source",
+                  "checked_at": "2026-10-13T19:11:19.605091+00:00",
+                  "evidence_sha256": "ad0781938d2c9140065c30e6832587c1b6a396ce6132eb7c4f85886716620a5a"
+                },
+                "image": {
+                  "url": "https://uzgqbjufkfadoprvamcs.supabase.co/storage/v1/object/public/daily-img/grok-bot-email/grok-bot-inbox.jpg",
+                  "final_url": "https://uzgqbjufkfadoprvamcs.supabase.co/storage/v1/object/public/daily-img/grok-bot-email/grok-bot-inbox.jpg",
+                  "redirect_chain": [
+                    "https://uzgqbjufkfadoprvamcs.supabase.co/storage/v1/object/public/daily-img/grok-bot-email/grok-bot-inbox.jpg"
+                  ],
+                  "checked_at": "2026-10-13T19:12:32.520025+00:00",
+                  "content_type": "image/jpeg",
+                  "width": 2000,
+                  "height": 1154,
+                  "image_bytes_sha256": "e31aa9822d2ecc18266e5ee3acc5edfa124a0cdd7a93d75c0da429e2e46ab8d9",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "9edd45dd7b5b802f8a5919dbd9e9caf8d4bc1dba7469b6a0764e456beb9a9051",
+                  "pixels_inspected": true,
+                  "relevance": "topic_specific",
+                  "relevance_note": "Clean product art of the newly available mail.grokbot.com agent-email feature included in the Grok Bot 0.70.2 release roundup; does not depict every release feature.",
+                  "story_specific_available": false,
+                  "fallback_reason": "No compliant image specific to the full 0.70.2 release was located after checking the exact X announcement, official changelog, official product page, official Cursor agent-email documentation, and same-feature third-party reports. The exact release poster is hosted on policy-excluded pbs.twimg.com, while the official changelog has no inline image and its OG/product artwork uses policy-excluded x.ai hosts. This verified email-feature image illustrates a principal feature included in the roundup and is more informative than generic Grok Bot logos."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "The announcement describes an AI coding workflow in which Cursor executes backend changes, queries schemas and databases, reads logs, and deploys Supabase Edge Functions via MCP.",
+                "evidence_sha256": "030491f8e18a078cd71c4f02ffb6616f133faa63055f9548fa848a5e9d85a641"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot",
+                  "final_url": "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot",
+                  "redirect_chain": [
+                    "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot"
+                  ],
+                  "status_code": 200,
+                  "content_type": "text/html; charset=utf-8",
+                  "body_sha256": "5dba9e9ae481e5bcf6d1900844a3fb893b18c61eb97e90581b52b24f283374d1",
+                  "checked_at": "2026-10-13T19:18:43.393152+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "de5124dd94181c39022f063a4351604606a110cadccfedf3bed42f7392d731ae"
+                },
+                "image": {
+                  "url": "https://supabase.com/images/blog/2026-10-13-ship-changes-to-your-supabase-backend-with-grok-bot/og.png",
+                  "final_url": "https://supabase.com/images/blog/2026-10-13-ship-changes-to-your-supabase-backend-with-grok-bot/og.png",
+                  "redirect_chain": [
+                    "https://supabase.com/images/blog/2026-10-13-ship-changes-to-your-supabase-backend-with-grok-bot/og.png"
+                  ],
+                  "status_code": 200,
+                  "content_type": "image/png",
+                  "width": 2400,
+                  "height": 1260,
+                  "image_bytes_sha256": "e2ef1279285e367eae94a1b13c36edfe1bde9a534c8ce13f47eb46653d98cc80",
+                  "checked_at": "2026-10-13T19:18:13.086070+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "The official announcement graphic clearly reads Supabase is now available in Grok Bot, with the Supabase mark and Grok Bot icon. It is sharp and legible at 2400 by 1260 pixels.",
+                  "evidence_sha256": "73c0e004436e0be9bd8af249d73e64bc6ee07f7f668338738959abb784324350"
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General AI-company security news: a physical office recording-device investigation and a company claim that AI assisted forensic staff. It does not announce coding tools, APIs, token pricing or technical research.",
+                "evidence_sha256": "e770dabc44faf35bc5bdeeceae65d09242902169fec2f47a0cddc65a8a376900"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+                  "final_url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+                  "redirect_chain": [
+                    "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
+                  ],
+                  "checked_at": "2026-10-14T02:01:59.438825+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "b55254fcc3acd7703153f97a2ae18cdec8dbe7cfcd5fe2f926800d344ac93c0f"
+                },
+                "image": {
+                  "url": "https://assets.sfstandard.com/image/994911177489/image_k101cto9v97or3q5niul74237r/-S1200x848-FPNG",
+                  "final_url": "https://assets.sfstandard.com/image/994911177489/image_k101cto9v97or3q5niul74237r/-S1200x848-FPNG",
+                  "redirect_chain": [
+                    "https://assets.sfstandard.com/image/994911177489/image_k101cto9v97or3q5niul74237r/-S1200x848-FPNG"
+                  ],
+                  "checked_at": "2026-10-14T02:01:09.912421+00:00",
+                  "content_type": "image/png",
+                  "image_bytes_sha256": "d2811f372cd41921c76cc9313c79c8dad93a2b716e7d511004017817a5aeffb4",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "7cfe760a7b242b1ef94451d3ce7259dad7d636a66e8fd0ae60c3ab42894354ec",
+                  "width": 1200,
+                  "height": 848,
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "Two clear documentary evidence photographs: the concealed device behind a television with a red circle, and a close-up of the board and antenna on a wood floor. Labels Figure 1 and Figure 2 (Recording Device 1) are legible. Same device as DOJ evidence. Selected from the actual SF Standard article srcset, not a guessed or manually upscaled URL."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "The requested post introduces an installable personal file-search application for Mac users. Its primary purpose is finding ordinary photos, documents and media; optional code search and open-source implementation do not determine the audience.",
+                "evidence_sha256": "917cf0f7b370962ed1f214b23395d98407f0a19d937f8e1c16ade01b75a0574f"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://github.com/ARahim3/DigUp",
+                  "final_url": "https://github.com/ARahim3/DigUp",
+                  "redirect_chain": [
+                    "https://github.com/ARahim3/DigUp"
+                  ],
+                  "checked_at": "2026-10-14T02:51:22.765310Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "6822bc52235885a523098622008dfd67fcabffffc6046f2c3d81ae7523df64bd"
+                },
+                "image": {
+                  "url": "https://opengraph.githubassets.com/184b047dc1beae6005c65fa0a3bf569595032d7f119538dd06aba55a483ad392/ARahim3/DigUp",
+                  "final_url": "https://opengraph.githubassets.com/184b047dc1beae6005c65fa0a3bf569595032d7f119538dd06aba55a483ad392/ARahim3/DigUp",
+                  "redirect_chain": [
+                    "https://opengraph.githubassets.com/184b047dc1beae6005c65fa0a3bf569595032d7f119538dd06aba55a483ad392/ARahim3/DigUp"
+                  ],
+                  "checked_at": "2026-10-14T02:51:22.765310Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "5a516fdaa645759b6fceee4cf1db24fdb6fe2faa017370f3fded41f4c9a950f2",
+                  "content_type": "image/png",
+                  "width": 1200,
+                  "height": 600,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "bc4e62c6490544d0b48df244fb6bbca6a5d6fcc862386bee295e934ff919ee19",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official repository OpenGraph card names DigUp and describes its file-search functionality. Clear static alternative to its demo GIF, whose first frame contains only wallpaper."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "The article explains the architecture, implementation and scaling trade-offs of an internal version-control system for developers operating large AI-assisted codebases.",
+                "evidence_sha256": "b7e4144f490efc7677c6e0b4f71d765614ca647222d7f8ced5db71287b2b06a6"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+                  "final_url": "https://www.anthropic.com/engineering/redesigning-source-control",
+                  "redirect_chain": [
+                    "https://www.anthropic.com/engineering/redesigning-source-control"
+                  ],
+                  "checked_at": "2026-10-14T02:51:11.802344Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "b7e4144f490efc7677c6e0b4f71d765614ca647222d7f8ced5db71287b2b06a6"
+                },
+                "image": {
+                  "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cba1eaaa67385fd00f210badaacd147de480120b-3840x1718.png",
+                  "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cba1eaaa67385fd00f210badaacd147de480120b-3840x1718.png",
+                  "redirect_chain": [
+                    "https://www-cdn.anthropic.com/images/4zrzovbb/website/cba1eaaa67385fd00f210badaacd147de480120b-3840x1718.png"
+                  ],
+                  "checked_at": "2026-10-14T02:51:11.802344Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "39fa7544396d6cd6ad68e11baaf3a0f73b15c159a69082bb4e94ca7b43c9b1ca",
+                  "content_type": "image/png",
+                  "width": 3840,
+                  "height": 1718,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "634909d8216b0242a6a8708521cd55aaeec3fa271e06887c37c9255c37a7aafe",
+                  "relevance": "story_specific",
+                  "relevance_note": "Legible Scion checkout architecture diagram from the actual article, showing clients, daemon, regional cache, server and storage."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Broad public announcement of a new globally released AI model, covering consumer app and Search availability as well as businesses and developers. Technical examples do not turn this release item into implementation guidance.",
+                "evidence_sha256": "d22c2566e0fec210636a6e6ca74e04bfb8fd9e2232150766a1a2d1a3222c4067"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+                  "final_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+                  "redirect_chain": [
+                    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+                  ],
+                  "checked_at": "2026-10-14T02:52:12Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "d22c2566e0fec210636a6e6ca74e04bfb8fd9e2232150766a1a2d1a3222c4067"
+                },
+                "image": {
+                  "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+                  "final_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+                  "redirect_chain": [
+                    "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png"
+                  ],
+                  "checked_at": "2026-10-14T02:52:12Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "d22c2566e0fec210636a6e6ca74e04bfb8fd9e2232150766a1a2d1a3222c4067",
+                  "content_type": "image/png",
+                  "width": 1300,
+                  "height": 731,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "23646e4eaecc376cd723fef7275e02d2d8023e3324366fb39e3a9edceee81aed",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official release artwork shows a large translucent numeral 4 over a blue/cyan gradient. Crisp story-specific launch branding, no browser UI or unsupported performance claims."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Substantive model-routing and evaluation research for developers and researchers optimizing agent performance and cost.",
+                "evidence_sha256": "bcdff5a68cafd8c842fe86e3fb08b72b2ec78cdfd1dfc70bdddb260792bb7900"
+              },
+              "quality": {
+                "article": {
+                  "url": "",
+                  "status": "blank_no_compliant_source",
+                  "checked_at": "2026-10-14T02:52:59.603089Z",
+                  "evidence_sha256": "f114d867c1cf334f0a07971e8f986db528b64fb2fbae6cc44f0a01d96cdabd6f"
+                },
+                "image": {
+                  "url": "https://cdn.sanity.io/images/ybjf12mv/migration/a1d78d8cd0be306dabffe6a8cf40443cacd6d4ee-2200x1238.png?rect=0,42,2200,1155&w=1200&h=630&fit=crop",
+                  "final_url": "https://cdn.sanity.io/images/ybjf12mv/migration/a1d78d8cd0be306dabffe6a8cf40443cacd6d4ee-2200x1238.png?rect=0,42,2200,1155&w=1200&h=630&fit=crop",
+                  "redirect_chain": [
+                    "https://cdn.sanity.io/images/ybjf12mv/migration/a1d78d8cd0be306dabffe6a8cf40443cacd6d4ee-2200x1238.png?rect=0,42,2200,1155&w=1200&h=630&fit=crop"
+                  ],
+                  "checked_at": "2026-10-14T02:52:59.603089Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "f114d867c1cf334f0a07971e8f986db528b64fb2fbae6cc44f0a01d96cdabd6f",
+                  "content_type": "image/png",
+                  "width": 1200,
+                  "height": 630,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "ee8b3fd8f4cbc41d9b67cb78b1b5f97bd46b0b5d738fc7a2c38bcc95956cac8b",
+                  "relevance": "story_specific",
+                  "relevance_note": "Actual PNG pixels inspected: Arena branded Max Now in Agent Arena graphic, with Max Router +14.7%, $3.27 cost-performance chart. Chart is historical launch-test illustration; not live leaderboard."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer banking access and AI-agent security policy reporting, not implementation guidance, developer tooling, or research.",
+                "evidence_sha256": "37f2adfda1f2061253f7f088458b2f8bbbc7eba9c57a54690bd47b10f95e2c43"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.linkedin.com/posts/cnbc_jpmorgan-chase-blocks-outside-ai-agents-like-activity-7515851413512699905-Sn0m",
+                  "final_url": "https://www.linkedin.com/posts/cnbc_jpmorgan-chase-blocks-outside-ai-agents-like-activity-7515851413512699905-Sn0m",
+                  "redirect_chain": [
+                    "https://www.linkedin.com/posts/cnbc_jpmorgan-chase-blocks-outside-ai-agents-like-activity-7515851413512699905-Sn0m"
+                  ],
+                  "checked_at": "2026-10-14T02:52:24.864271Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "23fbb8e174a7d0a7b632bbf44ea4040b933df1637cfb0265fb7e6ec5157e03b5"
+                },
+                "image": {
+                  "url": "https://wealthbridgemanagement.com/wp-content/uploads/2026/10/108403281-1791898216071-Untitled-4.jpg",
+                  "final_url": "https://wealthbridgemanagement.com/wp-content/uploads/2026/10/108403281-1791898216071-Untitled-4.jpg",
+                  "redirect_chain": [
+                    "https://wealthbridgemanagement.com/wp-content/uploads/2026/10/108403281-1791898216071-Untitled-4.jpg"
+                  ],
+                  "checked_at": "2026-10-14T02:52:24.864271Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "c0a96bae2f93fcda5a72c98912567dd266348b65283829f258e9e082244eea49",
+                  "content_type": "image/jpeg",
+                  "width": 1920,
+                  "height": 1080,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "356e1ef584c396872ba6c9d442ccf9677bb3e1d6129d10265a00b60ac095e756",
+                  "relevance": "story_specific",
+                  "relevance_note": "Exact same-event article lead image, showing the bank CEO and Meta CEO, verified against article caption and visually inspected."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "The user requests a broad AI safety warning about potential device-to-device spread, experimental limits and uncertainty, rather than the technical methods or implementation of the underlying research.",
+                "evidence_sha256": "2d0c2ec8e5420808f061919a3f50a7658001c8a254b60e674f5078d07cf26ca9"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.anthropic.com/research/self-replicating-ai",
+                  "final_url": "https://www.anthropic.com/research/self-replicating-ai",
+                  "redirect_chain": [
+                    "https://www.anthropic.com/research/self-replicating-ai"
+                  ],
+                  "checked_at": "2026-10-14T02:51:35.350399+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "2d0c2ec8e5420808f061919a3f50a7658001c8a254b60e674f5078d07cf26ca9"
+                },
+                "image": {
+                  "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+                  "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+                  "redirect_chain": [
+                    "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png"
+                  ],
+                  "checked_at": "2026-10-14T02:51:35.350399+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "c23a976a4331322fc6f0143e6795bb85108466a8617f0266b11dab0ecb869a4e",
+                  "content_type": "image/png",
+                  "width": 2360,
+                  "height": 860,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "ebf6f97d14ee9049d307dad4d3818f3ccd84e8067c8aae3a50ee7536d0a250a6",
+                  "relevance": "story_specific",
+                  "relevance_note": "Legible four-stage official diagram of the replication lifecycle. Full colored version more informative than faded-stage variant."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A broadly available creator-facing speech model launch for narration, audio drama, games and short videos; the API and technical appendix are supporting access and background, not the main purpose of this item.",
+                "evidence_sha256": "c9b508f46ff2854c0b05dd7c17c1d34632831256df8048c9059c218845124fb4"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://fish.audio/blog/fish-audio-drama-3/",
+                  "final_url": "https://fish.audio/blog/fish-audio-drama-3/",
+                  "redirect_chain": [
+                    "https://fish.audio/blog/fish-audio-drama-3/"
+                  ],
+                  "checked_at": "2026-10-14T02:54:52Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "c611b672ea1d39a4d33b4321278b8b48b54ee480efaab75f24ce6fc63c44aafb"
+                },
+                "image": {
+                  "url": "https://public-platform.r2.fish.audio/media/blog-images/d42b7127d9f24eb3b222388bf81d6885",
+                  "final_url": "https://public-platform.r2.fish.audio/media/blog-images/d42b7127d9f24eb3b222388bf81d6885",
+                  "redirect_chain": [
+                    "https://public-platform.r2.fish.audio/media/blog-images/d42b7127d9f24eb3b222388bf81d6885"
+                  ],
+                  "checked_at": "2026-10-14T02:54:52Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "9ff9d1d44ab43fd81dccec8de7a4b2a1634fb5d5982c2d825221520336ca54d7",
+                  "content_type": "image/jpeg",
+                  "width": 1920,
+                  "height": 1080,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "2b759d1c5a8a54efbe66eef4a83dfb28f08b1fb60a5263f26374073c758dd302",
+                  "relevance": "story_specific",
+                  "relevance_note": "Inspected actual browser-displayed image pixels: Fish Audio branding, four people in a kitchen, Uncle Roger label and large Drama 3 text. Clear story-specific launch artwork, no browser chrome in source image. OG metadata says 1200x630 but decoded image is actually 1920x1080."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General news about a criminal charge and corporate physical security incident; AI assistance is contextual rather than technical implementation guidance.",
+                "evidence_sha256": "27b1eb4f09b0447c14c71aefe38ddf4e81dce3272b43d58b423cdb12c8828037"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General forecast about the timing of AI self-improvement. Research benchmarks support the forecast, but the article centers on its predicted timeline rather than technical methods or implementation.",
+                "evidence_sha256": "0254ceca067b4af7c1d08aceeefcf5b4bc41c824b40eb4c7272a318419b7742e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General business news about bankruptcy, licensing and a potential asset sale affecting a consumer AI platform.",
+                "evidence_sha256": "5068319df0c83d5d86fcbcd381599ef0e75408dd41305619a51dfe3890c60e89"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-14T12:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },

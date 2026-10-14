@@ -1,0 +1,142 @@
+[
+  {
+    "title": "NewEyes AI Brings a Visual Assistant to Glasses and Earphones",
+    "description": "Collov Labs introduced NewEyes AI, a personal assistant it says can interpret users’ surroundings through cameras, respond through earphones, and remember context between interactions. The company’s Sight glasses and open-ear Halo earphones are available for preorder and work with its mobile app.",
+    "image_url": "https://www.neweyesai.com/aiglasses/sight-clear.png",
+    "learn_more_url": "https://www.neweyesai.com/store",
+    "date": "2026-10-14",
+    "source": "Collov Labs"
+  },
+  {
+    "title": "New AI Model: Google Releases Gemini 4 Argon Globally",
+    "description": "Google released Gemini 4 Argon globally, including access for Google AI Pro and Ultra subscribers in the Gemini app and AI Mode in Search. The company says the model helps people tackle complex coding, business, cybersecurity and scientific tasks, and is also available through its developer and enterprise platforms.",
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+    "learn_more_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "date": "2026-10-14",
+    "source": "Google"
+  },
+  {
+    "title": "Epic Games CEO Announces Push to Make Games Faster With AI",
+    "description": "Epic Games CEO Tim Sweeney says the company is reassigning developers to accelerate AI adoption. He says the goal is to help teams produce more and better work, rather than achieve the same output with fewer people, and to share those gains with other developers using Unreal Engine.",
+    "image_url": "https://shacknews-www.s3.amazonaws.com/assets/editorial/2026/10/tim-sweeney-epic-games-ai-pivot.JPG",
+    "learn_more_url": "https://www.shacknews.com/article/150982/tim-sweeney-epic-games-aims-to-survive-ai-revolution",
+    "date": "2026-10-14",
+    "source": "Shacknews"
+  },
+  {
+    "title": "ScaleDown Launches Specialized Models to Lower AI Costs",
+    "description": "ScaleDown introduced three task-specific Constrained Decoding Models for classification, information extraction and summarization. The company says they reduce the cost and latency of routine AI workloads, with support for up to one million tokens of text and image input. LangChain added an integration for agent workflows; general-purpose models remain necessary for open-ended generation.",
+    "image_url": "https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6acdab828208336ba4c088f6_scaledown-overview.png",
+    "learn_more_url": "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
+    "date": "2026-10-14",
+    "source": "LangChain",
+    "ds": true
+  },
+  {
+    "title": "Grok Bot Adds Email, In-Chat Apps and Public X Search",
+    "description": "Eric Zakariasson says Grok Bot 0.70.2 adds an email address shared across each account’s bots, approval-required email drafts, interactive Figma, Notion and Canva cards, and public X searches without a connected account. The update also suggests bot templates, exports shared pages as PDFs and checks existing user approval before irreversible actions.",
+    "image_url": "https://uzgqbjufkfadoprvamcs.supabase.co/storage/v1/object/public/daily-img/grok-bot-email/grok-bot-inbox.jpg",
+    "learn_more_url": "",
+    "date": "2026-10-14",
+    "source": "Grok Bot"
+  },
+  {
+    "title": "Grok Bot and Cursor Update Supabase Backends From Chat",
+    "description": "Supabase now connects Grok Bot to Cursor so teams can request backend changes in chat. Cursor writes and runs the code through Supabase’s MCP server, with tools to query databases, inspect schemas, read logs and deploy Edge Functions. Supabase is also joining the SpaceXAI Partner Network.",
+    "image_url": "https://supabase.com/images/blog/2026-10-13-ship-changes-to-your-supabase-backend-with-grok-bot/og.png",
+    "learn_more_url": "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot",
+    "date": "2026-10-14",
+    "source": "Supabase",
+    "ds": true
+  },
+  {
+    "title": "OpenAI Says AI Helped Trace a Hidden Office Recorder",
+    "description": "OpenAI says its models helped forensic staff analyze a hidden office recording device and identify an employee suspected of planting it. The employee was fired and arrested; allegations remain unproven and the FBI investigation continues. OpenAI reports no indication that model weights, source code or customer data were improperly accessed or taken.",
+    "image_url": "https://assets.sfstandard.com/image/994911177489/image_k101cto9v97or3q5niul74237r/-S1200x848-FPNG",
+    "learn_more_url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+    "date": "2026-10-14",
+    "source": "The San Francisco Standard"
+  },
+  {
+    "title": "AI Helps Find Files on Your Mac by Their Contents",
+    "description": "DigUp is a free, open-source Mac app that uses Google’s EmbeddingGemma 2 to find photos, documents, audio and video through natural-language searches. Its developer says indexing and searches stay on the device. Results can open at a matching page or timestamp. It requires Apple Silicon and macOS 14 or later.",
+    "image_url": "https://opengraph.githubassets.com/184b047dc1beae6005c65fa0a3bf569595032d7f119538dd06aba55a483ad392/ARahim3/DigUp",
+    "learn_more_url": "https://github.com/ARahim3/DigUp",
+    "date": "2026-10-14",
+    "source": "GitHub"
+  },
+  {
+    "title": "Anthropic Rebuilds Source Control for AI Coding",
+    "description": "Anthropic says it replaced Git internally with Scion after AI-assisted coding pushed daily code merges above 30,000. Built and adopted in five months, the system moves version-control operations to servers and fetches files on demand. The company describes the design for developers while cautioning that Scion is unsuitable as a general-purpose Git replacement.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cba1eaaa67385fd00f210badaacd147de480120b-3840x1718.png",
+    "learn_more_url": "https://www.anthropic.com/engineering/redesigning-source-control",
+    "date": "2026-10-14",
+    "source": "Anthropic",
+    "ds": true
+  },
+  {
+    "title": "New AI Model: Google Releases Gemini 4 Argon Globally",
+    "description": "Google released Gemini 4 Argon globally, including access for Google AI Pro and Ultra subscribers in the Gemini app and AI Mode in Search. The company says the model helps people tackle complex coding, business, cybersecurity and scientific tasks, and is also available through its developer and enterprise platforms.",
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+    "learn_more_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "date": "2026-10-14",
+    "source": "Google"
+  },
+  {
+    "title": "Arena’s Max Selects AI Models to Lower Task Costs",
+    "description": "Arena introduced an agentic Max router that selects between Claude Fable 5.1 and GPT-6 Astra. In Arena’s live test, it reported a +14.7% net-improvement score at $3.27 median task cost, roughly matching Fable 5.1 (Max) for 37% less. Results reflect that test period; Max is available in Agent Mode for a limited time.",
+    "image_url": "https://cdn.sanity.io/images/ybjf12mv/migration/a1d78d8cd0be306dabffe6a8cf40443cacd6d4ee-2200x1238.png?rect=0,42,2200,1155&w=1200&h=630&fit=crop",
+    "learn_more_url": "",
+    "date": "2026-10-14",
+    "source": "Arena",
+    "ds": true
+  },
+  {
+    "title": "JPMorgan Blocks Outside AI Agents from Operating Customer Accounts",
+    "description": "JPMorgan Chase is blocking outside AI agents from operating retail customer accounts, citing security risks, CNBC reports. Secure, customer-authorized read-only data sharing remains supported through open banking providers. The bank is piloting its own Smart Cash tool but has not given a timeline for allowing external agents to transact directly.",
+    "image_url": "https://wealthbridgemanagement.com/wp-content/uploads/2026/10/108403281-1791898216071-Untitled-4.jpg",
+    "learn_more_url": "https://www.linkedin.com/posts/cnbc_jpmorgan-chase-blocks-outside-ai-agents-like-activity-7515851413512699905-Sn0m",
+    "date": "2026-10-14",
+    "source": "CNBC"
+  },
+  {
+    "title": "Anthropic Warns AI Could Soon Spread Across Everyday Devices",
+    "description": "Anthropic says small AI models may soon spread across connected devices. A 9-billion-parameter model set up inference on eight of nine hardware types; larger models completed simplified replication trials. Researchers predict smaller models could reach that capability by late 2026, but have not demonstrated a self-sustaining, real-world AI worm.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+    "learn_more_url": "https://www.anthropic.com/research/self-replicating-ai",
+    "date": "2026-10-14",
+    "source": "Anthropic"
+  },
+  {
+    "title": "New AI Model: Fish Audio Drama 3 Adds Word-Level Voice Direction",
+    "description": "Fish Audio launched Drama 3, a text-to-speech model that lets users direct emotion and delivery in plain language, including individual words and mid-sentence changes. It supports 83 languages and is available on the web, iOS, Android and through an API. Interactive revision and targeted audio editing remain in invite-only testing.",
+    "image_url": "https://public-platform.r2.fish.audio/media/blog-images/d42b7127d9f24eb3b222388bf81d6885",
+    "learn_more_url": "https://fish.audio/blog/fish-audio-drama-3/",
+    "date": "2026-10-14",
+    "source": "Fish Audio"
+  },
+  {
+    "title": "Former OpenAI Engineer Charged Over Hidden Office Recorder",
+    "description": "U.S. prosecutors charged former OpenAI engineer Abdulrahman Alfozan with allegedly trying to record executive meetings secretly. Prosecutors say a recorder was found behind a television in its San Francisco office on September 30. OpenAI says its models helped identify him and it found no indications he improperly accessed or removed model weights, source code or customer data.",
+    "image_url": "https://www.justice.gov/sites/default/files/styles/banner/public/2026-10/alfozanrecordingdevice_and_placement.png?itok=WE6UuJ9s",
+    "learn_more_url": "https://www.justice.gov/usao-ndca/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai-san",
+    "date": "2026-10-14",
+    "source": "justice.gov"
+  },
+  {
+    "title": "Jack Clark Revises AI Self-Improvement Forecast to 2027",
+    "description": "Jack Clark now thinks AI systems could become capable of repeatedly improving themselves in 2027, a year earlier than he previously expected. He cites mathematical research progress and TasteVal, which tests how models plan experiments and interpret results. Its creators report improving performance but warn that tasks are easy to verify and their human baseline excludes top researchers.",
+    "image_url": "https://substackcdn.com/image/youtube/w_728,c_limit/4v837X1Py4M",
+    "learn_more_url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+    "date": "2026-10-14",
+    "source": "importai.substack.com"
+  },
+  {
+    "title": "Character.AI Files for Chapter 11, Plans Asset Sale",
+    "description": "Character.AI filed for Chapter 11 to pursue a court-supervised asset sale. The company says Disney agreed to a $20 million opening bid for a nonexclusive, permanent license to some intellectual property and will provide transition services. Character.AI says its platform remains available but will close if no purchase supports continued operations.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-1.24.23PM.png?w=1024",
+    "learn_more_url": "https://www.businesswire.com/news/home/20261012656385/en/Character.ai-Initiates-Voluntary-Chapter-11-Proceeding-to-Facilitate-Value-Maximizing-Sale-Process",
+    "date": "2026-10-14",
+    "source": "businesswire.com"
+  }
+]
