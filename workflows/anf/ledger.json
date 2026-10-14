@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 336,
-  "updated_at": "2026-10-14T03:00:14.581702+00:00",
+  "generation": 337,
+  "updated_at": "2026-10-14T03:00:32.915650+00:00",
   "next_id": 113,
   "records": [
     {
@@ -13388,6 +13388,18 @@
         ],
         "duplicates": []
       }
+    },
+    "37d9d406393ef120e6454b0b50d5b9f6ff0c4436f6d3d0763e13321d673c2ee6": {
+      "sha256": "4cc0858ee116a1ef06a091735d59d897e40df14263b228d32a8213088a275145",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 112,
+          "revision": 1,
+          "sha256": "1158d392bf5197b5c91e2c6dbfc4d8992493a16ace7f5f747fa1cb0e1d5bdd0b"
+        },
+        "editorial_sha256": "ea87b5e63dfa6555a64f66308d3b519e01b9ddd5781526dff01097dc4a2673e9"
+      }
     }
   },
   "migration": {
@@ -17436,6 +17448,58 @@
         "sha256": "f2d23c78621a2b0b7afaa0fa2f7ddce6149140d4d014cf695f08419597bdf9b8",
         "reviewed_at": "2026-10-14T02:59:46.035078+00:00",
         "operation_id": "c93147d5b290f0884126db99b2745e4c8eb9bf1b7b0d056943b10a577885b7c2"
+      }
+    ],
+    "112:1": [
+      {
+        "reference": {
+          "id": 112,
+          "revision": 1,
+          "sha256": "1158d392bf5197b5c91e2c6dbfc4d8992493a16ace7f5f747fa1cb0e1d5bdd0b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A broadly available creator-facing speech model launch for narration, audio drama, games and short videos; the API and technical appendix are supporting access and background, not the main purpose of this item.",
+            "evidence_sha256": "c9b508f46ff2854c0b05dd7c17c1d34632831256df8048c9059c218845124fb4"
+          },
+          "quality": {
+            "article": {
+              "url": "https://fish.audio/blog/fish-audio-drama-3/",
+              "final_url": "https://fish.audio/blog/fish-audio-drama-3/",
+              "redirect_chain": [
+                "https://fish.audio/blog/fish-audio-drama-3/"
+              ],
+              "checked_at": "2026-10-14T02:54:52Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "c611b672ea1d39a4d33b4321278b8b48b54ee480efaab75f24ce6fc63c44aafb"
+            },
+            "image": {
+              "url": "https://public-platform.r2.fish.audio/media/blog-images/d42b7127d9f24eb3b222388bf81d6885",
+              "final_url": "https://public-platform.r2.fish.audio/media/blog-images/d42b7127d9f24eb3b222388bf81d6885",
+              "redirect_chain": [
+                "https://public-platform.r2.fish.audio/media/blog-images/d42b7127d9f24eb3b222388bf81d6885"
+              ],
+              "checked_at": "2026-10-14T02:54:52Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "9ff9d1d44ab43fd81dccec8de7a4b2a1634fb5d5982c2d825221520336ca54d7",
+              "content_type": "image/jpeg",
+              "width": 1920,
+              "height": 1080,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "2b759d1c5a8a54efbe66eef4a83dfb28f08b1fb60a5263f26374073c758dd302",
+              "relevance": "story_specific",
+              "relevance_note": "Inspected actual browser-displayed image pixels: Fish Audio branding, four people in a kitchen, Uncle Roger label and large Drama 3 text. Clear story-specific launch artwork, no browser chrome in source image. OG metadata says 1200x630 but decoded image is actually 1920x1080."
+            }
+          }
+        },
+        "sha256": "ea87b5e63dfa6555a64f66308d3b519e01b9ddd5781526dff01097dc4a2673e9",
+        "reviewed_at": "2026-10-14T03:00:32.915650+00:00",
+        "operation_id": "37d9d406393ef120e6454b0b50d5b9f6ff0c4436f6d3d0763e13321d673c2ee6"
       }
     ]
   }
