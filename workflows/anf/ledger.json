@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 355,
-  "updated_at": "2026-10-14T16:18:41.402213+00:00",
+  "generation": 356,
+  "updated_at": "2026-10-14T16:20:45.271795+00:00",
   "next_id": 119,
   "records": [
     {
@@ -15198,6 +15198,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e22bc5fbac174e27f4657f32227e1c372ec67af248264886644ea464a4e04c04": {
+      "sha256": "76c53eea8b4f6ae1f7dbd07fafc962fb259ddcc433de235e07c961d42487be79",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 118,
+          "revision": 1,
+          "sha256": "01797823f4a2f7f1474a61256769992b628a664dd1a5a3bcea7f0c63225bb175"
+        },
+        "editorial_sha256": "ccb1fb61274aa6fb5904e5f62289b0e4778866658f1cd7770ba70e73b46bfd06"
+      }
     }
   },
   "migration": {
@@ -19460,6 +19472,58 @@
         "sha256": "180b44c82e43fa8056dfd1449914b7c8719163a558d5cc6f21fab04cc7922c4f",
         "reviewed_at": "2026-10-14T15:04:38.030140+00:00",
         "operation_id": "d8f761d1726ace04ed5687ae1ca32e088606b8ead39bcc9a3add7f8dcaa5bdc8"
+      }
+    ],
+    "118:1": [
+      {
+        "reference": {
+          "id": 118,
+          "revision": 1,
+          "sha256": "01797823f4a2f7f1474a61256769992b628a664dd1a5a3bcea7f0c63225bb175"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The preprint derives exact three-dimensional plasma-equilibrium solutions, explains agent-assisted mathematical research and supplies verification benchmarks for simulation-code researchers.",
+            "evidence_sha256": "934ec38d1f5798b50b0d58c3f9b3b32df8a9674d0d611aa7827645a226a9ca50"
+          },
+          "quality": {
+            "article": {
+              "url": "https://arxiv.org/abs/2610.07304",
+              "final_url": "https://arxiv.org/abs/2610.07304",
+              "redirect_chain": [
+                "https://arxiv.org/abs/2610.07304"
+              ],
+              "checked_at": "2026-10-14T16:15:00.397398+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "0a497cbfe538cd9b64b31573d3faaf254f6f267647b988a12fe7d6337509df36"
+            },
+            "image": {
+              "url": "https://arxiv.org/html/2610.07304v1/figures/fig_f1_3d_alpha_p050.png",
+              "final_url": "https://arxiv.org/html/2610.07304v1/figures/fig_f1_3d_alpha_p050.png",
+              "redirect_chain": [
+                "https://arxiv.org/html/2610.07304v1/figures/fig_f1_3d_alpha_p050.png"
+              ],
+              "checked_at": "2026-10-14T16:16:04.283686+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "1890599c4e904420577df3de63da2f37cef1778f522c62db81813072ed6f17ca",
+              "content_type": "image/png",
+              "width": 2165,
+              "height": 1757,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "adafd4349dbd3bae30ea01ecc4ce0b355f38d344a3571d70b6b689d69e86353c",
+              "relevance": "story_specific",
+              "relevance_note": "Figure 2(c) from the exact paper shows a translucent blue boundary flux surface, red magnetic axis and dark closed field line for a symmetry-breaking parameter of +0.5. The plot is sharp and its axes legible."
+            }
+          }
+        },
+        "sha256": "ccb1fb61274aa6fb5904e5f62289b0e4778866658f1cd7770ba70e73b46bfd06",
+        "reviewed_at": "2026-10-14T16:20:45.271795+00:00",
+        "operation_id": "e22bc5fbac174e27f4657f32227e1c372ec67af248264886644ea464a4e04c04"
       }
     ]
   }
