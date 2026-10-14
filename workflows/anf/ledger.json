@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 335,
-  "updated_at": "2026-10-14T02:59:46.035078+00:00",
-  "next_id": 112,
+  "generation": 336,
+  "updated_at": "2026-10-14T03:00:14.581702+00:00",
+  "next_id": 113,
   "records": [
     {
       "id": 1,
@@ -1486,6 +1486,19 @@
           "sha256": "53310ef93182ca80e328181249237ffa84e15a34a5bc3ec2dbedcf430df58c2f",
           "source": "Anthropic",
           "request_id": "cc5a9d8e7bcd407000cadfc6f2c09fec8f84279160adcd3376c9de24d59d8e7c",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T03:00:14.581702+00:00",
+          "block": "Title: New AI Model: Fish Audio Drama 3 Adds Word-Level Voice Direction\nURL: https://fish.audio/blog/fish-audio-drama-3/\nImage URL: https://public-platform.r2.fish.audio/media/blog-images/d42b7127d9f24eb3b222388bf81d6885\nSummary: Fish Audio launched Drama 3, a text-to-speech model that lets users direct emotion and delivery in plain language, including individual words and mid-sentence changes. It supports 83 languages and is available on the web, iOS, Android and through an API. Interactive revision and targeted audio editing remain in invite-only testing.",
+          "sha256": "1158d392bf5197b5c91e2c6dbfc4d8992493a16ace7f5f747fa1cb0e1d5bdd0b",
+          "source": "Fish Audio",
+          "request_id": "3056f8c1500337ae6088388427ce8f67810fe60abaad333d682d2f60a30194a0",
           "mode": "standard"
         }
       ]
@@ -3298,13 +3311,21 @@
       ]
     },
     "3056f8c1500337ae6088388427ce8f67810fe60abaad333d682d2f60a30194a0": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T02:49:48.434167+00:00",
       "received_sequence": 103,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-14T03:00:14.581702+00:00",
+      "records": [
+        {
+          "id": 112,
+          "revision": 1,
+          "sha256": "1158d392bf5197b5c91e2c6dbfc4d8992493a16ace7f5f747fa1cb0e1d5bdd0b"
+        }
+      ]
     }
   },
   "batches": {
@@ -13351,6 +13372,21 @@
           "sha256": "53310ef93182ca80e328181249237ffa84e15a34a5bc3ec2dbedcf430df58c2f"
         },
         "editorial_sha256": "f2d23c78621a2b0b7afaa0fa2f7ddce6149140d4d014cf695f08419597bdf9b8"
+      }
+    },
+    "3c1d46695f6c8b3a8146db4e62e2c15dcffb8a1af8b4099d971612f2e6310cb0": {
+      "sha256": "b61e02df8b37418dcd8f9a77c117f1189470413ed4f93dab986597672f144d65",
+      "result": {
+        "status": "finalized",
+        "request_id": "3056f8c1500337ae6088388427ce8f67810fe60abaad333d682d2f60a30194a0",
+        "records": [
+          {
+            "id": 112,
+            "revision": 1,
+            "sha256": "1158d392bf5197b5c91e2c6dbfc4d8992493a16ace7f5f747fa1cb0e1d5bdd0b"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
