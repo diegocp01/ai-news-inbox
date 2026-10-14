@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 361,
-  "updated_at": "2026-10-14T20:25:09.216660+00:00",
+  "generation": 362,
+  "updated_at": "2026-10-14T20:26:41.593308+00:00",
   "next_id": 121,
   "records": [
     {
@@ -15326,6 +15326,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9dda9d654f9209a34bb132238d296f25a5adcf719db8ade28102f3f15554567f": {
+      "sha256": "70870b03f15a26fcebc4325e35e5256362cada7f055c7ea8acba710f5a154f19",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 120,
+          "revision": 1,
+          "sha256": "e4752b3af46fecf3e76605a2a2a7209dc5938aa6c02d044da3dc1d827e4abaed"
+        },
+        "editorial_sha256": "21b807d446b0d0ae3da6196ef274aeb594f7632752b236325e64a1b6665642ad"
+      }
     }
   },
   "migration": {
@@ -19692,6 +19704,58 @@
         "sha256": "1a166c76a67800a13b358b1ae4d9d682bf77ee2c39fed3a1855f59c435cebfac",
         "reviewed_at": "2026-10-14T16:23:38.867989+00:00",
         "operation_id": "3eae7fd9b437f7abcff2512cf9e3acee6b1f8bbe8f618eb16a1ef39c343efebc"
+      }
+    ],
+    "120:1": [
+      {
+        "reference": {
+          "id": 120,
+          "revision": 1,
+          "sha256": "e4752b3af46fecf3e76605a2a2a7209dc5938aa6c02d044da3dc1d827e4abaed"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public model-launch news about conversational voice and customer-service use. API price is availability context; this is not an implementation guide or research paper.",
+            "evidence_sha256": "7b17d36cf908652918ef6e9352f963d7ff9d68c949583188dde212305b3f4b55"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.basenor.com/blogs/news/grok-voice-3-0-launches-already-handling-starlink-and-tesla-calls",
+              "final_url": "https://www.basenor.com/blogs/news/grok-voice-3-0-launches-already-handling-starlink-and-tesla-calls",
+              "redirect_chain": [
+                "https://www.basenor.com/blogs/news/grok-voice-3-0-launches-already-handling-starlink-and-tesla-calls"
+              ],
+              "checked_at": "2026-10-14T20:20:24.330093+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "51f83c763403c9477cce2d1f5731353908745f1f82f0dc5c6bba18262c1c0faf"
+            },
+            "image": {
+              "url": "https://cdn.shopify.com/s/files/1/0278/3841/4901/files/tweet-photo-6f686ed64d78.jpg?v=1792001139",
+              "final_url": "https://cdn.shopify.com/s/files/1/0278/3841/4901/files/tweet-photo-6f686ed64d78.jpg?v=1792001139",
+              "redirect_chain": [
+                "https://cdn.shopify.com/s/files/1/0278/3841/4901/files/tweet-photo-6f686ed64d78.jpg?v=1792001139"
+              ],
+              "status": "accessible_here",
+              "content_type": "image/jpeg",
+              "width": 1199,
+              "height": 717,
+              "image_bytes_sha256": "edbf85f83bc5c82e350c92eee7e5b503f1789439e07b69cae6d4f38bdf622d4d",
+              "checked_at": "2026-10-14T20:19:33.034918+00:00",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Clear launch comparison chart headed Grok Voice 3.0, matching the dated official announcement table and its October 13 Artificial Analysis attribution. Selected over forbidden-host official artwork and generic publisher photography.",
+              "evidence_sha256": "766c10ed114abae77e9f4d6c5d2438b180718b8967768f95edc09de42955bd9e"
+            }
+          }
+        },
+        "sha256": "21b807d446b0d0ae3da6196ef274aeb594f7632752b236325e64a1b6665642ad",
+        "reviewed_at": "2026-10-14T20:26:41.593308+00:00",
+        "operation_id": "9dda9d654f9209a34bb132238d296f25a5adcf719db8ade28102f3f15554567f"
       }
     ]
   }
