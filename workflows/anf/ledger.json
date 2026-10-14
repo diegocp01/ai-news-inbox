@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 340,
-  "updated_at": "2026-10-14T12:08:00.598989+00:00",
+  "generation": 341,
+  "updated_at": "2026-10-14T12:19:36.566421+00:00",
   "next_id": 116,
   "records": [
     {
@@ -13514,6 +13514,18 @@
         },
         "editorial_sha256": "59a4b11e5d3a39da1e9bee192d616cc3589386cf910b413a8030970e8e8d76b9"
       }
+    },
+    "943a9fe0ed866578d301bfe48c7962b1ff74664b0facece4865401b4159b5ca8": {
+      "sha256": "b7c6412caf70d7e0592a91d9216ea986674dd1491e24202e613eb5810c16ed01",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 114,
+          "revision": 1,
+          "sha256": "0254ceca067b4af7c1d08aceeefcf5b4bc41c824b40eb4c7272a318419b7742e"
+        },
+        "editorial_sha256": "420673994f14548342438397fa4cb3d3840c1d34da2b94efb6a5834f09921233"
+      }
     }
   },
   "migration": {
@@ -17634,6 +17646,26 @@
         "sha256": "59a4b11e5d3a39da1e9bee192d616cc3589386cf910b413a8030970e8e8d76b9",
         "reviewed_at": "2026-10-14T12:08:00.598989+00:00",
         "operation_id": "5042306ca78fb7b663f4d6446dd6a9995ec02c37c52b3776c182f202ab38c36e"
+      }
+    ],
+    "114:1": [
+      {
+        "reference": {
+          "id": 114,
+          "revision": 1,
+          "sha256": "0254ceca067b4af7c1d08aceeefcf5b4bc41c824b40eb4c7272a318419b7742e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General forecast about the timing of AI self-improvement. Research benchmarks support the forecast, but the article centers on its predicted timeline rather than technical methods or implementation.",
+            "evidence_sha256": "0254ceca067b4af7c1d08aceeefcf5b4bc41c824b40eb4c7272a318419b7742e"
+          }
+        },
+        "sha256": "420673994f14548342438397fa4cb3d3840c1d34da2b94efb6a5834f09921233",
+        "reviewed_at": "2026-10-14T12:19:36.566421+00:00",
+        "operation_id": "943a9fe0ed866578d301bfe48c7962b1ff74664b0facece4865401b4159b5ca8"
       }
     ]
   }
