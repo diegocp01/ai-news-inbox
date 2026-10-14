@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 330,
-  "updated_at": "2026-10-14T02:56:21.699546+00:00",
+  "generation": 331,
+  "updated_at": "2026-10-14T02:56:40.780728+00:00",
   "next_id": 110,
   "records": [
     {
@@ -13244,6 +13244,18 @@
         ],
         "duplicates": []
       }
+    },
+    "85c61fecc4faf4628b8b2a06b768db4c671bfe5b6284a6a10dbd8aa2329fff41": {
+      "sha256": "e43f78b4f4d51bb116fd35a50d7a100f9441f4d1e498727928df1b2afb764293",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 109,
+          "revision": 1,
+          "sha256": "9114b625161c4ea2f89f4f75e8b02fed4160ca2f6bd9db3cae5c3ee78267320c"
+        },
+        "editorial_sha256": "e447588fa956d0bfd69eaf080af6573ec5ece448ebe094292a27ba27c2196856"
+      }
     }
   },
   "migration": {
@@ -17142,6 +17154,52 @@
         "sha256": "f81cd8460b818d22674ac25927e01b9450b5c4477535d649d1434afaa76ea8df",
         "reviewed_at": "2026-10-14T02:55:53.068411+00:00",
         "operation_id": "d10be1fa344d5badcb25f0dbb32f8d98132f942598301fa338a5baf65a8b9102"
+      }
+    ],
+    "109:1": [
+      {
+        "reference": {
+          "id": 109,
+          "revision": 1,
+          "sha256": "9114b625161c4ea2f89f4f75e8b02fed4160ca2f6bd9db3cae5c3ee78267320c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Substantive model-routing and evaluation research for developers and researchers optimizing agent performance and cost.",
+            "evidence_sha256": "bcdff5a68cafd8c842fe86e3fb08b72b2ec78cdfd1dfc70bdddb260792bb7900"
+          },
+          "quality": {
+            "article": {
+              "url": "",
+              "status": "blank_no_compliant_source",
+              "checked_at": "2026-10-14T02:52:59.603089Z",
+              "evidence_sha256": "f114d867c1cf334f0a07971e8f986db528b64fb2fbae6cc44f0a01d96cdabd6f"
+            },
+            "image": {
+              "url": "https://cdn.sanity.io/images/ybjf12mv/migration/a1d78d8cd0be306dabffe6a8cf40443cacd6d4ee-2200x1238.png?rect=0,42,2200,1155&w=1200&h=630&fit=crop",
+              "final_url": "https://cdn.sanity.io/images/ybjf12mv/migration/a1d78d8cd0be306dabffe6a8cf40443cacd6d4ee-2200x1238.png?rect=0,42,2200,1155&w=1200&h=630&fit=crop",
+              "redirect_chain": [
+                "https://cdn.sanity.io/images/ybjf12mv/migration/a1d78d8cd0be306dabffe6a8cf40443cacd6d4ee-2200x1238.png?rect=0,42,2200,1155&w=1200&h=630&fit=crop"
+              ],
+              "checked_at": "2026-10-14T02:52:59.603089Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "f114d867c1cf334f0a07971e8f986db528b64fb2fbae6cc44f0a01d96cdabd6f",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "ee8b3fd8f4cbc41d9b67cb78b1b5f97bd46b0b5d738fc7a2c38bcc95956cac8b",
+              "relevance": "story_specific",
+              "relevance_note": "Actual PNG pixels inspected: Arena branded Max Now in Agent Arena graphic, with Max Router +14.7%, $3.27 cost-performance chart. Chart is historical launch-test illustration; not live leaderboard."
+            }
+          }
+        },
+        "sha256": "e447588fa956d0bfd69eaf080af6573ec5ece448ebe094292a27ba27c2196856",
+        "reviewed_at": "2026-10-14T02:56:40.780728+00:00",
+        "operation_id": "85c61fecc4faf4628b8b2a06b768db4c671bfe5b6284a6a10dbd8aa2329fff41"
       }
     ]
   }
