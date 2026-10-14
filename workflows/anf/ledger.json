@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 339,
-  "updated_at": "2026-10-14T11:45:17.550337+00:00",
+  "generation": 340,
+  "updated_at": "2026-10-14T12:08:00.598989+00:00",
   "next_id": 116,
   "records": [
     {
@@ -13502,6 +13502,18 @@
         ],
         "duplicates": []
       }
+    },
+    "5042306ca78fb7b663f4d6446dd6a9995ec02c37c52b3776c182f202ab38c36e": {
+      "sha256": "e0d401419fcfd43da4dc20922f6db3bd864d2f67266bf29df8b4fc5e781f1d36",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 113,
+          "revision": 1,
+          "sha256": "27b1eb4f09b0447c14c71aefe38ddf4e81dce3272b43d58b423cdb12c8828037"
+        },
+        "editorial_sha256": "59a4b11e5d3a39da1e9bee192d616cc3589386cf910b413a8030970e8e8d76b9"
+      }
     }
   },
   "migration": {
@@ -17602,6 +17614,26 @@
         "sha256": "ea87b5e63dfa6555a64f66308d3b519e01b9ddd5781526dff01097dc4a2673e9",
         "reviewed_at": "2026-10-14T03:00:32.915650+00:00",
         "operation_id": "37d9d406393ef120e6454b0b50d5b9f6ff0c4436f6d3d0763e13321d673c2ee6"
+      }
+    ],
+    "113:1": [
+      {
+        "reference": {
+          "id": 113,
+          "revision": 1,
+          "sha256": "27b1eb4f09b0447c14c71aefe38ddf4e81dce3272b43d58b423cdb12c8828037"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General news about a criminal charge and corporate physical security incident; AI assistance is contextual rather than technical implementation guidance.",
+            "evidence_sha256": "27b1eb4f09b0447c14c71aefe38ddf4e81dce3272b43d58b423cdb12c8828037"
+          }
+        },
+        "sha256": "59a4b11e5d3a39da1e9bee192d616cc3589386cf910b413a8030970e8e8d76b9",
+        "reviewed_at": "2026-10-14T12:08:00.598989+00:00",
+        "operation_id": "5042306ca78fb7b663f4d6446dd6a9995ec02c37c52b3776c182f202ab38c36e"
       }
     ]
   }
