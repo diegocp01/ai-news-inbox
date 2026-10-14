@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 347,
-  "updated_at": "2026-10-14T14:09:08.220012+00:00",
-  "next_id": 116,
+  "generation": 348,
+  "updated_at": "2026-10-14T14:13:50.017559+00:00",
+  "next_id": 117,
   "records": [
     {
       "id": 1,
@@ -1542,6 +1542,19 @@
           "request_id": "f1d32cc395e0043daeac302eb8f8732b7d75da129a8d7b84ad457dae9ab6ecb7",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T14:13:50.017559+00:00",
+          "block": "Title: New AI Model: Mirelo SFX 2.0 Adds Sound to Videos\nURL:\nImage URL: https://v3b.fal.media/files/b/0aae55a4/q7jADwkMPCLTXP2PnzCYl.jpg\nSummary: Mirelo launched SFX 2.0, which it says replaces unwanted music with synchronized sound effects and ambience while preserving dialogue. It supports videos up to 10 minutes in Mirelo Studio and its API, with longer videos available on request for Enterprise customers. The model is also available through Runway and fal.",
+          "sha256": "5b0c969634b89ac8bb1dbc492c84d4b34545cdaeb5f8e90a37b8d44fb76fcf4d",
+          "source": "Mirelo",
+          "request_id": "c7256b5a88677a625086b7a079ba014d7b044b6c632ee2f47cc6ccff5ea7944b",
+          "mode": "standard"
         }
       ]
     }
@@ -3398,13 +3411,21 @@
       ]
     },
     "c7256b5a88677a625086b7a079ba014d7b044b6c632ee2f47cc6ccff5ea7944b": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T14:09:08.220012+00:00",
       "received_sequence": 105,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-14T14:13:50.017559+00:00",
+      "records": [
+        {
+          "id": 116,
+          "revision": 1,
+          "sha256": "5b0c969634b89ac8bb1dbc492c84d4b34545cdaeb5f8e90a37b8d44fb76fcf4d"
+        }
+      ]
     }
   },
   "batches": {
@@ -15017,6 +15038,21 @@
       "result": {
         "status": "received",
         "request_id": "c7256b5a88677a625086b7a079ba014d7b044b6c632ee2f47cc6ccff5ea7944b"
+      }
+    },
+    "bb9ef551d372df365d1eb56aed3e417dbc341c818c9f8071b001066474ba6847": {
+      "sha256": "ccfb159f84b2e281480b9d1b764f56e93343e632f4a4be12d1bf42666f7b67fc",
+      "result": {
+        "status": "finalized",
+        "request_id": "c7256b5a88677a625086b7a079ba014d7b044b6c632ee2f47cc6ccff5ea7944b",
+        "records": [
+          {
+            "id": 116,
+            "revision": 1,
+            "sha256": "5b0c969634b89ac8bb1dbc492c84d4b34545cdaeb5f8e90a37b8d44fb76fcf4d"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
