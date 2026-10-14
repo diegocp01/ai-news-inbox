@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 350,
-  "updated_at": "2026-10-14T14:59:22.290854+00:00",
-  "next_id": 117,
+  "generation": 351,
+  "updated_at": "2026-10-14T15:03:46.576245+00:00",
+  "next_id": 118,
   "records": [
     {
       "id": 1,
@@ -1554,6 +1554,19 @@
           "sha256": "5b0c969634b89ac8bb1dbc492c84d4b34545cdaeb5f8e90a37b8d44fb76fcf4d",
           "source": "Mirelo",
           "request_id": "c7256b5a88677a625086b7a079ba014d7b044b6c632ee2f47cc6ccff5ea7944b",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T15:03:46.576245+00:00",
+          "block": "Title: AI Swaps Video Characters Without Reshoots\nURL: https://elevenlabs.io/app/templates/MBz9OuVgBFop3rfCFvHK\nImage URL: https://eleven-public-cdn.elevenlabs.io/payloadcms/p7pnb1zj3z-Creative%20Platform%20OG.webp\nSummary: ElevenCreative’s Recast lets users replace the main character in existing footage by uploading a reference photo. The AI tool is designed to preserve the original scene, motion and camera work, allowing creators to try different characters without filming again.",
+          "sha256": "f1ad211acbba0a250b69ac76a394f14ad43bbcd76606d8aaa3e56b7235950950",
+          "source": "ElevenLabs",
+          "request_id": "f46458b2ce8e4d78d34bdfda70aa46dcb8aa8327c1dfd8cc6e645293ac236d0d",
           "mode": "standard"
         }
       ]
@@ -3428,13 +3441,21 @@
       ]
     },
     "f46458b2ce8e4d78d34bdfda70aa46dcb8aa8327c1dfd8cc6e645293ac236d0d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T14:59:22.290854+00:00",
       "received_sequence": 106,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-14T15:03:46.576245+00:00",
+      "records": [
+        {
+          "id": 117,
+          "revision": 1,
+          "sha256": "f1ad211acbba0a250b69ac76a394f14ad43bbcd76606d8aaa3e56b7235950950"
+        }
+      ]
     }
   },
   "batches": {
@@ -15081,6 +15102,21 @@
       "result": {
         "status": "received",
         "request_id": "f46458b2ce8e4d78d34bdfda70aa46dcb8aa8327c1dfd8cc6e645293ac236d0d"
+      }
+    },
+    "3c7599c86ed6f93e050c32c7f04966c330d82be728515b14abf21cc970de8d1e": {
+      "sha256": "a8950ff43c71fab677b51f2670abbce0ac3fec8c166298a5615b450e6a6bb10e",
+      "result": {
+        "status": "finalized",
+        "request_id": "f46458b2ce8e4d78d34bdfda70aa46dcb8aa8327c1dfd8cc6e645293ac236d0d",
+        "records": [
+          {
+            "id": 117,
+            "revision": 1,
+            "sha256": "f1ad211acbba0a250b69ac76a394f14ad43bbcd76606d8aaa3e56b7235950950"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
