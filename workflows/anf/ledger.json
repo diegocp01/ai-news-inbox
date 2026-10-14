@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 338,
-  "updated_at": "2026-10-14T11:39:53.831326+00:00",
-  "next_id": 113,
+  "generation": 339,
+  "updated_at": "2026-10-14T11:45:17.550337+00:00",
+  "next_id": 116,
   "records": [
     {
       "id": 1,
@@ -1500,6 +1500,48 @@
           "source": "Fish Audio",
           "request_id": "3056f8c1500337ae6088388427ce8f67810fe60abaad333d682d2f60a30194a0",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T11:45:17.550337+00:00",
+          "block": "Title: Former OpenAI Engineer Charged Over Hidden Office Recorder\nURL: https://www.justice.gov/usao-ndca/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai-san\nImage URL: https://www.justice.gov/sites/default/files/styles/banner/public/2026-10/alfozanrecordingdevice_and_placement.png?itok=WE6UuJ9s\nSummary: U.S. prosecutors charged former OpenAI engineer Abdulrahman Alfozan with allegedly trying to record executive meetings secretly. Prosecutors say a recorder was found behind a television in its San Francisco office on September 30. OpenAI says its models helped identify him and it found no indications he improperly accessed or removed model weights, source code or customer data.",
+          "sha256": "27b1eb4f09b0447c14c71aefe38ddf4e81dce3272b43d58b423cdb12c8828037",
+          "source": "justice.gov",
+          "request_id": "f1d32cc395e0043daeac302eb8f8732b7d75da129a8d7b84ad457dae9ab6ecb7",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T11:45:17.550337+00:00",
+          "block": "Title: Jack Clark Revises AI Self-Improvement Forecast to 2027\nURL: https://importai.substack.com/p/import-ai-476-creativity-and-rsi\nImage URL: https://substackcdn.com/image/youtube/w_728,c_limit/4v837X1Py4M\nSummary: Jack Clark now thinks AI systems could become capable of repeatedly improving themselves in 2027, a year earlier than he previously expected. He cites mathematical research progress and TasteVal, which tests how models plan experiments and interpret results. Its creators report improving performance but warn that tasks are easy to verify and their human baseline excludes top researchers.",
+          "sha256": "0254ceca067b4af7c1d08aceeefcf5b4bc41c824b40eb4c7272a318419b7742e",
+          "source": "importai.substack.com",
+          "request_id": "f1d32cc395e0043daeac302eb8f8732b7d75da129a8d7b84ad457dae9ab6ecb7",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T11:45:17.550337+00:00",
+          "block": "Title: Character.AI Files for Chapter 11, Plans Asset Sale\nURL: https://www.businesswire.com/news/home/20261012656385/en/Character.ai-Initiates-Voluntary-Chapter-11-Proceeding-to-Facilitate-Value-Maximizing-Sale-Process\nImage URL: https://techcrunch.com/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-1.24.23PM.png?w=1024\nSummary: Character.AI filed for Chapter 11 to pursue a court-supervised asset sale. The company says Disney agreed to a $20 million opening bid for a nonexclusive, permanent license to some intellectual property and will provide transition services. Character.AI says its platform remains available but will close if no purchase supports continued operations.",
+          "sha256": "5068319df0c83d5d86fcbcd381599ef0e75408dd41305619a51dfe3890c60e89",
+          "source": "businesswire.com",
+          "request_id": "f1d32cc395e0043daeac302eb8f8732b7d75da129a8d7b84ad457dae9ab6ecb7",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -3328,14 +3370,32 @@
       ]
     },
     "f1d32cc395e0043daeac302eb8f8732b7d75da129a8d7b84ad457dae9ab6ecb7": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T11:39:53.831326+00:00",
       "received_sequence": 104,
       "expected_items": 3,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-14T11:45:17.550337+00:00",
+      "records": [
+        {
+          "id": 113,
+          "revision": 1,
+          "sha256": "27b1eb4f09b0447c14c71aefe38ddf4e81dce3272b43d58b423cdb12c8828037"
+        },
+        {
+          "id": 114,
+          "revision": 1,
+          "sha256": "0254ceca067b4af7c1d08aceeefcf5b4bc41c824b40eb4c7272a318419b7742e"
+        },
+        {
+          "id": 115,
+          "revision": 1,
+          "sha256": "5068319df0c83d5d86fcbcd381599ef0e75408dd41305619a51dfe3890c60e89"
+        }
+      ]
     }
   },
   "batches": {
@@ -13416,6 +13476,31 @@
       "result": {
         "status": "received",
         "request_id": "f1d32cc395e0043daeac302eb8f8732b7d75da129a8d7b84ad457dae9ab6ecb7"
+      }
+    },
+    "773e9fcc2af931c20967e3e691ab8da665729670fc84de4df916e2d17da5ae4f": {
+      "sha256": "2b1361dc1353bb7cfde5ec0202e37a4a63c2c305643dd50df5968f51535f0f63",
+      "result": {
+        "status": "finalized",
+        "request_id": "f1d32cc395e0043daeac302eb8f8732b7d75da129a8d7b84ad457dae9ab6ecb7",
+        "records": [
+          {
+            "id": 113,
+            "revision": 1,
+            "sha256": "27b1eb4f09b0447c14c71aefe38ddf4e81dce3272b43d58b423cdb12c8828037"
+          },
+          {
+            "id": 114,
+            "revision": 1,
+            "sha256": "0254ceca067b4af7c1d08aceeefcf5b4bc41c824b40eb4c7272a318419b7742e"
+          },
+          {
+            "id": 115,
+            "revision": 1,
+            "sha256": "5068319df0c83d5d86fcbcd381599ef0e75408dd41305619a51dfe3890c60e89"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
