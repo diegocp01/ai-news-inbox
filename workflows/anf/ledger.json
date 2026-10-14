@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 314,
-  "updated_at": "2026-10-14T01:55:28.897788+00:00",
-  "next_id": 105,
+  "generation": 315,
+  "updated_at": "2026-10-14T02:02:20.208293+00:00",
+  "next_id": 106,
   "records": [
     {
       "id": 1,
@@ -1395,6 +1395,19 @@
           "sha256": "0f304972f2534a4dec8848860fd2c1db1920c336801ac17f389f343fa35a4d92",
           "source": "Supabase",
           "request_id": "9f66e77f79c4cf2f303b6eddc2600b5397c5c987950fe5cb92f65dbae98cecb7",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T02:02:20.208293+00:00",
+          "block": "Title: OpenAI Says AI Helped Trace a Hidden Office Recorder\nURL: https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/\nImage URL: https://assets.sfstandard.com/image/994911177489/image_k101cto9v97or3q5niul74237r/-S1200x848-FPNG\nSummary: OpenAI says its models helped forensic staff analyze a hidden office recording device and identify an employee suspected of planting it. The employee was fired and arrested; allegations remain unproven and the FBI investigation continues. OpenAI reports no indication that model weights, source code or customer data were improperly accessed or taken.",
+          "sha256": "48946966b62f6e9043d3c2378b1796e23420456c750b46764fd48dd461053633",
+          "source": "The San Francisco Standard",
+          "request_id": "de72716d41cf3ca6e3edbfb4797b6b5de743db9c8ace7dd3752b42e774ac9375",
           "mode": "standard"
         }
       ]
@@ -3088,13 +3101,21 @@
       ]
     },
     "de72716d41cf3ca6e3edbfb4797b6b5de743db9c8ace7dd3752b42e774ac9375": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T01:55:28.897788+00:00",
       "received_sequence": 96,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-14T02:02:20.208293+00:00",
+      "records": [
+        {
+          "id": 105,
+          "revision": 1,
+          "sha256": "48946966b62f6e9043d3c2378b1796e23420456c750b46764fd48dd461053633"
+        }
+      ]
     }
   },
   "batches": {
@@ -12903,6 +12924,21 @@
       "result": {
         "status": "received",
         "request_id": "de72716d41cf3ca6e3edbfb4797b6b5de743db9c8ace7dd3752b42e774ac9375"
+      }
+    },
+    "77aa292f21ce3eded49478ded34ae9c1a3ab65af55a0439350497a9b39cf7cb5": {
+      "sha256": "3bc765c2e7231d6bc26c8ae5a305331f4b7460920024fc11ea93c9f7f09b9e85",
+      "result": {
+        "status": "finalized",
+        "request_id": "de72716d41cf3ca6e3edbfb4797b6b5de743db9c8ace7dd3752b42e774ac9375",
+        "records": [
+          {
+            "id": 105,
+            "revision": 1,
+            "sha256": "48946966b62f6e9043d3c2378b1796e23420456c750b46764fd48dd461053633"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
