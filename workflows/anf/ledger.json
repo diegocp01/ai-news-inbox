@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 331,
-  "updated_at": "2026-10-14T02:56:40.780728+00:00",
-  "next_id": 110,
+  "generation": 332,
+  "updated_at": "2026-10-14T02:57:08.318431+00:00",
+  "next_id": 111,
   "records": [
     {
       "id": 1,
@@ -1460,6 +1460,19 @@
           "sha256": "9114b625161c4ea2f89f4f75e8b02fed4160ca2f6bd9db3cae5c3ee78267320c",
           "source": "Arena",
           "request_id": "94cb491bc0a5d9499d02f48c8a6e8c6ccebe538a0d960bd141f53a95bdd7e44f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T02:57:08.318431+00:00",
+          "block": "Title: JPMorgan Blocks Outside AI Agents from Operating Customer Accounts\nURL: https://www.linkedin.com/posts/cnbc_jpmorgan-chase-blocks-outside-ai-agents-like-activity-7515851413512699905-Sn0m\nImage URL: https://wealthbridgemanagement.com/wp-content/uploads/2026/10/108403281-1791898216071-Untitled-4.jpg\nSummary: JPMorgan Chase is blocking outside AI agents from operating retail customer accounts, citing security risks, CNBC reports. Secure, customer-authorized read-only data sharing remains supported through open banking providers. The bank is piloting its own Smart Cash tool but has not given a timeline for allowing external agents to transact directly.",
+          "sha256": "ac917f55205333d4e062f7ed40397f6adb589b28e687897abb79723a74337b9b",
+          "source": "CNBC",
+          "request_id": "060245a8a694f2b67079cf5ab5bafb91152941ff0b3b531c27f26c1c3505f1b8",
           "mode": "standard"
         }
       ]
@@ -3238,13 +3251,21 @@
       ]
     },
     "060245a8a694f2b67079cf5ab5bafb91152941ff0b3b531c27f26c1c3505f1b8": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T02:49:15.023260+00:00",
       "received_sequence": 101,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-14T02:57:08.318431+00:00",
+      "records": [
+        {
+          "id": 110,
+          "revision": 1,
+          "sha256": "ac917f55205333d4e062f7ed40397f6adb589b28e687897abb79723a74337b9b"
+        }
+      ]
     },
     "cc5a9d8e7bcd407000cadfc6f2c09fec8f84279160adcd3376c9de24d59d8e7c": {
       "status": "received",
@@ -13255,6 +13276,21 @@
           "sha256": "9114b625161c4ea2f89f4f75e8b02fed4160ca2f6bd9db3cae5c3ee78267320c"
         },
         "editorial_sha256": "e447588fa956d0bfd69eaf080af6573ec5ece448ebe094292a27ba27c2196856"
+      }
+    },
+    "48077fa3bd96df73d15057ad4c167e651fb78bba1f34bcc60a12d44fa21ca1af": {
+      "sha256": "0dbfe294761831653a5a3e2b4971bf4bd1abfb179e64c9addd307058c68a24cb",
+      "result": {
+        "status": "finalized",
+        "request_id": "060245a8a694f2b67079cf5ab5bafb91152941ff0b3b531c27f26c1c3505f1b8",
+        "records": [
+          {
+            "id": 110,
+            "revision": 1,
+            "sha256": "ac917f55205333d4e062f7ed40397f6adb589b28e687897abb79723a74337b9b"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
