@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 364,
-  "updated_at": "2026-10-14T20:29:02.085558+00:00",
+  "generation": 365,
+  "updated_at": "2026-10-14T20:29:59.312198+00:00",
   "next_id": 122,
   "records": [
     {
@@ -15390,6 +15390,18 @@
         ],
         "duplicates": []
       }
+    },
+    "de76896e3e50fcc78890ac673a2f2cb046d5e74dff4781caff80bf5022db4a27": {
+      "sha256": "cb994b04986a264eba5ad1167fac94d8c735167bc7f9cbef497768575d757d5b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 121,
+          "revision": 1,
+          "sha256": "614c5c2be82768dc8246c3c597f20be4f53a4fd92bb65b94c3aca916c82d37eb"
+        },
+        "editorial_sha256": "1fa732ff44b2de748f912a90dd11da1f9db121c3ef8699a0706666219de78d50"
+      }
     }
   },
   "migration": {
@@ -19808,6 +19820,60 @@
         "sha256": "21b807d446b0d0ae3da6196ef274aeb594f7632752b236325e64a1b6665642ad",
         "reviewed_at": "2026-10-14T20:26:41.593308+00:00",
         "operation_id": "9dda9d654f9209a34bb132238d296f25a5adcf719db8ade28102f3f15554567f"
+      }
+    ],
+    "121:1": [
+      {
+        "reference": {
+          "id": 121,
+          "revision": 1,
+          "sha256": "614c5c2be82768dc8246c3c597f20be4f53a4fd92bb65b94c3aca916c82d37eb"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Claude Code desktop features help software developers organize, run and monitor parallel coding tasks.",
+            "evidence_sha256": "8a336726de769d4be396a75f340b506e1cd5e667d86be5ddb8890681b8e2fe1c"
+          },
+          "quality": {
+            "article": {
+              "url": "https://code.claude.com/docs/en/desktop-quickstart",
+              "final_url": "https://code.claude.com/docs/en/desktop-quickstart",
+              "redirect_chain": [
+                "https://code.claude.com/docs/en/desktop-quickstart"
+              ],
+              "checked_at": "2026-10-14T20:28:39+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "8a336726de769d4be396a75f340b506e1cd5e667d86be5ddb8890681b8e2fe1c"
+            },
+            "image": {
+              "url": "https://assets.claude.com/f66071070c4701ea2c37fc01b3c0f83623cf29d3.jpg?w=2400&h=1260&fit=crop",
+              "final_url": "https://assets.claude.com/f66071070c4701ea2c37fc01b3c0f83623cf29d3.jpg?w=2400&h=1260&fit=crop",
+              "redirect_chain": [
+                "https://assets.claude.com/f66071070c4701ea2c37fc01b3c0f83623cf29d3.jpg?w=2400&h=1260&fit=crop"
+              ],
+              "content_type": "image/jpeg",
+              "width": 2400,
+              "height": 1260,
+              "image_bytes_sha256": "bd64960bf57b5c197a590dfa71686a41b224fffaea45428b9f7bf448cfbf0d44",
+              "checked_at": "2026-10-14T20:25:21+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "8a336726de769d4be396a75f340b506e1cd5e667d86be5ddb8890681b8e2fe1c",
+              "pixels_inspected": true,
+              "relevance": "official_logo",
+              "relevance_note": "Actual pixels inspected with view_image: crisp official Claude orange starburst and black wordmark on light background, 2400x1260. No announcement-specific image claims.",
+              "story_specific_available": false,
+              "fallback_reason": "The original announcement has a 2398x1468 video thumbnail hosted on forbidden pbs.twimg.com. Exact announcement searches, current desktop reference/quickstart, official product page and current daily digest found no compliant same-event still image. Product page images depict terminal, VS Code and web rather than the updated desktop experience; official product-page logo selected as last resort."
+            }
+          }
+        },
+        "sha256": "1fa732ff44b2de748f912a90dd11da1f9db121c3ef8699a0706666219de78d50",
+        "reviewed_at": "2026-10-14T20:29:59.312198+00:00",
+        "operation_id": "de76896e3e50fcc78890ac673a2f2cb046d5e74dff4781caff80bf5022db4a27"
       }
     ]
   }
