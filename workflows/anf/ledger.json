@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 365,
-  "updated_at": "2026-10-14T20:29:59.312198+00:00",
-  "next_id": 122,
+  "generation": 366,
+  "updated_at": "2026-10-14T20:31:41+00:00",
+  "next_id": 123,
   "records": [
     {
       "id": 1,
@@ -1619,6 +1619,19 @@
           "sha256": "614c5c2be82768dc8246c3c597f20be4f53a4fd92bb65b94c3aca916c82d37eb",
           "source": "Anthropic",
           "request_id": "b4560c302bbc31fdb56ec3c98dd1403530bccd9c281071a01af8b36173fd40e4",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T20:31:41+00:00",
+          "block": "Title: New AI Model: Ultramarine 1 Flash for Professional Work\nURL: https://www.paperinstruments.com/ultramarine\nImage URL: https://www.paperinstruments.com/ultramarine/opengraph-image.png\nSummary: Paper Instruments launched Ultramarine 1 Flash for finance, law, consulting, and operations, with API access now and open weights planned in two weeks. The company reports post-training by five people for about $300,000. On its internal knowledge-work benchmark at maximum reasoning, the model outscored Claude Fable 5 while costing $0.13 per task versus $8.19.",
+          "sha256": "b204b82d3337cd6e40d82f0d0707ee2cc7976712553b3bc642796fdf6e58ebd3",
+          "source": "Paper Instruments",
+          "request_id": "a3f4fc660419f1c001a8b2350550aa50b46cc7b6ebf49d781b9cbb6b1fe63b95",
           "mode": "standard"
         }
       ]
@@ -3578,13 +3591,21 @@
       ]
     },
     "a3f4fc660419f1c001a8b2350550aa50b46cc7b6ebf49d781b9cbb6b1fe63b95": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T20:28:00+00:00",
       "received_sequence": 111,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-14T20:31:41+00:00",
+      "records": [
+        {
+          "id": 122,
+          "revision": 1,
+          "sha256": "b204b82d3337cd6e40d82f0d0707ee2cc7976712553b3bc642796fdf6e58ebd3"
+        }
+      ]
     }
   },
   "batches": {
@@ -15401,6 +15422,21 @@
           "sha256": "614c5c2be82768dc8246c3c597f20be4f53a4fd92bb65b94c3aca916c82d37eb"
         },
         "editorial_sha256": "1fa732ff44b2de748f912a90dd11da1f9db121c3ef8699a0706666219de78d50"
+      }
+    },
+    "be27affb1b5a215d3c6791524f9e383a31771843bd489ff75b0015b4cbec9c6e": {
+      "sha256": "21089110eb3c3343b87530fc31fdb1bea0c8124be7c195cf3328a0e78a9cf4b6",
+      "result": {
+        "status": "finalized",
+        "request_id": "a3f4fc660419f1c001a8b2350550aa50b46cc7b6ebf49d781b9cbb6b1fe63b95",
+        "records": [
+          {
+            "id": 122,
+            "revision": 1,
+            "sha256": "b204b82d3337cd6e40d82f0d0707ee2cc7976712553b3bc642796fdf6e58ebd3"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
