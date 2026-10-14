@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 348,
-  "updated_at": "2026-10-14T14:13:50.017559+00:00",
+  "generation": 349,
+  "updated_at": "2026-10-14T14:15:03.605601+00:00",
   "next_id": 117,
   "records": [
     {
@@ -15054,6 +15054,18 @@
         ],
         "duplicates": []
       }
+    },
+    "929791bdea0f7888f7bf3e604727a78472730997e981775b749e8b4128b79320": {
+      "sha256": "86045b98a71c78e2c60764c5e87805ef4caf22a00c24abde8eb673ef3b6a2a6f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 116,
+          "revision": 1,
+          "sha256": "5b0c969634b89ac8bb1dbc492c84d4b34545cdaeb5f8e90a37b8d44fb76fcf4d"
+        },
+        "editorial_sha256": "74f70f0d6db1313d849bd17c2105e477f6159388214b4087a61f071eee0a05ab"
+      }
     }
   },
   "migration": {
@@ -19214,6 +19226,54 @@
         "sha256": "9fee4d4b9140f60eccdf6f4c50ac73cd746d9826e0c7c86b12f090f5abc185e1",
         "reviewed_at": "2026-10-14T12:20:06.681475+00:00",
         "operation_id": "a295712d018eada7894df73ae9751cbec738b04d53c8d3d1c2630645efefe4a8"
+      }
+    ],
+    "116:1": [
+      {
+        "reference": {
+          "id": 116,
+          "revision": 1,
+          "sha256": "5b0c969634b89ac8bb1dbc492c84d4b34545cdaeb5f8e90a37b8d44fb76fcf4d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public launch of an audio model for video creators. API access is an availability detail; the item is not technical implementation guidance.",
+            "evidence_sha256": "6358b57f8169cb5313450259eed61b950a7ee14a832e26ff313e020a47f0e355"
+          },
+          "quality": {
+            "article": {
+              "url": "",
+              "status": "blank_no_compliant_source",
+              "checked_at": "2026-10-14T14:15:03.605601+00:00",
+              "evidence_sha256": "6358b57f8169cb5313450259eed61b950a7ee14a832e26ff313e020a47f0e355"
+            },
+            "image": {
+              "url": "https://v3b.fal.media/files/b/0aae55a4/q7jADwkMPCLTXP2PnzCYl.jpg",
+              "final_url": "https://v3b.fal.media/files/b/0aae55a4/q7jADwkMPCLTXP2PnzCYl.jpg",
+              "redirect_chain": [
+                "https://v3b.fal.media/files/b/0aae55a4/q7jADwkMPCLTXP2PnzCYl.jpg"
+              ],
+              "checked_at": "2026-10-14T14:15:03.605601+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "6358b57f8169cb5313450259eed61b950a7ee14a832e26ff313e020a47f0e355",
+              "content_type": "image/jpeg",
+              "width": 1024,
+              "height": 768,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "b67145ab9ec476c5912f0a3639606db58743eb3927c2c12de491ad60a50716a1",
+              "relevance": "topic_specific",
+              "relevance_note": "Official fal SFX 2.0 video-to-audio model listing illustration of a lynx wearing headphones; crisp topical audio imagery, not a product screenshot.",
+              "story_specific_available": false,
+              "fallback_reason": "Official launch hero is hosted on forbidden .ai domain; exact launch searches found no compliant story-specific image. Three actual fal endpoint images were inspected and the headphones image best communicates audio."
+            }
+          }
+        },
+        "sha256": "74f70f0d6db1313d849bd17c2105e477f6159388214b4087a61f071eee0a05ab",
+        "reviewed_at": "2026-10-14T14:15:03.605601+00:00",
+        "operation_id": "929791bdea0f7888f7bf3e604727a78472730997e981775b749e8b4128b79320"
       }
     ]
   }
