@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 360,
-  "updated_at": "2026-10-14T20:15:06+00:00",
-  "next_id": 120,
+  "generation": 361,
+  "updated_at": "2026-10-14T20:25:09.216660+00:00",
+  "next_id": 121,
   "records": [
     {
       "id": 1,
@@ -1593,6 +1593,19 @@
           "sha256": "c68faca4273801676ad3ad68fb96ee176dca45e680ff5b9b3ee0a2a3482e9ba9",
           "source": "CBS News",
           "request_id": "31e68f4e4ac371bc17b6a3c561096141865f3c8d48a4bc5c043b26bed8a92260",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "revisions": [
+        {
+          "created_at": "2026-10-14T20:25:09.216660+00:00",
+          "block": "Title: New AI Model: Grok Voice 3.0 Handles Customer Support Calls\nURL: https://www.basenor.com/blogs/news/grok-voice-3-0-launches-already-handling-starlink-and-tesla-calls\nImage URL: https://cdn.shopify.com/s/files/1/0278/3841/4901/files/tweet-photo-6f686ed64d78.jpg?v=1792001139\nSummary: SpaceXSI released Grok Voice 3.0, a speech-to-speech model available through its Voice Agent API for $0.08 per minute. The company says it responds in under a second and resolves roughly 70% of Starlink support calls without human assistance. It also powers voice conversations in Tesla vehicles and Grok Bot.",
+          "sha256": "e4752b3af46fecf3e76605a2a2a7209dc5938aa6c02d044da3dc1d827e4abaed",
+          "source": "BASENOR",
+          "request_id": "1f33fd0b5a72e27042c5e405b6fef1007233f44eebd5e14a04c63c04fbecd820",
           "mode": "standard"
         }
       ]
@@ -3518,13 +3531,21 @@
       ]
     },
     "1f33fd0b5a72e27042c5e405b6fef1007233f44eebd5e14a04c63c04fbecd820": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T19:26:05.110228+00:00",
       "received_sequence": 109,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-14T20:25:09.216660+00:00",
+      "records": [
+        {
+          "id": 120,
+          "revision": 1,
+          "sha256": "e4752b3af46fecf3e76605a2a2a7209dc5938aa6c02d044da3dc1d827e4abaed"
+        }
+      ]
     },
     "b4560c302bbc31fdb56ec3c98dd1403530bccd9c281071a01af8b36173fd40e4": {
       "status": "received",
@@ -15289,6 +15310,21 @@
       "result": {
         "status": "received",
         "request_id": "b4560c302bbc31fdb56ec3c98dd1403530bccd9c281071a01af8b36173fd40e4"
+      }
+    },
+    "455ca37a456cb4e36e04c9617154cb49014bda2643576bff8057c5b2bdba6acd": {
+      "sha256": "93a6a4cda9b2ccd5e5a73fe232d87565fd0feb0f1d6f82be5ae5c4719720e736",
+      "result": {
+        "status": "finalized",
+        "request_id": "1f33fd0b5a72e27042c5e405b6fef1007233f44eebd5e14a04c63c04fbecd820",
+        "records": [
+          {
+            "id": 120,
+            "revision": 1,
+            "sha256": "e4752b3af46fecf3e76605a2a2a7209dc5938aa6c02d044da3dc1d827e4abaed"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
