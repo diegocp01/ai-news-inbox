@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 334,
-  "updated_at": "2026-10-14T02:58:43.706351+00:00",
+  "generation": 335,
+  "updated_at": "2026-10-14T02:59:46.035078+00:00",
   "next_id": 112,
   "records": [
     {
@@ -13340,6 +13340,18 @@
         ],
         "duplicates": []
       }
+    },
+    "c93147d5b290f0884126db99b2745e4c8eb9bf1b7b0d056943b10a577885b7c2": {
+      "sha256": "9dd31063d5b5e7f530c6152d10000071cba57026c3fe908966c9edbc4cac7000",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 111,
+          "revision": 1,
+          "sha256": "53310ef93182ca80e328181249237ffa84e15a34a5bc3ec2dbedcf430df58c2f"
+        },
+        "editorial_sha256": "f2d23c78621a2b0b7afaa0fa2f7ddce6149140d4d014cf695f08419597bdf9b8"
+      }
     }
   },
   "migration": {
@@ -17336,6 +17348,58 @@
         "sha256": "43981fcfa4e6e86eccaf6baf26d159f91106ed16545ee7c662cd109ab1d03a72",
         "reviewed_at": "2026-10-14T02:57:28.572042+00:00",
         "operation_id": "e922075d1704c10658c49ababed9b108ee49ea026707269555a0750bd50699a5"
+      }
+    ],
+    "111:1": [
+      {
+        "reference": {
+          "id": 111,
+          "revision": 1,
+          "sha256": "53310ef93182ca80e328181249237ffa84e15a34a5bc3ec2dbedcf430df58c2f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The user requests a broad AI safety warning about potential device-to-device spread, experimental limits and uncertainty, rather than the technical methods or implementation of the underlying research.",
+            "evidence_sha256": "2d0c2ec8e5420808f061919a3f50a7658001c8a254b60e674f5078d07cf26ca9"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/research/self-replicating-ai",
+              "final_url": "https://www.anthropic.com/research/self-replicating-ai",
+              "redirect_chain": [
+                "https://www.anthropic.com/research/self-replicating-ai"
+              ],
+              "checked_at": "2026-10-14T02:51:35.350399+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "2d0c2ec8e5420808f061919a3f50a7658001c8a254b60e674f5078d07cf26ca9"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png"
+              ],
+              "checked_at": "2026-10-14T02:51:35.350399+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "c23a976a4331322fc6f0143e6795bb85108466a8617f0266b11dab0ecb869a4e",
+              "content_type": "image/png",
+              "width": 2360,
+              "height": 860,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "ebf6f97d14ee9049d307dad4d3818f3ccd84e8067c8aae3a50ee7536d0a250a6",
+              "relevance": "story_specific",
+              "relevance_note": "Legible four-stage official diagram of the replication lifecycle. Full colored version more informative than faded-stage variant."
+            }
+          }
+        },
+        "sha256": "f2d23c78621a2b0b7afaa0fa2f7ddce6149140d4d014cf695f08419597bdf9b8",
+        "reviewed_at": "2026-10-14T02:59:46.035078+00:00",
+        "operation_id": "c93147d5b290f0884126db99b2745e4c8eb9bf1b7b0d056943b10a577885b7c2"
       }
     ]
   }
