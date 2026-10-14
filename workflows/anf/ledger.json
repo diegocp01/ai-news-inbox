@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 328,
-  "updated_at": "2026-10-14T02:55:35.440284+00:00",
+  "generation": 329,
+  "updated_at": "2026-10-14T02:55:53.068411+00:00",
   "next_id": 109,
   "records": [
     {
@@ -13196,6 +13196,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d10be1fa344d5badcb25f0dbb32f8d98132f942598301fa338a5baf65a8b9102": {
+      "sha256": "d82f020ec606fee73538674309e99d4b9054a89acf686f5948673b4cf08dbcde",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 108,
+          "revision": 1,
+          "sha256": "c28d2f2b8f7f4ce29340c5b39ad7813597f56c3f8ec1e9fff686246d7970cd72"
+        },
+        "editorial_sha256": "f81cd8460b818d22674ac25927e01b9450b5c4477535d649d1434afaa76ea8df"
+      }
     }
   },
   "migration": {
@@ -17042,6 +17054,58 @@
         "sha256": "138126a6a54305a5bc986b84cddbfc4e977448e7d19d1ca3e250e885fa7290d8",
         "reviewed_at": "2026-10-14T02:55:10.617331+00:00",
         "operation_id": "4ea55315c5690a5b2b3d8316eb197a72bd712996def102a3f930733615c33728"
+      }
+    ],
+    "108:1": [
+      {
+        "reference": {
+          "id": 108,
+          "revision": 1,
+          "sha256": "c28d2f2b8f7f4ce29340c5b39ad7813597f56c3f8ec1e9fff686246d7970cd72"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Broad public announcement of a new globally released AI model, covering consumer app and Search availability as well as businesses and developers. Technical examples do not turn this release item into implementation guidance.",
+            "evidence_sha256": "d22c2566e0fec210636a6e6ca74e04bfb8fd9e2232150766a1a2d1a3222c4067"
+          },
+          "quality": {
+            "article": {
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+              "final_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+              "redirect_chain": [
+                "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+              ],
+              "checked_at": "2026-10-14T02:52:12Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "d22c2566e0fec210636a6e6ca74e04bfb8fd9e2232150766a1a2d1a3222c4067"
+            },
+            "image": {
+              "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+              "final_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+              "redirect_chain": [
+                "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png"
+              ],
+              "checked_at": "2026-10-14T02:52:12Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "d22c2566e0fec210636a6e6ca74e04bfb8fd9e2232150766a1a2d1a3222c4067",
+              "content_type": "image/png",
+              "width": 1300,
+              "height": 731,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "23646e4eaecc376cd723fef7275e02d2d8023e3324366fb39e3a9edceee81aed",
+              "relevance": "story_specific",
+              "relevance_note": "Official release artwork shows a large translucent numeral 4 over a blue/cyan gradient. Crisp story-specific launch branding, no browser UI or unsupported performance claims."
+            }
+          }
+        },
+        "sha256": "f81cd8460b818d22674ac25927e01b9450b5c4477535d649d1434afaa76ea8df",
+        "reviewed_at": "2026-10-14T02:55:53.068411+00:00",
+        "operation_id": "d10be1fa344d5badcb25f0dbb32f8d98132f942598301fa338a5baf65a8b9102"
       }
     ]
   }
