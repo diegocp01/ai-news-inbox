@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 332,
-  "updated_at": "2026-10-14T02:57:08.318431+00:00",
+  "generation": 333,
+  "updated_at": "2026-10-14T02:57:28.572042+00:00",
   "next_id": 111,
   "records": [
     {
@@ -13292,6 +13292,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e922075d1704c10658c49ababed9b108ee49ea026707269555a0750bd50699a5": {
+      "sha256": "5efc0fec0ac7daa59f4fef049d8810ded4271f22e7c06ceccfcb9f4a24b9c2d9",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 110,
+          "revision": 1,
+          "sha256": "ac917f55205333d4e062f7ed40397f6adb589b28e687897abb79723a74337b9b"
+        },
+        "editorial_sha256": "43981fcfa4e6e86eccaf6baf26d159f91106ed16545ee7c662cd109ab1d03a72"
+      }
     }
   },
   "migration": {
@@ -17236,6 +17248,58 @@
         "sha256": "e447588fa956d0bfd69eaf080af6573ec5ece448ebe094292a27ba27c2196856",
         "reviewed_at": "2026-10-14T02:56:40.780728+00:00",
         "operation_id": "85c61fecc4faf4628b8b2a06b768db4c671bfe5b6284a6a10dbd8aa2329fff41"
+      }
+    ],
+    "110:1": [
+      {
+        "reference": {
+          "id": 110,
+          "revision": 1,
+          "sha256": "ac917f55205333d4e062f7ed40397f6adb589b28e687897abb79723a74337b9b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer banking access and AI-agent security policy reporting, not implementation guidance, developer tooling, or research.",
+            "evidence_sha256": "37f2adfda1f2061253f7f088458b2f8bbbc7eba9c57a54690bd47b10f95e2c43"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.linkedin.com/posts/cnbc_jpmorgan-chase-blocks-outside-ai-agents-like-activity-7515851413512699905-Sn0m",
+              "final_url": "https://www.linkedin.com/posts/cnbc_jpmorgan-chase-blocks-outside-ai-agents-like-activity-7515851413512699905-Sn0m",
+              "redirect_chain": [
+                "https://www.linkedin.com/posts/cnbc_jpmorgan-chase-blocks-outside-ai-agents-like-activity-7515851413512699905-Sn0m"
+              ],
+              "checked_at": "2026-10-14T02:52:24.864271Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "23fbb8e174a7d0a7b632bbf44ea4040b933df1637cfb0265fb7e6ec5157e03b5"
+            },
+            "image": {
+              "url": "https://wealthbridgemanagement.com/wp-content/uploads/2026/10/108403281-1791898216071-Untitled-4.jpg",
+              "final_url": "https://wealthbridgemanagement.com/wp-content/uploads/2026/10/108403281-1791898216071-Untitled-4.jpg",
+              "redirect_chain": [
+                "https://wealthbridgemanagement.com/wp-content/uploads/2026/10/108403281-1791898216071-Untitled-4.jpg"
+              ],
+              "checked_at": "2026-10-14T02:52:24.864271Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "c0a96bae2f93fcda5a72c98912567dd266348b65283829f258e9e082244eea49",
+              "content_type": "image/jpeg",
+              "width": 1920,
+              "height": 1080,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "356e1ef584c396872ba6c9d442ccf9677bb3e1d6129d10265a00b60ac095e756",
+              "relevance": "story_specific",
+              "relevance_note": "Exact same-event article lead image, showing the bank CEO and Meta CEO, verified against article caption and visually inspected."
+            }
+          }
+        },
+        "sha256": "43981fcfa4e6e86eccaf6baf26d159f91106ed16545ee7c662cd109ab1d03a72",
+        "reviewed_at": "2026-10-14T02:57:28.572042+00:00",
+        "operation_id": "e922075d1704c10658c49ababed9b108ee49ea026707269555a0750bd50699a5"
       }
     ]
   }
