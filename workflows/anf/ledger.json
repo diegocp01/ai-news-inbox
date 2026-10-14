@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 357,
-  "updated_at": "2026-10-14T16:22:46.958445+00:00",
+  "generation": 358,
+  "updated_at": "2026-10-14T16:23:38.867989+00:00",
   "next_id": 120,
   "records": [
     {
@@ -15246,6 +15246,18 @@
         ],
         "duplicates": []
       }
+    },
+    "3eae7fd9b437f7abcff2512cf9e3acee6b1f8bbe8f618eb16a1ef39c343efebc": {
+      "sha256": "4f852ed95370383f01996bdb13d456787b48e0b9992f53e87fbc69b20b5580b4",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 119,
+          "revision": 1,
+          "sha256": "c68faca4273801676ad3ad68fb96ee176dca45e680ff5b9b3ee0a2a3482e9ba9"
+        },
+        "editorial_sha256": "1a166c76a67800a13b358b1ae4d9d682bf77ee2c39fed3a1855f59c435cebfac"
+      }
     }
   },
   "migration": {
@@ -19560,6 +19572,58 @@
         "sha256": "ccb1fb61274aa6fb5904e5f62289b0e4778866658f1cd7770ba70e73b46bfd06",
         "reviewed_at": "2026-10-14T16:20:45.271795+00:00",
         "operation_id": "e22bc5fbac174e27f4657f32227e1c372ec67af248264886644ea464a4e04c04"
+      }
+    ],
+    "119:1": [
+      {
+        "reference": {
+          "id": 119,
+          "revision": 1,
+          "sha256": "c68faca4273801676ad3ad68fb96ee176dca45e680ff5b9b3ee0a2a3482e9ba9"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General-interest reporting on an executive anecdote and attitudes toward AI, not technical research or developer instruction.",
+            "evidence_sha256": "1278780b280a93483e8335ddb389f30c100456ed5a4dbb3618aa12f3b4bdc35e"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.cbsnews.com/news/shyam-sankar-chief-technology-officer-palantir-face-the-nation-transcript-10-11-2026/",
+              "final_url": "https://www.cbsnews.com/news/shyam-sankar-chief-technology-officer-palantir-face-the-nation-transcript-10-11-2026/",
+              "redirect_chain": [
+                "https://www.cbsnews.com/news/shyam-sankar-chief-technology-officer-palantir-face-the-nation-transcript-10-11-2026/"
+              ],
+              "checked_at": "2026-10-14T16:19:02.416503+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "9d5c003d08b3090ae46f662167dcedc85d2021c999d6a444fc04666432642376"
+            },
+            "image": {
+              "url": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/10/11/bc978a52-fcaa-4b71-bd76-dbb6a31d6905/thumbnail/1200x630/1a0660f61a558be8b2678172319d6e14/ftn-shyam-sankar-full-157-814326.png",
+              "final_url": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/10/11/bc978a52-fcaa-4b71-bd76-dbb6a31d6905/thumbnail/1200x630/1a0660f61a558be8b2678172319d6e14/ftn-shyam-sankar-full-157-814326.png",
+              "redirect_chain": [
+                "https://assets1.cbsnewsstatic.com/hub/i/r/2026/10/11/bc978a52-fcaa-4b71-bd76-dbb6a31d6905/thumbnail/1200x630/1a0660f61a558be8b2678172319d6e14/ftn-shyam-sankar-full-157-814326.png"
+              ],
+              "checked_at": "2026-10-14T16:19:26.386913+00:00",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 630,
+              "image_bytes_sha256": "ba44ba711642915c37e90ed0fef748e558c924153ccfff8276bb9020f678aeb5",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Clear 1200x630 frame of Shyam Sankar in the Face the Nation studio from the original October 11 interview page.",
+              "evidence_sha256": "9d5c003d08b3090ae46f662167dcedc85d2021c999d6a444fc04666432642376"
+            }
+          }
+        },
+        "sha256": "1a166c76a67800a13b358b1ae4d9d682bf77ee2c39fed3a1855f59c435cebfac",
+        "reviewed_at": "2026-10-14T16:23:38.867989+00:00",
+        "operation_id": "3eae7fd9b437f7abcff2512cf9e3acee6b1f8bbe8f618eb16a1ef39c343efebc"
       }
     ]
   }
