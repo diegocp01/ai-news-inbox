@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 395,
-  "updated_at": "2026-10-15T14:03:25+00:00",
+  "generation": 396,
+  "updated_at": "2026-10-15T14:04:50+00:00",
   "next_id": 132,
   "records": [
     {
@@ -17276,6 +17276,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b49033d8d5fc42a03a49c0d984100660d7d875dad50ede8f0aca35c6d19fca14": {
+      "sha256": "844e672d70de4552b783bebf37902370885459727a8fe8c319740e710e28ddd5",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 131,
+          "revision": 1,
+          "sha256": "fbb999f85a099775a6776f34caa3304771017e752d88cce9570ad699b8a5183e"
+        },
+        "editorial_sha256": "4dde732193217d2e107db79f6b5b28c292ada474ef31f2def3dddc71f663b214"
+      }
     }
   },
   "migration": {
@@ -22116,6 +22128,58 @@
         "sha256": "e2a1d7fb11e24cf54805e25450b24a1e4819751e04f4f7f539429a7f8f7e7276",
         "reviewed_at": "2026-10-15T12:12:47.498988+00:00",
         "operation_id": "bd37cc3adcb72a7046ecac75be491232fb708501966bc471176b5799172c2080"
+      }
+    ],
+    "131:1": [
+      {
+        "reference": {
+          "id": 131,
+          "revision": 1,
+          "sha256": "fbb999f85a099775a6776f34caa3304771017e752d88cce9570ad699b8a5183e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Creator productivity feature for adjusting footage through natural-language instructions and reviewing editable output; no coding or API use is required by this article. Technical implementation terms do not change its public creative-workflow focus.",
+            "evidence_sha256": "254daf726c9758517175f349091f3aaab48e3aa6c2c2951b444ee555eabd2163"
+          },
+          "quality": {
+            "article": {
+              "checked_at": "2026-10-15T14:03:04Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "url": "https://mirage.app/tesseract/color-grading",
+              "final_url": "https://mirage.app/tesseract/color-grading",
+              "redirect_chain": [
+                "https://mirage.app/tesseract/color-grading"
+              ],
+              "same_event": true,
+              "evidence_sha256": "254daf726c9758517175f349091f3aaab48e3aa6c2c2951b444ee555eabd2163"
+            },
+            "image": {
+              "checked_at": "2026-10-15T14:03:04Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "url": "https://mirage.app/mrkt-static/tesseract/color/color-grading/poster.jpg",
+              "final_url": "https://mirage.app/mrkt-static/tesseract/color/color-grading/poster.jpg",
+              "redirect_chain": [
+                "https://mirage.app/mrkt-static/tesseract/color/color-grading/poster.jpg"
+              ],
+              "evidence_sha256": "608cc0d6218515528b4e610553091b07024a8de121832b5bfff8d38fcb5849e4",
+              "content_type": "image/jpeg",
+              "width": 1920,
+              "height": 1080,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "caef322bf99c2c7cd1ee208bb9e87e0697997b759511465ffb15d244ce511a92",
+              "relevance": "story_specific",
+              "relevance_note": "Official Tesseract color-grading demonstration comparing the same garden portrait in original, warm grade and refined greens versions; publisher labels source footage as generated."
+            }
+          }
+        },
+        "sha256": "4dde732193217d2e107db79f6b5b28c292ada474ef31f2def3dddc71f663b214",
+        "reviewed_at": "2026-10-15T14:04:50+00:00",
+        "operation_id": "b49033d8d5fc42a03a49c0d984100660d7d875dad50ede8f0aca35c6d19fca14"
       }
     ]
   }
