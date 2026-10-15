@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 403,
-  "updated_at": "2026-10-15T17:01:00+00:00",
-  "next_id": 135,
+  "generation": 404,
+  "updated_at": "2026-10-15T17:03:50+00:00",
+  "next_id": 136,
   "records": [
     {
       "id": 1,
@@ -1790,6 +1790,19 @@
           "sha256": "40b801e43cdf1fd717217904df6c51c575bc2072406afcc118fafa5d259a0447",
           "source": "GitHub",
           "request_id": "37b7d355d7a9a773c2ac46935414e4c0865e8b770a96947257958cce414a9a7b",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T17:03:50+00:00",
+          "block": "Title: New AI Model: Black Forest Labs Releases FLUX 3 Image Klein\nURL: https://github.com/black-forest-labs/flux-3-image-klein\nImage URL: https://cdn.sanity.io/images/2gpum2i6/production/9897ba388ea1b943dcd51e3ba0bce3070f79d507-2400x1260.png\nSummary: Black Forest Labs released FLUX 3 Image Klein, an image-generation and editing model with native 4K output and support for up to 10 reference images. It can guide object placement and preserve untouched regions during edits. Available through a playground, API and downloadable weights, it can run on consumer GPUs; commercial use follows its custom license.",
+          "sha256": "3e8b848faa96e35fec8d8ee0b3f08c2b35e3d4a2afd434cd10b1961517af41d3",
+          "source": "Black Forest Labs",
+          "request_id": "397814e43a3a2524bfe4022422380de5dc67900888c2b53748ccdbb8998bbbde",
           "mode": "standard"
         }
       ]
@@ -3956,13 +3969,21 @@
       ]
     },
     "397814e43a3a2524bfe4022422380de5dc67900888c2b53748ccdbb8998bbbde": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T17:01:00+00:00",
       "received_sequence": 123,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T17:03:50+00:00",
+      "records": [
+        {
+          "id": 135,
+          "revision": 1,
+          "sha256": "3e8b848faa96e35fec8d8ee0b3f08c2b35e3d4a2afd434cd10b1961517af41d3"
+        }
+      ]
     }
   },
   "batches": {
@@ -17458,6 +17479,21 @@
       "result": {
         "status": "received",
         "request_id": "397814e43a3a2524bfe4022422380de5dc67900888c2b53748ccdbb8998bbbde"
+      }
+    },
+    "59879b22d80a1653133a61f33e47b13b60b4f6055f72e1697f39befebfbcf8fd": {
+      "sha256": "03c48ad802933954760e6cef09b65271cff7293c759c93bdde9d54c0d282d29f",
+      "result": {
+        "status": "finalized",
+        "request_id": "397814e43a3a2524bfe4022422380de5dc67900888c2b53748ccdbb8998bbbde",
+        "records": [
+          {
+            "id": 135,
+            "revision": 1,
+            "sha256": "3e8b848faa96e35fec8d8ee0b3f08c2b35e3d4a2afd434cd10b1961517af41d3"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
