@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 416,
-  "updated_at": "2026-10-15T20:51:02+00:00",
-  "next_id": 140,
+  "generation": 417,
+  "updated_at": "2026-10-15T20:51:03+00:00",
+  "next_id": 141,
   "records": [
     {
       "id": 1,
@@ -1855,6 +1855,19 @@
           "sha256": "dfcd5e9475b749091d6f59ce46e6a03878ac401a8469a24c973d1beea6b5d27c",
           "source": "BetaKit",
           "request_id": "d1deb61427fb602dc4b30ef7da054e54fea46aa28cb1feebd83b716558a2f0da",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T20:51:03+00:00",
+          "block": "Title: OpenAI Warns Staff That Spies May Use Money, Eavesdropping and Seduction to Get Secrets\nURL: https://www.aiaffairs.com/news/openai-warns-staff-espionage-threats/\nImage URL: https://www.aiaffairs.com/wp-content/uploads/2026/10/openai-warns-staff-espionage-threats.jpg\nSummary: OpenAI has warned employees that competitors and state-backed actors may try to obtain company secrets, the Wall Street Journal reported. Training scenarios include a stranger repeatedly befriending a staffer at a playground; leaders also warned of money offers, café eavesdropping and seduction attempts. The warnings preceded the FBI's arrest of an OpenAI engineer accused of hiding a recording device.",
+          "sha256": "8c90de43a6fff6456b7d8ea9092a559e418e1bafa9d1d27c2a8bfa84b47b044d",
+          "source": "AI Affairs",
+          "request_id": "aafd5dc239dd2e0a013b96acb483492e1c3f87eb1588227471ef514d566a3635",
           "mode": "standard"
         }
       ]
@@ -4097,13 +4110,21 @@
       ]
     },
     "aafd5dc239dd2e0a013b96acb483492e1c3f87eb1588227471ef514d566a3635": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T20:50:01+00:00",
       "received_sequence": 127,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T20:51:03+00:00",
+      "records": [
+        {
+          "id": 140,
+          "revision": 1,
+          "sha256": "8c90de43a6fff6456b7d8ea9092a559e418e1bafa9d1d27c2a8bfa84b47b044d"
+        }
+      ]
     },
     "cb30a60a1fe902a272c3041b1e9179b2869febe35e0fef45672aa78921c25bbe": {
       "status": "received",
@@ -17755,6 +17776,21 @@
             "id": 139,
             "revision": 1,
             "sha256": "dfcd5e9475b749091d6f59ce46e6a03878ac401a8469a24c973d1beea6b5d27c"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "30e192fa7e643436102e6c10b783bd676dc875b3581cc1f37b4eb3a27b0e14c8": {
+      "sha256": "b27237da4e4b55d0703d9be15fabca92a688793549247573d7de555076c0bce4",
+      "result": {
+        "status": "finalized",
+        "request_id": "aafd5dc239dd2e0a013b96acb483492e1c3f87eb1588227471ef514d566a3635",
+        "records": [
+          {
+            "id": 140,
+            "revision": 1,
+            "sha256": "8c90de43a6fff6456b7d8ea9092a559e418e1bafa9d1d27c2a8bfa84b47b044d"
           }
         ],
         "duplicates": []
