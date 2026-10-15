@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 373,
-  "updated_at": "2026-10-15T02:08:47.978228+00:00",
+  "generation": 374,
+  "updated_at": "2026-10-15T02:09:34.063291+00:00",
   "next_id": 125,
   "records": [
     {
@@ -15582,6 +15582,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d2c2ce8c1afdff5d3d85633de844a4ef71fd3380274fd65c94fb4db62f9dd5ed": {
+      "sha256": "2b17199bf3695422da2721fac35368d5bfa5be7fd74d05fc5131d8a031d8658b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 124,
+          "revision": 1,
+          "sha256": "d850bb783585242bd2fa03d934a599193f8ea45ec4e36f2af2b314c2e4262c2c"
+        },
+        "editorial_sha256": "a2dda15f87eb4fa9b5b321267e7208a0c959b8bd37393e2e47f7a7e4cb939693"
+      }
     }
   },
   "migration": {
@@ -20158,6 +20170,26 @@
         "sha256": "56d70f68f5233998dacf33c61bf135d196fcbf5e1c3e19263a7427c7ea14065b",
         "reviewed_at": "2026-10-15T01:01:42.565034+00:00",
         "operation_id": "1f1d982026adbf335ef10521ea507211b8d9d3e25aadf9f49be912491d4afe52"
+      }
+    ],
+    "124:1": [
+      {
+        "reference": {
+          "id": 124,
+          "revision": 1,
+          "sha256": "d850bb783585242bd2fa03d934a599193f8ea45ec4e36f2af2b314c2e4262c2c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Examines task-completion benchmark measurements and extrapolation limits for software engineering, machine learning and cybersecurity agents.",
+            "evidence_sha256": "6d5a279faf7222f66cc35d792f55dfaad20e21789955157b463badc75f69f51a"
+          }
+        },
+        "sha256": "a2dda15f87eb4fa9b5b321267e7208a0c959b8bd37393e2e47f7a7e4cb939693",
+        "reviewed_at": "2026-10-15T02:09:34.063291+00:00",
+        "operation_id": "d2c2ce8c1afdff5d3d85633de844a4ef71fd3380274fd65c94fb4db62f9dd5ed"
       }
     ]
   }
