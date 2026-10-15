@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 406,
-  "updated_at": "2026-10-15T17:47:44.506604+00:00",
-  "next_id": 136,
+  "generation": 407,
+  "updated_at": "2026-10-15T17:59:37.374548+00:00",
+  "next_id": 137,
   "records": [
     {
       "id": 1,
@@ -1803,6 +1803,19 @@
           "sha256": "3e8b848faa96e35fec8d8ee0b3f08c2b35e3d4a2afd434cd10b1961517af41d3",
           "source": "Black Forest Labs",
           "request_id": "397814e43a3a2524bfe4022422380de5dc67900888c2b53748ccdbb8998bbbde",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T17:59:37.374548+00:00",
+          "block": "Title: New AI Model: Meta Releases Muse Spark Open With Downloadable Weights\nURL: https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/\nImage URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/10/meta-muse-spark-mac.jpg?quality=82&strip=all&resize=1200,628\nSummary: Meta released Muse Spark Open, a multimodal AI model whose weights are available to download and run independently. It supports coding, reasoning and multi-step tasks, with a one-million-token context window. Meta says it can run on two M5 Ultra Mac Studios. It uses Meta’s custom license with limited commercial terms, rather than an unrestricted open-source license.",
+          "sha256": "0bdb0881c388d84f6a6d31fd0ff47e938d6ee4d2ee052975fee5d58fa82c9700",
+          "source": "9to5Mac",
+          "request_id": "1530ce91758d9164fcc050009ccc2ab29d11a27012e860c4e41bf03b00890f85",
           "mode": "standard"
         }
       ]
@@ -3986,13 +3999,21 @@
       ]
     },
     "1530ce91758d9164fcc050009ccc2ab29d11a27012e860c4e41bf03b00890f85": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T17:47:44.506604+00:00",
       "received_sequence": 124,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T17:59:37.374548+00:00",
+      "records": [
+        {
+          "id": 136,
+          "revision": 1,
+          "sha256": "0bdb0881c388d84f6a6d31fd0ff47e938d6ee4d2ee052975fee5d58fa82c9700"
+        }
+      ]
     }
   },
   "batches": {
@@ -17522,6 +17543,21 @@
       "result": {
         "status": "received",
         "request_id": "1530ce91758d9164fcc050009ccc2ab29d11a27012e860c4e41bf03b00890f85"
+      }
+    },
+    "eb8e4825872c7729251999a3a16c5f75ee5eece2264927a16842432af81b39bb": {
+      "sha256": "6672d98d32c0bd88a21394ce82bb818925cb995c7046c6abdacea3b1cf307a7a",
+      "result": {
+        "status": "finalized",
+        "request_id": "1530ce91758d9164fcc050009ccc2ab29d11a27012e860c4e41bf03b00890f85",
+        "records": [
+          {
+            "id": 136,
+            "revision": 1,
+            "sha256": "0bdb0881c388d84f6a6d31fd0ff47e938d6ee4d2ee052975fee5d58fa82c9700"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
