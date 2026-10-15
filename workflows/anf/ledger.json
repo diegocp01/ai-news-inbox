@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 404,
-  "updated_at": "2026-10-15T17:03:50+00:00",
+  "generation": 405,
+  "updated_at": "2026-10-15T17:06:50+00:00",
   "next_id": 136,
   "records": [
     {
@@ -17495,6 +17495,18 @@
         ],
         "duplicates": []
       }
+    },
+    "38caa525f86b9fa51b55b92914626a5deae9d0bd372f5b7da153a8d17a69b9bc": {
+      "sha256": "7be49ff2c322fee840e3c1a4c1f92ded14ac8cfadc3732b2b8ea861b9f0d6d4e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 135,
+          "revision": 1,
+          "sha256": "3e8b848faa96e35fec8d8ee0b3f08c2b35e3d4a2afd434cd10b1961517af41d3"
+        },
+        "editorial_sha256": "b7e030e1683514e62fd22b2e0702ce42e6d6ef9150c2d4f725f8573b2d61003c"
+      }
     }
   },
   "migration": {
@@ -22407,6 +22419,26 @@
         "sha256": "59eba3faa0f01e383e3dfdf19e7dd008d6bb33aeab2c08e573737e20a58f4a72",
         "reviewed_at": "2026-10-15T16:57:05+00:00",
         "operation_id": "30fa642c15282c98c0050289e8bf9d62a93cd5921a9607599af2a91abbea2c90"
+      }
+    ],
+    "135:1": [
+      {
+        "reference": {
+          "id": 135,
+          "revision": 1,
+          "sha256": "3e8b848faa96e35fec8d8ee0b3f08c2b35e3d4a2afd434cd10b1961517af41d3"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public image-model launch available through a playground and model access; incidental API and open-weight details do not change its broad creator audience. Applies the user public-model release rule.",
+            "evidence_sha256": "edf5aa94042750558eaeb1bdfcfb161c43c4dc54bb5065876986c5d30e673523"
+          }
+        },
+        "sha256": "b7e030e1683514e62fd22b2e0702ce42e6d6ef9150c2d4f725f8573b2d61003c",
+        "reviewed_at": "2026-10-15T17:06:50+00:00",
+        "operation_id": "38caa525f86b9fa51b55b92914626a5deae9d0bd372f5b7da153a8d17a69b9bc"
       }
     ]
   }
