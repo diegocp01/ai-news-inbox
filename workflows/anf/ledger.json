@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 397,
-  "updated_at": "2026-10-15T14:30:04+00:00",
-  "next_id": 132,
+  "generation": 398,
+  "updated_at": "2026-10-15T14:36:19+00:00",
+  "next_id": 134,
   "records": [
     {
       "id": 1,
@@ -1751,6 +1751,32 @@
           "sha256": "fbb999f85a099775a6776f34caa3304771017e752d88cce9570ad699b8a5183e",
           "source": "Mirage",
           "request_id": "9dd1a2c97a05e8dcd2bc66d6b6df909ddd16a434d8c43fece50c3a12c0ddf5a5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T14:36:19+00:00",
+          "block": "Title: AI Video Framework Uses Memory to Keep Scenes Consistent\nURL: https://arxiv.org/abs/2610.20571\nImage URL: https://arxiv.org/html/2610.20571v1/teaser.png\nSummary: Weijie Wang and colleagues present ATAS, which stores scene geometry and time-indexed events to keep generated video shots consistent when revisiting places or replaying actions. Across four video generators, the authors report improved cross-shot consistency and the highest aggregate scores among compared methods. Reconstruction and validation add computation.",
+          "sha256": "d0bf4171a9e9a28a4a047d91e41557a2b327c18c55fcd1c8f3aa499bc75c95e3",
+          "source": "arXiv",
+          "request_id": "da679addeac35cd532f68a33e1baa1abf1430a42c90ee1c1d65ec29c7c6ca9c0",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T14:36:19+00:00",
+          "block": "Title: Synthetic Training Environments Improve AI Game Control\nURL: https://arxiv.org/abs/2610.20584\nImage URL: https://arxiv.org/html/2610.20584v1/p1_gym_environment_suite.png\nSummary: Mingyu Ouyang and colleagues report that Player-1 trains game agents using demonstrations and reinforcement learning in sixteen synthetic environments. Its 9B model improved MineDojo-300 success from 10.54% to 38.33%, with gains on ViZDoom-10 and GameWorld. The results support transfer beyond the training environments, rather than universal game-playing ability.",
+          "sha256": "961dee05a990fe11971acc6b080ab834b6baefd6a6f0edb6b7f6de78c0bbf702",
+          "source": "arXiv",
+          "request_id": "da679addeac35cd532f68a33e1baa1abf1430a42c90ee1c1d65ec29c7c6ca9c0",
           "mode": "standard"
         }
       ]
@@ -3869,13 +3895,26 @@
       ]
     },
     "da679addeac35cd532f68a33e1baa1abf1430a42c90ee1c1d65ec29c7c6ca9c0": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T14:30:04+00:00",
       "received_sequence": 120,
       "expected_items": 2,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T14:36:19+00:00",
+      "records": [
+        {
+          "id": 132,
+          "revision": 1,
+          "sha256": "d0bf4171a9e9a28a4a047d91e41557a2b327c18c55fcd1c8f3aa499bc75c95e3"
+        },
+        {
+          "id": 133,
+          "revision": 1,
+          "sha256": "961dee05a990fe11971acc6b080ab834b6baefd6a6f0edb6b7f6de78c0bbf702"
+        }
+      ]
     }
   },
   "batches": {
@@ -17303,6 +17342,26 @@
       "result": {
         "status": "received",
         "request_id": "da679addeac35cd532f68a33e1baa1abf1430a42c90ee1c1d65ec29c7c6ca9c0"
+      }
+    },
+    "da679addeac35cd532f68a33e1baa1abf1430a42c90ee1c1d65ec29c7c6ca9c0-finalize": {
+      "sha256": "ed1aba57d0b9844e77a37916639eaa24e9db8c7f313164647c1d3764a5e08a59",
+      "result": {
+        "status": "finalized",
+        "request_id": "da679addeac35cd532f68a33e1baa1abf1430a42c90ee1c1d65ec29c7c6ca9c0",
+        "records": [
+          {
+            "id": 132,
+            "revision": 1,
+            "sha256": "d0bf4171a9e9a28a4a047d91e41557a2b327c18c55fcd1c8f3aa499bc75c95e3"
+          },
+          {
+            "id": 133,
+            "revision": 1,
+            "sha256": "961dee05a990fe11971acc6b080ab834b6baefd6a6f0edb6b7f6de78c0bbf702"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
