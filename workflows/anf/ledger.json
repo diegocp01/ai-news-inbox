@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 381,
-  "updated_at": "2026-10-15T02:56:59.203375+00:00",
+  "generation": 382,
+  "updated_at": "2026-10-15T02:59:07.798953+00:00",
   "next_id": 128,
   "records": [
     {
@@ -15758,6 +15758,18 @@
         ],
         "duplicates": []
       }
+    },
+    "ff5d01a55612f878f03731957e29fa9aaf6ed19e2bd4aac1d5dd83a89bf63d2e": {
+      "sha256": "f34bff77879cbbb48a111cc2af2a588a90052be6578aad865a714d0dc338bd9b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 127,
+          "revision": 1,
+          "sha256": "44e7fab50c8eead63ef1527b27a227522b7ab4bd4f07bc11b81b4368fa5fc254"
+        },
+        "editorial_sha256": "811ffa518f0d8f3f0580615ab5c84282cd2a7e83841549ad4b61756f6beefabd"
+      }
     }
   },
   "migration": {
@@ -20458,6 +20470,58 @@
         "sha256": "a07a1b00a4e2276798a2f7bac155045db6cc0d73b8f18959be34b8c2d26a078e",
         "reviewed_at": "2026-10-15T02:55:17.843107+00:00",
         "operation_id": "5c3bac4071d1fdc933df5eea503d5d0c6e35318b3206e01503df9e92386b3d4f"
+      }
+    ],
+    "127:1": [
+      {
+        "reference": {
+          "id": 127,
+          "revision": 1,
+          "sha256": "44e7fab50c8eead63ef1527b27a227522b7ab4bd4f07bc11b81b4368fa5fc254"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public voice-model launch for video creators, with accessible voice cloning and scene adaptation. Incidental API details do not change the public audience.",
+            "evidence_sha256": "560c61cfbfaa12a98bb09a642d403bd8a130859e7de16fc3a7f4a8a1f5bd88c2"
+          },
+          "quality": {
+            "article": {
+              "url": "https://heygen.noticeable.news/publications/introducing-heygen-voice",
+              "final_url": "https://heygen.noticeable.news/publications/introducing-heygen-voice",
+              "redirect_chain": [
+                "https://heygen.noticeable.news/publications/introducing-heygen-voice"
+              ],
+              "checked_at": "2026-10-15T02:54:00+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "560c61cfbfaa12a98bb09a642d403bd8a130859e7de16fc3a7f4a8a1f5bd88c2"
+            },
+            "image": {
+              "url": "https://cdn.sanity.io/images/pdhqcmb1/production/ebaab3898b7766f29df0382cebe48f01d9024c4f-3840x2160.png?fit=max&fm=png",
+              "final_url": "https://cdn.sanity.io/images/pdhqcmb1/production/ebaab3898b7766f29df0382cebe48f01d9024c4f-3840x2160.png?fit=max&fm=png",
+              "redirect_chain": [
+                "https://cdn.sanity.io/images/pdhqcmb1/production/ebaab3898b7766f29df0382cebe48f01d9024c4f-3840x2160.png?fit=max&fm=png"
+              ],
+              "checked_at": "2026-10-15T02:55:54+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "a310f39679f1ffef6651a3b02b495b8b552da8167e7c58ecf688bd952d91f3b7",
+              "content_type": "image/png",
+              "width": 3840,
+              "height": 2160,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "a310f39679f1ffef6651a3b02b495b8b552da8167e7c58ecf688bd952d91f3b7",
+              "relevance": "story_specific",
+              "relevance_note": "Official HeyGen Voice research-page launch image showing a speaker against blue shapes and text promoting the voice model."
+            }
+          }
+        },
+        "sha256": "811ffa518f0d8f3f0580615ab5c84282cd2a7e83841549ad4b61756f6beefabd",
+        "reviewed_at": "2026-10-15T02:59:07.798953+00:00",
+        "operation_id": "ff5d01a55612f878f03731957e29fa9aaf6ed19e2bd4aac1d5dd83a89bf63d2e"
       }
     ]
   }
