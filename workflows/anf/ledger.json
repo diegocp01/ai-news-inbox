@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 375,
-  "updated_at": "2026-10-15T02:49:25.522511+00:00",
-  "next_id": 125,
+  "generation": 376,
+  "updated_at": "2026-10-15T02:50:28.123127+00:00",
+  "next_id": 126,
   "records": [
     {
       "id": 1,
@@ -1658,6 +1658,19 @@
           "sha256": "d850bb783585242bd2fa03d934a599193f8ea45ec4e36f2af2b314c2e4262c2c",
           "source": "METR",
           "request_id": "88f4474d2c5b24205b565047272fe74b32b41c72e4cecfc1f63f5bbfae087a01",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T02:50:28.123127+00:00",
+          "block": "Title: Claude Turns Reports and Ideas Into Animated Videos\nURL: https://claude.com/resources/articles/dashboards-and-motion\nImage URL: https://assets.claude.com/46f88e8de631c732fa245ad453262e6ef35c0e73.png\nSummary: Anthropic launched Claude Motion in beta for Team and Enterprise users. It turns prompts, reports, charts and images into short, editable animations that can be downloaded as MP4 videos. Users can adjust words, numbers and timing through chat or an editor. The feature uses code-based animation rather than a video-generation model.",
+          "sha256": "b89dd0a137e98acc21e6151428f7d9863bca96d76967eef308af9569df97f4e2",
+          "source": "Anthropic",
+          "request_id": "2a8212fdc4edb2cc3eab39ab7226d5843df930a0a1d5f6e7bbd72f9732c4df74",
           "mode": "standard"
         }
       ]
@@ -3677,13 +3690,21 @@
       "corrects_record_id": null
     },
     "2a8212fdc4edb2cc3eab39ab7226d5843df930a0a1d5f6e7bbd72f9732c4df74": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T02:49:25.522511+00:00",
       "received_sequence": 115,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T02:50:28.123127+00:00",
+      "records": [
+        {
+          "id": 125,
+          "revision": 1,
+          "sha256": "b89dd0a137e98acc21e6151428f7d9863bca96d76967eef308af9569df97f4e2"
+        }
+      ]
     }
   },
   "batches": {
@@ -15609,6 +15630,21 @@
       "result": {
         "status": "received",
         "request_id": "2a8212fdc4edb2cc3eab39ab7226d5843df930a0a1d5f6e7bbd72f9732c4df74"
+      }
+    },
+    "7bca492cfa534722af7f13ac2a23ce68": {
+      "sha256": "7ce4c13c5afb0b5cf0a1a22d0a26b4de9c793bc8a0c1620f48b9d2e462b8b514",
+      "result": {
+        "status": "finalized",
+        "request_id": "2a8212fdc4edb2cc3eab39ab7226d5843df930a0a1d5f6e7bbd72f9732c4df74",
+        "records": [
+          {
+            "id": 125,
+            "revision": 1,
+            "sha256": "b89dd0a137e98acc21e6151428f7d9863bca96d76967eef308af9569df97f4e2"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
