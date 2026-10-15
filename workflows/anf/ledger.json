@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 383,
-  "updated_at": "2026-10-15T03:01:10.319313+00:00",
-  "next_id": 128,
+  "generation": 384,
+  "updated_at": "2026-10-15T03:09:11.745638+00:00",
+  "next_id": 129,
   "records": [
     {
       "id": 1,
@@ -1697,6 +1697,19 @@
           "sha256": "44e7fab50c8eead63ef1527b27a227522b7ab4bd4f07bc11b81b4368fa5fc254",
           "source": "HeyGen",
           "request_id": "b886aa906f4e1be71929c0ba1139c1178b29e8f04908705f8dc4c7675ba147c5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T03:09:11.745638+00:00",
+          "block": "Title: Runway Shows AI Agents’ Work Through Live Video\nURL: \nImage URL: https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp\nSummary: Runway Labs demonstrated Visual Thinking, a research harness that turns an AI agent’s work into real-time video. The company says the visual steps make its work easier to follow and check. Earlier Continuum demonstrations used it with coding agents. This is a research preview; the announcement does not establish general availability.",
+          "sha256": "85839d5e3de854f4f90871966eeb02e9592c805c046574970e59aa0b00a55d09",
+          "source": "Runway Labs",
+          "request_id": "382c70ea1b8dcc9023ca6faf59dc2c951184ef0ccf6bbd803005b0c45e6f12cc",
           "mode": "standard"
         }
       ]
@@ -3758,13 +3771,21 @@
       ]
     },
     "382c70ea1b8dcc9023ca6faf59dc2c951184ef0ccf6bbd803005b0c45e6f12cc": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T03:01:10.319313+00:00",
       "received_sequence": 117,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T03:09:11.745638+00:00",
+      "records": [
+        {
+          "id": 128,
+          "revision": 1,
+          "sha256": "85839d5e3de854f4f90871966eeb02e9592c805c046574970e59aa0b00a55d09"
+        }
+      ]
     }
   },
   "batches": {
@@ -15785,6 +15806,21 @@
       "result": {
         "status": "received",
         "request_id": "382c70ea1b8dcc9023ca6faf59dc2c951184ef0ccf6bbd803005b0c45e6f12cc"
+      }
+    },
+    "77d418c6d2af52bd61303db27fc0d5ed10d6daa32d32b3ef5602ee68e34515e6": {
+      "sha256": "b59235bc9e1f998c2cf292a76453508bf30124c2afa121c67ee3ba73c22beb37",
+      "result": {
+        "status": "finalized",
+        "request_id": "382c70ea1b8dcc9023ca6faf59dc2c951184ef0ccf6bbd803005b0c45e6f12cc",
+        "records": [
+          {
+            "id": 128,
+            "revision": 1,
+            "sha256": "85839d5e3de854f4f90871966eeb02e9592c805c046574970e59aa0b00a55d09"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
