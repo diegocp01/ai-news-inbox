@@ -1,0 +1,9 @@
+{
+  "enabled": false,
+  "repository": "diegocp01/ai-news-inbox",
+  "branch": "anf-executor-sandbox",
+  "submitter_ids": [154387858],
+  "authorized_operation_sha256": [],
+  "production_cutover_sha256": null,
+  "max_jobs_per_run": 10
+}

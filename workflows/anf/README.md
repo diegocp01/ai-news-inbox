@@ -4,6 +4,13 @@ This deployment preserves the skill behavior and starts a new queue. It began wi
 
 `runtime_protocol.md` defines the required GitHub atomic-CAS/readback and native attachment receipt behavior. GitHub is the durable source of truth; local files are caches.
 
+An **undeployed, disabled-by-default deterministic executor** is now available in
+`executor.py` and `github_transport.py`. See [its invocation, trust boundary and
+cutover plan](docs/EXECUTOR.md) and [test/live transport evidence](docs/EXECUTOR-VALIDATION.md).
+It uses structured GitHub issues, a durable Git job journal, and an authenticated
+Actions worker. It does not activate a new production writer or provide native
+attachment delivery. The pure planner/output gate remain credential-free.
+
 Compilation is enabled in the current `runtime_config.json`, with the recorded user cutover-confirmation digest. The intended saved schedule is Monday–Friday 08:00 America/New_York; scheduler state is external to this repository. No access to the old machine is needed or authorized.
 
 Scheduled compilation passes the intended 08:00 New York boundary as UTC `eligibility_at`, including on delayed runs. It compiles the ready eligible records (legacy batches retain contiguous-prefix behavior) and explicitly defers unfinished intake without resolving or losing it. A pending correction to a selected record still blocks. Retries preserve an existing batch's membership, cutoffs and deferrals; acknowledgment marks only that batch delivered after accepted native TXT delivery, then advances through contiguous delivered IDs.
@@ -27,8 +34,9 @@ four-line blocks. The planner always returns `ready_to_send: false`; only the
 read-only gate may return `ready_to_send: true` for an intake response. Follow
 `runtime_protocol.md` for its input and connector-observation requirements.
 
-The scripts have no network client or credentials. GitHub writes and fresh reads
-remain connector operations. The gate deterministically validates those supplied
+The planner and gate have no network client or credentials. The current deployed
+route still uses connector operations; the proposed executor performs Git writes
+and fresh reads with its own authorized runner token. The gate validates supplied
 observations; it cannot independently authenticate GitHub or prevent the assistant
 from bypassing the workflow in free-form chat. It does not authorize compilation
 attachment delivery or resend an already answered intake.

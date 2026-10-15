@@ -1,5 +1,16 @@
 # ANF cloud ledger runtime protocol
 
+## Proposed executor (not activated)
+
+`executor.py` and `github_transport.py` implement the outer Git transaction and
+durable structured-issue queue described in [docs/EXECUTOR.md](docs/EXECUTOR.md).
+They are disabled and sandbox-targeted pending separate deployment approval.
+The existing live writer, ledger/config/policy, schedules and delivery route are
+unchanged. The executor uses its own Actions token, never inherited ChatGPT
+credentials, and rejects delivery/acknowledgment operations until an authenticated
+native receipt adapter exists. Earlier statements below about a no-network
+package describe the pure engine/gate and current deployed connector route.
+
 ## Separate submissions are preserved (2026-10-02 update)
 
 The user's latest instruction disables automatic story/content deduplication.

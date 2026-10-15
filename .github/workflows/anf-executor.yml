@@ -1,0 +1,42 @@
+name: ANF executor (explicitly gated)
+on:
+  issues:
+    types: [opened, reopened]
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+# Wakeups only; the Git journal and full issue reconciliation are the queue.
+concurrency:
+  group: anf-durable-writer
+  cancel-in-progress: false
+permissions:
+  contents: read
+
+jobs:
+  reconcile:
+    if: vars.ANF_EXECUTOR_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      issues: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Reconcile durable jobs (no delivery adapter)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 workflows/anf/executor.py --output "$RUNNER_TEMP/anf-result.json"
+      - name: Preserve this run's status, including failures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: anf-executor-result-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/anf-result.json
+          if-no-files-found: error
+      - name: Status location
+        if: always()
+        run: echo 'Read the current Git job journal and this run artifact. A canceled run or missing artifact is not proof of success. Native attachment delivery is unavailable.' >> "$GITHUB_STEP_SUMMARY"
