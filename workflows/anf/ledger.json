@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 372,
-  "updated_at": "2026-10-15T02:05:23.926364+00:00",
-  "next_id": 124,
+  "generation": 373,
+  "updated_at": "2026-10-15T02:08:47.978228+00:00",
+  "next_id": 125,
   "records": [
     {
       "id": 1,
@@ -1645,6 +1645,19 @@
           "sha256": "85390e927c77bbad97fa9101fa9887a50aaac47cbc0ad60384c68b63c4203fa0",
           "source": "arXiv",
           "request_id": "22728eff281ecd08aafa4bd61a3261c7f848141937968ca071d76f3f4058e83c",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T02:08:47.978228+00:00",
+          "block": "Title: AI Could Handle Longer Tasks, but Forecasts Remain Uncertain\nURL: https://metr.org/time-horizons/\nImage URL: https://metr.org/assets/images/time-horizon-1-1/time-horizon-1-vs-1-1-since-2023.png\nSummary: An illustrative chart projects AI completing 160-hour human-equivalent tasks with 50% success by August 2027, assuming five-month doubling from Claude Opus 4.6's roughly 12-hour benchmark. This is extrapolation, not a measured capability or AGI prediction. METR warns estimates above 16 hours are unreliable; its tests primarily cover software, machine-learning and cybersecurity tasks.",
+          "sha256": "d850bb783585242bd2fa03d934a599193f8ea45ec4e36f2af2b314c2e4262c2c",
+          "source": "METR",
+          "request_id": "88f4474d2c5b24205b565047272fe74b32b41c72e4cecfc1f63f5bbfae087a01",
           "mode": "standard"
         }
       ]
@@ -3638,13 +3651,21 @@
       ]
     },
     "88f4474d2c5b24205b565047272fe74b32b41c72e4cecfc1f63f5bbfae087a01": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T01:52:48.286459+00:00",
       "received_sequence": 113,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T02:08:47.978228+00:00",
+      "records": [
+        {
+          "id": 124,
+          "revision": 1,
+          "sha256": "d850bb783585242bd2fa03d934a599193f8ea45ec4e36f2af2b314c2e4262c2c"
+        }
+      ]
     },
     "feaddae5628d3be098102692965122d96cd4785d48b3fd4f1ac81a5fcf6474a6": {
       "status": "received",
@@ -15545,6 +15566,21 @@
       "result": {
         "status": "received",
         "request_id": "feaddae5628d3be098102692965122d96cd4785d48b3fd4f1ac81a5fcf6474a6"
+      }
+    },
+    "501e92a8c25ff8e62b0846c9a1a8b01429c9b1c34bd281f1c1586a990cbbab7d": {
+      "sha256": "f68d1b85413bc22405b57a8ed4b51d8f49a20a8d0e20ec81f7ae6e911adbf895",
+      "result": {
+        "status": "finalized",
+        "request_id": "88f4474d2c5b24205b565047272fe74b32b41c72e4cecfc1f63f5bbfae087a01",
+        "records": [
+          {
+            "id": 124,
+            "revision": 1,
+            "sha256": "d850bb783585242bd2fa03d934a599193f8ea45ec4e36f2af2b314c2e4262c2c"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
