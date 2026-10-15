@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 421,
-  "updated_at": "2026-10-15T20:53:00+00:00",
-  "next_id": 143,
+  "generation": 422,
+  "updated_at": "2026-10-15T20:53:01+00:00",
+  "next_id": 144,
   "records": [
     {
       "id": 1,
@@ -1894,6 +1894,19 @@
           "sha256": "d21675c98cc0407e35b72eb4b8739ca92a889afcb9cac7173b411c549ebc3cf2",
           "source": "Apple Machine Learning Research",
           "request_id": "9f948c9efe94366f03439ed31fc721d84cf653c59e31f4f6fea2ce99e5a13ee5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T20:53:01+00:00",
+          "block": "Title: Sergey Brin Says Google's AI Models Are Now Helping Build Their Successors\nURL: https://www.businessinsider.com/sergey-brin-google-gemini-ai-argon-recursive-self-improvement-rsi-2026-10\nImage URL: https://i.ytimg.com/vi/Jh6mgf9M06M/maxresdefault.jpg\nSummary: Google cofounder Sergey Brin says AI development is accelerating inside Google, with models now helping build their successors, an idea called recursive self-improvement. In a Google roundtable on the new Gemini 4 Argon model, Brin said Google is \"starting to get onto that RSI treadmill\" and that researchers and the model work hand in hand on the next version.",
+          "sha256": "09d7e794720a170ca7014c6bf97def49f84e1f237c7af8b8e9037dab53dbc21f",
+          "source": "Business Insider",
+          "request_id": "2d9b21eb23052ccab691e4a3e9508e7cba19d16afca3a11542ca4a61e181084f",
           "mode": "standard"
         }
       ]
@@ -4196,13 +4209,21 @@
       ]
     },
     "2d9b21eb23052ccab691e4a3e9508e7cba19d16afca3a11542ca4a61e181084f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T20:53:00+00:00",
       "received_sequence": 131,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T20:53:01+00:00",
+      "records": [
+        {
+          "id": 143,
+          "revision": 1,
+          "sha256": "09d7e794720a170ca7014c6bf97def49f84e1f237c7af8b8e9037dab53dbc21f"
+        }
+      ]
     }
   },
   "batches": {
@@ -17898,6 +17919,21 @@
       "result": {
         "status": "received",
         "request_id": "2d9b21eb23052ccab691e4a3e9508e7cba19d16afca3a11542ca4a61e181084f"
+      }
+    },
+    "d0d865a14832bc7eb050603c971c2f87db9eeddb24aea00a1c070c8750066b95": {
+      "sha256": "3330ddd71705706f46ef10f7dc743b74b296ff20d80376200ed35c2135de1584",
+      "result": {
+        "status": "finalized",
+        "request_id": "2d9b21eb23052ccab691e4a3e9508e7cba19d16afca3a11542ca4a61e181084f",
+        "records": [
+          {
+            "id": 143,
+            "revision": 1,
+            "sha256": "09d7e794720a170ca7014c6bf97def49f84e1f237c7af8b8e9037dab53dbc21f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
