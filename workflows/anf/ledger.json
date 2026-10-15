@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 413,
-  "updated_at": "2026-10-15T20:50:03+00:00",
-  "next_id": 137,
+  "generation": 414,
+  "updated_at": "2026-10-15T20:51:00+00:00",
+  "next_id": 138,
   "records": [
     {
       "id": 1,
@@ -1816,6 +1816,19 @@
           "sha256": "0bdb0881c388d84f6a6d31fd0ff47e938d6ee4d2ee052975fee5d58fa82c9700",
           "source": "9to5Mac",
           "request_id": "1530ce91758d9164fcc050009ccc2ab29d11a27012e860c4e41bf03b00890f85",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T20:51:00+00:00",
+          "block": "Title: Google DeepMind's SynthID AI Watermark Named One of TIME's Best Inventions of 2026\nURL: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Labs_SynthID_Social1920x1080.max-1440x810.png\nSummary: TIME named Google DeepMind's SynthID one of its Best Inventions of 2026. SynthID embeds invisible watermarks in AI-generated images, video, audio and text when they are created. Google says it has watermarked more than 180 billion images and videos and 240,000 years of audio, and anyone can now check files with its SynthID Detector.",
+          "sha256": "af507ca59948cd00ffc7ec77aaf59cf85f09f01c90358be5c27197ff37350cda",
+          "source": "Google",
+          "request_id": "05d6c866908e5683196df6668aeda947aa434845e50c078726510a16e50a55ac",
           "mode": "standard"
         }
       ]
@@ -3956,13 +3969,21 @@
       ]
     },
     "05d6c866908e5683196df6668aeda947aa434845e50c078726510a16e50a55ac": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T15:55:35+00:00",
       "received_sequence": 121,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T20:51:00+00:00",
+      "records": [
+        {
+          "id": 137,
+          "revision": 1,
+          "sha256": "af507ca59948cd00ffc7ec77aaf59cf85f09f01c90358be5c27197ff37350cda"
+        }
+      ]
     },
     "37b7d355d7a9a773c2ac46935414e4c0865e8b770a96947257958cce414a9a7b": {
       "status": "finalized",
@@ -17650,6 +17671,21 @@
       "result": {
         "status": "received",
         "request_id": "56825bdc5d9c06920a0cb34ef70cf4cd18e159df3aa9c9b377ba22ad9e586f8f"
+      }
+    },
+    "c450083c65ea37a4b99ac6a1374bf3380c192d7641b4365b22ae0742c81a6c2c": {
+      "sha256": "70d34699475ed7c513a5a5b17774b4d85213b35904c7e2f5200285eb0ecf0e2b",
+      "result": {
+        "status": "finalized",
+        "request_id": "05d6c866908e5683196df6668aeda947aa434845e50c078726510a16e50a55ac",
+        "records": [
+          {
+            "id": 137,
+            "revision": 1,
+            "sha256": "af507ca59948cd00ffc7ec77aaf59cf85f09f01c90358be5c27197ff37350cda"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
