@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 379,
-  "updated_at": "2026-10-15T02:54:31.564766+00:00",
+  "generation": 380,
+  "updated_at": "2026-10-15T02:55:17.843107+00:00",
   "next_id": 127,
   "records": [
     {
@@ -15710,6 +15710,18 @@
         ],
         "duplicates": []
       }
+    },
+    "5c3bac4071d1fdc933df5eea503d5d0c6e35318b3206e01503df9e92386b3d4f": {
+      "sha256": "a3ab8e250901cf2aafaa9f522ac810de55cbf6e8dfafe8a8b6cba0b7007b4256",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 126,
+          "revision": 1,
+          "sha256": "3d19188fb78558c29b0bbaaa9a1e20f598d5fd01830e46fdf8f8b361229c62f2"
+        },
+        "editorial_sha256": "a07a1b00a4e2276798a2f7bac155045db6cc0d73b8f18959be34b8c2d26a078e"
+      }
     }
   },
   "migration": {
@@ -20358,6 +20370,58 @@
         "sha256": "65a2864a79668a0604e8f9ee58b837939f83a15d51c1d335e81916860fadb6f0",
         "reviewed_at": "2026-10-15T02:51:15.062282+00:00",
         "operation_id": "caacc8acaa7e4bfeb7a3c8edab058782"
+      }
+    ],
+    "126:1": [
+      {
+        "reference": {
+          "id": 126,
+          "revision": 1,
+          "sha256": "3d19188fb78558c29b0bbaaa9a1e20f598d5fd01830e46fdf8f8b361229c62f2"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "AI safety incident and company accountability news for a broad audience; no developer product or research-paper release.",
+            "evidence_sha256": "b13a1736852fda5e626b89387dc55b533d296ffbd12dae6395a058bd61a25adb"
+          },
+          "quality": {
+            "article": {
+              "url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
+              "final_url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
+              "redirect_chain": [
+                "https://swarmcha.se/posts/chinese-agent-fleet-full-report"
+              ],
+              "checked_at": "2026-10-15T02:08:54.218846+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "b13a1736852fda5e626b89387dc55b533d296ffbd12dae6395a058bd61a25adb"
+            },
+            "image": {
+              "url": "https://swarmcha.se/images/chinese-agent-fleet-full-report/agent-browser-flow.png",
+              "final_url": "https://swarmcha.se/images/chinese-agent-fleet-full-report/agent-browser-flow.png",
+              "redirect_chain": [
+                "https://swarmcha.se/images/chinese-agent-fleet-full-report/agent-browser-flow.png"
+              ],
+              "checked_at": "2026-10-15T02:08:54.218846+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "b13a1736852fda5e626b89387dc55b533d296ffbd12dae6395a058bd61a25adb",
+              "content_type": "image/png",
+              "width": 1424,
+              "height": 1104,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "372e88798484e6cfa456a121f75b36d891f0fca6d971982c3cc816ca830a492a",
+              "relevance": "story_specific",
+              "relevance_note": "Report diagram shows AI agents using a browser scanning service to request Amap data."
+            }
+          }
+        },
+        "sha256": "a07a1b00a4e2276798a2f7bac155045db6cc0d73b8f18959be34b8c2d26a078e",
+        "reviewed_at": "2026-10-15T02:55:17.843107+00:00",
+        "operation_id": "5c3bac4071d1fdc933df5eea503d5d0c6e35318b3206e01503df9e92386b3d4f"
       }
     ]
   }
