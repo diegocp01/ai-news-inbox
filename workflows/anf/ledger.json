@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 400,
-  "updated_at": "2026-10-15T16:03:45+00:00",
-  "next_id": 134,
+  "generation": 401,
+  "updated_at": "2026-10-15T16:56:10+00:00",
+  "next_id": 135,
   "records": [
     {
       "id": 1,
@@ -1777,6 +1777,19 @@
           "sha256": "961dee05a990fe11971acc6b080ab834b6baefd6a6f0edb6b7f6de78c0bbf702",
           "source": "arXiv",
           "request_id": "da679addeac35cd532f68a33e1baa1abf1430a42c90ee1c1d65ec29c7c6ca9c0",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T16:56:10+00:00",
+          "block": "Title: Developers Build Neural Networks With JavaScript\nURL: https://github.com/chenglou/handwired\nImage URL: https://raw.githubusercontent.com/chenglou/handwired/main/assets/demos-handwiredos.webp\nSummary: Handwired is an open-source toolkit for writing programs as neural-network-style calculations without training their weights. Developers construct numeric circuits using JavaScript rather than automatically converting existing code. Its demos include a desktop interface, a trainable photo gallery and GPU-powered search across 100,000 JSON documents.",
+          "sha256": "40b801e43cdf1fd717217904df6c51c575bc2072406afcc118fafa5d259a0447",
+          "source": "GitHub",
+          "request_id": "37b7d355d7a9a773c2ac46935414e4c0865e8b770a96947257958cce414a9a7b",
           "mode": "standard"
         }
       ]
@@ -3926,13 +3939,21 @@
       "corrects_record_id": null
     },
     "37b7d355d7a9a773c2ac46935414e4c0865e8b770a96947257958cce414a9a7b": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T16:03:45+00:00",
       "received_sequence": 122,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T16:56:10+00:00",
+      "records": [
+        {
+          "id": 134,
+          "revision": 1,
+          "sha256": "40b801e43cdf1fd717217904df6c51c575bc2072406afcc118fafa5d259a0447"
+        }
+      ]
     }
   },
   "batches": {
@@ -17394,6 +17415,21 @@
       "result": {
         "status": "received",
         "request_id": "37b7d355d7a9a773c2ac46935414e4c0865e8b770a96947257958cce414a9a7b"
+      }
+    },
+    "53349a72719f4a2788223d3308c51ac62f871630cb9e7852d5be89a919fe7725": {
+      "sha256": "5a539aac422b4c6de4fbe8b68cbf0ff8dafa847ad0ba4c41ff102f67a4cbad2e",
+      "result": {
+        "status": "finalized",
+        "request_id": "37b7d355d7a9a773c2ac46935414e4c0865e8b770a96947257958cce414a9a7b",
+        "records": [
+          {
+            "id": 134,
+            "revision": 1,
+            "sha256": "40b801e43cdf1fd717217904df6c51c575bc2072406afcc118fafa5d259a0447"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
