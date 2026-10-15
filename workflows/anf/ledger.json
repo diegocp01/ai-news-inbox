@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 369,
-  "updated_at": "2026-10-15T01:00:30.187832+00:00",
+  "generation": 370,
+  "updated_at": "2026-10-15T01:01:42.565034+00:00",
   "next_id": 124,
   "records": [
     {
@@ -15502,6 +15502,18 @@
         ],
         "duplicates": []
       }
+    },
+    "1f1d982026adbf335ef10521ea507211b8d9d3e25aadf9f49be912491d4afe52": {
+      "sha256": "4648a5fe4876aebf76f74e07661fa0a0d3fcb9a20b4fcf18e2684a8f2a740cc0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 123,
+          "revision": 1,
+          "sha256": "85390e927c77bbad97fa9101fa9887a50aaac47cbc0ad60384c68b63c4203fa0"
+        },
+        "editorial_sha256": "56d70f68f5233998dacf33c61bf135d196fcbf5e1c3e19263a7427c7ea14065b"
+      }
     }
   },
   "migration": {
@@ -20026,6 +20038,58 @@
         "sha256": "bd0283366005e1d5c4574f89825846da0450d14f01639007cea801a46d038091",
         "reviewed_at": "2026-10-14T20:32:40+00:00",
         "operation_id": "d00d2a611a56243e9f1b44f80df474dc2ee4aab4ccbfe71d6e1bd1686d14cd33"
+      }
+    ],
+    "123:1": [
+      {
+        "reference": {
+          "id": 123,
+          "revision": 1,
+          "sha256": "85390e927c77bbad97fa9101fa9887a50aaac47cbc0ad60384c68b63c4203fa0"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research benchmark evaluating autonomous theoretical physics calculations using tool-enabled AI agents.",
+            "evidence_sha256": "dd56588c629d419fb8b6b27b2d9d1035fa0bc6831b159c922a8b86b3a5a1c721"
+          },
+          "quality": {
+            "article": {
+              "url": "https://arxiv.org/abs/2610.16733",
+              "final_url": "https://arxiv.org/abs/2610.16733",
+              "redirect_chain": [
+                "https://arxiv.org/abs/2610.16733"
+              ],
+              "checked_at": "2026-10-14T23:57:13+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "dd56588c629d419fb8b6b27b2d9d1035fa0bc6831b159c922a8b86b3a5a1c721"
+            },
+            "image": {
+              "url": "https://arxiv.org/html/2610.16733v1/fig1_dots.png",
+              "final_url": "https://arxiv.org/html/2610.16733v1/fig1_dots.png",
+              "redirect_chain": [
+                "https://arxiv.org/html/2610.16733v1/fig1_dots.png"
+              ],
+              "checked_at": "2026-10-15T01:01:07.585270+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "dd56588c629d419fb8b6b27b2d9d1035fa0bc6831b159c922a8b86b3a5a1c721",
+              "content_type": "image/png",
+              "width": 1722,
+              "height": 1080,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "f43443346109b417d3f066a145126af65a506a2a7abff096b6f1491a37c28978",
+              "relevance": "story_specific",
+              "relevance_note": "Figure 6 of the exact paper shows numerical solution of one benchmark differential equation; black curve with blue sample points is sharp and legible."
+            }
+          }
+        },
+        "sha256": "56d70f68f5233998dacf33c61bf135d196fcbf5e1c3e19263a7427c7ea14065b",
+        "reviewed_at": "2026-10-15T01:01:42.565034+00:00",
+        "operation_id": "1f1d982026adbf335ef10521ea507211b8d9d3e25aadf9f49be912491d4afe52"
       }
     ]
   }
