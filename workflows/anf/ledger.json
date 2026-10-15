@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 376,
-  "updated_at": "2026-10-15T02:50:28.123127+00:00",
+  "generation": 377,
+  "updated_at": "2026-10-15T02:51:15.062282+00:00",
   "next_id": 126,
   "records": [
     {
@@ -15646,6 +15646,18 @@
         ],
         "duplicates": []
       }
+    },
+    "caacc8acaa7e4bfeb7a3c8edab058782": {
+      "sha256": "91143a72191ea115e976e13627c156c7bd7803a9d39627ae33bba6db3ba93d01",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 125,
+          "revision": 1,
+          "sha256": "b89dd0a137e98acc21e6151428f7d9863bca96d76967eef308af9569df97f4e2"
+        },
+        "editorial_sha256": "65a2864a79668a0604e8f9ee58b837939f83a15d51c1d335e81916860fadb6f0"
+      }
     }
   },
   "migration": {
@@ -20242,6 +20254,58 @@
         "sha256": "a2dda15f87eb4fa9b5b321267e7208a0c959b8bd37393e2e47f7a7e4cb939693",
         "reviewed_at": "2026-10-15T02:09:34.063291+00:00",
         "operation_id": "d2c2ce8c1afdff5d3d85633de844a4ef71fd3380274fd65c94fb4db62f9dd5ed"
+      }
+    ],
+    "125:1": [
+      {
+        "reference": {
+          "id": 125,
+          "revision": 1,
+          "sha256": "b89dd0a137e98acc21e6151428f7d9863bca96d76967eef308af9569df97f4e2"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Workplace productivity feature for creating animated explainers from natural-language prompts, not a developer API or technical implementation.",
+            "evidence_sha256": "a2358a4c43608241d7c9064e59420d0fd6255035f76d757e349d4d174a4fd86e"
+          },
+          "quality": {
+            "article": {
+              "url": "https://claude.com/resources/articles/dashboards-and-motion",
+              "final_url": "https://claude.com/resources/articles/dashboards-and-motion",
+              "redirect_chain": [
+                "https://claude.com/resources/articles/dashboards-and-motion"
+              ],
+              "checked_at": "2026-10-15T02:09:28.334715+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "a2358a4c43608241d7c9064e59420d0fd6255035f76d757e349d4d174a4fd86e",
+              "same_event": true
+            },
+            "image": {
+              "url": "https://assets.claude.com/46f88e8de631c732fa245ad453262e6ef35c0e73.png",
+              "final_url": "https://assets.claude.com/46f88e8de631c732fa245ad453262e6ef35c0e73.png",
+              "redirect_chain": [
+                "https://assets.claude.com/46f88e8de631c732fa245ad453262e6ef35c0e73.png"
+              ],
+              "checked_at": "2026-10-15T02:09:28.334715+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "a2358a4c43608241d7c9064e59420d0fd6255035f76d757e349d4d174a4fd86e",
+              "content_type": "image/png",
+              "width": 1920,
+              "height": 1080,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "95e38527dd017d06a5c9bd1f5e7fb494732b535fe1d29435affea5b61aa0cc55",
+              "relevance": "story_specific",
+              "relevance_note": "Official in-article Claude Motion selector graphic with motion icon and /motion command. Sharp relevant product graphic."
+            }
+          }
+        },
+        "sha256": "65a2864a79668a0604e8f9ee58b837939f83a15d51c1d335e81916860fadb6f0",
+        "reviewed_at": "2026-10-15T02:51:15.062282+00:00",
+        "operation_id": "caacc8acaa7e4bfeb7a3c8edab058782"
       }
     ]
   }
