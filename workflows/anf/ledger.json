@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 419,
-  "updated_at": "2026-10-15T20:52:00+00:00",
-  "next_id": 142,
+  "generation": 420,
+  "updated_at": "2026-10-15T20:52:01+00:00",
+  "next_id": 143,
   "records": [
     {
       "id": 1,
@@ -1881,6 +1881,19 @@
           "sha256": "ca38e18cf3aa82f1ecffb1e02de1c8fc2a5bd8e66d11e29180a509cdf1e16e6b",
           "source": "Xataka",
           "request_id": "cb30a60a1fe902a272c3041b1e9179b2869febe35e0fef45672aa78921c25bbe",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T20:52:01+00:00",
+          "block": "Title: Apple and Meta Bring Meta's Muse AI Model to Run Locally on Macs\nURL: https://machinelearning.apple.com/research/mlx-distributed-inference\nImage URL: https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268742_Mac_Studio_AKrales_0025.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200\nSummary: Apple and Meta say Meta's Muse Spark Open, an 816-billion-parameter AI model with downloadable weights, can now run locally on Mac Studio desktops using Apple's updated MLX software. It requires two M5 Ultra Mac Studios with 512GB of memory each, or four with 256GB. Apple says a four-Mac cluster generates over 36 tokens per second.",
+          "sha256": "d21675c98cc0407e35b72eb4b8739ca92a889afcb9cac7173b411c549ebc3cf2",
+          "source": "Apple Machine Learning Research",
+          "request_id": "9f948c9efe94366f03439ed31fc721d84cf653c59e31f4f6fea2ce99e5a13ee5",
           "mode": "standard"
         }
       ]
@@ -4166,13 +4179,21 @@
       "corrects_record_id": null
     },
     "9f948c9efe94366f03439ed31fc721d84cf653c59e31f4f6fea2ce99e5a13ee5": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T20:52:00+00:00",
       "received_sequence": 130,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T20:52:01+00:00",
+      "records": [
+        {
+          "id": 142,
+          "revision": 1,
+          "sha256": "d21675c98cc0407e35b72eb4b8739ca92a889afcb9cac7173b411c549ebc3cf2"
+        }
+      ]
     }
   },
   "batches": {
@@ -17846,6 +17867,21 @@
       "result": {
         "status": "received",
         "request_id": "9f948c9efe94366f03439ed31fc721d84cf653c59e31f4f6fea2ce99e5a13ee5"
+      }
+    },
+    "671216c49e8ff48a1d3850ba91c14d793493e831990c6f19cdee1646cff45989": {
+      "sha256": "22d40880d100f2cb1fc289aeaacf49afea296157a2c4a5574fca5892b2f15a29",
+      "result": {
+        "status": "finalized",
+        "request_id": "9f948c9efe94366f03439ed31fc721d84cf653c59e31f4f6fea2ce99e5a13ee5",
+        "records": [
+          {
+            "id": 142,
+            "revision": 1,
+            "sha256": "d21675c98cc0407e35b72eb4b8739ca92a889afcb9cac7173b411c549ebc3cf2"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
