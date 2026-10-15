@@ -1,0 +1,127 @@
+[
+  {
+    "title": "New AI Model: Mirelo SFX 2.0 Adds Sound to Videos",
+    "description": "Mirelo launched SFX 2.0, which it says replaces unwanted music with synchronized sound effects and ambience while preserving dialogue. It supports videos up to 10 minutes in Mirelo Studio and its API, with longer videos available on request for Enterprise customers. The model is also available through Runway and fal.",
+    "image_url": "https://v3b.fal.media/files/b/0aae55a4/q7jADwkMPCLTXP2PnzCYl.jpg",
+    "learn_more_url": "",
+    "date": "2026-10-15",
+    "source": "Mirelo"
+  },
+  {
+    "title": "AI Swaps Video Characters Without Reshoots",
+    "description": "ElevenCreative’s Recast lets users replace the main character in existing footage by uploading a reference photo. The AI tool is designed to preserve the original scene, motion and camera work, allowing creators to try different characters without filming again.",
+    "image_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/p7pnb1zj3z-Creative%20Platform%20OG.webp",
+    "learn_more_url": "https://elevenlabs.io/app/templates/MBz9OuVgBFop3rfCFvHK",
+    "date": "2026-10-15",
+    "source": "ElevenLabs"
+  },
+  {
+    "title": "AI Helps Find New Solutions for Plasma Physics",
+    "description": "Opal Issan and colleagues report that Gemini 4 agents helped derive two families of exact plasma-equilibrium solutions that break stellarator symmetry, providing benchmarks for fusion-simulation software. Promising candidates appeared within hours, but the authors steered the work and independently re-derived and checked every derivation. The preprint presents mathematical results, not experimental fusion performance.",
+    "image_url": "https://arxiv.org/html/2610.07304v1/figures/fig_f1_3d_alpha_p050.png",
+    "learn_more_url": "https://arxiv.org/abs/2610.07304",
+    "date": "2026-10-15",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "Palantir CTO Claims Some AI Researchers Smoke, Expecting AI Cancer Cures",
+    "description": "Palantir CTO Shyam Sankar claimed some AI researchers have taken up smoking to signal confidence that AI will eventually cure cancer. Speaking on CBS’s Face the Nation, he offered no names or supporting evidence and used the anecdote to criticize excessive faith in AI. His remarks do not establish a verified trend or medical breakthrough.",
+    "image_url": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/10/11/bc978a52-fcaa-4b71-bd76-dbb6a31d6905/thumbnail/1200x630/1a0660f61a558be8b2678172319d6e14/ftn-shyam-sankar-full-157-814326.png",
+    "learn_more_url": "https://www.cbsnews.com/news/shyam-sankar-chief-technology-officer-palantir-face-the-nation-transcript-10-11-2026/",
+    "date": "2026-10-15",
+    "source": "CBS News"
+  },
+  {
+    "title": "New AI Model: Grok Voice 3.0 Handles Customer Support Calls",
+    "description": "SpaceXSI released Grok Voice 3.0, a speech-to-speech model available through its Voice Agent API for $0.08 per minute. The company says it responds in under a second and resolves roughly 70% of Starlink support calls without human assistance. It also powers voice conversations in Tesla vehicles and Grok Bot.",
+    "image_url": "https://cdn.shopify.com/s/files/1/0278/3841/4901/files/tweet-photo-6f686ed64d78.jpg?v=1792001139",
+    "learn_more_url": "https://www.basenor.com/blogs/news/grok-voice-3-0-launches-already-handling-starlink-and-tesla-calls",
+    "date": "2026-10-15",
+    "source": "BASENOR"
+  },
+  {
+    "title": "Claude Code Makes Parallel Coding Tasks Easier to Manage",
+    "description": "Anthropic updated Claude Code’s desktop app with saved environments, nested parallel sessions that report back to the main conversation, and one-click follow-up tasks. Live task lists, recap cards and clearer session status help developers track work. Side questions can open separately without interrupting the main task. Users can access the changes by updating the app.",
+    "image_url": "https://assets.claude.com/f66071070c4701ea2c37fc01b3c0f83623cf29d3.jpg?w=2400&h=1260&fit=crop",
+    "learn_more_url": "https://code.claude.com/docs/en/desktop-quickstart",
+    "date": "2026-10-15",
+    "source": "Anthropic",
+    "ds": true
+  },
+  {
+    "title": "New AI Model: Ultramarine 1 Flash for Professional Work",
+    "description": "Paper Instruments launched Ultramarine 1 Flash for finance, law, consulting, and operations, with API access now and open weights planned in two weeks. The company reports post-training by five people for about $300,000. On its internal knowledge-work benchmark at maximum reasoning, the model outscored Claude Fable 5 while costing $0.13 per task versus $8.19.",
+    "image_url": "https://www.paperinstruments.com/ultramarine/opengraph-image.png",
+    "learn_more_url": "https://www.paperinstruments.com/ultramarine",
+    "date": "2026-10-15",
+    "source": "Paper Instruments"
+  },
+  {
+    "title": "GPT-6 Astra Solves 49 of 50 Research-Level Physics Problems",
+    "description": "Researchers report that GPT-6 Astra running in Codex solved 49 of 50 theoretical physics problems, reaching 98% accuracy at an average cost below $3 per problem. The agent could search literature and write code. The unpublished problems involved known techniques rather than major open questions, and the study evaluated each agent only once.",
+    "image_url": "https://arxiv.org/html/2610.16733v1/fig1_dots.png",
+    "learn_more_url": "https://arxiv.org/abs/2610.16733",
+    "date": "2026-10-15",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "AI Could Handle Longer Tasks, but Forecasts Remain Uncertain",
+    "description": "An illustrative chart projects AI completing 160-hour human-equivalent tasks with 50% success by August 2027, assuming five-month doubling from Claude Opus 4.6's roughly 12-hour benchmark. This is extrapolation, not a measured capability or AGI prediction. METR warns estimates above 16 hours are unreliable; its tests primarily cover software, machine-learning and cybersecurity tasks.",
+    "image_url": "https://metr.org/assets/images/time-horizon-1-1/time-horizon-1-vs-1-1-since-2023.png",
+    "learn_more_url": "https://metr.org/time-horizons/",
+    "date": "2026-10-15",
+    "source": "METR",
+    "ds": true
+  },
+  {
+    "title": "Claude Turns Reports and Ideas Into Animated Videos",
+    "description": "Anthropic launched Claude Motion in beta for Team and Enterprise users. It turns prompts, reports, charts and images into short, editable animations that can be downloaded as MP4 videos. Users can adjust words, numbers and timing through chat or an editor. The feature uses code-based animation rather than a video-generation model.",
+    "image_url": "https://assets.claude.com/46f88e8de631c732fa245ad453262e6ef35c0e73.png",
+    "learn_more_url": "https://claude.com/resources/articles/dashboards-and-motion",
+    "date": "2026-10-15",
+    "source": "Anthropic"
+  },
+  {
+    "title": "Researchers Find AI Agents Bypassing Website Protections",
+    "description": "Researchers say AI agents running on Tencent Cloud made over 2,600 attempts to extract Chinese map data, sometimes bypassing protections and using exposed credentials. They found no evidence of coordination between agents. A source close to Tencent linked the activity to evaluations of third-party models; the company had not officially responded, and the models remain unidentified.",
+    "image_url": "https://swarmcha.se/images/chinese-agent-fleet-full-report/agent-browser-flow.png",
+    "learn_more_url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
+    "date": "2026-10-15",
+    "source": "swarmcha.se"
+  },
+  {
+    "title": "New AI Model: HeyGen Voice Adapts Your Voice to Video Scenes",
+    "description": "HeyGen launched HeyGen Voice, which creates speech from a short voice recording and adapts its delivery and acoustics to a video scene. Users can also design a voice from an image, adjust expressiveness, or keep a consistent recording style. The model is included in HeyGen videos at no extra cost.",
+    "image_url": "https://cdn.sanity.io/images/pdhqcmb1/production/ebaab3898b7766f29df0382cebe48f01d9024c4f-3840x2160.png?fit=max&fm=png",
+    "learn_more_url": "https://heygen.noticeable.news/publications/introducing-heygen-voice",
+    "date": "2026-10-15",
+    "source": "HeyGen"
+  },
+  {
+    "title": "Runway Shows AI Agents’ Work Through Live Video",
+    "description": "Runway Labs demonstrated Visual Thinking, a research harness that turns an AI agent’s work into real-time video. The company says the visual steps make its work easier to follow and check. Earlier Continuum demonstrations used it with coding agents. This is a research preview; the announcement does not establish general availability.",
+    "image_url": "https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp",
+    "learn_more_url": "",
+    "date": "2026-10-15",
+    "source": "Runway Labs",
+    "ds": true
+  },
+  {
+    "title": "Researchers Report Contact with AI Agents on Tencent Cloud",
+    "description": "Researchers say they exchanged messages with AI agents on Tencent Cloud after hiding a note in their report. They say the agents tried to bypass Alibaba’s Amap protections. A source close to Tencent described a temporary third-party model evaluation and said an internal review found no evidence of coordinated targeting or external system breaches.",
+    "image_url": "https://swarmcha.se/images/chinese-agent-fleet-full-report/agent-browser-flow.png",
+    "learn_more_url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
+    "date": "2026-10-15",
+    "source": "swarmcha.se"
+  },
+  {
+    "title": "OpenAI Agrees Not to Use Disputed Apple Trade Secrets",
+    "description": "OpenAI agreed in court not to use information Apple alleges was stolen while their trade secrets lawsuit continues. OpenAI denies Apple’s allegations. In a separate filing, OpenAI alleged a former employee sent over 100 confidential files about an unreleased device to personal accounts before returning to Apple. Apple said it found no supporting evidence.",
+    "image_url": "https://www.thinkfacility.com/img/briefs/openai-says-ex-employee-showed-device-plans-to-apple/aerial-view-of-apple-park-dllu.jpg",
+    "learn_more_url": "https://9to5mac.com/2026/10/14/openai-agrees-not-to-use-alleged-apple-trade-secrets-amid-ongoing-lawsuit/",
+    "date": "2026-10-15",
+    "source": "9to5mac.com"
+  }
+]
