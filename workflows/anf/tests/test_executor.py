@@ -126,6 +126,9 @@ class Service(g.GitHub):
     def issues(self):
         return iter(copy.deepcopy(list(self.issue_rows.values())))
 
+    def issue_page(self, page):
+        return copy.deepcopy(list(self.issue_rows.values())[(page - 1) * 100:page * 100])
+
     def authenticated_issue(self, number, allowed_ids):
         value = self.issue_rows[number]
         e.require(value["user"]["id"] in allowed_ids and not value.get("edited"), "Unauthenticated or edited issue")
@@ -370,6 +373,92 @@ class ExecutorTests(unittest.TestCase):
         # Preserve journal equality, then check the original changed-file evidence.
         with self.assertRaisesRegex(e.LedgerError, "Changed-file"):
             self.service.verify_applied(self.runner.branch, snap, x.job_path(n), row)
+
+    def test_unauthorized_issue_flood_is_bounded_and_discovery_resumes_after_restart(self):
+        self.config["max_jobs_per_run"] = 2
+        for _ in range(7):
+            n = self.service.job({"kind": "status"})
+            self.service.issue_rows[n]["user"]["id"] = 999
+        accepted = self.service.job(self.op("receive", request_id="after_flood", expected_items=1))
+        inspected = []
+        authenticate = self.service.authenticated_issue
+        def track(number, ids):
+            inspected.append(number)
+            return authenticate(number, ids)
+        self.service.authenticated_issue = track
+        for expected in ([1, 2], [3, 4], [5, 6]):
+            inspected.clear()
+            result = self.runner.reconcile()
+            self.assertEqual(inspected, expected)
+            self.assertTrue(result["discovery_limit_reached"])
+            self.assertEqual(len(result["outcomes"]), 2)
+            self.service.blobs.clear()
+            self.runner = x.Executor(self.service, self.config)
+        self.runner.reconcile()
+        self.assertEqual(self.runner.status(accepted)["status"], "applied")
+        self.assertEqual(self.state()["requests"]["after_flood"]["status"], "received")
+
+    def test_accepted_pending_work_runs_before_saturated_discovery(self):
+        self.config["max_jobs_per_run"] = 2
+        for _ in range(7):
+            n = self.service.job({"kind": "status"})
+            self.service.issue_rows[n]["user"]["id"] = 999
+        pending = self.service.job(self.op("receive", request_id="already_accepted", expected_items=1))
+        self.runner.ingest(pending)
+        authenticate = self.service.authenticated_issue
+        def check_order(number, ids):
+            if number != pending:
+                self.assertIn("already_accepted", self.state()["requests"])
+            return authenticate(number, ids)
+        self.service.authenticated_issue = check_order
+        result = self.runner.reconcile()
+        self.assertEqual(result["outcomes"][0]["issue_number"], pending)
+        self.assertEqual(result["outcomes"][0]["status"], "applied")
+        self.assertEqual(sum(r["status"] == "rejected" for r in result["outcomes"]), 2)
+        self.assertTrue(result["discovery_limit_reached"])
+
+    def test_discovery_budget_covers_irrelevant_known_and_pr_rows_and_wraps(self):
+        self.config["max_jobs_per_run"] = 2
+        known = self.service.job({"kind": "status"})
+        self.runner.ingest(known); self.runner.apply(known)
+        irrelevant = self.service.job({"kind": "status"})
+        self.service.issue_rows[irrelevant]["title"] = "ordinary issue"
+        pr = self.service.job({"kind": "status"})
+        self.service.issue_rows[pr]["pull_request"] = {}
+        accepted = self.service.job(self.op("receive", request_id="later", expected_items=1))
+        with patch.object(self.service, "authenticated_issue", wraps=self.service.authenticated_issue) as auth:
+            self.assertTrue(self.runner.reconcile()["discovery_limit_reached"])
+            auth.assert_not_called()
+        self.runner.reconcile()
+        self.assertEqual(self.runner.status(accepted)["status"], "applied")
+        self.assertFalse(self.runner.reconcile()["discovery_limit_reached"])
+        self.service.issue_rows[irrelevant]["title"] = x.TITLE
+        self.runner.reconcile()
+        self.assertEqual(self.runner.status(irrelevant)["status"], "applied")
+
+    def test_discovery_crosses_page_boundary_without_replaying_rejections(self):
+        self.config["max_jobs_per_run"] = 50
+        for _ in range(101):
+            n = self.service.job({"kind": "status"})
+            self.service.issue_rows[n]["user"]["id"] = 999
+        accepted = self.service.job(self.op("receive", request_id="second_page", expected_items=1))
+        with patch.object(self.service, "issue_page", wraps=self.service.issue_page) as pages:
+            self.runner.reconcile()
+            self.runner.reconcile()
+            self.service.blobs.clear()
+            self.runner = x.Executor(self.service, self.config)
+            self.runner.reconcile()
+            self.assertEqual([call.args[0] for call in pages.call_args_list], [1, 1, 2])
+        self.assertEqual(self.runner.status(accepted)["status"], "applied")
+
+    def test_existing_pending_job_survives_discovery_transport_failure(self):
+        pending = self.service.job(self.op("receive", request_id="accepted_before_outage", expected_items=1))
+        self.runner.ingest(pending)
+        with patch.object(self.service, "issue_page", side_effect=g.TransportError("Discovery unavailable")):
+            with self.assertRaisesRegex(g.TransportError, "Discovery unavailable"):
+                self.runner.reconcile()
+        self.assertEqual(self.runner.status(pending)["status"], "applied")
+        self.assertIn("accepted_before_outage", self.state()["requests"])
 
 
 class TransportTests(unittest.TestCase):

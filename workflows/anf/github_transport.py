@@ -208,13 +208,18 @@ class GitHub:
             raise
         return candidate["sha"]
 
+    def issue_page(self, page):
+        e.require(e.integer(page, 1), "Invalid issue page")
+        rows = self.api("GET", f"/issues?state=all&sort=created&direction=asc&per_page=100&page={page}")
+        e.require(isinstance(rows, list) and len(rows) <= 100, "Invalid issues page")
+        return rows
+
     def issues(self):
-        # Reconcile ALL states from the start; no cache or event-only watermark.
-        # Created ascending means newly opened issues append rather than shift pages.
+        # Full listing for callers that explicitly need it. The executor uses
+        # bounded pages with a durable cursor, including PRs in its scan budget.
         page = 1
         while True:
-            rows = self.api("GET", f"/issues?state=all&sort=created&direction=asc&per_page=100&page={page}")
-            e.require(isinstance(rows, list), "Invalid issues page")
+            rows = self.issue_page(page)
             yield from (r for r in rows if "pull_request" not in r)
             if len(rows) < 100:
                 return

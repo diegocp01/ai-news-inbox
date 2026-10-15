@@ -3,7 +3,7 @@
 ## Local acceptance tests
 
 Command: `python3 -m unittest discover -s workflows/anf/tests -q`.
-Baseline: **148 passed**. With executor/transport acceptance coverage: **175
+Baseline: **148 passed**. With executor/transport acceptance coverage: **180
 passed**. The engine and intake output gate remain unchanged.
 
 The added tests exercise the real executor and Git Data transport against a
@@ -16,6 +16,14 @@ large blobs, empty/truncated encoded bytes, incomplete trees and missing ledger;
 actual HTTP error header handling; permission denials; edited/unauthorized
 submitters; immutable job conflicts; strict job envelope validation; privileged
 approval binding; stale operation timestamps; and replacement of stale output.
+
+The independent-review P2 discovery-starvation finding was reproduced before
+the fix: with a budget of two, a seven-issue unauthorized prefix plus one valid
+job caused nine authentication calls, and discovery preceded already accepted
+pending work. Five regression tests now cover bounded unauthorized floods,
+durable discovery progress after restart/cache loss, accepted work before
+saturated discovery, budgeting known/irrelevant/PR rows with wraparound,
+cross-page progress, and accepted work before a discovery transport failure.
 
 The existing engine tests cover sparse delivered membership, exact frozen files,
 uncertain native delivery reconciliation, receipt binding, publication collision,

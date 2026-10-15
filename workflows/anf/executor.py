@@ -20,6 +20,7 @@ from github_transport import GitHub, TransportError, Conflict, retry_delay
 
 CONFIG = Path(__file__).with_name("executor_config.json")
 JOBS = e.ROOT + "executor-jobs/"
+DISCOVERY = e.ROOT + "executor-discovery.json"
 TITLE = "[ANF job v1]"
 MAX_JOB_BYTES = 24000
 COMMON = {"kind", "operation_id", "at"}
@@ -280,31 +281,58 @@ class Executor:
             return {path: e.encoded(row)}
         self.transaction(build, marker)
 
-    def reconcile(self):
-        outcomes = []
-        # Discover missing runs. Persist every accepted job before processing.
-        # A bounded pass can be resumed by schedule/manual wakeup without a cache.
+    def discover(self, outcomes):
+        """Bound all inspected rows and persist fair progress, including rejects.
+
+        Cursor is a scan position, not a permanent rejection/acceptance record.
+        Wrapping at the end recovers edits, deletions that shifted pagination,
+        and previously unauthorized submitters. Accepted work is in JOBS.
+        """
         snap, _ = self.gh.fresh(self.branch)
         known = {int(p[len(JOBS):-5]) for p in snap["files"] if p.startswith(JOBS) and p.endswith(".json")}
-        count = 0
-        discovery_limit_reached = False
-        for issue in self.gh.issues():
-            if not issue["title"].startswith(TITLE) or issue["number"] in known:
-                continue
-            if count >= self.config["max_jobs_per_run"]:
-                discovery_limit_reached = True
+        initial = strict_json(snap["files"].get(DISCOVERY, '{"page":1,"offset":0,"generation":0}'))
+        e.require(isinstance(initial, dict) and set(initial) == {"page", "offset", "generation"}
+                  and e.integer(initial["page"], 1) and e.integer(initial["offset"])
+                  and initial["offset"] < 100 and e.integer(initial["generation"]), "Invalid discovery cursor")
+        page, offset = initial["page"], initial["offset"]
+        inspected, rows, exhausted = 0, None, False
+        while inspected < self.config["max_jobs_per_run"]:
+            if rows is None:
+                rows = self.gh.issue_page(page)
+            if offset >= len(rows):
+                # End of this full sweep: revisit earlier issues next run.
+                page, offset, exhausted = 1, 0, True
                 break
+            issue = rows[offset]
+            inspected += 1  # Includes rejected, irrelevant, known, and PR rows.
+            offset += 1
+            if offset == 100:
+                page, offset, rows = page + 1, 0, None
+            if "pull_request" in issue or not issue["title"].startswith(TITLE) or issue["number"] in known:
+                continue
             try:
                 self.ingest(issue["number"])
-                count += 1
+                known.add(issue["number"])
             except (e.LedgerError, ValueError, TypeError, KeyError) as exc:
                 outcomes.append({"issue_number": issue["number"], "status": "rejected", "reason": str(exc)[:1000]})
+        next_cursor = {"page": page, "offset": offset, "generation": initial["generation"] + 1}
+        def moved(snap):
+            # Another worker may have advanced the cursor. Never regress it on
+            # CAS retry; any accepted jobs from our overlapping scan are durable.
+            return strict_json(snap["files"].get(DISCOVERY, e.canonical(initial))) != initial
+        if inspected or (page, offset) != (initial["page"], initial["offset"]):
+            self.transaction(lambda snap: {DISCOVERY: e.encoded(next_cursor)}, moved)
+        return not exhausted
+
+    def drain(self, outcomes, attempted):
+        """Spend the execution budget independently of public issue discovery."""
         snap, _ = self.gh.fresh(self.branch)
         rows = [strict_json(text) for p, text in snap["files"].items() if p.startswith(JOBS)]
-        pending = sorted((row for row in rows if row["status"] != "applied"),
+        pending = sorted((row for row in rows if row["status"] != "applied" and row["issue_number"] not in attempted),
                          key=lambda r: (r.get("blocker", {}).get("observed_at", ""), r["issue_number"]))
-        for row in pending[:self.config["max_jobs_per_run"]]:
+        for row in pending[:self.config["max_jobs_per_run"] - len(attempted)]:
             number = row["issue_number"]
+            attempted.add(number)
             try:
                 outcomes.append(self.apply(number))
             except (e.LedgerError, TransportError, ValueError, KeyError, TypeError) as exc:
@@ -314,6 +342,14 @@ class Executor:
                 self.blocked(number, exc)
                 outcomes.append({"issue_number": number, "status": "needs_attention", "reason": str(exc)[:1000],
                                  "ready_to_send": False, "journal_path": job_path(number)})
+
+    def reconcile(self):
+        outcomes, attempted = [], set()
+        # Accepted work progresses even if discovery saturates, fails, or times
+        # out. Newly discovered jobs may use the remaining execution budget.
+        self.drain(outcomes, attempted)
+        discovery_limit_reached = self.discover(outcomes)
+        self.drain(outcomes, attempted)
         current, _ = self.gh.fresh(self.branch)
         remaining = sum(strict_json(text)["status"] != "applied"
                         for path, text in current["files"].items() if path.startswith(JOBS))

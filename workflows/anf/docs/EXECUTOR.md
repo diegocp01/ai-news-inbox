@@ -95,20 +95,31 @@ recipient details, tokens, signed URLs, or native receipts in jobs or journals.
 
 Actions concurrency (`cancel-in-progress: false`) is only a contention reducer.
 GitHub can replace pending runs, delay schedules, or lose wakeups. Every pass
-pages through issues in creation order, including closed issues, and discovers
-unjournaled jobs; every durable unfinished job is revisited. Closing an issue
+processes existing durable jobs before public-issue discovery, then scans a bounded
+window of issues in creation order, including closed issues. Every inspected row
+consumes discovery budget, including rejected, irrelevant, already-journaled and
+pull-request rows. `workflows/anf/executor-discovery.json` durably stores the next
+page/offset with a generation counter, using the same non-force transaction
+contract. Restarts resume that scan instead of replaying a rejected prefix.
+At the end it wraps to revisit earlier issues, including changed permissions or
+pagination shifts caused by deletion. Concurrent scans never overwrite a cursor
+that has advanced. The cursor is not permanent rejection evidence or a replacement
+for the job journal. Every durable unfinished job is revisited. Closing an issue
 does not silently cancel accepted intake. The immutable Git journal is the
 accepted-job queue, while GitHub issues retain work not yet journaled. Deleting
 an unjournaled issue can destroy that submission; do not delete job issues.
 
 Research and approvals happen outside the commit queue. Each accepted operation
-gets a short journal transaction and a short application transaction. New jobs
-are processed before blocked retries; blocked retries rotate by last attempt to
-avoid preventing unrelated work. There is a configured per-pass job bound.
+gets a short journal transaction and a short application transaction. Within the
+existing journal, unattempted jobs precede blocked retries; retries rotate by last
+attempt. Discovery has its own budget, separate from the execution budget (both
+use `max_jobs_per_run`). Newly discovered jobs can use any execution budget left
+after existing pending work. Discovery saturation or a discovery outage cannot
+prevent that earlier execution phase from progressing.
 Validation failures retain a durable blocker and retry the same operation on a
 later pass. Invalid/unauthorized submissions appear in the run result without
-being accepted into the journal. Permission/outage failures stop the pass, leave
-existing durable rows untouched, and fail the Action visibly.
+being accepted into the journal. Permission/outage failures stop the remaining
+pass and fail the Action visibly; already committed work remains durable.
 
 For every transaction the worker:
 
