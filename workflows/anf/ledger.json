@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 426,
-  "updated_at": "2026-10-15T22:34:00+00:00",
-  "next_id": 146,
+  "generation": 427,
+  "updated_at": "2026-10-15T22:34:01+00:00",
+  "next_id": 147,
   "records": [
     {
       "id": 1,
@@ -1933,6 +1933,19 @@
           "sha256": "2b73a98b51cc05d6ec5530d1b713a7d5051be5de428bc5f65c3becb5ea9814a4",
           "source": "Felix Rieseberg",
           "request_id": "4818c110fc2a2e401f2bf0c110e5c828900f4fd4e367490f0ec2b73a37d5f928",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T22:34:01+00:00",
+          "block": "Title: AI Robot Toy Sold on Amazon Reportedly Exposed 13 Million Private Conversations\nURL: https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab\nImage URL: https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/eiliko-verge-sean-004.jpg?quality=90&strip=all&crop=0%2C3.4689741459833%2C100%2C93.062051708033&w=1200\nSummary: A security researcher found the cloud backend for Energize Lab's Eiliko AI robot toy, sold on Amazon, was unprotected, The Verge reported. He says he could read about 13 million conversations from roughly 68,000 toys, including over 31,000 U.S. children's profiles, plus emails and IP addresses, and remotely rewrote one toy's AI memory. The company hasn't confirmed the figures.",
+          "sha256": "b18c6f4b1c8fe35a04def8024627b54279ebe6dddfaee73f2d942257b76b6dd3",
+          "source": "The Verge",
+          "request_id": "010bd32906a61b172e8182fed1202ef16f2f334bccfe34adfaf2cb885f50366d",
           "mode": "standard"
         }
       ]
@@ -4277,13 +4290,21 @@
       ]
     },
     "010bd32906a61b172e8182fed1202ef16f2f334bccfe34adfaf2cb885f50366d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T22:34:00+00:00",
       "received_sequence": 133,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T22:34:01+00:00",
+      "records": [
+        {
+          "id": 146,
+          "revision": 1,
+          "sha256": "b18c6f4b1c8fe35a04def8024627b54279ebe6dddfaee73f2d942257b76b6dd3"
+        }
+      ]
     }
   },
   "batches": {
@@ -18038,6 +18059,21 @@
       "result": {
         "status": "received",
         "request_id": "010bd32906a61b172e8182fed1202ef16f2f334bccfe34adfaf2cb885f50366d"
+      }
+    },
+    "db37d73a158c65fb190c3c04c6404f7d887b592f1de3a3967e13feec23b7597e": {
+      "sha256": "03a789c156c8bbed52b2faa2d40fea3a2348b7a112cc50f72f152d4ecc82d9a5",
+      "result": {
+        "status": "finalized",
+        "request_id": "010bd32906a61b172e8182fed1202ef16f2f334bccfe34adfaf2cb885f50366d",
+        "records": [
+          {
+            "id": 146,
+            "revision": 1,
+            "sha256": "b18c6f4b1c8fe35a04def8024627b54279ebe6dddfaee73f2d942257b76b6dd3"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
