@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 414,
-  "updated_at": "2026-10-15T20:51:00+00:00",
-  "next_id": 138,
+  "generation": 415,
+  "updated_at": "2026-10-15T20:51:01+00:00",
+  "next_id": 139,
   "records": [
     {
       "id": 1,
@@ -1829,6 +1829,19 @@
           "sha256": "af507ca59948cd00ffc7ec77aaf59cf85f09f01c90358be5c27197ff37350cda",
           "source": "Google",
           "request_id": "05d6c866908e5683196df6668aeda947aa434845e50c078726510a16e50a55ac",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T20:51:01+00:00",
+          "block": "Title: Goodfire Researcher Argues AI Neural Networks Are Far More Understandable Than Believed\nURL: https://already-clean.goodfire.com/\nImage URL: https://already-clean.goodfire.com/assets/social/city-and-knot-20261015.png\nSummary: In an essay, Goodfire's Nick Cammarata argues that seemingly jumbled 'polysemantic' neurons mostly reflect weak tools and fixable architecture problems, not superposition. In preliminary audits of Qwen3-32B, his team estimates roughly 90% of neuron poles have one main job, with similar findings in models up to trillions of parameters. He calls it a working hypothesis; a technical paper will follow.",
+          "sha256": "44df3d141ac18fca7b8f0870bffb3d344a7c1b4e94711fe9145554faaa613c82",
+          "source": "Goodfire",
+          "request_id": "6bca48d40777cd7fbb0b6dac6b03b4c66e996ed94c26c73ce218c2729d465a93",
           "mode": "standard"
         }
       ]
@@ -4037,13 +4050,21 @@
       ]
     },
     "6bca48d40777cd7fbb0b6dac6b03b4c66e996ed94c26c73ce218c2729d465a93": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T18:46:32.079867+00:00",
       "received_sequence": 125,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T20:51:01+00:00",
+      "records": [
+        {
+          "id": 138,
+          "revision": 1,
+          "sha256": "44df3d141ac18fca7b8f0870bffb3d344a7c1b4e94711fe9145554faaa613c82"
+        }
+      ]
     },
     "d1deb61427fb602dc4b30ef7da054e54fea46aa28cb1feebd83b716558a2f0da": {
       "status": "received",
@@ -17683,6 +17704,21 @@
             "id": 137,
             "revision": 1,
             "sha256": "af507ca59948cd00ffc7ec77aaf59cf85f09f01c90358be5c27197ff37350cda"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "5a24f92f1140365e7d20b3f8147747e295f4b1129fbb4f10d80ec24c42cce55d": {
+      "sha256": "e9e407a31b99ae74df9176ccd322d5b7ee0b03e3db92a336aeb5e9382701cb45",
+      "result": {
+        "status": "finalized",
+        "request_id": "6bca48d40777cd7fbb0b6dac6b03b4c66e996ed94c26c73ce218c2729d465a93",
+        "records": [
+          {
+            "id": 138,
+            "revision": 1,
+            "sha256": "44df3d141ac18fca7b8f0870bffb3d344a7c1b4e94711fe9145554faaa613c82"
           }
         ],
         "duplicates": []
