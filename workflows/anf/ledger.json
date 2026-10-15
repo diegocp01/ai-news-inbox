@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 394,
-  "updated_at": "2026-10-15T13:47:20+00:00",
-  "next_id": 131,
+  "generation": 395,
+  "updated_at": "2026-10-15T14:03:25+00:00",
+  "next_id": 132,
   "records": [
     {
       "id": 1,
@@ -1739,6 +1739,19 @@
           "request_id": "bd3716e670a9f6a0b21465514addcb162250411ec0d561bbeefa7504a5c7fcf5",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T14:03:25+00:00",
+          "block": "Title: Claude and GPT Help Adjust Video Colors With Tesseract\nURL: https://mirage.app/tesseract/color-grading\nImage URL: https://mirage.app/mrkt-static/tesseract/color/color-grading/poster.jpg\nSummary: Mirage added color grading to Tesseract, letting Claude and GPT adjust video colors through natural-language instructions. Users can change individual colors, improve camera footage and refine shots while keeping layers editable. The workflow supports professional color tools and requires people to review previews and the full video before export.",
+          "sha256": "fbb999f85a099775a6776f34caa3304771017e752d88cce9570ad699b8a5183e",
+          "source": "Mirage",
+          "request_id": "9dd1a2c97a05e8dcd2bc66d6b6df909ddd16a434d8c43fece50c3a12c0ddf5a5",
+          "mode": "standard"
         }
       ]
     }
@@ -3839,13 +3852,21 @@
       ]
     },
     "9dd1a2c97a05e8dcd2bc66d6b6df909ddd16a434d8c43fece50c3a12c0ddf5a5": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T13:47:20+00:00",
       "received_sequence": 119,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T14:03:25+00:00",
+      "records": [
+        {
+          "id": 131,
+          "revision": 1,
+          "sha256": "fbb999f85a099775a6776f34caa3304771017e752d88cce9570ad699b8a5183e"
+        }
+      ]
     }
   },
   "batches": {
@@ -17239,6 +17260,21 @@
       "result": {
         "status": "received",
         "request_id": "9dd1a2c97a05e8dcd2bc66d6b6df909ddd16a434d8c43fece50c3a12c0ddf5a5"
+      }
+    },
+    "910d3ad877ca8242fc456b4dd9323d0488bdc5ab3b91f966969341659a3f7adc": {
+      "sha256": "29966aaaa651ca6f8767be34ad82fd84dcf736af9192413addb42b9fd06015fa",
+      "result": {
+        "status": "finalized",
+        "request_id": "9dd1a2c97a05e8dcd2bc66d6b6df909ddd16a434d8c43fece50c3a12c0ddf5a5",
+        "records": [
+          {
+            "id": 131,
+            "revision": 1,
+            "sha256": "fbb999f85a099775a6776f34caa3304771017e752d88cce9570ad699b8a5183e"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
