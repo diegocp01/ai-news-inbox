@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 386,
-  "updated_at": "2026-10-15T11:31:56.946119+00:00",
-  "next_id": 129,
+  "generation": 387,
+  "updated_at": "2026-10-15T11:37:06.888376+00:00",
+  "next_id": 131,
   "records": [
     {
       "id": 1,
@@ -1711,6 +1711,34 @@
           "source": "Runway Labs",
           "request_id": "382c70ea1b8dcc9023ca6faf59dc2c951184ef0ccf6bbd803005b0c45e6f12cc",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T11:37:06.888376+00:00",
+          "block": "Title: Researchers Report Contact with AI Agents on Tencent Cloud\nURL: https://swarmcha.se/posts/chinese-agent-fleet-full-report\nImage URL: https://swarmcha.se/images/chinese-agent-fleet-full-report/agent-browser-flow.png\nSummary: Researchers say they exchanged messages with AI agents on Tencent Cloud after hiding a note in their report. They say the agents tried to bypass Alibaba’s Amap protections. A source close to Tencent described a temporary third-party model evaluation and said an internal review found no evidence of coordinated targeting or external system breaches.",
+          "sha256": "02b880b245b1123f8977bdc3accb8bbe33300e17dc24e431a3d8d953b89a6eae",
+          "source": "swarmcha.se",
+          "request_id": "bd3716e670a9f6a0b21465514addcb162250411ec0d561bbeefa7504a5c7fcf5",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T11:37:06.888376+00:00",
+          "block": "Title: OpenAI Agrees Not to Use Disputed Apple Trade Secrets\nURL: https://9to5mac.com/2026/10/14/openai-agrees-not-to-use-alleged-apple-trade-secrets-amid-ongoing-lawsuit/\nImage URL: https://www.thinkfacility.com/img/briefs/openai-says-ex-employee-showed-device-plans-to-apple/aerial-view-of-apple-park-dllu.jpg\nSummary: OpenAI agreed in court not to use information Apple alleges was stolen while their trade secrets lawsuit continues. OpenAI denies Apple’s allegations. In a separate filing, OpenAI alleged a former employee sent over 100 confidential files about an unreleased device to personal accounts before returning to Apple. Apple said it found no supporting evidence.",
+          "sha256": "a3db7b9ab15d65472aec22fd92e137f877113790759aa04675be8be655bbce21",
+          "source": "9to5mac.com",
+          "request_id": "bd3716e670a9f6a0b21465514addcb162250411ec0d561bbeefa7504a5c7fcf5",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -3788,14 +3816,27 @@
       ]
     },
     "bd3716e670a9f6a0b21465514addcb162250411ec0d561bbeefa7504a5c7fcf5": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T11:31:56.946119+00:00",
       "received_sequence": 118,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-15T11:37:06.888376+00:00",
+      "records": [
+        {
+          "id": 129,
+          "revision": 1,
+          "sha256": "02b880b245b1123f8977bdc3accb8bbe33300e17dc24e431a3d8d953b89a6eae"
+        },
+        {
+          "id": 130,
+          "revision": 1,
+          "sha256": "a3db7b9ab15d65472aec22fd92e137f877113790759aa04675be8be655bbce21"
+        }
+      ]
     }
   },
   "batches": {
@@ -15850,6 +15891,26 @@
       "result": {
         "status": "received",
         "request_id": "bd3716e670a9f6a0b21465514addcb162250411ec0d561bbeefa7504a5c7fcf5"
+      }
+    },
+    "e6a368362cd2b737d50b916cab83d7ec2c53cd95b66661ac81ae6370bcd3a7e7": {
+      "sha256": "151ae1a022ed93852f6626ca71ffa431813043f7ecc9f68898a94bb07cae451a",
+      "result": {
+        "status": "finalized",
+        "request_id": "bd3716e670a9f6a0b21465514addcb162250411ec0d561bbeefa7504a5c7fcf5",
+        "records": [
+          {
+            "id": 129,
+            "revision": 1,
+            "sha256": "02b880b245b1123f8977bdc3accb8bbe33300e17dc24e431a3d8d953b89a6eae"
+          },
+          {
+            "id": 130,
+            "revision": 1,
+            "sha256": "a3db7b9ab15d65472aec22fd92e137f877113790759aa04675be8be655bbce21"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
