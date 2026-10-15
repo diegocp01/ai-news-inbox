@@ -287,10 +287,12 @@ class Executor:
         snap, _ = self.gh.fresh(self.branch)
         known = {int(p[len(JOBS):-5]) for p in snap["files"] if p.startswith(JOBS) and p.endswith(".json")}
         count = 0
+        discovery_limit_reached = False
         for issue in self.gh.issues():
             if not issue["title"].startswith(TITLE) or issue["number"] in known:
                 continue
             if count >= self.config["max_jobs_per_run"]:
+                discovery_limit_reached = True
                 break
             try:
                 self.ingest(issue["number"])
@@ -312,8 +314,12 @@ class Executor:
                 self.blocked(number, exc)
                 outcomes.append({"issue_number": number, "status": "needs_attention", "reason": str(exc)[:1000],
                                  "ready_to_send": False, "journal_path": job_path(number)})
+        current, _ = self.gh.fresh(self.branch)
+        remaining = sum(strict_json(text)["status"] != "applied"
+                        for path, text in current["files"].items() if path.startswith(JOBS))
         return {"status": "reconciled", "outcomes": outcomes,
-                "remaining_jobs": max(0, len(pending) - self.config["max_jobs_per_run"]),
+                "remaining_jobs": remaining, "discovery_limit_reached": discovery_limit_reached,
+                "verified_head": current["head"],
                 "attachment_delivery_authorized": False}
 
 

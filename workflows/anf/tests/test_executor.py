@@ -357,7 +357,7 @@ class ExecutorTests(unittest.TestCase):
         b = self.service.job(self.op("receive", request_id="independent", expected_items=1))
         self.runner.ingest(b)
         self.runner.reconcile()
-        self.runner.reconcile()
+        self.assertEqual(self.runner.reconcile()["remaining_jobs"], 1)
         self.assertEqual(self.runner.status(a)["status"], "blocked")
         self.assertEqual(self.runner.status(b)["status"], "applied")
 
