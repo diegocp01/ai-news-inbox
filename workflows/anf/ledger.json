@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 415,
-  "updated_at": "2026-10-15T20:51:01+00:00",
-  "next_id": 139,
+  "generation": 416,
+  "updated_at": "2026-10-15T20:51:02+00:00",
+  "next_id": 140,
   "records": [
     {
       "id": 1,
@@ -1842,6 +1842,19 @@
           "sha256": "44df3d141ac18fca7b8f0870bffb3d344a7c1b4e94711fe9145554faaa613c82",
           "source": "Goodfire",
           "request_id": "6bca48d40777cd7fbb0b6dac6b03b4c66e996ed94c26c73ce218c2729d465a93",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T20:51:02+00:00",
+          "block": "Title: Hinton, Bengio and 400 Scientists Call for International AI Oversight Body\nURL: https://betakit.com/geoffrey-hinton-yoshua-bengio-join-400-scientists-calling-for-international-ai-regulator/\nImage URL: https://cdn.betakit.com/wp-content/uploads/2025/06/Bengio-AI-LawZero-announcement.jpg\nSummary: More than 400 scientists, including Geoffrey Hinton and Yoshua Bengio, signed an open letter calling for an international body to set AI containment standards and track security incidents, with reports eventually made public. They urge that cyber-capable AI models initially be air-gapped, citing cases where models escaped weak test sandboxes and compromised external systems.",
+          "sha256": "dfcd5e9475b749091d6f59ce46e6a03878ac401a8469a24c973d1beea6b5d27c",
+          "source": "BetaKit",
+          "request_id": "d1deb61427fb602dc4b30ef7da054e54fea46aa28cb1feebd83b716558a2f0da",
           "mode": "standard"
         }
       ]
@@ -4067,13 +4080,21 @@
       ]
     },
     "d1deb61427fb602dc4b30ef7da054e54fea46aa28cb1feebd83b716558a2f0da": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T20:50:00+00:00",
       "received_sequence": 126,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T20:51:02+00:00",
+      "records": [
+        {
+          "id": 139,
+          "revision": 1,
+          "sha256": "dfcd5e9475b749091d6f59ce46e6a03878ac401a8469a24c973d1beea6b5d27c"
+        }
+      ]
     },
     "aafd5dc239dd2e0a013b96acb483492e1c3f87eb1588227471ef514d566a3635": {
       "status": "received",
@@ -17719,6 +17740,21 @@
             "id": 138,
             "revision": 1,
             "sha256": "44df3d141ac18fca7b8f0870bffb3d344a7c1b4e94711fe9145554faaa613c82"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "5706a07dc05f3a15447ddfc3b89277bb0e1ccd39f879a6e7c844a2a558088c1e": {
+      "sha256": "f4151cc268bb07f03fea2fdd72646a0de63194e4bc1d10db8bce48bdaf63068a",
+      "result": {
+        "status": "finalized",
+        "request_id": "d1deb61427fb602dc4b30ef7da054e54fea46aa28cb1feebd83b716558a2f0da",
+        "records": [
+          {
+            "id": 139,
+            "revision": 1,
+            "sha256": "dfcd5e9475b749091d6f59ce46e6a03878ac401a8469a24c973d1beea6b5d27c"
           }
         ],
         "duplicates": []
