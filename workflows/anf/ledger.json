@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 388,
-  "updated_at": "2026-10-15T12:11:32.181214+00:00",
+  "generation": 389,
+  "updated_at": "2026-10-15T12:12:47.498988+00:00",
   "next_id": 131,
   "records": [
     {
@@ -15924,6 +15924,18 @@
         },
         "editorial_sha256": "7d015565b94232e77b3d5c718b33e3ac1a4378681071d46db3c40a5ba78c630d"
       }
+    },
+    "bd37cc3adcb72a7046ecac75be491232fb708501966bc471176b5799172c2080": {
+      "sha256": "403481ffa795f715d6d8adbd673f451c5c3f21e399d47d83393b2aa8f471b3cf",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 130,
+          "revision": 1,
+          "sha256": "a3db7b9ab15d65472aec22fd92e137f877113790759aa04675be8be655bbce21"
+        },
+        "editorial_sha256": "e2a1d7fb11e24cf54805e25450b24a1e4819751e04f4f7f539429a7f8f7e7276"
+      }
     }
   },
   "migration": {
@@ -20744,6 +20756,26 @@
         "sha256": "7d015565b94232e77b3d5c718b33e3ac1a4378681071d46db3c40a5ba78c630d",
         "reviewed_at": "2026-10-15T12:11:32.181214+00:00",
         "operation_id": "d64ebfdff30096b1c0790b077fa0ab7c10df1f4d8568c85917fe6b2023822fec"
+      }
+    ],
+    "130:1": [
+      {
+        "reference": {
+          "id": 130,
+          "revision": 1,
+          "sha256": "a3db7b9ab15d65472aec22fd92e137f877113790759aa04675be8be655bbce21"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General corporate legal dispute news, not technical research or implementation.",
+            "evidence_sha256": "a3db7b9ab15d65472aec22fd92e137f877113790759aa04675be8be655bbce21"
+          }
+        },
+        "sha256": "e2a1d7fb11e24cf54805e25450b24a1e4819751e04f4f7f539429a7f8f7e7276",
+        "reviewed_at": "2026-10-15T12:12:47.498988+00:00",
+        "operation_id": "bd37cc3adcb72a7046ecac75be491232fb708501966bc471176b5799172c2080"
       }
     ]
   }
