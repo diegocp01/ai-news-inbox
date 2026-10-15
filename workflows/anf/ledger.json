@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 368,
-  "updated_at": "2026-10-14T23:31:33.601395+00:00",
-  "next_id": 123,
+  "generation": 369,
+  "updated_at": "2026-10-15T01:00:30.187832+00:00",
+  "next_id": 124,
   "records": [
     {
       "id": 1,
@@ -1632,6 +1632,19 @@
           "sha256": "b204b82d3337cd6e40d82f0d0707ee2cc7976712553b3bc642796fdf6e58ebd3",
           "source": "Paper Instruments",
           "request_id": "a3f4fc660419f1c001a8b2350550aa50b46cc7b6ebf49d781b9cbb6b1fe63b95",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T01:00:30.187832+00:00",
+          "block": "Title: GPT-6 Astra Solves 49 of 50 Research-Level Physics Problems\nURL: https://arxiv.org/abs/2610.16733\nImage URL: https://arxiv.org/html/2610.16733v1/fig1_dots.png\nSummary: Researchers report that GPT-6 Astra running in Codex solved 49 of 50 theoretical physics problems, reaching 98% accuracy at an average cost below $3 per problem. The agent could search literature and write code. The unpublished problems involved known techniques rather than major open questions, and the study evaluated each agent only once.",
+          "sha256": "85390e927c77bbad97fa9101fa9887a50aaac47cbc0ad60384c68b63c4203fa0",
+          "source": "arXiv",
+          "request_id": "22728eff281ecd08aafa4bd61a3261c7f848141937968ca071d76f3f4058e83c",
           "mode": "standard"
         }
       ]
@@ -3608,13 +3621,21 @@
       ]
     },
     "22728eff281ecd08aafa4bd61a3261c7f848141937968ca071d76f3f4058e83c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-14T23:31:33.601395+00:00",
       "received_sequence": 112,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T01:00:30.187832+00:00",
+      "records": [
+        {
+          "id": 123,
+          "revision": 1,
+          "sha256": "85390e927c77bbad97fa9101fa9887a50aaac47cbc0ad60384c68b63c4203fa0"
+        }
+      ]
     }
   },
   "batches": {
@@ -15465,6 +15486,21 @@
       "result": {
         "status": "received",
         "request_id": "22728eff281ecd08aafa4bd61a3261c7f848141937968ca071d76f3f4058e83c"
+      }
+    },
+    "dfc71671714cd802bd327793447c4d2e61170d34c58b17c4961c56188bf10944": {
+      "sha256": "7a1529e36783819be2d131b4ddc5414ab8b6c84f27ea625bbc4cf19f2ce0c1f0",
+      "result": {
+        "status": "finalized",
+        "request_id": "22728eff281ecd08aafa4bd61a3261c7f848141937968ca071d76f3f4058e83c",
+        "records": [
+          {
+            "id": 123,
+            "revision": 1,
+            "sha256": "85390e927c77bbad97fa9101fa9887a50aaac47cbc0ad60384c68b63c4203fa0"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
