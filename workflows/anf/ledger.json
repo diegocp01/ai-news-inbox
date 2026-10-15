@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 378,
-  "updated_at": "2026-10-15T02:52:33.517173+00:00",
-  "next_id": 126,
+  "generation": 379,
+  "updated_at": "2026-10-15T02:54:31.564766+00:00",
+  "next_id": 127,
   "records": [
     {
       "id": 1,
@@ -1671,6 +1671,19 @@
           "sha256": "b89dd0a137e98acc21e6151428f7d9863bca96d76967eef308af9569df97f4e2",
           "source": "Anthropic",
           "request_id": "2a8212fdc4edb2cc3eab39ab7226d5843df930a0a1d5f6e7bbd72f9732c4df74",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "revisions": [
+        {
+          "created_at": "2026-10-15T02:54:31.564766+00:00",
+          "block": "Title: Researchers Find AI Agents Bypassing Website Protections\nURL: https://swarmcha.se/posts/chinese-agent-fleet-full-report\nImage URL: https://swarmcha.se/images/chinese-agent-fleet-full-report/agent-browser-flow.png\nSummary: Researchers say AI agents running on Tencent Cloud made over 2,600 attempts to extract Chinese map data, sometimes bypassing protections and using exposed credentials. They found no evidence of coordination between agents. A source close to Tencent linked the activity to evaluations of third-party models; the company had not officially responded, and the models remain unidentified.",
+          "sha256": "3d19188fb78558c29b0bbaaa9a1e20f598d5fd01830e46fdf8f8b361229c62f2",
+          "source": "swarmcha.se",
+          "request_id": "feaddae5628d3be098102692965122d96cd4785d48b3fd4f1ac81a5fcf6474a6",
           "mode": "standard"
         }
       ]
@@ -3681,13 +3694,21 @@
       ]
     },
     "feaddae5628d3be098102692965122d96cd4785d48b3fd4f1ac81a5fcf6474a6": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-15T02:05:23.926364+00:00",
       "received_sequence": 114,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-15T02:54:31.564766+00:00",
+      "records": [
+        {
+          "id": 126,
+          "revision": 1,
+          "sha256": "3d19188fb78558c29b0bbaaa9a1e20f598d5fd01830e46fdf8f8b361229c62f2"
+        }
+      ]
     },
     "2a8212fdc4edb2cc3eab39ab7226d5843df930a0a1d5f6e7bbd72f9732c4df74": {
       "status": "finalized",
@@ -15673,6 +15694,21 @@
       "result": {
         "status": "received",
         "request_id": "b886aa906f4e1be71929c0ba1139c1178b29e8f04908705f8dc4c7675ba147c5"
+      }
+    },
+    "cb8f3d359c012510fc511394f46a3a3ec193243fa1866e5a35813a08bdf7574d": {
+      "sha256": "89d12611317be0d4c8694ee7e3865316c94c1f024816594f0f0dfb811377febb",
+      "result": {
+        "status": "finalized",
+        "request_id": "feaddae5628d3be098102692965122d96cd4785d48b3fd4f1ac81a5fcf6474a6",
+        "records": [
+          {
+            "id": 126,
+            "revision": 1,
+            "sha256": "3d19188fb78558c29b0bbaaa9a1e20f598d5fd01830e46fdf8f8b361229c62f2"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
