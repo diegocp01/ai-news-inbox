@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 401,
-  "updated_at": "2026-10-15T16:56:10+00:00",
+  "generation": 402,
+  "updated_at": "2026-10-15T16:57:05+00:00",
   "next_id": 135,
   "records": [
     {
@@ -17431,6 +17431,18 @@
         ],
         "duplicates": []
       }
+    },
+    "30fa642c15282c98c0050289e8bf9d62a93cd5921a9607599af2a91abbea2c90": {
+      "sha256": "dc56246bad50507941cbc41a6604a2226424db027cd2393a7442bdf76bf42781",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 134,
+          "revision": 1,
+          "sha256": "40b801e43cdf1fd717217904df6c51c575bc2072406afcc118fafa5d259a0447"
+        },
+        "editorial_sha256": "59eba3faa0f01e383e3dfdf19e7dd008d6bb33aeab2c08e573737e20a58f4a72"
+      }
     }
   },
   "migration": {
@@ -22323,6 +22335,26 @@
         "sha256": "4dde732193217d2e107db79f6b5b28c292ada474ef31f2def3dddc71f663b214",
         "reviewed_at": "2026-10-15T14:04:50+00:00",
         "operation_id": "b49033d8d5fc42a03a49c0d984100660d7d875dad50ede8f0aca35c6d19fca14"
+      }
+    ],
+    "134:1": [
+      {
+        "reference": {
+          "id": 134,
+          "revision": 1,
+          "sha256": "40b801e43cdf1fd717217904df6c51c575bc2072406afcc118fafa5d259a0447"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Open-source JavaScript builder toolkit for numeric neural-network circuits and developer demos.",
+            "evidence_sha256": "d081152214def7b5e63c07de6c3c5837b11b14a814d862fff841c73caea2b037"
+          }
+        },
+        "sha256": "59eba3faa0f01e383e3dfdf19e7dd008d6bb33aeab2c08e573737e20a58f4a72",
+        "reviewed_at": "2026-10-15T16:57:05+00:00",
+        "operation_id": "30fa642c15282c98c0050289e8bf9d62a93cd5921a9607599af2a91abbea2c90"
       }
     ]
   }
