@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 465,
-  "updated_at": "2026-10-16T20:21:53.449492+00:00",
-  "next_id": 154,
+  "generation": 466,
+  "updated_at": "2026-10-16T20:21:53.983360+00:00",
+  "next_id": 155,
   "records": [
     {
       "id": 1,
@@ -2039,6 +2039,19 @@
           "sha256": "fc958ba70a7bf677dcb77934450527845bbc6ebdcf3bec81e0ff2aaf2e1de3dc",
           "source": "Anthropic",
           "request_id": "29cad47f6a542446e08b6232f03201dfc11588504e9cd4f14bb1994b78293acc",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "revisions": [
+        {
+          "created_at": "2026-10-16T20:21:53.983360+00:00",
+          "block": "Title: OpenAI Brings ChatGPT Dots to the iPhone Home Screen\nURL: \nImage URL: https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/79/16/53791688-599b-7fc2-3d0d-807276c6f5b4/2_iPhone.jpg/600x1300bb-60.jpg\nSummary: OpenAI designer Gavin Nelson shared that dots, the always-on AI agents in ChatGPT, are now available on the Home Screen. His preview shows an iPhone widget displaying a user's dot by name and avatar, with buttons to message or call it. OpenAI hasn't published further details; dots are rolling out to Pro and Business Premium users.",
+          "sha256": "5ad3db89b821e2e744349fa101205cffb0fe312713cc51d4b94d9549a19e9a35",
+          "source": "",
+          "request_id": "595219e73bddf190944b4610a382f6d42ec9433287658f93209e1edf66a0a6ab",
           "mode": "standard"
         }
       ]
@@ -4508,13 +4521,21 @@
       ]
     },
     "595219e73bddf190944b4610a382f6d42ec9433287658f93209e1edf66a0a6ab": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-16T20:21:53.449492+00:00",
       "received_sequence": 140,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-16T20:21:53.983360+00:00",
+      "records": [
+        {
+          "id": 154,
+          "revision": 1,
+          "sha256": "5ad3db89b821e2e744349fa101205cffb0fe312713cc51d4b94d9549a19e9a35"
+        }
+      ]
     }
   },
   "batches": {
@@ -19552,6 +19573,21 @@
       "result": {
         "status": "received",
         "request_id": "595219e73bddf190944b4610a382f6d42ec9433287658f93209e1edf66a0a6ab"
+      }
+    },
+    "07abc3fb7ead9ddc3a17d3d563c3979a1efcbb70f6a63ba3dce0f114df08ab96": {
+      "sha256": "7f08a3559b44d9ae66f0767083c859e9c5a1cf5cd923de51181744458e11321b",
+      "result": {
+        "status": "finalized",
+        "request_id": "595219e73bddf190944b4610a382f6d42ec9433287658f93209e1edf66a0a6ab",
+        "records": [
+          {
+            "id": 154,
+            "revision": 1,
+            "sha256": "5ad3db89b821e2e744349fa101205cffb0fe312713cc51d4b94d9549a19e9a35"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
