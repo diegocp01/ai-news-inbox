@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 443,
-  "updated_at": "2026-10-16T13:31:40.485995+00:00",
+  "generation": 444,
+  "updated_at": "2026-10-16T13:31:40.994950+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18693,6 +18693,18 @@
         },
         "editorial_sha256": "31e6877fe3f051d449037f2022c16c24d7c4edaed99ab776e0189a361105cb91"
       }
+    },
+    "fcda2b2d78ee9560aacb1195db12f6aff9a022832411fba1f2f2f71824ee303e": {
+      "sha256": "5360cfea3db53b22b7a3354f4f676dce33bcb870e4cf329685a2bb2166425385",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 145,
+          "revision": 1,
+          "sha256": "2b73a98b51cc05d6ec5530d1b713a7d5051be5de428bc5f65c3becb5ea9814a4"
+        },
+        "editorial_sha256": "92c329dae14d1198af0359ded0ee82806ccc5e3b1ee31d9a5cdd5accf0239ecd"
+      }
     }
   },
   "migration": {
@@ -23845,6 +23857,26 @@
         "sha256": "31e6877fe3f051d449037f2022c16c24d7c4edaed99ab776e0189a361105cb91",
         "reviewed_at": "2026-10-16T13:31:40.485995+00:00",
         "operation_id": "8d1fc7675fe95ce5253160cae5d2637b100a5e31417f54ff69355149d2e1e4c4"
+      }
+    ],
+    "145:1": [
+      {
+        "reference": {
+          "id": 145,
+          "revision": 1,
+          "sha256": "2b73a98b51cc05d6ec5530d1b713a7d5051be5de428bc5f65c3becb5ea9814a4"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Practical essay for everyday users on being more ambitious with AI; no developer-specific content.",
+            "evidence_sha256": "983263ead2b33a9b5fb27ad92f79e08d9cfdcdb21909e035287ab30827071d16"
+          }
+        },
+        "sha256": "92c329dae14d1198af0359ded0ee82806ccc5e3b1ee31d9a5cdd5accf0239ecd",
+        "reviewed_at": "2026-10-16T13:31:40.994950+00:00",
+        "operation_id": "fcda2b2d78ee9560aacb1195db12f6aff9a022832411fba1f2f2f71824ee303e"
       }
     ]
   }
