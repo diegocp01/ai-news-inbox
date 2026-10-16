@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 466,
-  "updated_at": "2026-10-16T20:21:53.983360+00:00",
+  "generation": 467,
+  "updated_at": "2026-10-16T20:21:54.509753+00:00",
   "next_id": 155,
   "records": [
     {
@@ -19589,6 +19589,18 @@
         ],
         "duplicates": []
       }
+    },
+    "6c146ff6d744802a0bad82047db624efe7a1574a9a07525d022b57594c8cebb3": {
+      "sha256": "d48fa41b125fcf72712701df8c6358e560ba32882b6759c2081a421b9327dba3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 154,
+          "revision": 1,
+          "sha256": "5ad3db89b821e2e744349fa101205cffb0fe312713cc51d4b94d9549a19e9a35"
+        },
+        "editorial_sha256": "54c1cb02abf9c8f79020c3312b3641c7d41d7052d15cd56d73918ec29f92aafb"
+      }
     }
   },
   "migration": {
@@ -24921,6 +24933,26 @@
         "sha256": "4d46c74ca444872fcf45a4c8b49587bdd9882d1c0122a5e463ccc38803fa957a",
         "reviewed_at": "2026-10-16T18:07:48.325350+00:00",
         "operation_id": "eb02d3918e441320e830c2ab23388c1d5299c6d8fb0fee36692b5baeae1084e8"
+      }
+    ],
+    "154:1": [
+      {
+        "reference": {
+          "id": 154,
+          "revision": 1,
+          "sha256": "5ad3db89b821e2e744349fa101205cffb0fe312713cc51d4b94d9549a19e9a35"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer ChatGPT feature news about a home-screen widget for dots; general audience.",
+            "evidence_sha256": "adfa39275c0f04120ef1af5374be2154a881d5aaa5e5c2d917dbbf5431f6e3b1"
+          }
+        },
+        "sha256": "54c1cb02abf9c8f79020c3312b3641c7d41d7052d15cd56d73918ec29f92aafb",
+        "reviewed_at": "2026-10-16T20:21:54.509753+00:00",
+        "operation_id": "6c146ff6d744802a0bad82047db624efe7a1574a9a07525d022b57594c8cebb3"
       }
     ]
   }
