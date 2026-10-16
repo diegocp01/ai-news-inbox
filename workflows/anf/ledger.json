@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 440,
-  "updated_at": "2026-10-16T13:31:38.962611+00:00",
+  "generation": 441,
+  "updated_at": "2026-10-16T13:31:39.483270+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18657,6 +18657,18 @@
         },
         "editorial_sha256": "53acb8a9212bd4a12040914a1084ecb100677d335aa388e4775a94330fe89bb4"
       }
+    },
+    "75f62399f9207504597f68e2200df84d3da0811155f8f4d83299958f7cde4884": {
+      "sha256": "b8ae5377bc408cd2c54b3dfc4049c38fb29ecfb9959c847ef6f29f1afb2ef9d7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 142,
+          "revision": 1,
+          "sha256": "d21675c98cc0407e35b72eb4b8739ca92a889afcb9cac7173b411c549ebc3cf2"
+        },
+        "editorial_sha256": "e57bcd23292ae222480bcf9f9fe887ab5a84c7ee07ac36a1da5597fd74b16619"
+      }
     }
   },
   "migration": {
@@ -23749,6 +23761,26 @@
         "sha256": "53acb8a9212bd4a12040914a1084ecb100677d335aa388e4775a94330fe89bb4",
         "reviewed_at": "2026-10-16T13:31:38.962611+00:00",
         "operation_id": "f3c76cf99821f95dc1a31c703147931f83180c9d0227489ba1a59c3ab677c03c"
+      }
+    ],
+    "142:1": [
+      {
+        "reference": {
+          "id": 142,
+          "revision": 1,
+          "sha256": "d21675c98cc0407e35b72eb4b8739ca92a889afcb9cac7173b411c549ebc3cf2"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Apple Machine Learning Research post on distributed local inference with MLX and RDMA over Thunderbolt; aimed at developers and researchers.",
+            "evidence_sha256": "3a957a256ab529535db1bda44bc79be8f03a3a25ba1c230e5f114af697130446"
+          }
+        },
+        "sha256": "e57bcd23292ae222480bcf9f9fe887ab5a84c7ee07ac36a1da5597fd74b16619",
+        "reviewed_at": "2026-10-16T13:31:39.483270+00:00",
+        "operation_id": "75f62399f9207504597f68e2200df84d3da0811155f8f4d83299958f7cde4884"
       }
     ]
   }
