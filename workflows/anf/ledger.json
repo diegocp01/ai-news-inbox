@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 462,
-  "updated_at": "2026-10-16T18:07:47.352375+00:00",
-  "next_id": 153,
+  "generation": 463,
+  "updated_at": "2026-10-16T18:07:47.885993+00:00",
+  "next_id": 154,
   "records": [
     {
       "id": 1,
@@ -2026,6 +2026,19 @@
           "sha256": "f9fe14bdcca60d8eb9d5b7c3d8aaa2aaa6188a62ff1cc9abd09afed7e216fbf6",
           "source": "CNA",
           "request_id": "fd61237d4370b2a39733c696943ab99e63ff5511c8c3b8a4fb3ade81f325ce4e",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "revisions": [
+        {
+          "created_at": "2026-10-16T18:07:47.885993+00:00",
+          "block": "Title: Anthropic's Claude Designs Quantum Circuits That Beat the Best Published Designs\nURL: https://www.anthropic.com/research/designing-efficient-quantum-circuits\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/cc389d90b468ebc86011f6642099dfad9a4a757f-2000x1125.jpg\nSummary: Anthropic researchers gave Claude plain-language specifications for eight quantum circuits plus an automated evaluator. Working largely on its own, Claude found designs using fewer qubits and gates than the best published ones, in some cases by an order of magnitude or more, including a decoder step 12 times cheaper for a leading quantum optimization algorithm. A paper is on arXiv.",
+          "sha256": "fc958ba70a7bf677dcb77934450527845bbc6ebdcf3bec81e0ff2aaf2e1de3dc",
+          "source": "Anthropic",
+          "request_id": "29cad47f6a542446e08b6232f03201dfc11588504e9cd4f14bb1994b78293acc",
           "mode": "standard"
         }
       ]
@@ -4478,13 +4491,21 @@
       ]
     },
     "29cad47f6a542446e08b6232f03201dfc11588504e9cd4f14bb1994b78293acc": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-16T18:07:47.352375+00:00",
       "received_sequence": 139,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-16T18:07:47.885993+00:00",
+      "records": [
+        {
+          "id": 153,
+          "revision": 1,
+          "sha256": "fc958ba70a7bf677dcb77934450527845bbc6ebdcf3bec81e0ff2aaf2e1de3dc"
+        }
+      ]
     }
   },
   "batches": {
@@ -19488,6 +19509,21 @@
       "result": {
         "status": "received",
         "request_id": "29cad47f6a542446e08b6232f03201dfc11588504e9cd4f14bb1994b78293acc"
+      }
+    },
+    "8de1e630b7e72f8d515dc504f4b59f2c3aadc33a9196840faffa1f477f973b94": {
+      "sha256": "58bce35e9620193cf6acb940b6ea362a9d466e90b18ce1c4ae33effa9a8aa9da",
+      "result": {
+        "status": "finalized",
+        "request_id": "29cad47f6a542446e08b6232f03201dfc11588504e9cd4f14bb1994b78293acc",
+        "records": [
+          {
+            "id": 153,
+            "revision": 1,
+            "sha256": "fc958ba70a7bf677dcb77934450527845bbc6ebdcf3bec81e0ff2aaf2e1de3dc"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
