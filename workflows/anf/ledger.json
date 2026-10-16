@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 457,
-  "updated_at": "2026-10-16T15:22:33.454693+00:00",
+  "generation": 458,
+  "updated_at": "2026-10-16T15:22:33.909288+00:00",
   "next_id": 152,
   "records": [
     {
@@ -19397,6 +19397,18 @@
         ],
         "duplicates": []
       }
+    },
+    "dd4f592ed9b9cabafdd7c9587cdc22112174f912180cde278e18f4099238d9db": {
+      "sha256": "5c9c1ccacb1282470fd4babcdeb802b2f6bc7637b771425eb654d9bcd931b601",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 151,
+          "revision": 1,
+          "sha256": "f90e685e9d91b0bfab631f2c5079157b86242222393d0a3926db0262f9bfa338"
+        },
+        "editorial_sha256": "476cf1e1efa3b67ccab76ab7dea4d1b03b8b9cd7d2b5dc20980ee5aa47dbf776"
+      }
     }
   },
   "migration": {
@@ -24669,6 +24681,26 @@
         "sha256": "40ea446e32eebcb3fd28bdb1520a5c54e830da833c75d27858a67fbe2ee8afe4",
         "reviewed_at": "2026-10-16T15:22:32.478904+00:00",
         "operation_id": "8fdca85d5158b32fab4ac3e703ef9f926302228b1bcc3e71dab03ebf6bd89357"
+      }
+    ],
+    "151:1": [
+      {
+        "reference": {
+          "id": 151,
+          "revision": 1,
+          "sha256": "f90e685e9d91b0bfab631f2c5079157b86242222393d0a3926db0262f9bfa338"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer automotive product reveal of Tesla's Roadster demo; general audience.",
+            "evidence_sha256": "ac4cbe06f61c1f1c89e5371b9554bdf11779e75d674754ab3260a2a8b3d637d3"
+          }
+        },
+        "sha256": "476cf1e1efa3b67ccab76ab7dea4d1b03b8b9cd7d2b5dc20980ee5aa47dbf776",
+        "reviewed_at": "2026-10-16T15:22:33.909288+00:00",
+        "operation_id": "dd4f592ed9b9cabafdd7c9587cdc22112174f912180cde278e18f4099238d9db"
       }
     ]
   }
