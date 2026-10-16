@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 463,
-  "updated_at": "2026-10-16T18:07:47.885993+00:00",
+  "generation": 464,
+  "updated_at": "2026-10-16T18:07:48.325350+00:00",
   "next_id": 154,
   "records": [
     {
@@ -19525,6 +19525,18 @@
         ],
         "duplicates": []
       }
+    },
+    "eb02d3918e441320e830c2ab23388c1d5299c6d8fb0fee36692b5baeae1084e8": {
+      "sha256": "59e59789d1186e6010ab861a6c187b717e41486c82def4fc50fcb1c2cf6af6fe",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 153,
+          "revision": 1,
+          "sha256": "fc958ba70a7bf677dcb77934450527845bbc6ebdcf3bec81e0ff2aaf2e1de3dc"
+        },
+        "editorial_sha256": "4d46c74ca444872fcf45a4c8b49587bdd9882d1c0122a5e463ccc38803fa957a"
+      }
     }
   },
   "migration": {
@@ -24837,6 +24849,26 @@
         "sha256": "c3fad5b94a69399a5e5f011ab270cfbd9c5427e56dd59b72a5ab69f9b962d3af",
         "reviewed_at": "2026-10-16T16:16:19.437456+00:00",
         "operation_id": "6e5b5144fa346abdf7f230f639274be549ccdcb17f2773737c7b92438d7dedb0"
+      }
+    ],
+    "153:1": [
+      {
+        "reference": {
+          "id": 153,
+          "revision": 1,
+          "sha256": "fc958ba70a7bf677dcb77934450527845bbc6ebdcf3bec81e0ff2aaf2e1de3dc"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research result with an arXiv paper on AI-driven quantum circuit optimization (Toffoli counts, reversible algorithms, decoders); aimed at researchers.",
+            "evidence_sha256": "be1f1aedbab6fae07c833f7850391663e1f04703b2fa47b4bd38612a75cd32ae"
+          }
+        },
+        "sha256": "4d46c74ca444872fcf45a4c8b49587bdd9882d1c0122a5e463ccc38803fa957a",
+        "reviewed_at": "2026-10-16T18:07:48.325350+00:00",
+        "operation_id": "eb02d3918e441320e830c2ab23388c1d5299c6d8fb0fee36692b5baeae1084e8"
       }
     ]
   }
