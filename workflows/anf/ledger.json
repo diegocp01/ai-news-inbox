@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 454,
-  "updated_at": "2026-10-16T15:22:31.973646+00:00",
+  "generation": 455,
+  "updated_at": "2026-10-16T15:22:32.478904+00:00",
   "next_id": 151,
   "records": [
     {
@@ -19333,6 +19333,18 @@
         ],
         "duplicates": []
       }
+    },
+    "8fdca85d5158b32fab4ac3e703ef9f926302228b1bcc3e71dab03ebf6bd89357": {
+      "sha256": "49d5204bd1d79e183466051f3a9b4c5842d8b7e1add2e5eea022a4933266b4df",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 150,
+          "revision": 1,
+          "sha256": "76999404ff5c741b6b3d42588c38634d770d680ff7cf921cee2248dfde8d90d0"
+        },
+        "editorial_sha256": "40ea446e32eebcb3fd28bdb1520a5c54e830da833c75d27858a67fbe2ee8afe4"
+      }
     }
   },
   "migration": {
@@ -24585,6 +24597,26 @@
         "sha256": "77d378954220c4dac7a597a626f0db915e73817a99a7011abe47b0bbf55ca9b8",
         "reviewed_at": "2026-10-16T13:31:43.025957+00:00",
         "operation_id": "2ab94c9bb43927c8491e008e70fb86124c88e68f274c946d4fd968c377acb341"
+      }
+    ],
+    "150:1": [
+      {
+        "reference": {
+          "id": 150,
+          "revision": 1,
+          "sha256": "76999404ff5c741b6b3d42588c38634d770d680ff7cf921cee2248dfde8d90d0"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business news about a robotics fund's Nasdaq bell ceremony with a humanoid robot; general audience.",
+            "evidence_sha256": "35353cd90ac93a8927c7f1cd42df1d7561348781d3c564c3b6e342c9818c5705"
+          }
+        },
+        "sha256": "40ea446e32eebcb3fd28bdb1520a5c54e830da833c75d27858a67fbe2ee8afe4",
+        "reviewed_at": "2026-10-16T15:22:32.478904+00:00",
+        "operation_id": "8fdca85d5158b32fab4ac3e703ef9f926302228b1bcc3e71dab03ebf6bd89357"
       }
     ]
   }
