@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 430,
-  "updated_at": "2026-10-16T11:32:32.683195+00:00",
-  "next_id": 148,
+  "generation": 431,
+  "updated_at": "2026-10-16T11:38:22.310884+00:00",
+  "next_id": 150,
   "records": [
     {
       "id": 1,
@@ -1960,6 +1960,34 @@
           "source": "Google",
           "request_id": "ae574fef3ba8b0d1148198ed76c5bd2eb82387623c0ea927bae1301258e7ff77",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "revisions": [
+        {
+          "created_at": "2026-10-16T11:38:22.310884+00:00",
+          "block": "Title: Meta Releases Muse Spark Open with Mac Studio Support\nURL: https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/\nImage URL: https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/10/meta-muse-spark-mac.jpg?w=1500&quality=82&strip=all&ssl=1\nSummary: Meta released Muse Spark Open, an AI model developers can download for coding and tasks involving several steps. Meta says a compressed version runs locally through Apple’s MLX software on two M5 Ultra Mac Studio computers with 512 gigabytes of memory each. The company reports testing iOS app changes and video editing entirely on those devices.",
+          "sha256": "c306741767d69cee0997d7cffe96b828b9f3ccee01b696e11b7eb0031f882512",
+          "source": "9to5mac.com",
+          "request_id": "d96e17fe627396863eafd448cf29606bb14f33819d1a9f4b8eb672ecbc6fc3e4",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "revisions": [
+        {
+          "created_at": "2026-10-16T11:38:22.310884+00:00",
+          "block": "Title: Harvard Report Examines Gender Gaps in AI Use\nURL: https://shorensteincenter.org/resource/women-ai/\nImage URL: https://shorensteincenter.org/wp-content/uploads/2026/10/Header-image-2000%C3%97943%401x.png\nSummary: Harvard’s Shorenstein Center analyzed a survey of 5,403 U.S. adults, desktop browsing data and 78,542 U.S. news articles about AI. Women reported less AI use and less access to workplace training than men. Desktop browsing showed no statistically significant gender difference in ever using AI. In the news sample, men were named in headlines 14.6 times as often as women.",
+          "sha256": "7b20a124837397b38a203b51962c38a93403aa2f5093fdcc48323814433d8988",
+          "source": "shorensteincenter.org",
+          "request_id": "d96e17fe627396863eafd448cf29606bb14f33819d1a9f4b8eb672ecbc6fc3e4",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -4337,14 +4365,27 @@
       ]
     },
     "d96e17fe627396863eafd448cf29606bb14f33819d1a9f4b8eb672ecbc6fc3e4": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-16T11:32:32.683195+00:00",
       "received_sequence": 135,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-16T11:38:22.310884+00:00",
+      "records": [
+        {
+          "id": 148,
+          "revision": 1,
+          "sha256": "c306741767d69cee0997d7cffe96b828b9f3ccee01b696e11b7eb0031f882512"
+        },
+        {
+          "id": 149,
+          "revision": 1,
+          "sha256": "7b20a124837397b38a203b51962c38a93403aa2f5093fdcc48323814433d8988"
+        }
+      ]
     }
   },
   "batches": {
@@ -18143,6 +18184,26 @@
       "result": {
         "status": "received",
         "request_id": "d96e17fe627396863eafd448cf29606bb14f33819d1a9f4b8eb672ecbc6fc3e4"
+      }
+    },
+    "3f67daeee2510149b7df2bd3638996c4a594cb34abc6dbf68a2d550b32c83e3b": {
+      "sha256": "ba37b28a4a39ac1601bef8d06a9d427445baa84de93f67bdf0a4d4e5126761a5",
+      "result": {
+        "status": "finalized",
+        "request_id": "d96e17fe627396863eafd448cf29606bb14f33819d1a9f4b8eb672ecbc6fc3e4",
+        "records": [
+          {
+            "id": 148,
+            "revision": 1,
+            "sha256": "c306741767d69cee0997d7cffe96b828b9f3ccee01b696e11b7eb0031f882512"
+          },
+          {
+            "id": 149,
+            "revision": 1,
+            "sha256": "7b20a124837397b38a203b51962c38a93403aa2f5093fdcc48323814433d8988"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
