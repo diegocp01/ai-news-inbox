@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 428,
-  "updated_at": "2026-10-16T03:12:00+00:00",
-  "next_id": 147,
+  "generation": 429,
+  "updated_at": "2026-10-16T03:12:01+00:00",
+  "next_id": 148,
   "records": [
     {
       "id": 1,
@@ -1946,6 +1946,19 @@
           "sha256": "b18c6f4b1c8fe35a04def8024627b54279ebe6dddfaee73f2d942257b76b6dd3",
           "source": "The Verge",
           "request_id": "010bd32906a61b172e8182fed1202ef16f2f334bccfe34adfaf2cb885f50366d",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "revisions": [
+        {
+          "created_at": "2026-10-16T03:12:01+00:00",
+          "block": "Title: Google's Willow Quantum Chip Cuts Key Errors 40-Fold, Reaching 99.99% Fidelity\nURL: https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/magic_state_social.width-1300.png\nSummary: Google Quantum AI showed on its Willow chip that \"magic state cultivation,\" a cheaper way to make special quantum states needed for error-corrected computing, works on real hardware. Published in Science, it cut errors about 40-fold and produced states with a record 99.99% fidelity, though only about 8% of attempts were kept.",
+          "sha256": "0eb9b243529fb79223c3778b032c0e2f0ff55b485e7a2bc17ba0f6bf1ba76160",
+          "source": "Google",
+          "request_id": "ae574fef3ba8b0d1148198ed76c5bd2eb82387623c0ea927bae1301258e7ff77",
           "mode": "standard"
         }
       ]
@@ -4307,13 +4320,21 @@
       ]
     },
     "ae574fef3ba8b0d1148198ed76c5bd2eb82387623c0ea927bae1301258e7ff77": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-16T03:12:00+00:00",
       "received_sequence": 134,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-16T03:12:01+00:00",
+      "records": [
+        {
+          "id": 147,
+          "revision": 1,
+          "sha256": "0eb9b243529fb79223c3778b032c0e2f0ff55b485e7a2bc17ba0f6bf1ba76160"
+        }
+      ]
     }
   },
   "batches": {
@@ -18090,6 +18111,21 @@
       "result": {
         "status": "received",
         "request_id": "ae574fef3ba8b0d1148198ed76c5bd2eb82387623c0ea927bae1301258e7ff77"
+      }
+    },
+    "6c5d6b21108b642ccd169a29210192a443964e375f3a4c87bfdfacd57e966060": {
+      "sha256": "3cab6a03c9fa56927716ab24fe66ad73caf17c2375fce61916594d578adf6c4b",
+      "result": {
+        "status": "finalized",
+        "request_id": "ae574fef3ba8b0d1148198ed76c5bd2eb82387623c0ea927bae1301258e7ff77",
+        "records": [
+          {
+            "id": 147,
+            "revision": 1,
+            "sha256": "0eb9b243529fb79223c3778b032c0e2f0ff55b485e7a2bc17ba0f6bf1ba76160"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
