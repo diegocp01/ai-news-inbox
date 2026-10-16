@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 456,
-  "updated_at": "2026-10-16T15:22:32.985199+00:00",
-  "next_id": 151,
+  "generation": 457,
+  "updated_at": "2026-10-16T15:22:33.454693+00:00",
+  "next_id": 152,
   "records": [
     {
       "id": 1,
@@ -2000,6 +2000,19 @@
           "sha256": "76999404ff5c741b6b3d42588c38634d770d680ff7cf921cee2248dfde8d90d0",
           "source": "Nasdaq",
           "request_id": "f693df714b2e8002a03e944081d895a079aab1d1edfd9f796eab7c4eb4e1e240",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "revisions": [
+        {
+          "created_at": "2026-10-16T15:22:33.454693+00:00",
+          "block": "Title: Tesla Shows New Roadster Prototype Briefly Flying in Live Demo\nURL: https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/\nImage URL: https://techcrunch.com/wp-content/uploads/2026/10/tesla-roadster-2-fly.jpg?resize=1200,877\nSummary: At a livestreamed event in Texas on October 15, Tesla showed its next-generation Roadster driving up a curved ramp upside down using fan suction, then using cold-gas thrusters to briefly fly, flip and hop over other Tesla vehicles. Tesla claims 0-60 mph in under a second. Elon Musk says production starts in 2028; flight-capable versions will be invitation-only.",
+          "sha256": "f90e685e9d91b0bfab631f2c5079157b86242222393d0a3926db0262f9bfa338",
+          "source": "TechCrunch",
+          "request_id": "f375b8d823d2b13908077152e9876ca683abdd6e53551e28139b406a6689413b",
           "mode": "standard"
         }
       ]
@@ -4418,13 +4431,21 @@
       ]
     },
     "f375b8d823d2b13908077152e9876ca683abdd6e53551e28139b406a6689413b": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-16T15:22:32.985199+00:00",
       "received_sequence": 137,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-16T15:22:33.454693+00:00",
+      "records": [
+        {
+          "id": 151,
+          "revision": 1,
+          "sha256": "f90e685e9d91b0bfab631f2c5079157b86242222393d0a3926db0262f9bfa338"
+        }
+      ]
     }
   },
   "batches": {
@@ -19360,6 +19381,21 @@
       "result": {
         "status": "received",
         "request_id": "f375b8d823d2b13908077152e9876ca683abdd6e53551e28139b406a6689413b"
+      }
+    },
+    "d4c64a0e5ddd1f333fd21af5ae84ff3d7bcfb53c6bdb64124b5628663e54a4f6": {
+      "sha256": "0499cbe1aeb259707d6188f75c16b8748bf9914ce7e7db9db8a4ffda703463f9",
+      "result": {
+        "status": "finalized",
+        "request_id": "f375b8d823d2b13908077152e9876ca683abdd6e53551e28139b406a6689413b",
+        "records": [
+          {
+            "id": 151,
+            "revision": 1,
+            "sha256": "f90e685e9d91b0bfab631f2c5079157b86242222393d0a3926db0262f9bfa338"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
