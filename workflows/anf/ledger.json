@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 438,
-  "updated_at": "2026-10-16T13:31:37.943351+00:00",
+  "generation": 439,
+  "updated_at": "2026-10-16T13:31:38.446484+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18633,6 +18633,18 @@
         },
         "editorial_sha256": "4cfeb4e571412c3a5b6f67b48d4e7daf9f5a9da2c6c6fdaf80e85f268d4fdb6b"
       }
+    },
+    "f4a744e0e722d0e8e29839a8f977b5f6f02f8fe73d89e5f188a09480d0dde8ed": {
+      "sha256": "6180e1c266f68cd52edb2d9cd7c5aa25a4a4e18115040c8a767957e6b07d7b08",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 140,
+          "revision": 1,
+          "sha256": "8c90de43a6fff6456b7d8ea9092a559e418e1bafa9d1d27c2a8bfa84b47b044d"
+        },
+        "editorial_sha256": "c612b6ec63ac179cb201e17377d5ad02348c80b3386f5c5114bcfe00e463e0bd"
+      }
     }
   },
   "migration": {
@@ -23685,6 +23697,26 @@
         "sha256": "4cfeb4e571412c3a5b6f67b48d4e7daf9f5a9da2c6c6fdaf80e85f268d4fdb6b",
         "reviewed_at": "2026-10-16T13:31:37.943351+00:00",
         "operation_id": "431dc5c549531329ddffbd7a0b4406f264c0fecc73c18915859855753492c7e6"
+      }
+    ],
+    "140:1": [
+      {
+        "reference": {
+          "id": 140,
+          "revision": 1,
+          "sha256": "8c90de43a6fff6456b7d8ea9092a559e418e1bafa9d1d27c2a8bfa84b47b044d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Corporate security and espionage news about OpenAI staff warnings; general audience.",
+            "evidence_sha256": "0564a99894beb63abfb49d88d44aeb2d5e4959e40200114d90ecec2e647d0d9c"
+          }
+        },
+        "sha256": "c612b6ec63ac179cb201e17377d5ad02348c80b3386f5c5114bcfe00e463e0bd",
+        "reviewed_at": "2026-10-16T13:31:38.446484+00:00",
+        "operation_id": "f4a744e0e722d0e8e29839a8f977b5f6f02f8fe73d89e5f188a09480d0dde8ed"
       }
     ]
   }
