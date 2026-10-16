@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 435,
-  "updated_at": "2026-10-16T13:31:36.382708+00:00",
+  "generation": 436,
+  "updated_at": "2026-10-16T13:31:36.922204+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18597,6 +18597,18 @@
         },
         "editorial_sha256": "e077dbbc9d9c4ca7c44b746d46086f3bb31e32e1a3fd51a63cb448ce0cfcc86e"
       }
+    },
+    "40c9fc53723e05b906e484e881300669ecca948e46a4d9ac50d705f3f74588ee": {
+      "sha256": "43b715a5bd0f38047aadc6183b77314d3651b5d23d6f6428b09a1a4716302f94",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 137,
+          "revision": 1,
+          "sha256": "af507ca59948cd00ffc7ec77aaf59cf85f09f01c90358be5c27197ff37350cda"
+        },
+        "editorial_sha256": "599100b982b2a29fdc0adf42929f649ed1df58ff384702c56514bc336e2fcc25"
+      }
     }
   },
   "migration": {
@@ -23589,6 +23601,26 @@
         "sha256": "e077dbbc9d9c4ca7c44b746d46086f3bb31e32e1a3fd51a63cb448ce0cfcc86e",
         "reviewed_at": "2026-10-16T13:31:36.382708+00:00",
         "operation_id": "5d1fd3ea428932c7a57c9efd489640f499246f52c0af97d7c4f26d4c53afe1cd"
+      }
+    ],
+    "137:1": [
+      {
+        "reference": {
+          "id": 137,
+          "revision": 1,
+          "sha256": "af507ca59948cd00ffc7ec77aaf59cf85f09f01c90358be5c27197ff37350cda"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public award news about Google's SynthID watermarking and its consumer detector; no developer focus.",
+            "evidence_sha256": "3667f6f7e92093963a84c6ea2897e4042cc120897f37b685bf35467cd5bb72f0"
+          }
+        },
+        "sha256": "599100b982b2a29fdc0adf42929f649ed1df58ff384702c56514bc336e2fcc25",
+        "reviewed_at": "2026-10-16T13:31:36.922204+00:00",
+        "operation_id": "40c9fc53723e05b906e484e881300669ecca948e46a4d9ac50d705f3f74588ee"
       }
     ]
   }
