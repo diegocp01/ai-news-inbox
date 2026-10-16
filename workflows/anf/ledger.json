@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 445,
-  "updated_at": "2026-10-16T13:31:41.487842+00:00",
+  "generation": 446,
+  "updated_at": "2026-10-16T13:31:42.018287+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18717,6 +18717,18 @@
         },
         "editorial_sha256": "ffac5b9679016006fdb66d1c20f6dc6a41339163ed3f992d78b5ad95de744d6a"
       }
+    },
+    "6bc840381cf5b9bf58b91b4690fd2066053b4c68044392477ffded169f657d18": {
+      "sha256": "e0440ba9f9faec49be36055e7d4978f7936a7d6acd4381ace5bb3f16214abbca",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 147,
+          "revision": 1,
+          "sha256": "0eb9b243529fb79223c3778b032c0e2f0ff55b485e7a2bc17ba0f6bf1ba76160"
+        },
+        "editorial_sha256": "e106156c337a711f77f36e9a14c62e2a3d6b56b66e0286f6ad0ee1029d49c83a"
+      }
     }
   },
   "migration": {
@@ -23909,6 +23921,26 @@
         "sha256": "ffac5b9679016006fdb66d1c20f6dc6a41339163ed3f992d78b5ad95de744d6a",
         "reviewed_at": "2026-10-16T13:31:41.487842+00:00",
         "operation_id": "0ef81ec344bab3f696cc7010533852b4a8609ff6fb13f9cc3b4736e2311013ab"
+      }
+    ],
+    "147:1": [
+      {
+        "reference": {
+          "id": 147,
+          "revision": 1,
+          "sha256": "0eb9b243529fb79223c3778b032c0e2f0ff55b485e7a2bc17ba0f6bf1ba76160"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google public blog announcement of a quantum computing milestone written for a general audience.",
+            "evidence_sha256": "5df9843c6ba6fbab0b7695557c434a2f9244ce13616bb2d14ceaa8e57a8b323c"
+          }
+        },
+        "sha256": "e106156c337a711f77f36e9a14c62e2a3d6b56b66e0286f6ad0ee1029d49c83a",
+        "reviewed_at": "2026-10-16T13:31:42.018287+00:00",
+        "operation_id": "6bc840381cf5b9bf58b91b4690fd2066053b4c68044392477ffded169f657d18"
       }
     ]
   }
