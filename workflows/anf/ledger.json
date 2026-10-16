@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 441,
-  "updated_at": "2026-10-16T13:31:39.483270+00:00",
+  "generation": 442,
+  "updated_at": "2026-10-16T13:31:39.970269+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18669,6 +18669,18 @@
         },
         "editorial_sha256": "e57bcd23292ae222480bcf9f9fe887ab5a84c7ee07ac36a1da5597fd74b16619"
       }
+    },
+    "9e2736675685320eb77eabce0ab8e18a810c177e0b4e78720935b32cb1ed7f0b": {
+      "sha256": "cfaa0c8e5cc689d6255328b5bac05ca8c9703bff288ba387996a827a1d4df19a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 143,
+          "revision": 1,
+          "sha256": "09d7e794720a170ca7014c6bf97def49f84e1f237c7af8b8e9037dab53dbc21f"
+        },
+        "editorial_sha256": "b5e148cddae7b9046aeb196f48488414e32cfc00ca0ff98ffb67a702923dc2f9"
+      }
     }
   },
   "migration": {
@@ -23781,6 +23793,26 @@
         "sha256": "e57bcd23292ae222480bcf9f9fe887ab5a84c7ee07ac36a1da5597fd74b16619",
         "reviewed_at": "2026-10-16T13:31:39.483270+00:00",
         "operation_id": "75f62399f9207504597f68e2200df84d3da0811155f8f4d83299958f7cde4884"
+      }
+    ],
+    "143:1": [
+      {
+        "reference": {
+          "id": 143,
+          "revision": 1,
+          "sha256": "09d7e794720a170ca7014c6bf97def49f84e1f237c7af8b8e9037dab53dbc21f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Executive commentary on Google's AI development pace from a public roundtable; general AI news.",
+            "evidence_sha256": "dbf3dd8fb23c668ba8ff20cf6acf34b3192e161994fe5935268f4e1ec6eabeb0"
+          }
+        },
+        "sha256": "b5e148cddae7b9046aeb196f48488414e32cfc00ca0ff98ffb67a702923dc2f9",
+        "reviewed_at": "2026-10-16T13:31:39.970269+00:00",
+        "operation_id": "9e2736675685320eb77eabce0ab8e18a810c177e0b4e78720935b32cb1ed7f0b"
       }
     ]
   }
