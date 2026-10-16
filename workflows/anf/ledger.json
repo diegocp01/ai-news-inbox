@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 436,
-  "updated_at": "2026-10-16T13:31:36.922204+00:00",
+  "generation": 437,
+  "updated_at": "2026-10-16T13:31:37.432661+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18609,6 +18609,18 @@
         },
         "editorial_sha256": "599100b982b2a29fdc0adf42929f649ed1df58ff384702c56514bc336e2fcc25"
       }
+    },
+    "25e7c1ed11bf063ade5780fb9ca0da46131e8b5a48ea520cf6efd3e2e246bc27": {
+      "sha256": "312bffeca5d7b6a02400611606a8ee6e67b8b7f566470846e4763fad2af493c0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 138,
+          "revision": 1,
+          "sha256": "44df3d141ac18fca7b8f0870bffb3d344a7c1b4e94711fe9145554faaa613c82"
+        },
+        "editorial_sha256": "ed944b4839bb94aa30c55f186b23cd6ba68e3be4e11534e20a756505202b7337"
+      }
     }
   },
   "migration": {
@@ -23621,6 +23633,26 @@
         "sha256": "599100b982b2a29fdc0adf42929f649ed1df58ff384702c56514bc336e2fcc25",
         "reviewed_at": "2026-10-16T13:31:36.922204+00:00",
         "operation_id": "40c9fc53723e05b906e484e881300669ecca948e46a4d9ac50d705f3f74588ee"
+      }
+    ],
+    "138:1": [
+      {
+        "reference": {
+          "id": 138,
+          "revision": 1,
+          "sha256": "44df3d141ac18fca7b8f0870bffb3d344a7c1b4e94711fe9145554faaa613c82"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Goodfire interpretability research essay on neurons and superposition with model audits; aimed at ML researchers.",
+            "evidence_sha256": "6673896e61ea8a08c01af811f176d90ad7402e7d59beb0291de1dc31c36c7785"
+          }
+        },
+        "sha256": "ed944b4839bb94aa30c55f186b23cd6ba68e3be4e11534e20a756505202b7337",
+        "reviewed_at": "2026-10-16T13:31:37.432661+00:00",
+        "operation_id": "25e7c1ed11bf063ade5780fb9ca0da46131e8b5a48ea520cf6efd3e2e246bc27"
       }
     ]
   }
