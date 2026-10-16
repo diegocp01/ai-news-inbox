@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 433,
-  "updated_at": "2026-10-16T12:55:50.220677+00:00",
+  "generation": 434,
+  "updated_at": "2026-10-16T13:31:35.855686+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18573,6 +18573,18 @@
           "planned_from_head": "0c707cfaa5a2741ad9b66ea0a5677697f3461569"
         }
       }
+    },
+    "16a21468bec91c67161f5efddd8cd14a119de5348f3073a8fbb60b2bdc4673a8": {
+      "sha256": "aeb37e0f9c16cc5584ecdb510e60cd959bb2c7c77b21c315bc939b35e301ee76",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 132,
+          "revision": 1,
+          "sha256": "d0bf4171a9e9a28a4a047d91e41557a2b327c18c55fcd1c8f3aa499bc75c95e3"
+        },
+        "editorial_sha256": "61f046cc6e40407fc5971bebc47cccc927bef20699c4448506b5aabc772a9333"
+      }
     }
   },
   "migration": {
@@ -23525,6 +23537,26 @@
         "sha256": "57b8cde6694ee3072849cb65659e0c3f190b7e41334092f617b7f5de2edecbe3",
         "reviewed_at": "2026-10-15T18:02:01.700473+00:00",
         "operation_id": "f643d622262b73ba81293456275cf48ed4aac860fb87402b95c13532d72dea5e"
+      }
+    ],
+    "132:1": [
+      {
+        "reference": {
+          "id": 132,
+          "revision": 1,
+          "sha256": "d0bf4171a9e9a28a4a047d91e41557a2b327c18c55fcd1c8f3aa499bc75c95e3"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "arXiv research paper on a memory-based video generation framework; aimed at researchers.",
+            "evidence_sha256": "733a8f879bb16bcb3d32838b57bae58ec795bb6efb4f98b805836141c91e8303"
+          }
+        },
+        "sha256": "61f046cc6e40407fc5971bebc47cccc927bef20699c4448506b5aabc772a9333",
+        "reviewed_at": "2026-10-16T13:31:35.855686+00:00",
+        "operation_id": "16a21468bec91c67161f5efddd8cd14a119de5348f3073a8fbb60b2bdc4673a8"
       }
     ]
   }
