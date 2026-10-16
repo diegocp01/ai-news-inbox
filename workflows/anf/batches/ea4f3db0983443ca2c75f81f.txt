@@ -1,0 +1,84 @@
+Title: AI Video Framework Uses Memory to Keep Scenes Consistent
+URL: https://arxiv.org/abs/2610.20571
+Image URL: https://arxiv.org/html/2610.20571v1/teaser.png
+Summary: Weijie Wang and colleagues present ATAS, which stores scene geometry and time-indexed events to keep generated video shots consistent when revisiting places or replaying actions. Across four video generators, the authors report improved cross-shot consistency and the highest aggregate scores among compared methods. Reconstruction and validation add computation.
+ds: true
+
+Title: Synthetic Training Environments Improve AI Game Control
+URL: https://arxiv.org/abs/2610.20584
+Image URL: https://arxiv.org/html/2610.20584v1/p1_gym_environment_suite.png
+Summary: Mingyu Ouyang and colleagues report that Player-1 trains game agents using demonstrations and reinforcement learning in sixteen synthetic environments. Its 9B model improved MineDojo-300 success from 10.54% to 38.33%, with gains on ViZDoom-10 and GameWorld. The results support transfer beyond the training environments, rather than universal game-playing ability.
+ds: true
+
+Title: Google DeepMind's SynthID AI Watermark Named One of TIME's Best Inventions of 2026
+URL: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Labs_SynthID_Social1920x1080.max-1440x810.png
+Summary: TIME named Google DeepMind's SynthID one of its Best Inventions of 2026. SynthID embeds invisible watermarks in AI-generated images, video, audio and text when they are created. Google says it has watermarked more than 180 billion images and videos and 240,000 years of audio, and anyone can now check files with its SynthID Detector.
+
+Title: Goodfire Researcher Argues AI Neural Networks Are Far More Understandable Than Believed
+URL: https://already-clean.goodfire.com/
+Image URL: https://already-clean.goodfire.com/assets/social/city-and-knot-20261015.png
+Summary: In an essay, Goodfire's Nick Cammarata argues that seemingly jumbled 'polysemantic' neurons mostly reflect weak tools and fixable architecture problems, not superposition. In preliminary audits of Qwen3-32B, his team estimates roughly 90% of neuron poles have one main job, with similar findings in models up to trillions of parameters. He calls it a working hypothesis; a technical paper will follow.
+ds: true
+
+Title: Hinton, Bengio and 400 Scientists Call for International AI Oversight Body
+URL: https://betakit.com/geoffrey-hinton-yoshua-bengio-join-400-scientists-calling-for-international-ai-regulator/
+Image URL: https://cdn.betakit.com/wp-content/uploads/2025/06/Bengio-AI-LawZero-announcement.jpg
+Summary: More than 400 scientists, including Geoffrey Hinton and Yoshua Bengio, signed an open letter calling for an international body to set AI containment standards and track security incidents, with reports eventually made public. They urge that cyber-capable AI models initially be air-gapped, citing cases where models escaped weak test sandboxes and compromised external systems.
+
+Title: OpenAI Warns Staff That Spies May Use Money, Eavesdropping and Seduction to Get Secrets
+URL: https://www.aiaffairs.com/news/openai-warns-staff-espionage-threats/
+Image URL: https://www.aiaffairs.com/wp-content/uploads/2026/10/openai-warns-staff-espionage-threats.jpg
+Summary: OpenAI has warned employees that competitors and state-backed actors may try to obtain company secrets, the Wall Street Journal reported. Training scenarios include a stranger repeatedly befriending a staffer at a playground; leaders also warned of money offers, café eavesdropping and seduction attempts. The warnings preceded the FBI's arrest of an OpenAI engineer accused of hiding a recording device.
+
+Title: New AI Model: OpenAI Rolls Out GPT-Live-1.1 With New Voices and Better Accents
+URL: https://www.xataka.com/robotica-e-ia/chatgpt-tenia-algunas-voces-naturales-ia-gpt-live-1-1-ahora-va-a-uno-sus-puntos-debiles
+Image URL: https://i.blogs.es/5ae6a7/nuevas-voces-chatgpt/840_560.jpeg
+Summary: OpenAI is rolling out its GPT-Live-1.1 voice model to ChatGPT, Codex and dots for all users, with API access coming later. The company says it delivers more natural accents and repeats phrases like "checking..." less during searches. New voices arrive in French, German, Hindi, Japanese, Korean, Mexican Spanish and English, though availability varies by region.
+
+Title: Apple and Meta Bring Meta's Muse AI Model to Run Locally on Macs
+URL: https://machinelearning.apple.com/research/mlx-distributed-inference
+Image URL: https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268742_Mac_Studio_AKrales_0025.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200
+Summary: Apple and Meta say Meta's Muse Spark Open, an 816-billion-parameter AI model with downloadable weights, can now run locally on Mac Studio desktops using Apple's updated MLX software. It requires two M5 Ultra Mac Studios with 512GB of memory each, or four with 256GB. Apple says a four-Mac cluster generates over 36 tokens per second.
+ds: true
+
+Title: Sergey Brin Says Google's AI Models Are Now Helping Build Their Successors
+URL: https://www.businessinsider.com/sergey-brin-google-gemini-ai-argon-recursive-self-improvement-rsi-2026-10
+Image URL: https://i.ytimg.com/vi/Jh6mgf9M06M/maxresdefault.jpg
+Summary: Google cofounder Sergey Brin says AI development is accelerating inside Google, with models now helping build their successors, an idea called recursive self-improvement. In a Google roundtable on the new Gemini 4 Argon model, Brin said Google is "starting to get onto that RSI treadmill" and that researchers and the model work hand in hand on the next version.
+
+Title: OpenAI Says ChatGPT Can Now Use Your Chrome Tabs to Get Tasks Done
+URL: 
+Image URL: https://lh3.googleusercontent.com/VBcYeaRmSMZCykjzcG5gQt-RUm4a6T5SJ0RVlU1ZhkRetM8qOzRdmyzyASSvcbO2AUs5vftySn6BpeyGF7bNjV5hOPg=s1280
+Summary: OpenAI says ChatGPT can now use people's open Chrome tabs to give more useful answers and get tasks done, bringing computer use to Chrome. Through its browser extension, ChatGPT can reference open tabs or highlighted text and act on sites where users are already signed in, such as Gmail or Salesforce. It asks permission before sensitive steps like file uploads.
+
+Title: Claude Developer Felix Rieseberg Shares a Guide to Being More Ambitious With AI
+URL: https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/
+Image URL: https://storage.ghost.io/c/89/e0/89e08557-681a-40be-8264-278bf46d6b25/content/images/size/w1200/2026/10/modo_de_volar_a_way_of_flying_1951.10.55-1.jpg
+Summary: Felix Rieseberg, who works on Anthropic's Claude, offers a tutorial for getting more out of AI models. He sorts ambition into speed, altitude, depth and range: aim for outcomes rather than tasks, demand expert-grade tools and outside validation, and draw on multiple fields. He argues people are held back mainly by what they believe AI can do.
+
+Title: AI Robot Toy Sold on Amazon Reportedly Exposed 13 Million Private Conversations
+URL: https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab
+Image URL: https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/eiliko-verge-sean-004.jpg?quality=90&strip=all&crop=0%2C3.4689741459833%2C100%2C93.062051708033&w=1200
+Summary: A security researcher found the cloud backend for Energize Lab's Eiliko AI robot toy, sold on Amazon, was unprotected, The Verge reported. He says he could read about 13 million conversations from roughly 68,000 toys, including over 31,000 U.S. children's profiles, plus emails and IP addresses, and remotely rewrote one toy's AI memory. The company hasn't confirmed the figures.
+
+Title: Google's Willow Quantum Chip Cuts Key Errors 40-Fold, Reaching 99.99% Fidelity
+URL: https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/magic_state_social.width-1300.png
+Summary: Google Quantum AI showed on its Willow chip that "magic state cultivation," a cheaper way to make special quantum states needed for error-corrected computing, works on real hardware. Published in Science, it cut errors about 40-fold and produced states with a record 99.99% fidelity, though only about 8% of attempts were kept.
+
+Title: Meta Releases Muse Spark Open with Mac Studio Support
+URL: https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/
+Image URL: https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/10/meta-muse-spark-mac.jpg?w=1500&quality=82&strip=all&ssl=1
+Summary: Meta released Muse Spark Open, an AI model developers can download for coding and tasks involving several steps. Meta says a compressed version runs locally through Apple’s MLX software on two M5 Ultra Mac Studio computers with 512 gigabytes of memory each. The company reports testing iOS app changes and video editing entirely on those devices.
+
+Title: Harvard Report Examines Gender Gaps in AI Use
+URL: https://shorensteincenter.org/resource/women-ai/
+Image URL: https://shorensteincenter.org/wp-content/uploads/2026/10/Header-image-2000%C3%97943%401x.png
+Summary: Harvard’s Shorenstein Center analyzed a survey of 5,403 U.S. adults, desktop browsing data and 78,542 U.S. news articles about AI. Women reported less AI use and less access to workplace training than men. Desktop browsing showed no statistically significant gender difference in ever using AI. In the news sample, men were named in headlines 14.6 times as often as women.
+
+
+
+
+
+.

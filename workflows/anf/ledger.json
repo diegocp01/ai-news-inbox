@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 450,
-  "updated_at": "2026-10-16T13:41:19.357093+00:00",
+  "generation": 451,
+  "updated_at": "2026-10-16T13:41:35.947458+00:00",
   "next_id": 150,
   "records": [
     {
@@ -9082,9 +9082,230 @@
       },
       "acknowledged_at": "2026-10-16T13:41:19.357093+00:00",
       "checkpoint_after": 131
+    },
+    "ea4f3db0983443ca2c75f81f": {
+      "batch_id": "ea4f3db0983443ca2c75f81f",
+      "status": "prepared",
+      "checkpoint_before": 131,
+      "prepared_at": "2026-10-16T13:41:35.947458+00:00",
+      "intake_cutoff": 135,
+      "records": [
+        {
+          "id": 132,
+          "revision": 1,
+          "sha256": "d0bf4171a9e9a28a4a047d91e41557a2b327c18c55fcd1c8f3aa499bc75c95e3"
+        },
+        {
+          "id": 133,
+          "revision": 1,
+          "sha256": "961dee05a990fe11971acc6b080ab834b6baefd6a6f0edb6b7f6de78c0bbf702"
+        },
+        {
+          "id": 137,
+          "revision": 1,
+          "sha256": "af507ca59948cd00ffc7ec77aaf59cf85f09f01c90358be5c27197ff37350cda"
+        },
+        {
+          "id": 138,
+          "revision": 1,
+          "sha256": "44df3d141ac18fca7b8f0870bffb3d344a7c1b4e94711fe9145554faaa613c82"
+        },
+        {
+          "id": 139,
+          "revision": 1,
+          "sha256": "dfcd5e9475b749091d6f59ce46e6a03878ac401a8469a24c973d1beea6b5d27c"
+        },
+        {
+          "id": 140,
+          "revision": 1,
+          "sha256": "8c90de43a6fff6456b7d8ea9092a559e418e1bafa9d1d27c2a8bfa84b47b044d"
+        },
+        {
+          "id": 141,
+          "revision": 1,
+          "sha256": "ca38e18cf3aa82f1ecffb1e02de1c8fc2a5bd8e66d11e29180a509cdf1e16e6b"
+        },
+        {
+          "id": 142,
+          "revision": 1,
+          "sha256": "d21675c98cc0407e35b72eb4b8739ca92a889afcb9cac7173b411c549ebc3cf2"
+        },
+        {
+          "id": 143,
+          "revision": 1,
+          "sha256": "09d7e794720a170ca7014c6bf97def49f84e1f237c7af8b8e9037dab53dbc21f"
+        },
+        {
+          "id": 144,
+          "revision": 1,
+          "sha256": "bada48882294a3caec5c6fc4c944118feead050ff864d1b9d419c822b9a5728e"
+        },
+        {
+          "id": 145,
+          "revision": 1,
+          "sha256": "2b73a98b51cc05d6ec5530d1b713a7d5051be5de428bc5f65c3becb5ea9814a4"
+        },
+        {
+          "id": 146,
+          "revision": 1,
+          "sha256": "b18c6f4b1c8fe35a04def8024627b54279ebe6dddfaee73f2d942257b76b6dd3"
+        },
+        {
+          "id": 147,
+          "revision": 1,
+          "sha256": "0eb9b243529fb79223c3778b032c0e2f0ff55b485e7a2bc17ba0f6bf1ba76160"
+        },
+        {
+          "id": 148,
+          "revision": 1,
+          "sha256": "c306741767d69cee0997d7cffe96b828b9f3ccee01b696e11b7eb0031f882512"
+        },
+        {
+          "id": 149,
+          "revision": 1,
+          "sha256": "7b20a124837397b38a203b51962c38a93403aa2f5093fdcc48323814433d8988"
+        }
+      ],
+      "first_id": 132,
+      "last_id": 149,
+      "count": 15,
+      "txt_path": "workflows/anf/batches/ea4f3db0983443ca2c75f81f.txt",
+      "json_path": "workflows/anf/batches/ea4f3db0983443ca2c75f81f.json",
+      "txt_sha256": "2a0d158bd34331957b7b6409e2cd2e3d573961c123a203663d07d10a1a1f2a7d",
+      "json_sha256": "8db5221db98d9551d8296746caa5810e9eee507956e2706a545d63df86aa9e25",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "arXiv research paper on a memory-based video generation framework; aimed at researchers.",
+            "evidence_sha256": "733a8f879bb16bcb3d32838b57bae58ec795bb6efb4f98b805836141c91e8303"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "arXiv research paper on synthetic training environments for AI game control; aimed at researchers.",
+            "evidence_sha256": "300dc6173142c3074582948c263ca2601bc6d43a51da45ca94d848f376decc6d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public award news about Google's SynthID watermarking and its consumer detector; no developer focus.",
+            "evidence_sha256": "3667f6f7e92093963a84c6ea2897e4042cc120897f37b685bf35467cd5bb72f0"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Goodfire interpretability research essay on neurons and superposition with model audits; aimed at ML researchers.",
+            "evidence_sha256": "6673896e61ea8a08c01af811f176d90ad7402e7d59beb0291de1dc31c36c7785"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "AI safety policy open letter calling for international oversight; public-interest news.",
+            "evidence_sha256": "442f58e746e515a4363890853025156f0743c68f71d84547de83991a4354164c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Corporate security and espionage news about OpenAI staff warnings; general audience.",
+            "evidence_sha256": "0564a99894beb63abfb49d88d44aeb2d5e4959e40200114d90ecec2e647d0d9c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer ChatGPT voice update with new voices and accents; API mention is incidental.",
+            "evidence_sha256": "871c59457963343711605ca8bb473cf1e9c672173e5e189d22f64b50402c9598"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Apple Machine Learning Research post on distributed local inference with MLX and RDMA over Thunderbolt; aimed at developers and researchers.",
+            "evidence_sha256": "3a957a256ab529535db1bda44bc79be8f03a3a25ba1c230e5f114af697130446"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Executive commentary on Google's AI development pace from a public roundtable; general AI news.",
+            "evidence_sha256": "dbf3dd8fb23c668ba8ff20cf6acf34b3192e161994fe5935268f4e1ec6eabeb0"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer ChatGPT Chrome extension feature news; general productivity audience.",
+            "evidence_sha256": "851f2e2468ec818217dfd6da7c60164c33e9fc2d79b13d97e76604716380118f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Practical essay for everyday users on being more ambitious with AI; no developer-specific content.",
+            "evidence_sha256": "983263ead2b33a9b5fb27ad92f79e08d9cfdcdb21909e035287ab30827071d16"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer privacy and security story about an AI toy's exposed data; general audience.",
+            "evidence_sha256": "8142fed8ff40f0abf6f8bcfc6376af96d823f64d6e836d8ec1275e65d874c509"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google public blog announcement of a quantum computing milestone written for a general audience.",
+            "evidence_sha256": "5df9843c6ba6fbab0b7695557c434a2f9244ce13616bb2d14ceaa8e57a8b323c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public model launch coverage of Meta Muse Spark Open on Mac Studio; weights/MLX mentions incidental, consistent with record 136.",
+            "evidence_sha256": "81d3cecf4850e95d6a2df1d3b55056599cdd2d2fdf2a228984b6273ec3f26139"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Harvard Shorenstein Center social-science report on gender gaps in AI use; public-interest research for general readers.",
+            "evidence_sha256": "e3b5452b68f4f2f7bdf797dfffca8557ecc79052f67d517d29b1a39eef0e450b"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-16T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "ea4f3db0983443ca2c75f81f",
   "replacement_batch": null,
   "checkpoint": 131,
   "checkpoint_history": [
@@ -18811,6 +19032,234 @@
           "sha256": "8e713cad43dd09755e3d0abdd4831d83dbb8dcfcdbf724cec3b6c1bd9bc57e3e",
           "published_at": "2026-10-16T12:55:50.220677+00:00",
           "planned_from_head": "0c707cfaa5a2741ad9b66ea0a5677697f3461569"
+        }
+      }
+    },
+    "muse-compile-20261016-1341-8138": {
+      "sha256": "e90275510b82bbb27809a58b92775c5e1b98f1848858f2cf0bab93e325298581",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "ea4f3db0983443ca2c75f81f",
+          "status": "prepared",
+          "checkpoint_before": 131,
+          "prepared_at": "2026-10-16T13:41:35.947458+00:00",
+          "intake_cutoff": 135,
+          "records": [
+            {
+              "id": 132,
+              "revision": 1,
+              "sha256": "d0bf4171a9e9a28a4a047d91e41557a2b327c18c55fcd1c8f3aa499bc75c95e3"
+            },
+            {
+              "id": 133,
+              "revision": 1,
+              "sha256": "961dee05a990fe11971acc6b080ab834b6baefd6a6f0edb6b7f6de78c0bbf702"
+            },
+            {
+              "id": 137,
+              "revision": 1,
+              "sha256": "af507ca59948cd00ffc7ec77aaf59cf85f09f01c90358be5c27197ff37350cda"
+            },
+            {
+              "id": 138,
+              "revision": 1,
+              "sha256": "44df3d141ac18fca7b8f0870bffb3d344a7c1b4e94711fe9145554faaa613c82"
+            },
+            {
+              "id": 139,
+              "revision": 1,
+              "sha256": "dfcd5e9475b749091d6f59ce46e6a03878ac401a8469a24c973d1beea6b5d27c"
+            },
+            {
+              "id": 140,
+              "revision": 1,
+              "sha256": "8c90de43a6fff6456b7d8ea9092a559e418e1bafa9d1d27c2a8bfa84b47b044d"
+            },
+            {
+              "id": 141,
+              "revision": 1,
+              "sha256": "ca38e18cf3aa82f1ecffb1e02de1c8fc2a5bd8e66d11e29180a509cdf1e16e6b"
+            },
+            {
+              "id": 142,
+              "revision": 1,
+              "sha256": "d21675c98cc0407e35b72eb4b8739ca92a889afcb9cac7173b411c549ebc3cf2"
+            },
+            {
+              "id": 143,
+              "revision": 1,
+              "sha256": "09d7e794720a170ca7014c6bf97def49f84e1f237c7af8b8e9037dab53dbc21f"
+            },
+            {
+              "id": 144,
+              "revision": 1,
+              "sha256": "bada48882294a3caec5c6fc4c944118feead050ff864d1b9d419c822b9a5728e"
+            },
+            {
+              "id": 145,
+              "revision": 1,
+              "sha256": "2b73a98b51cc05d6ec5530d1b713a7d5051be5de428bc5f65c3becb5ea9814a4"
+            },
+            {
+              "id": 146,
+              "revision": 1,
+              "sha256": "b18c6f4b1c8fe35a04def8024627b54279ebe6dddfaee73f2d942257b76b6dd3"
+            },
+            {
+              "id": 147,
+              "revision": 1,
+              "sha256": "0eb9b243529fb79223c3778b032c0e2f0ff55b485e7a2bc17ba0f6bf1ba76160"
+            },
+            {
+              "id": 148,
+              "revision": 1,
+              "sha256": "c306741767d69cee0997d7cffe96b828b9f3ccee01b696e11b7eb0031f882512"
+            },
+            {
+              "id": 149,
+              "revision": 1,
+              "sha256": "7b20a124837397b38a203b51962c38a93403aa2f5093fdcc48323814433d8988"
+            }
+          ],
+          "first_id": 132,
+          "last_id": 149,
+          "count": 15,
+          "txt_path": "workflows/anf/batches/ea4f3db0983443ca2c75f81f.txt",
+          "json_path": "workflows/anf/batches/ea4f3db0983443ca2c75f81f.json",
+          "txt_sha256": "2a0d158bd34331957b7b6409e2cd2e3d573961c123a203663d07d10a1a1f2a7d",
+          "json_sha256": "8db5221db98d9551d8296746caa5810e9eee507956e2706a545d63df86aa9e25",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "arXiv research paper on a memory-based video generation framework; aimed at researchers.",
+                "evidence_sha256": "733a8f879bb16bcb3d32838b57bae58ec795bb6efb4f98b805836141c91e8303"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "arXiv research paper on synthetic training environments for AI game control; aimed at researchers.",
+                "evidence_sha256": "300dc6173142c3074582948c263ca2601bc6d43a51da45ca94d848f376decc6d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Public award news about Google's SynthID watermarking and its consumer detector; no developer focus.",
+                "evidence_sha256": "3667f6f7e92093963a84c6ea2897e4042cc120897f37b685bf35467cd5bb72f0"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Goodfire interpretability research essay on neurons and superposition with model audits; aimed at ML researchers.",
+                "evidence_sha256": "6673896e61ea8a08c01af811f176d90ad7402e7d59beb0291de1dc31c36c7785"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "AI safety policy open letter calling for international oversight; public-interest news.",
+                "evidence_sha256": "442f58e746e515a4363890853025156f0743c68f71d84547de83991a4354164c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Corporate security and espionage news about OpenAI staff warnings; general audience.",
+                "evidence_sha256": "0564a99894beb63abfb49d88d44aeb2d5e4959e40200114d90ecec2e647d0d9c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer ChatGPT voice update with new voices and accents; API mention is incidental.",
+                "evidence_sha256": "871c59457963343711605ca8bb473cf1e9c672173e5e189d22f64b50402c9598"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Apple Machine Learning Research post on distributed local inference with MLX and RDMA over Thunderbolt; aimed at developers and researchers.",
+                "evidence_sha256": "3a957a256ab529535db1bda44bc79be8f03a3a25ba1c230e5f114af697130446"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Executive commentary on Google's AI development pace from a public roundtable; general AI news.",
+                "evidence_sha256": "dbf3dd8fb23c668ba8ff20cf6acf34b3192e161994fe5935268f4e1ec6eabeb0"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer ChatGPT Chrome extension feature news; general productivity audience.",
+                "evidence_sha256": "851f2e2468ec818217dfd6da7c60164c33e9fc2d79b13d97e76604716380118f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Practical essay for everyday users on being more ambitious with AI; no developer-specific content.",
+                "evidence_sha256": "983263ead2b33a9b5fb27ad92f79e08d9cfdcdb21909e035287ab30827071d16"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer privacy and security story about an AI toy's exposed data; general audience.",
+                "evidence_sha256": "8142fed8ff40f0abf6f8bcfc6376af96d823f64d6e836d8ec1275e65d874c509"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Google public blog announcement of a quantum computing milestone written for a general audience.",
+                "evidence_sha256": "5df9843c6ba6fbab0b7695557c434a2f9244ce13616bb2d14ceaa8e57a8b323c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Public model launch coverage of Meta Muse Spark Open on Mac Studio; weights/MLX mentions incidental, consistent with record 136.",
+                "evidence_sha256": "81d3cecf4850e95d6a2df1d3b55056599cdd2d2fdf2a228984b6273ec3f26139"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Harvard Shorenstein Center social-science report on gender gaps in AI use; public-interest research for general readers.",
+                "evidence_sha256": "e3b5452b68f4f2f7bdf797dfffca8557ecc79052f67d517d29b1a39eef0e450b"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-16T12:00:00+00:00",
+          "deferred_request_ids": []
         }
       }
     }
