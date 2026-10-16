@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 431,
-  "updated_at": "2026-10-16T11:38:22.310884+00:00",
+  "generation": 432,
+  "updated_at": "2026-10-16T12:46:13.410393+00:00",
   "next_id": 150,
   "records": [
     {
@@ -8885,9 +8885,180 @@
       },
       "acknowledged_at": "2026-10-15T12:16:48.317792+00:00",
       "checkpoint_after": 130
+    },
+    "fa28d2ee4cbfeb639600adf2": {
+      "batch_id": "fa28d2ee4cbfeb639600adf2",
+      "status": "prepared",
+      "checkpoint_before": 130,
+      "prepared_at": "2026-10-16T12:46:13.410393+00:00",
+      "intake_cutoff": 135,
+      "records": [
+        {
+          "id": 131,
+          "revision": 1,
+          "sha256": "fbb999f85a099775a6776f34caa3304771017e752d88cce9570ad699b8a5183e"
+        },
+        {
+          "id": 134,
+          "revision": 1,
+          "sha256": "40b801e43cdf1fd717217904df6c51c575bc2072406afcc118fafa5d259a0447"
+        },
+        {
+          "id": 135,
+          "revision": 1,
+          "sha256": "3e8b848faa96e35fec8d8ee0b3f08c2b35e3d4a2afd434cd10b1961517af41d3"
+        },
+        {
+          "id": 136,
+          "revision": 1,
+          "sha256": "0bdb0881c388d84f6a6d31fd0ff47e938d6ee4d2ee052975fee5d58fa82c9700"
+        }
+      ],
+      "first_id": 131,
+      "last_id": 136,
+      "count": 4,
+      "txt_path": "workflows/anf/batches/fa28d2ee4cbfeb639600adf2.txt",
+      "json_path": "workflows/anf/batches/fa28d2ee4cbfeb639600adf2.json",
+      "txt_sha256": "c7db8f0272cbc179a7063258c82d021bf972d1abb72ca39d55fcee2c10ccdebd",
+      "json_sha256": "8e713cad43dd09755e3d0abdd4831d83dbb8dcfcdbf724cec3b6c1bd9bc57e3e",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Creator productivity feature for adjusting footage through natural-language instructions and reviewing editable output; no coding or API use is required by this article. Technical implementation terms do not change its public creative-workflow focus.",
+            "evidence_sha256": "254daf726c9758517175f349091f3aaab48e3aa6c2c2951b444ee555eabd2163"
+          },
+          "quality": {
+            "article": {
+              "checked_at": "2026-10-15T14:03:04Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "url": "https://mirage.app/tesseract/color-grading",
+              "final_url": "https://mirage.app/tesseract/color-grading",
+              "redirect_chain": [
+                "https://mirage.app/tesseract/color-grading"
+              ],
+              "same_event": true,
+              "evidence_sha256": "254daf726c9758517175f349091f3aaab48e3aa6c2c2951b444ee555eabd2163"
+            },
+            "image": {
+              "checked_at": "2026-10-15T14:03:04Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "url": "https://mirage.app/mrkt-static/tesseract/color/color-grading/poster.jpg",
+              "final_url": "https://mirage.app/mrkt-static/tesseract/color/color-grading/poster.jpg",
+              "redirect_chain": [
+                "https://mirage.app/mrkt-static/tesseract/color/color-grading/poster.jpg"
+              ],
+              "evidence_sha256": "608cc0d6218515528b4e610553091b07024a8de121832b5bfff8d38fcb5849e4",
+              "content_type": "image/jpeg",
+              "width": 1920,
+              "height": 1080,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "caef322bf99c2c7cd1ee208bb9e87e0697997b759511465ffb15d244ce511a92",
+              "relevance": "story_specific",
+              "relevance_note": "Official Tesseract color-grading demonstration comparing the same garden portrait in original, warm grade and refined greens versions; publisher labels source footage as generated."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Open-source JavaScript builder toolkit for numeric neural-network circuits and developer demos.",
+            "evidence_sha256": "d081152214def7b5e63c07de6c3c5837b11b14a814d862fff841c73caea2b037"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public image-model launch available through a playground and model access; incidental API and open-weight details do not change its broad creator audience. Applies the user public-model release rule.",
+            "evidence_sha256": "edf5aa94042750558eaeb1bdfcfb161c43c4dc54bb5065876986c5d30e673523"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Broad public announcement of a newly available downloadable AI model, framed around availability and capabilities per user direction; technical implementation is secondary.",
+            "evidence_sha256": "f648e06844d368f98e7609cbdd935143ad12713d5e34f6f757dcdc0006322b7a"
+          }
+        }
+      ],
+      "deferred_records": [
+        {
+          "id": 132,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 133,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 137,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 138,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 139,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 140,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 141,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 142,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 143,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 144,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 145,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 146,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 147,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 148,
+          "reason": "Editorial audience review is required"
+        },
+        {
+          "id": 149,
+          "reason": "Editorial audience review is required"
+        }
+      ],
+      "eligibility_at": "2026-10-16T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "fa28d2ee4cbfeb639600adf2",
   "replacement_batch": null,
   "checkpoint": 130,
   "checkpoint_history": [
@@ -18204,6 +18375,184 @@
           }
         ],
         "duplicates": []
+      }
+    },
+    "muse-compile-20261016-1246-5867": {
+      "sha256": "b414fca6dcc6d3d8cf76154d035f9dfad1660036207d9298f135f19e2c81e7d2",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "fa28d2ee4cbfeb639600adf2",
+          "status": "prepared",
+          "checkpoint_before": 130,
+          "prepared_at": "2026-10-16T12:46:13.410393+00:00",
+          "intake_cutoff": 135,
+          "records": [
+            {
+              "id": 131,
+              "revision": 1,
+              "sha256": "fbb999f85a099775a6776f34caa3304771017e752d88cce9570ad699b8a5183e"
+            },
+            {
+              "id": 134,
+              "revision": 1,
+              "sha256": "40b801e43cdf1fd717217904df6c51c575bc2072406afcc118fafa5d259a0447"
+            },
+            {
+              "id": 135,
+              "revision": 1,
+              "sha256": "3e8b848faa96e35fec8d8ee0b3f08c2b35e3d4a2afd434cd10b1961517af41d3"
+            },
+            {
+              "id": 136,
+              "revision": 1,
+              "sha256": "0bdb0881c388d84f6a6d31fd0ff47e938d6ee4d2ee052975fee5d58fa82c9700"
+            }
+          ],
+          "first_id": 131,
+          "last_id": 136,
+          "count": 4,
+          "txt_path": "workflows/anf/batches/fa28d2ee4cbfeb639600adf2.txt",
+          "json_path": "workflows/anf/batches/fa28d2ee4cbfeb639600adf2.json",
+          "txt_sha256": "c7db8f0272cbc179a7063258c82d021bf972d1abb72ca39d55fcee2c10ccdebd",
+          "json_sha256": "8e713cad43dd09755e3d0abdd4831d83dbb8dcfcdbf724cec3b6c1bd9bc57e3e",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Creator productivity feature for adjusting footage through natural-language instructions and reviewing editable output; no coding or API use is required by this article. Technical implementation terms do not change its public creative-workflow focus.",
+                "evidence_sha256": "254daf726c9758517175f349091f3aaab48e3aa6c2c2951b444ee555eabd2163"
+              },
+              "quality": {
+                "article": {
+                  "checked_at": "2026-10-15T14:03:04Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "url": "https://mirage.app/tesseract/color-grading",
+                  "final_url": "https://mirage.app/tesseract/color-grading",
+                  "redirect_chain": [
+                    "https://mirage.app/tesseract/color-grading"
+                  ],
+                  "same_event": true,
+                  "evidence_sha256": "254daf726c9758517175f349091f3aaab48e3aa6c2c2951b444ee555eabd2163"
+                },
+                "image": {
+                  "checked_at": "2026-10-15T14:03:04Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "url": "https://mirage.app/mrkt-static/tesseract/color/color-grading/poster.jpg",
+                  "final_url": "https://mirage.app/mrkt-static/tesseract/color/color-grading/poster.jpg",
+                  "redirect_chain": [
+                    "https://mirage.app/mrkt-static/tesseract/color/color-grading/poster.jpg"
+                  ],
+                  "evidence_sha256": "608cc0d6218515528b4e610553091b07024a8de121832b5bfff8d38fcb5849e4",
+                  "content_type": "image/jpeg",
+                  "width": 1920,
+                  "height": 1080,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "caef322bf99c2c7cd1ee208bb9e87e0697997b759511465ffb15d244ce511a92",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official Tesseract color-grading demonstration comparing the same garden portrait in original, warm grade and refined greens versions; publisher labels source footage as generated."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Open-source JavaScript builder toolkit for numeric neural-network circuits and developer demos.",
+                "evidence_sha256": "d081152214def7b5e63c07de6c3c5837b11b14a814d862fff841c73caea2b037"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Public image-model launch available through a playground and model access; incidental API and open-weight details do not change its broad creator audience. Applies the user public-model release rule.",
+                "evidence_sha256": "edf5aa94042750558eaeb1bdfcfb161c43c4dc54bb5065876986c5d30e673523"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Broad public announcement of a newly available downloadable AI model, framed around availability and capabilities per user direction; technical implementation is secondary.",
+                "evidence_sha256": "f648e06844d368f98e7609cbdd935143ad12713d5e34f6f757dcdc0006322b7a"
+              }
+            }
+          ],
+          "deferred_records": [
+            {
+              "id": 132,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 133,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 137,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 138,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 139,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 140,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 141,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 142,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 143,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 144,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 145,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 146,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 147,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 148,
+              "reason": "Editorial audience review is required"
+            },
+            {
+              "id": 149,
+              "reason": "Editorial audience review is required"
+            }
+          ],
+          "eligibility_at": "2026-10-16T12:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
