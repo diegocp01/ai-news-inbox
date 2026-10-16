@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 437,
-  "updated_at": "2026-10-16T13:31:37.432661+00:00",
+  "generation": 438,
+  "updated_at": "2026-10-16T13:31:37.943351+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18621,6 +18621,18 @@
         },
         "editorial_sha256": "ed944b4839bb94aa30c55f186b23cd6ba68e3be4e11534e20a756505202b7337"
       }
+    },
+    "431dc5c549531329ddffbd7a0b4406f264c0fecc73c18915859855753492c7e6": {
+      "sha256": "0f00b07b30bca79ae1e30cbe0ca6fe088b0f64694487e530f7edd45eebc74edd",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 139,
+          "revision": 1,
+          "sha256": "dfcd5e9475b749091d6f59ce46e6a03878ac401a8469a24c973d1beea6b5d27c"
+        },
+        "editorial_sha256": "4cfeb4e571412c3a5b6f67b48d4e7daf9f5a9da2c6c6fdaf80e85f268d4fdb6b"
+      }
     }
   },
   "migration": {
@@ -23653,6 +23665,26 @@
         "sha256": "ed944b4839bb94aa30c55f186b23cd6ba68e3be4e11534e20a756505202b7337",
         "reviewed_at": "2026-10-16T13:31:37.432661+00:00",
         "operation_id": "25e7c1ed11bf063ade5780fb9ca0da46131e8b5a48ea520cf6efd3e2e246bc27"
+      }
+    ],
+    "139:1": [
+      {
+        "reference": {
+          "id": 139,
+          "revision": 1,
+          "sha256": "dfcd5e9475b749091d6f59ce46e6a03878ac401a8469a24c973d1beea6b5d27c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "AI safety policy open letter calling for international oversight; public-interest news.",
+            "evidence_sha256": "442f58e746e515a4363890853025156f0743c68f71d84547de83991a4354164c"
+          }
+        },
+        "sha256": "4cfeb4e571412c3a5b6f67b48d4e7daf9f5a9da2c6c6fdaf80e85f268d4fdb6b",
+        "reviewed_at": "2026-10-16T13:31:37.943351+00:00",
+        "operation_id": "431dc5c549531329ddffbd7a0b4406f264c0fecc73c18915859855753492c7e6"
       }
     ]
   }
