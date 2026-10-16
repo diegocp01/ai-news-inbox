@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 444,
-  "updated_at": "2026-10-16T13:31:40.994950+00:00",
+  "generation": 445,
+  "updated_at": "2026-10-16T13:31:41.487842+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18705,6 +18705,18 @@
         },
         "editorial_sha256": "92c329dae14d1198af0359ded0ee82806ccc5e3b1ee31d9a5cdd5accf0239ecd"
       }
+    },
+    "0ef81ec344bab3f696cc7010533852b4a8609ff6fb13f9cc3b4736e2311013ab": {
+      "sha256": "adc31b790e175353a3ba7c0de9315039c25249b20ae17b1e6370ea9a843a1f3f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 146,
+          "revision": 1,
+          "sha256": "b18c6f4b1c8fe35a04def8024627b54279ebe6dddfaee73f2d942257b76b6dd3"
+        },
+        "editorial_sha256": "ffac5b9679016006fdb66d1c20f6dc6a41339163ed3f992d78b5ad95de744d6a"
+      }
     }
   },
   "migration": {
@@ -23877,6 +23889,26 @@
         "sha256": "92c329dae14d1198af0359ded0ee82806ccc5e3b1ee31d9a5cdd5accf0239ecd",
         "reviewed_at": "2026-10-16T13:31:40.994950+00:00",
         "operation_id": "fcda2b2d78ee9560aacb1195db12f6aff9a022832411fba1f2f2f71824ee303e"
+      }
+    ],
+    "146:1": [
+      {
+        "reference": {
+          "id": 146,
+          "revision": 1,
+          "sha256": "b18c6f4b1c8fe35a04def8024627b54279ebe6dddfaee73f2d942257b76b6dd3"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer privacy and security story about an AI toy's exposed data; general audience.",
+            "evidence_sha256": "8142fed8ff40f0abf6f8bcfc6376af96d823f64d6e836d8ec1275e65d874c509"
+          }
+        },
+        "sha256": "ffac5b9679016006fdb66d1c20f6dc6a41339163ed3f992d78b5ad95de744d6a",
+        "reviewed_at": "2026-10-16T13:31:41.487842+00:00",
+        "operation_id": "0ef81ec344bab3f696cc7010533852b4a8609ff6fb13f9cc3b4736e2311013ab"
       }
     ]
   }
