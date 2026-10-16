@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 460,
-  "updated_at": "2026-10-16T16:16:18.907753+00:00",
+  "generation": 461,
+  "updated_at": "2026-10-16T16:16:19.437456+00:00",
   "next_id": 153,
   "records": [
     {
@@ -19461,6 +19461,18 @@
         ],
         "duplicates": []
       }
+    },
+    "6e5b5144fa346abdf7f230f639274be549ccdcb17f2773737c7b92438d7dedb0": {
+      "sha256": "570aa8ded67a791c0bebc7549a020b039bcc7ff21274991565a0c38305dab86d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 152,
+          "revision": 1,
+          "sha256": "f9fe14bdcca60d8eb9d5b7c3d8aaa2aaa6188a62ff1cc9abd09afed7e216fbf6"
+        },
+        "editorial_sha256": "c3fad5b94a69399a5e5f011ab270cfbd9c5427e56dd59b72a5ab69f9b962d3af"
+      }
     }
   },
   "migration": {
@@ -24753,6 +24765,26 @@
         "sha256": "476cf1e1efa3b67ccab76ab7dea4d1b03b8b9cd7d2b5dc20980ee5aa47dbf776",
         "reviewed_at": "2026-10-16T15:22:33.909288+00:00",
         "operation_id": "dd4f592ed9b9cabafdd7c9587cdc22112174f912180cde278e18f4099238d9db"
+      }
+    ],
+    "152:1": [
+      {
+        "reference": {
+          "id": 152,
+          "revision": 1,
+          "sha256": "f9fe14bdcca60d8eb9d5b7c3d8aaa2aaa6188a62ff1cc9abd09afed7e216fbf6"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Government and financial-policy news about G7 cyber-resilience exercises; general audience.",
+            "evidence_sha256": "6d31db8285f176946b3095cf2df38a8306980efe74228a93932b8cf72b64048a"
+          }
+        },
+        "sha256": "c3fad5b94a69399a5e5f011ab270cfbd9c5427e56dd59b72a5ab69f9b962d3af",
+        "reviewed_at": "2026-10-16T16:16:19.437456+00:00",
+        "operation_id": "6e5b5144fa346abdf7f230f639274be549ccdcb17f2773737c7b92438d7dedb0"
       }
     ]
   }
