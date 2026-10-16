@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 439,
-  "updated_at": "2026-10-16T13:31:38.446484+00:00",
+  "generation": 440,
+  "updated_at": "2026-10-16T13:31:38.962611+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18645,6 +18645,18 @@
         },
         "editorial_sha256": "c612b6ec63ac179cb201e17377d5ad02348c80b3386f5c5114bcfe00e463e0bd"
       }
+    },
+    "f3c76cf99821f95dc1a31c703147931f83180c9d0227489ba1a59c3ab677c03c": {
+      "sha256": "0982cd7b26198677ccb26df7eeb60e6127ad4ef01fdb271b83374376ce3e4418",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 141,
+          "revision": 1,
+          "sha256": "ca38e18cf3aa82f1ecffb1e02de1c8fc2a5bd8e66d11e29180a509cdf1e16e6b"
+        },
+        "editorial_sha256": "53acb8a9212bd4a12040914a1084ecb100677d335aa388e4775a94330fe89bb4"
+      }
     }
   },
   "migration": {
@@ -23717,6 +23729,26 @@
         "sha256": "c612b6ec63ac179cb201e17377d5ad02348c80b3386f5c5114bcfe00e463e0bd",
         "reviewed_at": "2026-10-16T13:31:38.446484+00:00",
         "operation_id": "f4a744e0e722d0e8e29839a8f977b5f6f02f8fe73d89e5f188a09480d0dde8ed"
+      }
+    ],
+    "141:1": [
+      {
+        "reference": {
+          "id": 141,
+          "revision": 1,
+          "sha256": "ca38e18cf3aa82f1ecffb1e02de1c8fc2a5bd8e66d11e29180a509cdf1e16e6b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer ChatGPT voice update with new voices and accents; API mention is incidental.",
+            "evidence_sha256": "871c59457963343711605ca8bb473cf1e9c672173e5e189d22f64b50402c9598"
+          }
+        },
+        "sha256": "53acb8a9212bd4a12040914a1084ecb100677d335aa388e4775a94330fe89bb4",
+        "reviewed_at": "2026-10-16T13:31:38.962611+00:00",
+        "operation_id": "f3c76cf99821f95dc1a31c703147931f83180c9d0227489ba1a59c3ab677c03c"
       }
     ]
   }
