@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 446,
-  "updated_at": "2026-10-16T13:31:42.018287+00:00",
+  "generation": 447,
+  "updated_at": "2026-10-16T13:31:42.505727+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18729,6 +18729,18 @@
         },
         "editorial_sha256": "e106156c337a711f77f36e9a14c62e2a3d6b56b66e0286f6ad0ee1029d49c83a"
       }
+    },
+    "97d8a2c044f4f9dc3ea0d76aaa45e29af8e695af0c5c5d7dc628a56770b140aa": {
+      "sha256": "a67e3216c71884e28ba29f1f19eab9ae4e7c8a60d8548b510621baf92a07dd64",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 148,
+          "revision": 1,
+          "sha256": "c306741767d69cee0997d7cffe96b828b9f3ccee01b696e11b7eb0031f882512"
+        },
+        "editorial_sha256": "6df96899e9487bc212b1dd1fa948a6d26ddb13665723a3b2c985d46f74a3e57f"
+      }
     }
   },
   "migration": {
@@ -23941,6 +23953,26 @@
         "sha256": "e106156c337a711f77f36e9a14c62e2a3d6b56b66e0286f6ad0ee1029d49c83a",
         "reviewed_at": "2026-10-16T13:31:42.018287+00:00",
         "operation_id": "6bc840381cf5b9bf58b91b4690fd2066053b4c68044392477ffded169f657d18"
+      }
+    ],
+    "148:1": [
+      {
+        "reference": {
+          "id": 148,
+          "revision": 1,
+          "sha256": "c306741767d69cee0997d7cffe96b828b9f3ccee01b696e11b7eb0031f882512"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public model launch coverage of Meta Muse Spark Open on Mac Studio; weights/MLX mentions incidental, consistent with record 136.",
+            "evidence_sha256": "81d3cecf4850e95d6a2df1d3b55056599cdd2d2fdf2a228984b6273ec3f26139"
+          }
+        },
+        "sha256": "6df96899e9487bc212b1dd1fa948a6d26ddb13665723a3b2c985d46f74a3e57f",
+        "reviewed_at": "2026-10-16T13:31:42.505727+00:00",
+        "operation_id": "97d8a2c044f4f9dc3ea0d76aaa45e29af8e695af0c5c5d7dc628a56770b140aa"
       }
     ]
   }
