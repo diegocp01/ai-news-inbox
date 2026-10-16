@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 459,
-  "updated_at": "2026-10-16T16:16:18.281215+00:00",
-  "next_id": 152,
+  "generation": 460,
+  "updated_at": "2026-10-16T16:16:18.907753+00:00",
+  "next_id": 153,
   "records": [
     {
       "id": 1,
@@ -2013,6 +2013,19 @@
           "sha256": "f90e685e9d91b0bfab631f2c5079157b86242222393d0a3926db0262f9bfa338",
           "source": "TechCrunch",
           "request_id": "f375b8d823d2b13908077152e9876ca683abdd6e53551e28139b406a6689413b",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "revisions": [
+        {
+          "created_at": "2026-10-16T16:16:18.907753+00:00",
+          "block": "Title: G7 Finance Leaders Agree to Run Simulated AI Cyberattack Drills on Financial Systems\nURL: https://www.channelnewsasia.com/business/g7-launch-exercises-guard-against-ai-cyber-attacks-6464781\nImage URL: https://dam.mediacorp.sg/image/upload/s--Z69uYNO---/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-10-16T052301Z_2_LYNXMPEM9F06B_RTROPTP_3_AI-CHINA-SAFETY.JPG?itok=R7t93Pe6\nSummary: G7 finance leaders agreed to hold tabletop exercises simulating AI-driven cyberattacks to test how authorities would respond, Japanese Finance Minister Satsuki Katayama said in Bangkok, Reuters reported. Finance ministries and central banks will use the results to revise response manuals, and private banks may join. No dates or scenarios were announced. The exercises are simulations, not real attacks.",
+          "sha256": "f9fe14bdcca60d8eb9d5b7c3d8aaa2aaa6188a62ff1cc9abd09afed7e216fbf6",
+          "source": "CNA",
+          "request_id": "fd61237d4370b2a39733c696943ab99e63ff5511c8c3b8a4fb3ade81f325ce4e",
           "mode": "standard"
         }
       ]
@@ -4448,13 +4461,21 @@
       ]
     },
     "fd61237d4370b2a39733c696943ab99e63ff5511c8c3b8a4fb3ade81f325ce4e": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-16T16:16:18.281215+00:00",
       "received_sequence": 138,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-16T16:16:18.907753+00:00",
+      "records": [
+        {
+          "id": 152,
+          "revision": 1,
+          "sha256": "f9fe14bdcca60d8eb9d5b7c3d8aaa2aaa6188a62ff1cc9abd09afed7e216fbf6"
+        }
+      ]
     }
   },
   "batches": {
@@ -19424,6 +19445,21 @@
       "result": {
         "status": "received",
         "request_id": "fd61237d4370b2a39733c696943ab99e63ff5511c8c3b8a4fb3ade81f325ce4e"
+      }
+    },
+    "e80b370378f1ae472dbd25af22d62e4b5c920637ae86b27eae8c3c758ae7ffef": {
+      "sha256": "73ba3c81d3b0085e9ba0106f525762439e297868c914b110df8ad62c05d017e1",
+      "result": {
+        "status": "finalized",
+        "request_id": "fd61237d4370b2a39733c696943ab99e63ff5511c8c3b8a4fb3ade81f325ce4e",
+        "records": [
+          {
+            "id": 152,
+            "revision": 1,
+            "sha256": "f9fe14bdcca60d8eb9d5b7c3d8aaa2aaa6188a62ff1cc9abd09afed7e216fbf6"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
