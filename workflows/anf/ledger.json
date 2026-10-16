@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 447,
-  "updated_at": "2026-10-16T13:31:42.505727+00:00",
+  "generation": 448,
+  "updated_at": "2026-10-16T13:31:43.025957+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18741,6 +18741,18 @@
         },
         "editorial_sha256": "6df96899e9487bc212b1dd1fa948a6d26ddb13665723a3b2c985d46f74a3e57f"
       }
+    },
+    "2ab94c9bb43927c8491e008e70fb86124c88e68f274c946d4fd968c377acb341": {
+      "sha256": "155332c8e41856ef8b736b3e1ac44f1a6c1962c1ccb6420dc2031eb941114f82",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 149,
+          "revision": 1,
+          "sha256": "7b20a124837397b38a203b51962c38a93403aa2f5093fdcc48323814433d8988"
+        },
+        "editorial_sha256": "77d378954220c4dac7a597a626f0db915e73817a99a7011abe47b0bbf55ca9b8"
+      }
     }
   },
   "migration": {
@@ -23973,6 +23985,26 @@
         "sha256": "6df96899e9487bc212b1dd1fa948a6d26ddb13665723a3b2c985d46f74a3e57f",
         "reviewed_at": "2026-10-16T13:31:42.505727+00:00",
         "operation_id": "97d8a2c044f4f9dc3ea0d76aaa45e29af8e695af0c5c5d7dc628a56770b140aa"
+      }
+    ],
+    "149:1": [
+      {
+        "reference": {
+          "id": 149,
+          "revision": 1,
+          "sha256": "7b20a124837397b38a203b51962c38a93403aa2f5093fdcc48323814433d8988"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Harvard Shorenstein Center social-science report on gender gaps in AI use; public-interest research for general readers.",
+            "evidence_sha256": "e3b5452b68f4f2f7bdf797dfffca8557ecc79052f67d517d29b1a39eef0e450b"
+          }
+        },
+        "sha256": "77d378954220c4dac7a597a626f0db915e73817a99a7011abe47b0bbf55ca9b8",
+        "reviewed_at": "2026-10-16T13:31:43.025957+00:00",
+        "operation_id": "2ab94c9bb43927c8491e008e70fb86124c88e68f274c946d4fd968c377acb341"
       }
     ]
   }
