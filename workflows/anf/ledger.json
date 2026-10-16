@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 434,
-  "updated_at": "2026-10-16T13:31:35.855686+00:00",
+  "generation": 435,
+  "updated_at": "2026-10-16T13:31:36.382708+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18585,6 +18585,18 @@
         },
         "editorial_sha256": "61f046cc6e40407fc5971bebc47cccc927bef20699c4448506b5aabc772a9333"
       }
+    },
+    "5d1fd3ea428932c7a57c9efd489640f499246f52c0af97d7c4f26d4c53afe1cd": {
+      "sha256": "40eefb5c3004729c1a774b7e36e501572c530d58797cb263e481ca853598c1f8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 133,
+          "revision": 1,
+          "sha256": "961dee05a990fe11971acc6b080ab834b6baefd6a6f0edb6b7f6de78c0bbf702"
+        },
+        "editorial_sha256": "e077dbbc9d9c4ca7c44b746d46086f3bb31e32e1a3fd51a63cb448ce0cfcc86e"
+      }
     }
   },
   "migration": {
@@ -23557,6 +23569,26 @@
         "sha256": "61f046cc6e40407fc5971bebc47cccc927bef20699c4448506b5aabc772a9333",
         "reviewed_at": "2026-10-16T13:31:35.855686+00:00",
         "operation_id": "16a21468bec91c67161f5efddd8cd14a119de5348f3073a8fbb60b2bdc4673a8"
+      }
+    ],
+    "133:1": [
+      {
+        "reference": {
+          "id": 133,
+          "revision": 1,
+          "sha256": "961dee05a990fe11971acc6b080ab834b6baefd6a6f0edb6b7f6de78c0bbf702"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "arXiv research paper on synthetic training environments for AI game control; aimed at researchers.",
+            "evidence_sha256": "300dc6173142c3074582948c263ca2601bc6d43a51da45ca94d848f376decc6d"
+          }
+        },
+        "sha256": "e077dbbc9d9c4ca7c44b746d46086f3bb31e32e1a3fd51a63cb448ce0cfcc86e",
+        "reviewed_at": "2026-10-16T13:31:36.382708+00:00",
+        "operation_id": "5d1fd3ea428932c7a57c9efd489640f499246f52c0af97d7c4f26d4c53afe1cd"
       }
     ]
   }
