@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 442,
-  "updated_at": "2026-10-16T13:31:39.970269+00:00",
+  "generation": 443,
+  "updated_at": "2026-10-16T13:31:40.485995+00:00",
   "next_id": 150,
   "records": [
     {
@@ -18681,6 +18681,18 @@
         },
         "editorial_sha256": "b5e148cddae7b9046aeb196f48488414e32cfc00ca0ff98ffb67a702923dc2f9"
       }
+    },
+    "8d1fc7675fe95ce5253160cae5d2637b100a5e31417f54ff69355149d2e1e4c4": {
+      "sha256": "c7ca956705d69a739d129235b87003a9e36372fd421788bf99bda0d9fa5356b7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 144,
+          "revision": 1,
+          "sha256": "bada48882294a3caec5c6fc4c944118feead050ff864d1b9d419c822b9a5728e"
+        },
+        "editorial_sha256": "31e6877fe3f051d449037f2022c16c24d7c4edaed99ab776e0189a361105cb91"
+      }
     }
   },
   "migration": {
@@ -23813,6 +23825,26 @@
         "sha256": "b5e148cddae7b9046aeb196f48488414e32cfc00ca0ff98ffb67a702923dc2f9",
         "reviewed_at": "2026-10-16T13:31:39.970269+00:00",
         "operation_id": "9e2736675685320eb77eabce0ab8e18a810c177e0b4e78720935b32cb1ed7f0b"
+      }
+    ],
+    "144:1": [
+      {
+        "reference": {
+          "id": 144,
+          "revision": 1,
+          "sha256": "bada48882294a3caec5c6fc4c944118feead050ff864d1b9d419c822b9a5728e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer ChatGPT Chrome extension feature news; general productivity audience.",
+            "evidence_sha256": "851f2e2468ec818217dfd6da7c60164c33e9fc2d79b13d97e76604716380118f"
+          }
+        },
+        "sha256": "31e6877fe3f051d449037f2022c16c24d7c4edaed99ab776e0189a361105cb91",
+        "reviewed_at": "2026-10-16T13:31:40.485995+00:00",
+        "operation_id": "8d1fc7675fe95ce5253160cae5d2637b100a5e31417f54ff69355149d2e1e4c4"
       }
     ]
   }
