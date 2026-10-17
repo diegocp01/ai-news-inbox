@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 475,
-  "updated_at": "2026-10-17T14:22:52.789001+00:00",
-  "next_id": 157,
+  "generation": 476,
+  "updated_at": "2026-10-17T14:23:10.485882+00:00",
+  "next_id": 158,
   "records": [
     {
       "id": 1,
@@ -2078,6 +2078,19 @@
           "sha256": "5226cf27300e00ba79cc20eb6efec52569cd8524dfbcd79f3202b60d29497318",
           "source": "Tech Times",
           "request_id": "a1284a893fa44cc131895e7ee110ab2ccd8b07bf641a3a80e9a66c08213bb719",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "revisions": [
+        {
+          "created_at": "2026-10-17T14:23:10.485882+00:00",
+          "block": "Title: Microsoft Reports More Efficient Training for MAI-Base-2\nURL: https://www.testmuai.com/blog/mai-base-2/\nImage URL: https://assets.testmuai.com/resources/images/meta/mai-base-2.webp\nSummary: Microsoft completed pre-training MAI-Base-2, a mixture-of-experts model with 2.8 trillion total parameters and 80 billion active per token. It estimates 4–12 times greater pre-training compute efficiency than DeepSeek-V4-Pro-Base on internal evaluations. The technical report details scaling, infrastructure and vision-data improvements. Post-training continues, with partner licensing through Foundry planned.",
+          "sha256": "3f0a08aadee83a077e57e6d5907921a0cb40440e7ed7dd496ac9acec4eb4dab3",
+          "source": "Microsoft",
+          "request_id": "2c46d21786e14d15ba88a2ef14dd8b90f42a0089e64c15dc9ba4afac302629d6",
           "mode": "standard"
         }
       ]
@@ -4598,13 +4611,21 @@
       ]
     },
     "2c46d21786e14d15ba88a2ef14dd8b90f42a0089e64c15dc9ba4afac302629d6": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-17T13:17:06.848021+00:00",
       "received_sequence": 143,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-17T14:23:10.485882+00:00",
+      "records": [
+        {
+          "id": 157,
+          "revision": 1,
+          "sha256": "3f0a08aadee83a077e57e6d5907921a0cb40440e7ed7dd496ac9acec4eb4dab3"
+        }
+      ]
     },
     "e504933ff1340f49dd90a6679ef3e4c4ddc768fcf182b88d5373da2139dc805e": {
       "status": "received",
@@ -19760,6 +19781,21 @@
           "sha256": "5226cf27300e00ba79cc20eb6efec52569cd8524dfbcd79f3202b60d29497318"
         },
         "editorial_sha256": "f418310650358859dfa97ecc31400cef37a4a962412c34c0a15d5a6981e5b7f9"
+      }
+    },
+    "b058631cb50f486803e103e7ad1f9f2b2ce88c047a3e816e1fd75b0b71146ba5": {
+      "sha256": "a3ea282a41be31398adaed39bc2ddc06319ac0eae7038322cfcb351af317cefe",
+      "result": {
+        "status": "finalized",
+        "request_id": "2c46d21786e14d15ba88a2ef14dd8b90f42a0089e64c15dc9ba4afac302629d6",
+        "records": [
+          {
+            "id": 157,
+            "revision": 1,
+            "sha256": "3f0a08aadee83a077e57e6d5907921a0cb40440e7ed7dd496ac9acec4eb4dab3"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
