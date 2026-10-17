@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 476,
-  "updated_at": "2026-10-17T14:23:10.485882+00:00",
+  "generation": 477,
+  "updated_at": "2026-10-17T14:23:24.235130+00:00",
   "next_id": 158,
   "records": [
     {
@@ -19797,6 +19797,18 @@
         ],
         "duplicates": []
       }
+    },
+    "313167cbadac236c9c343581b347b1c251dfab7235bf110f48e6f55dee3c0583": {
+      "sha256": "5d4609f33fc35c7190072b6bd738ea3383e28bcf651c149bc4ab9c7ae0239e9a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 157,
+          "revision": 1,
+          "sha256": "3f0a08aadee83a077e57e6d5907921a0cb40440e7ed7dd496ac9acec4eb4dab3"
+        },
+        "editorial_sha256": "5dbf42e846f704bd9d6b49cf142597d8ade402a3ae149dde12fb34c35f447bdc"
+      }
     }
   },
   "migration": {
@@ -25189,6 +25201,26 @@
         "sha256": "f418310650358859dfa97ecc31400cef37a4a962412c34c0a15d5a6981e5b7f9",
         "reviewed_at": "2026-10-17T14:22:52.789001+00:00",
         "operation_id": "b96d27302b820ae4dd53d6423b9d89c80d78b60475760fe323cc711736e26e47"
+      }
+    ],
+    "157:1": [
+      {
+        "reference": {
+          "id": 157,
+          "revision": 1,
+          "sha256": "3f0a08aadee83a077e57e6d5907921a0cb40440e7ed7dd496ac9acec4eb4dab3"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Technical pre-training report about mixture-of-experts architecture, scaling and training compute.",
+            "evidence_sha256": "5c866d0a83aa93914085d87e77d63276990a9ce1e128d42d5a492d4d4fc9a722"
+          }
+        },
+        "sha256": "5dbf42e846f704bd9d6b49cf142597d8ade402a3ae149dde12fb34c35f447bdc",
+        "reviewed_at": "2026-10-17T14:23:24.235130+00:00",
+        "operation_id": "313167cbadac236c9c343581b347b1c251dfab7235bf110f48e6f55dee3c0583"
       }
     ]
   }
