@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 477,
-  "updated_at": "2026-10-17T14:23:24.235130+00:00",
-  "next_id": 158,
+  "generation": 478,
+  "updated_at": "2026-10-17T14:23:42.447807+00:00",
+  "next_id": 159,
   "records": [
     {
       "id": 1,
@@ -2091,6 +2091,19 @@
           "sha256": "3f0a08aadee83a077e57e6d5907921a0cb40440e7ed7dd496ac9acec4eb4dab3",
           "source": "Microsoft",
           "request_id": "2c46d21786e14d15ba88a2ef14dd8b90f42a0089e64c15dc9ba4afac302629d6",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "revisions": [
+        {
+          "created_at": "2026-10-17T14:23:42.447807+00:00",
+          "block": "Title: Claude Code Speeds Up Responses and Cloud Startup\nURL: https://decohack.com/ai-daily/2026-10-17/#n11\nImage URL: https://assets.juya.uk/imagehub/aidaily/cc0fbc8f-2a81-4904-87d6-3aebdc8b26e5/f3d3d151-893a-43e0-9d1e-d4f36823f854/m001_22ce9f6a.png\nSummary: Anthropic says Claude Code now compresses each conversation before sending it to the model, reducing transfer delays. Cloud sessions also begin starting when users start typing. These changes target the wait before responses and session startup, rather than claiming the underlying model generates answers faster.",
+          "sha256": "c62174905fdaf62a7aca2875401f3f8206d752e7220fc0a8a6660cfdde20b01f",
+          "source": "Anthropic",
+          "request_id": "e504933ff1340f49dd90a6679ef3e4c4ddc768fcf182b88d5373da2139dc805e",
           "mode": "standard"
         }
       ]
@@ -4628,13 +4641,21 @@
       ]
     },
     "e504933ff1340f49dd90a6679ef3e4c4ddc768fcf182b88d5373da2139dc805e": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-17T13:17:06.848023+00:00",
       "received_sequence": 144,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-17T14:23:42.447807+00:00",
+      "records": [
+        {
+          "id": 158,
+          "revision": 1,
+          "sha256": "c62174905fdaf62a7aca2875401f3f8206d752e7220fc0a8a6660cfdde20b01f"
+        }
+      ]
     }
   },
   "batches": {
@@ -19808,6 +19829,21 @@
           "sha256": "3f0a08aadee83a077e57e6d5907921a0cb40440e7ed7dd496ac9acec4eb4dab3"
         },
         "editorial_sha256": "5dbf42e846f704bd9d6b49cf142597d8ade402a3ae149dde12fb34c35f447bdc"
+      }
+    },
+    "6a77058407c1c038ae8940c0c1642af295070463cdfc7a4037d96a494e35d295": {
+      "sha256": "90a43e190abd4f0fed1dcda6b00e30c42e67bd0f5fa5932c4c852f9276ccdda8",
+      "result": {
+        "status": "finalized",
+        "request_id": "e504933ff1340f49dd90a6679ef3e4c4ddc768fcf182b88d5373da2139dc805e",
+        "records": [
+          {
+            "id": 158,
+            "revision": 1,
+            "sha256": "c62174905fdaf62a7aca2875401f3f8206d752e7220fc0a8a6660cfdde20b01f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
