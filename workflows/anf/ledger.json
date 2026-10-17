@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 478,
-  "updated_at": "2026-10-17T14:23:42.447807+00:00",
+  "generation": 479,
+  "updated_at": "2026-10-17T14:23:57.546710+00:00",
   "next_id": 159,
   "records": [
     {
@@ -19845,6 +19845,18 @@
         ],
         "duplicates": []
       }
+    },
+    "0fa78ee61bffbd1cbdb131b18356857b78156af53bd7ead33a941553aa5ec677": {
+      "sha256": "c7c4273446e656000c9799d819ead70a802bbe90491bb991137fcc98bbd707ae",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 158,
+          "revision": 1,
+          "sha256": "c62174905fdaf62a7aca2875401f3f8206d752e7220fc0a8a6660cfdde20b01f"
+        },
+        "editorial_sha256": "989c718a8940c9dd02c5d0be4371b0efd251fe066b394d9ace184214a73a8ae5"
+      }
     }
   },
   "migration": {
@@ -25257,6 +25269,26 @@
         "sha256": "5dbf42e846f704bd9d6b49cf142597d8ade402a3ae149dde12fb34c35f447bdc",
         "reviewed_at": "2026-10-17T14:23:24.235130+00:00",
         "operation_id": "313167cbadac236c9c343581b347b1c251dfab7235bf110f48e6f55dee3c0583"
+      }
+    ],
+    "158:1": [
+      {
+        "reference": {
+          "id": 158,
+          "revision": 1,
+          "sha256": "c62174905fdaf62a7aca2875401f3f8206d752e7220fc0a8a6660cfdde20b01f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer coding tool performance update about conversation compression and cloud session startup.",
+            "evidence_sha256": "4918f4d4336aaba23cb3d86f75546c5424dfe330ab62c2ec7af127ae680c0834"
+          }
+        },
+        "sha256": "989c718a8940c9dd02c5d0be4371b0efd251fe066b394d9ace184214a73a8ae5",
+        "reviewed_at": "2026-10-17T14:23:57.546710+00:00",
+        "operation_id": "0fa78ee61bffbd1cbdb131b18356857b78156af53bd7ead33a941553aa5ec677"
       }
     ]
   }
