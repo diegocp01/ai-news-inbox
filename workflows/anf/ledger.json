@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 474,
-  "updated_at": "2026-10-17T14:22:06.818680+00:00",
+  "generation": 475,
+  "updated_at": "2026-10-17T14:22:52.789001+00:00",
   "next_id": 157,
   "records": [
     {
@@ -19749,6 +19749,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b96d27302b820ae4dd53d6423b9d89c80d78b60475760fe323cc711736e26e47": {
+      "sha256": "bcf1b0b0667415d41cd723f0a91a82ea8f940e413f36843c12e58c1e35d66dfd",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 156,
+          "revision": 1,
+          "sha256": "5226cf27300e00ba79cc20eb6efec52569cd8524dfbcd79f3202b60d29497318"
+        },
+        "editorial_sha256": "f418310650358859dfa97ecc31400cef37a4a962412c34c0a15d5a6981e5b7f9"
+      }
     }
   },
   "migration": {
@@ -25121,6 +25133,26 @@
         "sha256": "89b4c8eeba0d682f1b8ed8c99b9fd90be6155b5e1bb9124c34aba02251215655",
         "reviewed_at": "2026-10-17T14:16:35.951715+00:00",
         "operation_id": "ad4178620cc6fd6020048bee8de469661728e8ebe6518078842a9ed3d3b4516c"
+      }
+    ],
+    "156:1": [
+      {
+        "reference": {
+          "id": 156,
+          "revision": 1,
+          "sha256": "5226cf27300e00ba79cc20eb6efec52569cd8524dfbcd79f3202b60d29497318"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General AI safety and viral experiment coverage, not a technical research tutorial.",
+            "evidence_sha256": "d9fc470e6343da156f1c51c72c9525e06d9b09ba3baeaa04ffeee9d6e72cdfbd"
+          }
+        },
+        "sha256": "f418310650358859dfa97ecc31400cef37a4a962412c34c0a15d5a6981e5b7f9",
+        "reviewed_at": "2026-10-17T14:22:52.789001+00:00",
+        "operation_id": "b96d27302b820ae4dd53d6423b9d89c80d78b60475760fe323cc711736e26e47"
       }
     ]
   }
