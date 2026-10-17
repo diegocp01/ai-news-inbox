@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 471,
-  "updated_at": "2026-10-17T13:17:06.848023+00:00",
-  "next_id": 155,
+  "generation": 472,
+  "updated_at": "2026-10-17T14:16:01.708903+00:00",
+  "next_id": 156,
   "records": [
     {
       "id": 1,
@@ -2052,6 +2052,19 @@
           "sha256": "5ad3db89b821e2e744349fa101205cffb0fe312713cc51d4b94d9549a19e9a35",
           "source": "",
           "request_id": "595219e73bddf190944b4610a382f6d42ec9433287658f93209e1edf66a0a6ab",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "revisions": [
+        {
+          "created_at": "2026-10-17T14:16:01.708903+00:00",
+          "block": "Title: New AI Model: DeepSeek Releases V4.1-Flash-1017\nURL: https://api-docs.deepseek.com/news/news261017\nImage URL: https://api-docs.deepseek.com/img/v4.1_261017_benchmark_table_en.png\nSummary: DeepSeek released an updated V4.1 Flash model on its website, app, and API. The company reports stronger benchmark results, faster task completion, and shorter outputs than the previous version, with improvements for building complete projects such as games and 3D scenes.",
+          "sha256": "0f23b4db2e220954b8c9214a21fa28a2a1b1480ec644410d44324e5943460631",
+          "source": "DeepSeek",
+          "request_id": "064d066fec95ffded8b4bfe8a276b2f4920294b22dd17adf8382287ca406e840",
           "mode": "standard"
         }
       ]
@@ -4538,13 +4551,21 @@
       ]
     },
     "064d066fec95ffded8b4bfe8a276b2f4920294b22dd17adf8382287ca406e840": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-17T13:17:06.847997+00:00",
       "received_sequence": 141,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-17T14:16:01.708903+00:00",
+      "records": [
+        {
+          "id": 155,
+          "revision": 1,
+          "sha256": "0f23b4db2e220954b8c9214a21fa28a2a1b1480ec644410d44324e5943460631"
+        }
+      ]
     },
     "a1284a893fa44cc131895e7ee110ab2ccd8b07bf641a3a80e9a66c08213bb719": {
       "status": "received",
@@ -19664,6 +19685,21 @@
       "result": {
         "status": "received",
         "request_id": "e504933ff1340f49dd90a6679ef3e4c4ddc768fcf182b88d5373da2139dc805e"
+      }
+    },
+    "3dcd01017c776818747baa626e6ac8b216eb597d8ed93ebfa697008048c90c27": {
+      "sha256": "24473b603d4544dd943a3a21c3d49643ae59c78307347bcf0660b8dc52d372d4",
+      "result": {
+        "status": "finalized",
+        "request_id": "064d066fec95ffded8b4bfe8a276b2f4920294b22dd17adf8382287ca406e840",
+        "records": [
+          {
+            "id": 155,
+            "revision": 1,
+            "sha256": "0f23b4db2e220954b8c9214a21fa28a2a1b1480ec644410d44324e5943460631"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
