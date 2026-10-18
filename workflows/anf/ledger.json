@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 481,
-  "updated_at": "2026-10-18T21:02:33.669130+00:00",
+  "generation": 482,
+  "updated_at": "2026-10-18T21:03:09.344502+00:00",
   "next_id": 160,
   "records": [
     {
@@ -19909,6 +19909,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b2d5a03d8166a7d4717d16eb10195eccd6f2defd6d0e2be5a33ae9ebcd4c0a3b": {
+      "sha256": "f32efb88f1a18951187974f23cb7d7fbbf28e8b4467d35167f023f7b379a8153",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 159,
+          "revision": 1,
+          "sha256": "534d300a895c3ae999e126f76f700aed99fab2793337465e79920096040a4eda"
+        },
+        "editorial_sha256": "5810fc46d89b280504fc9ced5443072a0b6968a4300e4e6cac4989a4f00a801c"
+      }
     }
   },
   "migration": {
@@ -25341,6 +25353,58 @@
         "sha256": "989c718a8940c9dd02c5d0be4371b0efd251fe066b394d9ace184214a73a8ae5",
         "reviewed_at": "2026-10-17T14:23:57.546710+00:00",
         "operation_id": "0fa78ee61bffbd1cbdb131b18356857b78156af53bd7ead33a941553aa5ec677"
+      }
+    ],
+    "159:1": [
+      {
+        "reference": {
+          "id": 159,
+          "revision": 1,
+          "sha256": "534d300a895c3ae999e126f76f700aed99fab2793337465e79920096040a4eda"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Company philanthropy and AI economic impact announcement for a general audience.",
+            "evidence_sha256": "703a1549197bc96661e1ed997f557a91fe9747a912373ad46918daede2c7fd77"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/news/public-benefit-fund",
+              "final_url": "https://www.anthropic.com/news/public-benefit-fund",
+              "redirect_chain": [
+                "https://www.anthropic.com/news/public-benefit-fund"
+              ],
+              "checked_at": "2026-10-18T21:03:09.344502+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "940bbedd3acba3b42877d6e8ebcfdf78a1ffec9a03650b82471c6f32a9f42810"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/cbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg"
+              ],
+              "checked_at": "2026-10-18T21:03:09.344502+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "703a1549197bc96661e1ed997f557a91fe9747a912373ad46918daede2c7fd77",
+              "content_type": "image/jpeg",
+              "width": 2000,
+              "height": 1125,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "e65c4b2b4a225d01d0c43a5dbcb811107fca13914fcfffd9ba46fcaadd322734",
+              "relevance": "story_specific",
+              "relevance_note": "Official hero illustration published within this exact fund announcement."
+            }
+          }
+        },
+        "sha256": "5810fc46d89b280504fc9ced5443072a0b6968a4300e4e6cac4989a4f00a801c",
+        "reviewed_at": "2026-10-18T21:03:09.344502+00:00",
+        "operation_id": "b2d5a03d8166a7d4717d16eb10195eccd6f2defd6d0e2be5a33ae9ebcd4c0a3b"
       }
     ]
   }
