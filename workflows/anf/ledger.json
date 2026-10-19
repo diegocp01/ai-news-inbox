@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 511,
-  "updated_at": "2026-10-19T21:49:47.226055+00:00",
+  "generation": 512,
+  "updated_at": "2026-10-19T21:51:58.165787+00:00",
   "next_id": 169,
   "records": [
     {
@@ -20989,6 +20989,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b14464a2ac671454f649130d4e8d2db0214ca39e772c029a69d5d8e99d304cf9": {
+      "sha256": "06658d96b0bc482109f9c4dbcda05a7ffdaec1cc4ccfc0368d895b511426a344",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 168,
+          "revision": 1,
+          "sha256": "a49c5db01300248ead0abc87821c94ecaf7fddaf0925b85c678466887d1419cf"
+        },
+        "editorial_sha256": "8f292cceb061272fde34a4ae9bb462eddaa08e54523a5ae17444daf0380b3457"
+      }
     }
   },
   "migration": {
@@ -26693,6 +26705,26 @@
         "sha256": "299db121d72f440f4b2fc94a577989c8ab3cf0bff2e158b8234909604e5c2da7",
         "reviewed_at": "2026-10-19T21:44:32.351965+00:00",
         "operation_id": "cd3053535e3e0a6e7f087c399a12e2edc3e8d8e42abe87d56852527f7c752392"
+      }
+    ],
+    "168:1": [
+      {
+        "reference": {
+          "id": 168,
+          "revision": 1,
+          "sha256": "a49c5db01300248ead0abc87821c94ecaf7fddaf0925b85c678466887d1419cf"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The Spaces SDK provides programmatic computers and agent jobs for developers using their own infrastructure.",
+            "evidence_sha256": "ab017f99f8515c3881a772cb389cfaf2389545e5a931e4de430bc74ddb46d2fc"
+          }
+        },
+        "sha256": "8f292cceb061272fde34a4ae9bb462eddaa08e54523a5ae17444daf0380b3457",
+        "reviewed_at": "2026-10-19T21:51:58.165787+00:00",
+        "operation_id": "b14464a2ac671454f649130d4e8d2db0214ca39e772c029a69d5d8e99d304cf9"
       }
     ]
   }
