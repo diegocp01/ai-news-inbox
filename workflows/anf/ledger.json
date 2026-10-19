@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 503,
-  "updated_at": "2026-10-19T19:34:20.364816+00:00",
-  "next_id": 166,
+  "generation": 504,
+  "updated_at": "2026-10-19T19:37:29.506428+00:00",
+  "next_id": 167,
   "records": [
     {
       "id": 1,
@@ -2197,6 +2197,19 @@
           "sha256": "3efbe6307095f184816842e8bb2967a20da9049a68349e743f46c0a3dd095f6c",
           "source": "The Information",
           "request_id": "465a3b2f2b311daed5ef27e0e00f31a3730b77c307a828f7c2b1bb35688643b9",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "revisions": [
+        {
+          "created_at": "2026-10-19T19:37:29.506428+00:00",
+          "block": "Title: ChatGPT Slides Adds Real-Time Collaboration and Direct Editing\nURL: https://techjournal.org/chatgpt-slides-space\nImage URL: https://images.ctfassets.net/8su2tbn87fck/1NqIQS728K5dUYceszdlQV/c84a4c845a72055da8d191e11ca0fd9e/chatgpt-slides-hero.png?w=1200&q=80&fm=webp\nSummary: ChatGPT Slides lets teams edit presentations together, leave comments and ask ChatGPT or a dot to apply feedback. Users can directly change text, charts, images and shapes, then present in ChatGPT or export to PowerPoint or Google Slides. The feature is available on Pro, Business and Enterprise plans.",
+          "sha256": "339fb9cace925a1a1456dbcf3978f9650812e8a446d9764c71f36bd4e3616564",
+          "source": "Tech Journal",
+          "request_id": "58d80efb6072f8610a11c71304231b7f487e6892423a6337eb1aabb3b30dad14",
           "mode": "standard"
         }
       ]
@@ -4859,13 +4872,21 @@
       ]
     },
     "58d80efb6072f8610a11c71304231b7f487e6892423a6337eb1aabb3b30dad14": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-19T19:34:20.364816+00:00",
       "received_sequence": 151,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-19T19:37:29.506428+00:00",
+      "records": [
+        {
+          "id": 166,
+          "revision": 1,
+          "sha256": "339fb9cace925a1a1456dbcf3978f9650812e8a446d9764c71f36bd4e3616564"
+        }
+      ]
     }
   },
   "batches": {
@@ -20808,6 +20829,21 @@
       "result": {
         "status": "received",
         "request_id": "58d80efb6072f8610a11c71304231b7f487e6892423a6337eb1aabb3b30dad14"
+      }
+    },
+    "d2c0127120991dc04c1f06b9e3b42c90bb19db178f0e3e9c23af6b7547574ec1": {
+      "sha256": "ffe49489762012f611ccbff43a135f0490dffb8d67c63f97e73224d0b9f967e7",
+      "result": {
+        "status": "finalized",
+        "request_id": "58d80efb6072f8610a11c71304231b7f487e6892423a6337eb1aabb3b30dad14",
+        "records": [
+          {
+            "id": 166,
+            "revision": 1,
+            "sha256": "339fb9cace925a1a1456dbcf3978f9650812e8a446d9764c71f36bd4e3616564"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
