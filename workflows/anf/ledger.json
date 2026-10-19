@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 483,
-  "updated_at": "2026-10-19T11:31:52.383608+00:00",
-  "next_id": 160,
+  "generation": 484,
+  "updated_at": "2026-10-19T11:36:50.053984+00:00",
+  "next_id": 162,
   "records": [
     {
       "id": 1,
@@ -2118,6 +2118,34 @@
           "source": "Anthropic",
           "request_id": "fab54b367286a105babf422c88523b2aefb8fb99be45dc0ad24eb98d99e0598c",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "revisions": [
+        {
+          "created_at": "2026-10-19T11:36:50.053984+00:00",
+          "block": "Title: Anthropic Proposes Equity Commitment to Public Benefit Fund\nURL: https://www.anthropic.com/news/public-benefit-fund\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/cbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg\nSummary: Anthropic says it plans to commit 5% of its shares to a new public benefit fund, subject to shareholder approval. The fund, structured as a wholly owned LLC, could support nonprofits or direct payments to specific populations. Anthropic’s board could add another 2% of shares for each 50% increase in company value above a set baseline.",
+          "sha256": "bb8bba6d6a84e2e29851f6a63314365a695d0d1ed7f9a46b3d8bcb7a3a77d86f",
+          "source": "anthropic.com",
+          "request_id": "aed64c64bdd8e15d6b1d40489a2566db525ef84ed28de87210f3f63eb1bb6f91",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "revisions": [
+        {
+          "created_at": "2026-10-19T11:36:50.053984+00:00",
+          "block": "Title: Anthropic Reports Declining Junior Share of Technical Hiring\nURL: https://www.anthropic.com/research/employment-at-anthropic\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/e6c18d30f931ae76d4b600558f5a11377306f1d9-2000x1125.jpg\nSummary: Anthropic’s internal study reports that juniors’ share of its technical hires fell from 27% to 9%. By August 2026, employee-directed AI agents recorded six times employees’ estimated work hours, using agent runtime and an assumed 40-hour human workweek. The study also found a growing share of AI sessions focused on managing agents and described human attention as a bottleneck.",
+          "sha256": "67b9dd94ff9873353aa6d6ce8dc49decfd4160df02898114a26411882df5ff23",
+          "source": "anthropic.com",
+          "request_id": "aed64c64bdd8e15d6b1d40489a2566db525ef84ed28de87210f3f63eb1bb6f91",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -4688,14 +4716,27 @@
       ]
     },
     "aed64c64bdd8e15d6b1d40489a2566db525ef84ed28de87210f3f63eb1bb6f91": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-19T11:31:52.383608+00:00",
       "received_sequence": 146,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-19T11:36:50.053984+00:00",
+      "records": [
+        {
+          "id": 160,
+          "revision": 1,
+          "sha256": "bb8bba6d6a84e2e29851f6a63314365a695d0d1ed7f9a46b3d8bcb7a3a77d86f"
+        },
+        {
+          "id": 161,
+          "revision": 1,
+          "sha256": "67b9dd94ff9873353aa6d6ce8dc49decfd4160df02898114a26411882df5ff23"
+        }
+      ]
     }
   },
   "batches": {
@@ -19937,6 +19978,26 @@
       "result": {
         "status": "received",
         "request_id": "aed64c64bdd8e15d6b1d40489a2566db525ef84ed28de87210f3f63eb1bb6f91"
+      }
+    },
+    "6932a54a77b5a6220e5df6d76c4d4e2fd6d4f6f9c303e06655d89ed80266d01f": {
+      "sha256": "4c8cd76818edd95489e0acb221b5ff1d71cb92133a2ab67953fd88349e9850fd",
+      "result": {
+        "status": "finalized",
+        "request_id": "aed64c64bdd8e15d6b1d40489a2566db525ef84ed28de87210f3f63eb1bb6f91",
+        "records": [
+          {
+            "id": 160,
+            "revision": 1,
+            "sha256": "bb8bba6d6a84e2e29851f6a63314365a695d0d1ed7f9a46b3d8bcb7a3a77d86f"
+          },
+          {
+            "id": 161,
+            "revision": 1,
+            "sha256": "67b9dd94ff9873353aa6d6ce8dc49decfd4160df02898114a26411882df5ff23"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
