@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 500,
-  "updated_at": "2026-10-19T19:17:10.961490+00:00",
-  "next_id": 165,
+  "generation": 501,
+  "updated_at": "2026-10-19T19:18:04.024685+00:00",
+  "next_id": 166,
   "records": [
     {
       "id": 1,
@@ -2184,6 +2184,19 @@
           "sha256": "af4852280db19cbc6f97b8962eb93c204946c80938705bac3b2b67d301e2a3a0",
           "source": "Inception via Business Wire",
           "request_id": "fa7efdfa6e89ae8a25f6174a4c4d73084995d01d2e8d353a5fea715f24700a38",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "revisions": [
+        {
+          "created_at": "2026-10-19T19:18:04.024685+00:00",
+          "block": "Title: Anthropic Reportedly Prepares More Intuitive AI\nURL: https://www.theinformation.com/newsletters/ai-agenda/anthropic-readies-model-reads-users-intentions-better\nImage URL: https://static.cryptobriefing.com/wp-content/uploads/2026/10/19100431/library-anthropic-readies-model-that-reads-users-intentions-bett-1-800x450.png\nSummary: The Information says an unreleased Anthropic model better understands vague requests and reasons creatively, citing an early user.",
+          "sha256": "3efbe6307095f184816842e8bb2967a20da9049a68349e743f46c0a3dd095f6c",
+          "source": "The Information",
+          "request_id": "465a3b2f2b311daed5ef27e0e00f31a3730b77c307a828f7c2b1bb35688643b9",
           "mode": "standard"
         }
       ]
@@ -4812,13 +4825,21 @@
       ]
     },
     "465a3b2f2b311daed5ef27e0e00f31a3730b77c307a828f7c2b1bb35688643b9": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-19T18:10:05.066756+00:00",
       "received_sequence": 149,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-19T19:18:04.024685+00:00",
+      "records": [
+        {
+          "id": 165,
+          "revision": 1,
+          "sha256": "3efbe6307095f184816842e8bb2967a20da9049a68349e743f46c0a3dd095f6c"
+        }
+      ]
     },
     "fa7efdfa6e89ae8a25f6174a4c4d73084995d01d2e8d353a5fea715f24700a38": {
       "status": "finalized",
@@ -20744,6 +20765,21 @@
           "sha256": "af4852280db19cbc6f97b8962eb93c204946c80938705bac3b2b67d301e2a3a0"
         },
         "editorial_sha256": "4ef5d2ead34209c9d61148c494ad74bcf35931bc8d2ef5143a3a580561cbba73"
+      }
+    },
+    "184b59a299e8ff0d7a4ee648f60cd1e8e4e44fc9e04fa9c8599aca974344efe8": {
+      "sha256": "7164a97ef6b7fae0cf039450a5b852549ec69754a7ce488643c63a789550b715",
+      "result": {
+        "status": "finalized",
+        "request_id": "465a3b2f2b311daed5ef27e0e00f31a3730b77c307a828f7c2b1bb35688643b9",
+        "records": [
+          {
+            "id": 165,
+            "revision": 1,
+            "sha256": "3efbe6307095f184816842e8bb2967a20da9049a68349e743f46c0a3dd095f6c"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
