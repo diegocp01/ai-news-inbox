@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 493,
-  "updated_at": "2026-10-19T17:58:11.069507+00:00",
+  "generation": 494,
+  "updated_at": "2026-10-19T17:58:59.141208+00:00",
   "next_id": 163,
   "records": [
     {
@@ -20605,6 +20605,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d90721834b8e751b3833861c387487262b52123b6fe7f7280fc6edb7999abd56": {
+      "sha256": "b9f740bd882a6f2272c38c6b6b27570623dd9040c2b0130506f49c923799677f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 162,
+          "revision": 1,
+          "sha256": "6020672743fd1d714f1b2fff121177208bef2cf773fac383c04c045fac1602da"
+        },
+        "editorial_sha256": "d0fe632cb1c0296b30d26357be9245c752fcecb4f69a423bb8c5528b0e42775c"
+      }
     }
   },
   "migration": {
@@ -26129,6 +26141,58 @@
         "sha256": "edc08fd38331f36280d784f7555c822727f0086a897ed89d4f37067f29213e40",
         "reviewed_at": "2026-10-19T12:15:56.076849+00:00",
         "operation_id": "muse-compile-backfill-20261019-161"
+      }
+    ],
+    "162:1": [
+      {
+        "reference": {
+          "id": 162,
+          "revision": 1,
+          "sha256": "6020672743fd1d714f1b2fff121177208bef2cf773fac383c04c045fac1602da"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public model-launch coverage focuses on availability, vendor speed/cost claims and pricing rather than implementation or technical methods.",
+            "evidence_sha256": "43e5f2929b45e46986e2aa295093eb1c7204a3a21e08cb2e06d4a9a2ad0df019"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.minimax.io/blog/minimax-m31f",
+              "final_url": "https://www.minimax.io/blog/minimax-m31f",
+              "redirect_chain": [
+                "https://www.minimax.io/blog/minimax-m31f"
+              ],
+              "checked_at": "2026-10-19T17:58:59.141208+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "b3a83ca9a40fe3cd554aec15b9886beea4d98fde8050793b35ab17ec26896bed"
+            },
+            "image": {
+              "url": "https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp",
+              "final_url": "https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp",
+              "redirect_chain": [
+                "https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp"
+              ],
+              "checked_at": "2026-10-19T17:58:59.141208+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "43e5f2929b45e46986e2aa295093eb1c7204a3a21e08cb2e06d4a9a2ad0df019",
+              "content_type": "image/webp",
+              "width": 900,
+              "height": 383,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "6106b09cb3894f72c7815a93105e3640262c6eeb702d4a642a57c4bd3a415972",
+              "relevance": "story_specific",
+              "relevance_note": "Official launch artwork shows the MiniMax M3.1 flash name and space bunny mascot."
+            }
+          }
+        },
+        "sha256": "d0fe632cb1c0296b30d26357be9245c752fcecb4f69a423bb8c5528b0e42775c",
+        "reviewed_at": "2026-10-19T17:58:59.141208+00:00",
+        "operation_id": "d90721834b8e751b3833861c387487262b52123b6fe7f7280fc6edb7999abd56"
       }
     ]
   }
