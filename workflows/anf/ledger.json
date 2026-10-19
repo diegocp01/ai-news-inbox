@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 494,
-  "updated_at": "2026-10-19T17:58:59.141208+00:00",
-  "next_id": 163,
+  "generation": 495,
+  "updated_at": "2026-10-19T18:00:15.208432+00:00",
+  "next_id": 164,
   "records": [
     {
       "id": 1,
@@ -2158,6 +2158,19 @@
           "sha256": "6020672743fd1d714f1b2fff121177208bef2cf773fac383c04c045fac1602da",
           "source": "MiniMax",
           "request_id": "460de2731742bf52006223a2eeeb020c3698fec46f44f10daeb94ed2492948c3",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "revisions": [
+        {
+          "created_at": "2026-10-19T18:00:15.208432+00:00",
+          "block": "Title: AI Safety Researcher Plans Return to OpenAI\nURL: \nImage URL: https://news.mit.edu/sites/default/files/images/202003/MIT-Alexander-Madry-01.jpg\nSummary: Aleksander Madry says he is returning to OpenAI a few months after leaving. He says advances in AI have made safety and security a central priority, shifting his focus from making AI more useful to addressing the risks of increasingly capable systems.",
+          "sha256": "12d16fcf59e944925d25bace1fe7a9d0ca9fce6d718f882688bcc570f5ef4e3d",
+          "source": "Aleksander Madry",
+          "request_id": "28163d838c7851d71fd2a5602cf38f1123be074b8c12cd73e2be9743d3847115",
           "mode": "standard"
         }
       ]
@@ -4769,13 +4782,21 @@
       ]
     },
     "28163d838c7851d71fd2a5602cf38f1123be074b8c12cd73e2be9743d3847115": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-19T17:57:04.587136+00:00",
       "received_sequence": 148,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-19T18:00:15.208432+00:00",
+      "records": [
+        {
+          "id": 163,
+          "revision": 1,
+          "sha256": "12d16fcf59e944925d25bace1fe7a9d0ca9fce6d718f882688bcc570f5ef4e3d"
+        }
+      ]
     }
   },
   "batches": {
@@ -20616,6 +20637,21 @@
           "sha256": "6020672743fd1d714f1b2fff121177208bef2cf773fac383c04c045fac1602da"
         },
         "editorial_sha256": "d0fe632cb1c0296b30d26357be9245c752fcecb4f69a423bb8c5528b0e42775c"
+      }
+    },
+    "f8768bf7ffa2e897c80cb148556e0ce51342f36749f5bc7e726104d17c040680": {
+      "sha256": "bca8444e3ceeb9a4ad2c4419d6bccea0b98ecdecd5bdbd93e4aca04fbfe60e8b",
+      "result": {
+        "status": "finalized",
+        "request_id": "28163d838c7851d71fd2a5602cf38f1123be074b8c12cd73e2be9743d3847115",
+        "records": [
+          {
+            "id": 163,
+            "revision": 1,
+            "sha256": "12d16fcf59e944925d25bace1fe7a9d0ca9fce6d718f882688bcc570f5ef4e3d"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
