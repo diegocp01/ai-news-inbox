@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 513,
-  "updated_at": "2026-10-19T21:54:58.029304+00:00",
+  "generation": 514,
+  "updated_at": "2026-10-19T21:55:32.251641+00:00",
   "next_id": 170,
   "records": [
     {
@@ -21037,6 +21037,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a671cbb6757668a3f445de7ae9ee1990d7c8acfba0fa09a18db14481af725cab": {
+      "sha256": "64ec9ec45080ba364c7fe331dbf417b37713a49d935d263e77a931abc8df4d6c",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 169,
+          "revision": 1,
+          "sha256": "ffee24d66da418e36b745f068768ae89239954e953b95b9f4d5fc13a9a528e26"
+        },
+        "editorial_sha256": "4a79475a06a81ecd93806eee39871767a9439c1be475a5a7e07327f5f509ea46"
+      }
     }
   },
   "migration": {
@@ -26761,6 +26773,26 @@
         "sha256": "8f292cceb061272fde34a4ae9bb462eddaa08e54523a5ae17444daf0380b3457",
         "reviewed_at": "2026-10-19T21:51:58.165787+00:00",
         "operation_id": "b14464a2ac671454f649130d4e8d2db0214ca39e772c029a69d5d8e99d304cf9"
+      }
+    ],
+    "169:1": [
+      {
+        "reference": {
+          "id": 169,
+          "revision": 1,
+          "sha256": "ffee24d66da418e36b745f068768ae89239954e953b95b9f4d5fc13a9a528e26"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The subject is an MCP connector and coding-assistant integration for invoking media-generation models, rather than a general public model launch.",
+            "evidence_sha256": "cb5ad306d02b19e9dbdf7ccdc3d66ccae0df7d393357dcebb7087fe53e0bfff2"
+          }
+        },
+        "sha256": "4a79475a06a81ecd93806eee39871767a9439c1be475a5a7e07327f5f509ea46",
+        "reviewed_at": "2026-10-19T21:55:32.251641+00:00",
+        "operation_id": "a671cbb6757668a3f445de7ae9ee1990d7c8acfba0fa09a18db14481af725cab"
       }
     ]
   }
