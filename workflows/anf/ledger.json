@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 492,
-  "updated_at": "2026-10-19T17:57:04.587136+00:00",
-  "next_id": 162,
+  "generation": 493,
+  "updated_at": "2026-10-19T17:58:11.069507+00:00",
+  "next_id": 163,
   "records": [
     {
       "id": 1,
@@ -2146,6 +2146,19 @@
           "request_id": "aed64c64bdd8e15d6b1d40489a2566db525ef84ed28de87210f3f63eb1bb6f91",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "revisions": [
+        {
+          "created_at": "2026-10-19T17:58:11.069507+00:00",
+          "block": "Title: MiniMax Launches Faster, Lower-Cost AI Model\nURL: https://www.minimax.io/blog/minimax-m31f\nImage URL: https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp\nSummary: MiniMax launched M3.1 Flash, identifying Space Bunny as an earlier version. The company claims nearly threefold faster inference and 70% lower agent-task costs than its predecessor. API pricing is $0.15 per million input tokens, $0.60 output and $0.015 cached input. Access includes M Plan and MiniMax Code; model weights are planned for later release.",
+          "sha256": "6020672743fd1d714f1b2fff121177208bef2cf773fac383c04c045fac1602da",
+          "source": "MiniMax",
+          "request_id": "460de2731742bf52006223a2eeeb020c3698fec46f44f10daeb94ed2492948c3",
+          "mode": "standard"
         }
       ]
     }
@@ -4739,13 +4752,21 @@
       ]
     },
     "460de2731742bf52006223a2eeeb020c3698fec46f44f10daeb94ed2492948c3": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-19T16:18:04.907706+00:00",
       "received_sequence": 147,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-19T17:58:11.069507+00:00",
+      "records": [
+        {
+          "id": 162,
+          "revision": 1,
+          "sha256": "6020672743fd1d714f1b2fff121177208bef2cf773fac383c04c045fac1602da"
+        }
+      ]
     },
     "28163d838c7851d71fd2a5602cf38f1123be074b8c12cd73e2be9743d3847115": {
       "status": "received",
@@ -20568,6 +20589,21 @@
       "result": {
         "status": "received",
         "request_id": "28163d838c7851d71fd2a5602cf38f1123be074b8c12cd73e2be9743d3847115"
+      }
+    },
+    "cca474db156390180519a7e404a08f33b824b1645c4f23515b7ce112b9c3bca6": {
+      "sha256": "f671d8090cffcb06a9a1ef09a0995ef81e9f44f469ce33ebafbaaff8b2f8ed2c",
+      "result": {
+        "status": "finalized",
+        "request_id": "460de2731742bf52006223a2eeeb020c3698fec46f44f10daeb94ed2492948c3",
+        "records": [
+          {
+            "id": 162,
+            "revision": 1,
+            "sha256": "6020672743fd1d714f1b2fff121177208bef2cf773fac383c04c045fac1602da"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
