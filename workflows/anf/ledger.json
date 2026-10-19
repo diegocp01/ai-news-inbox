@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 519,
-  "updated_at": "2026-10-19T23:02:13.581881+00:00",
+  "generation": 520,
+  "updated_at": "2026-10-19T23:02:55.517689+00:00",
   "next_id": 172,
   "records": [
     {
@@ -21165,6 +21165,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2776561c69a3ab21e862f531bd669b85e41173ec313510ed3f05ff9ac2dec032": {
+      "sha256": "df5a9cc4ecb54a6f89398178103ec0c11ddbfa28f867005593ffba2caeaf4046",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 171,
+          "revision": 1,
+          "sha256": "31d89b9b607cc9206d514e05db5552aeab57413372eaf5d1eec9c921e3b981db"
+        },
+        "editorial_sha256": "fa089c7743d37b2666c872535afc5c12cee3762368b3e1a1a8b96728d553813d"
+      }
     }
   },
   "migration": {
@@ -26929,6 +26941,26 @@
         "sha256": "504b27365886992248f67c49cf65884bbcf75f0e22b71fa7b3e6b63d1b914664",
         "reviewed_at": "2026-10-19T23:00:01.617522+00:00",
         "operation_id": "9e714909efdc20ebda77e6ade9e35ba2c4a78d8a6455b248fd8393439cc3468b"
+      }
+    ],
+    "171:1": [
+      {
+        "reference": {
+          "id": 171,
+          "revision": 1,
+          "sha256": "31d89b9b607cc9206d514e05db5552aeab57413372eaf5d1eec9c921e3b981db"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Specialized research-preview visual world model with CAD construction sequences and comparative geometric benchmarks, materially aimed at technical researchers and engineering implementation.",
+            "evidence_sha256": "7d2fc30e6a98245f10df969b4deec87b9d79f9371bc543611f60c67067de6d1c"
+          }
+        },
+        "sha256": "fa089c7743d37b2666c872535afc5c12cee3762368b3e1a1a8b96728d553813d",
+        "reviewed_at": "2026-10-19T23:02:55.517689+00:00",
+        "operation_id": "2776561c69a3ab21e862f531bd669b85e41173ec313510ed3f05ff9ac2dec032"
       }
     ]
   }
