@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 506,
-  "updated_at": "2026-10-19T21:33:53.243661+00:00",
-  "next_id": 167,
+  "generation": 507,
+  "updated_at": "2026-10-19T21:43:52.184419+00:00",
+  "next_id": 168,
   "records": [
     {
       "id": 1,
@@ -2210,6 +2210,19 @@
           "sha256": "339fb9cace925a1a1456dbcf3978f9650812e8a446d9764c71f36bd4e3616564",
           "source": "Tech Journal",
           "request_id": "58d80efb6072f8610a11c71304231b7f487e6892423a6337eb1aabb3b30dad14",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "revisions": [
+        {
+          "created_at": "2026-10-19T21:43:52.184419+00:00",
+          "block": "Title: AI Helps Scientists Find Materials by Reading Atomic Structures\nURL: https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018\nImage URL: https://news.mit.edu/sites/default/files/images/202610/MIT-Synthetic-Narratives-01-press.jpg\nSummary: MIT researchers built an AI model that connects 3D crystal structures with written descriptions to find materials with requested properties. In tests, it outperformed text-only approaches and retrieved promising solid-state battery electrolyte candidates already identified by other research. The method could help scientists search for useful materials, rather than relying only on published descriptions.",
+          "sha256": "68ee0644d0c05cf41ceb9fe0c5396f81125d80e951d0af898be9be92c66b37bb",
+          "source": "MIT News",
+          "request_id": "0e5a29a02e5aff4e005401f4311e1d408e4fe8beacb87944a8931ed9022cc8ac",
           "mode": "standard"
         }
       ]
@@ -4889,13 +4902,21 @@
       ]
     },
     "0e5a29a02e5aff4e005401f4311e1d408e4fe8beacb87944a8931ed9022cc8ac": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-19T21:33:53.243661+00:00",
       "received_sequence": 152,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-19T21:43:52.184419+00:00",
+      "records": [
+        {
+          "id": 167,
+          "revision": 1,
+          "sha256": "68ee0644d0c05cf41ceb9fe0c5396f81125d80e951d0af898be9be92c66b37bb"
+        }
+      ]
     }
   },
   "batches": {
@@ -20872,6 +20893,21 @@
       "result": {
         "status": "received",
         "request_id": "0e5a29a02e5aff4e005401f4311e1d408e4fe8beacb87944a8931ed9022cc8ac"
+      }
+    },
+    "0bdc700f7c0b62ab993781981ecf2f6b0c71aa7feb2f87915b62bbab6ef617fd": {
+      "sha256": "75164c06370c794e95dabfaebb9d368e70192fb1a11ac7b556b0258244f16ac6",
+      "result": {
+        "status": "finalized",
+        "request_id": "0e5a29a02e5aff4e005401f4311e1d408e4fe8beacb87944a8931ed9022cc8ac",
+        "records": [
+          {
+            "id": 167,
+            "revision": 1,
+            "sha256": "68ee0644d0c05cf41ceb9fe0c5396f81125d80e951d0af898be9be92c66b37bb"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
