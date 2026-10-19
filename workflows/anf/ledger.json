@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 516,
-  "updated_at": "2026-10-19T22:59:19.456512+00:00",
+  "generation": 517,
+  "updated_at": "2026-10-19T23:00:01.617522+00:00",
   "next_id": 171,
   "records": [
     {
@@ -21101,6 +21101,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9e714909efdc20ebda77e6ade9e35ba2c4a78d8a6455b248fd8393439cc3468b": {
+      "sha256": "120fbd84bf4ef1a5c3dfa48c6c56b8f2df0c4a7e9409ba958d09c1eb4c267a4a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 170,
+          "revision": 1,
+          "sha256": "953fd79d5814c2878c2f0c158a255576fe31ab682d59cfebfe39a1d3ae43c7be"
+        },
+        "editorial_sha256": "504b27365886992248f67c49cf65884bbcf75f0e22b71fa7b3e6b63d1b914664"
+      }
     }
   },
   "migration": {
@@ -26845,6 +26857,26 @@
         "sha256": "4a79475a06a81ecd93806eee39871767a9439c1be475a5a7e07327f5f509ea46",
         "reviewed_at": "2026-10-19T21:55:32.251641+00:00",
         "operation_id": "a671cbb6757668a3f445de7ae9ee1990d7c8acfba0fa09a18db14481af725cab"
+      }
+    ],
+    "170:1": [
+      {
+        "reference": {
+          "id": 170,
+          "revision": 1,
+          "sha256": "953fd79d5814c2878c2f0c158a255576fe31ab682d59cfebfe39a1d3ae43c7be"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Programming-language benchmark methodology and code-migration research for software developers.",
+            "evidence_sha256": "4dfececa03d2246d9685c22e55d37a28da1846160f3af40ca33ab315a8a9eaab"
+          }
+        },
+        "sha256": "504b27365886992248f67c49cf65884bbcf75f0e22b71fa7b3e6b63d1b914664",
+        "reviewed_at": "2026-10-19T23:00:01.617522+00:00",
+        "operation_id": "9e714909efdc20ebda77e6ade9e35ba2c4a78d8a6455b248fd8393439cc3468b"
       }
     ]
   }
