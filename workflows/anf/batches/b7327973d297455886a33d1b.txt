@@ -1,0 +1,68 @@
+Title: Dyna Robotics Humanoid Robot Joins Nasdaq Closing Bell Ceremony
+URL: https://www.nasdaq.com/events/robostrategy-rings-closing-bell
+Image URL: https://www.nasdaq.com/sites/acquia.prod/files/jw-player/2026/10/aoNfk9cp.jpg?688303557
+Summary: RoboStrategy CEO Andrew Kang rang Nasdaq's closing bell in Times Square on October 13 alongside Taku, a humanoid robot from Dyna Robotics. RoboStrategy, listed as BOT, is a publicly traded fund investing in private robotics and physical AI companies. Some outlets called it the first time a humanoid robot rang the bell; Nasdaq's own event page doesn't say so.
+
+Title: Tesla Shows New Roadster Prototype Briefly Flying in Live Demo
+URL: https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/
+Image URL: https://techcrunch.com/wp-content/uploads/2026/10/tesla-roadster-2-fly.jpg?resize=1200,877
+Summary: At a livestreamed event in Texas on October 15, Tesla showed its next-generation Roadster driving up a curved ramp upside down using fan suction, then using cold-gas thrusters to briefly fly, flip and hop over other Tesla vehicles. Tesla claims 0-60 mph in under a second. Elon Musk says production starts in 2028; flight-capable versions will be invitation-only.
+
+Title: G7 Finance Leaders Agree to Run Simulated AI Cyberattack Drills on Financial Systems
+URL: https://www.channelnewsasia.com/business/g7-launch-exercises-guard-against-ai-cyber-attacks-6464781
+Image URL: https://dam.mediacorp.sg/image/upload/s--Z69uYNO---/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-10-16T052301Z_2_LYNXMPEM9F06B_RTROPTP_3_AI-CHINA-SAFETY.JPG?itok=R7t93Pe6
+Summary: G7 finance leaders agreed to hold tabletop exercises simulating AI-driven cyberattacks to test how authorities would respond, Japanese Finance Minister Satsuki Katayama said in Bangkok, Reuters reported. Finance ministries and central banks will use the results to revise response manuals, and private banks may join. No dates or scenarios were announced. The exercises are simulations, not real attacks.
+
+Title: Anthropic's Claude Designs Quantum Circuits That Beat the Best Published Designs
+URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/cc389d90b468ebc86011f6642099dfad9a4a757f-2000x1125.jpg
+Summary: Anthropic researchers gave Claude plain-language specifications for eight quantum circuits plus an automated evaluator. Working largely on its own, Claude found designs using fewer qubits and gates than the best published ones, in some cases by an order of magnitude or more, including a decoder step 12 times cheaper for a leading quantum optimization algorithm. A paper is on arXiv.
+ds: true
+
+Title: OpenAI Brings ChatGPT Dots to the iPhone Home Screen
+URL: 
+Image URL: https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/79/16/53791688-599b-7fc2-3d0d-807276c6f5b4/2_iPhone.jpg/600x1300bb-60.jpg
+Summary: OpenAI designer Gavin Nelson shared that dots, the always-on AI agents in ChatGPT, are now available on the Home Screen. His preview shows an iPhone widget displaying a user's dot by name and avatar, with buttons to message or call it. OpenAI hasn't published further details; dots are rolling out to Pro and Business Premium users.
+
+Title: New AI Model: DeepSeek Releases V4.1-Flash-1017
+URL: https://api-docs.deepseek.com/news/news261017
+Image URL: https://api-docs.deepseek.com/img/v4.1_261017_benchmark_table_en.png
+Summary: DeepSeek released an updated V4.1 Flash model on its website, app, and API. The company reports stronger benchmark results, faster task completion, and shorter outputs than the previous version, with improvements for building complete projects such as games and 3D scenes.
+
+Title: Claude’s Viral Grandmother Rescue Test Remains Unverified
+URL: https://www.techtimes.co.uk/claude-granny-benchmark-copyright-ai-experiment-1809200
+Image URL: https://d.techtimes.co.uk/en/full/1820004/claude-ai-faces-digital-grandma-copyright-dilemma.png
+Summary: A satirical test gives Claude 60 seconds to reproduce Justin Bieber’s Baby lyrics to save a fictional grandmother. Its creator alleges a refusal, but the run remains unverified. The project supports live models and scripted responses, with heuristic scoring by default. The clip does not establish how Claude would act in a real emergency.
+
+Title: Microsoft Reports More Efficient Training for MAI-Base-2
+URL: https://www.testmuai.com/blog/mai-base-2/
+Image URL: https://assets.testmuai.com/resources/images/meta/mai-base-2.webp
+Summary: Microsoft completed pre-training MAI-Base-2, a mixture-of-experts model with 2.8 trillion total parameters and 80 billion active per token. It estimates 4–12 times greater pre-training compute efficiency than DeepSeek-V4-Pro-Base on internal evaluations. The technical report details scaling, infrastructure and vision-data improvements. Post-training continues, with partner licensing through Foundry planned.
+ds: true
+
+Title: Claude Code Speeds Up Responses and Cloud Startup
+URL: https://decohack.com/ai-daily/2026-10-17/#n11
+Image URL: https://assets.juya.uk/imagehub/aidaily/cc0fbc8f-2a81-4904-87d6-3aebdc8b26e5/f3d3d151-893a-43e0-9d1e-d4f36823f854/m001_22ce9f6a.png
+Summary: Anthropic says Claude Code now compresses each conversation before sending it to the model, reducing transfer delays. Cloud sessions also begin starting when users start typing. These changes target the wait before responses and session startup, rather than claiming the underlying model generates answers faster.
+ds: true
+
+Title: Anthropic Plans Public Benefit Fund
+URL: https://www.anthropic.com/news/public-benefit-fund
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/cbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg
+Summary: Anthropic plans to commit 5% of its shares to a public benefit fund, subject to stockholder approval. Its board could add another 2% for each 50% rise in company value above a baseline. The fund could support nonprofits or direct payments to people, including workers affected by AI.
+
+Title: Anthropic Proposes Equity Commitment to Public Benefit Fund
+URL: https://www.anthropic.com/news/public-benefit-fund
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/cbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg
+Summary: Anthropic says it plans to commit 5% of its shares to a new public benefit fund, subject to shareholder approval. The fund, structured as a wholly owned LLC, could support nonprofits or direct payments to specific populations. Anthropic’s board could add another 2% of shares for each 50% increase in company value above a set baseline.
+
+Title: Anthropic Reports Declining Junior Share of Technical Hiring
+URL: https://www.anthropic.com/research/employment-at-anthropic
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/e6c18d30f931ae76d4b600558f5a11377306f1d9-2000x1125.jpg
+Summary: Anthropic’s internal study reports that juniors’ share of its technical hires fell from 27% to 9%. By August 2026, employee-directed AI agents recorded six times employees’ estimated work hours, using agent runtime and an assumed 40-hour human workweek. The study also found a growing share of AI sessions focused on managing agents and described human attention as a bottleneck.
+
+
+
+
+
+.

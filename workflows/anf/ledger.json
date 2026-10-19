@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 488,
-  "updated_at": "2026-10-19T12:25:00.372515+00:00",
+  "generation": 489,
+  "updated_at": "2026-10-19T12:25:17.799046+00:00",
   "next_id": 162,
   "records": [
     {
@@ -9680,9 +9680,223 @@
       },
       "acknowledged_at": "2026-10-19T12:25:00.372515+00:00",
       "checkpoint_after": 149
+    },
+    "b7327973d297455886a33d1b": {
+      "batch_id": "b7327973d297455886a33d1b",
+      "status": "prepared",
+      "checkpoint_before": 149,
+      "prepared_at": "2026-10-19T12:25:17.799046+00:00",
+      "intake_cutoff": 146,
+      "records": [
+        {
+          "id": 150,
+          "revision": 1,
+          "sha256": "76999404ff5c741b6b3d42588c38634d770d680ff7cf921cee2248dfde8d90d0"
+        },
+        {
+          "id": 151,
+          "revision": 1,
+          "sha256": "f90e685e9d91b0bfab631f2c5079157b86242222393d0a3926db0262f9bfa338"
+        },
+        {
+          "id": 152,
+          "revision": 1,
+          "sha256": "f9fe14bdcca60d8eb9d5b7c3d8aaa2aaa6188a62ff1cc9abd09afed7e216fbf6"
+        },
+        {
+          "id": 153,
+          "revision": 1,
+          "sha256": "fc958ba70a7bf677dcb77934450527845bbc6ebdcf3bec81e0ff2aaf2e1de3dc"
+        },
+        {
+          "id": 154,
+          "revision": 1,
+          "sha256": "5ad3db89b821e2e744349fa101205cffb0fe312713cc51d4b94d9549a19e9a35"
+        },
+        {
+          "id": 155,
+          "revision": 1,
+          "sha256": "0f23b4db2e220954b8c9214a21fa28a2a1b1480ec644410d44324e5943460631"
+        },
+        {
+          "id": 156,
+          "revision": 1,
+          "sha256": "5226cf27300e00ba79cc20eb6efec52569cd8524dfbcd79f3202b60d29497318"
+        },
+        {
+          "id": 157,
+          "revision": 1,
+          "sha256": "3f0a08aadee83a077e57e6d5907921a0cb40440e7ed7dd496ac9acec4eb4dab3"
+        },
+        {
+          "id": 158,
+          "revision": 1,
+          "sha256": "c62174905fdaf62a7aca2875401f3f8206d752e7220fc0a8a6660cfdde20b01f"
+        },
+        {
+          "id": 159,
+          "revision": 1,
+          "sha256": "534d300a895c3ae999e126f76f700aed99fab2793337465e79920096040a4eda"
+        },
+        {
+          "id": 160,
+          "revision": 1,
+          "sha256": "bb8bba6d6a84e2e29851f6a63314365a695d0d1ed7f9a46b3d8bcb7a3a77d86f"
+        },
+        {
+          "id": 161,
+          "revision": 1,
+          "sha256": "67b9dd94ff9873353aa6d6ce8dc49decfd4160df02898114a26411882df5ff23"
+        }
+      ],
+      "first_id": 150,
+      "last_id": 161,
+      "count": 12,
+      "txt_path": "workflows/anf/batches/b7327973d297455886a33d1b.txt",
+      "json_path": "workflows/anf/batches/b7327973d297455886a33d1b.json",
+      "txt_sha256": "7cf4f4831b7bf6ce7705cfeba67467c6a9119411141cd3bf4bd55f10ac8397dd",
+      "json_sha256": "ad6367f92fd18aab1cfeeef19dca2d479331fd2eb50208c2c08f802d345d9684",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business news about a robotics fund's Nasdaq bell ceremony with a humanoid robot; general audience.",
+            "evidence_sha256": "35353cd90ac93a8927c7f1cd42df1d7561348781d3c564c3b6e342c9818c5705"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer automotive product reveal of Tesla's Roadster demo; general audience.",
+            "evidence_sha256": "ac4cbe06f61c1f1c89e5371b9554bdf11779e75d674754ab3260a2a8b3d637d3"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Government and financial-policy news about G7 cyber-resilience exercises; general audience.",
+            "evidence_sha256": "6d31db8285f176946b3095cf2df38a8306980efe74228a93932b8cf72b64048a"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research result with an arXiv paper on AI-driven quantum circuit optimization (Toffoli counts, reversible algorithms, decoders); aimed at researchers.",
+            "evidence_sha256": "be1f1aedbab6fae07c833f7850391663e1f04703b2fa47b4bd38612a75cd32ae"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer ChatGPT feature news about a home-screen widget for dots; general audience.",
+            "evidence_sha256": "adfa39275c0f04120ef1af5374be2154a881d5aaa5e5c2d917dbbf5431f6e3b1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public model release available on website and app; API and benchmark details are incidental to model-launch coverage.",
+            "evidence_sha256": "10d89b72618580b3df47c777945ec93a82b7f538b4bb5e7b735fb4019f1418a0"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General AI safety and viral experiment coverage, not a technical research tutorial.",
+            "evidence_sha256": "d9fc470e6343da156f1c51c72c9525e06d9b09ba3baeaa04ffeee9d6e72cdfbd"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Technical pre-training report about mixture-of-experts architecture, scaling and training compute.",
+            "evidence_sha256": "5c866d0a83aa93914085d87e77d63276990a9ce1e128d42d5a492d4d4fc9a722"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer coding tool performance update about conversation compression and cloud session startup.",
+            "evidence_sha256": "4918f4d4336aaba23cb3d86f75546c5424dfe330ab62c2ec7af127ae680c0834"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Company philanthropy and AI economic impact announcement for a general audience.",
+            "evidence_sha256": "703a1549197bc96661e1ed997f557a91fe9747a912373ad46918daede2c7fd77"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/news/public-benefit-fund",
+              "final_url": "https://www.anthropic.com/news/public-benefit-fund",
+              "redirect_chain": [
+                "https://www.anthropic.com/news/public-benefit-fund"
+              ],
+              "checked_at": "2026-10-18T21:03:09.344502+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "940bbedd3acba3b42877d6e8ebcfdf78a1ffec9a03650b82471c6f32a9f42810"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/cbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg"
+              ],
+              "checked_at": "2026-10-18T21:03:09.344502+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "703a1549197bc96661e1ed997f557a91fe9747a912373ad46918daede2c7fd77",
+              "content_type": "image/jpeg",
+              "width": 2000,
+              "height": 1125,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "e65c4b2b4a225d01d0c43a5dbcb811107fca13914fcfffd9ba46fcaadd322734",
+              "relevance": "story_specific",
+              "relevance_note": "Official hero illustration published within this exact fund announcement."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic's announcement covers corporate governance and philanthropy: a planned commitment of 5% of its shares to a new public benefit fund, subject to shareholder approval, with up to 2% more per 50% valuation gain. It does not substantively cover data science, statistics, model architecture, training, or engineering. Audience: general. [muse-compile-backfill 2026-10-19: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+            "evidence_sha256": "bb8bba6d6a84e2e29851f6a63314365a695d0d1ed7f9a46b3d8bcb7a3a77d86f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic's internal study reports the junior share of technical hires fell from 27% to 9%, that employee-directed AI agents logged six times employees' estimated work hours by August 2026, and that human attention is now a bottleneck. This is workforce and industry news, not a substantive treatment of data science methods, statistics, or model engineering. Audience: general. [muse-compile-backfill 2026-10-19: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+            "evidence_sha256": "67b9dd94ff9873353aa6d6ce8dc49decfd4160df02898114a26411882df5ff23"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-19T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "b7327973d297455886a33d1b",
   "replacement_batch": null,
   "checkpoint": 149,
   "checkpoint_history": [
@@ -20081,6 +20295,227 @@
           "sha256": "8db5221db98d9551d8296746caa5810e9eee507956e2706a545d63df86aa9e25",
           "published_at": "2026-10-16T13:44:26.253348+00:00",
           "planned_from_head": "23e2636ae0d0e575aacbc3f20382dbc23ae37487"
+        }
+      }
+    },
+    "muse-compile-20261019-1225-4006": {
+      "sha256": "5a8160dcd1a165a713e07ee669865f576ce38b79f64fd76cdb0add18a3172c01",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "b7327973d297455886a33d1b",
+          "status": "prepared",
+          "checkpoint_before": 149,
+          "prepared_at": "2026-10-19T12:25:17.799046+00:00",
+          "intake_cutoff": 146,
+          "records": [
+            {
+              "id": 150,
+              "revision": 1,
+              "sha256": "76999404ff5c741b6b3d42588c38634d770d680ff7cf921cee2248dfde8d90d0"
+            },
+            {
+              "id": 151,
+              "revision": 1,
+              "sha256": "f90e685e9d91b0bfab631f2c5079157b86242222393d0a3926db0262f9bfa338"
+            },
+            {
+              "id": 152,
+              "revision": 1,
+              "sha256": "f9fe14bdcca60d8eb9d5b7c3d8aaa2aaa6188a62ff1cc9abd09afed7e216fbf6"
+            },
+            {
+              "id": 153,
+              "revision": 1,
+              "sha256": "fc958ba70a7bf677dcb77934450527845bbc6ebdcf3bec81e0ff2aaf2e1de3dc"
+            },
+            {
+              "id": 154,
+              "revision": 1,
+              "sha256": "5ad3db89b821e2e744349fa101205cffb0fe312713cc51d4b94d9549a19e9a35"
+            },
+            {
+              "id": 155,
+              "revision": 1,
+              "sha256": "0f23b4db2e220954b8c9214a21fa28a2a1b1480ec644410d44324e5943460631"
+            },
+            {
+              "id": 156,
+              "revision": 1,
+              "sha256": "5226cf27300e00ba79cc20eb6efec52569cd8524dfbcd79f3202b60d29497318"
+            },
+            {
+              "id": 157,
+              "revision": 1,
+              "sha256": "3f0a08aadee83a077e57e6d5907921a0cb40440e7ed7dd496ac9acec4eb4dab3"
+            },
+            {
+              "id": 158,
+              "revision": 1,
+              "sha256": "c62174905fdaf62a7aca2875401f3f8206d752e7220fc0a8a6660cfdde20b01f"
+            },
+            {
+              "id": 159,
+              "revision": 1,
+              "sha256": "534d300a895c3ae999e126f76f700aed99fab2793337465e79920096040a4eda"
+            },
+            {
+              "id": 160,
+              "revision": 1,
+              "sha256": "bb8bba6d6a84e2e29851f6a63314365a695d0d1ed7f9a46b3d8bcb7a3a77d86f"
+            },
+            {
+              "id": 161,
+              "revision": 1,
+              "sha256": "67b9dd94ff9873353aa6d6ce8dc49decfd4160df02898114a26411882df5ff23"
+            }
+          ],
+          "first_id": 150,
+          "last_id": 161,
+          "count": 12,
+          "txt_path": "workflows/anf/batches/b7327973d297455886a33d1b.txt",
+          "json_path": "workflows/anf/batches/b7327973d297455886a33d1b.json",
+          "txt_sha256": "7cf4f4831b7bf6ce7705cfeba67467c6a9119411141cd3bf4bd55f10ac8397dd",
+          "json_sha256": "ad6367f92fd18aab1cfeeef19dca2d479331fd2eb50208c2c08f802d345d9684",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Business news about a robotics fund's Nasdaq bell ceremony with a humanoid robot; general audience.",
+                "evidence_sha256": "35353cd90ac93a8927c7f1cd42df1d7561348781d3c564c3b6e342c9818c5705"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer automotive product reveal of Tesla's Roadster demo; general audience.",
+                "evidence_sha256": "ac4cbe06f61c1f1c89e5371b9554bdf11779e75d674754ab3260a2a8b3d637d3"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Government and financial-policy news about G7 cyber-resilience exercises; general audience.",
+                "evidence_sha256": "6d31db8285f176946b3095cf2df38a8306980efe74228a93932b8cf72b64048a"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Research result with an arXiv paper on AI-driven quantum circuit optimization (Toffoli counts, reversible algorithms, decoders); aimed at researchers.",
+                "evidence_sha256": "be1f1aedbab6fae07c833f7850391663e1f04703b2fa47b4bd38612a75cd32ae"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer ChatGPT feature news about a home-screen widget for dots; general audience.",
+                "evidence_sha256": "adfa39275c0f04120ef1af5374be2154a881d5aaa5e5c2d917dbbf5431f6e3b1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Public model release available on website and app; API and benchmark details are incidental to model-launch coverage.",
+                "evidence_sha256": "10d89b72618580b3df47c777945ec93a82b7f538b4bb5e7b735fb4019f1418a0"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General AI safety and viral experiment coverage, not a technical research tutorial.",
+                "evidence_sha256": "d9fc470e6343da156f1c51c72c9525e06d9b09ba3baeaa04ffeee9d6e72cdfbd"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Technical pre-training report about mixture-of-experts architecture, scaling and training compute.",
+                "evidence_sha256": "5c866d0a83aa93914085d87e77d63276990a9ce1e128d42d5a492d4d4fc9a722"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Developer coding tool performance update about conversation compression and cloud session startup.",
+                "evidence_sha256": "4918f4d4336aaba23cb3d86f75546c5424dfe330ab62c2ec7af127ae680c0834"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Company philanthropy and AI economic impact announcement for a general audience.",
+                "evidence_sha256": "703a1549197bc96661e1ed997f557a91fe9747a912373ad46918daede2c7fd77"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.anthropic.com/news/public-benefit-fund",
+                  "final_url": "https://www.anthropic.com/news/public-benefit-fund",
+                  "redirect_chain": [
+                    "https://www.anthropic.com/news/public-benefit-fund"
+                  ],
+                  "checked_at": "2026-10-18T21:03:09.344502+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "940bbedd3acba3b42877d6e8ebcfdf78a1ffec9a03650b82471c6f32a9f42810"
+                },
+                "image": {
+                  "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg",
+                  "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg",
+                  "redirect_chain": [
+                    "https://www-cdn.anthropic.com/images/4zrzovbb/website/cbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg"
+                  ],
+                  "checked_at": "2026-10-18T21:03:09.344502+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "703a1549197bc96661e1ed997f557a91fe9747a912373ad46918daede2c7fd77",
+                  "content_type": "image/jpeg",
+                  "width": 2000,
+                  "height": 1125,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "e65c4b2b4a225d01d0c43a5dbcb811107fca13914fcfffd9ba46fcaadd322734",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official hero illustration published within this exact fund announcement."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Anthropic's announcement covers corporate governance and philanthropy: a planned commitment of 5% of its shares to a new public benefit fund, subject to shareholder approval, with up to 2% more per 50% valuation gain. It does not substantively cover data science, statistics, model architecture, training, or engineering. Audience: general. [muse-compile-backfill 2026-10-19: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+                "evidence_sha256": "bb8bba6d6a84e2e29851f6a63314365a695d0d1ed7f9a46b3d8bcb7a3a77d86f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Anthropic's internal study reports the junior share of technical hires fell from 27% to 9%, that employee-directed AI agents logged six times employees' estimated work hours by August 2026, and that human attention is now a bottleneck. This is workforce and industry news, not a substantive treatment of data science methods, statistics, or model engineering. Audience: general. [muse-compile-backfill 2026-10-19: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+                "evidence_sha256": "67b9dd94ff9873353aa6d6ce8dc49decfd4160df02898114a26411882df5ff23"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-19T12:00:00+00:00",
+          "deferred_request_ids": []
         }
       }
     }
