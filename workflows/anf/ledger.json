@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 512,
-  "updated_at": "2026-10-19T21:51:58.165787+00:00",
-  "next_id": 169,
+  "generation": 513,
+  "updated_at": "2026-10-19T21:54:58.029304+00:00",
+  "next_id": 170,
   "records": [
     {
       "id": 1,
@@ -2236,6 +2236,19 @@
           "sha256": "a49c5db01300248ead0abc87821c94ecaf7fddaf0925b85c678466887d1419cf",
           "source": "Cua",
           "request_id": "68a913de61fb2bef73220965a67a6c43950b80df61344aa6a0b7581f69fa6cbe",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "revisions": [
+        {
+          "created_at": "2026-10-19T21:54:58.029304+00:00",
+          "block": "Title: Sunra Connects Creative AI Models to Claude and ChatGPT\nURL: \nImage URL: https://opengraph.githubassets.com/2a6f97905703da706356f236bf1c4b50d2ef33a23e6f0ddb3c482e503857831f/sunra-ai/sunra-clients\nSummary: Sunra launched an MCP connector that lets Claude, ChatGPT and coding assistants generate images, video, audio and 3D models. Sunra says models are offered at their makers’ API prices without added markup. One Sunra balance covers the connected assistant and its web app, with setup options for Claude Code, Codex and Cursor.",
+          "sha256": "ffee24d66da418e36b745f068768ae89239954e953b95b9f4d5fc13a9a528e26",
+          "source": "Sunra",
+          "request_id": "5f2b4946ccd1aabdb796a3b573627ed2d258c2704f7133fa439a98b3e78c009e",
           "mode": "standard"
         }
       ]
@@ -4949,13 +4962,21 @@
       ]
     },
     "5f2b4946ccd1aabdb796a3b573627ed2d258c2704f7133fa439a98b3e78c009e": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-19T21:47:22.451484+00:00",
       "received_sequence": 154,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-19T21:54:58.029304+00:00",
+      "records": [
+        {
+          "id": 169,
+          "revision": 1,
+          "sha256": "ffee24d66da418e36b745f068768ae89239954e953b95b9f4d5fc13a9a528e26"
+        }
+      ]
     }
   },
   "batches": {
@@ -21000,6 +21021,21 @@
           "sha256": "a49c5db01300248ead0abc87821c94ecaf7fddaf0925b85c678466887d1419cf"
         },
         "editorial_sha256": "8f292cceb061272fde34a4ae9bb462eddaa08e54523a5ae17444daf0380b3457"
+      }
+    },
+    "3a773d5ac12228a4e0eab5d804d3296c17cb97967179a6917b89bc48bd0c7303": {
+      "sha256": "68882445cb4e24fcc383ae526e97f75e20f0bb077251d20591e916dfe141bee5",
+      "result": {
+        "status": "finalized",
+        "request_id": "5f2b4946ccd1aabdb796a3b573627ed2d258c2704f7133fa439a98b3e78c009e",
+        "records": [
+          {
+            "id": 169,
+            "revision": 1,
+            "sha256": "ffee24d66da418e36b745f068768ae89239954e953b95b9f4d5fc13a9a528e26"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
