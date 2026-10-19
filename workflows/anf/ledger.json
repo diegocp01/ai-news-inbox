@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 507,
-  "updated_at": "2026-10-19T21:43:52.184419+00:00",
+  "generation": 508,
+  "updated_at": "2026-10-19T21:44:32.351965+00:00",
   "next_id": 168,
   "records": [
     {
@@ -20909,6 +20909,18 @@
         ],
         "duplicates": []
       }
+    },
+    "cd3053535e3e0a6e7f087c399a12e2edc3e8d8e42abe87d56852527f7c752392": {
+      "sha256": "44947ffb8ccb2f7f12d9e052fb3e292d50c49a004744f69df392f41c5959636b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 167,
+          "revision": 1,
+          "sha256": "68ee0644d0c05cf41ceb9fe0c5396f81125d80e951d0af898be9be92c66b37bb"
+        },
+        "editorial_sha256": "299db121d72f440f4b2fc94a577989c8ab3cf0bff2e158b8234909604e5c2da7"
+      }
     }
   },
   "migration": {
@@ -26593,6 +26605,26 @@
         "sha256": "40fd5923c52913e0aa28895a41df69ee5156e03453264df9c78598e98b0bbed4",
         "reviewed_at": "2026-10-19T19:38:08.310075+00:00",
         "operation_id": "509f9ce5a657ea8477f1783662ef8896656315278adbb4d3f140f1eaad08a442"
+      }
+    ],
+    "167:1": [
+      {
+        "reference": {
+          "id": 167,
+          "revision": 1,
+          "sha256": "68ee0644d0c05cf41ceb9fe0c5396f81125d80e951d0af898be9be92c66b37bb"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Materials-science research method linking 3D atomic representations and natural language for property-based retrieval.",
+            "evidence_sha256": "27e4c9f133be12cfe57d1efaec7d7c8abda9b808fcba65dcfbb65ffeaef53ebe"
+          }
+        },
+        "sha256": "299db121d72f440f4b2fc94a577989c8ab3cf0bff2e158b8234909604e5c2da7",
+        "reviewed_at": "2026-10-19T21:44:32.351965+00:00",
+        "operation_id": "cd3053535e3e0a6e7f087c399a12e2edc3e8d8e42abe87d56852527f7c752392"
       }
     ]
   }
