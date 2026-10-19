@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 518,
-  "updated_at": "2026-10-19T23:01:25.905943+00:00",
-  "next_id": 171,
+  "generation": 519,
+  "updated_at": "2026-10-19T23:02:13.581881+00:00",
+  "next_id": 172,
   "records": [
     {
       "id": 1,
@@ -2262,6 +2262,19 @@
           "sha256": "953fd79d5814c2878c2f0c158a255576fe31ab682d59cfebfe39a1d3ae43c7be",
           "source": "OpenAI",
           "request_id": "09c910b882df3b8571b66de096dbf68a5c7cd719731efc833d002088dbe83186",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "revisions": [
+        {
+          "created_at": "2026-10-19T23:02:13.581881+00:00",
+          "block": "Title: Skyfall Previews AI That Turns Sketches Into 3D Designs\nURL: https://www.webwire.com/ViewPressRel.asp?aId=363053\nImage URL: https://photos.webwire.com/prmedia/81468/363053/363053-1.png\nSummary: Skyfall AI previewed SKY-001, a model that turns text or 2D sketches into step-by-step 3D designs for engineering software. It breaks designs into parts and plans how they fit together. Skyfall reports 51-times faster generation and 150-times lower cost than GPT-6 Astra on its CAD test. Commercial release is targeted for early 2027.",
+          "sha256": "31d89b9b607cc9206d514e05db5552aeab57413372eaf5d1eec9c921e3b981db",
+          "source": "Skyfall AI via WebWire",
+          "request_id": "b6015a732e34d476664d7eb7564822fba256c00c6cf9779794340d1d3e12132c",
           "mode": "standard"
         }
       ]
@@ -5009,13 +5022,21 @@
       ]
     },
     "b6015a732e34d476664d7eb7564822fba256c00c6cf9779794340d1d3e12132c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-19T23:01:25.905943+00:00",
       "received_sequence": 156,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-19T23:02:13.581881+00:00",
+      "records": [
+        {
+          "id": 171,
+          "revision": 1,
+          "sha256": "31d89b9b607cc9206d514e05db5552aeab57413372eaf5d1eec9c921e3b981db"
+        }
+      ]
     }
   },
   "batches": {
@@ -21128,6 +21149,21 @@
       "result": {
         "status": "received",
         "request_id": "b6015a732e34d476664d7eb7564822fba256c00c6cf9779794340d1d3e12132c"
+      }
+    },
+    "29d54596383ad1b582bc696d23c3d2e6974d6315c3ea4339a440241f394430d8": {
+      "sha256": "eb594af6006a480df16349ad80f04851aff41d6e2a942d3bda66c80280b849e2",
+      "result": {
+        "status": "finalized",
+        "request_id": "b6015a732e34d476664d7eb7564822fba256c00c6cf9779794340d1d3e12132c",
+        "records": [
+          {
+            "id": 171,
+            "revision": 1,
+            "sha256": "31d89b9b607cc9206d514e05db5552aeab57413372eaf5d1eec9c921e3b981db"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
