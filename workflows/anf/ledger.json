@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 498,
-  "updated_at": "2026-10-19T19:12:55.030663+00:00",
-  "next_id": 164,
+  "generation": 499,
+  "updated_at": "2026-10-19T19:15:54.245569+00:00",
+  "next_id": 165,
   "records": [
     {
       "id": 1,
@@ -2171,6 +2171,19 @@
           "sha256": "12d16fcf59e944925d25bace1fe7a9d0ca9fce6d718f882688bcc570f5ef4e3d",
           "source": "Aleksander Madry",
           "request_id": "28163d838c7851d71fd2a5602cf38f1123be074b8c12cd73e2be9743d3847115",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "revisions": [
+        {
+          "created_at": "2026-10-19T19:15:54.245569+00:00",
+          "block": "Title: Inception Releases Mercury 3 for Real-Time AI Applications\nURL: https://www.businesswire.com/news/home/20261019090400/en/Inception-Launches-Mercury-3-Setting-a-New-Pareto-Frontier-in-Speed-and-Intelligence\nImage URL: https://framerusercontent.com/images/Zgp1I1AaILVgkXF4Xlk7iImaE.png?width=1200&height=630\nSummary: Inception released Mercury 3, a diffusion language model with a one-million-token context window. The company reports speeds above 1,000 tokens per second and benchmark gains over GPT-6 Luna and Claude Haiku 5.5. It is available through Inception, Baseten, OpenRouter and Vercel, with launch pricing of $0.10 per million input tokens and $0.35 per million output tokens.",
+          "sha256": "af4852280db19cbc6f97b8962eb93c204946c80938705bac3b2b67d301e2a3a0",
+          "source": "Inception via Business Wire",
+          "request_id": "fa7efdfa6e89ae8a25f6174a4c4d73084995d01d2e8d353a5fea715f24700a38",
           "mode": "standard"
         }
       ]
@@ -4808,13 +4821,21 @@
       "corrects_record_id": null
     },
     "fa7efdfa6e89ae8a25f6174a4c4d73084995d01d2e8d353a5fea715f24700a38": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-19T19:12:55.030663+00:00",
       "received_sequence": 150,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-19T19:15:54.245569+00:00",
+      "records": [
+        {
+          "id": 164,
+          "revision": 1,
+          "sha256": "af4852280db19cbc6f97b8962eb93c204946c80938705bac3b2b67d301e2a3a0"
+        }
+      ]
     }
   },
   "batches": {
@@ -20696,6 +20717,21 @@
       "result": {
         "status": "received",
         "request_id": "fa7efdfa6e89ae8a25f6174a4c4d73084995d01d2e8d353a5fea715f24700a38"
+      }
+    },
+    "f36a65b443fb18f0267a235d2b5e81e7625eb7ebd0c0e7b5dab2eef9db5f7b5f": {
+      "sha256": "ccfe7bd0d4cce32321d0500b3e705c360a522c5ffc403de8f832027162e25789",
+      "result": {
+        "status": "finalized",
+        "request_id": "fa7efdfa6e89ae8a25f6174a4c4d73084995d01d2e8d353a5fea715f24700a38",
+        "records": [
+          {
+            "id": 164,
+            "revision": 1,
+            "sha256": "af4852280db19cbc6f97b8962eb93c204946c80938705bac3b2b67d301e2a3a0"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
