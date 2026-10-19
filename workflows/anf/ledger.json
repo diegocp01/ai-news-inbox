@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 484,
-  "updated_at": "2026-10-19T11:36:50.053984+00:00",
+  "generation": 486,
+  "updated_at": "2026-10-19T12:15:56.076849+00:00",
   "next_id": 162,
   "records": [
     {
@@ -19999,6 +19999,30 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-compile-backfill-20261019-160": {
+      "sha256": "a03c2fccdbef210ce53ea0aca4ea84e8772665d05fbe55c1a662fd68b8f12cf1",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 160,
+          "revision": 1,
+          "sha256": "bb8bba6d6a84e2e29851f6a63314365a695d0d1ed7f9a46b3d8bcb7a3a77d86f"
+        },
+        "editorial_sha256": "d21df05064b6b9cc9a3811966b28e98751f91888e5f700d9d91639fe88c67709"
+      }
+    },
+    "muse-compile-backfill-20261019-161": {
+      "sha256": "158ad35198a959fb9260d466ac176ba065fdebafbb1469faa55c87341bc4efde",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 161,
+          "revision": 1,
+          "sha256": "67b9dd94ff9873353aa6d6ce8dc49decfd4160df02898114a26411882df5ff23"
+        },
+        "editorial_sha256": "edc08fd38331f36280d784f7555c822727f0086a897ed89d4f37067f29213e40"
+      }
     }
   },
   "migration": {
@@ -25483,6 +25507,46 @@
         "sha256": "5810fc46d89b280504fc9ced5443072a0b6968a4300e4e6cac4989a4f00a801c",
         "reviewed_at": "2026-10-18T21:03:09.344502+00:00",
         "operation_id": "b2d5a03d8166a7d4717d16eb10195eccd6f2defd6d0e2be5a33ae9ebcd4c0a3b"
+      }
+    ],
+    "160:1": [
+      {
+        "reference": {
+          "id": 160,
+          "revision": 1,
+          "sha256": "bb8bba6d6a84e2e29851f6a63314365a695d0d1ed7f9a46b3d8bcb7a3a77d86f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic's announcement covers corporate governance and philanthropy: a planned commitment of 5% of its shares to a new public benefit fund, subject to shareholder approval, with up to 2% more per 50% valuation gain. It does not substantively cover data science, statistics, model architecture, training, or engineering. Audience: general. [muse-compile-backfill 2026-10-19: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+            "evidence_sha256": "bb8bba6d6a84e2e29851f6a63314365a695d0d1ed7f9a46b3d8bcb7a3a77d86f"
+          }
+        },
+        "sha256": "d21df05064b6b9cc9a3811966b28e98751f91888e5f700d9d91639fe88c67709",
+        "reviewed_at": "2026-10-19T12:15:56.076849+00:00",
+        "operation_id": "muse-compile-backfill-20261019-160"
+      }
+    ],
+    "161:1": [
+      {
+        "reference": {
+          "id": 161,
+          "revision": 1,
+          "sha256": "67b9dd94ff9873353aa6d6ce8dc49decfd4160df02898114a26411882df5ff23"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic's internal study reports the junior share of technical hires fell from 27% to 9%, that employee-directed AI agents logged six times employees' estimated work hours by August 2026, and that human attention is now a bottleneck. This is workforce and industry news, not a substantive treatment of data science methods, statistics, or model engineering. Audience: general. [muse-compile-backfill 2026-10-19: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+            "evidence_sha256": "67b9dd94ff9873353aa6d6ce8dc49decfd4160df02898114a26411882df5ff23"
+          }
+        },
+        "sha256": "edc08fd38331f36280d784f7555c822727f0086a897ed89d4f37067f29213e40",
+        "reviewed_at": "2026-10-19T12:15:56.076849+00:00",
+        "operation_id": "muse-compile-backfill-20261019-161"
       }
     ]
   }
