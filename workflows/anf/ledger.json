@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 499,
-  "updated_at": "2026-10-19T19:15:54.245569+00:00",
+  "generation": 500,
+  "updated_at": "2026-10-19T19:17:10.961490+00:00",
   "next_id": 165,
   "records": [
     {
@@ -20733,6 +20733,18 @@
         ],
         "duplicates": []
       }
+    },
+    "7019e062d67ea885995e226192b201a7650e6e44c144b347ef7c9718d30e81ed": {
+      "sha256": "4b2a7590555647e86b344d5398923514151e87e6b485579b0fd7d96a6cdd3f78",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 164,
+          "revision": 1,
+          "sha256": "af4852280db19cbc6f97b8962eb93c204946c80938705bac3b2b67d301e2a3a0"
+        },
+        "editorial_sha256": "4ef5d2ead34209c9d61148c494ad74bcf35931bc8d2ef5143a3a580561cbba73"
+      }
     }
   },
   "migration": {
@@ -26357,6 +26369,26 @@
         "sha256": "e61866d7e7d7973b1171a30a909a8c4e9fc58c60a1c80a1298c512845409f832",
         "reviewed_at": "2026-10-19T18:00:48.503712+00:00",
         "operation_id": "9f83ecfebe0c90e3b59c09108b6303c4f5e7df3f230428fa8bf9b12491a6ef2a"
+      }
+    ],
+    "164:1": [
+      {
+        "reference": {
+          "id": 164,
+          "revision": 1,
+          "sha256": "af4852280db19cbc6f97b8962eb93c204946c80938705bac3b2b67d301e2a3a0"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This item is public model-release news; API availability and token pricing are launch details rather than substantive developer implementation guidance.",
+            "evidence_sha256": "41b1322e863e90461849069d905d67c4142b8257ccec6c204eefc477b18eb513"
+          }
+        },
+        "sha256": "4ef5d2ead34209c9d61148c494ad74bcf35931bc8d2ef5143a3a580561cbba73",
+        "reviewed_at": "2026-10-19T19:17:10.961490+00:00",
+        "operation_id": "7019e062d67ea885995e226192b201a7650e6e44c144b347ef7c9718d30e81ed"
       }
     ]
   }
