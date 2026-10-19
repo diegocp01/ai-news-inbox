@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 495,
-  "updated_at": "2026-10-19T18:00:15.208432+00:00",
+  "generation": 496,
+  "updated_at": "2026-10-19T18:00:48.503712+00:00",
   "next_id": 164,
   "records": [
     {
@@ -20653,6 +20653,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9f83ecfebe0c90e3b59c09108b6303c4f5e7df3f230428fa8bf9b12491a6ef2a": {
+      "sha256": "f48400d0435cdd7120b96fa6ffbe7e5338e79693c34be9044a31efba75abdba1",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 163,
+          "revision": 1,
+          "sha256": "12d16fcf59e944925d25bace1fe7a9d0ca9fce6d718f882688bcc570f5ef4e3d"
+        },
+        "editorial_sha256": "e61866d7e7d7973b1171a30a909a8c4e9fc58c60a1c80a1298c512845409f832"
+      }
     }
   },
   "migration": {
@@ -26229,6 +26241,54 @@
         "sha256": "d0fe632cb1c0296b30d26357be9245c752fcecb4f69a423bb8c5528b0e42775c",
         "reviewed_at": "2026-10-19T17:58:59.141208+00:00",
         "operation_id": "d90721834b8e751b3833861c387487262b52123b6fe7f7280fc6edb7999abd56"
+      }
+    ],
+    "163:1": [
+      {
+        "reference": {
+          "id": 163,
+          "revision": 1,
+          "sha256": "12d16fcf59e944925d25bace1fe7a9d0ca9fce6d718f882688bcc570f5ef4e3d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A personnel announcement about returning to OpenAI and prioritizing AI safety, without a technical method, research result, developer tool or implementation.",
+            "evidence_sha256": "fa37f6f9b839f8b6410b0d7106a0d19458552f63fe952face1e1e61728c06799"
+          },
+          "quality": {
+            "article": {
+              "url": "",
+              "status": "blank_no_compliant_source",
+              "checked_at": "2026-10-19T18:00:48.503712+00:00",
+              "evidence_sha256": "fa37f6f9b839f8b6410b0d7106a0d19458552f63fe952face1e1e61728c06799"
+            },
+            "image": {
+              "url": "https://news.mit.edu/sites/default/files/images/202003/MIT-Alexander-Madry-01.jpg",
+              "final_url": "https://news.mit.edu/sites/default/files/images/202003/MIT-Alexander-Madry-01.jpg",
+              "redirect_chain": [
+                "https://news.mit.edu/sites/default/files/images/202003/MIT-Alexander-Madry-01.jpg"
+              ],
+              "checked_at": "2026-10-19T17:58:42Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "fa37f6f9b839f8b6410b0d7106a0d19458552f63fe952face1e1e61728c06799",
+              "content_type": "image/jpeg",
+              "width": 948,
+              "height": 632,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "c922be58cdc34bba0b0998773719ba3c0c846cb64bbed258f4bff2488e5512e9",
+              "relevance": "topic_specific",
+              "relevance_note": "Downloaded original bytes and viewed decoded image. Clear landscape photograph of Madry standing beside an indoor wooden staircase wearing a gray sweater. No misleading text, overlays or unrelated subjects.",
+              "story_specific_available": false,
+              "fallback_reason": "The verified current announcement is text-only, with no attached story image; no current-event compliant coverage was found. Official MIT portrait directly depicts the person in this personnel story. Compared personal MIT site portrait (300x353), MIT 2018 portrait and OG (400x400 and 400x301), and CSAIL thumbnails (200x200), which fail the minimum width. Selected this higher-resolution official 2020 portrait instead."
+            }
+          }
+        },
+        "sha256": "e61866d7e7d7973b1171a30a909a8c4e9fc58c60a1c80a1298c512845409f832",
+        "reviewed_at": "2026-10-19T18:00:48.503712+00:00",
+        "operation_id": "9f83ecfebe0c90e3b59c09108b6303c4f5e7df3f230428fa8bf9b12491a6ef2a"
       }
     ]
   }
