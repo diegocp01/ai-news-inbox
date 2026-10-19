@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 504,
-  "updated_at": "2026-10-19T19:37:29.506428+00:00",
+  "generation": 505,
+  "updated_at": "2026-10-19T19:38:08.310075+00:00",
   "next_id": 167,
   "records": [
     {
@@ -20845,6 +20845,18 @@
         ],
         "duplicates": []
       }
+    },
+    "509f9ce5a657ea8477f1783662ef8896656315278adbb4d3f140f1eaad08a442": {
+      "sha256": "700a5dedcba6401371e272913aba93fe3486903c06122277217573963bd7639d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 166,
+          "revision": 1,
+          "sha256": "339fb9cace925a1a1456dbcf3978f9650812e8a446d9764c71f36bd4e3616564"
+        },
+        "editorial_sha256": "40fd5923c52913e0aa28895a41df69ee5156e03453264df9c78598e98b0bbed4"
+      }
     }
   },
   "migration": {
@@ -26509,6 +26521,26 @@
         "sha256": "0559e3bdd232eb4d680dc8c27317f8d6838eb6bc1a9403befa7bc52dc15dd419",
         "reviewed_at": "2026-10-19T19:19:13.170290+00:00",
         "operation_id": "149ceaae7ce43fc35d6b1056c1a380e56d226cf62d475c3ebee83cda00faea5f"
+      }
+    ],
+    "166:1": [
+      {
+        "reference": {
+          "id": 166,
+          "revision": 1,
+          "sha256": "339fb9cace925a1a1456dbcf3978f9650812e8a446d9764c71f36bd4e3616564"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer and workplace presentation feature: real-time deck collaboration, comments, direct editing and exports; no substantive API, implementation or research content. Original post and official product page verified; same-feature article accessible here and official story-specific screenshot pixel-inspected at 1200x675. Chase access unknown.",
+            "evidence_sha256": "94d4907bed12dc9faf66998bdd8b3f48c10b724113dff6e6eb142064c5c6f2be"
+          }
+        },
+        "sha256": "40fd5923c52913e0aa28895a41df69ee5156e03453264df9c78598e98b0bbed4",
+        "reviewed_at": "2026-10-19T19:38:08.310075+00:00",
+        "operation_id": "509f9ce5a657ea8477f1783662ef8896656315278adbb4d3f140f1eaad08a442"
       }
     ]
   }
