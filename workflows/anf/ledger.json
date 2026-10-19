@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 510,
-  "updated_at": "2026-10-19T21:47:22.451484+00:00",
-  "next_id": 168,
+  "generation": 511,
+  "updated_at": "2026-10-19T21:49:47.226055+00:00",
+  "next_id": 169,
   "records": [
     {
       "id": 1,
@@ -2223,6 +2223,19 @@
           "sha256": "68ee0644d0c05cf41ceb9fe0c5396f81125d80e951d0af898be9be92c66b37bb",
           "source": "MIT News",
           "request_id": "0e5a29a02e5aff4e005401f4311e1d408e4fe8beacb87944a8931ed9022cc8ac",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "revisions": [
+        {
+          "created_at": "2026-10-19T21:49:47.226055+00:00",
+          "block": "Title: Cua Lets Developers Run AI Agents on Their Own Computers\nURL: https://github.com/trycua/cua\nImage URL: https://opengraph.githubassets.com/72010098aaaa223ce7c9913821bf49c4d1a4006b0d25934cf0de9027183eecec/trycua/cua\nSummary: Cua introduced its Spaces SDK for running agents such as Claude Code and Codex on computers developers choose, including their own machines and cloud accounts. Developers can create desktops, run agent jobs and watch or intervene in their work. The toolkit supports multiple programming languages; Spaces components use a source-available license.",
+          "sha256": "a49c5db01300248ead0abc87821c94ecaf7fddaf0925b85c678466887d1419cf",
+          "source": "Cua",
+          "request_id": "68a913de61fb2bef73220965a67a6c43950b80df61344aa6a0b7581f69fa6cbe",
           "mode": "standard"
         }
       ]
@@ -4919,13 +4932,21 @@
       ]
     },
     "68a913de61fb2bef73220965a67a6c43950b80df61344aa6a0b7581f69fa6cbe": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-19T21:46:44.271787+00:00",
       "received_sequence": 153,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-19T21:49:47.226055+00:00",
+      "records": [
+        {
+          "id": 168,
+          "revision": 1,
+          "sha256": "a49c5db01300248ead0abc87821c94ecaf7fddaf0925b85c678466887d1419cf"
+        }
+      ]
     },
     "5f2b4946ccd1aabdb796a3b573627ed2d258c2704f7133fa439a98b3e78c009e": {
       "status": "received",
@@ -20952,6 +20973,21 @@
       "result": {
         "status": "received",
         "request_id": "5f2b4946ccd1aabdb796a3b573627ed2d258c2704f7133fa439a98b3e78c009e"
+      }
+    },
+    "814a45b48d1e8c6dd0e0d036f72d7a093e6930aa1fca12caf96de166e3640438": {
+      "sha256": "95cc2c6e8d6c80a926b518b969a8dc10515075cd2616aae563e874328cbe69e3",
+      "result": {
+        "status": "finalized",
+        "request_id": "68a913de61fb2bef73220965a67a6c43950b80df61344aa6a0b7581f69fa6cbe",
+        "records": [
+          {
+            "id": 168,
+            "revision": 1,
+            "sha256": "a49c5db01300248ead0abc87821c94ecaf7fddaf0925b85c678466887d1419cf"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
