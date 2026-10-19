@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 515,
-  "updated_at": "2026-10-19T22:32:56.020761+00:00",
-  "next_id": 170,
+  "generation": 516,
+  "updated_at": "2026-10-19T22:59:19.456512+00:00",
+  "next_id": 171,
   "records": [
     {
       "id": 1,
@@ -2249,6 +2249,19 @@
           "sha256": "ffee24d66da418e36b745f068768ae89239954e953b95b9f4d5fc13a9a528e26",
           "source": "Sunra",
           "request_id": "5f2b4946ccd1aabdb796a3b573627ed2d258c2704f7133fa439a98b3e78c009e",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "revisions": [
+        {
+          "created_at": "2026-10-19T22:59:19.456512+00:00",
+          "block": "Title: OpenAI Improves AI Coding for Older Programming Languages\nURL: https://github.com/openai/MultiLangBench\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/1wQpFFie9sKfVWvApPYyn5/db28adb6a2dfdfdef39fb548fca8913d/low_resource_programming__SEO_Card__3_.png?w=1600&h=900&fit=fill\nSummary: OpenAI reports stronger coding results in languages such as COBOL and Fortran. GPT-6 Astra passed 87.4% of tests across 20 languages in its database-building benchmark. GPT-6.1 Sol reached 97.9% accuracy on a separate COBOL migration evaluation at higher reasoning effort. OpenAI released the database benchmark, while stressing that production migrations still need expert review and testing.",
+          "sha256": "953fd79d5814c2878c2f0c158a255576fe31ab682d59cfebfe39a1d3ae43c7be",
+          "source": "OpenAI",
+          "request_id": "09c910b882df3b8571b66de096dbf68a5c7cd719731efc833d002088dbe83186",
           "mode": "standard"
         }
       ]
@@ -4979,13 +4992,21 @@
       ]
     },
     "09c910b882df3b8571b66de096dbf68a5c7cd719731efc833d002088dbe83186": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-19T22:32:56.020761+00:00",
       "received_sequence": 155,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-19T22:59:19.456512+00:00",
+      "records": [
+        {
+          "id": 170,
+          "revision": 1,
+          "sha256": "953fd79d5814c2878c2f0c158a255576fe31ab682d59cfebfe39a1d3ae43c7be"
+        }
+      ]
     }
   },
   "batches": {
@@ -21064,6 +21085,21 @@
       "result": {
         "status": "received",
         "request_id": "09c910b882df3b8571b66de096dbf68a5c7cd719731efc833d002088dbe83186"
+      }
+    },
+    "059e4add2ad939e919ed13e473f3de0c45168b308256fca1e2973d5f8a9afa16": {
+      "sha256": "389ec19cb99a0ebff5b71d5715ed6b1d772e3df40258d13d130892e65cbaacfc",
+      "result": {
+        "status": "finalized",
+        "request_id": "09c910b882df3b8571b66de096dbf68a5c7cd719731efc833d002088dbe83186",
+        "records": [
+          {
+            "id": 170,
+            "revision": 1,
+            "sha256": "953fd79d5814c2878c2f0c158a255576fe31ab682d59cfebfe39a1d3ae43c7be"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
