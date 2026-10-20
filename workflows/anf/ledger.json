@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 531,
-  "updated_at": "2026-10-20T15:16:09.937401+00:00",
+  "generation": 532,
+  "updated_at": "2026-10-20T15:17:47.348114+00:00",
   "next_id": 176,
   "records": [
     {
@@ -21963,6 +21963,18 @@
         ],
         "duplicates": []
       }
+    },
+    "92ee614001891a0fd1cfea75a241385198b07651d8b6e86f12fad7a39e70f2a2": {
+      "sha256": "08c744353dfcc840ffbf9e4540cfbd59cba1ad8d261a22fe6867d733fde34caa",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 175,
+          "revision": 1,
+          "sha256": "029238069e26c444da3fca2b68f42c3378749c03326b37f835fa3cf99a84c718"
+        },
+        "editorial_sha256": "f6de68ac70d45059f66cda3a7134e2548e9d86d6b4913b2c12ee4b9aed465085"
+      }
     }
   },
   "migration": {
@@ -27807,6 +27819,26 @@
         "sha256": "90560dd0ff90bd29391b645f0e45f8427598353010b0534bedc20bafc10fcf39",
         "reviewed_at": "2026-10-20T12:03:43.019273+00:00",
         "operation_id": "muse-compile-backfill-20261020-174"
+      }
+    ],
+    "175:1": [
+      {
+        "reference": {
+          "id": 175,
+          "revision": 1,
+          "sha256": "029238069e26c444da3fca2b68f42c3378749c03326b37f835fa3cf99a84c718"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Security scanning service for open-source maintainers and developers, including reproducible vulnerability findings and candidate code patches.",
+            "evidence_sha256": "adfe8d877f42922cdf4a8d6a592a8cf6308459791fc578c6b6fd726627b6d586"
+          }
+        },
+        "sha256": "f6de68ac70d45059f66cda3a7134e2548e9d86d6b4913b2c12ee4b9aed465085",
+        "reviewed_at": "2026-10-20T15:17:47.348114+00:00",
+        "operation_id": "92ee614001891a0fd1cfea75a241385198b07651d8b6e86f12fad7a39e70f2a2"
       }
     ]
   }
