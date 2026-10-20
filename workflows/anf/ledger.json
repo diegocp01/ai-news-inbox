@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 530,
-  "updated_at": "2026-10-20T13:04:01.583485+00:00",
-  "next_id": 175,
+  "generation": 531,
+  "updated_at": "2026-10-20T15:16:09.937401+00:00",
+  "next_id": 176,
   "records": [
     {
       "id": 1,
@@ -2318,6 +2318,19 @@
           "request_id": "3873e1ff896b63dcd42709ceb58b92b3cebbc8f0b8b914831602a94827159b7c",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "revisions": [
+        {
+          "created_at": "2026-10-20T15:16:09.937401+00:00",
+          "block": "Title: Anthropic Offers Free AI Security Scans for Open-Source Projects\nURL: https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg\nSummary: Anthropic’s OSS Scanner gives eligible open-source projects free, periodic AI vulnerability scans. Reports include reproducible examples and proposed patches when available, helping maintainers investigate security flaws. The opt-in service sends model-generated findings without human review, so maintainers must validate reports that may contain errors.",
+          "sha256": "029238069e26c444da3fca2b68f42c3378749c03326b37f835fa3cf99a84c718",
+          "source": "Anthropic",
+          "request_id": "59cc3dd6e50694d3554390d673fb14dd4023be8285734cfe64265fd1242c67a5",
+          "mode": "standard"
         }
       ]
     }
@@ -5109,13 +5122,21 @@
       ]
     },
     "59cc3dd6e50694d3554390d673fb14dd4023be8285734cfe64265fd1242c67a5": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-20T13:04:01.583485+00:00",
       "received_sequence": 158,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-20T15:16:09.937401+00:00",
+      "records": [
+        {
+          "id": 175,
+          "revision": 1,
+          "sha256": "029238069e26c444da3fca2b68f42c3378749c03326b37f835fa3cf99a84c718"
+        }
+      ]
     }
   },
   "batches": {
@@ -21926,6 +21947,21 @@
       "result": {
         "status": "received",
         "request_id": "59cc3dd6e50694d3554390d673fb14dd4023be8285734cfe64265fd1242c67a5"
+      }
+    },
+    "4d6b0ac40bf36c3b6cd15dd92d592686490dbf91ba897b2521fc29c302912915": {
+      "sha256": "0f64640d66feef998baee2c1aa5668c0c3cf2b2c255eab3d78de4757815c2bfe",
+      "result": {
+        "status": "finalized",
+        "request_id": "59cc3dd6e50694d3554390d673fb14dd4023be8285734cfe64265fd1242c67a5",
+        "records": [
+          {
+            "id": 175,
+            "revision": 1,
+            "sha256": "029238069e26c444da3fca2b68f42c3378749c03326b37f835fa3cf99a84c718"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
