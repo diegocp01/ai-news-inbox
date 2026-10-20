@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 539,
-  "updated_at": "2026-10-20T18:37:04.628814+00:00",
+  "generation": 540,
+  "updated_at": "2026-10-20T18:37:05.110314+00:00",
   "next_id": 178,
   "records": [
     {
@@ -22123,6 +22123,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d46b5c6f4430d2e9a96e2bdc09e845c20c5c3664c5fa78a785421166539c153b": {
+      "sha256": "b4d675f376a6b5f5a8e57ab2734610725960c8e4cebfe51aea914e1b878c5db4",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 177,
+          "revision": 1,
+          "sha256": "e5a12e43d56100150656eebc122c044fd6ad7c9bbae6bbfeb5c02f55e3079a69"
+        },
+        "editorial_sha256": "c150ae1c7c8289784d864efb83be69deb546870d6fa490bb380bff4d60299023"
+      }
     }
   },
   "migration": {
@@ -28039,6 +28051,26 @@
         "sha256": "af57f2891f0eb8ca03cb32a2a27416d100c3b347d7b5a4e65afcf399c029eee1",
         "reviewed_at": "2026-10-20T16:42:44.362894+00:00",
         "operation_id": "9aa2abbd41be306a13d800038df1133b54e26a422a5c073f1f1ac8e3f665124e"
+      }
+    ],
+    "177:1": [
+      {
+        "reference": {
+          "id": 177,
+          "revision": 1,
+          "sha256": "e5a12e43d56100150656eebc122c044fd6ad7c9bbae6bbfeb5c02f55e3079a69"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Startup funding and business news about an AI manufacturing company, not technical research or a developer tool.",
+            "evidence_sha256": "503bd77f9ee77812c395aa3324de0513483428975c1d74616a19c986198cd560"
+          }
+        },
+        "sha256": "c150ae1c7c8289784d864efb83be69deb546870d6fa490bb380bff4d60299023",
+        "reviewed_at": "2026-10-20T18:37:05.110314+00:00",
+        "operation_id": "d46b5c6f4430d2e9a96e2bdc09e845c20c5c3664c5fa78a785421166539c153b"
       }
     ]
   }
