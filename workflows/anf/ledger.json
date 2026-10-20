@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 551,
-  "updated_at": "2026-10-20T19:07:11.742158+00:00",
-  "next_id": 181,
+  "generation": 552,
+  "updated_at": "2026-10-20T19:07:12.179379+00:00",
+  "next_id": 182,
   "records": [
     {
       "id": 1,
@@ -2395,6 +2395,19 @@
           "sha256": "2e1a68462b3ebb81ef85b3725cbc2b6319146cd664897788a1888e3b4c12e3b6",
           "source": "ElevenLabs",
           "request_id": "a83fcb0cb1390d76a7e23084e5b07db210b6b41df47452314deefdb83c050ad5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "revisions": [
+        {
+          "created_at": "2026-10-20T19:07:12.179379+00:00",
+          "block": "Title: Grok Bot Adds X DMs, @bot Tagging and Android Assistant Support\nURL: https://teslanorth.com/2026/10/20/grok-bot-x-dms-android-assistant/\nImage URL: https://cdn.teslanorth.com/wp-content/uploads/2026/10/grok-bot-whats-new-x-dms-android.jpg\nSummary: SpaceXSI's Matt Palmer walked through 12 Grok Bot updates in a five-minute video. Grok Bot can now read and reply to X Chat DMs, act on requests when tagged @bot on X, and serve as Android's default assistant. Voice calls now remember the previous call for 30 minutes, and drafts, notifications and team invites also improved.",
+          "sha256": "ae96a1036ba054308e038e35dc666b9845e2fc0d17813bd51e3abf20b4666fec",
+          "source": "Tesla North",
+          "request_id": "44a2f45d153eae80cbbaa7594ae36acaa6e6850708623ee6945dc49422ace9cd",
           "mode": "standard"
         }
       ]
@@ -5316,13 +5329,21 @@
       "corrects_record_id": null
     },
     "44a2f45d153eae80cbbaa7594ae36acaa6e6850708623ee6945dc49422ace9cd": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-20T19:07:11.742158+00:00",
       "received_sequence": 167,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-20T19:07:12.179379+00:00",
+      "records": [
+        {
+          "id": 181,
+          "revision": 1,
+          "sha256": "ae96a1036ba054308e038e35dc666b9845e2fc0d17813bd51e3abf20b4666fec"
+        }
+      ]
     }
   },
   "batches": {
@@ -22358,6 +22379,21 @@
       "result": {
         "status": "received",
         "request_id": "44a2f45d153eae80cbbaa7594ae36acaa6e6850708623ee6945dc49422ace9cd"
+      }
+    },
+    "c8985eda437ee1c0df28b28f0ea1d672766ae0bd466166099b83706a50d61a20": {
+      "sha256": "757cbfdf605577b1a075d9b0526110f1565578edf7658f415b78e6d0dbc5905e",
+      "result": {
+        "status": "finalized",
+        "request_id": "44a2f45d153eae80cbbaa7594ae36acaa6e6850708623ee6945dc49422ace9cd",
+        "records": [
+          {
+            "id": 181,
+            "revision": 1,
+            "sha256": "ae96a1036ba054308e038e35dc666b9845e2fc0d17813bd51e3abf20b4666fec"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
