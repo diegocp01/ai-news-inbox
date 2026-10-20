@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 534,
-  "updated_at": "2026-10-20T16:41:21.671124+00:00",
+  "generation": 535,
+  "updated_at": "2026-10-20T16:42:44.362894+00:00",
   "next_id": 177,
   "records": [
     {
@@ -22027,6 +22027,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9aa2abbd41be306a13d800038df1133b54e26a422a5c073f1f1ac8e3f665124e": {
+      "sha256": "b8b115b7f5ba20579725d30c32296158c3b7c4607f224ac8cecfb4867efb172d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 176,
+          "revision": 1,
+          "sha256": "617cfbec94796804eb7143dc07ee974aa4093c352449dd1b154be6ed1188ea15"
+        },
+        "editorial_sha256": "af57f2891f0eb8ca03cb32a2a27416d100c3b347d7b5a4e65afcf399c029eee1"
+      }
     }
   },
   "migration": {
@@ -27891,6 +27903,58 @@
         "sha256": "f6de68ac70d45059f66cda3a7134e2548e9d86d6b4913b2c12ee4b9aed465085",
         "reviewed_at": "2026-10-20T15:17:47.348114+00:00",
         "operation_id": "92ee614001891a0fd1cfea75a241385198b07651d8b6e86f12fad7a39e70f2a2"
+      }
+    ],
+    "176:1": [
+      {
+        "reference": {
+          "id": 176,
+          "revision": 1,
+          "sha256": "617cfbec94796804eb7143dc07ee974aa4093c352449dd1b154be6ed1188ea15"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Open-source inference infrastructure for developers deploying AI models, not a public model release.",
+            "evidence_sha256": "4d62605b25b48ed7dd0c0174aac8dbae30a0b7394af41e23aed2270964d2a730"
+          },
+          "quality": {
+            "article": {
+              "url": "https://github.com/deepseek-ai/DeepInfer",
+              "final_url": "https://github.com/deepseek-ai/DeepInfer",
+              "redirect_chain": [
+                "https://github.com/deepseek-ai/DeepInfer"
+              ],
+              "checked_at": "2026-10-20T16:40:35.792168+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "4d62605b25b48ed7dd0c0174aac8dbae30a0b7394af41e23aed2270964d2a730"
+            },
+            "image": {
+              "url": "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/doc/images/architecture_overview.png",
+              "final_url": "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/doc/images/architecture_overview.png",
+              "redirect_chain": [
+                "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/doc/images/architecture_overview.png"
+              ],
+              "content_type": "image/png",
+              "width": 1727,
+              "height": 911,
+              "image_bytes_sha256": "a04aed83c96ddc4a6ec7e578b961d8a3fdbea16ac72a4f51b3cc2221b858beb5",
+              "checked_at": "2026-10-20T16:40:31.445383+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Official DeepInfer architecture figure inspected at 1727x911. Legible diagram shows request routing, vision/prefill/decode services and external KVCache storage. Compared official prefill/decode benchmarks, both 1350x930 and inspected. Architecture selected as broader explanatory visual.",
+              "evidence_sha256": "4d62605b25b48ed7dd0c0174aac8dbae30a0b7394af41e23aed2270964d2a730"
+            }
+          }
+        },
+        "sha256": "af57f2891f0eb8ca03cb32a2a27416d100c3b347d7b5a4e65afcf399c029eee1",
+        "reviewed_at": "2026-10-20T16:42:44.362894+00:00",
+        "operation_id": "9aa2abbd41be306a13d800038df1133b54e26a422a5c073f1f1ac8e3f665124e"
       }
     ]
   }
