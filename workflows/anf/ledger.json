@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 556,
-  "updated_at": "2026-10-20T19:12:36.821886+00:00",
+  "generation": 557,
+  "updated_at": "2026-10-20T19:13:46.899198+00:00",
   "next_id": 184,
   "records": [
     {
@@ -22491,6 +22491,18 @@
         ],
         "duplicates": []
       }
+    },
+    "1e1b296680d3b91eec39f43f6a8491b2b51d136d27274f6988e7a6e9bbdbf389": {
+      "sha256": "76bd9997e9349bd72430f5cfb4a51c8de9a55be2a680ee493ebffa4d6ae0aa70",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 183,
+          "revision": 1,
+          "sha256": "14875a163f5fdb72a7703d35c8c5a2bbef01cefc05106c92ae203b870a9ee34e"
+        },
+        "editorial_sha256": "2d0cc771c1264e2509f408839c2676caac8dfb18127b6c2a01552eb915913e8a"
+      }
     }
   },
   "migration": {
@@ -28559,6 +28571,58 @@
         "sha256": "1336c8cf05c768579925f311531b9b47f9153a12700ca9f3083e3fea593b7595",
         "reviewed_at": "2026-10-20T19:10:23.794784+00:00",
         "operation_id": "06742caf3b3617f3abac7a3c60581bee2b4ad91e9a2a13d979f7fbea44367a0d"
+      }
+    ],
+    "183:1": [
+      {
+        "reference": {
+          "id": 183,
+          "revision": 1,
+          "sha256": "14875a163f5fdb72a7703d35c8c5a2bbef01cefc05106c92ae203b870a9ee34e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Reports an AI-assisted protein-design research study, laboratory evaluation, and scientific limitations for research audiences.",
+            "evidence_sha256": "392db85196e2c263fcc3610cbec39e6c31edbb2948a9b1d87e43e2dc3aa1ac2c"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+              "final_url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+              "redirect_chain": [
+                "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+              ],
+              "checked_at": "2026-10-20T18:59:48+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "fb80fd5997193fc71d794648adc6d95579321ab8286e339688cfd2d873f8d0ff"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg"
+              ],
+              "checked_at": "2026-10-20T19:00:18+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "content_type": "image/jpeg",
+              "width": 2000,
+              "height": 1125,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "3adb3815667a09667429049c24cd1b03fadd09749083964ec19da19f6c643279",
+              "relevance": "story_specific",
+              "relevance_note": "Official hero artwork for this exact research report, with a scorpion illustration and laboratory imagery. Compared against the generic OpenGraph Anthropic logo and in-article chart candidates; the high-resolution story hero is appropriate for a newsletter.",
+              "evidence_sha256": "ee47f1954dd8231fa3cc62cdbcce5ef9cdb77e139c29462fe62420a55097389d"
+            }
+          }
+        },
+        "sha256": "2d0cc771c1264e2509f408839c2676caac8dfb18127b6c2a01552eb915913e8a",
+        "reviewed_at": "2026-10-20T19:13:46.899198+00:00",
+        "operation_id": "1e1b296680d3b91eec39f43f6a8491b2b51d136d27274f6988e7a6e9bbdbf389"
       }
     ]
   }
