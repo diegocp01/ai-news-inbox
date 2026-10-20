@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 545,
-  "updated_at": "2026-10-20T19:03:12.009665+00:00",
+  "generation": 546,
+  "updated_at": "2026-10-20T19:03:12.474027+00:00",
   "next_id": 180,
   "records": [
     {
@@ -22251,6 +22251,18 @@
         ],
         "duplicates": []
       }
+    },
+    "612e92d217475fe20ee6528269e840559b230445f3b0c5c214e548fcab39a153": {
+      "sha256": "9ddd89db7861f5d2344c0e5f616be4f407586b24c71c721f95d17c6d33bf3652",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 179,
+          "revision": 1,
+          "sha256": "95c199b30074a5fd5910006416c74e09b06680df514dbfbeb7b9d17ae5365566"
+        },
+        "editorial_sha256": "418675ee768644ccdcc6e2ec3c8b701f813d56c13639f44479e978177d967d80"
+      }
     }
   },
   "migration": {
@@ -28207,6 +28219,26 @@
         "sha256": "b2275863aa34dd5f3ce0d9c92ce93c0fd8e8e54fe56de532bb6d52cc94747f7a",
         "reviewed_at": "2026-10-20T18:37:06.461691+00:00",
         "operation_id": "fd13ff1a4cc1528c9041eb297e37dc5a2382bbdcf67f55ec83135411ce0d82a8"
+      }
+    ],
+    "179:1": [
+      {
+        "reference": {
+          "id": 179,
+          "revision": 1,
+          "sha256": "95c199b30074a5fd5910006416c74e09b06680df514dbfbeb7b9d17ae5365566"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business acquisition news about OpenAI entering life sciences, not technical research or a developer tool.",
+            "evidence_sha256": "257451c03f73ac77793aa47c3b8af98019a7bcc53aaf7641ac610a488d10594b"
+          }
+        },
+        "sha256": "418675ee768644ccdcc6e2ec3c8b701f813d56c13639f44479e978177d967d80",
+        "reviewed_at": "2026-10-20T19:03:12.474027+00:00",
+        "operation_id": "612e92d217475fe20ee6528269e840559b230445f3b0c5c214e548fcab39a153"
       }
     ]
   }
