@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 522,
-  "updated_at": "2026-10-20T11:41:02.064439+00:00",
+  "generation": 525,
+  "updated_at": "2026-10-20T12:03:43.019273+00:00",
   "next_id": 175,
   "records": [
     {
@@ -21279,6 +21279,42 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-compile-backfill-20261020-172": {
+      "sha256": "9b6b646882cfa1d1c08e6666d51f45b1439ff8374d46951f37615355b1aa6917",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 172,
+          "revision": 1,
+          "sha256": "c0c2c48d64d3a2e188d3c72cabf5272334b2e879db6a2ab82ba45e6e2e33ba8c"
+        },
+        "editorial_sha256": "8ac004529f02a1f972f331c86f7416629d6cbe2d93958c95fda87001cd30041e"
+      }
+    },
+    "muse-compile-backfill-20261020-173": {
+      "sha256": "103d7625e88798321b7f694e726603b669c29e68bbed2cf87312f4dd0d725566",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 173,
+          "revision": 1,
+          "sha256": "71635ec4b2219c5024d46d43a4ed8f8d57eacb197855829ed07c648e3a739644"
+        },
+        "editorial_sha256": "685b42b33756e96920fde0c4037a7637061a22dddf14a95e0b8b74301b7c9387"
+      }
+    },
+    "muse-compile-backfill-20261020-174": {
+      "sha256": "677409ff702908f67cc043dd406cc26ce1c86cfba56fbfe62011d9fea1f062f0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 174,
+          "revision": 1,
+          "sha256": "11380b9c55e1a8238cc803f57306f34a7229c588492d249511016a5fd3d3a97a"
+        },
+        "editorial_sha256": "90560dd0ff90bd29391b645f0e45f8427598353010b0534bedc20bafc10fcf39"
+      }
     }
   },
   "migration": {
@@ -27063,6 +27099,66 @@
         "sha256": "fa089c7743d37b2666c872535afc5c12cee3762368b3e1a1a8b96728d553813d",
         "reviewed_at": "2026-10-19T23:02:55.517689+00:00",
         "operation_id": "2776561c69a3ab21e862f531bd669b85e41173ec313510ed3f05ff9ac2dec032"
+      }
+    ],
+    "172:1": [
+      {
+        "reference": {
+          "id": 172,
+          "revision": 1,
+          "sha256": "c0c2c48d64d3a2e188d3c72cabf5272334b2e879db6a2ab82ba45e6e2e33ba8c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic co-founder Jack Clark told the IMF and World Bank annual meetings in Bangkok that AI is beginning to accelerate scientific progress, urging countries to expand laboratory and robotics capacity, strengthen human oversight of AI research, and cooperate on rules to manage the technology's risks. This is AI policy and governance news, not a substantive treatment of data science methods, statistics, model architecture, or engineering. Audience: general. [muse-compile-backfill 2026-10-20: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+            "evidence_sha256": "c0c2c48d64d3a2e188d3c72cabf5272334b2e879db6a2ab82ba45e6e2e33ba8c"
+          }
+        },
+        "sha256": "8ac004529f02a1f972f331c86f7416629d6cbe2d93958c95fda87001cd30041e",
+        "reviewed_at": "2026-10-20T12:03:43.019273+00:00",
+        "operation_id": "muse-compile-backfill-20261020-172"
+      }
+    ],
+    "173:1": [
+      {
+        "reference": {
+          "id": 173,
+          "revision": 1,
+          "sha256": "71635ec4b2219c5024d46d43a4ed8f8d57eacb197855829ed07c648e3a739644"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "NorForge researcher Snorre Fagerland says one hacker used AI agents to breach websites belonging to more than 100 companies after targeting over 1,200 sites; Reuters could not determine whether data was stolen. This is cybersecurity incident news, not a substantive treatment of data science methods, statistics, model architecture, or engineering. Audience: general. [muse-compile-backfill 2026-10-20: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+            "evidence_sha256": "71635ec4b2219c5024d46d43a4ed8f8d57eacb197855829ed07c648e3a739644"
+          }
+        },
+        "sha256": "685b42b33756e96920fde0c4037a7637061a22dddf14a95e0b8b74301b7c9387",
+        "reviewed_at": "2026-10-20T12:03:43.019273+00:00",
+        "operation_id": "muse-compile-backfill-20261020-173"
+      }
+    ],
+    "174:1": [
+      {
+        "reference": {
+          "id": 174,
+          "revision": 1,
+          "sha256": "11380b9c55e1a8238cc803f57306f34a7229c588492d249511016a5fd3d3a97a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Inception launched Mercury 3, a diffusion language model it says matches or exceeds GPT-6 Luna and Claude Haiku 5.5 at four to eight times the generation speed, with early partners using it for tutoring, customer support and web navigation. This is a commercial product-launch announcement without substantive treatment of data science methods, statistics, model architecture, or engineering. Audience: general. [muse-compile-backfill 2026-10-20: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+            "evidence_sha256": "11380b9c55e1a8238cc803f57306f34a7229c588492d249511016a5fd3d3a97a"
+          }
+        },
+        "sha256": "90560dd0ff90bd29391b645f0e45f8427598353010b0534bedc20bafc10fcf39",
+        "reviewed_at": "2026-10-20T12:03:43.019273+00:00",
+        "operation_id": "muse-compile-backfill-20261020-174"
       }
     ]
   }
