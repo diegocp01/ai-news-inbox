@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 521,
-  "updated_at": "2026-10-20T11:34:23.846490+00:00",
-  "next_id": 172,
+  "generation": 522,
+  "updated_at": "2026-10-20T11:41:02.064439+00:00",
+  "next_id": 175,
   "records": [
     {
       "id": 1,
@@ -2276,6 +2276,48 @@
           "source": "Skyfall AI via WebWire",
           "request_id": "b6015a732e34d476664d7eb7564822fba256c00c6cf9779794340d1d3e12132c",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "revisions": [
+        {
+          "created_at": "2026-10-20T11:41:02.064439+00:00",
+          "block": "Title: Jack Clark Urges Governments to Prepare for AI Progress\nURL: https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/\nImage URL: https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/10/bab50107-8241-4342-a473-f546f17cf9a4_1826x1084-cJNAZg.png?fit=1200%2C712&ssl=1\nSummary: Anthropic co-founder Jack Clark told the IMF and World Bank annual meetings in Bangkok that he believes AI is beginning to accelerate scientific progress in a shift he calls the singularity. He urged countries to expand laboratory and robotics capacity, strengthen human oversight of AI research, and cooperate on rules to manage the technology’s risks.",
+          "sha256": "c0c2c48d64d3a2e188d3c72cabf5272334b2e879db6a2ab82ba45e6e2e33ba8c",
+          "source": "jack-clark.net",
+          "request_id": "3873e1ff896b63dcd42709ceb58b92b3cebbc8f0b8b914831602a94827159b7c",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "revisions": [
+        {
+          "created_at": "2026-10-20T11:41:02.064439+00:00",
+          "block": "Title: Researcher Reports AI-Assisted Breaches of Over 100 Company Websites\nURL: https://norforge.com/blog/inside_cairn\nImage URL: https://norforge.com/blog/inside_cairn/images/cover.webp\nSummary: NorForge researcher Snorre Fagerland says one hacker used AI agents to breach websites belonging to more than 100 companies after targeting over 1,200 sites. Reuters could not determine whether data was stolen. Deere reported no indication sensitive information was accessed, SharkNinja said the threat was contained, and Cummins said it was investigating a possible attack on a vendor’s website.",
+          "sha256": "71635ec4b2219c5024d46d43a4ed8f8d57eacb197855829ed07c648e3a739644",
+          "source": "norforge.com",
+          "request_id": "3873e1ff896b63dcd42709ceb58b92b3cebbc8f0b8b914831602a94827159b7c",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "revisions": [
+        {
+          "created_at": "2026-10-20T11:41:02.064439+00:00",
+          "block": "Title: Inception Launches Mercury 3 Diffusion Language Model\nURL: https://finance.yahoo.com/technology/ai/articles/inception-launches-mercury-3-setting-164800350.html\nImage URL: https://framerusercontent.com/images/YO5OXn25zt3KJBJkUxO2kAwmS6o.png?height=1678&lossless=1&width=1364\nSummary: Inception launched Mercury 3, a diffusion language model that generates and refines multiple pieces of text at once. Inception says its tests show performance matching or exceeding GPT-6 Luna and Claude Haiku 5.5, with generation four to eight times faster. The company says early partners use it for tutoring, customer support and web navigation.",
+          "sha256": "11380b9c55e1a8238cc803f57306f34a7229c588492d249511016a5fd3d3a97a",
+          "source": "finance.yahoo.com",
+          "request_id": "3873e1ff896b63dcd42709ceb58b92b3cebbc8f0b8b914831602a94827159b7c",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -5039,14 +5081,32 @@
       ]
     },
     "3873e1ff896b63dcd42709ceb58b92b3cebbc8f0b8b914831602a94827159b7c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-20T11:34:23.846490+00:00",
       "received_sequence": 157,
       "expected_items": 3,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-20T11:41:02.064439+00:00",
+      "records": [
+        {
+          "id": 172,
+          "revision": 1,
+          "sha256": "c0c2c48d64d3a2e188d3c72cabf5272334b2e879db6a2ab82ba45e6e2e33ba8c"
+        },
+        {
+          "id": 173,
+          "revision": 1,
+          "sha256": "71635ec4b2219c5024d46d43a4ed8f8d57eacb197855829ed07c648e3a739644"
+        },
+        {
+          "id": 174,
+          "revision": 1,
+          "sha256": "11380b9c55e1a8238cc803f57306f34a7229c588492d249511016a5fd3d3a97a"
+        }
+      ]
     }
   },
   "batches": {
@@ -21193,6 +21253,31 @@
       "result": {
         "status": "received",
         "request_id": "3873e1ff896b63dcd42709ceb58b92b3cebbc8f0b8b914831602a94827159b7c"
+      }
+    },
+    "1c85acbe8aac29e5fc0d152d4c211b7236730d1d26affbb2c4715fc55a154098": {
+      "sha256": "fcbe860d46024bee7bab82a584391de3bd2167b9ff4ede722efb83ef5ec47fa7",
+      "result": {
+        "status": "finalized",
+        "request_id": "3873e1ff896b63dcd42709ceb58b92b3cebbc8f0b8b914831602a94827159b7c",
+        "records": [
+          {
+            "id": 172,
+            "revision": 1,
+            "sha256": "c0c2c48d64d3a2e188d3c72cabf5272334b2e879db6a2ab82ba45e6e2e33ba8c"
+          },
+          {
+            "id": 173,
+            "revision": 1,
+            "sha256": "71635ec4b2219c5024d46d43a4ed8f8d57eacb197855829ed07c648e3a739644"
+          },
+          {
+            "id": 174,
+            "revision": 1,
+            "sha256": "11380b9c55e1a8238cc803f57306f34a7229c588492d249511016a5fd3d3a97a"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
