@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 541,
-  "updated_at": "2026-10-20T18:37:05.589421+00:00",
-  "next_id": 178,
+  "generation": 542,
+  "updated_at": "2026-10-20T18:37:06.017277+00:00",
+  "next_id": 179,
   "records": [
     {
       "id": 1,
@@ -2356,6 +2356,19 @@
           "sha256": "e5a12e43d56100150656eebc122c044fd6ad7c9bbae6bbfeb5c02f55e3079a69",
           "source": "CNBC",
           "request_id": "c57615804bc1ddfc99d06cd04f54dc52804c673900c1e65840c71b5af1697d17",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "revisions": [
+        {
+          "created_at": "2026-10-20T18:37:06.017277+00:00",
+          "block": "Title: ChatGPT Adds Locked Chats Protected by a PIN or Face ID\nURL:\nImage URL: https://www.androidauthority.com/wp-content/uploads/2026/05/Open-AI-ChatGPT-logo-on-phone-stock-photo-10.jpg\nSummary: OpenAI is rolling out Locked Chats in ChatGPT, letting users move selected conversations out of regular history, pinned chats and search into a protected area. Opening them requires a 4-digit account PIN, or Face ID, Touch ID or device unlock on supported phones. OpenAI says locking adds no end-to-end encryption, and resetting the PIN permanently deletes locked chats.",
+          "sha256": "d82ecd89ddca7531b222e49ddc82fbc607dcdbf581069428e4e8c9ec8bd0eef6",
+          "source": "OpenAI",
+          "request_id": "0fb884230d5588d61909da5af7f45307b3f830df2b8a44af8feb017aa4a3120a",
           "mode": "standard"
         }
       ]
@@ -5217,13 +5230,21 @@
       ]
     },
     "0fb884230d5588d61909da5af7f45307b3f830df2b8a44af8feb017aa4a3120a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-20T18:37:05.589421+00:00",
       "received_sequence": 163,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-20T18:37:06.017277+00:00",
+      "records": [
+        {
+          "id": 178,
+          "revision": 1,
+          "sha256": "d82ecd89ddca7531b222e49ddc82fbc607dcdbf581069428e4e8c9ec8bd0eef6"
+        }
+      ]
     }
   },
   "batches": {
@@ -22150,6 +22171,21 @@
       "result": {
         "status": "received",
         "request_id": "0fb884230d5588d61909da5af7f45307b3f830df2b8a44af8feb017aa4a3120a"
+      }
+    },
+    "49ff761429a832a043c7fbfdf3a81386bbb2c658df54e29948c03e900afa844a": {
+      "sha256": "8e9ea7b4d538141c4a4753e271af8e047855cd4eb6eeaf00050a619b7ca278a1",
+      "result": {
+        "status": "finalized",
+        "request_id": "0fb884230d5588d61909da5af7f45307b3f830df2b8a44af8feb017aa4a3120a",
+        "records": [
+          {
+            "id": 178,
+            "revision": 1,
+            "sha256": "d82ecd89ddca7531b222e49ddc82fbc607dcdbf581069428e4e8c9ec8bd0eef6"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
