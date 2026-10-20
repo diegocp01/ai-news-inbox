@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 544,
-  "updated_at": "2026-10-20T19:03:11.526448+00:00",
-  "next_id": 179,
+  "generation": 545,
+  "updated_at": "2026-10-20T19:03:12.009665+00:00",
+  "next_id": 180,
   "records": [
     {
       "id": 1,
@@ -2369,6 +2369,19 @@
           "sha256": "d82ecd89ddca7531b222e49ddc82fbc607dcdbf581069428e4e8c9ec8bd0eef6",
           "source": "OpenAI",
           "request_id": "0fb884230d5588d61909da5af7f45307b3f830df2b8a44af8feb017aa4a3120a",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "revisions": [
+        {
+          "created_at": "2026-10-20T19:03:12.009665+00:00",
+          "block": "Title: OpenAI Acquires Drug Development AI Startup Orchestra Bio\nURL: https://www.axios.com/2026/10/20/exclusive-openai-biotech-startup-drug-development\nImage URL: https://images.axios.com/sgXLBvv3h-S_89f2H6QAj9JFSS0=/1366x768/smart/2024/12/31/165321-1735664001734.jpg\nSummary: OpenAI has acquired Orchestra Bio, a startup building AI agents that help pharmaceutical and biotech teams manage drug development, Axios reports. OpenAI will fold Orchestra's team and technology into Rosalind, its life sciences models and tools, so agents can monitor studies, track development timelines and flag potential delays. Financial terms were not disclosed.",
+          "sha256": "95c199b30074a5fd5910006416c74e09b06680df514dbfbeb7b9d17ae5365566",
+          "source": "Axios",
+          "request_id": "f4c1197a865988f775d30d9448664cd25ac631079d3d616ae59550465647d863",
           "mode": "standard"
         }
       ]
@@ -5247,13 +5260,21 @@
       ]
     },
     "f4c1197a865988f775d30d9448664cd25ac631079d3d616ae59550465647d863": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-20T19:03:11.526448+00:00",
       "received_sequence": 164,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-20T19:03:12.009665+00:00",
+      "records": [
+        {
+          "id": 179,
+          "revision": 1,
+          "sha256": "95c199b30074a5fd5910006416c74e09b06680df514dbfbeb7b9d17ae5365566"
+        }
+      ]
     }
   },
   "batches": {
@@ -22214,6 +22235,21 @@
       "result": {
         "status": "received",
         "request_id": "f4c1197a865988f775d30d9448664cd25ac631079d3d616ae59550465647d863"
+      }
+    },
+    "e51b6319e2860e52fce92281147b2e4ffa63ee7025d58e45011f7946f1d3ec0b": {
+      "sha256": "57118396396d6c282991dae117a29773e48bda5dedf668b93de66d38558d9b75",
+      "result": {
+        "status": "finalized",
+        "request_id": "f4c1197a865988f775d30d9448664cd25ac631079d3d616ae59550465647d863",
+        "records": [
+          {
+            "id": 179,
+            "revision": 1,
+            "sha256": "95c199b30074a5fd5910006416c74e09b06680df514dbfbeb7b9d17ae5365566"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
