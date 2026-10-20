@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 547,
-  "updated_at": "2026-10-20T19:03:42.209298+00:00",
-  "next_id": 180,
+  "generation": 548,
+  "updated_at": "2026-10-20T19:03:42.680322+00:00",
+  "next_id": 181,
   "records": [
     {
       "id": 1,
@@ -2382,6 +2382,19 @@
           "sha256": "95c199b30074a5fd5910006416c74e09b06680df514dbfbeb7b9d17ae5365566",
           "source": "Axios",
           "request_id": "f4c1197a865988f775d30d9448664cd25ac631079d3d616ae59550465647d863",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "revisions": [
+        {
+          "created_at": "2026-10-20T19:03:42.680322+00:00",
+          "block": "Title: ElevenLabs Launches Eleven Realtime Speech-to-Speech Models\nURL: https://elevenlabs.io/blog/realtime\nImage URL: https://eleven-public-cdn.elevenlabs.io/payloadcms/5xtkc64xukd-Eleven-Realtime_square.webp\nSummary: ElevenLabs launched Eleven Realtime, speech-to-speech models that each work as a complete voice agent in more than 90 languages. v1 Mini targets low-cost natural conversation, while v1 Max handles complex tasks like customer support. In Artificial Analysis tests, v1 Max answered 98.8% of Big Bench Audio questions correctly and started speaking in 0.57 seconds on average.",
+          "sha256": "2e1a68462b3ebb81ef85b3725cbc2b6319146cd664897788a1888e3b4c12e3b6",
+          "source": "ElevenLabs",
+          "request_id": "a83fcb0cb1390d76a7e23084e5b07db210b6b41df47452314deefdb83c050ad5",
           "mode": "standard"
         }
       ]
@@ -5277,13 +5290,21 @@
       ]
     },
     "a83fcb0cb1390d76a7e23084e5b07db210b6b41df47452314deefdb83c050ad5": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-20T19:03:42.209298+00:00",
       "received_sequence": 165,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-20T19:03:42.680322+00:00",
+      "records": [
+        {
+          "id": 180,
+          "revision": 1,
+          "sha256": "2e1a68462b3ebb81ef85b3725cbc2b6319146cd664897788a1888e3b4c12e3b6"
+        }
+      ]
     }
   },
   "batches": {
@@ -22278,6 +22299,21 @@
       "result": {
         "status": "received",
         "request_id": "a83fcb0cb1390d76a7e23084e5b07db210b6b41df47452314deefdb83c050ad5"
+      }
+    },
+    "f93d7fd5cf35913c329dfba9b5c7e2c67b1c5989a3a369d058f3df37a0ea7358": {
+      "sha256": "7c5c6cae78f324d4b192fbda5947643564b5a7223acd79874d7c605cd5f0eef3",
+      "result": {
+        "status": "finalized",
+        "request_id": "a83fcb0cb1390d76a7e23084e5b07db210b6b41df47452314deefdb83c050ad5",
+        "records": [
+          {
+            "id": 180,
+            "revision": 1,
+            "sha256": "2e1a68462b3ebb81ef85b3725cbc2b6319146cd664897788a1888e3b4c12e3b6"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
