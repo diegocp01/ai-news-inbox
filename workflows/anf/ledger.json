@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 552,
-  "updated_at": "2026-10-20T19:07:12.179379+00:00",
+  "generation": 553,
+  "updated_at": "2026-10-20T19:07:12.604517+00:00",
   "next_id": 182,
   "records": [
     {
@@ -22395,6 +22395,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d649667c4ea02c46b6ee1258c87f8b17085ea1141720ab4905578200a5d4df9b": {
+      "sha256": "55c2d18f1e90bcfd98c8f015f967b2511398eb632def2a544f37ec0f8d05afee",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 181,
+          "revision": 1,
+          "sha256": "ae96a1036ba054308e038e35dc666b9845e2fc0d17813bd51e3abf20b4666fec"
+        },
+        "editorial_sha256": "60ab791ed86e8a07dbf7722d2e227c0e90719fc2f395e75cb0ea8f50611c183f"
+      }
     }
   },
   "migration": {
@@ -28391,6 +28403,26 @@
         "sha256": "2b675662893881376e0122f1e8f66716c0b1c81bf78ccc1978cc9dcfdc8c61d5",
         "reviewed_at": "2026-10-20T19:03:43.117825+00:00",
         "operation_id": "32f10318e27c5580531b443360bdeafc9582fa01f738dc52ec40001146a57018"
+      }
+    ],
+    "181:1": [
+      {
+        "reference": {
+          "id": 181,
+          "revision": 1,
+          "sha256": "ae96a1036ba054308e038e35dc666b9845e2fc0d17813bd51e3abf20b4666fec"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer AI assistant product update roundup, not technical research or a developer tool.",
+            "evidence_sha256": "269f4f063e5c4e93375fbc9730bec73bfec6a603e8ae9cd3cee51ba7db4d8875"
+          }
+        },
+        "sha256": "60ab791ed86e8a07dbf7722d2e227c0e90719fc2f395e75cb0ea8f50611c183f",
+        "reviewed_at": "2026-10-20T19:07:12.604517+00:00",
+        "operation_id": "d649667c4ea02c46b6ee1258c87f8b17085ea1141720ab4905578200a5d4df9b"
       }
     ]
   }
