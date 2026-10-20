@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 557,
-  "updated_at": "2026-10-20T19:13:46.899198+00:00",
-  "next_id": 184,
+  "generation": 558,
+  "updated_at": "2026-10-20T19:15:33.605304+00:00",
+  "next_id": 185,
   "records": [
     {
       "id": 1,
@@ -2434,6 +2434,19 @@
           "sha256": "14875a163f5fdb72a7703d35c8c5a2bbef01cefc05106c92ae203b870a9ee34e",
           "source": "Anthropic",
           "request_id": "70541444ae938ef822238e4a7d615c2f96c93408c7556b8ed7a4eb6ad80fbaef",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "revisions": [
+        {
+          "created_at": "2026-10-20T19:15:33.605304+00:00",
+          "block": "Title: AI Learns to Develop More Testable Research Ideas\nURL: https://arxiv.org/abs/2610.23839\nImage URL: https://arxiv.org/html/2610.23839v1/fig1_rsi_real.png\nSummary: A preprint introduces DiscoveryRSI, which combines multiple AI agents with a 27-billion-parameter model trained on research histories. Across four life-science domains, automated hypothesis-quality scores rose from 4.86 to 5.39 after two improvement rounds. Gains centered on testability and feasibility, while novelty declined. The results assess proposed investigations, not independently confirmed discoveries.",
+          "sha256": "b2ff6bb76d5b4dc07608b3d6fa08af3c45dbeef111e68ec9b55094e4b0caf68d",
+          "source": "arXiv",
+          "request_id": "9a74f4490aba33c3ec4d16d37ec9ed553268e427bf7542536525bb82a5ddad7a",
           "mode": "standard"
         }
       ]
@@ -5362,13 +5375,21 @@
       ]
     },
     "9a74f4490aba33c3ec4d16d37ec9ed553268e427bf7542536525bb82a5ddad7a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-20T19:04:37.020770+00:00",
       "received_sequence": 166,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-20T19:15:33.605304+00:00",
+      "records": [
+        {
+          "id": 184,
+          "revision": 1,
+          "sha256": "b2ff6bb76d5b4dc07608b3d6fa08af3c45dbeef111e68ec9b55094e4b0caf68d"
+        }
+      ]
     },
     "44a2f45d153eae80cbbaa7594ae36acaa6e6850708623ee6945dc49422ace9cd": {
       "status": "finalized",
@@ -22502,6 +22523,21 @@
           "sha256": "14875a163f5fdb72a7703d35c8c5a2bbef01cefc05106c92ae203b870a9ee34e"
         },
         "editorial_sha256": "2d0cc771c1264e2509f408839c2676caac8dfb18127b6c2a01552eb915913e8a"
+      }
+    },
+    "22017d740af20de5eb04912fbca25655a94c30316ba1100e2bdc7242f9ed4b0f": {
+      "sha256": "dbc0f07779e05c2b8c9de82dfef951ba54f4537cd663100fed6dd9e293621054",
+      "result": {
+        "status": "finalized",
+        "request_id": "9a74f4490aba33c3ec4d16d37ec9ed553268e427bf7542536525bb82a5ddad7a",
+        "records": [
+          {
+            "id": 184,
+            "revision": 1,
+            "sha256": "b2ff6bb76d5b4dc07608b3d6fa08af3c45dbeef111e68ec9b55094e4b0caf68d"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
