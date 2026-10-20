@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 555,
-  "updated_at": "2026-10-20T19:10:23.794784+00:00",
-  "next_id": 183,
+  "generation": 556,
+  "updated_at": "2026-10-20T19:12:36.821886+00:00",
+  "next_id": 184,
   "records": [
     {
       "id": 1,
@@ -2421,6 +2421,19 @@
           "sha256": "84f9399f5d79e07010abcd57bf9b78bee9df60a35aa47fe3eb06ca587ad64976",
           "source": "Rise Productive",
           "request_id": "a335648d1c166b15a05273022c2222fdf5315c3ff986d91b140bbe03151d0a83",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "revisions": [
+        {
+          "created_at": "2026-10-20T19:12:36.821886+00:00",
+          "block": "Title: Anthropic Reports Claude-Designed Binders for Scorpion Toxins\nURL: https://www.anthropic.com/research/claude-scorpion-toxin-binder-design\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg\nSummary: Anthropic says an internal Claude research model designed proteins targeting scorpion neurotoxins. Laboratory testing found that 17 of 211 candidates met its binding criteria. The work explores AI-assisted discovery for neglected diseases, but the proteins have not been shown to neutralize venom or protect living animals, so this is not an antivenom.",
+          "sha256": "14875a163f5fdb72a7703d35c8c5a2bbef01cefc05106c92ae203b870a9ee34e",
+          "source": "Anthropic",
+          "request_id": "70541444ae938ef822238e4a7d615c2f96c93408c7556b8ed7a4eb6ad80fbaef",
           "mode": "standard"
         }
       ]
@@ -5264,13 +5277,21 @@
       ]
     },
     "70541444ae938ef822238e4a7d615c2f96c93408c7556b8ed7a4eb6ad80fbaef": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-20T18:07:06.173546+00:00",
       "received_sequence": 161,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-20T19:12:36.821886+00:00",
+      "records": [
+        {
+          "id": 183,
+          "revision": 1,
+          "sha256": "14875a163f5fdb72a7703d35c8c5a2bbef01cefc05106c92ae203b870a9ee34e"
+        }
+      ]
     },
     "c57615804bc1ddfc99d06cd04f54dc52804c673900c1e65840c71b5af1697d17": {
       "status": "finalized",
@@ -22454,6 +22475,21 @@
           "sha256": "84f9399f5d79e07010abcd57bf9b78bee9df60a35aa47fe3eb06ca587ad64976"
         },
         "editorial_sha256": "1336c8cf05c768579925f311531b9b47f9153a12700ca9f3083e3fea593b7595"
+      }
+    },
+    "229472c7379f53ab43a0538656955b85a16b33f1320bd37986b333548d412587": {
+      "sha256": "a25f6f1c29c1b103ca474d616f0597d6da866b2c51e9149905e8a12459371c67",
+      "result": {
+        "status": "finalized",
+        "request_id": "70541444ae938ef822238e4a7d615c2f96c93408c7556b8ed7a4eb6ad80fbaef",
+        "records": [
+          {
+            "id": 183,
+            "revision": 1,
+            "sha256": "14875a163f5fdb72a7703d35c8c5a2bbef01cefc05106c92ae203b870a9ee34e"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
