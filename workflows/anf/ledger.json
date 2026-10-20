@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 538,
-  "updated_at": "2026-10-20T18:37:04.102588+00:00",
-  "next_id": 177,
+  "generation": 539,
+  "updated_at": "2026-10-20T18:37:04.628814+00:00",
+  "next_id": 178,
   "records": [
     {
       "id": 1,
@@ -2343,6 +2343,19 @@
           "sha256": "617cfbec94796804eb7143dc07ee974aa4093c352449dd1b154be6ed1188ea15",
           "source": "DeepSeek",
           "request_id": "ea167b7c5cc260d6cba0d01511ffbbfcd7cb2dbba023ce780812fe7f5632ff83",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "revisions": [
+        {
+          "created_at": "2026-10-20T18:37:04.628814+00:00",
+          "block": "Title: Ex-OpenAI Research Chief's Manufacturing AI Startup Arda Valued at $1.5 Billion\nURL: https://www.cnbc.com/2026/10/20/ex-openai-executive-builds-1point5-billion-ai-manufacturing-startup-arda.html\nImage URL: https://image.cnbcfm.com/api/v1/image/107234139-1683045666002-gettyimages-1393983549-_dsc1598-denoiseai-standard.jpeg?v=1683122081&w=1920&h=1080\nSummary: Former OpenAI research chief Bob McGrew's startup Arda raised $230 million at a $1.5 billion valuation, led by Altimeter, Accel and Khosla Ventures, CNBC reports. Arda builds an AI agent and interface that helps manufacturing engineers set up assembly lines faster. Its models are already deployed with Anduril, and McGrew says robotics is next.",
+          "sha256": "e5a12e43d56100150656eebc122c044fd6ad7c9bbae6bbfeb5c02f55e3079a69",
+          "source": "CNBC",
+          "request_id": "c57615804bc1ddfc99d06cd04f54dc52804c673900c1e65840c71b5af1697d17",
           "mode": "standard"
         }
       ]
@@ -5187,13 +5200,21 @@
       "corrects_record_id": null
     },
     "c57615804bc1ddfc99d06cd04f54dc52804c673900c1e65840c71b5af1697d17": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-20T18:37:04.102588+00:00",
       "received_sequence": 162,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-20T18:37:04.628814+00:00",
+      "records": [
+        {
+          "id": 177,
+          "revision": 1,
+          "sha256": "e5a12e43d56100150656eebc122c044fd6ad7c9bbae6bbfeb5c02f55e3079a69"
+        }
+      ]
     }
   },
   "batches": {
@@ -22086,6 +22107,21 @@
       "result": {
         "status": "received",
         "request_id": "c57615804bc1ddfc99d06cd04f54dc52804c673900c1e65840c71b5af1697d17"
+      }
+    },
+    "7bb03281f7af9d69b75a2fda8e54af844759cfe68a67ae73a2d52f8355e47219": {
+      "sha256": "cb26d85cb9fa76348e4af35aed99e4545693def4f5e7cf68d781857112210c55",
+      "result": {
+        "status": "finalized",
+        "request_id": "c57615804bc1ddfc99d06cd04f54dc52804c673900c1e65840c71b5af1697d17",
+        "records": [
+          {
+            "id": 177,
+            "revision": 1,
+            "sha256": "e5a12e43d56100150656eebc122c044fd6ad7c9bbae6bbfeb5c02f55e3079a69"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
