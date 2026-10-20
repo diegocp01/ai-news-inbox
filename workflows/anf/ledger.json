@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 558,
-  "updated_at": "2026-10-20T19:15:33.605304+00:00",
+  "generation": 559,
+  "updated_at": "2026-10-20T19:16:47.581313+00:00",
   "next_id": 185,
   "records": [
     {
@@ -22539,6 +22539,18 @@
         ],
         "duplicates": []
       }
+    },
+    "597a4125f3afd851189365ae2cd392a77c51a9ee5c88b45cc95506a91c1f92e7": {
+      "sha256": "05b87542f795f4c4315828499df23961df3fce2f9dbb094e72d381a1f8b6370d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 184,
+          "revision": 1,
+          "sha256": "b2ff6bb76d5b4dc07608b3d6fa08af3c45dbeef111e68ec9b55094e4b0caf68d"
+        },
+        "editorial_sha256": "048e729987ac584d38edb85522f733b275bb7ac8ed3c9a3ca08e4fd0df9d1018"
+      }
     }
   },
   "migration": {
@@ -28659,6 +28671,58 @@
         "sha256": "2d0cc771c1264e2509f408839c2676caac8dfb18127b6c2a01552eb915913e8a",
         "reviewed_at": "2026-10-20T19:13:46.899198+00:00",
         "operation_id": "1e1b296680d3b91eec39f43f6a8491b2b51d136d27274f6988e7a6e9bbdbf389"
+      }
+    ],
+    "184:1": [
+      {
+        "reference": {
+          "id": 184,
+          "revision": 1,
+          "sha256": "b2ff6bb76d5b4dc07608b3d6fa08af3c45dbeef111e68ec9b55094e4b0caf68d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The paper introduces and evaluates a multi-agent research method, trained 27B model, and scientific-hypothesis benchmark for researchers.",
+            "evidence_sha256": "6cc86afa78376836d1bade064f6497d7c96b6716b2641f655d37d80a23c563ed"
+          },
+          "quality": {
+            "article": {
+              "url": "https://arxiv.org/abs/2610.23839",
+              "final_url": "https://arxiv.org/abs/2610.23839",
+              "redirect_chain": [
+                "https://arxiv.org/abs/2610.23839"
+              ],
+              "checked_at": "2026-10-20T19:08:16.288832+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "6cc86afa78376836d1bade064f6497d7c96b6716b2641f655d37d80a23c563ed"
+            },
+            "image": {
+              "url": "https://arxiv.org/html/2610.23839v1/fig1_rsi_real.png",
+              "final_url": "https://arxiv.org/html/2610.23839v1/fig1_rsi_real.png",
+              "redirect_chain": [
+                "https://arxiv.org/html/2610.23839v1/fig1_rsi_real.png"
+              ],
+              "checked_at": "2026-10-20T19:08:26.282645+00:00",
+              "content_type": "image/png",
+              "width": 851,
+              "height": 581,
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "image_bytes_sha256": "d9e919a1d0fff1455ad2f892a0640f4b20953f54d0ea5745dcdd2d7e2f08beac",
+              "relevance": "story_specific",
+              "relevance_note": "Inspected the actual 851x581 Figure 5 PNG. Research trees, score chart, domain bars and score matrix are legible. It depicts the precise 4.86 to 5.39 improvement and novelty decline summarized here. Compared inspected 823x567 teaser, 680x495 domain process graphic and 980x1213 official method diagram; selected quality-results figure because it directly matches the summary and uses a more suitable landscape layout.",
+              "evidence_sha256": "6cc86afa78376836d1bade064f6497d7c96b6716b2641f655d37d80a23c563ed"
+            }
+          }
+        },
+        "sha256": "048e729987ac584d38edb85522f733b275bb7ac8ed3c9a3ca08e4fd0df9d1018",
+        "reviewed_at": "2026-10-20T19:16:47.581313+00:00",
+        "operation_id": "597a4125f3afd851189365ae2cd392a77c51a9ee5c88b45cc95506a91c1f92e7"
       }
     ]
   }
