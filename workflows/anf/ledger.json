@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 548,
-  "updated_at": "2026-10-20T19:03:42.680322+00:00",
+  "generation": 549,
+  "updated_at": "2026-10-20T19:03:43.117825+00:00",
   "next_id": 181,
   "records": [
     {
@@ -22315,6 +22315,18 @@
         ],
         "duplicates": []
       }
+    },
+    "32f10318e27c5580531b443360bdeafc9582fa01f738dc52ec40001146a57018": {
+      "sha256": "9b15e206684b5030b113c41e593ce2e8311804dc3d363a769a882bb20c86c93b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 180,
+          "revision": 1,
+          "sha256": "2e1a68462b3ebb81ef85b3725cbc2b6319146cd664897788a1888e3b4c12e3b6"
+        },
+        "editorial_sha256": "2b675662893881376e0122f1e8f66716c0b1c81bf78ccc1978cc9dcfdc8c61d5"
+      }
     }
   },
   "migration": {
@@ -28291,6 +28303,26 @@
         "sha256": "418675ee768644ccdcc6e2ec3c8b701f813d56c13639f44479e978177d967d80",
         "reviewed_at": "2026-10-20T19:03:12.474027+00:00",
         "operation_id": "612e92d217475fe20ee6528269e840559b230445f3b0c5c214e548fcab39a153"
+      }
+    ],
+    "180:1": [
+      {
+        "reference": {
+          "id": 180,
+          "revision": 1,
+          "sha256": "2e1a68462b3ebb81ef85b3725cbc2b6319146cd664897788a1888e3b4c12e3b6"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Voice AI product launch for a broad audience, not technical research; API compatibility is incidental.",
+            "evidence_sha256": "dd62e98d1c50ae77c520d0243daf20bbd19c044f68398366929f4d6c8b2761c0"
+          }
+        },
+        "sha256": "2b675662893881376e0122f1e8f66716c0b1c81bf78ccc1978cc9dcfdc8c61d5",
+        "reviewed_at": "2026-10-20T19:03:43.117825+00:00",
+        "operation_id": "32f10318e27c5580531b443360bdeafc9582fa01f738dc52ec40001146a57018"
       }
     ]
   }
