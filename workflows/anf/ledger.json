@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 533,
-  "updated_at": "2026-10-20T15:21:07.781147+00:00",
-  "next_id": 176,
+  "generation": 534,
+  "updated_at": "2026-10-20T16:41:21.671124+00:00",
+  "next_id": 177,
   "records": [
     {
       "id": 1,
@@ -2330,6 +2330,19 @@
           "sha256": "029238069e26c444da3fca2b68f42c3378749c03326b37f835fa3cf99a84c718",
           "source": "Anthropic",
           "request_id": "59cc3dd6e50694d3554390d673fb14dd4023be8285734cfe64265fd1242c67a5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "revisions": [
+        {
+          "created_at": "2026-10-20T16:41:21.671124+00:00",
+          "block": "Title: DeepSeek Shares Software for Running AI More Efficiently\nURL: https://github.com/deepseek-ai/DeepInfer\nImage URL: https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/doc/images/architecture_overview.png\nSummary: DeepSeek open-sourced DeepInfer, the inference framework behind its V4.1-Flash services, under Apache 2.0. The release supports offline inference on NVIDIA GPUs and Huawei Ascend chips, with optimized processing, parallel execution and structured outputs. A complete online service still requires additional caching and load-balancing infrastructure.",
+          "sha256": "617cfbec94796804eb7143dc07ee974aa4093c352449dd1b154be6ed1188ea15",
+          "source": "DeepSeek",
+          "request_id": "ea167b7c5cc260d6cba0d01511ffbbfcd7cb2dbba023ce780812fe7f5632ff83",
           "mode": "standard"
         }
       ]
@@ -5139,13 +5152,21 @@
       ]
     },
     "ea167b7c5cc260d6cba0d01511ffbbfcd7cb2dbba023ce780812fe7f5632ff83": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-20T15:21:07.781147+00:00",
       "received_sequence": 159,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-20T16:41:21.671124+00:00",
+      "records": [
+        {
+          "id": 176,
+          "revision": 1,
+          "sha256": "617cfbec94796804eb7143dc07ee974aa4093c352449dd1b154be6ed1188ea15"
+        }
+      ]
     }
   },
   "batches": {
@@ -21990,6 +22011,21 @@
       "result": {
         "status": "received",
         "request_id": "ea167b7c5cc260d6cba0d01511ffbbfcd7cb2dbba023ce780812fe7f5632ff83"
+      }
+    },
+    "c0359101ea07b10bab64eb7199815298dc1866cb18fcdf1625159832aa9b55a4": {
+      "sha256": "aaf7aa0ad45746a6cdd470d35dd2d8f597a912846e989c9fba67f8815828ac26",
+      "result": {
+        "status": "finalized",
+        "request_id": "ea167b7c5cc260d6cba0d01511ffbbfcd7cb2dbba023ce780812fe7f5632ff83",
+        "records": [
+          {
+            "id": 176,
+            "revision": 1,
+            "sha256": "617cfbec94796804eb7143dc07ee974aa4093c352449dd1b154be6ed1188ea15"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
