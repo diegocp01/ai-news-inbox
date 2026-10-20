@@ -1,0 +1,75 @@
+Title: MiniMax Launches Faster, Lower-Cost AI Model
+URL: https://www.minimax.io/blog/minimax-m31f
+Image URL: https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp
+Summary: MiniMax launched M3.1 Flash, identifying Space Bunny as an earlier version. The company claims nearly threefold faster inference and 70% lower agent-task costs than its predecessor. API pricing is $0.15 per million input tokens, $0.60 output and $0.015 cached input. Access includes M Plan and MiniMax Code; model weights are planned for later release.
+
+Title: AI Safety Researcher Plans Return to OpenAI
+URL: 
+Image URL: https://news.mit.edu/sites/default/files/images/202003/MIT-Alexander-Madry-01.jpg
+Summary: Aleksander Madry says he is returning to OpenAI a few months after leaving. He says advances in AI have made safety and security a central priority, shifting his focus from making AI more useful to addressing the risks of increasingly capable systems.
+
+Title: Inception Releases Mercury 3 for Real-Time AI Applications
+URL: https://www.businesswire.com/news/home/20261019090400/en/Inception-Launches-Mercury-3-Setting-a-New-Pareto-Frontier-in-Speed-and-Intelligence
+Image URL: https://framerusercontent.com/images/Zgp1I1AaILVgkXF4Xlk7iImaE.png?width=1200&height=630
+Summary: Inception released Mercury 3, a diffusion language model with a one-million-token context window. The company reports speeds above 1,000 tokens per second and benchmark gains over GPT-6 Luna and Claude Haiku 5.5. It is available through Inception, Baseten, OpenRouter and Vercel, with launch pricing of $0.10 per million input tokens and $0.35 per million output tokens.
+
+Title: Anthropic Reportedly Prepares More Intuitive AI
+URL: https://www.theinformation.com/newsletters/ai-agenda/anthropic-readies-model-reads-users-intentions-better
+Image URL: https://static.cryptobriefing.com/wp-content/uploads/2026/10/19100431/library-anthropic-readies-model-that-reads-users-intentions-bett-1-800x450.png
+Summary: The Information says an unreleased Anthropic model better understands vague requests and reasons creatively, citing an early user.
+
+Title: ChatGPT Slides Adds Real-Time Collaboration and Direct Editing
+URL: https://techjournal.org/chatgpt-slides-space
+Image URL: https://images.ctfassets.net/8su2tbn87fck/1NqIQS728K5dUYceszdlQV/c84a4c845a72055da8d191e11ca0fd9e/chatgpt-slides-hero.png?w=1200&q=80&fm=webp
+Summary: ChatGPT Slides lets teams edit presentations together, leave comments and ask ChatGPT or a dot to apply feedback. Users can directly change text, charts, images and shapes, then present in ChatGPT or export to PowerPoint or Google Slides. The feature is available on Pro, Business and Enterprise plans.
+
+Title: AI Helps Scientists Find Materials by Reading Atomic Structures
+URL: https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018
+Image URL: https://news.mit.edu/sites/default/files/images/202610/MIT-Synthetic-Narratives-01-press.jpg
+Summary: MIT researchers built an AI model that connects 3D crystal structures with written descriptions to find materials with requested properties. In tests, it outperformed text-only approaches and retrieved promising solid-state battery electrolyte candidates already identified by other research. The method could help scientists search for useful materials, rather than relying only on published descriptions.
+ds: true
+
+Title: Cua Lets Developers Run AI Agents on Their Own Computers
+URL: https://github.com/trycua/cua
+Image URL: https://opengraph.githubassets.com/72010098aaaa223ce7c9913821bf49c4d1a4006b0d25934cf0de9027183eecec/trycua/cua
+Summary: Cua introduced its Spaces SDK for running agents such as Claude Code and Codex on computers developers choose, including their own machines and cloud accounts. Developers can create desktops, run agent jobs and watch or intervene in their work. The toolkit supports multiple programming languages; Spaces components use a source-available license.
+ds: true
+
+Title: Sunra Connects Creative AI Models to Claude and ChatGPT
+URL: 
+Image URL: https://opengraph.githubassets.com/2a6f97905703da706356f236bf1c4b50d2ef33a23e6f0ddb3c482e503857831f/sunra-ai/sunra-clients
+Summary: Sunra launched an MCP connector that lets Claude, ChatGPT and coding assistants generate images, video, audio and 3D models. Sunra says models are offered at their makers’ API prices without added markup. One Sunra balance covers the connected assistant and its web app, with setup options for Claude Code, Codex and Cursor.
+ds: true
+
+Title: OpenAI Improves AI Coding for Older Programming Languages
+URL: https://github.com/openai/MultiLangBench
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/1wQpFFie9sKfVWvApPYyn5/db28adb6a2dfdfdef39fb548fca8913d/low_resource_programming__SEO_Card__3_.png?w=1600&h=900&fit=fill
+Summary: OpenAI reports stronger coding results in languages such as COBOL and Fortran. GPT-6 Astra passed 87.4% of tests across 20 languages in its database-building benchmark. GPT-6.1 Sol reached 97.9% accuracy on a separate COBOL migration evaluation at higher reasoning effort. OpenAI released the database benchmark, while stressing that production migrations still need expert review and testing.
+ds: true
+
+Title: Skyfall Previews AI That Turns Sketches Into 3D Designs
+URL: https://www.webwire.com/ViewPressRel.asp?aId=363053
+Image URL: https://photos.webwire.com/prmedia/81468/363053/363053-1.png
+Summary: Skyfall AI previewed SKY-001, a model that turns text or 2D sketches into step-by-step 3D designs for engineering software. It breaks designs into parts and plans how they fit together. Skyfall reports 51-times faster generation and 150-times lower cost than GPT-6 Astra on its CAD test. Commercial release is targeted for early 2027.
+ds: true
+
+Title: Jack Clark Urges Governments to Prepare for AI Progress
+URL: https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/
+Image URL: https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/10/bab50107-8241-4342-a473-f546f17cf9a4_1826x1084-cJNAZg.png?fit=1200%2C712&ssl=1
+Summary: Anthropic co-founder Jack Clark told the IMF and World Bank annual meetings in Bangkok that he believes AI is beginning to accelerate scientific progress in a shift he calls the singularity. He urged countries to expand laboratory and robotics capacity, strengthen human oversight of AI research, and cooperate on rules to manage the technology’s risks.
+
+Title: Researcher Reports AI-Assisted Breaches of Over 100 Company Websites
+URL: https://norforge.com/blog/inside_cairn
+Image URL: https://norforge.com/blog/inside_cairn/images/cover.webp
+Summary: NorForge researcher Snorre Fagerland says one hacker used AI agents to breach websites belonging to more than 100 companies after targeting over 1,200 sites. Reuters could not determine whether data was stolen. Deere reported no indication sensitive information was accessed, SharkNinja said the threat was contained, and Cummins said it was investigating a possible attack on a vendor’s website.
+
+Title: Inception Launches Mercury 3 Diffusion Language Model
+URL: https://finance.yahoo.com/technology/ai/articles/inception-launches-mercury-3-setting-164800350.html
+Image URL: https://framerusercontent.com/images/YO5OXn25zt3KJBJkUxO2kAwmS6o.png?height=1678&lossless=1&width=1364
+Summary: Inception launched Mercury 3, a diffusion language model that generates and refines multiple pieces of text at once. Inception says its tests show performance matching or exceeding GPT-6 Luna and Claude Haiku 5.5, with generation four to eight times faster. The company says early partners use it for tutoring, customer support and web navigation.
+
+
+
+
+
+.

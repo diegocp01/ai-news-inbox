@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 527,
-  "updated_at": "2026-10-20T12:07:31.958759+00:00",
+  "generation": 528,
+  "updated_at": "2026-10-20T12:07:44.102149+00:00",
   "next_id": 175,
   "records": [
     {
@@ -10290,9 +10290,264 @@
       },
       "acknowledged_at": "2026-10-20T12:07:31.958759+00:00",
       "checkpoint_after": 161
+    },
+    "f15eaeee392d4eb491b2d996": {
+      "batch_id": "f15eaeee392d4eb491b2d996",
+      "status": "prepared",
+      "checkpoint_before": 161,
+      "prepared_at": "2026-10-20T12:07:44.102149+00:00",
+      "intake_cutoff": 157,
+      "records": [
+        {
+          "id": 162,
+          "revision": 1,
+          "sha256": "6020672743fd1d714f1b2fff121177208bef2cf773fac383c04c045fac1602da"
+        },
+        {
+          "id": 163,
+          "revision": 1,
+          "sha256": "12d16fcf59e944925d25bace1fe7a9d0ca9fce6d718f882688bcc570f5ef4e3d"
+        },
+        {
+          "id": 164,
+          "revision": 1,
+          "sha256": "af4852280db19cbc6f97b8962eb93c204946c80938705bac3b2b67d301e2a3a0"
+        },
+        {
+          "id": 165,
+          "revision": 1,
+          "sha256": "3efbe6307095f184816842e8bb2967a20da9049a68349e743f46c0a3dd095f6c"
+        },
+        {
+          "id": 166,
+          "revision": 1,
+          "sha256": "339fb9cace925a1a1456dbcf3978f9650812e8a446d9764c71f36bd4e3616564"
+        },
+        {
+          "id": 167,
+          "revision": 1,
+          "sha256": "68ee0644d0c05cf41ceb9fe0c5396f81125d80e951d0af898be9be92c66b37bb"
+        },
+        {
+          "id": 168,
+          "revision": 1,
+          "sha256": "a49c5db01300248ead0abc87821c94ecaf7fddaf0925b85c678466887d1419cf"
+        },
+        {
+          "id": 169,
+          "revision": 1,
+          "sha256": "ffee24d66da418e36b745f068768ae89239954e953b95b9f4d5fc13a9a528e26"
+        },
+        {
+          "id": 170,
+          "revision": 1,
+          "sha256": "953fd79d5814c2878c2f0c158a255576fe31ab682d59cfebfe39a1d3ae43c7be"
+        },
+        {
+          "id": 171,
+          "revision": 1,
+          "sha256": "31d89b9b607cc9206d514e05db5552aeab57413372eaf5d1eec9c921e3b981db"
+        },
+        {
+          "id": 172,
+          "revision": 1,
+          "sha256": "c0c2c48d64d3a2e188d3c72cabf5272334b2e879db6a2ab82ba45e6e2e33ba8c"
+        },
+        {
+          "id": 173,
+          "revision": 1,
+          "sha256": "71635ec4b2219c5024d46d43a4ed8f8d57eacb197855829ed07c648e3a739644"
+        },
+        {
+          "id": 174,
+          "revision": 1,
+          "sha256": "11380b9c55e1a8238cc803f57306f34a7229c588492d249511016a5fd3d3a97a"
+        }
+      ],
+      "first_id": 162,
+      "last_id": 174,
+      "count": 13,
+      "txt_path": "workflows/anf/batches/f15eaeee392d4eb491b2d996.txt",
+      "json_path": "workflows/anf/batches/f15eaeee392d4eb491b2d996.json",
+      "txt_sha256": "3f50eb172ce5a12665f3825019290c590249acf987a400b5f14b53866580b99c",
+      "json_sha256": "41af5a8cbceec5458ee86626ee3d2814ff1b4120056722a155d72a4d31ad78f6",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Public model-launch coverage focuses on availability, vendor speed/cost claims and pricing rather than implementation or technical methods.",
+            "evidence_sha256": "43e5f2929b45e46986e2aa295093eb1c7204a3a21e08cb2e06d4a9a2ad0df019"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.minimax.io/blog/minimax-m31f",
+              "final_url": "https://www.minimax.io/blog/minimax-m31f",
+              "redirect_chain": [
+                "https://www.minimax.io/blog/minimax-m31f"
+              ],
+              "checked_at": "2026-10-19T17:58:59.141208+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "b3a83ca9a40fe3cd554aec15b9886beea4d98fde8050793b35ab17ec26896bed"
+            },
+            "image": {
+              "url": "https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp",
+              "final_url": "https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp",
+              "redirect_chain": [
+                "https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp"
+              ],
+              "checked_at": "2026-10-19T17:58:59.141208+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "43e5f2929b45e46986e2aa295093eb1c7204a3a21e08cb2e06d4a9a2ad0df019",
+              "content_type": "image/webp",
+              "width": 900,
+              "height": 383,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "6106b09cb3894f72c7815a93105e3640262c6eeb702d4a642a57c4bd3a415972",
+              "relevance": "story_specific",
+              "relevance_note": "Official launch artwork shows the MiniMax M3.1 flash name and space bunny mascot."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A personnel announcement about returning to OpenAI and prioritizing AI safety, without a technical method, research result, developer tool or implementation.",
+            "evidence_sha256": "fa37f6f9b839f8b6410b0d7106a0d19458552f63fe952face1e1e61728c06799"
+          },
+          "quality": {
+            "article": {
+              "url": "",
+              "status": "blank_no_compliant_source",
+              "checked_at": "2026-10-19T18:00:48.503712+00:00",
+              "evidence_sha256": "fa37f6f9b839f8b6410b0d7106a0d19458552f63fe952face1e1e61728c06799"
+            },
+            "image": {
+              "url": "https://news.mit.edu/sites/default/files/images/202003/MIT-Alexander-Madry-01.jpg",
+              "final_url": "https://news.mit.edu/sites/default/files/images/202003/MIT-Alexander-Madry-01.jpg",
+              "redirect_chain": [
+                "https://news.mit.edu/sites/default/files/images/202003/MIT-Alexander-Madry-01.jpg"
+              ],
+              "checked_at": "2026-10-19T17:58:42Z",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "fa37f6f9b839f8b6410b0d7106a0d19458552f63fe952face1e1e61728c06799",
+              "content_type": "image/jpeg",
+              "width": 948,
+              "height": 632,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "c922be58cdc34bba0b0998773719ba3c0c846cb64bbed258f4bff2488e5512e9",
+              "relevance": "topic_specific",
+              "relevance_note": "Downloaded original bytes and viewed decoded image. Clear landscape photograph of Madry standing beside an indoor wooden staircase wearing a gray sweater. No misleading text, overlays or unrelated subjects.",
+              "story_specific_available": false,
+              "fallback_reason": "The verified current announcement is text-only, with no attached story image; no current-event compliant coverage was found. Official MIT portrait directly depicts the person in this personnel story. Compared personal MIT site portrait (300x353), MIT 2018 portrait and OG (400x400 and 400x301), and CSAIL thumbnails (200x200), which fail the minimum width. Selected this higher-resolution official 2020 portrait instead."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This item is public model-release news; API availability and token pricing are launch details rather than substantive developer implementation guidance.",
+            "evidence_sha256": "41b1322e863e90461849069d905d67c4142b8257ccec6c204eefc477b18eb513"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Product-news report about an unreleased consumer AI model; no substantive implementation, API, research method or developer instruction. The article body is subscription-locked; the summary is supported by the publisher public post, not unperformed full-article access. A topic-relevant Claude logo fallback was pixel-inspected at 800x450; Chase accessibility is unknown.",
+            "evidence_sha256": "c74028fab51717cef4ab99e47d7f3ad105bba1dda3700639e1eb436f9329b449"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer and workplace presentation feature: real-time deck collaboration, comments, direct editing and exports; no substantive API, implementation or research content. Original post and official product page verified; same-feature article accessible here and official story-specific screenshot pixel-inspected at 1200x675. Chase access unknown.",
+            "evidence_sha256": "94d4907bed12dc9faf66998bdd8b3f48c10b724113dff6e6eb142064c5c6f2be"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Materials-science research method linking 3D atomic representations and natural language for property-based retrieval.",
+            "evidence_sha256": "27e4c9f133be12cfe57d1efaec7d7c8abda9b808fcba65dcfbb65ffeaef53ebe"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The Spaces SDK provides programmatic computers and agent jobs for developers using their own infrastructure.",
+            "evidence_sha256": "ab017f99f8515c3881a772cb389cfaf2389545e5a931e4de430bc74ddb46d2fc"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The subject is an MCP connector and coding-assistant integration for invoking media-generation models, rather than a general public model launch.",
+            "evidence_sha256": "cb5ad306d02b19e9dbdf7ccdc3d66ccae0df7d393357dcebb7087fe53e0bfff2"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Programming-language benchmark methodology and code-migration research for software developers.",
+            "evidence_sha256": "4dfececa03d2246d9685c22e55d37a28da1846160f3af40ca33ab315a8a9eaab"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Specialized research-preview visual world model with CAD construction sequences and comparative geometric benchmarks, materially aimed at technical researchers and engineering implementation.",
+            "evidence_sha256": "7d2fc30e6a98245f10df969b4deec87b9d79f9371bc543611f60c67067de6d1c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic co-founder Jack Clark told the IMF and World Bank annual meetings in Bangkok that AI is beginning to accelerate scientific progress, urging countries to expand laboratory and robotics capacity, strengthen human oversight of AI research, and cooperate on rules to manage the technology's risks. This is AI policy and governance news, not a substantive treatment of data science methods, statistics, model architecture, or engineering. Audience: general. [muse-compile-backfill 2026-10-20: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+            "evidence_sha256": "c0c2c48d64d3a2e188d3c72cabf5272334b2e879db6a2ab82ba45e6e2e33ba8c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "NorForge researcher Snorre Fagerland says one hacker used AI agents to breach websites belonging to more than 100 companies after targeting over 1,200 sites; Reuters could not determine whether data was stolen. This is cybersecurity incident news, not a substantive treatment of data science methods, statistics, model architecture, or engineering. Audience: general. [muse-compile-backfill 2026-10-20: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+            "evidence_sha256": "71635ec4b2219c5024d46d43a4ed8f8d57eacb197855829ed07c648e3a739644"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Inception launched Mercury 3, a diffusion language model it says matches or exceeds GPT-6 Luna and Claude Haiku 5.5 at four to eight times the generation speed, with early partners using it for tutoring, customer support and web navigation. This is a commercial product-launch announcement without substantive treatment of data science methods, statistics, model architecture, or engineering. Audience: general. [muse-compile-backfill 2026-10-20: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+            "evidence_sha256": "11380b9c55e1a8238cc803f57306f34a7229c588492d249511016a5fd3d3a97a"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-20T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "f15eaeee392d4eb491b2d996",
   "replacement_batch": null,
   "checkpoint": 161,
   "checkpoint_history": [
@@ -21373,6 +21628,268 @@
           "sha256": "ad6367f92fd18aab1cfeeef19dca2d479331fd2eb50208c2c08f802d345d9684",
           "published_at": "2026-10-19T12:28:08.613176+00:00",
           "planned_from_head": "405d0e3875590ba8a9fe5a98094e85acc791c743"
+        }
+      }
+    },
+    "muse-compile-20261020-1207-3327": {
+      "sha256": "b82b67d3ed9738e3e75b4a77b4f8cbf096a08468c17ca6252f6e642f27d00840",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "f15eaeee392d4eb491b2d996",
+          "status": "prepared",
+          "checkpoint_before": 161,
+          "prepared_at": "2026-10-20T12:07:44.102149+00:00",
+          "intake_cutoff": 157,
+          "records": [
+            {
+              "id": 162,
+              "revision": 1,
+              "sha256": "6020672743fd1d714f1b2fff121177208bef2cf773fac383c04c045fac1602da"
+            },
+            {
+              "id": 163,
+              "revision": 1,
+              "sha256": "12d16fcf59e944925d25bace1fe7a9d0ca9fce6d718f882688bcc570f5ef4e3d"
+            },
+            {
+              "id": 164,
+              "revision": 1,
+              "sha256": "af4852280db19cbc6f97b8962eb93c204946c80938705bac3b2b67d301e2a3a0"
+            },
+            {
+              "id": 165,
+              "revision": 1,
+              "sha256": "3efbe6307095f184816842e8bb2967a20da9049a68349e743f46c0a3dd095f6c"
+            },
+            {
+              "id": 166,
+              "revision": 1,
+              "sha256": "339fb9cace925a1a1456dbcf3978f9650812e8a446d9764c71f36bd4e3616564"
+            },
+            {
+              "id": 167,
+              "revision": 1,
+              "sha256": "68ee0644d0c05cf41ceb9fe0c5396f81125d80e951d0af898be9be92c66b37bb"
+            },
+            {
+              "id": 168,
+              "revision": 1,
+              "sha256": "a49c5db01300248ead0abc87821c94ecaf7fddaf0925b85c678466887d1419cf"
+            },
+            {
+              "id": 169,
+              "revision": 1,
+              "sha256": "ffee24d66da418e36b745f068768ae89239954e953b95b9f4d5fc13a9a528e26"
+            },
+            {
+              "id": 170,
+              "revision": 1,
+              "sha256": "953fd79d5814c2878c2f0c158a255576fe31ab682d59cfebfe39a1d3ae43c7be"
+            },
+            {
+              "id": 171,
+              "revision": 1,
+              "sha256": "31d89b9b607cc9206d514e05db5552aeab57413372eaf5d1eec9c921e3b981db"
+            },
+            {
+              "id": 172,
+              "revision": 1,
+              "sha256": "c0c2c48d64d3a2e188d3c72cabf5272334b2e879db6a2ab82ba45e6e2e33ba8c"
+            },
+            {
+              "id": 173,
+              "revision": 1,
+              "sha256": "71635ec4b2219c5024d46d43a4ed8f8d57eacb197855829ed07c648e3a739644"
+            },
+            {
+              "id": 174,
+              "revision": 1,
+              "sha256": "11380b9c55e1a8238cc803f57306f34a7229c588492d249511016a5fd3d3a97a"
+            }
+          ],
+          "first_id": 162,
+          "last_id": 174,
+          "count": 13,
+          "txt_path": "workflows/anf/batches/f15eaeee392d4eb491b2d996.txt",
+          "json_path": "workflows/anf/batches/f15eaeee392d4eb491b2d996.json",
+          "txt_sha256": "3f50eb172ce5a12665f3825019290c590249acf987a400b5f14b53866580b99c",
+          "json_sha256": "41af5a8cbceec5458ee86626ee3d2814ff1b4120056722a155d72a4d31ad78f6",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Public model-launch coverage focuses on availability, vendor speed/cost claims and pricing rather than implementation or technical methods.",
+                "evidence_sha256": "43e5f2929b45e46986e2aa295093eb1c7204a3a21e08cb2e06d4a9a2ad0df019"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.minimax.io/blog/minimax-m31f",
+                  "final_url": "https://www.minimax.io/blog/minimax-m31f",
+                  "redirect_chain": [
+                    "https://www.minimax.io/blog/minimax-m31f"
+                  ],
+                  "checked_at": "2026-10-19T17:58:59.141208+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "b3a83ca9a40fe3cd554aec15b9886beea4d98fde8050793b35ab17ec26896bed"
+                },
+                "image": {
+                  "url": "https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp",
+                  "final_url": "https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp",
+                  "redirect_chain": [
+                    "https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp"
+                  ],
+                  "checked_at": "2026-10-19T17:58:59.141208+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "43e5f2929b45e46986e2aa295093eb1c7204a3a21e08cb2e06d4a9a2ad0df019",
+                  "content_type": "image/webp",
+                  "width": 900,
+                  "height": 383,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "6106b09cb3894f72c7815a93105e3640262c6eeb702d4a642a57c4bd3a415972",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official launch artwork shows the MiniMax M3.1 flash name and space bunny mascot."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A personnel announcement about returning to OpenAI and prioritizing AI safety, without a technical method, research result, developer tool or implementation.",
+                "evidence_sha256": "fa37f6f9b839f8b6410b0d7106a0d19458552f63fe952face1e1e61728c06799"
+              },
+              "quality": {
+                "article": {
+                  "url": "",
+                  "status": "blank_no_compliant_source",
+                  "checked_at": "2026-10-19T18:00:48.503712+00:00",
+                  "evidence_sha256": "fa37f6f9b839f8b6410b0d7106a0d19458552f63fe952face1e1e61728c06799"
+                },
+                "image": {
+                  "url": "https://news.mit.edu/sites/default/files/images/202003/MIT-Alexander-Madry-01.jpg",
+                  "final_url": "https://news.mit.edu/sites/default/files/images/202003/MIT-Alexander-Madry-01.jpg",
+                  "redirect_chain": [
+                    "https://news.mit.edu/sites/default/files/images/202003/MIT-Alexander-Madry-01.jpg"
+                  ],
+                  "checked_at": "2026-10-19T17:58:42Z",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "fa37f6f9b839f8b6410b0d7106a0d19458552f63fe952face1e1e61728c06799",
+                  "content_type": "image/jpeg",
+                  "width": 948,
+                  "height": 632,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "c922be58cdc34bba0b0998773719ba3c0c846cb64bbed258f4bff2488e5512e9",
+                  "relevance": "topic_specific",
+                  "relevance_note": "Downloaded original bytes and viewed decoded image. Clear landscape photograph of Madry standing beside an indoor wooden staircase wearing a gray sweater. No misleading text, overlays or unrelated subjects.",
+                  "story_specific_available": false,
+                  "fallback_reason": "The verified current announcement is text-only, with no attached story image; no current-event compliant coverage was found. Official MIT portrait directly depicts the person in this personnel story. Compared personal MIT site portrait (300x353), MIT 2018 portrait and OG (400x400 and 400x301), and CSAIL thumbnails (200x200), which fail the minimum width. Selected this higher-resolution official 2020 portrait instead."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This item is public model-release news; API availability and token pricing are launch details rather than substantive developer implementation guidance.",
+                "evidence_sha256": "41b1322e863e90461849069d905d67c4142b8257ccec6c204eefc477b18eb513"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Product-news report about an unreleased consumer AI model; no substantive implementation, API, research method or developer instruction. The article body is subscription-locked; the summary is supported by the publisher public post, not unperformed full-article access. A topic-relevant Claude logo fallback was pixel-inspected at 800x450; Chase accessibility is unknown.",
+                "evidence_sha256": "c74028fab51717cef4ab99e47d7f3ad105bba1dda3700639e1eb436f9329b449"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer and workplace presentation feature: real-time deck collaboration, comments, direct editing and exports; no substantive API, implementation or research content. Original post and official product page verified; same-feature article accessible here and official story-specific screenshot pixel-inspected at 1200x675. Chase access unknown.",
+                "evidence_sha256": "94d4907bed12dc9faf66998bdd8b3f48c10b724113dff6e6eb142064c5c6f2be"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Materials-science research method linking 3D atomic representations and natural language for property-based retrieval.",
+                "evidence_sha256": "27e4c9f133be12cfe57d1efaec7d7c8abda9b808fcba65dcfbb65ffeaef53ebe"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "The Spaces SDK provides programmatic computers and agent jobs for developers using their own infrastructure.",
+                "evidence_sha256": "ab017f99f8515c3881a772cb389cfaf2389545e5a931e4de430bc74ddb46d2fc"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "The subject is an MCP connector and coding-assistant integration for invoking media-generation models, rather than a general public model launch.",
+                "evidence_sha256": "cb5ad306d02b19e9dbdf7ccdc3d66ccae0df7d393357dcebb7087fe53e0bfff2"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Programming-language benchmark methodology and code-migration research for software developers.",
+                "evidence_sha256": "4dfececa03d2246d9685c22e55d37a28da1846160f3af40ca33ab315a8a9eaab"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Specialized research-preview visual world model with CAD construction sequences and comparative geometric benchmarks, materially aimed at technical researchers and engineering implementation.",
+                "evidence_sha256": "7d2fc30e6a98245f10df969b4deec87b9d79f9371bc543611f60c67067de6d1c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Anthropic co-founder Jack Clark told the IMF and World Bank annual meetings in Bangkok that AI is beginning to accelerate scientific progress, urging countries to expand laboratory and robotics capacity, strengthen human oversight of AI research, and cooperate on rules to manage the technology's risks. This is AI policy and governance news, not a substantive treatment of data science methods, statistics, model architecture, or engineering. Audience: general. [muse-compile-backfill 2026-10-20: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+                "evidence_sha256": "c0c2c48d64d3a2e188d3c72cabf5272334b2e879db6a2ab82ba45e6e2e33ba8c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "NorForge researcher Snorre Fagerland says one hacker used AI agents to breach websites belonging to more than 100 companies after targeting over 1,200 sites; Reuters could not determine whether data was stolen. This is cybersecurity incident news, not a substantive treatment of data science methods, statistics, model architecture, or engineering. Audience: general. [muse-compile-backfill 2026-10-20: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+                "evidence_sha256": "71635ec4b2219c5024d46d43a4ed8f8d57eacb197855829ed07c648e3a739644"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Inception launched Mercury 3, a diffusion language model it says matches or exceeds GPT-6 Luna and Claude Haiku 5.5 at four to eight times the generation speed, with early partners using it for tutoring, customer support and web navigation. This is a commercial product-launch announcement without substantive treatment of data science methods, statistics, model architecture, or engineering. Audience: general. [muse-compile-backfill 2026-10-20: audience review filled from the article text per Diego's 2026-10-16 never-skip rule; no intake review was present.]",
+                "evidence_sha256": "11380b9c55e1a8238cc803f57306f34a7229c588492d249511016a5fd3d3a97a"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-20T12:00:00+00:00",
+          "deferred_request_ids": []
         }
       }
     }
