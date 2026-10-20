@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 553,
-  "updated_at": "2026-10-20T19:07:12.604517+00:00",
-  "next_id": 182,
+  "generation": 554,
+  "updated_at": "2026-10-20T19:09:07.248311+00:00",
+  "next_id": 183,
   "records": [
     {
       "id": 1,
@@ -2408,6 +2408,19 @@
           "sha256": "ae96a1036ba054308e038e35dc666b9845e2fc0d17813bd51e3abf20b4666fec",
           "source": "Tesla North",
           "request_id": "44a2f45d153eae80cbbaa7594ae36acaa6e6850708623ee6945dc49422ace9cd",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "revisions": [
+        {
+          "created_at": "2026-10-20T19:09:07.248311+00:00",
+          "block": "Title: ChatGPT Helps Teams Automate Recurring Work\nURL: https://www.riseproductive.com/blog/chatgpt-team-tasks-scheduled-event-workflows\nImage URL: https://crkgychaqtyr6rfc.public.blob.vercel-storage.com/rise-openai-chatgpt-team-tasks-launch-primary-og-og-0d8e67abf3f22def.png\nSummary: ChatGPT team tasks let coworkers share recurring workflows, such as weekly engineering updates covering releases and blockers. Tasks run in the cloud on a schedule or supported event, and authorized teammates can review results and revise instructions. The feature is available in Business and Enterprise workspaces, subject to permissions.",
+          "sha256": "84f9399f5d79e07010abcd57bf9b78bee9df60a35aa47fe3eb06ca587ad64976",
+          "source": "Rise Productive",
+          "request_id": "a335648d1c166b15a05273022c2222fdf5315c3ff986d91b140bbe03151d0a83",
           "mode": "standard"
         }
       ]
@@ -5234,13 +5247,21 @@
       ]
     },
     "a335648d1c166b15a05273022c2222fdf5315c3ff986d91b140bbe03151d0a83": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-20T16:44:35.939948+00:00",
       "received_sequence": 160,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-20T19:09:07.248311+00:00",
+      "records": [
+        {
+          "id": 182,
+          "revision": 1,
+          "sha256": "84f9399f5d79e07010abcd57bf9b78bee9df60a35aa47fe3eb06ca587ad64976"
+        }
+      ]
     },
     "70541444ae938ef822238e4a7d615c2f96c93408c7556b8ed7a4eb6ad80fbaef": {
       "status": "received",
@@ -22406,6 +22427,21 @@
           "sha256": "ae96a1036ba054308e038e35dc666b9845e2fc0d17813bd51e3abf20b4666fec"
         },
         "editorial_sha256": "60ab791ed86e8a07dbf7722d2e227c0e90719fc2f395e75cb0ea8f50611c183f"
+      }
+    },
+    "ffae1aa28d2dedb5995705249d6f990888d897e833fe8085922e86b5405d12b3": {
+      "sha256": "c97a2fb2efc52953b488f1e4c61094590e2ecda311ec2c5958ef0a9700d65d57",
+      "result": {
+        "status": "finalized",
+        "request_id": "a335648d1c166b15a05273022c2222fdf5315c3ff986d91b140bbe03151d0a83",
+        "records": [
+          {
+            "id": 182,
+            "revision": 1,
+            "sha256": "84f9399f5d79e07010abcd57bf9b78bee9df60a35aa47fe3eb06ca587ad64976"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
