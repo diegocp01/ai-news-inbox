@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 554,
-  "updated_at": "2026-10-20T19:09:07.248311+00:00",
+  "generation": 555,
+  "updated_at": "2026-10-20T19:10:23.794784+00:00",
   "next_id": 183,
   "records": [
     {
@@ -22443,6 +22443,18 @@
         ],
         "duplicates": []
       }
+    },
+    "06742caf3b3617f3abac7a3c60581bee2b4ad91e9a2a13d979f7fbea44367a0d": {
+      "sha256": "670cb918e9dc107265e7370166312339367cbce00b5ae4369b8e8e4ab9b90166",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 182,
+          "revision": 1,
+          "sha256": "84f9399f5d79e07010abcd57bf9b78bee9df60a35aa47fe3eb06ca587ad64976"
+        },
+        "editorial_sha256": "1336c8cf05c768579925f311531b9b47f9153a12700ca9f3083e3fea593b7595"
+      }
     }
   },
   "migration": {
@@ -28459,6 +28471,58 @@
         "sha256": "60ab791ed86e8a07dbf7722d2e227c0e90719fc2f395e75cb0ea8f50611c183f",
         "reviewed_at": "2026-10-20T19:07:12.604517+00:00",
         "operation_id": "d649667c4ea02c46b6ee1258c87f8b17085ea1141720ab4905578200a5d4df9b"
+      }
+    ],
+    "182:1": [
+      {
+        "reference": {
+          "id": 182,
+          "revision": 1,
+          "sha256": "84f9399f5d79e07010abcd57bf9b78bee9df60a35aa47fe3eb06ca587ad64976"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Shared recurring workplace tasks and team coordination in ChatGPT are general business-productivity features; the engineering update is an example, not API, coding, or research functionality.",
+            "evidence_sha256": "57628b040060217f9d0af2a5766437d3d295d4116f8510c7ecf59118e701ed38"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.riseproductive.com/blog/chatgpt-team-tasks-scheduled-event-workflows",
+              "final_url": "https://www.riseproductive.com/blog/chatgpt-team-tasks-scheduled-event-workflows",
+              "redirect_chain": [
+                "https://www.riseproductive.com/blog/chatgpt-team-tasks-scheduled-event-workflows"
+              ],
+              "checked_at": "2026-10-20T18:31:41.427340+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "4471e3dbd4526c8c2f4e7d9ef3ba2098b7be8e27e6b6716dde403b25313864e9"
+            },
+            "image": {
+              "url": "https://crkgychaqtyr6rfc.public.blob.vercel-storage.com/rise-openai-chatgpt-team-tasks-launch-primary-og-og-0d8e67abf3f22def.png",
+              "final_url": "https://crkgychaqtyr6rfc.public.blob.vercel-storage.com/rise-openai-chatgpt-team-tasks-launch-primary-og-og-0d8e67abf3f22def.png",
+              "redirect_chain": [
+                "https://crkgychaqtyr6rfc.public.blob.vercel-storage.com/rise-openai-chatgpt-team-tasks-launch-primary-og-og-0d8e67abf3f22def.png"
+              ],
+              "checked_at": "2026-10-20T18:07:28.940305+00:00",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Publisher-created illustration for the exact Team Tasks article: scheduled/event cues feed a shared task reviewed by a person. Actual pixels inspected for both 1200x630 and 1600x900 variants; chose complete OG composition. Illustrative artwork, not a product screenshot.",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "4ead6cb65d6b5e89c62bf8a17b642758868f25ac0a123471ac2ac76e024798c1",
+              "image_bytes_sha256": "0d8e67abf3f22def5092673ab41f0a4a714351b700a144a624312be713e8ffd2"
+            }
+          }
+        },
+        "sha256": "1336c8cf05c768579925f311531b9b47f9153a12700ca9f3083e3fea593b7595",
+        "reviewed_at": "2026-10-20T19:10:23.794784+00:00",
+        "operation_id": "06742caf3b3617f3abac7a3c60581bee2b4ad91e9a2a13d979f7fbea44367a0d"
       }
     ]
   }
