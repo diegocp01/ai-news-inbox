@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 542,
-  "updated_at": "2026-10-20T18:37:06.017277+00:00",
+  "generation": 543,
+  "updated_at": "2026-10-20T18:37:06.461691+00:00",
   "next_id": 179,
   "records": [
     {
@@ -22187,6 +22187,18 @@
         ],
         "duplicates": []
       }
+    },
+    "fd13ff1a4cc1528c9041eb297e37dc5a2382bbdcf67f55ec83135411ce0d82a8": {
+      "sha256": "6cacd340d317a7e7d0776209595022c650895632649e34a505c7e422e46c490f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 178,
+          "revision": 1,
+          "sha256": "d82ecd89ddca7531b222e49ddc82fbc607dcdbf581069428e4e8c9ec8bd0eef6"
+        },
+        "editorial_sha256": "b2275863aa34dd5f3ce0d9c92ce93c0fd8e8e54fe56de532bb6d52cc94747f7a"
+      }
     }
   },
   "migration": {
@@ -28123,6 +28135,26 @@
         "sha256": "c150ae1c7c8289784d864efb83be69deb546870d6fa490bb380bff4d60299023",
         "reviewed_at": "2026-10-20T18:37:05.110314+00:00",
         "operation_id": "d46b5c6f4430d2e9a96e2bdc09e845c20c5c3664c5fa78a785421166539c153b"
+      }
+    ],
+    "178:1": [
+      {
+        "reference": {
+          "id": 178,
+          "revision": 1,
+          "sha256": "d82ecd89ddca7531b222e49ddc82fbc607dcdbf581069428e4e8c9ec8bd0eef6"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer ChatGPT privacy feature launch for general users, not technical research or a developer tool.",
+            "evidence_sha256": "1d6267fe7c0e095681b56370665631b925af0956d18b591b4a2db061527f43f8"
+          }
+        },
+        "sha256": "b2275863aa34dd5f3ce0d9c92ce93c0fd8e8e54fe56de532bb6d52cc94747f7a",
+        "reviewed_at": "2026-10-20T18:37:06.461691+00:00",
+        "operation_id": "fd13ff1a4cc1528c9041eb297e37dc5a2382bbdcf67f55ec83135411ce0d82a8"
       }
     ]
   }
