@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 581,
-  "updated_at": "2026-10-21T14:33:43.875005+00:00",
+  "generation": 582,
+  "updated_at": "2026-10-21T14:33:44.354478+00:00",
   "next_id": 192,
   "records": [
     {
@@ -23803,6 +23803,18 @@
         ],
         "duplicates": []
       }
+    },
+    "4f1b3e82fe90e73c29dd2667f5c97d8ccaf708d51da695f283327fef01184655": {
+      "sha256": "2cfbc49912bcbf938a975d796e372e4870513000140980c96562e95c3759b59f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 191,
+          "revision": 1,
+          "sha256": "a523fec0627cf707966664c18d0bf09a3f89e430c37d6e882093644cf4bacb15"
+        },
+        "editorial_sha256": "2a0ba09c23690d12f38411b4b6eabb5c59534d80c6c8f7ccc26fa8df370803fc"
+      }
     }
   },
   "migration": {
@@ -30095,6 +30107,26 @@
         "sha256": "e4a5f3589cdbaf548e37d870c26d91e7748970c54acbfbdcffe844c3d5a00fc9",
         "reviewed_at": "2026-10-21T12:14:46.701333+00:00",
         "operation_id": "muse-backfill-20261021-188-4666"
+      }
+    ],
+    "191:1": [
+      {
+        "reference": {
+          "id": 191,
+          "revision": 1,
+          "sha256": "a523fec0627cf707966664c18d0bf09a3f89e430c37d6e882093644cf4bacb15"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Medical AI study coverage for a broad audience, not machine-learning methods research or a developer tool.",
+            "evidence_sha256": "2177fe9090152a0b4d987d91ee6693d6967cd32243ddafc21c76d147c1f706b5"
+          }
+        },
+        "sha256": "2a0ba09c23690d12f38411b4b6eabb5c59534d80c6c8f7ccc26fa8df370803fc",
+        "reviewed_at": "2026-10-21T14:33:44.354478+00:00",
+        "operation_id": "4f1b3e82fe90e73c29dd2667f5c97d8ccaf708d51da695f283327fef01184655"
       }
     ]
   }
