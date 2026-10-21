@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 614,
-  "updated_at": "2026-10-21T20:44:50.554762+00:00",
+  "generation": 615,
+  "updated_at": "2026-10-21T20:44:51.032861+00:00",
   "next_id": 203,
   "records": [
     {
@@ -24507,6 +24507,18 @@
         ],
         "duplicates": []
       }
+    },
+    "61011831c33e3b32c0795282c503551019a94f9ced4b7f413ea4fea12db6a75b": {
+      "sha256": "47cbd277764514178209eafe22f83e7cc82fbd1ff99f836931bbfb0dd858bcc0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 202,
+          "revision": 1,
+          "sha256": "31de67e4f86a910068c8d805e53e160ca12e4975004f43d259e9c5f39ad1c63c"
+        },
+        "editorial_sha256": "e3f837af65bd69e36d208ad027b9037a77413e8cf30553cac029ac4d1f3aa1ea"
+      }
     }
   },
   "migration": {
@@ -31051,6 +31063,26 @@
         "sha256": "f871a21e3fb1600bf95609be43d45b0e1b1a7e03f6c627d40cacff1e13898ae8",
         "reviewed_at": "2026-10-21T19:45:00.912183+00:00",
         "operation_id": "d5352069ff46b74dbac8e8df19df8cf7b02dbdff564e7cad5b951f88901eb1e4"
+      }
+    ],
+    "202:1": [
+      {
+        "reference": {
+          "id": 202,
+          "revision": 1,
+          "sha256": "31de67e4f86a910068c8d805e53e160ca12e4975004f43d259e9c5f39ad1c63c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer assistant product update for a broad audience, not technical research.",
+            "evidence_sha256": "38d950a70c0dc70e331b589cb417d9bfb7b4f59c6abeff8a7819ff4166e65ef4"
+          }
+        },
+        "sha256": "e3f837af65bd69e36d208ad027b9037a77413e8cf30553cac029ac4d1f3aa1ea",
+        "reviewed_at": "2026-10-21T20:44:51.032861+00:00",
+        "operation_id": "61011831c33e3b32c0795282c503551019a94f9ced4b7f413ea4fea12db6a75b"
       }
     ]
   }
