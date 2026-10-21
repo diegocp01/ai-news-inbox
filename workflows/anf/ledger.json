@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 563,
-  "updated_at": "2026-10-21T11:40:09.851841+00:00",
-  "next_id": 186,
+  "generation": 564,
+  "updated_at": "2026-10-21T11:45:53.243906+00:00",
+  "next_id": 189,
   "records": [
     {
       "id": 1,
@@ -2461,6 +2461,48 @@
           "source": "Import AI",
           "request_id": "4ef0980ef8b1719bf29fc363a403d1238ba1ea9fd7322807cd7897819bcb3f81",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T11:45:53.243906+00:00",
+          "block": "Title: Altman Reportedly Discusses Three Approaches to AI Safety\nURL: https://www.theinformation.com/articles/altman-describes-three-endgames-ai-including-one-single-firm-melts-everyone-elses-gpus\nImage URL: https://the-decoder.com/wp-content/uploads/2026/06/openai_Altman.png\nSummary: The Information reports that OpenAI CEO Sam Altman outlined three AI safety scenarios to staff: an international watchdog, a merger of major labs, or one company gaining enough power to deny rivals computing resources. He reportedly opposed the third scenario and said OpenAI should decide within a year which approach to pursue.",
+          "sha256": "a722f3fb92780cfb9dd5682e1644e4431faca522f94fb1f4a7b927151da00d6b",
+          "source": "theinformation.com",
+          "request_id": "34d64b17cd08d932704e3558c590d130f56bb7d3febbc480666064c4057da78c",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T11:45:53.243906+00:00",
+          "block": "Title: Bob McGrew’s Arda Launches AI Software for Manufacturing\nURL: https://www.businesswire.com/news/home/20261020574393/en/Arda-Emerges-from-Stealth-to-Speed-Up-American-Manufacturing\nImage URL: https://media.thenextweb.com/2026/01/2025-30sub30-Cristian-Dina.avif\nSummary: Arda, cofounded by former OpenAI research chief Bob McGrew, emerged from stealth with a $160 million Series A at a $1.5 billion valuation. The company says its AI turns product designs into assembly plans and instructions. Arda reports that customer Anduril cut preparation time for basic work instructions from 10 hours to 15 minutes.",
+          "sha256": "a0ad195ddafe6e3ff065602611876d455e9c4d0c9b7f8b0934c1875806254859",
+          "source": "businesswire.com",
+          "request_id": "34d64b17cd08d932704e3558c590d130f56bb7d3febbc480666064c4057da78c",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T11:45:53.243906+00:00",
+          "block": "Title: Anthropic Reports Claude Protein Designs That Bind Scorpion Toxins\nURL: https://www.anthropic.com/research/claude-scorpion-toxin-binder-design\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg\nSummary: Anthropic says an internal Claude model designed small proteins targeting scorpion toxins in a project with investment research firm Citrini Research. Laboratory testing of 211 designs found 17 met the study’s binding criteria, each for one toxin. The proteins have not been tested to see whether they block toxins or protect animals, so the work has not produced an antivenom.",
+          "sha256": "bfbdc03c4860a953491e3fc0f22dbb17f25e5dfd891da445cadc0ed582228c82",
+          "source": "anthropic.com",
+          "request_id": "34d64b17cd08d932704e3558c590d130f56bb7d3febbc480666064c4057da78c",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -5439,14 +5481,32 @@
       ]
     },
     "34d64b17cd08d932704e3558c590d130f56bb7d3febbc480666064c4057da78c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T11:40:09.851841+00:00",
       "received_sequence": 169,
       "expected_items": 3,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-21T11:45:53.243906+00:00",
+      "records": [
+        {
+          "id": 186,
+          "revision": 1,
+          "sha256": "a722f3fb92780cfb9dd5682e1644e4431faca522f94fb1f4a7b927151da00d6b"
+        },
+        {
+          "id": 187,
+          "revision": 1,
+          "sha256": "a0ad195ddafe6e3ff065602611876d455e9c4d0c9b7f8b0934c1875806254859"
+        },
+        {
+          "id": 188,
+          "revision": 1,
+          "sha256": "bfbdc03c4860a953491e3fc0f22dbb17f25e5dfd891da445cadc0ed582228c82"
+        }
+      ]
     }
   },
   "batches": {
@@ -22631,6 +22691,31 @@
       "result": {
         "status": "received",
         "request_id": "34d64b17cd08d932704e3558c590d130f56bb7d3febbc480666064c4057da78c"
+      }
+    },
+    "0091798c36593a0ccbddfb7dbb9914db83fc4607ea6bdb8fb6fb25fe997e903f": {
+      "sha256": "8aa2d445fe67fcbca0950d4ac897a47540a685b8f4d21d44bfc2ade582a67154",
+      "result": {
+        "status": "finalized",
+        "request_id": "34d64b17cd08d932704e3558c590d130f56bb7d3febbc480666064c4057da78c",
+        "records": [
+          {
+            "id": 186,
+            "revision": 1,
+            "sha256": "a722f3fb92780cfb9dd5682e1644e4431faca522f94fb1f4a7b927151da00d6b"
+          },
+          {
+            "id": 187,
+            "revision": 1,
+            "sha256": "a0ad195ddafe6e3ff065602611876d455e9c4d0c9b7f8b0934c1875806254859"
+          },
+          {
+            "id": 188,
+            "revision": 1,
+            "sha256": "bfbdc03c4860a953491e3fc0f22dbb17f25e5dfd891da445cadc0ed582228c82"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
