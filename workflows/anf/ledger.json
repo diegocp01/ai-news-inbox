@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 607,
-  "updated_at": "2026-10-21T19:38:33.927695+00:00",
-  "next_id": 200,
+  "generation": 608,
+  "updated_at": "2026-10-21T19:38:34.471440+00:00",
+  "next_id": 201,
   "records": [
     {
       "id": 1,
@@ -2645,6 +2645,19 @@
           "sha256": "907f5c7a81d14a34c1990234d59aad307196153510bb4025efc4cda791a1612a",
           "source": "Anthropic",
           "request_id": "68760c0fac80778e482fb7fa194f1de569ee0a5e9c7bb82f92c01fcd89df2b15",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T19:38:34.471440+00:00",
+          "block": "Title: OpenAI Models Come to Google Cloud\nURL: https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers\nImage URL: https://storage.googleapis.com/gweb-cloudblog-publish/images/Open-ai-google-models-hero.max-2500x2500.png\nSummary: OpenAI's GPT-6 Astra, GPT-6.1 Sol and GPT-6 Luna are rolling out in private preview to select enterprise customers in Google Cloud's model garden, billed through Google Cloud Marketplace against existing cloud commitments. General availability is planned in the coming weeks, with OpenAI models coming to Google Antigravity later. OpenAI says Microsoft remains its primary cloud partner.",
+          "sha256": "c76a0518513195889bba19b79c335959018fb9b9b29924b6823628ce4a0f9e7d",
+          "source": "Google Cloud",
+          "request_id": "c683e37e62d3b58802586ee6a6c2e17c11585874830a5217c0148dabede00173",
           "mode": "standard"
         }
       ]
@@ -5839,13 +5852,21 @@
       ]
     },
     "c683e37e62d3b58802586ee6a6c2e17c11585874830a5217c0148dabede00173": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T19:38:33.927695+00:00",
       "received_sequence": 181,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-21T19:38:34.471440+00:00",
+      "records": [
+        {
+          "id": 200,
+          "revision": 1,
+          "sha256": "c76a0518513195889bba19b79c335959018fb9b9b29924b6823628ce4a0f9e7d"
+        }
+      ]
     }
   },
   "batches": {
@@ -24342,6 +24363,21 @@
       "result": {
         "status": "received",
         "request_id": "c683e37e62d3b58802586ee6a6c2e17c11585874830a5217c0148dabede00173"
+      }
+    },
+    "753106ee2e1ee257537eadba4ca7a6bdd0ffd871d37ef306cdf6bbe4b949da51": {
+      "sha256": "62d44a42503117228df753bafeb5b4fc04eb0ed3d6c4f38a04a509df4a6737be",
+      "result": {
+        "status": "finalized",
+        "request_id": "c683e37e62d3b58802586ee6a6c2e17c11585874830a5217c0148dabede00173",
+        "records": [
+          {
+            "id": 200,
+            "revision": 1,
+            "sha256": "c76a0518513195889bba19b79c335959018fb9b9b29924b6823628ce4a0f9e7d"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
