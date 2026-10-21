@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 596,
-  "updated_at": "2026-10-21T15:01:00.293031+00:00",
+  "generation": 597,
+  "updated_at": "2026-10-21T15:02:00.734832+00:00",
   "next_id": 197,
   "records": [
     {
@@ -24123,6 +24123,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2c64a4ab0ce79055df0037e09e352a4bb9dcf350d0398579d7c5114216edb772": {
+      "sha256": "0fcc57744782a8e0a484de5f2cdad5c6a060aa89f2ca78251012b327b873ccea",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 196,
+          "revision": 1,
+          "sha256": "47e8edb15e319af3e385f847b8344bd320ff41730cfcf30f49141cb299a7caa9"
+        },
+        "editorial_sha256": "82676459fc78d5e08580b27089df80708b50e923b160543bae11385f6e960864"
+      }
     }
   },
   "migration": {
@@ -30515,6 +30527,58 @@
         "sha256": "3b40a20cce0594d61c03509642576c26f8494357581902b57c4a181850ebc1d2",
         "reviewed_at": "2026-10-21T14:59:05.814628+00:00",
         "operation_id": "a93f43b5535d2bebbedc800bc9aa100fcaae57ee7d749281de318e371dd77faa"
+      }
+    ],
+    "196:1": [
+      {
+        "reference": {
+          "id": 196,
+          "revision": 1,
+          "sha256": "47e8edb15e319af3e385f847b8344bd320ff41730cfcf30f49141cb299a7caa9"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "Primary report analyzes AI-assisted discovery of critical PHP runtime vulnerabilities and coordinated patching for developers and security operators, not general AI safety commentary.",
+            "evidence_sha256": "8940c7e91640f5a0892a0c3ca1acee552e568464f5d5010b8d83797eddec17e5"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.wiz.io/blog/php2shell-php-rce",
+              "final_url": "https://www.wiz.io/blog/php2shell-php-rce",
+              "redirect_chain": [
+                "https://www.wiz.io/blog/php2shell-php-rce"
+              ],
+              "checked_at": "2026-10-21T14:59:17.990702+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "8940c7e91640f5a0892a0c3ca1acee552e568464f5d5010b8d83797eddec17e5"
+            },
+            "image": {
+              "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s1600/PHP2SHELL.gif",
+              "final_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s1600/PHP2SHELL.gif",
+              "redirect_chain": [
+                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s1600/PHP2SHELL.gif"
+              ],
+              "checked_at": "2026-10-21T15:00:19.478689+00:00",
+              "content_type": "image/gif",
+              "width": 900,
+              "height": 470,
+              "image_bytes_sha256": "ec4f6a9525dac8bd9132f0254433c72a925ef595766bc881b077d3f57743899d",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Decoded and visually inspected 900x470 GIF first frame: clear PHP2SHELL wordmark and Wiz Research demonstration screen. Story-specific PHP2Shell research imagery, not generic decoration. Wiz og:image returned HTTP403; used same-event Hacker News publisher image instead.",
+              "evidence_sha256": "8940c7e91640f5a0892a0c3ca1acee552e568464f5d5010b8d83797eddec17e5"
+            }
+          }
+        },
+        "sha256": "82676459fc78d5e08580b27089df80708b50e923b160543bae11385f6e960864",
+        "reviewed_at": "2026-10-21T15:02:00.734832+00:00",
+        "operation_id": "2c64a4ab0ce79055df0037e09e352a4bb9dcf350d0398579d7c5114216edb772"
       }
     ]
   }
