@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 604,
-  "updated_at": "2026-10-21T18:19:39.375202+00:00",
-  "next_id": 199,
+  "generation": 605,
+  "updated_at": "2026-10-21T18:19:39.915744+00:00",
+  "next_id": 200,
   "records": [
     {
       "id": 1,
@@ -2632,6 +2632,19 @@
           "sha256": "9f5fe331f38918d8464fc08b12f239dfac8c52053f5fd535c956ed5ab7b4dc2e",
           "source": "bioRxiv",
           "request_id": "21e71e9fb7b5e7ebc001925018aff9f66b37a4d4b07564acad80381a52c3edd7",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T18:19:39.915744+00:00",
+          "block": "Title: Claude Security Now Re-Scans Code as It Changes\nURL: https://support.claude.com/en/articles/14661296-use-claude-security\nImage URL: https://assets.claude.com/28485d6f8deb57841d721be1a2a2a28977d627da.jpg?w=1200&h=630&fit=crop\nSummary: Anthropic's Claude Security now scans code continuously. Teams connect up to eight repositories, Claude runs a deep baseline scan, then re-scans new commits based on their risk and complexity and marks findings fixed when the fix lands. The feature is in public beta for Claude Enterprise.",
+          "sha256": "907f5c7a81d14a34c1990234d59aad307196153510bb4025efc4cda791a1612a",
+          "source": "Anthropic",
+          "request_id": "68760c0fac80778e482fb7fa194f1de569ee0a5e9c7bb82f92c01fcd89df2b15",
           "mode": "standard"
         }
       ]
@@ -5809,13 +5822,21 @@
       ]
     },
     "68760c0fac80778e482fb7fa194f1de569ee0a5e9c7bb82f92c01fcd89df2b15": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T18:19:39.375202+00:00",
       "received_sequence": 180,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-21T18:19:39.915744+00:00",
+      "records": [
+        {
+          "id": 199,
+          "revision": 1,
+          "sha256": "907f5c7a81d14a34c1990234d59aad307196153510bb4025efc4cda791a1612a"
+        }
+      ]
     }
   },
   "batches": {
@@ -24278,6 +24299,21 @@
       "result": {
         "status": "received",
         "request_id": "68760c0fac80778e482fb7fa194f1de569ee0a5e9c7bb82f92c01fcd89df2b15"
+      }
+    },
+    "f4b2506e13663d03db831912c5b027be686447b5e8b0c21e687bfd90ae0ff768": {
+      "sha256": "261b0e9362206ce527b61b8a90db842729e505bf066765c3dc983ab7df9c0093",
+      "result": {
+        "status": "finalized",
+        "request_id": "68760c0fac80778e482fb7fa194f1de569ee0a5e9c7bb82f92c01fcd89df2b15",
+        "records": [
+          {
+            "id": 199,
+            "revision": 1,
+            "sha256": "907f5c7a81d14a34c1990234d59aad307196153510bb4025efc4cda791a1612a"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
