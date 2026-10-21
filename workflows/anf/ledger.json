@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 611,
-  "updated_at": "2026-10-21T19:45:00.435374+00:00",
+  "generation": 612,
+  "updated_at": "2026-10-21T19:45:00.912183+00:00",
   "next_id": 202,
   "records": [
     {
@@ -24443,6 +24443,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d5352069ff46b74dbac8e8df19df8cf7b02dbdff564e7cad5b951f88901eb1e4": {
+      "sha256": "16276b84611e6ce75cb59548cfbce32350ace5521052cacc491a41cccaa35827",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 201,
+          "revision": 1,
+          "sha256": "2872f09c0d4d247826da255ab3d5dd06dc26b5a21ee4f4b0e69bb3faa2d03bb1"
+        },
+        "editorial_sha256": "f871a21e3fb1600bf95609be43d45b0e1b1a7e03f6c627d40cacff1e13898ae8"
+      }
     }
   },
   "migration": {
@@ -30967,6 +30979,26 @@
         "sha256": "0579087ab4d94489fe8f4304a2f9181d3dbf96e55eff78e96c86f151c0ebbf5b",
         "reviewed_at": "2026-10-21T19:38:35.015221+00:00",
         "operation_id": "31910d915c8dc9d7d03e8e5be904e18ed006d0f99ee5799b4f0a951f25021ed5"
+      }
+    ],
+    "201:1": [
+      {
+        "reference": {
+          "id": 201,
+          "revision": 1,
+          "sha256": "2872f09c0d4d247826da255ab3d5dd06dc26b5a21ee4f4b0e69bb3faa2d03bb1"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer and professional AI agent app launch for a broad audience, not technical research.",
+            "evidence_sha256": "1ea6dcda14add0889b5f84d35d56844998738382a00620ddf81a1488b7e8c9ca"
+          }
+        },
+        "sha256": "f871a21e3fb1600bf95609be43d45b0e1b1a7e03f6c627d40cacff1e13898ae8",
+        "reviewed_at": "2026-10-21T19:45:00.912183+00:00",
+        "operation_id": "d5352069ff46b74dbac8e8df19df8cf7b02dbdff564e7cad5b951f88901eb1e4"
       }
     ]
   }
