@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 560,
-  "updated_at": "2026-10-21T02:59:17.185355+00:00",
-  "next_id": 185,
+  "generation": 561,
+  "updated_at": "2026-10-21T02:59:17.687368+00:00",
+  "next_id": 186,
   "records": [
     {
       "id": 1,
@@ -2447,6 +2447,19 @@
           "sha256": "b2ff6bb76d5b4dc07608b3d6fa08af3c45dbeef111e68ec9b55094e4b0caf68d",
           "source": "arXiv",
           "request_id": "9a74f4490aba33c3ec4d16d37ec9ed553268e427bf7542536525bb82a5ddad7a",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T02:59:17.687368+00:00",
+          "block": "Title: Anthropic's Jack Clark Tells IMF the Singularity Has Begun\nURL: https://importai.substack.com/p/import-ai-477-in-which-i-tell-the\nImage URL: https://substackcdn.com/image/fetch/$s_!08ie!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbab50107-8241-4342-a473-f546f17cf9a4_1826x1084.png\nSummary: Anthropic co-founder Jack Clark told the IMF's annual meetings in Bangkok that the singularity \"has now begun.\" He said top AI scores on Humanity's Last Exam rose from 8% to 67.7% since early 2025, and FrontierMath from 2% to 94%. He said fast AI diffusion could push US GDP to $44 trillion by 2030 and urged building scientific capacity.",
+          "sha256": "7eb7e567dc786b8c88d5145a18b6c94388d4062627505c875c4ee72dd8d30f94",
+          "source": "Import AI",
+          "request_id": "4ef0980ef8b1719bf29fc363a403d1238ba1ea9fd7322807cd7897819bcb3f81",
           "mode": "standard"
         }
       ]
@@ -5409,13 +5422,21 @@
       ]
     },
     "4ef0980ef8b1719bf29fc363a403d1238ba1ea9fd7322807cd7897819bcb3f81": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T02:59:17.185355+00:00",
       "received_sequence": 168,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-21T02:59:17.687368+00:00",
+      "records": [
+        {
+          "id": 185,
+          "revision": 1,
+          "sha256": "7eb7e567dc786b8c88d5145a18b6c94388d4062627505c875c4ee72dd8d30f94"
+        }
+      ]
     }
   },
   "batches": {
@@ -22566,6 +22587,21 @@
       "result": {
         "status": "received",
         "request_id": "4ef0980ef8b1719bf29fc363a403d1238ba1ea9fd7322807cd7897819bcb3f81"
+      }
+    },
+    "d8586080b94d4da252a2d1153c6f682c575e8e1ffd39dd4ed050e944c8f5b385": {
+      "sha256": "9601b915b7b78c1cf1c45dd48140ca5df48369953e2cbd0a520a8a1c15c18eb1",
+      "result": {
+        "status": "finalized",
+        "request_id": "4ef0980ef8b1719bf29fc363a403d1238ba1ea9fd7322807cd7897819bcb3f81",
+        "records": [
+          {
+            "id": 185,
+            "revision": 1,
+            "sha256": "7eb7e567dc786b8c88d5145a18b6c94388d4062627505c875c4ee72dd8d30f94"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
