@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 590,
-  "updated_at": "2026-10-21T14:48:51.315106+00:00",
+  "generation": 591,
+  "updated_at": "2026-10-21T14:48:51.837021+00:00",
   "next_id": 195,
   "records": [
     {
@@ -23995,6 +23995,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a1500517e68469f2f748dc074a686b143e58b670d4aa585655e98c83b0de2985": {
+      "sha256": "997f39a0573eb5bb968a42e0e4af2282171cd4af3c82007c4c1656b7b7ea4546",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 194,
+          "revision": 1,
+          "sha256": "b64bf4e0f9ab1f63b9d3a82da573813d31ec8a81a8e7451b7feecac2c29d0726"
+        },
+        "editorial_sha256": "818c80bfb439ac80d0cf75fd5f553cef33e7c060290fd0c3c81d69d8bc0a9639"
+      }
     }
   },
   "migration": {
@@ -30347,6 +30359,26 @@
         "sha256": "f4f811e5011f95846274b437fdf03d9119d799ddaa7ef6cdc7659f6921678368",
         "reviewed_at": "2026-10-21T14:48:50.288908+00:00",
         "operation_id": "0b4d59f537724f85e51889a8ad4f59ffafa13c45ea77ef4ff7ace2f20a2c266b"
+      }
+    ],
+    "194:1": [
+      {
+        "reference": {
+          "id": 194,
+          "revision": 1,
+          "sha256": "b64bf4e0f9ab1f63b9d3a82da573813d31ec8a81a8e7451b7feecac2c29d0726"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "AI safety and company-strategy debate for a broad audience, not technical research or a developer tool.",
+            "evidence_sha256": "fc4de0b2292d41b1ef526ab74d6a5fa35329870761cf0767c488108d6cf3ee05"
+          }
+        },
+        "sha256": "818c80bfb439ac80d0cf75fd5f553cef33e7c060290fd0c3c81d69d8bc0a9639",
+        "reviewed_at": "2026-10-21T14:48:51.837021+00:00",
+        "operation_id": "a1500517e68469f2f748dc074a686b143e58b670d4aa585655e98c83b0de2985"
       }
     ]
   }
