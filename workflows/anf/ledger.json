@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 589,
-  "updated_at": "2026-10-21T14:48:50.813894+00:00",
-  "next_id": 194,
+  "generation": 590,
+  "updated_at": "2026-10-21T14:48:51.315106+00:00",
+  "next_id": 195,
   "records": [
     {
       "id": 1,
@@ -2567,6 +2567,19 @@
           "sha256": "466a666a10039a3a89192adbe05971bd5021695b0022e49bb3982d30085fee90",
           "source": "SecurityInfoWatch",
           "request_id": "053e1870dca037286a61d78a7568bd7bb5738f4cad9db73194ff21d1b89e72c8",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T14:48:51.315106+00:00",
+          "block": "Title: Dario Amodei Defends Anthropic's Safety Record Against Critic\nURL: https://thenextweb.com/news/dario-amodei-anthropic-race-to-the-top-nine-safety-decisions\nImage URL: https://media.thenextweb.com/2026/10/dario-amodei-anthropic-logo-phone-screen.jpg\nSummary: Anthropic CEO Dario Amodei answered Encode AI's Nathan Calvin, who argued Anthropic puts winning the AI race ahead of safety. Amodei defended its \"race to the top\" strategy, listing nine commercially costly safety decisions, including withholding Mythos-class models from February to June for cyber safeguards. He conceded three items were handled poorly and said, \"I take responsibility.\"",
+          "sha256": "b64bf4e0f9ab1f63b9d3a82da573813d31ec8a81a8e7451b7feecac2c29d0726",
+          "source": "The Next Web",
+          "request_id": "8f7965462c3af69c7234c5ecbc0021d827ae0eedb2328f9ee735260b79f0d8cb",
           "mode": "standard"
         }
       ]
@@ -5659,13 +5672,21 @@
       ]
     },
     "8f7965462c3af69c7234c5ecbc0021d827ae0eedb2328f9ee735260b79f0d8cb": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T14:48:50.813894+00:00",
       "received_sequence": 175,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-21T14:48:51.315106+00:00",
+      "records": [
+        {
+          "id": 194,
+          "revision": 1,
+          "sha256": "b64bf4e0f9ab1f63b9d3a82da573813d31ec8a81a8e7451b7feecac2c29d0726"
+        }
+      ]
     }
   },
   "batches": {
@@ -23958,6 +23979,21 @@
       "result": {
         "status": "received",
         "request_id": "8f7965462c3af69c7234c5ecbc0021d827ae0eedb2328f9ee735260b79f0d8cb"
+      }
+    },
+    "d4da4a58901f176e916b7997960ca16af60e9c6b70addf7a5e70e045321a6dba": {
+      "sha256": "1d33440876ccd542c35bef063995740224186d6f8c07a76dad6767760e61d97d",
+      "result": {
+        "status": "finalized",
+        "request_id": "8f7965462c3af69c7234c5ecbc0021d827ae0eedb2328f9ee735260b79f0d8cb",
+        "records": [
+          {
+            "id": 194,
+            "revision": 1,
+            "sha256": "b64bf4e0f9ab1f63b9d3a82da573813d31ec8a81a8e7451b7feecac2c29d0726"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
