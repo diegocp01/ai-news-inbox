@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 593,
-  "updated_at": "2026-10-21T14:59:04.720424+00:00",
-  "next_id": 195,
+  "generation": 594,
+  "updated_at": "2026-10-21T14:59:05.278792+00:00",
+  "next_id": 196,
   "records": [
     {
       "id": 1,
@@ -2580,6 +2580,19 @@
           "sha256": "b64bf4e0f9ab1f63b9d3a82da573813d31ec8a81a8e7451b7feecac2c29d0726",
           "source": "The Next Web",
           "request_id": "8f7965462c3af69c7234c5ecbc0021d827ae0eedb2328f9ee735260b79f0d8cb",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T14:59:05.278792+00:00",
+          "block": "Title: NSA Urges PHP Users to Patch Critical Flaws Found With AI\nURL: https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/\nImage URL: https://www.bleepstatic.com/content/hl-images/2026/10/21/PHP.jpg\nSummary: The NSA advised all organizations using PHP to prepare for an update fixing two critical vulnerabilities, now patched in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35. The flaws, dubbed PHP2Shell, allow unauthenticated remote code execution. Security firm Calif found one using OpenAI's GPT-5.6 Sol through OpenAI's Patch the Planet initiative, and Wiz independently reported both.",
+          "sha256": "fafe8a2bb8303f785f1a103c661fdbd688e4930bbe0f53643f4cbb43ac103e15",
+          "source": "BleepingComputer",
+          "request_id": "c3139b26990d7296d22cc0aba10a5c7ba26348f8c87d3888e4c48e0b21c0efc0",
           "mode": "standard"
         }
       ]
@@ -5698,13 +5711,21 @@
       "corrects_record_id": null
     },
     "c3139b26990d7296d22cc0aba10a5c7ba26348f8c87d3888e4c48e0b21c0efc0": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T14:59:04.720424+00:00",
       "received_sequence": 177,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-21T14:59:05.278792+00:00",
+      "records": [
+        {
+          "id": 195,
+          "revision": 1,
+          "sha256": "fafe8a2bb8303f785f1a103c661fdbd688e4930bbe0f53643f4cbb43ac103e15"
+        }
+      ]
     }
   },
   "batches": {
@@ -24038,6 +24059,21 @@
       "result": {
         "status": "received",
         "request_id": "c3139b26990d7296d22cc0aba10a5c7ba26348f8c87d3888e4c48e0b21c0efc0"
+      }
+    },
+    "ebdfc997591f296b872bcba6cf5fccb53072511800584aeebc489b669f3db1bb": {
+      "sha256": "b51b100ec069cb620c724f93ca0d582ed5c5f80e8a08c824f12bfb3ca1e9109b",
+      "result": {
+        "status": "finalized",
+        "request_id": "c3139b26990d7296d22cc0aba10a5c7ba26348f8c87d3888e4c48e0b21c0efc0",
+        "records": [
+          {
+            "id": 195,
+            "revision": 1,
+            "sha256": "fafe8a2bb8303f785f1a103c661fdbd688e4930bbe0f53643f4cbb43ac103e15"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
