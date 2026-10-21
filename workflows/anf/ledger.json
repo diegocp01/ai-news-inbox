@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 561,
-  "updated_at": "2026-10-21T02:59:17.687368+00:00",
+  "generation": 562,
+  "updated_at": "2026-10-21T02:59:18.132333+00:00",
   "next_id": 186,
   "records": [
     {
@@ -22603,6 +22603,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e48d3e3437abbd0fa71536e8a3485a4459e799775020c988733f50a7933cb757": {
+      "sha256": "3ec1a600f03ef2c1e73fe8e374aaff12431650a937540a425f5960c0e5f17178",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 185,
+          "revision": 1,
+          "sha256": "7eb7e567dc786b8c88d5145a18b6c94388d4062627505c875c4ee72dd8d30f94"
+        },
+        "editorial_sha256": "20835fb5dc8285d65c359fecbffa35caf6d0c0d66133aa1b5a9985db15394d9e"
+      }
     }
   },
   "migration": {
@@ -28775,6 +28787,26 @@
         "sha256": "048e729987ac584d38edb85522f733b275bb7ac8ed3c9a3ca08e4fd0df9d1018",
         "reviewed_at": "2026-10-20T19:16:47.581313+00:00",
         "operation_id": "597a4125f3afd851189365ae2cd392a77c51a9ee5c88b45cc95506a91c1f92e7"
+      }
+    ],
+    "185:1": [
+      {
+        "reference": {
+          "id": 185,
+          "revision": 1,
+          "sha256": "7eb7e567dc786b8c88d5145a18b6c94388d4062627505c875c4ee72dd8d30f94"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Policy speech on AI progress and economics for a broad audience, not technical research or a developer tool.",
+            "evidence_sha256": "1a47b1366a37e9fd5374f5f5ba6fa6b0f4b3a2a21fe6876948d0d43a1f4332a0"
+          }
+        },
+        "sha256": "20835fb5dc8285d65c359fecbffa35caf6d0c0d66133aa1b5a9985db15394d9e",
+        "reviewed_at": "2026-10-21T02:59:18.132333+00:00",
+        "operation_id": "e48d3e3437abbd0fa71536e8a3485a4459e799775020c988733f50a7933cb757"
       }
     ]
   }
