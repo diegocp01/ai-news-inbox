@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 570,
-  "updated_at": "2026-10-21T11:49:46.333405+00:00",
+  "generation": 573,
+  "updated_at": "2026-10-21T12:14:46.701333+00:00",
   "next_id": 191,
   "records": [
     {
@@ -22845,6 +22845,42 @@
         },
         "editorial_sha256": "06505c22536860a0bbfc9d3f5543e5e4a0bce0126dee0c95950d6a400ac4500e"
       }
+    },
+    "muse-backfill-20261021-186-5870": {
+      "sha256": "c562bf01f7f5b21ed76af6965fa20d54156e5599d0488388da2306e76705b5ad",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 186,
+          "revision": 1,
+          "sha256": "a722f3fb92780cfb9dd5682e1644e4431faca522f94fb1f4a7b927151da00d6b"
+        },
+        "editorial_sha256": "808e9335163556de6f1588fc62d99f3af5af61e1e2ede073b0d216676889b061"
+      }
+    },
+    "muse-backfill-20261021-187-2409": {
+      "sha256": "f6e3efd84c76067c1375b662b2e5c6e8a6980c561e1241da6582fac1bc14fd5b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 187,
+          "revision": 1,
+          "sha256": "a0ad195ddafe6e3ff065602611876d455e9c4d0c9b7f8b0934c1875806254859"
+        },
+        "editorial_sha256": "5534734f1494bedc7d9dc646d384e111559710e6a7e01f3b3d0b552a3d043749"
+      }
+    },
+    "muse-backfill-20261021-188-4666": {
+      "sha256": "bfc15b8bb73d423816c9e79d825d1aa7d9e9487ea24f7acf6b5736b313357d61",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 188,
+          "revision": 1,
+          "sha256": "bfbdc03c4860a953491e3fc0f22dbb17f25e5dfd891da445cadc0ed582228c82"
+        },
+        "editorial_sha256": "e4a5f3589cdbaf548e37d870c26d91e7748970c54acbfbdcffe844c3d5a00fc9"
+      }
     }
   },
   "migration": {
@@ -29077,6 +29113,66 @@
         "sha256": "06505c22536860a0bbfc9d3f5543e5e4a0bce0126dee0c95950d6a400ac4500e",
         "reviewed_at": "2026-10-21T11:49:46.333405+00:00",
         "operation_id": "1ae41880d99102628d41eff2fbff913f51610b30dadcebe195287f6bac089cb7"
+      }
+    ],
+    "186:1": [
+      {
+        "reference": {
+          "id": 186,
+          "revision": 1,
+          "sha256": "a722f3fb92780cfb9dd5682e1644e4431faca522f94fb1f4a7b927151da00d6b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The Information reports OpenAI CEO Sam Altman outlined three AI safety scenarios to staff: an international watchdog, a merger of major labs, or one company gaining enough power to deny rivals computing resources. He reportedly opposed the third scenario and said OpenAI should decide within a year. This is executive-level policy discussion, not technical research, model architecture, or developer tooling. muse-compile-backfill 2026-10-21: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "a722f3fb92780cfb9dd5682e1644e4431faca522f94fb1f4a7b927151da00d6b"
+          }
+        },
+        "sha256": "808e9335163556de6f1588fc62d99f3af5af61e1e2ede073b0d216676889b061",
+        "reviewed_at": "2026-10-21T12:14:46.541114+00:00",
+        "operation_id": "muse-backfill-20261021-186-5870"
+      }
+    ],
+    "187:1": [
+      {
+        "reference": {
+          "id": 187,
+          "revision": 1,
+          "sha256": "a0ad195ddafe6e3ff065602611876d455e9c4d0c9b7f8b0934c1875806254859"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Arda, cofounded by former OpenAI research chief Bob McGrew, emerged from stealth with a $160M Series A at a $1.5B valuation. The company says its AI turns product designs into assembly plans and instructions; customer Anduril cut preparation time for basic work instructions from 10 hours to 15 minutes. This is a startup launch and funding story, not technical research or a developer tool. muse-compile-backfill 2026-10-21: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "a0ad195ddafe6e3ff065602611876d455e9c4d0c9b7f8b0934c1875806254859"
+          }
+        },
+        "sha256": "5534734f1494bedc7d9dc646d384e111559710e6a7e01f3b3d0b552a3d043749",
+        "reviewed_at": "2026-10-21T12:14:46.620472+00:00",
+        "operation_id": "muse-backfill-20261021-187-2409"
+      }
+    ],
+    "188:1": [
+      {
+        "reference": {
+          "id": 188,
+          "revision": 1,
+          "sha256": "bfbdc03c4860a953491e3fc0f22dbb17f25e5dfd891da445cadc0ed582228c82"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Anthropic reports an internal Claude model designed small proteins targeting scorpion toxins in a project with investment research firm Citrini Research. Laboratory testing of 211 designs found 17 met the study's binding criteria, each for one toxin. The proteins have not been tested to see whether they block toxins or protect animals, so the work has not produced an antivenom. This is an AI-assisted scientific research study with laboratory evaluation, for research audiences. muse-compile-backfill 2026-10-21: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "bfbdc03c4860a953491e3fc0f22dbb17f25e5dfd891da445cadc0ed582228c82"
+          }
+        },
+        "sha256": "e4a5f3589cdbaf548e37d870c26d91e7748970c54acbfbdcffe844c3d5a00fc9",
+        "reviewed_at": "2026-10-21T12:14:46.701333+00:00",
+        "operation_id": "muse-backfill-20261021-188-4666"
       }
     ]
   }
