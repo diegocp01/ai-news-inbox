@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 569,
-  "updated_at": "2026-10-21T11:49:45.877332+00:00",
+  "generation": 570,
+  "updated_at": "2026-10-21T11:49:46.333405+00:00",
   "next_id": 191,
   "records": [
     {
@@ -22833,6 +22833,18 @@
         ],
         "duplicates": []
       }
+    },
+    "1ae41880d99102628d41eff2fbff913f51610b30dadcebe195287f6bac089cb7": {
+      "sha256": "f00a1294f3dd20ddcdd003edb19cb5388a56a923fc2ac80e02edb8f45f297fef",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 190,
+          "revision": 1,
+          "sha256": "8c58695721e74b8f0d96b1376c1860d61a21de757e71749219a7c4b8084a2153"
+        },
+        "editorial_sha256": "06505c22536860a0bbfc9d3f5543e5e4a0bce0126dee0c95950d6a400ac4500e"
+      }
     }
   },
   "migration": {
@@ -29045,6 +29057,26 @@
         "sha256": "a9a4ff7f701fdebf70f03135b228bae71c6d56e0c9332537b804037cc3dec48e",
         "reviewed_at": "2026-10-21T11:48:07.641747+00:00",
         "operation_id": "5183c65935a266414074de1daab57f2025041ef9cc080e20364ef6ee491b9840"
+      }
+    ],
+    "190:1": [
+      {
+        "reference": {
+          "id": 190,
+          "revision": 1,
+          "sha256": "8c58695721e74b8f0d96b1376c1860d61a21de757e71749219a7c4b8084a2153"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer API feature: prompt-cache lifetime settings and cache-write pricing for Responses API builders.",
+            "evidence_sha256": "e60f360cdb628e5ff41e72bb715d754354dd08db2be6ae7683cc7a15dba7760a"
+          }
+        },
+        "sha256": "06505c22536860a0bbfc9d3f5543e5e4a0bce0126dee0c95950d6a400ac4500e",
+        "reviewed_at": "2026-10-21T11:49:46.333405+00:00",
+        "operation_id": "1ae41880d99102628d41eff2fbff913f51610b30dadcebe195287f6bac089cb7"
       }
     ]
   }
