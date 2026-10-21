@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 566,
-  "updated_at": "2026-10-21T11:48:07.165792+00:00",
+  "generation": 567,
+  "updated_at": "2026-10-21T11:48:07.641747+00:00",
   "next_id": 190,
   "records": [
     {
@@ -22769,6 +22769,18 @@
         ],
         "duplicates": []
       }
+    },
+    "5183c65935a266414074de1daab57f2025041ef9cc080e20364ef6ee491b9840": {
+      "sha256": "482ead41e86657725d76b14b10933f07d3b974b217a46ad71bb62a2b02f93802",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 189,
+          "revision": 1,
+          "sha256": "94f4882e5e55eb3ae37f6233d655b47305e8c4c030e1c007942a476591343d63"
+        },
+        "editorial_sha256": "a9a4ff7f701fdebf70f03135b228bae71c6d56e0c9332537b804037cc3dec48e"
+      }
     }
   },
   "migration": {
@@ -28961,6 +28973,26 @@
         "sha256": "20835fb5dc8285d65c359fecbffa35caf6d0c0d66133aa1b5a9985db15394d9e",
         "reviewed_at": "2026-10-21T02:59:18.132333+00:00",
         "operation_id": "e48d3e3437abbd0fa71536e8a3485a4459e799775020c988733f50a7933cb757"
+      }
+    ],
+    "189:1": [
+      {
+        "reference": {
+          "id": 189,
+          "revision": 1,
+          "sha256": "94f4882e5e55eb3ae37f6233d655b47305e8c4c030e1c007942a476591343d63"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Interactive consumer demo of AI social simulation, not technical research or a developer tool.",
+            "evidence_sha256": "7e343694703bb2efeb3c2f50bc89b0f6fcfe9e6a917b3e7ea5605620aa643d81"
+          }
+        },
+        "sha256": "a9a4ff7f701fdebf70f03135b228bae71c6d56e0c9332537b804037cc3dec48e",
+        "reviewed_at": "2026-10-21T11:48:07.641747+00:00",
+        "operation_id": "5183c65935a266414074de1daab57f2025041ef9cc080e20364ef6ee491b9840"
       }
     ]
   }
