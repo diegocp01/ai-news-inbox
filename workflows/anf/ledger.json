@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 580,
-  "updated_at": "2026-10-21T14:33:43.362559+00:00",
-  "next_id": 191,
+  "generation": 581,
+  "updated_at": "2026-10-21T14:33:43.875005+00:00",
+  "next_id": 192,
   "records": [
     {
       "id": 1,
@@ -2528,6 +2528,19 @@
           "sha256": "8c58695721e74b8f0d96b1376c1860d61a21de757e71749219a7c4b8084a2153",
           "source": "OpenAI",
           "request_id": "5b8cbefa3127ef48d14beed4681def586e6d7c443b137ce361f73eff7c76e816",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T14:33:43.875005+00:00",
+          "block": "Title: AI Model Predicts Cancer Survival From a Single Face Photo\nURL: https://www.thelancet.com/journals/landig/article/PIIS2589-7500%2826%2900079-8/fulltext\nImage URL: https://scx2.b-cdn.net/gfx/news/hires/2026/ai-facial-health-recog.jpg\nSummary: Mass General Brigham researchers built FAHR-Face, an AI foundation model trained on more than 40 million face photos, and fine-tuned it to estimate biological age and predict survival in cancer patients from one photograph. In the Lancet Digital Health study, the highest-risk quartile had more than triple the mortality of the lowest, a result validated in an independent cohort.",
+          "sha256": "a523fec0627cf707966664c18d0bf09a3f89e430c37d6e882093644cf4bacb15",
+          "source": "The Lancet Digital Health",
+          "request_id": "d2091d928eb35eddacd0284e60595d55c7b75b75de06e2e5e75d2d6d9a86e017",
           "mode": "standard"
         }
       ]
@@ -5569,13 +5582,21 @@
       ]
     },
     "d2091d928eb35eddacd0284e60595d55c7b75b75de06e2e5e75d2d6d9a86e017": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T14:33:43.362559+00:00",
       "received_sequence": 172,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-21T14:33:43.875005+00:00",
+      "records": [
+        {
+          "id": 191,
+          "revision": 1,
+          "sha256": "a523fec0627cf707966664c18d0bf09a3f89e430c37d6e882093644cf4bacb15"
+        }
+      ]
     }
   },
   "batches": {
@@ -23766,6 +23787,21 @@
       "result": {
         "status": "received",
         "request_id": "d2091d928eb35eddacd0284e60595d55c7b75b75de06e2e5e75d2d6d9a86e017"
+      }
+    },
+    "2b5402bb02a42efec694a9b2971eea9c74a11840170864267b3d3e1ab8f48558": {
+      "sha256": "a562c4ca9b0ab316e8fa82b10ce979a9d657d12ed3bb434b25c278643bf8989f",
+      "result": {
+        "status": "finalized",
+        "request_id": "d2091d928eb35eddacd0284e60595d55c7b75b75de06e2e5e75d2d6d9a86e017",
+        "records": [
+          {
+            "id": 191,
+            "revision": 1,
+            "sha256": "a523fec0627cf707966664c18d0bf09a3f89e430c37d6e882093644cf4bacb15"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
