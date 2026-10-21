@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 568,
-  "updated_at": "2026-10-21T11:49:45.407134+00:00",
-  "next_id": 190,
+  "generation": 569,
+  "updated_at": "2026-10-21T11:49:45.877332+00:00",
+  "next_id": 191,
   "records": [
     {
       "id": 1,
@@ -2515,6 +2515,19 @@
           "sha256": "94f4882e5e55eb3ae37f6233d655b47305e8c4c030e1c007942a476591343d63",
           "source": "Artificial Societies",
           "request_id": "6bae717feaf657f5e9adbb8ca102ba5ce8fa95ce4d55325b821d1b09e633f3b0",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T11:49:45.877332+00:00",
+          "block": "Title: OpenAI Adds 12-Hour Prompt Caching to Its API\nURL:\nImage URL: https://www.androidauthority.com/wp-content/uploads/2026/05/Open-AI-ChatGPT-logo-on-phone-stock-photo-10.jpg\nSummary: OpenAI's Responses API now offers an optional 12-hour prompt cache for GPT-5.6 and later models, up from the 30-minute default. Writes at the 12-hour setting cost 2.5 times the normal input rate, while cached reads keep the usual discounted rate. Codex lead Tibo Sottiaux also said Codex and Work now keep logged-in users' cache indefinitely.",
+          "sha256": "8c58695721e74b8f0d96b1376c1860d61a21de757e71749219a7c4b8084a2153",
+          "source": "OpenAI",
+          "request_id": "5b8cbefa3127ef48d14beed4681def586e6d7c443b137ce361f73eff7c76e816",
           "mode": "standard"
         }
       ]
@@ -5539,13 +5552,21 @@
       ]
     },
     "5b8cbefa3127ef48d14beed4681def586e6d7c443b137ce361f73eff7c76e816": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T11:49:45.407134+00:00",
       "received_sequence": 171,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-21T11:49:45.877332+00:00",
+      "records": [
+        {
+          "id": 190,
+          "revision": 1,
+          "sha256": "8c58695721e74b8f0d96b1376c1860d61a21de757e71749219a7c4b8084a2153"
+        }
+      ]
     }
   },
   "batches": {
@@ -22796,6 +22817,21 @@
       "result": {
         "status": "received",
         "request_id": "5b8cbefa3127ef48d14beed4681def586e6d7c443b137ce361f73eff7c76e816"
+      }
+    },
+    "a4c43d9d168ba07b7eaa690e11c3c6494fd81f0f81f4e019547ed081ccd52df0": {
+      "sha256": "6407e70dd30af67872c5850a37b7d170974f2f96790da017fdff0950fd7a35b7",
+      "result": {
+        "status": "finalized",
+        "request_id": "5b8cbefa3127ef48d14beed4681def586e6d7c443b137ce361f73eff7c76e816",
+        "records": [
+          {
+            "id": 190,
+            "revision": 1,
+            "sha256": "8c58695721e74b8f0d96b1376c1860d61a21de757e71749219a7c4b8084a2153"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
