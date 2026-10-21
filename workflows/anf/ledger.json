@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 587,
-  "updated_at": "2026-10-21T14:48:49.819687+00:00",
+  "generation": 588,
+  "updated_at": "2026-10-21T14:48:50.288908+00:00",
   "next_id": 194,
   "records": [
     {
@@ -23931,6 +23931,18 @@
         ],
         "duplicates": []
       }
+    },
+    "0b4d59f537724f85e51889a8ad4f59ffafa13c45ea77ef4ff7ace2f20a2c266b": {
+      "sha256": "ef065d162ed094e73b8c4bf0a756ace0ce0006b00e8dfadce0ffb8e237bc8659",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 193,
+          "revision": 1,
+          "sha256": "466a666a10039a3a89192adbe05971bd5021695b0022e49bb3982d30085fee90"
+        },
+        "editorial_sha256": "f4f811e5011f95846274b437fdf03d9119d799ddaa7ef6cdc7659f6921678368"
+      }
     }
   },
   "migration": {
@@ -30263,6 +30275,26 @@
         "sha256": "79d8bc5376e999faf7284574eca206b5bb384f4e218efe0e30780f7c7d5081f6",
         "reviewed_at": "2026-10-21T14:48:48.878847+00:00",
         "operation_id": "6e9771ed72e8aac289f8e64d89fb38cabff15467c1767c93840a477918d96fc9"
+      }
+    ],
+    "193:1": [
+      {
+        "reference": {
+          "id": 193,
+          "revision": 1,
+          "sha256": "466a666a10039a3a89192adbe05971bd5021695b0022e49bb3982d30085fee90"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business deal report about robotics in security services, not technical research or a developer tool.",
+            "evidence_sha256": "0caa50d080e531c2a91b567a1345410fad29a9490c46597b7e537e7b9c415bcd"
+          }
+        },
+        "sha256": "f4f811e5011f95846274b437fdf03d9119d799ddaa7ef6cdc7659f6921678368",
+        "reviewed_at": "2026-10-21T14:48:50.288908+00:00",
+        "operation_id": "0b4d59f537724f85e51889a8ad4f59ffafa13c45ea77ef4ff7ace2f20a2c266b"
       }
     ]
   }
