@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 584,
-  "updated_at": "2026-10-21T14:48:48.366168+00:00",
+  "generation": 585,
+  "updated_at": "2026-10-21T14:48:48.878847+00:00",
   "next_id": 193,
   "records": [
     {
@@ -23867,6 +23867,18 @@
         ],
         "duplicates": []
       }
+    },
+    "6e9771ed72e8aac289f8e64d89fb38cabff15467c1767c93840a477918d96fc9": {
+      "sha256": "e5a8505755395e6abc8d3a557bb5f0d1a43e1046f3c98e20dcb3823290ae6553",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 192,
+          "revision": 1,
+          "sha256": "9386470309ac0260c3d774e954de3b546cde825226438f0852855082c054c9f0"
+        },
+        "editorial_sha256": "79d8bc5376e999faf7284574eca206b5bb384f4e218efe0e30780f7c7d5081f6"
+      }
     }
   },
   "migration": {
@@ -30179,6 +30191,26 @@
         "sha256": "2a0ba09c23690d12f38411b4b6eabb5c59534d80c6c8f7ccc26fa8df370803fc",
         "reviewed_at": "2026-10-21T14:33:44.354478+00:00",
         "operation_id": "4f1b3e82fe90e73c29dd2667f5c97d8ccaf708d51da695f283327fef01184655"
+      }
+    ],
+    "192:1": [
+      {
+        "reference": {
+          "id": 192,
+          "revision": 1,
+          "sha256": "9386470309ac0260c3d774e954de3b546cde825226438f0852855082c054c9f0"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Interview on AI governance and coexisting with agents for a broad audience, not technical research.",
+            "evidence_sha256": "faf9b55fcc0411d7b1d50411f68f5cb73a859e54f300d6d12ef900a636c76415"
+          }
+        },
+        "sha256": "79d8bc5376e999faf7284574eca206b5bb384f4e218efe0e30780f7c7d5081f6",
+        "reviewed_at": "2026-10-21T14:48:48.878847+00:00",
+        "operation_id": "6e9771ed72e8aac289f8e64d89fb38cabff15467c1767c93840a477918d96fc9"
       }
     ]
   }
