@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 586,
-  "updated_at": "2026-10-21T14:48:49.376426+00:00",
-  "next_id": 193,
+  "generation": 587,
+  "updated_at": "2026-10-21T14:48:49.819687+00:00",
+  "next_id": 194,
   "records": [
     {
       "id": 1,
@@ -2554,6 +2554,19 @@
           "sha256": "9386470309ac0260c3d774e954de3b546cde825226438f0852855082c054c9f0",
           "source": "Harvard Magazine",
           "request_id": "86526b5fae3d7841f4d42c3b6679da148e5c891b5258c45b466bad1d20994652",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T14:48:49.819687+00:00",
+          "block": "Title: SoftBank Reportedly in Talks to Buy Security Giant Allied Universal\nURL: https://www.securityinfowatch.com/security-executives/news/55412851/softbank-in-preliminary-talks-to-acquire-allied-universal-reports-say\nImage URL: https://securitytoday.com/-/media/SEC/Security-Products/Images/2026/10/1020-SoftBank.png\nSummary: SoftBank is reportedly in early talks to buy Allied Universal, the largest US security services company, in a deal that could value it at up to $18 billion excluding about $12 billion of debt. Reuters reported SoftBank could eventually replace some staff with robots for certain security tasks, though humanoid guards would take longer. No deal is agreed.",
+          "sha256": "466a666a10039a3a89192adbe05971bd5021695b0022e49bb3982d30085fee90",
+          "source": "SecurityInfoWatch",
+          "request_id": "053e1870dca037286a61d78a7568bd7bb5738f4cad9db73194ff21d1b89e72c8",
           "mode": "standard"
         }
       ]
@@ -5629,13 +5642,21 @@
       ]
     },
     "053e1870dca037286a61d78a7568bd7bb5738f4cad9db73194ff21d1b89e72c8": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T14:48:49.376426+00:00",
       "received_sequence": 174,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-21T14:48:49.819687+00:00",
+      "records": [
+        {
+          "id": 193,
+          "revision": 1,
+          "sha256": "466a666a10039a3a89192adbe05971bd5021695b0022e49bb3982d30085fee90"
+        }
+      ]
     }
   },
   "batches": {
@@ -23894,6 +23915,21 @@
       "result": {
         "status": "received",
         "request_id": "053e1870dca037286a61d78a7568bd7bb5738f4cad9db73194ff21d1b89e72c8"
+      }
+    },
+    "c1ef60050d74bf59655c3480c76b89700ffeec41e3aec82c80c206e53d16a2d0": {
+      "sha256": "a2e8134634abee460ba6c7d3eb08451d85da0bb731d84bfab090097becf0ba84",
+      "result": {
+        "status": "finalized",
+        "request_id": "053e1870dca037286a61d78a7568bd7bb5738f4cad9db73194ff21d1b89e72c8",
+        "records": [
+          {
+            "id": 193,
+            "revision": 1,
+            "sha256": "466a666a10039a3a89192adbe05971bd5021695b0022e49bb3982d30085fee90"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
