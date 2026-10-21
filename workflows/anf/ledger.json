@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 602,
-  "updated_at": "2026-10-21T15:20:16.587017+00:00",
+  "generation": 603,
+  "updated_at": "2026-10-21T15:20:17.143790+00:00",
   "next_id": 199,
   "records": [
     {
@@ -24251,6 +24251,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9e0b940a1a59578927a6563819a2a02eb982dae315aea3853303d84d9ba250ab": {
+      "sha256": "4bf8e739e988d4a87dbb1904475b1e7c4e6decf9bcdee110f58f65a8fbd8887f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 198,
+          "revision": 1,
+          "sha256": "9f5fe331f38918d8464fc08b12f239dfac8c52053f5fd535c956ed5ab7b4dc2e"
+        },
+        "editorial_sha256": "7c3f1b089905c3362b8682d7d821da07a79080c24ae5fb2fef2291370ec63c0a"
+      }
     }
   },
   "migration": {
@@ -30715,6 +30727,26 @@
         "sha256": "6d11b5ad1ce1368b91c314a8b4fbdf4f2406e53ce4ea92d76e52b7e16722f4d8",
         "reviewed_at": "2026-10-21T15:11:59.421539+00:00",
         "operation_id": "223da6531e4f20aadeb984ef19aea2622541877ae87281692f6112e7d45e62ea"
+      }
+    ],
+    "198:1": [
+      {
+        "reference": {
+          "id": 198,
+          "revision": 1,
+          "sha256": "9f5fe331f38918d8464fc08b12f239dfac8c52053f5fd535c956ed5ab7b4dc2e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research preprint on distributed AI-agent analysis of a Perturb-seq CRISPR atlas; method and evaluation are the substance.",
+            "evidence_sha256": "cbc5becf491912bff3fe140a80aacabb40faf0ffa540cfafa32b1e265edfacb1"
+          }
+        },
+        "sha256": "7c3f1b089905c3362b8682d7d821da07a79080c24ae5fb2fef2291370ec63c0a",
+        "reviewed_at": "2026-10-21T15:20:17.143790+00:00",
+        "operation_id": "9e0b940a1a59578927a6563819a2a02eb982dae315aea3853303d84d9ba250ab"
       }
     ]
   }
