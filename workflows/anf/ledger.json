@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 601,
-  "updated_at": "2026-10-21T15:20:16.030991+00:00",
-  "next_id": 198,
+  "generation": 602,
+  "updated_at": "2026-10-21T15:20:16.587017+00:00",
+  "next_id": 199,
   "records": [
     {
       "id": 1,
@@ -2619,6 +2619,19 @@
           "sha256": "2f7640f5e4f21a61e46238feb6b431fa63793bd9609c308c8ad9d01339af7915",
           "source": "SecurityWeek",
           "request_id": "acfac1362ac99c5a9d2aaf8a23533b537a72effd6ea16733a346e94ebdd35515",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T15:20:16.587017+00:00",
+          "block": "Title: Thousands of AI Agents Mine Mouse Brain Data for Disease Leads\nURL: https://www.biorxiv.org/content/10.64898/2026.10.15.759436v1\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/5Uhfx9LWwXWN8zKg7a6aNi/021edebfedf0c6f9638f929ba23900ab/scaling-ai-biological-data-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI, PerturbAI and Scripps Research ran thousands of GPT-Rosalind agents in parallel to interpret a whole-brain mouse CRISPR atlas of millions of cells in 32 minutes. Each agent analyzed one gene disruption against the literature. They reproduced human findings and proposed new leads, including a possible cholesterol link to neurodegeneration.",
+          "sha256": "9f5fe331f38918d8464fc08b12f239dfac8c52053f5fd535c956ed5ab7b4dc2e",
+          "source": "bioRxiv",
+          "request_id": "21e71e9fb7b5e7ebc001925018aff9f66b37a4d4b07564acad80381a52c3edd7",
           "mode": "standard"
         }
       ]
@@ -5779,13 +5792,21 @@
       ]
     },
     "21e71e9fb7b5e7ebc001925018aff9f66b37a4d4b07564acad80381a52c3edd7": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T15:20:16.030991+00:00",
       "received_sequence": 179,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-21T15:20:16.587017+00:00",
+      "records": [
+        {
+          "id": 198,
+          "revision": 1,
+          "sha256": "9f5fe331f38918d8464fc08b12f239dfac8c52053f5fd535c956ed5ab7b4dc2e"
+        }
+      ]
     }
   },
   "batches": {
@@ -24214,6 +24235,21 @@
       "result": {
         "status": "received",
         "request_id": "21e71e9fb7b5e7ebc001925018aff9f66b37a4d4b07564acad80381a52c3edd7"
+      }
+    },
+    "40b887044f8b5c09d1a0a608c49ab2e6776d280ba4f51eadb71689ce2b67c81c": {
+      "sha256": "6daed7f6a8b8f95981f396e98e5f0f4f56051f6bb0b25350b54ab93b1f856ef8",
+      "result": {
+        "status": "finalized",
+        "request_id": "21e71e9fb7b5e7ebc001925018aff9f66b37a4d4b07564acad80381a52c3edd7",
+        "records": [
+          {
+            "id": 198,
+            "revision": 1,
+            "sha256": "9f5fe331f38918d8464fc08b12f239dfac8c52053f5fd535c956ed5ab7b4dc2e"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
