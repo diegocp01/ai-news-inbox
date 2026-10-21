@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 605,
-  "updated_at": "2026-10-21T18:19:39.915744+00:00",
+  "generation": 606,
+  "updated_at": "2026-10-21T18:19:40.386053+00:00",
   "next_id": 200,
   "records": [
     {
@@ -24315,6 +24315,18 @@
         ],
         "duplicates": []
       }
+    },
+    "4d4be9d773207e5324fe0b3f4a2df9a1a4baed51b8c22fd5c08061d231ce6edd": {
+      "sha256": "0d8c104193af1b007cab1cf48a8a71d1774aa777683a4cb4b68cd031a9dc2da9",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 199,
+          "revision": 1,
+          "sha256": "907f5c7a81d14a34c1990234d59aad307196153510bb4025efc4cda791a1612a"
+        },
+        "editorial_sha256": "3975d8f0db4f2374890b3aab02c5da4658c1898e36d4f4e89e714c18a502e2a8"
+      }
     }
   },
   "migration": {
@@ -30799,6 +30811,26 @@
         "sha256": "7c3f1b089905c3362b8682d7d821da07a79080c24ae5fb2fef2291370ec63c0a",
         "reviewed_at": "2026-10-21T15:20:17.143790+00:00",
         "operation_id": "9e0b940a1a59578927a6563819a2a02eb982dae315aea3853303d84d9ba250ab"
+      }
+    ],
+    "199:1": [
+      {
+        "reference": {
+          "id": 199,
+          "revision": 1,
+          "sha256": "907f5c7a81d14a34c1990234d59aad307196153510bb4025efc4cda791a1612a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Product update for a broad audience; default general, not technical research.",
+            "evidence_sha256": "545baa90441dee99984aab8c0fe87882b8b39c04f9f63d48b6a99b6503aca66f"
+          }
+        },
+        "sha256": "3975d8f0db4f2374890b3aab02c5da4658c1898e36d4f4e89e714c18a502e2a8",
+        "reviewed_at": "2026-10-21T18:19:40.386053+00:00",
+        "operation_id": "4d4be9d773207e5324fe0b3f4a2df9a1a4baed51b8c22fd5c08061d231ce6edd"
       }
     ]
   }
