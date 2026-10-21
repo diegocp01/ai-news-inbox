@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 610,
-  "updated_at": "2026-10-21T19:44:59.940699+00:00",
-  "next_id": 201,
+  "generation": 611,
+  "updated_at": "2026-10-21T19:45:00.435374+00:00",
+  "next_id": 202,
   "records": [
     {
       "id": 1,
@@ -2658,6 +2658,19 @@
           "sha256": "c76a0518513195889bba19b79c335959018fb9b9b29924b6823628ce4a0f9e7d",
           "source": "Google Cloud",
           "request_id": "c683e37e62d3b58802586ee6a6c2e17c11585874830a5217c0148dabede00173",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T19:45:00.435374+00:00",
+          "block": "Title: Anthropic Opens Research Preview of Claude Duet Proactive Agent\nURL: https://claude.com/blog/claude-duet\nImage URL: https://claude.com/resources/articles/claude-duet/opengraph-image/og\nSummary: Anthropic opened a waitlist research preview of Claude Duet, an app where Claude works as a proactive agent, starting with US Pro and Max subscribers. Built around Claude Opus 5.5, it sends morning briefs, monitors connected apps, works on tasks in the background, and asks for approval before sending messages, making payments, signing documents or deleting anything.",
+          "sha256": "2872f09c0d4d247826da255ab3d5dd06dc26b5a21ee4f4b0e69bb3faa2d03bb1",
+          "source": "Anthropic",
+          "request_id": "d8e9d68f7352d2e183f1894723bfab898c138db82777adecf622dd72d3480766",
           "mode": "standard"
         }
       ]
@@ -5869,13 +5882,21 @@
       ]
     },
     "d8e9d68f7352d2e183f1894723bfab898c138db82777adecf622dd72d3480766": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T19:44:59.940699+00:00",
       "received_sequence": 182,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-21T19:45:00.435374+00:00",
+      "records": [
+        {
+          "id": 201,
+          "revision": 1,
+          "sha256": "2872f09c0d4d247826da255ab3d5dd06dc26b5a21ee4f4b0e69bb3faa2d03bb1"
+        }
+      ]
     }
   },
   "batches": {
@@ -24406,6 +24427,21 @@
       "result": {
         "status": "received",
         "request_id": "d8e9d68f7352d2e183f1894723bfab898c138db82777adecf622dd72d3480766"
+      }
+    },
+    "b6b3ffaea71cb6420f0e34442e77074ec20561bdc5241b0660c2c00891dd07b9": {
+      "sha256": "68765e1644e28569bf93250521200b6b7ef1055d9a9866fc41bc910af7be7295",
+      "result": {
+        "status": "finalized",
+        "request_id": "d8e9d68f7352d2e183f1894723bfab898c138db82777adecf622dd72d3480766",
+        "records": [
+          {
+            "id": 201,
+            "revision": 1,
+            "sha256": "2872f09c0d4d247826da255ab3d5dd06dc26b5a21ee4f4b0e69bb3faa2d03bb1"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
