@@ -1,0 +1,136 @@
+[
+  {
+    "title": "Anthropic Offers Free AI Security Scans for Open-Source Projects",
+    "description": "Anthropic’s OSS Scanner gives eligible open-source projects free, periodic AI vulnerability scans. Reports include reproducible examples and proposed patches when available, helping maintainers investigate security flaws. The opt-in service sends model-generated findings without human review, so maintainers must validate reports that may contain errors.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+    "learn_more_url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+    "date": "2026-10-21",
+    "source": "Anthropic",
+    "ds": true
+  },
+  {
+    "title": "DeepSeek Shares Software for Running AI More Efficiently",
+    "description": "DeepSeek open-sourced DeepInfer, the inference framework behind its V4.1-Flash services, under Apache 2.0. The release supports offline inference on NVIDIA GPUs and Huawei Ascend chips, with optimized processing, parallel execution and structured outputs. A complete online service still requires additional caching and load-balancing infrastructure.",
+    "image_url": "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/doc/images/architecture_overview.png",
+    "learn_more_url": "https://github.com/deepseek-ai/DeepInfer",
+    "date": "2026-10-21",
+    "source": "DeepSeek",
+    "ds": true
+  },
+  {
+    "title": "Ex-OpenAI Research Chief's Manufacturing AI Startup Arda Valued at $1.5 Billion",
+    "description": "Former OpenAI research chief Bob McGrew's startup Arda raised $230 million at a $1.5 billion valuation, led by Altimeter, Accel and Khosla Ventures, CNBC reports. Arda builds an AI agent and interface that helps manufacturing engineers set up assembly lines faster. Its models are already deployed with Anduril, and McGrew says robotics is next.",
+    "image_url": "https://image.cnbcfm.com/api/v1/image/107234139-1683045666002-gettyimages-1393983549-_dsc1598-denoiseai-standard.jpeg?v=1683122081&w=1920&h=1080",
+    "learn_more_url": "https://www.cnbc.com/2026/10/20/ex-openai-executive-builds-1point5-billion-ai-manufacturing-startup-arda.html",
+    "date": "2026-10-21",
+    "source": "CNBC"
+  },
+  {
+    "title": "ChatGPT Adds Locked Chats Protected by a PIN or Face ID",
+    "description": "OpenAI is rolling out Locked Chats in ChatGPT, letting users move selected conversations out of regular history, pinned chats and search into a protected area. Opening them requires a 4-digit account PIN, or Face ID, Touch ID or device unlock on supported phones. OpenAI says locking adds no end-to-end encryption, and resetting the PIN permanently deletes locked chats.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/05/Open-AI-ChatGPT-logo-on-phone-stock-photo-10.jpg",
+    "learn_more_url": "",
+    "date": "2026-10-21",
+    "source": "OpenAI"
+  },
+  {
+    "title": "OpenAI Acquires Drug Development AI Startup Orchestra Bio",
+    "description": "OpenAI has acquired Orchestra Bio, a startup building AI agents that help pharmaceutical and biotech teams manage drug development, Axios reports. OpenAI will fold Orchestra's team and technology into Rosalind, its life sciences models and tools, so agents can monitor studies, track development timelines and flag potential delays. Financial terms were not disclosed.",
+    "image_url": "https://images.axios.com/sgXLBvv3h-S_89f2H6QAj9JFSS0=/1366x768/smart/2024/12/31/165321-1735664001734.jpg",
+    "learn_more_url": "https://www.axios.com/2026/10/20/exclusive-openai-biotech-startup-drug-development",
+    "date": "2026-10-21",
+    "source": "Axios"
+  },
+  {
+    "title": "ElevenLabs Launches Eleven Realtime Speech-to-Speech Models",
+    "description": "ElevenLabs launched Eleven Realtime, speech-to-speech models that each work as a complete voice agent in more than 90 languages. v1 Mini targets low-cost natural conversation, while v1 Max handles complex tasks like customer support. In Artificial Analysis tests, v1 Max answered 98.8% of Big Bench Audio questions correctly and started speaking in 0.57 seconds on average.",
+    "image_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/5xtkc64xukd-Eleven-Realtime_square.webp",
+    "learn_more_url": "https://elevenlabs.io/blog/realtime",
+    "date": "2026-10-21",
+    "source": "ElevenLabs"
+  },
+  {
+    "title": "Grok Bot Adds X DMs, @bot Tagging and Android Assistant Support",
+    "description": "SpaceXSI's Matt Palmer walked through 12 Grok Bot updates in a five-minute video. Grok Bot can now read and reply to X Chat DMs, act on requests when tagged @bot on X, and serve as Android's default assistant. Voice calls now remember the previous call for 30 minutes, and drafts, notifications and team invites also improved.",
+    "image_url": "https://cdn.teslanorth.com/wp-content/uploads/2026/10/grok-bot-whats-new-x-dms-android.jpg",
+    "learn_more_url": "https://teslanorth.com/2026/10/20/grok-bot-x-dms-android-assistant/",
+    "date": "2026-10-21",
+    "source": "Tesla North"
+  },
+  {
+    "title": "ChatGPT Helps Teams Automate Recurring Work",
+    "description": "ChatGPT team tasks let coworkers share recurring workflows, such as weekly engineering updates covering releases and blockers. Tasks run in the cloud on a schedule or supported event, and authorized teammates can review results and revise instructions. The feature is available in Business and Enterprise workspaces, subject to permissions.",
+    "image_url": "https://crkgychaqtyr6rfc.public.blob.vercel-storage.com/rise-openai-chatgpt-team-tasks-launch-primary-og-og-0d8e67abf3f22def.png",
+    "learn_more_url": "https://www.riseproductive.com/blog/chatgpt-team-tasks-scheduled-event-workflows",
+    "date": "2026-10-21",
+    "source": "Rise Productive"
+  },
+  {
+    "title": "Anthropic Reports Claude-Designed Binders for Scorpion Toxins",
+    "description": "Anthropic says an internal Claude research model designed proteins targeting scorpion neurotoxins. Laboratory testing found that 17 of 211 candidates met its binding criteria. The work explores AI-assisted discovery for neglected diseases, but the proteins have not been shown to neutralize venom or protect living animals, so this is not an antivenom.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg",
+    "learn_more_url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+    "date": "2026-10-21",
+    "source": "Anthropic",
+    "ds": true
+  },
+  {
+    "title": "AI Learns to Develop More Testable Research Ideas",
+    "description": "A preprint introduces DiscoveryRSI, which combines multiple AI agents with a 27-billion-parameter model trained on research histories. Across four life-science domains, automated hypothesis-quality scores rose from 4.86 to 5.39 after two improvement rounds. Gains centered on testability and feasibility, while novelty declined. The results assess proposed investigations, not independently confirmed discoveries.",
+    "image_url": "https://arxiv.org/html/2610.23839v1/fig1_rsi_real.png",
+    "learn_more_url": "https://arxiv.org/abs/2610.23839",
+    "date": "2026-10-21",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "Anthropic's Jack Clark Tells IMF the Singularity Has Begun",
+    "description": "Anthropic co-founder Jack Clark told the IMF's annual meetings in Bangkok that the singularity \"has now begun.\" He said top AI scores on Humanity's Last Exam rose from 8% to 67.7% since early 2025, and FrontierMath from 2% to 94%. He said fast AI diffusion could push US GDP to $44 trillion by 2030 and urged building scientific capacity.",
+    "image_url": "https://substackcdn.com/image/fetch/$s_!08ie!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbab50107-8241-4342-a473-f546f17cf9a4_1826x1084.png",
+    "learn_more_url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the",
+    "date": "2026-10-21",
+    "source": "Import AI"
+  },
+  {
+    "title": "Altman Reportedly Discusses Three Approaches to AI Safety",
+    "description": "The Information reports that OpenAI CEO Sam Altman outlined three AI safety scenarios to staff: an international watchdog, a merger of major labs, or one company gaining enough power to deny rivals computing resources. He reportedly opposed the third scenario and said OpenAI should decide within a year which approach to pursue.",
+    "image_url": "https://the-decoder.com/wp-content/uploads/2026/06/openai_Altman.png",
+    "learn_more_url": "https://www.theinformation.com/articles/altman-describes-three-endgames-ai-including-one-single-firm-melts-everyone-elses-gpus",
+    "date": "2026-10-21",
+    "source": "theinformation.com"
+  },
+  {
+    "title": "Bob McGrew’s Arda Launches AI Software for Manufacturing",
+    "description": "Arda, cofounded by former OpenAI research chief Bob McGrew, emerged from stealth with a $160 million Series A at a $1.5 billion valuation. The company says its AI turns product designs into assembly plans and instructions. Arda reports that customer Anduril cut preparation time for basic work instructions from 10 hours to 15 minutes.",
+    "image_url": "https://media.thenextweb.com/2026/01/2025-30sub30-Cristian-Dina.avif",
+    "learn_more_url": "https://www.businesswire.com/news/home/20261020574393/en/Arda-Emerges-from-Stealth-to-Speed-Up-American-Manufacturing",
+    "date": "2026-10-21",
+    "source": "businesswire.com"
+  },
+  {
+    "title": "Anthropic Reports Claude Protein Designs That Bind Scorpion Toxins",
+    "description": "Anthropic says an internal Claude model designed small proteins targeting scorpion toxins in a project with investment research firm Citrini Research. Laboratory testing of 211 designs found 17 met the study’s binding criteria, each for one toxin. The proteins have not been tested to see whether they block toxins or protect animals, so the work has not produced an antivenom.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg",
+    "learn_more_url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+    "date": "2026-10-21",
+    "source": "anthropic.com",
+    "ds": true
+  },
+  {
+    "title": "Artificial Societies' Game Shows Ideas Spreading Through a Simulated City",
+    "description": "Artificial Societies, a Y Combinator-backed London startup that simulates how audiences react to decisions, offers Talk of the Town, a browser game where players tell an idea to one of 2,721 simulated personas and watch it spread through a city over an in-game week. The personas are built from anonymised real-world data. A daily challenge has a leaderboard.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Social_Network_Analysis_Visualization.png",
+    "learn_more_url": "",
+    "date": "2026-10-21",
+    "source": "Artificial Societies"
+  },
+  {
+    "title": "OpenAI Adds 12-Hour Prompt Caching to Its API",
+    "description": "OpenAI's Responses API now offers an optional 12-hour prompt cache for GPT-5.6 and later models, up from the 30-minute default. Writes at the 12-hour setting cost 2.5 times the normal input rate, while cached reads keep the usual discounted rate. Codex lead Tibo Sottiaux also said Codex and Work now keep logged-in users' cache indefinitely.",
+    "image_url": "https://www.androidauthority.com/wp-content/uploads/2026/05/Open-AI-ChatGPT-logo-on-phone-stock-photo-10.jpg",
+    "learn_more_url": "",
+    "date": "2026-10-21",
+    "source": "OpenAI",
+    "ds": true
+  }
+]

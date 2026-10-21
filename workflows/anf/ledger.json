@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 575,
-  "updated_at": "2026-10-21T12:17:50.335731+00:00",
+  "generation": 576,
+  "updated_at": "2026-10-21T12:18:01.436151+00:00",
   "next_id": 191,
   "records": [
     {
@@ -11031,9 +11031,371 @@
       },
       "acknowledged_at": "2026-10-21T12:17:50.335731+00:00",
       "checkpoint_after": 174
+    },
+    "805c76d31f1cad52b38d6a87": {
+      "batch_id": "805c76d31f1cad52b38d6a87",
+      "status": "prepared",
+      "checkpoint_before": 174,
+      "prepared_at": "2026-10-21T12:18:01.436151+00:00",
+      "intake_cutoff": 171,
+      "records": [
+        {
+          "id": 175,
+          "revision": 1,
+          "sha256": "029238069e26c444da3fca2b68f42c3378749c03326b37f835fa3cf99a84c718"
+        },
+        {
+          "id": 176,
+          "revision": 1,
+          "sha256": "617cfbec94796804eb7143dc07ee974aa4093c352449dd1b154be6ed1188ea15"
+        },
+        {
+          "id": 177,
+          "revision": 1,
+          "sha256": "e5a12e43d56100150656eebc122c044fd6ad7c9bbae6bbfeb5c02f55e3079a69"
+        },
+        {
+          "id": 178,
+          "revision": 1,
+          "sha256": "d82ecd89ddca7531b222e49ddc82fbc607dcdbf581069428e4e8c9ec8bd0eef6"
+        },
+        {
+          "id": 179,
+          "revision": 1,
+          "sha256": "95c199b30074a5fd5910006416c74e09b06680df514dbfbeb7b9d17ae5365566"
+        },
+        {
+          "id": 180,
+          "revision": 1,
+          "sha256": "2e1a68462b3ebb81ef85b3725cbc2b6319146cd664897788a1888e3b4c12e3b6"
+        },
+        {
+          "id": 181,
+          "revision": 1,
+          "sha256": "ae96a1036ba054308e038e35dc666b9845e2fc0d17813bd51e3abf20b4666fec"
+        },
+        {
+          "id": 182,
+          "revision": 1,
+          "sha256": "84f9399f5d79e07010abcd57bf9b78bee9df60a35aa47fe3eb06ca587ad64976"
+        },
+        {
+          "id": 183,
+          "revision": 1,
+          "sha256": "14875a163f5fdb72a7703d35c8c5a2bbef01cefc05106c92ae203b870a9ee34e"
+        },
+        {
+          "id": 184,
+          "revision": 1,
+          "sha256": "b2ff6bb76d5b4dc07608b3d6fa08af3c45dbeef111e68ec9b55094e4b0caf68d"
+        },
+        {
+          "id": 185,
+          "revision": 1,
+          "sha256": "7eb7e567dc786b8c88d5145a18b6c94388d4062627505c875c4ee72dd8d30f94"
+        },
+        {
+          "id": 186,
+          "revision": 1,
+          "sha256": "a722f3fb92780cfb9dd5682e1644e4431faca522f94fb1f4a7b927151da00d6b"
+        },
+        {
+          "id": 187,
+          "revision": 1,
+          "sha256": "a0ad195ddafe6e3ff065602611876d455e9c4d0c9b7f8b0934c1875806254859"
+        },
+        {
+          "id": 188,
+          "revision": 1,
+          "sha256": "bfbdc03c4860a953491e3fc0f22dbb17f25e5dfd891da445cadc0ed582228c82"
+        },
+        {
+          "id": 189,
+          "revision": 1,
+          "sha256": "94f4882e5e55eb3ae37f6233d655b47305e8c4c030e1c007942a476591343d63"
+        },
+        {
+          "id": 190,
+          "revision": 1,
+          "sha256": "8c58695721e74b8f0d96b1376c1860d61a21de757e71749219a7c4b8084a2153"
+        }
+      ],
+      "first_id": 175,
+      "last_id": 190,
+      "count": 16,
+      "txt_path": "workflows/anf/batches/805c76d31f1cad52b38d6a87.txt",
+      "json_path": "workflows/anf/batches/805c76d31f1cad52b38d6a87.json",
+      "txt_sha256": "571074853ede83a0cc2d5de2cdab24999ad70343123ad72ba9af232d48d26093",
+      "json_sha256": "9517921adef9768e11aa7234dd5a1ba0a65fc81c0cce62fb826ad14cb952ec96",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Security scanning service for open-source maintainers and developers, including reproducible vulnerability findings and candidate code patches.",
+            "evidence_sha256": "adfe8d877f42922cdf4a8d6a592a8cf6308459791fc578c6b6fd726627b6d586"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Open-source inference infrastructure for developers deploying AI models, not a public model release.",
+            "evidence_sha256": "4d62605b25b48ed7dd0c0174aac8dbae30a0b7394af41e23aed2270964d2a730"
+          },
+          "quality": {
+            "article": {
+              "url": "https://github.com/deepseek-ai/DeepInfer",
+              "final_url": "https://github.com/deepseek-ai/DeepInfer",
+              "redirect_chain": [
+                "https://github.com/deepseek-ai/DeepInfer"
+              ],
+              "checked_at": "2026-10-20T16:40:35.792168+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "4d62605b25b48ed7dd0c0174aac8dbae30a0b7394af41e23aed2270964d2a730"
+            },
+            "image": {
+              "url": "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/doc/images/architecture_overview.png",
+              "final_url": "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/doc/images/architecture_overview.png",
+              "redirect_chain": [
+                "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/doc/images/architecture_overview.png"
+              ],
+              "content_type": "image/png",
+              "width": 1727,
+              "height": 911,
+              "image_bytes_sha256": "a04aed83c96ddc4a6ec7e578b961d8a3fdbea16ac72a4f51b3cc2221b858beb5",
+              "checked_at": "2026-10-20T16:40:31.445383+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Official DeepInfer architecture figure inspected at 1727x911. Legible diagram shows request routing, vision/prefill/decode services and external KVCache storage. Compared official prefill/decode benchmarks, both 1350x930 and inspected. Architecture selected as broader explanatory visual.",
+              "evidence_sha256": "4d62605b25b48ed7dd0c0174aac8dbae30a0b7394af41e23aed2270964d2a730"
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Startup funding and business news about an AI manufacturing company, not technical research or a developer tool.",
+            "evidence_sha256": "503bd77f9ee77812c395aa3324de0513483428975c1d74616a19c986198cd560"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer ChatGPT privacy feature launch for general users, not technical research or a developer tool.",
+            "evidence_sha256": "1d6267fe7c0e095681b56370665631b925af0956d18b591b4a2db061527f43f8"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business acquisition news about OpenAI entering life sciences, not technical research or a developer tool.",
+            "evidence_sha256": "257451c03f73ac77793aa47c3b8af98019a7bcc53aaf7641ac610a488d10594b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Voice AI product launch for a broad audience, not technical research; API compatibility is incidental.",
+            "evidence_sha256": "dd62e98d1c50ae77c520d0243daf20bbd19c044f68398366929f4d6c8b2761c0"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer AI assistant product update roundup, not technical research or a developer tool.",
+            "evidence_sha256": "269f4f063e5c4e93375fbc9730bec73bfec6a603e8ae9cd3cee51ba7db4d8875"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Shared recurring workplace tasks and team coordination in ChatGPT are general business-productivity features; the engineering update is an example, not API, coding, or research functionality.",
+            "evidence_sha256": "57628b040060217f9d0af2a5766437d3d295d4116f8510c7ecf59118e701ed38"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.riseproductive.com/blog/chatgpt-team-tasks-scheduled-event-workflows",
+              "final_url": "https://www.riseproductive.com/blog/chatgpt-team-tasks-scheduled-event-workflows",
+              "redirect_chain": [
+                "https://www.riseproductive.com/blog/chatgpt-team-tasks-scheduled-event-workflows"
+              ],
+              "checked_at": "2026-10-20T18:31:41.427340+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "4471e3dbd4526c8c2f4e7d9ef3ba2098b7be8e27e6b6716dde403b25313864e9"
+            },
+            "image": {
+              "url": "https://crkgychaqtyr6rfc.public.blob.vercel-storage.com/rise-openai-chatgpt-team-tasks-launch-primary-og-og-0d8e67abf3f22def.png",
+              "final_url": "https://crkgychaqtyr6rfc.public.blob.vercel-storage.com/rise-openai-chatgpt-team-tasks-launch-primary-og-og-0d8e67abf3f22def.png",
+              "redirect_chain": [
+                "https://crkgychaqtyr6rfc.public.blob.vercel-storage.com/rise-openai-chatgpt-team-tasks-launch-primary-og-og-0d8e67abf3f22def.png"
+              ],
+              "checked_at": "2026-10-20T18:07:28.940305+00:00",
+              "content_type": "image/png",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Publisher-created illustration for the exact Team Tasks article: scheduled/event cues feed a shared task reviewed by a person. Actual pixels inspected for both 1200x630 and 1600x900 variants; chose complete OG composition. Illustrative artwork, not a product screenshot.",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "4ead6cb65d6b5e89c62bf8a17b642758868f25ac0a123471ac2ac76e024798c1",
+              "image_bytes_sha256": "0d8e67abf3f22def5092673ab41f0a4a714351b700a144a624312be713e8ffd2"
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Reports an AI-assisted protein-design research study, laboratory evaluation, and scientific limitations for research audiences.",
+            "evidence_sha256": "392db85196e2c263fcc3610cbec39e6c31edbb2948a9b1d87e43e2dc3aa1ac2c"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+              "final_url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+              "redirect_chain": [
+                "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+              ],
+              "checked_at": "2026-10-20T18:59:48+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "fb80fd5997193fc71d794648adc6d95579321ab8286e339688cfd2d873f8d0ff"
+            },
+            "image": {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg",
+              "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg",
+              "redirect_chain": [
+                "https://www-cdn.anthropic.com/images/4zrzovbb/website/43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg"
+              ],
+              "checked_at": "2026-10-20T19:00:18+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "content_type": "image/jpeg",
+              "width": 2000,
+              "height": 1125,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "3adb3815667a09667429049c24cd1b03fadd09749083964ec19da19f6c643279",
+              "relevance": "story_specific",
+              "relevance_note": "Official hero artwork for this exact research report, with a scorpion illustration and laboratory imagery. Compared against the generic OpenGraph Anthropic logo and in-article chart candidates; the high-resolution story hero is appropriate for a newsletter.",
+              "evidence_sha256": "ee47f1954dd8231fa3cc62cdbcce5ef9cdb77e139c29462fe62420a55097389d"
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The paper introduces and evaluates a multi-agent research method, trained 27B model, and scientific-hypothesis benchmark for researchers.",
+            "evidence_sha256": "6cc86afa78376836d1bade064f6497d7c96b6716b2641f655d37d80a23c563ed"
+          },
+          "quality": {
+            "article": {
+              "url": "https://arxiv.org/abs/2610.23839",
+              "final_url": "https://arxiv.org/abs/2610.23839",
+              "redirect_chain": [
+                "https://arxiv.org/abs/2610.23839"
+              ],
+              "checked_at": "2026-10-20T19:08:16.288832+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "6cc86afa78376836d1bade064f6497d7c96b6716b2641f655d37d80a23c563ed"
+            },
+            "image": {
+              "url": "https://arxiv.org/html/2610.23839v1/fig1_rsi_real.png",
+              "final_url": "https://arxiv.org/html/2610.23839v1/fig1_rsi_real.png",
+              "redirect_chain": [
+                "https://arxiv.org/html/2610.23839v1/fig1_rsi_real.png"
+              ],
+              "checked_at": "2026-10-20T19:08:26.282645+00:00",
+              "content_type": "image/png",
+              "width": 851,
+              "height": 581,
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "image_bytes_sha256": "d9e919a1d0fff1455ad2f892a0640f4b20953f54d0ea5745dcdd2d7e2f08beac",
+              "relevance": "story_specific",
+              "relevance_note": "Inspected the actual 851x581 Figure 5 PNG. Research trees, score chart, domain bars and score matrix are legible. It depicts the precise 4.86 to 5.39 improvement and novelty decline summarized here. Compared inspected 823x567 teaser, 680x495 domain process graphic and 980x1213 official method diagram; selected quality-results figure because it directly matches the summary and uses a more suitable landscape layout.",
+              "evidence_sha256": "6cc86afa78376836d1bade064f6497d7c96b6716b2641f655d37d80a23c563ed"
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Policy speech on AI progress and economics for a broad audience, not technical research or a developer tool.",
+            "evidence_sha256": "1a47b1366a37e9fd5374f5f5ba6fa6b0f4b3a2a21fe6876948d0d43a1f4332a0"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The Information reports OpenAI CEO Sam Altman outlined three AI safety scenarios to staff: an international watchdog, a merger of major labs, or one company gaining enough power to deny rivals computing resources. He reportedly opposed the third scenario and said OpenAI should decide within a year. This is executive-level policy discussion, not technical research, model architecture, or developer tooling. muse-compile-backfill 2026-10-21: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "a722f3fb92780cfb9dd5682e1644e4431faca522f94fb1f4a7b927151da00d6b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Arda, cofounded by former OpenAI research chief Bob McGrew, emerged from stealth with a $160M Series A at a $1.5B valuation. The company says its AI turns product designs into assembly plans and instructions; customer Anduril cut preparation time for basic work instructions from 10 hours to 15 minutes. This is a startup launch and funding story, not technical research or a developer tool. muse-compile-backfill 2026-10-21: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "a0ad195ddafe6e3ff065602611876d455e9c4d0c9b7f8b0934c1875806254859"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Anthropic reports an internal Claude model designed small proteins targeting scorpion toxins in a project with investment research firm Citrini Research. Laboratory testing of 211 designs found 17 met the study's binding criteria, each for one toxin. The proteins have not been tested to see whether they block toxins or protect animals, so the work has not produced an antivenom. This is an AI-assisted scientific research study with laboratory evaluation, for research audiences. muse-compile-backfill 2026-10-21: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "bfbdc03c4860a953491e3fc0f22dbb17f25e5dfd891da445cadc0ed582228c82"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Interactive consumer demo of AI social simulation, not technical research or a developer tool.",
+            "evidence_sha256": "7e343694703bb2efeb3c2f50bc89b0f6fcfe9e6a917b3e7ea5605620aa643d81"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer API feature: prompt-cache lifetime settings and cache-write pricing for Responses API builders.",
+            "evidence_sha256": "e60f360cdb628e5ff41e72bb715d754354dd08db2be6ae7683cc7a15dba7760a"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-21T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "805c76d31f1cad52b38d6a87",
   "replacement_batch": null,
   "checkpoint": 174,
   "checkpoint_history": [
@@ -22939,6 +23301,375 @@
           "sha256": "41af5a8cbceec5458ee86626ee3d2814ff1b4120056722a155d72a4d31ad78f6",
           "published_at": "2026-10-20T12:11:28.426291+00:00",
           "planned_from_head": "10e5f8eb851c85f90dfaa9b2683b517d870753cb"
+        }
+      }
+    },
+    "muse-compile-20261021-1218-0925": {
+      "sha256": "6086a37b3daaf2103bee7042bb00949f6777c2532a7f32e5ff4072602b3f17f2",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "805c76d31f1cad52b38d6a87",
+          "status": "prepared",
+          "checkpoint_before": 174,
+          "prepared_at": "2026-10-21T12:18:01.436151+00:00",
+          "intake_cutoff": 171,
+          "records": [
+            {
+              "id": 175,
+              "revision": 1,
+              "sha256": "029238069e26c444da3fca2b68f42c3378749c03326b37f835fa3cf99a84c718"
+            },
+            {
+              "id": 176,
+              "revision": 1,
+              "sha256": "617cfbec94796804eb7143dc07ee974aa4093c352449dd1b154be6ed1188ea15"
+            },
+            {
+              "id": 177,
+              "revision": 1,
+              "sha256": "e5a12e43d56100150656eebc122c044fd6ad7c9bbae6bbfeb5c02f55e3079a69"
+            },
+            {
+              "id": 178,
+              "revision": 1,
+              "sha256": "d82ecd89ddca7531b222e49ddc82fbc607dcdbf581069428e4e8c9ec8bd0eef6"
+            },
+            {
+              "id": 179,
+              "revision": 1,
+              "sha256": "95c199b30074a5fd5910006416c74e09b06680df514dbfbeb7b9d17ae5365566"
+            },
+            {
+              "id": 180,
+              "revision": 1,
+              "sha256": "2e1a68462b3ebb81ef85b3725cbc2b6319146cd664897788a1888e3b4c12e3b6"
+            },
+            {
+              "id": 181,
+              "revision": 1,
+              "sha256": "ae96a1036ba054308e038e35dc666b9845e2fc0d17813bd51e3abf20b4666fec"
+            },
+            {
+              "id": 182,
+              "revision": 1,
+              "sha256": "84f9399f5d79e07010abcd57bf9b78bee9df60a35aa47fe3eb06ca587ad64976"
+            },
+            {
+              "id": 183,
+              "revision": 1,
+              "sha256": "14875a163f5fdb72a7703d35c8c5a2bbef01cefc05106c92ae203b870a9ee34e"
+            },
+            {
+              "id": 184,
+              "revision": 1,
+              "sha256": "b2ff6bb76d5b4dc07608b3d6fa08af3c45dbeef111e68ec9b55094e4b0caf68d"
+            },
+            {
+              "id": 185,
+              "revision": 1,
+              "sha256": "7eb7e567dc786b8c88d5145a18b6c94388d4062627505c875c4ee72dd8d30f94"
+            },
+            {
+              "id": 186,
+              "revision": 1,
+              "sha256": "a722f3fb92780cfb9dd5682e1644e4431faca522f94fb1f4a7b927151da00d6b"
+            },
+            {
+              "id": 187,
+              "revision": 1,
+              "sha256": "a0ad195ddafe6e3ff065602611876d455e9c4d0c9b7f8b0934c1875806254859"
+            },
+            {
+              "id": 188,
+              "revision": 1,
+              "sha256": "bfbdc03c4860a953491e3fc0f22dbb17f25e5dfd891da445cadc0ed582228c82"
+            },
+            {
+              "id": 189,
+              "revision": 1,
+              "sha256": "94f4882e5e55eb3ae37f6233d655b47305e8c4c030e1c007942a476591343d63"
+            },
+            {
+              "id": 190,
+              "revision": 1,
+              "sha256": "8c58695721e74b8f0d96b1376c1860d61a21de757e71749219a7c4b8084a2153"
+            }
+          ],
+          "first_id": 175,
+          "last_id": 190,
+          "count": 16,
+          "txt_path": "workflows/anf/batches/805c76d31f1cad52b38d6a87.txt",
+          "json_path": "workflows/anf/batches/805c76d31f1cad52b38d6a87.json",
+          "txt_sha256": "571074853ede83a0cc2d5de2cdab24999ad70343123ad72ba9af232d48d26093",
+          "json_sha256": "9517921adef9768e11aa7234dd5a1ba0a65fc81c0cce62fb826ad14cb952ec96",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Security scanning service for open-source maintainers and developers, including reproducible vulnerability findings and candidate code patches.",
+                "evidence_sha256": "adfe8d877f42922cdf4a8d6a592a8cf6308459791fc578c6b6fd726627b6d586"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Open-source inference infrastructure for developers deploying AI models, not a public model release.",
+                "evidence_sha256": "4d62605b25b48ed7dd0c0174aac8dbae30a0b7394af41e23aed2270964d2a730"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://github.com/deepseek-ai/DeepInfer",
+                  "final_url": "https://github.com/deepseek-ai/DeepInfer",
+                  "redirect_chain": [
+                    "https://github.com/deepseek-ai/DeepInfer"
+                  ],
+                  "checked_at": "2026-10-20T16:40:35.792168+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "4d62605b25b48ed7dd0c0174aac8dbae30a0b7394af41e23aed2270964d2a730"
+                },
+                "image": {
+                  "url": "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/doc/images/architecture_overview.png",
+                  "final_url": "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/doc/images/architecture_overview.png",
+                  "redirect_chain": [
+                    "https://raw.githubusercontent.com/deepseek-ai/DeepInfer/main/doc/images/architecture_overview.png"
+                  ],
+                  "content_type": "image/png",
+                  "width": 1727,
+                  "height": 911,
+                  "image_bytes_sha256": "a04aed83c96ddc4a6ec7e578b961d8a3fdbea16ac72a4f51b3cc2221b858beb5",
+                  "checked_at": "2026-10-20T16:40:31.445383+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "Official DeepInfer architecture figure inspected at 1727x911. Legible diagram shows request routing, vision/prefill/decode services and external KVCache storage. Compared official prefill/decode benchmarks, both 1350x930 and inspected. Architecture selected as broader explanatory visual.",
+                  "evidence_sha256": "4d62605b25b48ed7dd0c0174aac8dbae30a0b7394af41e23aed2270964d2a730"
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Startup funding and business news about an AI manufacturing company, not technical research or a developer tool.",
+                "evidence_sha256": "503bd77f9ee77812c395aa3324de0513483428975c1d74616a19c986198cd560"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer ChatGPT privacy feature launch for general users, not technical research or a developer tool.",
+                "evidence_sha256": "1d6267fe7c0e095681b56370665631b925af0956d18b591b4a2db061527f43f8"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Business acquisition news about OpenAI entering life sciences, not technical research or a developer tool.",
+                "evidence_sha256": "257451c03f73ac77793aa47c3b8af98019a7bcc53aaf7641ac610a488d10594b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Voice AI product launch for a broad audience, not technical research; API compatibility is incidental.",
+                "evidence_sha256": "dd62e98d1c50ae77c520d0243daf20bbd19c044f68398366929f4d6c8b2761c0"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer AI assistant product update roundup, not technical research or a developer tool.",
+                "evidence_sha256": "269f4f063e5c4e93375fbc9730bec73bfec6a603e8ae9cd3cee51ba7db4d8875"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Shared recurring workplace tasks and team coordination in ChatGPT are general business-productivity features; the engineering update is an example, not API, coding, or research functionality.",
+                "evidence_sha256": "57628b040060217f9d0af2a5766437d3d295d4116f8510c7ecf59118e701ed38"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.riseproductive.com/blog/chatgpt-team-tasks-scheduled-event-workflows",
+                  "final_url": "https://www.riseproductive.com/blog/chatgpt-team-tasks-scheduled-event-workflows",
+                  "redirect_chain": [
+                    "https://www.riseproductive.com/blog/chatgpt-team-tasks-scheduled-event-workflows"
+                  ],
+                  "checked_at": "2026-10-20T18:31:41.427340+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "4471e3dbd4526c8c2f4e7d9ef3ba2098b7be8e27e6b6716dde403b25313864e9"
+                },
+                "image": {
+                  "url": "https://crkgychaqtyr6rfc.public.blob.vercel-storage.com/rise-openai-chatgpt-team-tasks-launch-primary-og-og-0d8e67abf3f22def.png",
+                  "final_url": "https://crkgychaqtyr6rfc.public.blob.vercel-storage.com/rise-openai-chatgpt-team-tasks-launch-primary-og-og-0d8e67abf3f22def.png",
+                  "redirect_chain": [
+                    "https://crkgychaqtyr6rfc.public.blob.vercel-storage.com/rise-openai-chatgpt-team-tasks-launch-primary-og-og-0d8e67abf3f22def.png"
+                  ],
+                  "checked_at": "2026-10-20T18:07:28.940305+00:00",
+                  "content_type": "image/png",
+                  "width": 1200,
+                  "height": 630,
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "Publisher-created illustration for the exact Team Tasks article: scheduled/event cues feed a shared task reviewed by a person. Actual pixels inspected for both 1200x630 and 1600x900 variants; chose complete OG composition. Illustrative artwork, not a product screenshot.",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "4ead6cb65d6b5e89c62bf8a17b642758868f25ac0a123471ac2ac76e024798c1",
+                  "image_bytes_sha256": "0d8e67abf3f22def5092673ab41f0a4a714351b700a144a624312be713e8ffd2"
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Reports an AI-assisted protein-design research study, laboratory evaluation, and scientific limitations for research audiences.",
+                "evidence_sha256": "392db85196e2c263fcc3610cbec39e6c31edbb2948a9b1d87e43e2dc3aa1ac2c"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+                  "final_url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+                  "redirect_chain": [
+                    "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+                  ],
+                  "checked_at": "2026-10-20T18:59:48+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "fb80fd5997193fc71d794648adc6d95579321ab8286e339688cfd2d873f8d0ff"
+                },
+                "image": {
+                  "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg",
+                  "final_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg",
+                  "redirect_chain": [
+                    "https://www-cdn.anthropic.com/images/4zrzovbb/website/43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg"
+                  ],
+                  "checked_at": "2026-10-20T19:00:18+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "content_type": "image/jpeg",
+                  "width": 2000,
+                  "height": 1125,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "3adb3815667a09667429049c24cd1b03fadd09749083964ec19da19f6c643279",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official hero artwork for this exact research report, with a scorpion illustration and laboratory imagery. Compared against the generic OpenGraph Anthropic logo and in-article chart candidates; the high-resolution story hero is appropriate for a newsletter.",
+                  "evidence_sha256": "ee47f1954dd8231fa3cc62cdbcce5ef9cdb77e139c29462fe62420a55097389d"
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The paper introduces and evaluates a multi-agent research method, trained 27B model, and scientific-hypothesis benchmark for researchers.",
+                "evidence_sha256": "6cc86afa78376836d1bade064f6497d7c96b6716b2641f655d37d80a23c563ed"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://arxiv.org/abs/2610.23839",
+                  "final_url": "https://arxiv.org/abs/2610.23839",
+                  "redirect_chain": [
+                    "https://arxiv.org/abs/2610.23839"
+                  ],
+                  "checked_at": "2026-10-20T19:08:16.288832+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "6cc86afa78376836d1bade064f6497d7c96b6716b2641f655d37d80a23c563ed"
+                },
+                "image": {
+                  "url": "https://arxiv.org/html/2610.23839v1/fig1_rsi_real.png",
+                  "final_url": "https://arxiv.org/html/2610.23839v1/fig1_rsi_real.png",
+                  "redirect_chain": [
+                    "https://arxiv.org/html/2610.23839v1/fig1_rsi_real.png"
+                  ],
+                  "checked_at": "2026-10-20T19:08:26.282645+00:00",
+                  "content_type": "image/png",
+                  "width": 851,
+                  "height": 581,
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "d9e919a1d0fff1455ad2f892a0640f4b20953f54d0ea5745dcdd2d7e2f08beac",
+                  "relevance": "story_specific",
+                  "relevance_note": "Inspected the actual 851x581 Figure 5 PNG. Research trees, score chart, domain bars and score matrix are legible. It depicts the precise 4.86 to 5.39 improvement and novelty decline summarized here. Compared inspected 823x567 teaser, 680x495 domain process graphic and 980x1213 official method diagram; selected quality-results figure because it directly matches the summary and uses a more suitable landscape layout.",
+                  "evidence_sha256": "6cc86afa78376836d1bade064f6497d7c96b6716b2641f655d37d80a23c563ed"
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Policy speech on AI progress and economics for a broad audience, not technical research or a developer tool.",
+                "evidence_sha256": "1a47b1366a37e9fd5374f5f5ba6fa6b0f4b3a2a21fe6876948d0d43a1f4332a0"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "The Information reports OpenAI CEO Sam Altman outlined three AI safety scenarios to staff: an international watchdog, a merger of major labs, or one company gaining enough power to deny rivals computing resources. He reportedly opposed the third scenario and said OpenAI should decide within a year. This is executive-level policy discussion, not technical research, model architecture, or developer tooling. muse-compile-backfill 2026-10-21: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "a722f3fb92780cfb9dd5682e1644e4431faca522f94fb1f4a7b927151da00d6b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Arda, cofounded by former OpenAI research chief Bob McGrew, emerged from stealth with a $160M Series A at a $1.5B valuation. The company says its AI turns product designs into assembly plans and instructions; customer Anduril cut preparation time for basic work instructions from 10 hours to 15 minutes. This is a startup launch and funding story, not technical research or a developer tool. muse-compile-backfill 2026-10-21: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "a0ad195ddafe6e3ff065602611876d455e9c4d0c9b7f8b0934c1875806254859"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Anthropic reports an internal Claude model designed small proteins targeting scorpion toxins in a project with investment research firm Citrini Research. Laboratory testing of 211 designs found 17 met the study's binding criteria, each for one toxin. The proteins have not been tested to see whether they block toxins or protect animals, so the work has not produced an antivenom. This is an AI-assisted scientific research study with laboratory evaluation, for research audiences. muse-compile-backfill 2026-10-21: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "bfbdc03c4860a953491e3fc0f22dbb17f25e5dfd891da445cadc0ed582228c82"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Interactive consumer demo of AI social simulation, not technical research or a developer tool.",
+                "evidence_sha256": "7e343694703bb2efeb3c2f50bc89b0f6fcfe9e6a917b3e7ea5605620aa643d81"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Developer API feature: prompt-cache lifetime settings and cache-write pricing for Responses API builders.",
+                "evidence_sha256": "e60f360cdb628e5ff41e72bb715d754354dd08db2be6ae7683cc7a15dba7760a"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-21T12:00:00+00:00",
+          "deferred_request_ids": []
         }
       }
     }
