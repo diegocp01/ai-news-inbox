@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 583,
-  "updated_at": "2026-10-21T14:48:47.870954+00:00",
-  "next_id": 192,
+  "generation": 584,
+  "updated_at": "2026-10-21T14:48:48.366168+00:00",
+  "next_id": 193,
   "records": [
     {
       "id": 1,
@@ -2541,6 +2541,19 @@
           "sha256": "a523fec0627cf707966664c18d0bf09a3f89e430c37d6e882093644cf4bacb15",
           "source": "The Lancet Digital Health",
           "request_id": "d2091d928eb35eddacd0284e60595d55c7b75b75de06e2e5e75d2d6d9a86e017",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T14:48:48.366168+00:00",
+          "block": "Title: Treat AI Agents Like a New Species, Harvard Scientist Says\nURL: https://www.harvardmagazine.com/five-questions/rogue-ai-harvard-joshua-joseph\nImage URL: https://www.harvardmagazine.com/sites/default/files/styles/16_9_1920x1080/public/2026-10/aispecies.webp?h=1d4b4ebd&itok=i2W2Zi0k\nSummary: In a Harvard Magazine interview, Joshua Joseph, the first chief AI scientist at Harvard's Berkman Klein Center, argues that increasingly autonomous AI agents may slip beyond collective control and are better viewed as something like a new species. He compares coexisting with them to domesticating animals, while noting harm may come from swarms of low-risk agents over time.",
+          "sha256": "9386470309ac0260c3d774e954de3b546cde825226438f0852855082c054c9f0",
+          "source": "Harvard Magazine",
+          "request_id": "86526b5fae3d7841f4d42c3b6679da148e5c891b5258c45b466bad1d20994652",
           "mode": "standard"
         }
       ]
@@ -5599,13 +5612,21 @@
       ]
     },
     "86526b5fae3d7841f4d42c3b6679da148e5c891b5258c45b466bad1d20994652": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T14:48:47.870954+00:00",
       "received_sequence": 173,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-21T14:48:48.366168+00:00",
+      "records": [
+        {
+          "id": 192,
+          "revision": 1,
+          "sha256": "9386470309ac0260c3d774e954de3b546cde825226438f0852855082c054c9f0"
+        }
+      ]
     }
   },
   "batches": {
@@ -23830,6 +23851,21 @@
       "result": {
         "status": "received",
         "request_id": "86526b5fae3d7841f4d42c3b6679da148e5c891b5258c45b466bad1d20994652"
+      }
+    },
+    "2f535a27cd52b093135027715a88489392dcb27a06e8c43260b535ba72cbced7": {
+      "sha256": "040bf86e2ccd9661189ded90c7034760fdd1e782d7f62feeba5289ce3ede29b0",
+      "result": {
+        "status": "finalized",
+        "request_id": "86526b5fae3d7841f4d42c3b6679da148e5c891b5258c45b466bad1d20994652",
+        "records": [
+          {
+            "id": 192,
+            "revision": 1,
+            "sha256": "9386470309ac0260c3d774e954de3b546cde825226438f0852855082c054c9f0"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
