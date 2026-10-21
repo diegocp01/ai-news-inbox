@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 595,
-  "updated_at": "2026-10-21T14:59:05.814628+00:00",
-  "next_id": 196,
+  "generation": 596,
+  "updated_at": "2026-10-21T15:01:00.293031+00:00",
+  "next_id": 197,
   "records": [
     {
       "id": 1,
@@ -2593,6 +2593,19 @@
           "sha256": "fafe8a2bb8303f785f1a103c661fdbd688e4930bbe0f53643f4cbb43ac103e15",
           "source": "BleepingComputer",
           "request_id": "c3139b26990d7296d22cc0aba10a5c7ba26348f8c87d3888e4c48e0b21c0efc0",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T15:01:00.293031+00:00",
+          "block": "Title: AI Helps Uncover Critical PHP Flaws and Coordinate Fixes\nURL: https://www.wiz.io/blog/php2shell-php-rce\nImage URL: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s1600/PHP2SHELL.gif\nSummary: Researchers using frontier AI uncovered critical PHP vulnerabilities that could let attackers seize servers or expose sensitive data. PHP maintainers released fixes on October 21 after coordinated work involving OpenAI, Calif, Wiz and infrastructure providers. OpenAI is proposing a broader response framework to help defenders prepare protections before disclosure as AI accelerates vulnerability discovery.",
+          "sha256": "47e8edb15e319af3e385f847b8344bd320ff41730cfcf30f49141cb299a7caa9",
+          "source": "Wiz",
+          "request_id": "5eda4c63189d532479f3b5c4dc6d412d8acbee11ecfb7e578aa9fb544e5fba03",
           "mode": "standard"
         }
       ]
@@ -5702,13 +5715,21 @@
       ]
     },
     "5eda4c63189d532479f3b5c4dc6d412d8acbee11ecfb7e578aa9fb544e5fba03": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T14:57:50.089211+00:00",
       "received_sequence": 176,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-21T15:01:00.293031+00:00",
+      "records": [
+        {
+          "id": 196,
+          "revision": 1,
+          "sha256": "47e8edb15e319af3e385f847b8344bd320ff41730cfcf30f49141cb299a7caa9"
+        }
+      ]
     },
     "c3139b26990d7296d22cc0aba10a5c7ba26348f8c87d3888e4c48e0b21c0efc0": {
       "status": "finalized",
@@ -24086,6 +24107,21 @@
           "sha256": "fafe8a2bb8303f785f1a103c661fdbd688e4930bbe0f53643f4cbb43ac103e15"
         },
         "editorial_sha256": "3b40a20cce0594d61c03509642576c26f8494357581902b57c4a181850ebc1d2"
+      }
+    },
+    "87b596634a4ff9685ac0569eaf5651ead583499b3c5a985920d7dca6429df784": {
+      "sha256": "30a10aadd9146662b3c3ce476986545d0338f29f81213bd10f74ebcb8c97f1d7",
+      "result": {
+        "status": "finalized",
+        "request_id": "5eda4c63189d532479f3b5c4dc6d412d8acbee11ecfb7e578aa9fb544e5fba03",
+        "records": [
+          {
+            "id": 196,
+            "revision": 1,
+            "sha256": "47e8edb15e319af3e385f847b8344bd320ff41730cfcf30f49141cb299a7caa9"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
