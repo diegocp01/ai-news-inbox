@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 594,
-  "updated_at": "2026-10-21T14:59:05.278792+00:00",
+  "generation": 595,
+  "updated_at": "2026-10-21T14:59:05.814628+00:00",
   "next_id": 196,
   "records": [
     {
@@ -24075,6 +24075,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a93f43b5535d2bebbedc800bc9aa100fcaae57ee7d749281de318e371dd77faa": {
+      "sha256": "8b22eab8525281c0f32156dab78ff36e098efd372a313afde847da1827ac9d89",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 195,
+          "revision": 1,
+          "sha256": "fafe8a2bb8303f785f1a103c661fdbd688e4930bbe0f53643f4cbb43ac103e15"
+        },
+        "editorial_sha256": "3b40a20cce0594d61c03509642576c26f8494357581902b57c4a181850ebc1d2"
+      }
     }
   },
   "migration": {
@@ -30447,6 +30459,26 @@
         "sha256": "818c80bfb439ac80d0cf75fd5f553cef33e7c060290fd0c3c81d69d8bc0a9639",
         "reviewed_at": "2026-10-21T14:48:51.837021+00:00",
         "operation_id": "a1500517e68469f2f748dc074a686b143e58b670d4aa585655e98c83b0de2985"
+      }
+    ],
+    "195:1": [
+      {
+        "reference": {
+          "id": 195,
+          "revision": 1,
+          "sha256": "fafe8a2bb8303f785f1a103c661fdbd688e4930bbe0f53643f4cbb43ac103e15"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Security advisory news for a broad audience of organizations running PHP, not technical research or a developer tool.",
+            "evidence_sha256": "9dabfa774e8b5f3d602f16507e4b750cfafb76f1dee690e5fa388df52ec36595"
+          }
+        },
+        "sha256": "3b40a20cce0594d61c03509642576c26f8494357581902b57c4a181850ebc1d2",
+        "reviewed_at": "2026-10-21T14:59:05.814628+00:00",
+        "operation_id": "a93f43b5535d2bebbedc800bc9aa100fcaae57ee7d749281de318e371dd77faa"
       }
     ]
   }
