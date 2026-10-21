@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 565,
-  "updated_at": "2026-10-21T11:48:06.685085+00:00",
-  "next_id": 189,
+  "generation": 566,
+  "updated_at": "2026-10-21T11:48:07.165792+00:00",
+  "next_id": 190,
   "records": [
     {
       "id": 1,
@@ -2503,6 +2503,19 @@
           "request_id": "34d64b17cd08d932704e3558c590d130f56bb7d3febbc480666064c4057da78c",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "revisions": [
+        {
+          "created_at": "2026-10-21T11:48:07.165792+00:00",
+          "block": "Title: Artificial Societies' Game Shows Ideas Spreading Through a Simulated City\nURL:\nImage URL: https://upload.wikimedia.org/wikipedia/commons/9/9b/Social_Network_Analysis_Visualization.png\nSummary: Artificial Societies, a Y Combinator-backed London startup that simulates how audiences react to decisions, offers Talk of the Town, a browser game where players tell an idea to one of 2,721 simulated personas and watch it spread through a city over an in-game week. The personas are built from anonymised real-world data. A daily challenge has a leaderboard.",
+          "sha256": "94f4882e5e55eb3ae37f6233d655b47305e8c4c030e1c007942a476591343d63",
+          "source": "Artificial Societies",
+          "request_id": "6bae717feaf657f5e9adbb8ca102ba5ce8fa95ce4d55325b821d1b09e633f3b0",
+          "mode": "standard"
         }
       ]
     }
@@ -5509,13 +5522,21 @@
       ]
     },
     "6bae717feaf657f5e9adbb8ca102ba5ce8fa95ce4d55325b821d1b09e633f3b0": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-21T11:48:06.685085+00:00",
       "received_sequence": 170,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-21T11:48:07.165792+00:00",
+      "records": [
+        {
+          "id": 189,
+          "revision": 1,
+          "sha256": "94f4882e5e55eb3ae37f6233d655b47305e8c4c030e1c007942a476591343d63"
+        }
+      ]
     }
   },
   "batches": {
@@ -22732,6 +22753,21 @@
       "result": {
         "status": "received",
         "request_id": "6bae717feaf657f5e9adbb8ca102ba5ce8fa95ce4d55325b821d1b09e633f3b0"
+      }
+    },
+    "2ec994bd907c7bd6d925b5346ce0ff73eb8457ae77889898689f1b127755d9b7": {
+      "sha256": "560adac3d5540cdebf6dd624a13f95d5161567465c4d54ecf4fe0bf6d01c53fe",
+      "result": {
+        "status": "finalized",
+        "request_id": "6bae717feaf657f5e9adbb8ca102ba5ce8fa95ce4d55325b821d1b09e633f3b0",
+        "records": [
+          {
+            "id": 189,
+            "revision": 1,
+            "sha256": "94f4882e5e55eb3ae37f6233d655b47305e8c4c030e1c007942a476591343d63"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
