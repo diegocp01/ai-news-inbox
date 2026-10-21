@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 608,
-  "updated_at": "2026-10-21T19:38:34.471440+00:00",
+  "generation": 609,
+  "updated_at": "2026-10-21T19:38:35.015221+00:00",
   "next_id": 201,
   "records": [
     {
@@ -24379,6 +24379,18 @@
         ],
         "duplicates": []
       }
+    },
+    "31910d915c8dc9d7d03e8e5be904e18ed006d0f99ee5799b4f0a951f25021ed5": {
+      "sha256": "6b04e269931fb6f70412191f9b04a4d20a9059fa4ca3851c6c2be8d5426cc7a7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 200,
+          "revision": 1,
+          "sha256": "c76a0518513195889bba19b79c335959018fb9b9b29924b6823628ce4a0f9e7d"
+        },
+        "editorial_sha256": "0579087ab4d94489fe8f4304a2f9181d3dbf96e55eff78e96c86f151c0ebbf5b"
+      }
     }
   },
   "migration": {
@@ -30883,6 +30895,26 @@
         "sha256": "3975d8f0db4f2374890b3aab02c5da4658c1898e36d4f4e89e714c18a502e2a8",
         "reviewed_at": "2026-10-21T18:19:40.386053+00:00",
         "operation_id": "4d4be9d773207e5324fe0b3f4a2df9a1a4baed51b8c22fd5c08061d231ce6edd"
+      }
+    ],
+    "200:1": [
+      {
+        "reference": {
+          "id": 200,
+          "revision": 1,
+          "sha256": "c76a0518513195889bba19b79c335959018fb9b9b29924b6823628ce4a0f9e7d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Enterprise partnership and availability news for a broad audience, not technical research.",
+            "evidence_sha256": "4eeae1b91733dd4b40ff0e34c5a9da7d3a74e14b8e63faeaae8a16ebb2cf312d"
+          }
+        },
+        "sha256": "0579087ab4d94489fe8f4304a2f9181d3dbf96e55eff78e96c86f151c0ebbf5b",
+        "reviewed_at": "2026-10-21T19:38:35.015221+00:00",
+        "operation_id": "31910d915c8dc9d7d03e8e5be904e18ed006d0f99ee5799b4f0a951f25021ed5"
       }
     ]
   }
