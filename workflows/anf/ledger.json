@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 635,
-  "updated_at": "2026-10-22T20:09:16.229604+00:00",
-  "next_id": 210,
+  "generation": 636,
+  "updated_at": "2026-10-22T20:09:16.752265+00:00",
+  "next_id": 211,
   "records": [
     {
       "id": 1,
@@ -2777,6 +2777,19 @@
           "sha256": "6df3ebc5142d809a5e29818ec2e8c81c61b31a1129a0d11a69af1a0ff8cd4f26",
           "source": "METR",
           "request_id": "7a2117201c246460d56aea2aa5a208443d7fdc61dee14568e51cf06a7ec2b226",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "revisions": [
+        {
+          "created_at": "2026-10-22T20:09:16.752265+00:00",
+          "block": "Title: Critical PHP and GitLab Flaws Headline a Week of Security Fixes\nURL: https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching\nImage URL: https://www.datocms-assets.com/75231/1792534907-img_7274.png?fm=webp\nSummary: PHP patched two critical flaws on October 21 allowing unauthenticated remote code execution; CISA urged immediate updates to 8.5.12, 8.4.27, 8.3.36 or 8.2.35. Wiz, which found them, says frontier AI helped develop working exploits. GitLab fixed a CVSS 10.0 code-execution bug, and a malicious LiteLLM 1.107.0 package on PyPI stole credentials.",
+          "sha256": "ce74bab893c102eec518a54d1e107edb19fec1e2ee0d1d0cdb073557c4e55544",
+          "source": "CISA",
+          "request_id": "eaea3f063264355e8f03b9713df2205f684ae203f3a587a5126abc84b675ba48",
           "mode": "standard"
         }
       ]
@@ -6118,13 +6131,21 @@
       ]
     },
     "eaea3f063264355e8f03b9713df2205f684ae203f3a587a5126abc84b675ba48": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-22T20:09:16.229604+00:00",
       "received_sequence": 189,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-22T20:09:16.752265+00:00",
+      "records": [
+        {
+          "id": 210,
+          "revision": 1,
+          "sha256": "ce74bab893c102eec518a54d1e107edb19fec1e2ee0d1d0cdb073557c4e55544"
+        }
+      ]
     }
   },
   "batches": {
@@ -25485,6 +25506,21 @@
       "result": {
         "status": "received",
         "request_id": "eaea3f063264355e8f03b9713df2205f684ae203f3a587a5126abc84b675ba48"
+      }
+    },
+    "215f062f2c7bcf78fb090e397f9363f8e9145686add682f9df3aebf1f7ffa86d": {
+      "sha256": "72af599690999c8c9754ebbc52f79f696260fd42ee68877f38e7787206e9cbd4",
+      "result": {
+        "status": "finalized",
+        "request_id": "eaea3f063264355e8f03b9713df2205f684ae203f3a587a5126abc84b675ba48",
+        "records": [
+          {
+            "id": 210,
+            "revision": 1,
+            "sha256": "ce74bab893c102eec518a54d1e107edb19fec1e2ee0d1d0cdb073557c4e55544"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
