@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 623,
-  "updated_at": "2026-10-22T12:04:44.621062+00:00",
+  "generation": 624,
+  "updated_at": "2026-10-22T12:04:55.939129+00:00",
   "next_id": 207,
   "records": [
     {
@@ -11878,9 +11878,275 @@
       },
       "acknowledged_at": "2026-10-21T12:25:13.870158+00:00",
       "checkpoint_after": 190
+    },
+    "17a731455f6f04d4998d353c": {
+      "batch_id": "17a731455f6f04d4998d353c",
+      "status": "prepared",
+      "checkpoint_before": 190,
+      "prepared_at": "2026-10-22T12:04:55.939129+00:00",
+      "intake_cutoff": 185,
+      "records": [
+        {
+          "id": 191,
+          "revision": 1,
+          "sha256": "a523fec0627cf707966664c18d0bf09a3f89e430c37d6e882093644cf4bacb15"
+        },
+        {
+          "id": 192,
+          "revision": 1,
+          "sha256": "9386470309ac0260c3d774e954de3b546cde825226438f0852855082c054c9f0"
+        },
+        {
+          "id": 193,
+          "revision": 1,
+          "sha256": "466a666a10039a3a89192adbe05971bd5021695b0022e49bb3982d30085fee90"
+        },
+        {
+          "id": 194,
+          "revision": 1,
+          "sha256": "b64bf4e0f9ab1f63b9d3a82da573813d31ec8a81a8e7451b7feecac2c29d0726"
+        },
+        {
+          "id": 195,
+          "revision": 1,
+          "sha256": "fafe8a2bb8303f785f1a103c661fdbd688e4930bbe0f53643f4cbb43ac103e15"
+        },
+        {
+          "id": 196,
+          "revision": 1,
+          "sha256": "47e8edb15e319af3e385f847b8344bd320ff41730cfcf30f49141cb299a7caa9"
+        },
+        {
+          "id": 197,
+          "revision": 1,
+          "sha256": "2f7640f5e4f21a61e46238feb6b431fa63793bd9609c308c8ad9d01339af7915"
+        },
+        {
+          "id": 198,
+          "revision": 1,
+          "sha256": "9f5fe331f38918d8464fc08b12f239dfac8c52053f5fd535c956ed5ab7b4dc2e"
+        },
+        {
+          "id": 199,
+          "revision": 1,
+          "sha256": "907f5c7a81d14a34c1990234d59aad307196153510bb4025efc4cda791a1612a"
+        },
+        {
+          "id": 200,
+          "revision": 1,
+          "sha256": "c76a0518513195889bba19b79c335959018fb9b9b29924b6823628ce4a0f9e7d"
+        },
+        {
+          "id": 201,
+          "revision": 1,
+          "sha256": "2872f09c0d4d247826da255ab3d5dd06dc26b5a21ee4f4b0e69bb3faa2d03bb1"
+        },
+        {
+          "id": 202,
+          "revision": 1,
+          "sha256": "31de67e4f86a910068c8d805e53e160ca12e4975004f43d259e9c5f39ad1c63c"
+        },
+        {
+          "id": 203,
+          "revision": 1,
+          "sha256": "a64fde41609bc571c728097734f2867aefc68c9343fb13839fc06a181cda0c12"
+        },
+        {
+          "id": 204,
+          "revision": 1,
+          "sha256": "2fbdb0bd356ec3501ba04584db4cd12a440e21b6ca9fe2e6b0ead93c52664ec2"
+        },
+        {
+          "id": 205,
+          "revision": 1,
+          "sha256": "2d9432c3d8190407dc5d1a196a53667d7c4347310523fd8513e9c4622795d5d7"
+        },
+        {
+          "id": 206,
+          "revision": 1,
+          "sha256": "33dbeea753103876b2abb6f5d4ea6fcf9c6d3fb1cb346483127edd996eaf5cee"
+        }
+      ],
+      "first_id": 191,
+      "last_id": 206,
+      "count": 16,
+      "txt_path": "workflows/anf/batches/17a731455f6f04d4998d353c.txt",
+      "json_path": "workflows/anf/batches/17a731455f6f04d4998d353c.json",
+      "txt_sha256": "5fbec7953495b947febbeb6470c0651a2da937724d39a502a19360f832c675ba",
+      "json_sha256": "562fcd1a9a0b891c3a43a6436f4028d5a1b1cbcc6443baddd9f36bece0bdb7c6",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Medical AI study coverage for a broad audience, not machine-learning methods research or a developer tool.",
+            "evidence_sha256": "2177fe9090152a0b4d987d91ee6693d6967cd32243ddafc21c76d147c1f706b5"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Interview on AI governance and coexisting with agents for a broad audience, not technical research.",
+            "evidence_sha256": "faf9b55fcc0411d7b1d50411f68f5cb73a859e54f300d6d12ef900a636c76415"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business deal report about robotics in security services, not technical research or a developer tool.",
+            "evidence_sha256": "0caa50d080e531c2a91b567a1345410fad29a9490c46597b7e537e7b9c415bcd"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "AI safety and company-strategy debate for a broad audience, not technical research or a developer tool.",
+            "evidence_sha256": "fc4de0b2292d41b1ef526ab74d6a5fa35329870761cf0767c488108d6cf3ee05"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Security advisory news for a broad audience of organizations running PHP, not technical research or a developer tool.",
+            "evidence_sha256": "9dabfa774e8b5f3d602f16507e4b750cfafb76f1dee690e5fa388df52ec36595"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "Primary report analyzes AI-assisted discovery of critical PHP runtime vulnerabilities and coordinated patching for developers and security operators, not general AI safety commentary.",
+            "evidence_sha256": "8940c7e91640f5a0892a0c3ca1acee552e568464f5d5010b8d83797eddec17e5"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.wiz.io/blog/php2shell-php-rce",
+              "final_url": "https://www.wiz.io/blog/php2shell-php-rce",
+              "redirect_chain": [
+                "https://www.wiz.io/blog/php2shell-php-rce"
+              ],
+              "checked_at": "2026-10-21T14:59:17.990702+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "8940c7e91640f5a0892a0c3ca1acee552e568464f5d5010b8d83797eddec17e5"
+            },
+            "image": {
+              "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s1600/PHP2SHELL.gif",
+              "final_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s1600/PHP2SHELL.gif",
+              "redirect_chain": [
+                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s1600/PHP2SHELL.gif"
+              ],
+              "checked_at": "2026-10-21T15:00:19.478689+00:00",
+              "content_type": "image/gif",
+              "width": 900,
+              "height": 470,
+              "image_bytes_sha256": "ec4f6a9525dac8bd9132f0254433c72a925ef595766bc881b077d3f57743899d",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Decoded and visually inspected 900x470 GIF first frame: clear PHP2SHELL wordmark and Wiz Research demonstration screen. Story-specific PHP2Shell research imagery, not generic decoration. Wiz og:image returned HTTP403; used same-event Hacker News publisher image instead.",
+              "evidence_sha256": "8940c7e91640f5a0892a0c3ca1acee552e568464f5d5010b8d83797eddec17e5"
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "AI safety incident news for a broad audience, not technical research or a developer tool.",
+            "evidence_sha256": "2920b7612d6d422440b93982406debd06777bc0095ff9bd23951141d0d413e6a"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Research preprint on distributed AI-agent analysis of a Perturb-seq CRISPR atlas; method and evaluation are the substance.",
+            "evidence_sha256": "cbc5becf491912bff3fe140a80aacabb40faf0ffa540cfafa32b1e265edfacb1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Product update for a broad audience; default general, not technical research.",
+            "evidence_sha256": "545baa90441dee99984aab8c0fe87882b8b39c04f9f63d48b6a99b6503aca66f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Enterprise partnership and availability news for a broad audience, not technical research.",
+            "evidence_sha256": "4eeae1b91733dd4b40ff0e34c5a9da7d3a74e14b8e63faeaae8a16ebb2cf312d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer and professional AI agent app launch for a broad audience, not technical research.",
+            "evidence_sha256": "1ea6dcda14add0889b5f84d35d56844998738382a00620ddf81a1488b7e8c9ca"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer assistant product update for a broad audience, not technical research.",
+            "evidence_sha256": "38d950a70c0dc70e331b589cb417d9bfb7b4f59c6abeff8a7819ff4166e65ef4"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Tsinghua University researchers introduce AKV, which lets AI agents drop and reposition attention-cache entries while reusing retained states. Across three models and four agent benchmarks, the authors report 27.7% lower estimated inference costs and a 1.7-percentage-point gain over threshold-triggered summarization. This is AI research on agent inference efficiency with benchmark evaluation, for research audiences. muse-compile-backfill 2026-10-22: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "a64fde41609bc571c728097734f2867aefc68c9343fb13839fc06a181cda0c12"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "UC Berkeley researchers train humanoid motion control through a learned simulator model. They report surpassing SONIC's released controller after three hours on one GPU and demonstrate transfer to a Unitree G1. This is robotics research with experimental evaluation, for research audiences. muse-compile-backfill 2026-10-22: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "2fbdb0bd356ec3501ba04584db4cd12a440e21b6ca9fe2e6b0ead93c52664ec2"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "PHP, a programming language used to run websites, released updates on October 21 for two critical security flaws that, under certain conditions, could be exploited. The audience is developers who deploy and maintain PHP-based sites and need to apply the security updates. muse-compile-backfill 2026-10-22: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "2d9432c3d8190407dc5d1a196a53667d7c4347310523fd8513e9c4622795d5d7"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic opened a waitlist for Claude Duet, an Opus 5.5-powered assistant initially for U.S. Pro and Max subscribers. The company says it works on a cloud computer after users close the app. This is a consumer assistant product update for a broad audience, not technical research. muse-compile-backfill 2026-10-22: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "33dbeea753103876b2abb6f5d4ea6fcf9c6d3fb1cb346483127edd996eaf5cee"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-22T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "17a731455f6f04d4998d353c",
   "replacement_batch": null,
   "checkpoint": 190,
   "checkpoint_history": [
@@ -24719,6 +24985,279 @@
           "sha256": "33dbeea753103876b2abb6f5d4ea6fcf9c6d3fb1cb346483127edd996eaf5cee"
         },
         "editorial_sha256": "a165f0a3aef3bac40a4207faf3ea3a9a28f39e17319933558ceacdf1cb5f7715"
+      }
+    },
+    "muse-compile-20261022-1204-2856": {
+      "sha256": "21d0a7e4a99424e74af2fc1957850b86f2fe17fa74bdddaa8e4ad6f0a23eae45",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "17a731455f6f04d4998d353c",
+          "status": "prepared",
+          "checkpoint_before": 190,
+          "prepared_at": "2026-10-22T12:04:55.939129+00:00",
+          "intake_cutoff": 185,
+          "records": [
+            {
+              "id": 191,
+              "revision": 1,
+              "sha256": "a523fec0627cf707966664c18d0bf09a3f89e430c37d6e882093644cf4bacb15"
+            },
+            {
+              "id": 192,
+              "revision": 1,
+              "sha256": "9386470309ac0260c3d774e954de3b546cde825226438f0852855082c054c9f0"
+            },
+            {
+              "id": 193,
+              "revision": 1,
+              "sha256": "466a666a10039a3a89192adbe05971bd5021695b0022e49bb3982d30085fee90"
+            },
+            {
+              "id": 194,
+              "revision": 1,
+              "sha256": "b64bf4e0f9ab1f63b9d3a82da573813d31ec8a81a8e7451b7feecac2c29d0726"
+            },
+            {
+              "id": 195,
+              "revision": 1,
+              "sha256": "fafe8a2bb8303f785f1a103c661fdbd688e4930bbe0f53643f4cbb43ac103e15"
+            },
+            {
+              "id": 196,
+              "revision": 1,
+              "sha256": "47e8edb15e319af3e385f847b8344bd320ff41730cfcf30f49141cb299a7caa9"
+            },
+            {
+              "id": 197,
+              "revision": 1,
+              "sha256": "2f7640f5e4f21a61e46238feb6b431fa63793bd9609c308c8ad9d01339af7915"
+            },
+            {
+              "id": 198,
+              "revision": 1,
+              "sha256": "9f5fe331f38918d8464fc08b12f239dfac8c52053f5fd535c956ed5ab7b4dc2e"
+            },
+            {
+              "id": 199,
+              "revision": 1,
+              "sha256": "907f5c7a81d14a34c1990234d59aad307196153510bb4025efc4cda791a1612a"
+            },
+            {
+              "id": 200,
+              "revision": 1,
+              "sha256": "c76a0518513195889bba19b79c335959018fb9b9b29924b6823628ce4a0f9e7d"
+            },
+            {
+              "id": 201,
+              "revision": 1,
+              "sha256": "2872f09c0d4d247826da255ab3d5dd06dc26b5a21ee4f4b0e69bb3faa2d03bb1"
+            },
+            {
+              "id": 202,
+              "revision": 1,
+              "sha256": "31de67e4f86a910068c8d805e53e160ca12e4975004f43d259e9c5f39ad1c63c"
+            },
+            {
+              "id": 203,
+              "revision": 1,
+              "sha256": "a64fde41609bc571c728097734f2867aefc68c9343fb13839fc06a181cda0c12"
+            },
+            {
+              "id": 204,
+              "revision": 1,
+              "sha256": "2fbdb0bd356ec3501ba04584db4cd12a440e21b6ca9fe2e6b0ead93c52664ec2"
+            },
+            {
+              "id": 205,
+              "revision": 1,
+              "sha256": "2d9432c3d8190407dc5d1a196a53667d7c4347310523fd8513e9c4622795d5d7"
+            },
+            {
+              "id": 206,
+              "revision": 1,
+              "sha256": "33dbeea753103876b2abb6f5d4ea6fcf9c6d3fb1cb346483127edd996eaf5cee"
+            }
+          ],
+          "first_id": 191,
+          "last_id": 206,
+          "count": 16,
+          "txt_path": "workflows/anf/batches/17a731455f6f04d4998d353c.txt",
+          "json_path": "workflows/anf/batches/17a731455f6f04d4998d353c.json",
+          "txt_sha256": "5fbec7953495b947febbeb6470c0651a2da937724d39a502a19360f832c675ba",
+          "json_sha256": "562fcd1a9a0b891c3a43a6436f4028d5a1b1cbcc6443baddd9f36bece0bdb7c6",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Medical AI study coverage for a broad audience, not machine-learning methods research or a developer tool.",
+                "evidence_sha256": "2177fe9090152a0b4d987d91ee6693d6967cd32243ddafc21c76d147c1f706b5"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Interview on AI governance and coexisting with agents for a broad audience, not technical research.",
+                "evidence_sha256": "faf9b55fcc0411d7b1d50411f68f5cb73a859e54f300d6d12ef900a636c76415"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Business deal report about robotics in security services, not technical research or a developer tool.",
+                "evidence_sha256": "0caa50d080e531c2a91b567a1345410fad29a9490c46597b7e537e7b9c415bcd"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "AI safety and company-strategy debate for a broad audience, not technical research or a developer tool.",
+                "evidence_sha256": "fc4de0b2292d41b1ef526ab74d6a5fa35329870761cf0767c488108d6cf3ee05"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Security advisory news for a broad audience of organizations running PHP, not technical research or a developer tool.",
+                "evidence_sha256": "9dabfa774e8b5f3d602f16507e4b750cfafb76f1dee690e5fa388df52ec36595"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "technical_practice",
+                "rationale": "Primary report analyzes AI-assisted discovery of critical PHP runtime vulnerabilities and coordinated patching for developers and security operators, not general AI safety commentary.",
+                "evidence_sha256": "8940c7e91640f5a0892a0c3ca1acee552e568464f5d5010b8d83797eddec17e5"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.wiz.io/blog/php2shell-php-rce",
+                  "final_url": "https://www.wiz.io/blog/php2shell-php-rce",
+                  "redirect_chain": [
+                    "https://www.wiz.io/blog/php2shell-php-rce"
+                  ],
+                  "checked_at": "2026-10-21T14:59:17.990702+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "8940c7e91640f5a0892a0c3ca1acee552e568464f5d5010b8d83797eddec17e5"
+                },
+                "image": {
+                  "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s1600/PHP2SHELL.gif",
+                  "final_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s1600/PHP2SHELL.gif",
+                  "redirect_chain": [
+                    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s1600/PHP2SHELL.gif"
+                  ],
+                  "checked_at": "2026-10-21T15:00:19.478689+00:00",
+                  "content_type": "image/gif",
+                  "width": 900,
+                  "height": 470,
+                  "image_bytes_sha256": "ec4f6a9525dac8bd9132f0254433c72a925ef595766bc881b077d3f57743899d",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "Decoded and visually inspected 900x470 GIF first frame: clear PHP2SHELL wordmark and Wiz Research demonstration screen. Story-specific PHP2Shell research imagery, not generic decoration. Wiz og:image returned HTTP403; used same-event Hacker News publisher image instead.",
+                  "evidence_sha256": "8940c7e91640f5a0892a0c3ca1acee552e568464f5d5010b8d83797eddec17e5"
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "AI safety incident news for a broad audience, not technical research or a developer tool.",
+                "evidence_sha256": "2920b7612d6d422440b93982406debd06777bc0095ff9bd23951141d0d413e6a"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Research preprint on distributed AI-agent analysis of a Perturb-seq CRISPR atlas; method and evaluation are the substance.",
+                "evidence_sha256": "cbc5becf491912bff3fe140a80aacabb40faf0ffa540cfafa32b1e265edfacb1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Product update for a broad audience; default general, not technical research.",
+                "evidence_sha256": "545baa90441dee99984aab8c0fe87882b8b39c04f9f63d48b6a99b6503aca66f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Enterprise partnership and availability news for a broad audience, not technical research.",
+                "evidence_sha256": "4eeae1b91733dd4b40ff0e34c5a9da7d3a74e14b8e63faeaae8a16ebb2cf312d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer and professional AI agent app launch for a broad audience, not technical research.",
+                "evidence_sha256": "1ea6dcda14add0889b5f84d35d56844998738382a00620ddf81a1488b7e8c9ca"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer assistant product update for a broad audience, not technical research.",
+                "evidence_sha256": "38d950a70c0dc70e331b589cb417d9bfb7b4f59c6abeff8a7819ff4166e65ef4"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Tsinghua University researchers introduce AKV, which lets AI agents drop and reposition attention-cache entries while reusing retained states. Across three models and four agent benchmarks, the authors report 27.7% lower estimated inference costs and a 1.7-percentage-point gain over threshold-triggered summarization. This is AI research on agent inference efficiency with benchmark evaluation, for research audiences. muse-compile-backfill 2026-10-22: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "a64fde41609bc571c728097734f2867aefc68c9343fb13839fc06a181cda0c12"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "UC Berkeley researchers train humanoid motion control through a learned simulator model. They report surpassing SONIC's released controller after three hours on one GPU and demonstrate transfer to a Unitree G1. This is robotics research with experimental evaluation, for research audiences. muse-compile-backfill 2026-10-22: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "2fbdb0bd356ec3501ba04584db4cd12a440e21b6ca9fe2e6b0ead93c52664ec2"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "PHP, a programming language used to run websites, released updates on October 21 for two critical security flaws that, under certain conditions, could be exploited. The audience is developers who deploy and maintain PHP-based sites and need to apply the security updates. muse-compile-backfill 2026-10-22: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "2d9432c3d8190407dc5d1a196a53667d7c4347310523fd8513e9c4622795d5d7"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Anthropic opened a waitlist for Claude Duet, an Opus 5.5-powered assistant initially for U.S. Pro and Max subscribers. The company says it works on a cloud computer after users close the app. This is a consumer assistant product update for a broad audience, not technical research. muse-compile-backfill 2026-10-22: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "33dbeea753103876b2abb6f5d4ea6fcf9c6d3fb1cb346483127edd996eaf5cee"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-22T12:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
