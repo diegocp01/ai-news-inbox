@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 619,
-  "updated_at": "2026-10-22T11:37:28.059002+00:00",
+  "generation": 623,
+  "updated_at": "2026-10-22T12:04:44.621062+00:00",
   "next_id": 207,
   "records": [
     {
@@ -24672,6 +24672,54 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261022-203-8030": {
+      "sha256": "2c3b705bfab73413d963327b4f770e769bc70c7bce055b34098d259a1bc0787c",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 203,
+          "revision": 1,
+          "sha256": "a64fde41609bc571c728097734f2867aefc68c9343fb13839fc06a181cda0c12"
+        },
+        "editorial_sha256": "ebf59646d963ee6f95f23ab26b8fa88665b1aabfe9de81545d5368e7d9535559"
+      }
+    },
+    "muse-backfill-20261022-204-9181": {
+      "sha256": "7db267b52c8c425035bdb39733629466d8af4a0e75bcedabd63c2ee3466a3b62",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 204,
+          "revision": 1,
+          "sha256": "2fbdb0bd356ec3501ba04584db4cd12a440e21b6ca9fe2e6b0ead93c52664ec2"
+        },
+        "editorial_sha256": "5262702cc72641d4a683630fe46946c5b6161ebef7fc783cef1526bb0a0c394a"
+      }
+    },
+    "muse-backfill-20261022-205-5789": {
+      "sha256": "14177b59c0cdcec0291ef293e2e9cb05d3fd8b80e365fe67bb181f7e2f09057d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 205,
+          "revision": 1,
+          "sha256": "2d9432c3d8190407dc5d1a196a53667d7c4347310523fd8513e9c4622795d5d7"
+        },
+        "editorial_sha256": "d97b3d78dced70b991eae74fd21a995ac8464e7a9dffcd7c3371dec655fd73d8"
+      }
+    },
+    "muse-backfill-20261022-206-8707": {
+      "sha256": "3c414c6962e5304c269b197177ba12337b437b7c53d566e3eb63c3b06363f6c2",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 206,
+          "revision": 1,
+          "sha256": "33dbeea753103876b2abb6f5d4ea6fcf9c6d3fb1cb346483127edd996eaf5cee"
+        },
+        "editorial_sha256": "a165f0a3aef3bac40a4207faf3ea3a9a28f39e17319933558ceacdf1cb5f7715"
+      }
     }
   },
   "migration": {
@@ -31236,6 +31284,86 @@
         "sha256": "e3f837af65bd69e36d208ad027b9037a77413e8cf30553cac029ac4d1f3aa1ea",
         "reviewed_at": "2026-10-21T20:44:51.032861+00:00",
         "operation_id": "61011831c33e3b32c0795282c503551019a94f9ced4b7f413ea4fea12db6a75b"
+      }
+    ],
+    "203:1": [
+      {
+        "reference": {
+          "id": 203,
+          "revision": 1,
+          "sha256": "a64fde41609bc571c728097734f2867aefc68c9343fb13839fc06a181cda0c12"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Tsinghua University researchers introduce AKV, which lets AI agents drop and reposition attention-cache entries while reusing retained states. Across three models and four agent benchmarks, the authors report 27.7% lower estimated inference costs and a 1.7-percentage-point gain over threshold-triggered summarization. This is AI research on agent inference efficiency with benchmark evaluation, for research audiences. muse-compile-backfill 2026-10-22: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "a64fde41609bc571c728097734f2867aefc68c9343fb13839fc06a181cda0c12"
+          }
+        },
+        "sha256": "ebf59646d963ee6f95f23ab26b8fa88665b1aabfe9de81545d5368e7d9535559",
+        "reviewed_at": "2026-10-22T12:04:44.355057+00:00",
+        "operation_id": "muse-backfill-20261022-203-8030"
+      }
+    ],
+    "204:1": [
+      {
+        "reference": {
+          "id": 204,
+          "revision": 1,
+          "sha256": "2fbdb0bd356ec3501ba04584db4cd12a440e21b6ca9fe2e6b0ead93c52664ec2"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "UC Berkeley researchers train humanoid motion control through a learned simulator model. They report surpassing SONIC's released controller after three hours on one GPU and demonstrate transfer to a Unitree G1. This is robotics research with experimental evaluation, for research audiences. muse-compile-backfill 2026-10-22: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "2fbdb0bd356ec3501ba04584db4cd12a440e21b6ca9fe2e6b0ead93c52664ec2"
+          }
+        },
+        "sha256": "5262702cc72641d4a683630fe46946c5b6161ebef7fc783cef1526bb0a0c394a",
+        "reviewed_at": "2026-10-22T12:04:44.450307+00:00",
+        "operation_id": "muse-backfill-20261022-204-9181"
+      }
+    ],
+    "205:1": [
+      {
+        "reference": {
+          "id": 205,
+          "revision": 1,
+          "sha256": "2d9432c3d8190407dc5d1a196a53667d7c4347310523fd8513e9c4622795d5d7"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "PHP, a programming language used to run websites, released updates on October 21 for two critical security flaws that, under certain conditions, could be exploited. The audience is developers who deploy and maintain PHP-based sites and need to apply the security updates. muse-compile-backfill 2026-10-22: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "2d9432c3d8190407dc5d1a196a53667d7c4347310523fd8513e9c4622795d5d7"
+          }
+        },
+        "sha256": "d97b3d78dced70b991eae74fd21a995ac8464e7a9dffcd7c3371dec655fd73d8",
+        "reviewed_at": "2026-10-22T12:04:44.536616+00:00",
+        "operation_id": "muse-backfill-20261022-205-5789"
+      }
+    ],
+    "206:1": [
+      {
+        "reference": {
+          "id": 206,
+          "revision": 1,
+          "sha256": "33dbeea753103876b2abb6f5d4ea6fcf9c6d3fb1cb346483127edd996eaf5cee"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic opened a waitlist for Claude Duet, an Opus 5.5-powered assistant initially for U.S. Pro and Max subscribers. The company says it works on a cloud computer after users close the app. This is a consumer assistant product update for a broad audience, not technical research. muse-compile-backfill 2026-10-22: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "33dbeea753103876b2abb6f5d4ea6fcf9c6d3fb1cb346483127edd996eaf5cee"
+          }
+        },
+        "sha256": "a165f0a3aef3bac40a4207faf3ea3a9a28f39e17319933558ceacdf1cb5f7715",
+        "reviewed_at": "2026-10-22T12:04:44.621062+00:00",
+        "operation_id": "muse-backfill-20261022-206-8707"
       }
     ]
   }
