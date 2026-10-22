@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 641,
-  "updated_at": "2026-10-22T23:45:56.751785+00:00",
-  "next_id": 212,
+  "generation": 642,
+  "updated_at": "2026-10-22T23:45:57.224735+00:00",
+  "next_id": 213,
   "records": [
     {
       "id": 1,
@@ -2803,6 +2803,19 @@
           "sha256": "fc8bb5c0d3cf658eabbe0c1948400fb370a7bde969c8c1d515a4b21b517e90d8",
           "source": "X (@bot)",
           "request_id": "6d6a18352ee5d438244f7c9574f79021feac23251160e5bd02d941528d704e81",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "revisions": [
+        {
+          "created_at": "2026-10-22T23:45:57.224735+00:00",
+          "block": "Title: Backprop-Free Transformer Pretraining Gets 4,000x Faster in Ten Days\nURL: https://qlabs.sh/noise/\nImage URL: https://qlabs.sh/noise/1.gif\nSummary: Q Labs' Noise speedrun pretrains a 37.7M-parameter transformer without backpropagation. In its first ten days, community entries cut the time to reach validation loss 4.2 from 1.76 hours to 1.6 seconds on one 8xH100 node, over 4,000x faster. The best loss fell to 3.676, beating backprop with Adam (3.769). Scaling remains the open question.",
+          "sha256": "2ba824a869e4b0bbb96e884f6ef51a42dfd8c4e67c32ce56797a08d1aee7d04a",
+          "source": "Q Labs",
+          "request_id": "c4b35b66a40034473f70db6ed89f48ef127218f5ee60ab2440b8c8afbe50603f",
           "mode": "standard"
         }
       ]
@@ -6178,13 +6191,21 @@
       ]
     },
     "c4b35b66a40034473f70db6ed89f48ef127218f5ee60ab2440b8c8afbe50603f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-22T23:45:56.751785+00:00",
       "received_sequence": 191,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-22T23:45:57.224735+00:00",
+      "records": [
+        {
+          "id": 212,
+          "revision": 1,
+          "sha256": "2ba824a869e4b0bbb96e884f6ef51a42dfd8c4e67c32ce56797a08d1aee7d04a"
+        }
+      ]
     }
   },
   "batches": {
@@ -25613,6 +25634,21 @@
       "result": {
         "status": "received",
         "request_id": "c4b35b66a40034473f70db6ed89f48ef127218f5ee60ab2440b8c8afbe50603f"
+      }
+    },
+    "235789e59a954b42fedb31a2d4650ad8fd3fa54e9fffce063efd463e8d1918d9": {
+      "sha256": "1176385032ff6f77ce207aff82071fb8255b55ed6d87d18f44f5beeab1b2b80e",
+      "result": {
+        "status": "finalized",
+        "request_id": "c4b35b66a40034473f70db6ed89f48ef127218f5ee60ab2440b8c8afbe50603f",
+        "records": [
+          {
+            "id": 212,
+            "revision": 1,
+            "sha256": "2ba824a869e4b0bbb96e884f6ef51a42dfd8c4e67c32ce56797a08d1aee7d04a"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
