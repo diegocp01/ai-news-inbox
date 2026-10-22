@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 616,
-  "updated_at": "2026-10-22T11:05:01+00:00",
-  "next_id": 203,
+  "generation": 617,
+  "updated_at": "2026-10-22T11:10:51+00:00",
+  "next_id": 205,
   "records": [
     {
       "id": 1,
@@ -2684,6 +2684,32 @@
           "sha256": "31de67e4f86a910068c8d805e53e160ca12e4975004f43d259e9c5f39ad1c63c",
           "source": "Grok Bot",
           "request_id": "983a32e5c21a9adedff91f8035760961243330f6c755bd65ecffed7d8274c0a8",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "revisions": [
+        {
+          "created_at": "2026-10-22T11:10:51+00:00",
+          "block": "Title: AI Agents Cut Cache Costs Without Rewriting Their History\nURL: https://arxiv.org/abs/2610.28577\nImage URL: https://fuvty.github.io/thinking_yard_project_page/shared/assets/akv.png\nSummary: Tsinghua University researchers introduce AKV, which lets agents drop and reposition attention-cache entries while reusing retained states. Across three models and four agent benchmarks, the authors report 27.7% lower estimated inference costs and a 1.7-percentage-point gain over threshold-triggered summarization. Results are workload-dependent, not a guarantee for every agent.",
+          "sha256": "a64fde41609bc571c728097734f2867aefc68c9343fb13839fc06a181cda0c12",
+          "source": "arXiv",
+          "request_id": "96c3d68cce4e1fac5cc00306aa465b0ab228726c60639ee87d3345c6544aae61",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "revisions": [
+        {
+          "created_at": "2026-10-22T11:10:51+00:00",
+          "block": "Title: Learned Physics Helps Train Humanoid Motion Control on One GPU\nURL: https://arxiv.org/abs/2610.28480\nImage URL: https://supermimic.github.io/media/demo/demo_poster_F5F5F7.jpg\nSummary: UC Berkeley researchers train humanoid motion control through a learned simulator model. They report surpassing SONIC's released controller after three hours on one GPU and demonstrate transfer to a Unitree G1. The comparison uses different hardware and motion data; benchmark coverage concerns training motions on flat ground, not general-purpose robot competence.",
+          "sha256": "2fbdb0bd356ec3501ba04584db4cd12a440e21b6ca9fe2e6b0ead93c52664ec2",
+          "source": "arXiv",
+          "request_id": "96c3d68cce4e1fac5cc00306aa465b0ab228726c60639ee87d3345c6544aae61",
           "mode": "standard"
         }
       ]
@@ -5929,13 +5955,26 @@
       ]
     },
     "96c3d68cce4e1fac5cc00306aa465b0ab228726c60639ee87d3345c6544aae61": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-22T11:05:01+00:00",
       "received_sequence": 184,
       "expected_items": 2,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-22T11:10:51+00:00",
+      "records": [
+        {
+          "id": 203,
+          "revision": 1,
+          "sha256": "a64fde41609bc571c728097734f2867aefc68c9343fb13839fc06a181cda0c12"
+        },
+        {
+          "id": 204,
+          "revision": 1,
+          "sha256": "2fbdb0bd356ec3501ba04584db4cd12a440e21b6ca9fe2e6b0ead93c52664ec2"
+        }
+      ]
     }
   },
   "batches": {
@@ -24534,6 +24573,26 @@
       "result": {
         "status": "received",
         "request_id": "96c3d68cce4e1fac5cc00306aa465b0ab228726c60639ee87d3345c6544aae61"
+      }
+    },
+    "fd42e6345f661a263a37ef5fb7dc5228785eafc415d007ef825c46bfcf50d22d": {
+      "sha256": "9d7893e91760a57efd8dc67b5ba97554731df4c6656b94fb689063f0bb8e235f",
+      "result": {
+        "status": "finalized",
+        "request_id": "96c3d68cce4e1fac5cc00306aa465b0ab228726c60639ee87d3345c6544aae61",
+        "records": [
+          {
+            "id": 203,
+            "revision": 1,
+            "sha256": "a64fde41609bc571c728097734f2867aefc68c9343fb13839fc06a181cda0c12"
+          },
+          {
+            "id": 204,
+            "revision": 1,
+            "sha256": "2fbdb0bd356ec3501ba04584db4cd12a440e21b6ca9fe2e6b0ead93c52664ec2"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
