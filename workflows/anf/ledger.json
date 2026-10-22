@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 639,
-  "updated_at": "2026-10-22T23:45:51.045311+00:00",
+  "generation": 640,
+  "updated_at": "2026-10-22T23:45:51.511952+00:00",
   "next_id": 212,
   "records": [
     {
@@ -25586,6 +25586,18 @@
         ],
         "duplicates": []
       }
+    },
+    "88e780403e1cd76b5fc77370002df6e458524ef15c1027410b8c749ecb851ba4": {
+      "sha256": "bc6e29987cb00bf4b803d95cb4b2220af16e4608ada0bf1efea068cd1508094b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 211,
+          "revision": 1,
+          "sha256": "fc8bb5c0d3cf658eabbe0c1948400fb370a7bde969c8c1d515a4b21b517e90d8"
+        },
+        "editorial_sha256": "7ede1f58eff57e214d6eaf2d6a732ad159da755e056215bf62cf6368e092e188"
+      }
     }
   },
   "migration": {
@@ -32310,6 +32322,26 @@
         "sha256": "56bea6db9e54f56d1d60f6993be92f4fc70fc2665cd3b85f2afb1a039f54b131",
         "reviewed_at": "2026-10-22T20:09:17.318085+00:00",
         "operation_id": "b411aa4a1555e992f63c6872d9ec40838d18623bc8f299bed250c55bb51c4da1"
+      }
+    ],
+    "211:1": [
+      {
+        "reference": {
+          "id": 211,
+          "revision": 1,
+          "sha256": "fc8bb5c0d3cf658eabbe0c1948400fb370a7bde969c8c1d515a4b21b517e90d8"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer product update for a mainstream AI assistant; relevant to a broad audience.",
+            "evidence_sha256": "f4586cf6c1a705cca41bdc0620dcfcb3c7b75e308fb4d7cdd752d1d620f09e3e"
+          }
+        },
+        "sha256": "7ede1f58eff57e214d6eaf2d6a732ad159da755e056215bf62cf6368e092e188",
+        "reviewed_at": "2026-10-22T23:45:51.511952+00:00",
+        "operation_id": "88e780403e1cd76b5fc77370002df6e458524ef15c1027410b8c749ecb851ba4"
       }
     ]
   }
