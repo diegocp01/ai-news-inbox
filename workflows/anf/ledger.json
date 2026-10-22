@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 633,
-  "updated_at": "2026-10-22T17:13:10.134605+00:00",
+  "generation": 634,
+  "updated_at": "2026-10-22T17:13:10.607285+00:00",
   "next_id": 210,
   "records": [
     {
@@ -25458,6 +25458,18 @@
         ],
         "duplicates": []
       }
+    },
+    "008b1c38f3ce0bec865f1fd57d6367980e9ff283fff7823a2ecd53869ed6dcff": {
+      "sha256": "68326b191a394ff96700dd701cc33466b748c0a5690799a0906bd623dff7e3aa",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 209,
+          "revision": 1,
+          "sha256": "6df3ebc5142d809a5e29818ec2e8c81c61b31a1129a0d11a69af1a0ff8cd4f26"
+        },
+        "editorial_sha256": "1f0057b7bb6a97a5198ca5e3f949805d3c194e5c40f6fdcdb32ece263a8c8dba"
+      }
     }
   },
   "migration": {
@@ -32142,6 +32154,26 @@
         "sha256": "6d3f51c6eb4565419df29dfa40e94f6ea8994750fab394a1dd4ad51f6767e962",
         "reviewed_at": "2026-10-22T16:10:54.372938+00:00",
         "operation_id": "231c89239c016b460bab261eb27a144441274630ded7d9e4da2168712e7c795b"
+      }
+    ],
+    "209:1": [
+      {
+        "reference": {
+          "id": 209,
+          "revision": 1,
+          "sha256": "6df3ebc5142d809a5e29818ec2e8c81c61b31a1129a0d11a69af1a0ff8cd4f26"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "AI-safety oversight news readable by a broad audience; not a technical paper or developer tool.",
+            "evidence_sha256": "84ee948fbf90b66578cd9fe6efd664f44f908611143eb9e44fe81aeb8859c40d"
+          }
+        },
+        "sha256": "1f0057b7bb6a97a5198ca5e3f949805d3c194e5c40f6fdcdb32ece263a8c8dba",
+        "reviewed_at": "2026-10-22T17:13:10.607285+00:00",
+        "operation_id": "008b1c38f3ce0bec865f1fd57d6367980e9ff283fff7823a2ecd53869ed6dcff"
       }
     ]
   }
