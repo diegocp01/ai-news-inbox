@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 642,
-  "updated_at": "2026-10-22T23:45:57.224735+00:00",
+  "generation": 643,
+  "updated_at": "2026-10-22T23:45:57.732795+00:00",
   "next_id": 213,
   "records": [
     {
@@ -25650,6 +25650,18 @@
         ],
         "duplicates": []
       }
+    },
+    "bf4a1ce38bae3bec6daf602d1430fa526b621f2ef0018274d92f69b7ed150a0b": {
+      "sha256": "673a4b209f1f4d6a04eb4122ab3a98f3e4a3613903f5513a4eec1783d576f9b5",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 212,
+          "revision": 1,
+          "sha256": "2ba824a869e4b0bbb96e884f6ef51a42dfd8c4e67c32ce56797a08d1aee7d04a"
+        },
+        "editorial_sha256": "e6b18cbbaa2437fa2b830ed49bab4bfaadb694fd26b56cf34f585b0098bd2071"
+      }
     }
   },
   "migration": {
@@ -32394,6 +32406,26 @@
         "sha256": "7ede1f58eff57e214d6eaf2d6a732ad159da755e056215bf62cf6368e092e188",
         "reviewed_at": "2026-10-22T23:45:51.511952+00:00",
         "operation_id": "88e780403e1cd76b5fc77370002df6e458524ef15c1027410b8c749ecb851ba4"
+      }
+    ],
+    "212:1": [
+      {
+        "reference": {
+          "id": 212,
+          "revision": 1,
+          "sha256": "2ba824a869e4b0bbb96e884f6ef51a42dfd8c4e67c32ce56797a08d1aee7d04a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "AI research milestone explained in plain terms for a broad AI-news audience.",
+            "evidence_sha256": "977179021818effeb0d9d78ffb2d1b99487e7aefb91669c723bcbb8f718f135e"
+          }
+        },
+        "sha256": "e6b18cbbaa2437fa2b830ed49bab4bfaadb694fd26b56cf34f585b0098bd2071",
+        "reviewed_at": "2026-10-22T23:45:57.732795+00:00",
+        "operation_id": "bf4a1ce38bae3bec6daf602d1430fa526b621f2ef0018274d92f69b7ed150a0b"
       }
     ]
   }
