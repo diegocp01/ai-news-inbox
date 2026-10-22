@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 636,
-  "updated_at": "2026-10-22T20:09:16.752265+00:00",
+  "generation": 637,
+  "updated_at": "2026-10-22T20:09:17.318085+00:00",
   "next_id": 211,
   "records": [
     {
@@ -25522,6 +25522,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b411aa4a1555e992f63c6872d9ec40838d18623bc8f299bed250c55bb51c4da1": {
+      "sha256": "e9b36f3c18af6f43ed01f768296f319adcfef7d2af530015a076b05bf3a405e6",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 210,
+          "revision": 1,
+          "sha256": "ce74bab893c102eec518a54d1e107edb19fec1e2ee0d1d0cdb073557c4e55544"
+        },
+        "editorial_sha256": "56bea6db9e54f56d1d60f6993be92f4fc70fc2665cd3b85f2afb1a039f54b131"
+      }
     }
   },
   "migration": {
@@ -32226,6 +32238,26 @@
         "sha256": "1f0057b7bb6a97a5198ca5e3f949805d3c194e5c40f6fdcdb32ece263a8c8dba",
         "reviewed_at": "2026-10-22T17:13:10.607285+00:00",
         "operation_id": "008b1c38f3ce0bec865f1fd57d6367980e9ff283fff7823a2ecd53869ed6dcff"
+      }
+    ],
+    "210:1": [
+      {
+        "reference": {
+          "id": 210,
+          "revision": 1,
+          "sha256": "ce74bab893c102eec518a54d1e107edb19fec1e2ee0d1d0cdb073557c4e55544"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Security news roundup for a broad audience; not a technical research paper or developer tool.",
+            "evidence_sha256": "e1d1c9b1777c35252858508fc31298f3d2fbb845362deb027ae8a77daf0df4a7"
+          }
+        },
+        "sha256": "56bea6db9e54f56d1d60f6993be92f4fc70fc2665cd3b85f2afb1a039f54b131",
+        "reviewed_at": "2026-10-22T20:09:17.318085+00:00",
+        "operation_id": "b411aa4a1555e992f63c6872d9ec40838d18623bc8f299bed250c55bb51c4da1"
       }
     ]
   }
