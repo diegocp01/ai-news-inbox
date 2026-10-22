@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 630,
-  "updated_at": "2026-10-22T16:10:53.880789+00:00",
+  "generation": 631,
+  "updated_at": "2026-10-22T16:10:54.372938+00:00",
   "next_id": 209,
   "records": [
     {
@@ -25394,6 +25394,18 @@
         ],
         "duplicates": []
       }
+    },
+    "231c89239c016b460bab261eb27a144441274630ded7d9e4da2168712e7c795b": {
+      "sha256": "7d6038b18f093cd4fe33abea1afa0648e5bcc4a160f0aa969e63532488ef8c07",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 208,
+          "revision": 1,
+          "sha256": "68584e9c410eb022f83188ce71c8d3ec8ad190074088a31c1d4f048dda5d5496"
+        },
+        "editorial_sha256": "6d3f51c6eb4565419df29dfa40e94f6ea8994750fab394a1dd4ad51f6767e962"
+      }
     }
   },
   "migration": {
@@ -32058,6 +32070,26 @@
         "sha256": "57e9269311461e01b420e13e4edf5169da0ecd829d6a45581572be174d252911",
         "reviewed_at": "2026-10-22T12:50:37.813015+00:00",
         "operation_id": "c1a1bb1961fd6dd0079c15fa8f9a8b788a5fc9dbaf2d89d95dce0ba54fbf5307"
+      }
+    ],
+    "208:1": [
+      {
+        "reference": {
+          "id": 208,
+          "revision": 1,
+          "sha256": "68584e9c410eb022f83188ce71c8d3ec8ad190074088a31c1d4f048dda5d5496"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Banking and consumer security news for a broad audience, not technical research.",
+            "evidence_sha256": "1e1811a982cbf0e960a9b74414e19530e6bf976d04ce7d0f8a632f17d0540d45"
+          }
+        },
+        "sha256": "6d3f51c6eb4565419df29dfa40e94f6ea8994750fab394a1dd4ad51f6767e962",
+        "reviewed_at": "2026-10-22T16:10:54.372938+00:00",
+        "operation_id": "231c89239c016b460bab261eb27a144441274630ded7d9e4da2168712e7c795b"
       }
     ]
   }
