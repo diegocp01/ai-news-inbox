@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 627,
-  "updated_at": "2026-10-22T12:50:37.301785+00:00",
+  "generation": 628,
+  "updated_at": "2026-10-22T12:50:37.813015+00:00",
   "next_id": 208,
   "records": [
     {
@@ -25330,6 +25330,18 @@
         ],
         "duplicates": []
       }
+    },
+    "c1a1bb1961fd6dd0079c15fa8f9a8b788a5fc9dbaf2d89d95dce0ba54fbf5307": {
+      "sha256": "72c52ecde62787711910a5c33e3a9d4d37a1d676bb2bbcc97785e188154ec349",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 207,
+          "revision": 1,
+          "sha256": "c20bd76b5eb22efd57b753082f70f8de13626f6abc55af715ad019728f734ba4"
+        },
+        "editorial_sha256": "57e9269311461e01b420e13e4edf5169da0ecd829d6a45581572be174d252911"
+      }
     }
   },
   "migration": {
@@ -31974,6 +31986,26 @@
         "sha256": "a165f0a3aef3bac40a4207faf3ea3a9a28f39e17319933558ceacdf1cb5f7715",
         "reviewed_at": "2026-10-22T12:04:44.621062+00:00",
         "operation_id": "muse-backfill-20261022-206-8707"
+      }
+    ],
+    "207:1": [
+      {
+        "reference": {
+          "id": 207,
+          "revision": 1,
+          "sha256": "c20bd76b5eb22efd57b753082f70f8de13626f6abc55af715ad019728f734ba4"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Cybersecurity incident news for a broad audience, not technical research or a developer tool.",
+            "evidence_sha256": "9887bf3a7c2ae83eb7697c78c4b6e04c2db39dcbdab65503bb12757e478b1f7d"
+          }
+        },
+        "sha256": "57e9269311461e01b420e13e4edf5169da0ecd829d6a45581572be174d252911",
+        "reviewed_at": "2026-10-22T12:50:37.813015+00:00",
+        "operation_id": "c1a1bb1961fd6dd0079c15fa8f9a8b788a5fc9dbaf2d89d95dce0ba54fbf5307"
       }
     ]
   }
