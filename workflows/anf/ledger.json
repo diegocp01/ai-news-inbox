@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 618,
-  "updated_at": "2026-10-22T11:31:05.588116+00:00",
-  "next_id": 205,
+  "generation": 619,
+  "updated_at": "2026-10-22T11:37:28.059002+00:00",
+  "next_id": 207,
   "records": [
     {
       "id": 1,
@@ -2711,6 +2711,34 @@
           "source": "arXiv",
           "request_id": "96c3d68cce4e1fac5cc00306aa465b0ab228726c60639ee87d3345c6544aae61",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "revisions": [
+        {
+          "created_at": "2026-10-22T11:37:28.059002+00:00",
+          "block": "Title: PHP Releases Fixes for Two Critical Security Flaws\nURL: https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/\nImage URL: https://www.datocms-assets.com/75231/1792534907-img_7274.png?fm=webp\nSummary: PHP, a programming language used to run websites, released updates on October 21 for two critical flaws that, under certain conditions, can let attackers run code on affected servers without logging in. OpenAI says Calif identified one using GPT-5.6 Sol, while Wiz independently reported both using AI tools. The PHP Foundation urges users to update immediately.",
+          "sha256": "2d9432c3d8190407dc5d1a196a53667d7c4347310523fd8513e9c4622795d5d7",
+          "source": "thephp.foundation",
+          "request_id": "151aeedf2d01e8ef3af6808b987619dc59672b67bd005c3af1a1f7507e2f1018",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "revisions": [
+        {
+          "created_at": "2026-10-22T11:37:28.059002+00:00",
+          "block": "Title: Anthropic Opens Claude Duet Research Preview\nURL: https://claude.com/resources/articles/claude-duet\nImage URL: https://claude.com/resources/articles/claude-duet/opengraph-image/og\nSummary: Anthropic opened a waitlist for Claude Duet, an Opus 5.5-powered assistant, initially for U.S. Pro and Max subscribers. The company says it works on a cloud computer after users close the app and can prepare morning briefs. It is designed to seek approval before sending messages, making payments, signing documents or deleting anything.",
+          "sha256": "33dbeea753103876b2abb6f5d4ea6fcf9c6d3fb1cb346483127edd996eaf5cee",
+          "source": "claude.com",
+          "request_id": "151aeedf2d01e8ef3af6808b987619dc59672b67bd005c3af1a1f7507e2f1018",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -5977,14 +6005,27 @@
       ]
     },
     "151aeedf2d01e8ef3af6808b987619dc59672b67bd005c3af1a1f7507e2f1018": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-22T11:31:05.588116+00:00",
       "received_sequence": 185,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-22T11:37:28.059002+00:00",
+      "records": [
+        {
+          "id": 205,
+          "revision": 1,
+          "sha256": "2d9432c3d8190407dc5d1a196a53667d7c4347310523fd8513e9c4622795d5d7"
+        },
+        {
+          "id": 206,
+          "revision": 1,
+          "sha256": "33dbeea753103876b2abb6f5d4ea6fcf9c6d3fb1cb346483127edd996eaf5cee"
+        }
+      ]
     }
   },
   "batches": {
@@ -24610,6 +24651,26 @@
       "result": {
         "status": "received",
         "request_id": "151aeedf2d01e8ef3af6808b987619dc59672b67bd005c3af1a1f7507e2f1018"
+      }
+    },
+    "0fe8e8620d27143e3d5308aab5e67d767fee8567eff0e576489c2e9f8acf1f22": {
+      "sha256": "9c719c860d9d5b8f6869b6e80b104b7f18bceb05b42554d174f2d281e97c1713",
+      "result": {
+        "status": "finalized",
+        "request_id": "151aeedf2d01e8ef3af6808b987619dc59672b67bd005c3af1a1f7507e2f1018",
+        "records": [
+          {
+            "id": 205,
+            "revision": 1,
+            "sha256": "2d9432c3d8190407dc5d1a196a53667d7c4347310523fd8513e9c4622795d5d7"
+          },
+          {
+            "id": 206,
+            "revision": 1,
+            "sha256": "33dbeea753103876b2abb6f5d4ea6fcf9c6d3fb1cb346483127edd996eaf5cee"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
