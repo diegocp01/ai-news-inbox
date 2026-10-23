@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 649,
-  "updated_at": "2026-10-23T12:10:18.467042+00:00",
+  "generation": 650,
+  "updated_at": "2026-10-23T12:10:33.175907+00:00",
   "next_id": 215,
   "records": [
     {
@@ -12401,9 +12401,139 @@
       },
       "acknowledged_at": "2026-10-23T12:10:18.467042+00:00",
       "checkpoint_after": 206
+    },
+    "a617f66b38cbbb7748c61ff0": {
+      "batch_id": "a617f66b38cbbb7748c61ff0",
+      "status": "prepared",
+      "checkpoint_before": 206,
+      "prepared_at": "2026-10-23T12:10:33.175907+00:00",
+      "intake_cutoff": 192,
+      "records": [
+        {
+          "id": 207,
+          "revision": 1,
+          "sha256": "c20bd76b5eb22efd57b753082f70f8de13626f6abc55af715ad019728f734ba4"
+        },
+        {
+          "id": 208,
+          "revision": 1,
+          "sha256": "68584e9c410eb022f83188ce71c8d3ec8ad190074088a31c1d4f048dda5d5496"
+        },
+        {
+          "id": 209,
+          "revision": 1,
+          "sha256": "6df3ebc5142d809a5e29818ec2e8c81c61b31a1129a0d11a69af1a0ff8cd4f26"
+        },
+        {
+          "id": 210,
+          "revision": 1,
+          "sha256": "ce74bab893c102eec518a54d1e107edb19fec1e2ee0d1d0cdb073557c4e55544"
+        },
+        {
+          "id": 211,
+          "revision": 1,
+          "sha256": "fc8bb5c0d3cf658eabbe0c1948400fb370a7bde969c8c1d515a4b21b517e90d8"
+        },
+        {
+          "id": 212,
+          "revision": 1,
+          "sha256": "2ba824a869e4b0bbb96e884f6ef51a42dfd8c4e67c32ce56797a08d1aee7d04a"
+        },
+        {
+          "id": 213,
+          "revision": 1,
+          "sha256": "229e3b07307dfaaff3497ea031463a0ffdb7309be81050a4ae7660236ecc642e"
+        },
+        {
+          "id": 214,
+          "revision": 1,
+          "sha256": "ad1ea84902071248fc6b501100436def1a6acc180c092941fd32683571ab5c34"
+        }
+      ],
+      "first_id": 207,
+      "last_id": 214,
+      "count": 8,
+      "txt_path": "workflows/anf/batches/a617f66b38cbbb7748c61ff0.txt",
+      "json_path": "workflows/anf/batches/a617f66b38cbbb7748c61ff0.json",
+      "txt_sha256": "116f1eed06cdb2d5af51bc063c26be2a40bfcb4693fdbe2160eb50671ce616de",
+      "json_sha256": "2e20830ec127549d2a2b9afc8116547c6caab9afd7c327eedbdb4ae5cdd4741f",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Cybersecurity incident news for a broad audience, not technical research or a developer tool.",
+            "evidence_sha256": "9887bf3a7c2ae83eb7697c78c4b6e04c2db39dcbdab65503bb12757e478b1f7d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Banking and consumer security news for a broad audience, not technical research.",
+            "evidence_sha256": "1e1811a982cbf0e960a9b74414e19530e6bf976d04ce7d0f8a632f17d0540d45"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "AI-safety oversight news readable by a broad audience; not a technical paper or developer tool.",
+            "evidence_sha256": "84ee948fbf90b66578cd9fe6efd664f44f908611143eb9e44fe81aeb8859c40d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Security news roundup for a broad audience; not a technical research paper or developer tool.",
+            "evidence_sha256": "e1d1c9b1777c35252858508fc31298f3d2fbb845362deb027ae8a77daf0df4a7"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer product update for a mainstream AI assistant; relevant to a broad audience.",
+            "evidence_sha256": "f4586cf6c1a705cca41bdc0620dcfcb3c7b75e308fb4d7cdd752d1d620f09e3e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "AI research milestone explained in plain terms for a broad AI-news audience.",
+            "evidence_sha256": "977179021818effeb0d9d78ffb2d1b99487e7aefb91669c723bcbb8f718f135e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Major U.S. banks are blocking outside AI agents from accessing customer accounts and making transactions, per Reuters reporting summarized by Axios. Some customers shared login credentials with agents, and banks flag and block those transactions; Morgan Stanley has blocked outside agents. This is a banking-industry policy story about AI agent account access, not technical AI research or developer tooling, for a broad audience. muse-compile-backfill 2026-10-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "229e3b07307dfaaff3497ea031463a0ffdb7309be81050a4ae7660236ecc642e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Microsoft reports MAI-DxO diagnostic orchestrator benchmark results: 83% accuracy on 304 complex medical cases versus 36% for doctors using reference tools, and 80% versus 47% on emergency department case records. The article notes these benchmarks do not establish patient-care performance and that Microsoft plans a prospective study at Beth Israel Deaconess Medical Center. This is AI research reporting with benchmark evaluation, for research audiences. muse-compile-backfill 2026-10-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "ad1ea84902071248fc6b501100436def1a6acc180c092941fd32683571ab5c34"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-23T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "a617f66b38cbbb7748c61ff0",
   "replacement_batch": null,
   "checkpoint": 206,
   "checkpoint_history": [
@@ -25822,6 +25952,143 @@
           "sha256": "562fcd1a9a0b891c3a43a6436f4028d5a1b1cbcc6443baddd9f36bece0bdb7c6",
           "published_at": "2026-10-22T12:08:16.445800+00:00",
           "planned_from_head": "47e7313bfecd2a54b42b4550d1546cf851696df3"
+        }
+      }
+    },
+    "muse-compile-20261023-1210-7786": {
+      "sha256": "83e068e99a7fa2e66085866ee66668e325b424881148d0a6d44983e621d78779",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "a617f66b38cbbb7748c61ff0",
+          "status": "prepared",
+          "checkpoint_before": 206,
+          "prepared_at": "2026-10-23T12:10:33.175907+00:00",
+          "intake_cutoff": 192,
+          "records": [
+            {
+              "id": 207,
+              "revision": 1,
+              "sha256": "c20bd76b5eb22efd57b753082f70f8de13626f6abc55af715ad019728f734ba4"
+            },
+            {
+              "id": 208,
+              "revision": 1,
+              "sha256": "68584e9c410eb022f83188ce71c8d3ec8ad190074088a31c1d4f048dda5d5496"
+            },
+            {
+              "id": 209,
+              "revision": 1,
+              "sha256": "6df3ebc5142d809a5e29818ec2e8c81c61b31a1129a0d11a69af1a0ff8cd4f26"
+            },
+            {
+              "id": 210,
+              "revision": 1,
+              "sha256": "ce74bab893c102eec518a54d1e107edb19fec1e2ee0d1d0cdb073557c4e55544"
+            },
+            {
+              "id": 211,
+              "revision": 1,
+              "sha256": "fc8bb5c0d3cf658eabbe0c1948400fb370a7bde969c8c1d515a4b21b517e90d8"
+            },
+            {
+              "id": 212,
+              "revision": 1,
+              "sha256": "2ba824a869e4b0bbb96e884f6ef51a42dfd8c4e67c32ce56797a08d1aee7d04a"
+            },
+            {
+              "id": 213,
+              "revision": 1,
+              "sha256": "229e3b07307dfaaff3497ea031463a0ffdb7309be81050a4ae7660236ecc642e"
+            },
+            {
+              "id": 214,
+              "revision": 1,
+              "sha256": "ad1ea84902071248fc6b501100436def1a6acc180c092941fd32683571ab5c34"
+            }
+          ],
+          "first_id": 207,
+          "last_id": 214,
+          "count": 8,
+          "txt_path": "workflows/anf/batches/a617f66b38cbbb7748c61ff0.txt",
+          "json_path": "workflows/anf/batches/a617f66b38cbbb7748c61ff0.json",
+          "txt_sha256": "116f1eed06cdb2d5af51bc063c26be2a40bfcb4693fdbe2160eb50671ce616de",
+          "json_sha256": "2e20830ec127549d2a2b9afc8116547c6caab9afd7c327eedbdb4ae5cdd4741f",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Cybersecurity incident news for a broad audience, not technical research or a developer tool.",
+                "evidence_sha256": "9887bf3a7c2ae83eb7697c78c4b6e04c2db39dcbdab65503bb12757e478b1f7d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Banking and consumer security news for a broad audience, not technical research.",
+                "evidence_sha256": "1e1811a982cbf0e960a9b74414e19530e6bf976d04ce7d0f8a632f17d0540d45"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "AI-safety oversight news readable by a broad audience; not a technical paper or developer tool.",
+                "evidence_sha256": "84ee948fbf90b66578cd9fe6efd664f44f908611143eb9e44fe81aeb8859c40d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Security news roundup for a broad audience; not a technical research paper or developer tool.",
+                "evidence_sha256": "e1d1c9b1777c35252858508fc31298f3d2fbb845362deb027ae8a77daf0df4a7"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer product update for a mainstream AI assistant; relevant to a broad audience.",
+                "evidence_sha256": "f4586cf6c1a705cca41bdc0620dcfcb3c7b75e308fb4d7cdd752d1d620f09e3e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "AI research milestone explained in plain terms for a broad AI-news audience.",
+                "evidence_sha256": "977179021818effeb0d9d78ffb2d1b99487e7aefb91669c723bcbb8f718f135e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Major U.S. banks are blocking outside AI agents from accessing customer accounts and making transactions, per Reuters reporting summarized by Axios. Some customers shared login credentials with agents, and banks flag and block those transactions; Morgan Stanley has blocked outside agents. This is a banking-industry policy story about AI agent account access, not technical AI research or developer tooling, for a broad audience. muse-compile-backfill 2026-10-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "229e3b07307dfaaff3497ea031463a0ffdb7309be81050a4ae7660236ecc642e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Microsoft reports MAI-DxO diagnostic orchestrator benchmark results: 83% accuracy on 304 complex medical cases versus 36% for doctors using reference tools, and 80% versus 47% on emergency department case records. The article notes these benchmarks do not establish patient-care performance and that Microsoft plans a prospective study at Beth Israel Deaconess Medical Center. This is AI research reporting with benchmark evaluation, for research audiences. muse-compile-backfill 2026-10-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "ad1ea84902071248fc6b501100436def1a6acc180c092941fd32683571ab5c34"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-23T12:00:00+00:00",
+          "deferred_request_ids": []
         }
       }
     }

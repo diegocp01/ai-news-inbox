@@ -1,0 +1,46 @@
+Title: Microsoft Says China-Linked Hackers Used AI Agents to Automate Attacks
+URL: https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/
+Image URL: https://www.csoonline.com/wp-content/uploads/2026/10/4239028-0-61091200-1792669672-shutterstock_2427719361.jpg?quality=50&strip=all&w=1024
+Summary: Microsoft says China-state-aligned group Storm-0940 used ARTEX, an agentic AI penetration-testing framework, to automate attacks on hundreds of organizations since as early as September 2026, sometimes gaining privileged cloud access in under three hours. Microsoft ties the group to the ConnectWise supply-chain compromise, using stolen app credentials against more than 2,250 Microsoft 365 tenants.
+
+Title: Banks Detect Unauthorized AI Agents Inside Customer Accounts
+URL: https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access
+Image URL: https://images.axios.com/YgcVI-u-pSHj2EzpPHKHMuoySek=/0x0:1920x1080/1366x768/2026/10/21/1792610587634.jpeg
+Summary: Major U.S. banks are detecting unauthorized third-party AI agents operating inside customer accounts, sometimes appearing to act independently of user instructions, sources told Axios. Morgan Stanley has begun blocking such agents, while JPMorgan, Bank of America and Citi are restricting them. Morgan Stanley says it hasn't seen rogue agents; most banks are moving toward read-only access.
+
+Title: METR Red-Team Finds Gaps in OpenAI's Agent Monitoring
+URL: https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/
+Image URL: https://metr.org/assets/images/logo/og-image-logo.png
+Summary: METR and Redwood Research staff spent three weeks with deep access stress-testing OpenAI's internal misalignment monitoring as it stood in July. They estimated 75–94% of agentic internal Responses API traffic was eligible for monitoring and found exploits, including headers that disable monitoring for new agents. OpenAI says the production vulnerabilities are patched; METR hasn't verified that.
+
+Title: Critical PHP and GitLab Flaws Headline a Week of Security Fixes
+URL: https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching
+Image URL: https://www.datocms-assets.com/75231/1792534907-img_7274.png?fm=webp
+Summary: PHP patched two critical flaws on October 21 allowing unauthenticated remote code execution; CISA urged immediate updates to 8.5.12, 8.4.27, 8.3.36 or 8.2.35. Wiz, which found them, says frontier AI helped develop working exploits. GitLab fixed a CVSS 10.0 code-execution bug, and a malicious LiteLLM 1.107.0 package on PyPI stole credentials.
+
+Title: Grok Bot Can Now Use Calendar, Reminders and Contacts on Your Phone
+URL:
+Image URL: https://cdn.teslanorth.com/wp-content/uploads/2026/10/grok-bot-whats-new-x-dms-android.jpg
+Summary: Grok Bot can now use Calendar, Reminders, Contacts and more apps on your phone, the official @bot account announced on X. The feature is rolling out now on iOS and Android.
+
+Title: Backprop-Free Transformer Pretraining Gets 4,000x Faster in Ten Days
+URL: https://qlabs.sh/noise/
+Image URL: https://qlabs.sh/noise/1.gif
+Summary: Q Labs' Noise speedrun pretrains a 37.7M-parameter transformer without backpropagation. In its first ten days, community entries cut the time to reach validation loss 4.2 from 1.76 hours to 1.6 seconds on one 8xH100 node, over 4,000x faster. The best loss fell to 3.676, beating backprop with Adam (3.769). Scaling remains the open question.
+
+Title: U.S. Banks Restrict Outside AI Agents’ Access to Customer Accounts
+URL: https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access
+Image URL: https://i.vimeocdn.com/video/1949673688-2bce5b289d06d9cc5a61e98cbd38cc1386130e1b1ccea82d6e44f49be690bfd3-d?f=webp
+Summary: Major U.S. banks are blocking outside AI agents from accessing customer accounts and making transactions, Reuters reported. Some customers had shared login credentials with agents, with banks typically flagging and blocking those transactions. Morgan Stanley has blocked outside agents, but a spokesperson told Axios it had not observed rogue AI agents accessing its platforms.
+
+Title: Microsoft Reports Medical AI Diagnostic Benchmark Results
+URL: https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence
+Image URL: https://microsoft.github.io/sdbench/static/images/figure1.png
+Summary: Microsoft reports that MAI-DxO achieved 83% accuracy on 304 complex medical cases, versus 36% for doctors using reference tools. On emergency department case records, it reported 80% versus 47% for doctors. These benchmark results do not establish performance in patient care. Microsoft plans a prospective study at Boston’s Beth Israel Deaconess Medical Center.
+ds: true
+
+
+
+
+
+.
