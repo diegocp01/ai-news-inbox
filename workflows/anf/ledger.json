@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 662,
-  "updated_at": "2026-10-23T23:28:04.098393+00:00",
+  "generation": 663,
+  "updated_at": "2026-10-23T23:57:32.305038+00:00",
   "next_id": 219,
   "records": [
     {
@@ -26354,6 +26354,18 @@
         ],
         "duplicates": []
       }
+    },
+    "34d8f6d7536f42c56e36f406523f8cbb99a781af5b940b201dbc59d4f41a9cf7": {
+      "sha256": "c398e5942a65344d8520ab996befcc3597a1b754ced4655b972872b4b4b4785d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 218,
+          "revision": 1,
+          "sha256": "2cf0471d048e4e5b9fb748d93a78c05623bb2bcc8c5746941f43eae3264fb11f"
+        },
+        "editorial_sha256": "faf0d6b1ce7d5d77f2d969b72fcd4b3a693d16f67b85502768048f7c47679091"
+      }
     }
   },
   "migration": {
@@ -33218,6 +33230,58 @@
         "sha256": "14b45421f912efacbdf8bd695be0c050c7fa5294b6b7fced43481fc1a3dbdaa8",
         "reviewed_at": "2026-10-23T22:26:14.803799+00:00",
         "operation_id": "8bef84704415c8fd4fd34db24126dfc6c9cdd6abf7b7bf38c2d3f0082cc02c1a"
+      }
+    ],
+    "218:1": [
+      {
+        "reference": {
+          "id": 218,
+          "revision": 1,
+          "sha256": "2cf0471d048e4e5b9fb748d93a78c05623bb2bcc8c5746941f43eae3264fb11f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General AI-safety news about OpenAI containment and offline frontier training, not a developer tool, API release or technical research-paper item. AI-safety coverage is non-DS under the latest audience guidance.",
+            "evidence_sha256": "af1fcf55e33db5ad5e32628178feb2b98c240db8d2e56d5f7a9b4b6469c740f0"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+              "final_url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+              "redirect_chain": [
+                "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+              ],
+              "checked_at": "2026-10-23T23:27:25.382713+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "13f95c5c5beac9f812e9903bc6a30ccdd6a041e59e891a95901d20fccb94cdaa"
+            },
+            "image": {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill",
+              "final_url": "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill",
+              "redirect_chain": [
+                "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill"
+              ],
+              "checked_at": "2026-10-23T23:27:11.658603+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "ec6e573c5b3278276ec6ac6dcbd26b436370042b2ff59a6bddaebfeb4ebfce6e",
+              "content_type": "image/png",
+              "width": 1600,
+              "height": 900,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "2f2fc60a209e292fcae58291ecf79822fdeb4b902f10bcb0a228a4145840d8fa",
+              "relevance": "story_specific",
+              "relevance_note": "Official OpenAI social image extracted from this exact October 23 containment article. The inspected 1600x900 PNG is a clear orange title card matching the article, with fully visible white lettering."
+            }
+          }
+        },
+        "sha256": "faf0d6b1ce7d5d77f2d969b72fcd4b3a693d16f67b85502768048f7c47679091",
+        "reviewed_at": "2026-10-23T23:57:32.305038+00:00",
+        "operation_id": "34d8f6d7536f42c56e36f406523f8cbb99a781af5b940b201dbc59d4f41a9cf7"
       }
     ]
   }
