@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 653,
-  "updated_at": "2026-10-23T16:19:57.595929+00:00",
+  "generation": 654,
+  "updated_at": "2026-10-23T16:20:10.488417+00:00",
   "next_id": 216,
   "records": [
     {
@@ -26162,6 +26162,18 @@
         ],
         "duplicates": []
       }
+    },
+    "f3723d6015af55af473d6b3eba6933012cbe92eb5761bd9673bf02069f405cac": {
+      "sha256": "abe558f3196e671b31cc491f9b42a78b1a2fec5654c8d70fa67a3cee9cc66462",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 215,
+          "revision": 1,
+          "sha256": "a113397f39dff6b029bca1cc46d5f3893dfe24575392f1da8c3b1908d6a8f80b"
+        },
+        "editorial_sha256": "b9bd82c10a8303348398d66e0f4fd78f74a6922e30c409ce3280ff6c18e64070"
+      }
     }
   },
   "migration": {
@@ -32966,6 +32978,26 @@
         "sha256": "db8b8af0afc9a66ade5381ae720d3b95da42021aaca9d8a7c17d5c596488a01b",
         "reviewed_at": "2026-10-23T12:04:05.311500+00:00",
         "operation_id": "muse-backfill-20261023-214-7486"
+      }
+    ],
+    "215:1": [
+      {
+        "reference": {
+          "id": 215,
+          "revision": 1,
+          "sha256": "a113397f39dff6b029bca1cc46d5f3893dfe24575392f1da8c3b1908d6a8f80b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Cursor developer-tool item naming developer terms (self-hosted workers, CLI flags); DS per Diego's rules (ds:true).",
+            "evidence_sha256": "365ea32f8a39e7bf5966631a068a665f70f8d18b90bf39c7a02f4c7d3876c2b7"
+          }
+        },
+        "sha256": "b9bd82c10a8303348398d66e0f4fd78f74a6922e30c409ce3280ff6c18e64070",
+        "reviewed_at": "2026-10-23T16:20:10.488417+00:00",
+        "operation_id": "f3723d6015af55af473d6b3eba6933012cbe92eb5761bd9673bf02069f405cac"
       }
     ]
   }
