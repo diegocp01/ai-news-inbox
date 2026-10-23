@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 658,
-  "updated_at": "2026-10-23T22:26:13.649553+00:00",
-  "next_id": 217,
+  "generation": 659,
+  "updated_at": "2026-10-23T22:26:14.260047+00:00",
+  "next_id": 218,
   "records": [
     {
       "id": 1,
@@ -2870,6 +2870,19 @@
           "sha256": "61c8f766e03c74cacc57fe2d822da51c793dc97ad9d7d7350cc2a1f08fb25192",
           "source": "Moonshot AI",
           "request_id": "1fe7fab0bbecec2c196f3b6a3e16125a880ba137d9e4f5d2190096409bd56612",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "revisions": [
+        {
+          "created_at": "2026-10-23T22:26:14.260047+00:00",
+          "block": "Title: Block Unveils Dessa, a Voice AI Trained Only on Human Speech\nURL: https://block.xyz/dessa\nImage URL: https://block.xyz/dessa/_media/6865f35ec6013672f8f8/assets/marketing/variants/v3.jpg\nSummary: Block's small AI research lab unveiled Dessa, a full-duplex speech-to-speech model trained from scratch only on human conversation audio, with no text or pretrained models. It listens and talks at once, hears emotion, laughs and backchannels, runs faster than real time locally on a MacBook Pro M4 Max, and was trained on one NVIDIA GB200 NVL72. A waitlist is open.",
+          "sha256": "8f1f2a72de486bc2d7f496f8de5b9153e038fe5da11132fb37c403e94f54fcd2",
+          "source": "Block",
+          "request_id": "a465b1ec59a328fcdfef34b8c50313511d1a3124ffd3791d6beaeb31cf1deaac",
           "mode": "standard"
         }
       ]
@@ -6319,13 +6332,21 @@
       ]
     },
     "a465b1ec59a328fcdfef34b8c50313511d1a3124ffd3791d6beaeb31cf1deaac": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-23T22:26:13.649553+00:00",
       "received_sequence": 195,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-23T22:26:14.260047+00:00",
+      "records": [
+        {
+          "id": 217,
+          "revision": 1,
+          "sha256": "8f1f2a72de486bc2d7f496f8de5b9153e038fe5da11132fb37c403e94f54fcd2"
+        }
+      ]
     }
   },
   "batches": {
@@ -26253,6 +26274,21 @@
       "result": {
         "status": "received",
         "request_id": "a465b1ec59a328fcdfef34b8c50313511d1a3124ffd3791d6beaeb31cf1deaac"
+      }
+    },
+    "72499d4c4a63fc778fa71526cb953b27cea0e69857387a542844c43729f87fd3": {
+      "sha256": "c63a1072fee7da23a2cee40dc02efd987a77aa0753143a1b7534b3982f0bace1",
+      "result": {
+        "status": "finalized",
+        "request_id": "a465b1ec59a328fcdfef34b8c50313511d1a3124ffd3791d6beaeb31cf1deaac",
+        "records": [
+          {
+            "id": 217,
+            "revision": 1,
+            "sha256": "8f1f2a72de486bc2d7f496f8de5b9153e038fe5da11132fb37c403e94f54fcd2"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
