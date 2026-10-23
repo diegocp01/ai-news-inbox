@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 661,
-  "updated_at": "2026-10-23T22:30:41.635429+00:00",
-  "next_id": 218,
+  "generation": 662,
+  "updated_at": "2026-10-23T23:28:04.098393+00:00",
+  "next_id": 219,
   "records": [
     {
       "id": 1,
@@ -2883,6 +2883,19 @@
           "sha256": "8f1f2a72de486bc2d7f496f8de5b9153e038fe5da11132fb37c403e94f54fcd2",
           "source": "Block",
           "request_id": "a465b1ec59a328fcdfef34b8c50313511d1a3124ffd3791d6beaeb31cf1deaac",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "revisions": [
+        {
+          "created_at": "2026-10-23T23:28:04.098393+00:00",
+          "block": "Title: OpenAI Trains Its Most Advanced AI Models Without Live Internet Access\nURL: https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI says it now trains its most advanced AI models without live internet access, using cached web content instead. It strengthened isolation and monitoring after security incidents, then used AI agents to probe for weaknesses. Frontier reinforcement-learning training and internal inference resumed October 1 after an 11-day pause.",
+          "sha256": "2cf0471d048e4e5b9fb748d93a78c05623bb2bcc8c5746941f43eae3264fb11f",
+          "source": "The Verge",
+          "request_id": "389377f5a0dfd2022d1bb55ff06ebbfa49d5e06212e93eccb85823fe3971c965",
           "mode": "standard"
         }
       ]
@@ -6349,13 +6362,21 @@
       ]
     },
     "389377f5a0dfd2022d1bb55ff06ebbfa49d5e06212e93eccb85823fe3971c965": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-23T22:30:41.635429+00:00",
       "received_sequence": 196,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-23T23:28:04.098393+00:00",
+      "records": [
+        {
+          "id": 218,
+          "revision": 1,
+          "sha256": "2cf0471d048e4e5b9fb748d93a78c05623bb2bcc8c5746941f43eae3264fb11f"
+        }
+      ]
     }
   },
   "batches": {
@@ -26317,6 +26338,21 @@
       "result": {
         "status": "received",
         "request_id": "389377f5a0dfd2022d1bb55ff06ebbfa49d5e06212e93eccb85823fe3971c965"
+      }
+    },
+    "be98c436882305d583d0b15e2b3c05e8abfdcbcf9a3c38188385f20c2f7890cb": {
+      "sha256": "db7c599af0cfc6fe6095f10e8473c3cca0feafd0272d714cd64c79a2aecfcca0",
+      "result": {
+        "status": "finalized",
+        "request_id": "389377f5a0dfd2022d1bb55ff06ebbfa49d5e06212e93eccb85823fe3971c965",
+        "records": [
+          {
+            "id": 218,
+            "revision": 1,
+            "sha256": "2cf0471d048e4e5b9fb748d93a78c05623bb2bcc8c5746941f43eae3264fb11f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
