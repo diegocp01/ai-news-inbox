@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 655,
-  "updated_at": "2026-10-23T17:30:04.830858+00:00",
-  "next_id": 216,
+  "generation": 656,
+  "updated_at": "2026-10-23T17:30:05.393668+00:00",
+  "next_id": 217,
   "records": [
     {
       "id": 1,
@@ -2857,6 +2857,19 @@
           "sha256": "a113397f39dff6b029bca1cc46d5f3893dfe24575392f1da8c3b1908d6a8f80b",
           "source": "Cursor",
           "request_id": "1fce500d7acd4cb791eda90306d23f6dd274b2dae3fd6368a6351ab58b012c85",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "revisions": [
+        {
+          "created_at": "2026-10-23T17:30:05.393668+00:00",
+          "block": "Title: Moonshot Unveils Kimi K3.1 Pro, Its Most Capable Open-Weight Model\nURL:\nImage URL: https://raw.githubusercontent.com/MoonshotAI/Kimi-K3/main/assets/kimi-logo.png\nSummary: Moonshot AI introduced Kimi K3.1 Pro, calling it its most capable 3T-class open-weight model. The mixture-of-experts model has 2.8 trillion total and 104 billion active parameters, a 1-million-token context window and multimodal input. Moonshot says it handles full-project game coding in Unreal, Unity and Godot, and parametric 3D modeling in Blender and CAD.",
+          "sha256": "61c8f766e03c74cacc57fe2d822da51c793dc97ad9d7d7350cc2a1f08fb25192",
+          "source": "Moonshot AI",
+          "request_id": "1fe7fab0bbecec2c196f3b6a3e16125a880ba137d9e4f5d2190096409bd56612",
           "mode": "standard"
         }
       ]
@@ -6289,13 +6302,21 @@
       ]
     },
     "1fe7fab0bbecec2c196f3b6a3e16125a880ba137d9e4f5d2190096409bd56612": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-23T17:30:04.830858+00:00",
       "received_sequence": 194,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-23T17:30:05.393668+00:00",
+      "records": [
+        {
+          "id": 216,
+          "revision": 1,
+          "sha256": "61c8f766e03c74cacc57fe2d822da51c793dc97ad9d7d7350cc2a1f08fb25192"
+        }
+      ]
     }
   },
   "batches": {
@@ -26189,6 +26210,21 @@
       "result": {
         "status": "received",
         "request_id": "1fe7fab0bbecec2c196f3b6a3e16125a880ba137d9e4f5d2190096409bd56612"
+      }
+    },
+    "46712b78bcc449cdc6739bedb6dedb9c1aaa3866ae7c0295e04589fb2dcc2e24": {
+      "sha256": "1593d8d5f25f434571473ba5f1a7eb8f6ae3b3e9a33226cfcb7460ee5fc58d54",
+      "result": {
+        "status": "finalized",
+        "request_id": "1fe7fab0bbecec2c196f3b6a3e16125a880ba137d9e4f5d2190096409bd56612",
+        "records": [
+          {
+            "id": 216,
+            "revision": 1,
+            "sha256": "61c8f766e03c74cacc57fe2d822da51c793dc97ad9d7d7350cc2a1f08fb25192"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
