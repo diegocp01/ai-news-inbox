@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 656,
-  "updated_at": "2026-10-23T17:30:05.393668+00:00",
+  "generation": 657,
+  "updated_at": "2026-10-23T17:30:05.967417+00:00",
   "next_id": 217,
   "records": [
     {
@@ -26226,6 +26226,18 @@
         ],
         "duplicates": []
       }
+    },
+    "8584de69663b0aa38aa2177495adc6bda8ba2bd45c167d2895d7484162dd66ab": {
+      "sha256": "a28b0ea7304efc2938b0b254bd498fa6cab14c40f6b4ae92611920579fc3f6bd",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 216,
+          "revision": 1,
+          "sha256": "61c8f766e03c74cacc57fe2d822da51c793dc97ad9d7d7350cc2a1f08fb25192"
+        },
+        "editorial_sha256": "583db0cadddec35c1a6e54742d42c99cb706f165f028a5809079985d1e814d2a"
+      }
     }
   },
   "migration": {
@@ -33050,6 +33062,26 @@
         "sha256": "b9bd82c10a8303348398d66e0f4fd78f74a6922e30c409ce3280ff6c18e64070",
         "reviewed_at": "2026-10-23T16:20:10.488417+00:00",
         "operation_id": "f3723d6015af55af473d6b3eba6933012cbe92eb5761bd9673bf02069f405cac"
+      }
+    ],
+    "216:1": [
+      {
+        "reference": {
+          "id": 216,
+          "revision": 1,
+          "sha256": "61c8f766e03c74cacc57fe2d822da51c793dc97ad9d7d7350cc2a1f08fb25192"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "open_source",
+            "rationale": "Open-weight model release relying on ML-architecture concepts (mixture-of-experts, total vs active parameters, context window); DS per Diego's rules (ds:true).",
+            "evidence_sha256": "05d5de27b49f62add48cab94e95a3409a74e5fa3f0f54cdf025e6831f1eba851"
+          }
+        },
+        "sha256": "583db0cadddec35c1a6e54742d42c99cb706f165f028a5809079985d1e814d2a",
+        "reviewed_at": "2026-10-23T17:30:05.967417+00:00",
+        "operation_id": "8584de69663b0aa38aa2177495adc6bda8ba2bd45c167d2895d7484162dd66ab"
       }
     ]
   }
