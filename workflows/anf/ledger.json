@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 644,
-  "updated_at": "2026-10-23T11:41:41.860146+00:00",
-  "next_id": 213,
+  "generation": 645,
+  "updated_at": "2026-10-23T11:48:13.313016+00:00",
+  "next_id": 215,
   "records": [
     {
       "id": 1,
@@ -2817,6 +2817,34 @@
           "source": "Q Labs",
           "request_id": "c4b35b66a40034473f70db6ed89f48ef127218f5ee60ab2440b8c8afbe50603f",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "revisions": [
+        {
+          "created_at": "2026-10-23T11:48:13.313016+00:00",
+          "block": "Title: U.S. Banks Restrict Outside AI Agents’ Access to Customer Accounts\nURL: https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access\nImage URL: https://i.vimeocdn.com/video/1949673688-2bce5b289d06d9cc5a61e98cbd38cc1386130e1b1ccea82d6e44f49be690bfd3-d?f=webp\nSummary: Major U.S. banks are blocking outside AI agents from accessing customer accounts and making transactions, Reuters reported. Some customers had shared login credentials with agents, with banks typically flagging and blocking those transactions. Morgan Stanley has blocked outside agents, but a spokesperson told Axios it had not observed rogue AI agents accessing its platforms.",
+          "sha256": "229e3b07307dfaaff3497ea031463a0ffdb7309be81050a4ae7660236ecc642e",
+          "source": "axios.com",
+          "request_id": "ddf58508e481d6500c8d0fa5d699cfd0e90f9a5e82e8b58ab62b5ad45e05407c",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "revisions": [
+        {
+          "created_at": "2026-10-23T11:48:13.313016+00:00",
+          "block": "Title: Microsoft Reports Medical AI Diagnostic Benchmark Results\nURL: https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence\nImage URL: https://microsoft.github.io/sdbench/static/images/figure1.png\nSummary: Microsoft reports that MAI-DxO achieved 83% accuracy on 304 complex medical cases, versus 36% for doctors using reference tools. On emergency department case records, it reported 80% versus 47% for doctors. These benchmark results do not establish performance in patient care. Microsoft plans a prospective study at Boston’s Beth Israel Deaconess Medical Center.",
+          "sha256": "ad1ea84902071248fc6b501100436def1a6acc180c092941fd32683571ab5c34",
+          "source": "theverge.com",
+          "request_id": "ddf58508e481d6500c8d0fa5d699cfd0e90f9a5e82e8b58ab62b5ad45e05407c",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -6208,14 +6236,27 @@
       ]
     },
     "ddf58508e481d6500c8d0fa5d699cfd0e90f9a5e82e8b58ab62b5ad45e05407c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-23T11:41:41.860146+00:00",
       "received_sequence": 192,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-23T11:48:13.313016+00:00",
+      "records": [
+        {
+          "id": 213,
+          "revision": 1,
+          "sha256": "229e3b07307dfaaff3497ea031463a0ffdb7309be81050a4ae7660236ecc642e"
+        },
+        {
+          "id": 214,
+          "revision": 1,
+          "sha256": "ad1ea84902071248fc6b501100436def1a6acc180c092941fd32683571ab5c34"
+        }
+      ]
     }
   },
   "batches": {
@@ -25678,6 +25719,26 @@
       "result": {
         "status": "received",
         "request_id": "ddf58508e481d6500c8d0fa5d699cfd0e90f9a5e82e8b58ab62b5ad45e05407c"
+      }
+    },
+    "aed065d0e6a4ed7ec355762d4a162c544a89fa0767e8e7147633ccc57fc74e5d": {
+      "sha256": "2a418e5abda51ce2aec697f5f13749e290c6472760eb736bf1f6c038807ff867",
+      "result": {
+        "status": "finalized",
+        "request_id": "ddf58508e481d6500c8d0fa5d699cfd0e90f9a5e82e8b58ab62b5ad45e05407c",
+        "records": [
+          {
+            "id": 213,
+            "revision": 1,
+            "sha256": "229e3b07307dfaaff3497ea031463a0ffdb7309be81050a4ae7660236ecc642e"
+          },
+          {
+            "id": 214,
+            "revision": 1,
+            "sha256": "ad1ea84902071248fc6b501100436def1a6acc180c092941fd32683571ab5c34"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
