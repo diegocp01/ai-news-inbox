@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 645,
-  "updated_at": "2026-10-23T11:48:13.313016+00:00",
+  "generation": 647,
+  "updated_at": "2026-10-23T12:04:05.311500+00:00",
   "next_id": 215,
   "records": [
     {
@@ -25740,6 +25740,30 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261023-213-2139": {
+      "sha256": "5dd553c775cb2f9d3bb3bf44e60dfa9d8737a42f400b7715db9cf6246328ae21",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 213,
+          "revision": 1,
+          "sha256": "229e3b07307dfaaff3497ea031463a0ffdb7309be81050a4ae7660236ecc642e"
+        },
+        "editorial_sha256": "6fdd1d0cba441e02aad62f1c17a2bd35877e82528fb3e27cd394d3296ea12fe7"
+      }
+    },
+    "muse-backfill-20261023-214-7486": {
+      "sha256": "36df6c40bbfe22d4d9dc2b0911c9950c13ace46e414c36d2fb22c913a1894d06",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 214,
+          "revision": 1,
+          "sha256": "ad1ea84902071248fc6b501100436def1a6acc180c092941fd32683571ab5c34"
+        },
+        "editorial_sha256": "db8b8af0afc9a66ade5381ae720d3b95da42021aaca9d8a7c17d5c596488a01b"
+      }
     }
   },
   "migration": {
@@ -32504,6 +32528,46 @@
         "sha256": "e6b18cbbaa2437fa2b830ed49bab4bfaadb694fd26b56cf34f585b0098bd2071",
         "reviewed_at": "2026-10-22T23:45:57.732795+00:00",
         "operation_id": "bf4a1ce38bae3bec6daf602d1430fa526b621f2ef0018274d92f69b7ed150a0b"
+      }
+    ],
+    "213:1": [
+      {
+        "reference": {
+          "id": 213,
+          "revision": 1,
+          "sha256": "229e3b07307dfaaff3497ea031463a0ffdb7309be81050a4ae7660236ecc642e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Major U.S. banks are blocking outside AI agents from accessing customer accounts and making transactions, per Reuters reporting summarized by Axios. Some customers shared login credentials with agents, and banks flag and block those transactions; Morgan Stanley has blocked outside agents. This is a banking-industry policy story about AI agent account access, not technical AI research or developer tooling, for a broad audience. muse-compile-backfill 2026-10-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "229e3b07307dfaaff3497ea031463a0ffdb7309be81050a4ae7660236ecc642e"
+          }
+        },
+        "sha256": "6fdd1d0cba441e02aad62f1c17a2bd35877e82528fb3e27cd394d3296ea12fe7",
+        "reviewed_at": "2026-10-23T12:04:05.221639+00:00",
+        "operation_id": "muse-backfill-20261023-213-2139"
+      }
+    ],
+    "214:1": [
+      {
+        "reference": {
+          "id": 214,
+          "revision": 1,
+          "sha256": "ad1ea84902071248fc6b501100436def1a6acc180c092941fd32683571ab5c34"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Microsoft reports MAI-DxO diagnostic orchestrator benchmark results: 83% accuracy on 304 complex medical cases versus 36% for doctors using reference tools, and 80% versus 47% on emergency department case records. The article notes these benchmarks do not establish patient-care performance and that Microsoft plans a prospective study at Beth Israel Deaconess Medical Center. This is AI research reporting with benchmark evaluation, for research audiences. muse-compile-backfill 2026-10-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "ad1ea84902071248fc6b501100436def1a6acc180c092941fd32683571ab5c34"
+          }
+        },
+        "sha256": "db8b8af0afc9a66ade5381ae720d3b95da42021aaca9d8a7c17d5c596488a01b",
+        "reviewed_at": "2026-10-23T12:04:05.311500+00:00",
+        "operation_id": "muse-backfill-20261023-214-7486"
       }
     ]
   }
