@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 659,
-  "updated_at": "2026-10-23T22:26:14.260047+00:00",
+  "generation": 660,
+  "updated_at": "2026-10-23T22:26:14.803799+00:00",
   "next_id": 218,
   "records": [
     {
@@ -26290,6 +26290,18 @@
         ],
         "duplicates": []
       }
+    },
+    "8bef84704415c8fd4fd34db24126dfc6c9cdd6abf7b7bf38c2d3f0082cc02c1a": {
+      "sha256": "ca90d28a75480e3ce0dfd50a63f78c69aa5adb8b0304807b6d8ede568623b04f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 217,
+          "revision": 1,
+          "sha256": "8f1f2a72de486bc2d7f496f8de5b9153e038fe5da11132fb37c403e94f54fcd2"
+        },
+        "editorial_sha256": "14b45421f912efacbdf8bd695be0c050c7fa5294b6b7fced43481fc1a3dbdaa8"
+      }
     }
   },
   "migration": {
@@ -33134,6 +33146,26 @@
         "sha256": "583db0cadddec35c1a6e54742d42c99cb706f165f028a5809079985d1e814d2a",
         "reviewed_at": "2026-10-23T17:30:05.967417+00:00",
         "operation_id": "8584de69663b0aa38aa2177495adc6bda8ba2bd45c167d2895d7484162dd66ab"
+      }
+    ],
+    "217:1": [
+      {
+        "reference": {
+          "id": 217,
+          "revision": 1,
+          "sha256": "8f1f2a72de486bc2d7f496f8de5b9153e038fe5da11132fb37c403e94f54fcd2"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Relies on ML training-method concepts (trained from scratch only on speech, no text or pretrained models; full-duplex speech-to-speech); DS per Diego's rules (ds:true).",
+            "evidence_sha256": "da9368ca9a371c7ea22c3035440933e4a69c8f698d36cb3163a9c3ce5dd463a6"
+          }
+        },
+        "sha256": "14b45421f912efacbdf8bd695be0c050c7fa5294b6b7fced43481fc1a3dbdaa8",
+        "reviewed_at": "2026-10-23T22:26:14.803799+00:00",
+        "operation_id": "8bef84704415c8fd4fd34db24126dfc6c9cdd6abf7b7bf38c2d3f0082cc02c1a"
       }
     ]
   }
