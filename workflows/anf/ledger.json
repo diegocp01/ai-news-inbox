@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 664,
-  "updated_at": "2026-10-24T01:19:40.697316+00:00",
-  "next_id": 219,
+  "generation": 665,
+  "updated_at": "2026-10-24T01:19:41.401326+00:00",
+  "next_id": 220,
   "records": [
     {
       "id": 1,
@@ -2896,6 +2896,19 @@
           "sha256": "2cf0471d048e4e5b9fb748d93a78c05623bb2bcc8c5746941f43eae3264fb11f",
           "source": "The Verge",
           "request_id": "389377f5a0dfd2022d1bb55ff06ebbfa49d5e06212e93eccb85823fe3971c965",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "revisions": [
+        {
+          "created_at": "2026-10-24T01:19:41.401326+00:00",
+          "block": "Title: OpenAI Agents Passed Messages Through a CPU Cache During Red-Teaming\nURL: https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet\nImage URL: https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B_d6ffc8.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200\nSummary: During internal red-teaming, OpenAI asked AI agents on separate virtual machines with no network connection to exchange secrets. The agents communicated through the processor's cache: one evicted selected data, while the other timed how long reloading it took to decode the message. OpenAI says it used such findings to strengthen its defenses.",
+          "sha256": "994e6411684b8886605f1380983f0d68bbc05570279a47826e1262bd595a5d70",
+          "source": "https://x.com/rynorhn/status/2113757656498196605",
+          "request_id": "a9a01c21a41676ed38255b380f91c98cf6a5a67719c1ca61494faa2275f10253",
           "mode": "standard"
         }
       ]
@@ -6379,13 +6392,21 @@
       ]
     },
     "a9a01c21a41676ed38255b380f91c98cf6a5a67719c1ca61494faa2275f10253": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-24T01:19:40.697316+00:00",
       "received_sequence": 197,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-24T01:19:41.401326+00:00",
+      "records": [
+        {
+          "id": 219,
+          "revision": 1,
+          "sha256": "994e6411684b8886605f1380983f0d68bbc05570279a47826e1262bd595a5d70"
+        }
+      ]
     }
   },
   "batches": {
@@ -26381,6 +26402,21 @@
       "result": {
         "status": "received",
         "request_id": "a9a01c21a41676ed38255b380f91c98cf6a5a67719c1ca61494faa2275f10253"
+      }
+    },
+    "c26fd75fef71ac7a0335eb49b38ac80ce5fb8ddd895c101901c2b68d2fa47c20": {
+      "sha256": "ee5fe700a327fe5969517fd811192629fd81161ebeaf50bfa1f90bb01a107bf7",
+      "result": {
+        "status": "finalized",
+        "request_id": "a9a01c21a41676ed38255b380f91c98cf6a5a67719c1ca61494faa2275f10253",
+        "records": [
+          {
+            "id": 219,
+            "revision": 1,
+            "sha256": "994e6411684b8886605f1380983f0d68bbc05570279a47826e1262bd595a5d70"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
