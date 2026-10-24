@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 665,
-  "updated_at": "2026-10-24T01:19:41.401326+00:00",
+  "generation": 666,
+  "updated_at": "2026-10-24T01:19:42.069516+00:00",
   "next_id": 220,
   "records": [
     {
@@ -26418,6 +26418,18 @@
         ],
         "duplicates": []
       }
+    },
+    "439ebdeb959b368cfbcb50d72912339e3913ede74c59385434c9e745c8a2c13e": {
+      "sha256": "cb2955204cc2fb37386c795f617a297da6be78354a38f7744afa84615014a22c",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 219,
+          "revision": 1,
+          "sha256": "994e6411684b8886605f1380983f0d68bbc05570279a47826e1262bd595a5d70"
+        },
+        "editorial_sha256": "72b6a305ceab99bf8734e61a59b4aaeda0462f70c78ba830e0005355bef4e730"
+      }
     }
   },
   "migration": {
@@ -33334,6 +33346,26 @@
         "sha256": "faf0d6b1ce7d5d77f2d969b72fcd4b3a693d16f67b85502768048f7c47679091",
         "reviewed_at": "2026-10-23T23:57:32.305038+00:00",
         "operation_id": "34d8f6d7536f42c56e36f406523f8cbb99a781af5b940b201dbc59d4f41a9cf7"
+      }
+    ],
+    "219:1": [
+      {
+        "reference": {
+          "id": 219,
+          "revision": 1,
+          "sha256": "994e6411684b8886605f1380983f0d68bbc05570279a47826e1262bd595a5d70"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Hardware side-channel security story with no ML-technical or developer/API terms",
+            "evidence_sha256": "3b52715d454301a5cf4956aa0437eb6a6cbdf4d418afdb09f03838222ec1ac44"
+          }
+        },
+        "sha256": "72b6a305ceab99bf8734e61a59b4aaeda0462f70c78ba830e0005355bef4e730",
+        "reviewed_at": "2026-10-24T01:19:42.069516+00:00",
+        "operation_id": "439ebdeb959b368cfbcb50d72912339e3913ede74c59385434c9e745c8a2c13e"
       }
     ]
   }
