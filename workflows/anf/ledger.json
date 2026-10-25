@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 671,
-  "updated_at": "2026-10-25T22:53:47.042106+00:00",
+  "generation": 672,
+  "updated_at": "2026-10-25T22:53:47.518858+00:00",
   "next_id": 222,
   "records": [
     {
@@ -26546,6 +26546,18 @@
         ],
         "duplicates": []
       }
+    },
+    "450fdc21dfd7412ed1e3e0e6aac0c44c65c996053ae568e722f38e65304691b9": {
+      "sha256": "16694c307b708061d1bb045acd7a785632214457826053a610e93d1034cfb4e3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 221,
+          "revision": 1,
+          "sha256": "e2b2bbe0181b2c51baf90df6bff5d273cf5a37681543ef2af7fbb583c1e747f8"
+        },
+        "editorial_sha256": "f0eebce466c4ff774b0760dbb66345542dab8168038e257a46a796f6dcb3f8b7"
+      }
     }
   },
   "migration": {
@@ -33502,6 +33514,26 @@
         "sha256": "8f30c1e17ca4a82dd2bcaea270e0204bbc905c4b51258ab5f8860ffc428e1b45",
         "reviewed_at": "2026-10-25T22:46:50.678170+00:00",
         "operation_id": "63098260896ee2920b87757df75ecc61a4757c39b021bd14c80c4f3be6ba8c06"
+      }
+    ],
+    "221:1": [
+      {
+        "reference": {
+          "id": 221,
+          "revision": 1,
+          "sha256": "e2b2bbe0181b2c51baf90df6bff5d273cf5a37681543ef2af7fbb583c1e747f8"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer video-editing app integration with no ML-technical or developer/API terms",
+            "evidence_sha256": "a20409fbeecf4d8925f626674d7184c64848acd1c6ebb401df8a926861026b4a"
+          }
+        },
+        "sha256": "f0eebce466c4ff774b0760dbb66345542dab8168038e257a46a796f6dcb3f8b7",
+        "reviewed_at": "2026-10-25T22:53:47.518858+00:00",
+        "operation_id": "450fdc21dfd7412ed1e3e0e6aac0c44c65c996053ae568e722f38e65304691b9"
       }
     ]
   }
