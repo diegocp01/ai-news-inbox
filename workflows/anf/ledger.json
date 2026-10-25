@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 670,
-  "updated_at": "2026-10-25T22:53:46.551798+00:00",
-  "next_id": 221,
+  "generation": 671,
+  "updated_at": "2026-10-25T22:53:47.042106+00:00",
+  "next_id": 222,
   "records": [
     {
       "id": 1,
@@ -2922,6 +2922,19 @@
           "sha256": "5ce833e2815de2814609521ab1c854a4bd50c3846dfc4a3fd8472f604514714e",
           "source": "https://x.com/elonmusk/status/2114365361068138990",
           "request_id": "9810a8430626ebc4bd7bf5183556a0a2fe5171d9ea7fdfff0b04e08322f592f5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "revisions": [
+        {
+          "created_at": "2026-10-25T22:53:47.042106+00:00",
+          "block": "Title: CapCut Plugin Is Coming to ChatGPT\nURL: https://creatorstoolbox.com/blog/capcut-plugin-chatgpt-coming-soon\nImage URL: https://creatorstoolbox.com/images/blog-media/capcut-plugin-chatgpt-coming-soon-official.jpg\nSummary: CapCut announced at CapCut World LA that a plugin bringing its video editing and generation tools into ChatGPT is coming soon. Users can start with an idea in ChatGPT, turn it into a draft video with the plugin, then move it to CapCut's web editor to refine, share and publish. No release date was given.",
+          "sha256": "e2b2bbe0181b2c51baf90df6bff5d273cf5a37681543ef2af7fbb583c1e747f8",
+          "source": "https://x.com/capcutapp/status/2114062937094823955",
+          "request_id": "b6c54796d386953a1950e816eadcfdd0fe301a181a48b8addbd5e5a703afd82b",
           "mode": "standard"
         }
       ]
@@ -6439,13 +6452,21 @@
       ]
     },
     "b6c54796d386953a1950e816eadcfdd0fe301a181a48b8addbd5e5a703afd82b": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-25T22:53:46.551798+00:00",
       "received_sequence": 199,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-25T22:53:47.042106+00:00",
+      "records": [
+        {
+          "id": 221,
+          "revision": 1,
+          "sha256": "e2b2bbe0181b2c51baf90df6bff5d273cf5a37681543ef2af7fbb583c1e747f8"
+        }
+      ]
     }
   },
   "batches": {
@@ -26509,6 +26530,21 @@
       "result": {
         "status": "received",
         "request_id": "b6c54796d386953a1950e816eadcfdd0fe301a181a48b8addbd5e5a703afd82b"
+      }
+    },
+    "f2c240b06544ad15c11c1b65f438ced8df7d62015524ac4cc4121f675fc995f7": {
+      "sha256": "c3f19ec67692cf723baff9695b0f43f6d9e3a252563e4eb63a3fcbd46ff209dc",
+      "result": {
+        "status": "finalized",
+        "request_id": "b6c54796d386953a1950e816eadcfdd0fe301a181a48b8addbd5e5a703afd82b",
+        "records": [
+          {
+            "id": 221,
+            "revision": 1,
+            "sha256": "e2b2bbe0181b2c51baf90df6bff5d273cf5a37681543ef2af7fbb583c1e747f8"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
