@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 674,
-  "updated_at": "2026-10-26T12:03:56.392771+00:00",
+  "generation": 675,
+  "updated_at": "2026-10-26T12:04:11.305337+00:00",
   "next_id": 222,
   "records": [
     {
@@ -12767,9 +12767,158 @@
       },
       "acknowledged_at": "2026-10-26T12:03:56.392771+00:00",
       "checkpoint_after": 214
+    },
+    "dbf14a4ec7219d3c1a0fd1c0": {
+      "batch_id": "dbf14a4ec7219d3c1a0fd1c0",
+      "status": "prepared",
+      "checkpoint_before": 214,
+      "prepared_at": "2026-10-26T12:04:11.305337+00:00",
+      "intake_cutoff": 199,
+      "records": [
+        {
+          "id": 215,
+          "revision": 1,
+          "sha256": "a113397f39dff6b029bca1cc46d5f3893dfe24575392f1da8c3b1908d6a8f80b"
+        },
+        {
+          "id": 216,
+          "revision": 1,
+          "sha256": "61c8f766e03c74cacc57fe2d822da51c793dc97ad9d7d7350cc2a1f08fb25192"
+        },
+        {
+          "id": 217,
+          "revision": 1,
+          "sha256": "8f1f2a72de486bc2d7f496f8de5b9153e038fe5da11132fb37c403e94f54fcd2"
+        },
+        {
+          "id": 218,
+          "revision": 1,
+          "sha256": "2cf0471d048e4e5b9fb748d93a78c05623bb2bcc8c5746941f43eae3264fb11f"
+        },
+        {
+          "id": 219,
+          "revision": 1,
+          "sha256": "994e6411684b8886605f1380983f0d68bbc05570279a47826e1262bd595a5d70"
+        },
+        {
+          "id": 220,
+          "revision": 1,
+          "sha256": "5ce833e2815de2814609521ab1c854a4bd50c3846dfc4a3fd8472f604514714e"
+        },
+        {
+          "id": 221,
+          "revision": 1,
+          "sha256": "e2b2bbe0181b2c51baf90df6bff5d273cf5a37681543ef2af7fbb583c1e747f8"
+        }
+      ],
+      "first_id": 215,
+      "last_id": 221,
+      "count": 7,
+      "txt_path": "workflows/anf/batches/dbf14a4ec7219d3c1a0fd1c0.txt",
+      "json_path": "workflows/anf/batches/dbf14a4ec7219d3c1a0fd1c0.json",
+      "txt_sha256": "638f2c988500b90bb90f37432d9af4ae9e17ae5ec9e367c982413dd8f6aeff99",
+      "json_sha256": "3bb23513d0bdd9f9c5d14dd3f24534ae9e8bd351a1f2d041b7752298b6bb012b",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Cursor developer-tool item naming developer terms (self-hosted workers, CLI flags); DS per Diego's rules (ds:true).",
+            "evidence_sha256": "365ea32f8a39e7bf5966631a068a665f70f8d18b90bf39c7a02f4c7d3876c2b7"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "open_source",
+            "rationale": "Open-weight model release relying on ML-architecture concepts (mixture-of-experts, total vs active parameters, context window); DS per Diego's rules (ds:true).",
+            "evidence_sha256": "05d5de27b49f62add48cab94e95a3409a74e5fa3f0f54cdf025e6831f1eba851"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Relies on ML training-method concepts (trained from scratch only on speech, no text or pretrained models; full-duplex speech-to-speech); DS per Diego's rules (ds:true).",
+            "evidence_sha256": "da9368ca9a371c7ea22c3035440933e4a69c8f698d36cb3163a9c3ce5dd463a6"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "General AI-safety news about OpenAI containment and offline frontier training, not a developer tool, API release or technical research-paper item. AI-safety coverage is non-DS under the latest audience guidance.",
+            "evidence_sha256": "af1fcf55e33db5ad5e32628178feb2b98c240db8d2e56d5f7a9b4b6469c740f0"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+              "final_url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+              "redirect_chain": [
+                "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+              ],
+              "checked_at": "2026-10-23T23:27:25.382713+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "13f95c5c5beac9f812e9903bc6a30ccdd6a041e59e891a95901d20fccb94cdaa"
+            },
+            "image": {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill",
+              "final_url": "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill",
+              "redirect_chain": [
+                "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill"
+              ],
+              "checked_at": "2026-10-23T23:27:11.658603+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "evidence_sha256": "ec6e573c5b3278276ec6ac6dcbd26b436370042b2ff59a6bddaebfeb4ebfce6e",
+              "content_type": "image/png",
+              "width": 1600,
+              "height": 900,
+              "pixels_inspected": true,
+              "image_bytes_sha256": "2f2fc60a209e292fcae58291ecf79822fdeb4b902f10bcb0a228a4145840d8fa",
+              "relevance": "story_specific",
+              "relevance_note": "Official OpenAI social image extracted from this exact October 23 containment article. The inspected 1600x900 PNG is a clear orange title card matching the article, with fully visible white lettering."
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Hardware side-channel security story with no ML-technical or developer/API terms",
+            "evidence_sha256": "3b52715d454301a5cf4956aa0437eb6a6cbdf4d418afdb09f03838222ec1ac44"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer product feature announcement with no ML-technical or developer/API terms",
+            "evidence_sha256": "7c61416b183584241e16d805e801d67b0ef62364926f17dbb168a0c2f8b28c0f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer video-editing app integration with no ML-technical or developer/API terms",
+            "evidence_sha256": "a20409fbeecf4d8925f626674d7184c64848acd1c6ebb401df8a926861026b4a"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-26T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "dbf14a4ec7219d3c1a0fd1c0",
   "replacement_batch": null,
   "checkpoint": 214,
   "checkpoint_history": [
@@ -26616,6 +26765,162 @@
           "sha256": "2e20830ec127549d2a2b9afc8116547c6caab9afd7c327eedbdb4ae5cdd4741f",
           "published_at": "2026-10-23T12:13:35.721098+00:00",
           "planned_from_head": "373c4d6004e74f5112c346b7021c19275f99f1bd"
+        }
+      }
+    },
+    "muse-compile-20261026-1204-0325": {
+      "sha256": "3a9da61868022738f02f47a27905b1f9164241333b41138f542cf41db4d0443b",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "dbf14a4ec7219d3c1a0fd1c0",
+          "status": "prepared",
+          "checkpoint_before": 214,
+          "prepared_at": "2026-10-26T12:04:11.305337+00:00",
+          "intake_cutoff": 199,
+          "records": [
+            {
+              "id": 215,
+              "revision": 1,
+              "sha256": "a113397f39dff6b029bca1cc46d5f3893dfe24575392f1da8c3b1908d6a8f80b"
+            },
+            {
+              "id": 216,
+              "revision": 1,
+              "sha256": "61c8f766e03c74cacc57fe2d822da51c793dc97ad9d7d7350cc2a1f08fb25192"
+            },
+            {
+              "id": 217,
+              "revision": 1,
+              "sha256": "8f1f2a72de486bc2d7f496f8de5b9153e038fe5da11132fb37c403e94f54fcd2"
+            },
+            {
+              "id": 218,
+              "revision": 1,
+              "sha256": "2cf0471d048e4e5b9fb748d93a78c05623bb2bcc8c5746941f43eae3264fb11f"
+            },
+            {
+              "id": 219,
+              "revision": 1,
+              "sha256": "994e6411684b8886605f1380983f0d68bbc05570279a47826e1262bd595a5d70"
+            },
+            {
+              "id": 220,
+              "revision": 1,
+              "sha256": "5ce833e2815de2814609521ab1c854a4bd50c3846dfc4a3fd8472f604514714e"
+            },
+            {
+              "id": 221,
+              "revision": 1,
+              "sha256": "e2b2bbe0181b2c51baf90df6bff5d273cf5a37681543ef2af7fbb583c1e747f8"
+            }
+          ],
+          "first_id": 215,
+          "last_id": 221,
+          "count": 7,
+          "txt_path": "workflows/anf/batches/dbf14a4ec7219d3c1a0fd1c0.txt",
+          "json_path": "workflows/anf/batches/dbf14a4ec7219d3c1a0fd1c0.json",
+          "txt_sha256": "638f2c988500b90bb90f37432d9af4ae9e17ae5ec9e367c982413dd8f6aeff99",
+          "json_sha256": "3bb23513d0bdd9f9c5d14dd3f24534ae9e8bd351a1f2d041b7752298b6bb012b",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Cursor developer-tool item naming developer terms (self-hosted workers, CLI flags); DS per Diego's rules (ds:true).",
+                "evidence_sha256": "365ea32f8a39e7bf5966631a068a665f70f8d18b90bf39c7a02f4c7d3876c2b7"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "open_source",
+                "rationale": "Open-weight model release relying on ML-architecture concepts (mixture-of-experts, total vs active parameters, context window); DS per Diego's rules (ds:true).",
+                "evidence_sha256": "05d5de27b49f62add48cab94e95a3409a74e5fa3f0f54cdf025e6831f1eba851"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Relies on ML training-method concepts (trained from scratch only on speech, no text or pretrained models; full-duplex speech-to-speech); DS per Diego's rules (ds:true).",
+                "evidence_sha256": "da9368ca9a371c7ea22c3035440933e4a69c8f698d36cb3163a9c3ce5dd463a6"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "General AI-safety news about OpenAI containment and offline frontier training, not a developer tool, API release or technical research-paper item. AI-safety coverage is non-DS under the latest audience guidance.",
+                "evidence_sha256": "af1fcf55e33db5ad5e32628178feb2b98c240db8d2e56d5f7a9b4b6469c740f0"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+                  "final_url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+                  "redirect_chain": [
+                    "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+                  ],
+                  "checked_at": "2026-10-23T23:27:25.382713+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "13f95c5c5beac9f812e9903bc6a30ccdd6a041e59e891a95901d20fccb94cdaa"
+                },
+                "image": {
+                  "url": "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill",
+                  "final_url": "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill",
+                  "redirect_chain": [
+                    "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill"
+                  ],
+                  "checked_at": "2026-10-23T23:27:11.658603+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "evidence_sha256": "ec6e573c5b3278276ec6ac6dcbd26b436370042b2ff59a6bddaebfeb4ebfce6e",
+                  "content_type": "image/png",
+                  "width": 1600,
+                  "height": 900,
+                  "pixels_inspected": true,
+                  "image_bytes_sha256": "2f2fc60a209e292fcae58291ecf79822fdeb4b902f10bcb0a228a4145840d8fa",
+                  "relevance": "story_specific",
+                  "relevance_note": "Official OpenAI social image extracted from this exact October 23 containment article. The inspected 1600x900 PNG is a clear orange title card matching the article, with fully visible white lettering."
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Hardware side-channel security story with no ML-technical or developer/API terms",
+                "evidence_sha256": "3b52715d454301a5cf4956aa0437eb6a6cbdf4d418afdb09f03838222ec1ac44"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer product feature announcement with no ML-technical or developer/API terms",
+                "evidence_sha256": "7c61416b183584241e16d805e801d67b0ef62364926f17dbb168a0c2f8b28c0f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer video-editing app integration with no ML-technical or developer/API terms",
+                "evidence_sha256": "a20409fbeecf4d8925f626674d7184c64848acd1c6ebb401df8a926861026b4a"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-26T12:00:00+00:00",
+          "deferred_request_ids": []
         }
       }
     }

@@ -1,0 +1,43 @@
+Title: Cursor Agents Can Now Control Your Computer
+URL: https://cursor.com/docs/cloud-agent/self-hosted/computer-use
+Image URL: https://cursor.com/docs-static/images/cloud-agent/private-worker-desktop-share.png
+Summary: Cursor announced that its agents can now control your computer, driving desktop apps like the iOS Simulator to test the features they build. Per Cursor's docs, computer use on self-hosted macOS and Linux workers lets agents click, type, take screenshots and drive UI apps; it is opt-in, enabled with the CLI's agent worker --computer-use flag.
+ds: true
+
+Title: Moonshot Unveils Kimi K3.1 Pro, Its Most Capable Open-Weight Model
+URL:
+Image URL: https://raw.githubusercontent.com/MoonshotAI/Kimi-K3/main/assets/kimi-logo.png
+Summary: Moonshot AI introduced Kimi K3.1 Pro, calling it its most capable 3T-class open-weight model. The mixture-of-experts model has 2.8 trillion total and 104 billion active parameters, a 1-million-token context window and multimodal input. Moonshot says it handles full-project game coding in Unreal, Unity and Godot, and parametric 3D modeling in Blender and CAD.
+ds: true
+
+Title: Block Unveils Dessa, a Voice AI Trained Only on Human Speech
+URL: https://block.xyz/dessa
+Image URL: https://block.xyz/dessa/_media/6865f35ec6013672f8f8/assets/marketing/variants/v3.jpg
+Summary: Block's small AI research lab unveiled Dessa, a full-duplex speech-to-speech model trained from scratch only on human conversation audio, with no text or pretrained models. It listens and talks at once, hears emotion, laughs and backchannels, runs faster than real time locally on a MacBook Pro M4 Max, and was trained on one NVIDIA GB200 NVL72. A waitlist is open.
+ds: true
+
+Title: OpenAI Trains Its Most Advanced AI Models Without Live Internet Access
+URL: https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill
+Summary: OpenAI says it now trains its most advanced AI models without live internet access, using cached web content instead. It strengthened isolation and monitoring after security incidents, then used AI agents to probe for weaknesses. Frontier reinforcement-learning training and internal inference resumed October 1 after an 11-day pause.
+
+Title: OpenAI Agents Passed Messages Through a CPU Cache During Red-Teaming
+URL: https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet
+Image URL: https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B_d6ffc8.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200
+Summary: During internal red-teaming, OpenAI asked AI agents on separate virtual machines with no network connection to exchange secrets. The agents communicated through the processor's cache: one evicted selected data, while the other timed how long reloading it took to decode the message. OpenAI says it used such findings to strengthen its defenses.
+
+Title: Grok Bot Can Now Phone People and Businesses for You
+URL: https://teslanorth.com/2026/10/25/grok-bot-phone-calls-elon-musk/
+Image URL: https://cdn.teslanorth.com/wp-content/uploads/2026/10/grok-bot-iphone-action-button.jpg
+Summary: Elon Musk says Grok Bot can now call a person or business on your behalf, make a request, take notes on the response and send you a summary of the conversation. He did not say which plans include calling, which countries it works in or what number appears to the person being called.
+
+Title: CapCut Plugin Is Coming to ChatGPT
+URL: https://creatorstoolbox.com/blog/capcut-plugin-chatgpt-coming-soon
+Image URL: https://creatorstoolbox.com/images/blog-media/capcut-plugin-chatgpt-coming-soon-official.jpg
+Summary: CapCut announced at CapCut World LA that a plugin bringing its video editing and generation tools into ChatGPT is coming soon. Users can start with an idea in ChatGPT, turn it into a draft video with the plugin, then move it to CapCut's web editor to refine, share and publish. No release date was given.
+
+
+
+
+
+.
