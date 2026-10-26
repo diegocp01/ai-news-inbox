@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 692,
-  "updated_at": "2026-10-26T21:50:34.292386+00:00",
+  "generation": 693,
+  "updated_at": "2026-10-26T21:50:34.869352+00:00",
   "next_id": 228,
   "records": [
     {
@@ -27319,6 +27319,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2f1d1c3e3b1e29b90d84df47868ea76f99750d5c4d8d8b4df6e03e49efd81d96": {
+      "sha256": "e4996259c9b0129bda5e57a8e36604f4dc34a34fef908fdcc9ddca1087f40a06",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 227,
+          "revision": 1,
+          "sha256": "11b81068c97815e8cfa7b637ae8db8aaad5577809f215dcec0e30964d49de96f"
+        },
+        "editorial_sha256": "e0302e7352af6835569d6498078525145f88004351e13ae8ad21fb4e7b51fea1"
+      }
     }
   },
   "migration": {
@@ -34375,6 +34387,26 @@
         "sha256": "57a6ada3d07156ec664fdf9840f76ded97ee02e25376e11b90bc0910f473bf47",
         "reviewed_at": "2026-10-26T21:46:45.313166+00:00",
         "operation_id": "9c48700406836c41eb54090a8126db156a151a1e90098c2dd20ea60d67103b18"
+      }
+    ],
+    "227:1": [
+      {
+        "reference": {
+          "id": 227,
+          "revision": 1,
+          "sha256": "11b81068c97815e8cfa7b637ae8db8aaad5577809f215dcec0e30964d49de96f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "AI safety research on an open-weight model's agentic tool use and reasoning traces (ML-technical terms: open-weight, reasoning trace, tools, sandbox)",
+            "evidence_sha256": "804e656775916497bdde7ae82e4ec0718dea57c02290ab01ca18437e0c3519d0"
+          }
+        },
+        "sha256": "e0302e7352af6835569d6498078525145f88004351e13ae8ad21fb4e7b51fea1",
+        "reviewed_at": "2026-10-26T21:50:34.869352+00:00",
+        "operation_id": "2f1d1c3e3b1e29b90d84df47868ea76f99750d5c4d8d8b4df6e03e49efd81d96"
       }
     ]
   }
