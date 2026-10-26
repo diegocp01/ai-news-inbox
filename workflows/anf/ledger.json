@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 679,
-  "updated_at": "2026-10-26T14:54:51.790887+00:00",
-  "next_id": 224,
+  "generation": 680,
+  "updated_at": "2026-10-26T14:54:52.636049+00:00",
+  "next_id": 225,
   "records": [
     {
       "id": 1,
@@ -2964,6 +2964,19 @@
           "request_id": "976e8a41516e07b50d3abafc2c163fb578e20019dc2d27f5f7a0f189944112aa",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "revisions": [
+        {
+          "created_at": "2026-10-26T14:54:52.636049+00:00",
+          "block": "Title: Anthropic Files Publicly for an IPO\nURL: https://www.anthropic.com/news/s1-sec\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg\nSummary: Anthropic filed a Form S-1 registration statement with the SEC on October 26 for a proposed initial public offering. It plans to list Class A shares on the Nasdaq Global Select Market under the ticker \"ANT.\" The number of shares and price range have not been set, and the registration is not yet effective.",
+          "sha256": "c28eddbc385af5d701d1823c9fe89e0a4683e6ff12746c79052e8908c921d29b",
+          "source": "Diego headline: Anthropic files for IPO to become first frontier AI lab to list",
+          "request_id": "cfe6caa93d6e7a9e2d50d1cb653c0ac61e4702363247486baf159c0abba4ddda",
+          "mode": "standard"
         }
       ]
     }
@@ -6520,13 +6533,21 @@
       ]
     },
     "cfe6caa93d6e7a9e2d50d1cb653c0ac61e4702363247486baf159c0abba4ddda": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-26T14:54:51.790887+00:00",
       "received_sequence": 201,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-26T14:54:52.636049+00:00",
+      "records": [
+        {
+          "id": 224,
+          "revision": 1,
+          "sha256": "c28eddbc385af5d701d1823c9fe89e0a4683e6ff12746c79052e8908c921d29b"
+        }
+      ]
     }
   },
   "batches": {
@@ -27035,6 +27056,21 @@
       "result": {
         "status": "received",
         "request_id": "cfe6caa93d6e7a9e2d50d1cb653c0ac61e4702363247486baf159c0abba4ddda"
+      }
+    },
+    "cf3b879cf0fd7d563f77cf38a6038c4fd84da14f78e39e3a8ed335f50fabd82a": {
+      "sha256": "6445454ab19865b87d80102705304b33b0a5c13f9457e54b3716523435d68c5a",
+      "result": {
+        "status": "finalized",
+        "request_id": "cfe6caa93d6e7a9e2d50d1cb653c0ac61e4702363247486baf159c0abba4ddda",
+        "records": [
+          {
+            "id": 224,
+            "revision": 1,
+            "sha256": "c28eddbc385af5d701d1823c9fe89e0a4683e6ff12746c79052e8908c921d29b"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
