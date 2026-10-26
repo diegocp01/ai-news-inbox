@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 685,
-  "updated_at": "2026-10-26T18:55:59.705460+00:00",
+  "generation": 686,
+  "updated_at": "2026-10-26T18:56:00.269662+00:00",
   "next_id": 226,
   "records": [
     {
@@ -2989,6 +2989,14 @@
           "sha256": "e4d1899f4980012961b4f78771cef9cfb8f3304d0f74ee5a3a9d33add61ad130",
           "source": "https://x.com/openai/status/2114780711664398349",
           "request_id": "14817045de9e22e7a6508d3353a75103f371b56a6abc3d19852dea884dee02e7",
+          "mode": "standard"
+        },
+        {
+          "created_at": "2026-10-26T18:56:00.269662+00:00",
+          "block": "Title: New AI Model: OpenAI Releases GPT-6.1 Terra for Faster, Cheaper Computer Use\nURL: https://www.theverge.com/ai-artificial-intelligence/1018854/gpt-6-1-terra-is-very-good-at-computer-use-openai-says\nImage URL: https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B_d6ffc8.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200\nSummary: OpenAI released GPT-6.1 Terra, a fast, efficient model it says offers capable computer use at a lower price. It can understand what is on screen, take actions across apps and write more naturally. The model is available today to Plus, Pro, Enterprise and Edu users in ChatGPT Work and Codex.",
+          "sha256": "43c80ed288497badffe3cdbb91a382ec28f2d37ec83dbb96cb4e68a5591ceb0f",
+          "source": "https://x.com/openai/status/2114780711664398349",
+          "request_id": "3ae4940d2f260d1be0a20c47927fdbf2278cba8820e2671b333810ce8a6bdc39",
           "mode": "standard"
         }
       ]
@@ -6580,13 +6588,21 @@
       ]
     },
     "3ae4940d2f260d1be0a20c47927fdbf2278cba8820e2671b333810ce8a6bdc39": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-26T18:55:59.705460+00:00",
       "received_sequence": 203,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": 225
+      "corrects_record_id": 225,
+      "finalized_at": "2026-10-26T18:56:00.269662+00:00",
+      "records": [
+        {
+          "id": 225,
+          "revision": 2,
+          "sha256": "43c80ed288497badffe3cdbb91a382ec28f2d37ec83dbb96cb4e68a5591ceb0f"
+        }
+      ]
     }
   },
   "batches": {
@@ -27163,6 +27179,17 @@
       "result": {
         "status": "received",
         "request_id": "3ae4940d2f260d1be0a20c47927fdbf2278cba8820e2671b333810ce8a6bdc39"
+      }
+    },
+    "2bf84ca67bec1684695ef9ed1ea13f9be23a3da4ab38ba8596f17ff674a40ed5": {
+      "sha256": "6761162e2d0d5ccc677433a432487d8ee0e58bc3a6e08e06083afed801da8af9",
+      "result": {
+        "status": "corrected",
+        "record": {
+          "id": 225,
+          "revision": 2,
+          "sha256": "43c80ed288497badffe3cdbb91a382ec28f2d37ec83dbb96cb4e68a5591ceb0f"
+        }
       }
     }
   },
