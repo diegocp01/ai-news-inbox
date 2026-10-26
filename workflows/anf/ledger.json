@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 683,
-  "updated_at": "2026-10-26T18:54:01.919468+00:00",
+  "generation": 684,
+  "updated_at": "2026-10-26T18:54:02.543117+00:00",
   "next_id": 226,
   "records": [
     {
@@ -27136,6 +27136,18 @@
         ],
         "duplicates": []
       }
+    },
+    "5c8d0771c30c597bcc6e1b578f21749abf4a4f41dca9ba322a196c1055abe655": {
+      "sha256": "ce04c9acfb82f6a1f95b78f348539efc4caf6b68b3207f6d8aa1ea948f61bc39",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 225,
+          "revision": 1,
+          "sha256": "e4d1899f4980012961b4f78771cef9cfb8f3304d0f74ee5a3a9d33add61ad130"
+        },
+        "editorial_sha256": "1ad117ac328dda3b6bfcd4c7903a72adc155fa19622f2d9d2241a5a121c0eacb"
+      }
     }
   },
   "migration": {
@@ -34132,6 +34144,26 @@
         "sha256": "a8c255172038abf9a7f0bd9d11888e98f71fa62baf6c65efb001ec6431136ce7",
         "reviewed_at": "2026-10-26T14:54:53.222931+00:00",
         "operation_id": "f3a3afcc4a028fe8eb7a009ebe2647e4044d7204fad3f91c3c790b9c27a72376"
+      }
+    ],
+    "225:1": [
+      {
+        "reference": {
+          "id": 225,
+          "revision": 1,
+          "sha256": "e4d1899f4980012961b4f78771cef9cfb8f3304d0f74ee5a3a9d33add61ad130"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer/work AI model launch; summary has no ML-technical, developer/API or hardware-internals terms",
+            "evidence_sha256": "4aa68024338808c2df0efc591b19f9d23ed377ab07f71e56d9e30a4b939b8a9a"
+          }
+        },
+        "sha256": "1ad117ac328dda3b6bfcd4c7903a72adc155fa19622f2d9d2241a5a121c0eacb",
+        "reviewed_at": "2026-10-26T18:54:02.543117+00:00",
+        "operation_id": "5c8d0771c30c597bcc6e1b578f21749abf4a4f41dca9ba322a196c1055abe655"
       }
     ]
   }
