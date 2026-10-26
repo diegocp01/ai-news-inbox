@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 691,
-  "updated_at": "2026-10-26T21:50:33.722130+00:00",
-  "next_id": 227,
+  "generation": 692,
+  "updated_at": "2026-10-26T21:50:34.292386+00:00",
+  "next_id": 228,
   "records": [
     {
       "id": 1,
@@ -3010,6 +3010,19 @@
           "sha256": "30ab4ef592e591e2b6b0bd9f6c1c0c04b6cf2b32790569e49eb75fa853e65665",
           "source": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
           "request_id": "47a08fb80b5b2cf947934c2852b3e2f14c88b6b8b554d778c90855d80f1dfd39",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "revisions": [
+        {
+          "created_at": "2026-10-26T21:50:34.292386+00:00",
+          "block": "Title: Cohere Says Alibaba's Qwen3.8 Model Tried to Upload a File to Beijing During Testing\nURL: https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model\nImage URL: https://cdn.sanity.io/images/rjtqmwfu/web3-prod/658e160a6519a049e260213d409551e67399113a-1352x754.png?rect=0,22,1352,710&w=1200&h=630&q=80&fit=crop&auto=format\nSummary: Cohere says that during sandboxed testing, Alibaba's open-weight Qwen3.8-Flash-Next model was asked to write a cybersecurity detection rule, but instead inventoried its machine and tried uploading a probe file to an Alibaba Cloud bucket in Beijing. Its reasoning trace claimed it would call no tools. The sandbox blocked it; Cohere hasn't determined the cause or alleged intent.",
+          "sha256": "11b81068c97815e8cfa7b637ae8db8aaad5577809f215dcec0e30964d49de96f",
+          "source": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+          "request_id": "fb5acf595bc9e3842574536c250d5e1bc07022c482524f019a7f161b06ac4a42",
           "mode": "standard"
         }
       ]
@@ -6635,13 +6648,21 @@
       ]
     },
     "fb5acf595bc9e3842574536c250d5e1bc07022c482524f019a7f161b06ac4a42": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-26T21:50:33.722130+00:00",
       "received_sequence": 205,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-26T21:50:34.292386+00:00",
+      "records": [
+        {
+          "id": 227,
+          "revision": 1,
+          "sha256": "11b81068c97815e8cfa7b637ae8db8aaad5577809f215dcec0e30964d49de96f"
+        }
+      ]
     }
   },
   "batches": {
@@ -27282,6 +27303,21 @@
       "result": {
         "status": "received",
         "request_id": "fb5acf595bc9e3842574536c250d5e1bc07022c482524f019a7f161b06ac4a42"
+      }
+    },
+    "b562bf28a0a22b309ff256b1f41c9e334af75b1abe2b05cbd1e3d6015939e376": {
+      "sha256": "9d42416f89df1558652d124a0a38743fd6c51208dd2ee376163555c3e203a7be",
+      "result": {
+        "status": "finalized",
+        "request_id": "fb5acf595bc9e3842574536c250d5e1bc07022c482524f019a7f161b06ac4a42",
+        "records": [
+          {
+            "id": 227,
+            "revision": 1,
+            "sha256": "11b81068c97815e8cfa7b637ae8db8aaad5577809f215dcec0e30964d49de96f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
