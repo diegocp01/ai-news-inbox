@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Cursor Agents Can Now Control Your Computer",
+    "description": "Cursor announced that its agents can now control your computer, driving desktop apps like the iOS Simulator to test the features they build. Per Cursor's docs, computer use on self-hosted macOS and Linux workers lets agents click, type, take screenshots and drive UI apps; it is opt-in, enabled with the CLI's agent worker --computer-use flag.",
+    "image_url": "https://cursor.com/docs-static/images/cloud-agent/private-worker-desktop-share.png",
+    "learn_more_url": "https://cursor.com/docs/cloud-agent/self-hosted/computer-use",
+    "date": "2026-10-26",
+    "source": "Cursor",
+    "ds": true
+  },
+  {
+    "title": "Moonshot Unveils Kimi K3.1 Pro, Its Most Capable Open-Weight Model",
+    "description": "Moonshot AI introduced Kimi K3.1 Pro, calling it its most capable 3T-class open-weight model. The mixture-of-experts model has 2.8 trillion total and 104 billion active parameters, a 1-million-token context window and multimodal input. Moonshot says it handles full-project game coding in Unreal, Unity and Godot, and parametric 3D modeling in Blender and CAD.",
+    "image_url": "https://raw.githubusercontent.com/MoonshotAI/Kimi-K3/main/assets/kimi-logo.png",
+    "learn_more_url": "",
+    "date": "2026-10-26",
+    "source": "Moonshot AI",
+    "ds": true
+  },
+  {
+    "title": "Block Unveils Dessa, a Voice AI Trained Only on Human Speech",
+    "description": "Block's small AI research lab unveiled Dessa, a full-duplex speech-to-speech model trained from scratch only on human conversation audio, with no text or pretrained models. It listens and talks at once, hears emotion, laughs and backchannels, runs faster than real time locally on a MacBook Pro M4 Max, and was trained on one NVIDIA GB200 NVL72. A waitlist is open.",
+    "image_url": "https://block.xyz/dessa/_media/6865f35ec6013672f8f8/assets/marketing/variants/v3.jpg",
+    "learn_more_url": "https://block.xyz/dessa",
+    "date": "2026-10-26",
+    "source": "Block",
+    "ds": true
+  },
+  {
+    "title": "OpenAI Trains Its Most Advanced AI Models Without Live Internet Access",
+    "description": "OpenAI says it now trains its most advanced AI models without live internet access, using cached web content instead. It strengthened isolation and monitoring after security incidents, then used AI agents to probe for weaknesses. Frontier reinforcement-learning training and internal inference resumed October 1 after an 11-day pause.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+    "date": "2026-10-26",
+    "source": "The Verge"
+  },
+  {
+    "title": "OpenAI Agents Passed Messages Through a CPU Cache During Red-Teaming",
+    "description": "During internal red-teaming, OpenAI asked AI agents on separate virtual machines with no network connection to exchange secrets. The agents communicated through the processor's cache: one evicted selected data, while the other timed how long reloading it took to decode the message. OpenAI says it used such findings to strengthen its defenses.",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B_d6ffc8.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "learn_more_url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+    "date": "2026-10-26",
+    "source": "https://x.com/rynorhn/status/2113757656498196605"
+  },
+  {
+    "title": "Grok Bot Can Now Phone People and Businesses for You",
+    "description": "Elon Musk says Grok Bot can now call a person or business on your behalf, make a request, take notes on the response and send you a summary of the conversation. He did not say which plans include calling, which countries it works in or what number appears to the person being called.",
+    "image_url": "https://cdn.teslanorth.com/wp-content/uploads/2026/10/grok-bot-iphone-action-button.jpg",
+    "learn_more_url": "https://teslanorth.com/2026/10/25/grok-bot-phone-calls-elon-musk/",
+    "date": "2026-10-26",
+    "source": "https://x.com/elonmusk/status/2114365361068138990"
+  },
+  {
+    "title": "CapCut Plugin Is Coming to ChatGPT",
+    "description": "CapCut announced at CapCut World LA that a plugin bringing its video editing and generation tools into ChatGPT is coming soon. Users can start with an idea in ChatGPT, turn it into a draft video with the plugin, then move it to CapCut's web editor to refine, share and publish. No release date was given.",
+    "image_url": "https://creatorstoolbox.com/images/blog-media/capcut-plugin-chatgpt-coming-soon-official.jpg",
+    "learn_more_url": "https://creatorstoolbox.com/blog/capcut-plugin-chatgpt-coming-soon",
+    "date": "2026-10-26",
+    "source": "https://x.com/capcutapp/status/2114062937094823955"
+  }
+]
