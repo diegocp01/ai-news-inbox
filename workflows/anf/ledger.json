@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 686,
-  "updated_at": "2026-10-26T18:56:00.269662+00:00",
+  "generation": 687,
+  "updated_at": "2026-10-26T18:56:00.817116+00:00",
   "next_id": 226,
   "records": [
     {
@@ -27191,6 +27191,18 @@
           "sha256": "43c80ed288497badffe3cdbb91a382ec28f2d37ec83dbb96cb4e68a5591ceb0f"
         }
       }
+    },
+    "031137a6afd8217350217eeb073d14c0dcab9afe6d8042cc928db37c9cf296b0": {
+      "sha256": "caab96c542d78cfe0def46f976347508b28dcb7264cf620ce9e75ff8795128f7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 225,
+          "revision": 2,
+          "sha256": "43c80ed288497badffe3cdbb91a382ec28f2d37ec83dbb96cb4e68a5591ceb0f"
+        },
+        "editorial_sha256": "e747df11429af8e5fddceefabc23d76d8d8f4c07c211e2ec0b24def92196f24f"
+      }
     }
   },
   "migration": {
@@ -34207,6 +34219,26 @@
         "sha256": "1ad117ac328dda3b6bfcd4c7903a72adc155fa19622f2d9d2241a5a121c0eacb",
         "reviewed_at": "2026-10-26T18:54:02.543117+00:00",
         "operation_id": "5c8d0771c30c597bcc6e1b578f21749abf4a4f41dca9ba322a196c1055abe655"
+      }
+    ],
+    "225:2": [
+      {
+        "reference": {
+          "id": 225,
+          "revision": 2,
+          "sha256": "43c80ed288497badffe3cdbb91a382ec28f2d37ec83dbb96cb4e68a5591ceb0f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Non-DS new-model release; no ML-technical, developer/API or hardware-internals terms",
+            "evidence_sha256": "26849ac9b4d71e7de3c160fbf5f3651ce39aaa8c0f4a46fe68c77ff842ad4458"
+          }
+        },
+        "sha256": "e747df11429af8e5fddceefabc23d76d8d8f4c07c211e2ec0b24def92196f24f",
+        "reviewed_at": "2026-10-26T18:56:00.817116+00:00",
+        "operation_id": "031137a6afd8217350217eeb073d14c0dcab9afe6d8042cc928db37c9cf296b0"
       }
     ]
   }
