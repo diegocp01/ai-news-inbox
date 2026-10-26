@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 680,
-  "updated_at": "2026-10-26T14:54:52.636049+00:00",
+  "generation": 681,
+  "updated_at": "2026-10-26T14:54:53.222931+00:00",
   "next_id": 225,
   "records": [
     {
@@ -27072,6 +27072,18 @@
         ],
         "duplicates": []
       }
+    },
+    "f3a3afcc4a028fe8eb7a009ebe2647e4044d7204fad3f91c3c790b9c27a72376": {
+      "sha256": "d82f763c12b20b42b890ea784b500b73f93dc7725c31e99143f80494178aaba3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 224,
+          "revision": 1,
+          "sha256": "c28eddbc385af5d701d1823c9fe89e0a4683e6ff12746c79052e8908c921d29b"
+        },
+        "editorial_sha256": "a8c255172038abf9a7f0bd9d11888e98f71fa62baf6c65efb001ec6431136ce7"
+      }
     }
   },
   "migration": {
@@ -34048,6 +34060,26 @@
         "sha256": "f0eebce466c4ff774b0760dbb66345542dab8168038e257a46a796f6dcb3f8b7",
         "reviewed_at": "2026-10-25T22:53:47.518858+00:00",
         "operation_id": "450fdc21dfd7412ed1e3e0e6aac0c44c65c996053ae568e722f38e65304691b9"
+      }
+    ],
+    "224:1": [
+      {
+        "reference": {
+          "id": 224,
+          "revision": 1,
+          "sha256": "c28eddbc385af5d701d1823c9fe89e0a4683e6ff12746c79052e8908c921d29b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Corporate finance news with no ML-technical, developer/API or hardware-internals terms",
+            "evidence_sha256": "d89512233d616178fc6f222d4156483a126c9a59687eddf1679b2d456953ab25"
+          }
+        },
+        "sha256": "a8c255172038abf9a7f0bd9d11888e98f71fa62baf6c65efb001ec6431136ce7",
+        "reviewed_at": "2026-10-26T14:54:53.222931+00:00",
+        "operation_id": "f3a3afcc4a028fe8eb7a009ebe2647e4044d7204fad3f91c3c790b9c27a72376"
       }
     ]
   }
