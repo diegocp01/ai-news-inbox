@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 677,
-  "updated_at": "2026-10-26T13:43:42.885812+00:00",
-  "next_id": 222,
+  "generation": 678,
+  "updated_at": "2026-10-26T13:52:45.487484+00:00",
+  "next_id": 224,
   "records": [
     {
       "id": 1,
@@ -2936,6 +2936,34 @@
           "source": "https://x.com/capcutapp/status/2114062937094823955",
           "request_id": "b6c54796d386953a1950e816eadcfdd0fe301a181a48b8addbd5e5a703afd82b",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "revisions": [
+        {
+          "created_at": "2026-10-26T13:52:45.487484+00:00",
+          "block": "Title: Moonshot Introduces Kimi K3.1 Pro\nURL: https://www.notebookcheck.net/Kimi-K3-1-Pro-Free-to-try-hacking-skills-deliberately-weakened.1433507.0.html\nImage URL: https://statics.moonshot.cn/kimi-blogs/kimi-k3-1/54ef01b6-a91d-44de-9434-dc07028e72cc.webp\nSummary: Moonshot has introduced Kimi K3.1 Pro, an updated version of its Kimi K3 AI model, available through Kimi’s apps and API. The company reports a 65.7% score on Terminal-Bench 4.0, a coding benchmark, based on its own testing. Moonshot plans to release the full model weights by November 4, 2026.",
+          "sha256": "1eb78ee4ed1d564f9dee30f6e0d70d2bb55956f1d625e9c637ee102ac04037be",
+          "source": "notebookcheck.net",
+          "request_id": "976e8a41516e07b50d3abafc2c163fb578e20019dc2d27f5f7a0f189944112aa",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "revisions": [
+        {
+          "created_at": "2026-10-26T13:52:45.487484+00:00",
+          "block": "Title: Canva Launches Craft Image Generation Model\nURL: https://www.canva.com/newsroom/news/canva-craft/\nImage URL: https://content-management-files.canva.com/eaaa25f7-5062-44e3-8d32-f47802e44aab/CanvaCraftthumbnail.png\nSummary: Canva has launched Craft, its first image generation model developed in-house. The company says its training data includes millions of human-made templates from Canva’s library, and its two-stage architecture plans compositions before rendering images. Craft is available globally through Canva’s Dream Lab and to developers through its public image generation API, currently in preview.",
+          "sha256": "33ddfad4c5ae80b2cb0e4b22a90b8779353be27abe3ce5c99aff774a1f2b17b9",
+          "source": "canva.com",
+          "request_id": "976e8a41516e07b50d3abafc2c163fb578e20019dc2d27f5f7a0f189944112aa",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -6469,14 +6497,27 @@
       ]
     },
     "976e8a41516e07b50d3abafc2c163fb578e20019dc2d27f5f7a0f189944112aa": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-26T13:43:42.885812+00:00",
       "received_sequence": 200,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-26T13:52:45.487484+00:00",
+      "records": [
+        {
+          "id": 222,
+          "revision": 1,
+          "sha256": "1eb78ee4ed1d564f9dee30f6e0d70d2bb55956f1d625e9c637ee102ac04037be"
+        },
+        {
+          "id": 223,
+          "revision": 1,
+          "sha256": "33ddfad4c5ae80b2cb0e4b22a90b8779353be27abe3ce5c99aff774a1f2b17b9"
+        }
+      ]
     }
   },
   "batches": {
@@ -26958,6 +26999,26 @@
       "result": {
         "status": "received",
         "request_id": "976e8a41516e07b50d3abafc2c163fb578e20019dc2d27f5f7a0f189944112aa"
+      }
+    },
+    "2872b8e3a9e4dab8e60e62b73ef587cbc32543f440ec80b290ca236fa5d9bd10": {
+      "sha256": "9b201651755c86de3075f48ca202ee496500f4facf95d1f402d538f664e73f85",
+      "result": {
+        "status": "finalized",
+        "request_id": "976e8a41516e07b50d3abafc2c163fb578e20019dc2d27f5f7a0f189944112aa",
+        "records": [
+          {
+            "id": 222,
+            "revision": 1,
+            "sha256": "1eb78ee4ed1d564f9dee30f6e0d70d2bb55956f1d625e9c637ee102ac04037be"
+          },
+          {
+            "id": 223,
+            "revision": 1,
+            "sha256": "33ddfad4c5ae80b2cb0e4b22a90b8779353be27abe3ce5c99aff774a1f2b17b9"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
