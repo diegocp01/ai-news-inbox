@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 728,
-  "updated_at": "2026-10-27T20:43:06.356814+00:00",
-  "next_id": 239,
+  "generation": 729,
+  "updated_at": "2026-10-27T20:43:07.046429+00:00",
+  "next_id": 240,
   "records": [
     {
       "id": 1,
@@ -3169,6 +3169,19 @@
           "sha256": "b8e6d40477dd81ffefa561ca6113c9e827bf6fdc661c4e973bea559b9e18c03a",
           "source": "https://9to5mac.com/2026/10/27/icloud-mail-and-calendar-plugins-now-work-with-chatgpt/",
           "request_id": "cdcc873c36ef68482d1c74b1984db4873c0ac3d90bdc91a634178bbd48fe259e",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "revisions": [
+        {
+          "created_at": "2026-10-27T20:43:07.046429+00:00",
+          "block": "Title: Anthropic Says Claude Is Speeding Up Drug Development With Six Partners\nURL: https://www.anthropic.com/research/early-progress-drug-development\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/6a50f5ba4c0931f8d2c411f26d860955c1efeae7-1200x630.jpg\nSummary: Anthropic says Claude is helping six drug developers, including Bristol Myers Squibb, on work targeting food allergies, rare childhood diseases and cancers. In one case, a Claude-proposed design for a cancer cell therapy was about 70% shorter and worked better in lab tests. Anthropic also started its own drug programs, including for rare childhood muscular dystrophy.",
+          "sha256": "adf4ac5b915b55bbb3d9ce05cbdd6f67edc52c45c84306a32111d2431b802bce",
+          "source": "https://www.anthropic.com/research/early-progress-drug-development",
+          "request_id": "fccab059b750be624a44e4b8925af7ca90987d3249913ee5a7177bab2946569f",
           "mode": "standard"
         }
       ]
@@ -6975,13 +6988,21 @@
       ]
     },
     "fccab059b750be624a44e4b8925af7ca90987d3249913ee5a7177bab2946569f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-27T20:43:06.356814+00:00",
       "received_sequence": 215,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-27T20:43:07.046429+00:00",
+      "records": [
+        {
+          "id": 239,
+          "revision": 1,
+          "sha256": "adf4ac5b915b55bbb3d9ce05cbdd6f67edc52c45c84306a32111d2431b802bce"
+        }
+      ]
     }
   },
   "batches": {
@@ -28364,6 +28385,21 @@
       "result": {
         "status": "received",
         "request_id": "fccab059b750be624a44e4b8925af7ca90987d3249913ee5a7177bab2946569f"
+      }
+    },
+    "87e43c9fdcf550cc9fe5831cc0aaa87107671d47f8a6752b73a2c7b1d06cfc80": {
+      "sha256": "542d6ae303359a1221caf4bdf80e01e904d2c84316b35cfb311ed936bdf04e65",
+      "result": {
+        "status": "finalized",
+        "request_id": "fccab059b750be624a44e4b8925af7ca90987d3249913ee5a7177bab2946569f",
+        "records": [
+          {
+            "id": 239,
+            "revision": 1,
+            "sha256": "adf4ac5b915b55bbb3d9ce05cbdd6f67edc52c45c84306a32111d2431b802bce"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
