@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 697,
-  "updated_at": "2026-10-27T12:01:40.092231+00:00",
+  "generation": 699,
+  "updated_at": "2026-10-27T12:05:32.957843+00:00",
   "next_id": 229,
   "records": [
     {
@@ -27412,6 +27412,30 @@
         "status": "received",
         "request_id": "c1e83a4ad41038934ba362890fc306f60ea0761d3d2aded4564f13b1f7f319c4"
       }
+    },
+    "muse-backfill-20261027-222-2208": {
+      "sha256": "6307a123f359b5d1811f09ae297f33a72ca3bf5b221c545cf850d97868af1383",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 222,
+          "revision": 1,
+          "sha256": "1eb78ee4ed1d564f9dee30f6e0d70d2bb55956f1d625e9c637ee102ac04037be"
+        },
+        "editorial_sha256": "6e8590c9b6677b834b1df4e10fd422f0fdfa0ac2b4dfaae6df69d91b81f753b7"
+      }
+    },
+    "muse-backfill-20261027-223-7414": {
+      "sha256": "8818eb90d93b090ae7f81e1a3c80cf179288c875424b300cd1bf55e5b96df02d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 223,
+          "revision": 1,
+          "sha256": "33ddfad4c5ae80b2cb0e4b22a90b8779353be27abe3ce5c99aff774a1f2b17b9"
+        },
+        "editorial_sha256": "b0dce40b8a25f9606a523ad51511412e4c97ab45f33f89d30991daab3be6c100"
+      }
     }
   },
   "migration": {
@@ -34508,6 +34532,46 @@
         "sha256": "2b494bdc69e01c887d1a2e9409a572491e83361bf7645dba41b22db18d9db669",
         "reviewed_at": "2026-10-27T01:47:20.525122+00:00",
         "operation_id": "9eba5af9b263f99a055d22d3f426837dc177887c8fd3690a5554c06ab6f91072"
+      }
+    ],
+    "222:1": [
+      {
+        "reference": {
+          "id": 222,
+          "revision": 1,
+          "sha256": "1eb78ee4ed1d564f9dee30f6e0d70d2bb55956f1d625e9c637ee102ac04037be"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Moonshot introduced Kimi K3.1 Pro, an updated Kimi K3 AI model available through Kimi's apps and API, reporting a 65.7% score on Terminal-Bench 4.0, a coding benchmark, from its own testing, with full model weights planned by November 4, 2026. This is a developer-facing model release with a coding benchmark and API access. muse-compile-backfill 2026-10-27: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "1eb78ee4ed1d564f9dee30f6e0d70d2bb55956f1d625e9c637ee102ac04037be"
+          }
+        },
+        "sha256": "6e8590c9b6677b834b1df4e10fd422f0fdfa0ac2b4dfaae6df69d91b81f753b7",
+        "reviewed_at": "2026-10-27T12:05:32.860829+00:00",
+        "operation_id": "muse-backfill-20261027-222-2208"
+      }
+    ],
+    "223:1": [
+      {
+        "reference": {
+          "id": 223,
+          "revision": 1,
+          "sha256": "33ddfad4c5ae80b2cb0e4b22a90b8779353be27abe3ce5c99aff774a1f2b17b9"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Canva launched Craft, its first image generation model developed in-house, trained on millions of human-made templates from Canva's library, with a two-stage architecture that plans compositions before rendering images. It is available globally through Canva's Dream Lab and to developers through its public image generation API in preview. This is a consumer product launch for Canva's broad creator audience, not technical research. muse-compile-backfill 2026-10-27: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "33ddfad4c5ae80b2cb0e4b22a90b8779353be27abe3ce5c99aff774a1f2b17b9"
+          }
+        },
+        "sha256": "b0dce40b8a25f9606a523ad51511412e4c97ab45f33f89d30991daab3be6c100",
+        "reviewed_at": "2026-10-27T12:05:32.957843+00:00",
+        "operation_id": "muse-backfill-20261027-223-7414"
       }
     ]
   }
