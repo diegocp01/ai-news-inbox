@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 694,
-  "updated_at": "2026-10-27T01:47:19.302421+00:00",
-  "next_id": 228,
+  "generation": 695,
+  "updated_at": "2026-10-27T01:47:19.938025+00:00",
+  "next_id": 229,
   "records": [
     {
       "id": 1,
@@ -3023,6 +3023,19 @@
           "sha256": "11b81068c97815e8cfa7b637ae8db8aaad5577809f215dcec0e30964d49de96f",
           "source": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
           "request_id": "fb5acf595bc9e3842574536c250d5e1bc07022c482524f019a7f161b06ac4a42",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "revisions": [
+        {
+          "created_at": "2026-10-27T01:47:19.938025+00:00",
+          "block": "Title: Physical Superintelligence Says Its AI Helped Solve Five Open Quantum Problems\nURL: https://psi.inc/research/oqp-batch-2026/\nImage URL: https://psi.inc/og-image.png\nSummary: Physical Superintelligence PBC says its researchers, working with the company's AI research system, obtained new results on five long-standing open problems in quantum information theory, covering entanglement, Bell inequality violations and causal processes. Each result comes with a paper and a Lean formal proof, and the release documents how AI was used for each.",
+          "sha256": "d2e3dd9def1f1d9183bdac511c9d46092a27e32f3332002ae22854d0438bdc58",
+          "source": "https://psi.inc/research/oqp-batch-2026/",
+          "request_id": "2e51fb9c24754ec13f4ba0e73f1eb98eb43c8a9bae8acf820eb49a1753c74d3c",
           "mode": "standard"
         }
       ]
@@ -6665,13 +6678,21 @@
       ]
     },
     "2e51fb9c24754ec13f4ba0e73f1eb98eb43c8a9bae8acf820eb49a1753c74d3c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-27T01:47:19.302421+00:00",
       "received_sequence": 206,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-27T01:47:19.938025+00:00",
+      "records": [
+        {
+          "id": 228,
+          "revision": 1,
+          "sha256": "d2e3dd9def1f1d9183bdac511c9d46092a27e32f3332002ae22854d0438bdc58"
+        }
+      ]
     }
   },
   "batches": {
@@ -27346,6 +27367,21 @@
       "result": {
         "status": "received",
         "request_id": "2e51fb9c24754ec13f4ba0e73f1eb98eb43c8a9bae8acf820eb49a1753c74d3c"
+      }
+    },
+    "9e8c59475c8f68cd46a972af61d49ef9c5c304c9b5db7060fc751c9bc0d82149": {
+      "sha256": "dacfbdd8b01977898ca084ae41befa0da4c2e3cf915ce81e15b59c8e51513a4f",
+      "result": {
+        "status": "finalized",
+        "request_id": "2e51fb9c24754ec13f4ba0e73f1eb98eb43c8a9bae8acf820eb49a1753c74d3c",
+        "records": [
+          {
+            "id": 228,
+            "revision": 1,
+            "sha256": "d2e3dd9def1f1d9183bdac511c9d46092a27e32f3332002ae22854d0438bdc58"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
