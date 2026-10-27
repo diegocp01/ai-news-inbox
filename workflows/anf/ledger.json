@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 719,
-  "updated_at": "2026-10-27T17:31:25.383240+00:00",
-  "next_id": 236,
+  "generation": 720,
+  "updated_at": "2026-10-27T17:31:26.669478+00:00",
+  "next_id": 237,
   "records": [
     {
       "id": 1,
@@ -3130,6 +3130,19 @@
           "sha256": "a402e24e8a6dc5c22eaabd9907b3acf05713e34e47d630fd29d7c1fd9c565340",
           "source": "https://x.com/XploreAi/status/2115108667418964246",
           "request_id": "c82eb53d565835db377f1ace05ced3bc042472fe80846725133821cc660b4973",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "revisions": [
+        {
+          "created_at": "2026-10-27T17:31:26.669478+00:00",
+          "block": "Title: Grok Bot Adds Shareable Pages, a Password Vault and Apple App Connections\nURL: https://www.youtube.com/watch?v=3Edjn34IuzQ\nImage URL: https://i.ytimg.com/vi/3Edjn34IuzQ/maxresdefault.jpg\nSummary: In a what's-new video, Grok Bot's Matt Palmer showed Pages, shareable visual documents the bot creates from your requests, and a Vault that stores passwords and personal details encrypted so the bot can't see them. He also showcased better 1Password support, connections to Apple Home, Reminders, Contacts and Calendar, AI-made videos and new bot characters.",
+          "sha256": "d6669fba7a05f9138cf3baaea793128cbad65feac8eea13bba1ede2d53d340de",
+          "source": "https://x.com/mattyp/status/2115111897397628974",
+          "request_id": "74985c50037459cec2e306101278b455dbf0452e898b33612a519fdd0276f2e4",
           "mode": "standard"
         }
       ]
@@ -6885,13 +6898,21 @@
       ]
     },
     "74985c50037459cec2e306101278b455dbf0452e898b33612a519fdd0276f2e4": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-27T17:31:25.383240+00:00",
       "received_sequence": 212,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-27T17:31:26.669478+00:00",
+      "records": [
+        {
+          "id": 236,
+          "revision": 1,
+          "sha256": "d6669fba7a05f9138cf3baaea793128cbad65feac8eea13bba1ede2d53d340de"
+        }
+      ]
     }
   },
   "batches": {
@@ -28172,6 +28193,21 @@
       "result": {
         "status": "received",
         "request_id": "74985c50037459cec2e306101278b455dbf0452e898b33612a519fdd0276f2e4"
+      }
+    },
+    "365a717fd39806eebe17f10f46add410acf974481d3876c2af06e6a48904c5f9": {
+      "sha256": "229052faab3ab3d3bbb5165a5d94516331af39da8c17187184cc7306f77aa2bf",
+      "result": {
+        "status": "finalized",
+        "request_id": "74985c50037459cec2e306101278b455dbf0452e898b33612a519fdd0276f2e4",
+        "records": [
+          {
+            "id": 236,
+            "revision": 1,
+            "sha256": "d6669fba7a05f9138cf3baaea793128cbad65feac8eea13bba1ede2d53d340de"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
