@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 722,
-  "updated_at": "2026-10-27T17:41:46.290478+00:00",
-  "next_id": 237,
+  "generation": 723,
+  "updated_at": "2026-10-27T17:41:47.059078+00:00",
+  "next_id": 238,
   "records": [
     {
       "id": 1,
@@ -3143,6 +3143,19 @@
           "sha256": "d6669fba7a05f9138cf3baaea793128cbad65feac8eea13bba1ede2d53d340de",
           "source": "https://x.com/mattyp/status/2115111897397628974",
           "request_id": "74985c50037459cec2e306101278b455dbf0452e898b33612a519fdd0276f2e4",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "revisions": [
+        {
+          "created_at": "2026-10-27T17:41:47.059078+00:00",
+          "block": "Title: Grok Bot Can Now See and Manage Your X Money Account\nURL: https://github.com/cursor/plugins/blob/main/third_party/x-money/README.md\nImage URL: https://grokbotdesksignal.com/og/news/grok-bot-x-money-connected.png\nSummary: Grok Bot can now connect to X Money, according to its official plugin page. Bots can check balances and transaction history, send or request money from X users, and pay merchants with a virtual card. The page says every money-moving action needs separate user approval, and higher-risk transfers stay in the X app. X Money is US-only.",
+          "sha256": "7aba4533a6318979ff8793c1b8927b5557ede99d33ce0a341638c00b0cd4ac99",
+          "source": "https://github.com/cursor/plugins/blob/main/third_party/x-money/README.md",
+          "request_id": "a71e869092333eb935a220993d6f80c954d76f88264542ef21173f8461e869a8",
           "mode": "standard"
         }
       ]
@@ -6915,13 +6928,21 @@
       ]
     },
     "a71e869092333eb935a220993d6f80c954d76f88264542ef21173f8461e869a8": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-27T17:41:46.290478+00:00",
       "received_sequence": 213,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-27T17:41:47.059078+00:00",
+      "records": [
+        {
+          "id": 237,
+          "revision": 1,
+          "sha256": "7aba4533a6318979ff8793c1b8927b5557ede99d33ce0a341638c00b0cd4ac99"
+        }
+      ]
     }
   },
   "batches": {
@@ -28236,6 +28257,21 @@
       "result": {
         "status": "received",
         "request_id": "a71e869092333eb935a220993d6f80c954d76f88264542ef21173f8461e869a8"
+      }
+    },
+    "c4cc0fc4f26e58af822e2bfa1b1d472760ad08bdfc2dcbffcb47bbade9fcb486": {
+      "sha256": "ae813d5d794b87ca76908898b5f59e80b9221ed30441179e484a9ca766abe317",
+      "result": {
+        "status": "finalized",
+        "request_id": "a71e869092333eb935a220993d6f80c954d76f88264542ef21173f8461e869a8",
+        "records": [
+          {
+            "id": 237,
+            "revision": 1,
+            "sha256": "7aba4533a6318979ff8793c1b8927b5557ede99d33ce0a341638c00b0cd4ac99"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
