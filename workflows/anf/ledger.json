@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 703,
-  "updated_at": "2026-10-27T12:19:21.503689+00:00",
+  "generation": 704,
+  "updated_at": "2026-10-27T12:19:22.101533+00:00",
   "next_id": 233,
   "records": [
     {
@@ -27591,6 +27591,18 @@
         ],
         "duplicates": []
       }
+    },
+    "64f070e311195e6a33131509b16d99dd23f14192b91b1883cdeb3a115787a3bb": {
+      "sha256": "632fd9cc38ca452757cd202bd7c5ccc4d46147d5debf3a9c23ac219f4c863a0a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 232,
+          "revision": 1,
+          "sha256": "863e421c2ed6e5a6b9ff58653de0727f7237791295acaf51471f0dbe1800cdff"
+        },
+        "editorial_sha256": "90ee8d0279fb9a3fd976e828e5d51becd3ae052245c2c6c3122226e02b36feae"
+      }
     }
   },
   "migration": {
@@ -34727,6 +34739,26 @@
         "sha256": "b0dce40b8a25f9606a523ad51511412e4c97ab45f33f89d30991daab3be6c100",
         "reviewed_at": "2026-10-27T12:05:32.957843+00:00",
         "operation_id": "muse-backfill-20261027-223-7414"
+      }
+    ],
+    "232:1": [
+      {
+        "reference": {
+          "id": 232,
+          "revision": 1,
+          "sha256": "863e421c2ed6e5a6b9ff58653de0727f7237791295acaf51471f0dbe1800cdff"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Theoretical computer science / math result; math is not a DS trigger and the summary uses no ML, developer/API or hardware-internals terms",
+            "evidence_sha256": "a960e98a7a9710e6e873be6fe10a07f896a683dfddb32354a06e1b77ba8569c8"
+          }
+        },
+        "sha256": "90ee8d0279fb9a3fd976e828e5d51becd3ae052245c2c6c3122226e02b36feae",
+        "reviewed_at": "2026-10-27T12:19:22.101533+00:00",
+        "operation_id": "64f070e311195e6a33131509b16d99dd23f14192b91b1883cdeb3a115787a3bb"
       }
     ]
   }
