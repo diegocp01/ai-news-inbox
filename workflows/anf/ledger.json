@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 723,
-  "updated_at": "2026-10-27T17:41:47.059078+00:00",
+  "generation": 724,
+  "updated_at": "2026-10-27T17:41:47.642483+00:00",
   "next_id": 238,
   "records": [
     {
@@ -28273,6 +28273,18 @@
         ],
         "duplicates": []
       }
+    },
+    "4fadc8d1c1ee982f0d78fff5126899dae7e805b09c98caae9576a6cab017c669": {
+      "sha256": "b5a5f0b00e4285b0a61a4148683b466f554a739cc3aaeba0a21b00f6537abcfd",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 237,
+          "revision": 1,
+          "sha256": "7aba4533a6318979ff8793c1b8927b5557ede99d33ce0a341638c00b0cd4ac99"
+        },
+        "editorial_sha256": "dd801debd6ec9993ed0d6917a264a5a43b7d79de0221dfafcde5420ef4ef3637"
+      }
     }
   },
   "migration": {
@@ -35509,6 +35521,26 @@
         "sha256": "9faa1341c5916afa0df287a2b72980983f14feebbc0085cd1da4f867cc95c876",
         "reviewed_at": "2026-10-27T17:31:27.557916+00:00",
         "operation_id": "c283f4a49476ca61ab5fbd04c984ffb35782966b19b46ff4cf36c12291f7a116"
+      }
+    ],
+    "237:1": [
+      {
+        "reference": {
+          "id": 237,
+          "revision": 1,
+          "sha256": "7aba4533a6318979ff8793c1b8927b5557ede99d33ce0a341638c00b0cd4ac99"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer fintech feature update; summary uses no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "875d7c6e60dd997e60fa27afc18dae38a256eea502a818c810261a7e78bdebb4"
+          }
+        },
+        "sha256": "dd801debd6ec9993ed0d6917a264a5a43b7d79de0221dfafcde5420ef4ef3637",
+        "reviewed_at": "2026-10-27T17:41:47.642483+00:00",
+        "operation_id": "4fadc8d1c1ee982f0d78fff5126899dae7e805b09c98caae9576a6cab017c669"
       }
     ]
   }
