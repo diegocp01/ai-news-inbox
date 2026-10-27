@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 713,
-  "updated_at": "2026-10-27T17:07:47.927329+00:00",
-  "next_id": 234,
+  "generation": 714,
+  "updated_at": "2026-10-27T17:07:50.000250+00:00",
+  "next_id": 235,
   "records": [
     {
       "id": 1,
@@ -3104,6 +3104,19 @@
           "sha256": "0536ed866aaf491f900d3ed70ed7e71e334ef91636eabd4428c6efc71355a14a",
           "source": "https://cryptobriefing.com/axiom-ai-formalizes-enormous-theorem-24-days/",
           "request_id": "efa535170f4eb705889c8a6782acdadea3db403e2edc9810982f6c207ec183f6",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "revisions": [
+        {
+          "created_at": "2026-10-27T17:07:50.000250+00:00",
+          "block": "Title: Google DeepMind Unveils Genie 4 for More Realistic Interactive AI Worlds\nURL: https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/\nImage URL: https://techcrunch.com/wp-content/uploads/2026/10/Genie-4-blog-header.png?resize=1200,675\nSummary: Google DeepMind announced Genie 4, which generates realistic interactive worlds people can explore in real time, now with matching music, ambient sound and dialogue. Users can type changes mid-scene, like new weather or people, and scenes can last about two minutes, double Genie 3. It's in preview for trusted testers, with Google AI Ultra subscribers getting access soon.",
+          "sha256": "c17488a1a7613d0b8dd377f170ab24b5480a171e2b627566ce18684819a6897b",
+          "source": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+          "request_id": "c5e576accbb09248f1f22e45e9f10a44da70ff9bf319f50234ec637ce5834e6d",
           "mode": "standard"
         }
       ]
@@ -6825,13 +6838,21 @@
       ]
     },
     "c5e576accbb09248f1f22e45e9f10a44da70ff9bf319f50234ec637ce5834e6d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-27T17:07:47.927329+00:00",
       "received_sequence": 210,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-27T17:07:50.000250+00:00",
+      "records": [
+        {
+          "id": 234,
+          "revision": 1,
+          "sha256": "c17488a1a7613d0b8dd377f170ab24b5480a171e2b627566ce18684819a6897b"
+        }
+      ]
     }
   },
   "batches": {
@@ -28044,6 +28065,21 @@
       "result": {
         "status": "received",
         "request_id": "c5e576accbb09248f1f22e45e9f10a44da70ff9bf319f50234ec637ce5834e6d"
+      }
+    },
+    "27162c490d944f85d867883505d54e4b04422ceb0abb3a3eb19593400aa8faed": {
+      "sha256": "036f63b5fd63a456d7ac02f970eb405678ce4b54f25da6bb5d7419379f672068",
+      "result": {
+        "status": "finalized",
+        "request_id": "c5e576accbb09248f1f22e45e9f10a44da70ff9bf319f50234ec637ce5834e6d",
+        "records": [
+          {
+            "id": 234,
+            "revision": 1,
+            "sha256": "c17488a1a7613d0b8dd377f170ab24b5480a171e2b627566ce18684819a6897b"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
