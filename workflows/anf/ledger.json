@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 695,
-  "updated_at": "2026-10-27T01:47:19.938025+00:00",
+  "generation": 696,
+  "updated_at": "2026-10-27T01:47:20.525122+00:00",
   "next_id": 229,
   "records": [
     {
@@ -27383,6 +27383,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9eba5af9b263f99a055d22d3f426837dc177887c8fd3690a5554c06ab6f91072": {
+      "sha256": "084030270f6cc6b3af6a63d7301df72e33150d10c989a9cb8f31ed965a5c1ac0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 228,
+          "revision": 1,
+          "sha256": "d2e3dd9def1f1d9183bdac511c9d46092a27e32f3332002ae22854d0438bdc58"
+        },
+        "editorial_sha256": "2b494bdc69e01c887d1a2e9409a572491e83361bf7645dba41b22db18d9db669"
+      }
     }
   },
   "migration": {
@@ -34459,6 +34471,26 @@
         "sha256": "e0302e7352af6835569d6498078525145f88004351e13ae8ad21fb4e7b51fea1",
         "reviewed_at": "2026-10-26T21:50:34.869352+00:00",
         "operation_id": "2f1d1c3e3b1e29b90d84df47868ea76f99750d5c4d8d8b4df6e03e49efd81d96"
+      }
+    ],
+    "228:1": [
+      {
+        "reference": {
+          "id": 228,
+          "revision": 1,
+          "sha256": "d2e3dd9def1f1d9183bdac511c9d46092a27e32f3332002ae22854d0438bdc58"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Quantum physics research results; advanced physics/math is not a DS trigger and no ML, developer/API or hardware-internals terms are used",
+            "evidence_sha256": "bdcb1b0571c7b286099ad5f7d68df31ee4145499554239b71f75c3dc7ee1db7a"
+          }
+        },
+        "sha256": "2b494bdc69e01c887d1a2e9409a572491e83361bf7645dba41b22db18d9db669",
+        "reviewed_at": "2026-10-27T01:47:20.525122+00:00",
+        "operation_id": "9eba5af9b263f99a055d22d3f426837dc177887c8fd3690a5554c06ab6f91072"
       }
     ]
   }
