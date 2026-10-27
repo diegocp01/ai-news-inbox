@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 725,
-  "updated_at": "2026-10-27T19:13:50.747719+00:00",
-  "next_id": 238,
+  "generation": 726,
+  "updated_at": "2026-10-27T19:13:51.502445+00:00",
+  "next_id": 239,
   "records": [
     {
       "id": 1,
@@ -3156,6 +3156,19 @@
           "sha256": "7aba4533a6318979ff8793c1b8927b5557ede99d33ce0a341638c00b0cd4ac99",
           "source": "https://github.com/cursor/plugins/blob/main/third_party/x-money/README.md",
           "request_id": "a71e869092333eb935a220993d6f80c954d76f88264542ef21173f8461e869a8",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "revisions": [
+        {
+          "created_at": "2026-10-27T19:13:51.502445+00:00",
+          "block": "Title: ChatGPT Can Now Connect to Your iCloud Mail and Calendar\nURL: https://9to5mac.com/2026/10/27/icloud-mail-and-calendar-plugins-now-work-with-chatgpt/\nImage URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/10/icloud-chatgpt.jpg?quality=82&strip=all&resize=1200,628\nSummary: OpenAI says ChatGPT users can now connect iCloud Mail and iCloud Calendar, letting it find emails, catch up on an inbox, check upcoming plans and update calendar events. It's available on all ChatGPT plans on web, desktop and iOS. Each service connects separately using an Apple app-specific password rather than your main Apple password, according to OpenAI's help pages.",
+          "sha256": "b8e6d40477dd81ffefa561ca6113c9e827bf6fdc661c4e973bea559b9e18c03a",
+          "source": "https://9to5mac.com/2026/10/27/icloud-mail-and-calendar-plugins-now-work-with-chatgpt/",
+          "request_id": "cdcc873c36ef68482d1c74b1984db4873c0ac3d90bdc91a634178bbd48fe259e",
           "mode": "standard"
         }
       ]
@@ -6945,13 +6958,21 @@
       ]
     },
     "cdcc873c36ef68482d1c74b1984db4873c0ac3d90bdc91a634178bbd48fe259e": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-27T19:13:50.747719+00:00",
       "received_sequence": 214,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-27T19:13:51.502445+00:00",
+      "records": [
+        {
+          "id": 238,
+          "revision": 1,
+          "sha256": "b8e6d40477dd81ffefa561ca6113c9e827bf6fdc661c4e973bea559b9e18c03a"
+        }
+      ]
     }
   },
   "batches": {
@@ -28300,6 +28321,21 @@
       "result": {
         "status": "received",
         "request_id": "cdcc873c36ef68482d1c74b1984db4873c0ac3d90bdc91a634178bbd48fe259e"
+      }
+    },
+    "6a7e7e7b68b50fec4a1b2e4d611e969529f68f21e3a919118d86fb979bf5c7dd": {
+      "sha256": "2a354262b8c3c44a584d00a96f16d5c7558dc41a14fe93338742e38b9b830a76",
+      "result": {
+        "status": "finalized",
+        "request_id": "cdcc873c36ef68482d1c74b1984db4873c0ac3d90bdc91a634178bbd48fe259e",
+        "records": [
+          {
+            "id": 238,
+            "revision": 1,
+            "sha256": "b8e6d40477dd81ffefa561ca6113c9e827bf6fdc661c4e973bea559b9e18c03a"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
