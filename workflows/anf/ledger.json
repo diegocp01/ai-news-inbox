@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 702,
-  "updated_at": "2026-10-27T12:19:20.943440+00:00",
-  "next_id": 232,
+  "generation": 703,
+  "updated_at": "2026-10-27T12:19:21.503689+00:00",
+  "next_id": 233,
   "records": [
     {
       "id": 1,
@@ -3079,6 +3079,19 @@
           "request_id": "c1e83a4ad41038934ba362890fc306f60ea0761d3d2aded4564f13b1f7f319c4",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "revisions": [
+        {
+          "created_at": "2026-10-27T12:19:21.503689+00:00",
+          "block": "Title: Anthropic Says Claude Independently Disproved the Exponential Time Hypothesis\nURL: https://officechai.com/ai/anthropic-says-claude-too-independently-disproved-exponential-time-hypothesis-on-the-same-day-as-openai/\nImage URL: https://officechai.com/wp-content/uploads/2026/10/MixCollage-27-Oct-2026-10-41-AM-7558.jpg\nSummary: Anthropic published a paper credited to Claude claiming a much faster theoretical method for 3-SAT, a classic logic problem, which would refute the Exponential Time Hypothesis. Anthropic researcher Levent Alpoge says an internal Claude research model found the core idea on October 16 with no human input. OpenAI announced a similar result hours earlier.",
+          "sha256": "863e421c2ed6e5a6b9ff58653de0727f7237791295acaf51471f0dbe1800cdff",
+          "source": "https://officechai.com/ai/anthropic-says-claude-too-independently-disproved-exponential-time-hypothesis-on-the-same-day-as-openai/",
+          "request_id": "5ab4297d8f0b71c35b0f3b6677325b4862eb0460b5285cf9e60e9eef458f7b8e",
+          "mode": "standard"
         }
       ]
     }
@@ -6765,13 +6778,21 @@
       ]
     },
     "5ab4297d8f0b71c35b0f3b6677325b4862eb0460b5285cf9e60e9eef458f7b8e": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-27T12:19:20.943440+00:00",
       "received_sequence": 208,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-27T12:19:21.503689+00:00",
+      "records": [
+        {
+          "id": 232,
+          "revision": 1,
+          "sha256": "863e421c2ed6e5a6b9ff58653de0727f7237791295acaf51471f0dbe1800cdff"
+        }
+      ]
     }
   },
   "batches": {
@@ -27554,6 +27575,21 @@
       "result": {
         "status": "received",
         "request_id": "5ab4297d8f0b71c35b0f3b6677325b4862eb0460b5285cf9e60e9eef458f7b8e"
+      }
+    },
+    "657732e6ca18f93bfec455491f66f148f92e74872b072fa5ddd14021bea7bbf9": {
+      "sha256": "0975518391ca6e654e93ce94f5f586b5b253b716c02ed515b87500d6d75744ce",
+      "result": {
+        "status": "finalized",
+        "request_id": "5ab4297d8f0b71c35b0f3b6677325b4862eb0460b5285cf9e60e9eef458f7b8e",
+        "records": [
+          {
+            "id": 232,
+            "revision": 1,
+            "sha256": "863e421c2ed6e5a6b9ff58653de0727f7237791295acaf51471f0dbe1800cdff"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
