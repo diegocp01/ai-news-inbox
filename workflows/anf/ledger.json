@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 716,
-  "updated_at": "2026-10-27T17:09:52.765031+00:00",
-  "next_id": 235,
+  "generation": 717,
+  "updated_at": "2026-10-27T17:09:53.372513+00:00",
+  "next_id": 236,
   "records": [
     {
       "id": 1,
@@ -3117,6 +3117,19 @@
           "sha256": "c17488a1a7613d0b8dd377f170ab24b5480a171e2b627566ce18684819a6897b",
           "source": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
           "request_id": "c5e576accbb09248f1f22e45e9f10a44da70ff9bf319f50234ec637ce5834e6d",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "revisions": [
+        {
+          "created_at": "2026-10-27T17:09:53.372513+00:00",
+          "block": "Title: Xplore Launches RWE-Bench to Test AI on Real Engineering Work\nURL: \nImage URL: https://upload.wikimedia.org/wikipedia/commons/4/4e/Machining_crankshaft.jpg\nSummary: Startup Xplore launched RWE-Bench, testing top AI models on 20 mechanical, electrical and aerospace engineering tasks, like designing an engine crankshaft or simulating heat around turbine parts. Xplore says AI isn't yet great at designing rockets, engines or chips. Its results put GPT-6 Astra and Claude Opus 5.5 ahead, with GPT-6.1 Sol close behind at far lower cost.",
+          "sha256": "a402e24e8a6dc5c22eaabd9907b3acf05713e34e47d630fd29d7c1fd9c565340",
+          "source": "https://x.com/XploreAi/status/2115108667418964246",
+          "request_id": "c82eb53d565835db377f1ace05ced3bc042472fe80846725133821cc660b4973",
           "mode": "standard"
         }
       ]
@@ -6855,13 +6868,21 @@
       ]
     },
     "c82eb53d565835db377f1ace05ced3bc042472fe80846725133821cc660b4973": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-27T17:09:52.765031+00:00",
       "received_sequence": 211,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-27T17:09:53.372513+00:00",
+      "records": [
+        {
+          "id": 235,
+          "revision": 1,
+          "sha256": "a402e24e8a6dc5c22eaabd9907b3acf05713e34e47d630fd29d7c1fd9c565340"
+        }
+      ]
     }
   },
   "batches": {
@@ -28108,6 +28129,21 @@
       "result": {
         "status": "received",
         "request_id": "c82eb53d565835db377f1ace05ced3bc042472fe80846725133821cc660b4973"
+      }
+    },
+    "a318260f8b4ef262b69ef652ba4f714f2afe86c7d228b4e4d6880fb58ec7008c": {
+      "sha256": "593088b8cfb6b3a0258094e092a598c665e430d9f621c1d8a41d655008d99d0b",
+      "result": {
+        "status": "finalized",
+        "request_id": "c82eb53d565835db377f1ace05ced3bc042472fe80846725133821cc660b4973",
+        "records": [
+          {
+            "id": 235,
+            "revision": 1,
+            "sha256": "a402e24e8a6dc5c22eaabd9907b3acf05713e34e47d630fd29d7c1fd9c565340"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
