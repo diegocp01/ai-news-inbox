@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 720,
-  "updated_at": "2026-10-27T17:31:26.669478+00:00",
+  "generation": 721,
+  "updated_at": "2026-10-27T17:31:27.557916+00:00",
   "next_id": 237,
   "records": [
     {
@@ -28209,6 +28209,18 @@
         ],
         "duplicates": []
       }
+    },
+    "c283f4a49476ca61ab5fbd04c984ffb35782966b19b46ff4cf36c12291f7a116": {
+      "sha256": "1c32e8c6af85d8b5a66276ba9e182bc702d01220de7d6316c0dcc2e4abb4da1b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 236,
+          "revision": 1,
+          "sha256": "d6669fba7a05f9138cf3baaea793128cbad65feac8eea13bba1ede2d53d340de"
+        },
+        "editorial_sha256": "9faa1341c5916afa0df287a2b72980983f14feebbc0085cd1da4f867cc95c876"
+      }
     }
   },
   "migration": {
@@ -35425,6 +35437,26 @@
         "sha256": "fdee9d2a66dc50ca1609e017469683a017ede77fb758f89fef4f97b9c37cbc37",
         "reviewed_at": "2026-10-27T17:09:53.919614+00:00",
         "operation_id": "0104d6520bba549874f394d6dc14be609a9c6aab8800b44af39adae8e1fa5825"
+      }
+    ],
+    "236:1": [
+      {
+        "reference": {
+          "id": 236,
+          "revision": 1,
+          "sha256": "d6669fba7a05f9138cf3baaea793128cbad65feac8eea13bba1ede2d53d340de"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer product feature update; summary uses no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "1f3d3f726e9f64884be01b5784becf87e670261f79f6933c931ce043d467cd0f"
+          }
+        },
+        "sha256": "9faa1341c5916afa0df287a2b72980983f14feebbc0085cd1da4f867cc95c876",
+        "reviewed_at": "2026-10-27T17:31:27.557916+00:00",
+        "operation_id": "c283f4a49476ca61ab5fbd04c984ffb35782966b19b46ff4cf36c12291f7a116"
       }
     ]
   }
