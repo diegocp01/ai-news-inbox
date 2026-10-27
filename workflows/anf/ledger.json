@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 710,
-  "updated_at": "2026-10-27T15:56:14.544688+00:00",
-  "next_id": 233,
+  "generation": 711,
+  "updated_at": "2026-10-27T15:56:15.180765+00:00",
+  "next_id": 234,
   "records": [
     {
       "id": 1,
@@ -3091,6 +3091,19 @@
           "sha256": "863e421c2ed6e5a6b9ff58653de0727f7237791295acaf51471f0dbe1800cdff",
           "source": "https://officechai.com/ai/anthropic-says-claude-too-independently-disproved-exponential-time-hypothesis-on-the-same-day-as-openai/",
           "request_id": "5ab4297d8f0b71c35b0f3b6677325b4862eb0460b5285cf9e60e9eef458f7b8e",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "revisions": [
+        {
+          "created_at": "2026-10-27T15:56:15.180765+00:00",
+          "block": "Title: Axiom Says Its AI Agents Computer-Checked Math's Longest Proof in 24 Days\nURL: https://cryptobriefing.com/axiom-ai-formalizes-enormous-theorem-24-days/\nImage URL: https://cms.mind-verse.de/api/news-images/4d64ba37da83f559604fafb82e2dd9d07acd7d37c43b077c6dc417e901952a4d.webp\nSummary: Axiom Math says its AI agents produced the first complete computer-checked proof of the Classification of Finite Simple Groups, a roughly 15,000-page proof by about 100 mathematicians. The company says the 24-day project, run with its engineers and mathematicians, wrote about 43.1 million lines in the Lean proof checker and exposed 34 notable deviations from the published proof.",
+          "sha256": "0536ed866aaf491f900d3ed70ed7e71e334ef91636eabd4428c6efc71355a14a",
+          "source": "https://cryptobriefing.com/axiom-ai-formalizes-enormous-theorem-24-days/",
+          "request_id": "efa535170f4eb705889c8a6782acdadea3db403e2edc9810982f6c207ec183f6",
           "mode": "standard"
         }
       ]
@@ -6795,13 +6808,21 @@
       ]
     },
     "efa535170f4eb705889c8a6782acdadea3db403e2edc9810982f6c207ec183f6": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-27T15:56:14.544688+00:00",
       "received_sequence": 209,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-27T15:56:15.180765+00:00",
+      "records": [
+        {
+          "id": 233,
+          "revision": 1,
+          "sha256": "0536ed866aaf491f900d3ed70ed7e71e334ef91636eabd4428c6efc71355a14a"
+        }
+      ]
     }
   },
   "batches": {
@@ -27980,6 +28001,21 @@
       "result": {
         "status": "received",
         "request_id": "efa535170f4eb705889c8a6782acdadea3db403e2edc9810982f6c207ec183f6"
+      }
+    },
+    "7cac7ee30fa8d541bd8f47d874adfb8bb1a812058a06b62e6510f2e1948e443c": {
+      "sha256": "ebddcfb997c741f4c75ec825fd3e69209fe43b357f0269ee662ee9a6123ac44e",
+      "result": {
+        "status": "finalized",
+        "request_id": "efa535170f4eb705889c8a6782acdadea3db403e2edc9810982f6c207ec183f6",
+        "records": [
+          {
+            "id": 233,
+            "revision": 1,
+            "sha256": "0536ed866aaf491f900d3ed70ed7e71e334ef91636eabd4428c6efc71355a14a"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
