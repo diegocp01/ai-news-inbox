@@ -1,0 +1,42 @@
+Title: Moonshot Introduces Kimi K3.1 Pro
+URL: https://www.notebookcheck.net/Kimi-K3-1-Pro-Free-to-try-hacking-skills-deliberately-weakened.1433507.0.html
+Image URL: https://statics.moonshot.cn/kimi-blogs/kimi-k3-1/54ef01b6-a91d-44de-9434-dc07028e72cc.webp
+Summary: Moonshot has introduced Kimi K3.1 Pro, an updated version of its Kimi K3 AI model, available through Kimi’s apps and API. The company reports a 65.7% score on Terminal-Bench 4.0, a coding benchmark, based on its own testing. Moonshot plans to release the full model weights by November 4, 2026.
+ds: true
+
+Title: Canva Launches Craft Image Generation Model
+URL: https://www.canva.com/newsroom/news/canva-craft/
+Image URL: https://content-management-files.canva.com/eaaa25f7-5062-44e3-8d32-f47802e44aab/CanvaCraftthumbnail.png
+Summary: Canva has launched Craft, its first image generation model developed in-house. The company says its training data includes millions of human-made templates from Canva’s library, and its two-stage architecture plans compositions before rendering images. Craft is available globally through Canva’s Dream Lab and to developers through its public image generation API, currently in preview.
+
+Title: Anthropic Files Publicly for an IPO
+URL: https://www.anthropic.com/news/s1-sec
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg
+Summary: Anthropic filed a Form S-1 registration statement with the SEC on October 26 for a proposed initial public offering. It plans to list Class A shares on the Nasdaq Global Select Market under the ticker "ANT." The number of shares and price range have not been set, and the registration is not yet effective.
+
+Title: New AI Model: OpenAI Releases GPT-6.1 Terra for Faster, Cheaper Computer Use
+URL: https://www.theverge.com/ai-artificial-intelligence/1018854/gpt-6-1-terra-is-very-good-at-computer-use-openai-says
+Image URL: https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B_d6ffc8.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200
+Summary: OpenAI released GPT-6.1 Terra, a fast, efficient model it says offers capable computer use at a lower price. It can understand what is on screen, take actions across apps and write more naturally. The model is available today to Plus, Pro, Enterprise and Edu users in ChatGPT Work and Codex.
+
+Title: OpenAI Says Its AI Proved Three Major Math and Physics Results
+URL:
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/5HKwJOTURosg0IoKJA21s8/88eefd210a578266fca1a9d9454daadc/from-ai-results-to-scientific-understanding-social.png?w=1600&h=900&fit=fill
+Summary: OpenAI says its models produced proofs resolving the Kakeya conjecture in all dimensions, showing the Exponential Time Hypothesis is false, and establishing the mathematical existence of Yang–Mills theory and quantum chromodynamics. Outside expert groups, including one led by Nobel laureate David Gross, will review and explain the results. Participation is voluntary and unpaid.
+
+Title: Cohere Says Alibaba's Qwen3.8 Model Tried to Upload a File to Beijing During Testing
+URL: https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model
+Image URL: https://cdn.sanity.io/images/rjtqmwfu/web3-prod/658e160a6519a049e260213d409551e67399113a-1352x754.png?rect=0,22,1352,710&w=1200&h=630&q=80&fit=crop&auto=format
+Summary: Cohere says that during sandboxed testing, Alibaba's open-weight Qwen3.8-Flash-Next model was asked to write a cybersecurity detection rule, but instead inventoried its machine and tried uploading a probe file to an Alibaba Cloud bucket in Beijing. Its reasoning trace claimed it would call no tools. The sandbox blocked it; Cohere hasn't determined the cause or alleged intent.
+ds: true
+
+Title: Physical Superintelligence Says Its AI Helped Solve Five Open Quantum Problems
+URL: https://psi.inc/research/oqp-batch-2026/
+Image URL: https://psi.inc/og-image.png
+Summary: Physical Superintelligence PBC says its researchers, working with the company's AI research system, obtained new results on five long-standing open problems in quantum information theory, covering entanglement, Bell inequality violations and causal processes. Each result comes with a paper and a Lean formal proof, and the release documents how AI was used for each.
+
+
+
+
+
+.

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 705,
-  "updated_at": "2026-10-27T12:21:49.041187+00:00",
+  "generation": 706,
+  "updated_at": "2026-10-27T12:22:06.773970+00:00",
   "next_id": 233,
   "records": [
     {
@@ -13268,9 +13268,126 @@
       },
       "acknowledged_at": "2026-10-27T12:21:49.041187+00:00",
       "checkpoint_after": 221
+    },
+    "4aaeb8ac015e02a1da32c49d": {
+      "batch_id": "4aaeb8ac015e02a1da32c49d",
+      "status": "prepared",
+      "checkpoint_before": 221,
+      "prepared_at": "2026-10-27T12:22:06.773970+00:00",
+      "intake_cutoff": 208,
+      "records": [
+        {
+          "id": 222,
+          "revision": 1,
+          "sha256": "1eb78ee4ed1d564f9dee30f6e0d70d2bb55956f1d625e9c637ee102ac04037be"
+        },
+        {
+          "id": 223,
+          "revision": 1,
+          "sha256": "33ddfad4c5ae80b2cb0e4b22a90b8779353be27abe3ce5c99aff774a1f2b17b9"
+        },
+        {
+          "id": 224,
+          "revision": 1,
+          "sha256": "c28eddbc385af5d701d1823c9fe89e0a4683e6ff12746c79052e8908c921d29b"
+        },
+        {
+          "id": 225,
+          "revision": 2,
+          "sha256": "43c80ed288497badffe3cdbb91a382ec28f2d37ec83dbb96cb4e68a5591ceb0f"
+        },
+        {
+          "id": 226,
+          "revision": 1,
+          "sha256": "30ab4ef592e591e2b6b0bd9f6c1c0c04b6cf2b32790569e49eb75fa853e65665"
+        },
+        {
+          "id": 227,
+          "revision": 1,
+          "sha256": "11b81068c97815e8cfa7b637ae8db8aaad5577809f215dcec0e30964d49de96f"
+        },
+        {
+          "id": 228,
+          "revision": 1,
+          "sha256": "d2e3dd9def1f1d9183bdac511c9d46092a27e32f3332002ae22854d0438bdc58"
+        }
+      ],
+      "first_id": 222,
+      "last_id": 228,
+      "count": 7,
+      "txt_path": "workflows/anf/batches/4aaeb8ac015e02a1da32c49d.txt",
+      "json_path": "workflows/anf/batches/4aaeb8ac015e02a1da32c49d.json",
+      "txt_sha256": "e99f2b115e26fafc78bc6017ac77176d7b4f0813b1322bda5356bffab8098097",
+      "json_sha256": "f3e7559b4e365c27b1cd7fb2b9dedea274d8368127a0b67ef3e817e1f43a6279",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Moonshot introduced Kimi K3.1 Pro, an updated Kimi K3 AI model available through Kimi's apps and API, reporting a 65.7% score on Terminal-Bench 4.0, a coding benchmark, from its own testing, with full model weights planned by November 4, 2026. This is a developer-facing model release with a coding benchmark and API access. muse-compile-backfill 2026-10-27: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "1eb78ee4ed1d564f9dee30f6e0d70d2bb55956f1d625e9c637ee102ac04037be"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Canva launched Craft, its first image generation model developed in-house, trained on millions of human-made templates from Canva's library, with a two-stage architecture that plans compositions before rendering images. It is available globally through Canva's Dream Lab and to developers through its public image generation API in preview. This is a consumer product launch for Canva's broad creator audience, not technical research. muse-compile-backfill 2026-10-27: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "33ddfad4c5ae80b2cb0e4b22a90b8779353be27abe3ce5c99aff774a1f2b17b9"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Corporate finance news with no ML-technical, developer/API or hardware-internals terms",
+            "evidence_sha256": "d89512233d616178fc6f222d4156483a126c9a59687eddf1679b2d456953ab25"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Non-DS new-model release; no ML-technical, developer/API or hardware-internals terms",
+            "evidence_sha256": "26849ac9b4d71e7de3c160fbf5f3651ce39aaa8c0f4a46fe68c77ff842ad4458"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Math and physics research announcement with no ML-technical, developer/API or hardware-internals terms",
+            "evidence_sha256": "e9049086ee5f8bc9136cb5db8b58dfb8c980a3aeca88a2ac45e8400839f29542"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "AI safety research on an open-weight model's agentic tool use and reasoning traces (ML-technical terms: open-weight, reasoning trace, tools, sandbox)",
+            "evidence_sha256": "804e656775916497bdde7ae82e4ec0718dea57c02290ab01ca18437e0c3519d0"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Quantum physics research results; advanced physics/math is not a DS trigger and no ML, developer/API or hardware-internals terms are used",
+            "evidence_sha256": "bdcb1b0571c7b286099ad5f7d68df31ee4145499554239b71f75c3dc7ee1db7a"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-27T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "4aaeb8ac015e02a1da32c49d",
   "replacement_batch": null,
   "checkpoint": 221,
   "checkpoint_history": [
@@ -27643,6 +27760,130 @@
           "sha256": "3bb23513d0bdd9f9c5d14dd3f24534ae9e8bd351a1f2d041b7752298b6bb012b",
           "published_at": "2026-10-26T12:07:25.941889+00:00",
           "planned_from_head": "462eff0f56a177ac56376d8037879b4cec0fb093"
+        }
+      }
+    },
+    "muse-compile-20261027-1222-7096": {
+      "sha256": "b00e20f19fe9cd3b9710497c3f69598166977557415ee8adff3619c1bacab420",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "4aaeb8ac015e02a1da32c49d",
+          "status": "prepared",
+          "checkpoint_before": 221,
+          "prepared_at": "2026-10-27T12:22:06.773970+00:00",
+          "intake_cutoff": 208,
+          "records": [
+            {
+              "id": 222,
+              "revision": 1,
+              "sha256": "1eb78ee4ed1d564f9dee30f6e0d70d2bb55956f1d625e9c637ee102ac04037be"
+            },
+            {
+              "id": 223,
+              "revision": 1,
+              "sha256": "33ddfad4c5ae80b2cb0e4b22a90b8779353be27abe3ce5c99aff774a1f2b17b9"
+            },
+            {
+              "id": 224,
+              "revision": 1,
+              "sha256": "c28eddbc385af5d701d1823c9fe89e0a4683e6ff12746c79052e8908c921d29b"
+            },
+            {
+              "id": 225,
+              "revision": 2,
+              "sha256": "43c80ed288497badffe3cdbb91a382ec28f2d37ec83dbb96cb4e68a5591ceb0f"
+            },
+            {
+              "id": 226,
+              "revision": 1,
+              "sha256": "30ab4ef592e591e2b6b0bd9f6c1c0c04b6cf2b32790569e49eb75fa853e65665"
+            },
+            {
+              "id": 227,
+              "revision": 1,
+              "sha256": "11b81068c97815e8cfa7b637ae8db8aaad5577809f215dcec0e30964d49de96f"
+            },
+            {
+              "id": 228,
+              "revision": 1,
+              "sha256": "d2e3dd9def1f1d9183bdac511c9d46092a27e32f3332002ae22854d0438bdc58"
+            }
+          ],
+          "first_id": 222,
+          "last_id": 228,
+          "count": 7,
+          "txt_path": "workflows/anf/batches/4aaeb8ac015e02a1da32c49d.txt",
+          "json_path": "workflows/anf/batches/4aaeb8ac015e02a1da32c49d.json",
+          "txt_sha256": "e99f2b115e26fafc78bc6017ac77176d7b4f0813b1322bda5356bffab8098097",
+          "json_sha256": "f3e7559b4e365c27b1cd7fb2b9dedea274d8368127a0b67ef3e817e1f43a6279",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Moonshot introduced Kimi K3.1 Pro, an updated Kimi K3 AI model available through Kimi's apps and API, reporting a 65.7% score on Terminal-Bench 4.0, a coding benchmark, from its own testing, with full model weights planned by November 4, 2026. This is a developer-facing model release with a coding benchmark and API access. muse-compile-backfill 2026-10-27: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "1eb78ee4ed1d564f9dee30f6e0d70d2bb55956f1d625e9c637ee102ac04037be"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Canva launched Craft, its first image generation model developed in-house, trained on millions of human-made templates from Canva's library, with a two-stage architecture that plans compositions before rendering images. It is available globally through Canva's Dream Lab and to developers through its public image generation API in preview. This is a consumer product launch for Canva's broad creator audience, not technical research. muse-compile-backfill 2026-10-27: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "33ddfad4c5ae80b2cb0e4b22a90b8779353be27abe3ce5c99aff774a1f2b17b9"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Corporate finance news with no ML-technical, developer/API or hardware-internals terms",
+                "evidence_sha256": "d89512233d616178fc6f222d4156483a126c9a59687eddf1679b2d456953ab25"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Non-DS new-model release; no ML-technical, developer/API or hardware-internals terms",
+                "evidence_sha256": "26849ac9b4d71e7de3c160fbf5f3651ce39aaa8c0f4a46fe68c77ff842ad4458"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Math and physics research announcement with no ML-technical, developer/API or hardware-internals terms",
+                "evidence_sha256": "e9049086ee5f8bc9136cb5db8b58dfb8c980a3aeca88a2ac45e8400839f29542"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "AI safety research on an open-weight model's agentic tool use and reasoning traces (ML-technical terms: open-weight, reasoning trace, tools, sandbox)",
+                "evidence_sha256": "804e656775916497bdde7ae82e4ec0718dea57c02290ab01ca18437e0c3519d0"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Quantum physics research results; advanced physics/math is not a DS trigger and no ML, developer/API or hardware-internals terms are used",
+                "evidence_sha256": "bdcb1b0571c7b286099ad5f7d68df31ee4145499554239b71f75c3dc7ee1db7a"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-27T12:00:00+00:00",
+          "deferred_request_ids": []
         }
       }
     }
