@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 711,
-  "updated_at": "2026-10-27T15:56:15.180765+00:00",
+  "generation": 712,
+  "updated_at": "2026-10-27T15:56:15.825426+00:00",
   "next_id": 234,
   "records": [
     {
@@ -28017,6 +28017,18 @@
         ],
         "duplicates": []
       }
+    },
+    "14aeb199be0798aa8fec8999b71b30510a479497ad224dd89c4bbc5b5f4c2fd3": {
+      "sha256": "cebb0cc0a736fbf4e6dc1a75dc2a54564c67b1d4fe9ff1f140f61c11e55b8549",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 233,
+          "revision": 1,
+          "sha256": "0536ed866aaf491f900d3ed70ed7e71e334ef91636eabd4428c6efc71355a14a"
+        },
+        "editorial_sha256": "7c42d728c82911307a1454d015cff825bfbaa029e377e82105d697962460b9e1"
+      }
     }
   },
   "migration": {
@@ -35173,6 +35185,26 @@
         "sha256": "90ee8d0279fb9a3fd976e828e5d51becd3ae052245c2c6c3122226e02b36feae",
         "reviewed_at": "2026-10-27T12:19:22.101533+00:00",
         "operation_id": "64f070e311195e6a33131509b16d99dd23f14192b91b1883cdeb3a115787a3bb"
+      }
+    ],
+    "233:1": [
+      {
+        "reference": {
+          "id": 233,
+          "revision": 1,
+          "sha256": "0536ed866aaf491f900d3ed70ed7e71e334ef91636eabd4428c6efc71355a14a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Math proof-verification milestone; math is not a DS trigger and the summary uses no ML, developer/API or hardware-internals terms",
+            "evidence_sha256": "d8a6744e11f3eedf4c61ee5b4bff4ad3dfc6c659920cff756150a02348ed023b"
+          }
+        },
+        "sha256": "7c42d728c82911307a1454d015cff825bfbaa029e377e82105d697962460b9e1",
+        "reviewed_at": "2026-10-27T15:56:15.825426+00:00",
+        "operation_id": "14aeb199be0798aa8fec8999b71b30510a479497ad224dd89c4bbc5b5f4c2fd3"
       }
     ]
   }
