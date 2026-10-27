@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 729,
-  "updated_at": "2026-10-27T20:43:07.046429+00:00",
+  "generation": 730,
+  "updated_at": "2026-10-27T20:43:07.650698+00:00",
   "next_id": 240,
   "records": [
     {
@@ -28401,6 +28401,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b6a6df4bc6b0a6bf24d119b57cbb00340dd00a624b80c96ee1555ee3f0e6fb24": {
+      "sha256": "d2ee1a1ac1dbc40b9849265dab2fd27b5a756b979529a38c136757f6002df68f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 239,
+          "revision": 1,
+          "sha256": "adf4ac5b915b55bbb3d9ce05cbdd6f67edc52c45c84306a32111d2431b802bce"
+        },
+        "editorial_sha256": "f6a6592d18346354173e480189d3c9431e6e59b7a8c018ac24cf41ee3d522a9c"
+      }
     }
   },
   "migration": {
@@ -35677,6 +35689,26 @@
         "sha256": "5c7dc2f5b607f3509461e92d55f843c5074d6cee34719a14949d534d573c5981",
         "reviewed_at": "2026-10-27T19:13:52.046344+00:00",
         "operation_id": "21b0eb27a3dcd657c945ca33b167a53c16b34ff4cc97d6a8ce08c98befb01254"
+      }
+    ],
+    "239:1": [
+      {
+        "reference": {
+          "id": 239,
+          "revision": 1,
+          "sha256": "adf4ac5b915b55bbb3d9ce05cbdd6f67edc52c45c84306a32111d2431b802bce"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Life-science applications story; advanced science alone is not DS and the summary uses no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "487829d089998ddbe960ffbde7acd527792feff8f82eb3108b1a2710b03ef88e"
+          }
+        },
+        "sha256": "f6a6592d18346354173e480189d3c9431e6e59b7a8c018ac24cf41ee3d522a9c",
+        "reviewed_at": "2026-10-27T20:43:07.650698+00:00",
+        "operation_id": "b6a6df4bc6b0a6bf24d119b57cbb00340dd00a624b80c96ee1555ee3f0e6fb24"
       }
     ]
   }
