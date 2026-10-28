@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 780,
-  "updated_at": "2026-10-28T23:17:52.171212+00:00",
+  "generation": 781,
+  "updated_at": "2026-10-28T23:17:52.803368+00:00",
   "next_id": 256,
   "records": [
     {
@@ -29935,6 +29935,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e40149d1860d530413ef359bf8e5e7dac3b9e93339787f992ab61319fc6de136": {
+      "sha256": "baf72d7bbbf05d7271537b63e69c593f0bd924e82dc85e60f74029590f1aa7a9",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 255,
+          "revision": 1,
+          "sha256": "bce59b2fd3696034a5ed0c7021e27a8d8f66be88fb92a1289631102a066a1969"
+        },
+        "editorial_sha256": "cacfde5111a81521a720855ab316aa8269d56fce7ae874d40bbe229f2ba0758c"
+      }
     }
   },
   "migration": {
@@ -37591,6 +37603,26 @@
         "sha256": "6c991bcb3711be3d72e68959c24946fc6703cdf25b3f6cee1d3e61d2d9d4aa2b",
         "reviewed_at": "2026-10-28T23:10:34.571672+00:00",
         "operation_id": "3012063056bca4eb2c72461a8a01986edfb739cfd8e5fa7938b12a751bdfd991"
+      }
+    ],
+    "255:1": [
+      {
+        "reference": {
+          "id": 255,
+          "revision": 1,
+          "sha256": "bce59b2fd3696034a5ed0c7021e27a8d8f66be88fb92a1289631102a066a1969"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer creative app feature; no ML/dev/hardware jargon",
+            "evidence_sha256": "6bc57b5f966d5344426bc5d83d1617efb1e16f3f1c134a137f2c9b43ccb6ddfb"
+          }
+        },
+        "sha256": "cacfde5111a81521a720855ab316aa8269d56fce7ae874d40bbe229f2ba0758c",
+        "reviewed_at": "2026-10-28T23:17:52.803368+00:00",
+        "operation_id": "e40149d1860d530413ef359bf8e5e7dac3b9e93339787f992ab61319fc6de136"
       }
     ]
   }
