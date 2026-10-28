@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 746,
-  "updated_at": "2026-10-28T16:08:02.587600+00:00",
-  "next_id": 244,
+  "generation": 747,
+  "updated_at": "2026-10-28T16:08:03.374059+00:00",
+  "next_id": 245,
   "records": [
     {
       "id": 1,
@@ -3238,6 +3238,19 @@
           "request_id": "e33da7829848c8d7f2efffddf898f79001ebdf23be382581349ce76332cb0e26",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "revisions": [
+        {
+          "created_at": "2026-10-28T16:08:03.374059+00:00",
+          "block": "Title: Anthropic Adds a Gallery of Ready-Made Legal Tools to Claude\nURL: https://legaltechnology.com/anthropic-moves-further-up-the-legal-tech-stack-with-launch-of-claude-for-legal-artifacts/\nImage URL: https://assets.claude.com/3f5a1ce6765f5bbc431178d9934f8fb3519edde7.jpg?w=1200&h=630&fit=crop\nSummary: Anthropic launched a gallery of ready-made legal tools in Claude for Legal, covering tasks like contract review, regulatory horizon scans and cite checks. Each starts from a built-in example; teams can add their own documents and connected systems and share tools across the business, Anthropic says. It also announced access for law schools and legal aid groups.",
+          "sha256": "81b927c661bf8aa7b795802eae341717159b9b35040a5f236b0303c4ef0ad7fc",
+          "source": "https://x.com/claudeai/status/2115467192276025500",
+          "request_id": "39cf403ad77c407ed0084a6cc9b0f78a8693224171ba5a63202a55d3c2e81e06",
+          "mode": "standard"
         }
       ]
     }
@@ -7105,13 +7118,21 @@
       ]
     },
     "39cf403ad77c407ed0084a6cc9b0f78a8693224171ba5a63202a55d3c2e81e06": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-28T16:08:02.587600+00:00",
       "received_sequence": 218,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-28T16:08:03.374059+00:00",
+      "records": [
+        {
+          "id": 244,
+          "revision": 1,
+          "sha256": "81b927c661bf8aa7b795802eae341717159b9b35040a5f236b0303c4ef0ad7fc"
+        }
+      ]
     }
   },
   "batches": {
@@ -29194,6 +29215,21 @@
       "result": {
         "status": "received",
         "request_id": "39cf403ad77c407ed0084a6cc9b0f78a8693224171ba5a63202a55d3c2e81e06"
+      }
+    },
+    "328830098a81a248d5861fed986944f62639b50e1e9082729f9f9834071dc128": {
+      "sha256": "e887194430cd7dafc22347d07c684df8ae9ea256328264abfae57be801629c6c",
+      "result": {
+        "status": "finalized",
+        "request_id": "39cf403ad77c407ed0084a6cc9b0f78a8693224171ba5a63202a55d3c2e81e06",
+        "records": [
+          {
+            "id": 244,
+            "revision": 1,
+            "sha256": "81b927c661bf8aa7b795802eae341717159b9b35040a5f236b0303c4ef0ad7fc"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
