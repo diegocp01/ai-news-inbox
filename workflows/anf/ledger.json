@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 756,
-  "updated_at": "2026-10-28T16:19:24.865800+00:00",
+  "generation": 757,
+  "updated_at": "2026-10-28T16:19:25.535357+00:00",
   "next_id": 248,
   "records": [
     {
@@ -29423,6 +29423,18 @@
         ],
         "duplicates": []
       }
+    },
+    "ebedf5ec95a2a8c1b28a5cb8fd6122b9c5f903b405e824a0e53538173fcbbed9": {
+      "sha256": "ea3a852cc865dc75aa68233b828ab4ac46476e199689ba720ca12064b929565d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 247,
+          "revision": 1,
+          "sha256": "351e2878b14b4de03c300a6f32a7a8877e1aef554e9dd64ef6596bdf1ce27ad5"
+        },
+        "editorial_sha256": "c53c002a213b1d36983f93f77f0de187b7c8b32740bbaf8022967db0fc008302"
+      }
     }
   },
   "migration": {
@@ -36919,6 +36931,26 @@
         "sha256": "1e878665614266188a05d9758b04f5a922c0cc4b1133d679411a73a385c939ce",
         "reviewed_at": "2026-10-28T16:16:34.034085+00:00",
         "operation_id": "a5e8fec3720fa5da747805d14c49c26f5e64dd3393e780df0d55f4cd678e91cc"
+      }
+    ],
+    "247:1": [
+      {
+        "reference": {
+          "id": 247,
+          "revision": 1,
+          "sha256": "351e2878b14b4de03c300a6f32a7a8877e1aef554e9dd64ef6596bdf1ce27ad5"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Continual-learning training method (parameter updates, catastrophic forgetting, tokens) is ML-technical, so DS",
+            "evidence_sha256": "86a07b41e5b87e035f031dd8d55cfab0e22989ac46a7d33541eca8b7dcf32222"
+          }
+        },
+        "sha256": "c53c002a213b1d36983f93f77f0de187b7c8b32740bbaf8022967db0fc008302",
+        "reviewed_at": "2026-10-28T16:19:25.535357+00:00",
+        "operation_id": "ebedf5ec95a2a8c1b28a5cb8fd6122b9c5f903b405e824a0e53538173fcbbed9"
       }
     ]
   }
