@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 735,
-  "updated_at": "2026-10-28T11:49:10.225301+00:00",
+  "generation": 741,
+  "updated_at": "2026-10-28T12:02:43.563096+00:00",
   "next_id": 244,
   "records": [
     {
@@ -28579,6 +28579,78 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261028-229-6038": {
+      "sha256": "09b48e53b14e8fda6d42c10de94553d31ca2530aea2d02bbf9bcaaadd1af37e9",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 229,
+          "revision": 1,
+          "sha256": "50783bc78425489bd45519c2e8ff8eef82f7d270c47f34f1999b2924b7812315"
+        },
+        "editorial_sha256": "465cefdd6a02164b96fd1572131f16caad6a04468baf212e6592cfdc21308e13"
+      }
+    },
+    "muse-backfill-20261028-230-9129": {
+      "sha256": "248b817da89fecfaf744c1168031e401df16a96be8780074e1840719f89dcc61",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 230,
+          "revision": 1,
+          "sha256": "20fc9b519e3b1f4471d1891d13886ebb2183fb094961802fd18cc0a9a08a042c"
+        },
+        "editorial_sha256": "5e361951bcaf28c67e24b25560e8a0bdaec416728a0f192a8b4bb2ebee413bd1"
+      }
+    },
+    "muse-backfill-20261028-231-4848": {
+      "sha256": "381bee2de261ab1605ad9a53d8ae3d1d758419d3b6cadf940258eb38dbfb2dc7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 231,
+          "revision": 1,
+          "sha256": "663d6975a873c1b7357e3ff3b16f9563bbe600bd5f5ac8fa7ec8a3a12adb4973"
+        },
+        "editorial_sha256": "ee1d8958c455d92e6c20888d0d0af1e65d30131bc149c591bff6f11a531a260c"
+      }
+    },
+    "muse-backfill-20261028-241-4940": {
+      "sha256": "abf2740d580afa441717f193804c37f6d469021896e2ca99a19abdacc2846bb0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 241,
+          "revision": 1,
+          "sha256": "2f8a9bcff114dc4f13107bd9ed322e0ff56f2ddccb26768624b3b6d18f11f030"
+        },
+        "editorial_sha256": "c078f1bec55ef8d04c56ecbc5efae84cc8d8402421bf82eb1bf190a47d1d2a10"
+      }
+    },
+    "muse-backfill-20261028-242-7988": {
+      "sha256": "acebe6242f75afd5886bd93642e62a63c40b6f169ebb6ff92c42a61f9898c543",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 242,
+          "revision": 1,
+          "sha256": "aca7dc787b40c35d9caeff6cd1a782901fd0da09441260a7bc9e9bc2d8b0238f"
+        },
+        "editorial_sha256": "6c3d86fd603fb826a6cdb1f74b47903ca7beef6adaa971edd6c0378a21bde930"
+      }
+    },
+    "muse-backfill-20261028-243-2647": {
+      "sha256": "5e398f71b58a61bf3bc52e20c01839cfddba04451bc1e53f54bb6396a1ae9a49",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 243,
+          "revision": 1,
+          "sha256": "af832d0aec5b0bf290e82c6b3747cb9ca4024d9405f474a849150e801d225dd4"
+        },
+        "editorial_sha256": "ff0f944354d7361a4cb5a132f2ea364f9eb2a6b789b6b2996beecdc5897f4c3e"
+      }
     }
   },
   "migration": {
@@ -35895,6 +35967,126 @@
         "sha256": "a9b326947718a1e00708303b37f0687ea97c34072207b3a9c54531dc36fbe234",
         "reviewed_at": "2026-10-28T00:02:46.615326+00:00",
         "operation_id": "ee9167f3b7b0463282049065b1ac768eb2bd8ea186c306aec3b58783953fb434"
+      }
+    ],
+    "229:1": [
+      {
+        "reference": {
+          "id": 229,
+          "revision": 1,
+          "sha256": "50783bc78425489bd45519c2e8ff8eef82f7d270c47f34f1999b2924b7812315"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic filed a registration statement with the SEC for a proposed initial public offering, planning to list Class A shares on Nasdaq under the ticker ANT, with share count and price range undecided. This is corporate/finance news; the summary uses no ML-technical, developer/API or hardware-internals terms. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "50783bc78425489bd45519c2e8ff8eef82f7d270c47f34f1999b2924b7812315"
+          }
+        },
+        "sha256": "465cefdd6a02164b96fd1572131f16caad6a04468baf212e6592cfdc21308e13",
+        "reviewed_at": "2026-10-28T12:02:43.038042+00:00",
+        "operation_id": "muse-backfill-20261028-229-6038"
+      }
+    ],
+    "230:1": [
+      {
+        "reference": {
+          "id": 230,
+          "revision": 1,
+          "sha256": "20fc9b519e3b1f4471d1891d13886ebb2183fb094961802fd18cc0a9a08a042c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "OpenAI says its internal AI models produced three research results involving wave behavior, computing complexity and quantum field theory, including part of a Millennium Prize problem, and published the math and computing manuscripts for public scrutiny. This is AI research with published manuscripts, for research audiences. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "20fc9b519e3b1f4471d1891d13886ebb2183fb094961802fd18cc0a9a08a042c"
+          }
+        },
+        "sha256": "5e361951bcaf28c67e24b25560e8a0bdaec416728a0f192a8b4bb2ebee413bd1",
+        "reviewed_at": "2026-10-28T12:02:43.141552+00:00",
+        "operation_id": "muse-backfill-20261028-230-9129"
+      }
+    ],
+    "231:1": [
+      {
+        "reference": {
+          "id": 231,
+          "revision": 1,
+          "sha256": "663d6975a873c1b7357e3ff3b16f9563bbe600bd5f5ac8fa7ec8a3a12adb4973"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "OpenAI released GPT-6.1 Terra for computer use and visual reasoning in ChatGPT Work, Codex and its API, with standard API prices half those of GPT-5.6 Terra, and reports faster professional-task completion in its evaluations. A model release for developers building with the API and Codex. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "663d6975a873c1b7357e3ff3b16f9563bbe600bd5f5ac8fa7ec8a3a12adb4973"
+          }
+        },
+        "sha256": "ee1d8958c455d92e6c20888d0d0af1e65d30131bc149c591bff6f11a531a260c",
+        "reviewed_at": "2026-10-28T12:02:43.242221+00:00",
+        "operation_id": "muse-backfill-20261028-231-4848"
+      }
+    ],
+    "241:1": [
+      {
+        "reference": {
+          "id": 241,
+          "revision": 1,
+          "sha256": "2f8a9bcff114dc4f13107bd9ed322e0ff56f2ddccb26768624b3b6d18f11f030"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google DeepMind announced Genie 4, a model for interactive virtual worlds that generates ambient sound, music and character dialogue from text prompts, rolling out as a research preview to trusted testers and planned for Google AI Ultra subscribers. A product announcement for a broad audience, not technical research. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "2f8a9bcff114dc4f13107bd9ed322e0ff56f2ddccb26768624b3b6d18f11f030"
+          }
+        },
+        "sha256": "c078f1bec55ef8d04c56ecbc5efae84cc8d8402421bf82eb1bf190a47d1d2a10",
+        "reviewed_at": "2026-10-28T12:02:43.351849+00:00",
+        "operation_id": "muse-backfill-20261028-241-4940"
+      }
+    ],
+    "242:1": [
+      {
+        "reference": {
+          "id": 242,
+          "revision": 1,
+          "sha256": "aca7dc787b40c35d9caeff6cd1a782901fd0da09441260a7bc9e9bc2d8b0238f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic says it has acquired Mithril Medicine and begun its own drug discovery programs, reporting promising preclinical mouse results for a muscular dystrophy drug candidate. An acquisition and life-science story; advanced science alone is not DS and the summary uses no ML-technical, developer/API or hardware terms. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "aca7dc787b40c35d9caeff6cd1a782901fd0da09441260a7bc9e9bc2d8b0238f"
+          }
+        },
+        "sha256": "6c3d86fd603fb826a6cdb1f74b47903ca7beef6adaa971edd6c0378a21bde930",
+        "reviewed_at": "2026-10-28T12:02:43.449778+00:00",
+        "operation_id": "muse-backfill-20261028-242-7988"
+      }
+    ],
+    "243:1": [
+      {
+        "reference": {
+          "id": 243,
+          "revision": 1,
+          "sha256": "af832d0aec5b0bf290e82c6b3747cb9ca4024d9405f474a849150e801d225dd4"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Axiom says its team directed dozens of AI agents to formalize the Classification of Finite Simple Groups in Lean over 24 days, producing about 43 million lines of code, and has published the code. A math proof-verification milestone; math is not a DS trigger and the summary uses no ML, developer/API or hardware-internals terms. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "af832d0aec5b0bf290e82c6b3747cb9ca4024d9405f474a849150e801d225dd4"
+          }
+        },
+        "sha256": "ff0f944354d7361a4cb5a132f2ea364f9eb2a6b789b6b2996beecdc5897f4c3e",
+        "reviewed_at": "2026-10-28T12:02:43.563096+00:00",
+        "operation_id": "muse-backfill-20261028-243-2647"
       }
     ]
   }
