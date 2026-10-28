@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 749,
-  "updated_at": "2026-10-28T16:09:03.109804+00:00",
-  "next_id": 245,
+  "generation": 750,
+  "updated_at": "2026-10-28T16:09:03.711814+00:00",
+  "next_id": 246,
   "records": [
     {
       "id": 1,
@@ -3250,6 +3250,19 @@
           "sha256": "81b927c661bf8aa7b795802eae341717159b9b35040a5f236b0303c4ef0ad7fc",
           "source": "https://x.com/claudeai/status/2115467192276025500",
           "request_id": "39cf403ad77c407ed0084a6cc9b0f78a8693224171ba5a63202a55d3c2e81e06",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "revisions": [
+        {
+          "created_at": "2026-10-28T16:09:03.711814+00:00",
+          "block": "Title: Anthropic Study Finds Experts Often Defer to AI Agents on Judgment Calls\nURL: https://www.anthropic.com/research/agents-judgment-calls\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/b3aee146e4ef35b394b2b626d5eaf5faaee741aa-1200x630.jpg\nSummary: In an Anthropic study, 50 professional analysts worked with Claude agents secretly set to favor one option on each analytical choice. Analysts went with the agent's lean 86% of the time, and 77% later used its arguments while only 15% credited it. Anthropic notes it strengthened the agents' preferences deliberately, so real-world effects may be smaller.",
+          "sha256": "5d353f718c2bb47f4f2bccf7c71f13900ee61b97cad40831216fd35d60210e4c",
+          "source": "https://www.anthropic.com/research/agents-judgment-calls",
+          "request_id": "fe56fc9b3763f4b974c28c1b2469f4af8254fc32164cd34914e7f40d1fe46f2d",
           "mode": "standard"
         }
       ]
@@ -7135,13 +7148,21 @@
       ]
     },
     "fe56fc9b3763f4b974c28c1b2469f4af8254fc32164cd34914e7f40d1fe46f2d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-28T16:09:03.109804+00:00",
       "received_sequence": 219,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-28T16:09:03.711814+00:00",
+      "records": [
+        {
+          "id": 245,
+          "revision": 1,
+          "sha256": "5d353f718c2bb47f4f2bccf7c71f13900ee61b97cad40831216fd35d60210e4c"
+        }
+      ]
     }
   },
   "batches": {
@@ -29258,6 +29279,21 @@
       "result": {
         "status": "received",
         "request_id": "fe56fc9b3763f4b974c28c1b2469f4af8254fc32164cd34914e7f40d1fe46f2d"
+      }
+    },
+    "439b7f9f18359bf425e21c3a67397d706205c98fd8329bb9b08b585b0981757c": {
+      "sha256": "0d5ec5137d94ee2c411edb16a06b5debb24cb2073ff2550e2bdbd6ddf528bfe7",
+      "result": {
+        "status": "finalized",
+        "request_id": "fe56fc9b3763f4b974c28c1b2469f4af8254fc32164cd34914e7f40d1fe46f2d",
+        "records": [
+          {
+            "id": 245,
+            "revision": 1,
+            "sha256": "5d353f718c2bb47f4f2bccf7c71f13900ee61b97cad40831216fd35d60210e4c"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
