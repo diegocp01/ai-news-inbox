@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 747,
-  "updated_at": "2026-10-28T16:08:03.374059+00:00",
+  "generation": 748,
+  "updated_at": "2026-10-28T16:08:03.954123+00:00",
   "next_id": 245,
   "records": [
     {
@@ -29231,6 +29231,18 @@
         ],
         "duplicates": []
       }
+    },
+    "c04fdff8c3eab77ff0f94ed1174ca4fd891122dbdc2f556bdcbde556dc7998ad": {
+      "sha256": "e20ceffad807fee561893799ce90541d7067b7c0d30674cd2e7cb9f8829852ca",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 244,
+          "revision": 1,
+          "sha256": "81b927c661bf8aa7b795802eae341717159b9b35040a5f236b0303c4ef0ad7fc"
+        },
+        "editorial_sha256": "a9d58f87944eaa2d536b0491bbb843670a98666840cfb17cf0c93c528fec337d"
+      }
     }
   },
   "migration": {
@@ -36667,6 +36679,26 @@
         "sha256": "ff0f944354d7361a4cb5a132f2ea364f9eb2a6b789b6b2996beecdc5897f4c3e",
         "reviewed_at": "2026-10-28T12:02:43.563096+00:00",
         "operation_id": "muse-backfill-20261028-243-2647"
+      }
+    ],
+    "244:1": [
+      {
+        "reference": {
+          "id": 244,
+          "revision": 1,
+          "sha256": "81b927c661bf8aa7b795802eae341717159b9b35040a5f236b0303c4ef0ad7fc"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Product feature for legal professionals; no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "f582d4db3099caa81eb460f3a830532985f239dceeb09a9cdb686ff3c1ebba8b"
+          }
+        },
+        "sha256": "a9d58f87944eaa2d536b0491bbb843670a98666840cfb17cf0c93c528fec337d",
+        "reviewed_at": "2026-10-28T16:08:03.954123+00:00",
+        "operation_id": "c04fdff8c3eab77ff0f94ed1174ca4fd891122dbdc2f556bdcbde556dc7998ad"
       }
     ]
   }
