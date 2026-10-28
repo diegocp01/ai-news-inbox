@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 771,
-  "updated_at": "2026-10-28T19:18:28.292892+00:00",
+  "generation": 772,
+  "updated_at": "2026-10-28T19:18:28.851351+00:00",
   "next_id": 253,
   "records": [
     {
@@ -29743,6 +29743,18 @@
         ],
         "duplicates": []
       }
+    },
+    "4d34c3b25fc8cf1b317ef0cded4414708045c81328e211ded90a2159bd7cce57": {
+      "sha256": "f74a205229a4e5decec64b722f2198e22fc2291c2cfff10c2344e18071133657",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 252,
+          "revision": 1,
+          "sha256": "bd33819de0a2a9419a1299cf7c4a0c56837d9b1f5353a09b6c7c7c3da3119585"
+        },
+        "editorial_sha256": "c91d85246476028d9ab7353d45d6747837da3055d4ac55a029cfa802f2b214da"
+      }
     }
   },
   "migration": {
@@ -37339,6 +37351,26 @@
         "sha256": "d0122c0b5fa69e73540d9aeb19e10e7b083676673c58e02677c462223bf71279",
         "reviewed_at": "2026-10-28T18:24:16.755257+00:00",
         "operation_id": "d5e2fe9d7ddfdababb27e466ae40d2d9ab9272387285f7cacd08a97e08b9604b"
+      }
+    ],
+    "252:1": [
+      {
+        "reference": {
+          "id": 252,
+          "revision": 1,
+          "sha256": "bd33819de0a2a9419a1299cf7c4a0c56837d9b1f5353a09b6c7c7c3da3119585"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "New Gemini flagship frontier model; summary written for general audience without ML/dev jargon",
+            "evidence_sha256": "8fd55f7cee30cc5fb1bfa33ece1c64b70dde350d704db246fbd617991c134872"
+          }
+        },
+        "sha256": "c91d85246476028d9ab7353d45d6747837da3055d4ac55a029cfa802f2b214da",
+        "reviewed_at": "2026-10-28T19:18:28.851351+00:00",
+        "operation_id": "4d34c3b25fc8cf1b317ef0cded4414708045c81328e211ded90a2159bd7cce57"
       }
     ]
   }
