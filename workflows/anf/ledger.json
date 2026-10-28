@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 732,
-  "updated_at": "2026-10-28T00:02:45.998450+00:00",
+  "generation": 733,
+  "updated_at": "2026-10-28T00:02:46.615326+00:00",
   "next_id": 241,
   "records": [
     {
@@ -28465,6 +28465,18 @@
         ],
         "duplicates": []
       }
+    },
+    "ee9167f3b7b0463282049065b1ac768eb2bd8ea186c306aec3b58783953fb434": {
+      "sha256": "dce5a08307fa17550bc3b68934b329434b949809ab608e7cbc05fecc6fa8ffa4",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 240,
+          "revision": 1,
+          "sha256": "dfdacad4eef898d1a0371716ff6dbb1d129fb1152dbaaa909d39e215ea89268c"
+        },
+        "editorial_sha256": "a9b326947718a1e00708303b37f0687ea97c34072207b3a9c54531dc36fbe234"
+      }
     }
   },
   "migration": {
@@ -35761,6 +35773,26 @@
         "sha256": "f6a6592d18346354173e480189d3c9431e6e59b7a8c018ac24cf41ee3d522a9c",
         "reviewed_at": "2026-10-27T20:43:07.650698+00:00",
         "operation_id": "b6a6df4bc6b0a6bf24d119b57cbb00340dd00a624b80c96ee1555ee3f0e6fb24"
+      }
+    ],
+    "240:1": [
+      {
+        "reference": {
+          "id": 240,
+          "revision": 1,
+          "sha256": "dfdacad4eef898d1a0371716ff6dbb1d129fb1152dbaaa909d39e215ea89268c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Acquisition and life-science story; advanced science alone is not DS and the summary uses no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "6407b7d8e485ef8f50109a902898dc203bc8f978fe598f6a60f4fbf1953f4b70"
+          }
+        },
+        "sha256": "a9b326947718a1e00708303b37f0687ea97c34072207b3a9c54531dc36fbe234",
+        "reviewed_at": "2026-10-28T00:02:46.615326+00:00",
+        "operation_id": "ee9167f3b7b0463282049065b1ac768eb2bd8ea186c306aec3b58783953fb434"
       }
     ]
   }
