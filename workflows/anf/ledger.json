@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 731,
-  "updated_at": "2026-10-28T00:02:45.274648+00:00",
-  "next_id": 240,
+  "generation": 732,
+  "updated_at": "2026-10-28T00:02:45.998450+00:00",
+  "next_id": 241,
   "records": [
     {
       "id": 1,
@@ -3182,6 +3182,19 @@
           "sha256": "adf4ac5b915b55bbb3d9ce05cbdd6f67edc52c45c84306a32111d2431b802bce",
           "source": "https://www.anthropic.com/research/early-progress-drug-development",
           "request_id": "fccab059b750be624a44e4b8925af7ca90987d3249913ee5a7177bab2946569f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "revisions": [
+        {
+          "created_at": "2026-10-28T00:02:45.998450+00:00",
+          "block": "Title: Anthropic Acquires One-Person Biotech Mithril Medicine\nURL: https://www.rdworldonline.com/anthropic-acquires-mithril-medicine-one-person-biotech/\nImage URL: https://www.rdworldonline.com/wp-content/uploads/2026/10/548184bda60fac7efdc36c089b1d5144ef0642da-2400x2239-1.webp\nSummary: Anthropic says it acquired Mithril Medicine, whose sole employee, founder Cody Tranbarger, used Claude to coordinate 11 outside labs. Anthropic says this took a rare muscular dystrophy treatment from idea to promising mouse results in under 18 months. The work is preclinical; Anthropic says human trials could begin as soon as late 2028.",
+          "sha256": "dfdacad4eef898d1a0371716ff6dbb1d129fb1152dbaaa909d39e215ea89268c",
+          "source": "https://x.com/andrewcurran_/status/2115202368518451262",
+          "request_id": "5dc6400e0a558586cdd4ca5ee78aa278c87f2c1f76b5fa268ace59447e9ea126",
           "mode": "standard"
         }
       ]
@@ -7005,13 +7018,21 @@
       ]
     },
     "5dc6400e0a558586cdd4ca5ee78aa278c87f2c1f76b5fa268ace59447e9ea126": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-28T00:02:45.274648+00:00",
       "received_sequence": 216,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-28T00:02:45.998450+00:00",
+      "records": [
+        {
+          "id": 240,
+          "revision": 1,
+          "sha256": "dfdacad4eef898d1a0371716ff6dbb1d129fb1152dbaaa909d39e215ea89268c"
+        }
+      ]
     }
   },
   "batches": {
@@ -28428,6 +28449,21 @@
       "result": {
         "status": "received",
         "request_id": "5dc6400e0a558586cdd4ca5ee78aa278c87f2c1f76b5fa268ace59447e9ea126"
+      }
+    },
+    "409c0092e5921d3903fc0ec3dd4231f68254242adb23f5ec2e1475634ac780f4": {
+      "sha256": "4cc7c2e767e2306e25537944487ec81986e86c97ef12adeb31216a5d50924e7b",
+      "result": {
+        "status": "finalized",
+        "request_id": "5dc6400e0a558586cdd4ca5ee78aa278c87f2c1f76b5fa268ace59447e9ea126",
+        "records": [
+          {
+            "id": 240,
+            "revision": 1,
+            "sha256": "dfdacad4eef898d1a0371716ff6dbb1d129fb1152dbaaa909d39e215ea89268c"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
