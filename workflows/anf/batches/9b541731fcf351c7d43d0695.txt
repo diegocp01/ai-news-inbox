@@ -1,0 +1,82 @@
+Title: Anthropic Files for Proposed Initial Public Offering
+URL: https://www.anthropic.com/news/s1-sec
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg
+Summary: Anthropic filed a registration statement with the SEC on October 26 for a proposed initial public offering. The company plans to list its Class A shares on Nasdaq under the ticker ANT. Its announcement said the share count and price range were undecided and the registration statement had not yet taken effect.
+
+Title: OpenAI Announces Three AI Research Claims for Review
+URL: https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/5HKwJOTURosg0IoKJA21s8/88eefd210a578266fca1a9d9454daadc/from-ai-results-to-scientific-understanding-social.png?w=1600&h=900&fit=fill
+Summary: OpenAI says its internal AI models produced three research results involving wave behavior, computing complexity and quantum field theory, including part of a Millennium Prize problem. The company published the math and computing manuscripts for public scrutiny. External groups will examine the computing and physics claims; the physics materials remain withheld while researchers prepare their own account.
+ds: true
+
+Title: OpenAI Releases GPT-6.1 Terra
+URL: https://www.watch.impress.co.jp/docs/news/2151433.html
+Image URL: https://www.watch.impress.co.jp/img/ipw/list/2151/433/01.jpg
+Summary: OpenAI released GPT-6.1 Terra for computer use and visual reasoning in ChatGPT Work, Codex and its API. The company says standard API prices are half those of GPT-5.6 Terra. In OpenAI’s evaluations, it completed professional tasks over three times faster than GPT-6 Astra and GPT-6.1 Sol and produced fewer factual errors than its predecessor on an internal benchmark.
+ds: true
+
+Title: Anthropic Says Claude Independently Disproved the Exponential Time Hypothesis
+URL: https://officechai.com/ai/anthropic-says-claude-too-independently-disproved-exponential-time-hypothesis-on-the-same-day-as-openai/
+Image URL: https://officechai.com/wp-content/uploads/2026/10/MixCollage-27-Oct-2026-10-41-AM-7558.jpg
+Summary: Anthropic published a paper credited to Claude claiming a much faster theoretical method for 3-SAT, a classic logic problem, which would refute the Exponential Time Hypothesis. Anthropic researcher Levent Alpoge says an internal Claude research model found the core idea on October 16 with no human input. OpenAI announced a similar result hours earlier.
+
+Title: Axiom Says Its AI Agents Computer-Checked Math's Longest Proof in 24 Days
+URL: https://cryptobriefing.com/axiom-ai-formalizes-enormous-theorem-24-days/
+Image URL: https://cms.mind-verse.de/api/news-images/4d64ba37da83f559604fafb82e2dd9d07acd7d37c43b077c6dc417e901952a4d.webp
+Summary: Axiom Math says its AI agents produced the first complete computer-checked proof of the Classification of Finite Simple Groups, a roughly 15,000-page proof by about 100 mathematicians. The company says the 24-day project, run with its engineers and mathematicians, wrote about 43.1 million lines in the Lean proof checker and exposed 34 notable deviations from the published proof.
+
+Title: Google DeepMind Unveils Genie 4 for More Realistic Interactive AI Worlds
+URL: https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/
+Image URL: https://techcrunch.com/wp-content/uploads/2026/10/Genie-4-blog-header.png?resize=1200,675
+Summary: Google DeepMind announced Genie 4, which generates realistic interactive worlds people can explore in real time, now with matching music, ambient sound and dialogue. Users can type changes mid-scene, like new weather or people, and scenes can last about two minutes, double Genie 3. It's in preview for trusted testers, with Google AI Ultra subscribers getting access soon.
+
+Title: Xplore Launches RWE-Bench to Test AI on Real Engineering Work
+URL: 
+Image URL: https://upload.wikimedia.org/wikipedia/commons/4/4e/Machining_crankshaft.jpg
+Summary: Startup Xplore launched RWE-Bench, testing top AI models on 20 mechanical, electrical and aerospace engineering tasks, like designing an engine crankshaft or simulating heat around turbine parts. Xplore says AI isn't yet great at designing rockets, engines or chips. Its results put GPT-6 Astra and Claude Opus 5.5 ahead, with GPT-6.1 Sol close behind at far lower cost.
+
+Title: Grok Bot Adds Shareable Pages, a Password Vault and Apple App Connections
+URL: https://www.youtube.com/watch?v=3Edjn34IuzQ
+Image URL: https://i.ytimg.com/vi/3Edjn34IuzQ/maxresdefault.jpg
+Summary: In a what's-new video, Grok Bot's Matt Palmer showed Pages, shareable visual documents the bot creates from your requests, and a Vault that stores passwords and personal details encrypted so the bot can't see them. He also showcased better 1Password support, connections to Apple Home, Reminders, Contacts and Calendar, AI-made videos and new bot characters.
+
+Title: Grok Bot Can Now See and Manage Your X Money Account
+URL: https://github.com/cursor/plugins/blob/main/third_party/x-money/README.md
+Image URL: https://grokbotdesksignal.com/og/news/grok-bot-x-money-connected.png
+Summary: Grok Bot can now connect to X Money, according to its official plugin page. Bots can check balances and transaction history, send or request money from X users, and pay merchants with a virtual card. The page says every money-moving action needs separate user approval, and higher-risk transfers stay in the X app. X Money is US-only.
+
+Title: ChatGPT Can Now Connect to Your iCloud Mail and Calendar
+URL: https://9to5mac.com/2026/10/27/icloud-mail-and-calendar-plugins-now-work-with-chatgpt/
+Image URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/10/icloud-chatgpt.jpg?quality=82&strip=all&resize=1200,628
+Summary: OpenAI says ChatGPT users can now connect iCloud Mail and iCloud Calendar, letting it find emails, catch up on an inbox, check upcoming plans and update calendar events. It's available on all ChatGPT plans on web, desktop and iOS. Each service connects separately using an Apple app-specific password rather than your main Apple password, according to OpenAI's help pages.
+
+Title: Anthropic Says Claude Is Speeding Up Drug Development With Six Partners
+URL: https://www.anthropic.com/research/early-progress-drug-development
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/6a50f5ba4c0931f8d2c411f26d860955c1efeae7-1200x630.jpg
+Summary: Anthropic says Claude is helping six drug developers, including Bristol Myers Squibb, on work targeting food allergies, rare childhood diseases and cancers. In one case, a Claude-proposed design for a cancer cell therapy was about 70% shorter and worked better in lab tests. Anthropic also started its own drug programs, including for rare childhood muscular dystrophy.
+
+Title: Anthropic Acquires One-Person Biotech Mithril Medicine
+URL: https://www.rdworldonline.com/anthropic-acquires-mithril-medicine-one-person-biotech/
+Image URL: https://www.rdworldonline.com/wp-content/uploads/2026/10/548184bda60fac7efdc36c089b1d5144ef0642da-2400x2239-1.webp
+Summary: Anthropic says it acquired Mithril Medicine, whose sole employee, founder Cody Tranbarger, used Claude to coordinate 11 outside labs. Anthropic says this took a rare muscular dystrophy treatment from idea to promising mouse results in under 18 months. The work is preclinical; Anthropic says human trials could begin as soon as late 2028.
+
+Title: Google DeepMind Announces Genie 4 with Audio and Dialogue
+URL: https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/
+Image URL: https://lh3.googleusercontent.com/mKq26Yz8rlcAthtTHS2GaID7LuUM9a4zM16VHUszY-zyKly80QRUt5nn6V4jQN8_bJ4_UMesp1D_88ethzTEJPoo6NUPyhO76QZ7zNJM5KzfPE5GKjM=w1440-h810-n-nu
+Summary: Google DeepMind announced Genie 4, a model for interactive virtual worlds. Google says users can steer scenes with text prompts while it generates ambient sound, music and character dialogue. A research preview is rolling out to trusted testers, with access planned for Google AI Ultra subscribers through Project Genie and selected Gemini API and AI Studio partners.
+
+Title: Anthropic Acquires Mithril Medicine and Expands Drug Research
+URL: https://www.anthropic.com/research/early-progress-drug-development
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/492ae2fdf955e71a24bfda5422f950febeeec07f-2000x1125.jpg
+Summary: Anthropic says it has acquired Mithril Medicine and begun its own drug discovery programs. Mithril’s founder used Claude to coordinate work with 11 external labs. Anthropic reports promising mouse results for a muscular dystrophy drug candidate, but the research remains preclinical. Human trials could begin as early as late 2028 if further testing supports proceeding.
+
+Title: Axiom Reports Computer-Checked Classification of Finite Simple Groups
+URL: https://eu.36kr.com/en/p/4045021328675973
+Image URL: https://img.36krcdn.com/hsossms/20261028/v2_9ae60638a1bc4ee98e08d41338f42930%40000000_oswg491615oswg1080oswg535_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1
+Summary: Axiom says its team directed dozens of AI agents to formalize the Classification of Finite Simple Groups in Lean, proof-checking software, over 24 days, producing about 43 million lines of code. The theorem classifies the basic building blocks of finite groups. The company has published the code and says the project identified and corrected problems in published arguments.
+
+
+
+
+
+.

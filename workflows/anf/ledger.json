@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 741,
-  "updated_at": "2026-10-28T12:02:43.563096+00:00",
+  "generation": 742,
+  "updated_at": "2026-10-28T12:02:54.876403+00:00",
   "next_id": 244,
   "records": [
     {
@@ -13721,9 +13721,230 @@
       },
       "acknowledged_at": "2026-10-27T12:31:27.766190+00:00",
       "checkpoint_after": 228
+    },
+    "9b541731fcf351c7d43d0695": {
+      "batch_id": "9b541731fcf351c7d43d0695",
+      "status": "prepared",
+      "checkpoint_before": 228,
+      "prepared_at": "2026-10-28T12:02:54.876403+00:00",
+      "intake_cutoff": 217,
+      "records": [
+        {
+          "id": 229,
+          "revision": 1,
+          "sha256": "50783bc78425489bd45519c2e8ff8eef82f7d270c47f34f1999b2924b7812315"
+        },
+        {
+          "id": 230,
+          "revision": 1,
+          "sha256": "20fc9b519e3b1f4471d1891d13886ebb2183fb094961802fd18cc0a9a08a042c"
+        },
+        {
+          "id": 231,
+          "revision": 1,
+          "sha256": "663d6975a873c1b7357e3ff3b16f9563bbe600bd5f5ac8fa7ec8a3a12adb4973"
+        },
+        {
+          "id": 232,
+          "revision": 1,
+          "sha256": "863e421c2ed6e5a6b9ff58653de0727f7237791295acaf51471f0dbe1800cdff"
+        },
+        {
+          "id": 233,
+          "revision": 1,
+          "sha256": "0536ed866aaf491f900d3ed70ed7e71e334ef91636eabd4428c6efc71355a14a"
+        },
+        {
+          "id": 234,
+          "revision": 1,
+          "sha256": "c17488a1a7613d0b8dd377f170ab24b5480a171e2b627566ce18684819a6897b"
+        },
+        {
+          "id": 235,
+          "revision": 1,
+          "sha256": "a402e24e8a6dc5c22eaabd9907b3acf05713e34e47d630fd29d7c1fd9c565340"
+        },
+        {
+          "id": 236,
+          "revision": 1,
+          "sha256": "d6669fba7a05f9138cf3baaea793128cbad65feac8eea13bba1ede2d53d340de"
+        },
+        {
+          "id": 237,
+          "revision": 1,
+          "sha256": "7aba4533a6318979ff8793c1b8927b5557ede99d33ce0a341638c00b0cd4ac99"
+        },
+        {
+          "id": 238,
+          "revision": 1,
+          "sha256": "b8e6d40477dd81ffefa561ca6113c9e827bf6fdc661c4e973bea559b9e18c03a"
+        },
+        {
+          "id": 239,
+          "revision": 1,
+          "sha256": "adf4ac5b915b55bbb3d9ce05cbdd6f67edc52c45c84306a32111d2431b802bce"
+        },
+        {
+          "id": 240,
+          "revision": 1,
+          "sha256": "dfdacad4eef898d1a0371716ff6dbb1d129fb1152dbaaa909d39e215ea89268c"
+        },
+        {
+          "id": 241,
+          "revision": 1,
+          "sha256": "2f8a9bcff114dc4f13107bd9ed322e0ff56f2ddccb26768624b3b6d18f11f030"
+        },
+        {
+          "id": 242,
+          "revision": 1,
+          "sha256": "aca7dc787b40c35d9caeff6cd1a782901fd0da09441260a7bc9e9bc2d8b0238f"
+        },
+        {
+          "id": 243,
+          "revision": 1,
+          "sha256": "af832d0aec5b0bf290e82c6b3747cb9ca4024d9405f474a849150e801d225dd4"
+        }
+      ],
+      "first_id": 229,
+      "last_id": 243,
+      "count": 15,
+      "txt_path": "workflows/anf/batches/9b541731fcf351c7d43d0695.txt",
+      "json_path": "workflows/anf/batches/9b541731fcf351c7d43d0695.json",
+      "txt_sha256": "093f87b7898ff46c4dd2117aacd4b3e9a1108f8135082dfd6f95125b315c371c",
+      "json_sha256": "519268bb2e5226beac5839d092ed559d2251d128c9cc23e08a28d9341b809cae",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic filed a registration statement with the SEC for a proposed initial public offering, planning to list Class A shares on Nasdaq under the ticker ANT, with share count and price range undecided. This is corporate/finance news; the summary uses no ML-technical, developer/API or hardware-internals terms. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "50783bc78425489bd45519c2e8ff8eef82f7d270c47f34f1999b2924b7812315"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "OpenAI says its internal AI models produced three research results involving wave behavior, computing complexity and quantum field theory, including part of a Millennium Prize problem, and published the math and computing manuscripts for public scrutiny. This is AI research with published manuscripts, for research audiences. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "20fc9b519e3b1f4471d1891d13886ebb2183fb094961802fd18cc0a9a08a042c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "OpenAI released GPT-6.1 Terra for computer use and visual reasoning in ChatGPT Work, Codex and its API, with standard API prices half those of GPT-5.6 Terra, and reports faster professional-task completion in its evaluations. A model release for developers building with the API and Codex. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "663d6975a873c1b7357e3ff3b16f9563bbe600bd5f5ac8fa7ec8a3a12adb4973"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Theoretical computer science / math result; math is not a DS trigger and the summary uses no ML, developer/API or hardware-internals terms",
+            "evidence_sha256": "a960e98a7a9710e6e873be6fe10a07f896a683dfddb32354a06e1b77ba8569c8"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Math proof-verification milestone; math is not a DS trigger and the summary uses no ML, developer/API or hardware-internals terms",
+            "evidence_sha256": "d8a6744e11f3eedf4c61ee5b4bff4ad3dfc6c659920cff756150a02348ed023b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer-facing interactive world generation; summary uses no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "2e4372d176f919ab521a439235038988dcb50eb8cb7ae77f11ac3c1cd94af10f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Plain-language story about AI performance on engineering tasks; summary avoids ML-technical, developer/API and hardware-internals terms",
+            "evidence_sha256": "22721a26d18ad3a1496c21d9d1ac82e93e1d73418f06c2e4186f8d24c4679921"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer product feature update; summary uses no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "1f3d3f726e9f64884be01b5784becf87e670261f79f6933c931ce043d467cd0f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer fintech feature update; summary uses no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "875d7c6e60dd997e60fa27afc18dae38a256eea502a818c810261a7e78bdebb4"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer app integration; summary uses no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "48e83f25b475ac020ec670b0adfec56befead702a12c3c0d0c1230ef6aaef15f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Life-science applications story; advanced science alone is not DS and the summary uses no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "487829d089998ddbe960ffbde7acd527792feff8f82eb3108b1a2710b03ef88e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Acquisition and life-science story; advanced science alone is not DS and the summary uses no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "6407b7d8e485ef8f50109a902898dc203bc8f978fe598f6a60f4fbf1953f4b70"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google DeepMind announced Genie 4, a model for interactive virtual worlds that generates ambient sound, music and character dialogue from text prompts, rolling out as a research preview to trusted testers and planned for Google AI Ultra subscribers. A product announcement for a broad audience, not technical research. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "2f8a9bcff114dc4f13107bd9ed322e0ff56f2ddccb26768624b3b6d18f11f030"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic says it has acquired Mithril Medicine and begun its own drug discovery programs, reporting promising preclinical mouse results for a muscular dystrophy drug candidate. An acquisition and life-science story; advanced science alone is not DS and the summary uses no ML-technical, developer/API or hardware terms. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "aca7dc787b40c35d9caeff6cd1a782901fd0da09441260a7bc9e9bc2d8b0238f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Axiom says its team directed dozens of AI agents to formalize the Classification of Finite Simple Groups in Lean over 24 days, producing about 43 million lines of code, and has published the code. A math proof-verification milestone; math is not a DS trigger and the summary uses no ML, developer/API or hardware-internals terms. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "af832d0aec5b0bf290e82c6b3747cb9ca4024d9405f474a849150e801d225dd4"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-28T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "9b541731fcf351c7d43d0695",
   "replacement_batch": null,
   "checkpoint": 228,
   "checkpoint_history": [
@@ -28650,6 +28871,234 @@
           "sha256": "af832d0aec5b0bf290e82c6b3747cb9ca4024d9405f474a849150e801d225dd4"
         },
         "editorial_sha256": "ff0f944354d7361a4cb5a132f2ea364f9eb2a6b789b6b2996beecdc5897f4c3e"
+      }
+    },
+    "muse-compile-20261028-1202-2604": {
+      "sha256": "2cb26a72421aa137881caf3aabef7c41dd76bb3decf7fcd3d6aaa66832f2025f",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "9b541731fcf351c7d43d0695",
+          "status": "prepared",
+          "checkpoint_before": 228,
+          "prepared_at": "2026-10-28T12:02:54.876403+00:00",
+          "intake_cutoff": 217,
+          "records": [
+            {
+              "id": 229,
+              "revision": 1,
+              "sha256": "50783bc78425489bd45519c2e8ff8eef82f7d270c47f34f1999b2924b7812315"
+            },
+            {
+              "id": 230,
+              "revision": 1,
+              "sha256": "20fc9b519e3b1f4471d1891d13886ebb2183fb094961802fd18cc0a9a08a042c"
+            },
+            {
+              "id": 231,
+              "revision": 1,
+              "sha256": "663d6975a873c1b7357e3ff3b16f9563bbe600bd5f5ac8fa7ec8a3a12adb4973"
+            },
+            {
+              "id": 232,
+              "revision": 1,
+              "sha256": "863e421c2ed6e5a6b9ff58653de0727f7237791295acaf51471f0dbe1800cdff"
+            },
+            {
+              "id": 233,
+              "revision": 1,
+              "sha256": "0536ed866aaf491f900d3ed70ed7e71e334ef91636eabd4428c6efc71355a14a"
+            },
+            {
+              "id": 234,
+              "revision": 1,
+              "sha256": "c17488a1a7613d0b8dd377f170ab24b5480a171e2b627566ce18684819a6897b"
+            },
+            {
+              "id": 235,
+              "revision": 1,
+              "sha256": "a402e24e8a6dc5c22eaabd9907b3acf05713e34e47d630fd29d7c1fd9c565340"
+            },
+            {
+              "id": 236,
+              "revision": 1,
+              "sha256": "d6669fba7a05f9138cf3baaea793128cbad65feac8eea13bba1ede2d53d340de"
+            },
+            {
+              "id": 237,
+              "revision": 1,
+              "sha256": "7aba4533a6318979ff8793c1b8927b5557ede99d33ce0a341638c00b0cd4ac99"
+            },
+            {
+              "id": 238,
+              "revision": 1,
+              "sha256": "b8e6d40477dd81ffefa561ca6113c9e827bf6fdc661c4e973bea559b9e18c03a"
+            },
+            {
+              "id": 239,
+              "revision": 1,
+              "sha256": "adf4ac5b915b55bbb3d9ce05cbdd6f67edc52c45c84306a32111d2431b802bce"
+            },
+            {
+              "id": 240,
+              "revision": 1,
+              "sha256": "dfdacad4eef898d1a0371716ff6dbb1d129fb1152dbaaa909d39e215ea89268c"
+            },
+            {
+              "id": 241,
+              "revision": 1,
+              "sha256": "2f8a9bcff114dc4f13107bd9ed322e0ff56f2ddccb26768624b3b6d18f11f030"
+            },
+            {
+              "id": 242,
+              "revision": 1,
+              "sha256": "aca7dc787b40c35d9caeff6cd1a782901fd0da09441260a7bc9e9bc2d8b0238f"
+            },
+            {
+              "id": 243,
+              "revision": 1,
+              "sha256": "af832d0aec5b0bf290e82c6b3747cb9ca4024d9405f474a849150e801d225dd4"
+            }
+          ],
+          "first_id": 229,
+          "last_id": 243,
+          "count": 15,
+          "txt_path": "workflows/anf/batches/9b541731fcf351c7d43d0695.txt",
+          "json_path": "workflows/anf/batches/9b541731fcf351c7d43d0695.json",
+          "txt_sha256": "093f87b7898ff46c4dd2117aacd4b3e9a1108f8135082dfd6f95125b315c371c",
+          "json_sha256": "519268bb2e5226beac5839d092ed559d2251d128c9cc23e08a28d9341b809cae",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Anthropic filed a registration statement with the SEC for a proposed initial public offering, planning to list Class A shares on Nasdaq under the ticker ANT, with share count and price range undecided. This is corporate/finance news; the summary uses no ML-technical, developer/API or hardware-internals terms. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "50783bc78425489bd45519c2e8ff8eef82f7d270c47f34f1999b2924b7812315"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "OpenAI says its internal AI models produced three research results involving wave behavior, computing complexity and quantum field theory, including part of a Millennium Prize problem, and published the math and computing manuscripts for public scrutiny. This is AI research with published manuscripts, for research audiences. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "20fc9b519e3b1f4471d1891d13886ebb2183fb094961802fd18cc0a9a08a042c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "OpenAI released GPT-6.1 Terra for computer use and visual reasoning in ChatGPT Work, Codex and its API, with standard API prices half those of GPT-5.6 Terra, and reports faster professional-task completion in its evaluations. A model release for developers building with the API and Codex. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "663d6975a873c1b7357e3ff3b16f9563bbe600bd5f5ac8fa7ec8a3a12adb4973"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Theoretical computer science / math result; math is not a DS trigger and the summary uses no ML, developer/API or hardware-internals terms",
+                "evidence_sha256": "a960e98a7a9710e6e873be6fe10a07f896a683dfddb32354a06e1b77ba8569c8"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Math proof-verification milestone; math is not a DS trigger and the summary uses no ML, developer/API or hardware-internals terms",
+                "evidence_sha256": "d8a6744e11f3eedf4c61ee5b4bff4ad3dfc6c659920cff756150a02348ed023b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer-facing interactive world generation; summary uses no ML-technical, developer/API or hardware terms",
+                "evidence_sha256": "2e4372d176f919ab521a439235038988dcb50eb8cb7ae77f11ac3c1cd94af10f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Plain-language story about AI performance on engineering tasks; summary avoids ML-technical, developer/API and hardware-internals terms",
+                "evidence_sha256": "22721a26d18ad3a1496c21d9d1ac82e93e1d73418f06c2e4186f8d24c4679921"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer product feature update; summary uses no ML-technical, developer/API or hardware terms",
+                "evidence_sha256": "1f3d3f726e9f64884be01b5784becf87e670261f79f6933c931ce043d467cd0f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer fintech feature update; summary uses no ML-technical, developer/API or hardware terms",
+                "evidence_sha256": "875d7c6e60dd997e60fa27afc18dae38a256eea502a818c810261a7e78bdebb4"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer app integration; summary uses no ML-technical, developer/API or hardware terms",
+                "evidence_sha256": "48e83f25b475ac020ec670b0adfec56befead702a12c3c0d0c1230ef6aaef15f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Life-science applications story; advanced science alone is not DS and the summary uses no ML-technical, developer/API or hardware terms",
+                "evidence_sha256": "487829d089998ddbe960ffbde7acd527792feff8f82eb3108b1a2710b03ef88e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Acquisition and life-science story; advanced science alone is not DS and the summary uses no ML-technical, developer/API or hardware terms",
+                "evidence_sha256": "6407b7d8e485ef8f50109a902898dc203bc8f978fe598f6a60f4fbf1953f4b70"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Google DeepMind announced Genie 4, a model for interactive virtual worlds that generates ambient sound, music and character dialogue from text prompts, rolling out as a research preview to trusted testers and planned for Google AI Ultra subscribers. A product announcement for a broad audience, not technical research. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "2f8a9bcff114dc4f13107bd9ed322e0ff56f2ddccb26768624b3b6d18f11f030"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Anthropic says it has acquired Mithril Medicine and begun its own drug discovery programs, reporting promising preclinical mouse results for a muscular dystrophy drug candidate. An acquisition and life-science story; advanced science alone is not DS and the summary uses no ML-technical, developer/API or hardware terms. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "aca7dc787b40c35d9caeff6cd1a782901fd0da09441260a7bc9e9bc2d8b0238f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Axiom says its team directed dozens of AI agents to formalize the Classification of Finite Simple Groups in Lean over 24 days, producing about 43 million lines of code, and has published the code. A math proof-verification milestone; math is not a DS trigger and the summary uses no ML, developer/API or hardware-internals terms. muse-compile-backfill 2026-10-28: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "af832d0aec5b0bf290e82c6b3747cb9ca4024d9405f474a849150e801d225dd4"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-28T12:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
