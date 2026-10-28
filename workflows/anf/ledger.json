@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 755,
-  "updated_at": "2026-10-28T16:19:24.163988+00:00",
-  "next_id": 247,
+  "generation": 756,
+  "updated_at": "2026-10-28T16:19:24.865800+00:00",
+  "next_id": 248,
   "records": [
     {
       "id": 1,
@@ -3276,6 +3276,19 @@
           "sha256": "90d5f52344afedc761f34db616bb8ea5405550edfa51539694cd5cd4a65ecc73",
           "source": "https://x.com/artificialanlys/status/2115265133467635877",
           "request_id": "a240f6ca4abc5a4c514d4e28ec0302271c9a7aedbe09889c301f60c2914a2fc2",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "revisions": [
+        {
+          "created_at": "2026-10-28T16:19:24.865800+00:00",
+          "block": "Title: Google Research Proposes a \"Sleep\" Phase to Help LLMs Keep Learning\nURL: https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/\nImage URL: https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg\nSummary: Google Research introduced a \"sleep\" framework for continual learning, inspired by how the brain consolidates memory during rest. LLMs alternate active interaction with offline phases that move short-term context into long-term parameters. Google says this lets models keep acquiring new facts, retain long-context knowledge up to 10M tokens and improve reasoning while mitigating catastrophic forgetting.",
+          "sha256": "351e2878b14b4de03c300a6f32a7a8877e1aef554e9dd64ef6596bdf1ce27ad5",
+          "source": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+          "request_id": "6bcd98872f512be7f9d09efe4e79d48ba8c6122aeb75b0c4703167896da85141",
           "mode": "standard"
         }
       ]
@@ -7195,13 +7208,21 @@
       ]
     },
     "6bcd98872f512be7f9d09efe4e79d48ba8c6122aeb75b0c4703167896da85141": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-28T16:19:24.163988+00:00",
       "received_sequence": 221,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-28T16:19:24.865800+00:00",
+      "records": [
+        {
+          "id": 247,
+          "revision": 1,
+          "sha256": "351e2878b14b4de03c300a6f32a7a8877e1aef554e9dd64ef6596bdf1ce27ad5"
+        }
+      ]
     }
   },
   "batches": {
@@ -29386,6 +29407,21 @@
       "result": {
         "status": "received",
         "request_id": "6bcd98872f512be7f9d09efe4e79d48ba8c6122aeb75b0c4703167896da85141"
+      }
+    },
+    "2239d37a81bbb14011de4e3ef7722b58c5c268820252c477723e5260e3e7ded2": {
+      "sha256": "d024f7d413d2dfb0485cd02b71b20b7587d2b345a1ca7402c42d59fe5a8b358b",
+      "result": {
+        "status": "finalized",
+        "request_id": "6bcd98872f512be7f9d09efe4e79d48ba8c6122aeb75b0c4703167896da85141",
+        "records": [
+          {
+            "id": 247,
+            "revision": 1,
+            "sha256": "351e2878b14b4de03c300a6f32a7a8877e1aef554e9dd64ef6596bdf1ce27ad5"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
