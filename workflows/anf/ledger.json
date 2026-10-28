@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 774,
-  "updated_at": "2026-10-28T23:09:20.708904+00:00",
+  "generation": 775,
+  "updated_at": "2026-10-28T23:09:21.328660+00:00",
   "next_id": 254,
   "records": [
     {
@@ -29807,6 +29807,18 @@
         ],
         "duplicates": []
       }
+    },
+    "fa1617259fef7a3d664caa5cec3ffbd6c48908d889e371eb9ddb2ebac6730719": {
+      "sha256": "b2d845664cbc10988d2eeac22fb5c8f95362f03b4b8be8b66b4b25d889f546ee",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 253,
+          "revision": 1,
+          "sha256": "a1e61fc13ed5f1d09f6b5b07da44ebbfd041e1c8b821b0bdfe1f531f25dc7198"
+        },
+        "editorial_sha256": "93c0b659fb02577ce6aa6b774037833e7d6d1b3475dc595b3bd4d0e06c81270e"
+      }
     }
   },
   "migration": {
@@ -37423,6 +37435,26 @@
         "sha256": "c91d85246476028d9ab7353d45d6747837da3055d4ac55a029cfa802f2b214da",
         "reviewed_at": "2026-10-28T19:18:28.851351+00:00",
         "operation_id": "4d34c3b25fc8cf1b317ef0cded4414708045c81328e211ded90a2159bd7cce57"
+      }
+    ],
+    "253:1": [
+      {
+        "reference": {
+          "id": 253,
+          "revision": 1,
+          "sha256": "a1e61fc13ed5f1d09f6b5b07da44ebbfd041e1c8b821b0bdfe1f531f25dc7198"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Byte-level LM architecture research: tokenization, scaling laws, tokens, compute efficiency - ML-technical",
+            "evidence_sha256": "fc975c94837bce232694ed0b73d47d593b053cd7c7670ec0e114791d6982b216"
+          }
+        },
+        "sha256": "93c0b659fb02577ce6aa6b774037833e7d6d1b3475dc595b3bd4d0e06c81270e",
+        "reviewed_at": "2026-10-28T23:09:21.328660+00:00",
+        "operation_id": "fa1617259fef7a3d664caa5cec3ffbd6c48908d889e371eb9ddb2ebac6730719"
       }
     ]
   }
