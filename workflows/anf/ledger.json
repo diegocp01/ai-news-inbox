@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 767,
-  "updated_at": "2026-10-28T18:24:15.079598+00:00",
-  "next_id": 251,
+  "generation": 768,
+  "updated_at": "2026-10-28T18:24:15.985343+00:00",
+  "next_id": 252,
   "records": [
     {
       "id": 1,
@@ -3328,6 +3328,19 @@
           "sha256": "bd522972f98b68c35ce3063191d1d38e03ae98fa9b3ffff92fcbb8f83b422439",
           "source": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
           "request_id": "237f3eb98632a8dabde9b3e5a67343636968668a8b0b0eb1cc69d211c01e173a",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 251,
+      "revisions": [
+        {
+          "created_at": "2026-10-28T18:24:15.985343+00:00",
+          "block": "Title: ChatGPT Users Can Now Text Their Dot via iMessage or RCS\nURL: https://9to5mac.com/2026/10/28/openai-expanding-chatgpt-dot-access-to-imessage-and-rcs/\nImage URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/10/chatgpt-app-icon-dark-openai.jpg?quality=82&strip=all&resize=1200,628\nSummary: OpenAI says ChatGPT Pro users in the US can now text their dot, its always-on agent, through iMessage or RCS, in a preview rolling out now. Users can send tasks via text, photos, or voice notes, and the dot texts back proactively with updates. OpenAI says only the user can text their dot, and it cannot read other conversations.",
+          "sha256": "8ba1bb10a560ccf8161a7a7eb433be731cf9257a3fded7710c26660d5b236440",
+          "source": "https://x.com/chatgpt/status/2115496387613786374",
+          "request_id": "79ca829fa3bc488d4d2716500413d4264fc67f6bcaa2b8cdeb7700a81af98901",
           "mode": "standard"
         }
       ]
@@ -7315,13 +7328,21 @@
       ]
     },
     "79ca829fa3bc488d4d2716500413d4264fc67f6bcaa2b8cdeb7700a81af98901": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-28T18:24:15.079598+00:00",
       "received_sequence": 225,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-28T18:24:15.985343+00:00",
+      "records": [
+        {
+          "id": 251,
+          "revision": 1,
+          "sha256": "8ba1bb10a560ccf8161a7a7eb433be731cf9257a3fded7710c26660d5b236440"
+        }
+      ]
     }
   },
   "batches": {
@@ -29642,6 +29663,21 @@
       "result": {
         "status": "received",
         "request_id": "79ca829fa3bc488d4d2716500413d4264fc67f6bcaa2b8cdeb7700a81af98901"
+      }
+    },
+    "11d988026795559e4a5c4564bc30e6b42bb1c43194859b199579e75dd7047eaa": {
+      "sha256": "3c1ef28005d3678296468f4d0fd4385c08a5ba881bd2ee8976d4fa392efca939",
+      "result": {
+        "status": "finalized",
+        "request_id": "79ca829fa3bc488d4d2716500413d4264fc67f6bcaa2b8cdeb7700a81af98901",
+        "records": [
+          {
+            "id": 251,
+            "revision": 1,
+            "sha256": "8ba1bb10a560ccf8161a7a7eb433be731cf9257a3fded7710c26660d5b236440"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
