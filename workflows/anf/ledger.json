@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 765,
-  "updated_at": "2026-10-28T17:41:12.885706+00:00",
+  "generation": 766,
+  "updated_at": "2026-10-28T17:41:13.671944+00:00",
   "next_id": 251,
   "records": [
     {
@@ -29615,6 +29615,18 @@
         ],
         "duplicates": []
       }
+    },
+    "6f9d74727d780b4215f9bfc4b0b554f2b21f260eda77e237f389ba6d692338c5": {
+      "sha256": "47c972e83d54fd6d4759356e3be421f7e0326eaad55deff593c518e6477b8ae8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 250,
+          "revision": 1,
+          "sha256": "bd522972f98b68c35ce3063191d1d38e03ae98fa9b3ffff92fcbb8f83b422439"
+        },
+        "editorial_sha256": "ddf09f5b81a8a49a8bdaff5596d5fc09d50259017bd6e5e910821c14fac0f646"
+      }
     }
   },
   "migration": {
@@ -37171,6 +37183,26 @@
         "sha256": "fae172fa31211b2fb2bbb430952ad0c22823f2023d054242c27c26fa623598bd",
         "reviewed_at": "2026-10-28T17:00:49.385027+00:00",
         "operation_id": "65571a16ed149f2f4d9d9d13bce09c267ac8fe431068a91b10820d81d54f92e5"
+      }
+    ],
+    "250:1": [
+      {
+        "reference": {
+          "id": 250,
+          "revision": 1,
+          "sha256": "bd522972f98b68c35ce3063191d1d38e03ae98fa9b3ffff92fcbb8f83b422439"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer tooling launches (Copilot agents, multi-repo, code review, multi-model orchestration) are dev-focused, so DS",
+            "evidence_sha256": "2b17d4a46ecf7cff529868f3dc40cf441675b22eb72fc02f3a67b6f31472af00"
+          }
+        },
+        "sha256": "ddf09f5b81a8a49a8bdaff5596d5fc09d50259017bd6e5e910821c14fac0f646",
+        "reviewed_at": "2026-10-28T17:41:13.671944+00:00",
+        "operation_id": "6f9d74727d780b4215f9bfc4b0b554f2b21f260eda77e237f389ba6d692338c5"
       }
     ]
   }
