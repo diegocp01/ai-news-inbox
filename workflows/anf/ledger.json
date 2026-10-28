@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 734,
-  "updated_at": "2026-10-28T11:40:53.829007+00:00",
-  "next_id": 241,
+  "generation": 735,
+  "updated_at": "2026-10-28T11:49:10.225301+00:00",
+  "next_id": 244,
   "records": [
     {
       "id": 1,
@@ -3196,6 +3196,48 @@
           "source": "https://x.com/andrewcurran_/status/2115202368518451262",
           "request_id": "5dc6400e0a558586cdd4ca5ee78aa278c87f2c1f76b5fa268ace59447e9ea126",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "revisions": [
+        {
+          "created_at": "2026-10-28T11:49:10.225301+00:00",
+          "block": "Title: Google DeepMind Announces Genie 4 with Audio and Dialogue\nURL: https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/\nImage URL: https://lh3.googleusercontent.com/mKq26Yz8rlcAthtTHS2GaID7LuUM9a4zM16VHUszY-zyKly80QRUt5nn6V4jQN8_bJ4_UMesp1D_88ethzTEJPoo6NUPyhO76QZ7zNJM5KzfPE5GKjM=w1440-h810-n-nu\nSummary: Google DeepMind announced Genie 4, a model for interactive virtual worlds. Google says users can steer scenes with text prompts while it generates ambient sound, music and character dialogue. A research preview is rolling out to trusted testers, with access planned for Google AI Ultra subscribers through Project Genie and selected Gemini API and AI Studio partners.",
+          "sha256": "2f8a9bcff114dc4f13107bd9ed322e0ff56f2ddccb26768624b3b6d18f11f030",
+          "source": "deepmind.google",
+          "request_id": "e33da7829848c8d7f2efffddf898f79001ebdf23be382581349ce76332cb0e26",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "revisions": [
+        {
+          "created_at": "2026-10-28T11:49:10.225301+00:00",
+          "block": "Title: Anthropic Acquires Mithril Medicine and Expands Drug Research\nURL: https://www.anthropic.com/research/early-progress-drug-development\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/492ae2fdf955e71a24bfda5422f950febeeec07f-2000x1125.jpg\nSummary: Anthropic says it has acquired Mithril Medicine and begun its own drug discovery programs. Mithril’s founder used Claude to coordinate work with 11 external labs. Anthropic reports promising mouse results for a muscular dystrophy drug candidate, but the research remains preclinical. Human trials could begin as early as late 2028 if further testing supports proceeding.",
+          "sha256": "aca7dc787b40c35d9caeff6cd1a782901fd0da09441260a7bc9e9bc2d8b0238f",
+          "source": "anthropic.com",
+          "request_id": "e33da7829848c8d7f2efffddf898f79001ebdf23be382581349ce76332cb0e26",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "revisions": [
+        {
+          "created_at": "2026-10-28T11:49:10.225301+00:00",
+          "block": "Title: Axiom Reports Computer-Checked Classification of Finite Simple Groups\nURL: https://eu.36kr.com/en/p/4045021328675973\nImage URL: https://img.36krcdn.com/hsossms/20261028/v2_9ae60638a1bc4ee98e08d41338f42930%40000000_oswg491615oswg1080oswg535_img_000?x-oss-process=image%2Fformat%2Cjpg%2Finterlace%2C1\nSummary: Axiom says its team directed dozens of AI agents to formalize the Classification of Finite Simple Groups in Lean, proof-checking software, over 24 days, producing about 43 million lines of code. The theorem classifies the basic building blocks of finite groups. The company has published the code and says the project identified and corrected problems in published arguments.",
+          "sha256": "af832d0aec5b0bf290e82c6b3747cb9ca4024d9405f474a849150e801d225dd4",
+          "source": "eu.36kr.com",
+          "request_id": "e33da7829848c8d7f2efffddf898f79001ebdf23be382581349ce76332cb0e26",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -7035,14 +7077,32 @@
       ]
     },
     "e33da7829848c8d7f2efffddf898f79001ebdf23be382581349ce76332cb0e26": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-28T11:40:53.829007+00:00",
       "received_sequence": 217,
       "expected_items": 3,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-28T11:49:10.225301+00:00",
+      "records": [
+        {
+          "id": 241,
+          "revision": 1,
+          "sha256": "2f8a9bcff114dc4f13107bd9ed322e0ff56f2ddccb26768624b3b6d18f11f030"
+        },
+        {
+          "id": 242,
+          "revision": 1,
+          "sha256": "aca7dc787b40c35d9caeff6cd1a782901fd0da09441260a7bc9e9bc2d8b0238f"
+        },
+        {
+          "id": 243,
+          "revision": 1,
+          "sha256": "af832d0aec5b0bf290e82c6b3747cb9ca4024d9405f474a849150e801d225dd4"
+        }
+      ]
     }
   },
   "batches": {
@@ -28493,6 +28553,31 @@
       "result": {
         "status": "received",
         "request_id": "e33da7829848c8d7f2efffddf898f79001ebdf23be382581349ce76332cb0e26"
+      }
+    },
+    "8d0854148dd961fbe4b00ea5076c9a36e14e4fb4d74a81cc8a7e55a049673d4e": {
+      "sha256": "ca84a9d6f117a2f089f47ba612e712ae13abb06e297c8e54bcf022c49427afd8",
+      "result": {
+        "status": "finalized",
+        "request_id": "e33da7829848c8d7f2efffddf898f79001ebdf23be382581349ce76332cb0e26",
+        "records": [
+          {
+            "id": 241,
+            "revision": 1,
+            "sha256": "2f8a9bcff114dc4f13107bd9ed322e0ff56f2ddccb26768624b3b6d18f11f030"
+          },
+          {
+            "id": 242,
+            "revision": 1,
+            "sha256": "aca7dc787b40c35d9caeff6cd1a782901fd0da09441260a7bc9e9bc2d8b0238f"
+          },
+          {
+            "id": 243,
+            "revision": 1,
+            "sha256": "af832d0aec5b0bf290e82c6b3747cb9ca4024d9405f474a849150e801d225dd4"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
