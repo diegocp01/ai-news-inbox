@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 753,
-  "updated_at": "2026-10-28T16:16:32.974103+00:00",
+  "generation": 754,
+  "updated_at": "2026-10-28T16:16:34.034085+00:00",
   "next_id": 247,
   "records": [
     {
@@ -29359,6 +29359,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a5e8fec3720fa5da747805d14c49c26f5e64dd3393e780df0d55f4cd678e91cc": {
+      "sha256": "8c951f50abc3bf4bb9afd39acc0a3d8988352441c57dfdfd4ec869c46235ee93",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 246,
+          "revision": 1,
+          "sha256": "90d5f52344afedc761f34db616bb8ea5405550edfa51539694cd5cd4a65ecc73"
+        },
+        "editorial_sha256": "1e878665614266188a05d9758b04f5a922c0cc4b1133d679411a73a385c939ce"
+      }
     }
   },
   "migration": {
@@ -36835,6 +36847,26 @@
         "sha256": "a79869441207bb2f69888e0c6a12c998753c08a301d1f384db6d5faa49512eac",
         "reviewed_at": "2026-10-28T16:09:04.356280+00:00",
         "operation_id": "c8b1808b07eb17b4438eb9103c1196897ab4295342c5777fa61f90a2094224c4"
+      }
+    ],
+    "246:1": [
+      {
+        "reference": {
+          "id": 246,
+          "revision": 1,
+          "sha256": "90d5f52344afedc761f34db616bb8ea5405550edfa51539694cd5cd4a65ecc73"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Benchmark/eval methodology (held-out test sets, open-weights rankings) is ML-technical, so DS",
+            "evidence_sha256": "0a0fd0866e4d5641af09b389037d2a3d8d05f10babaf6e878d6dc69d8ada8a24"
+          }
+        },
+        "sha256": "1e878665614266188a05d9758b04f5a922c0cc4b1133d679411a73a385c939ce",
+        "reviewed_at": "2026-10-28T16:16:34.034085+00:00",
+        "operation_id": "a5e8fec3720fa5da747805d14c49c26f5e64dd3393e780df0d55f4cd678e91cc"
       }
     ]
   }
