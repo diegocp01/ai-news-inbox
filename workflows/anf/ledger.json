@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 768,
-  "updated_at": "2026-10-28T18:24:15.985343+00:00",
+  "generation": 769,
+  "updated_at": "2026-10-28T18:24:16.755257+00:00",
   "next_id": 252,
   "records": [
     {
@@ -29679,6 +29679,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d5e2fe9d7ddfdababb27e466ae40d2d9ab9272387285f7cacd08a97e08b9604b": {
+      "sha256": "edd6f4f8f3a00abf4799a564b378400df5fd1ea8ff93e337c849959a8fec6caf",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 251,
+          "revision": 1,
+          "sha256": "8ba1bb10a560ccf8161a7a7eb433be731cf9257a3fded7710c26660d5b236440"
+        },
+        "editorial_sha256": "d0122c0b5fa69e73540d9aeb19e10e7b083676673c58e02677c462223bf71279"
+      }
     }
   },
   "migration": {
@@ -37255,6 +37267,26 @@
         "sha256": "ddf09f5b81a8a49a8bdaff5596d5fc09d50259017bd6e5e910821c14fac0f646",
         "reviewed_at": "2026-10-28T17:41:13.671944+00:00",
         "operation_id": "6f9d74727d780b4215f9bfc4b0b554f2b21f260eda77e237f389ba6d692338c5"
+      }
+    ],
+    "251:1": [
+      {
+        "reference": {
+          "id": 251,
+          "revision": 1,
+          "sha256": "8ba1bb10a560ccf8161a7a7eb433be731cf9257a3fded7710c26660d5b236440"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer messaging feature for ChatGPT dots; no DS terms; not a new model",
+            "evidence_sha256": "9ba2dc8b34d5986da470084985dfeb0d08b85d80571d25fc9ccf21ecfbc52d4f"
+          }
+        },
+        "sha256": "d0122c0b5fa69e73540d9aeb19e10e7b083676673c58e02677c462223bf71279",
+        "reviewed_at": "2026-10-28T18:24:16.755257+00:00",
+        "operation_id": "d5e2fe9d7ddfdababb27e466ae40d2d9ab9272387285f7cacd08a97e08b9604b"
       }
     ]
   }
