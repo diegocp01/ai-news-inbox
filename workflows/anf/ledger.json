@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 759,
-  "updated_at": "2026-10-28T16:59:42.987837+00:00",
+  "generation": 760,
+  "updated_at": "2026-10-28T16:59:43.607780+00:00",
   "next_id": 249,
   "records": [
     {
@@ -29487,6 +29487,18 @@
         ],
         "duplicates": []
       }
+    },
+    "4434c3580906d9a629d91ad229afd1680ab5f1d5b2ecd6fd7a8b3c8b093e4d02": {
+      "sha256": "632c1fc55ab24cf7d4a2a985a136fef5abde65e6bf66499cc3630bb7d854150f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 248,
+          "revision": 1,
+          "sha256": "d6163e1cba3e522b609c9a01a34f193e96ba20561a836f9c423db5bbfd4628cf"
+        },
+        "editorial_sha256": "0ad46ebb05527ec531e53c2ffeda317983a7e67e326fc66029e256a16d80540a"
+      }
     }
   },
   "migration": {
@@ -37003,6 +37015,26 @@
         "sha256": "c53c002a213b1d36983f93f77f0de187b7c8b32740bbaf8022967db0fc008302",
         "reviewed_at": "2026-10-28T16:19:25.535357+00:00",
         "operation_id": "ebedf5ec95a2a8c1b28a5cb8fd6122b9c5f903b405e824a0e53538173fcbbed9"
+      }
+    ],
+    "248:1": [
+      {
+        "reference": {
+          "id": 248,
+          "revision": 1,
+          "sha256": "d6163e1cba3e522b609c9a01a34f193e96ba20561a836f9c423db5bbfd4628cf"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "open_source",
+            "rationale": "Open-weight MoE model release with parameter counts and checkpoint details is ML-technical, so DS",
+            "evidence_sha256": "b13d6fd054f60204c85bcfb144715c580bd4a6ad62cbfa803b8b7adf98a015d1"
+          }
+        },
+        "sha256": "0ad46ebb05527ec531e53c2ffeda317983a7e67e326fc66029e256a16d80540a",
+        "reviewed_at": "2026-10-28T16:59:43.607780+00:00",
+        "operation_id": "4434c3580906d9a629d91ad229afd1680ab5f1d5b2ecd6fd7a8b3c8b093e4d02"
       }
     ]
   }
