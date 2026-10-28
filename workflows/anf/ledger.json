@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 779,
-  "updated_at": "2026-10-28T23:17:51.622408+00:00",
-  "next_id": 255,
+  "generation": 780,
+  "updated_at": "2026-10-28T23:17:52.171212+00:00",
+  "next_id": 256,
   "records": [
     {
       "id": 1,
@@ -3380,6 +3380,19 @@
           "sha256": "bf0670dacba8295d69485bcbb5b9f56f256747806308b6c922cd74402a29cf34",
           "source": "https://arxiv.org/abs/2610.24061",
           "request_id": "b5743ecbd0ab0219c17124ba92457a4b0833114ba75d2f41faa0feefc5587fb9",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 255,
+      "revisions": [
+        {
+          "created_at": "2026-10-28T23:17:52.171212+00:00",
+          "block": "Title: Simulon Launches Reality-Aware Rendering on iPhone\nURL: \nImage URL: https://framerusercontent.com/images/usGHMLhdfHa3VuuxrDKeRicDtxk.jpg\nSummary: Simulon introduced Reality-Aware Rendering, according to Divesh Naidoo. Users place AI-generated assets with their phone and act out a scene; after recording, Simulon renders the take, with assets responding to the user's actions, speech and surroundings. Naidoo says the result is a newly generated performance, not a copy of the footage. Available now on iPhone, with Android coming.",
+          "sha256": "bce59b2fd3696034a5ed0c7021e27a8d8f66be88fb92a1289631102a066a1969",
+          "source": "https://x.com/diveshnaidoo/status/2115477721455214623",
+          "request_id": "fa40242bab48ac415eef536328aae84ab8ad8388a531d3be19fbdbf6a8d0df8e",
           "mode": "standard"
         }
       ]
@@ -7435,13 +7448,21 @@
       ]
     },
     "fa40242bab48ac415eef536328aae84ab8ad8388a531d3be19fbdbf6a8d0df8e": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-28T23:17:51.622408+00:00",
       "received_sequence": 229,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-28T23:17:52.171212+00:00",
+      "records": [
+        {
+          "id": 255,
+          "revision": 1,
+          "sha256": "bce59b2fd3696034a5ed0c7021e27a8d8f66be88fb92a1289631102a066a1969"
+        }
+      ]
     }
   },
   "batches": {
@@ -29898,6 +29919,21 @@
       "result": {
         "status": "received",
         "request_id": "fa40242bab48ac415eef536328aae84ab8ad8388a531d3be19fbdbf6a8d0df8e"
+      }
+    },
+    "ec97d52a68859ac33eed76d670429bbdbf9d949e0ba97aee51cf8cc804a842ae": {
+      "sha256": "6853c0ecf21ddf639803a057cdf0545f4b722f65184f650d6929cf7dd184ca32",
+      "result": {
+        "status": "finalized",
+        "request_id": "fa40242bab48ac415eef536328aae84ab8ad8388a531d3be19fbdbf6a8d0df8e",
+        "records": [
+          {
+            "id": 255,
+            "revision": 1,
+            "sha256": "bce59b2fd3696034a5ed0c7021e27a8d8f66be88fb92a1289631102a066a1969"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
