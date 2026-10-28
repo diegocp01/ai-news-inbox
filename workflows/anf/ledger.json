@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 764,
-  "updated_at": "2026-10-28T17:41:12.006637+00:00",
-  "next_id": 250,
+  "generation": 765,
+  "updated_at": "2026-10-28T17:41:12.885706+00:00",
+  "next_id": 251,
   "records": [
     {
       "id": 1,
@@ -3315,6 +3315,19 @@
           "sha256": "488a41dbcf5290349592947c2fc394e82f1b3469443ef9f9e6da2a0a6a5e717f",
           "source": "https://x.com/ahuja_karan/status/2115255882921672914",
           "request_id": "cd34856841e5be88494fd27625f04236b10b9899c940368c3eef068f83202068",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "revisions": [
+        {
+          "created_at": "2026-10-28T17:41:12.885706+00:00",
+          "block": "Title: GitHub Unveils Copilot App, Copilot Fusion and More at Universe 2026\nURL: https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/\nImage URL: https://github.blog/wp-content/uploads/2026/10/686528641-0e20e617-dc8d-4bb3-bd66-70d248ba125f.png\nSummary: At Universe 2026, GitHub introduced the Copilot app for agentic software delivery, Copilot Fusion multi-model orchestration, multi-repo Copilot projects, and Copilot code review Max. GitHub says Fusion Max scored within two points of Opus 5.5 Max at half the cost. Enterprise customers can now use all Copilot features without a separate subscription, paying for AI credits used.",
+          "sha256": "bd522972f98b68c35ce3063191d1d38e03ae98fa9b3ffff92fcbb8f83b422439",
+          "source": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+          "request_id": "237f3eb98632a8dabde9b3e5a67343636968668a8b0b0eb1cc69d211c01e173a",
           "mode": "standard"
         }
       ]
@@ -7285,13 +7298,21 @@
       ]
     },
     "237f3eb98632a8dabde9b3e5a67343636968668a8b0b0eb1cc69d211c01e173a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-28T17:41:12.006637+00:00",
       "received_sequence": 224,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-28T17:41:12.885706+00:00",
+      "records": [
+        {
+          "id": 250,
+          "revision": 1,
+          "sha256": "bd522972f98b68c35ce3063191d1d38e03ae98fa9b3ffff92fcbb8f83b422439"
+        }
+      ]
     }
   },
   "batches": {
@@ -29578,6 +29599,21 @@
       "result": {
         "status": "received",
         "request_id": "237f3eb98632a8dabde9b3e5a67343636968668a8b0b0eb1cc69d211c01e173a"
+      }
+    },
+    "17a9e4fdbc3d783f53a5337685e3befea13b5311374e493071847ebc95d52e7e": {
+      "sha256": "4b5c2f064002fd6f1e93a214981c9ba264920ec8e2e33d174430616c5189021a",
+      "result": {
+        "status": "finalized",
+        "request_id": "237f3eb98632a8dabde9b3e5a67343636968668a8b0b0eb1cc69d211c01e173a",
+        "records": [
+          {
+            "id": 250,
+            "revision": 1,
+            "sha256": "bd522972f98b68c35ce3063191d1d38e03ae98fa9b3ffff92fcbb8f83b422439"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
