@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 776,
-  "updated_at": "2026-10-28T23:10:33.307024+00:00",
-  "next_id": 254,
+  "generation": 777,
+  "updated_at": "2026-10-28T23:10:33.929167+00:00",
+  "next_id": 255,
   "records": [
     {
       "id": 1,
@@ -3367,6 +3367,19 @@
           "sha256": "a1e61fc13ed5f1d09f6b5b07da44ebbfd041e1c8b821b0bdfe1f531f25dc7198",
           "source": "https://x.com/_albertgu/status/2115502110578290900",
           "request_id": "17d00d24a59ccbede8beca3406c3404f02bef083ad8ce21b35da86f0651d9bcd",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "revisions": [
+        {
+          "created_at": "2026-10-28T23:10:33.929167+00:00",
+          "block": "Title: Researchers Simulate Software Worlds to Study How AI Agents Collaborate\nURL: https://arxiv.org/abs/2610.24061\nImage URL: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png\nSummary: A new arXiv paper, \"World of SWECraft,\" introduces Software World, a framework where AI agents jointly maintain real, interdependent Python packages. Across 10,000+ hours of agent work with eight models, the authors report gains scaled with inference-time compute, the best model improving downstream efficiency up to 31%, though some frontier models stopped looking for improvements prematurely.",
+          "sha256": "bf0670dacba8295d69485bcbb5b9f56f256747806308b6c922cd74402a29cf34",
+          "source": "https://arxiv.org/abs/2610.24061",
+          "request_id": "b5743ecbd0ab0219c17124ba92457a4b0833114ba75d2f41faa0feefc5587fb9",
           "mode": "standard"
         }
       ]
@@ -7405,13 +7418,21 @@
       ]
     },
     "b5743ecbd0ab0219c17124ba92457a4b0833114ba75d2f41faa0feefc5587fb9": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-28T23:10:33.307024+00:00",
       "received_sequence": 228,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-28T23:10:33.929167+00:00",
+      "records": [
+        {
+          "id": 254,
+          "revision": 1,
+          "sha256": "bf0670dacba8295d69485bcbb5b9f56f256747806308b6c922cd74402a29cf34"
+        }
+      ]
     }
   },
   "batches": {
@@ -29834,6 +29855,21 @@
       "result": {
         "status": "received",
         "request_id": "b5743ecbd0ab0219c17124ba92457a4b0833114ba75d2f41faa0feefc5587fb9"
+      }
+    },
+    "8192f51c7cb75266ffc7d2515fb910a76e7e052f0a3ac3f4bdda3ab38fb03355": {
+      "sha256": "908c269498426e27ff590818f8eb9cbfcb24e4ae7c0daed91f7de5467f92ad43",
+      "result": {
+        "status": "finalized",
+        "request_id": "b5743ecbd0ab0219c17124ba92457a4b0833114ba75d2f41faa0feefc5587fb9",
+        "records": [
+          {
+            "id": 254,
+            "revision": 1,
+            "sha256": "bf0670dacba8295d69485bcbb5b9f56f256747806308b6c922cd74402a29cf34"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
