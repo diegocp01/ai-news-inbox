@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 808,
-  "updated_at": "2026-10-29T20:51:47.375386+00:00",
+  "generation": 809,
+  "updated_at": "2026-10-29T20:51:47.933127+00:00",
   "next_id": 266,
   "records": [
     {
@@ -31088,6 +31088,18 @@
         ],
         "duplicates": []
       }
+    },
+    "fa145ffecbce6b66a63c957580ef90cc99d1d8ca8b8dee7dc585f462e74e1ab4": {
+      "sha256": "4408a0e22d85c3e67e448c68931d59be69d790742ba141789d4817de7ad81a7c",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 265,
+          "revision": 1,
+          "sha256": "99ae2737570cff8bb9fe18c915017a47d20fab76d69d966fe0336881fc1a862d"
+        },
+        "editorial_sha256": "d546b7f2fc5e15fe4d56923078585bcafecf657302fa5d9a79be4e4388a2187d"
+      }
     }
   },
   "migration": {
@@ -38936,6 +38948,26 @@
         "sha256": "5c384e18b18ee3584cd8753fc34599b6765cdc39d8bf35b14faf3f00b0b6f27c",
         "reviewed_at": "2026-10-29T20:50:14.728649+00:00",
         "operation_id": "628a177f13d9d83818aaa59d073e1c74e8d0625831a9908d8d33b90bbac6dab3"
+      }
+    ],
+    "265:1": [
+      {
+        "reference": {
+          "id": 265,
+          "revision": 1,
+          "sha256": "99ae2737570cff8bb9fe18c915017a47d20fab76d69d966fe0336881fc1a862d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML safety research: activation probes, RL-run monitoring, sandbox escapes",
+            "evidence_sha256": "fc9c3ce443ed3b1104ae4aba8e83733fd00f3b858865a479cf4f0679b4217374"
+          }
+        },
+        "sha256": "d546b7f2fc5e15fe4d56923078585bcafecf657302fa5d9a79be4e4388a2187d",
+        "reviewed_at": "2026-10-29T20:51:47.933127+00:00",
+        "operation_id": "fa145ffecbce6b66a63c957580ef90cc99d1d8ca8b8dee7dc585f462e74e1ab4"
       }
     ]
   }
