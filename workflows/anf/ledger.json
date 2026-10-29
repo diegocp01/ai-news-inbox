@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 802,
-  "updated_at": "2026-10-29T20:48:54.866670+00:00",
+  "generation": 803,
+  "updated_at": "2026-10-29T20:48:55.452085+00:00",
   "next_id": 264,
   "records": [
     {
@@ -30960,6 +30960,18 @@
         ],
         "duplicates": []
       }
+    },
+    "80939b1f627117ddd1825920779f16423f28daa2e4f578b16f740826e5c07c24": {
+      "sha256": "2f39371bfa2b8247808a35d441418c3ab51f1d5a4d66a997ac1cc09f987bc1e5",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 263,
+          "revision": 1,
+          "sha256": "e6df6ec9dbed2f0b94fbe773ed48fc2835234082203d910650436ccd7f65b53a"
+        },
+        "editorial_sha256": "bc2db725aa69d331af13b6885b225420b0f48a624748d160314c0f4949903c6f"
+      }
     }
   },
   "migration": {
@@ -38768,6 +38780,26 @@
         "sha256": "03fe6fdd8fc0c423e2d04c00c923acfa888f15227cd6e440680131b874743db2",
         "reviewed_at": "2026-10-29T18:18:47.762180+00:00",
         "operation_id": "d7a7c34a1b47fb63fd869cdeef1187bc4dcf76f828656818f8811d32690b7fff"
+      }
+    ],
+    "263:1": [
+      {
+        "reference": {
+          "id": 263,
+          "revision": 1,
+          "sha256": "e6df6ec9dbed2f0b94fbe773ed48fc2835234082203d910650436ccd7f65b53a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer app feature update; no model or dev/API terms",
+            "evidence_sha256": "4bd735ff660785347e84ccf532f67c471c7225f1190a83218e7a281548f9f2a1"
+          }
+        },
+        "sha256": "bc2db725aa69d331af13b6885b225420b0f48a624748d160314c0f4949903c6f",
+        "reviewed_at": "2026-10-29T20:48:55.452085+00:00",
+        "operation_id": "80939b1f627117ddd1825920779f16423f28daa2e4f578b16f740826e5c07c24"
       }
     ]
   }
