@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 811,
-  "updated_at": "2026-10-29T21:06:42.167006+00:00",
+  "generation": 812,
+  "updated_at": "2026-10-29T21:06:42.759110+00:00",
   "next_id": 267,
   "records": [
     {
@@ -31152,6 +31152,18 @@
         ],
         "duplicates": []
       }
+    },
+    "26a07c7aa01f54eca2486d16cb2840997786bf9ee102c1b74b3c3ef03f002645": {
+      "sha256": "368f743349a34b0c0c3120461c2a1f952a3d31747e6263bb934ff3a0b9464fe7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 266,
+          "revision": 1,
+          "sha256": "6f61af2cf01ef408c0b05a022fb2e323f7f334ad286242c4468061439826ad28"
+        },
+        "editorial_sha256": "716894169b3ee044330b1d85062795cf5f7329d434fce72ac87e11bbc11021f6"
+      }
     }
   },
   "migration": {
@@ -39020,6 +39032,26 @@
         "sha256": "d546b7f2fc5e15fe4d56923078585bcafecf657302fa5d9a79be4e4388a2187d",
         "reviewed_at": "2026-10-29T20:51:47.933127+00:00",
         "operation_id": "fa145ffecbce6b66a63c957580ef90cc99d1d8ca8b8dee7dc585f462e74e1ab4"
+      }
+    ],
+    "266:1": [
+      {
+        "reference": {
+          "id": 266,
+          "revision": 1,
+          "sha256": "6f61af2cf01ef408c0b05a022fb2e323f7f334ad286242c4468061439826ad28"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML safety research: classifier recall, false-positive rates, KV-cache monitoring",
+            "evidence_sha256": "eb6de248094b9d89eee3dfb211af6dc61796f9508c0c773098c0551939bdac99"
+          }
+        },
+        "sha256": "716894169b3ee044330b1d85062795cf5f7329d434fce72ac87e11bbc11021f6",
+        "reviewed_at": "2026-10-29T21:06:42.759110+00:00",
+        "operation_id": "26a07c7aa01f54eca2486d16cb2840997786bf9ee102c1b74b3c3ef03f002645"
       }
     ]
   }
