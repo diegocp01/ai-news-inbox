@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 796,
-  "updated_at": "2026-10-29T17:44:21.736718+00:00",
+  "generation": 797,
+  "updated_at": "2026-10-29T17:44:22.287400+00:00",
   "next_id": 262,
   "records": [
     {
@@ -30832,6 +30832,18 @@
         ],
         "duplicates": []
       }
+    },
+    "93770198ec5c49b751ab518fa6c49fbef9639d7290983fd6a8d20868ff1e39f3": {
+      "sha256": "8d6386899c6fc95c9fbc2698923b8ab2a474df88a642f70ded13241aca3d6a08",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 261,
+          "revision": 1,
+          "sha256": "bad2e87a0c0732c1e0905a3cf0e02a4c56e359a200530090eebadfeb1a98bc0a"
+        },
+        "editorial_sha256": "89aaa3316a2fc24ab0e620c710b32f9603282ca23e17cd6fea7b4e0f49b45b60"
+      }
     }
   },
   "migration": {
@@ -38600,6 +38612,26 @@
         "sha256": "923d848b32382e77316dfe1f2984a476672e3bdc52d80504318b335d6783e744",
         "reviewed_at": "2026-10-29T12:02:24.847641+00:00",
         "operation_id": "muse-backfill-20261029-258-9404"
+      }
+    ],
+    "261:1": [
+      {
+        "reference": {
+          "id": 261,
+          "revision": 1,
+          "sha256": "bad2e87a0c0732c1e0905a3cf0e02a4c56e359a200530090eebadfeb1a98bc0a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Subscription plan usage-limit change; consumer/business pricing news, no DS terms",
+            "evidence_sha256": "bd3783792317e3866595e594f90a3823584f7597388506761953d1221e424276"
+          }
+        },
+        "sha256": "89aaa3316a2fc24ab0e620c710b32f9603282ca23e17cd6fea7b4e0f49b45b60",
+        "reviewed_at": "2026-10-29T17:44:22.287400+00:00",
+        "operation_id": "93770198ec5c49b751ab518fa6c49fbef9639d7290983fd6a8d20868ff1e39f3"
       }
     ]
   }
