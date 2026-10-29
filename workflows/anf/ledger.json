@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 810,
-  "updated_at": "2026-10-29T21:06:41.084271+00:00",
-  "next_id": 266,
+  "generation": 811,
+  "updated_at": "2026-10-29T21:06:42.167006+00:00",
+  "next_id": 267,
   "records": [
     {
       "id": 1,
@@ -3525,6 +3525,19 @@
           "sha256": "99ae2737570cff8bb9fe18c915017a47d20fab76d69d966fe0336881fc1a862d",
           "source": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
           "request_id": "f6deaf887b0f7b6227320595bd34625613a5ec7d98bbd1d62dc6cd9070a4d091",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "revisions": [
+        {
+          "created_at": "2026-10-29T21:06:42.167006+00:00",
+          "block": "Title: Anthropic Introduces Self-Assessment to Scale Misuse Detection\nURL: https://safeguards.anthropic.com/2026/self-assessment/\nImage URL: https://safeguards.anthropic.com/2026/self-assessment/social-card.png\nSummary: Anthropic researchers say self-assessment lets Claude rate the safety of each conversation right after responding. On Claude Fable 5, it flags 78% of conversations a stronger prompted classifier marks as potentially harmful, and 94% of high-priority ones, at a 1% false-positive rate. Anthropic says it has uncovered large-scale misuse missed by other methods since June.",
+          "sha256": "6f61af2cf01ef408c0b05a022fb2e323f7f334ad286242c4468061439826ad28",
+          "source": "https://safeguards.anthropic.com/2026/self-assessment/",
+          "request_id": "b79a0dccebe4da30176d2af693affd9e5a5421ff1c3fe16eeb82113fa8bc9db9",
           "mode": "standard"
         }
       ]
@@ -7744,13 +7757,21 @@
       ]
     },
     "b79a0dccebe4da30176d2af693affd9e5a5421ff1c3fe16eeb82113fa8bc9db9": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-29T21:06:41.084271+00:00",
       "received_sequence": 238,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-29T21:06:42.167006+00:00",
+      "records": [
+        {
+          "id": 266,
+          "revision": 1,
+          "sha256": "6f61af2cf01ef408c0b05a022fb2e323f7f334ad286242c4468061439826ad28"
+        }
+      ]
     }
   },
   "batches": {
@@ -31115,6 +31136,21 @@
       "result": {
         "status": "received",
         "request_id": "b79a0dccebe4da30176d2af693affd9e5a5421ff1c3fe16eeb82113fa8bc9db9"
+      }
+    },
+    "8fc7d5b1188bd34f865d70fc4e1b1d70fcb309fc9cba2d6f6da136ba7663a685": {
+      "sha256": "b3315f0252d372fd399d25ebcc1e7f0a2fcd5835cf6ff1783c1b9df51075a25f",
+      "result": {
+        "status": "finalized",
+        "request_id": "b79a0dccebe4da30176d2af693affd9e5a5421ff1c3fe16eeb82113fa8bc9db9",
+        "records": [
+          {
+            "id": 266,
+            "revision": 1,
+            "sha256": "6f61af2cf01ef408c0b05a022fb2e323f7f334ad286242c4468061439826ad28"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
