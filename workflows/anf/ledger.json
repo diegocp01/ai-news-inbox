@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 801,
-  "updated_at": "2026-10-29T20:48:53.990682+00:00",
-  "next_id": 263,
+  "generation": 802,
+  "updated_at": "2026-10-29T20:48:54.866670+00:00",
+  "next_id": 264,
   "records": [
     {
       "id": 1,
@@ -3486,6 +3486,19 @@
           "sha256": "421b8d9e1965eda6dc5da506b756272b95e610cfc3d6e0fb5a3c667b097f635b",
           "source": "https://x.com/kalshi/status/2115842314920702347",
           "request_id": "9378d4db7ecdfc3f4143c432cc3a1fd1ea491cf83cd1e671dd8d0dbd9768459e",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "revisions": [
+        {
+          "created_at": "2026-10-29T20:48:54.866670+00:00",
+          "block": "Title: Anthropic Upgrades Claude Mobile Apps With iPad Multitasking, CarPlay and More\nURL: https://cryptobriefing.com/claude-mobile-apps-multitasking-carplay-update/\nImage URL: https://static.cryptobriefing.com/wp-content/uploads/2026/10/29140427/library-claude-mobile-apps-get-multitasking-account-switching-an-800x450.png\nSummary: Anthropic says Claude's mobile apps now show Claude's creations beside the chat on iPad, support multiple signed-in accounts, and bring voice mode to Apple CarPlay. Voice responds faster and hears better in noisy rooms, the app adds 24 languages for 33 total, Android gets a laptop-style layout on Chromebooks, and pull-down search is coming soon.",
+          "sha256": "e6df6ec9dbed2f0b94fbe773ed48fc2835234082203d910650436ccd7f65b53a",
+          "source": "https://x.com/claudeai/status/2115859377488072879",
+          "request_id": "1a14947b89894fb301e05c43aa36b69f75f4be0a28e6e7dc03e772337d463ea7",
           "mode": "standard"
         }
       ]
@@ -7654,13 +7667,21 @@
       ]
     },
     "1a14947b89894fb301e05c43aa36b69f75f4be0a28e6e7dc03e772337d463ea7": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-29T20:48:53.990682+00:00",
       "received_sequence": 235,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-29T20:48:54.866670+00:00",
+      "records": [
+        {
+          "id": 263,
+          "revision": 1,
+          "sha256": "e6df6ec9dbed2f0b94fbe773ed48fc2835234082203d910650436ccd7f65b53a"
+        }
+      ]
     }
   },
   "batches": {
@@ -30923,6 +30944,21 @@
       "result": {
         "status": "received",
         "request_id": "1a14947b89894fb301e05c43aa36b69f75f4be0a28e6e7dc03e772337d463ea7"
+      }
+    },
+    "5da35fa04318c882590aec3e15d56ce776e7a87187d2bf23b2a636c48ef29e4e": {
+      "sha256": "d8d3799c85be6c7a9d1682d83a2de1a826f9d0a9b7e6c6373d415681cf761e80",
+      "result": {
+        "status": "finalized",
+        "request_id": "1a14947b89894fb301e05c43aa36b69f75f4be0a28e6e7dc03e772337d463ea7",
+        "records": [
+          {
+            "id": 263,
+            "revision": 1,
+            "sha256": "e6df6ec9dbed2f0b94fbe773ed48fc2835234082203d910650436ccd7f65b53a"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
