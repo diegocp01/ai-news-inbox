@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 786,
-  "updated_at": "2026-10-29T11:37:03.262451+00:00",
+  "generation": 788,
+  "updated_at": "2026-10-29T12:02:24.847641+00:00",
   "next_id": 259,
   "records": [
     {
@@ -30089,6 +30089,30 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261029-257-2040": {
+      "sha256": "0754ce511b7c0dd099533ccfc402697d6d06f627e2182f1904d65ed0031b3ae0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 257,
+          "revision": 1,
+          "sha256": "e5129a7cfc51d4e8469c1ad665e4be1f7d92bba374923a98dfe6f0bd6331546b"
+        },
+        "editorial_sha256": "f97fa16ef22cc0ac0042e1a1e673fbc428d2e55a4a935a6ff6572ee117dd19d8"
+      }
+    },
+    "muse-backfill-20261029-258-9404": {
+      "sha256": "52e76424cd78fc0833ce42ae319347c895a1e48018ddfd5c63f9d9b131d90ba3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 258,
+          "revision": 1,
+          "sha256": "c085e44d061b8b267821247efeebdccc424fef9e91cde787b6eeb82ca55f4421"
+        },
+        "editorial_sha256": "923d848b32382e77316dfe1f2984a476672e3bdc52d80504318b335d6783e744"
+      }
     }
   },
   "migration": {
@@ -37817,6 +37841,46 @@
         "sha256": "d8254263990b700a594ac01acdb6eaec8a75d436b408043cc184beb111504253",
         "reviewed_at": "2026-10-29T01:18:26.235545+00:00",
         "operation_id": "da4de4303a72a3ef17e3b5d59d859655167d1df21bb3a42ce87f7f229841410a"
+      }
+    ],
+    "257:1": [
+      {
+        "reference": {
+          "id": 257,
+          "revision": 1,
+          "sha256": "e5129a7cfc51d4e8469c1ad665e4be1f7d92bba374923a98dfe6f0bd6331546b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google announced Gemini 4 Carbon for cybersecurity and extended coding tasks, with initial access for selected cyber defenders followed by trusted partners. Like the earlier Gemini 4 Carbon record 252, this is a model announcement written for a general audience; the summary uses no ML-technical, developer/API or hardware-internals terms. muse-compile-backfill 2026-10-29: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e5129a7cfc51d4e8469c1ad665e4be1f7d92bba374923a98dfe6f0bd6331546b"
+          }
+        },
+        "sha256": "f97fa16ef22cc0ac0042e1a1e673fbc428d2e55a4a935a6ff6572ee117dd19d8",
+        "reviewed_at": "2026-10-29T12:02:24.738015+00:00",
+        "operation_id": "muse-backfill-20261029-257-2040"
+      }
+    ],
+    "258:1": [
+      {
+        "reference": {
+          "id": 258,
+          "revision": 1,
+          "sha256": "c085e44d061b8b267821247efeebdccc424fef9e91cde787b6eeb82ca55f4421"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic engineering manager Felix Rieseberg says he has stopped using traditional coding interviews, arguing Claude now performs better on the small coding challenges he previously used, and advises junior engineers to build a focused prototype aligned with company goals. This is hiring/management commentary in plain language; the summary uses no ML-technical, developer/API or hardware-internals terms. muse-compile-backfill 2026-10-29: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "c085e44d061b8b267821247efeebdccc424fef9e91cde787b6eeb82ca55f4421"
+          }
+        },
+        "sha256": "923d848b32382e77316dfe1f2984a476672e3bdc52d80504318b335d6783e744",
+        "reviewed_at": "2026-10-29T12:02:24.847641+00:00",
+        "operation_id": "muse-backfill-20261029-258-9404"
       }
     ]
   }
