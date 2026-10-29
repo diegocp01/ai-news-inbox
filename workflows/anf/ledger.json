@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 795,
-  "updated_at": "2026-10-29T17:44:21.153837+00:00",
-  "next_id": 261,
+  "generation": 796,
+  "updated_at": "2026-10-29T17:44:21.736718+00:00",
+  "next_id": 262,
   "records": [
     {
       "id": 1,
@@ -3460,6 +3460,19 @@
           "sha256": "0be72b2d78371640085371c52ec64127f644f6a0a5f9b824ff41877df3d6e304",
           "source": "arXiv",
           "request_id": "c0d46fc77bb9648a49f612f15add60b72c81fdd00468f1cf344768474afd5222",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "revisions": [
+        {
+          "created_at": "2026-10-29T17:44:21.736718+00:00",
+          "block": "Title: OpenAI Doubles Usage Limits for ChatGPT Pro and Business Premium\nURL: \nImage URL: https://www.engadget.com/img/gallery/openai-adds-500-pro-subscription-nerfs-its-existing-200-tier/l-intro-1790697735.jpg\nSummary: OpenAI's Thibault Sottiaux says usage limits are doubling for ChatGPT Pro 100, 200 and 500 and Business Premium, effective today. OpenAI also canceled a planned Pro 200 cut, so Work and Codex usage stays the same; its help center says only Pro 200's lower allowance doubles. Extended limits for dots continue, counted separately from regular usage.",
+          "sha256": "bad2e87a0c0732c1e0905a3cf0e02a4c56e359a200530090eebadfeb1a98bc0a",
+          "source": "https://x.com/thsottiaux/status/2115850175868727621",
+          "request_id": "cc51ffaea25a98c5a63b322814cc93a42f4e3e98f560691673111e36469f1c5d",
           "mode": "standard"
         }
       ]
@@ -7594,13 +7607,21 @@
       ]
     },
     "cc51ffaea25a98c5a63b322814cc93a42f4e3e98f560691673111e36469f1c5d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-29T17:44:21.153837+00:00",
       "received_sequence": 233,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-29T17:44:21.736718+00:00",
+      "records": [
+        {
+          "id": 261,
+          "revision": 1,
+          "sha256": "bad2e87a0c0732c1e0905a3cf0e02a4c56e359a200530090eebadfeb1a98bc0a"
+        }
+      ]
     }
   },
   "batches": {
@@ -30795,6 +30816,21 @@
       "result": {
         "status": "received",
         "request_id": "cc51ffaea25a98c5a63b322814cc93a42f4e3e98f560691673111e36469f1c5d"
+      }
+    },
+    "5f6abd6d9935363b2f888ece97d6609a97b856ad9cce1a5bbfa66828c4014cbc": {
+      "sha256": "6b482a76b7ba73e9bd4569ccdeda5104aed0937d5749badca7317d2078b8eb5d",
+      "result": {
+        "status": "finalized",
+        "request_id": "cc51ffaea25a98c5a63b322814cc93a42f4e3e98f560691673111e36469f1c5d",
+        "records": [
+          {
+            "id": 261,
+            "revision": 1,
+            "sha256": "bad2e87a0c0732c1e0905a3cf0e02a4c56e359a200530090eebadfeb1a98bc0a"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
