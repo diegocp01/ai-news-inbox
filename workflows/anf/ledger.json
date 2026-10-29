@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 782,
-  "updated_at": "2026-10-29T01:05:45.173289+00:00",
-  "next_id": 256,
+  "generation": 783,
+  "updated_at": "2026-10-29T01:17:31.913940+00:00",
+  "next_id": 257,
   "records": [
     {
       "id": 1,
@@ -3393,6 +3393,19 @@
           "sha256": "bce59b2fd3696034a5ed0c7021e27a8d8f66be88fb92a1289631102a066a1969",
           "source": "https://x.com/diveshnaidoo/status/2115477721455214623",
           "request_id": "fa40242bab48ac415eef536328aae84ab8ad8388a531d3be19fbdbf6a8d0df8e",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 256,
+      "revisions": [
+        {
+          "created_at": "2026-10-29T01:17:31.913940+00:00",
+          "block": "Title: OpenAI Adds Up to $500 in Monthly API Credits to ChatGPT Plans\nURL: https://www.youtube.com/watch?v=ujmyzWSj8IU\nImage URL: https://markenote.jp/wp-content/uploads/2026/10/abt_news_thumb_chatgpt_api_credits_1028.webp\nSummary: Eligible ChatGPT Pro subscribers can claim $100, $200 or $500 in monthly API credits, matching their plan tier. Business workspaces receive $20 per Standard seat or $100 per Premium seat, capped at $500 monthly. Activation links an owned API organization; unused credits expire each billing cycle and do not increase ChatGPT or Codex usage limits.",
+          "sha256": "4efc75d51bf70785fd3066ca8066a25f532cf50b566a0a49fe44eaf8ea42f882",
+          "source": "OpenAI",
+          "request_id": "699f9b261db7e58da69622a4f4dff1845413f50d6251813ff244b4297d012f76",
           "mode": "standard"
         }
       ]
@@ -7465,13 +7478,21 @@
       ]
     },
     "699f9b261db7e58da69622a4f4dff1845413f50d6251813ff244b4297d012f76": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-29T01:05:45.173289+00:00",
       "received_sequence": 230,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-29T01:17:31.913940+00:00",
+      "records": [
+        {
+          "id": 256,
+          "revision": 1,
+          "sha256": "4efc75d51bf70785fd3066ca8066a25f532cf50b566a0a49fe44eaf8ea42f882"
+        }
+      ]
     }
   },
   "batches": {
@@ -29962,6 +29983,21 @@
       "result": {
         "status": "received",
         "request_id": "699f9b261db7e58da69622a4f4dff1845413f50d6251813ff244b4297d012f76"
+      }
+    },
+    "61952a0334fced8bfa6f001cac247dfafbe5da36272ab466335638a12666a761": {
+      "sha256": "e52385e931c69693d9010f0b218428ff007c997ebf0b06eef82de2ed6d04a1cb",
+      "result": {
+        "status": "finalized",
+        "request_id": "699f9b261db7e58da69622a4f4dff1845413f50d6251813ff244b4297d012f76",
+        "records": [
+          {
+            "id": 256,
+            "revision": 1,
+            "sha256": "4efc75d51bf70785fd3066ca8066a25f532cf50b566a0a49fe44eaf8ea42f882"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
