@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 793,
-  "updated_at": "2026-10-29T15:56:06+00:00",
-  "next_id": 259,
+  "generation": 794,
+  "updated_at": "2026-10-29T16:02:17+00:00",
+  "next_id": 261,
   "records": [
     {
       "id": 1,
@@ -3435,6 +3435,32 @@
           "request_id": "17beb1011d01bcf231edb86dd49f440c987a65f521d6666bf913598b88656ba4",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 259,
+      "revisions": [
+        {
+          "created_at": "2026-10-29T16:02:17+00:00",
+          "block": "Title: Human Videos Help Train Robots to Adapt Their Actions\nURL: https://arxiv.org/abs/2610.37666\nImage URL: https://arxiv.org/html/2610.37666v1/thinkworld_teaser_blue_v2_final.png\nSummary: Chaehyun Kim and colleagues introduce ThinkWorld, which uses agreement between predicted and observed futures to learn robot action representations from human and robot videos. Across three real-robot tasks, they report 94.4% macro success versus MolmoAct2’s 62.2%. Policies receive task-specific fine-tuning; the results do not establish general-purpose autonomy.",
+          "sha256": "4d7007d4ce3d8fa47c1ba227d12522f0c181f406bf29c7278dc911d995ac2c05",
+          "source": "arXiv",
+          "request_id": "c0d46fc77bb9648a49f612f15add60b72c81fdd00468f1cf344768474afd5222",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "revisions": [
+        {
+          "created_at": "2026-10-29T16:02:17+00:00",
+          "block": "Title: Compact AI Models Improve Time-Series Forecasting Benchmarks\nURL: https://arxiv.org/abs/2610.37585\nImage URL: https://arxiv.org/html/2610.37585v1/00-pareto-front-companies.svg\nSummary: Adrien Petralia and colleagues introduce four forecasting models that separate prediction tokens from historical context and support known-future inputs. They report that the 123M- and 209M-parameter variants rank second and first, respectively, on all six metrics across GIFT-Eval, TIME, and fev-bench. The comparisons evaluate benchmark forecasting, not guaranteed accuracy on unseen real-world datasets.",
+          "sha256": "0be72b2d78371640085371c52ec64127f644f6a0a5f9b824ff41877df3d6e304",
+          "source": "arXiv",
+          "request_id": "c0d46fc77bb9648a49f612f15add60b72c81fdd00468f1cf344768474afd5222",
+          "mode": "standard"
         }
       ]
     }
@@ -7546,13 +7572,26 @@
       ]
     },
     "c0d46fc77bb9648a49f612f15add60b72c81fdd00468f1cf344768474afd5222": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-29T15:56:06+00:00",
       "received_sequence": 232,
       "expected_items": 2,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-29T16:02:17+00:00",
+      "records": [
+        {
+          "id": 259,
+          "revision": 1,
+          "sha256": "4d7007d4ce3d8fa47c1ba227d12522f0c181f406bf29c7278dc911d995ac2c05"
+        },
+        {
+          "id": 260,
+          "revision": 1,
+          "sha256": "0be72b2d78371640085371c52ec64127f644f6a0a5f9b824ff41877df3d6e304"
+        }
+      ]
     }
   },
   "batches": {
@@ -30720,6 +30759,26 @@
       "result": {
         "status": "received",
         "request_id": "c0d46fc77bb9648a49f612f15add60b72c81fdd00468f1cf344768474afd5222"
+      }
+    },
+    "c0d46fc77bb9648a49f612f15add60b72c81fdd00468f1cf344768474afd5222-finalize": {
+      "sha256": "1771d59b6bf8739a1f8063d60677bde6243fcaf0c3b3a95eb96dcfd885b2bcb7",
+      "result": {
+        "status": "finalized",
+        "request_id": "c0d46fc77bb9648a49f612f15add60b72c81fdd00468f1cf344768474afd5222",
+        "records": [
+          {
+            "id": 259,
+            "revision": 1,
+            "sha256": "4d7007d4ce3d8fa47c1ba227d12522f0c181f406bf29c7278dc911d995ac2c05"
+          },
+          {
+            "id": 260,
+            "revision": 1,
+            "sha256": "0be72b2d78371640085371c52ec64127f644f6a0a5f9b824ff41877df3d6e304"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
