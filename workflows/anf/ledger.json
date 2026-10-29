@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 785,
-  "updated_at": "2026-10-29T11:31:43.928841+00:00",
-  "next_id": 257,
+  "generation": 786,
+  "updated_at": "2026-10-29T11:37:03.262451+00:00",
+  "next_id": 259,
   "records": [
     {
       "id": 1,
@@ -3407,6 +3407,34 @@
           "source": "OpenAI",
           "request_id": "699f9b261db7e58da69622a4f4dff1845413f50d6251813ff244b4297d012f76",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "revisions": [
+        {
+          "created_at": "2026-10-29T11:37:03.262451+00:00",
+          "block": "Title: Google Announces Gemini 4 Carbon for Cybersecurity and Coding\nURL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png\nSummary: Google announced Gemini 4 Carbon for cybersecurity and extended coding tasks. Artificial Analysis ranks its high reasoning version first on Intelligence Index v5, scoring 59. Google says initial access will go to selected cyber defenders, followed by trusted partners. Its announcement gives no date for broader access by developers, businesses or consumers.",
+          "sha256": "e5129a7cfc51d4e8469c1ad665e4be1f7d92bba374923a98dfe6f0bd6331546b",
+          "source": "blog.google",
+          "request_id": "17beb1011d01bcf231edb86dd49f440c987a65f521d6666bf913598b88656ba4",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 258,
+      "revisions": [
+        {
+          "created_at": "2026-10-29T11:37:03.262451+00:00",
+          "block": "Title: Anthropic Manager Explains Dropping Coding Interviews\nURL: https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/\nImage URL: https://storage.ghost.io/c/89/e0/89e08557-681a-40be-8264-278bf46d6b25/content/images/size/w2000/2026/10/IMG_8925.jpeg\nSummary: Anthropic engineering manager Felix Rieseberg says he has stopped using traditional coding interviews, arguing that Claude now performs better on the small coding challenges he previously used. In an October 27 post, he says AI can help less experienced engineers make a greater impact and advises building a focused prototype aligned with company goals.",
+          "sha256": "c085e44d061b8b267821247efeebdccc424fef9e91cde787b6eeb82ca55f4421",
+          "source": "felixrieseberg.com",
+          "request_id": "17beb1011d01bcf231edb86dd49f440c987a65f521d6666bf913598b88656ba4",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -7495,14 +7523,27 @@
       ]
     },
     "17beb1011d01bcf231edb86dd49f440c987a65f521d6666bf913598b88656ba4": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-29T11:31:43.928841+00:00",
       "received_sequence": 231,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-29T11:37:03.262451+00:00",
+      "records": [
+        {
+          "id": 257,
+          "revision": 1,
+          "sha256": "e5129a7cfc51d4e8469c1ad665e4be1f7d92bba374923a98dfe6f0bd6331546b"
+        },
+        {
+          "id": 258,
+          "revision": 1,
+          "sha256": "c085e44d061b8b267821247efeebdccc424fef9e91cde787b6eeb82ca55f4421"
+        }
+      ]
     }
   },
   "batches": {
@@ -30027,6 +30068,26 @@
       "result": {
         "status": "received",
         "request_id": "17beb1011d01bcf231edb86dd49f440c987a65f521d6666bf913598b88656ba4"
+      }
+    },
+    "5c5cf463c5114d87304d3a0bcfa9f55c65a3451277fa44685708084bb809c776": {
+      "sha256": "820ab0435e1f66f3a2aad0944508dc74a2a056ed627792ed485ac07fa296b4bf",
+      "result": {
+        "status": "finalized",
+        "request_id": "17beb1011d01bcf231edb86dd49f440c987a65f521d6666bf913598b88656ba4",
+        "records": [
+          {
+            "id": 257,
+            "revision": 1,
+            "sha256": "e5129a7cfc51d4e8469c1ad665e4be1f7d92bba374923a98dfe6f0bd6331546b"
+          },
+          {
+            "id": 258,
+            "revision": 1,
+            "sha256": "c085e44d061b8b267821247efeebdccc424fef9e91cde787b6eeb82ca55f4421"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
