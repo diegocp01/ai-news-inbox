@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 783,
-  "updated_at": "2026-10-29T01:17:31.913940+00:00",
+  "generation": 784,
+  "updated_at": "2026-10-29T01:18:26.235545+00:00",
   "next_id": 257,
   "records": [
     {
@@ -29999,6 +29999,18 @@
         ],
         "duplicates": []
       }
+    },
+    "da4de4303a72a3ef17e3b5d59d859655167d1df21bb3a42ce87f7f229841410a": {
+      "sha256": "ea6ca914f741944ff92e202a5c846c48448976c78824ecf6366a4f17b806c69a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 256,
+          "revision": 1,
+          "sha256": "4efc75d51bf70785fd3066ca8066a25f532cf50b566a0a49fe44eaf8ea42f882"
+        },
+        "editorial_sha256": "d8254263990b700a594ac01acdb6eaec8a75d436b408043cc184beb111504253"
+      }
     }
   },
   "migration": {
@@ -37675,6 +37687,58 @@
         "sha256": "cacfde5111a81521a720855ab316aa8269d56fce7ae874d40bbe229f2ba0758c",
         "reviewed_at": "2026-10-28T23:17:52.803368+00:00",
         "operation_id": "e40149d1860d530413ef359bf8e5e7dac3b9e93339787f992ab61319fc6de136"
+      }
+    ],
+    "256:1": [
+      {
+        "reference": {
+          "id": 256,
+          "revision": 1,
+          "sha256": "4efc75d51bf70785fd3066ca8066a25f532cf50b566a0a49fe44eaf8ea42f882"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "api",
+            "rationale": "API credit allowances for building apps and agents are developer/API coverage under Diego’s explicit audience rule.",
+            "evidence_sha256": "9b67d001e3b6e7c49087b64e37eb223e61f6a332199e2cd432b17e80cecfe360"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.youtube.com/watch?v=ujmyzWSj8IU",
+              "final_url": "https://www.youtube.com/watch?v=ujmyzWSj8IU",
+              "redirect_chain": [
+                "https://www.youtube.com/watch?v=ujmyzWSj8IU"
+              ],
+              "checked_at": "2026-10-29T01:18:26.235545+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "9df99e41860b156de5eec2aa0b72c6324680ad0ad98fb06e068663c67f82852e"
+            },
+            "image": {
+              "url": "https://markenote.jp/wp-content/uploads/2026/10/abt_news_thumb_chatgpt_api_credits_1028.webp",
+              "final_url": "https://markenote.jp/wp-content/uploads/2026/10/abt_news_thumb_chatgpt_api_credits_1028.webp",
+              "redirect_chain": [
+                "https://markenote.jp/wp-content/uploads/2026/10/abt_news_thumb_chatgpt_api_credits_1028.webp"
+              ],
+              "checked_at": "2026-10-29T01:17:03.632142+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "content_type": "image/webp",
+              "image_bytes_sha256": "4673e4dc548a8236e67b4f71dd9c145a17372f6f506b92228195dbbc378929d6",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Decoded and visually inspected publisher graphic for this exact API-credit announcement; legible Japanese text identifies ChatGPT Pro/Business and up to $500 monthly API credits.",
+              "evidence_sha256": "0924b3fb78bbac57867b6f681d120e1250c730f97542138ad1e27eb9116a825d"
+            }
+          }
+        },
+        "sha256": "d8254263990b700a594ac01acdb6eaec8a75d436b408043cc184beb111504253",
+        "reviewed_at": "2026-10-29T01:18:26.235545+00:00",
+        "operation_id": "da4de4303a72a3ef17e3b5d59d859655167d1df21bb3a42ce87f7f229841410a"
       }
     ]
   }
