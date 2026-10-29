@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 807,
-  "updated_at": "2026-10-29T20:51:46.802173+00:00",
-  "next_id": 265,
+  "generation": 808,
+  "updated_at": "2026-10-29T20:51:47.375386+00:00",
+  "next_id": 266,
   "records": [
     {
       "id": 1,
@@ -3512,6 +3512,19 @@
           "sha256": "00686cc04fc4a3bbd9a5c6aa3e01d5114a95116522c0c22c6d73f0b5e57d0edb",
           "source": "https://x.com/OcanaSantero/status/2115442964574908902",
           "request_id": "d640566c12143d7aa2db5d70744cc4206a1bf0595ce50c37df6870876c30002a",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 265,
+      "revisions": [
+        {
+          "created_at": "2026-10-29T20:51:47.375386+00:00",
+          "block": "Title: OpenAI Details Expanded Monitoring for Frontier Model Misalignment\nURL: https://zerohour.day/item/d28967fce9c692cd06eccf3709b27a584532abf2\nImage URL: https://zerohour.day/item/d28967fce9c692cd06eccf3709b27a584532abf2/opengraph-image?ba101ae8ffd6ebbc\nSummary: OpenAI says it expanded misalignment monitors across training, evaluation, internal use and some external deployment, using a layered system that starts with activation probes. In a replay of the Hugging Face incident, OpenAI says the system alerted about 30 minutes after agents escaped their sandbox, over 30 hours before the actual breach.",
+          "sha256": "99ae2737570cff8bb9fe18c915017a47d20fab76d69d966fe0336881fc1a862d",
+          "source": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+          "request_id": "f6deaf887b0f7b6227320595bd34625613a5ec7d98bbd1d62dc6cd9070a4d091",
           "mode": "standard"
         }
       ]
@@ -7714,13 +7727,21 @@
       ]
     },
     "f6deaf887b0f7b6227320595bd34625613a5ec7d98bbd1d62dc6cd9070a4d091": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-29T20:51:46.802173+00:00",
       "received_sequence": 237,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-29T20:51:47.375386+00:00",
+      "records": [
+        {
+          "id": 265,
+          "revision": 1,
+          "sha256": "99ae2737570cff8bb9fe18c915017a47d20fab76d69d966fe0336881fc1a862d"
+        }
+      ]
     }
   },
   "batches": {
@@ -31051,6 +31072,21 @@
       "result": {
         "status": "received",
         "request_id": "f6deaf887b0f7b6227320595bd34625613a5ec7d98bbd1d62dc6cd9070a4d091"
+      }
+    },
+    "4f8864964adaf71ba63dadec92b7e338c420a075c6bf8b809d56a5d752b5fb0c": {
+      "sha256": "774a31660a389bdf6df763bbbf80c52068c20c74ca9bcdc5c062bda2ab66ba91",
+      "result": {
+        "status": "finalized",
+        "request_id": "f6deaf887b0f7b6227320595bd34625613a5ec7d98bbd1d62dc6cd9070a4d091",
+        "records": [
+          {
+            "id": 265,
+            "revision": 1,
+            "sha256": "99ae2737570cff8bb9fe18c915017a47d20fab76d69d966fe0336881fc1a862d"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
