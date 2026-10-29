@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 799,
-  "updated_at": "2026-10-29T18:18:46.890486+00:00",
+  "generation": 800,
+  "updated_at": "2026-10-29T18:18:47.762180+00:00",
   "next_id": 263,
   "records": [
     {
@@ -30896,6 +30896,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d7a7c34a1b47fb63fd869cdeef1187bc4dcf76f828656818f8811d32690b7fff": {
+      "sha256": "2920654a3b5f185223c9ac16e8ec1796f55c3e03e925f6d6895f8f1f0b8d81f2",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 262,
+          "revision": 1,
+          "sha256": "421b8d9e1965eda6dc5da506b756272b95e610cfc3d6e0fb5a3c667b097f635b"
+        },
+        "editorial_sha256": "03fe6fdd8fc0c423e2d04c00c923acfa888f15227cd6e440680131b874743db2"
+      }
     }
   },
   "migration": {
@@ -38684,6 +38696,26 @@
         "sha256": "89aaa3316a2fc24ab0e620c710b32f9603282ca23e17cd6fea7b4e0f49b45b60",
         "reviewed_at": "2026-10-29T17:44:22.287400+00:00",
         "operation_id": "93770198ec5c49b751ab518fa6c49fbef9639d7290983fd6a8d20868ff1e39f3"
+      }
+    ],
+    "262:1": [
+      {
+        "reference": {
+          "id": 262,
+          "revision": 1,
+          "sha256": "421b8d9e1965eda6dc5da506b756272b95e610cfc3d6e0fb5a3c667b097f635b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "CEO comments on infrastructure and robotics ambitions; business news, no DS terms",
+            "evidence_sha256": "c5eca005f887c8497988e2c20d17909b6d1a2a27f2bc335c5e723436265aa8f3"
+          }
+        },
+        "sha256": "03fe6fdd8fc0c423e2d04c00c923acfa888f15227cd6e440680131b874743db2",
+        "reviewed_at": "2026-10-29T18:18:47.762180+00:00",
+        "operation_id": "d7a7c34a1b47fb63fd869cdeef1187bc4dcf76f828656818f8811d32690b7fff"
       }
     ]
   }
