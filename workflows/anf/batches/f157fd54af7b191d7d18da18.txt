@@ -1,0 +1,87 @@
+Title: Anthropic Adds a Gallery of Ready-Made Legal Tools to Claude
+URL: https://legaltechnology.com/anthropic-moves-further-up-the-legal-tech-stack-with-launch-of-claude-for-legal-artifacts/
+Image URL: https://assets.claude.com/3f5a1ce6765f5bbc431178d9934f8fb3519edde7.jpg?w=1200&h=630&fit=crop
+Summary: Anthropic launched a gallery of ready-made legal tools in Claude for Legal, covering tasks like contract review, regulatory horizon scans and cite checks. Each starts from a built-in example; teams can add their own documents and connected systems and share tools across the business, Anthropic says. It also announced access for law schools and legal aid groups.
+
+Title: Anthropic Study Finds Experts Often Defer to AI Agents on Judgment Calls
+URL: https://www.anthropic.com/research/agents-judgment-calls
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/b3aee146e4ef35b394b2b626d5eaf5faaee741aa-1200x630.jpg
+Summary: In an Anthropic study, 50 professional analysts worked with Claude agents secretly set to favor one option on each analytical choice. Analysts went with the agent's lean 86% of the time, and 77% later used its arguments while only 15% credited it. Anthropic notes it strengthened the agents' preferences deliberately, so real-world effects may be smaller.
+
+Title: Artificial Analysis Launches Intelligence Index v5; Claude Opus 5.5 Leads
+URL: https://llmlearner.com/rankings/aa-intelligence-index-v5-0
+Image URL: https://llmlearner.com/social-images/llmlearner-v2?brand=2026-08-30&title=AA+Intelligence+Index+v5.0+rankings&kicker=Leaderboard+%C2%B7+General+Evaluation&subtitle=Leader%3A+Claude+Opus+5.5&stats=58.4%7CClaude+Opus+5.5%7E36%7CModels+ranked
+Summary: Artificial Analysis released Intelligence Index v5, adding FrontierCode 2.0 and Terminal-Bench-Science benchmarks; it says 60% now relies on private test sets or held-out answers. In its results, Claude Opus 5.5 leads at 58, ahead of GPT-6 Astra (57) and GPT-6.1 Sol (55). It says the top open-weights model, Kimi K3.1 Pro, scores 46.
+ds: true
+
+Title: Google Research Proposes a "Sleep" Phase to Help LLMs Keep Learning
+URL: https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/
+Image URL: https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg
+Summary: Google Research introduced a "sleep" framework for continual learning, inspired by how the brain consolidates memory during rest. LLMs alternate active interaction with offline phases that move short-term context into long-term parameters. Google says this lets models keep acquiring new facts, retain long-context knowledge up to 10M tokens and improve reasoning while mitigating catastrophic forgetting.
+ds: true
+
+Title: NVIDIA Releases Nemotron 3.5 Transcribe, an Open-Weight Speech Model
+URL: https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/
+Image URL: https://techcrunch.com/wp-content/uploads/2026/10/AI-on-the-tongue.png?resize=1200,600
+Summary: NVIDIA released Nemotron 3.5 Transcribe, an open-weight, promptable 30B mixture-of-experts model with about 4B active parameters. NVIDIA says one checkpoint handles transcription in 40 languages, translation of 31 to or from English, and labeling of up to eight speakers in hour-long recordings. It works on recorded audio, not live streams, and shipped alongside the Granary v2 speech dataset.
+ds: true
+
+Title: Anthropic Begins Letting US Max Users Off the Claude Duet Waitlist
+URL: https://claude.com/product/claude-duet
+Image URL: https://claude.com/static/claude-duet/og.jpg
+Summary: Karan Ahuja, who leads Anthropic's Claude Duet team, says all US Max subscribers are being let off the waitlist first, with US Pro users invited next. Access outside the US has no date yet. Duet, a proactive agent app in research preview, briefs users each morning, handles tasks in the background and checks in before acting, Anthropic says.
+
+Title: GitHub Unveils Copilot App, Copilot Fusion and More at Universe 2026
+URL: https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/
+Image URL: https://github.blog/wp-content/uploads/2026/10/686528641-0e20e617-dc8d-4bb3-bd66-70d248ba125f.png
+Summary: At Universe 2026, GitHub introduced the Copilot app for agentic software delivery, Copilot Fusion multi-model orchestration, multi-repo Copilot projects, and Copilot code review Max. GitHub says Fusion Max scored within two points of Opus 5.5 Max at half the cost. Enterprise customers can now use all Copilot features without a separate subscription, paying for AI credits used.
+ds: true
+
+Title: ChatGPT Users Can Now Text Their Dot via iMessage or RCS
+URL: https://9to5mac.com/2026/10/28/openai-expanding-chatgpt-dot-access-to-imessage-and-rcs/
+Image URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/10/chatgpt-app-icon-dark-openai.jpg?quality=82&strip=all&resize=1200,628
+Summary: OpenAI says ChatGPT Pro users in the US can now text their dot, its always-on agent, through iMessage or RCS, in a preview rolling out now. Users can send tasks via text, photos, or voice notes, and the dot texts back proactively with updates. OpenAI says only the user can text their dot, and it cannot read other conversations.
+
+Title: New AI Model: Google DeepMind Announces Gemini 4 Carbon
+URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png
+Summary: Google DeepMind announced Gemini 4 Carbon, calling it its strongest model, with leading cybersecurity and long-running task abilities. Google says it shows significant gains in coding and in finding and fixing software vulnerabilities. Arriving two weeks after Gemini 4 Argon, Carbon goes first to selected cyber defenders, with wider availability to businesses and consumers coming later.
+
+Title: Cartesia's New H-Nets Learn Language Directly From Raw Bytes
+URL: 
+Image URL: https://opengraph.githubassets.com/42472eae227c3d0b48233932b4a9d039934fec87e68ed82272c44fdb86f0e301/goombalab/hnet
+Summary: Albert Gu says a new version of Cartesia's hierarchical networks (H-Nets), which model language from raw bytes without a tokenizer, shows up to 3-5x efficiency gains in controlled scaling experiments. Cartesia reports a larger H-Net matched the open-source SmolLM3-3B, trained on ~11T tokens, using ~10x less data and compute. Cartesia says it plans to release the improved architecture.
+ds: true
+
+Title: Researchers Simulate Software Worlds to Study How AI Agents Collaborate
+URL: https://arxiv.org/abs/2610.24061
+Image URL: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+Summary: A new arXiv paper, "World of SWECraft," introduces Software World, a framework where AI agents jointly maintain real, interdependent Python packages. Across 10,000+ hours of agent work with eight models, the authors report gains scaled with inference-time compute, the best model improving downstream efficiency up to 31%, though some frontier models stopped looking for improvements prematurely.
+ds: true
+
+Title: Simulon Launches Reality-Aware Rendering on iPhone
+URL: 
+Image URL: https://framerusercontent.com/images/usGHMLhdfHa3VuuxrDKeRicDtxk.jpg
+Summary: Simulon introduced Reality-Aware Rendering, according to Divesh Naidoo. Users place AI-generated assets with their phone and act out a scene; after recording, Simulon renders the take, with assets responding to the user's actions, speech and surroundings. Naidoo says the result is a newly generated performance, not a copy of the footage. Available now on iPhone, with Android coming.
+
+Title: OpenAI Adds Up to $500 in Monthly API Credits to ChatGPT Plans
+URL: https://www.youtube.com/watch?v=ujmyzWSj8IU
+Image URL: https://markenote.jp/wp-content/uploads/2026/10/abt_news_thumb_chatgpt_api_credits_1028.webp
+Summary: Eligible ChatGPT Pro subscribers can claim $100, $200 or $500 in monthly API credits, matching their plan tier. Business workspaces receive $20 per Standard seat or $100 per Premium seat, capped at $500 monthly. Activation links an owned API organization; unused credits expire each billing cycle and do not increase ChatGPT or Codex usage limits.
+ds: true
+
+Title: Google Announces Gemini 4 Carbon for Cybersecurity and Coding
+URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png
+Summary: Google announced Gemini 4 Carbon for cybersecurity and extended coding tasks. Artificial Analysis ranks its high reasoning version first on Intelligence Index v5, scoring 59. Google says initial access will go to selected cyber defenders, followed by trusted partners. Its announcement gives no date for broader access by developers, businesses or consumers.
+
+Title: Anthropic Manager Explains Dropping Coding Interviews
+URL: https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/
+Image URL: https://storage.ghost.io/c/89/e0/89e08557-681a-40be-8264-278bf46d6b25/content/images/size/w2000/2026/10/IMG_8925.jpeg
+Summary: Anthropic engineering manager Felix Rieseberg says he has stopped using traditional coding interviews, arguing that Claude now performs better on the small coding challenges he previously used. In an October 27 post, he says AI can help less experienced engineers make a greater impact and advises building a focused prototype aligned with company goals.
+
+
+
+
+
+.

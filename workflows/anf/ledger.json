@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 788,
-  "updated_at": "2026-10-29T12:02:24.847641+00:00",
+  "generation": 789,
+  "updated_at": "2026-10-29T12:02:37.203916+00:00",
   "next_id": 259,
   "records": [
     {
@@ -14409,9 +14409,262 @@
       },
       "acknowledged_at": "2026-10-28T12:11:11.861326+00:00",
       "checkpoint_after": 243
+    },
+    "f157fd54af7b191d7d18da18": {
+      "batch_id": "f157fd54af7b191d7d18da18",
+      "status": "prepared",
+      "checkpoint_before": 243,
+      "prepared_at": "2026-10-29T12:02:37.203916+00:00",
+      "intake_cutoff": 231,
+      "records": [
+        {
+          "id": 244,
+          "revision": 1,
+          "sha256": "81b927c661bf8aa7b795802eae341717159b9b35040a5f236b0303c4ef0ad7fc"
+        },
+        {
+          "id": 245,
+          "revision": 1,
+          "sha256": "5d353f718c2bb47f4f2bccf7c71f13900ee61b97cad40831216fd35d60210e4c"
+        },
+        {
+          "id": 246,
+          "revision": 1,
+          "sha256": "90d5f52344afedc761f34db616bb8ea5405550edfa51539694cd5cd4a65ecc73"
+        },
+        {
+          "id": 247,
+          "revision": 1,
+          "sha256": "351e2878b14b4de03c300a6f32a7a8877e1aef554e9dd64ef6596bdf1ce27ad5"
+        },
+        {
+          "id": 248,
+          "revision": 1,
+          "sha256": "d6163e1cba3e522b609c9a01a34f193e96ba20561a836f9c423db5bbfd4628cf"
+        },
+        {
+          "id": 249,
+          "revision": 1,
+          "sha256": "488a41dbcf5290349592947c2fc394e82f1b3469443ef9f9e6da2a0a6a5e717f"
+        },
+        {
+          "id": 250,
+          "revision": 1,
+          "sha256": "bd522972f98b68c35ce3063191d1d38e03ae98fa9b3ffff92fcbb8f83b422439"
+        },
+        {
+          "id": 251,
+          "revision": 1,
+          "sha256": "8ba1bb10a560ccf8161a7a7eb433be731cf9257a3fded7710c26660d5b236440"
+        },
+        {
+          "id": 252,
+          "revision": 1,
+          "sha256": "bd33819de0a2a9419a1299cf7c4a0c56837d9b1f5353a09b6c7c7c3da3119585"
+        },
+        {
+          "id": 253,
+          "revision": 1,
+          "sha256": "a1e61fc13ed5f1d09f6b5b07da44ebbfd041e1c8b821b0bdfe1f531f25dc7198"
+        },
+        {
+          "id": 254,
+          "revision": 1,
+          "sha256": "bf0670dacba8295d69485bcbb5b9f56f256747806308b6c922cd74402a29cf34"
+        },
+        {
+          "id": 255,
+          "revision": 1,
+          "sha256": "bce59b2fd3696034a5ed0c7021e27a8d8f66be88fb92a1289631102a066a1969"
+        },
+        {
+          "id": 256,
+          "revision": 1,
+          "sha256": "4efc75d51bf70785fd3066ca8066a25f532cf50b566a0a49fe44eaf8ea42f882"
+        },
+        {
+          "id": 257,
+          "revision": 1,
+          "sha256": "e5129a7cfc51d4e8469c1ad665e4be1f7d92bba374923a98dfe6f0bd6331546b"
+        },
+        {
+          "id": 258,
+          "revision": 1,
+          "sha256": "c085e44d061b8b267821247efeebdccc424fef9e91cde787b6eeb82ca55f4421"
+        }
+      ],
+      "first_id": 244,
+      "last_id": 258,
+      "count": 15,
+      "txt_path": "workflows/anf/batches/f157fd54af7b191d7d18da18.txt",
+      "json_path": "workflows/anf/batches/f157fd54af7b191d7d18da18.json",
+      "txt_sha256": "ff31e12c15bf8db1248c7cf8cfcdb59de65cec7e7d1cb9e5f2ce90cfca15b92b",
+      "json_sha256": "0b62b9a35c864698865b3618b183f5d511d8978cf19de947d9912974cd030518",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Product feature for legal professionals; no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "f582d4db3099caa81eb460f3a830532985f239dceeb09a9cdb686ff3c1ebba8b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Human-AI decision-making study explained in plain language; no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "1763dd8f8a0ec173d125c013d3074dd886b2647257bfd0c2c2984d4c595eb3ef"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Benchmark/eval methodology (held-out test sets, open-weights rankings) is ML-technical, so DS",
+            "evidence_sha256": "0a0fd0866e4d5641af09b389037d2a3d8d05f10babaf6e878d6dc69d8ada8a24"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Continual-learning training method (parameter updates, catastrophic forgetting, tokens) is ML-technical, so DS",
+            "evidence_sha256": "86a07b41e5b87e035f031dd8d55cfab0e22989ac46a7d33541eca8b7dcf32222"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "open_source",
+            "rationale": "Open-weight MoE model release with parameter counts and checkpoint details is ML-technical, so DS",
+            "evidence_sha256": "b13d6fd054f60204c85bcfb144715c580bd4a6ad62cbfa803b8b7adf98a015d1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer app access update; no ML-technical, developer/API or hardware terms",
+            "evidence_sha256": "99befc75ef3606b6d7f16f8e0166036a6a3b57bc794a3f86ef80a96f9cb0173e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer tooling launches (Copilot agents, multi-repo, code review, multi-model orchestration) are dev-focused, so DS",
+            "evidence_sha256": "2b17d4a46ecf7cff529868f3dc40cf441675b22eb72fc02f3a67b6f31472af00"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer messaging feature for ChatGPT dots; no DS terms; not a new model",
+            "evidence_sha256": "9ba2dc8b34d5986da470084985dfeb0d08b85d80571d25fc9ccf21ecfbc52d4f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "New Gemini flagship frontier model; summary written for general audience without ML/dev jargon",
+            "evidence_sha256": "8fd55f7cee30cc5fb1bfa33ece1c64b70dde350d704db246fbd617991c134872"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Byte-level LM architecture research: tokenization, scaling laws, tokens, compute efficiency - ML-technical",
+            "evidence_sha256": "fc975c94837bce232694ed0b73d47d593b053cd7c7670ec0e114791d6982b216"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML research paper on multi-agent coding, inference-time compute scaling, model evals - ML-technical",
+            "evidence_sha256": "c10ec5a52561e01f55d8402ca3e40d5929b54476c49b75bd8b4aabffd2477578"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer creative app feature; no ML/dev/hardware jargon",
+            "evidence_sha256": "6bc57b5f966d5344426bc5d83d1617efb1e16f3f1c134a137f2c9b43ccb6ddfb"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "api",
+            "rationale": "API credit allowances for building apps and agents are developer/API coverage under Diego’s explicit audience rule.",
+            "evidence_sha256": "9b67d001e3b6e7c49087b64e37eb223e61f6a332199e2cd432b17e80cecfe360"
+          },
+          "quality": {
+            "article": {
+              "url": "https://www.youtube.com/watch?v=ujmyzWSj8IU",
+              "final_url": "https://www.youtube.com/watch?v=ujmyzWSj8IU",
+              "redirect_chain": [
+                "https://www.youtube.com/watch?v=ujmyzWSj8IU"
+              ],
+              "checked_at": "2026-10-29T01:18:26.235545+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "same_event": true,
+              "evidence_sha256": "9df99e41860b156de5eec2aa0b72c6324680ad0ad98fb06e068663c67f82852e"
+            },
+            "image": {
+              "url": "https://markenote.jp/wp-content/uploads/2026/10/abt_news_thumb_chatgpt_api_credits_1028.webp",
+              "final_url": "https://markenote.jp/wp-content/uploads/2026/10/abt_news_thumb_chatgpt_api_credits_1028.webp",
+              "redirect_chain": [
+                "https://markenote.jp/wp-content/uploads/2026/10/abt_news_thumb_chatgpt_api_credits_1028.webp"
+              ],
+              "checked_at": "2026-10-29T01:17:03.632142+00:00",
+              "status": "accessible_here",
+              "chase_status": "unknown",
+              "content_type": "image/webp",
+              "image_bytes_sha256": "4673e4dc548a8236e67b4f71dd9c145a17372f6f506b92228195dbbc378929d6",
+              "width": 1200,
+              "height": 630,
+              "pixels_inspected": true,
+              "relevance": "story_specific",
+              "relevance_note": "Decoded and visually inspected publisher graphic for this exact API-credit announcement; legible Japanese text identifies ChatGPT Pro/Business and up to $500 monthly API credits.",
+              "evidence_sha256": "0924b3fb78bbac57867b6f681d120e1250c730f97542138ad1e27eb9116a825d"
+            }
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google announced Gemini 4 Carbon for cybersecurity and extended coding tasks, with initial access for selected cyber defenders followed by trusted partners. Like the earlier Gemini 4 Carbon record 252, this is a model announcement written for a general audience; the summary uses no ML-technical, developer/API or hardware-internals terms. muse-compile-backfill 2026-10-29: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e5129a7cfc51d4e8469c1ad665e4be1f7d92bba374923a98dfe6f0bd6331546b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic engineering manager Felix Rieseberg says he has stopped using traditional coding interviews, arguing Claude now performs better on the small coding challenges he previously used, and advises junior engineers to build a focused prototype aligned with company goals. This is hiring/management commentary in plain language; the summary uses no ML-technical, developer/API or hardware-internals terms. muse-compile-backfill 2026-10-29: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "c085e44d061b8b267821247efeebdccc424fef9e91cde787b6eeb82ca55f4421"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-29T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "f157fd54af7b191d7d18da18",
   "replacement_batch": null,
   "checkpoint": 243,
   "checkpoint_history": [
@@ -30112,6 +30365,266 @@
           "sha256": "c085e44d061b8b267821247efeebdccc424fef9e91cde787b6eeb82ca55f4421"
         },
         "editorial_sha256": "923d848b32382e77316dfe1f2984a476672e3bdc52d80504318b335d6783e744"
+      }
+    },
+    "muse-compile-20261029-1202-0497": {
+      "sha256": "2c20dc1285500ec2afb5a4269b13b9bc19f8ae931051cc0b479aef4ab741198e",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "f157fd54af7b191d7d18da18",
+          "status": "prepared",
+          "checkpoint_before": 243,
+          "prepared_at": "2026-10-29T12:02:37.203916+00:00",
+          "intake_cutoff": 231,
+          "records": [
+            {
+              "id": 244,
+              "revision": 1,
+              "sha256": "81b927c661bf8aa7b795802eae341717159b9b35040a5f236b0303c4ef0ad7fc"
+            },
+            {
+              "id": 245,
+              "revision": 1,
+              "sha256": "5d353f718c2bb47f4f2bccf7c71f13900ee61b97cad40831216fd35d60210e4c"
+            },
+            {
+              "id": 246,
+              "revision": 1,
+              "sha256": "90d5f52344afedc761f34db616bb8ea5405550edfa51539694cd5cd4a65ecc73"
+            },
+            {
+              "id": 247,
+              "revision": 1,
+              "sha256": "351e2878b14b4de03c300a6f32a7a8877e1aef554e9dd64ef6596bdf1ce27ad5"
+            },
+            {
+              "id": 248,
+              "revision": 1,
+              "sha256": "d6163e1cba3e522b609c9a01a34f193e96ba20561a836f9c423db5bbfd4628cf"
+            },
+            {
+              "id": 249,
+              "revision": 1,
+              "sha256": "488a41dbcf5290349592947c2fc394e82f1b3469443ef9f9e6da2a0a6a5e717f"
+            },
+            {
+              "id": 250,
+              "revision": 1,
+              "sha256": "bd522972f98b68c35ce3063191d1d38e03ae98fa9b3ffff92fcbb8f83b422439"
+            },
+            {
+              "id": 251,
+              "revision": 1,
+              "sha256": "8ba1bb10a560ccf8161a7a7eb433be731cf9257a3fded7710c26660d5b236440"
+            },
+            {
+              "id": 252,
+              "revision": 1,
+              "sha256": "bd33819de0a2a9419a1299cf7c4a0c56837d9b1f5353a09b6c7c7c3da3119585"
+            },
+            {
+              "id": 253,
+              "revision": 1,
+              "sha256": "a1e61fc13ed5f1d09f6b5b07da44ebbfd041e1c8b821b0bdfe1f531f25dc7198"
+            },
+            {
+              "id": 254,
+              "revision": 1,
+              "sha256": "bf0670dacba8295d69485bcbb5b9f56f256747806308b6c922cd74402a29cf34"
+            },
+            {
+              "id": 255,
+              "revision": 1,
+              "sha256": "bce59b2fd3696034a5ed0c7021e27a8d8f66be88fb92a1289631102a066a1969"
+            },
+            {
+              "id": 256,
+              "revision": 1,
+              "sha256": "4efc75d51bf70785fd3066ca8066a25f532cf50b566a0a49fe44eaf8ea42f882"
+            },
+            {
+              "id": 257,
+              "revision": 1,
+              "sha256": "e5129a7cfc51d4e8469c1ad665e4be1f7d92bba374923a98dfe6f0bd6331546b"
+            },
+            {
+              "id": 258,
+              "revision": 1,
+              "sha256": "c085e44d061b8b267821247efeebdccc424fef9e91cde787b6eeb82ca55f4421"
+            }
+          ],
+          "first_id": 244,
+          "last_id": 258,
+          "count": 15,
+          "txt_path": "workflows/anf/batches/f157fd54af7b191d7d18da18.txt",
+          "json_path": "workflows/anf/batches/f157fd54af7b191d7d18da18.json",
+          "txt_sha256": "ff31e12c15bf8db1248c7cf8cfcdb59de65cec7e7d1cb9e5f2ce90cfca15b92b",
+          "json_sha256": "0b62b9a35c864698865b3618b183f5d511d8978cf19de947d9912974cd030518",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Product feature for legal professionals; no ML-technical, developer/API or hardware terms",
+                "evidence_sha256": "f582d4db3099caa81eb460f3a830532985f239dceeb09a9cdb686ff3c1ebba8b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Human-AI decision-making study explained in plain language; no ML-technical, developer/API or hardware terms",
+                "evidence_sha256": "1763dd8f8a0ec173d125c013d3074dd886b2647257bfd0c2c2984d4c595eb3ef"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Benchmark/eval methodology (held-out test sets, open-weights rankings) is ML-technical, so DS",
+                "evidence_sha256": "0a0fd0866e4d5641af09b389037d2a3d8d05f10babaf6e878d6dc69d8ada8a24"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Continual-learning training method (parameter updates, catastrophic forgetting, tokens) is ML-technical, so DS",
+                "evidence_sha256": "86a07b41e5b87e035f031dd8d55cfab0e22989ac46a7d33541eca8b7dcf32222"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "open_source",
+                "rationale": "Open-weight MoE model release with parameter counts and checkpoint details is ML-technical, so DS",
+                "evidence_sha256": "b13d6fd054f60204c85bcfb144715c580bd4a6ad62cbfa803b8b7adf98a015d1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer app access update; no ML-technical, developer/API or hardware terms",
+                "evidence_sha256": "99befc75ef3606b6d7f16f8e0166036a6a3b57bc794a3f86ef80a96f9cb0173e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Developer tooling launches (Copilot agents, multi-repo, code review, multi-model orchestration) are dev-focused, so DS",
+                "evidence_sha256": "2b17d4a46ecf7cff529868f3dc40cf441675b22eb72fc02f3a67b6f31472af00"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer messaging feature for ChatGPT dots; no DS terms; not a new model",
+                "evidence_sha256": "9ba2dc8b34d5986da470084985dfeb0d08b85d80571d25fc9ccf21ecfbc52d4f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "New Gemini flagship frontier model; summary written for general audience without ML/dev jargon",
+                "evidence_sha256": "8fd55f7cee30cc5fb1bfa33ece1c64b70dde350d704db246fbd617991c134872"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Byte-level LM architecture research: tokenization, scaling laws, tokens, compute efficiency - ML-technical",
+                "evidence_sha256": "fc975c94837bce232694ed0b73d47d593b053cd7c7670ec0e114791d6982b216"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "ML research paper on multi-agent coding, inference-time compute scaling, model evals - ML-technical",
+                "evidence_sha256": "c10ec5a52561e01f55d8402ca3e40d5929b54476c49b75bd8b4aabffd2477578"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer creative app feature; no ML/dev/hardware jargon",
+                "evidence_sha256": "6bc57b5f966d5344426bc5d83d1617efb1e16f3f1c134a137f2c9b43ccb6ddfb"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "api",
+                "rationale": "API credit allowances for building apps and agents are developer/API coverage under Diego’s explicit audience rule.",
+                "evidence_sha256": "9b67d001e3b6e7c49087b64e37eb223e61f6a332199e2cd432b17e80cecfe360"
+              },
+              "quality": {
+                "article": {
+                  "url": "https://www.youtube.com/watch?v=ujmyzWSj8IU",
+                  "final_url": "https://www.youtube.com/watch?v=ujmyzWSj8IU",
+                  "redirect_chain": [
+                    "https://www.youtube.com/watch?v=ujmyzWSj8IU"
+                  ],
+                  "checked_at": "2026-10-29T01:18:26.235545+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "same_event": true,
+                  "evidence_sha256": "9df99e41860b156de5eec2aa0b72c6324680ad0ad98fb06e068663c67f82852e"
+                },
+                "image": {
+                  "url": "https://markenote.jp/wp-content/uploads/2026/10/abt_news_thumb_chatgpt_api_credits_1028.webp",
+                  "final_url": "https://markenote.jp/wp-content/uploads/2026/10/abt_news_thumb_chatgpt_api_credits_1028.webp",
+                  "redirect_chain": [
+                    "https://markenote.jp/wp-content/uploads/2026/10/abt_news_thumb_chatgpt_api_credits_1028.webp"
+                  ],
+                  "checked_at": "2026-10-29T01:17:03.632142+00:00",
+                  "status": "accessible_here",
+                  "chase_status": "unknown",
+                  "content_type": "image/webp",
+                  "image_bytes_sha256": "4673e4dc548a8236e67b4f71dd9c145a17372f6f506b92228195dbbc378929d6",
+                  "width": 1200,
+                  "height": 630,
+                  "pixels_inspected": true,
+                  "relevance": "story_specific",
+                  "relevance_note": "Decoded and visually inspected publisher graphic for this exact API-credit announcement; legible Japanese text identifies ChatGPT Pro/Business and up to $500 monthly API credits.",
+                  "evidence_sha256": "0924b3fb78bbac57867b6f681d120e1250c730f97542138ad1e27eb9116a825d"
+                }
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Google announced Gemini 4 Carbon for cybersecurity and extended coding tasks, with initial access for selected cyber defenders followed by trusted partners. Like the earlier Gemini 4 Carbon record 252, this is a model announcement written for a general audience; the summary uses no ML-technical, developer/API or hardware-internals terms. muse-compile-backfill 2026-10-29: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "e5129a7cfc51d4e8469c1ad665e4be1f7d92bba374923a98dfe6f0bd6331546b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Anthropic engineering manager Felix Rieseberg says he has stopped using traditional coding interviews, arguing Claude now performs better on the small coding challenges he previously used, and advises junior engineers to build a focused prototype aligned with company goals. This is hiring/management commentary in plain language; the summary uses no ML-technical, developer/API or hardware-internals terms. muse-compile-backfill 2026-10-29: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "c085e44d061b8b267821247efeebdccc424fef9e91cde787b6eeb82ca55f4421"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-29T12:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
