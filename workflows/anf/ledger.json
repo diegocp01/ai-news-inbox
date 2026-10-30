@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 847,
-  "updated_at": "2026-10-30T11:43:43.210657+00:00",
+  "generation": 851,
+  "updated_at": "2026-10-30T12:03:32.186779+00:00",
   "next_id": 279,
   "records": [
     {
@@ -31937,6 +31937,54 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261030-259-2252": {
+      "sha256": "641e2505d98a83b3f9c0b40e24f08cb2bbe1a89ea1950b008c9173a3f1420951",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 259,
+          "revision": 1,
+          "sha256": "4d7007d4ce3d8fa47c1ba227d12522f0c181f406bf29c7278dc911d995ac2c05"
+        },
+        "editorial_sha256": "3228a848194887ae8e191f4d074085cf308915ccb565d278c5727cb258bd183f"
+      }
+    },
+    "muse-backfill-20261030-260-8379": {
+      "sha256": "d22ed3a0490c2c2aa67084395aa358290cfa58e940db86c45d0e720d69aa5195",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 260,
+          "revision": 1,
+          "sha256": "0be72b2d78371640085371c52ec64127f644f6a0a5f9b824ff41877df3d6e304"
+        },
+        "editorial_sha256": "4c8c0a6a0667eb62efb35dde894af62cf6c3e78a28741f7feaf1e3b4f877aa51"
+      }
+    },
+    "muse-backfill-20261030-277-5035": {
+      "sha256": "d473cb2d9e06cd35506f10390bfa42fb5bae93c9cabd0970b63491592ac9f438",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 277,
+          "revision": 1,
+          "sha256": "cd99e821ce3e57e0d7f88dcde0cfdd4ece82376449df30f85394fd020cfaadd1"
+        },
+        "editorial_sha256": "26b952c5e68011affa9f7675d6a69bf2d962ca8a14fb321026fa89084b4ffc52"
+      }
+    },
+    "muse-backfill-20261030-278-2837": {
+      "sha256": "c517d48352b3b450589f080bdd93a075e8ea752c51a6515d7924ea09e7cfb06f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 278,
+          "revision": 1,
+          "sha256": "560335d648b895c58ddebd65a36cebb3670e2942694b49386ee1edce81be9575"
+        },
+        "editorial_sha256": "1b1e99ce031df4c250f7ea375b4ef352ff3f2e5f5cc1d63842176583e2e16234"
+      }
     }
   },
   "migration": {
@@ -40045,6 +40093,86 @@
         "sha256": "128be52ab42d5dced44466709520add2bbfc713da82ed5c66187fca60fbc71fa",
         "reviewed_at": "2026-10-30T02:20:03.577110+00:00",
         "operation_id": "84d4d5c41effcaee901180ab5f01770fe1219a05ca2a6c24118b982f62898b27"
+      }
+    ],
+    "259:1": [
+      {
+        "reference": {
+          "id": 259,
+          "revision": 1,
+          "sha256": "4d7007d4ce3d8fa47c1ba227d12522f0c181f406bf29c7278dc911d995ac2c05"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Chaehyun Kim and colleagues introduce ThinkWorld, which learns robot action representations from human and robot videos using agreement between predicted and observed futures, reporting 94.4% macro success across three real-robot tasks versus 62.2% for MolmoAct2. This is robotics/AI research with benchmark evaluation, for research audiences. muse-compile-backfill 2026-10-30: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "4d7007d4ce3d8fa47c1ba227d12522f0c181f406bf29c7278dc911d995ac2c05"
+          }
+        },
+        "sha256": "3228a848194887ae8e191f4d074085cf308915ccb565d278c5727cb258bd183f",
+        "reviewed_at": "2026-10-30T12:03:31.841678+00:00",
+        "operation_id": "muse-backfill-20261030-259-2252"
+      }
+    ],
+    "260:1": [
+      {
+        "reference": {
+          "id": 260,
+          "revision": 1,
+          "sha256": "0be72b2d78371640085371c52ec64127f644f6a0a5f9b824ff41877df3d6e304"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Adrien Petralia and colleagues introduce four compact time-series forecasting models that separate prediction tokens from historical context and support known-future inputs, with the 123M- and 209M-parameter variants ranking second and first on all six metrics across GIFT-Eval, TIME, and fev-bench. This is ML research with benchmark evaluation, for research audiences. muse-compile-backfill 2026-10-30: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "0be72b2d78371640085371c52ec64127f644f6a0a5f9b824ff41877df3d6e304"
+          }
+        },
+        "sha256": "4c8c0a6a0667eb62efb35dde894af62cf6c3e78a28741f7feaf1e3b4f877aa51",
+        "reviewed_at": "2026-10-30T12:03:31.956750+00:00",
+        "operation_id": "muse-backfill-20261030-260-8379"
+      }
+    ],
+    "277:1": [
+      {
+        "reference": {
+          "id": 277,
+          "revision": 1,
+          "sha256": "cd99e821ce3e57e0d7f88dcde0cfdd4ece82376449df30f85394fd020cfaadd1"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The New York Times reports, citing unnamed sources, that U.S. officials believed a Megaspeed executive gathered intelligence for China while maintaining ties with Nvidia's CEO; Nvidia, China, and Megaspeed all responded to the allegations. This is geopolitics and business news for a broad audience, not technical research. muse-compile-backfill 2026-10-30: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "cd99e821ce3e57e0d7f88dcde0cfdd4ece82376449df30f85394fd020cfaadd1"
+          }
+        },
+        "sha256": "26b952c5e68011affa9f7675d6a69bf2d962ca8a14fb321026fa89084b4ffc52",
+        "reviewed_at": "2026-10-30T12:03:32.071378+00:00",
+        "operation_id": "muse-backfill-20261030-277-5035"
+      }
+    ],
+    "278:1": [
+      {
+        "reference": {
+          "id": 278,
+          "revision": 1,
+          "sha256": "560335d648b895c58ddebd65a36cebb3670e2942694b49386ee1edce81be9575"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Anthropic describes Claude's self-assessment system, which rates each conversation for potential misuse after responding to help prioritize human review, running since June across a large share of Claude traffic. This is ML safety research/system work on misuse detection, for research audiences. muse-compile-backfill 2026-10-30: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "560335d648b895c58ddebd65a36cebb3670e2942694b49386ee1edce81be9575"
+          }
+        },
+        "sha256": "1b1e99ce031df4c250f7ea375b4ef352ff3f2e5f5cc1d63842176583e2e16234",
+        "reviewed_at": "2026-10-30T12:03:32.186779+00:00",
+        "operation_id": "muse-backfill-20261030-278-2837"
       }
     ]
   }
