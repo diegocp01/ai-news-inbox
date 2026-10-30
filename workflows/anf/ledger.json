@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 844,
-  "updated_at": "2026-10-30T02:20:03.008756+00:00",
+  "generation": 845,
+  "updated_at": "2026-10-30T02:20:03.577110+00:00",
   "next_id": 277,
   "records": [
     {
@@ -31847,6 +31847,18 @@
         ],
         "duplicates": []
       }
+    },
+    "84d4d5c41effcaee901180ab5f01770fe1219a05ca2a6c24118b982f62898b27": {
+      "sha256": "b44063a37a28551b50a213068ca757091921960a50387c9cc58fd667b8687b54",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 276,
+          "revision": 1,
+          "sha256": "4aa5439696f5542fe71a34bb1de85e461e0f901cf6a6baa413a6a6b1fe4b60aa"
+        },
+        "editorial_sha256": "128be52ab42d5dced44466709520add2bbfc713da82ed5c66187fca60fbc71fa"
+      }
     }
   },
   "migration": {
@@ -39935,6 +39947,26 @@
         "sha256": "90eacd3a3c24b199f12d504b0de0b053d3f0ec12ca3b4388d1875987a70dee88",
         "reviewed_at": "2026-10-30T02:19:00.646537+00:00",
         "operation_id": "410f5a1a86ab94ef35107bb3329640fc1c65d6e783230d4b9a0a45e6396a96c7"
+      }
+    ],
+    "276:1": [
+      {
+        "reference": {
+          "id": 276,
+          "revision": 1,
+          "sha256": "4aa5439696f5542fe71a34bb1de85e461e0f901cf6a6baa413a6a6b1fe4b60aa"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "RL reward modeling from EEG, GRPO, on-policy training; ML-technical research",
+            "evidence_sha256": "938e56be6bab39e0600e2bd6e5f075b9ef2e453e0fd9de8ee25a5cb505fbf544"
+          }
+        },
+        "sha256": "128be52ab42d5dced44466709520add2bbfc713da82ed5c66187fca60fbc71fa",
+        "reviewed_at": "2026-10-30T02:20:03.577110+00:00",
+        "operation_id": "84d4d5c41effcaee901180ab5f01770fe1219a05ca2a6c24118b982f62898b27"
       }
     ]
   }
