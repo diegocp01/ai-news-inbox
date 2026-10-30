@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 856,
-  "updated_at": "2026-10-30T13:57:43.702248+00:00",
-  "next_id": 279,
+  "generation": 857,
+  "updated_at": "2026-10-30T13:57:44.371305+00:00",
+  "next_id": 280,
   "records": [
     {
       "id": 1,
@@ -3705,6 +3705,19 @@
           "request_id": "66bf27a094100779ea4ac4027a9a4cac821b5a8e8ee38c633e088e333f9d2316",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 279,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T13:57:44.371305+00:00",
+          "block": "Title: The Biological Computing Co. Launches Mischief 1, a Neuron-Derived AI Video Model\nURL: https://www.prnewswire.com/news-releases/the-biological-computing-co-launches-worlds-first-publicly-available-neuron-derived-ai-video-model-302924399.html\nImage URL: https://mmx.prnewswire.com/media/MS1793404/The-Biological-Computing-Logo.jpg?id=OA3048474&p=facebook\nSummary: The Biological Computing Co. (TBC) launched mischief 1, an image-to-video model it says uses efficiencies discovered by studying living lab-grown neurons. TBC says it generates video 5x faster than its base model, Wan 2.2, and is the lowest-priced image-to-video model on fal and OpenRouter, at half a cent per second. CEO Alex Ksendzovsky called video its first commercial application.",
+          "sha256": "a354f8b93238233657a98329061d5be9ad51bb24ba262b4eb107b49810e78d64",
+          "source": "https://x.com/AlexKsendzovsky/status/2116153410101944352",
+          "request_id": "b713182061d85df472dea0c985dbb26df09ed1a34d23ce8eec6000911e4cb72f",
+          "mode": "standard"
         }
       ]
     }
@@ -8150,13 +8163,21 @@
       ]
     },
     "b713182061d85df472dea0c985dbb26df09ed1a34d23ce8eec6000911e4cb72f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T13:57:43.702248+00:00",
       "received_sequence": 251,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-30T13:57:44.371305+00:00",
+      "records": [
+        {
+          "id": 279,
+          "revision": 1,
+          "sha256": "a354f8b93238233657a98329061d5be9ad51bb24ba262b4eb107b49810e78d64"
+        }
+      ]
     }
   },
   "batches": {
@@ -32658,6 +32679,21 @@
       "result": {
         "status": "received",
         "request_id": "b713182061d85df472dea0c985dbb26df09ed1a34d23ce8eec6000911e4cb72f"
+      }
+    },
+    "19d80c1afce9144ab2919bd9e2e47412af2b87ff94f474d6571ba555c873d74a": {
+      "sha256": "48b2702acca46c2a52d90a305aa22b2a360856587e6143c7dae316a7fd5deeae",
+      "result": {
+        "status": "finalized",
+        "request_id": "b713182061d85df472dea0c985dbb26df09ed1a34d23ce8eec6000911e4cb72f",
+        "records": [
+          {
+            "id": 279,
+            "revision": 1,
+            "sha256": "a354f8b93238233657a98329061d5be9ad51bb24ba262b4eb107b49810e78d64"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
