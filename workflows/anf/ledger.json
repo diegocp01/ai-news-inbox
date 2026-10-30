@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 822,
-  "updated_at": "2026-10-30T01:44:40.553353+00:00",
-  "next_id": 270,
+  "generation": 823,
+  "updated_at": "2026-10-30T01:44:41.101588+00:00",
+  "next_id": 271,
   "records": [
     {
       "id": 1,
@@ -3577,6 +3577,19 @@
           "sha256": "fb16f2a2ed0765ffe5b15187d1c198e7570b8a10c420611895fb86b85b83bda1",
           "source": "https://x.com/AndrewCurran_/status/2115868676092269044",
           "request_id": "813a8bbb7f717f88a067c0c538eea4dad05589782eede8b19cd16987b4fe5a98",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 270,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T01:44:41.101588+00:00",
+          "block": "Title: AI-Powered America.gov Adds Housing Maps\nURL: https://america.gov/releases\nImage URL: https://america.gov/images/social/america-og.png\nSummary: America.gov, the federal services site GSA describes as using AI-enhanced search across 29,000 government websites, now maps HUD-assisted housing near users, per its release notes. The National Design Studio says users can find senior, affordable or public housing; listings show addresses, phone numbers and programs. Nextgov reported the chatbot runs on Gemini and Grok models, citing designer Joe Gebbia.",
+          "sha256": "cbf7bd2a7243192a7c754fa7da8f94c3d3b8da793957d29cf76cebff7be6ac0c",
+          "source": "https://x.com/ndstudio/status/2115805857346732297",
+          "request_id": "b4a40c79e19bad7498a1f6df5e560397d7d0ad6e6130eb9e5632b5381e4b2fff",
           "mode": "standard"
         }
       ]
@@ -7864,13 +7877,21 @@
       ]
     },
     "b4a40c79e19bad7498a1f6df5e560397d7d0ad6e6130eb9e5632b5381e4b2fff": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T01:44:40.553353+00:00",
       "received_sequence": 242,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-30T01:44:41.101588+00:00",
+      "records": [
+        {
+          "id": 270,
+          "revision": 1,
+          "sha256": "cbf7bd2a7243192a7c754fa7da8f94c3d3b8da793957d29cf76cebff7be6ac0c"
+        }
+      ]
     }
   },
   "batches": {
@@ -31371,6 +31392,21 @@
       "result": {
         "status": "received",
         "request_id": "b4a40c79e19bad7498a1f6df5e560397d7d0ad6e6130eb9e5632b5381e4b2fff"
+      }
+    },
+    "36e0eba1f743cc47587d28957bbf67bd510ed27451e10bb0ef0e8b55bc110ecb": {
+      "sha256": "efe501e5698ca043b132f1af21a2edb166f625dabef1fb37ecc97d57dea2d027",
+      "result": {
+        "status": "finalized",
+        "request_id": "b4a40c79e19bad7498a1f6df5e560397d7d0ad6e6130eb9e5632b5381e4b2fff",
+        "records": [
+          {
+            "id": 270,
+            "revision": 1,
+            "sha256": "cbf7bd2a7243192a7c754fa7da8f94c3d3b8da793957d29cf76cebff7be6ac0c"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
