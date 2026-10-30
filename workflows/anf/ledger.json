@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 829,
-  "updated_at": "2026-10-30T01:48:44.911151+00:00",
+  "generation": 830,
+  "updated_at": "2026-10-30T01:48:45.424467+00:00",
   "next_id": 273,
   "records": [
     {
@@ -31536,6 +31536,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d671fc99fd640cc31e5eeb27b2e0b3aa7a3087a544088cc863e37e6af370d18e": {
+      "sha256": "a94dfe74ca0faf945e548ac221635631db57536ba89a7e0bbb2a10bcfe8f3045",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 272,
+          "revision": 1,
+          "sha256": "a7bd2195b44c506c6a33cb54090d2296b0aaccf0bcea97ca7566fdf22900eab9"
+        },
+        "editorial_sha256": "9749c90ce532ba25b279b3e159b33cac09a25e9936a5d6a82e76ac24b40961fa"
+      }
     }
   },
   "migration": {
@@ -39524,6 +39536,26 @@
         "sha256": "5412a702beb6e91e9ff13e228c34691f9346e092360a8219558870f39b7856c6",
         "reviewed_at": "2026-10-30T01:47:12.437315+00:00",
         "operation_id": "e7d7033b5f48e52d309b5a44a8b5ffd3737a410b33c07b8b54b546e94ffdd2ec"
+      }
+    ],
+    "272:1": [
+      {
+        "reference": {
+          "id": 272,
+          "revision": 1,
+          "sha256": "a7bd2195b44c506c6a33cb54090d2296b0aaccf0bcea97ca7566fdf22900eab9"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer AI app feature; no DS terms",
+            "evidence_sha256": "9bc9660ebcbf5431b0882532e36aac2b902d09a002a4e36a10e6ab2ea41a136e"
+          }
+        },
+        "sha256": "9749c90ce532ba25b279b3e159b33cac09a25e9936a5d6a82e76ac24b40961fa",
+        "reviewed_at": "2026-10-30T01:48:45.424467+00:00",
+        "operation_id": "d671fc99fd640cc31e5eeb27b2e0b3aa7a3087a544088cc863e37e6af370d18e"
       }
     ]
   }
