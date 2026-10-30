@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 825,
-  "updated_at": "2026-10-30T01:47:11.376744+00:00",
-  "next_id": 271,
+  "generation": 826,
+  "updated_at": "2026-10-30T01:47:11.906224+00:00",
+  "next_id": 272,
   "records": [
     {
       "id": 1,
@@ -3590,6 +3590,19 @@
           "sha256": "cbf7bd2a7243192a7c754fa7da8f94c3d3b8da793957d29cf76cebff7be6ac0c",
           "source": "https://x.com/ndstudio/status/2115805857346732297",
           "request_id": "b4a40c79e19bad7498a1f6df5e560397d7d0ad6e6130eb9e5632b5381e4b2fff",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 271,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T01:47:11.906224+00:00",
+          "block": "Title: ElevenLabs Launches SFX v3 Sound Effects Model\nURL: https://elevenlabs.io/blog/sound-effects-v3\nImage URL: https://eleven-public-cdn.elevenlabs.io/payloadcms/4i9xsghce45-SFX-v3_-Thumbnail--1-.webp\nSummary: ElevenLabs released SFX v3, its newest text-to-sound-effects model, in ElevenCreative and ElevenAPI. The company says it follows prompts describing multiple sounds more reliably, handles music and vocals better, and produces cleaner audio than SFX v2. Its docs say v3 is in limited access, may not be available in every region, and v2 remains the API default.",
+          "sha256": "28fe3048fa654a62fe9bda7eea55fcf596df97e7417f0de906bb6ef225d46c41",
+          "source": "https://x.com/ElevenLabs/status/2115867078964187368",
+          "request_id": "ccee28b996305b36c42855cad749a0712fba0f56db13ecbf966c4b71d337e1a4",
           "mode": "standard"
         }
       ]
@@ -7894,13 +7907,21 @@
       ]
     },
     "ccee28b996305b36c42855cad749a0712fba0f56db13ecbf966c4b71d337e1a4": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T01:47:11.376744+00:00",
       "received_sequence": 243,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-30T01:47:11.906224+00:00",
+      "records": [
+        {
+          "id": 271,
+          "revision": 1,
+          "sha256": "28fe3048fa654a62fe9bda7eea55fcf596df97e7417f0de906bb6ef225d46c41"
+        }
+      ]
     }
   },
   "batches": {
@@ -31435,6 +31456,21 @@
       "result": {
         "status": "received",
         "request_id": "ccee28b996305b36c42855cad749a0712fba0f56db13ecbf966c4b71d337e1a4"
+      }
+    },
+    "8dd2885b6f003690559b0f6e84544ad886e4bab9685415e6624da0a1b5db2fd5": {
+      "sha256": "de897ef198c1c684cb5990c4bc32077eb87a2a12926d83eb1043ae50a1f217d6",
+      "result": {
+        "status": "finalized",
+        "request_id": "ccee28b996305b36c42855cad749a0712fba0f56db13ecbf966c4b71d337e1a4",
+        "records": [
+          {
+            "id": 271,
+            "revision": 1,
+            "sha256": "28fe3048fa654a62fe9bda7eea55fcf596df97e7417f0de906bb6ef225d46c41"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
