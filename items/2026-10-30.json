@@ -1,0 +1,172 @@
+[
+  {
+    "title": "Human Videos Help Train Robots to Adapt Their Actions",
+    "description": "Chaehyun Kim and colleagues introduce ThinkWorld, which uses agreement between predicted and observed futures to learn robot action representations from human and robot videos. Across three real-robot tasks, they report 94.4% macro success versus MolmoAct2’s 62.2%. Policies receive task-specific fine-tuning; the results do not establish general-purpose autonomy.",
+    "image_url": "https://arxiv.org/html/2610.37666v1/thinkworld_teaser_blue_v2_final.png",
+    "learn_more_url": "https://arxiv.org/abs/2610.37666",
+    "date": "2026-10-30",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "Compact AI Models Improve Time-Series Forecasting Benchmarks",
+    "description": "Adrien Petralia and colleagues introduce four forecasting models that separate prediction tokens from historical context and support known-future inputs. They report that the 123M- and 209M-parameter variants rank second and first, respectively, on all six metrics across GIFT-Eval, TIME, and fev-bench. The comparisons evaluate benchmark forecasting, not guaranteed accuracy on unseen real-world datasets.",
+    "image_url": "https://arxiv.org/html/2610.37585v1/00-pareto-front-companies.svg",
+    "learn_more_url": "https://arxiv.org/abs/2610.37585",
+    "date": "2026-10-30",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "OpenAI Doubles Usage Limits for ChatGPT Pro and Business Premium",
+    "description": "OpenAI's Thibault Sottiaux says usage limits are doubling for ChatGPT Pro 100, 200 and 500 and Business Premium, effective today. OpenAI also canceled a planned Pro 200 cut, so Work and Codex usage stays the same; its help center says only Pro 200's lower allowance doubles. Extended limits for dots continue, counted separately from regular usage.",
+    "image_url": "https://www.engadget.com/img/gallery/openai-adds-500-pro-subscription-nerfs-its-existing-200-tier/l-intro-1790697735.jpg",
+    "learn_more_url": "",
+    "date": "2026-10-30",
+    "source": "https://x.com/thsottiaux/status/2115850175868727621"
+  },
+  {
+    "title": "Sam Altman Says OpenAI Is Working Toward Robot-Built Data Centers",
+    "description": "OpenAI CEO Sam Altman said on Stripe's Cheeky Pint podcast that OpenAI is learning to build its own data centers and has a robotics program it will point at making many more. He called \"self-replicating\" data centers, where AI-run robots build facilities, turbines and solar panels, \"within grasp,\" but gave no timeline or budget.",
+    "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/10/29103524/library-sam-altman-says-openai-aims-to-use-robots-to-build-its-d-800x450.png",
+    "learn_more_url": "https://fourweekmba.com/ai-altman-sees-100b-memory-cash-flow-robot-built-openai-dcs/",
+    "date": "2026-10-30",
+    "source": "https://x.com/kalshi/status/2115842314920702347"
+  },
+  {
+    "title": "Anthropic Upgrades Claude Mobile Apps With iPad Multitasking, CarPlay and More",
+    "description": "Anthropic says Claude's mobile apps now show Claude's creations beside the chat on iPad, support multiple signed-in accounts, and bring voice mode to Apple CarPlay. Voice responds faster and hears better in noisy rooms, the app adds 24 languages for 33 total, Android gets a laptop-style layout on Chromebooks, and pull-down search is coming soon.",
+    "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/10/29140427/library-claude-mobile-apps-get-multitasking-account-switching-an-800x450.png",
+    "learn_more_url": "https://cryptobriefing.com/claude-mobile-apps-multitasking-carplay-update/",
+    "date": "2026-10-30",
+    "source": "https://x.com/claudeai/status/2115859377488072879"
+  },
+  {
+    "title": "AI Agent Performs Brain Surgery on a Mouse, Researcher Says",
+    "description": "Exin Therapeutics co-founder Gabriel Ocana-Santero says an AI agent picked a gene therapy from 19 options, chose a brain region and injected a mouse with epilepsy using a motorized surgery rig and camera. A vet approved every irreversible step and held a kill switch. He says Claude Opus 5 stopped before the live surgery.",
+    "image_url": "https://wpnews.pro/og/an-ai-agent-performed-brain-surgery-on-a-mouse.png",
+    "learn_more_url": "https://wpnews.pro/news/an-ai-agent-performed-brain-surgery-on-a-mouse",
+    "date": "2026-10-30",
+    "source": "https://x.com/OcanaSantero/status/2115442964574908902"
+  },
+  {
+    "title": "OpenAI Details Expanded Monitoring for Frontier Model Misalignment",
+    "description": "OpenAI says it expanded misalignment monitors across training, evaluation, internal use and some external deployment, using a layered system that starts with activation probes. In a replay of the Hugging Face incident, OpenAI says the system alerted about 30 minutes after agents escaped their sandbox, over 30 hours before the actual breach.",
+    "image_url": "https://zerohour.day/item/d28967fce9c692cd06eccf3709b27a584532abf2/opengraph-image?ba101ae8ffd6ebbc",
+    "learn_more_url": "https://zerohour.day/item/d28967fce9c692cd06eccf3709b27a584532abf2",
+    "date": "2026-10-30",
+    "source": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+    "ds": true
+  },
+  {
+    "title": "Anthropic Introduces Self-Assessment to Scale Misuse Detection",
+    "description": "Anthropic researchers say self-assessment lets Claude rate the safety of each conversation right after responding. On Claude Fable 5, it flags 78% of conversations a stronger prompted classifier marks as potentially harmful, and 94% of high-priority ones, at a 1% false-positive rate. Anthropic says it has uncovered large-scale misuse missed by other methods since June.",
+    "image_url": "https://safeguards.anthropic.com/2026/self-assessment/social-card.png",
+    "learn_more_url": "https://safeguards.anthropic.com/2026/self-assessment/",
+    "date": "2026-10-30",
+    "source": "https://safeguards.anthropic.com/2026/self-assessment/",
+    "ds": true
+  },
+  {
+    "title": "Anthropic Raises Claude API Request Size Limit to 128 MB",
+    "description": "Anthropic says it raised the maximum request size for the Messages API and Token Counting API from 32 MB to 128 MB on the first-party Claude API, effective October 28. Partner platforms keep lower limits, per Anthropic's docs: 20 MB on Bedrock and 30 MB on Google-managed Google Cloud, with Microsoft Foundry at 32 MB.",
+    "image_url": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+    "learn_more_url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "date": "2026-10-30",
+    "source": "https://x.com/Polymarket/status/2115933697119793655",
+    "ds": true
+  },
+  {
+    "title": "Anthropic Is SpaceX's Largest Customer, Bloomberg Reports",
+    "description": "Bloomberg reports, citing a person familiar with the matter, that Anthropic is the unnamed \"Customer B\" behind 34.5% of SpaceX's third-quarter revenue, paying its Super Intelligence computing unit. That would make Anthropic a bigger customer than the US government. Anthropic declined to comment and SpaceX did not respond, Bloomberg said.",
+    "image_url": "https://media.thenextweb.com/2026/10/spacex-hangar-launch-tower-kennedy-space-center.jpg",
+    "learn_more_url": "https://thenextweb.com/news/anthropic-spacex-largest-customer-customer-b",
+    "date": "2026-10-30",
+    "source": "https://x.com/Polymarket/status/2115904259548213720"
+  },
+  {
+    "title": "House Democrats Demand Trump Preserve His AI Chatbot Conversations",
+    "description": "Reps. Jamie Raskin and Robert Garcia, the top Democrats on the House Judiciary and Oversight committees, wrote to President Trump asking him to preserve prompts and outputs from Grok, ChatGPT, Claude, Gemini and Perplexity used in official duties. They cited reports he consulted Grok on Venezuela and requested a briefing by Nov. 11, per Nextgov.",
+    "image_url": "https://cdn.nextgov.com/media/img/cd/2026/10/29/GettyImages_2300673368/route-fifty-lead-image.jpg?1793290305",
+    "learn_more_url": "https://www.nextgov.com/artificial-intelligence/2026/10/house-democrats-call-trump-preserve-ai-chatbot-records/416913/",
+    "date": "2026-10-30",
+    "source": "https://x.com/AndrewCurran_/status/2115868676092269044"
+  },
+  {
+    "title": "AI-Powered America.gov Adds Housing Maps",
+    "description": "America.gov, the federal services site GSA describes as using AI-enhanced search across 29,000 government websites, now maps HUD-assisted housing near users, per its release notes. The National Design Studio says users can find senior, affordable or public housing; listings show addresses, phone numbers and programs. Nextgov reported the chatbot runs on Gemini and Grok models, citing designer Joe Gebbia.",
+    "image_url": "https://america.gov/images/social/america-og.png",
+    "learn_more_url": "https://america.gov/releases",
+    "date": "2026-10-30",
+    "source": "https://x.com/ndstudio/status/2115805857346732297"
+  },
+  {
+    "title": "ElevenLabs Launches SFX v3 Sound Effects Model",
+    "description": "ElevenLabs released SFX v3, its newest text-to-sound-effects model, in ElevenCreative and ElevenAPI. The company says it follows prompts describing multiple sounds more reliably, handles music and vocals better, and produces cleaner audio than SFX v2. Its docs say v3 is in limited access, may not be available in every region, and v2 remains the API default.",
+    "image_url": "https://eleven-public-cdn.elevenlabs.io/payloadcms/4i9xsghce45-SFX-v3_-Thumbnail--1-.webp",
+    "learn_more_url": "https://elevenlabs.io/blog/sound-effects-v3",
+    "date": "2026-10-30",
+    "source": "https://x.com/ElevenLabs/status/2115867078964187368",
+    "ds": true
+  },
+  {
+    "title": "Heyclicky Adds Real-Time On-Screen Graphics",
+    "description": "Farza, who builds the AI desktop assistant heyclicky, says his team is shipping real-time graphics: custom overlays, diagrams and interactive 3D scenes generated directly on a user's screen, without a chat window. He says it runs on Sol 6.1 Ultrafast and calls it \"a new visual interface for AI.\" His demo shows him learning about AI and hardware.",
+    "image_url": "https://www.heyclicky.com/opengraph-image.jpg?opengraph-image.0noyq5uqkj1s1.jpg",
+    "learn_more_url": "https://heyclicky.com/",
+    "date": "2026-10-30",
+    "source": "https://x.com/FarzaTV/status/2115593097044426997"
+  },
+  {
+    "title": "Phonic Launches Phonic-1 Speech-to-Speech Model, Raises $27.5M",
+    "description": "Phonic released Phonic-1, a speech-to-speech model for voice agents, and says it took the top spot on the Artificial Analysis Speech to Speech Index. The company says it can call tools while the caller is still talking and supports 50+ languages. Phonic also announced a $27.5M Series A led by First Round, bringing total funding to $31.5M.",
+    "image_url": "https://cdn.prod.website-files.com/6a28062dd147f554ba12c01a/6ae2cf7d2cc3c6da0f06d655_6ae2cf66822ed71a7d689bad_phonic-1-link-preview-2400.png",
+    "learn_more_url": "https://docs.phonic.co/docs/get-started/overview",
+    "date": "2026-10-30",
+    "source": "https://x.com/LeoCreaIA/status/2115882954928918688",
+    "ds": true
+  },
+  {
+    "title": "Starbucks to Test Background AI in Drive-Thrus to Help Baristas Take Orders",
+    "description": "Starbucks CEO Brian Niccol said on the company's earnings call that in fiscal 2027 Starbucks will begin testing background AI models in drive-thrus to help baristas enter orders more accurately and efficiently. He said Starbucks is also exploring ways to recognize participating customers on arrival, show personalized digital menus and simplify payment, adding the work is early.",
+    "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/10/starbucks-brian-niccol-earnings.jpg?quality=75&strip=all&1793297016&w=1200",
+    "learn_more_url": "https://nypost.com/2026/10/29/business/stabucks-ceo-brian-niccol-reveals-new-ideas-to-improve-customer-service-using-ai-other-tech/",
+    "date": "2026-10-30",
+    "source": "https://www.instagram.com/reel/DfGKVXeDfrO/"
+  },
+  {
+    "title": "Switch: Open-Source Harness Framework for Decision Models Like Jev",
+    "description": "Developer @onusoz released Switch, an open-source framework for building harnesses for decision models like TypeSafe's Jev, which answer typed questions but cannot generate tool calls. Code turns task state into finite choices and the model picks one per step. Domains include chess and an eval rubric judge; the author says Jev is not yet strong at either.",
+    "image_url": "https://opengraph.githubassets.com/804ec74b772080b75828ef2c8d58e240dcfed8104de45605452dbc4bb2875872/osolmaz/switch",
+    "learn_more_url": "https://github.com/osolmaz/switch",
+    "date": "2026-10-30",
+    "source": "https://x.com/onusoz/status/2115868447834042415",
+    "ds": true
+  },
+  {
+    "title": "Sabi Introduces RL with Neural Feedback, Training Image Models on EEG Signals",
+    "description": "Sabi introduced Reinforcement Learning with Neural Feedback (RLNF), which uses EEG arousal signals as a reward model for on-policy RL of text-to-image models, without explicit human ratings. Sabi's blog says training used GRPO with 32,768 rollouts per round. In a demo shared by Rahul Chhabra, a face image transforms toward what the viewer finds more attractive.",
+    "image_url": "https://sabi.com/blog/measuring-taste/og/header.jpg",
+    "learn_more_url": "https://sabi.com/blog/measuring-taste",
+    "date": "2026-10-30",
+    "source": "https://x.com/rahulchhabra07/status/2115918744308658325",
+    "ds": true
+  },
+  {
+    "title": "NYT Reports Espionage Allegations Involving Nvidia CEO’s Business Contact",
+    "description": "The New York Times, citing unnamed sources, reported that U.S. officials believed Megaspeed executive Alice Huang gathered intelligence for China while maintaining ties with Nvidia CEO Jensen Huang. Nvidia described their meetings as routine and denied sharing sensitive information. China rejected the allegations. Megaspeed said it had hired outside lawyers to investigate and told U.S. authorities it would cooperate.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2022/09/nvidia-ceo-jensen-huang-with-geforce-rtx-4090.jpg?w=1024",
+    "learn_more_url": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html",
+    "date": "2026-10-30",
+    "source": "nytimes.com"
+  },
+  {
+    "title": "Anthropic Describes Claude Self-Assessment System for Misuse Detection",
+    "description": "Anthropic says Claude can assess conversations for potential misuse after each response, helping prioritize human review. The company says this monitoring has run since June and covers a large share of Claude traffic. It does not block requests itself, and Anthropic cautions that it cannot reliably stop determined attackers or serve as the only safeguard.",
+    "image_url": "https://safeguards.anthropic.com/2026/self-assessment/social-card.png",
+    "learn_more_url": "https://safeguards.anthropic.com/2026/self-assessment/",
+    "date": "2026-10-30",
+    "source": "safeguards.anthropic.com",
+    "ds": true
+  }
+]
