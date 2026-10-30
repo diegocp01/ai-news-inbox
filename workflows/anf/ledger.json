@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 862,
-  "updated_at": "2026-10-30T19:09:35.992325+00:00",
-  "next_id": 281,
+  "generation": 863,
+  "updated_at": "2026-10-30T19:09:36.710513+00:00",
+  "next_id": 282,
   "records": [
     {
       "id": 1,
@@ -3730,6 +3730,19 @@
           "sha256": "e6fdca9a1783dc1e4a204da086c6f34886b40a4410a0b3f453e856c8c9d3d945",
           "source": "https://x.com/elonmusk/status/2116019939056513218",
           "request_id": "e3579ce38c10278949557ca3d56ea2ec195a21cd62a9d6c702f2298cd7a581bc",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T19:09:36.710513+00:00",
+          "block": "Title: Anthropic Renames Claude Max Plans to Max and Ultra, Drops 5-Hour Limit for Verified Ultra Accounts\nURL: https://claude.com/pricing\nImage URL: https://assets.claude.com/f66071070c4701ea2c37fc01b3c0f83623cf29d3.jpg?w=2400&h=1260&fit=crop\nSummary: Anthropic renamed its Claude Max 5x plan to Max and Max 20x to Ultra, keeping prices at $100 and $200 a month. It said it is removing the 5-hour usage limit for verified Ultra accounts, starting with most existing subscribers, while newer accounts keep a temporary limit until verified. Weekly limits are unchanged.",
+          "sha256": "ea9abd6db7b00a72172561b6e95ae5f5b1ee92912942bc7c66558c6c86846b97",
+          "source": "https://x.com/claudeai/status/2116220869479428500",
+          "request_id": "32a5ace709b931ce4750d8b3b045835112b02599eb36b46384600b3fd1ae4a3d",
           "mode": "standard"
         }
       ]
@@ -8210,13 +8223,21 @@
       ]
     },
     "32a5ace709b931ce4750d8b3b045835112b02599eb36b46384600b3fd1ae4a3d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T19:09:35.992325+00:00",
       "received_sequence": 253,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-30T19:09:36.710513+00:00",
+      "records": [
+        {
+          "id": 281,
+          "revision": 1,
+          "sha256": "ea9abd6db7b00a72172561b6e95ae5f5b1ee92912942bc7c66558c6c86846b97"
+        }
+      ]
     }
   },
   "batches": {
@@ -32786,6 +32807,21 @@
       "result": {
         "status": "received",
         "request_id": "32a5ace709b931ce4750d8b3b045835112b02599eb36b46384600b3fd1ae4a3d"
+      }
+    },
+    "ca4f8c9d13dc77a2e01077e3c54334d78026b76879bdd40f2e1669ef0af555d8": {
+      "sha256": "e7506043844de9dbcb4ec34770e10be9b39a5e3d33453c41e72b4475e0bbd90d",
+      "result": {
+        "status": "finalized",
+        "request_id": "32a5ace709b931ce4750d8b3b045835112b02599eb36b46384600b3fd1ae4a3d",
+        "records": [
+          {
+            "id": 281,
+            "revision": 1,
+            "sha256": "ea9abd6db7b00a72172561b6e95ae5f5b1ee92912942bc7c66558c6c86846b97"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
