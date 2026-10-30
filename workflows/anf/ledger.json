@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 828,
-  "updated_at": "2026-10-30T01:48:44.400937+00:00",
-  "next_id": 272,
+  "generation": 829,
+  "updated_at": "2026-10-30T01:48:44.911151+00:00",
+  "next_id": 273,
   "records": [
     {
       "id": 1,
@@ -3603,6 +3603,19 @@
           "sha256": "28fe3048fa654a62fe9bda7eea55fcf596df97e7417f0de906bb6ef225d46c41",
           "source": "https://x.com/ElevenLabs/status/2115867078964187368",
           "request_id": "ccee28b996305b36c42855cad749a0712fba0f56db13ecbf966c4b71d337e1a4",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 272,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T01:48:44.911151+00:00",
+          "block": "Title: Heyclicky Adds Real-Time On-Screen Graphics\nURL: https://heyclicky.com/\nImage URL: https://www.heyclicky.com/opengraph-image.jpg?opengraph-image.0noyq5uqkj1s1.jpg\nSummary: Farza, who builds the AI desktop assistant heyclicky, says his team is shipping real-time graphics: custom overlays, diagrams and interactive 3D scenes generated directly on a user's screen, without a chat window. He says it runs on OpenAI's Sol 6.1 Ultrafast and calls it \"a new visual interface for AI.\" His demo shows him learning about AI and hardware.",
+          "sha256": "a7bd2195b44c506c6a33cb54090d2296b0aaccf0bcea97ca7566fdf22900eab9",
+          "source": "https://x.com/FarzaTV/status/2115593097044426997",
+          "request_id": "ce52f7374820f994cd0071edd687cbecf1fc0bbc0f81115708b6ac3581890276",
           "mode": "standard"
         }
       ]
@@ -7924,13 +7937,21 @@
       ]
     },
     "ce52f7374820f994cd0071edd687cbecf1fc0bbc0f81115708b6ac3581890276": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T01:48:44.400937+00:00",
       "received_sequence": 244,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-30T01:48:44.911151+00:00",
+      "records": [
+        {
+          "id": 272,
+          "revision": 1,
+          "sha256": "a7bd2195b44c506c6a33cb54090d2296b0aaccf0bcea97ca7566fdf22900eab9"
+        }
+      ]
     }
   },
   "batches": {
@@ -31499,6 +31520,21 @@
       "result": {
         "status": "received",
         "request_id": "ce52f7374820f994cd0071edd687cbecf1fc0bbc0f81115708b6ac3581890276"
+      }
+    },
+    "5bc2a379f1ee69f0d32b0293ef23e974aba1ffc0825467e13d1722554dc30010": {
+      "sha256": "63140feff73f9465f7d1c27f0dfa21b97980e48419bbea3904a9bfcfc930d4b7",
+      "result": {
+        "status": "finalized",
+        "request_id": "ce52f7374820f994cd0071edd687cbecf1fc0bbc0f81115708b6ac3581890276",
+        "records": [
+          {
+            "id": 272,
+            "revision": 1,
+            "sha256": "a7bd2195b44c506c6a33cb54090d2296b0aaccf0bcea97ca7566fdf22900eab9"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
