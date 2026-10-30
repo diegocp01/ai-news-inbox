@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 820,
-  "updated_at": "2026-10-30T01:33:50.118118+00:00",
+  "generation": 821,
+  "updated_at": "2026-10-30T01:33:50.795019+00:00",
   "next_id": 270,
   "records": [
     {
@@ -31344,6 +31344,18 @@
         ],
         "duplicates": []
       }
+    },
+    "67678cab09c7cc64be397d69cacfdd3e12db6dd4d8678238753fc08abdf57d12": {
+      "sha256": "02386753e8665fade0971adadf387e2e7a0b05bd51ae3b49f6954298785ddafa",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 269,
+          "revision": 1,
+          "sha256": "fb16f2a2ed0765ffe5b15187d1c198e7570b8a10c420611895fb86b85b83bda1"
+        },
+        "editorial_sha256": "471dd8be1db5f12e58f4fad22027f30e97e41b72d04af586cdd8221fa51ae306"
+      }
     }
   },
   "migration": {
@@ -39272,6 +39284,26 @@
         "sha256": "6fe66e12f711f5467343a936444a20e1ba1d50e6f6dfb1c84662cb8cc1325ec4",
         "reviewed_at": "2026-10-30T00:19:30.219931+00:00",
         "operation_id": "499b7fa7f58f4d980e1affe1a82573c03d5134cedb93934b3e8977ff96600938"
+      }
+    ],
+    "269:1": [
+      {
+        "reference": {
+          "id": 269,
+          "revision": 1,
+          "sha256": "fb16f2a2ed0765ffe5b15187d1c198e7570b8a10c420611895fb86b85b83bda1"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Policy/politics story; no DS terms",
+            "evidence_sha256": "04f96b79d652209a9be4b497b1b705f844f6471c287ad76438b5dd2b8d20cfdc"
+          }
+        },
+        "sha256": "471dd8be1db5f12e58f4fad22027f30e97e41b72d04af586cdd8221fa51ae306",
+        "reviewed_at": "2026-10-30T01:33:50.795019+00:00",
+        "operation_id": "67678cab09c7cc64be397d69cacfdd3e12db6dd4d8678238753fc08abdf57d12"
       }
     ]
   }
