@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 841,
-  "updated_at": "2026-10-30T02:19:00.000607+00:00",
+  "generation": 842,
+  "updated_at": "2026-10-30T02:19:00.646537+00:00",
   "next_id": 276,
   "records": [
     {
@@ -31783,6 +31783,18 @@
         ],
         "duplicates": []
       }
+    },
+    "410f5a1a86ab94ef35107bb3329640fc1c65d6e783230d4b9a0a45e6396a96c7": {
+      "sha256": "70d71e18cec3a3c7b857ef32209d555a8d616ce29ff23da11381178324dd7806",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 275,
+          "revision": 1,
+          "sha256": "8bac733e9905953003a4625999f24036934dafe74b935735dc2b17ecef9c2e09"
+        },
+        "editorial_sha256": "90eacd3a3c24b199f12d504b0de0b053d3f0ec12ca3b4388d1875987a70dee88"
+      }
     }
   },
   "migration": {
@@ -39851,6 +39863,26 @@
         "sha256": "405546c6292b71d313bdf8e69b2655930275bf2b781cfb3fd0d0663b32b65d50",
         "reviewed_at": "2026-10-30T02:01:37.846528+00:00",
         "operation_id": "7e1dfb0d7c0f18b1e5218065885cc09ad5e1de7c64326924ad483674c1a04e16"
+      }
+    ],
+    "275:1": [
+      {
+        "reference": {
+          "id": 275,
+          "revision": 1,
+          "sha256": "8bac733e9905953003a4625999f24036934dafe74b935735dc2b17ecef9c2e09"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "open_source",
+            "rationale": "Open-source agent-harness framework for decision models; ML/dev-technical",
+            "evidence_sha256": "fe50a725273857739a7eac9f4c83a87f32088f655871963cb0921d1bdc46737a"
+          }
+        },
+        "sha256": "90eacd3a3c24b199f12d504b0de0b053d3f0ec12ca3b4388d1875987a70dee88",
+        "reviewed_at": "2026-10-30T02:19:00.646537+00:00",
+        "operation_id": "410f5a1a86ab94ef35107bb3329640fc1c65d6e783230d4b9a0a45e6396a96c7"
       }
     ]
   }
