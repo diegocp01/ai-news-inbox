@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 866,
-  "updated_at": "2026-10-30T19:12:02.952210+00:00",
+  "generation": 867,
+  "updated_at": "2026-10-30T19:12:03.692799+00:00",
   "next_id": 283,
   "records": [
     {
@@ -32887,6 +32887,18 @@
         ],
         "duplicates": []
       }
+    },
+    "3a9ef3729e3c3c5a85b9171a2ade29c376b70138cfdb6ecd367a0a5a66944bba": {
+      "sha256": "d67ed2db52db252d6e8c356a7bceca4ebd9668f195a9a01f12de46eff35d0432",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 282,
+          "revision": 1,
+          "sha256": "1dabd0639fa1d55c45768dd1374d0544002d45868dfcc3095a86cd4aa757e17a"
+        },
+        "editorial_sha256": "73521d56f25fcae09cd87812ad4c847972c7f17ea1ec60daaf97a15867665636"
+      }
     }
   },
   "migration": {
@@ -41135,6 +41147,26 @@
         "sha256": "7243de064a3118e841ae869ca5a8ef9dc8428bc38fd6291f41c921a8b7cd4ce3",
         "reviewed_at": "2026-10-30T19:09:37.507155+00:00",
         "operation_id": "319940adc06638a6e43427b730e0a8eeede0c2efd442336fd8778f0d46fcd8d6"
+      }
+    ],
+    "282:1": [
+      {
+        "reference": {
+          "id": 282,
+          "revision": 1,
+          "sha256": "1dabd0639fa1d55c45768dd1374d0544002d45868dfcc3095a86cd4aa757e17a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Summary names a data-center-class TPU, a hardware term not known to a general reader; DS per Diego's rule",
+            "evidence_sha256": "5bb3a9c04e964c1a8241cc6c422b57d5a2dbda91302dedce344b53ac4d7a902c"
+          }
+        },
+        "sha256": "73521d56f25fcae09cd87812ad4c847972c7f17ea1ec60daaf97a15867665636",
+        "reviewed_at": "2026-10-30T19:12:03.692799+00:00",
+        "operation_id": "3a9ef3729e3c3c5a85b9171a2ade29c376b70138cfdb6ecd367a0a5a66944bba"
       }
     ]
   }
