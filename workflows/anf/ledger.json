@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 854,
-  "updated_at": "2026-10-30T12:10:00.336702+00:00",
+  "generation": 855,
+  "updated_at": "2026-10-30T12:11:49.327879+00:00",
   "next_id": 279,
   "records": [
     {
@@ -15295,7 +15295,7 @@
     },
     "315569ae5b3c18ba5ab6c4dc": {
       "batch_id": "315569ae5b3c18ba5ab6c4dc",
-      "status": "published",
+      "status": "delivered",
       "checkpoint_before": 258,
       "prepared_at": "2026-10-30T12:03:48.736634+00:00",
       "intake_cutoff": 250,
@@ -15409,14 +15409,24 @@
       "txt_sha256": "e5b1f986798f379b8f80b572b454e0782e390fadb518c26bd204c713e7e8ea5d",
       "json_sha256": "45897286ebc1011ada89d1650ef09fb2f63f00ff75f10b0a5c3bdb609cb78b16",
       "delivery": {
-        "status": "in_flight",
+        "status": "accepted",
         "attempts": [
           {
             "attempt_id": "muse-delivery-20261030-1208-3094",
             "started_at": "2026-10-30T12:10:00.336702+00:00",
-            "status": "in_flight",
+            "status": "accepted",
             "target_sha256": "6ab5dc4b9cf0f0cde4bcfa58ba6f9aaea81ab5995e590c2a3d4246be7b87002e",
-            "publication_observed_head": "c2d64761d14f5b869feedc094d07eb12e50bb4d4"
+            "publication_observed_head": "c2d64761d14f5b869feedc094d07eb12e50bb4d4",
+            "receipt": {
+              "channel": "chatgpt",
+              "accepted": true,
+              "accepted_at": "2026-10-30T12:10:09.744809+00:00",
+              "attachment_sha256": "e5b1f986798f379b8f80b572b454e0782e390fadb518c26bd204c713e7e8ea5d",
+              "target_sha256": "6ab5dc4b9cf0f0cde4bcfa58ba6f9aaea81ab5995e590c2a3d4246be7b87002e",
+              "message_receipt_sha256": "e1fe352ddb4d2fdeda3a419da91d61b0f93fec9f3cb12e11186c87c03fa9dc58",
+              "native_attachment_receipt_sha256": "6b6870506b4ae86fbdbdc7fb2b8f2fe91424f6c1bb087adb5cc88cbbd94fb97a"
+            },
+            "outcome_at": "2026-10-30T12:11:49.327879+00:00"
           }
         ]
       },
@@ -15591,12 +15601,14 @@
         "sha256": "45897286ebc1011ada89d1650ef09fb2f63f00ff75f10b0a5c3bdb609cb78b16",
         "published_at": "2026-10-30T12:07:19.942051+00:00",
         "planned_from_head": "5d634ab797e252618494fe9e65a0e4ffbee15e4c"
-      }
+      },
+      "acknowledged_at": "2026-10-30T12:11:49.327879+00:00",
+      "checkpoint_after": 278
     }
   },
-  "pending_batch_id": "315569ae5b3c18ba5ab6c4dc",
+  "pending_batch_id": null,
   "replacement_batch": null,
-  "checkpoint": 258,
+  "checkpoint": 278,
   "checkpoint_history": [
     {
       "kind": "delivery_acknowledgment",
@@ -15948,6 +15960,22 @@
         "target_sha256": "6ab5dc4b9cf0f0cde4bcfa58ba6f9aaea81ab5995e590c2a3d4246be7b87002e",
         "message_receipt_sha256": "be71fb5d2ee8dc893af6f31327722c367bf77a7dc0c3606c108b7f274cf86590",
         "native_attachment_receipt_sha256": "2e2b7a95bcded8f2fe74fb8137e1bc229c675420ba22895a2b3063e46db56288"
+      }
+    },
+    {
+      "kind": "delivery_acknowledgment",
+      "before": 258,
+      "checkpoint": 278,
+      "at": "2026-10-30T12:11:49.327879+00:00",
+      "batch_id": "315569ae5b3c18ba5ab6c4dc",
+      "receipt": {
+        "channel": "chatgpt",
+        "accepted": true,
+        "accepted_at": "2026-10-30T12:10:09.744809+00:00",
+        "attachment_sha256": "e5b1f986798f379b8f80b572b454e0782e390fadb518c26bd204c713e7e8ea5d",
+        "target_sha256": "6ab5dc4b9cf0f0cde4bcfa58ba6f9aaea81ab5995e590c2a3d4246be7b87002e",
+        "message_receipt_sha256": "e1fe352ddb4d2fdeda3a419da91d61b0f93fec9f3cb12e11186c87c03fa9dc58",
+        "native_attachment_receipt_sha256": "6b6870506b4ae86fbdbdc7fb2b8f2fe91424f6c1bb087adb5cc88cbbd94fb97a"
       }
     }
   ],
@@ -32600,6 +32628,20 @@
         "attempt_id": "muse-delivery-20261030-1208-3094",
         "txt_path": "workflows/anf/batches/315569ae5b3c18ba5ab6c4dc.txt",
         "txt_sha256": "e5b1f986798f379b8f80b572b454e0782e390fadb518c26bd204c713e7e8ea5d"
+      }
+    },
+    "muse-ack-20261030-1210-0480": {
+      "sha256": "1eb4e4587f7519eb0f4996e9ace67bb900e6ef4dd168cff99cb6f48f13a53f6f",
+      "result": {
+        "status": "acknowledgment_planned",
+        "checkpoint": 278,
+        "batch_id": "315569ae5b3c18ba5ab6c4dc",
+        "publication": {
+          "path": "items/2026-10-30.json",
+          "sha256": "45897286ebc1011ada89d1650ef09fb2f63f00ff75f10b0a5c3bdb609cb78b16",
+          "published_at": "2026-10-30T12:07:19.942051+00:00",
+          "planned_from_head": "5d634ab797e252618494fe9e65a0e4ffbee15e4c"
+        }
       }
     }
   },
