@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 868,
-  "updated_at": "2026-10-30T20:22:25.555411+00:00",
-  "next_id": 283,
+  "generation": 869,
+  "updated_at": "2026-10-30T20:22:26.408399+00:00",
+  "next_id": 284,
   "records": [
     {
       "id": 1,
@@ -3756,6 +3756,19 @@
           "sha256": "1dabd0639fa1d55c45768dd1374d0544002d45868dfcc3095a86cd4aa757e17a",
           "source": "https://x.com/sundarpichai/status/2116214866444943853",
           "request_id": "1148e1c44bde1bfb6be087b200f39b38948c86a290be537dd0cfa57db06621ad",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 283,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T20:22:26.408399+00:00",
+          "block": "Title: Cisco President Gives a 27-Year-Old Unlimited AI Access to Rewrite Its Legacy Code\nURL: https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/\nImage URL: https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2270629609-e1793295597735.jpg?resize=1200,600\nSummary: Cisco President Jeetu Patel told Fortune he gave 27-year-old Padmanabhan Krishnamurthy, who joined Cisco through its acquisition of his startup EzDubs, unlimited AI usage to rewrite the company's old software, with a goal of rewriting 98% of Cisco's legacy code within 24 months. Patel said he wants more young hires to challenge the status quo.",
+          "sha256": "ebb86adbde7c8dfd400a675ff4aecf95fb234d2f5c058e9a2468db19dc0e0ce2",
+          "source": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+          "request_id": "17a8180e3842776850bee340ccac3046fafd29dfc2abdd915c8de539c3f8cb7d",
           "mode": "standard"
         }
       ]
@@ -8270,13 +8283,21 @@
       ]
     },
     "17a8180e3842776850bee340ccac3046fafd29dfc2abdd915c8de539c3f8cb7d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T20:22:25.555411+00:00",
       "received_sequence": 255,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-30T20:22:26.408399+00:00",
+      "records": [
+        {
+          "id": 283,
+          "revision": 1,
+          "sha256": "ebb86adbde7c8dfd400a675ff4aecf95fb234d2f5c058e9a2468db19dc0e0ce2"
+        }
+      ]
     }
   },
   "batches": {
@@ -32914,6 +32935,21 @@
       "result": {
         "status": "received",
         "request_id": "17a8180e3842776850bee340ccac3046fafd29dfc2abdd915c8de539c3f8cb7d"
+      }
+    },
+    "42eeedc2cd3a23ef09a7c71fea01af2a2fc1d69b791bbe6b9b5573bcfde0dcdc": {
+      "sha256": "c3cd3609ed32e383c9bb8bd0cb44d4ef1ede498a25c61dea94fb38ad6d3ffc18",
+      "result": {
+        "status": "finalized",
+        "request_id": "17a8180e3842776850bee340ccac3046fafd29dfc2abdd915c8de539c3f8cb7d",
+        "records": [
+          {
+            "id": 283,
+            "revision": 1,
+            "sha256": "ebb86adbde7c8dfd400a675ff4aecf95fb234d2f5c058e9a2468db19dc0e0ce2"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
