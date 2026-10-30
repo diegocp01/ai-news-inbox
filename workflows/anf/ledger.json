@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 837,
-  "updated_at": "2026-10-30T02:01:36.768180+00:00",
-  "next_id": 274,
+  "generation": 838,
+  "updated_at": "2026-10-30T02:01:37.319081+00:00",
+  "next_id": 275,
   "records": [
     {
       "id": 1,
@@ -3637,6 +3637,19 @@
           "sha256": "55444f46249b48cbda58748058d830c530a2c77c34f2402d5ab50ab26154b2eb",
           "source": "https://x.com/LeoCreaIA/status/2115882954928918688",
           "request_id": "a0fc9d308667eeb3f0ea977bf58fdc95b3d57977b528f702cd8d6d545768afb7",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 274,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T02:01:37.319081+00:00",
+          "block": "Title: Starbucks to Test Background AI in Drive-Thrus to Help Baristas Take Orders\nURL: https://nypost.com/2026/10/29/business/stabucks-ceo-brian-niccol-reveals-new-ideas-to-improve-customer-service-using-ai-other-tech/\nImage URL: https://nypost.com/wp-content/uploads/sites/2/2026/10/starbucks-brian-niccol-earnings.jpg?quality=75&strip=all&1793297016&w=1200\nSummary: Starbucks CEO Brian Niccol said on the company's earnings call that in fiscal 2027 Starbucks will begin testing background AI models in drive-thrus to help baristas enter orders more accurately and efficiently. He said Starbucks is also exploring ways to recognize participating customers on arrival, show personalized digital menus and simplify payment, adding the work is early.",
+          "sha256": "05199afe4f2cbb2377ef1214be252b6f1b6634c52d7b71a0ad0d60e879c87a5d",
+          "source": "https://www.instagram.com/reel/DfGKVXeDfrO/",
+          "request_id": "3d4a5f2e013853482efe9f222581d1e7140264f647a657ba6503c400bd5b36eb",
           "mode": "standard"
         }
       ]
@@ -8009,13 +8022,21 @@
       ]
     },
     "3d4a5f2e013853482efe9f222581d1e7140264f647a657ba6503c400bd5b36eb": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T02:01:36.768180+00:00",
       "received_sequence": 247,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-30T02:01:37.319081+00:00",
+      "records": [
+        {
+          "id": 274,
+          "revision": 1,
+          "sha256": "05199afe4f2cbb2377ef1214be252b6f1b6634c52d7b71a0ad0d60e879c87a5d"
+        }
+      ]
     }
   },
   "batches": {
@@ -31682,6 +31703,21 @@
       "result": {
         "status": "received",
         "request_id": "3d4a5f2e013853482efe9f222581d1e7140264f647a657ba6503c400bd5b36eb"
+      }
+    },
+    "b76c83d9a36419dab65855601a1579a0df870cdd87301e39653a484016a3aeff": {
+      "sha256": "58977dc36319c63032353fa9ed79281ca09754be6191265543af31c98015154b",
+      "result": {
+        "status": "finalized",
+        "request_id": "3d4a5f2e013853482efe9f222581d1e7140264f647a657ba6503c400bd5b36eb",
+        "records": [
+          {
+            "id": 274,
+            "revision": 1,
+            "sha256": "05199afe4f2cbb2377ef1214be252b6f1b6634c52d7b71a0ad0d60e879c87a5d"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
