@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 857,
-  "updated_at": "2026-10-30T13:57:44.371305+00:00",
+  "generation": 858,
+  "updated_at": "2026-10-30T13:57:44.988327+00:00",
   "next_id": 280,
   "records": [
     {
@@ -32695,6 +32695,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b7a1842c6822fabd2252457fd52daf9eacbf166532dde99cb2cbb3bcd1eb7dfc": {
+      "sha256": "ef1cd0fe27b0f09925b2f6bf4f1f4464e608ce48b11719def3f4b1ac9099d5e8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 279,
+          "revision": 1,
+          "sha256": "a354f8b93238233657a98329061d5be9ad51bb24ba262b4eb107b49810e78d64"
+        },
+        "editorial_sha256": "1e6f894c71ec962673ffca101cfe5b9a9bce7131e7acf35a8eaacc2dbaa0b42b"
+      }
     }
   },
   "migration": {
@@ -40883,6 +40895,26 @@
         "sha256": "1b1e99ce031df4c250f7ea375b4ef352ff3f2e5f5cc1d63842176583e2e16234",
         "reviewed_at": "2026-10-30T12:03:32.186779+00:00",
         "operation_id": "muse-backfill-20261030-278-2837"
+      }
+    ],
+    "279:1": [
+      {
+        "reference": {
+          "id": 279,
+          "revision": 1,
+          "sha256": "a354f8b93238233657a98329061d5be9ad51bb24ba262b4eb107b49810e78d64"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Product launch of a consumer/creator AI video model; no API or ML-internals detail in summary",
+            "evidence_sha256": "0f9dc41df6edb43b709d62ac47608f591229723d4937a4a5d9569851a03fa037"
+          }
+        },
+        "sha256": "1e6f894c71ec962673ffca101cfe5b9a9bce7131e7acf35a8eaacc2dbaa0b42b",
+        "reviewed_at": "2026-10-30T13:57:44.988327+00:00",
+        "operation_id": "b7a1842c6822fabd2252457fd52daf9eacbf166532dde99cb2cbb3bcd1eb7dfc"
       }
     ]
   }
