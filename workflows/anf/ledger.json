@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 814,
-  "updated_at": "2026-10-30T00:18:21.760453+00:00",
+  "generation": 815,
+  "updated_at": "2026-10-30T00:18:22.391103+00:00",
   "next_id": 268,
   "records": [
     {
@@ -31216,6 +31216,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9f76be88e4ef3aa271dee50b72661e831b447737e381c1bd626b6ccfe8f7c74b": {
+      "sha256": "9f12b91c2ff751b5ae16f303de668ea4f5c4dc9364a93ecca6d7cbf5da345fe5",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 267,
+          "revision": 1,
+          "sha256": "51738dc17cd87de462ce05048a5317b9dcae12fa2d5546d3307bea2fe9b9c583"
+        },
+        "editorial_sha256": "803bb53b5525ec51957f86601e4e436f2d9e4be320c42cea576ba58b6d998a2e"
+      }
     }
   },
   "migration": {
@@ -39104,6 +39116,26 @@
         "sha256": "716894169b3ee044330b1d85062795cf5f7329d434fce72ac87e11bbc11021f6",
         "reviewed_at": "2026-10-29T21:06:42.759110+00:00",
         "operation_id": "26a07c7aa01f54eca2486d16cb2840997786bf9ee102c1b74b3c3ef03f002645"
+      }
+    ],
+    "267:1": [
+      {
+        "reference": {
+          "id": 267,
+          "revision": 1,
+          "sha256": "51738dc17cd87de462ce05048a5317b9dcae12fa2d5546d3307bea2fe9b9c583"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer API limit change (Messages/Token Counting API request size)",
+            "evidence_sha256": "5cae9f47dcf1431d3cf27999bc22bc9fc425f4fa8fa1ea46928625eafed6d6bb"
+          }
+        },
+        "sha256": "803bb53b5525ec51957f86601e4e436f2d9e4be320c42cea576ba58b6d998a2e",
+        "reviewed_at": "2026-10-30T00:18:22.391103+00:00",
+        "operation_id": "9f76be88e4ef3aa271dee50b72661e831b447737e381c1bd626b6ccfe8f7c74b"
       }
     ]
   }
