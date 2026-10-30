@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 846,
-  "updated_at": "2026-10-30T11:38:10.258063+00:00",
-  "next_id": 277,
+  "generation": 847,
+  "updated_at": "2026-10-30T11:43:43.210657+00:00",
+  "next_id": 279,
   "records": [
     {
       "id": 1,
@@ -3677,6 +3677,34 @@
           "source": "https://x.com/rahulchhabra07/status/2115918744308658325",
           "request_id": "3c181d1b3f568427bead1b93669ebf721b393b6c2c5c94523c72d371b55fabdf",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 277,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T11:43:43.210657+00:00",
+          "block": "Title: NYT Reports Espionage Allegations Involving Nvidia CEO’s Business Contact\nURL: https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html\nImage URL: https://techcrunch.com/wp-content/uploads/2022/09/nvidia-ceo-jensen-huang-with-geforce-rtx-4090.jpg?w=1024\nSummary: The New York Times, citing unnamed sources, reported that U.S. officials believed Megaspeed executive Alice Huang gathered intelligence for China while maintaining ties with Nvidia CEO Jensen Huang. Nvidia described their meetings as routine and denied sharing sensitive information. China rejected the allegations. Megaspeed said it had hired outside lawyers to investigate and told U.S. authorities it would cooperate.",
+          "sha256": "cd99e821ce3e57e0d7f88dcde0cfdd4ece82376449df30f85394fd020cfaadd1",
+          "source": "nytimes.com",
+          "request_id": "66bf27a094100779ea4ac4027a9a4cac821b5a8e8ee38c633e088e333f9d2316",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T11:43:43.210657+00:00",
+          "block": "Title: Anthropic Describes Claude Self-Assessment System for Misuse Detection\nURL: https://safeguards.anthropic.com/2026/self-assessment/\nImage URL: https://safeguards.anthropic.com/2026/self-assessment/social-card.png\nSummary: Anthropic says Claude can assess conversations for potential misuse after each response, helping prioritize human review. The company says this monitoring has run since June and covers a large share of Claude traffic. It does not block requests itself, and Anthropic cautions that it cannot reliably stop determined attackers or serve as the only safeguard.",
+          "sha256": "560335d648b895c58ddebd65a36cebb3670e2942694b49386ee1edce81be9575",
+          "source": "safeguards.anthropic.com",
+          "request_id": "66bf27a094100779ea4ac4027a9a4cac821b5a8e8ee38c633e088e333f9d2316",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -8099,14 +8127,27 @@
       ]
     },
     "66bf27a094100779ea4ac4027a9a4cac821b5a8e8ee38c633e088e333f9d2316": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T11:38:10.258063+00:00",
       "received_sequence": 250,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-10-30T11:43:43.210657+00:00",
+      "records": [
+        {
+          "id": 277,
+          "revision": 1,
+          "sha256": "cd99e821ce3e57e0d7f88dcde0cfdd4ece82376449df30f85394fd020cfaadd1"
+        },
+        {
+          "id": 278,
+          "revision": 1,
+          "sha256": "560335d648b895c58ddebd65a36cebb3670e2942694b49386ee1edce81be9575"
+        }
+      ]
     }
   },
   "batches": {
@@ -31875,6 +31916,26 @@
       "result": {
         "status": "received",
         "request_id": "66bf27a094100779ea4ac4027a9a4cac821b5a8e8ee38c633e088e333f9d2316"
+      }
+    },
+    "80bfb161dce37d195375f235bad7a5a1dc4dbd096f72325d7163e5b022819a70": {
+      "sha256": "59030fc009ca1fcb74273f572fe130f37c33b6eb58f1a8b7db57532d1f7e5d5e",
+      "result": {
+        "status": "finalized",
+        "request_id": "66bf27a094100779ea4ac4027a9a4cac821b5a8e8ee38c633e088e333f9d2316",
+        "records": [
+          {
+            "id": 277,
+            "revision": 1,
+            "sha256": "cd99e821ce3e57e0d7f88dcde0cfdd4ece82376449df30f85394fd020cfaadd1"
+          },
+          {
+            "id": 278,
+            "revision": 1,
+            "sha256": "560335d648b895c58ddebd65a36cebb3670e2942694b49386ee1edce81be9575"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
