@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 826,
-  "updated_at": "2026-10-30T01:47:11.906224+00:00",
+  "generation": 827,
+  "updated_at": "2026-10-30T01:47:12.437315+00:00",
   "next_id": 272,
   "records": [
     {
@@ -31472,6 +31472,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e7d7033b5f48e52d309b5a44a8b5ffd3737a410b33c07b8b54b546e94ffdd2ec": {
+      "sha256": "96210639661cca790bf42686cd7409ff2338b02140da7e7da7b6e3e9f5bb0eb8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 271,
+          "revision": 1,
+          "sha256": "28fe3048fa654a62fe9bda7eea55fcf596df97e7417f0de906bb6ef225d46c41"
+        },
+        "editorial_sha256": "5412a702beb6e91e9ff13e228c34691f9346e092360a8219558870f39b7856c6"
+      }
     }
   },
   "migration": {
@@ -39440,6 +39452,26 @@
         "sha256": "6da3f9572b1aa84aa77a19e7779a25c19ba1c8b4625f3abf2e9667db7c964cc1",
         "reviewed_at": "2026-10-30T01:44:41.625890+00:00",
         "operation_id": "08e06e85632c60e11a5ad6d0987eed4eacb0728356200cd00ffef24ea2bc5610"
+      }
+    ],
+    "271:1": [
+      {
+        "reference": {
+          "id": 271,
+          "revision": 1,
+          "sha256": "28fe3048fa654a62fe9bda7eea55fcf596df97e7417f0de906bb6ef225d46c41"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Model release shipped via ElevenAPI with API default/model access details",
+            "evidence_sha256": "385a12c1e7d2a8012b09e945daa65414b7349e2a7955b9a005a3d15a3446cfc4"
+          }
+        },
+        "sha256": "5412a702beb6e91e9ff13e228c34691f9346e092360a8219558870f39b7856c6",
+        "reviewed_at": "2026-10-30T01:47:12.437315+00:00",
+        "operation_id": "e7d7033b5f48e52d309b5a44a8b5ffd3737a410b33c07b8b54b546e94ffdd2ec"
       }
     ]
   }
