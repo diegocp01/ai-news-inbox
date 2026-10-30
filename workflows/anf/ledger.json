@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 838,
-  "updated_at": "2026-10-30T02:01:37.319081+00:00",
+  "generation": 839,
+  "updated_at": "2026-10-30T02:01:37.846528+00:00",
   "next_id": 275,
   "records": [
     {
@@ -31719,6 +31719,18 @@
         ],
         "duplicates": []
       }
+    },
+    "7e1dfb0d7c0f18b1e5218065885cc09ad5e1de7c64326924ad483674c1a04e16": {
+      "sha256": "785abddfb20b2f6b16a21fad4aebb77dd0e191a605f7e14582f671d1e75013a8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 274,
+          "revision": 1,
+          "sha256": "05199afe4f2cbb2377ef1214be252b6f1b6634c52d7b71a0ad0d60e879c87a5d"
+        },
+        "editorial_sha256": "405546c6292b71d313bdf8e69b2655930275bf2b781cfb3fd0d0663b32b65d50"
+      }
     }
   },
   "migration": {
@@ -39767,6 +39779,26 @@
         "sha256": "d1d79bd2e886e073e96ac4e59c2da830b3ca4bbe5a5aebe22a872ff88abe9c30",
         "reviewed_at": "2026-10-30T01:52:23.704682+00:00",
         "operation_id": "51960543346d49e38d3e4063a4c4bf8825526590ffa549bdd97694f1d4401ddb"
+      }
+    ],
+    "274:1": [
+      {
+        "reference": {
+          "id": 274,
+          "revision": 1,
+          "sha256": "05199afe4f2cbb2377ef1214be252b6f1b6634c52d7b71a0ad0d60e879c87a5d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer/business AI adoption news at Starbucks; no ML-technical or developer content",
+            "evidence_sha256": "b2e8216f6461d232d7788d2d5d389a620b5f61bbe9163397dc2946517bd16346"
+          }
+        },
+        "sha256": "405546c6292b71d313bdf8e69b2655930275bf2b781cfb3fd0d0663b32b65d50",
+        "reviewed_at": "2026-10-30T02:01:37.846528+00:00",
+        "operation_id": "7e1dfb0d7c0f18b1e5218065885cc09ad5e1de7c64326924ad483674c1a04e16"
       }
     ]
   }
