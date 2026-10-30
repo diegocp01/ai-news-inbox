@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 816,
-  "updated_at": "2026-10-30T00:19:29.072000+00:00",
-  "next_id": 268,
+  "generation": 817,
+  "updated_at": "2026-10-30T00:19:29.643484+00:00",
+  "next_id": 269,
   "records": [
     {
       "id": 1,
@@ -3551,6 +3551,19 @@
           "sha256": "51738dc17cd87de462ce05048a5317b9dcae12fa2d5546d3307bea2fe9b9c583",
           "source": "https://x.com/Polymarket/status/2115933697119793655",
           "request_id": "772019e3a5abf9f01a779cb2bd2c90de000bc88427493c45627512aa4b4bae02",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T00:19:29.643484+00:00",
+          "block": "Title: Anthropic Is SpaceX's Largest Customer, Bloomberg Reports\nURL: https://thenextweb.com/news/anthropic-spacex-largest-customer-customer-b\nImage URL: https://media.thenextweb.com/2026/10/spacex-hangar-launch-tower-kennedy-space-center.jpg\nSummary: Bloomberg reports, citing a person familiar with the matter, that Anthropic is the unnamed \"Customer B\" behind 34.5% of SpaceX's third-quarter revenue, paying its Super Intelligence computing unit. That would make Anthropic a bigger customer than the US government. Anthropic declined to comment and SpaceX did not respond, Bloomberg said.",
+          "sha256": "a3e4047de3144d559863beb2ddc99d54fd27fe6aebd69677b90e5c7f058867a5",
+          "source": "https://x.com/Polymarket/status/2115904259548213720",
+          "request_id": "4bbeac16813b1c2a420f4376a9ece4bbc22ca1b9a82f36b4ac7e34282e189500",
           "mode": "standard"
         }
       ]
@@ -7804,13 +7817,21 @@
       ]
     },
     "4bbeac16813b1c2a420f4376a9ece4bbc22ca1b9a82f36b4ac7e34282e189500": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T00:19:29.072000+00:00",
       "received_sequence": 240,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-30T00:19:29.643484+00:00",
+      "records": [
+        {
+          "id": 268,
+          "revision": 1,
+          "sha256": "a3e4047de3144d559863beb2ddc99d54fd27fe6aebd69677b90e5c7f058867a5"
+        }
+      ]
     }
   },
   "batches": {
@@ -31243,6 +31264,21 @@
       "result": {
         "status": "received",
         "request_id": "4bbeac16813b1c2a420f4376a9ece4bbc22ca1b9a82f36b4ac7e34282e189500"
+      }
+    },
+    "477408bcba418ee7abb9b78f4f5bf8fdd8e0e31264fcebea41de7a769d587a85": {
+      "sha256": "7dcb7adf04d9187db145b64b542b8d0309c377799433a03fa1a65d49d5891457",
+      "result": {
+        "status": "finalized",
+        "request_id": "4bbeac16813b1c2a420f4376a9ece4bbc22ca1b9a82f36b4ac7e34282e189500",
+        "records": [
+          {
+            "id": 268,
+            "revision": 1,
+            "sha256": "a3e4047de3144d559863beb2ddc99d54fd27fe6aebd69677b90e5c7f058867a5"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
