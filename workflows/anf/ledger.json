@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 840,
-  "updated_at": "2026-10-30T02:18:59.304677+00:00",
-  "next_id": 275,
+  "generation": 841,
+  "updated_at": "2026-10-30T02:19:00.000607+00:00",
+  "next_id": 276,
   "records": [
     {
       "id": 1,
@@ -3650,6 +3650,19 @@
           "sha256": "05199afe4f2cbb2377ef1214be252b6f1b6634c52d7b71a0ad0d60e879c87a5d",
           "source": "https://www.instagram.com/reel/DfGKVXeDfrO/",
           "request_id": "3d4a5f2e013853482efe9f222581d1e7140264f647a657ba6503c400bd5b36eb",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T02:19:00.000607+00:00",
+          "block": "Title: Switch: Open-Source Harness Framework for Decision Models Like Jev\nURL: https://github.com/osolmaz/switch\nImage URL: https://opengraph.githubassets.com/804ec74b772080b75828ef2c8d58e240dcfed8104de45605452dbc4bb2875872/osolmaz/switch\nSummary: Developer @onusoz released Switch, an open-source framework for building harnesses for decision models like TypeSafe's Jev, which answer typed questions but cannot generate tool calls. Code turns task state into finite choices and the model picks one per step. Domains include chess and an eval rubric judge; the author says Jev is not yet strong at either.",
+          "sha256": "8bac733e9905953003a4625999f24036934dafe74b935735dc2b17ecef9c2e09",
+          "source": "https://x.com/onusoz/status/2115868447834042415",
+          "request_id": "f8351073c2e825d58baaa8995b69394556dde9c6c86610480d683aa9be843e07",
           "mode": "standard"
         }
       ]
@@ -8039,13 +8052,21 @@
       ]
     },
     "f8351073c2e825d58baaa8995b69394556dde9c6c86610480d683aa9be843e07": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T02:18:59.304677+00:00",
       "received_sequence": 248,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-30T02:19:00.000607+00:00",
+      "records": [
+        {
+          "id": 275,
+          "revision": 1,
+          "sha256": "8bac733e9905953003a4625999f24036934dafe74b935735dc2b17ecef9c2e09"
+        }
+      ]
     }
   },
   "batches": {
@@ -31746,6 +31767,21 @@
       "result": {
         "status": "received",
         "request_id": "f8351073c2e825d58baaa8995b69394556dde9c6c86610480d683aa9be843e07"
+      }
+    },
+    "89dc999d57e1029d342ac9203da7b73919741bb51e7bcf6136013bf8ec50e705": {
+      "sha256": "0ba1f43e207e8df92106972c208a53c444a7fee01dc8c2751448362b82b72873",
+      "result": {
+        "status": "finalized",
+        "request_id": "f8351073c2e825d58baaa8995b69394556dde9c6c86610480d683aa9be843e07",
+        "records": [
+          {
+            "id": 275,
+            "revision": 1,
+            "sha256": "8bac733e9905953003a4625999f24036934dafe74b935735dc2b17ecef9c2e09"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
