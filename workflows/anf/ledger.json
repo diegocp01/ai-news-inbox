@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 835,
-  "updated_at": "2026-10-30T01:52:23.192964+00:00",
+  "generation": 836,
+  "updated_at": "2026-10-30T01:52:23.704682+00:00",
   "next_id": 274,
   "records": [
     {
@@ -31655,6 +31655,18 @@
         ],
         "duplicates": []
       }
+    },
+    "51960543346d49e38d3e4063a4c4bf8825526590ffa549bdd97694f1d4401ddb": {
+      "sha256": "aeb005dff8430001c1444039cbc2b610d85829ad2d6123ca48a2d22c8c4c7f2e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 273,
+          "revision": 1,
+          "sha256": "55444f46249b48cbda58748058d830c530a2c77c34f2402d5ab50ab26154b2eb"
+        },
+        "editorial_sha256": "d1d79bd2e886e073e96ac4e59c2da830b3ca4bbe5a5aebe22a872ff88abe9c30"
+      }
     }
   },
   "migration": {
@@ -39683,6 +39695,26 @@
         "sha256": "24d4f66a5dc47894cf5fbd3f97c9b78b2bb4a10cf5eee516b0af98c8b184f2e3",
         "reviewed_at": "2026-10-30T01:49:23.364429+00:00",
         "operation_id": "e9495bea5f165b948022f0ff91e5644cc8e4cd26c3dcf64a043a746513242115"
+      }
+    ],
+    "273:1": [
+      {
+        "reference": {
+          "id": 273,
+          "revision": 1,
+          "sha256": "55444f46249b48cbda58748058d830c530a2c77c34f2402d5ab50ab26154b2eb"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Speech-to-speech model release with benchmark index and tool-calling details",
+            "evidence_sha256": "75d12b5dc618062832ffe883a63ff5a51c7bff3ce57311108b380f5379d3488b"
+          }
+        },
+        "sha256": "d1d79bd2e886e073e96ac4e59c2da830b3ca4bbe5a5aebe22a872ff88abe9c30",
+        "reviewed_at": "2026-10-30T01:52:23.704682+00:00",
+        "operation_id": "51960543346d49e38d3e4063a4c4bf8825526590ffa549bdd97694f1d4401ddb"
       }
     ]
   }
