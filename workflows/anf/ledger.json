@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 851,
-  "updated_at": "2026-10-30T12:03:32.186779+00:00",
+  "generation": 852,
+  "updated_at": "2026-10-30T12:03:48.736634+00:00",
   "next_id": 279,
   "records": [
     {
@@ -15292,9 +15292,295 @@
       },
       "acknowledged_at": "2026-10-29T12:10:23.652839+00:00",
       "checkpoint_after": 258
+    },
+    "315569ae5b3c18ba5ab6c4dc": {
+      "batch_id": "315569ae5b3c18ba5ab6c4dc",
+      "status": "prepared",
+      "checkpoint_before": 258,
+      "prepared_at": "2026-10-30T12:03:48.736634+00:00",
+      "intake_cutoff": 250,
+      "records": [
+        {
+          "id": 259,
+          "revision": 1,
+          "sha256": "4d7007d4ce3d8fa47c1ba227d12522f0c181f406bf29c7278dc911d995ac2c05"
+        },
+        {
+          "id": 260,
+          "revision": 1,
+          "sha256": "0be72b2d78371640085371c52ec64127f644f6a0a5f9b824ff41877df3d6e304"
+        },
+        {
+          "id": 261,
+          "revision": 1,
+          "sha256": "bad2e87a0c0732c1e0905a3cf0e02a4c56e359a200530090eebadfeb1a98bc0a"
+        },
+        {
+          "id": 262,
+          "revision": 1,
+          "sha256": "421b8d9e1965eda6dc5da506b756272b95e610cfc3d6e0fb5a3c667b097f635b"
+        },
+        {
+          "id": 263,
+          "revision": 1,
+          "sha256": "e6df6ec9dbed2f0b94fbe773ed48fc2835234082203d910650436ccd7f65b53a"
+        },
+        {
+          "id": 264,
+          "revision": 1,
+          "sha256": "00686cc04fc4a3bbd9a5c6aa3e01d5114a95116522c0c22c6d73f0b5e57d0edb"
+        },
+        {
+          "id": 265,
+          "revision": 1,
+          "sha256": "99ae2737570cff8bb9fe18c915017a47d20fab76d69d966fe0336881fc1a862d"
+        },
+        {
+          "id": 266,
+          "revision": 1,
+          "sha256": "6f61af2cf01ef408c0b05a022fb2e323f7f334ad286242c4468061439826ad28"
+        },
+        {
+          "id": 267,
+          "revision": 1,
+          "sha256": "51738dc17cd87de462ce05048a5317b9dcae12fa2d5546d3307bea2fe9b9c583"
+        },
+        {
+          "id": 268,
+          "revision": 1,
+          "sha256": "a3e4047de3144d559863beb2ddc99d54fd27fe6aebd69677b90e5c7f058867a5"
+        },
+        {
+          "id": 269,
+          "revision": 1,
+          "sha256": "fb16f2a2ed0765ffe5b15187d1c198e7570b8a10c420611895fb86b85b83bda1"
+        },
+        {
+          "id": 270,
+          "revision": 1,
+          "sha256": "cbf7bd2a7243192a7c754fa7da8f94c3d3b8da793957d29cf76cebff7be6ac0c"
+        },
+        {
+          "id": 271,
+          "revision": 1,
+          "sha256": "28fe3048fa654a62fe9bda7eea55fcf596df97e7417f0de906bb6ef225d46c41"
+        },
+        {
+          "id": 272,
+          "revision": 2,
+          "sha256": "32447a264d32a3b610604eda87162b6550d2ed55261a6a1239c7e989ec1680d0"
+        },
+        {
+          "id": 273,
+          "revision": 1,
+          "sha256": "55444f46249b48cbda58748058d830c530a2c77c34f2402d5ab50ab26154b2eb"
+        },
+        {
+          "id": 274,
+          "revision": 1,
+          "sha256": "05199afe4f2cbb2377ef1214be252b6f1b6634c52d7b71a0ad0d60e879c87a5d"
+        },
+        {
+          "id": 275,
+          "revision": 1,
+          "sha256": "8bac733e9905953003a4625999f24036934dafe74b935735dc2b17ecef9c2e09"
+        },
+        {
+          "id": 276,
+          "revision": 1,
+          "sha256": "4aa5439696f5542fe71a34bb1de85e461e0f901cf6a6baa413a6a6b1fe4b60aa"
+        },
+        {
+          "id": 277,
+          "revision": 1,
+          "sha256": "cd99e821ce3e57e0d7f88dcde0cfdd4ece82376449df30f85394fd020cfaadd1"
+        },
+        {
+          "id": 278,
+          "revision": 1,
+          "sha256": "560335d648b895c58ddebd65a36cebb3670e2942694b49386ee1edce81be9575"
+        }
+      ],
+      "first_id": 259,
+      "last_id": 278,
+      "count": 20,
+      "txt_path": "workflows/anf/batches/315569ae5b3c18ba5ab6c4dc.txt",
+      "json_path": "workflows/anf/batches/315569ae5b3c18ba5ab6c4dc.json",
+      "txt_sha256": "e5b1f986798f379b8f80b572b454e0782e390fadb518c26bd204c713e7e8ea5d",
+      "json_sha256": "45897286ebc1011ada89d1650ef09fb2f63f00ff75f10b0a5c3bdb609cb78b16",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Chaehyun Kim and colleagues introduce ThinkWorld, which learns robot action representations from human and robot videos using agreement between predicted and observed futures, reporting 94.4% macro success across three real-robot tasks versus 62.2% for MolmoAct2. This is robotics/AI research with benchmark evaluation, for research audiences. muse-compile-backfill 2026-10-30: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "4d7007d4ce3d8fa47c1ba227d12522f0c181f406bf29c7278dc911d995ac2c05"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Adrien Petralia and colleagues introduce four compact time-series forecasting models that separate prediction tokens from historical context and support known-future inputs, with the 123M- and 209M-parameter variants ranking second and first on all six metrics across GIFT-Eval, TIME, and fev-bench. This is ML research with benchmark evaluation, for research audiences. muse-compile-backfill 2026-10-30: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "0be72b2d78371640085371c52ec64127f644f6a0a5f9b824ff41877df3d6e304"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Subscription plan usage-limit change; consumer/business pricing news, no DS terms",
+            "evidence_sha256": "bd3783792317e3866595e594f90a3823584f7597388506761953d1221e424276"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "CEO comments on infrastructure and robotics ambitions; business news, no DS terms",
+            "evidence_sha256": "c5eca005f887c8497988e2c20d17909b6d1a2a27f2bc335c5e723436265aa8f3"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer app feature update; no model or dev/API terms",
+            "evidence_sha256": "4bd735ff660785347e84ccf532f67c471c7225f1190a83218e7a281548f9f2a1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Biology lab demo of an AI agent; no ML-technical or dev/API terms",
+            "evidence_sha256": "c75f95ab9d99515c2936c3eb30ffe9e5bb24ea2e5a5f9eb4629b268002ea1dd2"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML safety research: activation probes, RL-run monitoring, sandbox escapes",
+            "evidence_sha256": "fc9c3ce443ed3b1104ae4aba8e83733fd00f3b858865a479cf4f0679b4217374"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML safety research: classifier recall, false-positive rates, KV-cache monitoring",
+            "evidence_sha256": "eb6de248094b9d89eee3dfb211af6dc61796f9508c0c773098c0551939bdac99"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer API limit change (Messages/Token Counting API request size)",
+            "evidence_sha256": "5cae9f47dcf1431d3cf27999bc22bc9fc425f4fa8fa1ea46928625eafed6d6bb"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business/revenue report; no DS terms",
+            "evidence_sha256": "6fd3a8db5e9385c67d3595b104457feab70fcb8c16a4b7f1094318cafcc3c6d5"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Policy/politics story; no DS terms",
+            "evidence_sha256": "04f96b79d652209a9be4b497b1b705f844f6471c287ad76438b5dd2b8d20cfdc"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer gov AI service feature; no DS terms",
+            "evidence_sha256": "4bc54f52de938e916035ebddca6c4555b33ab153626e94c83de0e96beb541b96"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Model release shipped via ElevenAPI with API default/model access details",
+            "evidence_sha256": "385a12c1e7d2a8012b09e945daa65414b7349e2a7955b9a005a3d15a3446cfc4"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer AI app feature; no DS terms",
+            "evidence_sha256": "28106cd796af1f34f33aa845025b6eb47298f4f37a2ce4ff88301a77d860ee33"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Speech-to-speech model release with benchmark index and tool-calling details",
+            "evidence_sha256": "75d12b5dc618062832ffe883a63ff5a51c7bff3ce57311108b380f5379d3488b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer/business AI adoption news at Starbucks; no ML-technical or developer content",
+            "evidence_sha256": "b2e8216f6461d232d7788d2d5d389a620b5f61bbe9163397dc2946517bd16346"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "open_source",
+            "rationale": "Open-source agent-harness framework for decision models; ML/dev-technical",
+            "evidence_sha256": "fe50a725273857739a7eac9f4c83a87f32088f655871963cb0921d1bdc46737a"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "RL reward modeling from EEG, GRPO, on-policy training; ML-technical research",
+            "evidence_sha256": "938e56be6bab39e0600e2bd6e5f075b9ef2e453e0fd9de8ee25a5cb505fbf544"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The New York Times reports, citing unnamed sources, that U.S. officials believed a Megaspeed executive gathered intelligence for China while maintaining ties with Nvidia's CEO; Nvidia, China, and Megaspeed all responded to the allegations. This is geopolitics and business news for a broad audience, not technical research. muse-compile-backfill 2026-10-30: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "cd99e821ce3e57e0d7f88dcde0cfdd4ece82376449df30f85394fd020cfaadd1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Anthropic describes Claude's self-assessment system, which rates each conversation for potential misuse after responding to help prioritize human review, running since June across a large share of Claude traffic. This is ML safety research/system work on misuse detection, for research audiences. muse-compile-backfill 2026-10-30: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "560335d648b895c58ddebd65a36cebb3670e2942694b49386ee1edce81be9575"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-10-30T12:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "315569ae5b3c18ba5ab6c4dc",
   "replacement_batch": null,
   "checkpoint": 258,
   "checkpoint_history": [
@@ -31984,6 +32270,299 @@
           "sha256": "560335d648b895c58ddebd65a36cebb3670e2942694b49386ee1edce81be9575"
         },
         "editorial_sha256": "1b1e99ce031df4c250f7ea375b4ef352ff3f2e5f5cc1d63842176583e2e16234"
+      }
+    },
+    "muse-compile-20261030-1203-0774": {
+      "sha256": "e45402987970b47ac2a0d42595221843856b646f3c23ccda094f37c9088e08f3",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "315569ae5b3c18ba5ab6c4dc",
+          "status": "prepared",
+          "checkpoint_before": 258,
+          "prepared_at": "2026-10-30T12:03:48.736634+00:00",
+          "intake_cutoff": 250,
+          "records": [
+            {
+              "id": 259,
+              "revision": 1,
+              "sha256": "4d7007d4ce3d8fa47c1ba227d12522f0c181f406bf29c7278dc911d995ac2c05"
+            },
+            {
+              "id": 260,
+              "revision": 1,
+              "sha256": "0be72b2d78371640085371c52ec64127f644f6a0a5f9b824ff41877df3d6e304"
+            },
+            {
+              "id": 261,
+              "revision": 1,
+              "sha256": "bad2e87a0c0732c1e0905a3cf0e02a4c56e359a200530090eebadfeb1a98bc0a"
+            },
+            {
+              "id": 262,
+              "revision": 1,
+              "sha256": "421b8d9e1965eda6dc5da506b756272b95e610cfc3d6e0fb5a3c667b097f635b"
+            },
+            {
+              "id": 263,
+              "revision": 1,
+              "sha256": "e6df6ec9dbed2f0b94fbe773ed48fc2835234082203d910650436ccd7f65b53a"
+            },
+            {
+              "id": 264,
+              "revision": 1,
+              "sha256": "00686cc04fc4a3bbd9a5c6aa3e01d5114a95116522c0c22c6d73f0b5e57d0edb"
+            },
+            {
+              "id": 265,
+              "revision": 1,
+              "sha256": "99ae2737570cff8bb9fe18c915017a47d20fab76d69d966fe0336881fc1a862d"
+            },
+            {
+              "id": 266,
+              "revision": 1,
+              "sha256": "6f61af2cf01ef408c0b05a022fb2e323f7f334ad286242c4468061439826ad28"
+            },
+            {
+              "id": 267,
+              "revision": 1,
+              "sha256": "51738dc17cd87de462ce05048a5317b9dcae12fa2d5546d3307bea2fe9b9c583"
+            },
+            {
+              "id": 268,
+              "revision": 1,
+              "sha256": "a3e4047de3144d559863beb2ddc99d54fd27fe6aebd69677b90e5c7f058867a5"
+            },
+            {
+              "id": 269,
+              "revision": 1,
+              "sha256": "fb16f2a2ed0765ffe5b15187d1c198e7570b8a10c420611895fb86b85b83bda1"
+            },
+            {
+              "id": 270,
+              "revision": 1,
+              "sha256": "cbf7bd2a7243192a7c754fa7da8f94c3d3b8da793957d29cf76cebff7be6ac0c"
+            },
+            {
+              "id": 271,
+              "revision": 1,
+              "sha256": "28fe3048fa654a62fe9bda7eea55fcf596df97e7417f0de906bb6ef225d46c41"
+            },
+            {
+              "id": 272,
+              "revision": 2,
+              "sha256": "32447a264d32a3b610604eda87162b6550d2ed55261a6a1239c7e989ec1680d0"
+            },
+            {
+              "id": 273,
+              "revision": 1,
+              "sha256": "55444f46249b48cbda58748058d830c530a2c77c34f2402d5ab50ab26154b2eb"
+            },
+            {
+              "id": 274,
+              "revision": 1,
+              "sha256": "05199afe4f2cbb2377ef1214be252b6f1b6634c52d7b71a0ad0d60e879c87a5d"
+            },
+            {
+              "id": 275,
+              "revision": 1,
+              "sha256": "8bac733e9905953003a4625999f24036934dafe74b935735dc2b17ecef9c2e09"
+            },
+            {
+              "id": 276,
+              "revision": 1,
+              "sha256": "4aa5439696f5542fe71a34bb1de85e461e0f901cf6a6baa413a6a6b1fe4b60aa"
+            },
+            {
+              "id": 277,
+              "revision": 1,
+              "sha256": "cd99e821ce3e57e0d7f88dcde0cfdd4ece82376449df30f85394fd020cfaadd1"
+            },
+            {
+              "id": 278,
+              "revision": 1,
+              "sha256": "560335d648b895c58ddebd65a36cebb3670e2942694b49386ee1edce81be9575"
+            }
+          ],
+          "first_id": 259,
+          "last_id": 278,
+          "count": 20,
+          "txt_path": "workflows/anf/batches/315569ae5b3c18ba5ab6c4dc.txt",
+          "json_path": "workflows/anf/batches/315569ae5b3c18ba5ab6c4dc.json",
+          "txt_sha256": "e5b1f986798f379b8f80b572b454e0782e390fadb518c26bd204c713e7e8ea5d",
+          "json_sha256": "45897286ebc1011ada89d1650ef09fb2f63f00ff75f10b0a5c3bdb609cb78b16",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Chaehyun Kim and colleagues introduce ThinkWorld, which learns robot action representations from human and robot videos using agreement between predicted and observed futures, reporting 94.4% macro success across three real-robot tasks versus 62.2% for MolmoAct2. This is robotics/AI research with benchmark evaluation, for research audiences. muse-compile-backfill 2026-10-30: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "4d7007d4ce3d8fa47c1ba227d12522f0c181f406bf29c7278dc911d995ac2c05"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Adrien Petralia and colleagues introduce four compact time-series forecasting models that separate prediction tokens from historical context and support known-future inputs, with the 123M- and 209M-parameter variants ranking second and first on all six metrics across GIFT-Eval, TIME, and fev-bench. This is ML research with benchmark evaluation, for research audiences. muse-compile-backfill 2026-10-30: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "0be72b2d78371640085371c52ec64127f644f6a0a5f9b824ff41877df3d6e304"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Subscription plan usage-limit change; consumer/business pricing news, no DS terms",
+                "evidence_sha256": "bd3783792317e3866595e594f90a3823584f7597388506761953d1221e424276"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "CEO comments on infrastructure and robotics ambitions; business news, no DS terms",
+                "evidence_sha256": "c5eca005f887c8497988e2c20d17909b6d1a2a27f2bc335c5e723436265aa8f3"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer app feature update; no model or dev/API terms",
+                "evidence_sha256": "4bd735ff660785347e84ccf532f67c471c7225f1190a83218e7a281548f9f2a1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Biology lab demo of an AI agent; no ML-technical or dev/API terms",
+                "evidence_sha256": "c75f95ab9d99515c2936c3eb30ffe9e5bb24ea2e5a5f9eb4629b268002ea1dd2"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "ML safety research: activation probes, RL-run monitoring, sandbox escapes",
+                "evidence_sha256": "fc9c3ce443ed3b1104ae4aba8e83733fd00f3b858865a479cf4f0679b4217374"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "ML safety research: classifier recall, false-positive rates, KV-cache monitoring",
+                "evidence_sha256": "eb6de248094b9d89eee3dfb211af6dc61796f9508c0c773098c0551939bdac99"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Developer API limit change (Messages/Token Counting API request size)",
+                "evidence_sha256": "5cae9f47dcf1431d3cf27999bc22bc9fc425f4fa8fa1ea46928625eafed6d6bb"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Business/revenue report; no DS terms",
+                "evidence_sha256": "6fd3a8db5e9385c67d3595b104457feab70fcb8c16a4b7f1094318cafcc3c6d5"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Policy/politics story; no DS terms",
+                "evidence_sha256": "04f96b79d652209a9be4b497b1b705f844f6471c287ad76438b5dd2b8d20cfdc"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer gov AI service feature; no DS terms",
+                "evidence_sha256": "4bc54f52de938e916035ebddca6c4555b33ab153626e94c83de0e96beb541b96"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Model release shipped via ElevenAPI with API default/model access details",
+                "evidence_sha256": "385a12c1e7d2a8012b09e945daa65414b7349e2a7955b9a005a3d15a3446cfc4"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer AI app feature; no DS terms",
+                "evidence_sha256": "28106cd796af1f34f33aa845025b6eb47298f4f37a2ce4ff88301a77d860ee33"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Speech-to-speech model release with benchmark index and tool-calling details",
+                "evidence_sha256": "75d12b5dc618062832ffe883a63ff5a51c7bff3ce57311108b380f5379d3488b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer/business AI adoption news at Starbucks; no ML-technical or developer content",
+                "evidence_sha256": "b2e8216f6461d232d7788d2d5d389a620b5f61bbe9163397dc2946517bd16346"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "open_source",
+                "rationale": "Open-source agent-harness framework for decision models; ML/dev-technical",
+                "evidence_sha256": "fe50a725273857739a7eac9f4c83a87f32088f655871963cb0921d1bdc46737a"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "RL reward modeling from EEG, GRPO, on-policy training; ML-technical research",
+                "evidence_sha256": "938e56be6bab39e0600e2bd6e5f075b9ef2e453e0fd9de8ee25a5cb505fbf544"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "The New York Times reports, citing unnamed sources, that U.S. officials believed a Megaspeed executive gathered intelligence for China while maintaining ties with Nvidia's CEO; Nvidia, China, and Megaspeed all responded to the allegations. This is geopolitics and business news for a broad audience, not technical research. muse-compile-backfill 2026-10-30: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "cd99e821ce3e57e0d7f88dcde0cfdd4ece82376449df30f85394fd020cfaadd1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Anthropic describes Claude's self-assessment system, which rates each conversation for potential misuse after responding to help prioritize human review, running since June across a large share of Claude traffic. This is ML safety research/system work on misuse detection, for research audiences. muse-compile-backfill 2026-10-30: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "560335d648b895c58ddebd65a36cebb3670e2942694b49386ee1edce81be9575"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-10-30T12:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
