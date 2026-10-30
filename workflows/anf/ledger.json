@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 834,
-  "updated_at": "2026-10-30T01:52:22.660627+00:00",
-  "next_id": 273,
+  "generation": 835,
+  "updated_at": "2026-10-30T01:52:23.192964+00:00",
+  "next_id": 274,
   "records": [
     {
       "id": 1,
@@ -3624,6 +3624,19 @@
           "sha256": "32447a264d32a3b610604eda87162b6550d2ed55261a6a1239c7e989ec1680d0",
           "source": "https://x.com/FarzaTV/status/2115593097044426997",
           "request_id": "89ee444f16f105775f6ccebbe01612b506373707eedc3c28bd7719294240bc41",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T01:52:23.192964+00:00",
+          "block": "Title: Phonic Launches Phonic-1 Speech-to-Speech Model, Raises $27.5M\nURL: https://docs.phonic.co/docs/get-started/overview\nImage URL: https://cdn.prod.website-files.com/6a28062dd147f554ba12c01a/6ae2cf7d2cc3c6da0f06d655_6ae2cf66822ed71a7d689bad_phonic-1-link-preview-2400.png\nSummary: Phonic released Phonic-1, a speech-to-speech model for voice agents, and says it took the top spot on the Artificial Analysis Speech to Speech Index. The company says it can call tools while the caller is still talking and supports 50+ languages. Phonic also announced a $27.5M Series A led by First Round, bringing total funding to $31.5M.",
+          "sha256": "55444f46249b48cbda58748058d830c530a2c77c34f2402d5ab50ab26154b2eb",
+          "source": "https://x.com/LeoCreaIA/status/2115882954928918688",
+          "request_id": "a0fc9d308667eeb3f0ea977bf58fdc95b3d57977b528f702cd8d6d545768afb7",
           "mode": "standard"
         }
       ]
@@ -7979,13 +7992,21 @@
       ]
     },
     "a0fc9d308667eeb3f0ea977bf58fdc95b3d57977b528f702cd8d6d545768afb7": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T01:52:22.660627+00:00",
       "received_sequence": 246,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-30T01:52:23.192964+00:00",
+      "records": [
+        {
+          "id": 273,
+          "revision": 1,
+          "sha256": "55444f46249b48cbda58748058d830c530a2c77c34f2402d5ab50ab26154b2eb"
+        }
+      ]
     }
   },
   "batches": {
@@ -31618,6 +31639,21 @@
       "result": {
         "status": "received",
         "request_id": "a0fc9d308667eeb3f0ea977bf58fdc95b3d57977b528f702cd8d6d545768afb7"
+      }
+    },
+    "a5e10d05f44ab1996dbe94f05ee03d1b1b7162637a3656fb3626b4b473f3e6e5": {
+      "sha256": "090cf59b4d107d6d07578d22329964766f68e18933eb5dbe907a862677c281df",
+      "result": {
+        "status": "finalized",
+        "request_id": "a0fc9d308667eeb3f0ea977bf58fdc95b3d57977b528f702cd8d6d545768afb7",
+        "records": [
+          {
+            "id": 273,
+            "revision": 1,
+            "sha256": "55444f46249b48cbda58748058d830c530a2c77c34f2402d5ab50ab26154b2eb"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
