@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 863,
-  "updated_at": "2026-10-30T19:09:36.710513+00:00",
+  "generation": 864,
+  "updated_at": "2026-10-30T19:09:37.507155+00:00",
   "next_id": 282,
   "records": [
     {
@@ -32823,6 +32823,18 @@
         ],
         "duplicates": []
       }
+    },
+    "319940adc06638a6e43427b730e0a8eeede0c2efd442336fd8778f0d46fcd8d6": {
+      "sha256": "2eddc1aa30607e431dbba4c38639c61c9db109eb78ed7c068531b82622a3dc85",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 281,
+          "revision": 1,
+          "sha256": "ea9abd6db7b00a72172561b6e95ae5f5b1ee92912942bc7c66558c6c86846b97"
+        },
+        "editorial_sha256": "7243de064a3118e841ae869ca5a8ef9dc8428bc38fd6291f41c921a8b7cd4ce3"
+      }
     }
   },
   "migration": {
@@ -41051,6 +41063,26 @@
         "sha256": "daa6b438367f4eb8c9cbfa4d37018a712ea83705d80d3f0b6c3fa9c56a91c616",
         "reviewed_at": "2026-10-30T14:02:01.720983+00:00",
         "operation_id": "835dab3ceff8a2fbb3096b198fa8968210f1521f39436a3f70fc12f29d2d8998"
+      }
+    ],
+    "281:1": [
+      {
+        "reference": {
+          "id": 281,
+          "revision": 1,
+          "sha256": "ea9abd6db7b00a72172561b6e95ae5f5b1ee92912942bc7c66558c6c86846b97"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer subscription plan rename and usage-limit change; not ML/dev/hardware",
+            "evidence_sha256": "57c4310118cf7c0c0b033f1cf753377d1350f0331fbd57a2527f998d003910d0"
+          }
+        },
+        "sha256": "7243de064a3118e841ae869ca5a8ef9dc8428bc38fd6291f41c921a8b7cd4ce3",
+        "reviewed_at": "2026-10-30T19:09:37.507155+00:00",
+        "operation_id": "319940adc06638a6e43427b730e0a8eeede0c2efd442336fd8778f0d46fcd8d6"
       }
     ]
   }
