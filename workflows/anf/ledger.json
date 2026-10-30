@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 819,
-  "updated_at": "2026-10-30T01:33:49.492008+00:00",
-  "next_id": 269,
+  "generation": 820,
+  "updated_at": "2026-10-30T01:33:50.118118+00:00",
+  "next_id": 270,
   "records": [
     {
       "id": 1,
@@ -3564,6 +3564,19 @@
           "sha256": "a3e4047de3144d559863beb2ddc99d54fd27fe6aebd69677b90e5c7f058867a5",
           "source": "https://x.com/Polymarket/status/2115904259548213720",
           "request_id": "4bbeac16813b1c2a420f4376a9ece4bbc22ca1b9a82f36b4ac7e34282e189500",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T01:33:50.118118+00:00",
+          "block": "Title: House Democrats Demand Trump Preserve His AI Chatbot Conversations\nURL: https://www.nextgov.com/artificial-intelligence/2026/10/house-democrats-call-trump-preserve-ai-chatbot-records/416913/\nImage URL: https://cdn.nextgov.com/media/img/cd/2026/10/29/GettyImages_2300673368/route-fifty-lead-image.jpg?1793290305\nSummary: Reps. Jamie Raskin and Robert Garcia, the top Democrats on the House Judiciary and Oversight committees, wrote to President Trump asking him to preserve prompts and outputs from Grok, ChatGPT, Claude, Gemini and Perplexity used in official duties. They cited reports he consulted Grok on Venezuela and requested a briefing by Nov. 11, per Nextgov.",
+          "sha256": "fb16f2a2ed0765ffe5b15187d1c198e7570b8a10c420611895fb86b85b83bda1",
+          "source": "https://x.com/AndrewCurran_/status/2115868676092269044",
+          "request_id": "813a8bbb7f717f88a067c0c538eea4dad05589782eede8b19cd16987b4fe5a98",
           "mode": "standard"
         }
       ]
@@ -7834,13 +7847,21 @@
       ]
     },
     "813a8bbb7f717f88a067c0c538eea4dad05589782eede8b19cd16987b4fe5a98": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T01:33:49.492008+00:00",
       "received_sequence": 241,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-30T01:33:50.118118+00:00",
+      "records": [
+        {
+          "id": 269,
+          "revision": 1,
+          "sha256": "fb16f2a2ed0765ffe5b15187d1c198e7570b8a10c420611895fb86b85b83bda1"
+        }
+      ]
     }
   },
   "batches": {
@@ -31307,6 +31328,21 @@
       "result": {
         "status": "received",
         "request_id": "813a8bbb7f717f88a067c0c538eea4dad05589782eede8b19cd16987b4fe5a98"
+      }
+    },
+    "7bf435e507613b1b1814d09af8ca60dda3a7a3834953e546cd399b8d4d9a4904": {
+      "sha256": "68e8e24e7312f572972e3c9322a214b03a8b41456dc8ae646af6ed22889bb161",
+      "result": {
+        "status": "finalized",
+        "request_id": "813a8bbb7f717f88a067c0c538eea4dad05589782eede8b19cd16987b4fe5a98",
+        "records": [
+          {
+            "id": 269,
+            "revision": 1,
+            "sha256": "fb16f2a2ed0765ffe5b15187d1c198e7570b8a10c420611895fb86b85b83bda1"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
