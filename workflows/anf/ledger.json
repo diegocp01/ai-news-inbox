@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 860,
-  "updated_at": "2026-10-30T14:02:01.065410+00:00",
+  "generation": 861,
+  "updated_at": "2026-10-30T14:02:01.720983+00:00",
   "next_id": 281,
   "records": [
     {
@@ -32759,6 +32759,18 @@
         ],
         "duplicates": []
       }
+    },
+    "835dab3ceff8a2fbb3096b198fa8968210f1521f39436a3f70fc12f29d2d8998": {
+      "sha256": "bbbe1fd752461ba81d4cc5d2a8c770b43abf6951707de62d1091fd9d9ea62457",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 280,
+          "revision": 1,
+          "sha256": "e6fdca9a1783dc1e4a204da086c6f34886b40a4410a0b3f453e856c8c9d3d945"
+        },
+        "editorial_sha256": "daa6b438367f4eb8c9cbfa4d37018a712ea83705d80d3f0b6c3fa9c56a91c616"
+      }
     }
   },
   "migration": {
@@ -40967,6 +40979,26 @@
         "sha256": "1e6f894c71ec962673ffca101cfe5b9a9bce7131e7acf35a8eaacc2dbaa0b42b",
         "reviewed_at": "2026-10-30T13:57:44.988327+00:00",
         "operation_id": "b7a1842c6822fabd2252457fd52daf9eacbf166532dde99cb2cbb3bcd1eb7dfc"
+      }
+    ],
+    "280:1": [
+      {
+        "reference": {
+          "id": 280,
+          "revision": 1,
+          "sha256": "e6fdca9a1783dc1e4a204da086c6f34886b40a4410a0b3f453e856c8c9d3d945"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Neuralink product announcement for a general audience; no ML/dev/hardware-internals detail",
+            "evidence_sha256": "02d00a9ddd7bdba8f184f2e60e6109c83215894de0b0eb19f434e4bcebb20b49"
+          }
+        },
+        "sha256": "daa6b438367f4eb8c9cbfa4d37018a712ea83705d80d3f0b6c3fa9c56a91c616",
+        "reviewed_at": "2026-10-30T14:02:01.720983+00:00",
+        "operation_id": "835dab3ceff8a2fbb3096b198fa8968210f1521f39436a3f70fc12f29d2d8998"
       }
     ]
   }
