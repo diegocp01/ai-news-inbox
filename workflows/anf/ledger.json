@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 813,
-  "updated_at": "2026-10-30T00:18:21.157269+00:00",
-  "next_id": 267,
+  "generation": 814,
+  "updated_at": "2026-10-30T00:18:21.760453+00:00",
+  "next_id": 268,
   "records": [
     {
       "id": 1,
@@ -3538,6 +3538,19 @@
           "sha256": "6f61af2cf01ef408c0b05a022fb2e323f7f334ad286242c4468061439826ad28",
           "source": "https://safeguards.anthropic.com/2026/self-assessment/",
           "request_id": "b79a0dccebe4da30176d2af693affd9e5a5421ff1c3fe16eeb82113fa8bc9db9",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T00:18:21.760453+00:00",
+          "block": "Title: Anthropic Raises Claude API Request Size Limit to 128 MB\nURL: https://platform.claude.com/docs/en/release-notes/overview\nImage URL: https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4\nSummary: Anthropic says it raised the maximum request size for the Messages API and Token Counting API from 32 MB to 128 MB on the first-party Claude API, effective October 28. Partner platforms keep lower limits, per Anthropic's docs: 20 MB on Bedrock and 30 MB on Google-managed Google Cloud, with Microsoft Foundry at 32 MB.",
+          "sha256": "51738dc17cd87de462ce05048a5317b9dcae12fa2d5546d3307bea2fe9b9c583",
+          "source": "https://x.com/Polymarket/status/2115933697119793655",
+          "request_id": "772019e3a5abf9f01a779cb2bd2c90de000bc88427493c45627512aa4b4bae02",
           "mode": "standard"
         }
       ]
@@ -7774,13 +7787,21 @@
       ]
     },
     "772019e3a5abf9f01a779cb2bd2c90de000bc88427493c45627512aa4b4bae02": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T00:18:21.157269+00:00",
       "received_sequence": 239,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-30T00:18:21.760453+00:00",
+      "records": [
+        {
+          "id": 267,
+          "revision": 1,
+          "sha256": "51738dc17cd87de462ce05048a5317b9dcae12fa2d5546d3307bea2fe9b9c583"
+        }
+      ]
     }
   },
   "batches": {
@@ -31179,6 +31200,21 @@
       "result": {
         "status": "received",
         "request_id": "772019e3a5abf9f01a779cb2bd2c90de000bc88427493c45627512aa4b4bae02"
+      }
+    },
+    "510e5bb8c193a9273a503f4b9eceb5ed364271838bd037a99efa28ea02f8bf5f": {
+      "sha256": "9a6b16e92ae12a59d0a6ac0bf9daf366b18cd4128df94daa0365b56a1a4ae114",
+      "result": {
+        "status": "finalized",
+        "request_id": "772019e3a5abf9f01a779cb2bd2c90de000bc88427493c45627512aa4b4bae02",
+        "records": [
+          {
+            "id": 267,
+            "revision": 1,
+            "sha256": "51738dc17cd87de462ce05048a5317b9dcae12fa2d5546d3307bea2fe9b9c583"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
