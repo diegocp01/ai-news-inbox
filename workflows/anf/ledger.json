@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 859,
-  "updated_at": "2026-10-30T14:02:00.431351+00:00",
-  "next_id": 280,
+  "generation": 860,
+  "updated_at": "2026-10-30T14:02:01.065410+00:00",
+  "next_id": 281,
   "records": [
     {
       "id": 1,
@@ -3717,6 +3717,19 @@
           "sha256": "a354f8b93238233657a98329061d5be9ad51bb24ba262b4eb107b49810e78d64",
           "source": "https://x.com/AlexKsendzovsky/status/2116153410101944352",
           "request_id": "b713182061d85df472dea0c985dbb26df09ed1a34d23ce8eec6000911e4cb72f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 280,
+      "revisions": [
+        {
+          "created_at": "2026-10-30T14:02:01.065410+00:00",
+          "block": "Title: Elon Musk Outlines Neuralink's Two Products: Telepathy and Blindsight\nURL: https://neuralink.com/\nImage URL: https://neuralink.com/assets/static/homepage.CQ861ZM0.jpg\nSummary: Elon Musk said Neuralink's first product, Telepathy, enables high-speed communication with computers or humans by thinking, and predicted its output bandwidth will vastly exceed the fastest speech or typing within a few years. He said the second product, Blindsight, aims to let even completely blind people see, and is ready from an engineering standpoint, awaiting regulatory approval.",
+          "sha256": "e6fdca9a1783dc1e4a204da086c6f34886b40a4410a0b3f453e856c8c9d3d945",
+          "source": "https://x.com/elonmusk/status/2116019939056513218",
+          "request_id": "e3579ce38c10278949557ca3d56ea2ec195a21cd62a9d6c702f2298cd7a581bc",
           "mode": "standard"
         }
       ]
@@ -8180,13 +8193,21 @@
       ]
     },
     "e3579ce38c10278949557ca3d56ea2ec195a21cd62a9d6c702f2298cd7a581bc": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-30T14:02:00.431351+00:00",
       "received_sequence": 252,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-30T14:02:01.065410+00:00",
+      "records": [
+        {
+          "id": 280,
+          "revision": 1,
+          "sha256": "e6fdca9a1783dc1e4a204da086c6f34886b40a4410a0b3f453e856c8c9d3d945"
+        }
+      ]
     }
   },
   "batches": {
@@ -32722,6 +32743,21 @@
       "result": {
         "status": "received",
         "request_id": "e3579ce38c10278949557ca3d56ea2ec195a21cd62a9d6c702f2298cd7a581bc"
+      }
+    },
+    "4dcbd0218e26e08adbba63af96e5a15040253a3e3af6a140a22b470966659126": {
+      "sha256": "7cf55a2cba1f71de4d6cd8efb9e43c5c83b11b4787ed64ca7b8c78aef3ef4c2d",
+      "result": {
+        "status": "finalized",
+        "request_id": "e3579ce38c10278949557ca3d56ea2ec195a21cd62a9d6c702f2298cd7a581bc",
+        "records": [
+          {
+            "id": 280,
+            "revision": 1,
+            "sha256": "e6fdca9a1783dc1e4a204da086c6f34886b40a4410a0b3f453e856c8c9d3d945"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
