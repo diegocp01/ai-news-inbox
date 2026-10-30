@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 869,
-  "updated_at": "2026-10-30T20:22:26.408399+00:00",
+  "generation": 870,
+  "updated_at": "2026-10-30T20:22:27.123233+00:00",
   "next_id": 284,
   "records": [
     {
@@ -32951,6 +32951,18 @@
         ],
         "duplicates": []
       }
+    },
+    "1cf417863eb8861da9af5c1851f860363f2143467f4cf82e437953bdc75a0242": {
+      "sha256": "f9dc1616f20b03bc3b04cc1a7ce36e83ba6fc8ddd3ce45f2f0eb456993ab806d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 283,
+          "revision": 1,
+          "sha256": "ebb86adbde7c8dfd400a675ff4aecf95fb234d2f5c058e9a2468db19dc0e0ce2"
+        },
+        "editorial_sha256": "7d5760f75c490f3115ea6a9db67b346df9dee129e12d84e61ff17a36578b108e"
+      }
     }
   },
   "migration": {
@@ -41219,6 +41231,26 @@
         "sha256": "73521d56f25fcae09cd87812ad4c847972c7f17ea1ec60daaf97a15867665636",
         "reviewed_at": "2026-10-30T19:12:03.692799+00:00",
         "operation_id": "3a9ef3729e3c3c5a85b9171a2ade29c376b70138cfdb6ecd367a0a5a66944bba"
+      }
+    ],
+    "283:1": [
+      {
+        "reference": {
+          "id": 283,
+          "revision": 1,
+          "sha256": "ebb86adbde7c8dfd400a675ff4aecf95fb234d2f5c058e9a2468db19dc0e0ce2"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Workplace/hiring story about AI at Cisco; summary uses plain language, no ML/dev/hardware jargon",
+            "evidence_sha256": "f35840727aed8076d361f4225bdfa472d73f64acfe4de5530d7bc0ba25dd0a3e"
+          }
+        },
+        "sha256": "7d5760f75c490f3115ea6a9db67b346df9dee129e12d84e61ff17a36578b108e",
+        "reviewed_at": "2026-10-30T20:22:27.123233+00:00",
+        "operation_id": "1cf417863eb8861da9af5c1851f860363f2143467f4cf82e437953bdc75a0242"
       }
     ]
   }
