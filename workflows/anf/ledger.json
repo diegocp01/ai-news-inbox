@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 823,
-  "updated_at": "2026-10-30T01:44:41.101588+00:00",
+  "generation": 824,
+  "updated_at": "2026-10-30T01:44:41.625890+00:00",
   "next_id": 271,
   "records": [
     {
@@ -31408,6 +31408,18 @@
         ],
         "duplicates": []
       }
+    },
+    "08e06e85632c60e11a5ad6d0987eed4eacb0728356200cd00ffef24ea2bc5610": {
+      "sha256": "47824045ec557c0bc9382da38d5ef5af93153b50d62908ea6a25017ed82ccf1a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 270,
+          "revision": 1,
+          "sha256": "cbf7bd2a7243192a7c754fa7da8f94c3d3b8da793957d29cf76cebff7be6ac0c"
+        },
+        "editorial_sha256": "6da3f9572b1aa84aa77a19e7779a25c19ba1c8b4625f3abf2e9667db7c964cc1"
+      }
     }
   },
   "migration": {
@@ -39356,6 +39368,26 @@
         "sha256": "471dd8be1db5f12e58f4fad22027f30e97e41b72d04af586cdd8221fa51ae306",
         "reviewed_at": "2026-10-30T01:33:50.795019+00:00",
         "operation_id": "67678cab09c7cc64be397d69cacfdd3e12db6dd4d8678238753fc08abdf57d12"
+      }
+    ],
+    "270:1": [
+      {
+        "reference": {
+          "id": 270,
+          "revision": 1,
+          "sha256": "cbf7bd2a7243192a7c754fa7da8f94c3d3b8da793957d29cf76cebff7be6ac0c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer gov AI service feature; no DS terms",
+            "evidence_sha256": "4bc54f52de938e916035ebddca6c4555b33ab153626e94c83de0e96beb541b96"
+          }
+        },
+        "sha256": "6da3f9572b1aa84aa77a19e7779a25c19ba1c8b4625f3abf2e9667db7c964cc1",
+        "reviewed_at": "2026-10-30T01:44:41.625890+00:00",
+        "operation_id": "08e06e85632c60e11a5ad6d0987eed4eacb0728356200cd00ffef24ea2bc5610"
       }
     ]
   }
