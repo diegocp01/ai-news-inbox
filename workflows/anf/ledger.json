@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 883,
-  "updated_at": "2026-10-31T06:56:19.653915+00:00",
-  "next_id": 288,
+  "generation": 884,
+  "updated_at": "2026-10-31T06:56:20.250278+00:00",
+  "next_id": 289,
   "records": [
     {
       "id": 1,
@@ -3821,6 +3821,19 @@
           "sha256": "34da415d847d747d68dc6d9b09bde6a73a70136ad0ce84f7c250663f63ebff1f",
           "source": "https://x.com/rightnowai_co/status/2116311411072835913",
           "request_id": "7586fd081b64cce7713b107b32e203415995fc3d8a3412f531ea5d066a1d1196",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 288,
+      "revisions": [
+        {
+          "created_at": "2026-10-31T06:56:20.250278+00:00",
+          "block": "Title: Skydive Opens Its AI Agent \"Office\" to Everyone\nURL: https://www.skydive.com/\nImage URL: https://www.skydive.com/images/og/skydive-og.jpg\nSummary: Skydive says its AI agent service is now open to everyone. It says users can build a team of AI agents, watch them work in a 3D office, and hand them tasks over Slack, email, iMessage or the web. Companies can claim their domain to appear on its map, and the agents work free this week, Skydive says.",
+          "sha256": "94e78d74ab0a5b4276199de7e43fbd84f6205e1df055baedc3e1dbe04f1f2b00",
+          "source": "https://x.com/getskydive/status/2116222751895855452",
+          "request_id": "2629002237ab6a4fa6efa9dbc58c168cc39dcd193f239cf7df01bd7db05f9c65",
           "mode": "standard"
         }
       ]
@@ -8420,13 +8433,21 @@
       ]
     },
     "2629002237ab6a4fa6efa9dbc58c168cc39dcd193f239cf7df01bd7db05f9c65": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-31T06:56:19.653915+00:00",
       "received_sequence": 260,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-31T06:56:20.250278+00:00",
+      "records": [
+        {
+          "id": 288,
+          "revision": 1,
+          "sha256": "94e78d74ab0a5b4276199de7e43fbd84f6205e1df055baedc3e1dbe04f1f2b00"
+        }
+      ]
     }
   },
   "batches": {
@@ -33234,6 +33255,21 @@
       "result": {
         "status": "received",
         "request_id": "2629002237ab6a4fa6efa9dbc58c168cc39dcd193f239cf7df01bd7db05f9c65"
+      }
+    },
+    "4fd515153dfeaaf1b2e996250ef7ae212177c143266ffb66ff52202663c2de0d": {
+      "sha256": "859ee7b2f6bb311bddb13e9ac941f3a92183e8d413e091b828ae55d0fd2f9799",
+      "result": {
+        "status": "finalized",
+        "request_id": "2629002237ab6a4fa6efa9dbc58c168cc39dcd193f239cf7df01bd7db05f9c65",
+        "records": [
+          {
+            "id": 288,
+            "revision": 1,
+            "sha256": "94e78d74ab0a5b4276199de7e43fbd84f6205e1df055baedc3e1dbe04f1f2b00"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
