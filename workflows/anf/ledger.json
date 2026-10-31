@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 878,
-  "updated_at": "2026-10-31T05:18:55.871833+00:00",
+  "generation": 879,
+  "updated_at": "2026-10-31T05:18:56.406426+00:00",
   "next_id": 287,
   "records": [
     {
@@ -33143,6 +33143,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a9981436ec0ba0b36cea5d14e45486163b5af47473802fea335b927ef5a82d09": {
+      "sha256": "fc4d89b0ee819551c95a70818d2c4ab62cb2aebf11bed6ecd6e9abc949d45823",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 286,
+          "revision": 1,
+          "sha256": "a354f8b93238233657a98329061d5be9ad51bb24ba262b4eb107b49810e78d64"
+        },
+        "editorial_sha256": "9af5353a2ce17a5d3227e7a0f01fc2a03fc9409923b7d2a238b74a3d639e5e71"
+      }
     }
   },
   "migration": {
@@ -41471,6 +41483,26 @@
         "sha256": "5f5c7b973491dff09db12332cb92de2090954d27d4c0a2b477c67f7ac8e5aad5",
         "reviewed_at": "2026-10-31T05:17:47.653885+00:00",
         "operation_id": "a7e57eb852220b7a52aa501698d7ed33cd8c21731f2a1784bfd515430a603be6"
+      }
+    ],
+    "286:1": [
+      {
+        "reference": {
+          "id": 286,
+          "revision": 1,
+          "sha256": "a354f8b93238233657a98329061d5be9ad51bb24ba262b4eb107b49810e78d64"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Repeat of #279: company product launch, plain-language summary; same payload approach as #279",
+            "evidence_sha256": "0f9dc41df6edb43b709d62ac47608f591229723d4937a4a5d9569851a03fa037"
+          }
+        },
+        "sha256": "9af5353a2ce17a5d3227e7a0f01fc2a03fc9409923b7d2a238b74a3d639e5e71",
+        "reviewed_at": "2026-10-31T05:18:56.406426+00:00",
+        "operation_id": "a9981436ec0ba0b36cea5d14e45486163b5af47473802fea335b927ef5a82d09"
       }
     ]
   }
