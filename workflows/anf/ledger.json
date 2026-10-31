@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 884,
-  "updated_at": "2026-10-31T06:56:20.250278+00:00",
+  "generation": 885,
+  "updated_at": "2026-10-31T06:56:20.846175+00:00",
   "next_id": 289,
   "records": [
     {
@@ -33271,6 +33271,18 @@
         ],
         "duplicates": []
       }
+    },
+    "565fa17f13a3f0856feb779afd33ac815082e058d7cfd0bd77ee100278bf0b10": {
+      "sha256": "72d9ff087f4b395911f65c5c59381516ec7fd574317a3330f41c2b423c200abe",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 288,
+          "revision": 1,
+          "sha256": "94e78d74ab0a5b4276199de7e43fbd84f6205e1df055baedc3e1dbe04f1f2b00"
+        },
+        "editorial_sha256": "b845b943d5d28a201567698bee9f000716cc356749ba7e49c2e00447495f3755"
+      }
     }
   },
   "migration": {
@@ -41639,6 +41651,26 @@
         "sha256": "db4bb122ab8d72bc79e834dcaf3a466e24069d6d3bf6ee7707aa359a34e97a2e",
         "reviewed_at": "2026-10-31T06:42:16.617661+00:00",
         "operation_id": "6802058331747d023a4153f4477f23e49ed417338c06a11cacdda7cfbb05ca01"
+      }
+    ],
+    "288:1": [
+      {
+        "reference": {
+          "id": 288,
+          "revision": 1,
+          "sha256": "94e78d74ab0a5b4276199de7e43fbd84f6205e1df055baedc3e1dbe04f1f2b00"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer/business AI agent product launch in plain language; no ML/dev/hardware jargon",
+            "evidence_sha256": "b38ff1c82b0c00a93cf7b3aa60afa762318daab6551c74787f3323945d747d95"
+          }
+        },
+        "sha256": "b845b943d5d28a201567698bee9f000716cc356749ba7e49c2e00447495f3755",
+        "reviewed_at": "2026-10-31T06:56:20.846175+00:00",
+        "operation_id": "565fa17f13a3f0856feb779afd33ac815082e058d7cfd0bd77ee100278bf0b10"
       }
     ]
   }
