@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 886,
-  "updated_at": "2026-10-31T21:21:14.224659+00:00",
-  "next_id": 289,
+  "generation": 887,
+  "updated_at": "2026-10-31T21:21:14.804672+00:00",
+  "next_id": 290,
   "records": [
     {
       "id": 1,
@@ -3834,6 +3834,19 @@
           "sha256": "94e78d74ab0a5b4276199de7e43fbd84f6205e1df055baedc3e1dbe04f1f2b00",
           "source": "https://x.com/getskydive/status/2116222751895855452",
           "request_id": "2629002237ab6a4fa6efa9dbc58c168cc39dcd193f239cf7df01bd7db05f9c65",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "revisions": [
+        {
+          "created_at": "2026-10-31T21:21:14.804672+00:00",
+          "block": "Title: OpenAI Will Combine ChatGPT and Codex Usage Limits Into One Allowance in December\nURL: https://artificialwatch.com/wire/openai-merges-chatgpt-and-codex-usage-into-one-token-allowance\nImage URL: https://artificialwatch.com/aw-wire/openai-merges-chatgpt-and-codex-usage-into-one-token-allowance.jpg\nSummary: OpenAI says that starting in December, Plus, Pro and Business plans will share one usage allowance across ChatGPT and Codex, measured in tokens. Usage will depend on the model and task, and Instant chat won't count. Combined usage and reset times will appear in Settings > Usage; at the limit, users can wait, upgrade or buy credits.",
+          "sha256": "41579419b6a84413e2b8876ca904121f88868faae0fe4b1588cd6f0f556223e3",
+          "source": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+          "request_id": "5605a8096b37843743ed02b6dc34df7132e7bdb55d613d260e31fb084371f88c",
           "mode": "standard"
         }
       ]
@@ -8450,13 +8463,21 @@
       ]
     },
     "5605a8096b37843743ed02b6dc34df7132e7bdb55d613d260e31fb084371f88c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-31T21:21:14.224659+00:00",
       "received_sequence": 261,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-31T21:21:14.804672+00:00",
+      "records": [
+        {
+          "id": 289,
+          "revision": 1,
+          "sha256": "41579419b6a84413e2b8876ca904121f88868faae0fe4b1588cd6f0f556223e3"
+        }
+      ]
     }
   },
   "batches": {
@@ -33298,6 +33319,21 @@
       "result": {
         "status": "received",
         "request_id": "5605a8096b37843743ed02b6dc34df7132e7bdb55d613d260e31fb084371f88c"
+      }
+    },
+    "10fcae36c14177c3bf8376a3b109a4253685b40e5b654c0c60aa04986f664c97": {
+      "sha256": "cc336173eb7f3b601eba8c18f597f336a8204b6920dec154a13a2dcd3f8f7f3c",
+      "result": {
+        "status": "finalized",
+        "request_id": "5605a8096b37843743ed02b6dc34df7132e7bdb55d613d260e31fb084371f88c",
+        "records": [
+          {
+            "id": 289,
+            "revision": 1,
+            "sha256": "41579419b6a84413e2b8876ca904121f88868faae0fe4b1588cd6f0f556223e3"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
