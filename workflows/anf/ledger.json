@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 887,
-  "updated_at": "2026-10-31T21:21:14.804672+00:00",
+  "generation": 888,
+  "updated_at": "2026-10-31T21:21:15.398722+00:00",
   "next_id": 290,
   "records": [
     {
@@ -33335,6 +33335,18 @@
         ],
         "duplicates": []
       }
+    },
+    "dd804766a029d80adeee271505ecc15c8f1e2d58dadf74bf24ea1f3ac0dd4e7e": {
+      "sha256": "23b0c53f045e69653c9ab945e60b7b192952c4f0920cb035c275e10789a2c3e7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 289,
+          "revision": 1,
+          "sha256": "41579419b6a84413e2b8876ca904121f88868faae0fe4b1588cd6f0f556223e3"
+        },
+        "editorial_sha256": "6e0eb468571fcdc8bc39a2adc36adac0f040d59dbfa95c44e573e602308b756c"
+      }
     }
   },
   "migration": {
@@ -41723,6 +41735,26 @@
         "sha256": "b845b943d5d28a201567698bee9f000716cc356749ba7e49c2e00447495f3755",
         "reviewed_at": "2026-10-31T06:56:20.846175+00:00",
         "operation_id": "565fa17f13a3f0856feb779afd33ac815082e058d7cfd0bd77ee100278bf0b10"
+      }
+    ],
+    "289:1": [
+      {
+        "reference": {
+          "id": 289,
+          "revision": 1,
+          "sha256": "41579419b6a84413e2b8876ca904121f88868faae0fe4b1588cd6f0f556223e3"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Relies on ML term tokens (precheck flags ml:tokens) and Codex dev tool usage",
+            "evidence_sha256": "11f9232a80dbd8f2ddab22df66c86df2db327c30cabffa27ac428cace185a2b1"
+          }
+        },
+        "sha256": "6e0eb468571fcdc8bc39a2adc36adac0f040d59dbfa95c44e573e602308b756c",
+        "reviewed_at": "2026-10-31T21:21:15.398722+00:00",
+        "operation_id": "dd804766a029d80adeee271505ecc15c8f1e2d58dadf74bf24ea1f3ac0dd4e7e"
       }
     ]
   }
