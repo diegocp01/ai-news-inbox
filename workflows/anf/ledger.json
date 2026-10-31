@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 875,
-  "updated_at": "2026-10-31T05:17:47.097835+00:00",
+  "generation": 876,
+  "updated_at": "2026-10-31T05:17:47.653885+00:00",
   "next_id": 286,
   "records": [
     {
@@ -33079,6 +33079,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a7e57eb852220b7a52aa501698d7ed33cd8c21731f2a1784bfd515430a603be6": {
+      "sha256": "77d8b754fbe134fdef1a2291c566172ef6d8418cb72a06e015c2c79a297d3de2",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 285,
+          "revision": 1,
+          "sha256": "8fcdc4e51abf6d61660e9046a9c29d3c622dd7cc9c3f94c67815b6fc655eab31"
+        },
+        "editorial_sha256": "5f5c7b973491dff09db12332cb92de2090954d27d4c0a2b477c67f7ac8e5aad5"
+      }
     }
   },
   "migration": {
@@ -41387,6 +41399,26 @@
         "sha256": "227bf59076926b64dc44203ba7ed30f8e52da76aeb89d76f61707d9aed11dfc2",
         "reviewed_at": "2026-10-31T05:10:22.073625+00:00",
         "operation_id": "4255f2aaefc2bdb929d2a80dbc7f7c5059238e3064448ea05b010f50efc6d754"
+      }
+    ],
+    "285:1": [
+      {
+        "reference": {
+          "id": 285,
+          "revision": 1,
+          "sha256": "8fcdc4e51abf6d61660e9046a9c29d3c622dd7cc9c3f94c67815b6fc655eab31"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML safety research: emergent misalignment via fine-tuning data, training-data monitors",
+            "evidence_sha256": "9ba2d5b81f8a3eff6064cd1bec296da8f8ade0f477a1b22a62e74fb92d5a9a08"
+          }
+        },
+        "sha256": "5f5c7b973491dff09db12332cb92de2090954d27d4c0a2b477c67f7ac8e5aad5",
+        "reviewed_at": "2026-10-31T05:17:47.653885+00:00",
+        "operation_id": "a7e57eb852220b7a52aa501698d7ed33cd8c21731f2a1784bfd515430a603be6"
       }
     ]
   }
