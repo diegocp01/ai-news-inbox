@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 872,
-  "updated_at": "2026-10-31T05:10:21.368820+00:00",
+  "generation": 873,
+  "updated_at": "2026-10-31T05:10:22.073625+00:00",
   "next_id": 285,
   "records": [
     {
@@ -33015,6 +33015,18 @@
         ],
         "duplicates": []
       }
+    },
+    "4255f2aaefc2bdb929d2a80dbc7f7c5059238e3064448ea05b010f50efc6d754": {
+      "sha256": "8b56cb2759a3025d27ba51699fdb6869c4031f01f958f90e0ce1d4afab74f9d2",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 284,
+          "revision": 1,
+          "sha256": "710b720967516214c1de8f296f42f2033681487dc5954ec97b90fd91c9f0ed04"
+        },
+        "editorial_sha256": "227bf59076926b64dc44203ba7ed30f8e52da76aeb89d76f61707d9aed11dfc2"
+      }
     }
   },
   "migration": {
@@ -41303,6 +41315,26 @@
         "sha256": "7d5760f75c490f3115ea6a9db67b346df9dee129e12d84e61ff17a36578b108e",
         "reviewed_at": "2026-10-30T20:22:27.123233+00:00",
         "operation_id": "1cf417863eb8861da9af5c1851f860363f2143467f4cf82e437953bdc75a0242"
+      }
+    ],
+    "284:1": [
+      {
+        "reference": {
+          "id": 284,
+          "revision": 1,
+          "sha256": "710b720967516214c1de8f296f42f2033681487dc5954ec97b90fd91c9f0ed04"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML-internals research: CPU compiled into LLM weights, Gated DeltaNet as RAM",
+            "evidence_sha256": "7d44cbb7048200e897dde9f068a6d25fa3f39a935b8376c07e7d4bc5c63492d7"
+          }
+        },
+        "sha256": "227bf59076926b64dc44203ba7ed30f8e52da76aeb89d76f61707d9aed11dfc2",
+        "reviewed_at": "2026-10-31T05:10:22.073625+00:00",
+        "operation_id": "4255f2aaefc2bdb929d2a80dbc7f7c5059238e3064448ea05b010f50efc6d754"
       }
     ]
   }
