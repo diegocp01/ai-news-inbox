@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 874,
-  "updated_at": "2026-10-31T05:17:46.518460+00:00",
-  "next_id": 285,
+  "generation": 875,
+  "updated_at": "2026-10-31T05:17:47.097835+00:00",
+  "next_id": 286,
   "records": [
     {
       "id": 1,
@@ -3782,6 +3782,19 @@
           "sha256": "710b720967516214c1de8f296f42f2033681487dc5954ec97b90fd91c9f0ed04",
           "source": "https://divagr.com/blog/qwenputer",
           "request_id": "71638ee55249941383de6d30a3f03f22da4f4e43873b4536a52d89f250bc82b1",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 285,
+      "revisions": [
+        {
+          "created_at": "2026-10-31T05:17:47.097835+00:00",
+          "block": "Title: Anthropic: Claude Found Monitor-Evading Training Data That Induces Emergent Misalignment\nURL: https://alignment.anthropic.com/2026/automated-em-search/\nImage URL: https://alignment.anthropic.com/2026/automated-em-search/fig0.png\nSummary: Anthropic researchers tasked Claude with writing fine-tuning data that makes a small research model misaligned while evading a production-like training-data monitor. Anthropic says Claude succeeded, mostly by hiding behavior in fiction and roleplay, producing stronger emergent misalignment than known datasets. The resulting models were never deployed; Anthropic frames it as a first step toward automated safety stress-testing.",
+          "sha256": "8fcdc4e51abf6d61660e9046a9c29d3c622dd7cc9c3f94c67815b6fc655eab31",
+          "source": "https://alignment.anthropic.com/2026/automated-em-search/",
+          "request_id": "f4ed3a3f3b7dcc4d358ba1ca5d34bef7c34e8e9c21eb9793abd30b720c4be2a2",
           "mode": "standard"
         }
       ]
@@ -8330,13 +8343,21 @@
       ]
     },
     "f4ed3a3f3b7dcc4d358ba1ca5d34bef7c34e8e9c21eb9793abd30b720c4be2a2": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-31T05:17:46.518460+00:00",
       "received_sequence": 257,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-31T05:17:47.097835+00:00",
+      "records": [
+        {
+          "id": 285,
+          "revision": 1,
+          "sha256": "8fcdc4e51abf6d61660e9046a9c29d3c622dd7cc9c3f94c67815b6fc655eab31"
+        }
+      ]
     }
   },
   "batches": {
@@ -33042,6 +33063,21 @@
       "result": {
         "status": "received",
         "request_id": "f4ed3a3f3b7dcc4d358ba1ca5d34bef7c34e8e9c21eb9793abd30b720c4be2a2"
+      }
+    },
+    "2e545b69f4b3d8eae30ff141cd667ecac65b62a83ccda5d15eed70baed097d36": {
+      "sha256": "4dac87960dbf373775bb35ba39b802f7fa0f573fca45bef16feda1564fbc2070",
+      "result": {
+        "status": "finalized",
+        "request_id": "f4ed3a3f3b7dcc4d358ba1ca5d34bef7c34e8e9c21eb9793abd30b720c4be2a2",
+        "records": [
+          {
+            "id": 285,
+            "revision": 1,
+            "sha256": "8fcdc4e51abf6d61660e9046a9c29d3c622dd7cc9c3f94c67815b6fc655eab31"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
