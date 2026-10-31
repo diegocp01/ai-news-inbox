@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 880,
-  "updated_at": "2026-10-31T06:42:15.488417+00:00",
-  "next_id": 287,
+  "generation": 881,
+  "updated_at": "2026-10-31T06:42:16.077587+00:00",
+  "next_id": 288,
   "records": [
     {
       "id": 1,
@@ -3808,6 +3808,19 @@
           "sha256": "a354f8b93238233657a98329061d5be9ad51bb24ba262b4eb107b49810e78d64",
           "source": "https://x.com/AlexKsendzovsky/status/2116153410101944352",
           "request_id": "1c627859538339d8a839c545062ccdade432d34010f0376201e8ac0111c55746",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 287,
+      "revisions": [
+        {
+          "created_at": "2026-10-31T06:42:16.077587+00:00",
+          "block": "Title: RightNow Releases \"System Zero,\" a Model That Streams Inputs and Returns Probability-Scored Decisions\nURL: https://www.rightnowai.co/\nImage URL: https://www.rightnowai.co/og/main.png?v=8805a80f\nSummary: Y Combinator-backed RightNow released its first \"System Zero\" model, available via API. RightNow says it takes streaming text, JSON, PDFs, images, voice, codebases, robot state and video, and returns a decision with a probability for each option while input is still arriving, with 30 ms decisions on text and up to 1,024 questions per call.",
+          "sha256": "34da415d847d747d68dc6d9b09bde6a73a70136ad0ce84f7c250663f63ebff1f",
+          "source": "https://x.com/rightnowai_co/status/2116311411072835913",
+          "request_id": "7586fd081b64cce7713b107b32e203415995fc3d8a3412f531ea5d066a1d1196",
           "mode": "standard"
         }
       ]
@@ -8390,13 +8403,21 @@
       ]
     },
     "7586fd081b64cce7713b107b32e203415995fc3d8a3412f531ea5d066a1d1196": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-10-31T06:42:15.488417+00:00",
       "received_sequence": 259,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-10-31T06:42:16.077587+00:00",
+      "records": [
+        {
+          "id": 287,
+          "revision": 1,
+          "sha256": "34da415d847d747d68dc6d9b09bde6a73a70136ad0ce84f7c250663f63ebff1f"
+        }
+      ]
     }
   },
   "batches": {
@@ -33170,6 +33191,21 @@
       "result": {
         "status": "received",
         "request_id": "7586fd081b64cce7713b107b32e203415995fc3d8a3412f531ea5d066a1d1196"
+      }
+    },
+    "4a6f7b83f37efaf4be7f756aecbeffff9bbe174ddc6fe92b9c2e355284914bea": {
+      "sha256": "2dfea8c829822d56ba76df143cc2e5bc8f1e93f533e05663bfd0dc9429add393",
+      "result": {
+        "status": "finalized",
+        "request_id": "7586fd081b64cce7713b107b32e203415995fc3d8a3412f531ea5d066a1d1196",
+        "records": [
+          {
+            "id": 287,
+            "revision": 1,
+            "sha256": "34da415d847d747d68dc6d9b09bde6a73a70136ad0ce84f7c250663f63ebff1f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
