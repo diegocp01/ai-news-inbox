@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 881,
-  "updated_at": "2026-10-31T06:42:16.077587+00:00",
+  "generation": 882,
+  "updated_at": "2026-10-31T06:42:16.617661+00:00",
   "next_id": 288,
   "records": [
     {
@@ -33207,6 +33207,18 @@
         ],
         "duplicates": []
       }
+    },
+    "6802058331747d023a4153f4477f23e49ed417338c06a11cacdda7cfbb05ca01": {
+      "sha256": "5d9882991247cbd4a01c63ba433587765a5cc7df2560d1d6dbe98870a446cb8d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 287,
+          "revision": 1,
+          "sha256": "34da415d847d747d68dc6d9b09bde6a73a70136ad0ce84f7c250663f63ebff1f"
+        },
+        "editorial_sha256": "db4bb122ab8d72bc79e834dcaf3a466e24069d6d3bf6ee7707aa359a34e97a2e"
+      }
     }
   },
   "migration": {
@@ -41555,6 +41567,26 @@
         "sha256": "9af5353a2ce17a5d3227e7a0f01fc2a03fc9409923b7d2a238b74a3d639e5e71",
         "reviewed_at": "2026-10-31T05:18:56.406426+00:00",
         "operation_id": "a9981436ec0ba0b36cea5d14e45486163b5af47473802fea335b927ef5a82d09"
+      }
+    ],
+    "287:1": [
+      {
+        "reference": {
+          "id": 287,
+          "revision": 1,
+          "sha256": "34da415d847d747d68dc6d9b09bde6a73a70136ad0ce84f7c250663f63ebff1f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer/API model product: JSON, codebases, API calls, ms latency",
+            "evidence_sha256": "3a4cccc326f172dde160724855638ef35c065c78ea7c8e2a72aa93c77b8e6298"
+          }
+        },
+        "sha256": "db4bb122ab8d72bc79e834dcaf3a466e24069d6d3bf6ee7707aa359a34e97a2e",
+        "reviewed_at": "2026-10-31T06:42:16.617661+00:00",
+        "operation_id": "6802058331747d023a4153f4477f23e49ed417338c06a11cacdda7cfbb05ca01"
       }
     ]
   }
