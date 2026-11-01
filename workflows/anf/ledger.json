@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 890,
-  "updated_at": "2026-11-01T03:16:47.940129+00:00",
+  "generation": 891,
+  "updated_at": "2026-11-01T03:16:48.522897+00:00",
   "next_id": 291,
   "records": [
     {
@@ -33399,6 +33399,18 @@
         ],
         "duplicates": []
       }
+    },
+    "0b2b110d99c18b5a8fe7ef6d7d094e6defee98ac6c34d40f5f379fbc05dcd32f": {
+      "sha256": "47849559e7be94ccfdae3f2e11b5728ae282ff121123f8021641920f3493f829",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 290,
+          "revision": 1,
+          "sha256": "9ec0790c81e779a8eaf2639e3e2aa5daa54cbfc1b56a4a4e4ddf4fe6a3d04fcd"
+        },
+        "editorial_sha256": "1246de1febe5f846095d364f2e76bd73b269182f5fb3e0aff958c885dc6d9747"
+      }
     }
   },
   "migration": {
@@ -41807,6 +41819,26 @@
         "sha256": "6e0eb468571fcdc8bc39a2adc36adac0f040d59dbfa95c44e573e602308b756c",
         "reviewed_at": "2026-10-31T21:21:15.398722+00:00",
         "operation_id": "dd804766a029d80adeee271505ecc15c8f1e2d58dadf74bf24ea1f3ac0dd4e7e"
+      }
+    ],
+    "290:1": [
+      {
+        "reference": {
+          "id": 290,
+          "revision": 1,
+          "sha256": "9ec0790c81e779a8eaf2639e3e2aa5daa54cbfc1b56a4a4e4ddf4fe6a3d04fcd"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer/API change: Grok API model output watermarking, opt-out via console",
+            "evidence_sha256": "89de29fc77d086d791df1b3648eb17376efebf2fe4d4b7b926d76afb7d675040"
+          }
+        },
+        "sha256": "1246de1febe5f846095d364f2e76bd73b269182f5fb3e0aff958c885dc6d9747",
+        "reviewed_at": "2026-11-01T03:16:48.522897+00:00",
+        "operation_id": "0b2b110d99c18b5a8fe7ef6d7d094e6defee98ac6c34d40f5f379fbc05dcd32f"
       }
     ]
   }
