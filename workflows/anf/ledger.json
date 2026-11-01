@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 899,
-  "updated_at": "2026-11-01T15:26:42.213185+00:00",
+  "generation": 900,
+  "updated_at": "2026-11-01T15:26:42.967298+00:00",
   "next_id": 294,
   "records": [
     {
@@ -33591,6 +33591,18 @@
         ],
         "duplicates": []
       }
+    },
+    "baa8c53ca5b4b33d9d0a7a70add5d1ea8c1614de44c4309274e6888971d3741f": {
+      "sha256": "23dd855ec7a6e3b606130abcc863755853f3db65569764a5c03f97250d961778",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 293,
+          "revision": 1,
+          "sha256": "943288b8c981f4dcf9228db484ccc03d480e4db0e550443705463bb9c80667d2"
+        },
+        "editorial_sha256": "861425f90a8d11158a0fc8d3e5a8196f725a1779545a9e7aa63a5eceeb11403a"
+      }
     }
   },
   "migration": {
@@ -42059,6 +42071,26 @@
         "sha256": "e8002e7150792016d9171cdf7074dcfcd6eeba126c76d0e15c19571f1bc5032b",
         "reviewed_at": "2026-11-01T04:49:33.077162+00:00",
         "operation_id": "00d8096ad5a524357b951169b2e516e04c244328f571d9ee712a38a8e04bc089"
+      }
+    ],
+    "293:1": [
+      {
+        "reference": {
+          "id": 293,
+          "revision": 1,
+          "sha256": "943288b8c981f4dcf9228db484ccc03d480e4db0e550443705463bb9c80667d2"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML post-training/RL on open-weight models; AI security",
+            "evidence_sha256": "c90e8d6f0bca31c1da850db6624922f6ec10d01a59fb17b6e1ea41f3eaec7e43"
+          }
+        },
+        "sha256": "861425f90a8d11158a0fc8d3e5a8196f725a1779545a9e7aa63a5eceeb11403a",
+        "reviewed_at": "2026-11-01T15:26:42.967298+00:00",
+        "operation_id": "baa8c53ca5b4b33d9d0a7a70add5d1ea8c1614de44c4309274e6888971d3741f"
       }
     ]
   }
