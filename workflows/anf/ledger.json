@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 892,
-  "updated_at": "2026-11-01T03:18:33.672701+00:00",
-  "next_id": 291,
+  "generation": 893,
+  "updated_at": "2026-11-01T03:18:34.262120+00:00",
+  "next_id": 292,
   "records": [
     {
       "id": 1,
@@ -3860,6 +3860,19 @@
           "sha256": "9ec0790c81e779a8eaf2639e3e2aa5daa54cbfc1b56a4a4e4ddf4fe6a3d04fcd",
           "source": "https://x.com/AndrewCurran_/status/2116654648082022668",
           "request_id": "d15fea99152a7386778a98f57cef1c5568a57882c25dc3971f43baf505fcdd68",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 291,
+      "revisions": [
+        {
+          "created_at": "2026-11-01T03:18:34.262120+00:00",
+          "block": "Title: Meta Built a Humanoid Robot Prototype Called Max With China's Fourier, Report Says\nURL: https://www.deccanherald.com/technology/meta-builds-humanoid-robot-with-chinese-startup-fourier-the-information-says-4202835\nImage URL: https://media.assettype.com/deccanherald%2F2026-10-21%2F0vtqcjux%2Fdeccanherald2026-10-19ms6utrikfile86m7vggjw6etimgrden.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop\nSummary: Meta built a humanoid robot prototype named Max with Chinese startup Fourier in about three months and is working on a second version, The Information reported, citing people familiar with the project. Meta sees such robots as a possible physical extension of its Muse AI agent for household tasks, but told The Information it has no plans to sell them.",
+          "sha256": "64a9f0803c9118169a7e5bc635833e63ec3a42b4e1cc2baedbc958b21164ab9b",
+          "source": "https://x.com/Kalshi/status/2116677850686497059",
+          "request_id": "3842e88f73f2651965f16ab871913d062c8a1d0c43bf8bc52b3ba39de6799e5d",
           "mode": "standard"
         }
       ]
@@ -8510,13 +8523,21 @@
       ]
     },
     "3842e88f73f2651965f16ab871913d062c8a1d0c43bf8bc52b3ba39de6799e5d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-01T03:18:33.672701+00:00",
       "received_sequence": 263,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-01T03:18:34.262120+00:00",
+      "records": [
+        {
+          "id": 291,
+          "revision": 1,
+          "sha256": "64a9f0803c9118169a7e5bc635833e63ec3a42b4e1cc2baedbc958b21164ab9b"
+        }
+      ]
     }
   },
   "batches": {
@@ -33426,6 +33447,21 @@
       "result": {
         "status": "received",
         "request_id": "3842e88f73f2651965f16ab871913d062c8a1d0c43bf8bc52b3ba39de6799e5d"
+      }
+    },
+    "50820eeca1db46c513f2b417e8bf23c7ab97a1d8db02a99f103da879adbbb4bb": {
+      "sha256": "ab56414aaa745491d75c31fa0b267379f34b5286fe23f3082ab41e0f168cf0d2",
+      "result": {
+        "status": "finalized",
+        "request_id": "3842e88f73f2651965f16ab871913d062c8a1d0c43bf8bc52b3ba39de6799e5d",
+        "records": [
+          {
+            "id": 291,
+            "revision": 1,
+            "sha256": "64a9f0803c9118169a7e5bc635833e63ec3a42b4e1cc2baedbc958b21164ab9b"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
