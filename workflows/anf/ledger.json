@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 889,
-  "updated_at": "2026-11-01T03:16:47.138335+00:00",
-  "next_id": 290,
+  "generation": 890,
+  "updated_at": "2026-11-01T03:16:47.940129+00:00",
+  "next_id": 291,
   "records": [
     {
       "id": 1,
@@ -3847,6 +3847,19 @@
           "sha256": "41579419b6a84413e2b8876ca904121f88868faae0fe4b1588cd6f0f556223e3",
           "source": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
           "request_id": "5605a8096b37843743ed02b6dc34df7132e7bdb55d613d260e31fb084371f88c",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 290,
+      "revisions": [
+        {
+          "created_at": "2026-11-01T03:16:47.940129+00:00",
+          "block": "Title: xAI Will Add Invisible Text Watermarks to Grok API Models Starting Nov. 7\nURL: https://cryptobriefing.com/xai-grok-text-watermarking-api/\nImage URL: https://static.cryptobriefing.com/wp-content/uploads/2026/10/31181642/library-xai-adds-invisible-text-watermarking-to-grok-api-models-800x450.png\nSummary: xAI's developer docs say text from supported Grok API models, including grok-4.7, will carry an invisible statistical watermark by default starting November 7, citing EU AI Act compliance. The docs say it subtly shapes word choices without changing quality or speed; team admins can opt out per model only by confirming a legal exception applies.",
+          "sha256": "9ec0790c81e779a8eaf2639e3e2aa5daa54cbfc1b56a4a4e4ddf4fe6a3d04fcd",
+          "source": "https://x.com/AndrewCurran_/status/2116654648082022668",
+          "request_id": "d15fea99152a7386778a98f57cef1c5568a57882c25dc3971f43baf505fcdd68",
           "mode": "standard"
         }
       ]
@@ -8480,13 +8493,21 @@
       ]
     },
     "d15fea99152a7386778a98f57cef1c5568a57882c25dc3971f43baf505fcdd68": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-01T03:16:47.138335+00:00",
       "received_sequence": 262,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-01T03:16:47.940129+00:00",
+      "records": [
+        {
+          "id": 290,
+          "revision": 1,
+          "sha256": "9ec0790c81e779a8eaf2639e3e2aa5daa54cbfc1b56a4a4e4ddf4fe6a3d04fcd"
+        }
+      ]
     }
   },
   "batches": {
@@ -33362,6 +33383,21 @@
       "result": {
         "status": "received",
         "request_id": "d15fea99152a7386778a98f57cef1c5568a57882c25dc3971f43baf505fcdd68"
+      }
+    },
+    "34a6cf2b2f024c910f6602de23989710372045b9378bb2497bf7aa26d3c0468a": {
+      "sha256": "a46994f0bb5ea565c4f5e661e8302ab2aec52da9d4b85c608315a316aad324de",
+      "result": {
+        "status": "finalized",
+        "request_id": "d15fea99152a7386778a98f57cef1c5568a57882c25dc3971f43baf505fcdd68",
+        "records": [
+          {
+            "id": 290,
+            "revision": 1,
+            "sha256": "9ec0790c81e779a8eaf2639e3e2aa5daa54cbfc1b56a4a4e4ddf4fe6a3d04fcd"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
