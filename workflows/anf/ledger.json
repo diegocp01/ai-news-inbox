@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 896,
-  "updated_at": "2026-11-01T04:49:32.462285+00:00",
+  "generation": 897,
+  "updated_at": "2026-11-01T04:49:33.077162+00:00",
   "next_id": 293,
   "records": [
     {
@@ -33527,6 +33527,18 @@
         ],
         "duplicates": []
       }
+    },
+    "00d8096ad5a524357b951169b2e516e04c244328f571d9ee712a38a8e04bc089": {
+      "sha256": "0b4e5d5891fbed69bc0a9a26992752cb2bd95f42e7bdabdab5cdd5e7004bd701",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 292,
+          "revision": 1,
+          "sha256": "7615ead6914d0cbb67def687fee517399ae01f3b4e59f10c93d50ecfd226500e"
+        },
+        "editorial_sha256": "e8002e7150792016d9171cdf7074dcfcd6eeba126c76d0e15c19571f1bc5032b"
+      }
     }
   },
   "migration": {
@@ -41975,6 +41987,26 @@
         "sha256": "d5d7c528ad2d563c47aa8f56bf688063bb8988d840cb706d3e2f0098576d7fdc",
         "reviewed_at": "2026-11-01T03:18:34.821461+00:00",
         "operation_id": "254b2e18d8ecbb323e4b93aabd43d0a96ce0f605eefbb5094a918f8f51b8e365"
+      }
+    ],
+    "292:1": [
+      {
+        "reference": {
+          "id": 292,
+          "revision": 1,
+          "sha256": "7615ead6914d0cbb67def687fee517399ae01f3b4e59f10c93d50ecfd226500e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Publisher/policy news on AI training opt-outs; plain language, no technical internals",
+            "evidence_sha256": "01fa96851a808c237e27e7df5c630ef8ffc7af384c3db09fa9a2603ecca295da"
+          }
+        },
+        "sha256": "e8002e7150792016d9171cdf7074dcfcd6eeba126c76d0e15c19571f1bc5032b",
+        "reviewed_at": "2026-11-01T04:49:33.077162+00:00",
+        "operation_id": "00d8096ad5a524357b951169b2e516e04c244328f571d9ee712a38a8e04bc089"
       }
     ]
   }
