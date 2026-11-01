@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 898,
-  "updated_at": "2026-11-01T15:26:41.370579+00:00",
-  "next_id": 293,
+  "generation": 899,
+  "updated_at": "2026-11-01T15:26:42.213185+00:00",
+  "next_id": 294,
   "records": [
     {
       "id": 1,
@@ -3886,6 +3886,19 @@
           "sha256": "7615ead6914d0cbb67def687fee517399ae01f3b4e59f10c93d50ecfd226500e",
           "source": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
           "request_id": "28d354b6633370eb40f911968dd0d3b628cf0ed531025840047bf40a318879f8",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "revisions": [
+        {
+          "created_at": "2026-11-01T15:26:42.213185+00:00",
+          "block": "Title: Researcher Jun Song Says He Turned Down Black-Hat Offer to Train Open-Weight Models on Exploit Data\nURL: \nImage URL: https://telem.news/og/story/a58a733c-9a11-4267-a744-6a7547cd17e9.png\nSummary: Jun Song says an anonymous black-hat group offered him a large sum to post-train open-weight models with reinforcement learning on exploit data, claiming an unusually large trove of attack data. Song says he declined, but warns someone else will eventually take such a deal. His claims have not been independently verified.",
+          "sha256": "943288b8c981f4dcf9228db484ccc03d480e4db0e550443705463bb9c80667d2",
+          "source": "https://x.com/jun_song/status/2116717099402096682",
+          "request_id": "54a857b5337bb44e43f968c5f125342f52b5d63e9c2459bf48d4cb2cffbb1593",
           "mode": "standard"
         }
       ]
@@ -8570,13 +8583,21 @@
       ]
     },
     "54a857b5337bb44e43f968c5f125342f52b5d63e9c2459bf48d4cb2cffbb1593": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-01T15:26:41.370579+00:00",
       "received_sequence": 265,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-01T15:26:42.213185+00:00",
+      "records": [
+        {
+          "id": 293,
+          "revision": 1,
+          "sha256": "943288b8c981f4dcf9228db484ccc03d480e4db0e550443705463bb9c80667d2"
+        }
+      ]
     }
   },
   "batches": {
@@ -33554,6 +33575,21 @@
       "result": {
         "status": "received",
         "request_id": "54a857b5337bb44e43f968c5f125342f52b5d63e9c2459bf48d4cb2cffbb1593"
+      }
+    },
+    "6a675a2e433a898a91280a209acd58d6efbceff2a9bd495135ed370004567b11": {
+      "sha256": "322c5e3ad5ad7a71356f870e8b9fde7224b2f60b064d01b018ff23ddcaed70e2",
+      "result": {
+        "status": "finalized",
+        "request_id": "54a857b5337bb44e43f968c5f125342f52b5d63e9c2459bf48d4cb2cffbb1593",
+        "records": [
+          {
+            "id": 293,
+            "revision": 1,
+            "sha256": "943288b8c981f4dcf9228db484ccc03d480e4db0e550443705463bb9c80667d2"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
