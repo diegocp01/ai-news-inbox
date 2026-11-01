@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 904,
-  "updated_at": "2026-11-01T20:52:17.802542+00:00",
-  "next_id": 295,
+  "generation": 905,
+  "updated_at": "2026-11-01T20:52:18.562676+00:00",
+  "next_id": 296,
   "records": [
     {
       "id": 1,
@@ -3912,6 +3912,19 @@
           "sha256": "4b9bf7fb2c71340d5968ed6e80ac95c111d662512b4636fafc3d841231de22a8",
           "source": "https://x.com/deepseekharness/status/2116857257245987236",
           "request_id": "202f449116cc37a7bc6cade6b3e3e2facff4c59ff7498547ffe8dc539091348e",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 295,
+      "revisions": [
+        {
+          "created_at": "2026-11-01T20:52:18.562676+00:00",
+          "block": "Title: OpenAI Doubles ChatGPT Pro's Work and Codex Allowance, Plans Shared Usage Pool\nURL: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/\nImage URL: https://www.bleepstatic.com/content/hl-images/2023/11/08/ChatGPT.jpg\nSummary: OpenAI told Pro subscribers by email that from October 29 their plan includes twice the Work and Codex allowance. It plans to test combining ChatGPT's Chat and Work tabs with a small group, and in coming weeks to have ChatGPT and Codex draw from one allowance. Instant stays unlimited; at the limit, users can wait, upgrade or buy credits.",
+          "sha256": "0524b4ca75fd97113644954c928c1b0cb099f93df979d960dd741f84222d47e6",
+          "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+          "request_id": "c5c507b76315ae8c1a21fe87ae6e5e8e96172d3893711da09e59d2468ad841dd",
           "mode": "standard"
         }
       ]
@@ -8630,13 +8643,21 @@
       ]
     },
     "c5c507b76315ae8c1a21fe87ae6e5e8e96172d3893711da09e59d2468ad841dd": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-01T20:52:17.802542+00:00",
       "received_sequence": 267,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-01T20:52:18.562676+00:00",
+      "records": [
+        {
+          "id": 295,
+          "revision": 1,
+          "sha256": "0524b4ca75fd97113644954c928c1b0cb099f93df979d960dd741f84222d47e6"
+        }
+      ]
     }
   },
   "batches": {
@@ -33682,6 +33703,21 @@
       "result": {
         "status": "received",
         "request_id": "c5c507b76315ae8c1a21fe87ae6e5e8e96172d3893711da09e59d2468ad841dd"
+      }
+    },
+    "f8d623ad252b46dce853cfc39c2008e9a8d65203532ac104be437fb14f7fa559": {
+      "sha256": "c65a1ab59b4935cb40202f22876e7075798d6f961b630caea7e009a25da4ffc6",
+      "result": {
+        "status": "finalized",
+        "request_id": "c5c507b76315ae8c1a21fe87ae6e5e8e96172d3893711da09e59d2468ad841dd",
+        "records": [
+          {
+            "id": 295,
+            "revision": 1,
+            "sha256": "0524b4ca75fd97113644954c928c1b0cb099f93df979d960dd741f84222d47e6"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
