@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 902,
-  "updated_at": "2026-11-01T20:06:57.717480+00:00",
+  "generation": 903,
+  "updated_at": "2026-11-01T20:06:58.439860+00:00",
   "next_id": 295,
   "records": [
     {
@@ -33655,6 +33655,18 @@
         ],
         "duplicates": []
       }
+    },
+    "26f3499dd2a697150d583f35e0c4a84f594aa163f754930e9488190c566a78a1": {
+      "sha256": "97dfda0b8762e62b54f18bc081e0e35fe2fbade741d1fd84be32a9c37008673f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 294,
+          "revision": 1,
+          "sha256": "4b9bf7fb2c71340d5968ed6e80ac95c111d662512b4636fafc3d841231de22a8"
+        },
+        "editorial_sha256": "b69f8a6033e7c4142dbdd363b327c4dc3ddbfcc443c8846974c57d66a5215862"
+      }
     }
   },
   "migration": {
@@ -42143,6 +42155,26 @@
         "sha256": "861425f90a8d11158a0fc8d3e5a8196f725a1779545a9e7aa63a5eceeb11403a",
         "reviewed_at": "2026-11-01T15:26:42.967298+00:00",
         "operation_id": "baa8c53ca5b4b33d9d0a7a70add5d1ea8c1614de44c4309274e6888971d3741f"
+      }
+    ],
+    "294:1": [
+      {
+        "reference": {
+          "id": 294,
+          "revision": 1,
+          "sha256": "4b9bf7fb2c71340d5968ed6e80ac95c111d662512b4636fafc3d841231de22a8"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Agent architecture and open-source coding-agent developer tool on GitHub",
+            "evidence_sha256": "7cec750cefe9ab6b2b30d6685f6e9286ef9a1e014d4a22ba1819c5656125c3dd"
+          }
+        },
+        "sha256": "b69f8a6033e7c4142dbdd363b327c4dc3ddbfcc443c8846974c57d66a5215862",
+        "reviewed_at": "2026-11-01T20:06:58.439860+00:00",
+        "operation_id": "26f3499dd2a697150d583f35e0c4a84f594aa163f754930e9488190c566a78a1"
       }
     ]
   }
