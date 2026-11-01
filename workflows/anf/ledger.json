@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 910,
-  "updated_at": "2026-11-01T23:57:14.948500+00:00",
-  "next_id": 297,
+  "generation": 911,
+  "updated_at": "2026-11-01T23:57:15.875801+00:00",
+  "next_id": 298,
   "records": [
     {
       "id": 1,
@@ -3938,6 +3938,19 @@
           "sha256": "fd6a232f2126a0ec67d99e4744be236b2209f7eb4bbc16e5830a04fde5d07389",
           "source": "https://x.com/Polymarket/status/2116912435281949001",
           "request_id": "116f238482c29c0b2e5505478059f919c6ce8ac7e69b1c31f008bd95652a202d",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "revisions": [
+        {
+          "created_at": "2026-11-01T23:57:15.875801+00:00",
+          "block": "Title: AI Agents Now Steer SETI's Allen Telescope Array in Search for Alien Signals, NVIDIA Says\nURL: https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/\nImage URL: https://blogs.nvidia.com/wp-content/uploads/2026/10/IMG_1607-ATA-2023-CREDIT-Joe-Marfia-scaled.jpg\nSummary: NVIDIA says the SETI Institute and Breakthrough Listen let AI agents steer the Allen Telescope Array and process its data from natural-language requests, using NVIDIA Holoscan and CUDA-X libraries on RTX PRO 6000 Blackwell GPUs handling 2.4 terabits per second. NVIDIA says the pipeline achieved the first real-time AI detection of a pulsar, in the Crab Nebula.",
+          "sha256": "9ebc5ff0ec8bf199d5941629a3c736b166a8cbdec9c6b3154d10f76ab9779971",
+          "source": "https://x.com/NVIDIAAI/status/2116560120457142451",
+          "request_id": "f51f694f5d5e20b5832da8f8f5df56497b17d0814e8c9fe83bb06959e5049f77",
           "mode": "standard"
         }
       ]
@@ -8690,13 +8703,21 @@
       ]
     },
     "f51f694f5d5e20b5832da8f8f5df56497b17d0814e8c9fe83bb06959e5049f77": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-01T23:57:14.948500+00:00",
       "received_sequence": 269,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-01T23:57:15.875801+00:00",
+      "records": [
+        {
+          "id": 297,
+          "revision": 1,
+          "sha256": "9ebc5ff0ec8bf199d5941629a3c736b166a8cbdec9c6b3154d10f76ab9779971"
+        }
+      ]
     }
   },
   "batches": {
@@ -33810,6 +33831,21 @@
       "result": {
         "status": "received",
         "request_id": "f51f694f5d5e20b5832da8f8f5df56497b17d0814e8c9fe83bb06959e5049f77"
+      }
+    },
+    "de1e1324ae94bf62bf58dd32b059fb3162a3e7c128086995db959453878d5916": {
+      "sha256": "20a59e75225c603af480c3e373b3ba1074b4b18a78dbfe95a7373d6cd065b5f8",
+      "result": {
+        "status": "finalized",
+        "request_id": "f51f694f5d5e20b5832da8f8f5df56497b17d0814e8c9fe83bb06959e5049f77",
+        "records": [
+          {
+            "id": 297,
+            "revision": 1,
+            "sha256": "9ebc5ff0ec8bf199d5941629a3c736b166a8cbdec9c6b3154d10f76ab9779971"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
