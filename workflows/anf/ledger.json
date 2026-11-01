@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 895,
-  "updated_at": "2026-11-01T04:49:30.899788+00:00",
-  "next_id": 292,
+  "generation": 896,
+  "updated_at": "2026-11-01T04:49:32.462285+00:00",
+  "next_id": 293,
   "records": [
     {
       "id": 1,
@@ -3873,6 +3873,19 @@
           "sha256": "64a9f0803c9118169a7e5bc635833e63ec3a42b4e1cc2baedbc958b21164ab9b",
           "source": "https://x.com/Kalshi/status/2116677850686497059",
           "request_id": "3842e88f73f2651965f16ab871913d062c8a1d0c43bf8bc52b3ba39de6799e5d",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 292,
+      "revisions": [
+        {
+          "created_at": "2026-11-01T04:49:32.462285+00:00",
+          "block": "Title: OpenAI Says It Will Honor a Shared Opt-Out Letting Websites Refuse AI Training\nURL: https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out\nImage URL: https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200\nSummary: OpenAI says it will honor a common signal websites can use to state their preferences on use of their content for generative AI training, letting publishers tell multiple participating AI providers at once. OpenAI says it aims to implement the signal in the coming months, keeps its existing controls, and encourages other AI providers to honor it.",
+          "sha256": "7615ead6914d0cbb67def687fee517399ae01f3b4e59f10c93d50ecfd226500e",
+          "source": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
+          "request_id": "28d354b6633370eb40f911968dd0d3b628cf0ed531025840047bf40a318879f8",
           "mode": "standard"
         }
       ]
@@ -8540,13 +8553,21 @@
       ]
     },
     "28d354b6633370eb40f911968dd0d3b628cf0ed531025840047bf40a318879f8": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-01T04:49:30.899788+00:00",
       "received_sequence": 264,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-01T04:49:32.462285+00:00",
+      "records": [
+        {
+          "id": 292,
+          "revision": 1,
+          "sha256": "7615ead6914d0cbb67def687fee517399ae01f3b4e59f10c93d50ecfd226500e"
+        }
+      ]
     }
   },
   "batches": {
@@ -33490,6 +33511,21 @@
       "result": {
         "status": "received",
         "request_id": "28d354b6633370eb40f911968dd0d3b628cf0ed531025840047bf40a318879f8"
+      }
+    },
+    "afae9b40cd3243296d970611670d2c741559dff0dd0277b216f3ffe2f802f6a0": {
+      "sha256": "2163c4961382726936ba0e5850249a6755b62134ec8aa940516459e9a706beba",
+      "result": {
+        "status": "finalized",
+        "request_id": "28d354b6633370eb40f911968dd0d3b628cf0ed531025840047bf40a318879f8",
+        "records": [
+          {
+            "id": 292,
+            "revision": 1,
+            "sha256": "7615ead6914d0cbb67def687fee517399ae01f3b4e59f10c93d50ecfd226500e"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
