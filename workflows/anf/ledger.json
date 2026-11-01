@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 911,
-  "updated_at": "2026-11-01T23:57:15.875801+00:00",
+  "generation": 912,
+  "updated_at": "2026-11-01T23:57:16.521452+00:00",
   "next_id": 298,
   "records": [
     {
@@ -33847,6 +33847,18 @@
         ],
         "duplicates": []
       }
+    },
+    "6295ae5e23677d72462e3b2c3e303316aeb6465baa24d8aec491573bf552d66a": {
+      "sha256": "5f5e9a7d414b3af33ed30e70cea337a587c389b0176c9dcf1aa00f1b64786ea9",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 297,
+          "revision": 1,
+          "sha256": "9ebc5ff0ec8bf199d5941629a3c736b166a8cbdec9c6b3154d10f76ab9779971"
+        },
+        "editorial_sha256": "ebcf5a707c6034e797371f455e0e26ca0d66b5fccd22030cfcfcb74dc225d357"
+      }
     }
   },
   "migration": {
@@ -42395,6 +42407,26 @@
         "sha256": "eda03e43b4879591cc98a23e35deac7cdb3b15408ea2ff61b335354fff1c8d76",
         "reviewed_at": "2026-11-01T21:26:43.217931+00:00",
         "operation_id": "fb82a8500b233be6ccd393efb5e5614aee6aec466f2b1059240bdd368129edeb"
+      }
+    ],
+    "297:1": [
+      {
+        "reference": {
+          "id": 297,
+          "revision": 1,
+          "sha256": "9ebc5ff0ec8bf199d5941629a3c736b166a8cbdec9c6b3154d10f76ab9779971"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "AI agents for radio astronomy on NVIDIA GPUs/CUDA-X; hardware and ML terms",
+            "evidence_sha256": "03d94c6a79e8e752d4fbf4a44832a92e88e83857603616547b9544c3b9dd4590"
+          }
+        },
+        "sha256": "ebcf5a707c6034e797371f455e0e26ca0d66b5fccd22030cfcfcb74dc225d357",
+        "reviewed_at": "2026-11-01T23:57:16.521452+00:00",
+        "operation_id": "6295ae5e23677d72462e3b2c3e303316aeb6465baa24d8aec491573bf552d66a"
       }
     ]
   }
