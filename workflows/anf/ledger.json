@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 901,
-  "updated_at": "2026-11-01T20:06:56.962582+00:00",
-  "next_id": 294,
+  "generation": 902,
+  "updated_at": "2026-11-01T20:06:57.717480+00:00",
+  "next_id": 295,
   "records": [
     {
       "id": 1,
@@ -3899,6 +3899,19 @@
           "sha256": "943288b8c981f4dcf9228db484ccc03d480e4db0e550443705463bb9c80667d2",
           "source": "https://x.com/jun_song/status/2116717099402096682",
           "request_id": "54a857b5337bb44e43f968c5f125342f52b5d63e9c2459bf48d4cb2cffbb1593",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 294,
+      "revisions": [
+        {
+          "created_at": "2026-11-01T20:06:57.717480+00:00",
+          "block": "Title: DeepSeek Outlines \"Super-agent\" Design and Releases Open-Source Research Prototype\nURL: https://github.com/deepseek-ai/dsh-superagent-prototype\nImage URL: https://www.deepseek.com/harness/images/deepseek-harness-social.jpg\nSummary: DeepSeek published an article proposing a \"Super-agent\": one always-online agent that keeps context across sessions, works on several tasks at once, and acts on events in chats and GitHub. It released an MIT-licensed research prototype for DeepSeek Harness, stating it is not an official product. Its preliminary synthetic tests found faster task completion than single-session designs.",
+          "sha256": "4b9bf7fb2c71340d5968ed6e80ac95c111d662512b4636fafc3d841231de22a8",
+          "source": "https://x.com/deepseekharness/status/2116857257245987236",
+          "request_id": "202f449116cc37a7bc6cade6b3e3e2facff4c59ff7498547ffe8dc539091348e",
           "mode": "standard"
         }
       ]
@@ -8600,13 +8613,21 @@
       ]
     },
     "202f449116cc37a7bc6cade6b3e3e2facff4c59ff7498547ffe8dc539091348e": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-01T20:06:56.962582+00:00",
       "received_sequence": 266,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-01T20:06:57.717480+00:00",
+      "records": [
+        {
+          "id": 294,
+          "revision": 1,
+          "sha256": "4b9bf7fb2c71340d5968ed6e80ac95c111d662512b4636fafc3d841231de22a8"
+        }
+      ]
     }
   },
   "batches": {
@@ -33618,6 +33639,21 @@
       "result": {
         "status": "received",
         "request_id": "202f449116cc37a7bc6cade6b3e3e2facff4c59ff7498547ffe8dc539091348e"
+      }
+    },
+    "ed869a1d3e3ea0d13f37ee2012b7d578d016fbf5693784463591985d7b8c679e": {
+      "sha256": "604e072a01fa98713593eb7e50f17b2428c0c1503e01d8cdd218a0cdb419cf8a",
+      "result": {
+        "status": "finalized",
+        "request_id": "202f449116cc37a7bc6cade6b3e3e2facff4c59ff7498547ffe8dc539091348e",
+        "records": [
+          {
+            "id": 294,
+            "revision": 1,
+            "sha256": "4b9bf7fb2c71340d5968ed6e80ac95c111d662512b4636fafc3d841231de22a8"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
