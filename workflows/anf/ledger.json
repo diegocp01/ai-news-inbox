@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 893,
-  "updated_at": "2026-11-01T03:18:34.262120+00:00",
+  "generation": 894,
+  "updated_at": "2026-11-01T03:18:34.821461+00:00",
   "next_id": 292,
   "records": [
     {
@@ -33463,6 +33463,18 @@
         ],
         "duplicates": []
       }
+    },
+    "254b2e18d8ecbb323e4b93aabd43d0a96ce0f605eefbb5094a918f8f51b8e365": {
+      "sha256": "c8f304683667d518dd2f288c96a152c94417063fafd11563d28d756142436cee",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 291,
+          "revision": 1,
+          "sha256": "64a9f0803c9118169a7e5bc635833e63ec3a42b4e1cc2baedbc958b21164ab9b"
+        },
+        "editorial_sha256": "d5d7c528ad2d563c47aa8f56bf688063bb8988d840cb706d3e2f0098576d7fdc"
+      }
     }
   },
   "migration": {
@@ -41891,6 +41903,26 @@
         "sha256": "1246de1febe5f846095d364f2e76bd73b269182f5fb3e0aff958c885dc6d9747",
         "reviewed_at": "2026-11-01T03:16:48.522897+00:00",
         "operation_id": "0b2b110d99c18b5a8fe7ef6d7d094e6defee98ac6c34d40f5f379fbc05dcd32f"
+      }
+    ],
+    "291:1": [
+      {
+        "reference": {
+          "id": 291,
+          "revision": 1,
+          "sha256": "64a9f0803c9118169a7e5bc635833e63ec3a42b4e1cc2baedbc958b21164ab9b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer-facing robotics business news; plain language, no hardware-internals terms",
+            "evidence_sha256": "6c3e96043aee292dac11c951eedf1f888a4450f895e63869f3bb309a51b8285b"
+          }
+        },
+        "sha256": "d5d7c528ad2d563c47aa8f56bf688063bb8988d840cb706d3e2f0098576d7fdc",
+        "reviewed_at": "2026-11-01T03:18:34.821461+00:00",
+        "operation_id": "254b2e18d8ecbb323e4b93aabd43d0a96ce0f605eefbb5094a918f8f51b8e365"
       }
     ]
   }
