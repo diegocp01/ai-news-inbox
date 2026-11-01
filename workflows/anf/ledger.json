@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 908,
-  "updated_at": "2026-11-01T21:26:42.664767+00:00",
+  "generation": 909,
+  "updated_at": "2026-11-01T21:26:43.217931+00:00",
   "next_id": 297,
   "records": [
     {
@@ -33783,6 +33783,18 @@
         ],
         "duplicates": []
       }
+    },
+    "fb82a8500b233be6ccd393efb5e5614aee6aec466f2b1059240bdd368129edeb": {
+      "sha256": "5452d5a8daf5cb6b5a234ed57395964f9b3c86c5e8803de5e82c4dab8429cb1f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 296,
+          "revision": 1,
+          "sha256": "fd6a232f2126a0ec67d99e4744be236b2209f7eb4bbc16e5830a04fde5d07389"
+        },
+        "editorial_sha256": "eda03e43b4879591cc98a23e35deac7cdb3b15408ea2ff61b335354fff1c8d76"
+      }
     }
   },
   "migration": {
@@ -42311,6 +42323,26 @@
         "sha256": "86931958e4a897ae56c647729e39775fdfd33aa5d659975c5149451f5f687da7",
         "reviewed_at": "2026-11-01T20:52:19.144043+00:00",
         "operation_id": "bebd44568ee6312c7d8616d220c382d535fb0d06a9e60c5a5c7f47c452212445"
+      }
+    ],
+    "296:1": [
+      {
+        "reference": {
+          "id": 296,
+          "revision": 1,
+          "sha256": "fd6a232f2126a0ec67d99e4744be236b2209f7eb4bbc16e5830a04fde5d07389"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Coding-agent developer tool behavior change (Claude Code system prompt)",
+            "evidence_sha256": "477575807539e7abd635504603d48cde84ad19bbd136f19763d625781b5092b1"
+          }
+        },
+        "sha256": "eda03e43b4879591cc98a23e35deac7cdb3b15408ea2ff61b335354fff1c8d76",
+        "reviewed_at": "2026-11-01T21:26:43.217931+00:00",
+        "operation_id": "fb82a8500b233be6ccd393efb5e5614aee6aec466f2b1059240bdd368129edeb"
       }
     ]
   }
