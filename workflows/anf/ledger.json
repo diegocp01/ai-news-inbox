@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 905,
-  "updated_at": "2026-11-01T20:52:18.562676+00:00",
+  "generation": 906,
+  "updated_at": "2026-11-01T20:52:19.144043+00:00",
   "next_id": 296,
   "records": [
     {
@@ -33719,6 +33719,18 @@
         ],
         "duplicates": []
       }
+    },
+    "bebd44568ee6312c7d8616d220c382d535fb0d06a9e60c5a5c7f47c452212445": {
+      "sha256": "ffe10d6c46dbe64940a82cf3eea16eccd5298f900ab0e0e8234c9b129682420e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 295,
+          "revision": 1,
+          "sha256": "0524b4ca75fd97113644954c928c1b0cb099f93df979d960dd741f84222d47e6"
+        },
+        "editorial_sha256": "86931958e4a897ae56c647729e39775fdfd33aa5d659975c5149451f5f687da7"
+      }
     }
   },
   "migration": {
@@ -42227,6 +42239,26 @@
         "sha256": "b69f8a6033e7c4142dbdd363b327c4dc3ddbfcc443c8846974c57d66a5215862",
         "reviewed_at": "2026-11-01T20:06:58.439860+00:00",
         "operation_id": "26f3499dd2a697150d583f35e0c4a84f594aa163f754930e9488190c566a78a1"
+      }
+    ],
+    "295:1": [
+      {
+        "reference": {
+          "id": 295,
+          "revision": 1,
+          "sha256": "0524b4ca75fd97113644954c928c1b0cb099f93df979d960dd741f84222d47e6"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer subscription/plan usage news; plain language",
+            "evidence_sha256": "74b6c80bef2ec49404f248a48f91c2fe09c04f20eb4a7c2b3d33f42dd4701f10"
+          }
+        },
+        "sha256": "86931958e4a897ae56c647729e39775fdfd33aa5d659975c5149451f5f687da7",
+        "reviewed_at": "2026-11-01T20:52:19.144043+00:00",
+        "operation_id": "bebd44568ee6312c7d8616d220c382d535fb0d06a9e60c5a5c7f47c452212445"
       }
     ]
   }
