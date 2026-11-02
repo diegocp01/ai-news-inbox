@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 913,
-  "updated_at": "2026-11-02T12:08:07+00:00",
-  "next_id": 298,
+  "generation": 914,
+  "updated_at": "2026-11-02T12:11:03+00:00",
+  "next_id": 299,
   "records": [
     {
       "id": 1,
@@ -3951,6 +3951,19 @@
           "sha256": "9ebc5ff0ec8bf199d5941629a3c736b166a8cbdec9c6b3154d10f76ab9779971",
           "source": "https://x.com/NVIDIAAI/status/2116560120457142451",
           "request_id": "f51f694f5d5e20b5832da8f8f5df56497b17d0814e8c9fe83bb06959e5049f77",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "revisions": [
+        {
+          "created_at": "2026-11-02T12:11:03+00:00",
+          "block": "Title: Study Examines How AI-Assisted Mathematics Tracks Failed Approaches\nURL: https://zenodo.org/records/23867304\nImage URL: https://zenodo.org/api/iiif/record:23867304:MathLab_Preprint_v1_0_20261101.pdf/full/%5E1200,/0/default.jpg\nSummary: Matthew J. Goss Jr. documents a framework for tracking evidence, failed approaches, and review corrections in AI-assisted mathematics. Two case studies distinguish unresolved mathematical obstacles from missing reviewer context. This single-program documentary preprint reports neither a new theorem nor a controlled performance gain; underlying evidence is not yet fully public.",
+          "sha256": "3eb16d5fd04b2dcbcdeafbaa272686d458bf24deb06766caf82371a3932ac5ed",
+          "source": "Zenodo",
+          "request_id": "588608f833feee4baed2e5b809eefc35c35d7387ee45076864de1561b354b2de",
           "mode": "standard"
         }
       ]
@@ -8720,13 +8733,21 @@
       ]
     },
     "588608f833feee4baed2e5b809eefc35c35d7387ee45076864de1561b354b2de": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-02T12:08:07+00:00",
       "received_sequence": 270,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-02T12:11:03+00:00",
+      "records": [
+        {
+          "id": 298,
+          "revision": 1,
+          "sha256": "3eb16d5fd04b2dcbcdeafbaa272686d458bf24deb06766caf82371a3932ac5ed"
+        }
+      ]
     }
   },
   "batches": {
@@ -33874,6 +33895,21 @@
       "result": {
         "status": "received",
         "request_id": "588608f833feee4baed2e5b809eefc35c35d7387ee45076864de1561b354b2de"
+      }
+    },
+    "588608f833feee4baed2e5b809eefc35c35d7387ee45076864de1561b354b2de-finalize": {
+      "sha256": "e350dc472cb636d7a68e4f3b2f21fb48aeeddf246bf69216b0cdf12edccc39d2",
+      "result": {
+        "status": "finalized",
+        "request_id": "588608f833feee4baed2e5b809eefc35c35d7387ee45076864de1561b354b2de",
+        "records": [
+          {
+            "id": 298,
+            "revision": 1,
+            "sha256": "3eb16d5fd04b2dcbcdeafbaa272686d458bf24deb06766caf82371a3932ac5ed"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
