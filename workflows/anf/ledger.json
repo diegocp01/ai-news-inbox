@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 929,
-  "updated_at": "2026-11-02T20:07:09.348982+00:00",
+  "generation": 930,
+  "updated_at": "2026-11-02T20:07:10.036658+00:00",
   "next_id": 304,
   "records": [
     {
@@ -34855,6 +34855,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d13ca3cd15a2de846bc862159cdc3da3d640027133e603c5daabe7b9a4faab7f": {
+      "sha256": "865a964f7734c776ef910d24312d3af42038ef675d7ec59532f429aec8e4edce",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 303,
+          "revision": 1,
+          "sha256": "9d79fad58407d6b3ee1480e50b258b20109497889460ffc67b11599fec03f275"
+        },
+        "editorial_sha256": "dfa2dcac06f317e179457994346750be287846b6d79fb6c5f2c985b7f5c235a7"
+      }
     }
   },
   "migration": {
@@ -43523,6 +43535,26 @@
         "sha256": "ddd073d1b77a69d06b6d6ae5f79ca1665d438e16c384e571faf8341f6129de5a",
         "reviewed_at": "2026-11-02T19:57:24.210554+00:00",
         "operation_id": "2104bf656bc478fae99ffd84a594fc7afb7b71006f5b1c1b657330cc35eb1043"
+      }
+    ],
+    "303:1": [
+      {
+        "reference": {
+          "id": 303,
+          "revision": 1,
+          "sha256": "9d79fad58407d6b3ee1480e50b258b20109497889460ffc67b11599fec03f275"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer-facing everyday-task evaluation; no ML/dev/API terms; general when unsure",
+            "evidence_sha256": "5798038c27cfe8bfd191811017214d861e4f91ff7a7979468f5777f2742bcd40"
+          }
+        },
+        "sha256": "dfa2dcac06f317e179457994346750be287846b6d79fb6c5f2c985b7f5c235a7",
+        "reviewed_at": "2026-11-02T20:07:10.036658+00:00",
+        "operation_id": "d13ca3cd15a2de846bc862159cdc3da3d640027133e603c5daabe7b9a4faab7f"
       }
     ]
   }
