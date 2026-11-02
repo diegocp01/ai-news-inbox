@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 923,
-  "updated_at": "2026-11-02T19:35:59.995060+00:00",
+  "generation": 924,
+  "updated_at": "2026-11-02T19:36:00.717376+00:00",
   "next_id": 302,
   "records": [
     {
@@ -34727,6 +34727,18 @@
         ],
         "duplicates": []
       }
+    },
+    "23a37a2ffba0d4500892010eb0c76d6ab61c9798ebabf571e8912ab0362ac7ab": {
+      "sha256": "faac9b8a191c10cf06182637acca277518796cadf5c95ac2928b28af9bbedaeb",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 301,
+          "revision": 1,
+          "sha256": "b32e33a3dd7bb2988f03de44bb7feebe3685a019694b57b8d70a65018ff7809c"
+        },
+        "editorial_sha256": "47b1841899ed77893f378792d36166a40ab94069cc7e9dd7bf7c0702b26441e6"
+      }
     }
   },
   "migration": {
@@ -43355,6 +43367,26 @@
         "sha256": "d6bdc1f3fe4dd2568a924b83805de76630318d3c0a6baaddc445db42478c73c0",
         "reviewed_at": "2026-11-02T13:05:44.084875+00:00",
         "operation_id": "muse-backfill-20261102-300-6157"
+      }
+    ],
+    "301:1": [
+      {
+        "reference": {
+          "id": 301,
+          "revision": 1,
+          "sha256": "b32e33a3dd7bb2988f03de44bb7feebe3685a019694b57b8d70a65018ff7809c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML research on LLMs editing neural network weights",
+            "evidence_sha256": "e909d01cd3fa5c0fdfb436d1a32dd1cff0bfb9804b7e02b3a787b6d479e8fd96"
+          }
+        },
+        "sha256": "47b1841899ed77893f378792d36166a40ab94069cc7e9dd7bf7c0702b26441e6",
+        "reviewed_at": "2026-11-02T19:36:00.717376+00:00",
+        "operation_id": "23a37a2ffba0d4500892010eb0c76d6ab61c9798ebabf571e8912ab0362ac7ab"
       }
     ]
   }
