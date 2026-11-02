@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 915,
-  "updated_at": "2026-11-02T12:34:18.129295+00:00",
-  "next_id": 299,
+  "generation": 916,
+  "updated_at": "2026-11-02T12:40:27.195504+00:00",
+  "next_id": 301,
   "records": [
     {
       "id": 1,
@@ -3965,6 +3965,34 @@
           "source": "Zenodo",
           "request_id": "588608f833feee4baed2e5b809eefc35c35d7387ee45076864de1561b354b2de",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "revisions": [
+        {
+          "created_at": "2026-11-02T12:40:27.195504+00:00",
+          "block": "Title: OpenAI Reportedly Plans Data Center Rebrand After Midterms\nURL: https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy\nImage URL: https://www.livemint.com/lm-img/img/2026/11/02/600x338/Sam_1793596853182_JSk6_1793596853294_iut7_8bdf6682-5835-4d12-89ca-daa6aa6c25b9_IrGx.jpg\nSummary: Axios reports that OpenAI plans to promote the name “AI compute campuses” for its data centers after Tuesday’s U.S. midterm elections. The planned rebranding comes as voters consider data center restrictions and bans. Local debates over electricity costs, water use and community impacts have drawn opposition across party lines, according to S&P Global.",
+          "sha256": "dd1ba612742a466d0efd161f7b1596ba8fe826e21942baaaddda854700f34884",
+          "source": "axios.com",
+          "request_id": "ae1452da75120fb35a18633c51033ceb6b2f80c97d9e7e1ab1ee4cf51a11a825",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "revisions": [
+        {
+          "created_at": "2026-11-02T12:40:27.195504+00:00",
+          "block": "Title: Google Reports AI Response From Suncatcher Satellite\nURL: https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/\nImage URL: https://i.ytimg.com/vi_webp/epqzfAi16us/maxresdefault.webp\nSummary: Google says its Project Suncatcher prototype satellite ran its Gemma 4 model in orbit and sent a haiku back to Earth. The project explores whether space could host AI computing infrastructure. Google says it will test its AI chips under heat and radiation in orbit, ahead of a planned pair of interconnected satellites in 2027.",
+          "sha256": "cd3db34e781454c5561e7ad6b7314c656dc749e649974d7f2f9b7655666a503d",
+          "source": "blog.google",
+          "request_id": "ae1452da75120fb35a18633c51033ceb6b2f80c97d9e7e1ab1ee4cf51a11a825",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -8750,14 +8778,27 @@
       ]
     },
     "ae1452da75120fb35a18633c51033ceb6b2f80c97d9e7e1ab1ee4cf51a11a825": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-02T12:34:18.129295+00:00",
       "received_sequence": 271,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-02T12:40:27.195504+00:00",
+      "records": [
+        {
+          "id": 299,
+          "revision": 1,
+          "sha256": "dd1ba612742a466d0efd161f7b1596ba8fe826e21942baaaddda854700f34884"
+        },
+        {
+          "id": 300,
+          "revision": 1,
+          "sha256": "cd3db34e781454c5561e7ad6b7314c656dc749e649974d7f2f9b7655666a503d"
+        }
+      ]
     }
   },
   "batches": {
@@ -33927,6 +33968,26 @@
       "result": {
         "status": "received",
         "request_id": "ae1452da75120fb35a18633c51033ceb6b2f80c97d9e7e1ab1ee4cf51a11a825"
+      }
+    },
+    "b4ab3be56ffe95da79f1b94599b2661ecb5b7730b93501be6606b8c88b75ae92": {
+      "sha256": "8d08a5008ecc138b2a8fe4c46bed1d39d5d5fb0a5c1b01b9ffb1685ce8dabd4c",
+      "result": {
+        "status": "finalized",
+        "request_id": "ae1452da75120fb35a18633c51033ceb6b2f80c97d9e7e1ab1ee4cf51a11a825",
+        "records": [
+          {
+            "id": 299,
+            "revision": 1,
+            "sha256": "dd1ba612742a466d0efd161f7b1596ba8fe826e21942baaaddda854700f34884"
+          },
+          {
+            "id": 300,
+            "revision": 1,
+            "sha256": "cd3db34e781454c5561e7ad6b7314c656dc749e649974d7f2f9b7655666a503d"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
