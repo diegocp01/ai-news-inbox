@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 925,
-  "updated_at": "2026-11-02T19:57:22.323278+00:00",
-  "next_id": 302,
+  "generation": 926,
+  "updated_at": "2026-11-02T19:57:23.511338+00:00",
+  "next_id": 303,
   "records": [
     {
       "id": 1,
@@ -4005,6 +4005,19 @@
           "sha256": "b32e33a3dd7bb2988f03de44bb7feebe3685a019694b57b8d70a65018ff7809c",
           "source": "https://rikiyat.github.io/blog/weight-space-programming/",
           "request_id": "df69eb22078f5b81cd48cfb48f4370aa47bdcc8caf99662ed9b73f0b0e7ffe7f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 302,
+      "revisions": [
+        {
+          "created_at": "2026-11-02T19:57:23.511338+00:00",
+          "block": "Title: Anthropic Launches Message Threads in Public Beta on Claude's Messages API\nURL: https://claude.com/resources/articles/message-threads\nImage URL: https://claude.com/resources/articles/message-threads/opengraph-image/og\nSummary: Anthropic says message threads are in public beta on the Messages API: after a first request, developers send only new messages plus the previous response's ID, and the API holds the conversation between turns. Anthropic says this cuts time to first token, with median latency down about 35% for 500k-1M-token Claude Code requests; token usage is unchanged.",
+          "sha256": "27b8477f3b411650cb0bf8e949559c018dd16d768547074711a0629bb809f2fa",
+          "source": "https://x.com/ClaudeDevs/status/2117332449382510884",
+          "request_id": "38c5a04149e743fbca31f47bfa04228ede6be6be2fc228031584d5ee913c5573",
           "mode": "standard"
         }
       ]
@@ -8831,13 +8844,21 @@
       ]
     },
     "38c5a04149e743fbca31f47bfa04228ede6be6be2fc228031584d5ee913c5573": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-02T19:57:22.323278+00:00",
       "received_sequence": 273,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-02T19:57:23.511338+00:00",
+      "records": [
+        {
+          "id": 302,
+          "revision": 1,
+          "sha256": "27b8477f3b411650cb0bf8e949559c018dd16d768547074711a0629bb809f2fa"
+        }
+      ]
     }
   },
   "batches": {
@@ -34754,6 +34775,21 @@
       "result": {
         "status": "received",
         "request_id": "38c5a04149e743fbca31f47bfa04228ede6be6be2fc228031584d5ee913c5573"
+      }
+    },
+    "119e562cd4d62d88a463501b3f8a16dea8a570c9890d1dfb7965a39e4e320280": {
+      "sha256": "7490cdf1758e22bfacf2f3c4e7dcc08b775db328a6a01378e158133f2e203b2b",
+      "result": {
+        "status": "finalized",
+        "request_id": "38c5a04149e743fbca31f47bfa04228ede6be6be2fc228031584d5ee913c5573",
+        "records": [
+          {
+            "id": 302,
+            "revision": 1,
+            "sha256": "27b8477f3b411650cb0bf8e949559c018dd16d768547074711a0629bb809f2fa"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
