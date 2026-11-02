@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 916,
-  "updated_at": "2026-11-02T12:40:27.195504+00:00",
+  "generation": 919,
+  "updated_at": "2026-11-02T13:05:44.084875+00:00",
   "next_id": 301,
   "records": [
     {
@@ -33989,6 +33989,42 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261102-298-5041": {
+      "sha256": "082ae56d8552917899ec0a58c23abe115ab9a11c0b397f303e78ce12dbb074dc",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 298,
+          "revision": 1,
+          "sha256": "3eb16d5fd04b2dcbcdeafbaa272686d458bf24deb06766caf82371a3932ac5ed"
+        },
+        "editorial_sha256": "74668f69f5507661c986b46aa8764e2fb2bff976afed568b0f72fa57bd6ef864"
+      }
+    },
+    "muse-backfill-20261102-299-8960": {
+      "sha256": "1e7cea8dd70ac89c3412b39e25babcc580cb5765bf1f3e33ab54bd31eed3c717",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 299,
+          "revision": 1,
+          "sha256": "dd1ba612742a466d0efd161f7b1596ba8fe826e21942baaaddda854700f34884"
+        },
+        "editorial_sha256": "a69c709b515484c0910b98213a830343c819ff3c5aed731c4053fadd736f6824"
+      }
+    },
+    "muse-backfill-20261102-300-6157": {
+      "sha256": "ec068c7a4fb53eab2d7c6e7c0fec64081e05beffbe2f8e51d41050f0001a4025",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 300,
+          "revision": 1,
+          "sha256": "cd3db34e781454c5561e7ad6b7314c656dc749e649974d7f2f9b7655666a503d"
+        },
+        "editorial_sha256": "d6bdc1f3fe4dd2568a924b83805de76630318d3c0a6baaddc445db42478c73c0"
+      }
     }
   },
   "migration": {
@@ -42557,6 +42593,66 @@
         "sha256": "ebcf5a707c6034e797371f455e0e26ca0d66b5fccd22030cfcfcb74dc225d357",
         "reviewed_at": "2026-11-01T23:57:16.521452+00:00",
         "operation_id": "6295ae5e23677d72462e3b2c3e303316aeb6465baa24d8aec491573bf552d66a"
+      }
+    ],
+    "298:1": [
+      {
+        "reference": {
+          "id": 298,
+          "revision": 1,
+          "sha256": "3eb16d5fd04b2dcbcdeafbaa272686d458bf24deb06766caf82371a3932ac5ed"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Matthew J. Goss Jr. documents a framework for tracking evidence, failed approaches, and review corrections in AI-assisted mathematics, with two case studies distinguishing unresolved mathematical obstacles from missing reviewer context. This is AI research methodology (a documentary preprint, no new theorem or controlled gain claimed), for research audiences. muse-compile-backfill 2026-11-02: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "3eb16d5fd04b2dcbcdeafbaa272686d458bf24deb06766caf82371a3932ac5ed"
+          }
+        },
+        "sha256": "74668f69f5507661c986b46aa8764e2fb2bff976afed568b0f72fa57bd6ef864",
+        "reviewed_at": "2026-11-02T13:05:43.841581+00:00",
+        "operation_id": "muse-backfill-20261102-298-5041"
+      }
+    ],
+    "299:1": [
+      {
+        "reference": {
+          "id": 299,
+          "revision": 1,
+          "sha256": "dd1ba612742a466d0efd161f7b1596ba8fe826e21942baaaddda854700f34884"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Axios reports OpenAI plans to promote the name 'AI compute campuses' for its data centers after Tuesday's U.S. midterm elections, amid voter debates over data center restrictions, electricity costs, water use, and community impacts. This is policy and business news for a broad audience, not technical research. muse-compile-backfill 2026-11-02: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "dd1ba612742a466d0efd161f7b1596ba8fe826e21942baaaddda854700f34884"
+          }
+        },
+        "sha256": "a69c709b515484c0910b98213a830343c819ff3c5aed731c4053fadd736f6824",
+        "reviewed_at": "2026-11-02T13:05:43.963466+00:00",
+        "operation_id": "muse-backfill-20261102-299-8960"
+      }
+    ],
+    "300:1": [
+      {
+        "reference": {
+          "id": 300,
+          "revision": 1,
+          "sha256": "cd3db34e781454c5561e7ad6b7314c656dc749e649974d7f2f9b7655666a503d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Google reports its Project Suncatcher prototype satellite ran its Gemma 4 model in orbit and returned a haiku, exploring whether space could host AI computing infrastructure, with AI-chip tests under heat and radiation ahead of interconnected satellites in 2027. This is AI research/engineering work from Google Research, for technical audiences. muse-compile-backfill 2026-11-02: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "cd3db34e781454c5561e7ad6b7314c656dc749e649974d7f2f9b7655666a503d"
+          }
+        },
+        "sha256": "d6bdc1f3fe4dd2568a924b83805de76630318d3c0a6baaddc445db42478c73c0",
+        "reviewed_at": "2026-11-02T13:05:44.084875+00:00",
+        "operation_id": "muse-backfill-20261102-300-6157"
       }
     ]
   }
