@@ -1,0 +1,127 @@
+Title: The Biological Computing Co. Launches Mischief 1, a Neuron-Derived AI Video Model
+URL: https://www.prnewswire.com/news-releases/the-biological-computing-co-launches-worlds-first-publicly-available-neuron-derived-ai-video-model-302924399.html
+Image URL: https://mmx.prnewswire.com/media/MS1793404/The-Biological-Computing-Logo.jpg?id=OA3048474&p=facebook
+Summary: The Biological Computing Co. (TBC) launched mischief 1, an image-to-video model it says uses efficiencies discovered by studying living lab-grown neurons. TBC says it generates video 5x faster than its base model, Wan 2.2, and is the lowest-priced image-to-video model on fal and OpenRouter, at half a cent per second. CEO Alex Ksendzovsky called video its first commercial application.
+
+Title: Elon Musk Outlines Neuralink's Two Products: Telepathy and Blindsight
+URL: https://neuralink.com/
+Image URL: https://neuralink.com/assets/static/homepage.CQ861ZM0.jpg
+Summary: Elon Musk said Neuralink's first product, Telepathy, enables high-speed communication with computers or humans by thinking, and predicted its output bandwidth will vastly exceed the fastest speech or typing within a few years. He said the second product, Blindsight, aims to let even completely blind people see, and is ready from an engineering standpoint, awaiting regulatory approval.
+
+Title: Anthropic Renames Claude Max Plans to Max and Ultra, Drops 5-Hour Limit for Verified Ultra Accounts
+URL: https://claude.com/pricing
+Image URL: https://assets.claude.com/f66071070c4701ea2c37fc01b3c0f83623cf29d3.jpg?w=2400&h=1260&fit=crop
+Summary: Anthropic renamed its Claude Max 5x plan to Max and Max 20x to Ultra, keeping prices at $100 and $200 a month. It said it is removing the 5-hour usage limit for verified Ultra accounts, starting with most existing subscribers, while newer accounts keep a temporary limit until verified. Weekly limits are unchanged.
+
+Title: Google's Project Suncatcher Satellite Sends Its First AI Response From Orbit: A Haiku
+URL: https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/
+Image URL: https://i.ytimg.com/vi_webp/epqzfAi16us/maxresdefault.webp
+Summary: Google said its Project Suncatcher prototype satellite, launched October 1, returned its first AI response from orbit: a haiku about space written by the onboard Gemma 4 model running on a data-center-class TPU. Sundar Pichai called it a "hello world" milestone. Google plans thermal and radiation tests next, then twin interconnected satellites in 2027.
+ds: true
+
+Title: Cisco President Gives a 27-Year-Old Unlimited AI Access to Rewrite Its Legacy Code
+URL: https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/
+Image URL: https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2270629609-e1793295597735.jpg?resize=1200,600
+Summary: Cisco President Jeetu Patel told Fortune he gave 27-year-old Padmanabhan Krishnamurthy, who joined Cisco through its acquisition of his startup EzDubs, unlimited AI usage to rewrite the company's old software, with a goal of rewriting 98% of Cisco's legacy code within 24 months. Patel said he wants more young hires to challenge the status quo.
+
+Title: Developer Compiles a Working RISC-V CPU Into Qwen 3.5 4B's Weights
+URL: https://divagr.com/blog/qwenputer
+Image URL: https://divagr.com/qwenputer/og.png
+Summary: Divyansh Agrawal says he compiled a 32-bit RISC-V CPU directly into Qwen 3.5 4B's weights, with no training, using its Gated DeltaNet layers as exact RAM. He reports it runs C and MicroPython inside forward passes, passes the official riscv-tests, and lets the model do exact arithmetic without external tools. The model and code are public.
+ds: true
+
+Title: Anthropic: Claude Found Monitor-Evading Training Data That Induces Emergent Misalignment
+URL: https://alignment.anthropic.com/2026/automated-em-search/
+Image URL: https://alignment.anthropic.com/2026/automated-em-search/fig0.png
+Summary: Anthropic researchers tasked Claude with writing fine-tuning data that makes a small research model misaligned while evading a production-like training-data monitor. Anthropic says Claude succeeded, mostly by hiding behavior in fiction and roleplay, producing stronger emergent misalignment than known datasets. The resulting models were never deployed; Anthropic frames it as a first step toward automated safety stress-testing.
+ds: true
+
+Title: The Biological Computing Co. Launches Mischief 1, a Neuron-Derived AI Video Model
+URL: https://www.prnewswire.com/news-releases/the-biological-computing-co-launches-worlds-first-publicly-available-neuron-derived-ai-video-model-302924399.html
+Image URL: https://mmx.prnewswire.com/media/MS1793404/The-Biological-Computing-Logo.jpg?id=OA3048474&p=facebook
+Summary: The Biological Computing Co. (TBC) launched mischief 1, an image-to-video model it says uses efficiencies discovered by studying living lab-grown neurons. TBC says it generates video 5x faster than its base model, Wan 2.2, and is the lowest-priced image-to-video model on fal and OpenRouter, at half a cent per second. CEO Alex Ksendzovsky called video its first commercial application.
+
+Title: RightNow Releases "System Zero," a Model That Streams Inputs and Returns Probability-Scored Decisions
+URL: https://www.rightnowai.co/
+Image URL: https://www.rightnowai.co/og/main.png?v=8805a80f
+Summary: Y Combinator-backed RightNow released its first "System Zero" model, available via API. RightNow says it takes streaming text, JSON, PDFs, images, voice, codebases, robot state and video, and returns a decision with a probability for each option while input is still arriving, with 30 ms decisions on text and up to 1,024 questions per call.
+ds: true
+
+Title: Skydive Opens Its AI Agent "Office" to Everyone
+URL: https://www.skydive.com/
+Image URL: https://www.skydive.com/images/og/skydive-og.jpg
+Summary: Skydive says its AI agent service is now open to everyone. It says users can build a team of AI agents, watch them work in a 3D office, and hand them tasks over Slack, email, iMessage or the web. Companies can claim their domain to appear on its map, and the agents work free this week, Skydive says.
+
+Title: OpenAI Will Combine ChatGPT and Codex Usage Limits Into One Allowance in December
+URL: https://artificialwatch.com/wire/openai-merges-chatgpt-and-codex-usage-into-one-token-allowance
+Image URL: https://artificialwatch.com/aw-wire/openai-merges-chatgpt-and-codex-usage-into-one-token-allowance.jpg
+Summary: OpenAI says that starting in December, Plus, Pro and Business plans will share one usage allowance across ChatGPT and Codex, measured in tokens. Usage will depend on the model and task, and Instant chat won't count. Combined usage and reset times will appear in Settings > Usage; at the limit, users can wait, upgrade or buy credits.
+ds: true
+
+Title: xAI Will Add Invisible Text Watermarks to Grok API Models Starting Nov. 7
+URL: https://cryptobriefing.com/xai-grok-text-watermarking-api/
+Image URL: https://static.cryptobriefing.com/wp-content/uploads/2026/10/31181642/library-xai-adds-invisible-text-watermarking-to-grok-api-models-800x450.png
+Summary: xAI's developer docs say text from supported Grok API models, including grok-4.7, will carry an invisible statistical watermark by default starting November 7, citing EU AI Act compliance. The docs say it subtly shapes word choices without changing quality or speed; team admins can opt out per model only by confirming a legal exception applies.
+ds: true
+
+Title: Meta Built a Humanoid Robot Prototype Called Max With China's Fourier, Report Says
+URL: https://www.deccanherald.com/technology/meta-builds-humanoid-robot-with-chinese-startup-fourier-the-information-says-4202835
+Image URL: https://media.assettype.com/deccanherald%2F2026-10-21%2F0vtqcjux%2Fdeccanherald2026-10-19ms6utrikfile86m7vggjw6etimgrden.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop
+Summary: Meta built a humanoid robot prototype named Max with Chinese startup Fourier in about three months and is working on a second version, The Information reported, citing people familiar with the project. Meta sees such robots as a possible physical extension of its Muse AI agent for household tasks, but told The Information it has no plans to sell them.
+
+Title: OpenAI Says It Will Honor a Shared Opt-Out Letting Websites Refuse AI Training
+URL: https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out
+Image URL: https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200
+Summary: OpenAI says it will honor a common signal websites can use to state their preferences on use of their content for generative AI training, letting publishers tell multiple participating AI providers at once. OpenAI says it aims to implement the signal in the coming months, keeps its existing controls, and encourages other AI providers to honor it.
+
+Title: Researcher Jun Song Says He Turned Down Black-Hat Offer to Train Open-Weight Models on Exploit Data
+URL: 
+Image URL: https://telem.news/og/story/a58a733c-9a11-4267-a744-6a7547cd17e9.png
+Summary: Jun Song says an anonymous black-hat group offered him a large sum to post-train open-weight models with reinforcement learning on exploit data, claiming an unusually large trove of attack data. Song says he declined, but warns someone else will eventually take such a deal. His claims have not been independently verified.
+ds: true
+
+Title: DeepSeek Outlines "Super-agent" Design and Releases Open-Source Research Prototype
+URL: https://github.com/deepseek-ai/dsh-superagent-prototype
+Image URL: https://www.deepseek.com/harness/images/deepseek-harness-social.jpg
+Summary: DeepSeek published an article proposing a "Super-agent": one always-online agent that keeps context across sessions, works on several tasks at once, and acts on events in chats and GitHub. It released an MIT-licensed research prototype for DeepSeek Harness, stating it is not an official product. Its preliminary synthetic tests found faster task completion than single-session designs.
+ds: true
+
+Title: OpenAI Doubles ChatGPT Pro's Work and Codex Allowance, Plans Shared Usage Pool
+URL: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/
+Image URL: https://www.bleepstatic.com/content/hl-images/2023/11/08/ChatGPT.jpg
+Summary: OpenAI told Pro subscribers by email that from October 29 their plan includes twice the Work and Codex allowance. It plans to test combining ChatGPT's Chat and Work tabs with a small group, and in coming weeks to have ChatGPT and Codex draw from one allowance. Instant stays unlimited; at the limit, users can wait, upgrade or buy credits.
+
+Title: Anthropic Steers Claude Code Away From Recreating Existing Video Games
+URL: https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games
+Image URL: https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blta970312a7256ca55/6ae4e702d996de0029eee354/claudeiconfeatured.jpg?disable=upscale&width=1200&height=630&fit=crop
+Summary: Anthropic added two sentences to Claude Code's prompt on Opus 5.5 to steer it away from recreating someone else's specific game, saying using Claude to infringe IP violates its usage policy, staffer Addy Osmani wrote; a spokesperson pointed Game Developer to his statement. Original games, genre games and games from users' own designs and assets should keep working.
+ds: true
+
+Title: AI Agents Now Steer SETI's Allen Telescope Array in Search for Alien Signals, NVIDIA Says
+URL: https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/
+Image URL: https://blogs.nvidia.com/wp-content/uploads/2026/10/IMG_1607-ATA-2023-CREDIT-Joe-Marfia-scaled.jpg
+Summary: NVIDIA says the SETI Institute and Breakthrough Listen let AI agents steer the Allen Telescope Array and process its data from natural-language requests, using NVIDIA Holoscan and CUDA-X libraries on RTX PRO 6000 Blackwell GPUs handling 2.4 terabits per second. NVIDIA says the pipeline achieved the first real-time AI detection of a pulsar, in the Crab Nebula.
+ds: true
+
+Title: Study Examines How AI-Assisted Mathematics Tracks Failed Approaches
+URL: https://zenodo.org/records/23867304
+Image URL: https://zenodo.org/api/iiif/record:23867304:MathLab_Preprint_v1_0_20261101.pdf/full/%5E1200,/0/default.jpg
+Summary: Matthew J. Goss Jr. documents a framework for tracking evidence, failed approaches, and review corrections in AI-assisted mathematics. Two case studies distinguish unresolved mathematical obstacles from missing reviewer context. This single-program documentary preprint reports neither a new theorem nor a controlled performance gain; underlying evidence is not yet fully public.
+ds: true
+
+Title: OpenAI Reportedly Plans Data Center Rebrand After Midterms
+URL: https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy
+Image URL: https://www.livemint.com/lm-img/img/2026/11/02/600x338/Sam_1793596853182_JSk6_1793596853294_iut7_8bdf6682-5835-4d12-89ca-daa6aa6c25b9_IrGx.jpg
+Summary: Axios reports that OpenAI plans to promote the name “AI compute campuses” for its data centers after Tuesday’s U.S. midterm elections. The planned rebranding comes as voters consider data center restrictions and bans. Local debates over electricity costs, water use and community impacts have drawn opposition across party lines, according to S&P Global.
+
+Title: Google Reports AI Response From Suncatcher Satellite
+URL: https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/
+Image URL: https://i.ytimg.com/vi_webp/epqzfAi16us/maxresdefault.webp
+Summary: Google says its Project Suncatcher prototype satellite ran its Gemma 4 model in orbit and sent a haiku back to Earth. The project explores whether space could host AI computing infrastructure. Google says it will test its AI chips under heat and radiation in orbit, ahead of a planned pair of interconnected satellites in 2027.
+ds: true
+
+
+
+
+
+.

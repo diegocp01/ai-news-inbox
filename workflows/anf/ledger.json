@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 919,
-  "updated_at": "2026-11-02T13:05:44.084875+00:00",
+  "generation": 920,
+  "updated_at": "2026-11-02T13:05:55.855494+00:00",
   "next_id": 301,
   "records": [
     {
@@ -16255,9 +16255,321 @@
       },
       "acknowledged_at": "2026-10-30T12:11:49.327879+00:00",
       "checkpoint_after": 278
+    },
+    "91770623912a6dae19abb464": {
+      "batch_id": "91770623912a6dae19abb464",
+      "status": "prepared",
+      "checkpoint_before": 278,
+      "prepared_at": "2026-11-02T13:05:55.855494+00:00",
+      "intake_cutoff": 271,
+      "records": [
+        {
+          "id": 279,
+          "revision": 1,
+          "sha256": "a354f8b93238233657a98329061d5be9ad51bb24ba262b4eb107b49810e78d64"
+        },
+        {
+          "id": 280,
+          "revision": 1,
+          "sha256": "e6fdca9a1783dc1e4a204da086c6f34886b40a4410a0b3f453e856c8c9d3d945"
+        },
+        {
+          "id": 281,
+          "revision": 1,
+          "sha256": "ea9abd6db7b00a72172561b6e95ae5f5b1ee92912942bc7c66558c6c86846b97"
+        },
+        {
+          "id": 282,
+          "revision": 1,
+          "sha256": "1dabd0639fa1d55c45768dd1374d0544002d45868dfcc3095a86cd4aa757e17a"
+        },
+        {
+          "id": 283,
+          "revision": 1,
+          "sha256": "ebb86adbde7c8dfd400a675ff4aecf95fb234d2f5c058e9a2468db19dc0e0ce2"
+        },
+        {
+          "id": 284,
+          "revision": 1,
+          "sha256": "710b720967516214c1de8f296f42f2033681487dc5954ec97b90fd91c9f0ed04"
+        },
+        {
+          "id": 285,
+          "revision": 1,
+          "sha256": "8fcdc4e51abf6d61660e9046a9c29d3c622dd7cc9c3f94c67815b6fc655eab31"
+        },
+        {
+          "id": 286,
+          "revision": 1,
+          "sha256": "a354f8b93238233657a98329061d5be9ad51bb24ba262b4eb107b49810e78d64"
+        },
+        {
+          "id": 287,
+          "revision": 1,
+          "sha256": "34da415d847d747d68dc6d9b09bde6a73a70136ad0ce84f7c250663f63ebff1f"
+        },
+        {
+          "id": 288,
+          "revision": 1,
+          "sha256": "94e78d74ab0a5b4276199de7e43fbd84f6205e1df055baedc3e1dbe04f1f2b00"
+        },
+        {
+          "id": 289,
+          "revision": 1,
+          "sha256": "41579419b6a84413e2b8876ca904121f88868faae0fe4b1588cd6f0f556223e3"
+        },
+        {
+          "id": 290,
+          "revision": 1,
+          "sha256": "9ec0790c81e779a8eaf2639e3e2aa5daa54cbfc1b56a4a4e4ddf4fe6a3d04fcd"
+        },
+        {
+          "id": 291,
+          "revision": 1,
+          "sha256": "64a9f0803c9118169a7e5bc635833e63ec3a42b4e1cc2baedbc958b21164ab9b"
+        },
+        {
+          "id": 292,
+          "revision": 1,
+          "sha256": "7615ead6914d0cbb67def687fee517399ae01f3b4e59f10c93d50ecfd226500e"
+        },
+        {
+          "id": 293,
+          "revision": 1,
+          "sha256": "943288b8c981f4dcf9228db484ccc03d480e4db0e550443705463bb9c80667d2"
+        },
+        {
+          "id": 294,
+          "revision": 1,
+          "sha256": "4b9bf7fb2c71340d5968ed6e80ac95c111d662512b4636fafc3d841231de22a8"
+        },
+        {
+          "id": 295,
+          "revision": 1,
+          "sha256": "0524b4ca75fd97113644954c928c1b0cb099f93df979d960dd741f84222d47e6"
+        },
+        {
+          "id": 296,
+          "revision": 1,
+          "sha256": "fd6a232f2126a0ec67d99e4744be236b2209f7eb4bbc16e5830a04fde5d07389"
+        },
+        {
+          "id": 297,
+          "revision": 1,
+          "sha256": "9ebc5ff0ec8bf199d5941629a3c736b166a8cbdec9c6b3154d10f76ab9779971"
+        },
+        {
+          "id": 298,
+          "revision": 1,
+          "sha256": "3eb16d5fd04b2dcbcdeafbaa272686d458bf24deb06766caf82371a3932ac5ed"
+        },
+        {
+          "id": 299,
+          "revision": 1,
+          "sha256": "dd1ba612742a466d0efd161f7b1596ba8fe826e21942baaaddda854700f34884"
+        },
+        {
+          "id": 300,
+          "revision": 1,
+          "sha256": "cd3db34e781454c5561e7ad6b7314c656dc749e649974d7f2f9b7655666a503d"
+        }
+      ],
+      "first_id": 279,
+      "last_id": 300,
+      "count": 22,
+      "txt_path": "workflows/anf/batches/91770623912a6dae19abb464.txt",
+      "json_path": "workflows/anf/batches/91770623912a6dae19abb464.json",
+      "txt_sha256": "9904e787d364dcc136812af4d4597ba3cf2a76bc39b134bd7cbcd4fde2bc36ac",
+      "json_sha256": "b9b9eba1a820c7ac7719cea89cb8632fbc885d2a4da9615c4b2e63ff57a699eb",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Product launch of a consumer/creator AI video model; no API or ML-internals detail in summary",
+            "evidence_sha256": "0f9dc41df6edb43b709d62ac47608f591229723d4937a4a5d9569851a03fa037"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Neuralink product announcement for a general audience; no ML/dev/hardware-internals detail",
+            "evidence_sha256": "02d00a9ddd7bdba8f184f2e60e6109c83215894de0b0eb19f434e4bcebb20b49"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer subscription plan rename and usage-limit change; not ML/dev/hardware",
+            "evidence_sha256": "57c4310118cf7c0c0b033f1cf753377d1350f0331fbd57a2527f998d003910d0"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Summary names a data-center-class TPU, a hardware term not known to a general reader; DS per Diego's rule",
+            "evidence_sha256": "5bb3a9c04e964c1a8241cc6c422b57d5a2dbda91302dedce344b53ac4d7a902c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Workplace/hiring story about AI at Cisco; summary uses plain language, no ML/dev/hardware jargon",
+            "evidence_sha256": "f35840727aed8076d361f4225bdfa472d73f64acfe4de5530d7bc0ba25dd0a3e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML-internals research: CPU compiled into LLM weights, Gated DeltaNet as RAM",
+            "evidence_sha256": "7d44cbb7048200e897dde9f068a6d25fa3f39a935b8376c07e7d4bc5c63492d7"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML safety research: emergent misalignment via fine-tuning data, training-data monitors",
+            "evidence_sha256": "9ba2d5b81f8a3eff6064cd1bec296da8f8ade0f477a1b22a62e74fb92d5a9a08"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Repeat of #279: company product launch, plain-language summary; same payload approach as #279",
+            "evidence_sha256": "0f9dc41df6edb43b709d62ac47608f591229723d4937a4a5d9569851a03fa037"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer/API model product: JSON, codebases, API calls, ms latency",
+            "evidence_sha256": "3a4cccc326f172dde160724855638ef35c065c78ea7c8e2a72aa93c77b8e6298"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer/business AI agent product launch in plain language; no ML/dev/hardware jargon",
+            "evidence_sha256": "b38ff1c82b0c00a93cf7b3aa60afa762318daab6551c74787f3323945d747d95"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Relies on ML term tokens (precheck flags ml:tokens) and Codex dev tool usage",
+            "evidence_sha256": "11f9232a80dbd8f2ddab22df66c86df2db327c30cabffa27ac428cace185a2b1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer/API change: Grok API model output watermarking, opt-out via console",
+            "evidence_sha256": "89de29fc77d086d791df1b3648eb17376efebf2fe4d4b7b926d76afb7d675040"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer-facing robotics business news; plain language, no hardware-internals terms",
+            "evidence_sha256": "6c3e96043aee292dac11c951eedf1f888a4450f895e63869f3bb309a51b8285b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Publisher/policy news on AI training opt-outs; plain language, no technical internals",
+            "evidence_sha256": "01fa96851a808c237e27e7df5c630ef8ffc7af384c3db09fa9a2603ecca295da"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML post-training/RL on open-weight models; AI security",
+            "evidence_sha256": "c90e8d6f0bca31c1da850db6624922f6ec10d01a59fb17b6e1ea41f3eaec7e43"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Agent architecture and open-source coding-agent developer tool on GitHub",
+            "evidence_sha256": "7cec750cefe9ab6b2b30d6685f6e9286ef9a1e014d4a22ba1819c5656125c3dd"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer subscription/plan usage news; plain language",
+            "evidence_sha256": "74b6c80bef2ec49404f248a48f91c2fe09c04f20eb4a7c2b3d33f42dd4701f10"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Coding-agent developer tool behavior change (Claude Code system prompt)",
+            "evidence_sha256": "477575807539e7abd635504603d48cde84ad19bbd136f19763d625781b5092b1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "AI agents for radio astronomy on NVIDIA GPUs/CUDA-X; hardware and ML terms",
+            "evidence_sha256": "03d94c6a79e8e752d4fbf4a44832a92e88e83857603616547b9544c3b9dd4590"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Matthew J. Goss Jr. documents a framework for tracking evidence, failed approaches, and review corrections in AI-assisted mathematics, with two case studies distinguishing unresolved mathematical obstacles from missing reviewer context. This is AI research methodology (a documentary preprint, no new theorem or controlled gain claimed), for research audiences. muse-compile-backfill 2026-11-02: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "3eb16d5fd04b2dcbcdeafbaa272686d458bf24deb06766caf82371a3932ac5ed"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Axios reports OpenAI plans to promote the name 'AI compute campuses' for its data centers after Tuesday's U.S. midterm elections, amid voter debates over data center restrictions, electricity costs, water use, and community impacts. This is policy and business news for a broad audience, not technical research. muse-compile-backfill 2026-11-02: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "dd1ba612742a466d0efd161f7b1596ba8fe826e21942baaaddda854700f34884"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Google reports its Project Suncatcher prototype satellite ran its Gemma 4 model in orbit and returned a haiku, exploring whether space could host AI computing infrastructure, with AI-chip tests under heat and radiation ahead of interconnected satellites in 2027. This is AI research/engineering work from Google Research, for technical audiences. muse-compile-backfill 2026-11-02: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "cd3db34e781454c5561e7ad6b7314c656dc749e649974d7f2f9b7655666a503d"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-02T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "91770623912a6dae19abb464",
   "replacement_batch": null,
   "checkpoint": 278,
   "checkpoint_history": [
@@ -34024,6 +34336,325 @@
           "sha256": "cd3db34e781454c5561e7ad6b7314c656dc749e649974d7f2f9b7655666a503d"
         },
         "editorial_sha256": "d6bdc1f3fe4dd2568a924b83805de76630318d3c0a6baaddc445db42478c73c0"
+      }
+    },
+    "muse-compile-20261102-1305-0107": {
+      "sha256": "7f836053d5a9e46b87a25979568b959232e063962b850446ca28d467abf50e37",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "91770623912a6dae19abb464",
+          "status": "prepared",
+          "checkpoint_before": 278,
+          "prepared_at": "2026-11-02T13:05:55.855494+00:00",
+          "intake_cutoff": 271,
+          "records": [
+            {
+              "id": 279,
+              "revision": 1,
+              "sha256": "a354f8b93238233657a98329061d5be9ad51bb24ba262b4eb107b49810e78d64"
+            },
+            {
+              "id": 280,
+              "revision": 1,
+              "sha256": "e6fdca9a1783dc1e4a204da086c6f34886b40a4410a0b3f453e856c8c9d3d945"
+            },
+            {
+              "id": 281,
+              "revision": 1,
+              "sha256": "ea9abd6db7b00a72172561b6e95ae5f5b1ee92912942bc7c66558c6c86846b97"
+            },
+            {
+              "id": 282,
+              "revision": 1,
+              "sha256": "1dabd0639fa1d55c45768dd1374d0544002d45868dfcc3095a86cd4aa757e17a"
+            },
+            {
+              "id": 283,
+              "revision": 1,
+              "sha256": "ebb86adbde7c8dfd400a675ff4aecf95fb234d2f5c058e9a2468db19dc0e0ce2"
+            },
+            {
+              "id": 284,
+              "revision": 1,
+              "sha256": "710b720967516214c1de8f296f42f2033681487dc5954ec97b90fd91c9f0ed04"
+            },
+            {
+              "id": 285,
+              "revision": 1,
+              "sha256": "8fcdc4e51abf6d61660e9046a9c29d3c622dd7cc9c3f94c67815b6fc655eab31"
+            },
+            {
+              "id": 286,
+              "revision": 1,
+              "sha256": "a354f8b93238233657a98329061d5be9ad51bb24ba262b4eb107b49810e78d64"
+            },
+            {
+              "id": 287,
+              "revision": 1,
+              "sha256": "34da415d847d747d68dc6d9b09bde6a73a70136ad0ce84f7c250663f63ebff1f"
+            },
+            {
+              "id": 288,
+              "revision": 1,
+              "sha256": "94e78d74ab0a5b4276199de7e43fbd84f6205e1df055baedc3e1dbe04f1f2b00"
+            },
+            {
+              "id": 289,
+              "revision": 1,
+              "sha256": "41579419b6a84413e2b8876ca904121f88868faae0fe4b1588cd6f0f556223e3"
+            },
+            {
+              "id": 290,
+              "revision": 1,
+              "sha256": "9ec0790c81e779a8eaf2639e3e2aa5daa54cbfc1b56a4a4e4ddf4fe6a3d04fcd"
+            },
+            {
+              "id": 291,
+              "revision": 1,
+              "sha256": "64a9f0803c9118169a7e5bc635833e63ec3a42b4e1cc2baedbc958b21164ab9b"
+            },
+            {
+              "id": 292,
+              "revision": 1,
+              "sha256": "7615ead6914d0cbb67def687fee517399ae01f3b4e59f10c93d50ecfd226500e"
+            },
+            {
+              "id": 293,
+              "revision": 1,
+              "sha256": "943288b8c981f4dcf9228db484ccc03d480e4db0e550443705463bb9c80667d2"
+            },
+            {
+              "id": 294,
+              "revision": 1,
+              "sha256": "4b9bf7fb2c71340d5968ed6e80ac95c111d662512b4636fafc3d841231de22a8"
+            },
+            {
+              "id": 295,
+              "revision": 1,
+              "sha256": "0524b4ca75fd97113644954c928c1b0cb099f93df979d960dd741f84222d47e6"
+            },
+            {
+              "id": 296,
+              "revision": 1,
+              "sha256": "fd6a232f2126a0ec67d99e4744be236b2209f7eb4bbc16e5830a04fde5d07389"
+            },
+            {
+              "id": 297,
+              "revision": 1,
+              "sha256": "9ebc5ff0ec8bf199d5941629a3c736b166a8cbdec9c6b3154d10f76ab9779971"
+            },
+            {
+              "id": 298,
+              "revision": 1,
+              "sha256": "3eb16d5fd04b2dcbcdeafbaa272686d458bf24deb06766caf82371a3932ac5ed"
+            },
+            {
+              "id": 299,
+              "revision": 1,
+              "sha256": "dd1ba612742a466d0efd161f7b1596ba8fe826e21942baaaddda854700f34884"
+            },
+            {
+              "id": 300,
+              "revision": 1,
+              "sha256": "cd3db34e781454c5561e7ad6b7314c656dc749e649974d7f2f9b7655666a503d"
+            }
+          ],
+          "first_id": 279,
+          "last_id": 300,
+          "count": 22,
+          "txt_path": "workflows/anf/batches/91770623912a6dae19abb464.txt",
+          "json_path": "workflows/anf/batches/91770623912a6dae19abb464.json",
+          "txt_sha256": "9904e787d364dcc136812af4d4597ba3cf2a76bc39b134bd7cbcd4fde2bc36ac",
+          "json_sha256": "b9b9eba1a820c7ac7719cea89cb8632fbc885d2a4da9615c4b2e63ff57a699eb",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Product launch of a consumer/creator AI video model; no API or ML-internals detail in summary",
+                "evidence_sha256": "0f9dc41df6edb43b709d62ac47608f591229723d4937a4a5d9569851a03fa037"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Neuralink product announcement for a general audience; no ML/dev/hardware-internals detail",
+                "evidence_sha256": "02d00a9ddd7bdba8f184f2e60e6109c83215894de0b0eb19f434e4bcebb20b49"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer subscription plan rename and usage-limit change; not ML/dev/hardware",
+                "evidence_sha256": "57c4310118cf7c0c0b033f1cf753377d1350f0331fbd57a2527f998d003910d0"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Summary names a data-center-class TPU, a hardware term not known to a general reader; DS per Diego's rule",
+                "evidence_sha256": "5bb3a9c04e964c1a8241cc6c422b57d5a2dbda91302dedce344b53ac4d7a902c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Workplace/hiring story about AI at Cisco; summary uses plain language, no ML/dev/hardware jargon",
+                "evidence_sha256": "f35840727aed8076d361f4225bdfa472d73f64acfe4de5530d7bc0ba25dd0a3e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "ML-internals research: CPU compiled into LLM weights, Gated DeltaNet as RAM",
+                "evidence_sha256": "7d44cbb7048200e897dde9f068a6d25fa3f39a935b8376c07e7d4bc5c63492d7"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "ML safety research: emergent misalignment via fine-tuning data, training-data monitors",
+                "evidence_sha256": "9ba2d5b81f8a3eff6064cd1bec296da8f8ade0f477a1b22a62e74fb92d5a9a08"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Repeat of #279: company product launch, plain-language summary; same payload approach as #279",
+                "evidence_sha256": "0f9dc41df6edb43b709d62ac47608f591229723d4937a4a5d9569851a03fa037"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Developer/API model product: JSON, codebases, API calls, ms latency",
+                "evidence_sha256": "3a4cccc326f172dde160724855638ef35c065c78ea7c8e2a72aa93c77b8e6298"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer/business AI agent product launch in plain language; no ML/dev/hardware jargon",
+                "evidence_sha256": "b38ff1c82b0c00a93cf7b3aa60afa762318daab6551c74787f3323945d747d95"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Relies on ML term tokens (precheck flags ml:tokens) and Codex dev tool usage",
+                "evidence_sha256": "11f9232a80dbd8f2ddab22df66c86df2db327c30cabffa27ac428cace185a2b1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Developer/API change: Grok API model output watermarking, opt-out via console",
+                "evidence_sha256": "89de29fc77d086d791df1b3648eb17376efebf2fe4d4b7b926d76afb7d675040"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer-facing robotics business news; plain language, no hardware-internals terms",
+                "evidence_sha256": "6c3e96043aee292dac11c951eedf1f888a4450f895e63869f3bb309a51b8285b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Publisher/policy news on AI training opt-outs; plain language, no technical internals",
+                "evidence_sha256": "01fa96851a808c237e27e7df5c630ef8ffc7af384c3db09fa9a2603ecca295da"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "ML post-training/RL on open-weight models; AI security",
+                "evidence_sha256": "c90e8d6f0bca31c1da850db6624922f6ec10d01a59fb17b6e1ea41f3eaec7e43"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Agent architecture and open-source coding-agent developer tool on GitHub",
+                "evidence_sha256": "7cec750cefe9ab6b2b30d6685f6e9286ef9a1e014d4a22ba1819c5656125c3dd"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer subscription/plan usage news; plain language",
+                "evidence_sha256": "74b6c80bef2ec49404f248a48f91c2fe09c04f20eb4a7c2b3d33f42dd4701f10"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Coding-agent developer tool behavior change (Claude Code system prompt)",
+                "evidence_sha256": "477575807539e7abd635504603d48cde84ad19bbd136f19763d625781b5092b1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "AI agents for radio astronomy on NVIDIA GPUs/CUDA-X; hardware and ML terms",
+                "evidence_sha256": "03d94c6a79e8e752d4fbf4a44832a92e88e83857603616547b9544c3b9dd4590"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Matthew J. Goss Jr. documents a framework for tracking evidence, failed approaches, and review corrections in AI-assisted mathematics, with two case studies distinguishing unresolved mathematical obstacles from missing reviewer context. This is AI research methodology (a documentary preprint, no new theorem or controlled gain claimed), for research audiences. muse-compile-backfill 2026-11-02: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "3eb16d5fd04b2dcbcdeafbaa272686d458bf24deb06766caf82371a3932ac5ed"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Axios reports OpenAI plans to promote the name 'AI compute campuses' for its data centers after Tuesday's U.S. midterm elections, amid voter debates over data center restrictions, electricity costs, water use, and community impacts. This is policy and business news for a broad audience, not technical research. muse-compile-backfill 2026-11-02: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "dd1ba612742a466d0efd161f7b1596ba8fe826e21942baaaddda854700f34884"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Google reports its Project Suncatcher prototype satellite ran its Gemma 4 model in orbit and returned a haiku, exploring whether space could host AI computing infrastructure, with AI-chip tests under heat and radiation ahead of interconnected satellites in 2027. This is AI research/engineering work from Google Research, for technical audiences. muse-compile-backfill 2026-11-02: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "cd3db34e781454c5561e7ad6b7314c656dc749e649974d7f2f9b7655666a503d"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-02T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
