@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 935,
-  "updated_at": "2026-11-03T00:32:06.793368+00:00",
+  "generation": 936,
+  "updated_at": "2026-11-03T00:32:07.405038+00:00",
   "next_id": 306,
   "records": [
     {
@@ -34983,6 +34983,18 @@
         ],
         "duplicates": []
       }
+    },
+    "ba0c366029cd219d84b82fb7d35f2a3e11c3c457a990a377a99d5938f033ba20": {
+      "sha256": "e2d0b848c332228ba1caf6510b358f74021a919b2afb2b3fce175fcb500041ad",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 305,
+          "revision": 1,
+          "sha256": "79779a8168e49e11f8870c4547cbeb4b2d0b8e55960ce96f22d10332a5f74a3d"
+        },
+        "editorial_sha256": "4220e0c73dc80eeaed5ca1b97dbe03fc3c853a26ebcc3eb42576cf84e4d09053"
+      }
     }
   },
   "migration": {
@@ -43691,6 +43703,26 @@
         "sha256": "fde00cc6573a3df4266ef4136d4f48514d3e7587d25af88c8e722160c461c0d1",
         "reviewed_at": "2026-11-02T23:50:47.988826+00:00",
         "operation_id": "d1ebf047e6f3e3b8d6ed052e81c47b28a35fbf31523faa096bc046ee466c9640"
+      }
+    ],
+    "305:1": [
+      {
+        "reference": {
+          "id": 305,
+          "revision": 1,
+          "sha256": "79779a8168e49e11f8870c4547cbeb4b2d0b8e55960ce96f22d10332a5f74a3d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer infrastructure: Git backend, push latency, Codex agents",
+            "evidence_sha256": "209d71a7e7407952b78615757bf8d7d9591b25ef3e5a1acc79bfb4c5958ed3e1"
+          }
+        },
+        "sha256": "4220e0c73dc80eeaed5ca1b97dbe03fc3c853a26ebcc3eb42576cf84e4d09053",
+        "reviewed_at": "2026-11-03T00:32:07.405038+00:00",
+        "operation_id": "ba0c366029cd219d84b82fb7d35f2a3e11c3c457a990a377a99d5938f033ba20"
       }
     ]
   }
