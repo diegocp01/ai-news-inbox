@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 967,
-  "updated_at": "2026-11-03T22:21:37.881730+00:00",
+  "generation": 968,
+  "updated_at": "2026-11-03T22:21:38.502476+00:00",
   "next_id": 316,
   "records": [
     {
@@ -36042,6 +36042,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b37e43e6173a6a4879b06288bb022de5432fe28b6e0b8f27705a97efa8c776d6": {
+      "sha256": "41f94edd770535eb027e1c404bf807ece17b020a55fdd947b83b2d9423809b09",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 315,
+          "revision": 1,
+          "sha256": "0ea4e7169c9274f099c3c32c40579ef9bdd7a2022efd3ac5ac2284b99e1f335c"
+        },
+        "editorial_sha256": "dfb78225477323217c07030ec89bae78cbf7ed87bf4e529ad775fc81ceaf92df"
+      }
     }
   },
   "migration": {
@@ -44950,6 +44962,26 @@
         "sha256": "8573d8f68c06e024bc6c9e24dcbef9081877dd07e54c8a4256d0d9ac8ddc3dda",
         "reviewed_at": "2026-11-03T22:21:36.673344+00:00",
         "operation_id": "129b95fbacbbdd010ae40abce777c6a97dcf5b9331332095b0f64960f4b1c84e"
+      }
+    ],
+    "315:1": [
+      {
+        "reference": {
+          "id": 315,
+          "revision": 1,
+          "sha256": "0ea4e7169c9274f099c3c32c40579ef9bdd7a2022efd3ac5ac2284b99e1f335c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer personal-finance voice feature; no ML/dev/API/hardware terms",
+            "evidence_sha256": "5ba72ab61be14b2df5eaf5109ac0186e088663aa72ccdb8926b964defd0d26a1"
+          }
+        },
+        "sha256": "dfb78225477323217c07030ec89bae78cbf7ed87bf4e529ad775fc81ceaf92df",
+        "reviewed_at": "2026-11-03T22:21:38.502476+00:00",
+        "operation_id": "b37e43e6173a6a4879b06288bb022de5432fe28b6e0b8f27705a97efa8c776d6"
       }
     ]
   }
