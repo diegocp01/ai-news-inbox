@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 940,
-  "updated_at": "2026-11-03T12:38:49.835539+00:00",
-  "next_id": 307,
+  "generation": 941,
+  "updated_at": "2026-11-03T12:53:49.435066+00:00",
+  "next_id": 310,
   "records": [
     {
       "id": 1,
@@ -4071,6 +4071,48 @@
           "source": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai/",
           "request_id": "a3d99ca986b4b0d232b04e8b7ec73b4d9456801ab3240357df78a2b8c75002be",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 307,
+      "revisions": [
+        {
+          "created_at": "2026-11-03T12:53:49.435066+00:00",
+          "block": "Title: MIT Researchers Report AI Weight Edits Without Retraining\nURL: https://rikiyat.github.io/blog/weight-space-programming/\nImage URL: https://rikiyat.github.io/images/blog/weight-space-programming.png\nSummary: MIT CSAIL researchers report that OpenAI’s GPT-6 Astra edited Qwen3.5-0.8B’s weights without retraining, reducing repeated reasoning. Under their test settings, its MATH-500 score rose from 7.9% to 48.1%. The authors say the change helped the model finish answers it could already work out; similar edits produced no established math improvement in Gemma 3 270M.",
+          "sha256": "495732e5db906c2d1cf1466d5ea6294aa7e168124204a479b05cc2d8822b1bc6",
+          "source": "rikiyat.github.io",
+          "request_id": "5b1fd683cf4340d1b41bd5a90127601063ac7b54d7853bb2db2c0ee8f841aa60",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 308,
+      "revisions": [
+        {
+          "created_at": "2026-11-03T12:53:49.435066+00:00",
+          "block": "Title: OpenAI Introduces LifeVal to Evaluate Everyday AI Tasks\nURL: https://yourstory.com/ai-story/lifeval-openai-ai-everyday-tasks\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/31Q75V3wFI3n0xK4Nxsog0/f0b03a26cf990bb2254e879dc8678d8b/photo-06.webp?fm=webp&q=90&w=3840\nSummary: OpenAI introduced LifeVal, an evaluation of how well AI handles everyday tasks, including shopping and accessing government services. The company says it selected task areas using U.S. and international time-use studies and a survey of 3,995 people. OpenAI says it has used the evaluation over the past year to track and improve its models.",
+          "sha256": "7ca3f887d7e9656ed1e6564292b8ac59a5997faba0fb9b18fdf37f4757d4bd4a",
+          "source": "yourstory.com",
+          "request_id": "5b1fd683cf4340d1b41bd5a90127601063ac7b54d7853bb2db2c0ee8f841aa60",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "revisions": [
+        {
+          "created_at": "2026-11-03T12:53:49.435066+00:00",
+          "block": "Title: OpenAI Signs Four AI Agreements in Abu Dhabi\nURL: https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/\nImage URL: https://stunning-paradise-bfb7e8fd32.media.strapiapp.com/Open_AI_Announcement_2_5e364e5b59.png\nSummary: OpenAI signed four agreements covering Abu Dhabi’s government, energy and investment sectors, the emirate’s media office said. A food-import pilot converts selected government rules into a format AI can read to assist compliance checks, with officials retaining final decisions. Other agreements involve ADNOC, Mubadala and a five-year Inception42 partnership supporting AI adoption in UAE government, business and education.",
+          "sha256": "e92e805b0209f5dc8be7f68142406b82732d292c6ee418cd5e2ab9ddce76f895",
+          "source": "mediaoffice.abudhabi",
+          "request_id": "5b1fd683cf4340d1b41bd5a90127601063ac7b54d7853bb2db2c0ee8f841aa60",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -8981,14 +9023,32 @@
       ]
     },
     "5b1fd683cf4340d1b41bd5a90127601063ac7b54d7853bb2db2c0ee8f841aa60": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-03T12:38:49.835539+00:00",
       "received_sequence": 278,
       "expected_items": 3,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-03T12:53:49.435066+00:00",
+      "records": [
+        {
+          "id": 307,
+          "revision": 1,
+          "sha256": "495732e5db906c2d1cf1466d5ea6294aa7e168124204a479b05cc2d8822b1bc6"
+        },
+        {
+          "id": 308,
+          "revision": 1,
+          "sha256": "7ca3f887d7e9656ed1e6564292b8ac59a5997faba0fb9b18fdf37f4757d4bd4a"
+        },
+        {
+          "id": 309,
+          "revision": 1,
+          "sha256": "e92e805b0209f5dc8be7f68142406b82732d292c6ee418cd5e2ab9ddce76f895"
+        }
+      ]
     }
   },
   "batches": {
@@ -35075,6 +35135,31 @@
       "result": {
         "status": "received",
         "request_id": "5b1fd683cf4340d1b41bd5a90127601063ac7b54d7853bb2db2c0ee8f841aa60"
+      }
+    },
+    "2d5aa71024bbdee7fc5e1a6101731edbce177b257459d7e69f3f780a71080c0a": {
+      "sha256": "1378741c3f621058e02ed9f551a6065ca66348ef12ebd399fc93ec667c64a9d0",
+      "result": {
+        "status": "finalized",
+        "request_id": "5b1fd683cf4340d1b41bd5a90127601063ac7b54d7853bb2db2c0ee8f841aa60",
+        "records": [
+          {
+            "id": 307,
+            "revision": 1,
+            "sha256": "495732e5db906c2d1cf1466d5ea6294aa7e168124204a479b05cc2d8822b1bc6"
+          },
+          {
+            "id": 308,
+            "revision": 1,
+            "sha256": "7ca3f887d7e9656ed1e6564292b8ac59a5997faba0fb9b18fdf37f4757d4bd4a"
+          },
+          {
+            "id": 309,
+            "revision": 1,
+            "sha256": "e92e805b0209f5dc8be7f68142406b82732d292c6ee418cd5e2ab9ddce76f895"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
