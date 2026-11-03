@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 937,
-  "updated_at": "2026-11-03T03:28:51.375492+00:00",
-  "next_id": 306,
+  "generation": 938,
+  "updated_at": "2026-11-03T03:28:52.224234+00:00",
+  "next_id": 307,
   "records": [
     {
       "id": 1,
@@ -4057,6 +4057,19 @@
           "sha256": "79779a8168e49e11f8870c4547cbeb4b2d0b8e55960ce96f22d10332a5f74a3d",
           "source": "https://x.com/OpenAIDevs/status/2117408792346509663",
           "request_id": "896bfb7c6a926f3e4ff4c355fd7ac3bf467ea97a3fde169ebd2a831691c50662",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 306,
+      "revisions": [
+        {
+          "created_at": "2026-11-03T03:28:52.224234+00:00",
+          "block": "Title: OpenAI Plans Next Security Sprint With Cathedral, Quadruples Critical Bug Bounty Rewards\nURL: https://blockchain.news/ainews/openai-cathedral-systems-launch-security-sprint-boost-bounties\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/3I6XNOAyDMl6T0tummrXmo/b10602bfeb5ca42409706b86011ceacb/preparing-our-next-security-sprint-to-harden-openai-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI says it is planning its next internal security sprint, partnering with Cathedral, whose researchers will use OpenAI's models to probe its defenses. OpenAI is also more than quadrupling Security Bug Bounty rewards for critical findings. It says its last sprint dedicated 25% of product engineers to finding and patching vulnerabilities using Codex.",
+          "sha256": "2f12d5e167698250e4b85d2a5416bda8f676c822ce6fa0b1a66ccea5d00b6331",
+          "source": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai/",
+          "request_id": "a3d99ca986b4b0d232b04e8b7ec73b4d9456801ab3240357df78a2b8c75002be",
           "mode": "standard"
         }
       ]
@@ -8951,13 +8964,21 @@
       ]
     },
     "a3d99ca986b4b0d232b04e8b7ec73b4d9456801ab3240357df78a2b8c75002be": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-03T03:28:51.375492+00:00",
       "received_sequence": 277,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-03T03:28:52.224234+00:00",
+      "records": [
+        {
+          "id": 306,
+          "revision": 1,
+          "sha256": "2f12d5e167698250e4b85d2a5416bda8f676c822ce6fa0b1a66ccea5d00b6331"
+        }
+      ]
     }
   },
   "batches": {
@@ -35010,6 +35031,21 @@
       "result": {
         "status": "received",
         "request_id": "a3d99ca986b4b0d232b04e8b7ec73b4d9456801ab3240357df78a2b8c75002be"
+      }
+    },
+    "b0a9cd02e4b467218df008dd41db569bcfbc5caae75d2d4cbbedff63f8da3004": {
+      "sha256": "449b8f91e831670a8dda3255488c24a3796c26cab00777f065823500206449d2",
+      "result": {
+        "status": "finalized",
+        "request_id": "a3d99ca986b4b0d232b04e8b7ec73b4d9456801ab3240357df78a2b8c75002be",
+        "records": [
+          {
+            "id": 306,
+            "revision": 1,
+            "sha256": "2f12d5e167698250e4b85d2a5416bda8f676c822ce6fa0b1a66ccea5d00b6331"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
