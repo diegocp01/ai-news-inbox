@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 960,
-  "updated_at": "2026-11-03T22:19:05.412965+00:00",
-  "next_id": 313,
+  "generation": 961,
+  "updated_at": "2026-11-03T22:19:06.181318+00:00",
+  "next_id": 314,
   "records": [
     {
       "id": 1,
@@ -4151,6 +4151,19 @@
           "sha256": "a5ecdd42c791bfbac453889fcc558e6501af59269c19ce67765ecbb74b220ecf",
           "source": "https://x.com/claudedevs/status/2117680635561312732",
           "request_id": "682c05a1eed547edb1b191d7b966a9d196fab97580ce386bb2c0d058db93775d",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 313,
+      "revisions": [
+        {
+          "created_at": "2026-11-03T22:19:06.181318+00:00",
+          "block": "Title: Grok Bot Promotes New Shopping Experience for Comparing Deals and Tracking Orders\nURL: https://teslanorth.com/2026/11/02/grok-bot-9-upgrades-shopping/\nImage URL: https://cdn.teslanorth.com/wp-content/uploads/2026/11/featured-1920x1080-10.jpg\nSummary: The Grok Bot account says its new shopping experience helps users find the best deal, compare items and have the Bot track their orders. Per the Grok Bot changelog, version 0.78.1 shows products as cards with photos, rating, price and store, and \"Buy now\" starts an order the user approves. Users can connect Shop Pay in the Vault.",
+          "sha256": "099ddf08698cf7bc136715dc654e85e343970315b967d21dde6af1d3a0c6d6df",
+          "source": "https://x.com/bot/status/2117736249444507834",
+          "request_id": "5a994a2960df267ea4b0354bf4e651106090cb801fe91343a1056b06eeeb5c64",
           "mode": "standard"
         }
       ]
@@ -9141,13 +9154,21 @@
       ]
     },
     "5a994a2960df267ea4b0354bf4e651106090cb801fe91343a1056b06eeeb5c64": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-03T22:19:05.412965+00:00",
       "received_sequence": 282,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-03T22:19:06.181318+00:00",
+      "records": [
+        {
+          "id": 313,
+          "revision": 1,
+          "sha256": "099ddf08698cf7bc136715dc654e85e343970315b967d21dde6af1d3a0c6d6df"
+        }
+      ]
     }
   },
   "batches": {
@@ -35877,6 +35898,21 @@
       "result": {
         "status": "received",
         "request_id": "5a994a2960df267ea4b0354bf4e651106090cb801fe91343a1056b06eeeb5c64"
+      }
+    },
+    "37886a2d1fa756e95f61859af8668cdc0f04e6a45580b67420f3fda29426a769": {
+      "sha256": "abce4c72ec1db35cefa6f13eed79619a481f184c2df1fe6edc1c3f3ae83ae60c",
+      "result": {
+        "status": "finalized",
+        "request_id": "5a994a2960df267ea4b0354bf4e651106090cb801fe91343a1056b06eeeb5c64",
+        "records": [
+          {
+            "id": 313,
+            "revision": 1,
+            "sha256": "099ddf08698cf7bc136715dc654e85e343970315b967d21dde6af1d3a0c6d6df"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
