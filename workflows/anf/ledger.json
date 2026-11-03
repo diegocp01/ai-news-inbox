@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 963,
-  "updated_at": "2026-11-03T22:21:35.382876+00:00",
-  "next_id": 314,
+  "generation": 964,
+  "updated_at": "2026-11-03T22:21:36.004082+00:00",
+  "next_id": 315,
   "records": [
     {
       "id": 1,
@@ -4164,6 +4164,19 @@
           "sha256": "099ddf08698cf7bc136715dc654e85e343970315b967d21dde6af1d3a0c6d6df",
           "source": "https://x.com/bot/status/2117736249444507834",
           "request_id": "5a994a2960df267ea4b0354bf4e651106090cb801fe91343a1056b06eeeb5c64",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 314,
+      "revisions": [
+        {
+          "created_at": "2026-11-03T22:21:36.004082+00:00",
+          "block": "Title: Anthropic Shares Progress on Provable LLM Inference With FlashProve zkSNARK System\nURL: https://www.anthropic.com/research/provable-inference\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg\nSummary: Anthropic's Frontier Red Team says Claude helped build FlashProve, a zkSNARK system that proves a response came from a committed model while hiding its weights. Anthropic reports one H100 proves Llama 4 Maverick inference at about 110 tokens per second, roughly 70-95x vLLM's GPU time. It released code, a technical report and Lean proofs under Apache 2.0.",
+          "sha256": "7e039c6ecdd658bb2c0c8ecb2b9e4bdd0f7e7988de617d9ed8571ebd3e14f985",
+          "source": "https://www.anthropic.com/research/provable-inference",
+          "request_id": "5a76bbfc4365ff5774f1f4001ba34abe7b484fb7de2f220770e181ef4b88ab36",
           "mode": "standard"
         }
       ]
@@ -9171,13 +9184,21 @@
       ]
     },
     "5a76bbfc4365ff5774f1f4001ba34abe7b484fb7de2f220770e181ef4b88ab36": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-03T22:21:35.382876+00:00",
       "received_sequence": 283,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-03T22:21:36.004082+00:00",
+      "records": [
+        {
+          "id": 314,
+          "revision": 1,
+          "sha256": "7e039c6ecdd658bb2c0c8ecb2b9e4bdd0f7e7988de617d9ed8571ebd3e14f985"
+        }
+      ]
     }
   },
   "batches": {
@@ -35941,6 +35962,21 @@
       "result": {
         "status": "received",
         "request_id": "5a76bbfc4365ff5774f1f4001ba34abe7b484fb7de2f220770e181ef4b88ab36"
+      }
+    },
+    "bd9ae7deeb0130319ff6339cd9fcc09d45f5ff25886ad71cecf6070bc6b4df3c": {
+      "sha256": "9913226666108b1b7fd097bff43f42252f742e4d11659f30db7b254944e8767b",
+      "result": {
+        "status": "finalized",
+        "request_id": "5a76bbfc4365ff5774f1f4001ba34abe7b484fb7de2f220770e181ef4b88ab36",
+        "records": [
+          {
+            "id": 314,
+            "revision": 1,
+            "sha256": "7e039c6ecdd658bb2c0c8ecb2b9e4bdd0f7e7988de617d9ed8571ebd3e14f985"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
