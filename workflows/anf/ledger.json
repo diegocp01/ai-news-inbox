@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 943,
-  "updated_at": "2026-11-03T12:58:50.657596+00:00",
+  "generation": 944,
+  "updated_at": "2026-11-03T12:58:51.334897+00:00",
   "next_id": 311,
   "records": [
     {
@@ -35213,6 +35213,18 @@
         ],
         "duplicates": []
       }
+    },
+    "289b894c1195237757298d9ffa39c634bca2de084ab8f82f666e7c295d921a52": {
+      "sha256": "4bc385423369c29512a7b909bb97d178feb100fbc3e4487b9c4fafaf4c2dae91",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 310,
+          "revision": 1,
+          "sha256": "4c06f5f11442c97d5bc3d72f05a6371370191f4ec3a87d2492447cdb6f1c00f7"
+        },
+        "editorial_sha256": "48c6af5b7a7fb656a4247d9e80c92240ba8a824a97974eb59c043fb521c23f1a"
+      }
     }
   },
   "migration": {
@@ -43961,6 +43973,26 @@
         "sha256": "a5be152aabb78f182e33e4a686f408561bfc9af06f3f2830071a04f95ca3b8bb",
         "reviewed_at": "2026-11-03T03:28:52.958041+00:00",
         "operation_id": "9f3243fce3750c723c70bda96d614f9d41ed6989e7f728a6dbd4a9e3756f0942"
+      }
+    ],
+    "310:1": [
+      {
+        "reference": {
+          "id": 310,
+          "revision": 1,
+          "sha256": "4c06f5f11442c97d5bc3d72f05a6371370191f4ec3a87d2492447cdb6f1c00f7"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Acoustic geolocation/privacy demo; no ML/dev/API/hardware terms",
+            "evidence_sha256": "0b4f0fa4f8b1882710d1e1d9345f2755580c280184f48b4badf8f60f30088b12"
+          }
+        },
+        "sha256": "48c6af5b7a7fb656a4247d9e80c92240ba8a824a97974eb59c043fb521c23f1a",
+        "reviewed_at": "2026-11-03T12:58:51.334897+00:00",
+        "operation_id": "289b894c1195237757298d9ffa39c634bca2de084ab8f82f666e7c295d921a52"
       }
     ]
   }
