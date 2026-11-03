@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 961,
-  "updated_at": "2026-11-03T22:19:06.181318+00:00",
+  "generation": 962,
+  "updated_at": "2026-11-03T22:19:06.805530+00:00",
   "next_id": 314,
   "records": [
     {
@@ -35914,6 +35914,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2c5acbaf0b9753b39d97985410aa8e62909285ccd2466ed3401b39541bc6680b": {
+      "sha256": "5f180918d2b1c827d2b32437ee8cd76d12bf29df3447b8402c0659b48b713f20",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 313,
+          "revision": 1,
+          "sha256": "099ddf08698cf7bc136715dc654e85e343970315b967d21dde6af1d3a0c6d6df"
+        },
+        "editorial_sha256": "c511e493eedbccde4b7a18e890a61f01543df78544f3129fbd7ba74a5e7f0964"
+      }
     }
   },
   "migration": {
@@ -44782,6 +44794,26 @@
         "sha256": "5eb8486e3e9f0c94634e769b147773efa9f62d4d8f0566a3fd66d9e6a6b39f6c",
         "reviewed_at": "2026-11-03T21:32:52.537074+00:00",
         "operation_id": "671f28c718d2e677b4f7d67f412f0d15a93278011c28ae3fa6c56127ad2a5c68"
+      }
+    ],
+    "313:1": [
+      {
+        "reference": {
+          "id": 313,
+          "revision": 1,
+          "sha256": "099ddf08698cf7bc136715dc654e85e343970315b967d21dde6af1d3a0c6d6df"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer shopping feature; no ML/dev/API/hardware terms",
+            "evidence_sha256": "534a367c038ab7fbef8f101501893141da900639033be824150f435e6c49d90b"
+          }
+        },
+        "sha256": "c511e493eedbccde4b7a18e890a61f01543df78544f3129fbd7ba74a5e7f0964",
+        "reviewed_at": "2026-11-03T22:19:06.805530+00:00",
+        "operation_id": "2c5acbaf0b9753b39d97985410aa8e62909285ccd2466ed3401b39541bc6680b"
       }
     ]
   }
