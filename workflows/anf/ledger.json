@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 953,
-  "updated_at": "2026-11-03T14:42:05.060495+00:00",
-  "next_id": 311,
+  "generation": 954,
+  "updated_at": "2026-11-03T14:42:05.718142+00:00",
+  "next_id": 312,
   "records": [
     {
       "id": 1,
@@ -4125,6 +4125,19 @@
           "sha256": "4c06f5f11442c97d5bc3d72f05a6371370191f4ec3a87d2492447cdb6f1c00f7",
           "source": "https://x.com/0x45o/status/2117332304880169152",
           "request_id": "8bb22a3fcfbbee8fc426804970f80e0a622fdc1a7e6d2e4a5399be2a420207a4",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 311,
+      "revisions": [
+        {
+          "created_at": "2026-11-03T14:42:05.718142+00:00",
+          "block": "Title: OpenAI Is Expanding the Models Behind ChatGPT Dots to Include GPT-6.1 Terra\nURL: https://www.androidauthority.com/openai-chatgpt-dots-update-3731008/\nImage URL: https://www.androidauthority.com/wp-content/uploads/2026/09/ChatGPT-Dots.jpg\nSummary: Thibault Sottiaux, who works on Codex and ChatGPT at OpenAI, says OpenAI is expanding the frontier models powering dots, its always-on ChatGPT agents, to include GPT-6 Astra, GPT-6.1 Terra and others later. He says Terra brings speed and a personality upgrade and will help bring dots to more people, and each dot will pick the best model per task.",
+          "sha256": "3cd1c992416ce3eeeffe9c1a21fee66340581694419e7200c5c873dbef775bd7",
+          "source": "https://x.com/thsottiaux/status/2117283124833055196",
+          "request_id": "85fe61584659241cf3fb31f74a783bc5778a6a3c5463225272a461730d47187b",
           "mode": "standard"
         }
       ]
@@ -9081,13 +9094,21 @@
       ]
     },
     "85fe61584659241cf3fb31f74a783bc5778a6a3c5463225272a461730d47187b": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-03T14:42:05.060495+00:00",
       "received_sequence": 280,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-03T14:42:05.718142+00:00",
+      "records": [
+        {
+          "id": 311,
+          "revision": 1,
+          "sha256": "3cd1c992416ce3eeeffe9c1a21fee66340581694419e7200c5c873dbef775bd7"
+        }
+      ]
     }
   },
   "batches": {
@@ -35707,6 +35728,21 @@
       "result": {
         "status": "received",
         "request_id": "85fe61584659241cf3fb31f74a783bc5778a6a3c5463225272a461730d47187b"
+      }
+    },
+    "50050ac85ff30a1eb96cf5d78d53f0e27fb115250a62d63b87cb8038ec423f0d": {
+      "sha256": "11f2f1f9d7b121e55a03edaea8b93496bbcda44c34c363b3330ab9c3fffd5317",
+      "result": {
+        "status": "finalized",
+        "request_id": "85fe61584659241cf3fb31f74a783bc5778a6a3c5463225272a461730d47187b",
+        "records": [
+          {
+            "id": 311,
+            "revision": 1,
+            "sha256": "3cd1c992416ce3eeeffe9c1a21fee66340581694419e7200c5c873dbef775bd7"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
