@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 938,
-  "updated_at": "2026-11-03T03:28:52.224234+00:00",
+  "generation": 939,
+  "updated_at": "2026-11-03T03:28:52.958041+00:00",
   "next_id": 307,
   "records": [
     {
@@ -35047,6 +35047,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9f3243fce3750c723c70bda96d614f9d41ed6989e7f728a6dbd4a9e3756f0942": {
+      "sha256": "b7e9f20393d0fd2e0cc9b1f275607435b0421cfb047de4d42604363c17a34cff",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 306,
+          "revision": 1,
+          "sha256": "2f12d5e167698250e4b85d2a5416bda8f676c822ce6fa0b1a66ccea5d00b6331"
+        },
+        "editorial_sha256": "a5be152aabb78f182e33e4a686f408561bfc9af06f3f2830071a04f95ca3b8bb"
+      }
     }
   },
   "migration": {
@@ -43775,6 +43787,26 @@
         "sha256": "4220e0c73dc80eeaed5ca1b97dbe03fc3c853a26ebcc3eb42576cf84e4d09053",
         "reviewed_at": "2026-11-03T00:32:07.405038+00:00",
         "operation_id": "ba0c366029cd219d84b82fb7d35f2a3e11c3c457a990a377a99d5938f033ba20"
+      }
+    ],
+    "306:1": [
+      {
+        "reference": {
+          "id": 306,
+          "revision": 1,
+          "sha256": "2f12d5e167698250e4b85d2a5416bda8f676c822ce6fa0b1a66ccea5d00b6331"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Security: vulnerabilities, bug bounty, patches with Codex",
+            "evidence_sha256": "cbf1b0d3bf84d699d83b0de2354cd4f2f3886a5921204717f3491cefea5d8d40"
+          }
+        },
+        "sha256": "a5be152aabb78f182e33e4a686f408561bfc9af06f3f2830071a04f95ca3b8bb",
+        "reviewed_at": "2026-11-03T03:28:52.958041+00:00",
+        "operation_id": "9f3243fce3750c723c70bda96d614f9d41ed6989e7f728a6dbd4a9e3756f0942"
       }
     ]
   }
