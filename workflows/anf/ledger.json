@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 964,
-  "updated_at": "2026-11-03T22:21:36.004082+00:00",
+  "generation": 965,
+  "updated_at": "2026-11-03T22:21:36.673344+00:00",
   "next_id": 315,
   "records": [
     {
@@ -35978,6 +35978,18 @@
         ],
         "duplicates": []
       }
+    },
+    "129b95fbacbbdd010ae40abce777c6a97dcf5b9331332095b0f64960f4b1c84e": {
+      "sha256": "33f1992224f1bc112b7fbe6f633f42e24b05e61d6b1c0a4aa625dd511eff63ed",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 314,
+          "revision": 1,
+          "sha256": "7e039c6ecdd658bb2c0c8ecb2b9e4bdd0f7e7988de617d9ed8571ebd3e14f985"
+        },
+        "editorial_sha256": "8573d8f68c06e024bc6c9e24dcbef9081877dd07e54c8a4256d0d9ac8ddc3dda"
+      }
     }
   },
   "migration": {
@@ -44866,6 +44878,26 @@
         "sha256": "c511e493eedbccde4b7a18e890a61f01543df78544f3129fbd7ba74a5e7f0964",
         "reviewed_at": "2026-11-03T22:19:06.805530+00:00",
         "operation_id": "2c5acbaf0b9753b39d97985410aa8e62909285ccd2466ed3401b39541bc6680b"
+      }
+    ],
+    "314:1": [
+      {
+        "reference": {
+          "id": 314,
+          "revision": 1,
+          "sha256": "7e039c6ecdd658bb2c0c8ecb2b9e4bdd0f7e7988de617d9ed8571ebd3e14f985"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Cryptographic proofs of ML inference; H100, tokens/sec, vLLM",
+            "evidence_sha256": "2c38cea38aa3ea20bd6e16f6c41afe5313f888e74c2d2c0a95988a5a123ca680"
+          }
+        },
+        "sha256": "8573d8f68c06e024bc6c9e24dcbef9081877dd07e54c8a4256d0d9ac8ddc3dda",
+        "reviewed_at": "2026-11-03T22:21:36.673344+00:00",
+        "operation_id": "129b95fbacbbdd010ae40abce777c6a97dcf5b9331332095b0f64960f4b1c84e"
       }
     ]
   }
