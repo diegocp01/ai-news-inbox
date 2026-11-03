@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 949,
-  "updated_at": "2026-11-03T13:45:04.676698+00:00",
+  "generation": 950,
+  "updated_at": "2026-11-03T14:37:33.471522+00:00",
   "next_id": 311,
   "records": [
     {
@@ -16890,9 +16890,165 @@
       },
       "acknowledged_at": "2026-11-03T13:45:04.676698+00:00",
       "checkpoint_after": 300
+    },
+    "5af5cda324ea442dbe073c1f": {
+      "batch_id": "5af5cda324ea442dbe073c1f",
+      "status": "prepared",
+      "checkpoint_before": 300,
+      "prepared_at": "2026-11-03T14:37:33.471522+00:00",
+      "intake_cutoff": 279,
+      "records": [
+        {
+          "id": 301,
+          "revision": 1,
+          "sha256": "b32e33a3dd7bb2988f03de44bb7feebe3685a019694b57b8d70a65018ff7809c"
+        },
+        {
+          "id": 302,
+          "revision": 1,
+          "sha256": "27b8477f3b411650cb0bf8e949559c018dd16d768547074711a0629bb809f2fa"
+        },
+        {
+          "id": 303,
+          "revision": 1,
+          "sha256": "9d79fad58407d6b3ee1480e50b258b20109497889460ffc67b11599fec03f275"
+        },
+        {
+          "id": 304,
+          "revision": 1,
+          "sha256": "9c38a7601cdcef39ad259a1a1a460b3e00c95fd740a5b6de5a98910e3998b47b"
+        },
+        {
+          "id": 305,
+          "revision": 1,
+          "sha256": "79779a8168e49e11f8870c4547cbeb4b2d0b8e55960ce96f22d10332a5f74a3d"
+        },
+        {
+          "id": 306,
+          "revision": 1,
+          "sha256": "2f12d5e167698250e4b85d2a5416bda8f676c822ce6fa0b1a66ccea5d00b6331"
+        },
+        {
+          "id": 307,
+          "revision": 1,
+          "sha256": "495732e5db906c2d1cf1466d5ea6294aa7e168124204a479b05cc2d8822b1bc6"
+        },
+        {
+          "id": 308,
+          "revision": 1,
+          "sha256": "7ca3f887d7e9656ed1e6564292b8ac59a5997faba0fb9b18fdf37f4757d4bd4a"
+        },
+        {
+          "id": 309,
+          "revision": 1,
+          "sha256": "e92e805b0209f5dc8be7f68142406b82732d292c6ee418cd5e2ab9ddce76f895"
+        },
+        {
+          "id": 310,
+          "revision": 1,
+          "sha256": "4c06f5f11442c97d5bc3d72f05a6371370191f4ec3a87d2492447cdb6f1c00f7"
+        }
+      ],
+      "first_id": 301,
+      "last_id": 310,
+      "count": 10,
+      "txt_path": "workflows/anf/batches/5af5cda324ea442dbe073c1f.txt",
+      "json_path": "workflows/anf/batches/5af5cda324ea442dbe073c1f.json",
+      "txt_sha256": "70c22e719e0870a03daa5903c170550c610c06c519642aa857214ef77e722983",
+      "json_sha256": "bbe48839e450eb5155e30efd2ce0f14119e206ce9cdeee5f1853c0c5e09b93d0",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML research on LLMs editing neural network weights",
+            "evidence_sha256": "e909d01cd3fa5c0fdfb436d1a32dd1cff0bfb9804b7e02b3a787b6d479e8fd96"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer API feature (Messages API threads)",
+            "evidence_sha256": "d1e6102e2042d5003701a859fcd9ddbd4b8c2dbf6f5ccdc9fc8c4d5b5d8c1a71"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer-facing everyday-task evaluation; no ML/dev/API terms; general when unsure",
+            "evidence_sha256": "5798038c27cfe8bfd191811017214d861e4f91ff7a7979468f5777f2742bcd40"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "ML research on LLMs editing neural network weights; gradient training, MATH-500",
+            "evidence_sha256": "77e5313d082b89672ba1ea8c7a44de8922ae15a63de65aede0735b9edd8d6bec"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer infrastructure: Git backend, push latency, Codex agents",
+            "evidence_sha256": "209d71a7e7407952b78615757bf8d7d9591b25ef3e5a1acc79bfb4c5958ed3e1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Security: vulnerabilities, bug bounty, patches with Codex",
+            "evidence_sha256": "cbf1b0d3bf84d699d83b0de2354cd4f2f3886a5921204717f3491cefea5d8d40"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "MIT CSAIL researchers report OpenAI's GPT-6 Astra edited Qwen3.5-0.8B's weights without retraining, lifting its MATH-500 score from 7.9% to 48.1% under their test settings, with no established math improvement in Gemma 3 270M. This is AI research on weight-space editing, for technical audiences. muse-compile-backfill 2026-11-03: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "495732e5db906c2d1cf1466d5ea6294aa7e168124204a479b05cc2d8822b1bc6"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "OpenAI introduced LifeVal, an evaluation of how well AI handles everyday tasks including shopping and accessing government services, built from time-use studies and a survey of 3,995 people. This is consumer-facing everyday-task news for a broad audience, not technical research. muse-compile-backfill 2026-11-03: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "7ca3f887d7e9656ed1e6564292b8ac59a5997faba0fb9b18fdf37f4757d4bd4a"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "OpenAI signed four agreements covering Abu Dhabi's government, energy and investment sectors, including a food-import compliance pilot and a five-year Inception42 partnership. This is policy and business news for a broad audience, not technical research. muse-compile-backfill 2026-11-03: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e92e805b0209f5dc8be7f68142406b82732d292c6ee418cd5e2ab9ddce76f895"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Acoustic geolocation/privacy demo; no ML/dev/API/hardware terms",
+            "evidence_sha256": "0b4f0fa4f8b1882710d1e1d9345f2755580c280184f48b4badf8f60f30088b12"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-03T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "5af5cda324ea442dbe073c1f",
   "replacement_batch": null,
   "checkpoint": 300,
   "checkpoint_history": [
@@ -35335,6 +35491,169 @@
         "checkpoint": 300,
         "batch_id": "91770623912a6dae19abb464",
         "native_receipt_verified": false
+      }
+    },
+    "bernard_prepare_20261103_301_310": {
+      "sha256": "f40d92f8e707d5f85b6b2b9c1c9db74c0d4d3d2882f47b55fa91e165528b8e63",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "5af5cda324ea442dbe073c1f",
+          "status": "prepared",
+          "checkpoint_before": 300,
+          "prepared_at": "2026-11-03T14:37:33.471522+00:00",
+          "intake_cutoff": 279,
+          "records": [
+            {
+              "id": 301,
+              "revision": 1,
+              "sha256": "b32e33a3dd7bb2988f03de44bb7feebe3685a019694b57b8d70a65018ff7809c"
+            },
+            {
+              "id": 302,
+              "revision": 1,
+              "sha256": "27b8477f3b411650cb0bf8e949559c018dd16d768547074711a0629bb809f2fa"
+            },
+            {
+              "id": 303,
+              "revision": 1,
+              "sha256": "9d79fad58407d6b3ee1480e50b258b20109497889460ffc67b11599fec03f275"
+            },
+            {
+              "id": 304,
+              "revision": 1,
+              "sha256": "9c38a7601cdcef39ad259a1a1a460b3e00c95fd740a5b6de5a98910e3998b47b"
+            },
+            {
+              "id": 305,
+              "revision": 1,
+              "sha256": "79779a8168e49e11f8870c4547cbeb4b2d0b8e55960ce96f22d10332a5f74a3d"
+            },
+            {
+              "id": 306,
+              "revision": 1,
+              "sha256": "2f12d5e167698250e4b85d2a5416bda8f676c822ce6fa0b1a66ccea5d00b6331"
+            },
+            {
+              "id": 307,
+              "revision": 1,
+              "sha256": "495732e5db906c2d1cf1466d5ea6294aa7e168124204a479b05cc2d8822b1bc6"
+            },
+            {
+              "id": 308,
+              "revision": 1,
+              "sha256": "7ca3f887d7e9656ed1e6564292b8ac59a5997faba0fb9b18fdf37f4757d4bd4a"
+            },
+            {
+              "id": 309,
+              "revision": 1,
+              "sha256": "e92e805b0209f5dc8be7f68142406b82732d292c6ee418cd5e2ab9ddce76f895"
+            },
+            {
+              "id": 310,
+              "revision": 1,
+              "sha256": "4c06f5f11442c97d5bc3d72f05a6371370191f4ec3a87d2492447cdb6f1c00f7"
+            }
+          ],
+          "first_id": 301,
+          "last_id": 310,
+          "count": 10,
+          "txt_path": "workflows/anf/batches/5af5cda324ea442dbe073c1f.txt",
+          "json_path": "workflows/anf/batches/5af5cda324ea442dbe073c1f.json",
+          "txt_sha256": "70c22e719e0870a03daa5903c170550c610c06c519642aa857214ef77e722983",
+          "json_sha256": "bbe48839e450eb5155e30efd2ce0f14119e206ce9cdeee5f1853c0c5e09b93d0",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "ML research on LLMs editing neural network weights",
+                "evidence_sha256": "e909d01cd3fa5c0fdfb436d1a32dd1cff0bfb9804b7e02b3a787b6d479e8fd96"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Developer API feature (Messages API threads)",
+                "evidence_sha256": "d1e6102e2042d5003701a859fcd9ddbd4b8c2dbf6f5ccdc9fc8c4d5b5d8c1a71"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer-facing everyday-task evaluation; no ML/dev/API terms; general when unsure",
+                "evidence_sha256": "5798038c27cfe8bfd191811017214d861e4f91ff7a7979468f5777f2742bcd40"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "ML research on LLMs editing neural network weights; gradient training, MATH-500",
+                "evidence_sha256": "77e5313d082b89672ba1ea8c7a44de8922ae15a63de65aede0735b9edd8d6bec"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Developer infrastructure: Git backend, push latency, Codex agents",
+                "evidence_sha256": "209d71a7e7407952b78615757bf8d7d9591b25ef3e5a1acc79bfb4c5958ed3e1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Security: vulnerabilities, bug bounty, patches with Codex",
+                "evidence_sha256": "cbf1b0d3bf84d699d83b0de2354cd4f2f3886a5921204717f3491cefea5d8d40"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "MIT CSAIL researchers report OpenAI's GPT-6 Astra edited Qwen3.5-0.8B's weights without retraining, lifting its MATH-500 score from 7.9% to 48.1% under their test settings, with no established math improvement in Gemma 3 270M. This is AI research on weight-space editing, for technical audiences. muse-compile-backfill 2026-11-03: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "495732e5db906c2d1cf1466d5ea6294aa7e168124204a479b05cc2d8822b1bc6"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "OpenAI introduced LifeVal, an evaluation of how well AI handles everyday tasks including shopping and accessing government services, built from time-use studies and a survey of 3,995 people. This is consumer-facing everyday-task news for a broad audience, not technical research. muse-compile-backfill 2026-11-03: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "7ca3f887d7e9656ed1e6564292b8ac59a5997faba0fb9b18fdf37f4757d4bd4a"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "OpenAI signed four agreements covering Abu Dhabi's government, energy and investment sectors, including a food-import compliance pilot and a five-year Inception42 partnership. This is policy and business news for a broad audience, not technical research. muse-compile-backfill 2026-11-03: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "e92e805b0209f5dc8be7f68142406b82732d292c6ee418cd5e2ab9ddce76f895"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Acoustic geolocation/privacy demo; no ML/dev/API/hardware terms",
+                "evidence_sha256": "0b4f0fa4f8b1882710d1e1d9345f2755580c280184f48b4badf8f60f30088b12"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-03T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },

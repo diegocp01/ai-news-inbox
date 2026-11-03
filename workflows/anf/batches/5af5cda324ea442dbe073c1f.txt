@@ -1,0 +1,61 @@
+Title: MIT CSAIL Researchers Report LLMs Can Directly Read and Edit Neural Network Weights
+URL: https://rikiyat.github.io/blog/weight-space-programming/
+Image URL: https://rikiyat.github.io/images/blog/weight-space-programming.png
+Summary: MIT CSAIL researchers including Omar Khattab report early results that GPT-6 Astra can read raw neural network weights to tell what a network was trained for, and edit weights without gradient training. They say editing 0.016% of Qwen3.5-0.8B's weights raised its MATH-500 score from 7.9% to 48.1%. They call this "Weight-Space Programming."
+ds: true
+
+Title: Anthropic Launches Message Threads in Public Beta on Claude's Messages API
+URL: https://claude.com/resources/articles/message-threads
+Image URL: https://claude.com/resources/articles/message-threads/opengraph-image/og
+Summary: Anthropic says message threads are in public beta on the Messages API: after a first request, developers send only new messages plus the previous response's ID, and the API holds the conversation between turns. Anthropic says this cuts time to first token, with median latency down about 35% for 500k-1M-token Claude Code requests; token usage is unchanged.
+ds: true
+
+Title: OpenAI Unveils LifeVal to Measure How Well ChatGPT Handles Everyday Tasks
+URL: https://runtimewire.com/article/openai-lifeval-chatgpt-everyday-tasks-benchmark
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/3Iad2h8cMUadlldiZqbsAo/69264040a908479aa8843b590b0015b5/lifeval-social-crayon.png?w=1600&h=900&fit=fill
+Summary: OpenAI introduced LifeVal, an evaluation of how well its AI handles everyday tasks like finding childcare, budgeting, ordering groceries and accessing government services. OpenAI says tasks were drawn from time-use studies plus a new survey of 3,995 people, and that it used LifeVal over the past year to track and improve performance.
+
+Title: Researchers Say Frontier LLMs Can Natively Read and Write Neural Network Weights
+URL: https://rikiyat.github.io/blog/weight-space-programming/
+Image URL: https://rikiyat.github.io/images/blog/weight-space-programming.png
+Summary: MIT CSAIL researchers report that GPT-6 Astra can read raw neural network weights to identify what a network was trained on, and edit weights without gradient training, lifting Qwen3.5-0.8B's MATH-500 score from 7.9% to 48.1%. Researcher Alex Krentsel says he reproduced the results and calls it a step-change capability emerging only in the latest models.
+ds: true
+
+Title: OpenAI Builds Pando, a New Git Backend for Its Agent-Heavy Monorepo
+URL: https://thenewstack.io/openai-pando-git-backend/
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/CMZECnCACxZO52Dqy7SnB/d7451310a4c165a396517dc7387b9b71/scaling-git-at-openai-seo-card.png?w=1600&h=900&fit=fill
+Summary: OpenAI says it built Pando, a new Git-compatible backend for its monorepo, to handle surging pushes and fetches from engineers and Codex agents. OpenAI says Pando cut median push latency by nearly 80%, serves nearly a petabyte of Git data daily, and was built with Codex in 10 weeks; it is contributing related fixes upstream to Git.
+ds: true
+
+Title: OpenAI Plans Next Security Sprint With Cathedral, Quadruples Critical Bug Bounty Rewards
+URL: https://blockchain.news/ainews/openai-cathedral-systems-launch-security-sprint-boost-bounties
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/3I6XNOAyDMl6T0tummrXmo/b10602bfeb5ca42409706b86011ceacb/preparing-our-next-security-sprint-to-harden-openai-social.png?w=1600&h=900&fit=fill
+Summary: OpenAI says it is planning its next internal security sprint, partnering with Cathedral, whose researchers will use OpenAI's models to probe its defenses. OpenAI is also more than quadrupling Security Bug Bounty rewards for critical findings. It says its last sprint dedicated 25% of product engineers to finding and patching vulnerabilities using Codex.
+ds: true
+
+Title: MIT Researchers Report AI Weight Edits Without Retraining
+URL: https://rikiyat.github.io/blog/weight-space-programming/
+Image URL: https://rikiyat.github.io/images/blog/weight-space-programming.png
+Summary: MIT CSAIL researchers report that OpenAI’s GPT-6 Astra edited Qwen3.5-0.8B’s weights without retraining, reducing repeated reasoning. Under their test settings, its MATH-500 score rose from 7.9% to 48.1%. The authors say the change helped the model finish answers it could already work out; similar edits produced no established math improvement in Gemma 3 270M.
+ds: true
+
+Title: OpenAI Introduces LifeVal to Evaluate Everyday AI Tasks
+URL: https://yourstory.com/ai-story/lifeval-openai-ai-everyday-tasks
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/31Q75V3wFI3n0xK4Nxsog0/f0b03a26cf990bb2254e879dc8678d8b/photo-06.webp?fm=webp&q=90&w=3840
+Summary: OpenAI introduced LifeVal, an evaluation of how well AI handles everyday tasks, including shopping and accessing government services. The company says it selected task areas using U.S. and international time-use studies and a survey of 3,995 people. OpenAI says it has used the evaluation over the past year to track and improve its models.
+
+Title: OpenAI Signs Four AI Agreements in Abu Dhabi
+URL: https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/
+Image URL: https://stunning-paradise-bfb7e8fd32.media.strapiapp.com/Open_AI_Announcement_2_5e364e5b59.png
+Summary: OpenAI signed four agreements covering Abu Dhabi’s government, energy and investment sectors, the emirate’s media office said. A food-import pilot converts selected government rules into a format AI can read to assist compliance checks, with officials retaining final decisions. Other agreements involve ADNOC, Mubadala and a five-year Inception42 partnership supporting AI adoption in UAE government, business and education.
+
+Title: YouTuber Shows Inaudible Airplane Sounds Can Reveal Where a Video Was Filmed
+URL: https://www.ibtimes.co.uk/inaudible-aircraft-sounds-reveal-recording-location-1829800
+Image URL: https://d.ibtimes.co.uk/en/full/1841373/doppler-effect.jpg
+Summary: YouTuber colsto says faint Doppler curves from passing aircraft, inaudible but visible in a recording's spectrogram, can be matched against public ADS-B flight-tracking data to pinpoint where a video was filmed. In a demonstration reported by IBTimes UK, he geolocated a video knowing only its date and that it was shot in the continental US.
+
+
+
+
+
+.
