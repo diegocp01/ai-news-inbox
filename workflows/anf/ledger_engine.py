@@ -376,6 +376,44 @@ def validate_cancellation_operation(op):
     sha(op["expected_request_sha256"], "expected request hash")
 
 
+def validate_owner_confirmation(op):
+    """Authenticated bridge must verify the actual owner's explicit confirmation.
+
+    Hashes bind private evidence; they do not authenticate it. This operation is
+    deliberately not exposed by the issue executor or automatic delivery code.
+    """
+    require(isinstance(op, dict) and set(op) == {
+        "kind", "operation_id", "at", "batch_id", "attempt_id",
+        "expected_batch_sha256", "confirmation_at", "authorization_sha256",
+        "confirmed_content_sha256", "reason_code"}, "Invalid owner confirmation shape")
+    require(op["kind"] == "confirm_owner_delivery" and
+            op["reason_code"] == "explicit_owner_confirmed_receipt", "Invalid confirmation reason")
+    for key in ("operation_id", "batch_id", "attempt_id"):
+        opaque(op[key])
+    for key in ("expected_batch_sha256", "authorization_sha256", "confirmed_content_sha256"):
+        sha(op[key])
+        require(op[key] != "0" * 64, "Placeholder evidence is not valid")
+    require(datetime.fromisoformat(timestamp(op["confirmation_at"])) <=
+            datetime.fromisoformat(timestamp(op["at"])), "Confirmation is in the future")
+
+
+def advance_delivered_checkpoint(state, batch, now, evidence, kind):
+    checkpoint_after = state["checkpoint"]
+    delivered = delivered_ids(state)
+    for record in state["records"]:
+        if record["id"] <= checkpoint_after:
+            continue
+        if record["id"] not in delivered:
+            break
+        checkpoint_after = record["id"]
+    if batch.get("format_version", 1) == 2:
+        batch["checkpoint_after"] = checkpoint_after
+    state["checkpoint_history"].append({"kind": kind, "before": state["checkpoint"],
+        "checkpoint": checkpoint_after, "at": now, "batch_id": batch["batch_id"], **evidence})
+    state["checkpoint"] = checkpoint_after
+    state["pending_batch_id"] = None
+
+
 def verify_state(state, files):
     require(state.get("schema") == SCHEMA, "Unsupported ledger schema")
     if state.get("updated_at") is not None:
@@ -489,7 +527,7 @@ def verify_state(state, files):
                                              "records": batch["records"]}))[:24], "Batch identity mismatch")
         delivery = batch.get("delivery")
         require(isinstance(delivery, dict) and delivery.get("status") in {
-            "not_started", "in_flight", "uncertain", "failed", "accepted"}
+            "not_started", "in_flight", "uncertain", "failed", "accepted", "owner_confirmed"}
             and isinstance(delivery.get("attempts"), list), "Invalid delivery state")
         if delivery["attempts"]:
             require(delivery["attempts"][-1].get("status") == delivery["status"], "Delivery attempt/state mismatch")
@@ -499,10 +537,10 @@ def verify_state(state, files):
                 opaque(attempt.get("attempt_id"), "attempt ID")
                 timestamp(attempt.get("started_at"))
                 sha(attempt.get("target_sha256"))
-                require(attempt.get("status") in {"in_flight", "uncertain", "failed", "accepted"}, "Invalid attempt status")
+                require(attempt.get("status") in {"in_flight", "uncertain", "failed", "accepted", "owner_confirmed"}, "Invalid attempt status")
         else:
             require(delivery["status"] == "not_started", "Delivery outcome has no attempt")
-        require((batch["status"] == "delivered") == (delivery["status"] == "accepted"),
+        require((batch["status"] == "delivered") == (delivery["status"] in {"accepted", "owner_confirmed"}),
                 "Delivered/accepted state mismatch")
         if batch["status"] == "delivered":
             if batch.get("format_version", 1) == 1:
@@ -510,21 +548,52 @@ def verify_state(state, files):
             else:
                 require(integer(batch.get("checkpoint_after")) and batch["checkpoint_before"] <= batch["checkpoint_after"] <= state["checkpoint"],
                         "Invalid sparse-batch checkpoint")
-            receipt = delivery["attempts"][-1].get("receipt", {})
-            require(receipt.get("accepted") is True and receipt.get("channel") == "chatgpt"
-                    and receipt.get("attachment_sha256") == batch.get("txt_sha256")
-                    and receipt.get("target_sha256") == delivery["attempts"][-1]["target_sha256"],
-                    "Invalid persisted delivery receipt")
-            accepted_at = timestamp(receipt.get("accepted_at"))
-            acknowledged_at = timestamp(batch.get("acknowledged_at"))
-            require(datetime.fromisoformat(delivery["attempts"][-1]["started_at"]) <= datetime.fromisoformat(accepted_at)
-                    <= datetime.fromisoformat(acknowledged_at) <= datetime.fromisoformat(state["updated_at"]),
-                    "Persisted receipt chronology is invalid")
-            sha(receipt.get("message_receipt_sha256"))
-            sha(receipt.get("native_attachment_receipt_sha256"))
-            require(any(event.get("kind") == "delivery_acknowledgment" and event.get("batch_id") == batch_id
-                        and event.get("checkpoint") == batch.get("checkpoint_after", batch["last_id"]) and event.get("receipt") == receipt
-                        for event in state["checkpoint_history"]), "Delivery lacks matching checkpoint history")
+            if delivery["status"] == "owner_confirmed":
+                audit = batch.get("owner_confirmation", {})
+                op = audit.get("operation")
+                validate_owner_confirmation(op)
+                require(op["batch_id"] == batch_id and op["attempt_id"] == delivery["attempts"][-1]["attempt_id"]
+                        and op["confirmed_content_sha256"] == batch["txt_sha256"], "Confirmation target mismatch")
+                require(datetime.fromisoformat(timestamp(batch["publication"]["published_at"]))
+                        <= datetime.fromisoformat(timestamp(op["confirmation_at"])), "Confirmation predates publication")
+                require(timestamp(batch["acknowledged_at"]) == timestamp(op["at"])
+                        and datetime.fromisoformat(op["at"]) <= datetime.fromisoformat(state["updated_at"]),
+                        "Invalid owner confirmation chronology")
+                before = copy.deepcopy(batch)
+                before.pop("owner_confirmation")
+                before.pop("acknowledged_at")
+                before.pop("checkpoint_after", None)
+                before["status"] = "published"
+                before["delivery"] = audit["previous_delivery"]
+                require(before["delivery"]["status"] in {"in_flight", "uncertain"}
+                        and digest(canonical(before)) == op["expected_batch_sha256"], "Owner confirmation target changed")
+                expected_delivery = copy.deepcopy(audit["previous_delivery"])
+                expected_delivery["status"] = "owner_confirmed"
+                expected_delivery["attempts"][-1].update(status="owner_confirmed", outcome_at=timestamp(op["at"]))
+                require(delivery == expected_delivery, "Owner confirmation altered delivery history")
+                persisted = state["operations"].get(op["operation_id"], {})
+                require(persisted.get("sha256") == digest(canonical(op)), "Owner confirmation audit missing")
+                require(any(event.get("kind") == "owner_confirmed_delivery"
+                            and event.get("batch_id") == batch_id and event.get("confirmation") == op
+                            and event.get("checkpoint") == batch.get("checkpoint_after", batch["last_id"])
+                            for event in state["checkpoint_history"]), "Owner confirmation checkpoint history missing")
+            else:
+                require("owner_confirmation" not in batch, "Native delivery cannot carry owner confirmation")
+                receipt = delivery["attempts"][-1].get("receipt", {})
+                require(receipt.get("accepted") is True and receipt.get("channel") == "chatgpt"
+                        and receipt.get("attachment_sha256") == batch.get("txt_sha256")
+                        and receipt.get("target_sha256") == delivery["attempts"][-1]["target_sha256"],
+                        "Invalid persisted delivery receipt")
+                accepted_at = timestamp(receipt.get("accepted_at"))
+                acknowledged_at = timestamp(batch.get("acknowledged_at"))
+                require(datetime.fromisoformat(delivery["attempts"][-1]["started_at"]) <= datetime.fromisoformat(accepted_at)
+                        <= datetime.fromisoformat(acknowledged_at) <= datetime.fromisoformat(state["updated_at"]),
+                        "Persisted receipt chronology is invalid")
+                sha(receipt.get("message_receipt_sha256"))
+                sha(receipt.get("native_attachment_receipt_sha256"))
+                require(any(event.get("kind") == "delivery_acknowledgment" and event.get("batch_id") == batch_id
+                            and event.get("checkpoint") == batch.get("checkpoint_after", batch["last_id"]) and event.get("receipt") == receipt
+                            for event in state["checkpoint_history"]), "Delivery lacks matching checkpoint history")
         for ref in batch["records"]:
             record = lookup(state, ref["id"])
             require(integer(ref.get("revision"), 1) and ref["revision"] <= len(record["revisions"]),
@@ -1037,6 +1106,24 @@ def transition(state, files, op, policy, head, changes):
         delivery["status"] = "in_flight"
         return {"status": "delivery_intent_planned", "batch_id": batch["batch_id"],
                 "attempt_id": attempt_id, "txt_path": batch["txt_path"], "txt_sha256": batch["txt_sha256"]}
+    if kind == "confirm_owner_delivery":
+        validate_owner_confirmation(op)
+        batch = pending_batch(state, op)
+        require(batch["status"] == "published" and batch["delivery"]["status"] in {"in_flight", "uncertain"},
+                "Owner recovery requires a published batch awaiting delivery outcome")
+        require(datetime.fromisoformat(timestamp(batch["publication"]["published_at"]))
+                <= datetime.fromisoformat(timestamp(op["confirmation_at"])), "Confirmation predates publication")
+        require(digest(canonical(batch)) == op["expected_batch_sha256"], "Owner confirmation target changed")
+        require(op["confirmed_content_sha256"] == batch["txt_sha256"], "Confirmed content differs from frozen batch")
+        require(batch["delivery"]["attempts"][-1]["attempt_id"] == op["attempt_id"], "Wrong delivery attempt")
+        batch["owner_confirmation"] = {"operation": copy.deepcopy(op),
+                                       "previous_delivery": copy.deepcopy(batch["delivery"])}
+        batch["delivery"]["status"] = "owner_confirmed"
+        batch["delivery"]["attempts"][-1].update(status="owner_confirmed", outcome_at=now)
+        batch.update(status="delivered", acknowledged_at=now)
+        advance_delivered_checkpoint(state, batch, now, {"confirmation": copy.deepcopy(op)}, "owner_confirmed_delivery")
+        return {"status": "owner_confirmation_planned", "checkpoint": state["checkpoint"],
+                "batch_id": batch["batch_id"], "native_receipt_verified": False}
     if kind in {"delivery_failed", "delivery_uncertain", "reconcile_not_sent", "acknowledge"}:
         batch = pending_batch(state, op)
         require(batch["status"] == "published", "Batch is not published")

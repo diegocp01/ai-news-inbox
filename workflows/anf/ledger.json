@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 948,
-  "updated_at": "2026-11-03T13:26:14.920214+00:00",
+  "generation": 949,
+  "updated_at": "2026-11-03T13:45:04.676698+00:00",
   "next_id": 311,
   "records": [
     {
@@ -16538,7 +16538,7 @@
     },
     "91770623912a6dae19abb464": {
       "batch_id": "91770623912a6dae19abb464",
-      "status": "published",
+      "status": "delivered",
       "checkpoint_before": 278,
       "prepared_at": "2026-11-02T13:05:55.855494+00:00",
       "intake_cutoff": 271,
@@ -16662,14 +16662,15 @@
       "txt_sha256": "9904e787d364dcc136812af4d4597ba3cf2a76bc39b134bd7cbcd4fde2bc36ac",
       "json_sha256": "b9b9eba1a820c7ac7719cea89cb8632fbc885d2a4da9615c4b2e63ff57a699eb",
       "delivery": {
-        "status": "in_flight",
+        "status": "owner_confirmed",
         "attempts": [
           {
             "attempt_id": "muse-delivery-20261103-1324-8071",
             "started_at": "2026-11-03T13:26:14.920214+00:00",
-            "status": "in_flight",
+            "status": "owner_confirmed",
             "target_sha256": "6ab5dc4b9cf0f0cde4bcfa58ba6f9aaea81ab5995e590c2a3d4246be7b87002e",
-            "publication_observed_head": "c239a3a7c7428a9bc662041a2501d76d81eceb51"
+            "publication_observed_head": "c239a3a7c7428a9bc662041a2501d76d81eceb51",
+            "outcome_at": "2026-11-03T13:45:04.676698+00:00"
           }
         ]
       },
@@ -16860,12 +16861,40 @@
         "sha256": "b9b9eba1a820c7ac7719cea89cb8632fbc885d2a4da9615c4b2e63ff57a699eb",
         "published_at": "2026-11-02T13:09:38.268593+00:00",
         "planned_from_head": "99399e7317900201261f27e7d2a632f9daa2fefd"
-      }
+      },
+      "owner_confirmation": {
+        "operation": {
+          "kind": "confirm_owner_delivery",
+          "operation_id": "bernard_owner_confirm_20261103_279_300",
+          "at": "2026-11-03T13:45:04.676698+00:00",
+          "batch_id": "91770623912a6dae19abb464",
+          "attempt_id": "muse-delivery-20261103-1324-8071",
+          "expected_batch_sha256": "bbb958e86415fa776c88eab035dcafa6cd91fc64533ae30e38953ac8809d0c16",
+          "confirmation_at": "2026-11-03T13:37:04.486130+00:00",
+          "authorization_sha256": "23825200f043e95afc988383eff6b0a93b65d60b4781a3da12f1398769ca8dc3",
+          "confirmed_content_sha256": "9904e787d364dcc136812af4d4597ba3cf2a76bc39b134bd7cbcd4fde2bc36ac",
+          "reason_code": "explicit_owner_confirmed_receipt"
+        },
+        "previous_delivery": {
+          "status": "in_flight",
+          "attempts": [
+            {
+              "attempt_id": "muse-delivery-20261103-1324-8071",
+              "started_at": "2026-11-03T13:26:14.920214+00:00",
+              "status": "in_flight",
+              "target_sha256": "6ab5dc4b9cf0f0cde4bcfa58ba6f9aaea81ab5995e590c2a3d4246be7b87002e",
+              "publication_observed_head": "c239a3a7c7428a9bc662041a2501d76d81eceb51"
+            }
+          ]
+        }
+      },
+      "acknowledged_at": "2026-11-03T13:45:04.676698+00:00",
+      "checkpoint_after": 300
     }
   },
-  "pending_batch_id": "91770623912a6dae19abb464",
+  "pending_batch_id": null,
   "replacement_batch": null,
-  "checkpoint": 278,
+  "checkpoint": 300,
   "checkpoint_history": [
     {
       "kind": "delivery_acknowledgment",
@@ -17233,6 +17262,25 @@
         "target_sha256": "6ab5dc4b9cf0f0cde4bcfa58ba6f9aaea81ab5995e590c2a3d4246be7b87002e",
         "message_receipt_sha256": "e1fe352ddb4d2fdeda3a419da91d61b0f93fec9f3cb12e11186c87c03fa9dc58",
         "native_attachment_receipt_sha256": "6b6870506b4ae86fbdbdc7fb2b8f2fe91424f6c1bb087adb5cc88cbbd94fb97a"
+      }
+    },
+    {
+      "kind": "owner_confirmed_delivery",
+      "before": 278,
+      "checkpoint": 300,
+      "at": "2026-11-03T13:45:04.676698+00:00",
+      "batch_id": "91770623912a6dae19abb464",
+      "confirmation": {
+        "kind": "confirm_owner_delivery",
+        "operation_id": "bernard_owner_confirm_20261103_279_300",
+        "at": "2026-11-03T13:45:04.676698+00:00",
+        "batch_id": "91770623912a6dae19abb464",
+        "attempt_id": "muse-delivery-20261103-1324-8071",
+        "expected_batch_sha256": "bbb958e86415fa776c88eab035dcafa6cd91fc64533ae30e38953ac8809d0c16",
+        "confirmation_at": "2026-11-03T13:37:04.486130+00:00",
+        "authorization_sha256": "23825200f043e95afc988383eff6b0a93b65d60b4781a3da12f1398769ca8dc3",
+        "confirmed_content_sha256": "9904e787d364dcc136812af4d4597ba3cf2a76bc39b134bd7cbcd4fde2bc36ac",
+        "reason_code": "explicit_owner_confirmed_receipt"
       }
     }
   ],
@@ -35278,6 +35326,15 @@
         "attempt_id": "muse-delivery-20261103-1324-8071",
         "txt_path": "workflows/anf/batches/91770623912a6dae19abb464.txt",
         "txt_sha256": "9904e787d364dcc136812af4d4597ba3cf2a76bc39b134bd7cbcd4fde2bc36ac"
+      }
+    },
+    "bernard_owner_confirm_20261103_279_300": {
+      "sha256": "ca17a74fc9ac45bf9fc82b35aec907c0e06b34ac766aa7fa9e3e816e0ade26da",
+      "result": {
+        "status": "owner_confirmation_planned",
+        "checkpoint": 300,
+        "batch_id": "91770623912a6dae19abb464",
+        "native_receipt_verified": false
       }
     }
   },

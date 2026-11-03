@@ -227,3 +227,45 @@ The engine retains generic import operations for test coverage/backward compatib
 - GitHub integration denied, missing atomic CAS support, native delivery unavailable, or unconfirmed compiler cutover: surface the exact blocker and keep production schedule paused
 
 The included tests prove deterministic local state behavior with a simulated atomic CAS repository. They do not prove GitHub write access, connector-level CAS semantics, a real production send, external source/image verification, or a completed cutover. The live ledger includes subsequent intake, and current configuration records the confirmed compiler cutover. Scheduler state and real delivery still require independent checks.
+
+## Explicit owner-confirmed delivery recovery (2026-11-03)
+
+A stopped bridge may leave an in-flight attempt even though the owner already
+received the frozen compilation. Do not fabricate a native receipt or timestamp,
+mark a successful send failed, resend the old file, or reset the ledger.
+
+The separately named `confirm_owner_delivery` operation is for an authenticated
+owner's explicit instruction to mark the identified received batch done. It is
+not an automatic fallback, a send permission, or an issue-executor operation.
+The bridge must verify the actual owner message and identify the entire frozen
+batch, including repeated records; a ready notice or agent claim is insufficient.
+For a pasted compilation, compare its full content to the frozen artifact after
+only documented presentation normalization (for example unwrapping Markdown URL
+links). Keep the original message and comparison privately. Never publish raw
+message identifiers or private text.
+
+Operation fields: `kind: confirm_owner_delivery`, unique `operation_id`, UTC
+`at`, exact `batch_id` and latest `attempt_id`, `expected_batch_sha256` (engine
+canonical hash of the complete current batch), `confirmation_at` (actual owner
+message time), `authorization_sha256` (private authenticated evidence digest),
+`confirmed_content_sha256` (frozen TXT digest), and
+`reason_code: explicit_owner_confirmed_receipt`. There is deliberately no invented
+`accepted_at`, native receipt, or claim that the latest attempt delivered the file.
+Only published batches with an in-flight or uncertain attempt qualify. A stopped
+writer must be confirmed before taking over; CAS still protects concurrent work.
+
+The operation preserves original delivery history under `owner_confirmation`,
+records the distinct `owner_confirmed` outcome and auditable operation, advances
+only contiguous delivered membership, and clears pending. Existing native
+`acknowledge` requirements remain unchanged. Stable replay never sends or publishes.
+
+For normal future compilation, keep the native attachment receipt and verified
+identity/version-to-byte mapping in private durable evidence before acknowledging.
+On a GitHub 5xx read failure, retain the same operation/receipt, retry a complete
+pinned snapshot with backoff, verify HEAD, and apply the atomic non-force CAS plan.
+On an uncertain mutation, first inspect reachable ledger operation evidence.
+Retry acknowledgment only after accepted delivery, never resend or begin another
+attempt merely because the ack failed. API outages cannot be guaranteed away.
+Do not enable the disabled issue executor, change schedules, or auto-use owner
+confirmation. A bridge unable to retain/recover native receipts must report that
+specific limitation; this recovery operation does not supply missing platform access.
