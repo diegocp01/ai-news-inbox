@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 957,
-  "updated_at": "2026-11-03T21:32:51.402928+00:00",
-  "next_id": 312,
+  "generation": 958,
+  "updated_at": "2026-11-03T21:32:51.975235+00:00",
+  "next_id": 313,
   "records": [
     {
       "id": 1,
@@ -4138,6 +4138,19 @@
           "sha256": "3cd1c992416ce3eeeffe9c1a21fee66340581694419e7200c5c873dbef775bd7",
           "source": "https://x.com/thsottiaux/status/2117283124833055196",
           "request_id": "85fe61584659241cf3fb31f74a783bc5778a6a3c5463225272a461730d47187b",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 312,
+      "revisions": [
+        {
+          "created_at": "2026-11-03T21:32:51.975235+00:00",
+          "block": "Title: Claude Users Can Now Auto-Connect Plugins at Login via MCP Servers That Trust Claude as an Issuer\nURL: https://claude.com/docs/connectors/building/enterprise-managed-auth\nImage URL: https://claude-ai.mintlify.app/_mintlify/api/og/v2?division=Authentication&title=Enterprise+Managed+Auth+for+connectors&description=Accept+identity+assertions+from+a+customer%27s+identity+provider+or+Claude+so+users+connect+to+your+MCP+server+without+an+OAuth+consent+step.&theme=c937feb09b37748e448783d0&signature=a8941f433d06e28104a4ebd93208618c60b773271a49d9bd05c5a883afd64bfa\nSummary: Anthropic's ClaudeDevs account says Claude users can now auto-connect plugins at login when the plugin's MCP server accepts Claude as a trusted issuer. Per Anthropic's docs, Enterprise Managed Auth has Claude or a customer's identity provider sign a JWT assertion that the server exchanges for an access token, skipping OAuth consent. Claude-issued assertions are in beta.",
+          "sha256": "a5ecdd42c791bfbac453889fcc558e6501af59269c19ce67765ecbb74b220ecf",
+          "source": "https://x.com/claudedevs/status/2117680635561312732",
+          "request_id": "682c05a1eed547edb1b191d7b966a9d196fab97580ce386bb2c0d058db93775d",
           "mode": "standard"
         }
       ]
@@ -9111,13 +9124,21 @@
       ]
     },
     "682c05a1eed547edb1b191d7b966a9d196fab97580ce386bb2c0d058db93775d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-03T21:32:51.402928+00:00",
       "received_sequence": 281,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-03T21:32:51.975235+00:00",
+      "records": [
+        {
+          "id": 312,
+          "revision": 1,
+          "sha256": "a5ecdd42c791bfbac453889fcc558e6501af59269c19ce67765ecbb74b220ecf"
+        }
+      ]
     }
   },
   "batches": {
@@ -35813,6 +35834,21 @@
       "result": {
         "status": "received",
         "request_id": "682c05a1eed547edb1b191d7b966a9d196fab97580ce386bb2c0d058db93775d"
+      }
+    },
+    "3a4c36e4751075cbc55091a4b942adf49def7e749a67c996cf2f28d5bac41807": {
+      "sha256": "63a9c41d6f5a4262727537ffe89a67c609cbbacdb9e3fa5fcc6f2022f4835ce6",
+      "result": {
+        "status": "finalized",
+        "request_id": "682c05a1eed547edb1b191d7b966a9d196fab97580ce386bb2c0d058db93775d",
+        "records": [
+          {
+            "id": 312,
+            "revision": 1,
+            "sha256": "a5ecdd42c791bfbac453889fcc558e6501af59269c19ce67765ecbb74b220ecf"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
