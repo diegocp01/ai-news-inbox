@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 954,
-  "updated_at": "2026-11-03T14:42:05.718142+00:00",
+  "generation": 955,
+  "updated_at": "2026-11-03T14:42:06.341971+00:00",
   "next_id": 312,
   "records": [
     {
@@ -35744,6 +35744,18 @@
         ],
         "duplicates": []
       }
+    },
+    "fb443ed3aee2ec4344baec4eabfd576e0bd92a632e6ad51be14f8fdb202151f2": {
+      "sha256": "1fcbcb39ef6c5b4752e957c29b463b4959fd5d6bb03e48e724fb3ea05102f1b5",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 311,
+          "revision": 1,
+          "sha256": "3cd1c992416ce3eeeffe9c1a21fee66340581694419e7200c5c873dbef775bd7"
+        },
+        "editorial_sha256": "ecc4c0131711b40792c6f19d558b105751cf1d60c092cb799da850c014dfbad1"
+      }
     }
   },
   "migration": {
@@ -44572,6 +44584,26 @@
         "sha256": "084ea06ada51f01a35beca439f98b80089b9e51873b9c13c8ec9d56dfd6c759c",
         "reviewed_at": "2026-11-03T13:05:45.818942+00:00",
         "operation_id": "muse-backfill-20261103-309-9112"
+      }
+    ],
+    "311:1": [
+      {
+        "reference": {
+          "id": 311,
+          "revision": 1,
+          "sha256": "3cd1c992416ce3eeeffe9c1a21fee66340581694419e7200c5c873dbef775bd7"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Mentions Codex (dev term); model routing across GPT-6 Astra/GPT-6.1 Terra for agents",
+            "evidence_sha256": "1fcc29d4109ae23f4d9b7e12c2fd47b8bd0e25b50d0c993d945de68cfaf8f787"
+          }
+        },
+        "sha256": "ecc4c0131711b40792c6f19d558b105751cf1d60c092cb799da850c014dfbad1",
+        "reviewed_at": "2026-11-03T14:42:06.341971+00:00",
+        "operation_id": "fb443ed3aee2ec4344baec4eabfd576e0bd92a632e6ad51be14f8fdb202151f2"
       }
     ]
   }
