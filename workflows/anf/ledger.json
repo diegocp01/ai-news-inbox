@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 944,
-  "updated_at": "2026-11-03T12:58:51.334897+00:00",
+  "generation": 947,
+  "updated_at": "2026-11-03T13:05:45.818942+00:00",
   "next_id": 311,
   "records": [
     {
@@ -35225,6 +35225,42 @@
         },
         "editorial_sha256": "48c6af5b7a7fb656a4247d9e80c92240ba8a824a97974eb59c043fb521c23f1a"
       }
+    },
+    "muse-backfill-20261103-307-8878": {
+      "sha256": "4767da9df64975712932fa9b441150b3499f1d3dd1e7a6555fb6a1d65a29416d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 307,
+          "revision": 1,
+          "sha256": "495732e5db906c2d1cf1466d5ea6294aa7e168124204a479b05cc2d8822b1bc6"
+        },
+        "editorial_sha256": "da90ca14612ad112a19bc39d7c96d56d233a6bcf71298b501b5685d6dfaf11fa"
+      }
+    },
+    "muse-backfill-20261103-308-1513": {
+      "sha256": "a1d2c9ef1fdc085e271eafe5e3e57dd722f863028deda23f55e7cb9b81473c56",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 308,
+          "revision": 1,
+          "sha256": "7ca3f887d7e9656ed1e6564292b8ac59a5997faba0fb9b18fdf37f4757d4bd4a"
+        },
+        "editorial_sha256": "863f0fafab8f8b23b161a8348f31d9a1b9bd8430adb199ed1248d086f76b21ce"
+      }
+    },
+    "muse-backfill-20261103-309-9112": {
+      "sha256": "5e184d62dd1ce04a9967ea5dacc46699e601e66c5bf230355cfc15bb7a88fa48",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 309,
+          "revision": 1,
+          "sha256": "e92e805b0209f5dc8be7f68142406b82732d292c6ee418cd5e2ab9ddce76f895"
+        },
+        "editorial_sha256": "084ea06ada51f01a35beca439f98b80089b9e51873b9c13c8ec9d56dfd6c759c"
+      }
     }
   },
   "migration": {
@@ -43993,6 +44029,66 @@
         "sha256": "48c6af5b7a7fb656a4247d9e80c92240ba8a824a97974eb59c043fb521c23f1a",
         "reviewed_at": "2026-11-03T12:58:51.334897+00:00",
         "operation_id": "289b894c1195237757298d9ffa39c634bca2de084ab8f82f666e7c295d921a52"
+      }
+    ],
+    "307:1": [
+      {
+        "reference": {
+          "id": 307,
+          "revision": 1,
+          "sha256": "495732e5db906c2d1cf1466d5ea6294aa7e168124204a479b05cc2d8822b1bc6"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "MIT CSAIL researchers report OpenAI's GPT-6 Astra edited Qwen3.5-0.8B's weights without retraining, lifting its MATH-500 score from 7.9% to 48.1% under their test settings, with no established math improvement in Gemma 3 270M. This is AI research on weight-space editing, for technical audiences. muse-compile-backfill 2026-11-03: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "495732e5db906c2d1cf1466d5ea6294aa7e168124204a479b05cc2d8822b1bc6"
+          }
+        },
+        "sha256": "da90ca14612ad112a19bc39d7c96d56d233a6bcf71298b501b5685d6dfaf11fa",
+        "reviewed_at": "2026-11-03T13:05:45.551099+00:00",
+        "operation_id": "muse-backfill-20261103-307-8878"
+      }
+    ],
+    "308:1": [
+      {
+        "reference": {
+          "id": 308,
+          "revision": 1,
+          "sha256": "7ca3f887d7e9656ed1e6564292b8ac59a5997faba0fb9b18fdf37f4757d4bd4a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "OpenAI introduced LifeVal, an evaluation of how well AI handles everyday tasks including shopping and accessing government services, built from time-use studies and a survey of 3,995 people. This is consumer-facing everyday-task news for a broad audience, not technical research. muse-compile-backfill 2026-11-03: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "7ca3f887d7e9656ed1e6564292b8ac59a5997faba0fb9b18fdf37f4757d4bd4a"
+          }
+        },
+        "sha256": "863f0fafab8f8b23b161a8348f31d9a1b9bd8430adb199ed1248d086f76b21ce",
+        "reviewed_at": "2026-11-03T13:05:45.693873+00:00",
+        "operation_id": "muse-backfill-20261103-308-1513"
+      }
+    ],
+    "309:1": [
+      {
+        "reference": {
+          "id": 309,
+          "revision": 1,
+          "sha256": "e92e805b0209f5dc8be7f68142406b82732d292c6ee418cd5e2ab9ddce76f895"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "OpenAI signed four agreements covering Abu Dhabi's government, energy and investment sectors, including a food-import compliance pilot and a five-year Inception42 partnership. This is policy and business news for a broad audience, not technical research. muse-compile-backfill 2026-11-03: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e92e805b0209f5dc8be7f68142406b82732d292c6ee418cd5e2ab9ddce76f895"
+          }
+        },
+        "sha256": "084ea06ada51f01a35beca439f98b80089b9e51873b9c13c8ec9d56dfd6c759c",
+        "reviewed_at": "2026-11-03T13:05:45.818942+00:00",
+        "operation_id": "muse-backfill-20261103-309-9112"
       }
     ]
   }
