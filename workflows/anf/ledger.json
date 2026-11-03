@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 958,
-  "updated_at": "2026-11-03T21:32:51.975235+00:00",
+  "generation": 959,
+  "updated_at": "2026-11-03T21:32:52.537074+00:00",
   "next_id": 313,
   "records": [
     {
@@ -35850,6 +35850,18 @@
         ],
         "duplicates": []
       }
+    },
+    "671f28c718d2e677b4f7d67f412f0d15a93278011c28ae3fa6c56127ad2a5c68": {
+      "sha256": "09e117069a7d046b5629befee18e33dc132f713e71f485d49f18ca4895ccb56f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 312,
+          "revision": 1,
+          "sha256": "a5ecdd42c791bfbac453889fcc558e6501af59269c19ce67765ecbb74b220ecf"
+        },
+        "editorial_sha256": "5eb8486e3e9f0c94634e769b147773efa9f62d4d8f0566a3fd66d9e6a6b39f6c"
+      }
     }
   },
   "migration": {
@@ -44698,6 +44710,26 @@
         "sha256": "ecc4c0131711b40792c6f19d558b105751cf1d60c092cb799da850c014dfbad1",
         "reviewed_at": "2026-11-03T14:42:06.341971+00:00",
         "operation_id": "fb443ed3aee2ec4344baec4eabfd576e0bd92a632e6ad51be14f8fdb202151f2"
+      }
+    ],
+    "312:1": [
+      {
+        "reference": {
+          "id": 312,
+          "revision": 1,
+          "sha256": "a5ecdd42c791bfbac453889fcc558e6501af59269c19ce67765ecbb74b220ecf"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "MCP server auth / JWT / OAuth / access tokens for plugin developers",
+            "evidence_sha256": "6da0c2c2b2be4a08ca872d8c96fed5d55efe99ea98c60268826b2c8c44ca7ed2"
+          }
+        },
+        "sha256": "5eb8486e3e9f0c94634e769b147773efa9f62d4d8f0566a3fd66d9e6a6b39f6c",
+        "reviewed_at": "2026-11-03T21:32:52.537074+00:00",
+        "operation_id": "671f28c718d2e677b4f7d67f412f0d15a93278011c28ae3fa6c56127ad2a5c68"
       }
     ]
   }
