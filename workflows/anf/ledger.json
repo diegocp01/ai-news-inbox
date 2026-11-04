@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 972,
-  "updated_at": "2026-11-04T00:12:37.000694+00:00",
-  "next_id": 317,
+  "generation": 973,
+  "updated_at": "2026-11-04T00:12:37.682907+00:00",
+  "next_id": 318,
   "records": [
     {
       "id": 1,
@@ -4203,6 +4203,19 @@
           "sha256": "653b9146c6d958c2a854751dff345e7d564c8dc3bc04a16b874f2dcf902c61ca",
           "source": "https://x.com/Polymarket/status/2117648309418651768",
           "request_id": "63bfb2bb3418a6ea0ebac08c5dcdfb851c9c2e6e343a38be6a2b95c407d037d7",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 317,
+      "revisions": [
+        {
+          "created_at": "2026-11-04T00:12:37.682907+00:00",
+          "block": "Title: Elon Musk Says Grok Bot Can Find Top Local Doctors, Call Them and Book Appointments\nURL: https://www.basenor.com/blogs/news/grok-bot-as-personal-assistant-5-details-that-matter\nImage URL: https://www.basenor.com/cdn/shop/articles/e7ef177afd574f8cd404caa7df4ece96.jpg?v=1793729096\nSummary: Elon Musk says Grok Bot can research the best doctors nearby, call them by phone and make appointments. He quoted Min Choi, who says Grok Bot found a pediatric orthopedist for his injured daughter, called and booked a same-day 9:30 visit while he drove, transcribed the call live, gathered insurance and pricing, and added it to his calendar.",
+          "sha256": "ba781484d85a534e8006efeb4bda0c008282b082bd966a2d61d90e37bb11870f",
+          "source": "https://x.com/elonmusk/status/2117665964862939320",
+          "request_id": "3ac5680960eb0eee7daf96c0e8be9a4bcc87f95e6c1a30f87a8678eccd97c2eb",
           "mode": "standard"
         }
       ]
@@ -9261,13 +9274,21 @@
       ]
     },
     "3ac5680960eb0eee7daf96c0e8be9a4bcc87f95e6c1a30f87a8678eccd97c2eb": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-04T00:12:37.000694+00:00",
       "received_sequence": 286,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-04T00:12:37.682907+00:00",
+      "records": [
+        {
+          "id": 317,
+          "revision": 1,
+          "sha256": "ba781484d85a534e8006efeb4bda0c008282b082bd966a2d61d90e37bb11870f"
+        }
+      ]
     }
   },
   "batches": {
@@ -36133,6 +36154,21 @@
       "result": {
         "status": "received",
         "request_id": "3ac5680960eb0eee7daf96c0e8be9a4bcc87f95e6c1a30f87a8678eccd97c2eb"
+      }
+    },
+    "b8c39156b717e06916e9e7ab90ceb33e4a5d31095e2f45c8ade85a9983b9d210": {
+      "sha256": "1dfc629792208b02708e1192773c3d985963a208b0371279af0602b153720f42",
+      "result": {
+        "status": "finalized",
+        "request_id": "3ac5680960eb0eee7daf96c0e8be9a4bcc87f95e6c1a30f87a8678eccd97c2eb",
+        "records": [
+          {
+            "id": 317,
+            "revision": 1,
+            "sha256": "ba781484d85a534e8006efeb4bda0c008282b082bd966a2d61d90e37bb11870f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
