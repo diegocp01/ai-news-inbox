@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 999,
-  "updated_at": "2026-11-04T22:51:04.094708+00:00",
-  "next_id": 326,
+  "generation": 1000,
+  "updated_at": "2026-11-04T22:51:04.672340+00:00",
+  "next_id": 327,
   "records": [
     {
       "id": 1,
@@ -4323,6 +4323,19 @@
           "sha256": "dcad7008da76e7f9009c0ce02e98a58e5fccbdf2280cb1eb62d8e1ef9ddcaba3",
           "source": "https://x.com/ClaudeDevs/status/2118063143167693011",
           "request_id": "531250a9220ba67e54282ed2d2571294abaf5efbd06a9e1ed0fdd3ed0c3c3e25",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 326,
+      "revisions": [
+        {
+          "created_at": "2026-11-04T22:51:04.672340+00:00",
+          "block": "Title: Ricursive Intelligence Releases Ripple-65B Preview, an Open-Weight Agentic Coding Model\nURL:\nImage URL: https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png\nSummary: Chip-design AI lab Ricursive Intelligence released Ripple-65B Preview, a dense open-weight model it pretrained from scratch on 12 trillion tokens with up to 1M context. Ricursive says it scores 80.52 on TerminalBench 2.1, a U.S. open-weight state of the art for agentic coding, beating larger models, and that its full R&D cost was $32 million.",
+          "sha256": "5aff39ed423c5fbb4763b1a321a3e2e04dc9706137323463886c4b84f868f010",
+          "source": "https://www.ricursive.com/ripple",
+          "request_id": "82c477785c0a60bcdc046915318ddb160e151e66e3bd3b1d1c37f801804c2091",
           "mode": "standard"
         }
       ]
@@ -9511,13 +9524,21 @@
       ]
     },
     "82c477785c0a60bcdc046915318ddb160e151e66e3bd3b1d1c37f801804c2091": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-04T22:51:04.094708+00:00",
       "received_sequence": 293,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-04T22:51:04.672340+00:00",
+      "records": [
+        {
+          "id": 326,
+          "revision": 1,
+          "sha256": "5aff39ed423c5fbb4763b1a321a3e2e04dc9706137323463886c4b84f868f010"
+        }
+      ]
     }
   },
   "batches": {
@@ -37105,6 +37126,21 @@
       "result": {
         "status": "received",
         "request_id": "82c477785c0a60bcdc046915318ddb160e151e66e3bd3b1d1c37f801804c2091"
+      }
+    },
+    "986336f56fce3183e85b2b08e030d6d2099e31b0059f0cee7bc28b9b102f19c6": {
+      "sha256": "6b223373aeb8319c831ae6d454fbb1e1e7b95ff0982793efe8119b4098010da5",
+      "result": {
+        "status": "finalized",
+        "request_id": "82c477785c0a60bcdc046915318ddb160e151e66e3bd3b1d1c37f801804c2091",
+        "records": [
+          {
+            "id": 326,
+            "revision": 1,
+            "sha256": "5aff39ed423c5fbb4763b1a321a3e2e04dc9706137323463886c4b84f868f010"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
