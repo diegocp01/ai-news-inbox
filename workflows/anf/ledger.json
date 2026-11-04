@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 990,
-  "updated_at": "2026-11-04T18:19:29.250419+00:00",
-  "next_id": 323,
+  "generation": 991,
+  "updated_at": "2026-11-04T18:19:30.019308+00:00",
+  "next_id": 324,
   "records": [
     {
       "id": 1,
@@ -4285,6 +4285,19 @@
           "request_id": "add58b5923c5fb6efddd3e9fbc8185f1cac53b5e276cdc2814db45a6114a5751",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 323,
+      "revisions": [
+        {
+          "created_at": "2026-11-04T18:19:30.019308+00:00",
+          "block": "Title: OpenAI to Acquire Pierre Computer Company to Expand Codex's Code Review and Git Tools\nURL: https://pierre.computer/\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/5lDkYRSw86lFyHulgkyVVr/5b20bd6b90c3d87c33b780884b48123a/openai-to-acquire-pierre-computer-company-inc-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI says it will acquire Pierre Computer Company, maker of Code Storage and open-source developer tools whose Trees and Diffs libraries already power file browsing and code review in the Codex app. OpenAI says Pierre's projects will stay open source, Code Storage customers can keep using it, and the deal awaits regulatory approval.",
+          "sha256": "c3e7572bce3a913609273e4cc5b4adaa2d559dd527f98434073bed04a90276cc",
+          "source": "https://openai.com/index/openai-to-acquire-pierre/",
+          "request_id": "ab031d33ffa01c04cba20a205f0d2a0206e53b77c1c21b68ee0df899885caefb",
+          "mode": "standard"
         }
       ]
     }
@@ -9421,13 +9434,21 @@
       ]
     },
     "ab031d33ffa01c04cba20a205f0d2a0206e53b77c1c21b68ee0df899885caefb": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-04T18:19:29.250419+00:00",
       "received_sequence": 290,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-04T18:19:30.019308+00:00",
+      "records": [
+        {
+          "id": 323,
+          "revision": 1,
+          "sha256": "c3e7572bce3a913609273e4cc5b4adaa2d559dd527f98434073bed04a90276cc"
+        }
+      ]
     }
   },
   "batches": {
@@ -36913,6 +36934,21 @@
       "result": {
         "status": "received",
         "request_id": "ab031d33ffa01c04cba20a205f0d2a0206e53b77c1c21b68ee0df899885caefb"
+      }
+    },
+    "3248d15806b7cd146b4f650d1dfa84fa772c88f85a362549902591cd3e181e7c": {
+      "sha256": "6147ae2429c534b1724fb77ec8f7d98b005be07ad570501039dbcd2e1fa836d9",
+      "result": {
+        "status": "finalized",
+        "request_id": "ab031d33ffa01c04cba20a205f0d2a0206e53b77c1c21b68ee0df899885caefb",
+        "records": [
+          {
+            "id": 323,
+            "revision": 1,
+            "sha256": "c3e7572bce3a913609273e4cc5b4adaa2d559dd527f98434073bed04a90276cc"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
