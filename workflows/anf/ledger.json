@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 993,
-  "updated_at": "2026-11-04T22:51:00.065558+00:00",
-  "next_id": 324,
+  "generation": 994,
+  "updated_at": "2026-11-04T22:51:00.776145+00:00",
+  "next_id": 325,
   "records": [
     {
       "id": 1,
@@ -4297,6 +4297,19 @@
           "sha256": "c3e7572bce3a913609273e4cc5b4adaa2d559dd527f98434073bed04a90276cc",
           "source": "https://openai.com/index/openai-to-acquire-pierre/",
           "request_id": "ab031d33ffa01c04cba20a205f0d2a0206e53b77c1c21b68ee0df899885caefb",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 324,
+      "revisions": [
+        {
+          "created_at": "2026-11-04T22:51:00.776145+00:00",
+          "block": "Title: OpenAI's Codex App Cuts Memory Growth in Long Local Threads\nURL: https://github.com/openai/codex\nImage URL: https://opengraph.githubassets.com/402e6a825eac55bdc95b445d4cc84c71d823e3cd3a1fd3307c6d5e63204dbc08/openai/codex\nSummary: OpenAI's Andrew Ambrosino, who works on Codex, says the Codex app now uses less RAM because long local threads could grow memory usage even without starting other processes. A before-and-after chart he shared shows whole-app memory previously climbing toward 6 GiB as replies grew, versus staying near 2 GiB through about 32,000 replies after the fix.",
+          "sha256": "ffcf0a4213b5774c2522526653aa4923b19bf65bdede5e604865a2eef1db39ed",
+          "source": "https://x.com/ajambrosino/status/2118028125707923513",
+          "request_id": "f4d07e3246fd026a5b1cdcc15c48f1c4cbea862feba1bc7ea3fed238baa7a323",
           "mode": "standard"
         }
       ]
@@ -9451,13 +9464,21 @@
       ]
     },
     "f4d07e3246fd026a5b1cdcc15c48f1c4cbea862feba1bc7ea3fed238baa7a323": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-04T22:51:00.065558+00:00",
       "received_sequence": 291,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-04T22:51:00.776145+00:00",
+      "records": [
+        {
+          "id": 324,
+          "revision": 1,
+          "sha256": "ffcf0a4213b5774c2522526653aa4923b19bf65bdede5e604865a2eef1db39ed"
+        }
+      ]
     }
   },
   "batches": {
@@ -36977,6 +36998,21 @@
       "result": {
         "status": "received",
         "request_id": "f4d07e3246fd026a5b1cdcc15c48f1c4cbea862feba1bc7ea3fed238baa7a323"
+      }
+    },
+    "3bdea0446f915366643e33c026cabc936167c1b2f02fc480914ee00b46a31d30": {
+      "sha256": "b763ddbbbe1a430d525caddff6069107306e5ea43dab0dca98c88bfa87f9bf0d",
+      "result": {
+        "status": "finalized",
+        "request_id": "f4d07e3246fd026a5b1cdcc15c48f1c4cbea862feba1bc7ea3fed238baa7a323",
+        "records": [
+          {
+            "id": 324,
+            "revision": 1,
+            "sha256": "ffcf0a4213b5774c2522526653aa4923b19bf65bdede5e604865a2eef1db39ed"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
