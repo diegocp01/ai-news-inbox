@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 997,
-  "updated_at": "2026-11-04T22:51:02.800474+00:00",
+  "generation": 998,
+  "updated_at": "2026-11-04T22:51:03.427777+00:00",
   "next_id": 326,
   "records": [
     {
@@ -37078,6 +37078,18 @@
         ],
         "duplicates": []
       }
+    },
+    "3781ff6a852ac235389f31ffac877087e2ab429e5db7302e7661882bf0e86066": {
+      "sha256": "722d673c1558c7132b804694e5a0c2e39ed66a5fc5d457ba4ded29552c0015cc",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 325,
+          "revision": 1,
+          "sha256": "dcad7008da76e7f9009c0ce02e98a58e5fccbdf2280cb1eb62d8e1ef9ddcaba3"
+        },
+        "editorial_sha256": "f57841606ee5afd10b300aa5419a3b5ad424811b4f398542da806b67683c8393"
+      }
     }
   },
   "migration": {
@@ -46186,6 +46198,26 @@
         "sha256": "7ccb85d2736fd43c04b9f1d06732abd04266056b71dc0bbcf6cb547b8bf891b8",
         "reviewed_at": "2026-11-04T22:51:01.439368+00:00",
         "operation_id": "ff6dab380fed8cee0ed3de67d64f21d4fa36804b9d8bb01e1dd3d68af970a5e7"
+      }
+    ],
+    "325:1": [
+      {
+        "reference": {
+          "id": 325,
+          "revision": 1,
+          "sha256": "dcad7008da76e7f9009c0ce02e98a58e5fccbdf2280cb1eb62d8e1ef9ddcaba3"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Claude Code subagents, Haiku model, usage/token cost (dev tool)",
+            "evidence_sha256": "bcc2b063b56c32e9879c52778c5981b9599a8f28a4c5c6a38565d73aa7b0aa57"
+          }
+        },
+        "sha256": "f57841606ee5afd10b300aa5419a3b5ad424811b4f398542da806b67683c8393",
+        "reviewed_at": "2026-11-04T22:51:03.427777+00:00",
+        "operation_id": "3781ff6a852ac235389f31ffac877087e2ab429e5db7302e7661882bf0e86066"
       }
     ]
   }
