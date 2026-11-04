@@ -1,0 +1,71 @@
+Title: OpenAI Is Expanding the Models Behind ChatGPT Dots to Include GPT-6.1 Terra
+URL: https://www.androidauthority.com/openai-chatgpt-dots-update-3731008/
+Image URL: https://www.androidauthority.com/wp-content/uploads/2026/09/ChatGPT-Dots.jpg
+Summary: Thibault Sottiaux, who works on Codex and ChatGPT at OpenAI, says OpenAI is expanding the frontier models powering dots, its always-on ChatGPT agents, to include GPT-6 Astra, GPT-6.1 Terra and others later. He says Terra brings speed and a personality upgrade and will help bring dots to more people, and each dot will pick the best model per task.
+ds: true
+
+Title: Claude Users Can Now Auto-Connect Plugins at Login via MCP Servers That Trust Claude as an Issuer
+URL: https://claude.com/docs/connectors/building/enterprise-managed-auth
+Image URL: https://claude-ai.mintlify.app/_mintlify/api/og/v2?division=Authentication&title=Enterprise+Managed+Auth+for+connectors&description=Accept+identity+assertions+from+a+customer%27s+identity+provider+or+Claude+so+users+connect+to+your+MCP+server+without+an+OAuth+consent+step.&theme=c937feb09b37748e448783d0&signature=a8941f433d06e28104a4ebd93208618c60b773271a49d9bd05c5a883afd64bfa
+Summary: Anthropic's ClaudeDevs account says Claude users can now auto-connect plugins at login when the plugin's MCP server accepts Claude as a trusted issuer. Per Anthropic's docs, Enterprise Managed Auth has Claude or a customer's identity provider sign a JWT assertion that the server exchanges for an access token, skipping OAuth consent. Claude-issued assertions are in beta.
+ds: true
+
+Title: Grok Bot Promotes New Shopping Experience for Comparing Deals and Tracking Orders
+URL: https://teslanorth.com/2026/11/02/grok-bot-9-upgrades-shopping/
+Image URL: https://cdn.teslanorth.com/wp-content/uploads/2026/11/featured-1920x1080-10.jpg
+Summary: The Grok Bot account says its new shopping experience helps users find the best deal, compare items and have the Bot track their orders. Per the Grok Bot changelog, version 0.78.1 shows products as cards with photos, rating, price and store, and "Buy now" starts an order the user approves. Users can connect Shop Pay in the Vault.
+
+Title: Anthropic Shares Progress on Provable LLM Inference With FlashProve zkSNARK System
+URL: https://www.anthropic.com/research/provable-inference
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg
+Summary: Anthropic's Frontier Red Team says Claude helped build FlashProve, a zkSNARK system that proves a response came from a committed model while hiding its weights. Anthropic reports one H100 proves Llama 4 Maverick inference at about 110 tokens per second, roughly 70-95x vLLM's GPU time. It released code, a technical report and Lean proofs under Apache 2.0.
+ds: true
+
+Title: ChatGPT Voice Comes to Finances for Talking Through Spending and Savings
+URL: https://cryptobriefing.com/openai-chatgpt-voice-finance-us/
+Image URL: https://static.cryptobriefing.com/wp-content/uploads/2026/11/03161748/library-openai-adds-voice-chat-to-chatgpt-s-personal-finance-too-800x450.png
+Summary: OpenAI's ChatGPT account says ChatGPT Voice has come to Finances, letting users securely connect their accounts and then talk through spending, savings and other money questions. Per OpenAI's help center, Finances is available in the U.S. to Free, Go, Plus and Pro users, connecting accounts through Plaid and credit data through Experian.
+
+Title: Google Will Turn Off Gemini and Search by Default for K-12 Student Accounts Until Schools Opt In
+URL: https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Designing_responsible_AI_for_learning_hero.width-1300.png
+Summary: Google's Chris Phillips says Gemini, Gemini Notebook, Gemini in Classroom and Google Search will be off for K-12 student accounts until administrators turn them on. Polymarket framed it as schools banning AI losing Search; NBC News reports Google says Search can be enabled without Gemini but keeps built-in AI features. Google is also piloting Guided Learning in Search.
+
+Title: Elon Musk Says Grok Bot Can Find Top Local Doctors, Call Them and Book Appointments
+URL: https://www.basenor.com/blogs/news/grok-bot-as-personal-assistant-5-details-that-matter
+Image URL: https://www.basenor.com/cdn/shop/articles/e7ef177afd574f8cd404caa7df4ece96.jpg?v=1793729096
+Summary: Elon Musk says Grok Bot can research the best doctors nearby, call them by phone and make appointments. He quoted Min Choi, who says Grok Bot found a pediatric orthopedist for his injured daughter, called and booked a same-day 9:30 visit while he drove, transcribed the call live, gathered insurance and pricing, and added it to his calendar.
+
+Title: Developer Vixhal Baraiya Compiles a Filesystem Into Qwen3.5-2B's Weights With qwenFS
+URL: https://github.com/vixhal-baraiya/qwenFS
+Image URL: https://raw.githubusercontent.com/vixhal-baraiya/qwenFS/main/docs/qfs-demo.gif
+Summary: Vixhal Baraiya released qwenFS, an experimental Qwen3.5-2B with a filesystem compiled into its weights: eight hand-set, non-learned layers placed before Qwen's 24. According to his repo, attention stores file text keyed by file, version and offset, Gated DeltaNet state holds tables and links, and reads copy text back token for token via ordinary tool calls.
+ds: true
+
+Title: Creator Ayo Omolewa Says He Took Apart TikTok's App to Show What Its Feed Tracks
+URL: https://ayoships.com/
+Image URL: https://ayoships.com/og.jpg
+Summary: Ayo Omolewa (@ayoships), a0.dev co-founder known for viral app breakdowns, says he decompiled TikTok's Android app. In his video he claims each feed request sends details like battery level, charging status, screen brightness and mute state, that cached videos carry predicted skip and follow scores, and that the app detects drowsiness.
+
+Title: Apple Opens Siri AI App Integration Preview to Developers
+URL: https://developer.apple.com/news/?id=gdk2umrf
+Image URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Siri-AI-Beta-macOS-27-Top-Features.jpg?quality=82&strip=all&w=1600
+Summary: Apple’s new developer preview lets apps connect their content and actions to Siri AI through App Intents. Developers can also create skills that combine several actions into one task. The preview is available in Apple’s 27.3 software betas. Apple says customer availability will follow in a few months, with App Store submissions opening in spring.
+ds: true
+
+Title: Google Updates School Controls for Search and AI
+URL: https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Designing_responsible_AI_for_learning_hero.width-1300.png
+Summary: Google plans to turn off Search and Gemini tools by default for K-12 student accounts in early 2027, pending school approval. Administrators can enable services separately. Google says the changes give schools more choice, but Search will still include AI features, leaving schools without an AI-free Search option under the announced controls.
+
+Title: CrowdStrike Introduces AI Kill Switch for AI Agents
+URL: https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/
+Image URL: https://assets.crowdstrike.com/is/image/crowdstrikeinc/Blog-Introducing-AI-Kill-Switch-1?fmt=png-alpha&hei=698&op_usm=3.0%2C0.3%2C2%2C0&qlt=95%2C0&resMode=sharp2&wid=1060
+Summary: CrowdStrike introduced AI Kill Switch in Falcon Guardian. The company says authorized administrators can use connected AI gateways to block agents’ access to AI models, with each action recorded in an audit trail. The current control targets model access; CrowdStrike says broader containment, including stopping agents directly on work devices and in cloud environments, is coming later.
+ds: true
+
+
+
+
+
+.

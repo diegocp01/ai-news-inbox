@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 985,
-  "updated_at": "2026-11-04T13:07:53.795264+00:00",
+  "generation": 986,
+  "updated_at": "2026-11-04T15:05:45.423522+00:00",
   "next_id": 323,
   "records": [
     {
@@ -17412,9 +17412,191 @@
       },
       "acknowledged_at": "2026-11-03T14:45:06.549997+00:00",
       "checkpoint_after": 310
+    },
+    "2478beb2f5bbc665cf8fd40a": {
+      "batch_id": "2478beb2f5bbc665cf8fd40a",
+      "status": "prepared",
+      "checkpoint_before": 310,
+      "prepared_at": "2026-11-04T15:05:45.423522+00:00",
+      "intake_cutoff": 289,
+      "records": [
+        {
+          "id": 311,
+          "revision": 1,
+          "sha256": "3cd1c992416ce3eeeffe9c1a21fee66340581694419e7200c5c873dbef775bd7"
+        },
+        {
+          "id": 312,
+          "revision": 1,
+          "sha256": "a5ecdd42c791bfbac453889fcc558e6501af59269c19ce67765ecbb74b220ecf"
+        },
+        {
+          "id": 313,
+          "revision": 1,
+          "sha256": "099ddf08698cf7bc136715dc654e85e343970315b967d21dde6af1d3a0c6d6df"
+        },
+        {
+          "id": 314,
+          "revision": 1,
+          "sha256": "7e039c6ecdd658bb2c0c8ecb2b9e4bdd0f7e7988de617d9ed8571ebd3e14f985"
+        },
+        {
+          "id": 315,
+          "revision": 1,
+          "sha256": "0ea4e7169c9274f099c3c32c40579ef9bdd7a2022efd3ac5ac2284b99e1f335c"
+        },
+        {
+          "id": 316,
+          "revision": 1,
+          "sha256": "653b9146c6d958c2a854751dff345e7d564c8dc3bc04a16b874f2dcf902c61ca"
+        },
+        {
+          "id": 317,
+          "revision": 1,
+          "sha256": "ba781484d85a534e8006efeb4bda0c008282b082bd966a2d61d90e37bb11870f"
+        },
+        {
+          "id": 318,
+          "revision": 1,
+          "sha256": "969dec8ce8b153154d7fa02d818800143d4d51fc6914fa8a056903787359e65f"
+        },
+        {
+          "id": 319,
+          "revision": 1,
+          "sha256": "094514b2fefb07bc4043c6e0a6a48d6a6c64ba1f6f8adbb8f5bdf58533ec0c9b"
+        },
+        {
+          "id": 320,
+          "revision": 1,
+          "sha256": "8ab211db42ca15365ee6b0d83ccf77cc4a736464ed52ee6ee40e9fd2b3a92a06"
+        },
+        {
+          "id": 321,
+          "revision": 1,
+          "sha256": "1ff82efca5a055c9c84beeed882d8feca8a5d4a7378244ab44908c395628472a"
+        },
+        {
+          "id": 322,
+          "revision": 1,
+          "sha256": "dc5c53238e3326973ba83b23280758f020f56d80798e16d3740385662d32c888"
+        }
+      ],
+      "first_id": 311,
+      "last_id": 322,
+      "count": 12,
+      "txt_path": "workflows/anf/batches/2478beb2f5bbc665cf8fd40a.txt",
+      "json_path": "workflows/anf/batches/2478beb2f5bbc665cf8fd40a.json",
+      "txt_sha256": "abc0c4eabb48c56638ca3d265872ead79ffa9ffc2158ecb29db062d004f79c3a",
+      "json_sha256": "9f9b6824c8bb56812f022a3ff86cb2ffa75b0e76a4238ddcf32ac6b2f386d43a",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Mentions Codex (dev term); model routing across GPT-6 Astra/GPT-6.1 Terra for agents",
+            "evidence_sha256": "1fcc29d4109ae23f4d9b7e12c2fd47b8bd0e25b50d0c993d945de68cfaf8f787"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "MCP server auth / JWT / OAuth / access tokens for plugin developers",
+            "evidence_sha256": "6da0c2c2b2be4a08ca872d8c96fed5d55efe99ea98c60268826b2c8c44ca7ed2"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer shopping feature; no ML/dev/API/hardware terms",
+            "evidence_sha256": "534a367c038ab7fbef8f101501893141da900639033be824150f435e6c49d90b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Cryptographic proofs of ML inference; H100, tokens/sec, vLLM",
+            "evidence_sha256": "2c38cea38aa3ea20bd6e16f6c41afe5313f888e74c2d2c0a95988a5a123ca680"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer personal-finance voice feature; no ML/dev/API/hardware terms",
+            "evidence_sha256": "5ba72ab61be14b2df5eaf5109ac0186e088663aa72ccdb8926b964defd0d26a1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Education policy / product access controls; no ML/dev/API/hardware terms",
+            "evidence_sha256": "2b9da2ecab7e407688672cb40e1bd0fc7498c118fbba66cc68ed234e454ea369"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer assistant phone-booking use case; no ML/dev/API/hardware terms",
+            "evidence_sha256": "329512842e8e11d823b1e8ca2fbcae55819bc539d29ea5d486593824197614d5"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Model internals: weights, attention, Gated DeltaNet state, tokens (ML-technical)",
+            "evidence_sha256": "01c7ba5f5f0bcd28c4ec7c7990f0af60be62398f75ac3392d2f4c89c6c2594d2"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer privacy story about a creator's TikTok app breakdown; not ML/dev/API technical",
+            "evidence_sha256": "63b83dcf96f77ae98ab8afde469c4e9f867826d1af25e1c58b961a0b8ecaffdc"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Apple's developer preview lets apps connect their content and actions to Siri AI through App Intents, and developers can combine several actions into one skill. The preview is in Apple's 27.3 software betas, with customer availability in a few months and App Store submissions opening in spring. This is a developer integration preview, for technical developer audiences. muse-compile-backfill 2026-11-04: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "8ab211db42ca15365ee6b0d83ccf77cc4a736464ed52ee6ee40e9fd2b3a92a06"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google plans to turn off Search and Gemini tools by default for K-12 student accounts in early 2027, pending school approval, with administrators able to enable services separately. Google says the changes give schools more choice, though Search will still include AI features. This is education policy and product access news for schools and a broad audience, not technical research. muse-compile-backfill 2026-11-04: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "1ff82efca5a055c9c84beeed882d8feca8a5d4a7378244ab44908c395628472a"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "CrowdStrike introduced AI Kill Switch in Falcon Guardian, letting authorized administrators use connected AI gateways to block agents' access to AI models, with each action recorded in an audit trail. Broader containment on work devices and in cloud environments is coming later. This is an enterprise AI security control for administrators and technical practitioners, not a consumer story. muse-compile-backfill 2026-11-04: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "dc5c53238e3326973ba83b23280758f020f56d80798e16d3740385662d32c888"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-04T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "2478beb2f5bbc665cf8fd40a",
   "replacement_batch": null,
   "checkpoint": 310,
   "checkpoint_history": [
@@ -36447,6 +36629,195 @@
           "sha256": "dc5c53238e3326973ba83b23280758f020f56d80798e16d3740385662d32c888"
         },
         "editorial_sha256": "9c9bc1dcd6db70fb87ff0d22aca82f53f9b6ee33c1e2ca69ed80a40d20546c38"
+      }
+    },
+    "2d42b6b1fbd69945236be1e84ab9a3c05f7bc7864fa6027483e4e8024196319e": {
+      "sha256": "53e2c2dbe9ecf0f8d964d77207e966deaf6baec9bf7d541732ad2e9ffdb8248a",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "2478beb2f5bbc665cf8fd40a",
+          "status": "prepared",
+          "checkpoint_before": 310,
+          "prepared_at": "2026-11-04T15:05:45.423522+00:00",
+          "intake_cutoff": 289,
+          "records": [
+            {
+              "id": 311,
+              "revision": 1,
+              "sha256": "3cd1c992416ce3eeeffe9c1a21fee66340581694419e7200c5c873dbef775bd7"
+            },
+            {
+              "id": 312,
+              "revision": 1,
+              "sha256": "a5ecdd42c791bfbac453889fcc558e6501af59269c19ce67765ecbb74b220ecf"
+            },
+            {
+              "id": 313,
+              "revision": 1,
+              "sha256": "099ddf08698cf7bc136715dc654e85e343970315b967d21dde6af1d3a0c6d6df"
+            },
+            {
+              "id": 314,
+              "revision": 1,
+              "sha256": "7e039c6ecdd658bb2c0c8ecb2b9e4bdd0f7e7988de617d9ed8571ebd3e14f985"
+            },
+            {
+              "id": 315,
+              "revision": 1,
+              "sha256": "0ea4e7169c9274f099c3c32c40579ef9bdd7a2022efd3ac5ac2284b99e1f335c"
+            },
+            {
+              "id": 316,
+              "revision": 1,
+              "sha256": "653b9146c6d958c2a854751dff345e7d564c8dc3bc04a16b874f2dcf902c61ca"
+            },
+            {
+              "id": 317,
+              "revision": 1,
+              "sha256": "ba781484d85a534e8006efeb4bda0c008282b082bd966a2d61d90e37bb11870f"
+            },
+            {
+              "id": 318,
+              "revision": 1,
+              "sha256": "969dec8ce8b153154d7fa02d818800143d4d51fc6914fa8a056903787359e65f"
+            },
+            {
+              "id": 319,
+              "revision": 1,
+              "sha256": "094514b2fefb07bc4043c6e0a6a48d6a6c64ba1f6f8adbb8f5bdf58533ec0c9b"
+            },
+            {
+              "id": 320,
+              "revision": 1,
+              "sha256": "8ab211db42ca15365ee6b0d83ccf77cc4a736464ed52ee6ee40e9fd2b3a92a06"
+            },
+            {
+              "id": 321,
+              "revision": 1,
+              "sha256": "1ff82efca5a055c9c84beeed882d8feca8a5d4a7378244ab44908c395628472a"
+            },
+            {
+              "id": 322,
+              "revision": 1,
+              "sha256": "dc5c53238e3326973ba83b23280758f020f56d80798e16d3740385662d32c888"
+            }
+          ],
+          "first_id": 311,
+          "last_id": 322,
+          "count": 12,
+          "txt_path": "workflows/anf/batches/2478beb2f5bbc665cf8fd40a.txt",
+          "json_path": "workflows/anf/batches/2478beb2f5bbc665cf8fd40a.json",
+          "txt_sha256": "abc0c4eabb48c56638ca3d265872ead79ffa9ffc2158ecb29db062d004f79c3a",
+          "json_sha256": "9f9b6824c8bb56812f022a3ff86cb2ffa75b0e76a4238ddcf32ac6b2f386d43a",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Mentions Codex (dev term); model routing across GPT-6 Astra/GPT-6.1 Terra for agents",
+                "evidence_sha256": "1fcc29d4109ae23f4d9b7e12c2fd47b8bd0e25b50d0c993d945de68cfaf8f787"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "MCP server auth / JWT / OAuth / access tokens for plugin developers",
+                "evidence_sha256": "6da0c2c2b2be4a08ca872d8c96fed5d55efe99ea98c60268826b2c8c44ca7ed2"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer shopping feature; no ML/dev/API/hardware terms",
+                "evidence_sha256": "534a367c038ab7fbef8f101501893141da900639033be824150f435e6c49d90b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Cryptographic proofs of ML inference; H100, tokens/sec, vLLM",
+                "evidence_sha256": "2c38cea38aa3ea20bd6e16f6c41afe5313f888e74c2d2c0a95988a5a123ca680"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer personal-finance voice feature; no ML/dev/API/hardware terms",
+                "evidence_sha256": "5ba72ab61be14b2df5eaf5109ac0186e088663aa72ccdb8926b964defd0d26a1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Education policy / product access controls; no ML/dev/API/hardware terms",
+                "evidence_sha256": "2b9da2ecab7e407688672cb40e1bd0fc7498c118fbba66cc68ed234e454ea369"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer assistant phone-booking use case; no ML/dev/API/hardware terms",
+                "evidence_sha256": "329512842e8e11d823b1e8ca2fbcae55819bc539d29ea5d486593824197614d5"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Model internals: weights, attention, Gated DeltaNet state, tokens (ML-technical)",
+                "evidence_sha256": "01c7ba5f5f0bcd28c4ec7c7990f0af60be62398f75ac3392d2f4c89c6c2594d2"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer privacy story about a creator's TikTok app breakdown; not ML/dev/API technical",
+                "evidence_sha256": "63b83dcf96f77ae98ab8afde469c4e9f867826d1af25e1c58b961a0b8ecaffdc"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Apple's developer preview lets apps connect their content and actions to Siri AI through App Intents, and developers can combine several actions into one skill. The preview is in Apple's 27.3 software betas, with customer availability in a few months and App Store submissions opening in spring. This is a developer integration preview, for technical developer audiences. muse-compile-backfill 2026-11-04: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "8ab211db42ca15365ee6b0d83ccf77cc4a736464ed52ee6ee40e9fd2b3a92a06"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Google plans to turn off Search and Gemini tools by default for K-12 student accounts in early 2027, pending school approval, with administrators able to enable services separately. Google says the changes give schools more choice, though Search will still include AI features. This is education policy and product access news for schools and a broad audience, not technical research. muse-compile-backfill 2026-11-04: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "1ff82efca5a055c9c84beeed882d8feca8a5d4a7378244ab44908c395628472a"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "technical_practice",
+                "rationale": "CrowdStrike introduced AI Kill Switch in Falcon Guardian, letting authorized administrators use connected AI gateways to block agents' access to AI models, with each action recorded in an audit trail. Broader containment on work devices and in cloud environments is coming later. This is an enterprise AI security control for administrators and technical practitioners, not a consumer story. muse-compile-backfill 2026-11-04: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "dc5c53238e3326973ba83b23280758f020f56d80798e16d3740385662d32c888"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-04T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
