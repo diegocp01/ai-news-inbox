@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 994,
-  "updated_at": "2026-11-04T22:51:00.776145+00:00",
+  "generation": 995,
+  "updated_at": "2026-11-04T22:51:01.439368+00:00",
   "next_id": 325,
   "records": [
     {
@@ -37014,6 +37014,18 @@
         ],
         "duplicates": []
       }
+    },
+    "ff6dab380fed8cee0ed3de67d64f21d4fa36804b9d8bb01e1dd3d68af970a5e7": {
+      "sha256": "0065a9a86afc271e4c02615ed1b92696184d379706fdf414576d6c0ecd646be6",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 324,
+          "revision": 1,
+          "sha256": "ffcf0a4213b5774c2522526653aa4923b19bf65bdede5e604865a2eef1db39ed"
+        },
+        "editorial_sha256": "7ccb85d2736fd43c04b9f1d06732abd04266056b71dc0bbcf6cb547b8bf891b8"
+      }
     }
   },
   "migration": {
@@ -46102,6 +46114,26 @@
         "sha256": "a54cdd30d53532a97e3b4aaf6e846a3fc9dfccd8174bbc439235b0d02fec551c",
         "reviewed_at": "2026-11-04T18:19:30.698648+00:00",
         "operation_id": "dfe47a2528b70ca7560c9785e10ed6bd0d9ea471e433e755e3406ee850d15776"
+      }
+    ],
+    "324:1": [
+      {
+        "reference": {
+          "id": 324,
+          "revision": 1,
+          "sha256": "ffcf0a4213b5774c2522526653aa4923b19bf65bdede5e604865a2eef1db39ed"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Codex app memory/RAM performance fix (Codex, dev tool)",
+            "evidence_sha256": "43fe1836eecd1efbfce09c74472fd3e54d580e720e306c780d37caf4c586414b"
+          }
+        },
+        "sha256": "7ccb85d2736fd43c04b9f1d06732abd04266056b71dc0bbcf6cb547b8bf891b8",
+        "reviewed_at": "2026-11-04T22:51:01.439368+00:00",
+        "operation_id": "ff6dab380fed8cee0ed3de67d64f21d4fa36804b9d8bb01e1dd3d68af970a5e7"
       }
     ]
   }
