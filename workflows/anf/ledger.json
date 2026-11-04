@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 981,
-  "updated_at": "2026-11-04T12:42:03.648127+00:00",
-  "next_id": 320,
+  "generation": 982,
+  "updated_at": "2026-11-04T12:49:52.468867+00:00",
+  "next_id": 323,
   "records": [
     {
       "id": 1,
@@ -4243,6 +4243,48 @@
           "source": "https://x.com/ayoships/status/2117650684774580249",
           "request_id": "24c1eec58027164fc8db53f733c186eef25ccbe17f8ef66b8080c4cf917b453a",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 320,
+      "revisions": [
+        {
+          "created_at": "2026-11-04T12:49:52.468867+00:00",
+          "block": "Title: Apple Opens Siri AI App Integration Preview to Developers\nURL: https://developer.apple.com/news/?id=gdk2umrf\nImage URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Siri-AI-Beta-macOS-27-Top-Features.jpg?quality=82&strip=all&w=1600\nSummary: Apple’s new developer preview lets apps connect their content and actions to Siri AI through App Intents. Developers can also create skills that combine several actions into one task. The preview is available in Apple’s 27.3 software betas. Apple says customer availability will follow in a few months, with App Store submissions opening in spring.",
+          "sha256": "8ab211db42ca15365ee6b0d83ccf77cc4a736464ed52ee6ee40e9fd2b3a92a06",
+          "source": "developer.apple.com",
+          "request_id": "add58b5923c5fb6efddd3e9fbc8185f1cac53b5e276cdc2814db45a6114a5751",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 321,
+      "revisions": [
+        {
+          "created_at": "2026-11-04T12:49:52.468867+00:00",
+          "block": "Title: Google Updates School Controls for Search and AI\nURL: https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Designing_responsible_AI_for_learning_hero.width-1300.png\nSummary: Google plans to turn off Search and Gemini tools by default for K-12 student accounts in early 2027, pending school approval. Administrators can enable services separately. Google says the changes give schools more choice, but Search will still include AI features, leaving schools without an AI-free Search option under the announced controls.",
+          "sha256": "1ff82efca5a055c9c84beeed882d8feca8a5d4a7378244ab44908c395628472a",
+          "source": "blog.google",
+          "request_id": "add58b5923c5fb6efddd3e9fbc8185f1cac53b5e276cdc2814db45a6114a5751",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 322,
+      "revisions": [
+        {
+          "created_at": "2026-11-04T12:49:52.468867+00:00",
+          "block": "Title: CrowdStrike Introduces AI Kill Switch for AI Agents\nURL: https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/\nImage URL: https://assets.crowdstrike.com/is/image/crowdstrikeinc/Blog-Introducing-AI-Kill-Switch-1?fmt=png-alpha&hei=698&op_usm=3.0%2C0.3%2C2%2C0&qlt=95%2C0&resMode=sharp2&wid=1060\nSummary: CrowdStrike introduced AI Kill Switch in Falcon Guardian. The company says authorized administrators can use connected AI gateways to block agents’ access to AI models, with each action recorded in an audit trail. The current control targets model access; CrowdStrike says broader containment, including stopping agents directly on work devices and in cloud environments, is coming later.",
+          "sha256": "dc5c53238e3326973ba83b23280758f020f56d80798e16d3740385662d32c888",
+          "source": "crowdstrike.com",
+          "request_id": "add58b5923c5fb6efddd3e9fbc8185f1cac53b5e276cdc2814db45a6114a5751",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -9351,14 +9393,32 @@
       ]
     },
     "add58b5923c5fb6efddd3e9fbc8185f1cac53b5e276cdc2814db45a6114a5751": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-04T12:42:03.648127+00:00",
       "received_sequence": 289,
       "expected_items": 3,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-04T12:49:52.468867+00:00",
+      "records": [
+        {
+          "id": 320,
+          "revision": 1,
+          "sha256": "8ab211db42ca15365ee6b0d83ccf77cc4a736464ed52ee6ee40e9fd2b3a92a06"
+        },
+        {
+          "id": 321,
+          "revision": 1,
+          "sha256": "1ff82efca5a055c9c84beeed882d8feca8a5d4a7378244ab44908c395628472a"
+        },
+        {
+          "id": 322,
+          "revision": 1,
+          "sha256": "dc5c53238e3326973ba83b23280758f020f56d80798e16d3740385662d32c888"
+        }
+      ]
     }
   },
   "batches": {
@@ -36326,6 +36386,31 @@
       "result": {
         "status": "received",
         "request_id": "add58b5923c5fb6efddd3e9fbc8185f1cac53b5e276cdc2814db45a6114a5751"
+      }
+    },
+    "076dc0085768e1b3e5be354944929f977779331d2ebecbea5f00542793e6c3c0": {
+      "sha256": "e55247e1b0510cb4b012a1c8708e3d255044d073fd962eb0d5ba28cb0e868c07",
+      "result": {
+        "status": "finalized",
+        "request_id": "add58b5923c5fb6efddd3e9fbc8185f1cac53b5e276cdc2814db45a6114a5751",
+        "records": [
+          {
+            "id": 320,
+            "revision": 1,
+            "sha256": "8ab211db42ca15365ee6b0d83ccf77cc4a736464ed52ee6ee40e9fd2b3a92a06"
+          },
+          {
+            "id": 321,
+            "revision": 1,
+            "sha256": "1ff82efca5a055c9c84beeed882d8feca8a5d4a7378244ab44908c395628472a"
+          },
+          {
+            "id": 322,
+            "revision": 1,
+            "sha256": "dc5c53238e3326973ba83b23280758f020f56d80798e16d3740385662d32c888"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
