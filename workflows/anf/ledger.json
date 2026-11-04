@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 978,
-  "updated_at": "2026-11-04T04:20:03.097657+00:00",
-  "next_id": 319,
+  "generation": 979,
+  "updated_at": "2026-11-04T04:20:03.700332+00:00",
+  "next_id": 320,
   "records": [
     {
       "id": 1,
@@ -4229,6 +4229,19 @@
           "sha256": "969dec8ce8b153154d7fa02d818800143d4d51fc6914fa8a056903787359e65f",
           "source": "https://x.com/TheVixhal/status/2117641713036759494",
           "request_id": "49ebaa2b783d382edd978b80af7c5fce5f32ae9c5fe401737ab3540e89e67771",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 319,
+      "revisions": [
+        {
+          "created_at": "2026-11-04T04:20:03.700332+00:00",
+          "block": "Title: Creator Ayo Omolewa Says He Took Apart TikTok's App to Show What Its Feed Tracks\nURL: https://ayoships.com/\nImage URL: https://ayoships.com/og.jpg\nSummary: Ayo Omolewa (@ayoships), a0.dev co-founder known for viral app breakdowns, says he decompiled TikTok's Android app. In his video he claims each feed request sends details like battery level, charging status, screen brightness and mute state, that cached videos carry predicted skip and follow scores, and that the app detects drowsiness.",
+          "sha256": "094514b2fefb07bc4043c6e0a6a48d6a6c64ba1f6f8adbb8f5bdf58533ec0c9b",
+          "source": "https://x.com/ayoships/status/2117650684774580249",
+          "request_id": "24c1eec58027164fc8db53f733c186eef25ccbe17f8ef66b8080c4cf917b453a",
           "mode": "standard"
         }
       ]
@@ -9321,13 +9334,21 @@
       ]
     },
     "24c1eec58027164fc8db53f733c186eef25ccbe17f8ef66b8080c4cf917b453a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-04T04:20:03.097657+00:00",
       "received_sequence": 288,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-04T04:20:03.700332+00:00",
+      "records": [
+        {
+          "id": 319,
+          "revision": 1,
+          "sha256": "094514b2fefb07bc4043c6e0a6a48d6a6c64ba1f6f8adbb8f5bdf58533ec0c9b"
+        }
+      ]
     }
   },
   "batches": {
@@ -36261,6 +36282,21 @@
       "result": {
         "status": "received",
         "request_id": "24c1eec58027164fc8db53f733c186eef25ccbe17f8ef66b8080c4cf917b453a"
+      }
+    },
+    "13e40be6eddcfd00accb2a99ad1cf882accfc1fe760dfb3bb62eada61136d9cb": {
+      "sha256": "b96ea1dfcd0e1f0dbcea3f52da76a882723cb41d38699d02fc33328d771771eb",
+      "result": {
+        "status": "finalized",
+        "request_id": "24c1eec58027164fc8db53f733c186eef25ccbe17f8ef66b8080c4cf917b453a",
+        "records": [
+          {
+            "id": 319,
+            "revision": 1,
+            "sha256": "094514b2fefb07bc4043c6e0a6a48d6a6c64ba1f6f8adbb8f5bdf58533ec0c9b"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
