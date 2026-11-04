@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 982,
-  "updated_at": "2026-11-04T12:49:52.468867+00:00",
+  "generation": 985,
+  "updated_at": "2026-11-04T13:07:53.795264+00:00",
   "next_id": 323,
   "records": [
     {
@@ -36412,6 +36412,42 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261104-320-6754": {
+      "sha256": "fbb63b868c3502237483827bfaab11f992979c0b15ca3b8648f93be1362ea91c",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 320,
+          "revision": 1,
+          "sha256": "8ab211db42ca15365ee6b0d83ccf77cc4a736464ed52ee6ee40e9fd2b3a92a06"
+        },
+        "editorial_sha256": "eb2a62fb599db2c3ff8bd38aada74859229a5d5bf491f54653906c0253af67a9"
+      }
+    },
+    "muse-backfill-20261104-321-7128": {
+      "sha256": "079cc8e9f376af8c38fdae932adf75388dbdbde712f62c030dbacfe4b7cb5d18",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 321,
+          "revision": 1,
+          "sha256": "1ff82efca5a055c9c84beeed882d8feca8a5d4a7378244ab44908c395628472a"
+        },
+        "editorial_sha256": "c3bfbfa403760147264ed7ea91ce66adc1c55e64f41e1b30b308b50d89161168"
+      }
+    },
+    "muse-backfill-20261104-322-2944": {
+      "sha256": "de28dcf2314102996566838aad180a03c3d44a43c62913dbff3964abc3d46e45",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 322,
+          "revision": 1,
+          "sha256": "dc5c53238e3326973ba83b23280758f020f56d80798e16d3740385662d32c888"
+        },
+        "editorial_sha256": "9c9bc1dcd6db70fb87ff0d22aca82f53f9b6ee33c1e2ca69ed80a40d20546c38"
+      }
     }
   },
   "migration": {
@@ -45420,6 +45456,66 @@
         "sha256": "4b3e74e0daaee87059bcb0eb30e8b79c9b20cc4cc2cf10d3ac4bed04c448afb4",
         "reviewed_at": "2026-11-04T04:20:04.310069+00:00",
         "operation_id": "f58de98bbc28c64700c8a8cd6926901fb175334e67752eda9a923b94a22d1bbe"
+      }
+    ],
+    "320:1": [
+      {
+        "reference": {
+          "id": 320,
+          "revision": 1,
+          "sha256": "8ab211db42ca15365ee6b0d83ccf77cc4a736464ed52ee6ee40e9fd2b3a92a06"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Apple's developer preview lets apps connect their content and actions to Siri AI through App Intents, and developers can combine several actions into one skill. The preview is in Apple's 27.3 software betas, with customer availability in a few months and App Store submissions opening in spring. This is a developer integration preview, for technical developer audiences. muse-compile-backfill 2026-11-04: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "8ab211db42ca15365ee6b0d83ccf77cc4a736464ed52ee6ee40e9fd2b3a92a06"
+          }
+        },
+        "sha256": "eb2a62fb599db2c3ff8bd38aada74859229a5d5bf491f54653906c0253af67a9",
+        "reviewed_at": "2026-11-04T13:07:53.522235+00:00",
+        "operation_id": "muse-backfill-20261104-320-6754"
+      }
+    ],
+    "321:1": [
+      {
+        "reference": {
+          "id": 321,
+          "revision": 1,
+          "sha256": "1ff82efca5a055c9c84beeed882d8feca8a5d4a7378244ab44908c395628472a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google plans to turn off Search and Gemini tools by default for K-12 student accounts in early 2027, pending school approval, with administrators able to enable services separately. Google says the changes give schools more choice, though Search will still include AI features. This is education policy and product access news for schools and a broad audience, not technical research. muse-compile-backfill 2026-11-04: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "1ff82efca5a055c9c84beeed882d8feca8a5d4a7378244ab44908c395628472a"
+          }
+        },
+        "sha256": "c3bfbfa403760147264ed7ea91ce66adc1c55e64f41e1b30b308b50d89161168",
+        "reviewed_at": "2026-11-04T13:07:53.653500+00:00",
+        "operation_id": "muse-backfill-20261104-321-7128"
+      }
+    ],
+    "322:1": [
+      {
+        "reference": {
+          "id": 322,
+          "revision": 1,
+          "sha256": "dc5c53238e3326973ba83b23280758f020f56d80798e16d3740385662d32c888"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "CrowdStrike introduced AI Kill Switch in Falcon Guardian, letting authorized administrators use connected AI gateways to block agents' access to AI models, with each action recorded in an audit trail. Broader containment on work devices and in cloud environments is coming later. This is an enterprise AI security control for administrators and technical practitioners, not a consumer story. muse-compile-backfill 2026-11-04: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "dc5c53238e3326973ba83b23280758f020f56d80798e16d3740385662d32c888"
+          }
+        },
+        "sha256": "9c9bc1dcd6db70fb87ff0d22aca82f53f9b6ee33c1e2ca69ed80a40d20546c38",
+        "reviewed_at": "2026-11-04T13:07:53.795264+00:00",
+        "operation_id": "muse-backfill-20261104-322-2944"
       }
     ]
   }
