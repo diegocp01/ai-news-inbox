@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 973,
-  "updated_at": "2026-11-04T00:12:37.682907+00:00",
+  "generation": 974,
+  "updated_at": "2026-11-04T00:12:38.296164+00:00",
   "next_id": 318,
   "records": [
     {
@@ -36170,6 +36170,18 @@
         ],
         "duplicates": []
       }
+    },
+    "453068ab2967cd1fa11a5b5185e451ed892b9e15eaa44a5aaaa4e0788839c5d4": {
+      "sha256": "98fbd1d28fb73df5ea8ccb213c0fc4e96d726a2666f0f64593805255fe3ce826",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 317,
+          "revision": 1,
+          "sha256": "ba781484d85a534e8006efeb4bda0c008282b082bd966a2d61d90e37bb11870f"
+        },
+        "editorial_sha256": "58773f00e8947bba658a5b63a6c3bb47fc4c4505c770298c996b99fc6dbdb8c9"
+      }
     }
   },
   "migration": {
@@ -45118,6 +45130,26 @@
         "sha256": "bc5043730e280568f7d4a459d7877555bcd2af6c44f6f88e1f41a3f48fc42e40",
         "reviewed_at": "2026-11-04T00:11:16.216483+00:00",
         "operation_id": "ad30ac737d1c7cfead8aff456868fe684653b5a716c845ead07e5637633fa479"
+      }
+    ],
+    "317:1": [
+      {
+        "reference": {
+          "id": 317,
+          "revision": 1,
+          "sha256": "ba781484d85a534e8006efeb4bda0c008282b082bd966a2d61d90e37bb11870f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer assistant phone-booking use case; no ML/dev/API/hardware terms",
+            "evidence_sha256": "329512842e8e11d823b1e8ca2fbcae55819bc539d29ea5d486593824197614d5"
+          }
+        },
+        "sha256": "58773f00e8947bba658a5b63a6c3bb47fc4c4505c770298c996b99fc6dbdb8c9",
+        "reviewed_at": "2026-11-04T00:12:38.296164+00:00",
+        "operation_id": "453068ab2967cd1fa11a5b5185e451ed892b9e15eaa44a5aaaa4e0788839c5d4"
       }
     ]
   }
