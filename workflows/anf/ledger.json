@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 996,
-  "updated_at": "2026-11-04T22:51:02.091700+00:00",
-  "next_id": 325,
+  "generation": 997,
+  "updated_at": "2026-11-04T22:51:02.800474+00:00",
+  "next_id": 326,
   "records": [
     {
       "id": 1,
@@ -4310,6 +4310,19 @@
           "sha256": "ffcf0a4213b5774c2522526653aa4923b19bf65bdede5e604865a2eef1db39ed",
           "source": "https://x.com/ajambrosino/status/2118028125707923513",
           "request_id": "f4d07e3246fd026a5b1cdcc15c48f1c4cbea862feba1bc7ea3fed238baa7a323",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 325,
+      "revisions": [
+        {
+          "created_at": "2026-11-04T22:51:02.800474+00:00",
+          "block": "Title: Claude Code Cuts Usage Cost of Background Subagent Status Updates by About 99%\nURL: https://code.claude.com/docs/en/sub-agents\nImage URL: https://claude-code.mintlify.app/_mintlify/api/og/v2?division=Agents+and+parallel+work&title=Create+custom+subagents&description=Create+and+use+specialized+AI+subagents+in+Claude+Code+for+task-specific+workflows+and+improved+context+management.&theme=8d9812df31da293aba4e8103&signature=0797bd60edce9a2d7f9c39f084afdbf328012d290f7731ce1a85bdfe40534a3c\nSummary: Anthropic's ClaudeDevs account says background subagents in Claude Code now use less of users' usage limits. Running subagents refresh their status line every 30 seconds, and each refresh used to re-read the whole conversation; now Haiku 5.5 writes it from short notes instead, which Anthropic says makes each update about 99% cheaper.",
+          "sha256": "dcad7008da76e7f9009c0ce02e98a58e5fccbdf2280cb1eb62d8e1ef9ddcaba3",
+          "source": "https://x.com/ClaudeDevs/status/2118063143167693011",
+          "request_id": "531250a9220ba67e54282ed2d2571294abaf5efbd06a9e1ed0fdd3ed0c3c3e25",
           "mode": "standard"
         }
       ]
@@ -9481,13 +9494,21 @@
       ]
     },
     "531250a9220ba67e54282ed2d2571294abaf5efbd06a9e1ed0fdd3ed0c3c3e25": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-04T22:51:02.091700+00:00",
       "received_sequence": 292,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-04T22:51:02.800474+00:00",
+      "records": [
+        {
+          "id": 325,
+          "revision": 1,
+          "sha256": "dcad7008da76e7f9009c0ce02e98a58e5fccbdf2280cb1eb62d8e1ef9ddcaba3"
+        }
+      ]
     }
   },
   "batches": {
@@ -37041,6 +37062,21 @@
       "result": {
         "status": "received",
         "request_id": "531250a9220ba67e54282ed2d2571294abaf5efbd06a9e1ed0fdd3ed0c3c3e25"
+      }
+    },
+    "6544779de373fd2a0d00b4993bfec28694a00a5f4bc4e0c82dbd3e9cb4522722": {
+      "sha256": "813601a709caf084e71596f769a5765ef44a7a4e8cbea8d5020858f209bfe5d1",
+      "result": {
+        "status": "finalized",
+        "request_id": "531250a9220ba67e54282ed2d2571294abaf5efbd06a9e1ed0fdd3ed0c3c3e25",
+        "records": [
+          {
+            "id": 325,
+            "revision": 1,
+            "sha256": "dcad7008da76e7f9009c0ce02e98a58e5fccbdf2280cb1eb62d8e1ef9ddcaba3"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
