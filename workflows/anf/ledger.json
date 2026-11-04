@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 976,
-  "updated_at": "2026-11-04T04:05:11.036901+00:00",
+  "generation": 977,
+  "updated_at": "2026-11-04T04:05:11.659396+00:00",
   "next_id": 319,
   "records": [
     {
@@ -36234,6 +36234,18 @@
         ],
         "duplicates": []
       }
+    },
+    "632434601afd084ed7f06b32511fa6a29f26f1746852f8f54e303783384a656b": {
+      "sha256": "ab87b742f7461e1e61321df839a3b1d2de14db6dc39f08878e397c0f88f7f92b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 318,
+          "revision": 1,
+          "sha256": "969dec8ce8b153154d7fa02d818800143d4d51fc6914fa8a056903787359e65f"
+        },
+        "editorial_sha256": "3c047eced1518a6a41fa33c3d09e740e3914b79d7636b59d4bde208a1d60cd54"
+      }
     }
   },
   "migration": {
@@ -45202,6 +45214,26 @@
         "sha256": "58773f00e8947bba658a5b63a6c3bb47fc4c4505c770298c996b99fc6dbdb8c9",
         "reviewed_at": "2026-11-04T00:12:38.296164+00:00",
         "operation_id": "453068ab2967cd1fa11a5b5185e451ed892b9e15eaa44a5aaaa4e0788839c5d4"
+      }
+    ],
+    "318:1": [
+      {
+        "reference": {
+          "id": 318,
+          "revision": 1,
+          "sha256": "969dec8ce8b153154d7fa02d818800143d4d51fc6914fa8a056903787359e65f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Model internals: weights, attention, Gated DeltaNet state, tokens (ML-technical)",
+            "evidence_sha256": "01c7ba5f5f0bcd28c4ec7c7990f0af60be62398f75ac3392d2f4c89c6c2594d2"
+          }
+        },
+        "sha256": "3c047eced1518a6a41fa33c3d09e740e3914b79d7636b59d4bde208a1d60cd54",
+        "reviewed_at": "2026-11-04T04:05:11.659396+00:00",
+        "operation_id": "632434601afd084ed7f06b32511fa6a29f26f1746852f8f54e303783384a656b"
       }
     ]
   }
