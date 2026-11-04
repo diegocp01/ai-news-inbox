@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 991,
-  "updated_at": "2026-11-04T18:19:30.019308+00:00",
+  "generation": 992,
+  "updated_at": "2026-11-04T18:19:30.698648+00:00",
   "next_id": 324,
   "records": [
     {
@@ -36950,6 +36950,18 @@
         ],
         "duplicates": []
       }
+    },
+    "dfe47a2528b70ca7560c9785e10ed6bd0d9ea471e433e755e3406ee850d15776": {
+      "sha256": "151904f7149f1407bc086e53137ef99df0cb8e794a4a55d99570a1b72ba67219",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 323,
+          "revision": 1,
+          "sha256": "c3e7572bce3a913609273e4cc5b4adaa2d559dd527f98434073bed04a90276cc"
+        },
+        "editorial_sha256": "a54cdd30d53532a97e3b4aaf6e846a3fc9dfccd8174bbc439235b0d02fec551c"
+      }
     }
   },
   "migration": {
@@ -46018,6 +46030,26 @@
         "sha256": "9c9bc1dcd6db70fb87ff0d22aca82f53f9b6ee33c1e2ca69ed80a40d20546c38",
         "reviewed_at": "2026-11-04T13:07:53.795264+00:00",
         "operation_id": "muse-backfill-20261104-322-2944"
+      }
+    ],
+    "323:1": [
+      {
+        "reference": {
+          "id": 323,
+          "revision": 1,
+          "sha256": "c3e7572bce3a913609273e4cc5b4adaa2d559dd527f98434073bed04a90276cc"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Codex, Git, developer tools and Code Storage API (dev/API, Codex terms)",
+            "evidence_sha256": "ce2c4d7608d3e6b3128bd2310a9dbc01822b277102e56014772b21b9d527edf9"
+          }
+        },
+        "sha256": "a54cdd30d53532a97e3b4aaf6e846a3fc9dfccd8174bbc439235b0d02fec551c",
+        "reviewed_at": "2026-11-04T18:19:30.698648+00:00",
+        "operation_id": "dfe47a2528b70ca7560c9785e10ed6bd0d9ea471e433e755e3406ee850d15776"
       }
     ]
   }
