@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1000,
-  "updated_at": "2026-11-04T22:51:04.672340+00:00",
+  "generation": 1001,
+  "updated_at": "2026-11-04T22:51:05.309900+00:00",
   "next_id": 327,
   "records": [
     {
@@ -37142,6 +37142,18 @@
         ],
         "duplicates": []
       }
+    },
+    "44208aa368ff1f706eb629273f6379f7040c87119a8287d31b41928f52ca4d61": {
+      "sha256": "27b3dc3a4d57401d27e0eaa1f38b64f94684acbaa0f0e7db5eea29710153ee9f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 326,
+          "revision": 1,
+          "sha256": "5aff39ed423c5fbb4763b1a321a3e2e04dc9706137323463886c4b84f868f010"
+        },
+        "editorial_sha256": "c1b95ab7be6d35b560e145fdbb37c2c2627fd2b40a22fa5f29a471826e044bf8"
+      }
     }
   },
   "migration": {
@@ -46270,6 +46282,26 @@
         "sha256": "f57841606ee5afd10b300aa5419a3b5ad424811b4f398542da806b67683c8393",
         "reviewed_at": "2026-11-04T22:51:03.427777+00:00",
         "operation_id": "3781ff6a852ac235389f31ffac877087e2ab429e5db7302e7661882bf0e86066"
+      }
+    ],
+    "326:1": [
+      {
+        "reference": {
+          "id": 326,
+          "revision": 1,
+          "sha256": "5aff39ed423c5fbb4763b1a321a3e2e04dc9706137323463886c4b84f868f010"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "open_source",
+            "rationale": "Open-weight LLM release, pretraining tokens, benchmarks (ML-technical)",
+            "evidence_sha256": "40ec9be16c15e389bd647a4c70b040d1271a22e231d41b1286702b0fb467a8de"
+          }
+        },
+        "sha256": "c1b95ab7be6d35b560e145fdbb37c2c2627fd2b40a22fa5f29a471826e044bf8",
+        "reviewed_at": "2026-11-04T22:51:05.309900+00:00",
+        "operation_id": "44208aa368ff1f706eb629273f6379f7040c87119a8287d31b41928f52ca4d61"
       }
     ]
   }
