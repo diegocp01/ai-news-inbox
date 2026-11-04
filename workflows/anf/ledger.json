@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 979,
-  "updated_at": "2026-11-04T04:20:03.700332+00:00",
+  "generation": 980,
+  "updated_at": "2026-11-04T04:20:04.310069+00:00",
   "next_id": 320,
   "records": [
     {
@@ -36298,6 +36298,18 @@
         ],
         "duplicates": []
       }
+    },
+    "f58de98bbc28c64700c8a8cd6926901fb175334e67752eda9a923b94a22d1bbe": {
+      "sha256": "f0ce0ca210d5aa165fb4edc0f4fddb15bf29a08fa0f0d1d3608f2a26a0466aca",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 319,
+          "revision": 1,
+          "sha256": "094514b2fefb07bc4043c6e0a6a48d6a6c64ba1f6f8adbb8f5bdf58533ec0c9b"
+        },
+        "editorial_sha256": "4b3e74e0daaee87059bcb0eb30e8b79c9b20cc4cc2cf10d3ac4bed04c448afb4"
+      }
     }
   },
   "migration": {
@@ -45286,6 +45298,26 @@
         "sha256": "3c047eced1518a6a41fa33c3d09e740e3914b79d7636b59d4bde208a1d60cd54",
         "reviewed_at": "2026-11-04T04:05:11.659396+00:00",
         "operation_id": "632434601afd084ed7f06b32511fa6a29f26f1746852f8f54e303783384a656b"
+      }
+    ],
+    "319:1": [
+      {
+        "reference": {
+          "id": 319,
+          "revision": 1,
+          "sha256": "094514b2fefb07bc4043c6e0a6a48d6a6c64ba1f6f8adbb8f5bdf58533ec0c9b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer privacy story about a creator's TikTok app breakdown; not ML/dev/API technical",
+            "evidence_sha256": "63b83dcf96f77ae98ab8afde469c4e9f867826d1af25e1c58b961a0b8ecaffdc"
+          }
+        },
+        "sha256": "4b3e74e0daaee87059bcb0eb30e8b79c9b20cc4cc2cf10d3ac4bed04c448afb4",
+        "reviewed_at": "2026-11-04T04:20:04.310069+00:00",
+        "operation_id": "f58de98bbc28c64700c8a8cd6926901fb175334e67752eda9a923b94a22d1bbe"
       }
     ]
   }
