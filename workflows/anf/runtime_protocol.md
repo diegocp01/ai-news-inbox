@@ -89,6 +89,81 @@ The planner does not perform a commit. A successful Python exit, an output file,
 
 The planner's `send_authorized` is always false. Sending is exclusively an outer-bridge decision after the transaction/readback procedure below. A replay response has `status: operation_replayed`, `original_result`, and current state. It must never trigger a send by replaying an old delivery intent.
 
+### Verified connector snapshot assembly (2026-11-04)
+
+During the November 4 manual recovery, the Contents-style `fetch_file` route
+returned empty ledger content even though the pinned tree reported a ledger
+larger than 2 MB. Fetching its immutable blob by SHA returned the complete bytes.
+Treat an empty response for a nonempty blob as a failed read, never as an empty
+queue or permission to initialize/replace the ledger. This observed read hazard
+does not establish why Muse's earlier run stopped; its exact failing logs and
+runtime scripts are not available here.
+
+`connector_snapshot.py` is a pure standard-library helper for the existing
+authenticated connector route. It performs no fetch, write, send or scheduling
+action, and does not import, enable or deploy the disabled issue executor.
+The caller must perform these reads through the authorized GitHub connector:
+
+1. Read `main` HEAD and fetch that exact commit's metadata. Obtain its actual
+   `tree.sha`. Fetch the complete recursive tree using that **tree SHA**, not the
+   commit SHA. The connector can echo the requested commit SHA in a tree response;
+   do not assume it is the root tree identity. If a listing is truncated, obtain
+   all immutable subtrees before assembly; never relabel a partial list complete.
+2. Fetch every distinct required blob using `fetch_blob` and its SHA from that
+   tree. Required scope is every blob under `workflows/anf/` and every `.json`
+   beneath `items/`. Do not use empty Contents `fetch_file` bodies for large files.
+   Preserve exact content, byte size and returned identity. Normalize decoded
+   connector text as `encoding: "utf-8"`, or retain `encoding: "base64"` for an
+   encoded Git Data response. Do not strip whitespace or normalize line endings.
+3. Re-read `main` HEAD after all blobs. If it changed, start a new complete pinned
+   observation. A new plan must still follow atomic non-force CAS and readback.
+4. Assemble the JSON input below and run the helper. `commit` accepts the Git Data
+   response with `tree`, or the REST commit response with `commit.tree`.
+
+```json
+{
+  "head": "<initial main commit SHA>",
+  "observed_head": "<main commit SHA reread after blob fetches>",
+  "commit": {"sha": "<same commit SHA>", "tree": {"sha": "<actual root tree SHA>"}},
+  "tree": {"sha": "<actual root tree SHA>", "truncated": false, "tree": ["<complete recursive entries>"]},
+  "blobs": [{"sha": "<blob SHA>", "size": 123, "encoding": "utf-8", "content": "<exact fetched text>"}]
+}
+```
+
+The placeholders above are explanatory, not executable. Supply one blob
+envelope per distinct required SHA, even if several paths share it. Blob sizes
+are UTF-8 byte counts, not character counts. Never manufacture missing content
+or a successful branch observation.
+
+```sh
+python3 workflows/anf/connector_snapshot.py --input connector-observation.json --output snapshot.json
+```
+
+Exit 0 emits exactly `{head, complete: true, files}`. The helper reconstructs all
+directory Git tree SHA-1s, verifies every required blob's Git SHA-1 and byte size,
+and rejects incomplete/altered trees, missing or duplicate blobs/paths, wrong
+identities, unsupported authoritative file types, invalid UTF-8 and changed HEAD.
+Missing ledger, policy or runtime configuration also blocks assembly. A validation
+failure exits 1 and replaces output with `complete: false`, without a files map.
+Always check this invocation's exit code, including I/O failures; never reuse an
+older success. Only a successful snapshot proceeds to the engine's own state and
+artifact validation, then the existing planning/CAS/readback/output-gate contract.
+The helper validates supplied evidence, not the connector account or observation
+freshness. Local files remain expendable caches. Integrating it into unavailable
+Muse scripts (`compile.py`, `publish.py`, `deliver_confirm.py`) requires adapting
+their caller; adding this helper alone is not proof those scripts now use it.
+
+### Scheduled occurrence and daylight saving
+
+For each scheduled compilation, construct that occurrence's 08:00 in the
+`America/New_York` time zone and convert it to UTC for `eligibility_at`. Preserve
+the intended occurrence on delayed runs; do not replace it with the recovery
+time, server-local time or a fixed UTC hour. For example, November 4 and 5, 2026
+are on EST, so 08:00 New York is `13:00:00Z`, not `12:00:00Z`. During EDT it is
+12:00 UTC. Use a time-zone-aware conversion such as Python `zoneinfo.ZoneInfo`,
+with installed time-zone data, rather than manually applying a seasonal offset.
+This guidance does not change the saved Monday–Friday schedule or any cron.
+
 ## CLI
 
 ```sh
