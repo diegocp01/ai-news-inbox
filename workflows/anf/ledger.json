@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1005,
-  "updated_at": "2026-11-05T01:43:12.576508+00:00",
-  "next_id": 328,
+  "generation": 1006,
+  "updated_at": "2026-11-05T01:43:13.319182+00:00",
+  "next_id": 329,
   "records": [
     {
       "id": 1,
@@ -4349,6 +4349,19 @@
           "sha256": "672d25972525f440d36eeaed99eef68e04419023a25aa664c17895cc6f9c4859",
           "source": "https://openai.com/index/introducing-images-2-6/",
           "request_id": "896d0f80af23eee116a46941bfbfd81c354835a0b4da5454f6604212cc82d881",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 328,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T01:43:13.319182+00:00",
+          "block": "Title: OpenAI's Autonomous Pipeline Finds 948 Linux Kernel Privilege Escalation Exploits\nURL: \nImage URL: https://images.ctfassets.net/kftzwdyauwt9/400PQ4WTCOvXwwvk1OMOHv/03970ddeafd22fdbc9832669deacc59c/a-thousand-fewer-paths-to-root-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI says an autonomous pipeline built on an upcoming cyber model reproduced 1,724 Linux kernel vulnerabilities in a mid-October run and produced 948 unique local privilege escalation exploits that give unprivileged users root, at $1.21 million in API credits. OpenAI reports it has sent hundreds of reports and candidate patches to maintainers through Patch the Planet.",
+          "sha256": "b6ca02e9b806a7480f7e5194ee7e8dabe74a2bbd4ed4ecbc376ebd4d24637ec4",
+          "source": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+          "request_id": "e6fa8c80f6d085b25b3189ad1033a5716148ba1c912576f7382bd9b3b6d49dc7",
           "mode": "standard"
         }
       ]
@@ -9571,13 +9584,21 @@
       ]
     },
     "e6fa8c80f6d085b25b3189ad1033a5716148ba1c912576f7382bd9b3b6d49dc7": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T01:43:12.576508+00:00",
       "received_sequence": 295,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T01:43:13.319182+00:00",
+      "records": [
+        {
+          "id": 328,
+          "revision": 1,
+          "sha256": "b6ca02e9b806a7480f7e5194ee7e8dabe74a2bbd4ed4ecbc376ebd4d24637ec4"
+        }
+      ]
     }
   },
   "batches": {
@@ -37233,6 +37254,21 @@
       "result": {
         "status": "received",
         "request_id": "e6fa8c80f6d085b25b3189ad1033a5716148ba1c912576f7382bd9b3b6d49dc7"
+      }
+    },
+    "80376f72719d131792ded96333f84de6c77bb71b0609fb92786606035897ab39": {
+      "sha256": "bf15144add5d6413cee7f15d72b39e62ccbf67c511544697934b26d56ab5dee9",
+      "result": {
+        "status": "finalized",
+        "request_id": "e6fa8c80f6d085b25b3189ad1033a5716148ba1c912576f7382bd9b3b6d49dc7",
+        "records": [
+          {
+            "id": 328,
+            "revision": 1,
+            "sha256": "b6ca02e9b806a7480f7e5194ee7e8dabe74a2bbd4ed4ecbc376ebd4d24637ec4"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
