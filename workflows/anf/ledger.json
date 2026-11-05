@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1009,
-  "updated_at": "2026-11-05T01:45:46.616102+00:00",
+  "generation": 1010,
+  "updated_at": "2026-11-05T01:45:47.231981+00:00",
   "next_id": 330,
   "records": [
     {
@@ -37334,6 +37334,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e1fff7812bd247d50b99044b656a59b06057bcd8952ac5af2d0b5200e9f786cd": {
+      "sha256": "82c5a76cc0a8dd2bbf16243ee5eb04d518520c0e97b6e3baca938de1dd6fac2f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 329,
+          "revision": 1,
+          "sha256": "394a05146d5dbd8be1724856de2a93d528aabb4888db6518e51ceb04f539d876"
+        },
+        "editorial_sha256": "676de9fdbc848fcd500f55201247b62ec309b25ea68c0add5012daf1d7795b9f"
+      }
     }
   },
   "migration": {
@@ -46522,6 +46534,26 @@
         "sha256": "f9305c5d881543329963dfd2affdd9d5287017763ac2ca50509c337c1bf8b967",
         "reviewed_at": "2026-11-05T01:43:14.007310+00:00",
         "operation_id": "870518ec2719c04362f7c9bda0604f5855eb7cdbd6dda8a9d365b258a6cde341"
+      }
+    ],
+    "329:1": [
+      {
+        "reference": {
+          "id": 329,
+          "revision": 1,
+          "sha256": "394a05146d5dbd8be1724856de2a93d528aabb4888db6518e51ceb04f539d876"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Corporate AI budget/cost-cutting news at Apple; general audience",
+            "evidence_sha256": "490a7e406f2edce740f9534ab99e06234e381e078b3bd16268c122a973446f97"
+          }
+        },
+        "sha256": "676de9fdbc848fcd500f55201247b62ec309b25ea68c0add5012daf1d7795b9f",
+        "reviewed_at": "2026-11-05T01:45:47.231981+00:00",
+        "operation_id": "e1fff7812bd247d50b99044b656a59b06057bcd8952ac5af2d0b5200e9f786cd"
       }
     ]
   }
