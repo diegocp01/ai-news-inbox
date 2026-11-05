@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1048,
-  "updated_at": "2026-11-05T17:58:19.203265+00:00",
+  "generation": 1049,
+  "updated_at": "2026-11-05T17:58:19.912747+00:00",
   "next_id": 343,
   "records": [
     {
@@ -38639,6 +38639,18 @@
         ],
         "duplicates": []
       }
+    },
+    "aa7cc3c163a814f29cfb1982429e08280d8a856258a307bca205f7f14a4ba87f": {
+      "sha256": "1f81bbaedec3f1fba6edf0d5d0c920be3565ee4600cfcafef8f4c545f81f77f3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 342,
+          "revision": 1,
+          "sha256": "e524ccf8748250a55bf92143ff4f9339c8628db9faa55b05c19c6577083f061a"
+        },
+        "editorial_sha256": "37abc3b218a813d765d7f3d930b6ce6a29523bd03b63ef8d7e22b9a612b9ef38"
+      }
     }
   },
   "migration": {
@@ -48087,6 +48099,26 @@
         "sha256": "661a8dd38116720e26696ba6eca70a40ea0bfb0a7889d7f359be30e380855c99",
         "reviewed_at": "2026-11-05T17:21:09.960661+00:00",
         "operation_id": "7b59d6fd605e85bc71254b36fde714dc854cb31b132dd0687ff2dec6756bbcaa"
+      }
+    ],
+    "342:1": [
+      {
+        "reference": {
+          "id": 342,
+          "revision": 1,
+          "sha256": "e524ccf8748250a55bf92143ff4f9339c8628db9faa55b05c19c6577083f061a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer/business app launch for querying satellite imagery; no model, API or technical detail, so general audience",
+            "evidence_sha256": "4c2bf3ebea96d1727faa2ba1a5a58f46a54e151f3004d9424c2f9b491100433e"
+          }
+        },
+        "sha256": "37abc3b218a813d765d7f3d930b6ce6a29523bd03b63ef8d7e22b9a612b9ef38",
+        "reviewed_at": "2026-11-05T17:58:19.912747+00:00",
+        "operation_id": "aa7cc3c163a814f29cfb1982429e08280d8a856258a307bca205f7f14a4ba87f"
       }
     ]
   }
