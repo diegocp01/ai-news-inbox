@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1059,
-  "updated_at": "2026-11-05T19:19:47.606022+00:00",
-  "next_id": 346,
+  "generation": 1060,
+  "updated_at": "2026-11-05T19:19:48.365701+00:00",
+  "next_id": 347,
   "records": [
     {
       "id": 1,
@@ -4585,6 +4585,19 @@
           "sha256": "ac7f26cd821c0f7795d32998415f6c57f4210ab988558967c7b7163d9a5a1ed0",
           "source": "Meta",
           "request_id": "86280d8e72c0d2be957d5a23b3571c02cffe75c807515779eb0373c2d48b0adf",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 346,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T19:19:48.365701+00:00",
+          "block": "Title: Meta Rolls Out Muse Realtime Avatar in the Muse App\nURL: https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/\nImage URL: https://lookaside.fbsbx.com/elementpath/media/?media_id=2462019687653837&version=1790206154\nSummary: Meta is rolling out Muse Realtime Avatar, the real-time embodiment technology it previewed at Connect, in the Muse app in the US. Meta says it turns Muse Realtime Voice into expressive, interactive avatars whose expressions and gestures stay in sync with speech, and can animate portraits, illustrations, animals and objects during live conversations.",
+          "sha256": "b0b8d44cf492156c52e2e3ba887522d2cd290c7d27e323ee21367bde007c64cf",
+          "source": "Meta",
+          "request_id": "8cf1dd3ec4f6f17741878342179e480569c349dc9a3ea2ddbd50775196fdee56",
           "mode": "standard"
         }
       ]
@@ -10090,13 +10103,21 @@
       ]
     },
     "8cf1dd3ec4f6f17741878342179e480569c349dc9a3ea2ddbd50775196fdee56": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T19:19:47.606022+00:00",
       "received_sequence": 311,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T19:19:48.365701+00:00",
+      "records": [
+        {
+          "id": 346,
+          "revision": 1,
+          "sha256": "b0b8d44cf492156c52e2e3ba887522d2cd290c7d27e323ee21367bde007c64cf"
+        }
+      ]
     }
   },
   "batches": {
@@ -38858,6 +38879,21 @@
       "result": {
         "status": "received",
         "request_id": "8cf1dd3ec4f6f17741878342179e480569c349dc9a3ea2ddbd50775196fdee56"
+      }
+    },
+    "20f68fca1cf3e7eefc5f325a0ade64268b645992e29e679dcd848319ca2f16e4": {
+      "sha256": "8045aa5b9a6da8869a1f977abd5befac547f6258d462936029772e9273bbc2f4",
+      "result": {
+        "status": "finalized",
+        "request_id": "8cf1dd3ec4f6f17741878342179e480569c349dc9a3ea2ddbd50775196fdee56",
+        "records": [
+          {
+            "id": 346,
+            "revision": 1,
+            "sha256": "b0b8d44cf492156c52e2e3ba887522d2cd290c7d27e323ee21367bde007c64cf"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
