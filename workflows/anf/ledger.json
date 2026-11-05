@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1057,
-  "updated_at": "2026-11-05T19:17:01.299183+00:00",
+  "generation": 1058,
+  "updated_at": "2026-11-05T19:17:02.026960+00:00",
   "next_id": 346,
   "records": [
     {
@@ -38831,6 +38831,18 @@
         ],
         "duplicates": []
       }
+    },
+    "813963f42514fd1e31b8fb3b6e92fccdb8a0ad33394a9bc2b12686f6b1a1d332": {
+      "sha256": "619a844d129ecdd2169ab7670975aa61e3e9b4507789f3a047036c650587dd85",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 345,
+          "revision": 1,
+          "sha256": "ac7f26cd821c0f7795d32998415f6c57f4210ab988558967c7b7163d9a5a1ed0"
+        },
+        "editorial_sha256": "ffe3bbb3a4c1ebfdcf89e402174110e2dec53d6797a7cd7f0d2e6e28076c848b"
+      }
     }
   },
   "migration": {
@@ -48339,6 +48351,26 @@
         "sha256": "2f6a0ee833af0310960f69c178f3bf947e2c4fc9eef22ca992813876b500eba9",
         "reviewed_at": "2026-11-05T18:27:06.141859+00:00",
         "operation_id": "bae5113ca7cdaa68593100831953db0f533f15b137a5ea1fee2b75c4510136e8"
+      }
+    ],
+    "345:1": [
+      {
+        "reference": {
+          "id": 345,
+          "revision": 1,
+          "sha256": "ac7f26cd821c0f7795d32998415f6c57f4210ab988558967c7b7163d9a5a1ed0"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer app feature launch (voice mode and avatars) for Meta's Muse agent; not a new model, no technical detail, general audience",
+            "evidence_sha256": "449bace464df1481a869a36e3872f98fb3dac7dc8b15929006446ddc62d7b6c0"
+          }
+        },
+        "sha256": "ffe3bbb3a4c1ebfdcf89e402174110e2dec53d6797a7cd7f0d2e6e28076c848b",
+        "reviewed_at": "2026-11-05T19:17:02.026960+00:00",
+        "operation_id": "813963f42514fd1e31b8fb3b6e92fccdb8a0ad33394a9bc2b12686f6b1a1d332"
       }
     ]
   }
