@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1017,
-  "updated_at": "2026-11-05T02:02:52.135815+00:00",
-  "next_id": 332,
+  "generation": 1018,
+  "updated_at": "2026-11-05T02:02:52.875233+00:00",
+  "next_id": 333,
   "records": [
     {
       "id": 1,
@@ -4401,6 +4401,19 @@
           "sha256": "15dcafde8a9d16f03e4f75f3dd94869a40a327c23fc1e772df193247adbceae6",
           "source": "https://axiommath.ai/research/the-stacks-project-formalized/",
           "request_id": "33b07f93b595963482ab567d2da08ba6ac2d2f4a547e3d1a4be4e6f49ff42c35",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 332,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T02:02:52.875233+00:00",
+          "block": "Title: Anthropic Uses Claude to Map the First Vault Particle Structure From Prokaryotes\nURL: https://www.anthropic.com/research/investigating-vault-particles-with-claude\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/99ce1c2ac2d0649d677f097132829da2ab3c4e18-1280x1280.jpg\nSummary: Anthropic's biology lab reports the first 3D structure of a vault particle found in prokaryotes, a hollow protein shell whose function remains unknown. The phage-derived vault is built from 96 copies of one protein. Anthropic says Claude helped search protein databases, design DNA, cut a three-day purification to about 90 minutes, and produce a first structural model.",
+          "sha256": "39344e3362c5c9fa78ba126f78ad88fe32873c592333c0691f11f3441cc23f97",
+          "source": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+          "request_id": "a6630580d2593bd20e3ac6aef1b6cae6fb6919f107140c3ce6798fb960c768ba",
           "mode": "standard"
         }
       ]
@@ -9691,13 +9704,21 @@
       ]
     },
     "a6630580d2593bd20e3ac6aef1b6cae6fb6919f107140c3ce6798fb960c768ba": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T02:02:52.135815+00:00",
       "received_sequence": 299,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T02:02:52.875233+00:00",
+      "records": [
+        {
+          "id": 332,
+          "revision": 1,
+          "sha256": "39344e3362c5c9fa78ba126f78ad88fe32873c592333c0691f11f3441cc23f97"
+        }
+      ]
     }
   },
   "batches": {
@@ -37489,6 +37510,21 @@
       "result": {
         "status": "received",
         "request_id": "a6630580d2593bd20e3ac6aef1b6cae6fb6919f107140c3ce6798fb960c768ba"
+      }
+    },
+    "172ac59d27a66ac306b5a4917e6d0588e59f9ffef764f6bfe7948d760b5f6931": {
+      "sha256": "4b6f3bbf9aed11d8993238362f1c98e9329461032e3a0761d56821dde0733751",
+      "result": {
+        "status": "finalized",
+        "request_id": "a6630580d2593bd20e3ac6aef1b6cae6fb6919f107140c3ce6798fb960c768ba",
+        "records": [
+          {
+            "id": 332,
+            "revision": 1,
+            "sha256": "39344e3362c5c9fa78ba126f78ad88fe32873c592333c0691f11f3441cc23f97"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
