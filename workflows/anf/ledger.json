@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1075,
-  "updated_at": "2026-11-05T20:51:42.861458+00:00",
+  "generation": 1076,
+  "updated_at": "2026-11-05T20:51:43.528887+00:00",
   "next_id": 351,
   "records": [
     {
@@ -39198,6 +39198,18 @@
           "sha256": "4c1a932b744d9e3637ae6cef039e343dc02d081881054626487f1bd12116936f"
         }
       }
+    },
+    "bb9c2ef70f00e002480ee8ff3550f186f86a34eac6889e5bad0e19bef92ae506": {
+      "sha256": "d04cec5e8b71947f720f733cfd9b68a4e34beead58ec0ab41450a20bbb45baf8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 350,
+          "revision": 1,
+          "sha256": "4c1a932b744d9e3637ae6cef039e343dc02d081881054626487f1bd12116936f"
+        },
+        "editorial_sha256": "679ed2df23e9da39e5b8b802976e642a6e9823c7b58082fb073ecd466dfb791b"
+      }
     }
   },
   "migration": {
@@ -48826,6 +48838,24 @@
         "sha256": "9b4442682ee5855864f992713355c21a0720c3a7cbd236aadfccac288e504d06",
         "reviewed_at": "2026-11-05T20:50:28.822701+00:00",
         "operation_id": "b99571ddb5c4090d847fe516900b960c72f12d996b17aaeffe5e74fa886ea169"
+      },
+      {
+        "reference": {
+          "id": 350,
+          "revision": 1,
+          "sha256": "4c1a932b744d9e3637ae6cef039e343dc02d081881054626487f1bd12116936f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Diego's technical-audience rule: World Labs world-model research preview; verified post centers autoregressive world model, novel view synthesis and cloud-GPU inference concepts a general reader wouldn't know. DS true.",
+            "evidence_sha256": "79044c7e66ab7c81b69a5a2a86e16bb84b76ccb583a20933459de45d37eef4f7"
+          }
+        },
+        "sha256": "679ed2df23e9da39e5b8b802976e642a6e9823c7b58082fb073ecd466dfb791b",
+        "reviewed_at": "2026-11-05T20:51:43.528887+00:00",
+        "operation_id": "bb9c2ef70f00e002480ee8ff3550f186f86a34eac6889e5bad0e19bef92ae506"
       }
     ]
   }
