@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1002,
-  "updated_at": "2026-11-05T01:42:02.007165+00:00",
-  "next_id": 327,
+  "generation": 1003,
+  "updated_at": "2026-11-05T01:42:02.683375+00:00",
+  "next_id": 328,
   "records": [
     {
       "id": 1,
@@ -4336,6 +4336,19 @@
           "sha256": "5aff39ed423c5fbb4763b1a321a3e2e04dc9706137323463886c4b84f868f010",
           "source": "https://www.ricursive.com/ripple",
           "request_id": "82c477785c0a60bcdc046915318ddb160e151e66e3bd3b1d1c37f801804c2091",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 327,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T01:42:02.683375+00:00",
+          "block": "Title: OpenAI Launches ChatGPT Images 2.6 With GIFs and Reusable Reference Images\nURL: https://www.xda-developers.com/chatgpt-is-getting-gif-generation-tools-to-make-creating-animated-images-a-lot-easier/\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI released Images 2.6 in ChatGPT and Codex for all subscription tiers worldwide. Users can turn a prompt or image into an animated GIF, adjust its speed and edit individual frames, and save reference images of themselves, pets or characters to reuse. OpenAI says it generates images 50% faster and people now create 4 billion images weekly.",
+          "sha256": "672d25972525f440d36eeaed99eef68e04419023a25aa664c17895cc6f9c4859",
+          "source": "https://openai.com/index/introducing-images-2-6/",
+          "request_id": "896d0f80af23eee116a46941bfbfd81c354835a0b4da5454f6604212cc82d881",
           "mode": "standard"
         }
       ]
@@ -9541,13 +9554,21 @@
       ]
     },
     "896d0f80af23eee116a46941bfbfd81c354835a0b4da5454f6604212cc82d881": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T01:42:02.007165+00:00",
       "received_sequence": 294,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T01:42:02.683375+00:00",
+      "records": [
+        {
+          "id": 327,
+          "revision": 1,
+          "sha256": "672d25972525f440d36eeaed99eef68e04419023a25aa664c17895cc6f9c4859"
+        }
+      ]
     }
   },
   "batches": {
@@ -37169,6 +37190,21 @@
       "result": {
         "status": "received",
         "request_id": "896d0f80af23eee116a46941bfbfd81c354835a0b4da5454f6604212cc82d881"
+      }
+    },
+    "78bb2993a0fd79cba81caa579475a48c20b12504d47071f65e45da527898a3f3": {
+      "sha256": "9d8a9d4002dd57732734d3ae27968ea55f354816bb52a37d66d6857399598cb5",
+      "result": {
+        "status": "finalized",
+        "request_id": "896d0f80af23eee116a46941bfbfd81c354835a0b4da5454f6604212cc82d881",
+        "records": [
+          {
+            "id": 327,
+            "revision": 1,
+            "sha256": "672d25972525f440d36eeaed99eef68e04419023a25aa664c17895cc6f9c4859"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
