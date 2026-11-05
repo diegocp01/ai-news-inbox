@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1023,
-  "updated_at": "2026-11-05T12:03:07+00:00",
-  "next_id": 334,
+  "generation": 1024,
+  "updated_at": "2026-11-05T12:07:15+00:00",
+  "next_id": 336,
   "records": [
     {
       "id": 1,
@@ -4427,6 +4427,32 @@
           "sha256": "dd612ce2e9869dec8082649cd8a8cdf347ca8e6dce2ba80f86ce9c46780c6c13",
           "source": "OpenAI",
           "request_id": "ecf836e3c5a903c27ea310da6199c009505d8bf5c516ee27b5b2778f95d2b6ca",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 334,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T12:07:15+00:00",
+          "block": "Title: AI Agents Adapt Their Tools During Long Tasks\nURL: https://arxiv.org/abs/2611.05139\nImage URL: https://arxiv.org/html/2611.05139v1/teaser-figure_v2.png\nSummary: Lingzhi Yuan and colleagues introduce Meta², which learns reusable intervention guidance offline and applies task-local tool or instruction edits while keeping model weights fixed. Using GPT-5.6-Terra, they report 81.0% on Terminal-Bench 2.1 and 44.4% on DeepSWE 1.1. Evaluation covers terminal and software-engineering tasks; broader transfer remains untested.",
+          "sha256": "ca809d30566768e7c0d41278acc9b56ed948046a564368b9408fda31c8b4d939",
+          "source": "arXiv",
+          "request_id": "6f986fecaa801eb6365d7e53d71d26532116972eb22f98cc1660111ec0771ef3",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 335,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T12:07:15+00:00",
+          "block": "Title: Robot Policies Read Visual Features Across Model Layers\nURL: https://arxiv.org/abs/2611.06918\nImage URL: https://arxiv.org/html/2611.06918v1/NEO-VLA_Model_Overview.png\nSummary: Weichen Fan and colleagues introduce NEO-VLA, which processes image patches with language and reads visual features across model layers for robot control. They report 89.7% task-weighted success on LIBERO-Plus, with strong camera and language robustness. LIBERO-Pro still exposes weaknesses under unfamiliar object positions and task goals.",
+          "sha256": "8c2fc3103c18c3b232d1b071b82c51dcc88ee09dab9d5ab7cd68830de8174087",
+          "source": "arXiv",
+          "request_id": "6f986fecaa801eb6365d7e53d71d26532116972eb22f98cc1660111ec0771ef3",
           "mode": "standard"
         }
       ]
@@ -9751,13 +9777,26 @@
       ]
     },
     "6f986fecaa801eb6365d7e53d71d26532116972eb22f98cc1660111ec0771ef3": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T12:03:07+00:00",
       "received_sequence": 301,
       "expected_items": 2,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T12:07:15+00:00",
+      "records": [
+        {
+          "id": 334,
+          "revision": 1,
+          "sha256": "ca809d30566768e7c0d41278acc9b56ed948046a564368b9408fda31c8b4d939"
+        },
+        {
+          "id": 335,
+          "revision": 1,
+          "sha256": "8c2fc3103c18c3b232d1b071b82c51dcc88ee09dab9d5ab7cd68830de8174087"
+        }
+      ]
     }
   },
   "batches": {
@@ -37617,6 +37656,26 @@
       "result": {
         "status": "received",
         "request_id": "6f986fecaa801eb6365d7e53d71d26532116972eb22f98cc1660111ec0771ef3"
+      }
+    },
+    "6f986fecaa801eb6365d7e53d71d26532116972eb22f98cc1660111ec0771ef3-finalize": {
+      "sha256": "f2a0c671a44ba6feebe214c0d77b28e50d16b59f202374c2e87e4b26628bea64",
+      "result": {
+        "status": "finalized",
+        "request_id": "6f986fecaa801eb6365d7e53d71d26532116972eb22f98cc1660111ec0771ef3",
+        "records": [
+          {
+            "id": 334,
+            "revision": 1,
+            "sha256": "ca809d30566768e7c0d41278acc9b56ed948046a564368b9408fda31c8b4d939"
+          },
+          {
+            "id": 335,
+            "revision": 1,
+            "sha256": "8c2fc3103c18c3b232d1b071b82c51dcc88ee09dab9d5ab7cd68830de8174087"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
