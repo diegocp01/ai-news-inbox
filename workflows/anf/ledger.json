@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1053,
-  "updated_at": "2026-11-05T18:27:04.671648+00:00",
-  "next_id": 344,
+  "generation": 1054,
+  "updated_at": "2026-11-05T18:27:05.419887+00:00",
+  "next_id": 345,
   "records": [
     {
       "id": 1,
@@ -4559,6 +4559,19 @@
           "sha256": "d9ab98dffb33a8b8d2e626b0d9db79735362aec559c7af748c3620dc856985cb",
           "source": "Anthropic",
           "request_id": "a74dd9bd4158d3c8a8b731176b55a8063e09ec705e79c7be87c18c9550641646",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 344,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T18:27:05.419887+00:00",
+          "block": "Title: Rep. Yassamin Ansari Calls for a Pause on Advanced AI and a Ban on Superintelligence\nURL: https://ansari.house.gov/\nImage URL: https://ansari.house.gov/themes/ansari/images/sharelogo.jpg\nSummary: Rep. Yassamin Ansari, who represents Arizona's 3rd District, posted on X that the top of the Democratic agenda on day one \"needs to be a pause on advanced AI development, regulation of this out of control industry, and a ban on artificial superintelligence.\" The post had drawn more than 10 million views by Thursday.",
+          "sha256": "12938415de056809ec7fa4df422ba982a71b194d65204d116356430d460750bb",
+          "source": "Rep. Yassamin Ansari",
+          "request_id": "23410f72281b11b0246ca98c8aa5f2fcfb5ac760f986f3cd96b8f73c20089d4c",
           "mode": "standard"
         }
       ]
@@ -10030,13 +10043,21 @@
       ]
     },
     "23410f72281b11b0246ca98c8aa5f2fcfb5ac760f986f3cd96b8f73c20089d4c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T18:27:04.671648+00:00",
       "received_sequence": 309,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T18:27:05.419887+00:00",
+      "records": [
+        {
+          "id": 344,
+          "revision": 1,
+          "sha256": "12938415de056809ec7fa4df422ba982a71b194d65204d116356430d460750bb"
+        }
+      ]
     }
   },
   "batches": {
@@ -38730,6 +38751,21 @@
       "result": {
         "status": "received",
         "request_id": "23410f72281b11b0246ca98c8aa5f2fcfb5ac760f986f3cd96b8f73c20089d4c"
+      }
+    },
+    "e3526acefe762e34c77349ae79f248156ec5ec682d6b087e38d8d14a120206f8": {
+      "sha256": "a8501e4af61f7041ee19eb241254e39f5ccf8a9e8a28b0dcd4ca6ab19ab01a85",
+      "result": {
+        "status": "finalized",
+        "request_id": "23410f72281b11b0246ca98c8aa5f2fcfb5ac760f986f3cd96b8f73c20089d4c",
+        "records": [
+          {
+            "id": 344,
+            "revision": 1,
+            "sha256": "12938415de056809ec7fa4df422ba982a71b194d65204d116356430d460750bb"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
