@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1036,
-  "updated_at": "2026-11-05T14:20:04.145682+00:00",
+  "generation": 1037,
+  "updated_at": "2026-11-05T14:20:04.802199+00:00",
   "next_id": 339,
   "records": [
     {
@@ -38383,6 +38383,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e985c6614b62ea9622f56a34ba4008a62a6544b8416a8aebbbb267ea0d2cd6bf": {
+      "sha256": "008632f17d41f5e39dc2983169ad034bd453de4d794c2dba0234274c5d42f097",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 338,
+          "revision": 1,
+          "sha256": "d3d5756c57bb5b0db71eafa7017caa3a0bb2f07f920a189338e2af44f63c9c14"
+        },
+        "editorial_sha256": "345bd8fbdb18520629e4227988f8ba50d1b030eebe4385e7a3ab62b1026e3d6c"
+      }
     }
   },
   "migration": {
@@ -47751,6 +47763,26 @@
         "sha256": "214c02068311edcc50368c8009071484301f0a71934c0c32915469fb93a1de74",
         "reviewed_at": "2026-11-05T13:05:15.418583+00:00",
         "operation_id": "muse-backfill-20261105-337-4914"
+      }
+    ],
+    "338:1": [
+      {
+        "reference": {
+          "id": 338,
+          "revision": 1,
+          "sha256": "d3d5756c57bb5b0db71eafa7017caa3a0bb2f07f920a189338e2af44f63c9c14"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer app feature update for ChatGPT dots; no model, API or technical detail, so general audience",
+            "evidence_sha256": "8b1576a25343e4014e520d7c2d9ac90ff301b4f5ee2c72efa39b85bbce5abe5a"
+          }
+        },
+        "sha256": "345bd8fbdb18520629e4227988f8ba50d1b030eebe4385e7a3ab62b1026e3d6c",
+        "reviewed_at": "2026-11-05T14:20:04.802199+00:00",
+        "operation_id": "e985c6614b62ea9622f56a34ba4008a62a6544b8416a8aebbbb267ea0d2cd6bf"
       }
     ]
   }
