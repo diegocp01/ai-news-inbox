@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1014,
-  "updated_at": "2026-11-05T02:01:56.826794+00:00",
-  "next_id": 331,
+  "generation": 1015,
+  "updated_at": "2026-11-05T02:01:57.582564+00:00",
+  "next_id": 332,
   "records": [
     {
       "id": 1,
@@ -4388,6 +4388,19 @@
           "sha256": "0258263dd581c4dabc7574d36c3a585ea517eda01718cabc90bd77361fa8e114",
           "source": "https://x.com/bot/status/2118043939592942052",
           "request_id": "5791dd9d5467cdf9d752bac1a5be1700a93c62113b9c7b387322a1b39efcd1f9",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 331,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T02:01:57.582564+00:00",
+          "block": "Title: Axiom Releases a 16-Million-Line Lean Formalization of the Entire Stacks Project\nURL: https://github.com/AxiomMath/Stacks\nImage URL: https://snapereport.com/api/og?s=axiom-formalizes-entire-stacks-project-in-lean&l=en&v=2a89cfb6\nSummary: Axiom released a Lean formalization of the entire Stacks Project, the roughly 7,500-page open-source reference for modern algebraic geometry. Axiom says the library spans about 16 million lines, was built by coordinated swarms of AI agents, and links each declaration to its Stacks tag. Lean checks every proof, but parts have not yet had human review.",
+          "sha256": "15dcafde8a9d16f03e4f75f3dd94869a40a327c23fc1e772df193247adbceae6",
+          "source": "https://axiommath.ai/research/the-stacks-project-formalized/",
+          "request_id": "33b07f93b595963482ab567d2da08ba6ac2d2f4a547e3d1a4be4e6f49ff42c35",
           "mode": "standard"
         }
       ]
@@ -9661,13 +9674,21 @@
       ]
     },
     "33b07f93b595963482ab567d2da08ba6ac2d2f4a547e3d1a4be4e6f49ff42c35": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T02:01:56.826794+00:00",
       "received_sequence": 298,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T02:01:57.582564+00:00",
+      "records": [
+        {
+          "id": 331,
+          "revision": 1,
+          "sha256": "15dcafde8a9d16f03e4f75f3dd94869a40a327c23fc1e772df193247adbceae6"
+        }
+      ]
     }
   },
   "batches": {
@@ -37425,6 +37446,21 @@
       "result": {
         "status": "received",
         "request_id": "33b07f93b595963482ab567d2da08ba6ac2d2f4a547e3d1a4be4e6f49ff42c35"
+      }
+    },
+    "0010d2671d2315215a3117c5a0b2d267b3017f04397e289fae07fabaf6977ea4": {
+      "sha256": "b9a7de63ed26bd698b1a483cf5851614ad6c1a72df2968cf4970d52518ddfc33",
+      "result": {
+        "status": "finalized",
+        "request_id": "33b07f93b595963482ab567d2da08ba6ac2d2f4a547e3d1a4be4e6f49ff42c35",
+        "records": [
+          {
+            "id": 331,
+            "revision": 1,
+            "sha256": "15dcafde8a9d16f03e4f75f3dd94869a40a327c23fc1e772df193247adbceae6"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
