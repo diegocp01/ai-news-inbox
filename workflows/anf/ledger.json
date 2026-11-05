@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1011,
-  "updated_at": "2026-11-05T01:47:09.176082+00:00",
-  "next_id": 330,
+  "generation": 1012,
+  "updated_at": "2026-11-05T01:47:09.825138+00:00",
+  "next_id": 331,
   "records": [
     {
       "id": 1,
@@ -4375,6 +4375,19 @@
           "sha256": "394a05146d5dbd8be1724856de2a93d528aabb4888db6518e51ceb04f539d876",
           "source": "https://x.com/markgurman/status/2118068667103453360",
           "request_id": "9bc88b073ceb0de25fc5ea6d31c023c69072f165a97d8dbeb4c0ce8b002af020",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 330,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T01:47:09.825138+00:00",
+          "block": "Title: Grok Bot Can Now Make Phone Calls\nURL: https://teslanorth.com/2026/11/04/grok-bot-phone-calls-live/\nImage URL: https://cdn.teslanorth.com/wp-content/uploads/2026/11/featured-1920x1080-13.jpg\nSummary: Grok Bot announced it can now make phone calls. In its demo video, the bot offers to cancel an expiring internet contract, shows a call card for approval, then calls while showing a live transcript with Take over and End call buttons. It declines a 10% retention offer, confirms the cancellation and reports back in chat.",
+          "sha256": "0258263dd581c4dabc7574d36c3a585ea517eda01718cabc90bd77361fa8e114",
+          "source": "https://x.com/bot/status/2118043939592942052",
+          "request_id": "5791dd9d5467cdf9d752bac1a5be1700a93c62113b9c7b387322a1b39efcd1f9",
           "mode": "standard"
         }
       ]
@@ -9631,13 +9644,21 @@
       ]
     },
     "5791dd9d5467cdf9d752bac1a5be1700a93c62113b9c7b387322a1b39efcd1f9": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T01:47:09.176082+00:00",
       "received_sequence": 297,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T01:47:09.825138+00:00",
+      "records": [
+        {
+          "id": 330,
+          "revision": 1,
+          "sha256": "0258263dd581c4dabc7574d36c3a585ea517eda01718cabc90bd77361fa8e114"
+        }
+      ]
     }
   },
   "batches": {
@@ -37361,6 +37382,21 @@
       "result": {
         "status": "received",
         "request_id": "5791dd9d5467cdf9d752bac1a5be1700a93c62113b9c7b387322a1b39efcd1f9"
+      }
+    },
+    "4505068138509a178279c3ad48e939848a9e4e97f5c487b16a565dd2ec624f64": {
+      "sha256": "b0a17e750f1882b93dd9aa7ee5b316617fc301b5b87c52439ea360d682a186df",
+      "result": {
+        "status": "finalized",
+        "request_id": "5791dd9d5467cdf9d752bac1a5be1700a93c62113b9c7b387322a1b39efcd1f9",
+        "records": [
+          {
+            "id": 330,
+            "revision": 1,
+            "sha256": "0258263dd581c4dabc7574d36c3a585ea517eda01718cabc90bd77361fa8e114"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
