@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1063,
-  "updated_at": "2026-11-05T19:26:46.431245+00:00",
+  "generation": 1064,
+  "updated_at": "2026-11-05T19:26:47.058983+00:00",
   "next_id": 348,
   "records": [
     {
@@ -38959,6 +38959,18 @@
         ],
         "duplicates": []
       }
+    },
+    "29b1240ff9b100f77838be4e063c117ed84f0bdd78f0e2a665f563ffa8239013": {
+      "sha256": "0078924f635403a8050ab7e2fe105fd8e3bdffd87fdabeb050a0efb0372b6010",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 347,
+          "revision": 1,
+          "sha256": "6fcb3451b3f408ccc0176e202491d2bd95e8bce85e5e785c9eec4a942bd4f9a0"
+        },
+        "editorial_sha256": "c55158c378910e4b34ec7ddb58be412dc198acdd95fe05271a0d03dead908a15"
+      }
     }
   },
   "migration": {
@@ -48507,6 +48519,26 @@
         "sha256": "b40d895437ab94da6e3e07bd86c9e899c02dee5c055c1d33addef5ac522e47be",
         "reviewed_at": "2026-11-05T19:19:49.016242+00:00",
         "operation_id": "56e64a4f5be46d23600f85d28a2efee899cef990277a401e51b0283439583304"
+      }
+    ],
+    "347:1": [
+      {
+        "reference": {
+          "id": 347,
+          "revision": 1,
+          "sha256": "6fcb3451b3f408ccc0176e202491d2bd95e8bce85e5e785c9eec4a942bd4f9a0"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Independent AI-risk assessment of AI R&D acceleration; summary uses plain-language findings without ML jargon; not a model launch; unsure -> general",
+            "evidence_sha256": "49f1ab9c9aae6ae2d117b5d7cff49388c365d1a7c8caadbeb906d85f9551a090"
+          }
+        },
+        "sha256": "c55158c378910e4b34ec7ddb58be412dc198acdd95fe05271a0d03dead908a15",
+        "reviewed_at": "2026-11-05T19:26:47.058983+00:00",
+        "operation_id": "29b1240ff9b100f77838be4e063c117ed84f0bdd78f0e2a665f563ffa8239013"
       }
     ]
   }
