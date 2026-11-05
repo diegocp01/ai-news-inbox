@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1020,
-  "updated_at": "2026-11-05T02:38:44.733796+00:00",
-  "next_id": 333,
+  "generation": 1021,
+  "updated_at": "2026-11-05T02:38:45.522117+00:00",
+  "next_id": 334,
   "records": [
     {
       "id": 1,
@@ -4414,6 +4414,19 @@
           "sha256": "39344e3362c5c9fa78ba126f78ad88fe32873c592333c0691f11f3441cc23f97",
           "source": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
           "request_id": "a6630580d2593bd20e3ac6aef1b6cae6fb6919f107140c3ce6798fb960c768ba",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 333,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T02:38:45.522117+00:00",
+          "block": "Title: JPMorganChase and OpenAI Announce Strategic AI Partnership\nURL: https://www.linkedin.com/posts/jpmorganchase-and-openai-are-announcing-a-ugcPost-7523922693906354176-FW77/\nImage URL: https://dms.licdn.com/playlist/vid/v2/D5605AQHeaIhevoCIKQ/thumbnail-with-play-button-overlay-high/B56aGpX03nKcC0-/0/1793842959239?e=2147483647&v=beta&t=ZfwWQS3QaEqG-ZQ-_kxw7waxxCCwidmTqG9jAWKZvWs\nSummary: OpenAI for Business announced a strategic partnership with JPMorganChase to explore how advanced AI can support productivity, knowledge workflows and cybersecurity. OpenAI calls it a step toward bringing its technology into more parts of leading financial institutions, with AI helping experts move faster from a finding to a tested response.",
+          "sha256": "dd612ce2e9869dec8082649cd8a8cdf347ca8e6dce2ba80f86ce9c46780c6c13",
+          "source": "OpenAI",
+          "request_id": "ecf836e3c5a903c27ea310da6199c009505d8bf5c516ee27b5b2778f95d2b6ca",
           "mode": "standard"
         }
       ]
@@ -9721,13 +9734,21 @@
       ]
     },
     "ecf836e3c5a903c27ea310da6199c009505d8bf5c516ee27b5b2778f95d2b6ca": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T02:38:44.733796+00:00",
       "received_sequence": 300,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T02:38:45.522117+00:00",
+      "records": [
+        {
+          "id": 333,
+          "revision": 1,
+          "sha256": "dd612ce2e9869dec8082649cd8a8cdf347ca8e6dce2ba80f86ce9c46780c6c13"
+        }
+      ]
     }
   },
   "batches": {
@@ -37553,6 +37574,21 @@
       "result": {
         "status": "received",
         "request_id": "ecf836e3c5a903c27ea310da6199c009505d8bf5c516ee27b5b2778f95d2b6ca"
+      }
+    },
+    "40d71ea0f8212f5516d069fe3c649bdd6340929c4bf60d72b7567ca79764006e": {
+      "sha256": "e26cab268a0e9379d30425c29606ed75d69a52660b648eb39159d36f560492a0",
+      "result": {
+        "status": "finalized",
+        "request_id": "ecf836e3c5a903c27ea310da6199c009505d8bf5c516ee27b5b2778f95d2b6ca",
+        "records": [
+          {
+            "id": 333,
+            "revision": 1,
+            "sha256": "dd612ce2e9869dec8082649cd8a8cdf347ca8e6dce2ba80f86ce9c46780c6c13"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
