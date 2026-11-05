@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1021,
-  "updated_at": "2026-11-05T02:38:45.522117+00:00",
+  "generation": 1022,
+  "updated_at": "2026-11-05T02:38:46.232559+00:00",
   "next_id": 334,
   "records": [
     {
@@ -37590,6 +37590,18 @@
         ],
         "duplicates": []
       }
+    },
+    "59b268a36815d360b4171751404d6a635f47ecb805c81fc0d2c27d41b608fe2b": {
+      "sha256": "5cce5617609d49f776b2fee45f57c04cc7b0121341929b4d8282c2d5d84b0d32",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 333,
+          "revision": 1,
+          "sha256": "dd612ce2e9869dec8082649cd8a8cdf347ca8e6dce2ba80f86ce9c46780c6c13"
+        },
+        "editorial_sha256": "16c2a3216041a2e00a6b108587c1e0cc068c46ad4d84036b6be10e80061d1ffb"
+      }
     }
   },
   "migration": {
@@ -46858,6 +46870,26 @@
         "sha256": "e6567c8a5acd3dfa6d18040714220c46a3e2a72eba06a24f449de2d417ad0238",
         "reviewed_at": "2026-11-05T02:02:53.594288+00:00",
         "operation_id": "2d8103c660fc6485041160dd88c2b5d3c4799448099e152a7210ed846ae5b59d"
+      }
+    ],
+    "333:1": [
+      {
+        "reference": {
+          "id": 333,
+          "revision": 1,
+          "sha256": "dd612ce2e9869dec8082649cd8a8cdf347ca8e6dce2ba80f86ce9c46780c6c13"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Enterprise business partnership between a bank and OpenAI; announcement-level, no technical/model detail, so general audience",
+            "evidence_sha256": "ee44fd195f3d6971aec8f184b6943abba21eb689525798bd8070d973021ef76b"
+          }
+        },
+        "sha256": "16c2a3216041a2e00a6b108587c1e0cc068c46ad4d84036b6be10e80061d1ffb",
+        "reviewed_at": "2026-11-05T02:38:46.232559+00:00",
+        "operation_id": "59b268a36815d360b4171751404d6a635f47ecb805c81fc0d2c27d41b608fe2b"
       }
     ]
   }
