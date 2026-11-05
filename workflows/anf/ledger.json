@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1018,
-  "updated_at": "2026-11-05T02:02:52.875233+00:00",
+  "generation": 1019,
+  "updated_at": "2026-11-05T02:02:53.594288+00:00",
   "next_id": 333,
   "records": [
     {
@@ -37526,6 +37526,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2d8103c660fc6485041160dd88c2b5d3c4799448099e152a7210ed846ae5b59d": {
+      "sha256": "f9a3bc4d81045cfa7ac80c25683cf65ff3a00829060248285ecf39db95e54d54",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 332,
+          "revision": 1,
+          "sha256": "39344e3362c5c9fa78ba126f78ad88fe32873c592333c0691f11f3441cc23f97"
+        },
+        "editorial_sha256": "e6567c8a5acd3dfa6d18040714220c46a3e2a72eba06a24f449de2d417ad0238"
+      }
     }
   },
   "migration": {
@@ -46774,6 +46786,26 @@
         "sha256": "01772a3e1925a1d206120a3cc54e58ef70c729a1360ff8025ec2611b1471e62e",
         "reviewed_at": "2026-11-05T02:01:58.259891+00:00",
         "operation_id": "2633374155201ec74af25f2fbe8fc70a08099d59e0b05059f4e6d192a000efb1"
+      }
+    ],
+    "332:1": [
+      {
+        "reference": {
+          "id": 332,
+          "revision": 1,
+          "sha256": "39344e3362c5c9fa78ba126f78ad88fe32873c592333c0691f11f3441cc23f97"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "AI-assisted biology discovery; general audience, no ML/dev/hardware framing",
+            "evidence_sha256": "2fe4a86fe6c4b9162738f490e04470e227fd3e70fbe8c60775c30e5a5099119e"
+          }
+        },
+        "sha256": "e6567c8a5acd3dfa6d18040714220c46a3e2a72eba06a24f449de2d417ad0238",
+        "reviewed_at": "2026-11-05T02:02:53.594288+00:00",
+        "operation_id": "2d8103c660fc6485041160dd88c2b5d3c4799448099e152a7210ed846ae5b59d"
       }
     ]
   }
