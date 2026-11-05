@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1065,
-  "updated_at": "2026-11-05T20:01:16.967537+00:00",
-  "next_id": 348,
+  "generation": 1066,
+  "updated_at": "2026-11-05T20:01:17.704640+00:00",
+  "next_id": 349,
   "records": [
     {
       "id": 1,
@@ -4611,6 +4611,19 @@
           "sha256": "6fcb3451b3f408ccc0176e202491d2bd95e8bce85e5e785c9eec4a942bd4f9a0",
           "source": "METR",
           "request_id": "7029041ec480020981479cc97d06252e82633a6d8c6b99c487194f3cba1f8a31",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 348,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T20:01:17.704640+00:00",
+          "block": "Title: Goodfire Introduces Mechanistic Shaping, Training Models Through Their Internal Representations\nURL: https://www.goodfire.com/research/mechanistic-shaping\nImage URL: https://www.goodfire.com/_astro/0-rerouting_gradient_descent-poster.Ni82KEZa_1AEKLm.jpg\nSummary: Goodfire's new paper proposes mechanistic shaping, which penalizes a model during training for relying on or expressing unwanted internal concepts. Goodfire reports it raised a reward-hacking model's honesty rate from 0% to 96-98%, reduced sycophancy and removed chest X-ray shortcuts. It says monitors can break but retraining a probe usually recovers the signal.",
+          "sha256": "68bb7df7b5f025ee6b49dbd77aa5c45ce3ab3abf2f5c6b1824ac6f5997834fd8",
+          "source": "Goodfire",
+          "request_id": "61d196205a600d008b10e4f0bbdfd7eb978bd0173058a519294641c233f1f85f",
           "mode": "standard"
         }
       ]
@@ -10150,13 +10163,21 @@
       ]
     },
     "61d196205a600d008b10e4f0bbdfd7eb978bd0173058a519294641c233f1f85f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T20:01:16.967537+00:00",
       "received_sequence": 313,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T20:01:17.704640+00:00",
+      "records": [
+        {
+          "id": 348,
+          "revision": 1,
+          "sha256": "68bb7df7b5f025ee6b49dbd77aa5c45ce3ab3abf2f5c6b1824ac6f5997834fd8"
+        }
+      ]
     }
   },
   "batches": {
@@ -38986,6 +39007,21 @@
       "result": {
         "status": "received",
         "request_id": "61d196205a600d008b10e4f0bbdfd7eb978bd0173058a519294641c233f1f85f"
+      }
+    },
+    "051699da92d07e86ac25bf99c6798b1083c1075febea4aa003f601ecf442799f": {
+      "sha256": "56deff782fcf0ff58f8f6f63dd309bc964c217f108a2a83251e23a28a4fca745",
+      "result": {
+        "status": "finalized",
+        "request_id": "61d196205a600d008b10e4f0bbdfd7eb978bd0173058a519294641c233f1f85f",
+        "records": [
+          {
+            "id": 348,
+            "revision": 1,
+            "sha256": "68bb7df7b5f025ee6b49dbd77aa5c45ce3ab3abf2f5c6b1824ac6f5997834fd8"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
