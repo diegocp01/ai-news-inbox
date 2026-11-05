@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1060,
-  "updated_at": "2026-11-05T19:19:48.365701+00:00",
+  "generation": 1061,
+  "updated_at": "2026-11-05T19:19:49.016242+00:00",
   "next_id": 347,
   "records": [
     {
@@ -38895,6 +38895,18 @@
         ],
         "duplicates": []
       }
+    },
+    "56e64a4f5be46d23600f85d28a2efee899cef990277a401e51b0283439583304": {
+      "sha256": "f192b6290c2a621e01a51d7a2ab8592848481d7a623ee06ad8be17351b80da3a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 346,
+          "revision": 1,
+          "sha256": "b0b8d44cf492156c52e2e3ba887522d2cd290c7d27e323ee21367bde007c64cf"
+        },
+        "editorial_sha256": "b40d895437ab94da6e3e07bd86c9e899c02dee5c055c1d33addef5ac522e47be"
+      }
     }
   },
   "migration": {
@@ -48423,6 +48435,26 @@
         "sha256": "ffe3bbb3a4c1ebfdcf89e402174110e2dec53d6797a7cd7f0d2e6e28076c848b",
         "reviewed_at": "2026-11-05T19:17:02.026960+00:00",
         "operation_id": "813963f42514fd1e31b8fb3b6e92fccdb8a0ad33394a9bc2b12686f6b1a1d332"
+      }
+    ],
+    "346:1": [
+      {
+        "reference": {
+          "id": 346,
+          "revision": 1,
+          "sha256": "b0b8d44cf492156c52e2e3ba887522d2cd290c7d27e323ee21367bde007c64cf"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer rollout of Meta's avatar technology in the Muse app; summary avoids model-architecture detail; feature launch, not a flagship model; unsure -> general",
+            "evidence_sha256": "386e3873ab320edb3c9e5f0a711ccab994c31c477b1b88822a195ce44c52967c"
+          }
+        },
+        "sha256": "b40d895437ab94da6e3e07bd86c9e899c02dee5c055c1d33addef5ac522e47be",
+        "reviewed_at": "2026-11-05T19:19:49.016242+00:00",
+        "operation_id": "56e64a4f5be46d23600f85d28a2efee899cef990277a401e51b0283439583304"
       }
     ]
   }
