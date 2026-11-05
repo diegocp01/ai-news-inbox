@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1078,
-  "updated_at": "2026-11-05T22:04:54.769704+00:00",
+  "generation": 1079,
+  "updated_at": "2026-11-05T22:04:55.456627+00:00",
   "next_id": 352,
   "records": [
     {
@@ -39262,6 +39262,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a346c207462c69e37c5865051928773b3c0b3773601ff61555572362644f676d": {
+      "sha256": "c68eeb40761e47d49167eba36de5859eaa3589c6e0df7e048bc732bdac4f046e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 351,
+          "revision": 1,
+          "sha256": "fb57f0189b84346ecc9cc84f610a74e2ca995b84f5c274baee349a884ba4eb58"
+        },
+        "editorial_sha256": "cd2cd1615b15b3b6d4571541286b52b1ffc741b2950458062d4103583deed0e8"
+      }
     }
   },
   "migration": {
@@ -48908,6 +48920,26 @@
         "sha256": "679ed2df23e9da39e5b8b802976e642a6e9823c7b58082fb073ecd466dfb791b",
         "reviewed_at": "2026-11-05T20:51:43.528887+00:00",
         "operation_id": "bb9c2ef70f00e002480ee8ff3550f186f86a34eac6889e5bad0e19bef92ae506"
+      }
+    ],
+    "351:1": [
+      {
+        "reference": {
+          "id": 351,
+          "revision": 1,
+          "sha256": "fb57f0189b84346ecc9cc84f610a74e2ca995b84f5c274baee349a884ba4eb58"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Robot-learning research centered on reinforcement learning, sim-to-real calibration, policy evaluation and domain randomization: ML-technical concepts a general reader wouldn't know. DS true.",
+            "evidence_sha256": "94db539e81ccd9e77826cff8f4d58a8a7be2d522ee3b1ce76b009e4f0e1a3cf3"
+          }
+        },
+        "sha256": "cd2cd1615b15b3b6d4571541286b52b1ffc741b2950458062d4103583deed0e8",
+        "reviewed_at": "2026-11-05T22:04:55.456627+00:00",
+        "operation_id": "a346c207462c69e37c5865051928773b3c0b3773601ff61555572362644f676d"
       }
     ]
   }
