@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1074,
-  "updated_at": "2026-11-05T20:51:42.156241+00:00",
+  "generation": 1075,
+  "updated_at": "2026-11-05T20:51:42.861458+00:00",
   "next_id": 351,
   "records": [
     {
@@ -10240,13 +10240,21 @@
       ]
     },
     "6292b252822497bea5b52b0bb2e7224ab5935a193df67f1d929e83f3a0840ac5": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T20:51:42.156241+00:00",
       "received_sequence": 316,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": 350
+      "corrects_record_id": 350,
+      "finalized_at": "2026-11-05T20:51:42.861458+00:00",
+      "records": [
+        {
+          "id": 350,
+          "revision": 1,
+          "sha256": "4c1a932b744d9e3637ae6cef039e343dc02d081881054626487f1bd12116936f"
+        }
+      ]
     }
   },
   "batches": {
@@ -39178,6 +39186,17 @@
       "result": {
         "status": "received",
         "request_id": "6292b252822497bea5b52b0bb2e7224ab5935a193df67f1d929e83f3a0840ac5"
+      }
+    },
+    "18efe9d551d6dc1070c7a23288ca4095cd2b0adc20d17c249a8639c1cbedc17f": {
+      "sha256": "01718cec8c0aec9b476ca443024fb4266013350aaf1c9927510abb370d3da616",
+      "result": {
+        "status": "corrected",
+        "record": {
+          "id": 350,
+          "revision": 1,
+          "sha256": "4c1a932b744d9e3637ae6cef039e343dc02d081881054626487f1bd12116936f"
+        }
       }
     }
   },
