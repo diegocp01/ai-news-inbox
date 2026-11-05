@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1047,
-  "updated_at": "2026-11-05T17:58:18.510345+00:00",
-  "next_id": 342,
+  "generation": 1048,
+  "updated_at": "2026-11-05T17:58:19.203265+00:00",
+  "next_id": 343,
   "records": [
     {
       "id": 1,
@@ -4533,6 +4533,19 @@
           "sha256": "cc3b74542928c7fbd2051efb52fb4e897727fa8b0239a569f10ad8f16477fa62",
           "source": "OpenAI",
           "request_id": "151d151c5c6cd908b5ac4edbd56cfcecfc819aec98f10e879c254ee0f1ab2906",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 342,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T17:58:19.203265+00:00",
+          "block": "Title: Planet Makes Its 'Ask the Earth' AI App Generally Available\nURL: https://ai.planet.com/\nImage URL: https://ai.planet.com/og-image.png\nSummary: Planet CEO Will Marshall announced that the Planet AI app is generally available after its beta, letting users ask questions of a 10+ year, 3,000+ layer archive of daily satellite imagery. He says beta users included farmers boosting crop yields, first responders tracking disaster paths and park rangers halting illegal deforestation.",
+          "sha256": "e524ccf8748250a55bf92143ff4f9339c8628db9faa55b05c19c6577083f061a",
+          "source": "Planet",
+          "request_id": "61fc25d779df7f8062c46a5d9eb68248542d1427c95e1c233b8fab63872a723a",
           "mode": "standard"
         }
       ]
@@ -9970,13 +9983,21 @@
       ]
     },
     "61fc25d779df7f8062c46a5d9eb68248542d1427c95e1c233b8fab63872a723a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T17:58:18.510345+00:00",
       "received_sequence": 307,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T17:58:19.203265+00:00",
+      "records": [
+        {
+          "id": 342,
+          "revision": 1,
+          "sha256": "e524ccf8748250a55bf92143ff4f9339c8628db9faa55b05c19c6577083f061a"
+        }
+      ]
     }
   },
   "batches": {
@@ -38602,6 +38623,21 @@
       "result": {
         "status": "received",
         "request_id": "61fc25d779df7f8062c46a5d9eb68248542d1427c95e1c233b8fab63872a723a"
+      }
+    },
+    "e2652722caa10ae95cee60b6225ff5170338717b5d961db7c2887bd095235345": {
+      "sha256": "05546867acdd2a31b9ad20e71e8fd30122505d0a64bb768e641835ee49ac0d6a",
+      "result": {
+        "status": "finalized",
+        "request_id": "61fc25d779df7f8062c46a5d9eb68248542d1427c95e1c233b8fab63872a723a",
+        "records": [
+          {
+            "id": 342,
+            "revision": 1,
+            "sha256": "e524ccf8748250a55bf92143ff4f9339c8628db9faa55b05c19c6577083f061a"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
