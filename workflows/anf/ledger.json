@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1071,
-  "updated_at": "2026-11-05T20:50:27.474200+00:00",
-  "next_id": 350,
+  "generation": 1072,
+  "updated_at": "2026-11-05T20:50:28.160748+00:00",
+  "next_id": 351,
   "records": [
     {
       "id": 1,
@@ -4637,6 +4637,19 @@
           "sha256": "c5531b8a8a66f46e1f991bc9ed0d4fb4301b769e5f96e7e9e0a5f67db48ec813",
           "source": "OpenAI",
           "request_id": "4570e33ca4a457c3ca8bb198def249e00b940cb7db9b5612b5785650b66aebb2",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 350,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T20:50:28.160748+00:00",
+          "block": "Title: World Labs Releases Frameboy, a Real-Time Demo of Its Atlas World Model\nURL: https://www.linkedin.com/posts/world-labs_explore-worlds-in-real-time-with-atlas-activity-7524193717562585088-mh9j\nImage URL: https://dms.licdn.com/playlist/vid/v2/D5605AQFwJI7SQTYLFw/thumbnail-with-play-button-overlay-high/B56aGtOREWHQDA-/0/1793907567930?e=2147483647&v=beta&t=rZGJPNth2ocrJe1es0QTOLSC6fMOooRzEId8H_XjDb0\nSummary: World Labs released Frameboy, a research preview that lets people explore AI-generated worlds in their browser in real time, steering the camera while a speed-optimized version of its Atlas world model streams new frames from the cloud at up to 15 per second. It is also built into Viewfinder, its closed-beta scene-building app.",
+          "sha256": "4c1a932b744d9e3637ae6cef039e343dc02d081881054626487f1bd12116936f",
+          "source": "World Labs",
+          "request_id": "7f7070a702a2383fcc283845d17a0a1818718bd075e3d3f91ef77c3376451e70",
           "mode": "standard"
         }
       ]
@@ -10210,13 +10223,21 @@
       ]
     },
     "7f7070a702a2383fcc283845d17a0a1818718bd075e3d3f91ef77c3376451e70": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T20:50:27.474200+00:00",
       "received_sequence": 315,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T20:50:28.160748+00:00",
+      "records": [
+        {
+          "id": 350,
+          "revision": 1,
+          "sha256": "4c1a932b744d9e3637ae6cef039e343dc02d081881054626487f1bd12116936f"
+        }
+      ]
     }
   },
   "batches": {
@@ -39114,6 +39135,21 @@
       "result": {
         "status": "received",
         "request_id": "7f7070a702a2383fcc283845d17a0a1818718bd075e3d3f91ef77c3376451e70"
+      }
+    },
+    "d11b581f30727ac40c6ecd0576c9f321c591bba5e9b28f90984b1dc61812559f": {
+      "sha256": "45cfc28c208f263e5b2484a68ef79af1004a2da707f496202ad59f776d835dfb",
+      "result": {
+        "status": "finalized",
+        "request_id": "7f7070a702a2383fcc283845d17a0a1818718bd075e3d3f91ef77c3376451e70",
+        "records": [
+          {
+            "id": 350,
+            "revision": 1,
+            "sha256": "4c1a932b744d9e3637ae6cef039e343dc02d081881054626487f1bd12116936f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
