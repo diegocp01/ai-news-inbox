@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1066,
-  "updated_at": "2026-11-05T20:01:17.704640+00:00",
+  "generation": 1067,
+  "updated_at": "2026-11-05T20:01:18.416492+00:00",
   "next_id": 349,
   "records": [
     {
@@ -39023,6 +39023,18 @@
         ],
         "duplicates": []
       }
+    },
+    "da1328ce8d99663524610cd286687ae5e4033b610be649fac43243ddf5bbcdd1": {
+      "sha256": "2c8c4dceff5ec347fc44a5d76b978a59f8b62f4a5abd6d4e7c1d97f41ad5e093",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 348,
+          "revision": 1,
+          "sha256": "68bb7df7b5f025ee6b49dbd77aa5c45ce3ab3abf2f5c6b1824ac6f5997834fd8"
+        },
+        "editorial_sha256": "ed1062260d92be68968cf160799b9f2c278a5650c66c6fd8ce8447e47323c7d2"
+      }
     }
   },
   "migration": {
@@ -48591,6 +48603,26 @@
         "sha256": "c55158c378910e4b34ec7ddb58be412dc198acdd95fe05271a0d03dead908a15",
         "reviewed_at": "2026-11-05T19:26:47.058983+00:00",
         "operation_id": "29b1240ff9b100f77838be4e063c117ed84f0bdd78f0e2a665f563ffa8239013"
+      }
+    ],
+    "348:1": [
+      {
+        "reference": {
+          "id": 348,
+          "revision": 1,
+          "sha256": "68bb7df7b5f025ee6b49dbd77aa5c45ce3ab3abf2f5c6b1824ac6f5997834fd8"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Interpretability/alignment research paper on training against internal representations, reward hacking and probes; ML-technical",
+            "evidence_sha256": "f0026e5497b34ae9e90937b6290fa80afeed5b5d64235baa16b50748ba0d3ccd"
+          }
+        },
+        "sha256": "ed1062260d92be68968cf160799b9f2c278a5650c66c6fd8ce8447e47323c7d2",
+        "reviewed_at": "2026-11-05T20:01:18.416492+00:00",
+        "operation_id": "da1328ce8d99663524610cd286687ae5e4033b610be649fac43243ddf5bbcdd1"
       }
     ]
   }
