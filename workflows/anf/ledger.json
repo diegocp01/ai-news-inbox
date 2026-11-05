@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1077,
-  "updated_at": "2026-11-05T22:04:53.960606+00:00",
-  "next_id": 351,
+  "generation": 1078,
+  "updated_at": "2026-11-05T22:04:54.769704+00:00",
+  "next_id": 352,
   "records": [
     {
       "id": 1,
@@ -4650,6 +4650,19 @@
           "sha256": "4c1a932b744d9e3637ae6cef039e343dc02d081881054626487f1bd12116936f",
           "source": "World Labs",
           "request_id": "7f7070a702a2383fcc283845d17a0a1818718bd075e3d3f91ef77c3376451e70",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 351,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T22:04:54.769704+00:00",
+          "block": "Title: Moonlake Previews Simulation-Driven Approach to Training Robots\nURL: https://moonlakeai.com/blog/simulation-enabled-scaling-paradigm\nImage URL: https://moonlakeai.com/blog/simulation-enabled-scaling-paradigm/da.jpg\nSummary: Moonlake shared early research on a \"calibrate, evaluate, improve\" loop for robot learning: build physics simulations matched to a real setting from little real-world data, test robot policies there, then refine them with reinforcement learning. Across three two-armed manipulation tasks, Moonlake says the approach reached similar real-robot performance to real-only development at far lower cost.",
+          "sha256": "fb57f0189b84346ecc9cc84f610a74e2ca995b84f5c274baee349a884ba4eb58",
+          "source": "Moonlake",
+          "request_id": "87e9cd051e6345b34734d3e1a9a59cbe4c7bf580619a8e35355f2e403faf5475",
           "mode": "standard"
         }
       ]
@@ -10257,13 +10270,21 @@
       ]
     },
     "87e9cd051e6345b34734d3e1a9a59cbe4c7bf580619a8e35355f2e403faf5475": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T22:04:53.960606+00:00",
       "received_sequence": 317,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T22:04:54.769704+00:00",
+      "records": [
+        {
+          "id": 351,
+          "revision": 1,
+          "sha256": "fb57f0189b84346ecc9cc84f610a74e2ca995b84f5c274baee349a884ba4eb58"
+        }
+      ]
     }
   },
   "batches": {
@@ -39225,6 +39246,21 @@
       "result": {
         "status": "received",
         "request_id": "87e9cd051e6345b34734d3e1a9a59cbe4c7bf580619a8e35355f2e403faf5475"
+      }
+    },
+    "bca4d819157cd48993a830da1cad23f5941fd725e97d0c4fd1a15e8a70dbefa2": {
+      "sha256": "18a223d5d99a3d0a495d80f60a631d7dd307727f895c12c4cbec8600fdaad990",
+      "result": {
+        "status": "finalized",
+        "request_id": "87e9cd051e6345b34734d3e1a9a59cbe4c7bf580619a8e35355f2e403faf5475",
+        "records": [
+          {
+            "id": 351,
+            "revision": 1,
+            "sha256": "fb57f0189b84346ecc9cc84f610a74e2ca995b84f5c274baee349a884ba4eb58"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
