@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1054,
-  "updated_at": "2026-11-05T18:27:05.419887+00:00",
+  "generation": 1055,
+  "updated_at": "2026-11-05T18:27:06.141859+00:00",
   "next_id": 345,
   "records": [
     {
@@ -38767,6 +38767,18 @@
         ],
         "duplicates": []
       }
+    },
+    "bae5113ca7cdaa68593100831953db0f533f15b137a5ea1fee2b75c4510136e8": {
+      "sha256": "1d49f3c60655ed16645ef026cf7ed16a6877ce1fe9070ea0f436f5ef0112c5b4",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 344,
+          "revision": 1,
+          "sha256": "12938415de056809ec7fa4df422ba982a71b194d65204d116356430d460750bb"
+        },
+        "editorial_sha256": "2f6a0ee833af0310960f69c178f3bf947e2c4fc9eef22ca992813876b500eba9"
+      }
     }
   },
   "migration": {
@@ -48255,6 +48267,26 @@
         "sha256": "fd743d36b5c59f04af1450b9d9e3e83d40a079a013b0474f13947b1d756337e3",
         "reviewed_at": "2026-11-05T18:23:26.774737+00:00",
         "operation_id": "5dd2b28ce9d4478995816331696e40d622438635844a4c965d5cf644ff1d4949"
+      }
+    ],
+    "344:1": [
+      {
+        "reference": {
+          "id": 344,
+          "revision": 1,
+          "sha256": "12938415de056809ec7fa4df422ba982a71b194d65204d116356430d460750bb"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Political/policy statement on AI regulation; no technical content, general audience",
+            "evidence_sha256": "a00a7a8aed92eec3a9d73baf7f6f170fd1abba849b495e3689df7aa5e0eca576"
+          }
+        },
+        "sha256": "2f6a0ee833af0310960f69c178f3bf947e2c4fc9eef22ca992813876b500eba9",
+        "reviewed_at": "2026-11-05T18:27:06.141859+00:00",
+        "operation_id": "bae5113ca7cdaa68593100831953db0f533f15b137a5ea1fee2b75c4510136e8"
       }
     ]
   }
