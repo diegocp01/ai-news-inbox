@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1056,
-  "updated_at": "2026-11-05T19:17:00.438516+00:00",
-  "next_id": 345,
+  "generation": 1057,
+  "updated_at": "2026-11-05T19:17:01.299183+00:00",
+  "next_id": 346,
   "records": [
     {
       "id": 1,
@@ -4572,6 +4572,19 @@
           "sha256": "12938415de056809ec7fa4df422ba982a71b194d65204d116356430d460750bb",
           "source": "Rep. Yassamin Ansari",
           "request_id": "23410f72281b11b0246ca98c8aa5f2fcfb5ac760f986f3cd96b8f73c20089d4c",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 345,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T19:17:01.299183+00:00",
+          "block": "Title: Meta Adds Voice Conversations and Expressive Avatars to Its Muse AI Agent\nURL: https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/\nImage URL: https://about.fb.com/wp-content/uploads/2026/11/Were-rolling-out-voice-and-expressive-avatars-in-the-Muse-app_Social-Share.jpg?w=1200\nSummary: Meta is rolling out real-time voice conversations and expressive avatars in its Muse personal AI agent app on mobile, web and Mac, starting in the US. Users can talk to Muse, interrupt it and choose from hundreds of voices while it handles tasks in the background. Meta says voice is coming soon to its AI glasses and Muse Charm.",
+          "sha256": "ac7f26cd821c0f7795d32998415f6c57f4210ab988558967c7b7163d9a5a1ed0",
+          "source": "Meta",
+          "request_id": "86280d8e72c0d2be957d5a23b3571c02cffe75c807515779eb0373c2d48b0adf",
           "mode": "standard"
         }
       ]
@@ -10060,13 +10073,21 @@
       ]
     },
     "86280d8e72c0d2be957d5a23b3571c02cffe75c807515779eb0373c2d48b0adf": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T19:17:00.438516+00:00",
       "received_sequence": 310,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T19:17:01.299183+00:00",
+      "records": [
+        {
+          "id": 345,
+          "revision": 1,
+          "sha256": "ac7f26cd821c0f7795d32998415f6c57f4210ab988558967c7b7163d9a5a1ed0"
+        }
+      ]
     }
   },
   "batches": {
@@ -38794,6 +38815,21 @@
       "result": {
         "status": "received",
         "request_id": "86280d8e72c0d2be957d5a23b3571c02cffe75c807515779eb0373c2d48b0adf"
+      }
+    },
+    "bd21176e23a50ec47a8dc36aefa4c1b4f88e358e2fc71d9fc190e3c58537d678": {
+      "sha256": "c79d91e9ebd49553f63e3dfde91f309dd4837a9a14904c522515f3d421109536",
+      "result": {
+        "status": "finalized",
+        "request_id": "86280d8e72c0d2be957d5a23b3571c02cffe75c807515779eb0373c2d48b0adf",
+        "records": [
+          {
+            "id": 345,
+            "revision": 1,
+            "sha256": "ac7f26cd821c0f7795d32998415f6c57f4210ab988558967c7b7163d9a5a1ed0"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
