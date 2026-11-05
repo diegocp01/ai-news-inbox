@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1051,
-  "updated_at": "2026-11-05T18:23:26.045223+00:00",
+  "generation": 1052,
+  "updated_at": "2026-11-05T18:23:26.774737+00:00",
   "next_id": 344,
   "records": [
     {
@@ -38703,6 +38703,18 @@
         ],
         "duplicates": []
       }
+    },
+    "5dd2b28ce9d4478995816331696e40d622438635844a4c965d5cf644ff1d4949": {
+      "sha256": "190668cb00eed91a0cd7fb275459cf074b0a551afcb4c01d1de61ceee42277b7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 343,
+          "revision": 1,
+          "sha256": "d9ab98dffb33a8b8d2e626b0d9db79735362aec559c7af748c3620dc856985cb"
+        },
+        "editorial_sha256": "fd743d36b5c59f04af1450b9d9e3e83d40a079a013b0474f13947b1d756337e3"
+      }
     }
   },
   "migration": {
@@ -48171,6 +48183,26 @@
         "sha256": "37abc3b218a813d765d7f3d930b6ce6a29523bd03b63ef8d7e22b9a612b9ef38",
         "reviewed_at": "2026-11-05T17:58:19.912747+00:00",
         "operation_id": "aa7cc3c163a814f29cfb1982429e08280d8a856258a307bca205f7f14a4ba87f"
+      }
+    ],
+    "343:1": [
+      {
+        "reference": {
+          "id": 343,
+          "revision": 1,
+          "sha256": "d9ab98dffb33a8b8d2e626b0d9db79735362aec559c7af748c3620dc856985cb"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer product feature (personal finance) in Claude app; not a model release, no technical detail, general audience",
+            "evidence_sha256": "77397aab8227d717f3a31cfed6e3ecb0570014e0872e5103f466b2aa1dc25525"
+          }
+        },
+        "sha256": "fd743d36b5c59f04af1450b9d9e3e83d40a079a013b0474f13947b1d756337e3",
+        "reviewed_at": "2026-11-05T18:23:26.774737+00:00",
+        "operation_id": "5dd2b28ce9d4478995816331696e40d622438635844a4c965d5cf644ff1d4949"
       }
     ]
   }
