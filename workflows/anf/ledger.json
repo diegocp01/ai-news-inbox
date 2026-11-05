@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1025,
-  "updated_at": "2026-11-05T12:39:30.580528+00:00",
-  "next_id": 336,
+  "generation": 1026,
+  "updated_at": "2026-11-05T12:45:31.870691+00:00",
+  "next_id": 338,
   "records": [
     {
       "id": 1,
@@ -4454,6 +4454,34 @@
           "source": "arXiv",
           "request_id": "6f986fecaa801eb6365d7e53d71d26532116972eb22f98cc1660111ec0771ef3",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 336,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T12:45:31.870691+00:00",
+          "block": "Title: Grok Bot Adds Phone Calls to U.S. Businesses\nURL: https://www.teslarati.com/elon-musks-grok-bot-is-picking-up-the-phone-now-and-the-first-calls-are-wild/\nImage URL: https://www.teslarati.com/wp-content/uploads/2025/12/tesla-robotaxi-app-expansion-1000x600.jpg\nSummary: Teslarati reports that Grok Bot can now call U.S. businesses for users, showing a live transcript and requesting typed answers when it needs more information. Its terms say calls identify the bot as a virtual assistant and make customers responsible for calls, required permissions and compliance with applicable phone and recording laws.",
+          "sha256": "024dc1e75c459920bc481f16a27a966f4ddaf0b3bd9d7576ca8e893ac12c9852",
+          "source": "teslarati.com",
+          "request_id": "cb95afbdd6e83e2041d7ba6f981b40e0e30200eddd6cc476380d3c67e6f6b130",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 337,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T12:45:31.870691+00:00",
+          "block": "Title: Midterm Voters Back Data Center Limits Amid AI Concerns\nURL: https://www.datacenterdynamics.com/en/news/nbc-exit-poll-56-say-ai-data-centers-were-a-crucial-or-major-factor-in-congressional-vote-decision/\nImage URL: https://media.datacenterdynamics.com/media/images/USCapitol.width-358.jpg\nSummary: U.S. voters approved local limits on data centers in the midterm elections, while Democrats won both chambers of Congress. Data Center Dynamics reported that an NBC News exit poll found 76% opposed a new data center in their community and 57% expected AI to do more harm than good for society.",
+          "sha256": "c78757b5e42784c185789b5c2d5619e5520c89a06b65a0618a37f8f869b454bd",
+          "source": "datacenterdynamics.com",
+          "request_id": "cb95afbdd6e83e2041d7ba6f981b40e0e30200eddd6cc476380d3c67e6f6b130",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -9799,14 +9827,27 @@
       ]
     },
     "cb95afbdd6e83e2041d7ba6f981b40e0e30200eddd6cc476380d3c67e6f6b130": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T12:39:30.580528+00:00",
       "received_sequence": 302,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-05T12:45:31.870691+00:00",
+      "records": [
+        {
+          "id": 336,
+          "revision": 1,
+          "sha256": "024dc1e75c459920bc481f16a27a966f4ddaf0b3bd9d7576ca8e893ac12c9852"
+        },
+        {
+          "id": 337,
+          "revision": 1,
+          "sha256": "c78757b5e42784c185789b5c2d5619e5520c89a06b65a0618a37f8f869b454bd"
+        }
+      ]
     }
   },
   "batches": {
@@ -37693,6 +37734,26 @@
       "result": {
         "status": "received",
         "request_id": "cb95afbdd6e83e2041d7ba6f981b40e0e30200eddd6cc476380d3c67e6f6b130"
+      }
+    },
+    "8ed674194d33a28b9a99e6d8d4ec3865bbf818fab18f1adf050929a9df947dfd": {
+      "sha256": "1930e108e50b657a71736839db79dc045c6742ac4e1f781dff63d4ce9c88c2b6",
+      "result": {
+        "status": "finalized",
+        "request_id": "cb95afbdd6e83e2041d7ba6f981b40e0e30200eddd6cc476380d3c67e6f6b130",
+        "records": [
+          {
+            "id": 336,
+            "revision": 1,
+            "sha256": "024dc1e75c459920bc481f16a27a966f4ddaf0b3bd9d7576ca8e893ac12c9852"
+          },
+          {
+            "id": 337,
+            "revision": 1,
+            "sha256": "c78757b5e42784c185789b5c2d5619e5520c89a06b65a0618a37f8f869b454bd"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
