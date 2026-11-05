@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1072,
-  "updated_at": "2026-11-05T20:50:28.160748+00:00",
+  "generation": 1073,
+  "updated_at": "2026-11-05T20:50:28.822701+00:00",
   "next_id": 351,
   "records": [
     {
@@ -39151,6 +39151,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b99571ddb5c4090d847fe516900b960c72f12d996b17aaeffe5e74fa886ea169": {
+      "sha256": "bfde8841054afefe8221378dd5b086adf360fdfa6f037ee4690fa397309df259",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 350,
+          "revision": 1,
+          "sha256": "4c1a932b744d9e3637ae6cef039e343dc02d081881054626487f1bd12116936f"
+        },
+        "editorial_sha256": "9b4442682ee5855864f992713355c21a0720c3a7cbd236aadfccac288e504d06"
+      }
     }
   },
   "migration": {
@@ -48759,6 +48771,26 @@
         "sha256": "e010054a1f096a7299f58400c2b2edb90d4e085373b8b30e609686e416568924",
         "reviewed_at": "2026-11-05T20:47:30.710553+00:00",
         "operation_id": "552b94176b2e26df8d64eac67f3e5bd7515fe0b92903d4fde61b7c97a1754a14"
+      }
+    ],
+    "350:1": [
+      {
+        "reference": {
+          "id": 350,
+          "revision": 1,
+          "sha256": "4c1a932b744d9e3637ae6cef039e343dc02d081881054626487f1bd12116936f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Interactive consumer demo of a world model; summary in plain language without ML-internals jargon; unsure -> general; not a five-lab model",
+            "evidence_sha256": "79044c7e66ab7c81b69a5a2a86e16bb84b76ccb583a20933459de45d37eef4f7"
+          }
+        },
+        "sha256": "9b4442682ee5855864f992713355c21a0720c3a7cbd236aadfccac288e504d06",
+        "reviewed_at": "2026-11-05T20:50:28.822701+00:00",
+        "operation_id": "b99571ddb5c4090d847fe516900b960c72f12d996b17aaeffe5e74fa886ea169"
       }
     ]
   }
