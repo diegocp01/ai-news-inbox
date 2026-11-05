@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1041,
-  "updated_at": "2026-11-05T17:21:06.690031+00:00",
-  "next_id": 340,
+  "generation": 1042,
+  "updated_at": "2026-11-05T17:21:07.341934+00:00",
+  "next_id": 341,
   "records": [
     {
       "id": 1,
@@ -4507,6 +4507,19 @@
           "sha256": "7b80e1a74b1cf2da746e8cac9d473b35c9b2d15bcee2c0945f3f6ad00af91a03",
           "source": "ChatAndBuild",
           "request_id": "036bd32eb6918746f53a6c6cd05cd8383bede7da33077ba5dfd17da607dc0b0f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 340,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T17:21:07.341934+00:00",
+          "block": "Title: Google Releases Gemini Omni 1.2 Flash With 15-Second Videos and Lower Pricing\nURL: https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available\nImage URL: https://storage.googleapis.com/gweb-cloudblog-publish/images/gemini-omni.max-2500x2500.jpg\nSummary: Google released Gemini Omni 1.2 Flash, its updated video generation model, extending video generation and editing to 15 seconds, up from 10. Google says it holds scenes together better, improves character speech and reduces glitches like jump cuts. It's available in Flow, Google Vids and the Gemini app, and Google Cloud says it costs 30% less than Omni 1.1 Flash.",
+          "sha256": "254fcb55ff090c10adcaae549dc14e6d5aee7ee76418c42b50f7362ef96960c9",
+          "source": "Google",
+          "request_id": "b34123b18dbe90c058f29d083f1fb42c61a1e685758b7e38a7fb29e620dbbe1f",
           "mode": "standard"
         }
       ]
@@ -9910,13 +9923,21 @@
       ]
     },
     "b34123b18dbe90c058f29d083f1fb42c61a1e685758b7e38a7fb29e620dbbe1f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T17:21:06.690031+00:00",
       "received_sequence": 305,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T17:21:07.341934+00:00",
+      "records": [
+        {
+          "id": 340,
+          "revision": 1,
+          "sha256": "254fcb55ff090c10adcaae549dc14e6d5aee7ee76418c42b50f7362ef96960c9"
+        }
+      ]
     }
   },
   "batches": {
@@ -38474,6 +38495,21 @@
       "result": {
         "status": "received",
         "request_id": "b34123b18dbe90c058f29d083f1fb42c61a1e685758b7e38a7fb29e620dbbe1f"
+      }
+    },
+    "3f709db985f5c7986c448ef928b44ac45fbc3095e0a6679c0e878a430bb6f64a": {
+      "sha256": "69b898142ec5294d6b4ab9ad76efc583bf011ec54ae13a337001f409ccf134b9",
+      "result": {
+        "status": "finalized",
+        "request_id": "b34123b18dbe90c058f29d083f1fb42c61a1e685758b7e38a7fb29e620dbbe1f",
+        "records": [
+          {
+            "id": 340,
+            "revision": 1,
+            "sha256": "254fcb55ff090c10adcaae549dc14e6d5aee7ee76418c42b50f7362ef96960c9"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
