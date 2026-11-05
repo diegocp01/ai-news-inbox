@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1044,
-  "updated_at": "2026-11-05T17:21:08.740168+00:00",
-  "next_id": 341,
+  "generation": 1045,
+  "updated_at": "2026-11-05T17:21:09.353581+00:00",
+  "next_id": 342,
   "records": [
     {
       "id": 1,
@@ -4520,6 +4520,19 @@
           "sha256": "254fcb55ff090c10adcaae549dc14e6d5aee7ee76418c42b50f7362ef96960c9",
           "source": "Google",
           "request_id": "b34123b18dbe90c058f29d083f1fb42c61a1e685758b7e38a7fb29e620dbbe1f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 341,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T17:21:09.353581+00:00",
+          "block": "Title: OpenAI Introduces GPT-6 Cyber for Security Research\nURL: https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch\nImage URL: https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200\nSummary: OpenAI introduced GPT-6 Cyber, a security research model it says is more capable and better at staying within researcher-set boundaries. OpenAI says it developed 948 Linux kernel privilege escalation exploits and found 81 high-severity Firefox vulnerabilities, with Mozilla shipping fixes. It is available to select Daybreak Red customers, with access expanding over time.",
+          "sha256": "cc3b74542928c7fbd2051efb52fb4e897727fa8b0239a569f10ad8f16477fa62",
+          "source": "OpenAI",
+          "request_id": "151d151c5c6cd908b5ac4edbd56cfcecfc819aec98f10e879c254ee0f1ab2906",
           "mode": "standard"
         }
       ]
@@ -9940,13 +9953,21 @@
       ]
     },
     "151d151c5c6cd908b5ac4edbd56cfcecfc819aec98f10e879c254ee0f1ab2906": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T17:21:08.740168+00:00",
       "received_sequence": 306,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T17:21:09.353581+00:00",
+      "records": [
+        {
+          "id": 341,
+          "revision": 1,
+          "sha256": "cc3b74542928c7fbd2051efb52fb4e897727fa8b0239a569f10ad8f16477fa62"
+        }
+      ]
     }
   },
   "batches": {
@@ -38538,6 +38559,21 @@
       "result": {
         "status": "received",
         "request_id": "151d151c5c6cd908b5ac4edbd56cfcecfc819aec98f10e879c254ee0f1ab2906"
+      }
+    },
+    "91d53282dd88092a0e7232539bdd4d94a5490c1633f63b6cac98cc77d5130ec0": {
+      "sha256": "d36da2bf72cf2b9fb1134ba98033897c2cfb3400e3037336c9de8e0b2015fc80",
+      "result": {
+        "status": "finalized",
+        "request_id": "151d151c5c6cd908b5ac4edbd56cfcecfc819aec98f10e879c254ee0f1ab2906",
+        "records": [
+          {
+            "id": 341,
+            "revision": 1,
+            "sha256": "cc3b74542928c7fbd2051efb52fb4e897727fa8b0239a569f10ad8f16477fa62"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
