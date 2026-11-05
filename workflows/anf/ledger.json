@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1069,
-  "updated_at": "2026-11-05T20:47:30.068500+00:00",
+  "generation": 1070,
+  "updated_at": "2026-11-05T20:47:30.710553+00:00",
   "next_id": 350,
   "records": [
     {
@@ -39087,6 +39087,18 @@
         ],
         "duplicates": []
       }
+    },
+    "552b94176b2e26df8d64eac67f3e5bd7515fe0b92903d4fde61b7c97a1754a14": {
+      "sha256": "89c11bed6688b9ea72a947b26831d39b32b9ef975bfb5099433acb50d1c17e32",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 349,
+          "revision": 1,
+          "sha256": "c5531b8a8a66f46e1f991bc9ed0d4fb4301b769e5f96e7e9e0a5f67db48ec813"
+        },
+        "editorial_sha256": "e010054a1f096a7299f58400c2b2edb90d4e085373b8b30e609686e416568924"
+      }
     }
   },
   "migration": {
@@ -48675,6 +48687,26 @@
         "sha256": "ed1062260d92be68968cf160799b9f2c278a5650c66c6fd8ce8447e47323c7d2",
         "reviewed_at": "2026-11-05T20:01:18.416492+00:00",
         "operation_id": "da1328ce8d99663524610cd286687ae5e4033b610be649fac43243ddf5bbcdd1"
+      }
+    ],
+    "349:1": [
+      {
+        "reference": {
+          "id": 349,
+          "revision": 1,
+          "sha256": "c5531b8a8a66f46e1f991bc9ed0d4fb4301b769e5f96e7e9e0a5f67db48ec813"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Policy and community commitments for AI data center campuses; no ML or technical detail, general audience; not a model release",
+            "evidence_sha256": "23f007ae95b818b07bf44faaec69cca732655bf0f0d7f1d0f3add7fd2fad52ae"
+          }
+        },
+        "sha256": "e010054a1f096a7299f58400c2b2edb90d4e085373b8b30e609686e416568924",
+        "reviewed_at": "2026-11-05T20:47:30.710553+00:00",
+        "operation_id": "552b94176b2e26df8d64eac67f3e5bd7515fe0b92903d4fde61b7c97a1754a14"
       }
     ]
   }
