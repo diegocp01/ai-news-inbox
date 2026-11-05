@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1026,
-  "updated_at": "2026-11-05T12:45:31.870691+00:00",
+  "generation": 1030,
+  "updated_at": "2026-11-05T13:05:15.418583+00:00",
   "next_id": 338,
   "records": [
     {
@@ -37755,6 +37755,54 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261105-334-3457": {
+      "sha256": "1aee6fc180017f1cbdaa99e5c74beafa8cb5b58bbcbf6318b65fa1f5394f6ad7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 334,
+          "revision": 1,
+          "sha256": "ca809d30566768e7c0d41278acc9b56ed948046a564368b9408fda31c8b4d939"
+        },
+        "editorial_sha256": "9405ddfe6dda08bfcb73bf4d22180c577b84f51b841aa059091a580bd706b905"
+      }
+    },
+    "muse-backfill-20261105-335-5438": {
+      "sha256": "014643f3a2569f2c56b37b4deba589702e7eee75a62d41dadd0b254d1b882881",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 335,
+          "revision": 1,
+          "sha256": "8c2fc3103c18c3b232d1b071b82c51dcc88ee09dab9d5ab7cd68830de8174087"
+        },
+        "editorial_sha256": "e0771dd56650db7811dfddf17e53e91c7d0303981181d4c4ac48a6ea3a5e6584"
+      }
+    },
+    "muse-backfill-20261105-336-6618": {
+      "sha256": "4c621dc72d696406a4d4bd6a6700de5c04032d0d91d18414274318ad3376e0a9",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 336,
+          "revision": 1,
+          "sha256": "024dc1e75c459920bc481f16a27a966f4ddaf0b3bd9d7576ca8e893ac12c9852"
+        },
+        "editorial_sha256": "b6ce7ddcf67ac04171671f0963580c1a80851d923f8c8621726ff0de142861df"
+      }
+    },
+    "muse-backfill-20261105-337-4914": {
+      "sha256": "6d91cf8ba7813a84058fc187cace66373b4871cda8be417a6ac8fe13a34d9ffd",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 337,
+          "revision": 1,
+          "sha256": "c78757b5e42784c185789b5c2d5619e5520c89a06b65a0618a37f8f869b454bd"
+        },
+        "editorial_sha256": "214c02068311edcc50368c8009071484301f0a71934c0c32915469fb93a1de74"
+      }
     }
   },
   "migration": {
@@ -47043,6 +47091,86 @@
         "sha256": "16c2a3216041a2e00a6b108587c1e0cc068c46ad4d84036b6be10e80061d1ffb",
         "reviewed_at": "2026-11-05T02:38:46.232559+00:00",
         "operation_id": "59b268a36815d360b4171751404d6a635f47ecb805c81fc0d2c27d41b608fe2b"
+      }
+    ],
+    "334:1": [
+      {
+        "reference": {
+          "id": 334,
+          "revision": 1,
+          "sha256": "ca809d30566768e7c0d41278acc9b56ed948046a564368b9408fda31c8b4d939"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Lingzhi Yuan and colleagues introduce Meta², which learns reusable intervention guidance offline and applies task-local tool or instruction edits while keeping model weights fixed. Using GPT-5.6-Terra, they report 81.0% on Terminal-Bench 2.1 and 44.4% on DeepSWE 1.1. This is AI research on agent tool adaptation with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-05: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "ca809d30566768e7c0d41278acc9b56ed948046a564368b9408fda31c8b4d939"
+          }
+        },
+        "sha256": "9405ddfe6dda08bfcb73bf4d22180c577b84f51b841aa059091a580bd706b905",
+        "reviewed_at": "2026-11-05T13:05:14.994103+00:00",
+        "operation_id": "muse-backfill-20261105-334-3457"
+      }
+    ],
+    "335:1": [
+      {
+        "reference": {
+          "id": 335,
+          "revision": 1,
+          "sha256": "8c2fc3103c18c3b232d1b071b82c51dcc88ee09dab9d5ab7cd68830de8174087"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Weichen Fan and colleagues introduce NEO-VLA, which processes image patches with language and reads visual features across model layers for robot control. They report 89.7% task-weighted success on LIBERO-Plus, with strong camera and language robustness. This is robotics research with experimental evaluation, for research audiences. muse-compile-backfill 2026-11-05: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "8c2fc3103c18c3b232d1b071b82c51dcc88ee09dab9d5ab7cd68830de8174087"
+          }
+        },
+        "sha256": "e0771dd56650db7811dfddf17e53e91c7d0303981181d4c4ac48a6ea3a5e6584",
+        "reviewed_at": "2026-11-05T13:05:15.138115+00:00",
+        "operation_id": "muse-backfill-20261105-335-5438"
+      }
+    ],
+    "336:1": [
+      {
+        "reference": {
+          "id": 336,
+          "revision": 1,
+          "sha256": "024dc1e75c459920bc481f16a27a966f4ddaf0b3bd9d7576ca8e893ac12c9852"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Teslarati reports that Grok Bot can now call U.S. businesses for users, showing a live transcript and requesting typed answers when it needs more information. Its terms say calls identify the bot as a virtual assistant and make customers responsible for calls and compliance with phone and recording laws. This is a consumer AI assistant product update for a broad audience, not technical research. muse-compile-backfill 2026-11-05: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "024dc1e75c459920bc481f16a27a966f4ddaf0b3bd9d7576ca8e893ac12c9852"
+          }
+        },
+        "sha256": "b6ce7ddcf67ac04171671f0963580c1a80851d923f8c8621726ff0de142861df",
+        "reviewed_at": "2026-11-05T13:05:15.278305+00:00",
+        "operation_id": "muse-backfill-20261105-336-6618"
+      }
+    ],
+    "337:1": [
+      {
+        "reference": {
+          "id": 337,
+          "revision": 1,
+          "sha256": "c78757b5e42784c185789b5c2d5619e5520c89a06b65a0618a37f8f869b454bd"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "U.S. voters approved local limits on data centers in the midterm elections, while Democrats won both chambers of Congress. Data Center Dynamics reported that an NBC News exit poll found 76% opposed a new data center in their community and 57% expected AI to do more harm than good for society. This is election and AI-policy news for a broad audience, not technical research. muse-compile-backfill 2026-11-05: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "c78757b5e42784c185789b5c2d5619e5520c89a06b65a0618a37f8f869b454bd"
+          }
+        },
+        "sha256": "214c02068311edcc50368c8009071484301f0a71934c0c32915469fb93a1de74",
+        "reviewed_at": "2026-11-05T13:05:15.418583+00:00",
+        "operation_id": "muse-backfill-20261105-337-4914"
       }
     ]
   }
