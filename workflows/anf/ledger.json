@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1006,
-  "updated_at": "2026-11-05T01:43:13.319182+00:00",
+  "generation": 1007,
+  "updated_at": "2026-11-05T01:43:14.007310+00:00",
   "next_id": 329,
   "records": [
     {
@@ -37270,6 +37270,18 @@
         ],
         "duplicates": []
       }
+    },
+    "870518ec2719c04362f7c9bda0604f5855eb7cdbd6dda8a9d365b258a6cde341": {
+      "sha256": "40a13d7377fd0eb4ba17a7b15ca92f0d65f959acde69d04535fd216d278bcc4c",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 328,
+          "revision": 1,
+          "sha256": "b6ca02e9b806a7480f7e5194ee7e8dabe74a2bbd4ed4ecbc376ebd4d24637ec4"
+        },
+        "editorial_sha256": "f9305c5d881543329963dfd2affdd9d5287017763ac2ca50509c337c1bf8b967"
+      }
     }
   },
   "migration": {
@@ -46438,6 +46450,26 @@
         "sha256": "13102316e0be2cb543da89644ae820a353700a22ab3d4bc11c5bced80a18e6d8",
         "reviewed_at": "2026-11-05T01:42:03.376606+00:00",
         "operation_id": "1a4973258fdd8c2d74d2d442751782cc94c930f0aa47b4c306c3e7c6e8eff0c7"
+      }
+    ],
+    "328:1": [
+      {
+        "reference": {
+          "id": 328,
+          "revision": 1,
+          "sha256": "b6ca02e9b806a7480f7e5194ee7e8dabe74a2bbd4ed4ecbc376ebd4d24637ec4"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Security research: Linux kernel vulnerability discovery, privilege escalation exploits, patch pipeline",
+            "evidence_sha256": "e75c5af180949e36b94005c6ad4ebe9599c5868f9c50f36a6266b5dde41f5efb"
+          }
+        },
+        "sha256": "f9305c5d881543329963dfd2affdd9d5287017763ac2ca50509c337c1bf8b967",
+        "reviewed_at": "2026-11-05T01:43:14.007310+00:00",
+        "operation_id": "870518ec2719c04362f7c9bda0604f5855eb7cdbd6dda8a9d365b258a6cde341"
       }
     ]
   }
