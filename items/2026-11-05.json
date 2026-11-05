@@ -1,0 +1,129 @@
+[
+  {
+    "title": "OpenAI to Acquire Pierre Computer Company to Expand Codex's Code Review and Git Tools",
+    "description": "OpenAI says it will acquire Pierre Computer Company, maker of Code Storage and open-source developer tools whose Trees and Diffs libraries already power file browsing and code review in the Codex app. OpenAI says Pierre's projects will stay open source, Code Storage customers can keep using it, and the deal awaits regulatory approval.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5lDkYRSw86lFyHulgkyVVr/5b20bd6b90c3d87c33b780884b48123a/openai-to-acquire-pierre-computer-company-inc-social.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://pierre.computer/",
+    "date": "2026-11-05",
+    "source": "https://openai.com/index/openai-to-acquire-pierre/",
+    "ds": true
+  },
+  {
+    "title": "OpenAI's Codex App Cuts Memory Growth in Long Local Threads",
+    "description": "OpenAI's Andrew Ambrosino, who works on Codex, says the Codex app now uses less RAM because long local threads could grow memory usage even without starting other processes. A before-and-after chart he shared shows whole-app memory previously climbing toward 6 GiB as replies grew, versus staying near 2 GiB through about 32,000 replies after the fix.",
+    "image_url": "https://opengraph.githubassets.com/402e6a825eac55bdc95b445d4cc84c71d823e3cd3a1fd3307c6d5e63204dbc08/openai/codex",
+    "learn_more_url": "https://github.com/openai/codex",
+    "date": "2026-11-05",
+    "source": "https://x.com/ajambrosino/status/2118028125707923513",
+    "ds": true
+  },
+  {
+    "title": "Claude Code Cuts Usage Cost of Background Subagent Status Updates by About 99%",
+    "description": "Anthropic's ClaudeDevs account says background subagents in Claude Code now use less of users' usage limits. Running subagents refresh their status line every 30 seconds, and each refresh used to re-read the whole conversation; now Haiku 5.5 writes it from short notes instead, which Anthropic says makes each update about 99% cheaper.",
+    "image_url": "https://claude-code.mintlify.app/_mintlify/api/og/v2?division=Agents+and+parallel+work&title=Create+custom+subagents&description=Create+and+use+specialized+AI+subagents+in+Claude+Code+for+task-specific+workflows+and+improved+context+management.&theme=8d9812df31da293aba4e8103&signature=0797bd60edce9a2d7f9c39f084afdbf328012d290f7731ce1a85bdfe40534a3c",
+    "learn_more_url": "https://code.claude.com/docs/en/sub-agents",
+    "date": "2026-11-05",
+    "source": "https://x.com/ClaudeDevs/status/2118063143167693011",
+    "ds": true
+  },
+  {
+    "title": "Ricursive Intelligence Releases Ripple-65B Preview, an Open-Weight Agentic Coding Model",
+    "description": "Chip-design AI lab Ricursive Intelligence released Ripple-65B Preview, a dense open-weight model it pretrained from scratch on 12 trillion tokens with up to 1M context. Ricursive says it scores 80.52 on TerminalBench 2.1, a U.S. open-weight state of the art for agentic coding, beating larger models, and that its full R&D cost was $32 million.",
+    "image_url": "https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png",
+    "learn_more_url": "",
+    "date": "2026-11-05",
+    "source": "https://www.ricursive.com/ripple",
+    "ds": true
+  },
+  {
+    "title": "OpenAI Launches ChatGPT Images 2.6 With GIFs and Reusable Reference Images",
+    "description": "OpenAI released Images 2.6 in ChatGPT and Codex for all subscription tiers worldwide. Users can turn a prompt or image into an animated GIF, adjust its speed and edit individual frames, and save reference images of themselves, pets or characters to reuse. OpenAI says it generates images 50% faster and people now create 4 billion images weekly.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://www.xda-developers.com/chatgpt-is-getting-gif-generation-tools-to-make-creating-animated-images-a-lot-easier/",
+    "date": "2026-11-05",
+    "source": "https://openai.com/index/introducing-images-2-6/"
+  },
+  {
+    "title": "OpenAI's Autonomous Pipeline Finds 948 Linux Kernel Privilege Escalation Exploits",
+    "description": "OpenAI says an autonomous pipeline built on an upcoming cyber model reproduced 1,724 Linux kernel vulnerabilities in a mid-October run and produced 948 unique local privilege escalation exploits that give unprivileged users root, at $1.21 million in API credits. OpenAI reports it has sent hundreds of reports and candidate patches to maintainers through Patch the Planet.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/400PQ4WTCOvXwwvk1OMOHv/03970ddeafd22fdbc9832669deacc59c/a-thousand-fewer-paths-to-root-social.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "",
+    "date": "2026-11-05",
+    "source": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+    "ds": true
+  },
+  {
+    "title": "Apple Cuts Employee AI Spending Budgets, Bloomberg's Mark Gurman Reports",
+    "description": "Apple is cutting employee AI spending budgets even as it pushes staff to use AI more, Bloomberg's Mark Gurman reports. Some engineers' daily caps fell from $300 to $200 last month, with cuts to $100 planned. Some non-engineering teams could drop from $100 to $25, and employees needing more can seek exemptions from senior leadership, per Gurman.",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/john-ternus-imac-launch.jpg?quality=82&strip=all&resize=1200,628",
+    "learn_more_url": "https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending",
+    "date": "2026-11-05",
+    "source": "https://x.com/markgurman/status/2118068667103453360"
+  },
+  {
+    "title": "Grok Bot Can Now Make Phone Calls",
+    "description": "Grok Bot announced it can now make phone calls. In its demo video, the bot offers to cancel an expiring internet contract, shows a call card for approval, then calls while showing a live transcript with Take over and End call buttons. It declines a 10% retention offer, confirms the cancellation and reports back in chat.",
+    "image_url": "https://cdn.teslanorth.com/wp-content/uploads/2026/11/featured-1920x1080-13.jpg",
+    "learn_more_url": "https://teslanorth.com/2026/11/04/grok-bot-phone-calls-live/",
+    "date": "2026-11-05",
+    "source": "https://x.com/bot/status/2118043939592942052"
+  },
+  {
+    "title": "Axiom Releases a 16-Million-Line Lean Formalization of the Entire Stacks Project",
+    "description": "Axiom released a Lean formalization of the entire Stacks Project, the roughly 7,500-page open-source reference for modern algebraic geometry. Axiom says the library spans about 16 million lines, was built by coordinated swarms of AI agents, and links each declaration to its Stacks tag. Lean checks every proof, but parts have not yet had human review.",
+    "image_url": "https://snapereport.com/api/og?s=axiom-formalizes-entire-stacks-project-in-lean&l=en&v=2a89cfb6",
+    "learn_more_url": "https://github.com/AxiomMath/Stacks",
+    "date": "2026-11-05",
+    "source": "https://axiommath.ai/research/the-stacks-project-formalized/"
+  },
+  {
+    "title": "Anthropic Uses Claude to Map the First Vault Particle Structure From Prokaryotes",
+    "description": "Anthropic's biology lab reports the first 3D structure of a vault particle found in prokaryotes, a hollow protein shell whose function remains unknown. The phage-derived vault is built from 96 copies of one protein. Anthropic says Claude helped search protein databases, design DNA, cut a three-day purification to about 90 minutes, and produce a first structural model.",
+    "image_url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/99ce1c2ac2d0649d677f097132829da2ab3c4e18-1280x1280.jpg",
+    "learn_more_url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+    "date": "2026-11-05",
+    "source": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
+  },
+  {
+    "title": "JPMorganChase and OpenAI Announce Strategic AI Partnership",
+    "description": "OpenAI for Business announced a strategic partnership with JPMorganChase to explore how advanced AI can support productivity, knowledge workflows and cybersecurity. OpenAI calls it a step toward bringing its technology into more parts of leading financial institutions, with AI helping experts move faster from a finding to a tested response.",
+    "image_url": "https://dms.licdn.com/playlist/vid/v2/D5605AQHeaIhevoCIKQ/thumbnail-with-play-button-overlay-high/B56aGpX03nKcC0-/0/1793842959239?e=2147483647&v=beta&t=ZfwWQS3QaEqG-ZQ-_kxw7waxxCCwidmTqG9jAWKZvWs",
+    "learn_more_url": "https://www.linkedin.com/posts/jpmorganchase-and-openai-are-announcing-a-ugcPost-7523922693906354176-FW77/",
+    "date": "2026-11-05",
+    "source": "OpenAI"
+  },
+  {
+    "title": "AI Agents Adapt Their Tools During Long Tasks",
+    "description": "Lingzhi Yuan and colleagues introduce Meta², which learns reusable intervention guidance offline and applies task-local tool or instruction edits while keeping model weights fixed. Using GPT-5.6-Terra, they report 81.0% on Terminal-Bench 2.1 and 44.4% on DeepSWE 1.1. Evaluation covers terminal and software-engineering tasks; broader transfer remains untested.",
+    "image_url": "https://arxiv.org/html/2611.05139v1/teaser-figure_v2.png",
+    "learn_more_url": "https://arxiv.org/abs/2611.05139",
+    "date": "2026-11-05",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "Robot Policies Read Visual Features Across Model Layers",
+    "description": "Weichen Fan and colleagues introduce NEO-VLA, which processes image patches with language and reads visual features across model layers for robot control. They report 89.7% task-weighted success on LIBERO-Plus, with strong camera and language robustness. LIBERO-Pro still exposes weaknesses under unfamiliar object positions and task goals.",
+    "image_url": "https://arxiv.org/html/2611.06918v1/NEO-VLA_Model_Overview.png",
+    "learn_more_url": "https://arxiv.org/abs/2611.06918",
+    "date": "2026-11-05",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "Grok Bot Adds Phone Calls to U.S. Businesses",
+    "description": "Teslarati reports that Grok Bot can now call U.S. businesses for users, showing a live transcript and requesting typed answers when it needs more information. Its terms say calls identify the bot as a virtual assistant and make customers responsible for calls, required permissions and compliance with applicable phone and recording laws.",
+    "image_url": "https://www.teslarati.com/wp-content/uploads/2025/12/tesla-robotaxi-app-expansion-1000x600.jpg",
+    "learn_more_url": "https://www.teslarati.com/elon-musks-grok-bot-is-picking-up-the-phone-now-and-the-first-calls-are-wild/",
+    "date": "2026-11-05",
+    "source": "teslarati.com"
+  },
+  {
+    "title": "Midterm Voters Back Data Center Limits Amid AI Concerns",
+    "description": "U.S. voters approved local limits on data centers in the midterm elections, while Democrats won both chambers of Congress. Data Center Dynamics reported that an NBC News exit poll found 76% opposed a new data center in their community and 57% expected AI to do more harm than good for society.",
+    "image_url": "https://media.datacenterdynamics.com/media/images/USCapitol.width-358.jpg",
+    "learn_more_url": "https://www.datacenterdynamics.com/en/news/nbc-exit-poll-56-say-ai-data-centers-were-a-crucial-or-major-factor-in-congressional-vote-decision/",
+    "date": "2026-11-05",
+    "source": "datacenterdynamics.com"
+  }
+]
