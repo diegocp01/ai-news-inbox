@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1008,
-  "updated_at": "2026-11-05T01:45:45.932059+00:00",
-  "next_id": 329,
+  "generation": 1009,
+  "updated_at": "2026-11-05T01:45:46.616102+00:00",
+  "next_id": 330,
   "records": [
     {
       "id": 1,
@@ -4362,6 +4362,19 @@
           "sha256": "b6ca02e9b806a7480f7e5194ee7e8dabe74a2bbd4ed4ecbc376ebd4d24637ec4",
           "source": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
           "request_id": "e6fa8c80f6d085b25b3189ad1033a5716148ba1c912576f7382bd9b3b6d49dc7",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 329,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T01:45:46.616102+00:00",
+          "block": "Title: Apple Cuts Employee AI Spending Budgets, Bloomberg's Mark Gurman Reports\nURL: https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending\nImage URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/08/john-ternus-imac-launch.jpg?quality=82&strip=all&resize=1200,628\nSummary: Apple is cutting employee AI spending budgets even as it pushes staff to use AI more, Bloomberg's Mark Gurman reports. Some engineers' daily caps fell from $300 to $200 last month, with cuts to $100 planned. Some non-engineering teams could drop from $100 to $25, and employees needing more can seek exemptions from senior leadership, per Gurman.",
+          "sha256": "394a05146d5dbd8be1724856de2a93d528aabb4888db6518e51ceb04f539d876",
+          "source": "https://x.com/markgurman/status/2118068667103453360",
+          "request_id": "9bc88b073ceb0de25fc5ea6d31c023c69072f165a97d8dbeb4c0ce8b002af020",
           "mode": "standard"
         }
       ]
@@ -9601,13 +9614,21 @@
       ]
     },
     "9bc88b073ceb0de25fc5ea6d31c023c69072f165a97d8dbeb4c0ce8b002af020": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T01:45:45.932059+00:00",
       "received_sequence": 296,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T01:45:46.616102+00:00",
+      "records": [
+        {
+          "id": 329,
+          "revision": 1,
+          "sha256": "394a05146d5dbd8be1724856de2a93d528aabb4888db6518e51ceb04f539d876"
+        }
+      ]
     }
   },
   "batches": {
@@ -37297,6 +37318,21 @@
       "result": {
         "status": "received",
         "request_id": "9bc88b073ceb0de25fc5ea6d31c023c69072f165a97d8dbeb4c0ce8b002af020"
+      }
+    },
+    "28e4347e2230e2d012d1cc4e44536777b03709c641375231ee43689ccbe4bd26": {
+      "sha256": "8a7814f927d64dfc4cea38cadb8854bf131bbff69e2b0274808cb4a833851d0c",
+      "result": {
+        "status": "finalized",
+        "request_id": "9bc88b073ceb0de25fc5ea6d31c023c69072f165a97d8dbeb4c0ce8b002af020",
+        "records": [
+          {
+            "id": 329,
+            "revision": 1,
+            "sha256": "394a05146d5dbd8be1724856de2a93d528aabb4888db6518e51ceb04f539d876"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
