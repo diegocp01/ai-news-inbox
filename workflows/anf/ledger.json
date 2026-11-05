@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1045,
-  "updated_at": "2026-11-05T17:21:09.353581+00:00",
+  "generation": 1046,
+  "updated_at": "2026-11-05T17:21:09.960661+00:00",
   "next_id": 342,
   "records": [
     {
@@ -38575,6 +38575,18 @@
         ],
         "duplicates": []
       }
+    },
+    "7b59d6fd605e85bc71254b36fde714dc854cb31b132dd0687ff2dec6756bbcaa": {
+      "sha256": "ec2b9cd1292552c6cc4a4dd8ee49a45308f919913dddac97bb3ed8356923c503",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 341,
+          "revision": 1,
+          "sha256": "cc3b74542928c7fbd2051efb52fb4e897727fa8b0239a569f10ad8f16477fa62"
+        },
+        "editorial_sha256": "661a8dd38116720e26696ba6eca70a40ea0bfb0a7889d7f359be30e380855c99"
+      }
     }
   },
   "migration": {
@@ -48003,6 +48015,26 @@
         "sha256": "b40d78fd1d04b1fdcbb370c6df560b6083fc0f62d3ced1ae8763f911396a2af5",
         "reviewed_at": "2026-11-05T17:21:08.037004+00:00",
         "operation_id": "c1d1a762fddd4b4e2aabbae49b8fe85479c7431056a73ba8b64d19195143f909"
+      }
+    ],
+    "341:1": [
+      {
+        "reference": {
+          "id": 341,
+          "revision": 1,
+          "sha256": "cc3b74542928c7fbd2051efb52fb4e897727fa8b0239a569f10ad8f16477fa62"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Cybersecurity-specialized model with exploit/vulnerability research benchmarks; security term -> DS; specialized model, no flagship prefix",
+            "evidence_sha256": "5aa8e3efb719eb2fe58aa8b34ae1d1ab7ae535d194d94f8f32642268450751f5"
+          }
+        },
+        "sha256": "661a8dd38116720e26696ba6eca70a40ea0bfb0a7889d7f359be30e380855c99",
+        "reviewed_at": "2026-11-05T17:21:09.960661+00:00",
+        "operation_id": "7b59d6fd605e85bc71254b36fde714dc854cb31b132dd0687ff2dec6756bbcaa"
       }
     ]
   }
