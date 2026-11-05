@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1050,
-  "updated_at": "2026-11-05T18:23:25.293855+00:00",
-  "next_id": 343,
+  "generation": 1051,
+  "updated_at": "2026-11-05T18:23:26.045223+00:00",
+  "next_id": 344,
   "records": [
     {
       "id": 1,
@@ -4546,6 +4546,19 @@
           "sha256": "e524ccf8748250a55bf92143ff4f9339c8628db9faa55b05c19c6577083f061a",
           "source": "Planet",
           "request_id": "61fc25d779df7f8062c46a5d9eb68248542d1427c95e1c233b8fab63872a723a",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 343,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T18:23:26.045223+00:00",
+          "block": "Title: Anthropic Launches Personal Finance in Claude\nURL: https://claude.com/resources/articles/introducing-personal-finance-in-claude\nImage URL: https://claude.com/resources/articles/introducing-personal-finance-in-claude/opengraph-image/og\nSummary: Anthropic introduced Personal Finance in Claude, letting users connect bank and card accounts and ask money questions in everyday language based on their own balances and transactions. Anthropic says access is read-only, so Claude can't move, manage or invest money. It's rolling out in beta this week to Pro, Max and Ultra subscribers in the US.",
+          "sha256": "d9ab98dffb33a8b8d2e626b0d9db79735362aec559c7af748c3620dc856985cb",
+          "source": "Anthropic",
+          "request_id": "a74dd9bd4158d3c8a8b731176b55a8063e09ec705e79c7be87c18c9550641646",
           "mode": "standard"
         }
       ]
@@ -10000,13 +10013,21 @@
       ]
     },
     "a74dd9bd4158d3c8a8b731176b55a8063e09ec705e79c7be87c18c9550641646": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T18:23:25.293855+00:00",
       "received_sequence": 308,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T18:23:26.045223+00:00",
+      "records": [
+        {
+          "id": 343,
+          "revision": 1,
+          "sha256": "d9ab98dffb33a8b8d2e626b0d9db79735362aec559c7af748c3620dc856985cb"
+        }
+      ]
     }
   },
   "batches": {
@@ -38666,6 +38687,21 @@
       "result": {
         "status": "received",
         "request_id": "a74dd9bd4158d3c8a8b731176b55a8063e09ec705e79c7be87c18c9550641646"
+      }
+    },
+    "083cf36a762142064a6180f18ffa9c4034426360d3840e30910c7fc9bdff9002": {
+      "sha256": "ca9ad3fc3fc79e5a143248424d0002aa17f5c5182a6c7145801fe72b5f13dfd0",
+      "result": {
+        "status": "finalized",
+        "request_id": "a74dd9bd4158d3c8a8b731176b55a8063e09ec705e79c7be87c18c9550641646",
+        "records": [
+          {
+            "id": 343,
+            "revision": 1,
+            "sha256": "d9ab98dffb33a8b8d2e626b0d9db79735362aec559c7af748c3620dc856985cb"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
