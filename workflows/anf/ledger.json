@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1039,
-  "updated_at": "2026-11-05T15:11:30.286864+00:00",
+  "generation": 1040,
+  "updated_at": "2026-11-05T15:11:31.050774+00:00",
   "next_id": 340,
   "records": [
     {
@@ -38447,6 +38447,18 @@
         ],
         "duplicates": []
       }
+    },
+    "50d18eb8b3e48cf697cc70806d1b3525903c109a0a1229fe854f12426eda9f5b": {
+      "sha256": "43d83db4749685f326e5ed111b18604dea19b60b77a789e26b6144c89f869ba8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 339,
+          "revision": 1,
+          "sha256": "7b80e1a74b1cf2da746e8cac9d473b35c9b2d15bcee2c0945f3f6ad00af91a03"
+        },
+        "editorial_sha256": "5dd472d578b233bffca96037609ec3046804cde07c570f41b60d237ba440e742"
+      }
     }
   },
   "migration": {
@@ -47835,6 +47847,26 @@
         "sha256": "345bd8fbdb18520629e4227988f8ba50d1b030eebe4385e7a3ab62b1026e3d6c",
         "reviewed_at": "2026-11-05T14:20:04.802199+00:00",
         "operation_id": "e985c6614b62ea9622f56a34ba4008a62a6544b8416a8aebbbb267ea0d2cd6bf"
+      }
+    ],
+    "339:1": [
+      {
+        "reference": {
+          "id": 339,
+          "revision": 1,
+          "sha256": "7b80e1a74b1cf2da746e8cac9d473b35c9b2d15bcee2c0945f3f6ad00af91a03"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer memory layer accessed via MCP/API with token, retrieval-latency and LoCoMo/LongMemEval benchmark claims; ML-technical/dev-API",
+            "evidence_sha256": "350a8382b0e09e9d1448aac3841906ee71777e19962ae42acb76f198a7a7cfa1"
+          }
+        },
+        "sha256": "5dd472d578b233bffca96037609ec3046804cde07c570f41b60d237ba440e742",
+        "reviewed_at": "2026-11-05T15:11:31.050774+00:00",
+        "operation_id": "50d18eb8b3e48cf697cc70806d1b3525903c109a0a1229fe854f12426eda9f5b"
       }
     ]
   }
