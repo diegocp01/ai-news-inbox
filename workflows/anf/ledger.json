@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1003,
-  "updated_at": "2026-11-05T01:42:02.683375+00:00",
+  "generation": 1004,
+  "updated_at": "2026-11-05T01:42:03.376606+00:00",
   "next_id": 328,
   "records": [
     {
@@ -37206,6 +37206,18 @@
         ],
         "duplicates": []
       }
+    },
+    "1a4973258fdd8c2d74d2d442751782cc94c930f0aa47b4c306c3e7c6e8eff0c7": {
+      "sha256": "98920b528a8a8d1f5f40d2d249ec870c13ac4043f3b4dae0fa1add7830fe4099",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 327,
+          "revision": 1,
+          "sha256": "672d25972525f440d36eeaed99eef68e04419023a25aa664c17895cc6f9c4859"
+        },
+        "editorial_sha256": "13102316e0be2cb543da89644ae820a353700a22ab3d4bc11c5bced80a18e6d8"
+      }
     }
   },
   "migration": {
@@ -46354,6 +46366,26 @@
         "sha256": "c1b95ab7be6d35b560e145fdbb37c2c2627fd2b40a22fa5f29a471826e044bf8",
         "reviewed_at": "2026-11-04T22:51:05.309900+00:00",
         "operation_id": "44208aa368ff1f706eb629273f6379f7040c87119a8287d31b41928f52ca4d61"
+      }
+    ],
+    "327:1": [
+      {
+        "reference": {
+          "id": 327,
+          "revision": 1,
+          "sha256": "672d25972525f440d36eeaed99eef68e04419023a25aa664c17895cc6f9c4859"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer ChatGPT image-model launch (GIFs, reference images); specialized image model, no prefix, non-DS",
+            "evidence_sha256": "786284a4251b223e91770e63e583ae6e21064949e0c535521c9bcf8168855cda"
+          }
+        },
+        "sha256": "13102316e0be2cb543da89644ae820a353700a22ab3d4bc11c5bced80a18e6d8",
+        "reviewed_at": "2026-11-05T01:42:03.376606+00:00",
+        "operation_id": "1a4973258fdd8c2d74d2d442751782cc94c930f0aa47b4c306c3e7c6e8eff0c7"
       }
     ]
   }
