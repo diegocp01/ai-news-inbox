@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1015,
-  "updated_at": "2026-11-05T02:01:57.582564+00:00",
+  "generation": 1016,
+  "updated_at": "2026-11-05T02:01:58.259891+00:00",
   "next_id": 332,
   "records": [
     {
@@ -37462,6 +37462,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2633374155201ec74af25f2fbe8fc70a08099d59e0b05059f4e6d192a000efb1": {
+      "sha256": "a3b0456d1130252b8010fc1510b84e7a9a45c52266c38c8008c4b1e6c340eee4",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 331,
+          "revision": 1,
+          "sha256": "15dcafde8a9d16f03e4f75f3dd94869a40a327c23fc1e772df193247adbceae6"
+        },
+        "editorial_sha256": "01772a3e1925a1d206120a3cc54e58ef70c729a1360ff8025ec2611b1471e62e"
+      }
     }
   },
   "migration": {
@@ -46690,6 +46702,26 @@
         "sha256": "5f45841792a0ae99392973d77110e95cea8ee243bda1373742c8c163d58be285",
         "reviewed_at": "2026-11-05T01:47:10.426768+00:00",
         "operation_id": "a2fddac51100bfda76a2afd3c9d667879d7e48f968917b5996613cfab6ee4d5a"
+      }
+    ],
+    "331:1": [
+      {
+        "reference": {
+          "id": 331,
+          "revision": 1,
+          "sha256": "15dcafde8a9d16f03e4f75f3dd94869a40a327c23fc1e772df193247adbceae6"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Math formalization milestone; general audience, no ML/dev/hardware framing",
+            "evidence_sha256": "a3cfbb677e75f5dba67afbc20558e4ceea7706345323b770d1d4485d438e9d3b"
+          }
+        },
+        "sha256": "01772a3e1925a1d206120a3cc54e58ef70c729a1360ff8025ec2611b1471e62e",
+        "reviewed_at": "2026-11-05T02:01:58.259891+00:00",
+        "operation_id": "2633374155201ec74af25f2fbe8fc70a08099d59e0b05059f4e6d192a000efb1"
       }
     ]
   }
