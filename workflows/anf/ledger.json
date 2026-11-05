@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1012,
-  "updated_at": "2026-11-05T01:47:09.825138+00:00",
+  "generation": 1013,
+  "updated_at": "2026-11-05T01:47:10.426768+00:00",
   "next_id": 331,
   "records": [
     {
@@ -37398,6 +37398,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a2fddac51100bfda76a2afd3c9d667879d7e48f968917b5996613cfab6ee4d5a": {
+      "sha256": "911c505e7be39d4c91ba5388e7e5e5ce8fe38ca5f1ec54a5847ccd474068807a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 330,
+          "revision": 1,
+          "sha256": "0258263dd581c4dabc7574d36c3a585ea517eda01718cabc90bd77361fa8e114"
+        },
+        "editorial_sha256": "5f45841792a0ae99392973d77110e95cea8ee243bda1373742c8c163d58be285"
+      }
     }
   },
   "migration": {
@@ -46606,6 +46618,26 @@
         "sha256": "676de9fdbc848fcd500f55201247b62ec309b25ea68c0add5012daf1d7795b9f",
         "reviewed_at": "2026-11-05T01:45:47.231981+00:00",
         "operation_id": "e1fff7812bd247d50b99044b656a59b06057bcd8952ac5af2d0b5200e9f786cd"
+      }
+    ],
+    "330:1": [
+      {
+        "reference": {
+          "id": 330,
+          "revision": 1,
+          "sha256": "0258263dd581c4dabc7574d36c3a585ea517eda01718cabc90bd77361fa8e114"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer AI assistant feature launch (phone calls); general audience",
+            "evidence_sha256": "1c1dab3ec6288944547739c469bf8d87c1ae93670a6bfdf9284d8b25a5b86514"
+          }
+        },
+        "sha256": "5f45841792a0ae99392973d77110e95cea8ee243bda1373742c8c163d58be285",
+        "reviewed_at": "2026-11-05T01:47:10.426768+00:00",
+        "operation_id": "a2fddac51100bfda76a2afd3c9d667879d7e48f968917b5996613cfab6ee4d5a"
       }
     ]
   }
