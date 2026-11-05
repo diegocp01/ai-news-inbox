@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1068,
-  "updated_at": "2026-11-05T20:47:29.355646+00:00",
-  "next_id": 349,
+  "generation": 1069,
+  "updated_at": "2026-11-05T20:47:30.068500+00:00",
+  "next_id": 350,
   "records": [
     {
       "id": 1,
@@ -4624,6 +4624,19 @@
           "sha256": "68bb7df7b5f025ee6b49dbd77aa5c45ce3ab3abf2f5c6b1824ac6f5997834fd8",
           "source": "Goodfire",
           "request_id": "61d196205a600d008b10e4f0bbdfd7eb978bd0173058a519294641c233f1f85f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 349,
+      "revisions": [
+        {
+          "created_at": "2026-11-05T20:47:30.068500+00:00",
+          "block": "Title: OpenAI Publishes Community Compact and Policy Blueprint for AI Data Center Campuses\nURL: https://www.mlex.com/mlex/articles/2546822/openai-issues-new-us-data-center-commitments-policy-proposals-in-wake-of-midterms\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/3tfG1ium2HchPnPJartCV6/bd2d0a4c101b0a41440cc45adefa35cd/setting-a-new-standard-for-responsible-ai-infrastructure-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI published a National Community Compact pledging that future campuses it owns and operates will pay their full electricity and infrastructure costs, publish water and power use, and report annually on local hiring. A companion policy blueprint urges lawmakers to make large electricity users cover the grid costs they add and to make data-center tax incentives public.",
+          "sha256": "c5531b8a8a66f46e1f991bc9ed0d4fb4301b769e5f96e7e9e0a5f67db48ec813",
+          "source": "OpenAI",
+          "request_id": "4570e33ca4a457c3ca8bb198def249e00b940cb7db9b5612b5785650b66aebb2",
           "mode": "standard"
         }
       ]
@@ -10180,13 +10193,21 @@
       ]
     },
     "4570e33ca4a457c3ca8bb198def249e00b940cb7db9b5612b5785650b66aebb2": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-05T20:47:29.355646+00:00",
       "received_sequence": 314,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-05T20:47:30.068500+00:00",
+      "records": [
+        {
+          "id": 349,
+          "revision": 1,
+          "sha256": "c5531b8a8a66f46e1f991bc9ed0d4fb4301b769e5f96e7e9e0a5f67db48ec813"
+        }
+      ]
     }
   },
   "batches": {
@@ -39050,6 +39071,21 @@
       "result": {
         "status": "received",
         "request_id": "4570e33ca4a457c3ca8bb198def249e00b940cb7db9b5612b5785650b66aebb2"
+      }
+    },
+    "98c07dd55857b06d275c7eb027e9aa92029826939aca7b8aa53988cdc8e27754": {
+      "sha256": "3116113bcede88cab86a09305651190549e723c3ca53adc1e0d5ad5715d0280f",
+      "result": {
+        "status": "finalized",
+        "request_id": "4570e33ca4a457c3ca8bb198def249e00b940cb7db9b5612b5785650b66aebb2",
+        "records": [
+          {
+            "id": 349,
+            "revision": 1,
+            "sha256": "c5531b8a8a66f46e1f991bc9ed0d4fb4301b769e5f96e7e9e0a5f67db48ec813"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
