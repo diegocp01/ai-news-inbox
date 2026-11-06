@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1110,
-  "updated_at": "2026-11-06T20:55:14.656832+00:00",
+  "generation": 1111,
+  "updated_at": "2026-11-06T20:55:16.078655+00:00",
   "next_id": 362,
   "records": [
     {
@@ -40482,6 +40482,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e7bffdacb2fedbc921f7167c94b4df1b0d6fe97c2aba31b81e1d5a3a5445b1a7": {
+      "sha256": "cca8155156a2fde8c9c55e0dee2a5d3d753d96dade5a45a29624461f07e40837",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 361,
+          "revision": 1,
+          "sha256": "7bb1966de86f14f1e5f7b8081cfa2fcd39c6585a7c54357c9e35bc275d35abdc"
+        },
+        "editorial_sha256": "c9fa8aca24181ca927aeceaf3071637b366bf3ca882f9331f070395b48f439aa"
+      }
     }
   },
   "migration": {
@@ -50328,6 +50340,26 @@
         "sha256": "c13111e54df437e6099ff83c14f35f3031038a847101908eac1f08e83a894112",
         "reviewed_at": "2026-11-06T20:44:07.558986+00:00",
         "operation_id": "9d868987cd4c7edbda780f9e1f597d5f70b723939cf19e61c9cde29f6f09b173"
+      }
+    ],
+    "361:1": [
+      {
+        "reference": {
+          "id": 361,
+          "revision": 1,
+          "sha256": "7bb1966de86f14f1e5f7b8081cfa2fcd39c6585a7c54357c9e35bc275d35abdc"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer Muse app feature for custom in-app spaces; no ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "7224a5642398bfd2115fc550323f22b8b697eab7ae4beff07415319e69616f3f"
+          }
+        },
+        "sha256": "c9fa8aca24181ca927aeceaf3071637b366bf3ca882f9331f070395b48f439aa",
+        "reviewed_at": "2026-11-06T20:55:16.078655+00:00",
+        "operation_id": "e7bffdacb2fedbc921f7167c94b4df1b0d6fe97c2aba31b81e1d5a3a5445b1a7"
       }
     ]
   }
