@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1086,
-  "updated_at": "2026-11-06T12:32:43.980409+00:00",
-  "next_id": 354,
+  "generation": 1087,
+  "updated_at": "2026-11-06T12:40:22.199573+00:00",
+  "next_id": 356,
   "records": [
     {
       "id": 1,
@@ -4690,6 +4690,34 @@
           "source": "WHYY",
           "request_id": "3fb34500a6a200f7e8dde26f28a6805a53f3c994957252b2441affb83c6b06ff",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 354,
+      "revisions": [
+        {
+          "created_at": "2026-11-06T12:40:22.199573+00:00",
+          "block": "Title: METR Assesses AI Research Acceleration at Anthropic\nURL: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/\nImage URL: https://metr.org/assets/images/ai-rd-acceleration-assessment/home-card.png\nSummary: After an 11-week assessment, METR estimates Anthropic’s models were improving on well-defined tasks roughly twice as fast in October 2026 as during March 2024–October 2025. METR tentatively attributes most acceleration to AI use, while stressing substantial uncertainty. Anthropic redacted much of the key evidence, saying it could help other developers accelerate their work.",
+          "sha256": "b3d57255b9d2aa74dd90766dc104b08cab6b7bc5aaac604dba68e626ec556bdd",
+          "source": "metr.org",
+          "request_id": "9dfef98601cd6e939868f992751ea699905859c1205c5546d5b93c648bcb815c",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 355,
+      "revisions": [
+        {
+          "created_at": "2026-11-06T12:40:22.199573+00:00",
+          "block": "Title: OpenAI Introduces Images 2.6 with GIF Creation\nURL: https://www.digitaltrends.com/computing/openai-images-2-6-adds-gif-support-and-faster-image-generation/\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI released Images 2.6 for ChatGPT, Codex, and its developer API. GIF creation is rolling out in ChatGPT, turning prompts, photos, or sketches into looping animations. OpenAI says image generation is 50% faster than before and describes its developer models Flare and Sunburst as designed for speed and higher image quality, respectively.",
+          "sha256": "9a2c5611c171ada959a1fc01341bc161274c2cc100e37f2fa32c4a3ebe5709ee",
+          "source": "digitaltrends.com",
+          "request_id": "9dfef98601cd6e939868f992751ea699905859c1205c5546d5b93c648bcb815c",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -10347,14 +10375,27 @@
       ]
     },
     "9dfef98601cd6e939868f992751ea699905859c1205c5546d5b93c648bcb815c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-06T12:32:43.980409+00:00",
       "received_sequence": 320,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-06T12:40:22.199573+00:00",
+      "records": [
+        {
+          "id": 354,
+          "revision": 1,
+          "sha256": "b3d57255b9d2aa74dd90766dc104b08cab6b7bc5aaac604dba68e626ec556bdd"
+        },
+        {
+          "id": 355,
+          "revision": 1,
+          "sha256": "9a2c5611c171ada959a1fc01341bc161274c2cc100e37f2fa32c4a3ebe5709ee"
+        }
+      ]
     }
   },
   "batches": {
@@ -39418,6 +39459,26 @@
       "result": {
         "status": "received",
         "request_id": "9dfef98601cd6e939868f992751ea699905859c1205c5546d5b93c648bcb815c"
+      }
+    },
+    "c86d7e639bd3396e9706029d4ddd1f89c9d17831576b02b9ca06d2bed5605dc9": {
+      "sha256": "de80e56d21258b4eedefc052c1fd556825da060f20b997a1fd1235269e5751e0",
+      "result": {
+        "status": "finalized",
+        "request_id": "9dfef98601cd6e939868f992751ea699905859c1205c5546d5b93c648bcb815c",
+        "records": [
+          {
+            "id": 354,
+            "revision": 1,
+            "sha256": "b3d57255b9d2aa74dd90766dc104b08cab6b7bc5aaac604dba68e626ec556bdd"
+          },
+          {
+            "id": 355,
+            "revision": 1,
+            "sha256": "9a2c5611c171ada959a1fc01341bc161274c2cc100e37f2fa32c4a3ebe5709ee"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
