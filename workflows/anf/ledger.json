@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1104,
-  "updated_at": "2026-11-06T20:42:58.781252+00:00",
+  "generation": 1105,
+  "updated_at": "2026-11-06T20:42:59.434804+00:00",
   "next_id": 360,
   "records": [
     {
@@ -40354,6 +40354,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2334e0e54935f875a6c92ce4c45f169b88bb45a44e97dc5c2e62329b87df37fc": {
+      "sha256": "172391ae6b09aeb96b44006fbaf948d0d564256cfe77d66aa1719030b45a90fb",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 359,
+          "revision": 1,
+          "sha256": "c68eea9d1a65aa002ae7d4f171e3207c302d55db63ab87bb847e2fbf2700ca8f"
+        },
+        "editorial_sha256": "a405be50bd9b95f5bbfa6fcca29152d1f92016c4457e3489dfc98d20a001b40a"
+      }
     }
   },
   "migration": {
@@ -50160,6 +50172,26 @@
         "sha256": "f29b15929e1c14e6d3441d66f6d19018f98afb8d0eea3378dd136a2f92b05b5a",
         "reviewed_at": "2026-11-06T16:32:23.752057+00:00",
         "operation_id": "13994cd831ee8bc6a51cde5c723ae1c623a8d9897a3f0671c71a1fc7ba93ae26"
+      }
+    ],
+    "359:1": [
+      {
+        "reference": {
+          "id": 359,
+          "revision": 1,
+          "sha256": "c68eea9d1a65aa002ae7d4f171e3207c302d55db63ab87bb847e2fbf2700ca8f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Claude Code cloud environments, network secrets, dependency setup and session config are developer/API concepts a general reader wouldn't know. DS true.",
+            "evidence_sha256": "ba013445434d376044550804b533e740915c649e56cb1632f85ba8dedf769cbd"
+          }
+        },
+        "sha256": "a405be50bd9b95f5bbfa6fcca29152d1f92016c4457e3489dfc98d20a001b40a",
+        "reviewed_at": "2026-11-06T20:42:59.434804+00:00",
+        "operation_id": "2334e0e54935f875a6c92ce4c45f169b88bb45a44e97dc5c2e62329b87df37fc"
       }
     ]
   }
