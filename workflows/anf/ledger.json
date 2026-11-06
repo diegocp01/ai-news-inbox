@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1106,
-  "updated_at": "2026-11-06T20:44:06.287533+00:00",
-  "next_id": 360,
+  "generation": 1107,
+  "updated_at": "2026-11-06T20:44:06.940427+00:00",
+  "next_id": 361,
   "records": [
     {
       "id": 1,
@@ -4769,6 +4769,19 @@
           "sha256": "c68eea9d1a65aa002ae7d4f171e3207c302d55db63ab87bb847e2fbf2700ca8f",
           "source": "Anthropic",
           "request_id": "d9ce2df81591baa416dab2d54393a3f1075507b8b0ed4731879576dec3811ad9",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 360,
+      "revisions": [
+        {
+          "created_at": "2026-11-06T20:44:06.940427+00:00",
+          "block": "Title: Meta Rolls Out Specialized Models With Active Memory to Muse and Meta AI\nURL: https://thenewstack.io/meta-muse-specialized-models/\nImage URL: https://cdn.thenewstack.io/media/2026/11/b692c1f9-blogheader_light-1024x576.png\nSummary: Meta is rolling specialized models trained with Muse Wonder into Muse and Meta AI for all users, bringing Active Memory and Active Focus from Wonder. Mark Zuckerberg says the Muse updates are 2.4x less likely to forget critical info and 67% better at finishing everyday tasks after setbacks; those figures are Meta’s own measurements.",
+          "sha256": "4b9f6eab1907751f0b4a98ff72a4f373f34b9dbd01f14c246c6b572e09af7557",
+          "source": "Meta",
+          "request_id": "f5aefbc4a77f4a4d1cddbef9f73bb1546a81f27d4853297ad12550be063da73d",
           "mode": "standard"
         }
       ]
@@ -10518,13 +10531,21 @@
       ]
     },
     "f5aefbc4a77f4a4d1cddbef9f73bb1546a81f27d4853297ad12550be063da73d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-06T20:44:06.287533+00:00",
       "received_sequence": 325,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-06T20:44:06.940427+00:00",
+      "records": [
+        {
+          "id": 360,
+          "revision": 1,
+          "sha256": "4b9f6eab1907751f0b4a98ff72a4f373f34b9dbd01f14c246c6b572e09af7557"
+        }
+      ]
     }
   },
   "batches": {
@@ -40381,6 +40402,21 @@
       "result": {
         "status": "received",
         "request_id": "f5aefbc4a77f4a4d1cddbef9f73bb1546a81f27d4853297ad12550be063da73d"
+      }
+    },
+    "4df1cbb3b7b080d5c3febb2277d42c6609474f3139cfc19b29ae8e168dc421d1": {
+      "sha256": "727a52c3bd8808b976cd19ff4fb5145b9871bc39f962f87db7d013d5a4d2fd88",
+      "result": {
+        "status": "finalized",
+        "request_id": "f5aefbc4a77f4a4d1cddbef9f73bb1546a81f27d4853297ad12550be063da73d",
+        "records": [
+          {
+            "id": 360,
+            "revision": 1,
+            "sha256": "4b9f6eab1907751f0b4a98ff72a4f373f34b9dbd01f14c246c6b572e09af7557"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
