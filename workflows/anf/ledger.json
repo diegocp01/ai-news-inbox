@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1094,
-  "updated_at": "2026-11-06T14:31:52.954260+00:00",
-  "next_id": 356,
+  "generation": 1095,
+  "updated_at": "2026-11-06T14:31:53.757135+00:00",
+  "next_id": 357,
   "records": [
     {
       "id": 1,
@@ -4718,6 +4718,19 @@
           "request_id": "9dfef98601cd6e939868f992751ea699905859c1205c5546d5b93c648bcb815c",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 356,
+      "revisions": [
+        {
+          "created_at": "2026-11-06T14:31:53.757135+00:00",
+          "block": "Title: Developer Argues Checkpoint Agents Beat Classic Subagent Delegation\nURL: https://github.com/mainplane-ai/mainplane\nImage URL: https://opengraph.githubassets.com/1e684f39e6c5f9c3a3c2fcdc24c5b45454cf8d638a074005f638940fb583ea47/mainplane-ai/mainplane\nSummary: Mainplane founder Alexander Yue argues classic subagent handoffs fail because lossy summaries make workers invent steps. He proposes forking a session as a checkpoint agent that shares the parent’s full cached context, and says that pattern—or a single long-running agent with retrieval—beats partial delegation. Timing and cost figures are his own measurements on a long Opus session.",
+          "sha256": "1e9a6babf0e07e802b0c18b76876171593dccab31b441fe57df904ef4584e22f",
+          "source": "Alexander Yue",
+          "request_id": "8c84cf7e2f236159f081a0607479e3fb31f377fa4bbb4b7c2f070149a1ddf438",
+          "mode": "standard"
         }
       ]
     }
@@ -10398,13 +10411,21 @@
       ]
     },
     "8c84cf7e2f236159f081a0607479e3fb31f377fa4bbb4b7c2f070149a1ddf438": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-06T14:31:52.954260+00:00",
       "received_sequence": 321,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-06T14:31:53.757135+00:00",
+      "records": [
+        {
+          "id": 356,
+          "revision": 1,
+          "sha256": "1e9a6babf0e07e802b0c18b76876171593dccab31b441fe57df904ef4584e22f"
+        }
+      ]
     }
   },
   "batches": {
@@ -40125,6 +40146,21 @@
       "result": {
         "status": "received",
         "request_id": "8c84cf7e2f236159f081a0607479e3fb31f377fa4bbb4b7c2f070149a1ddf438"
+      }
+    },
+    "ad34b640c476d96fa274d53bebb687f1506eae170a426b64cf57087161c90e60": {
+      "sha256": "5d16c25f92f29e6a1b83ee9952ad87a03c4da86f3fa6b0366df1a36b99723187",
+      "result": {
+        "status": "finalized",
+        "request_id": "8c84cf7e2f236159f081a0607479e3fb31f377fa4bbb4b7c2f070149a1ddf438",
+        "records": [
+          {
+            "id": 356,
+            "revision": 1,
+            "sha256": "1e9a6babf0e07e802b0c18b76876171593dccab31b441fe57df904ef4584e22f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
