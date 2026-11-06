@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1113,
-  "updated_at": "2026-11-06T21:42:52.049349+00:00",
+  "generation": 1114,
+  "updated_at": "2026-11-06T21:42:52.812461+00:00",
   "next_id": 363,
   "records": [
     {
@@ -40546,6 +40546,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e38f922b592c94a824ae94ac31b1af21a240fff75ffbb6dae2b932629e2affdf": {
+      "sha256": "fb8a3a585f4e5c311fe53b9c282ff4554ced51bba9b754691b8922eb89f439f6",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 362,
+          "revision": 1,
+          "sha256": "6676ab73eca3db66e4d8efb86913d305ca7cee44f9619192e8062122bb71ba7b"
+        },
+        "editorial_sha256": "0fb73e1f72448ec7a57d3f7507b0769ce89ce26dc0555d9ba8e305ced59c34cc"
+      }
     }
   },
   "migration": {
@@ -50412,6 +50424,26 @@
         "sha256": "c9fa8aca24181ca927aeceaf3071637b366bf3ca882f9331f070395b48f439aa",
         "reviewed_at": "2026-11-06T20:55:16.078655+00:00",
         "operation_id": "e7bffdacb2fedbc921f7167c94b4df1b0d6fe97c2aba31b81e1d5a3a5445b1a7"
+      }
+    ],
+    "362:1": [
+      {
+        "reference": {
+          "id": 362,
+          "revision": 1,
+          "sha256": "6676ab73eca3db66e4d8efb86913d305ca7cee44f9619192e8062122bb71ba7b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Anthropic engineering research on agent memory systems: notes, dreaming/sleep-time reorganization, wiki representations, and session context promotion; ML-technical and agent-systems content.",
+            "evidence_sha256": "836e65fca4b79d66650f0bc8ff62c76a650bc6d45c767a17fa1421c0f808a4a6"
+          }
+        },
+        "sha256": "0fb73e1f72448ec7a57d3f7507b0769ce89ce26dc0555d9ba8e305ced59c34cc",
+        "reviewed_at": "2026-11-06T21:42:52.812461+00:00",
+        "operation_id": "e38f922b592c94a824ae94ac31b1af21a240fff75ffbb6dae2b932629e2affdf"
       }
     ]
   }
