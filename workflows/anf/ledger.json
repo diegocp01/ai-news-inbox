@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1098,
-  "updated_at": "2026-11-06T16:28:30.854876+00:00",
+  "generation": 1099,
+  "updated_at": "2026-11-06T16:28:31.735028+00:00",
   "next_id": 358,
   "records": [
     {
@@ -40226,6 +40226,18 @@
         ],
         "duplicates": []
       }
+    },
+    "bc231ead64a98cacbe4acc1d0c33982d449be1d4f738cc768a064a5bb7233b4e": {
+      "sha256": "d54c82a65e2de65400301c220100618e955e8b69ab16c90128758f6fb581666b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 357,
+          "revision": 1,
+          "sha256": "6b3c69e3fb680eda50197160efd72cf2c2fbbdce89ac7631f515e46eaf3ab9cb"
+        },
+        "editorial_sha256": "a935668bff2b72f4c66a030a75ef29352bc1ad1c05d75e781565c83a983cefb1"
+      }
     }
   },
   "migration": {
@@ -49992,6 +50004,26 @@
         "sha256": "a5a73e97765b06f88e00454ccf711e6a9848e15c0ee0700c452eaef4d7974b89",
         "reviewed_at": "2026-11-06T14:31:54.518519+00:00",
         "operation_id": "b17a1b5f468da82aba88f445b5a93a4e8e86882ee1f74fde764b6ff7f7b61e5b"
+      }
+    ],
+    "357:1": [
+      {
+        "reference": {
+          "id": 357,
+          "revision": 1,
+          "sha256": "6b3c69e3fb680eda50197160efd72cf2c2fbbdce89ac7631f515e46eaf3ab9cb"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "AI-discovered proof of a quantum-complexity conjecture with Lean formalization: research-level CS/math concepts a general reader wouldn't know. DS true; do not apply agent-only math/physics-to-general override.",
+            "evidence_sha256": "8310b58eed238e2f1e4b259907f9ef18c8bb6932d7287c952eb03bacdab2a0e2"
+          }
+        },
+        "sha256": "a935668bff2b72f4c66a030a75ef29352bc1ad1c05d75e781565c83a983cefb1",
+        "reviewed_at": "2026-11-06T16:28:31.735028+00:00",
+        "operation_id": "bc231ead64a98cacbe4acc1d0c33982d449be1d4f738cc768a064a5bb7233b4e"
       }
     ]
   }
