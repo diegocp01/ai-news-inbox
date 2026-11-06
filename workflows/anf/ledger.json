@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1083,
-  "updated_at": "2026-11-06T03:20:29.273345+00:00",
-  "next_id": 353,
+  "generation": 1084,
+  "updated_at": "2026-11-06T03:20:29.998780+00:00",
+  "next_id": 354,
   "records": [
     {
       "id": 1,
@@ -4676,6 +4676,19 @@
           "sha256": "fb2fbb79445eef0b80bb7fd6d9326e5d186bcfa5981ca03c06632d3a6437348f",
           "source": "Thinking Machines",
           "request_id": "baccd268869efe8317db3982fb5b2e5846ba2ebf30dac179f66654dfb47ec744",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 353,
+      "revisions": [
+        {
+          "created_at": "2026-11-06T03:20:29.998780+00:00",
+          "block": "Title: Delaware Drafts Proposal for AI-Managed Companies\nURL: https://whyy.org/articles/delaware-artificial-intelligence-companies-state-proposal/\nImage URL: https://d1fw4rghwibahr.cloudfront.net/wp-content/uploads/2026/03/2025-04-10-dover-delaware-legislative-hall-exterior-symmetry-pe.jpeg\nSummary: Delaware is drafting a proposal for a new corporate form called an Artificial Intelligence Company, or AIC. Under the draft, an AI agent could manage day-to-day affairs—signing contracts, holding property, and suing or being sued in the company’s name. Lawmakers are expected to take up the draft when they return in January, WHYY reports.",
+          "sha256": "f4c85f7d720a0d57bd2528694793ddbf2bafdd7c6e1bd86a6f6caf469798d2bd",
+          "source": "WHYY",
+          "request_id": "3fb34500a6a200f7e8dde26f28a6805a53f3c994957252b2441affb83c6b06ff",
           "mode": "standard"
         }
       ]
@@ -10317,13 +10330,21 @@
       ]
     },
     "3fb34500a6a200f7e8dde26f28a6805a53f3c994957252b2441affb83c6b06ff": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-06T03:20:29.273345+00:00",
       "received_sequence": 319,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-06T03:20:29.998780+00:00",
+      "records": [
+        {
+          "id": 353,
+          "revision": 1,
+          "sha256": "f4c85f7d720a0d57bd2528694793ddbf2bafdd7c6e1bd86a6f6caf469798d2bd"
+        }
+      ]
     }
   },
   "batches": {
@@ -39353,6 +39374,21 @@
       "result": {
         "status": "received",
         "request_id": "3fb34500a6a200f7e8dde26f28a6805a53f3c994957252b2441affb83c6b06ff"
+      }
+    },
+    "6de9702ee22af8f35be963afe374db74cee34abd81cf855ac0dc7243f9e52e15": {
+      "sha256": "f5e0677f35542845030a3223dbff238c05ebc98b9b368e8b758900f4d2ae05ab",
+      "result": {
+        "status": "finalized",
+        "request_id": "3fb34500a6a200f7e8dde26f28a6805a53f3c994957252b2441affb83c6b06ff",
+        "records": [
+          {
+            "id": 353,
+            "revision": 1,
+            "sha256": "f4c85f7d720a0d57bd2528694793ddbf2bafdd7c6e1bd86a6f6caf469798d2bd"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
