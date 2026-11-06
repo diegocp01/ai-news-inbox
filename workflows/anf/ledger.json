@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1103,
-  "updated_at": "2026-11-06T20:42:58.109937+00:00",
-  "next_id": 359,
+  "generation": 1104,
+  "updated_at": "2026-11-06T20:42:58.781252+00:00",
+  "next_id": 360,
   "records": [
     {
       "id": 1,
@@ -4756,6 +4756,19 @@
           "sha256": "6015ea7168bfa2683b1faf1cd35c397c6fe2db75133f23e47b1ae2862bf78bb8",
           "source": "Pliny the Liberator",
           "request_id": "c90fecdc89e1e55c80192d1ef664e74d4bc69d0337bd1cebd22ae08cb421ebfe",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 359,
+      "revisions": [
+        {
+          "created_at": "2026-11-06T20:42:58.781252+00:00",
+          "block": "Title: Claude Code Cloud Sessions Get Easier Repo Environment Setup\nURL: https://code.claude.com/docs/en/cloud-environments\nImage URL: https://assets.claude.com/f66071070c4701ea2c37fc01b3c0f83623cf29d3.jpg?w=2400&h=1260&fit=crop\nSummary: Anthropic says Claude Code cloud sessions on Pro, Max, and Ultra can now figure out a repo’s dependencies, network access, and API keys, then save that environment for later. Network secrets keep API keys outside the session so Claude never sees them, according to ClaudeDevs and the cloud-environments docs.",
+          "sha256": "c68eea9d1a65aa002ae7d4f171e3207c302d55db63ab87bb847e2fbf2700ca8f",
+          "source": "Anthropic",
+          "request_id": "d9ce2df81591baa416dab2d54393a3f1075507b8b0ed4731879576dec3811ad9",
           "mode": "standard"
         }
       ]
@@ -10488,13 +10501,21 @@
       ]
     },
     "d9ce2df81591baa416dab2d54393a3f1075507b8b0ed4731879576dec3811ad9": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-06T20:42:58.109937+00:00",
       "received_sequence": 324,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-06T20:42:58.781252+00:00",
+      "records": [
+        {
+          "id": 359,
+          "revision": 1,
+          "sha256": "c68eea9d1a65aa002ae7d4f171e3207c302d55db63ab87bb847e2fbf2700ca8f"
+        }
+      ]
     }
   },
   "batches": {
@@ -40317,6 +40338,21 @@
       "result": {
         "status": "received",
         "request_id": "d9ce2df81591baa416dab2d54393a3f1075507b8b0ed4731879576dec3811ad9"
+      }
+    },
+    "ccbfed9915c9e2f0d327403adcd21efb0ed25723e469de9f0ba0af6bb701bea8": {
+      "sha256": "92a625f09aecc91b2fd921e92ee957828b60c72e9e70ec6fd6a5a7dcdc5f15d8",
+      "result": {
+        "status": "finalized",
+        "request_id": "d9ce2df81591baa416dab2d54393a3f1075507b8b0ed4731879576dec3811ad9",
+        "records": [
+          {
+            "id": 359,
+            "revision": 1,
+            "sha256": "c68eea9d1a65aa002ae7d4f171e3207c302d55db63ab87bb847e2fbf2700ca8f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
