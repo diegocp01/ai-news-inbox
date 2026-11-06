@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1107,
-  "updated_at": "2026-11-06T20:44:06.940427+00:00",
+  "generation": 1108,
+  "updated_at": "2026-11-06T20:44:07.558986+00:00",
   "next_id": 361,
   "records": [
     {
@@ -40418,6 +40418,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9d868987cd4c7edbda780f9e1f597d5f70b723939cf19e61c9cde29f6f09b173": {
+      "sha256": "c60a7f7119454236e9dda8108bb74895a1a289fc99d831d1643185f5c4f3a4db",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 360,
+          "revision": 1,
+          "sha256": "4b9f6eab1907751f0b4a98ff72a4f373f34b9dbd01f14c246c6b572e09af7557"
+        },
+        "editorial_sha256": "c13111e54df437e6099ff83c14f35f3031038a847101908eac1f08e83a894112"
+      }
     }
   },
   "migration": {
@@ -50244,6 +50256,26 @@
         "sha256": "a405be50bd9b95f5bbfa6fcca29152d1f92016c4457e3489dfc98d20a001b40a",
         "reviewed_at": "2026-11-06T20:42:59.434804+00:00",
         "operation_id": "2334e0e54935f875a6c92ce4c45f169b88bb45a44e97dc5c2e62329b87df37fc"
+      }
+    ],
+    "360:1": [
+      {
+        "reference": {
+          "id": 360,
+          "revision": 1,
+          "sha256": "4b9f6eab1907751f0b4a98ff72a4f373f34b9dbd01f14c246c6b572e09af7557"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer product model upgrade for Muse/Meta AI with Active Memory/Focus features; not a five-lab flagship launch requiring New AI Model prefix (specialized models). Unsure technical depth -> general. Same ds finalize/review.",
+            "evidence_sha256": "911dc88c9d8d50e98755424b2d9f05400566bfb378ef943920ec2893fe352251"
+          }
+        },
+        "sha256": "c13111e54df437e6099ff83c14f35f3031038a847101908eac1f08e83a894112",
+        "reviewed_at": "2026-11-06T20:44:07.558986+00:00",
+        "operation_id": "9d868987cd4c7edbda780f9e1f597d5f70b723939cf19e61c9cde29f6f09b173"
       }
     ]
   }
