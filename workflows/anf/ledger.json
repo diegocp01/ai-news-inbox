@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1115,
-  "updated_at": "2026-11-06T23:28:21.220903+00:00",
-  "next_id": 363,
+  "generation": 1116,
+  "updated_at": "2026-11-06T23:28:21.979534+00:00",
+  "next_id": 364,
   "records": [
     {
       "id": 1,
@@ -4808,6 +4808,19 @@
           "sha256": "6676ab73eca3db66e4d8efb86913d305ca7cee44f9619192e8062122bb71ba7b",
           "source": "Anthropic",
           "request_id": "9617dcb345338a85c1c8f949f896c54fb8fbbfa18cad07fd1f07cf5318680ed0",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 363,
+      "revisions": [
+        {
+          "created_at": "2026-11-06T23:28:21.979534+00:00",
+          "block": "Title: ChatGPT Adds Remix for Copying and Editing Teammates' Sites\nURL: https://runtimewire.com/article/openai-chatgpt-remix-sites-business-enterprise\nImage URL: https://runtimewire.com/og/openai-chatgpt-remix-sites-business-enterprise.16x9.jpg?v=og2-1g4z6cv\nSummary: OpenAI is rolling out Remix for ChatGPT Sites to Business and Enterprise accounts. Users can make their own version of a teammate's site by telling ChatGPT what to change, then keep editing their copy in chat.",
+          "sha256": "c4d6cd60baaa8429ca6aa759809e5cc428a7d45c40b421fb9b50071567ffc682",
+          "source": "OpenAI",
+          "request_id": "afdb7f2583c8a4885ebb614f15cdc3a6cf138dfc0643f83d3234276e3c2d6bb2",
           "mode": "standard"
         }
       ]
@@ -10608,13 +10621,21 @@
       ]
     },
     "afdb7f2583c8a4885ebb614f15cdc3a6cf138dfc0643f83d3234276e3c2d6bb2": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-06T23:28:21.220903+00:00",
       "received_sequence": 328,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-06T23:28:21.979534+00:00",
+      "records": [
+        {
+          "id": 363,
+          "revision": 1,
+          "sha256": "c4d6cd60baaa8429ca6aa759809e5cc428a7d45c40b421fb9b50071567ffc682"
+        }
+      ]
     }
   },
   "batches": {
@@ -40573,6 +40594,21 @@
       "result": {
         "status": "received",
         "request_id": "afdb7f2583c8a4885ebb614f15cdc3a6cf138dfc0643f83d3234276e3c2d6bb2"
+      }
+    },
+    "087b02c2f953aae5094eb4b822f0bedfc00ac70714ff02456c9c8b73ff271af2": {
+      "sha256": "2aec8102bcaeaa775ee38e2fe283d88c25fb175fb34438d9ccb4c104b1019647",
+      "result": {
+        "status": "finalized",
+        "request_id": "afdb7f2583c8a4885ebb614f15cdc3a6cf138dfc0643f83d3234276e3c2d6bb2",
+        "records": [
+          {
+            "id": 363,
+            "revision": 1,
+            "sha256": "c4d6cd60baaa8429ca6aa759809e5cc428a7d45c40b421fb9b50071567ffc682"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
