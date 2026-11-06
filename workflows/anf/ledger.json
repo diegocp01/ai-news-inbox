@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1101,
-  "updated_at": "2026-11-06T16:32:23.072020+00:00",
+  "generation": 1102,
+  "updated_at": "2026-11-06T16:32:23.752057+00:00",
   "next_id": 359,
   "records": [
     {
@@ -40290,6 +40290,18 @@
         ],
         "duplicates": []
       }
+    },
+    "13994cd831ee8bc6a51cde5c723ae1c623a8d9897a3f0671c71a1fc7ba93ae26": {
+      "sha256": "526f150ac0cea56a3c0afba9ac5dcbeecc05a66e353f4a16e102cce5c0a706c7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 358,
+          "revision": 1,
+          "sha256": "6015ea7168bfa2683b1faf1cd35c397c6fe2db75133f23e47b1ae2862bf78bb8"
+        },
+        "editorial_sha256": "f29b15929e1c14e6d3441d66f6d19018f98afb8d0eea3378dd136a2f92b05b5a"
+      }
     }
   },
   "migration": {
@@ -50076,6 +50088,26 @@
         "sha256": "a935668bff2b72f4c66a030a75ef29352bc1ad1c05d75e781565c83a983cefb1",
         "reviewed_at": "2026-11-06T16:28:31.735028+00:00",
         "operation_id": "bc231ead64a98cacbe4acc1d0c33982d449be1d4f738cc768a064a5bb7233b4e"
+      }
+    ],
+    "358:1": [
+      {
+        "reference": {
+          "id": 358,
+          "revision": 1,
+          "sha256": "6015ea7168bfa2683b1faf1cd35c397c6fe2db75133f23e47b1ae2862bf78bb8"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Speculative commentary from an AI red-teamer; not an ML-technical paper, API/docs launch, or hardware claim. Unsure -> general. Same ds finalize/review.",
+            "evidence_sha256": "78b7dd785a1443a8e057ee8896f9ff6b2de6d907abc518a4acc299d6f0ee5e4c"
+          }
+        },
+        "sha256": "f29b15929e1c14e6d3441d66f6d19018f98afb8d0eea3378dd136a2f92b05b5a",
+        "reviewed_at": "2026-11-06T16:32:23.752057+00:00",
+        "operation_id": "13994cd831ee8bc6a51cde5c723ae1c623a8d9897a3f0671c71a1fc7ba93ae26"
       }
     ]
   }
