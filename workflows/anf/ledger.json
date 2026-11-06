@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1081,
-  "updated_at": "2026-11-06T00:23:46.479890+00:00",
+  "generation": 1082,
+  "updated_at": "2026-11-06T00:23:47.165280+00:00",
   "next_id": 353,
   "records": [
     {
@@ -39326,6 +39326,18 @@
         ],
         "duplicates": []
       }
+    },
+    "3f874f814695087752f41683cd67b7f18662459a797c7476ac7180617cb10b3b": {
+      "sha256": "1ad72a7a2c30725322a309120b47cb4cc42ab70f3baacddd6d05e7f5661dfe37",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 352,
+          "revision": 1,
+          "sha256": "fb2fbb79445eef0b80bb7fd6d9326e5d186bcfa5981ca03c06632d3a6437348f"
+        },
+        "editorial_sha256": "d8c6d6638738de712b85618aadee27bb9e1aaf5082df5956c3bdc2ba678216fa"
+      }
     }
   },
   "migration": {
@@ -48992,6 +49004,26 @@
         "sha256": "cd2cd1615b15b3b6d4571541286b52b1ffc741b2950458062d4103583deed0e8",
         "reviewed_at": "2026-11-05T22:04:55.456627+00:00",
         "operation_id": "a346c207462c69e37c5865051928773b3c0b3773601ff61555572362644f676d"
+      }
+    ],
+    "352:1": [
+      {
+        "reference": {
+          "id": 352,
+          "revision": 1,
+          "sha256": "fb2fbb79445eef0b80bb7fd6d9326e5d186bcfa5981ca03c06632d3a6437348f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Second-generation MoE model release with total/active parameter counts, fine-tuning/inference availability, RL training and Artificial Analysis Index score: ML-technical concepts a general reader wouldn't know. DS true per #350/#351 lesson.",
+            "evidence_sha256": "9fa7ee4b429ce9d3427609eafd8c2a4b9684ff0d5f8782043692c24ed8f3d01a"
+          }
+        },
+        "sha256": "d8c6d6638738de712b85618aadee27bb9e1aaf5082df5956c3bdc2ba678216fa",
+        "reviewed_at": "2026-11-06T00:23:47.165280+00:00",
+        "operation_id": "3f874f814695087752f41683cd67b7f18662459a797c7476ac7180617cb10b3b"
       }
     ]
   }
