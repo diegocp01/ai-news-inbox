@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1112,
-  "updated_at": "2026-11-06T21:42:51.245254+00:00",
-  "next_id": 362,
+  "generation": 1113,
+  "updated_at": "2026-11-06T21:42:52.049349+00:00",
+  "next_id": 363,
   "records": [
     {
       "id": 1,
@@ -4795,6 +4795,19 @@
           "sha256": "7bb1966de86f14f1e5f7b8081cfa2fcd39c6585a7c54357c9e35bc275d35abdc",
           "source": "Meta",
           "request_id": "fdd422346dcf765e320d6efe853c6c740b98e35faa7a64bc9907830628eb7bbe",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 362,
+      "revisions": [
+        {
+          "created_at": "2026-11-06T21:42:52.049349+00:00",
+          "block": "Title: Anthropic Details Components of Agent Memory and Dreaming\nURL: https://www.anthropic.com/research/components-of-agent-memory\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg\nSummary: Anthropic's engineering team describes agent memory as experience retained across sessions as notes, and uses idle-time \"dreaming\" to correct mistakes, build wiki-style maps, and promote notes into later sessions. Company-reported evaluations include CL-Bench, Pokémon runs, and large document corpora.",
+          "sha256": "6676ab73eca3db66e4d8efb86913d305ca7cee44f9619192e8062122bb71ba7b",
+          "source": "Anthropic",
+          "request_id": "9617dcb345338a85c1c8f949f896c54fb8fbbfa18cad07fd1f07cf5318680ed0",
           "mode": "standard"
         }
       ]
@@ -10578,13 +10591,21 @@
       ]
     },
     "9617dcb345338a85c1c8f949f896c54fb8fbbfa18cad07fd1f07cf5318680ed0": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-06T21:42:51.245254+00:00",
       "received_sequence": 327,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-06T21:42:52.049349+00:00",
+      "records": [
+        {
+          "id": 362,
+          "revision": 1,
+          "sha256": "6676ab73eca3db66e4d8efb86913d305ca7cee44f9619192e8062122bb71ba7b"
+        }
+      ]
     }
   },
   "batches": {
@@ -40509,6 +40530,21 @@
       "result": {
         "status": "received",
         "request_id": "9617dcb345338a85c1c8f949f896c54fb8fbbfa18cad07fd1f07cf5318680ed0"
+      }
+    },
+    "5ed01afbfc3a305fd62a6c713864f4983875384a04a55bf72bbc50a4209dc488": {
+      "sha256": "0b61dc27bddec1d441f3b56eac907b74fd92174b9bc26f9c94aad196239777e8",
+      "result": {
+        "status": "finalized",
+        "request_id": "9617dcb345338a85c1c8f949f896c54fb8fbbfa18cad07fd1f07cf5318680ed0",
+        "records": [
+          {
+            "id": 362,
+            "revision": 1,
+            "sha256": "6676ab73eca3db66e4d8efb86913d305ca7cee44f9619192e8062122bb71ba7b"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
