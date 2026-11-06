@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1080,
-  "updated_at": "2026-11-06T00:23:45.794834+00:00",
-  "next_id": 352,
+  "generation": 1081,
+  "updated_at": "2026-11-06T00:23:46.479890+00:00",
+  "next_id": 353,
   "records": [
     {
       "id": 1,
@@ -4663,6 +4663,19 @@
           "sha256": "fb57f0189b84346ecc9cc84f610a74e2ca995b84f5c274baee349a884ba4eb58",
           "source": "Moonlake",
           "request_id": "87e9cd051e6345b34734d3e1a9a59cbe4c7bf580619a8e35355f2e403faf5475",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 352,
+      "revisions": [
+        {
+          "created_at": "2026-11-06T00:23:46.479890+00:00",
+          "block": "Title: Thinking Machines Releases Inkling 2 Small\nURL: https://cryptobriefing.com/thinking-machines-inkling-2-small-release/\nImage URL: https://web.archive.org/web/20261106002304/https://thinkingmachines.ai/news/inkling-2-small/images/cover-social.png\nSummary: Thinking Machines Lab released Inkling 2 Small, a Mixture-of-Experts model with 594 billion total parameters and 17 billion active. The company says it scores 31 on the Artificial Analysis Intelligence Index, is available for fine-tuning and inference on its Tinker platform now, and plans an Apache 2.0 weight release after external safety testing.",
+          "sha256": "fb2fbb79445eef0b80bb7fd6d9326e5d186bcfa5981ca03c06632d3a6437348f",
+          "source": "Thinking Machines",
+          "request_id": "baccd268869efe8317db3982fb5b2e5846ba2ebf30dac179f66654dfb47ec744",
           "mode": "standard"
         }
       ]
@@ -10287,13 +10300,21 @@
       ]
     },
     "baccd268869efe8317db3982fb5b2e5846ba2ebf30dac179f66654dfb47ec744": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-06T00:23:45.794834+00:00",
       "received_sequence": 318,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-06T00:23:46.479890+00:00",
+      "records": [
+        {
+          "id": 352,
+          "revision": 1,
+          "sha256": "fb2fbb79445eef0b80bb7fd6d9326e5d186bcfa5981ca03c06632d3a6437348f"
+        }
+      ]
     }
   },
   "batches": {
@@ -39289,6 +39310,21 @@
       "result": {
         "status": "received",
         "request_id": "baccd268869efe8317db3982fb5b2e5846ba2ebf30dac179f66654dfb47ec744"
+      }
+    },
+    "9a23c68e32446719958d0b3b9b0c4c8760100ee18d201cd2bfb0e3ba5f3557b1": {
+      "sha256": "cba91440950b7289fb3eeab0edf0a06d8f51801b906777cc01cf757f7d83aa73",
+      "result": {
+        "status": "finalized",
+        "request_id": "baccd268869efe8317db3982fb5b2e5846ba2ebf30dac179f66654dfb47ec744",
+        "records": [
+          {
+            "id": 352,
+            "revision": 1,
+            "sha256": "fb2fbb79445eef0b80bb7fd6d9326e5d186bcfa5981ca03c06632d3a6437348f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
