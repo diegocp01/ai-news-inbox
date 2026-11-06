@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1109,
-  "updated_at": "2026-11-06T20:55:13.305718+00:00",
-  "next_id": 361,
+  "generation": 1110,
+  "updated_at": "2026-11-06T20:55:14.656832+00:00",
+  "next_id": 362,
   "records": [
     {
       "id": 1,
@@ -4782,6 +4782,19 @@
           "sha256": "4b9f6eab1907751f0b4a98ff72a4f373f34b9dbd01f14c246c6b572e09af7557",
           "source": "Meta",
           "request_id": "f5aefbc4a77f4a4d1cddbef9f73bb1546a81f27d4853297ad12550be063da73d",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 361,
+      "revisions": [
+        {
+          "created_at": "2026-11-06T20:55:14.656832+00:00",
+          "block": "Title: Meta Introduces Spaces for Custom Experiences Inside Muse\nURL: https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/\nImage URL: https://about.fb.com/wp-content/uploads/2026/11/Design-the-Muse-App_Just-for-You_Social-Share.png?w=1200\nSummary: Meta says Muse users can describe a planner, tracker, game, or other idea and Muse builds it as a \"space\" inside the app. Spaces can be pinned to tabs or the sidebar, scheduled, and kept current by connecting other apps. Available wherever Muse is available.",
+          "sha256": "7bb1966de86f14f1e5f7b8081cfa2fcd39c6585a7c54357c9e35bc275d35abdc",
+          "source": "Meta",
+          "request_id": "fdd422346dcf765e320d6efe853c6c740b98e35faa7a64bc9907830628eb7bbe",
           "mode": "standard"
         }
       ]
@@ -10548,13 +10561,21 @@
       ]
     },
     "fdd422346dcf765e320d6efe853c6c740b98e35faa7a64bc9907830628eb7bbe": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-06T20:55:13.305718+00:00",
       "received_sequence": 326,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-06T20:55:14.656832+00:00",
+      "records": [
+        {
+          "id": 361,
+          "revision": 1,
+          "sha256": "7bb1966de86f14f1e5f7b8081cfa2fcd39c6585a7c54357c9e35bc275d35abdc"
+        }
+      ]
     }
   },
   "batches": {
@@ -40445,6 +40466,21 @@
       "result": {
         "status": "received",
         "request_id": "fdd422346dcf765e320d6efe853c6c740b98e35faa7a64bc9907830628eb7bbe"
+      }
+    },
+    "b296883f91934b369221d4b415dfe8711c5f98ba10206dd75e54b0caa55e9a9f": {
+      "sha256": "7bd543e65c96bb999e4b4950166b302ce4acc7c17ce9fd46d398c576edc9bf46",
+      "result": {
+        "status": "finalized",
+        "request_id": "fdd422346dcf765e320d6efe853c6c740b98e35faa7a64bc9907830628eb7bbe",
+        "records": [
+          {
+            "id": 361,
+            "revision": 1,
+            "sha256": "7bb1966de86f14f1e5f7b8081cfa2fcd39c6585a7c54357c9e35bc275d35abdc"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
