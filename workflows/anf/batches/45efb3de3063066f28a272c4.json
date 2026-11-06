@@ -1,0 +1,153 @@
+[
+  {
+    "title": "OpenAI Makes ChatGPT Dots Faster With New iOS Shortcuts and Inline Replies",
+    "description": "OpenAI's Samir, who works on dots and ChatGPT, says the team is focused on making dots faster and more reliable. The latest ChatGPT app release lets iOS users reply to their dot inline from notifications, share anything to it, and open it from the iPhone Action button, with faster loading from notifications and Gmail links opening the exact email.",
+    "image_url": "https://cdn.macstories.net/images/uploads/2026/10/19/shortcut-upload-1792415496645-ce17545373.png",
+    "learn_more_url": "",
+    "date": "2026-11-06",
+    "source": "OpenAI"
+  },
+  {
+    "title": "ChatAndBuild Launches Living Brain, a Shared Memory Layer for ChatGPT, Claude, Cursor and Codex",
+    "description": "ChatAndBuild founder Christel Buchanan launched Living Brain, a persistent memory layer that ChatGPT, Claude, Cursor, Codex and custom agents can share via MCP or API. In the company's own internal evaluations, it scored 92.2% on LoCoMo with 464ms median retrieval and used up to 22.6x fewer tokens per question than a full-context baseline on LongMemEval-S.",
+    "image_url": "https://livingbrain.com/og/living-brain-og.jpg",
+    "learn_more_url": "https://livingbrain.com/",
+    "date": "2026-11-06",
+    "source": "ChatAndBuild",
+    "ds": true
+  },
+  {
+    "title": "Google Releases Gemini Omni 1.2 Flash With 15-Second Videos and Lower Pricing",
+    "description": "Google released Gemini Omni 1.2 Flash, its updated video generation model, extending video generation and editing to 15 seconds, up from 10. Google says it holds scenes together better, improves character speech and reduces glitches like jump cuts. It's available in Flow, Google Vids and the Gemini app, and Google Cloud says it costs 30% less than Omni 1.1 Flash.",
+    "image_url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/gemini-omni.max-2500x2500.jpg",
+    "learn_more_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available",
+    "date": "2026-11-06",
+    "source": "Google"
+  },
+  {
+    "title": "OpenAI Introduces GPT-6 Cyber for Security Research",
+    "description": "OpenAI introduced GPT-6 Cyber, a security research model it says is more capable and better at staying within researcher-set boundaries. OpenAI says it developed 948 Linux kernel privilege escalation exploits and found 81 high-severity Firefox vulnerabilities, with Mozilla shipping fixes. It is available to select Daybreak Red customers, with access expanding over time.",
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "learn_more_url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
+    "date": "2026-11-06",
+    "source": "OpenAI",
+    "ds": true
+  },
+  {
+    "title": "Planet Makes Its 'Ask the Earth' AI App Generally Available",
+    "description": "Planet CEO Will Marshall announced that the Planet AI app is generally available after its beta, letting users ask questions of a 10+ year, 3,000+ layer archive of daily satellite imagery. He says beta users included farmers boosting crop yields, first responders tracking disaster paths and park rangers halting illegal deforestation.",
+    "image_url": "https://ai.planet.com/og-image.png",
+    "learn_more_url": "https://ai.planet.com/",
+    "date": "2026-11-06",
+    "source": "Planet"
+  },
+  {
+    "title": "Anthropic Launches Personal Finance in Claude",
+    "description": "Anthropic introduced Personal Finance in Claude, letting users connect bank and card accounts and ask money questions in everyday language based on their own balances and transactions. Anthropic says access is read-only, so Claude can't move, manage or invest money. It's rolling out in beta this week to Pro, Max and Ultra subscribers in the US.",
+    "image_url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude/opengraph-image/og",
+    "learn_more_url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+    "date": "2026-11-06",
+    "source": "Anthropic"
+  },
+  {
+    "title": "Rep. Yassamin Ansari Calls for a Pause on Advanced AI and a Ban on Superintelligence",
+    "description": "Rep. Yassamin Ansari, who represents Arizona's 3rd District, posted on X that the top of the Democratic agenda on day one \"needs to be a pause on advanced AI development, regulation of this out of control industry, and a ban on artificial superintelligence.\" The post had drawn more than 10 million views by Thursday.",
+    "image_url": "https://ansari.house.gov/themes/ansari/images/sharelogo.jpg",
+    "learn_more_url": "https://ansari.house.gov/",
+    "date": "2026-11-06",
+    "source": "Rep. Yassamin Ansari"
+  },
+  {
+    "title": "Meta Adds Voice Conversations and Expressive Avatars to Its Muse AI Agent",
+    "description": "Meta is rolling out real-time voice conversations and expressive avatars in its Muse personal AI agent app on mobile, web and Mac, starting in the US. Users can talk to Muse, interrupt it and choose from hundreds of voices while it handles tasks in the background. Meta says voice is coming soon to its AI glasses and Muse Charm.",
+    "image_url": "https://about.fb.com/wp-content/uploads/2026/11/Were-rolling-out-voice-and-expressive-avatars-in-the-Muse-app_Social-Share.jpg?w=1200",
+    "learn_more_url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/",
+    "date": "2026-11-06",
+    "source": "Meta"
+  },
+  {
+    "title": "Meta Rolls Out Muse Realtime Avatar in the Muse App",
+    "description": "Meta is rolling out Muse Realtime Avatar, the real-time embodiment technology it previewed at Connect, in the Muse app in the US. Meta says it turns Muse Realtime Voice into expressive, interactive avatars whose expressions and gestures stay in sync with speech, and can animate portraits, illustrations, animals and objects during live conversations.",
+    "image_url": "https://lookaside.fbsbx.com/elementpath/media/?media_id=2462019687653837&version=1790206154",
+    "learn_more_url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/",
+    "date": "2026-11-06",
+    "source": "Meta"
+  },
+  {
+    "title": "METR Assessment Finds AI Likely Doubling Anthropic's Pace of Capability Gains",
+    "description": "After a high-access review at Anthropic, METR estimates the company is improving its models roughly twice as fast as before October 2025, likely driven mostly by its own AI use. METR measured benchmark growth at 1.9x the earlier rate but stresses high uncertainty, a 1.3x-3x plausible range, and that Anthropic redacted most of the key evidence.",
+    "image_url": "https://metr.org/assets/images/ai-rd-acceleration-assessment/aeci-main.png",
+    "learn_more_url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+    "date": "2026-11-06",
+    "source": "METR"
+  },
+  {
+    "title": "Goodfire Introduces Mechanistic Shaping, Training Models Through Their Internal Representations",
+    "description": "Goodfire's new paper proposes mechanistic shaping, which penalizes a model during training for relying on or expressing unwanted internal concepts. Goodfire reports it raised a reward-hacking model's honesty rate from 0% to 96-98%, reduced sycophancy and removed chest X-ray shortcuts. It says monitors can break but retraining a probe usually recovers the signal.",
+    "image_url": "https://www.goodfire.com/_astro/0-rerouting_gradient_descent-poster.Ni82KEZa_1AEKLm.jpg",
+    "learn_more_url": "https://www.goodfire.com/research/mechanistic-shaping",
+    "date": "2026-11-06",
+    "source": "Goodfire",
+    "ds": true
+  },
+  {
+    "title": "OpenAI Publishes Community Compact and Policy Blueprint for AI Data Center Campuses",
+    "description": "OpenAI published a National Community Compact pledging that future campuses it owns and operates will pay their full electricity and infrastructure costs, publish water and power use, and report annually on local hiring. A companion policy blueprint urges lawmakers to make large electricity users cover the grid costs they add and to make data-center tax incentives public.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3tfG1ium2HchPnPJartCV6/bd2d0a4c101b0a41440cc45adefa35cd/setting-a-new-standard-for-responsible-ai-infrastructure-social.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://www.mlex.com/mlex/articles/2546822/openai-issues-new-us-data-center-commitments-policy-proposals-in-wake-of-midterms",
+    "date": "2026-11-06",
+    "source": "OpenAI"
+  },
+  {
+    "title": "World Labs Releases Frameboy, a Real-Time Demo of Its Atlas World Model",
+    "description": "World Labs released Frameboy, a research preview that lets people explore AI-generated worlds in their browser in real time, steering the camera while a speed-optimized version of its Atlas world model streams new frames from the cloud at up to 15 per second. It is also built into Viewfinder, its closed-beta scene-building app.",
+    "image_url": "https://dms.licdn.com/playlist/vid/v2/D5605AQFwJI7SQTYLFw/thumbnail-with-play-button-overlay-high/B56aGtOREWHQDA-/0/1793907567930?e=2147483647&v=beta&t=rZGJPNth2ocrJe1es0QTOLSC6fMOooRzEId8H_XjDb0",
+    "learn_more_url": "https://www.linkedin.com/posts/world-labs_explore-worlds-in-real-time-with-atlas-activity-7524193717562585088-mh9j",
+    "date": "2026-11-06",
+    "source": "World Labs",
+    "ds": true
+  },
+  {
+    "title": "Moonlake Previews Simulation-Driven Approach to Training Robots",
+    "description": "Moonlake shared early research on a \"calibrate, evaluate, improve\" loop for robot learning: build physics simulations matched to a real setting from little real-world data, test robot policies there, then refine them with reinforcement learning. Across three two-armed manipulation tasks, Moonlake says the approach reached similar real-robot performance to real-only development at far lower cost.",
+    "image_url": "https://moonlakeai.com/blog/simulation-enabled-scaling-paradigm/da.jpg",
+    "learn_more_url": "https://moonlakeai.com/blog/simulation-enabled-scaling-paradigm",
+    "date": "2026-11-06",
+    "source": "Moonlake",
+    "ds": true
+  },
+  {
+    "title": "Thinking Machines Releases Inkling 2 Small",
+    "description": "Thinking Machines Lab released Inkling 2 Small, a Mixture-of-Experts model with 594 billion total parameters and 17 billion active. The company says it scores 31 on the Artificial Analysis Intelligence Index, is available for fine-tuning and inference on its Tinker platform now, and plans an Apache 2.0 weight release after external safety testing.",
+    "image_url": "https://web.archive.org/web/20261106002304/https://thinkingmachines.ai/news/inkling-2-small/images/cover-social.png",
+    "learn_more_url": "https://cryptobriefing.com/thinking-machines-inkling-2-small-release/",
+    "date": "2026-11-06",
+    "source": "Thinking Machines",
+    "ds": true
+  },
+  {
+    "title": "Delaware Drafts Proposal for AI-Managed Companies",
+    "description": "Delaware is drafting a proposal for a new corporate form called an Artificial Intelligence Company, or AIC. Under the draft, an AI agent could manage day-to-day affairs—signing contracts, holding property, and suing or being sued in the company’s name. Lawmakers are expected to take up the draft when they return in January, WHYY reports.",
+    "image_url": "https://d1fw4rghwibahr.cloudfront.net/wp-content/uploads/2026/03/2025-04-10-dover-delaware-legislative-hall-exterior-symmetry-pe.jpeg",
+    "learn_more_url": "https://whyy.org/articles/delaware-artificial-intelligence-companies-state-proposal/",
+    "date": "2026-11-06",
+    "source": "WHYY"
+  },
+  {
+    "title": "METR Assesses AI Research Acceleration at Anthropic",
+    "description": "After an 11-week assessment, METR estimates Anthropic’s models were improving on well-defined tasks roughly twice as fast in October 2026 as during March 2024–October 2025. METR tentatively attributes most acceleration to AI use, while stressing substantial uncertainty. Anthropic redacted much of the key evidence, saying it could help other developers accelerate their work.",
+    "image_url": "https://metr.org/assets/images/ai-rd-acceleration-assessment/home-card.png",
+    "learn_more_url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+    "date": "2026-11-06",
+    "source": "metr.org",
+    "ds": true
+  },
+  {
+    "title": "OpenAI Introduces Images 2.6 with GIF Creation",
+    "description": "OpenAI released Images 2.6 for ChatGPT, Codex, and its developer API. GIF creation is rolling out in ChatGPT, turning prompts, photos, or sketches into looping animations. OpenAI says image generation is 50% faster than before and describes its developer models Flare and Sunburst as designed for speed and higher image quality, respectively.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://www.digitaltrends.com/computing/openai-images-2-6-adds-gif-support-and-faster-image-generation/",
+    "date": "2026-11-06",
+    "source": "digitaltrends.com"
+  }
+]

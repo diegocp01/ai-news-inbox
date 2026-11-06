@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1089,
-  "updated_at": "2026-11-06T13:07:23.250539+00:00",
+  "generation": 1090,
+  "updated_at": "2026-11-06T13:07:42.362757+00:00",
   "next_id": 356,
   "records": [
     {
@@ -18844,9 +18844,269 @@
       },
       "acknowledged_at": "2026-11-05T13:17:15.986498+00:00",
       "checkpoint_after": 337
+    },
+    "45efb3de3063066f28a272c4": {
+      "batch_id": "45efb3de3063066f28a272c4",
+      "status": "prepared",
+      "checkpoint_before": 337,
+      "prepared_at": "2026-11-06T13:07:42.362757+00:00",
+      "intake_cutoff": 320,
+      "records": [
+        {
+          "id": 338,
+          "revision": 1,
+          "sha256": "d3d5756c57bb5b0db71eafa7017caa3a0bb2f07f920a189338e2af44f63c9c14"
+        },
+        {
+          "id": 339,
+          "revision": 1,
+          "sha256": "7b80e1a74b1cf2da746e8cac9d473b35c9b2d15bcee2c0945f3f6ad00af91a03"
+        },
+        {
+          "id": 340,
+          "revision": 1,
+          "sha256": "254fcb55ff090c10adcaae549dc14e6d5aee7ee76418c42b50f7362ef96960c9"
+        },
+        {
+          "id": 341,
+          "revision": 1,
+          "sha256": "cc3b74542928c7fbd2051efb52fb4e897727fa8b0239a569f10ad8f16477fa62"
+        },
+        {
+          "id": 342,
+          "revision": 1,
+          "sha256": "e524ccf8748250a55bf92143ff4f9339c8628db9faa55b05c19c6577083f061a"
+        },
+        {
+          "id": 343,
+          "revision": 1,
+          "sha256": "d9ab98dffb33a8b8d2e626b0d9db79735362aec559c7af748c3620dc856985cb"
+        },
+        {
+          "id": 344,
+          "revision": 1,
+          "sha256": "12938415de056809ec7fa4df422ba982a71b194d65204d116356430d460750bb"
+        },
+        {
+          "id": 345,
+          "revision": 1,
+          "sha256": "ac7f26cd821c0f7795d32998415f6c57f4210ab988558967c7b7163d9a5a1ed0"
+        },
+        {
+          "id": 346,
+          "revision": 1,
+          "sha256": "b0b8d44cf492156c52e2e3ba887522d2cd290c7d27e323ee21367bde007c64cf"
+        },
+        {
+          "id": 347,
+          "revision": 1,
+          "sha256": "6fcb3451b3f408ccc0176e202491d2bd95e8bce85e5e785c9eec4a942bd4f9a0"
+        },
+        {
+          "id": 348,
+          "revision": 1,
+          "sha256": "68bb7df7b5f025ee6b49dbd77aa5c45ce3ab3abf2f5c6b1824ac6f5997834fd8"
+        },
+        {
+          "id": 349,
+          "revision": 1,
+          "sha256": "c5531b8a8a66f46e1f991bc9ed0d4fb4301b769e5f96e7e9e0a5f67db48ec813"
+        },
+        {
+          "id": 350,
+          "revision": 1,
+          "sha256": "4c1a932b744d9e3637ae6cef039e343dc02d081881054626487f1bd12116936f"
+        },
+        {
+          "id": 351,
+          "revision": 1,
+          "sha256": "fb57f0189b84346ecc9cc84f610a74e2ca995b84f5c274baee349a884ba4eb58"
+        },
+        {
+          "id": 352,
+          "revision": 1,
+          "sha256": "fb2fbb79445eef0b80bb7fd6d9326e5d186bcfa5981ca03c06632d3a6437348f"
+        },
+        {
+          "id": 353,
+          "revision": 1,
+          "sha256": "f4c85f7d720a0d57bd2528694793ddbf2bafdd7c6e1bd86a6f6caf469798d2bd"
+        },
+        {
+          "id": 354,
+          "revision": 1,
+          "sha256": "b3d57255b9d2aa74dd90766dc104b08cab6b7bc5aaac604dba68e626ec556bdd"
+        },
+        {
+          "id": 355,
+          "revision": 1,
+          "sha256": "9a2c5611c171ada959a1fc01341bc161274c2cc100e37f2fa32c4a3ebe5709ee"
+        }
+      ],
+      "first_id": 338,
+      "last_id": 355,
+      "count": 18,
+      "txt_path": "workflows/anf/batches/45efb3de3063066f28a272c4.txt",
+      "json_path": "workflows/anf/batches/45efb3de3063066f28a272c4.json",
+      "txt_sha256": "0840c7314308d685bdc2c7833a1ccdf83594dabc092cd64272de795912883071",
+      "json_sha256": "0fad5db9237219174bbe23f1e3e3663e573bad5e3c21bd64cfbeea55c3a730cf",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer app feature update for ChatGPT dots; no model, API or technical detail, so general audience",
+            "evidence_sha256": "8b1576a25343e4014e520d7c2d9ac90ff301b4f5ee2c72efa39b85bbce5abe5a"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer memory layer accessed via MCP/API with token, retrieval-latency and LoCoMo/LongMemEval benchmark claims; ML-technical/dev-API",
+            "evidence_sha256": "350a8382b0e09e9d1448aac3841906ee71777e19962ae42acb76f198a7a7cfa1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer/creator video generation model update; specialized video model, so no flagship prefix; summary avoids API/dev detail, general audience",
+            "evidence_sha256": "14a3d20de170dfa5c6ade3fb8c0428dc6609d2dfd8e0dc2426cf1aafa965fa8a"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Cybersecurity-specialized model with exploit/vulnerability research benchmarks; security term -> DS; specialized model, no flagship prefix",
+            "evidence_sha256": "5aa8e3efb719eb2fe58aa8b34ae1d1ab7ae535d194d94f8f32642268450751f5"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer/business app launch for querying satellite imagery; no model, API or technical detail, so general audience",
+            "evidence_sha256": "4c2bf3ebea96d1727faa2ba1a5a58f46a54e151f3004d9424c2f9b491100433e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer product feature (personal finance) in Claude app; not a model release, no technical detail, general audience",
+            "evidence_sha256": "77397aab8227d717f3a31cfed6e3ecb0570014e0872e5103f466b2aa1dc25525"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Political/policy statement on AI regulation; no technical content, general audience",
+            "evidence_sha256": "a00a7a8aed92eec3a9d73baf7f6f170fd1abba849b495e3689df7aa5e0eca576"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer app feature launch (voice mode and avatars) for Meta's Muse agent; not a new model, no technical detail, general audience",
+            "evidence_sha256": "449bace464df1481a869a36e3872f98fb3dac7dc8b15929006446ddc62d7b6c0"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer rollout of Meta's avatar technology in the Muse app; summary avoids model-architecture detail; feature launch, not a flagship model; unsure -> general",
+            "evidence_sha256": "386e3873ab320edb3c9e5f0a711ccab994c31c477b1b88822a195ce44c52967c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Independent AI-risk assessment of AI R&D acceleration; summary uses plain-language findings without ML jargon; not a model launch; unsure -> general",
+            "evidence_sha256": "49f1ab9c9aae6ae2d117b5d7cff49388c365d1a7c8caadbeb906d85f9551a090"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Interpretability/alignment research paper on training against internal representations, reward hacking and probes; ML-technical",
+            "evidence_sha256": "f0026e5497b34ae9e90937b6290fa80afeed5b5d64235baa16b50748ba0d3ccd"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Policy and community commitments for AI data center campuses; no ML or technical detail, general audience; not a model release",
+            "evidence_sha256": "23f007ae95b818b07bf44faaec69cca732655bf0f0d7f1d0f3add7fd2fad52ae"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Diego's technical-audience rule: World Labs world-model research preview; verified post centers autoregressive world model, novel view synthesis and cloud-GPU inference concepts a general reader wouldn't know. DS true.",
+            "evidence_sha256": "79044c7e66ab7c81b69a5a2a86e16bb84b76ccb583a20933459de45d37eef4f7"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Robot-learning research centered on reinforcement learning, sim-to-real calibration, policy evaluation and domain randomization: ML-technical concepts a general reader wouldn't know. DS true.",
+            "evidence_sha256": "94db539e81ccd9e77826cff8f4d58a8a7be2d522ee3b1ce76b009e4f0e1a3cf3"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Second-generation MoE model release with total/active parameter counts, fine-tuning/inference availability, RL training and Artificial Analysis Index score: ML-technical concepts a general reader wouldn't know. DS true per #350/#351 lesson.",
+            "evidence_sha256": "9fa7ee4b429ce9d3427609eafd8c2a4b9684ff0d5f8782043692c24ed8f3d01a"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Delaware legal/policy proposal for AI-managed companies; corporate-entity news for a general reader, not ML-technical, developer/API, or hardware. Unsure -> general. Same ds finalize/review.",
+            "evidence_sha256": "8732b480b66d9460637b2c9884636f547c437ac4c0b2e65f53aa36d25dc626bf"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "After an 11-week assessment, METR estimates Anthropic's models were improving on well-defined tasks roughly twice as fast in October 2026 as during March 2024-October 2025. METR tentatively attributes most acceleration to AI use, while stressing substantial uncertainty, and Anthropic redacted much of the key evidence. This is AI research evaluation on model capability acceleration, for research audiences. muse-compile-backfill 2026-11-06: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "b3d57255b9d2aa74dd90766dc104b08cab6b7bc5aaac604dba68e626ec556bdd"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "OpenAI released Images 2.6 for ChatGPT, Codex, and its developer API. GIF creation is rolling out in ChatGPT, turning prompts, photos, or sketches into looping animations. OpenAI says image generation is 50% faster than before and describes its developer models Flare and Sunburst as designed for speed and higher image quality, respectively. This is a consumer AI product update for a broad audience, not technical research. muse-compile-backfill 2026-11-06: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "9a2c5611c171ada959a1fc01341bc161274c2cc100e37f2fa32c4a3ebe5709ee"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-06T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "45efb3de3063066f28a272c4",
   "replacement_batch": null,
   "checkpoint": 337,
   "checkpoint_history": [
@@ -39503,6 +39763,273 @@
           "sha256": "9a2c5611c171ada959a1fc01341bc161274c2cc100e37f2fa32c4a3ebe5709ee"
         },
         "editorial_sha256": "b9e21d5553a4ede718f8dea4d76fe9e3c96abff337b51df45dabd7fea492ec32"
+      }
+    },
+    "muse-compile-20261106-1307-5796": {
+      "sha256": "85db16139cc02768d04bf8bdf4d2e7bcc01c53a194686dd1d03bce7ff9f6ec9d",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "45efb3de3063066f28a272c4",
+          "status": "prepared",
+          "checkpoint_before": 337,
+          "prepared_at": "2026-11-06T13:07:42.362757+00:00",
+          "intake_cutoff": 320,
+          "records": [
+            {
+              "id": 338,
+              "revision": 1,
+              "sha256": "d3d5756c57bb5b0db71eafa7017caa3a0bb2f07f920a189338e2af44f63c9c14"
+            },
+            {
+              "id": 339,
+              "revision": 1,
+              "sha256": "7b80e1a74b1cf2da746e8cac9d473b35c9b2d15bcee2c0945f3f6ad00af91a03"
+            },
+            {
+              "id": 340,
+              "revision": 1,
+              "sha256": "254fcb55ff090c10adcaae549dc14e6d5aee7ee76418c42b50f7362ef96960c9"
+            },
+            {
+              "id": 341,
+              "revision": 1,
+              "sha256": "cc3b74542928c7fbd2051efb52fb4e897727fa8b0239a569f10ad8f16477fa62"
+            },
+            {
+              "id": 342,
+              "revision": 1,
+              "sha256": "e524ccf8748250a55bf92143ff4f9339c8628db9faa55b05c19c6577083f061a"
+            },
+            {
+              "id": 343,
+              "revision": 1,
+              "sha256": "d9ab98dffb33a8b8d2e626b0d9db79735362aec559c7af748c3620dc856985cb"
+            },
+            {
+              "id": 344,
+              "revision": 1,
+              "sha256": "12938415de056809ec7fa4df422ba982a71b194d65204d116356430d460750bb"
+            },
+            {
+              "id": 345,
+              "revision": 1,
+              "sha256": "ac7f26cd821c0f7795d32998415f6c57f4210ab988558967c7b7163d9a5a1ed0"
+            },
+            {
+              "id": 346,
+              "revision": 1,
+              "sha256": "b0b8d44cf492156c52e2e3ba887522d2cd290c7d27e323ee21367bde007c64cf"
+            },
+            {
+              "id": 347,
+              "revision": 1,
+              "sha256": "6fcb3451b3f408ccc0176e202491d2bd95e8bce85e5e785c9eec4a942bd4f9a0"
+            },
+            {
+              "id": 348,
+              "revision": 1,
+              "sha256": "68bb7df7b5f025ee6b49dbd77aa5c45ce3ab3abf2f5c6b1824ac6f5997834fd8"
+            },
+            {
+              "id": 349,
+              "revision": 1,
+              "sha256": "c5531b8a8a66f46e1f991bc9ed0d4fb4301b769e5f96e7e9e0a5f67db48ec813"
+            },
+            {
+              "id": 350,
+              "revision": 1,
+              "sha256": "4c1a932b744d9e3637ae6cef039e343dc02d081881054626487f1bd12116936f"
+            },
+            {
+              "id": 351,
+              "revision": 1,
+              "sha256": "fb57f0189b84346ecc9cc84f610a74e2ca995b84f5c274baee349a884ba4eb58"
+            },
+            {
+              "id": 352,
+              "revision": 1,
+              "sha256": "fb2fbb79445eef0b80bb7fd6d9326e5d186bcfa5981ca03c06632d3a6437348f"
+            },
+            {
+              "id": 353,
+              "revision": 1,
+              "sha256": "f4c85f7d720a0d57bd2528694793ddbf2bafdd7c6e1bd86a6f6caf469798d2bd"
+            },
+            {
+              "id": 354,
+              "revision": 1,
+              "sha256": "b3d57255b9d2aa74dd90766dc104b08cab6b7bc5aaac604dba68e626ec556bdd"
+            },
+            {
+              "id": 355,
+              "revision": 1,
+              "sha256": "9a2c5611c171ada959a1fc01341bc161274c2cc100e37f2fa32c4a3ebe5709ee"
+            }
+          ],
+          "first_id": 338,
+          "last_id": 355,
+          "count": 18,
+          "txt_path": "workflows/anf/batches/45efb3de3063066f28a272c4.txt",
+          "json_path": "workflows/anf/batches/45efb3de3063066f28a272c4.json",
+          "txt_sha256": "0840c7314308d685bdc2c7833a1ccdf83594dabc092cd64272de795912883071",
+          "json_sha256": "0fad5db9237219174bbe23f1e3e3663e573bad5e3c21bd64cfbeea55c3a730cf",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer app feature update for ChatGPT dots; no model, API or technical detail, so general audience",
+                "evidence_sha256": "8b1576a25343e4014e520d7c2d9ac90ff301b4f5ee2c72efa39b85bbce5abe5a"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Developer memory layer accessed via MCP/API with token, retrieval-latency and LoCoMo/LongMemEval benchmark claims; ML-technical/dev-API",
+                "evidence_sha256": "350a8382b0e09e9d1448aac3841906ee71777e19962ae42acb76f198a7a7cfa1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer/creator video generation model update; specialized video model, so no flagship prefix; summary avoids API/dev detail, general audience",
+                "evidence_sha256": "14a3d20de170dfa5c6ade3fb8c0428dc6609d2dfd8e0dc2426cf1aafa965fa8a"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Cybersecurity-specialized model with exploit/vulnerability research benchmarks; security term -> DS; specialized model, no flagship prefix",
+                "evidence_sha256": "5aa8e3efb719eb2fe58aa8b34ae1d1ab7ae535d194d94f8f32642268450751f5"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer/business app launch for querying satellite imagery; no model, API or technical detail, so general audience",
+                "evidence_sha256": "4c2bf3ebea96d1727faa2ba1a5a58f46a54e151f3004d9424c2f9b491100433e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer product feature (personal finance) in Claude app; not a model release, no technical detail, general audience",
+                "evidence_sha256": "77397aab8227d717f3a31cfed6e3ecb0570014e0872e5103f466b2aa1dc25525"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Political/policy statement on AI regulation; no technical content, general audience",
+                "evidence_sha256": "a00a7a8aed92eec3a9d73baf7f6f170fd1abba849b495e3689df7aa5e0eca576"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer app feature launch (voice mode and avatars) for Meta's Muse agent; not a new model, no technical detail, general audience",
+                "evidence_sha256": "449bace464df1481a869a36e3872f98fb3dac7dc8b15929006446ddc62d7b6c0"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer rollout of Meta's avatar technology in the Muse app; summary avoids model-architecture detail; feature launch, not a flagship model; unsure -> general",
+                "evidence_sha256": "386e3873ab320edb3c9e5f0a711ccab994c31c477b1b88822a195ce44c52967c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Independent AI-risk assessment of AI R&D acceleration; summary uses plain-language findings without ML jargon; not a model launch; unsure -> general",
+                "evidence_sha256": "49f1ab9c9aae6ae2d117b5d7cff49388c365d1a7c8caadbeb906d85f9551a090"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Interpretability/alignment research paper on training against internal representations, reward hacking and probes; ML-technical",
+                "evidence_sha256": "f0026e5497b34ae9e90937b6290fa80afeed5b5d64235baa16b50748ba0d3ccd"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Policy and community commitments for AI data center campuses; no ML or technical detail, general audience; not a model release",
+                "evidence_sha256": "23f007ae95b818b07bf44faaec69cca732655bf0f0d7f1d0f3add7fd2fad52ae"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Diego's technical-audience rule: World Labs world-model research preview; verified post centers autoregressive world model, novel view synthesis and cloud-GPU inference concepts a general reader wouldn't know. DS true.",
+                "evidence_sha256": "79044c7e66ab7c81b69a5a2a86e16bb84b76ccb583a20933459de45d37eef4f7"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Robot-learning research centered on reinforcement learning, sim-to-real calibration, policy evaluation and domain randomization: ML-technical concepts a general reader wouldn't know. DS true.",
+                "evidence_sha256": "94db539e81ccd9e77826cff8f4d58a8a7be2d522ee3b1ce76b009e4f0e1a3cf3"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Second-generation MoE model release with total/active parameter counts, fine-tuning/inference availability, RL training and Artificial Analysis Index score: ML-technical concepts a general reader wouldn't know. DS true per #350/#351 lesson.",
+                "evidence_sha256": "9fa7ee4b429ce9d3427609eafd8c2a4b9684ff0d5f8782043692c24ed8f3d01a"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Delaware legal/policy proposal for AI-managed companies; corporate-entity news for a general reader, not ML-technical, developer/API, or hardware. Unsure -> general. Same ds finalize/review.",
+                "evidence_sha256": "8732b480b66d9460637b2c9884636f547c437ac4c0b2e65f53aa36d25dc626bf"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "After an 11-week assessment, METR estimates Anthropic's models were improving on well-defined tasks roughly twice as fast in October 2026 as during March 2024-October 2025. METR tentatively attributes most acceleration to AI use, while stressing substantial uncertainty, and Anthropic redacted much of the key evidence. This is AI research evaluation on model capability acceleration, for research audiences. muse-compile-backfill 2026-11-06: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "b3d57255b9d2aa74dd90766dc104b08cab6b7bc5aaac604dba68e626ec556bdd"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "OpenAI released Images 2.6 for ChatGPT, Codex, and its developer API. GIF creation is rolling out in ChatGPT, turning prompts, photos, or sketches into looping animations. OpenAI says image generation is 50% faster than before and describes its developer models Flare and Sunburst as designed for speed and higher image quality, respectively. This is a consumer AI product update for a broad audience, not technical research. muse-compile-backfill 2026-11-06: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "9a2c5611c171ada959a1fc01341bc161274c2cc100e37f2fa32c4a3ebe5709ee"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-06T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
