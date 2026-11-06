@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1084,
-  "updated_at": "2026-11-06T03:20:29.998780+00:00",
+  "generation": 1085,
+  "updated_at": "2026-11-06T03:20:30.660071+00:00",
   "next_id": 354,
   "records": [
     {
@@ -39390,6 +39390,18 @@
         ],
         "duplicates": []
       }
+    },
+    "0fac69157c30bcb53992df140e190a93422dddbbc7234ab398d8dd17841571b8": {
+      "sha256": "d7e9a28633deccc40fbd5607cd5dbe00b6166b995405b59615d02ff9fb09baf8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 353,
+          "revision": 1,
+          "sha256": "f4c85f7d720a0d57bd2528694793ddbf2bafdd7c6e1bd86a6f6caf469798d2bd"
+        },
+        "editorial_sha256": "0c88281867ab15f7d308db537e41c7d0079f7c33276b40e4601d505af17e7a7a"
+      }
     }
   },
   "migration": {
@@ -49076,6 +49088,26 @@
         "sha256": "d8c6d6638738de712b85618aadee27bb9e1aaf5082df5956c3bdc2ba678216fa",
         "reviewed_at": "2026-11-06T00:23:47.165280+00:00",
         "operation_id": "3f874f814695087752f41683cd67b7f18662459a797c7476ac7180617cb10b3b"
+      }
+    ],
+    "353:1": [
+      {
+        "reference": {
+          "id": 353,
+          "revision": 1,
+          "sha256": "f4c85f7d720a0d57bd2528694793ddbf2bafdd7c6e1bd86a6f6caf469798d2bd"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Delaware legal/policy proposal for AI-managed companies; corporate-entity news for a general reader, not ML-technical, developer/API, or hardware. Unsure -> general. Same ds finalize/review.",
+            "evidence_sha256": "8732b480b66d9460637b2c9884636f547c437ac4c0b2e65f53aa36d25dc626bf"
+          }
+        },
+        "sha256": "0c88281867ab15f7d308db537e41c7d0079f7c33276b40e4601d505af17e7a7a",
+        "reviewed_at": "2026-11-06T03:20:30.660071+00:00",
+        "operation_id": "0fac69157c30bcb53992df140e190a93422dddbbc7234ab398d8dd17841571b8"
       }
     ]
   }
