@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1116,
-  "updated_at": "2026-11-06T23:28:21.979534+00:00",
+  "generation": 1117,
+  "updated_at": "2026-11-06T23:28:22.707078+00:00",
   "next_id": 364,
   "records": [
     {
@@ -40610,6 +40610,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2df41f3f3398c7fe685d88d222c7e58edcc2c08f2db7b1366e6eca39c9a94f7e": {
+      "sha256": "0f3015ccc52cd75f6d7ed8019865a0b4811110eea0e6861c29c1b5abd322109d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 363,
+          "revision": 1,
+          "sha256": "c4d6cd60baaa8429ca6aa759809e5cc428a7d45c40b421fb9b50071567ffc682"
+        },
+        "editorial_sha256": "7bd6fc8e36b417b6dbdcf453ad8e8c3aa0360a2d41c741777fc196c7e3228c06"
+      }
     }
   },
   "migration": {
@@ -50496,6 +50508,26 @@
         "sha256": "0fb73e1f72448ec7a57d3f7507b0769ce89ce26dc0555d9ba8e305ced59c34cc",
         "reviewed_at": "2026-11-06T21:42:52.812461+00:00",
         "operation_id": "e38f922b592c94a824ae94ac31b1af21a240fff75ffbb6dae2b932629e2affdf"
+      }
+    ],
+    "363:1": [
+      {
+        "reference": {
+          "id": 363,
+          "revision": 1,
+          "sha256": "c4d6cd60baaa8429ca6aa759809e5cc428a7d45c40b421fb9b50071567ffc682"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer/workplace ChatGPT Sites feature; no ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "3e594cf3c97b56315a123d90ae277f654dba01bd00ad8cbd834788fa87a3633c"
+          }
+        },
+        "sha256": "7bd6fc8e36b417b6dbdcf453ad8e8c3aa0360a2d41c741777fc196c7e3228c06",
+        "reviewed_at": "2026-11-06T23:28:22.707078+00:00",
+        "operation_id": "2df41f3f3398c7fe685d88d222c7e58edcc2c08f2db7b1366e6eca39c9a94f7e"
       }
     ]
   }
