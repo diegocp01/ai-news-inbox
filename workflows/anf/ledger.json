@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1087,
-  "updated_at": "2026-11-06T12:40:22.199573+00:00",
+  "generation": 1089,
+  "updated_at": "2026-11-06T13:07:23.250539+00:00",
   "next_id": 356,
   "records": [
     {
@@ -39480,6 +39480,30 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261106-354-7895": {
+      "sha256": "08161b4377ac2983b0443406e0c866d2570e8a8816fc2eecce3ca27e238b28cb",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 354,
+          "revision": 1,
+          "sha256": "b3d57255b9d2aa74dd90766dc104b08cab6b7bc5aaac604dba68e626ec556bdd"
+        },
+        "editorial_sha256": "374395ed28cf80e1dfe8524c3ff7c555d5f696f65869765ee734b13d800cf963"
+      }
+    },
+    "muse-backfill-20261106-355-0163": {
+      "sha256": "8eba189a5e84b372f7d1ac2822c50c2576c53361096b364024e1607caaf791aa",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 355,
+          "revision": 1,
+          "sha256": "9a2c5611c171ada959a1fc01341bc161274c2cc100e37f2fa32c4a3ebe5709ee"
+        },
+        "editorial_sha256": "b9e21d5553a4ede718f8dea4d76fe9e3c96abff337b51df45dabd7fea492ec32"
+      }
     }
   },
   "migration": {
@@ -49186,6 +49210,46 @@
         "sha256": "0c88281867ab15f7d308db537e41c7d0079f7c33276b40e4601d505af17e7a7a",
         "reviewed_at": "2026-11-06T03:20:30.660071+00:00",
         "operation_id": "0fac69157c30bcb53992df140e190a93422dddbbc7234ab398d8dd17841571b8"
+      }
+    ],
+    "354:1": [
+      {
+        "reference": {
+          "id": 354,
+          "revision": 1,
+          "sha256": "b3d57255b9d2aa74dd90766dc104b08cab6b7bc5aaac604dba68e626ec556bdd"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "After an 11-week assessment, METR estimates Anthropic's models were improving on well-defined tasks roughly twice as fast in October 2026 as during March 2024-October 2025. METR tentatively attributes most acceleration to AI use, while stressing substantial uncertainty, and Anthropic redacted much of the key evidence. This is AI research evaluation on model capability acceleration, for research audiences. muse-compile-backfill 2026-11-06: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "b3d57255b9d2aa74dd90766dc104b08cab6b7bc5aaac604dba68e626ec556bdd"
+          }
+        },
+        "sha256": "374395ed28cf80e1dfe8524c3ff7c555d5f696f65869765ee734b13d800cf963",
+        "reviewed_at": "2026-11-06T13:07:23.102571+00:00",
+        "operation_id": "muse-backfill-20261106-354-7895"
+      }
+    ],
+    "355:1": [
+      {
+        "reference": {
+          "id": 355,
+          "revision": 1,
+          "sha256": "9a2c5611c171ada959a1fc01341bc161274c2cc100e37f2fa32c4a3ebe5709ee"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "OpenAI released Images 2.6 for ChatGPT, Codex, and its developer API. GIF creation is rolling out in ChatGPT, turning prompts, photos, or sketches into looping animations. OpenAI says image generation is 50% faster than before and describes its developer models Flare and Sunburst as designed for speed and higher image quality, respectively. This is a consumer AI product update for a broad audience, not technical research. muse-compile-backfill 2026-11-06: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "9a2c5611c171ada959a1fc01341bc161274c2cc100e37f2fa32c4a3ebe5709ee"
+          }
+        },
+        "sha256": "b9e21d5553a4ede718f8dea4d76fe9e3c96abff337b51df45dabd7fea492ec32",
+        "reviewed_at": "2026-11-06T13:07:23.250539+00:00",
+        "operation_id": "muse-backfill-20261106-355-0163"
       }
     ]
   }
