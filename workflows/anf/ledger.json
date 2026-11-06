@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1095,
-  "updated_at": "2026-11-06T14:31:53.757135+00:00",
+  "generation": 1096,
+  "updated_at": "2026-11-06T14:31:54.518519+00:00",
   "next_id": 357,
   "records": [
     {
@@ -40162,6 +40162,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b17a1b5f468da82aba88f445b5a93a4e8e86882ee1f74fde764b6ff7f7b61e5b": {
+      "sha256": "da2ff8c5a734510d763fca6978ccf1964bd4cd21a685617ec14973dbde6932d3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 356,
+          "revision": 1,
+          "sha256": "1e9a6babf0e07e802b0c18b76876171593dccab31b441fe57df904ef4584e22f"
+        },
+        "editorial_sha256": "a5a73e97765b06f88e00454ccf711e6a9848e15c0ee0700c452eaef4d7974b89"
+      }
     }
   },
   "migration": {
@@ -49908,6 +49920,26 @@
         "sha256": "b9e21d5553a4ede718f8dea4d76fe9e3c96abff337b51df45dabd7fea492ec32",
         "reviewed_at": "2026-11-06T13:07:23.250539+00:00",
         "operation_id": "muse-backfill-20261106-355-0163"
+      }
+    ],
+    "356:1": [
+      {
+        "reference": {
+          "id": 356,
+          "revision": 1,
+          "sha256": "1e9a6babf0e07e802b0c18b76876171593dccab31b441fe57df904ef4584e22f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Agent-harness design: subagents, context compaction, prompt-cache session forks and token/context accounting are ML/developer concepts a general reader wouldn't know. DS true.",
+            "evidence_sha256": "a6a4c8c4b8b67665b0646b5cf1c265fe0e9eff1d0036f55ef59e3f6a5c9821d4"
+          }
+        },
+        "sha256": "a5a73e97765b06f88e00454ccf711e6a9848e15c0ee0700c452eaef4d7974b89",
+        "reviewed_at": "2026-11-06T14:31:54.518519+00:00",
+        "operation_id": "b17a1b5f468da82aba88f445b5a93a4e8e86882ee1f74fde764b6ff7f7b61e5b"
       }
     ]
   }
