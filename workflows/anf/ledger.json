@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1100,
-  "updated_at": "2026-11-06T16:32:22.384058+00:00",
-  "next_id": 358,
+  "generation": 1101,
+  "updated_at": "2026-11-06T16:32:23.072020+00:00",
+  "next_id": 359,
   "records": [
     {
       "id": 1,
@@ -4743,6 +4743,19 @@
           "sha256": "6b3c69e3fb680eda50197160efd72cf2c2fbbdce89ac7631f515e46eaf3ab9cb",
           "source": "Physical Superintelligence",
           "request_id": "f719cd2c80bdec5c7fd3532a3f6ec50d217d92c0a8aa76df6ddebdf0d3a000e5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 358,
+      "revisions": [
+        {
+          "created_at": "2026-11-06T16:32:23.072020+00:00",
+          "block": "Title: Pliny Speculates Labs Are Reverse-Engineering Software for Training\nURL: \nImage URL: https://bt6.gg/assets/brand/bt6-social-r15.png\nSummary: AI red-teamer Pliny the Liberator says his “spidey senses” suggest frontier labs are using ungated versions of unreleased models to reverse-engineer internet software, apps, and games, then feeding that reconstructed code into training while building guardrails that lock others out. The claim is his speculation; no lab confirmation is cited.",
+          "sha256": "6015ea7168bfa2683b1faf1cd35c397c6fe2db75133f23e47b1ae2862bf78bb8",
+          "source": "Pliny the Liberator",
+          "request_id": "c90fecdc89e1e55c80192d1ef664e74d4bc69d0337bd1cebd22ae08cb421ebfe",
           "mode": "standard"
         }
       ]
@@ -10458,13 +10471,21 @@
       ]
     },
     "c90fecdc89e1e55c80192d1ef664e74d4bc69d0337bd1cebd22ae08cb421ebfe": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-06T16:32:22.384058+00:00",
       "received_sequence": 323,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-06T16:32:23.072020+00:00",
+      "records": [
+        {
+          "id": 358,
+          "revision": 1,
+          "sha256": "6015ea7168bfa2683b1faf1cd35c397c6fe2db75133f23e47b1ae2862bf78bb8"
+        }
+      ]
     }
   },
   "batches": {
@@ -40253,6 +40274,21 @@
       "result": {
         "status": "received",
         "request_id": "c90fecdc89e1e55c80192d1ef664e74d4bc69d0337bd1cebd22ae08cb421ebfe"
+      }
+    },
+    "794f13b61b7679ab6cd6b05bf29552e93bf1f1bf3bd8deb829399b113cdc6153": {
+      "sha256": "e23c11777e5d4a4e3232f0b50b9da5e24f172ae53d6c1d7550dbaadff8465948",
+      "result": {
+        "status": "finalized",
+        "request_id": "c90fecdc89e1e55c80192d1ef664e74d4bc69d0337bd1cebd22ae08cb421ebfe",
+        "records": [
+          {
+            "id": 358,
+            "revision": 1,
+            "sha256": "6015ea7168bfa2683b1faf1cd35c397c6fe2db75133f23e47b1ae2862bf78bb8"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
