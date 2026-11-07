@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1130,
-  "updated_at": "2026-11-07T00:40:05.832089+00:00",
-  "next_id": 367,
+  "generation": 1131,
+  "updated_at": "2026-11-07T00:40:06.560960+00:00",
+  "next_id": 368,
   "records": [
     {
       "id": 1,
@@ -4868,6 +4868,19 @@
           "sha256": "d3b8a0fed301236a582acf3757e184c2f8fe1a434e00f8003b15c2ad7aff1c85",
           "source": "David Sutton",
           "request_id": "0a9a16b947dec487e103fa5c99f6268019f04db6c7831bedb273f26a0fbdf9a5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 367,
+      "revisions": [
+        {
+          "created_at": "2026-11-07T00:40:06.560960+00:00",
+          "block": "Title: Nous Research Releases Arete-27B, a Qwen Model Post-Trained for Western Values\nURL: https://nousresearch.com/arete\nImage URL: https://nousresearch.com/assets/nous-web/blog/arete1-card.webp\nSummary: Nous Research post-trained Alibaba's Qwen3.8-27B into Arete-27B to reinforce Western values. On its 803-prompt eval across seven value categories, Nous says the share of answers containing China's party line fell from 22% to 1%, in line with Western models it tested. Nous says the eval, weights, and training data are available.",
+          "sha256": "a6e7369d203a0d4557abea1ecdeb835ab73c41a50a7eafe81269b38b33fbd613",
+          "source": "Nous Research",
+          "request_id": "c68671a05f7544e9aff326851a5c905b19c8720ce29bff9cec8bc770175fc802",
           "mode": "standard"
         }
       ]
@@ -10753,13 +10766,21 @@
       ]
     },
     "c68671a05f7544e9aff326851a5c905b19c8720ce29bff9cec8bc770175fc802": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-07T00:40:05.832089+00:00",
       "received_sequence": 333,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-07T00:40:06.560960+00:00",
+      "records": [
+        {
+          "id": 367,
+          "revision": 1,
+          "sha256": "a6e7369d203a0d4557abea1ecdeb835ab73c41a50a7eafe81269b38b33fbd613"
+        }
+      ]
     }
   },
   "batches": {
@@ -40884,6 +40905,21 @@
       "result": {
         "status": "received",
         "request_id": "c68671a05f7544e9aff326851a5c905b19c8720ce29bff9cec8bc770175fc802"
+      }
+    },
+    "bdd354f07791e773197feb72b4ab025cdaa3f6bdb73de22f0c682b60db60992b": {
+      "sha256": "bd1d01b2f3e995110ba0a103f5c07b6c78aedd3ab0666cd033e2c19e85f53395",
+      "result": {
+        "status": "finalized",
+        "request_id": "c68671a05f7544e9aff326851a5c905b19c8720ce29bff9cec8bc770175fc802",
+        "records": [
+          {
+            "id": 367,
+            "revision": 1,
+            "sha256": "a6e7369d203a0d4557abea1ecdeb835ab73c41a50a7eafe81269b38b33fbd613"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
