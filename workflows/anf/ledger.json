@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1128,
-  "updated_at": "2026-11-07T00:37:50.153317+00:00",
+  "generation": 1129,
+  "updated_at": "2026-11-07T00:37:50.833118+00:00",
   "next_id": 367,
   "records": [
     {
@@ -40857,6 +40857,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9c07d9f85b1a44507904a6944e52ce8a36e806a6cd1d5e60a12fb830e9207e6c": {
+      "sha256": "bcbdfb1ac31a336bdf62aee6b468026a3cfc8beb005a95231fcd10e08cc8d5cd",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 366,
+          "revision": 1,
+          "sha256": "d3b8a0fed301236a582acf3757e184c2f8fe1a434e00f8003b15c2ad7aff1c85"
+        },
+        "editorial_sha256": "b6e3781ac6c5ebafe1f06976198034e07cfa242a448eb0468f23481bf1180e0a"
+      }
     }
   },
   "migration": {
@@ -50823,6 +50835,26 @@
         "sha256": "409e5682bb1bb2bb8be09673ff0c7b0a887d568891a9fcbcea6eb8d26d98a015",
         "reviewed_at": "2026-11-07T00:31:46.520947+00:00",
         "operation_id": "7b680ee050988f50b7988842b19afb6eecfa5d898d789de89e607014ebc94172"
+      }
+    ],
+    "366:1": [
+      {
+        "reference": {
+          "id": 366,
+          "revision": 1,
+          "sha256": "d3b8a0fed301236a582acf3757e184c2f8fe1a434e00f8003b15c2ad7aff1c85"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Claude Code coding-agent session control (approving code changes, local vs cloud sessions); developer-tool item, same treatment as #359.",
+            "evidence_sha256": "960113d2bc2adf25fe2cbfe98ca3ad96c58c549d0a13877fec9f6324f8a33c12"
+          }
+        },
+        "sha256": "b6e3781ac6c5ebafe1f06976198034e07cfa242a448eb0468f23481bf1180e0a",
+        "reviewed_at": "2026-11-07T00:37:50.833118+00:00",
+        "operation_id": "9c07d9f85b1a44507904a6944e52ce8a36e806a6cd1d5e60a12fb830e9207e6c"
       }
     ]
   }
