@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1125,
-  "updated_at": "2026-11-07T00:31:45.758825+00:00",
+  "generation": 1126,
+  "updated_at": "2026-11-07T00:31:46.520947+00:00",
   "next_id": 366,
   "records": [
     {
@@ -40793,6 +40793,18 @@
         ],
         "duplicates": []
       }
+    },
+    "7b680ee050988f50b7988842b19afb6eecfa5d898d789de89e607014ebc94172": {
+      "sha256": "0230c51e3cf1031951958cd42f0a8efacf175c91ba6099b1caea569f931615c6",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 365,
+          "revision": 1,
+          "sha256": "df51ecaceaafc4edf54bb724549305dcd4abd9f5a97f2329486905e74fc28d60"
+        },
+        "editorial_sha256": "409e5682bb1bb2bb8be09673ff0c7b0a887d568891a9fcbcea6eb8d26d98a015"
+      }
     }
   },
   "migration": {
@@ -50739,6 +50751,26 @@
         "sha256": "0e2bb78287ba5c4f89061dba829982e933c3a46064b360a61a8f32d8ca465f86",
         "reviewed_at": "2026-11-07T00:21:27.387253+00:00",
         "operation_id": "0aa0a34a902a28d81397b5a0e0129754b72b388b3f8022fd0ab9a2fd2b426215"
+      }
+    ],
+    "365:1": [
+      {
+        "reference": {
+          "id": 365,
+          "revision": 1,
+          "sha256": "df51ecaceaafc4edf54bb724549305dcd4abd9f5a97f2329486905e74fc28d60"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Quantum complexity theory research result with formal Lean proof verification; research-technical (same treatment as #357).",
+            "evidence_sha256": "84d67638beb9bf7e2e30e039ce09300991c7108e572ad6f76b341ea002f50efa"
+          }
+        },
+        "sha256": "409e5682bb1bb2bb8be09673ff0c7b0a887d568891a9fcbcea6eb8d26d98a015",
+        "reviewed_at": "2026-11-07T00:31:46.520947+00:00",
+        "operation_id": "7b680ee050988f50b7988842b19afb6eecfa5d898d789de89e607014ebc94172"
       }
     ]
   }
