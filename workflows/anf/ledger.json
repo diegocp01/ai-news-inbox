@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1122,
-  "updated_at": "2026-11-07T00:21:26.685317+00:00",
+  "generation": 1123,
+  "updated_at": "2026-11-07T00:21:27.387253+00:00",
   "next_id": 365,
   "records": [
     {
@@ -40729,6 +40729,18 @@
           "sha256": "2a1f56b505025cbb93c0e3b5386f7d13982d2403a3ed11047db2c925275e2d1b"
         }
       }
+    },
+    "0aa0a34a902a28d81397b5a0e0129754b72b388b3f8022fd0ab9a2fd2b426215": {
+      "sha256": "ab9620a1aae3780cab1be1c0acabcedace5e08b3694c9dbd022d19166c5f5b27",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 364,
+          "revision": 2,
+          "sha256": "2a1f56b505025cbb93c0e3b5386f7d13982d2403a3ed11047db2c925275e2d1b"
+        },
+        "editorial_sha256": "0e2bb78287ba5c4f89061dba829982e933c3a46064b360a61a8f32d8ca465f86"
+      }
     }
   },
   "migration": {
@@ -50655,6 +50667,26 @@
         "sha256": "3f507afd0f9903a4adbfa848813d3b877eb6d67fd4f9b1940d275a0cf1f738ce",
         "reviewed_at": "2026-11-07T00:20:34.361076+00:00",
         "operation_id": "f355aeab52df57f19c2594c0120eacee2ae5557e9edc64841e33b8290ab53a5c"
+      }
+    ],
+    "364:2": [
+      {
+        "reference": {
+          "id": 364,
+          "revision": 2,
+          "sha256": "2a1f56b505025cbb93c0e3b5386f7d13982d2403a3ed11047db2c925275e2d1b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business funding/valuation news; no ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "45bbcb793f178c7e34cda937b7d265ce2d0efe1d37b2cc5a0cbf674e83a748e9"
+          }
+        },
+        "sha256": "0e2bb78287ba5c4f89061dba829982e933c3a46064b360a61a8f32d8ca465f86",
+        "reviewed_at": "2026-11-07T00:21:27.387253+00:00",
+        "operation_id": "0aa0a34a902a28d81397b5a0e0129754b72b388b3f8022fd0ab9a2fd2b426215"
       }
     ]
   }
