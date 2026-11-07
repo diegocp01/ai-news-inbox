@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1137,
-  "updated_at": "2026-11-07T00:56:21.682782+00:00",
+  "generation": 1138,
+  "updated_at": "2026-11-07T00:56:22.408746+00:00",
   "next_id": 369,
   "records": [
     {
@@ -41040,6 +41040,18 @@
           "sha256": "2f9a6d79c31dbe52af7aec81f13e3bae0ec60215234828fff27e86c09d799910"
         }
       }
+    },
+    "439f94a94d9b07e494b1d4fea1da9bf570461fcc8edb73c2661adc60dd77117d": {
+      "sha256": "1cda378272a6aa23acc10cf61f69a0a4ccd5545ec4382ebf312d453d7885f579",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 368,
+          "revision": 2,
+          "sha256": "2f9a6d79c31dbe52af7aec81f13e3bae0ec60215234828fff27e86c09d799910"
+        },
+        "editorial_sha256": "52b574773dc22c878beb123d0ff216484104fe76a665756b320e1d3f4384115d"
+      }
     }
   },
   "migration": {
@@ -51066,6 +51078,26 @@
         "sha256": "a73aa4e815c18ca056a84e22004d2d08b4f085155f6f91a0e7184a7a2bdacbcb",
         "reviewed_at": "2026-11-07T00:55:26.657469+00:00",
         "operation_id": "c85344884b8e6ec5324afa97c8e8a3183088198d43f49d60b015902f17879776"
+      }
+    ],
+    "368:2": [
+      {
+        "reference": {
+          "id": 368,
+          "revision": 2,
+          "sha256": "2f9a6d79c31dbe52af7aec81f13e3bae0ec60215234828fff27e86c09d799910"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Creator video-editing product preview; developer term removed, general.",
+            "evidence_sha256": "2660214dd74e4360db65fd1c6453d91265e8f0bb51539b8de6861e5564b3b7b8"
+          }
+        },
+        "sha256": "52b574773dc22c878beb123d0ff216484104fe76a665756b320e1d3f4384115d",
+        "reviewed_at": "2026-11-07T00:56:22.408746+00:00",
+        "operation_id": "439f94a94d9b07e494b1d4fea1da9bf570461fcc8edb73c2661adc60dd77117d"
       }
     ]
   }
