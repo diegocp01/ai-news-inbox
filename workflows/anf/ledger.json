@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1131,
-  "updated_at": "2026-11-07T00:40:06.560960+00:00",
+  "generation": 1132,
+  "updated_at": "2026-11-07T00:40:07.243445+00:00",
   "next_id": 368,
   "records": [
     {
@@ -40921,6 +40921,18 @@
         ],
         "duplicates": []
       }
+    },
+    "0377b464c26910f3efe6c3c50428205f2f237c147771e8910146f8acf2b3964a": {
+      "sha256": "fb704aff98941d6318622fe0902f151ad48d78084e1dbcde98806ea1cd487a18",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 367,
+          "revision": 1,
+          "sha256": "a6e7369d203a0d4557abea1ecdeb835ab73c41a50a7eafe81269b38b33fbd613"
+        },
+        "editorial_sha256": "bb7e2d49250ae0d12afa48774eed64007c511f732905277a818c929c794cfee1"
+      }
     }
   },
   "migration": {
@@ -50907,6 +50919,26 @@
         "sha256": "b6e3781ac6c5ebafe1f06976198034e07cfa242a448eb0468f23481bf1180e0a",
         "reviewed_at": "2026-11-07T00:37:50.833118+00:00",
         "operation_id": "9c07d9f85b1a44507904a6944e52ce8a36e806a6cd1d5e60a12fb830e9207e6c"
+      }
+    ],
+    "367:1": [
+      {
+        "reference": {
+          "id": 367,
+          "revision": 1,
+          "sha256": "a6e7369d203a0d4557abea1ecdeb835ab73c41a50a7eafe81269b38b33fbd613"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "open_source",
+            "rationale": "Open-weight model post-training/fine-tuning release with eval and weights; ML-technical.",
+            "evidence_sha256": "b0a5435102722276ec8a8187763a9d42f4e7db982addeab2aacba21875c0d254"
+          }
+        },
+        "sha256": "bb7e2d49250ae0d12afa48774eed64007c511f732905277a818c929c794cfee1",
+        "reviewed_at": "2026-11-07T00:40:07.243445+00:00",
+        "operation_id": "0377b464c26910f3efe6c3c50428205f2f237c147771e8910146f8acf2b3964a"
       }
     ]
   }
