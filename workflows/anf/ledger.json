@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1124,
-  "updated_at": "2026-11-07T00:31:44.906145+00:00",
-  "next_id": 365,
+  "generation": 1125,
+  "updated_at": "2026-11-07T00:31:45.758825+00:00",
+  "next_id": 366,
   "records": [
     {
       "id": 1,
@@ -4842,6 +4842,19 @@
           "sha256": "2a1f56b505025cbb93c0e3b5386f7d13982d2403a3ed11047db2c925275e2d1b",
           "source": "Bloomberg",
           "request_id": "5c60aa6a645d25f9eea50cb27abe00c99707991a1419bcb085fde4113f25d54b",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 365,
+      "revisions": [
+        {
+          "created_at": "2026-11-07T00:31:45.758825+00:00",
+          "block": "Title: PSI Says Its AI System Proved the Aaronson-Ambainis Conjecture\nURL: https://psi.inc/research/aaronson-ambainis/\nImage URL: https://psi.inc/og/ring-arch-2.png\nSummary: Physical Superintelligence says a research system it developed internally, running a non-public Anthropic model, found a proof of the Aaronson-Ambainis conjecture, open since 2008, about when quantum computers can be exponentially faster than ordinary ones. PSI says the Lean proof assistant checked and accepted the proof.",
+          "sha256": "df51ecaceaafc4edf54bb724549305dcd4abd9f5a97f2329486905e74fc28d60",
+          "source": "Physical Superintelligence",
+          "request_id": "51008974ef3d0d766ff80906cc9a856c8b69ec6de1800152c3c152ecc2dda158",
           "mode": "standard"
         }
       ]
@@ -10693,13 +10706,21 @@
       ]
     },
     "51008974ef3d0d766ff80906cc9a856c8b69ec6de1800152c3c152ecc2dda158": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-07T00:31:44.906145+00:00",
       "received_sequence": 331,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-07T00:31:45.758825+00:00",
+      "records": [
+        {
+          "id": 365,
+          "revision": 1,
+          "sha256": "df51ecaceaafc4edf54bb724549305dcd4abd9f5a97f2329486905e74fc28d60"
+        }
+      ]
     }
   },
   "batches": {
@@ -40756,6 +40777,21 @@
       "result": {
         "status": "received",
         "request_id": "51008974ef3d0d766ff80906cc9a856c8b69ec6de1800152c3c152ecc2dda158"
+      }
+    },
+    "520b7fd7289bb1eae06bbc491e7b23b4ebdaadfd239ae946918ad7e6f3f0889e": {
+      "sha256": "5c7f0eafd3256022d7955e0757a963b9132c4a43119980450cba21dbc9f99557",
+      "result": {
+        "status": "finalized",
+        "request_id": "51008974ef3d0d766ff80906cc9a856c8b69ec6de1800152c3c152ecc2dda158",
+        "records": [
+          {
+            "id": 365,
+            "revision": 1,
+            "sha256": "df51ecaceaafc4edf54bb724549305dcd4abd9f5a97f2329486905e74fc28d60"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
