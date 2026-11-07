@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1118,
-  "updated_at": "2026-11-07T00:20:32.817102+00:00",
-  "next_id": 364,
+  "generation": 1119,
+  "updated_at": "2026-11-07T00:20:33.602802+00:00",
+  "next_id": 365,
   "records": [
     {
       "id": 1,
@@ -4821,6 +4821,19 @@
           "sha256": "c4d6cd60baaa8429ca6aa759809e5cc428a7d45c40b421fb9b50071567ffc682",
           "source": "OpenAI",
           "request_id": "afdb7f2583c8a4885ebb614f15cdc3a6cf138dfc0643f83d3234276e3c2d6bb2",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 364,
+      "revisions": [
+        {
+          "created_at": "2026-11-07T00:20:33.602802+00:00",
+          "block": "Title: OpenAI Reportedly Closes $11 Billion of Funding at $1.25 Trillion Valuation\nURL: https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value\nImage URL: https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iMY4YYOOykGo/v1/1200x800.jpg\nSummary: OpenAI has reportedly closed about $11 billion, the first part of a funding round valuing the ChatGPT maker at $1.25 trillion, Bloomberg reports, citing people familiar with the matter. The round could reach about $20 billion in the coming weeks. Reuters sources say SoftBank and MGX participated. OpenAI has not commented publicly.",
+          "sha256": "b210fe7ec2b115ac77176d055df21e32a8f40af60881113c5253e04493ae27db",
+          "source": "Bloomberg",
+          "request_id": "9fb81166c386b67fc6a3e68435307e702bcd7a0197fd2238d4e7c41501e8ce3c",
           "mode": "standard"
         }
       ]
@@ -10638,13 +10651,21 @@
       ]
     },
     "9fb81166c386b67fc6a3e68435307e702bcd7a0197fd2238d4e7c41501e8ce3c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-07T00:20:32.817102+00:00",
       "received_sequence": 329,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-07T00:20:33.602802+00:00",
+      "records": [
+        {
+          "id": 364,
+          "revision": 1,
+          "sha256": "b210fe7ec2b115ac77176d055df21e32a8f40af60881113c5253e04493ae27db"
+        }
+      ]
     }
   },
   "batches": {
@@ -40637,6 +40658,21 @@
       "result": {
         "status": "received",
         "request_id": "9fb81166c386b67fc6a3e68435307e702bcd7a0197fd2238d4e7c41501e8ce3c"
+      }
+    },
+    "c998a99ad577c29621fc170687d7e955db14f3448a6dbd1ed29a561a3d8f55c8": {
+      "sha256": "dbccac85c826dd92a03168dc62ca85725ef84a4016b36989113ffcdb0d372d84",
+      "result": {
+        "status": "finalized",
+        "request_id": "9fb81166c386b67fc6a3e68435307e702bcd7a0197fd2238d4e7c41501e8ce3c",
+        "records": [
+          {
+            "id": 364,
+            "revision": 1,
+            "sha256": "b210fe7ec2b115ac77176d055df21e32a8f40af60881113c5253e04493ae27db"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
