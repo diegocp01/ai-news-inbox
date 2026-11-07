@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1127,
-  "updated_at": "2026-11-07T00:37:49.441049+00:00",
-  "next_id": 366,
+  "generation": 1128,
+  "updated_at": "2026-11-07T00:37:50.153317+00:00",
+  "next_id": 367,
   "records": [
     {
       "id": 1,
@@ -4855,6 +4855,19 @@
           "sha256": "df51ecaceaafc4edf54bb724549305dcd4abd9f5a97f2329486905e74fc28d60",
           "source": "Physical Superintelligence",
           "request_id": "51008974ef3d0d766ff80906cc9a856c8b69ec6de1800152c3c152ecc2dda158",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 366,
+      "revisions": [
+        {
+          "created_at": "2026-11-07T00:37:50.153317+00:00",
+          "block": "Title: Claude Duet Adds Claude Code Sessions\nURL: \nImage URL: https://claude.com/static/claude-duet/og.jpg\nSummary: Claude Duet lead David Sutton says the app now works with Claude Code sessions, letting users check what's running, approve changes, and send updates from their phone. He says it works with sessions running on a user's computer or in the cloud.",
+          "sha256": "d3b8a0fed301236a582acf3757e184c2f8fe1a434e00f8003b15c2ad7aff1c85",
+          "source": "David Sutton",
+          "request_id": "0a9a16b947dec487e103fa5c99f6268019f04db6c7831bedb273f26a0fbdf9a5",
           "mode": "standard"
         }
       ]
@@ -10723,13 +10736,21 @@
       ]
     },
     "0a9a16b947dec487e103fa5c99f6268019f04db6c7831bedb273f26a0fbdf9a5": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-07T00:37:49.441049+00:00",
       "received_sequence": 332,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-07T00:37:50.153317+00:00",
+      "records": [
+        {
+          "id": 366,
+          "revision": 1,
+          "sha256": "d3b8a0fed301236a582acf3757e184c2f8fe1a434e00f8003b15c2ad7aff1c85"
+        }
+      ]
     }
   },
   "batches": {
@@ -40820,6 +40841,21 @@
       "result": {
         "status": "received",
         "request_id": "0a9a16b947dec487e103fa5c99f6268019f04db6c7831bedb273f26a0fbdf9a5"
+      }
+    },
+    "c1b62a4c1015fbd83837b59b28bddda38602718cb05826b32dce76d3c94a8163": {
+      "sha256": "6752be8dd055e9f7ff1247e31e8622ac32f378e1b1319f77b9653d45fa251ed4",
+      "result": {
+        "status": "finalized",
+        "request_id": "0a9a16b947dec487e103fa5c99f6268019f04db6c7831bedb273f26a0fbdf9a5",
+        "records": [
+          {
+            "id": 366,
+            "revision": 1,
+            "sha256": "d3b8a0fed301236a582acf3757e184c2f8fe1a434e00f8003b15c2ad7aff1c85"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
