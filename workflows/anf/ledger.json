@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1136,
-  "updated_at": "2026-11-07T00:56:20.917982+00:00",
+  "generation": 1137,
+  "updated_at": "2026-11-07T00:56:21.682782+00:00",
   "next_id": 369,
   "records": [
     {
@@ -4894,6 +4894,14 @@
           "sha256": "17212cc4f22018ce66f0b3a8dc3931eab9e526dafecc0358f89a2fa29b5e8839",
           "source": "Higgsfield",
           "request_id": "8389a0981384bd7aa13fc7e107e8468dd238b48c37ecd5084d97c680bac4c5a8",
+          "mode": "standard"
+        },
+        {
+          "created_at": "2026-11-07T00:56:21.682782+00:00",
+          "block": "Title: Higgsfield Previews Miracle for Layer-Based AI Video Editing\nURL: https://www.adgraam.com/blog/higgsfield-miracle-features-private-beta-access\nImage URL: https://cdn.adgraam.com/blog/news/higgsfield-miracle-features-private-beta-access.webp\nSummary: Higgsfield introduced Miracle, which it says turns any video into layers for localized, pixel-level edits in real time, such as recoloring objects or changing on-screen text. The company says Miracle edits existing clips rather than generating new ones. It is in private beta with select testers.",
+          "sha256": "2f9a6d79c31dbe52af7aec81f13e3bae0ec60215234828fff27e86c09d799910",
+          "source": "Higgsfield",
+          "request_id": "ba4e92c528ff7f22678f483bb6f22cd6c8cb03f81ad0f205933d5d40d7b0f9bf",
           "mode": "standard"
         }
       ]
@@ -10813,13 +10821,21 @@
       ]
     },
     "ba4e92c528ff7f22678f483bb6f22cd6c8cb03f81ad0f205933d5d40d7b0f9bf": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-07T00:56:20.917982+00:00",
       "received_sequence": 335,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": 368
+      "corrects_record_id": 368,
+      "finalized_at": "2026-11-07T00:56:21.682782+00:00",
+      "records": [
+        {
+          "id": 368,
+          "revision": 2,
+          "sha256": "2f9a6d79c31dbe52af7aec81f13e3bae0ec60215234828fff27e86c09d799910"
+        }
+      ]
     }
   },
   "batches": {
@@ -41012,6 +41028,17 @@
       "result": {
         "status": "received",
         "request_id": "ba4e92c528ff7f22678f483bb6f22cd6c8cb03f81ad0f205933d5d40d7b0f9bf"
+      }
+    },
+    "280ca67263c18ebe25e78ac86cee9e8ebea5b9cfc320029a282bce05aa3f76b8": {
+      "sha256": "5408427742a800bd1cd7c762df1c758c41e975cda958b9ff867d635df4111e31",
+      "result": {
+        "status": "corrected",
+        "record": {
+          "id": 368,
+          "revision": 2,
+          "sha256": "2f9a6d79c31dbe52af7aec81f13e3bae0ec60215234828fff27e86c09d799910"
+        }
       }
     }
   },
