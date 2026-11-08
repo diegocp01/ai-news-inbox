@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1139,
-  "updated_at": "2026-11-08T07:16:16.927817+00:00",
-  "next_id": 369,
+  "generation": 1140,
+  "updated_at": "2026-11-08T07:16:17.759784+00:00",
+  "next_id": 370,
   "records": [
     {
       "id": 1,
@@ -4902,6 +4902,19 @@
           "sha256": "2f9a6d79c31dbe52af7aec81f13e3bae0ec60215234828fff27e86c09d799910",
           "source": "Higgsfield",
           "request_id": "ba4e92c528ff7f22678f483bb6f22cd6c8cb03f81ad0f205933d5d40d7b0f9bf",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 369,
+      "revisions": [
+        {
+          "created_at": "2026-11-08T07:16:17.759784+00:00",
+          "block": "Title: Stanford Researchers Introduce Memorilla, Latent Memory for Frozen LLMs\nURL: https://arxiv.org/abs/2610.21375\nImage URL: https://opengraph.githubassets.com/6b3d1df3871b8efeb15c0febf58ec0e62f5e2aa1bba8cbcfd3c70cc8d9a6c6f9/snap-stanford/memorilla\nSummary: Researchers including Stanford's Jure Leskovec introduced Memorilla, which compresses a document collection into 16 query-dependent memory tokens for a frozen LLM. The authors report it beat baselines including Mem0 and MemoRAG on five of eight benchmarks, and on FactKG reached 84.33% accuracy versus 80.43% with full context while using 108x fewer tokens. Code is on GitHub.",
+          "sha256": "c74b80afb1606c108df27448687ecacbe9056a3e82891538d032c7c1e349b0d8",
+          "source": "arXiv",
+          "request_id": "4d14cc45d0275db6a691859c966ba45f2da55a9a41ab241ce838f101c2c90d0b",
           "mode": "standard"
         }
       ]
@@ -10838,13 +10851,21 @@
       ]
     },
     "4d14cc45d0275db6a691859c966ba45f2da55a9a41ab241ce838f101c2c90d0b": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-08T07:16:16.927817+00:00",
       "received_sequence": 336,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-08T07:16:17.759784+00:00",
+      "records": [
+        {
+          "id": 369,
+          "revision": 1,
+          "sha256": "c74b80afb1606c108df27448687ecacbe9056a3e82891538d032c7c1e349b0d8"
+        }
+      ]
     }
   },
   "batches": {
@@ -41067,6 +41088,21 @@
       "result": {
         "status": "received",
         "request_id": "4d14cc45d0275db6a691859c966ba45f2da55a9a41ab241ce838f101c2c90d0b"
+      }
+    },
+    "683d94aabbb1bba56d0fbb1d17066e313ddcc362f7f22201d9abdb877d875f1d": {
+      "sha256": "43a99e3116619d4e16f1bee2889e88316c322f3da730f79e61015aa34705edad",
+      "result": {
+        "status": "finalized",
+        "request_id": "4d14cc45d0275db6a691859c966ba45f2da55a9a41ab241ce838f101c2c90d0b",
+        "records": [
+          {
+            "id": 369,
+            "revision": 1,
+            "sha256": "c74b80afb1606c108df27448687ecacbe9056a3e82891538d032c7c1e349b0d8"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
