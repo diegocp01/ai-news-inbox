@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1140,
-  "updated_at": "2026-11-08T07:16:17.759784+00:00",
+  "generation": 1141,
+  "updated_at": "2026-11-08T07:16:18.479772+00:00",
   "next_id": 370,
   "records": [
     {
@@ -41104,6 +41104,18 @@
         ],
         "duplicates": []
       }
+    },
+    "1021d74d9d8c03ad98dadded66f2d82b3bba1c95c698cb48766605ccba4fd19b": {
+      "sha256": "db1a367f4ec32d7fc833168373f13c6f02244dfe36f3dc68aff3276f6e2ba8a8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 369,
+          "revision": 1,
+          "sha256": "c74b80afb1606c108df27448687ecacbe9056a3e82891538d032c7c1e349b0d8"
+        },
+        "editorial_sha256": "85f0ce6f00551397fecbcea0d80edca1b9816863678d9346d334a3a41a3a8d71"
+      }
     }
   },
   "migration": {
@@ -51150,6 +51162,26 @@
         "sha256": "52b574773dc22c878beb123d0ff216484104fe76a665756b320e1d3f4384115d",
         "reviewed_at": "2026-11-07T00:56:22.408746+00:00",
         "operation_id": "439f94a94d9b07e494b1d4fea1da9bf570461fcc8edb73c2661adc60dd77117d"
+      }
+    ],
+    "369:1": [
+      {
+        "reference": {
+          "id": 369,
+          "revision": 1,
+          "sha256": "c74b80afb1606c108df27448687ecacbe9056a3e82891538d032c7c1e349b0d8"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "LLM memory research (memory tokens, embeddings, frozen LLM, benchmarks); ML-technical.",
+            "evidence_sha256": "21acbe928463a1ea3e8596df76580946ae6d1c7c8e3c79d40511494713a035b0"
+          }
+        },
+        "sha256": "85f0ce6f00551397fecbcea0d80edca1b9816863678d9346d334a3a41a3a8d71",
+        "reviewed_at": "2026-11-08T07:16:18.479772+00:00",
+        "operation_id": "1021d74d9d8c03ad98dadded66f2d82b3bba1c95c698cb48766605ccba4fd19b"
       }
     ]
   }
