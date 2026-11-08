@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1142,
-  "updated_at": "2026-11-08T16:33:45.557308+00:00",
-  "next_id": 370,
+  "generation": 1143,
+  "updated_at": "2026-11-08T16:33:46.329654+00:00",
+  "next_id": 371,
   "records": [
     {
       "id": 1,
@@ -4915,6 +4915,19 @@
           "sha256": "c74b80afb1606c108df27448687ecacbe9056a3e82891538d032c7c1e349b0d8",
           "source": "arXiv",
           "request_id": "4d14cc45d0275db6a691859c966ba45f2da55a9a41ab241ce838f101c2c90d0b",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 370,
+      "revisions": [
+        {
+          "created_at": "2026-11-08T16:33:46.329654+00:00",
+          "block": "Title: Apple Reportedly Weighs Agent-Style Siri as Soon as Next Year\nURL: https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up\nImage URL: https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iwn7_Q7X5W7g/v0/1200x800.jpg\nSummary: Apple CEO John Ternus has pressed software chief Craig Federighi to pursue a more ambitious AI strategy, Bloomberg's Mark Gurman reports, as Apple looks to turn Siri into an autonomous agent that gets things done for users. Gurman believes Siri could become more agent-like, like ChatGPT Dots or Meta's Muse, as early as next year.",
+          "sha256": "69f00cb572dbe4f19fa887d677ca791f7478c46797bfe6d95a1e85666c14e467",
+          "source": "Bloomberg",
+          "request_id": "db8dc1c7d8baca7fad81d4e8ecae417c1c43dec4708380e3a394904f67dd5341",
           "mode": "standard"
         }
       ]
@@ -10868,13 +10881,21 @@
       ]
     },
     "db8dc1c7d8baca7fad81d4e8ecae417c1c43dec4708380e3a394904f67dd5341": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-08T16:33:45.557308+00:00",
       "received_sequence": 337,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-08T16:33:46.329654+00:00",
+      "records": [
+        {
+          "id": 370,
+          "revision": 1,
+          "sha256": "69f00cb572dbe4f19fa887d677ca791f7478c46797bfe6d95a1e85666c14e467"
+        }
+      ]
     }
   },
   "batches": {
@@ -41131,6 +41152,21 @@
       "result": {
         "status": "received",
         "request_id": "db8dc1c7d8baca7fad81d4e8ecae417c1c43dec4708380e3a394904f67dd5341"
+      }
+    },
+    "bbedebae7eca966fce4ab81e0cf0a1f1401d50c8bd5f5a4b000678553e90158e": {
+      "sha256": "4c6e8ca9bfb26d7dd737a7a97fca418851165917e09e017f834ee10152b76dd1",
+      "result": {
+        "status": "finalized",
+        "request_id": "db8dc1c7d8baca7fad81d4e8ecae417c1c43dec4708380e3a394904f67dd5341",
+        "records": [
+          {
+            "id": 370,
+            "revision": 1,
+            "sha256": "69f00cb572dbe4f19fa887d677ca791f7478c46797bfe6d95a1e85666c14e467"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
