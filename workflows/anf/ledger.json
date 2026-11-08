@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1143,
-  "updated_at": "2026-11-08T16:33:46.329654+00:00",
+  "generation": 1144,
+  "updated_at": "2026-11-08T16:33:47.069199+00:00",
   "next_id": 371,
   "records": [
     {
@@ -41168,6 +41168,18 @@
         ],
         "duplicates": []
       }
+    },
+    "71e5b99f5f7def517646ed49a2b75e5a6c7c494709af7cc189da3c91e2ea19b9": {
+      "sha256": "9b38513656cee5d4e3da971440ec52b72b7f8a8f6f95b2f647b3103fe45f4523",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 370,
+          "revision": 1,
+          "sha256": "69f00cb572dbe4f19fa887d677ca791f7478c46797bfe6d95a1e85666c14e467"
+        },
+        "editorial_sha256": "9ee401546477846d1c84d327f4c18c2cc6e27c9b4c74c1a30f03fd8215f271e6"
+      }
     }
   },
   "migration": {
@@ -51234,6 +51246,26 @@
         "sha256": "85f0ce6f00551397fecbcea0d80edca1b9816863678d9346d334a3a41a3a8d71",
         "reviewed_at": "2026-11-08T07:16:18.479772+00:00",
         "operation_id": "1021d74d9d8c03ad98dadded66f2d82b3bba1c95c698cb48766605ccba4fd19b"
+      }
+    ],
+    "370:1": [
+      {
+        "reference": {
+          "id": 370,
+          "revision": 1,
+          "sha256": "69f00cb572dbe4f19fa887d677ca791f7478c46797bfe6d95a1e85666c14e467"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer assistant strategy report; no ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "caf1488a84f818e893179902a479c0bff08ec98c1305a0f3cea63d5d433ceb23"
+          }
+        },
+        "sha256": "9ee401546477846d1c84d327f4c18c2cc6e27c9b4c74c1a30f03fd8215f271e6",
+        "reviewed_at": "2026-11-08T16:33:47.069199+00:00",
+        "operation_id": "71e5b99f5f7def517646ed49a2b75e5a6c7c494709af7cc189da3c91e2ea19b9"
       }
     ]
   }
