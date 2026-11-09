@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1157,
-  "updated_at": "2026-11-09T17:13:23.130347+00:00",
-  "next_id": 375,
+  "generation": 1158,
+  "updated_at": "2026-11-09T17:13:23.981833+00:00",
+  "next_id": 376,
   "records": [
     {
       "id": 1,
@@ -4983,6 +4983,19 @@
           "request_id": "7f6b93e256704cd8970c9fae45856a353b1246974dba910df47b5e053532762e",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 375,
+      "revisions": [
+        {
+          "created_at": "2026-11-09T17:13:23.981833+00:00",
+          "block": "Title: Anthropic Details Claude Dreaming and Leaner Pokémon Memory Notes\nURL: https://www.anthropic.com/research/components-of-agent-memory\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg\nSummary: Anthropic described how Claude agents use downtime dreaming to check memory notes against past work logs and reorganize them. Newer models better judge what to save, and explaining why memory matters beat fixed rules. In Pokémon tests, Fable 5 earned four badges with nine files plus global.md, Sonnet 3.7 one badge with 413 files, and Opus 5.5 beat the game.",
+          "sha256": "ea961f968f6d2154bec2d3e73e28aa11fb451a4fd7706aaa45aa0e868cbcb9e3",
+          "source": "Anthropic",
+          "request_id": "6261446f646e83201c98d8bf410932e59fd59a83fe79a537395efb32b64be0d0",
+          "mode": "standard"
         }
       ]
     }
@@ -10997,13 +11010,21 @@
       ]
     },
     "6261446f646e83201c98d8bf410932e59fd59a83fe79a537395efb32b64be0d0": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-09T17:13:23.130347+00:00",
       "received_sequence": 340,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-09T17:13:23.981833+00:00",
+      "records": [
+        {
+          "id": 375,
+          "revision": 1,
+          "sha256": "ea961f968f6d2154bec2d3e73e28aa11fb451a4fd7706aaa45aa0e868cbcb9e3"
+        }
+      ]
     }
   },
   "batches": {
@@ -42028,6 +42049,21 @@
       "result": {
         "status": "received",
         "request_id": "6261446f646e83201c98d8bf410932e59fd59a83fe79a537395efb32b64be0d0"
+      }
+    },
+    "0163b22f898e05df7eb54c15100c367dc316c6b036018f59fa03571f082fe422": {
+      "sha256": "14ccd3e0138d503c1b212bcdf8071ffa1a5adae2f4992cf74ba7ae3c62085977",
+      "result": {
+        "status": "finalized",
+        "request_id": "6261446f646e83201c98d8bf410932e59fd59a83fe79a537395efb32b64be0d0",
+        "records": [
+          {
+            "id": 375,
+            "revision": 1,
+            "sha256": "ea961f968f6d2154bec2d3e73e28aa11fb451a4fd7706aaa45aa0e868cbcb9e3"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
