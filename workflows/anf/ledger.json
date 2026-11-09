@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1158,
-  "updated_at": "2026-11-09T17:13:23.981833+00:00",
+  "generation": 1159,
+  "updated_at": "2026-11-09T17:13:24.815098+00:00",
   "next_id": 376,
   "records": [
     {
@@ -42065,6 +42065,18 @@
         ],
         "duplicates": []
       }
+    },
+    "39d84b6ab254ddbc1dab9c158774762801beeb2e9dc151de2d34b1719fe846f4": {
+      "sha256": "dcbcc614226764a5af6acc8059306400c6917c9398c3b6d26a72332a731a340e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 375,
+          "revision": 1,
+          "sha256": "ea961f968f6d2154bec2d3e73e28aa11fb451a4fd7706aaa45aa0e868cbcb9e3"
+        },
+        "editorial_sha256": "6d9d3bd79a932268498dd1b274a8d93d617b78a4a1fcb96ce3b85fcf03ce7dd8"
+      }
     }
   },
   "migration": {
@@ -52231,6 +52243,26 @@
         "sha256": "93004f9c0bb1fbc71d6f91c110e67ef92db6a4e83d294f1324a64d0cf4f5808a",
         "reviewed_at": "2026-11-09T13:04:49.169779+00:00",
         "operation_id": "muse-backfill-20261109-374-1257"
+      }
+    ],
+    "375:1": [
+      {
+        "reference": {
+          "id": 375,
+          "revision": 1,
+          "sha256": "ea961f968f6d2154bec2d3e73e28aa11fb451a4fd7706aaa45aa0e868cbcb9e3"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Plain-language product research on agent memory notes and Pokémon test results; no ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "b42859664d0c19229fc52ae7afa795645b51411d55f809b21078ed6c5f2040e5"
+          }
+        },
+        "sha256": "6d9d3bd79a932268498dd1b274a8d93d617b78a4a1fcb96ce3b85fcf03ce7dd8",
+        "reviewed_at": "2026-11-09T17:13:24.815098+00:00",
+        "operation_id": "39d84b6ab254ddbc1dab9c158774762801beeb2e9dc151de2d34b1719fe846f4"
       }
     ]
   }
