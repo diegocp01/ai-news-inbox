@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1173,
-  "updated_at": "2026-11-09T20:55:15.106099+00:00",
+  "generation": 1174,
+  "updated_at": "2026-11-09T20:55:15.895463+00:00",
   "next_id": 381,
   "records": [
     {
@@ -42385,6 +42385,18 @@
         ],
         "duplicates": []
       }
+    },
+    "4001d7b4025c8d79665ae456c3062f1fd89eedf9e368cf14d92e7840ff7ad7b7": {
+      "sha256": "c6cc0db13eadeac27e6143d0fb7305617e1ac92635c1cbdcbd32de1ee5172348",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 380,
+          "revision": 1,
+          "sha256": "7ff8478e59cbb65632c1ae2de6bb4a15d6bc2c372fecfee5842dc13567736775"
+        },
+        "editorial_sha256": "5f4a31644be4fa9b7215712025acfe98e0c86996b00bee06c05c454fa190b0a1"
+      }
     }
   },
   "migration": {
@@ -52651,6 +52663,26 @@
         "sha256": "85828b61493f7a400095a0d0631dc00d6fc6fd78268a3e70fec7b5f46de54e95",
         "reviewed_at": "2026-11-09T20:16:23.819121+00:00",
         "operation_id": "0a8a67a83c131d317844ae45038795ad4ed690427cffd8f5d70277d027980d9f"
+      }
+    ],
+    "380:1": [
+      {
+        "reference": {
+          "id": 380,
+          "revision": 1,
+          "sha256": "7ff8478e59cbb65632c1ae2de6bb4a15d6bc2c372fecfee5842dc13567736775"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Company-reported physics capability claim about existing Fable 5.2; not a new flagship model release; plain language without ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "62338a1d14d9bd4e2aa7969782d3bfc07afca515100f100da9dd30f224257113"
+          }
+        },
+        "sha256": "5f4a31644be4fa9b7215712025acfe98e0c86996b00bee06c05c454fa190b0a1",
+        "reviewed_at": "2026-11-09T20:55:15.895463+00:00",
+        "operation_id": "4001d7b4025c8d79665ae456c3062f1fd89eedf9e368cf14d92e7840ff7ad7b7"
       }
     ]
   }
