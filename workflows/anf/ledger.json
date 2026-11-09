@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1164,
-  "updated_at": "2026-11-09T19:02:00.810560+00:00",
+  "generation": 1165,
+  "updated_at": "2026-11-09T19:02:01.774729+00:00",
   "next_id": 378,
   "records": [
     {
@@ -42193,6 +42193,18 @@
         ],
         "duplicates": []
       }
+    },
+    "7023d9acfc732af301155f639e4fcf2f211e1b91ee4ed12bb540b4e259a00478": {
+      "sha256": "a165a9faea7ed30073f9098a49ce66af74c0ff368b26b74506ab95ef20f96f8a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 377,
+          "revision": 1,
+          "sha256": "e11da078ff5590b27523317349410cc6ce4840691ee9112dff42b29776169a61"
+        },
+        "editorial_sha256": "feb8847253663893b0a09a61db567347f9255b7b2f344b2905208553ebdec3c0"
+      }
     }
   },
   "migration": {
@@ -52399,6 +52411,26 @@
         "sha256": "cb2902929d2bfc06623f10eb179ac3d02ae19d45ec857ff96132405ccabd2fda",
         "reviewed_at": "2026-11-09T18:11:51.391907+00:00",
         "operation_id": "85bd491e26b493037a93c7703cccce6ae6454e0280027b0d9178ee359e166c42"
+      }
+    ],
+    "377:1": [
+      {
+        "reference": {
+          "id": 377,
+          "revision": 1,
+          "sha256": "e11da078ff5590b27523317349410cc6ce4840691ee9112dff42b29776169a61"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Non-DS flagship Claude model release; summary kept in plain language without ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "1608aae56a5dd49f5d87ffaf88c61856bc7c6ffc6773fb4100e9ac39295dca54"
+          }
+        },
+        "sha256": "feb8847253663893b0a09a61db567347f9255b7b2f344b2905208553ebdec3c0",
+        "reviewed_at": "2026-11-09T19:02:01.774729+00:00",
+        "operation_id": "7023d9acfc732af301155f639e4fcf2f211e1b91ee4ed12bb540b4e259a00478"
       }
     ]
   }
