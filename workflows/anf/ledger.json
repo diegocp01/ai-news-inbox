@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1176,
-  "updated_at": "2026-11-09T23:14:26.804371+00:00",
+  "generation": 1177,
+  "updated_at": "2026-11-09T23:14:27.641720+00:00",
   "next_id": 382,
   "records": [
     {
@@ -42449,6 +42449,18 @@
         ],
         "duplicates": []
       }
+    },
+    "64bf1464949e1126dcebcf9e11af3ef3a5f36428845f879fad371537d8914540": {
+      "sha256": "07b2ce2fe698ff0cc9bf55b3b7c0f32ce268671bb4ba16118e5941f2e277130c",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 381,
+          "revision": 1,
+          "sha256": "65cf8cbab64bb0d933083ebc24bd8d54d7b9e0a51097fb700abd9243e1f5e6a0"
+        },
+        "editorial_sha256": "59e1c851f00418fb4f3870b0ea5f2c1cbd95b4a105632ab2d363d4a6b0d20ba2"
+      }
     }
   },
   "migration": {
@@ -52735,6 +52747,26 @@
         "sha256": "5f4a31644be4fa9b7215712025acfe98e0c86996b00bee06c05c454fa190b0a1",
         "reviewed_at": "2026-11-09T20:55:15.895463+00:00",
         "operation_id": "4001d7b4025c8d79665ae456c3062f1fd89eedf9e368cf14d92e7840ff7ad7b7"
+      }
+    ],
+    "381:1": [
+      {
+        "reference": {
+          "id": 381,
+          "revision": 1,
+          "sha256": "65cf8cbab64bb0d933083ebc24bd8d54d7b9e0a51097fb700abd9243e1f5e6a0"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Safety infrastructure announcement; summary avoids ML-technical, developer/API, and hardware-internals jargon; not a flagship model release.",
+            "evidence_sha256": "109130aece1542c7aac0a9c200400a8aedcaeeaefa18fa1ae1c4d601b5010384"
+          }
+        },
+        "sha256": "59e1c851f00418fb4f3870b0ea5f2c1cbd95b4a105632ab2d363d4a6b0d20ba2",
+        "reviewed_at": "2026-11-09T23:14:27.641720+00:00",
+        "operation_id": "64bf1464949e1126dcebcf9e11af3ef3a5f36428845f879fad371537d8914540"
       }
     ]
   }
