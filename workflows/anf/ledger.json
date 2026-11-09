@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1161,
-  "updated_at": "2026-11-09T18:11:50.530352+00:00",
+  "generation": 1162,
+  "updated_at": "2026-11-09T18:11:51.391907+00:00",
   "next_id": 377,
   "records": [
     {
@@ -42129,6 +42129,18 @@
         ],
         "duplicates": []
       }
+    },
+    "85bd491e26b493037a93c7703cccce6ae6454e0280027b0d9178ee359e166c42": {
+      "sha256": "f6df9faf615936eeffac8f5d923857fbddfe073fa96c29f94b621b28399147f0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 376,
+          "revision": 1,
+          "sha256": "3637c8d08c733975d9a3ae4b39a55fd75341694d6c2f67aef67085cdc5fe0afb"
+        },
+        "editorial_sha256": "cb2902929d2bfc06623f10eb179ac3d02ae19d45ec857ff96132405ccabd2fda"
+      }
     }
   },
   "migration": {
@@ -52315,6 +52327,26 @@
         "sha256": "6d9d3bd79a932268498dd1b274a8d93d617b78a4a1fcb96ce3b85fcf03ce7dd8",
         "reviewed_at": "2026-11-09T17:13:24.815098+00:00",
         "operation_id": "39d84b6ab254ddbc1dab9c158774762801beeb2e9dc151de2d34b1719fe846f4"
+      }
+    ],
+    "376:1": [
+      {
+        "reference": {
+          "id": 376,
+          "revision": 1,
+          "sha256": "3637c8d08c733975d9a3ae4b39a55fd75341694d6c2f67aef67085cdc5fe0afb"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer Model API release with tool-calling, coding, context-window, and pricing terms.",
+            "evidence_sha256": "737b27c5cd61ffe7e54c0c103b09adefc47a38a03a7b1a1a8ffab57369f40a7b"
+          }
+        },
+        "sha256": "cb2902929d2bfc06623f10eb179ac3d02ae19d45ec857ff96132405ccabd2fda",
+        "reviewed_at": "2026-11-09T18:11:51.391907+00:00",
+        "operation_id": "85bd491e26b493037a93c7703cccce6ae6454e0280027b0d9178ee359e166c42"
       }
     ]
   }
