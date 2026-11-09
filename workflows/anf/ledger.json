@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1152,
-  "updated_at": "2026-11-09T13:04:49.169779+00:00",
+  "generation": 1153,
+  "updated_at": "2026-11-09T13:05:03.877621+00:00",
   "next_id": 375,
   "records": [
     {
@@ -19729,9 +19729,282 @@
       },
       "acknowledged_at": "2026-11-06T13:27:23.558014+00:00",
       "checkpoint_after": 355
+    },
+    "221f20a14aa11a72bfd4bf20": {
+      "batch_id": "221f20a14aa11a72bfd4bf20",
+      "status": "prepared",
+      "checkpoint_before": 355,
+      "prepared_at": "2026-11-09T13:05:03.877621+00:00",
+      "intake_cutoff": 339,
+      "records": [
+        {
+          "id": 356,
+          "revision": 1,
+          "sha256": "1e9a6babf0e07e802b0c18b76876171593dccab31b441fe57df904ef4584e22f"
+        },
+        {
+          "id": 357,
+          "revision": 1,
+          "sha256": "6b3c69e3fb680eda50197160efd72cf2c2fbbdce89ac7631f515e46eaf3ab9cb"
+        },
+        {
+          "id": 358,
+          "revision": 1,
+          "sha256": "6015ea7168bfa2683b1faf1cd35c397c6fe2db75133f23e47b1ae2862bf78bb8"
+        },
+        {
+          "id": 359,
+          "revision": 1,
+          "sha256": "c68eea9d1a65aa002ae7d4f171e3207c302d55db63ab87bb847e2fbf2700ca8f"
+        },
+        {
+          "id": 360,
+          "revision": 1,
+          "sha256": "4b9f6eab1907751f0b4a98ff72a4f373f34b9dbd01f14c246c6b572e09af7557"
+        },
+        {
+          "id": 361,
+          "revision": 1,
+          "sha256": "7bb1966de86f14f1e5f7b8081cfa2fcd39c6585a7c54357c9e35bc275d35abdc"
+        },
+        {
+          "id": 362,
+          "revision": 1,
+          "sha256": "6676ab73eca3db66e4d8efb86913d305ca7cee44f9619192e8062122bb71ba7b"
+        },
+        {
+          "id": 363,
+          "revision": 1,
+          "sha256": "c4d6cd60baaa8429ca6aa759809e5cc428a7d45c40b421fb9b50071567ffc682"
+        },
+        {
+          "id": 364,
+          "revision": 2,
+          "sha256": "2a1f56b505025cbb93c0e3b5386f7d13982d2403a3ed11047db2c925275e2d1b"
+        },
+        {
+          "id": 365,
+          "revision": 1,
+          "sha256": "df51ecaceaafc4edf54bb724549305dcd4abd9f5a97f2329486905e74fc28d60"
+        },
+        {
+          "id": 366,
+          "revision": 1,
+          "sha256": "d3b8a0fed301236a582acf3757e184c2f8fe1a434e00f8003b15c2ad7aff1c85"
+        },
+        {
+          "id": 367,
+          "revision": 1,
+          "sha256": "a6e7369d203a0d4557abea1ecdeb835ab73c41a50a7eafe81269b38b33fbd613"
+        },
+        {
+          "id": 368,
+          "revision": 2,
+          "sha256": "2f9a6d79c31dbe52af7aec81f13e3bae0ec60215234828fff27e86c09d799910"
+        },
+        {
+          "id": 369,
+          "revision": 1,
+          "sha256": "c74b80afb1606c108df27448687ecacbe9056a3e82891538d032c7c1e349b0d8"
+        },
+        {
+          "id": 370,
+          "revision": 1,
+          "sha256": "69f00cb572dbe4f19fa887d677ca791f7478c46797bfe6d95a1e85666c14e467"
+        },
+        {
+          "id": 371,
+          "revision": 1,
+          "sha256": "8d46efb0cdf5ee5b2f0089cdca313eec07aa84401bf6b7613ee7117aef2744f0"
+        },
+        {
+          "id": 372,
+          "revision": 1,
+          "sha256": "094c133740214e45c5f7992cdb69dd6847a50f2304d43ab2990e20f7d348f256"
+        },
+        {
+          "id": 373,
+          "revision": 1,
+          "sha256": "c77e335e47ded664e4fbc6b164304b50f8c726f9f54751173731e8c71b1c4d37"
+        },
+        {
+          "id": 374,
+          "revision": 1,
+          "sha256": "297f2296d5b01af7a69ffddaaf68cc4aa09aef74ad110b0c66d116c05dd33fe1"
+        }
+      ],
+      "first_id": 356,
+      "last_id": 374,
+      "count": 19,
+      "txt_path": "workflows/anf/batches/221f20a14aa11a72bfd4bf20.txt",
+      "json_path": "workflows/anf/batches/221f20a14aa11a72bfd4bf20.json",
+      "txt_sha256": "13b17af7378c426926ad127bc5f876e6d3cbbe92089c65262e7111880e0d844c",
+      "json_sha256": "87d7b18780ae2b02f75a1b5a2aa1d4943b63733af049547fb30f1b93bd4fbc23",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Agent-harness design: subagents, context compaction, prompt-cache session forks and token/context accounting are ML/developer concepts a general reader wouldn't know. DS true.",
+            "evidence_sha256": "a6a4c8c4b8b67665b0646b5cf1c265fe0e9eff1d0036f55ef59e3f6a5c9821d4"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "AI-discovered proof of a quantum-complexity conjecture with Lean formalization: research-level CS/math concepts a general reader wouldn't know. DS true; do not apply agent-only math/physics-to-general override.",
+            "evidence_sha256": "8310b58eed238e2f1e4b259907f9ef18c8bb6932d7287c952eb03bacdab2a0e2"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Speculative commentary from an AI red-teamer; not an ML-technical paper, API/docs launch, or hardware claim. Unsure -> general. Same ds finalize/review.",
+            "evidence_sha256": "78b7dd785a1443a8e057ee8896f9ff6b2de6d907abc518a4acc299d6f0ee5e4c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Claude Code cloud environments, network secrets, dependency setup and session config are developer/API concepts a general reader wouldn't know. DS true.",
+            "evidence_sha256": "ba013445434d376044550804b533e740915c649e56cb1632f85ba8dedf769cbd"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer product model upgrade for Muse/Meta AI with Active Memory/Focus features; not a five-lab flagship launch requiring New AI Model prefix (specialized models). Unsure technical depth -> general. Same ds finalize/review.",
+            "evidence_sha256": "911dc88c9d8d50e98755424b2d9f05400566bfb378ef943920ec2893fe352251"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer Muse app feature for custom in-app spaces; no ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "7224a5642398bfd2115fc550323f22b8b697eab7ae4beff07415319e69616f3f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Anthropic engineering research on agent memory systems: notes, dreaming/sleep-time reorganization, wiki representations, and session context promotion; ML-technical and agent-systems content.",
+            "evidence_sha256": "836e65fca4b79d66650f0bc8ff62c76a650bc6d45c767a17fa1421c0f808a4a6"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer/workplace ChatGPT Sites feature; no ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "3e594cf3c97b56315a123d90ae277f654dba01bd00ad8cbd834788fa87a3633c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business funding/valuation news; no ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "45bbcb793f178c7e34cda937b7d265ce2d0efe1d37b2cc5a0cbf674e83a748e9"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Quantum complexity theory research result with formal Lean proof verification; research-technical (same treatment as #357).",
+            "evidence_sha256": "84d67638beb9bf7e2e30e039ce09300991c7108e572ad6f76b341ea002f50efa"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Claude Code coding-agent session control (approving code changes, local vs cloud sessions); developer-tool item, same treatment as #359.",
+            "evidence_sha256": "960113d2bc2adf25fe2cbfe98ca3ad96c58c549d0a13877fec9f6324f8a33c12"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "open_source",
+            "rationale": "Open-weight model post-training/fine-tuning release with eval and weights; ML-technical.",
+            "evidence_sha256": "b0a5435102722276ec8a8187763a9d42f4e7db982addeab2aacba21875c0d254"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Creator video-editing product preview; developer term removed, general.",
+            "evidence_sha256": "2660214dd74e4360db65fd1c6453d91265e8f0bb51539b8de6861e5564b3b7b8"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "LLM memory research (memory tokens, embeddings, frozen LLM, benchmarks); ML-technical.",
+            "evidence_sha256": "21acbe928463a1ea3e8596df76580946ae6d1c7c8e3c79d40511494713a035b0"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer assistant strategy report; no ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "caf1488a84f818e893179902a479c0bff08ec98c1305a0f3cea63d5d433ceb23"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Peter Belcak and colleagues turn language-model reasoning traces into reusable CPU-executable routines supported by a small model. The routines matched or exceeded the source model's accuracy on seven of eight benchmarks, with estimated per-call costs 16 to 291 times lower; building each routine costs more upfront, so savings depend on reuse. This is AI research on reasoning distillation and inference efficiency, with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-09: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "8d46efb0cdf5ee5b2f0089cdca313eec07aa84401bf6b7613ee7117aef2744f0"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Chaoyang Wang and colleagues train a coding agent to build and render 3D scenes that guide a video generator's layout and motion. With MiniMax-H3, PhyGenBench scores rose from 0.61 to 0.67 and VBench-2.0 scores from 54.58% to 78.19%, gains specific to the tested setups. This is AI research on video generation guided by 3D scene construction, with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-09: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "094c133740214e45c5f7992cdb69dd6847a50f2304d43ab2990e20f7d348f256"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Nvidia's board announced an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation. Huang acknowledged an extramarital affair and pledged cooperation; China denied the spying allegations. The board said it had no reason to believe national security or company secrets were compromised and expressed confidence in Huang's leadership. This is corporate governance news, not technical research. muse-compile-backfill 2026-11-09: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "c77e335e47ded664e4fbc6b164304b50f8c726f9f54751173731e8c71b1c4d37"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Anthropic described a process called dreaming, in which Claude agents use idle time to review saved notes against records of earlier work. The company said this can correct errors and reorganize information for later sessions. In a Pokemon Red test, correcting an inaccurate location note helped Claude progress past a navigation trap. This is AI research on agent memory and self-correction, for research audiences. muse-compile-backfill 2026-11-09: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "297f2296d5b01af7a69ffddaaf68cc4aa09aef74ad110b0c66d116c05dd33fe1"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-09T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "221f20a14aa11a72bfd4bf20",
   "replacement_batch": null,
   "checkpoint": 355,
   "checkpoint_history": [
@@ -41380,6 +41653,286 @@
           "sha256": "297f2296d5b01af7a69ffddaaf68cc4aa09aef74ad110b0c66d116c05dd33fe1"
         },
         "editorial_sha256": "93004f9c0bb1fbc71d6f91c110e67ef92db6a4e83d294f1324a64d0cf4f5808a"
+      }
+    },
+    "muse-compile-20261109-1305-5421": {
+      "sha256": "3860310c36ef291538058c8588d28c0030f5749771cffc1f66e320e75c9c1b8e",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "221f20a14aa11a72bfd4bf20",
+          "status": "prepared",
+          "checkpoint_before": 355,
+          "prepared_at": "2026-11-09T13:05:03.877621+00:00",
+          "intake_cutoff": 339,
+          "records": [
+            {
+              "id": 356,
+              "revision": 1,
+              "sha256": "1e9a6babf0e07e802b0c18b76876171593dccab31b441fe57df904ef4584e22f"
+            },
+            {
+              "id": 357,
+              "revision": 1,
+              "sha256": "6b3c69e3fb680eda50197160efd72cf2c2fbbdce89ac7631f515e46eaf3ab9cb"
+            },
+            {
+              "id": 358,
+              "revision": 1,
+              "sha256": "6015ea7168bfa2683b1faf1cd35c397c6fe2db75133f23e47b1ae2862bf78bb8"
+            },
+            {
+              "id": 359,
+              "revision": 1,
+              "sha256": "c68eea9d1a65aa002ae7d4f171e3207c302d55db63ab87bb847e2fbf2700ca8f"
+            },
+            {
+              "id": 360,
+              "revision": 1,
+              "sha256": "4b9f6eab1907751f0b4a98ff72a4f373f34b9dbd01f14c246c6b572e09af7557"
+            },
+            {
+              "id": 361,
+              "revision": 1,
+              "sha256": "7bb1966de86f14f1e5f7b8081cfa2fcd39c6585a7c54357c9e35bc275d35abdc"
+            },
+            {
+              "id": 362,
+              "revision": 1,
+              "sha256": "6676ab73eca3db66e4d8efb86913d305ca7cee44f9619192e8062122bb71ba7b"
+            },
+            {
+              "id": 363,
+              "revision": 1,
+              "sha256": "c4d6cd60baaa8429ca6aa759809e5cc428a7d45c40b421fb9b50071567ffc682"
+            },
+            {
+              "id": 364,
+              "revision": 2,
+              "sha256": "2a1f56b505025cbb93c0e3b5386f7d13982d2403a3ed11047db2c925275e2d1b"
+            },
+            {
+              "id": 365,
+              "revision": 1,
+              "sha256": "df51ecaceaafc4edf54bb724549305dcd4abd9f5a97f2329486905e74fc28d60"
+            },
+            {
+              "id": 366,
+              "revision": 1,
+              "sha256": "d3b8a0fed301236a582acf3757e184c2f8fe1a434e00f8003b15c2ad7aff1c85"
+            },
+            {
+              "id": 367,
+              "revision": 1,
+              "sha256": "a6e7369d203a0d4557abea1ecdeb835ab73c41a50a7eafe81269b38b33fbd613"
+            },
+            {
+              "id": 368,
+              "revision": 2,
+              "sha256": "2f9a6d79c31dbe52af7aec81f13e3bae0ec60215234828fff27e86c09d799910"
+            },
+            {
+              "id": 369,
+              "revision": 1,
+              "sha256": "c74b80afb1606c108df27448687ecacbe9056a3e82891538d032c7c1e349b0d8"
+            },
+            {
+              "id": 370,
+              "revision": 1,
+              "sha256": "69f00cb572dbe4f19fa887d677ca791f7478c46797bfe6d95a1e85666c14e467"
+            },
+            {
+              "id": 371,
+              "revision": 1,
+              "sha256": "8d46efb0cdf5ee5b2f0089cdca313eec07aa84401bf6b7613ee7117aef2744f0"
+            },
+            {
+              "id": 372,
+              "revision": 1,
+              "sha256": "094c133740214e45c5f7992cdb69dd6847a50f2304d43ab2990e20f7d348f256"
+            },
+            {
+              "id": 373,
+              "revision": 1,
+              "sha256": "c77e335e47ded664e4fbc6b164304b50f8c726f9f54751173731e8c71b1c4d37"
+            },
+            {
+              "id": 374,
+              "revision": 1,
+              "sha256": "297f2296d5b01af7a69ffddaaf68cc4aa09aef74ad110b0c66d116c05dd33fe1"
+            }
+          ],
+          "first_id": 356,
+          "last_id": 374,
+          "count": 19,
+          "txt_path": "workflows/anf/batches/221f20a14aa11a72bfd4bf20.txt",
+          "json_path": "workflows/anf/batches/221f20a14aa11a72bfd4bf20.json",
+          "txt_sha256": "13b17af7378c426926ad127bc5f876e6d3cbbe92089c65262e7111880e0d844c",
+          "json_sha256": "87d7b18780ae2b02f75a1b5a2aa1d4943b63733af049547fb30f1b93bd4fbc23",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Agent-harness design: subagents, context compaction, prompt-cache session forks and token/context accounting are ML/developer concepts a general reader wouldn't know. DS true.",
+                "evidence_sha256": "a6a4c8c4b8b67665b0646b5cf1c265fe0e9eff1d0036f55ef59e3f6a5c9821d4"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "AI-discovered proof of a quantum-complexity conjecture with Lean formalization: research-level CS/math concepts a general reader wouldn't know. DS true; do not apply agent-only math/physics-to-general override.",
+                "evidence_sha256": "8310b58eed238e2f1e4b259907f9ef18c8bb6932d7287c952eb03bacdab2a0e2"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Speculative commentary from an AI red-teamer; not an ML-technical paper, API/docs launch, or hardware claim. Unsure -> general. Same ds finalize/review.",
+                "evidence_sha256": "78b7dd785a1443a8e057ee8896f9ff6b2de6d907abc518a4acc299d6f0ee5e4c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Claude Code cloud environments, network secrets, dependency setup and session config are developer/API concepts a general reader wouldn't know. DS true.",
+                "evidence_sha256": "ba013445434d376044550804b533e740915c649e56cb1632f85ba8dedf769cbd"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer product model upgrade for Muse/Meta AI with Active Memory/Focus features; not a five-lab flagship launch requiring New AI Model prefix (specialized models). Unsure technical depth -> general. Same ds finalize/review.",
+                "evidence_sha256": "911dc88c9d8d50e98755424b2d9f05400566bfb378ef943920ec2893fe352251"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer Muse app feature for custom in-app spaces; no ML-technical, developer/API, or hardware terms.",
+                "evidence_sha256": "7224a5642398bfd2115fc550323f22b8b697eab7ae4beff07415319e69616f3f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Anthropic engineering research on agent memory systems: notes, dreaming/sleep-time reorganization, wiki representations, and session context promotion; ML-technical and agent-systems content.",
+                "evidence_sha256": "836e65fca4b79d66650f0bc8ff62c76a650bc6d45c767a17fa1421c0f808a4a6"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer/workplace ChatGPT Sites feature; no ML-technical, developer/API, or hardware terms.",
+                "evidence_sha256": "3e594cf3c97b56315a123d90ae277f654dba01bd00ad8cbd834788fa87a3633c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Business funding/valuation news; no ML-technical, developer/API, or hardware terms.",
+                "evidence_sha256": "45bbcb793f178c7e34cda937b7d265ce2d0efe1d37b2cc5a0cbf674e83a748e9"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Quantum complexity theory research result with formal Lean proof verification; research-technical (same treatment as #357).",
+                "evidence_sha256": "84d67638beb9bf7e2e30e039ce09300991c7108e572ad6f76b341ea002f50efa"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Claude Code coding-agent session control (approving code changes, local vs cloud sessions); developer-tool item, same treatment as #359.",
+                "evidence_sha256": "960113d2bc2adf25fe2cbfe98ca3ad96c58c549d0a13877fec9f6324f8a33c12"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "open_source",
+                "rationale": "Open-weight model post-training/fine-tuning release with eval and weights; ML-technical.",
+                "evidence_sha256": "b0a5435102722276ec8a8187763a9d42f4e7db982addeab2aacba21875c0d254"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Creator video-editing product preview; developer term removed, general.",
+                "evidence_sha256": "2660214dd74e4360db65fd1c6453d91265e8f0bb51539b8de6861e5564b3b7b8"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "LLM memory research (memory tokens, embeddings, frozen LLM, benchmarks); ML-technical.",
+                "evidence_sha256": "21acbe928463a1ea3e8596df76580946ae6d1c7c8e3c79d40511494713a035b0"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer assistant strategy report; no ML-technical, developer/API, or hardware terms.",
+                "evidence_sha256": "caf1488a84f818e893179902a479c0bff08ec98c1305a0f3cea63d5d433ceb23"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Peter Belcak and colleagues turn language-model reasoning traces into reusable CPU-executable routines supported by a small model. The routines matched or exceeded the source model's accuracy on seven of eight benchmarks, with estimated per-call costs 16 to 291 times lower; building each routine costs more upfront, so savings depend on reuse. This is AI research on reasoning distillation and inference efficiency, with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-09: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "8d46efb0cdf5ee5b2f0089cdca313eec07aa84401bf6b7613ee7117aef2744f0"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Chaoyang Wang and colleagues train a coding agent to build and render 3D scenes that guide a video generator's layout and motion. With MiniMax-H3, PhyGenBench scores rose from 0.61 to 0.67 and VBench-2.0 scores from 54.58% to 78.19%, gains specific to the tested setups. This is AI research on video generation guided by 3D scene construction, with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-09: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "094c133740214e45c5f7992cdb69dd6847a50f2304d43ab2990e20f7d348f256"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Nvidia's board announced an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation. Huang acknowledged an extramarital affair and pledged cooperation; China denied the spying allegations. The board said it had no reason to believe national security or company secrets were compromised and expressed confidence in Huang's leadership. This is corporate governance news, not technical research. muse-compile-backfill 2026-11-09: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "c77e335e47ded664e4fbc6b164304b50f8c726f9f54751173731e8c71b1c4d37"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Anthropic described a process called dreaming, in which Claude agents use idle time to review saved notes against records of earlier work. The company said this can correct errors and reorganize information for later sessions. In a Pokemon Red test, correcting an inaccurate location note helped Claude progress past a navigation trap. This is AI research on agent memory and self-correction, for research audiences. muse-compile-backfill 2026-11-09: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "297f2296d5b01af7a69ffddaaf68cc4aa09aef74ad110b0c66d116c05dd33fe1"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-09T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },

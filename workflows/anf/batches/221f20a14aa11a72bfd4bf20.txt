@@ -1,0 +1,111 @@
+Title: Developer Argues Checkpoint Agents Beat Classic Subagent Delegation
+URL: https://github.com/mainplane-ai/mainplane
+Image URL: https://opengraph.githubassets.com/1e684f39e6c5f9c3a3c2fcdc24c5b45454cf8d638a074005f638940fb583ea47/mainplane-ai/mainplane
+Summary: Mainplane founder Alexander Yue argues classic subagent handoffs fail because lossy summaries make workers invent steps. He proposes forking a session as a checkpoint agent that shares the parent’s full cached context, and says that pattern—or a single long-running agent with retrieval—beats partial delegation. Timing and cost figures are his own measurements on a long Opus session.
+ds: true
+
+Title: PSI Announces Proof of the Aaronson-Ambainis Conjecture
+URL: https://psi.inc/research/aaronson-ambainis/
+Image URL: https://psi.inc/og/ring-arch-2.png
+Summary: Physical Superintelligence says its internal research system, using a non-public Anthropic model, proved the Aaronson-Ambainis conjecture, a 2008 question about when quantum computers can be exponentially faster on random inputs. The lab released a manuscript and a Lean formalization that machine-checks the proof, and says outside experts are writing an exposition.
+ds: true
+
+Title: Pliny Speculates Labs Are Reverse-Engineering Software for Training
+URL: 
+Image URL: https://bt6.gg/assets/brand/bt6-social-r15.png
+Summary: AI red-teamer Pliny the Liberator says his “spidey senses” suggest frontier labs are using ungated versions of unreleased models to reverse-engineer internet software, apps, and games, then feeding that reconstructed code into training while building guardrails that lock others out. The claim is his speculation; no lab confirmation is cited.
+
+Title: Claude Code Cloud Sessions Get Easier Repo Environment Setup
+URL: https://code.claude.com/docs/en/cloud-environments
+Image URL: https://assets.claude.com/f66071070c4701ea2c37fc01b3c0f83623cf29d3.jpg?w=2400&h=1260&fit=crop
+Summary: Anthropic says Claude Code cloud sessions on Pro, Max, and Ultra can now figure out a repo’s dependencies, network access, and API keys, then save that environment for later. Network secrets keep API keys outside the session so Claude never sees them, according to ClaudeDevs and the cloud-environments docs.
+ds: true
+
+Title: Meta Rolls Out Specialized Models With Active Memory to Muse and Meta AI
+URL: https://thenewstack.io/meta-muse-specialized-models/
+Image URL: https://cdn.thenewstack.io/media/2026/11/b692c1f9-blogheader_light-1024x576.png
+Summary: Meta is rolling specialized models trained with Muse Wonder into Muse and Meta AI for all users, bringing Active Memory and Active Focus from Wonder. Mark Zuckerberg says the Muse updates are 2.4x less likely to forget critical info and 67% better at finishing everyday tasks after setbacks; those figures are Meta’s own measurements.
+
+Title: Meta Introduces Spaces for Custom Experiences Inside Muse
+URL: https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/
+Image URL: https://about.fb.com/wp-content/uploads/2026/11/Design-the-Muse-App_Just-for-You_Social-Share.png?w=1200
+Summary: Meta says Muse users can describe a planner, tracker, game, or other idea and Muse builds it as a "space" inside the app. Spaces can be pinned to tabs or the sidebar, scheduled, and kept current by connecting other apps. Available wherever Muse is available.
+
+Title: Anthropic Details Components of Agent Memory and Dreaming
+URL: https://www.anthropic.com/research/components-of-agent-memory
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg
+Summary: Anthropic's engineering team describes agent memory as experience retained across sessions as notes, and uses idle-time "dreaming" to correct mistakes, build wiki-style maps, and promote notes into later sessions. Company-reported evaluations include CL-Bench, Pokémon runs, and large document corpora.
+ds: true
+
+Title: ChatGPT Adds Remix for Copying and Editing Teammates' Sites
+URL: https://runtimewire.com/article/openai-chatgpt-remix-sites-business-enterprise
+Image URL: https://runtimewire.com/og/openai-chatgpt-remix-sites-business-enterprise.16x9.jpg?v=og2-1g4z6cv
+Summary: OpenAI is rolling out Remix for ChatGPT Sites to Business and Enterprise accounts. Users can make their own version of a teammate's site by telling ChatGPT what to change, then keep editing their copy in chat.
+
+Title: OpenAI Reportedly Closes $11 Billion of Funding at $1.25 Trillion Valuation
+URL: https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value
+Image URL: https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iMY4YYOOykGo/v1/1200x800.jpg
+Summary: OpenAI has reportedly closed about $11 billion, the first part of a funding round valuing the ChatGPT maker at $1.25 trillion, Bloomberg reports, citing people familiar with the matter. The round could reach about $20 billion in the coming weeks. Reuters sources say SoftBank and MGX participated.
+
+Title: PSI Says Its AI System Proved the Aaronson-Ambainis Conjecture
+URL: https://psi.inc/research/aaronson-ambainis/
+Image URL: https://psi.inc/og/ring-arch-2.png
+Summary: Physical Superintelligence says a research system it developed internally, running a non-public Anthropic model, found a proof of the Aaronson-Ambainis conjecture, open since 2008, about when quantum computers can be exponentially faster than ordinary ones. PSI says the Lean proof assistant checked and accepted the proof.
+ds: true
+
+Title: Claude Duet Adds Claude Code Sessions
+URL: 
+Image URL: https://claude.com/static/claude-duet/og.jpg
+Summary: Claude Duet lead David Sutton says the app now works with Claude Code sessions, letting users check what's running, approve changes, and send updates from their phone. He says it works with sessions running on a user's computer or in the cloud.
+ds: true
+
+Title: Nous Research Releases Arete-27B, a Qwen Model Post-Trained for Western Values
+URL: https://nousresearch.com/arete
+Image URL: https://nousresearch.com/assets/nous-web/blog/arete1-card.webp
+Summary: Nous Research post-trained Alibaba's Qwen3.8-27B into Arete-27B to reinforce Western values. On its 803-prompt eval across seven value categories, Nous says the share of answers containing China's party line fell from 22% to 1%, in line with Western models it tested. Nous says the eval, weights, and training data are available.
+ds: true
+
+Title: Higgsfield Previews Miracle for Layer-Based AI Video Editing
+URL: https://www.adgraam.com/blog/higgsfield-miracle-features-private-beta-access
+Image URL: https://cdn.adgraam.com/blog/news/higgsfield-miracle-features-private-beta-access.webp
+Summary: Higgsfield introduced Miracle, which it says turns any video into layers for localized, pixel-level edits in real time, such as recoloring objects or changing on-screen text. The company says Miracle edits existing clips rather than generating new ones. It is in private beta with select testers.
+
+Title: Stanford Researchers Introduce Memorilla, Latent Memory for Frozen LLMs
+URL: https://arxiv.org/abs/2610.21375
+Image URL: https://opengraph.githubassets.com/6b3d1df3871b8efeb15c0febf58ec0e62f5e2aa1bba8cbcfd3c70cc8d9a6c6f9/snap-stanford/memorilla
+Summary: Researchers including Stanford's Jure Leskovec introduced Memorilla, which compresses a document collection into 16 query-dependent memory tokens for a frozen LLM. The authors report it beat baselines including Mem0 and MemoRAG on five of eight benchmarks, and on FactKG reached 84.33% accuracy versus 80.43% with full context while using 108x fewer tokens. Code is on GitHub.
+ds: true
+
+Title: Apple Reportedly Weighs Agent-Style Siri as Soon as Next Year
+URL: https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up
+Image URL: https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iwn7_Q7X5W7g/v0/1200x800.jpg
+Summary: Apple CEO John Ternus has pressed software chief Craig Federighi to pursue a more ambitious AI strategy, Bloomberg's Mark Gurman reports, as Apple looks to turn Siri into an autonomous agent that gets things done for users. Gurman believes Siri could become more agent-like, like ChatGPT Dots or Meta's Muse, as early as next year.
+
+Title: CPU-ARC Reuses AI Reasoning as Code
+URL: https://arxiv.org/abs/2611.09891
+Image URL: https://api.alphaxiv.org/open-graph/v1/paper/2611.09891.png?v=2
+Summary: Peter Belcak and colleagues turn language-model reasoning traces into reusable CPU-executable routines supported by a small model. The routines matched or exceeded the source model’s accuracy on seven of eight benchmarks, and estimated per-call costs were 16 to 291 times lower. Building each routine costs more upfront, so savings depend on reuse.
+ds: true
+
+Title: Video-Coder Uses 3D Drafts to Guide Video Generation
+URL: https://arxiv.org/abs/2611.09894
+Image URL: https://arxiv.org/html/2611.09894v1/Video-Coder-Teaser-import.png
+Summary: Chaoyang Wang and colleagues train a coding agent to build and render 3D scenes that guide a video generator’s layout and motion. With MiniMax-H3, the authors report that PhyGenBench scores rose from 0.61 to 0.67 and VBench-2.0 scores from 54.58% to 78.19%. These gains are specific to the tested setups.
+ds: true
+
+Title: Nvidia Board Opens Investigation Into Reported Intelligence Targeting
+URL: https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors
+Image URL: https://www.nvidia.com/content/dam/en-zz/Solutions/navigation/intelligent-machines.png
+Summary: Nvidia’s board announced an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation. Huang acknowledged an extramarital affair and pledged cooperation. China denied the spying allegations. The board said it had no reason to believe national security or company secrets were compromised and expressed confidence in Huang’s leadership.
+
+Title: Anthropic Describes How Claude Reviews and Corrects Saved Memories
+URL: https://www.anthropic.com/research/components-of-agent-memory
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/31b7b06af6c391aa4f93ad9747d00ae248ea3c63-2000x1125.jpg
+Summary: Anthropic described a process called dreaming, in which Claude agents use idle time to review saved notes against records of earlier work. The company said this can correct errors and reorganize information for later sessions. In a Pokémon Red test, Anthropic reported that correcting an inaccurate location note helped Claude progress past a navigation trap.
+ds: true
+
+
+
+
+
+.
