@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1169,
-  "updated_at": "2026-11-09T20:16:22.060772+00:00",
-  "next_id": 379,
+  "generation": 1170,
+  "updated_at": "2026-11-09T20:16:22.956942+00:00",
+  "next_id": 380,
   "records": [
     {
       "id": 1,
@@ -5034,6 +5034,19 @@
           "sha256": "c507273462c85d1e2e3e980b6a1a7d3db9c7b4984ea7a4ddefcd2cb63a9478cc",
           "source": "OpenAI",
           "request_id": "059a1c9eca324e808ae7328046f6b79371bf02cf42b5310f556ca977d582fd3a",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 379,
+      "revisions": [
+        {
+          "created_at": "2026-11-09T20:16:22.956942+00:00",
+          "block": "Title: Claude Fable 5.2 Agents Formalize Fermat’s Last Theorem in 30 Hours\nURL: https://www.anthropic.com/claude-fable-and-mythos-5-2\nImage URL: https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/og.png\nSummary: Anthropic says a team of 1,000 Claude Fable 5.2 agents fully formalized Fermat’s Last Theorem in 30 hours, translating the proof into a language a computer can check step by step. With the same setup, Claude Opus 5.5 completed only 26% in 18 hours and barely made more progress after 30 hours.",
+          "sha256": "81b3880b961c048ec66d15a388af7804306a9dcaaac506d95409d222c511e710",
+          "source": "Anthropic",
+          "request_id": "210ccf63611eb7fea9b2772ea0f34ee005da69e4bf6a4f2716aa7a959dd84af0",
           "mode": "standard"
         }
       ]
@@ -11117,13 +11130,21 @@
       ]
     },
     "210ccf63611eb7fea9b2772ea0f34ee005da69e4bf6a4f2716aa7a959dd84af0": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-09T20:16:22.060772+00:00",
       "received_sequence": 344,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-09T20:16:22.956942+00:00",
+      "records": [
+        {
+          "id": 379,
+          "revision": 1,
+          "sha256": "81b3880b961c048ec66d15a388af7804306a9dcaaac506d95409d222c511e710"
+        }
+      ]
     }
   },
   "batches": {
@@ -42284,6 +42305,21 @@
       "result": {
         "status": "received",
         "request_id": "210ccf63611eb7fea9b2772ea0f34ee005da69e4bf6a4f2716aa7a959dd84af0"
+      }
+    },
+    "c70884ca6e5e866b964deed8a146466d8f551aff2694f42e715de3bf097d6655": {
+      "sha256": "395f5e2eb8aabbdc53c73dedae562b707fd5ad5c07aedb4c54a6c7960b00a24c",
+      "result": {
+        "status": "finalized",
+        "request_id": "210ccf63611eb7fea9b2772ea0f34ee005da69e4bf6a4f2716aa7a959dd84af0",
+        "records": [
+          {
+            "id": 379,
+            "revision": 1,
+            "sha256": "81b3880b961c048ec66d15a388af7804306a9dcaaac506d95409d222c511e710"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
