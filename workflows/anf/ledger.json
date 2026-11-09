@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1160,
-  "updated_at": "2026-11-09T18:11:49.553643+00:00",
-  "next_id": 376,
+  "generation": 1161,
+  "updated_at": "2026-11-09T18:11:50.530352+00:00",
+  "next_id": 377,
   "records": [
     {
       "id": 1,
@@ -4995,6 +4995,19 @@
           "sha256": "ea961f968f6d2154bec2d3e73e28aa11fb451a4fd7706aaa45aa0e868cbcb9e3",
           "source": "Anthropic",
           "request_id": "6261446f646e83201c98d8bf410932e59fd59a83fe79a537395efb32b64be0d0",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 376,
+      "revisions": [
+        {
+          "created_at": "2026-11-09T18:11:50.530352+00:00",
+          "block": "Title: Meta Introduces Muse Ember, Its Smallest Everyday Agent Model\nURL: https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/\nImage URL: https://techcrunch.com/wp-content/uploads/2026/11/Blog-Header-Visual.png\nSummary: Meta introduced Muse Ember, its smallest and most efficient Muse model for everyday agent work. Meta says it can carry workflows across apps, call tools in sequence, run tests, and make targeted code fixes, with a 1M-token context window and native text, image, audio, and video support. It is on Meta's Model API at $0.10 per million input tokens.",
+          "sha256": "3637c8d08c733975d9a3ae4b39a55fd75341694d6c2f67aef67085cdc5fe0afb",
+          "source": "Meta",
+          "request_id": "86243ddcc4e9c1278ad8e0b49d8d3c677ebdadba61f86b5c0d4aab1795cf404f",
           "mode": "standard"
         }
       ]
@@ -11027,13 +11040,21 @@
       ]
     },
     "86243ddcc4e9c1278ad8e0b49d8d3c677ebdadba61f86b5c0d4aab1795cf404f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-09T18:11:49.553643+00:00",
       "received_sequence": 341,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-09T18:11:50.530352+00:00",
+      "records": [
+        {
+          "id": 376,
+          "revision": 1,
+          "sha256": "3637c8d08c733975d9a3ae4b39a55fd75341694d6c2f67aef67085cdc5fe0afb"
+        }
+      ]
     }
   },
   "batches": {
@@ -42092,6 +42113,21 @@
       "result": {
         "status": "received",
         "request_id": "86243ddcc4e9c1278ad8e0b49d8d3c677ebdadba61f86b5c0d4aab1795cf404f"
+      }
+    },
+    "9efb626adf42412327567e8d0047b3fbe9f4924f01e11aa96a871d780e88b81e": {
+      "sha256": "448d88cf5768f7f810b80d43868f4ff340a35c5855eb47983700f7a864d0d57f",
+      "result": {
+        "status": "finalized",
+        "request_id": "86243ddcc4e9c1278ad8e0b49d8d3c677ebdadba61f86b5c0d4aab1795cf404f",
+        "records": [
+          {
+            "id": 376,
+            "revision": 1,
+            "sha256": "3637c8d08c733975d9a3ae4b39a55fd75341694d6c2f67aef67085cdc5fe0afb"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
