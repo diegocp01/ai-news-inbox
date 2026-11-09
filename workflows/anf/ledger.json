@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1170,
-  "updated_at": "2026-11-09T20:16:22.956942+00:00",
+  "generation": 1171,
+  "updated_at": "2026-11-09T20:16:23.819121+00:00",
   "next_id": 380,
   "records": [
     {
@@ -42321,6 +42321,18 @@
         ],
         "duplicates": []
       }
+    },
+    "0a8a67a83c131d317844ae45038795ad4ed690427cffd8f5d70277d027980d9f": {
+      "sha256": "5a8e96cb0132811025158426e9b8a0d39b4659aa7fe7b1ef20d596fbebc7f738",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 379,
+          "revision": 1,
+          "sha256": "81b3880b961c048ec66d15a388af7804306a9dcaaac506d95409d222c511e710"
+        },
+        "editorial_sha256": "85828b61493f7a400095a0d0631dc00d6fc6fd78268a3e70fec7b5f46de54e95"
+      }
     }
   },
   "migration": {
@@ -52567,6 +52579,26 @@
         "sha256": "98cd92fa13257e0e90fac3ca1007b2a66e1fc0ff534a600d57795b7e526a31c0",
         "reviewed_at": "2026-11-09T20:08:26.972488+00:00",
         "operation_id": "5914d0103379f184e67ab657de04c0e94060a09f03af08daeedba6fbad5f7b9e"
+      }
+    ],
+    "379:1": [
+      {
+        "reference": {
+          "id": 379,
+          "revision": 1,
+          "sha256": "81b3880b961c048ec66d15a388af7804306a9dcaaac506d95409d222c511e710"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Company-reported math formalization demo with Fable 5.2 agents; plain-language capability claim, not a new flagship model release; no ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "3c4e55a791a71d27f039d0b27501b55e3c608d7c9382ce8a2885fef81f3e780c"
+          }
+        },
+        "sha256": "85828b61493f7a400095a0d0631dc00d6fc6fd78268a3e70fec7b5f46de54e95",
+        "reviewed_at": "2026-11-09T20:16:23.819121+00:00",
+        "operation_id": "0a8a67a83c131d317844ae45038795ad4ed690427cffd8f5d70277d027980d9f"
       }
     ]
   }
