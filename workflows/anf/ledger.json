@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1147,
-  "updated_at": "2026-11-09T12:37:25.692379+00:00",
-  "next_id": 373,
+  "generation": 1148,
+  "updated_at": "2026-11-09T12:43:01.603341+00:00",
+  "next_id": 375,
   "records": [
     {
       "id": 1,
@@ -4955,6 +4955,34 @@
           "source": "arXiv",
           "request_id": "0e9820c50da35abeb7a2e81169e6e1de843100ce738a4ae26c2e05803ec4cfc8",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 373,
+      "revisions": [
+        {
+          "created_at": "2026-11-09T12:43:01.603341+00:00",
+          "block": "Title: Nvidia Board Opens Investigation Into Reported Intelligence Targeting\nURL: https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors\nImage URL: https://www.nvidia.com/content/dam/en-zz/Solutions/navigation/intelligent-machines.png\nSummary: Nvidia’s board announced an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation. Huang acknowledged an extramarital affair and pledged cooperation. China denied the spying allegations. The board said it had no reason to believe national security or company secrets were compromised and expressed confidence in Huang’s leadership.",
+          "sha256": "c77e335e47ded664e4fbc6b164304b50f8c726f9f54751173731e8c71b1c4d37",
+          "source": "nvidianews.nvidia.com",
+          "request_id": "7f6b93e256704cd8970c9fae45856a353b1246974dba910df47b5e053532762e",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 374,
+      "revisions": [
+        {
+          "created_at": "2026-11-09T12:43:01.603341+00:00",
+          "block": "Title: Anthropic Describes How Claude Reviews and Corrects Saved Memories\nURL: https://www.anthropic.com/research/components-of-agent-memory\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/31b7b06af6c391aa4f93ad9747d00ae248ea3c63-2000x1125.jpg\nSummary: Anthropic described a process called dreaming, in which Claude agents use idle time to review saved notes against records of earlier work. The company said this can correct errors and reorganize information for later sessions. In a Pokémon Red test, Anthropic reported that correcting an inaccurate location note helped Claude progress past a navigation trap.",
+          "sha256": "297f2296d5b01af7a69ffddaaf68cc4aa09aef74ad110b0c66d116c05dd33fe1",
+          "source": "anthropic.com",
+          "request_id": "7f6b93e256704cd8970c9fae45856a353b1246974dba910df47b5e053532762e",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -10946,14 +10974,27 @@
       ]
     },
     "7f6b93e256704cd8970c9fae45856a353b1246974dba910df47b5e053532762e": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-09T12:37:25.692379+00:00",
       "received_sequence": 339,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-09T12:43:01.603341+00:00",
+      "records": [
+        {
+          "id": 373,
+          "revision": 1,
+          "sha256": "c77e335e47ded664e4fbc6b164304b50f8c726f9f54751173731e8c71b1c4d37"
+        },
+        {
+          "id": 374,
+          "revision": 1,
+          "sha256": "297f2296d5b01af7a69ffddaaf68cc4aa09aef74ad110b0c66d116c05dd33fe1"
+        }
+      ]
     }
   },
   "batches": {
@@ -41271,6 +41312,26 @@
       "result": {
         "status": "received",
         "request_id": "7f6b93e256704cd8970c9fae45856a353b1246974dba910df47b5e053532762e"
+      }
+    },
+    "74391518642cf929c480085d0512746086d5c5acc2d80d6481b711dea86844c1": {
+      "sha256": "573e03f166378d381c8f3afa8030a4ca2bc61d55b5c6be82c7f87713b5da0f8b",
+      "result": {
+        "status": "finalized",
+        "request_id": "7f6b93e256704cd8970c9fae45856a353b1246974dba910df47b5e053532762e",
+        "records": [
+          {
+            "id": 373,
+            "revision": 1,
+            "sha256": "c77e335e47ded664e4fbc6b164304b50f8c726f9f54751173731e8c71b1c4d37"
+          },
+          {
+            "id": 374,
+            "revision": 1,
+            "sha256": "297f2296d5b01af7a69ffddaaf68cc4aa09aef74ad110b0c66d116c05dd33fe1"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
