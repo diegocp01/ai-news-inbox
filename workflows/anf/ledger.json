@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1148,
-  "updated_at": "2026-11-09T12:43:01.603341+00:00",
+  "generation": 1152,
+  "updated_at": "2026-11-09T13:04:49.169779+00:00",
   "next_id": 375,
   "records": [
     {
@@ -41333,6 +41333,54 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261109-371-4448": {
+      "sha256": "959e391ac87a0bacebaf4636485ea46c428ba67d1ac4d12103bd4e1f925f8a35",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 371,
+          "revision": 1,
+          "sha256": "8d46efb0cdf5ee5b2f0089cdca313eec07aa84401bf6b7613ee7117aef2744f0"
+        },
+        "editorial_sha256": "463caa52703441be6773e52f385ae0a539b90abd54a2d490a2f115378c3225b4"
+      }
+    },
+    "muse-backfill-20261109-372-6528": {
+      "sha256": "ecd6197d6f3376adbfccb7115b0dc0b5825f6899d071671191427885e4c60ebc",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 372,
+          "revision": 1,
+          "sha256": "094c133740214e45c5f7992cdb69dd6847a50f2304d43ab2990e20f7d348f256"
+        },
+        "editorial_sha256": "14116c3de152b180e3600caae8ac95588c7ce3a42660269c7551c13c907e39e3"
+      }
+    },
+    "muse-backfill-20261109-373-8580": {
+      "sha256": "fa9a4a5efbc4960653d5a3b98aa320a58800456284f456a04f8b7ec8463aff1b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 373,
+          "revision": 1,
+          "sha256": "c77e335e47ded664e4fbc6b164304b50f8c726f9f54751173731e8c71b1c4d37"
+        },
+        "editorial_sha256": "f4d844ba5ff78208d76f1f4946aec0f2566447575f09f50af06044252c490900"
+      }
+    },
+    "muse-backfill-20261109-374-1257": {
+      "sha256": "40115fc7b5b373bf90eb2654c9d7aee15479dd32e4c4b25e4621e222bf5a839d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 374,
+          "revision": 1,
+          "sha256": "297f2296d5b01af7a69ffddaaf68cc4aa09aef74ad110b0c66d116c05dd33fe1"
+        },
+        "editorial_sha256": "93004f9c0bb1fbc71d6f91c110e67ef92db6a4e83d294f1324a64d0cf4f5808a"
+      }
     }
   },
   "migration": {
@@ -51419,6 +51467,86 @@
         "sha256": "9ee401546477846d1c84d327f4c18c2cc6e27c9b4c74c1a30f03fd8215f271e6",
         "reviewed_at": "2026-11-08T16:33:47.069199+00:00",
         "operation_id": "71e5b99f5f7def517646ed49a2b75e5a6c7c494709af7cc189da3c91e2ea19b9"
+      }
+    ],
+    "371:1": [
+      {
+        "reference": {
+          "id": 371,
+          "revision": 1,
+          "sha256": "8d46efb0cdf5ee5b2f0089cdca313eec07aa84401bf6b7613ee7117aef2744f0"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Peter Belcak and colleagues turn language-model reasoning traces into reusable CPU-executable routines supported by a small model. The routines matched or exceeded the source model's accuracy on seven of eight benchmarks, with estimated per-call costs 16 to 291 times lower; building each routine costs more upfront, so savings depend on reuse. This is AI research on reasoning distillation and inference efficiency, with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-09: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "8d46efb0cdf5ee5b2f0089cdca313eec07aa84401bf6b7613ee7117aef2744f0"
+          }
+        },
+        "sha256": "463caa52703441be6773e52f385ae0a539b90abd54a2d490a2f115378c3225b4",
+        "reviewed_at": "2026-11-09T13:04:48.692539+00:00",
+        "operation_id": "muse-backfill-20261109-371-4448"
+      }
+    ],
+    "372:1": [
+      {
+        "reference": {
+          "id": 372,
+          "revision": 1,
+          "sha256": "094c133740214e45c5f7992cdb69dd6847a50f2304d43ab2990e20f7d348f256"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Chaoyang Wang and colleagues train a coding agent to build and render 3D scenes that guide a video generator's layout and motion. With MiniMax-H3, PhyGenBench scores rose from 0.61 to 0.67 and VBench-2.0 scores from 54.58% to 78.19%, gains specific to the tested setups. This is AI research on video generation guided by 3D scene construction, with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-09: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "094c133740214e45c5f7992cdb69dd6847a50f2304d43ab2990e20f7d348f256"
+          }
+        },
+        "sha256": "14116c3de152b180e3600caae8ac95588c7ce3a42660269c7551c13c907e39e3",
+        "reviewed_at": "2026-11-09T13:04:48.846244+00:00",
+        "operation_id": "muse-backfill-20261109-372-6528"
+      }
+    ],
+    "373:1": [
+      {
+        "reference": {
+          "id": 373,
+          "revision": 1,
+          "sha256": "c77e335e47ded664e4fbc6b164304b50f8c726f9f54751173731e8c71b1c4d37"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Nvidia's board announced an independent investigation into reports that CEO Jensen Huang was targeted by a foreign intelligence operation. Huang acknowledged an extramarital affair and pledged cooperation; China denied the spying allegations. The board said it had no reason to believe national security or company secrets were compromised and expressed confidence in Huang's leadership. This is corporate governance news, not technical research. muse-compile-backfill 2026-11-09: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "c77e335e47ded664e4fbc6b164304b50f8c726f9f54751173731e8c71b1c4d37"
+          }
+        },
+        "sha256": "f4d844ba5ff78208d76f1f4946aec0f2566447575f09f50af06044252c490900",
+        "reviewed_at": "2026-11-09T13:04:49.016056+00:00",
+        "operation_id": "muse-backfill-20261109-373-8580"
+      }
+    ],
+    "374:1": [
+      {
+        "reference": {
+          "id": 374,
+          "revision": 1,
+          "sha256": "297f2296d5b01af7a69ffddaaf68cc4aa09aef74ad110b0c66d116c05dd33fe1"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Anthropic described a process called dreaming, in which Claude agents use idle time to review saved notes against records of earlier work. The company said this can correct errors and reorganize information for later sessions. In a Pokemon Red test, correcting an inaccurate location note helped Claude progress past a navigation trap. This is AI research on agent memory and self-correction, for research audiences. muse-compile-backfill 2026-11-09: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "297f2296d5b01af7a69ffddaaf68cc4aa09aef74ad110b0c66d116c05dd33fe1"
+          }
+        },
+        "sha256": "93004f9c0bb1fbc71d6f91c110e67ef92db6a4e83d294f1324a64d0cf4f5808a",
+        "reviewed_at": "2026-11-09T13:04:49.169779+00:00",
+        "operation_id": "muse-backfill-20261109-374-1257"
       }
     ]
   }
