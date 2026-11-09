@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1175,
-  "updated_at": "2026-11-09T23:13:37.136664+00:00",
-  "next_id": 381,
+  "generation": 1176,
+  "updated_at": "2026-11-09T23:14:26.804371+00:00",
+  "next_id": 382,
   "records": [
     {
       "id": 1,
@@ -5060,6 +5060,19 @@
           "sha256": "7ff8478e59cbb65632c1ae2de6bb4a15d6bc2c372fecfee5842dc13567736775",
           "source": "Anthropic",
           "request_id": "6229033c817eaa4d3906f7245cc7a66c6d6ff0e55acb0428e155bec135e58b1e",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 381,
+      "revisions": [
+        {
+          "created_at": "2026-11-09T23:14:26.804371+00:00",
+          "block": "Title: OpenAI Deploys Control Room to Halt Unsafe Research Workloads\nURL: \nImage URL: https://images.ctfassets.net/kftzwdyauwt9/7CRGR1hiay1UfPVqjUSdAk/da9d8e1e61347fdae6d40e0a72962731/introducing-control-room-social.png\nSummary: OpenAI built Control Room, a central system that tracks model workloads across its research infrastructure and can stop them quickly when safety or security concerns arise. It covers research inference jobs and, OpenAI says, halts model output within 35 seconds of a decision to intervene.",
+          "sha256": "65cf8cbab64bb0d933083ebc24bd8d54d7b9e0a51097fb700abd9243e1f5e6a0",
+          "source": "OpenAI",
+          "request_id": "3dc6a3d707b87666857c9d090c21af36913ea15bd679c6ea453f92d70ef93f34",
           "mode": "standard"
         }
       ]
@@ -11177,13 +11190,21 @@
       ]
     },
     "3dc6a3d707b87666857c9d090c21af36913ea15bd679c6ea453f92d70ef93f34": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-09T23:13:37.136664+00:00",
       "received_sequence": 346,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-09T23:14:26.804371+00:00",
+      "records": [
+        {
+          "id": 381,
+          "revision": 1,
+          "sha256": "65cf8cbab64bb0d933083ebc24bd8d54d7b9e0a51097fb700abd9243e1f5e6a0"
+        }
+      ]
     }
   },
   "batches": {
@@ -42412,6 +42433,21 @@
       "result": {
         "status": "received",
         "request_id": "3dc6a3d707b87666857c9d090c21af36913ea15bd679c6ea453f92d70ef93f34"
+      }
+    },
+    "36495d622854e8dc27e7b0fdd90722dbd1d16bdffb1729780468013cc2d787c4": {
+      "sha256": "358b39fb806dca55a5552d8e5235cf91583e4859a6cce43d19e1e53b550040e6",
+      "result": {
+        "status": "finalized",
+        "request_id": "3dc6a3d707b87666857c9d090c21af36913ea15bd679c6ea453f92d70ef93f34",
+        "records": [
+          {
+            "id": 381,
+            "revision": 1,
+            "sha256": "65cf8cbab64bb0d933083ebc24bd8d54d7b9e0a51097fb700abd9243e1f5e6a0"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
