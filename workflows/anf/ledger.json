@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1166,
-  "updated_at": "2026-11-09T20:08:25.002930+00:00",
-  "next_id": 378,
+  "generation": 1167,
+  "updated_at": "2026-11-09T20:08:25.989340+00:00",
+  "next_id": 379,
   "records": [
     {
       "id": 1,
@@ -5021,6 +5021,19 @@
           "sha256": "e11da078ff5590b27523317349410cc6ce4840691ee9112dff42b29776169a61",
           "source": "Anthropic",
           "request_id": "7152e28373e0b5bef88519351b95b257f7dafda37f653218e49c18fa0fb8f43e",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 378,
+      "revisions": [
+        {
+          "created_at": "2026-11-09T20:08:25.989340+00:00",
+          "block": "Title: ChatGPT Dots Can Connect Multiple Local Computers\nURL: \nImage URL: https://www.androidauthority.com/wp-content/uploads/2026/09/ChatGPT-Dots.jpg\nSummary: OpenAI says ChatGPT dots can now connect more than one local computer and choose which one handles a task. According to OpenAI Developers, a dot can build and test an app on a dedicated machine while you keep coding on your laptop.",
+          "sha256": "c507273462c85d1e2e3e980b6a1a7d3db9c7b4984ea7a4ddefcd2cb63a9478cc",
+          "source": "OpenAI",
+          "request_id": "059a1c9eca324e808ae7328046f6b79371bf02cf42b5310f556ca977d582fd3a",
           "mode": "standard"
         }
       ]
@@ -11087,13 +11100,21 @@
       ]
     },
     "059a1c9eca324e808ae7328046f6b79371bf02cf42b5310f556ca977d582fd3a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-09T20:08:25.002930+00:00",
       "received_sequence": 343,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-09T20:08:25.989340+00:00",
+      "records": [
+        {
+          "id": 378,
+          "revision": 1,
+          "sha256": "c507273462c85d1e2e3e980b6a1a7d3db9c7b4984ea7a4ddefcd2cb63a9478cc"
+        }
+      ]
     }
   },
   "batches": {
@@ -42220,6 +42241,21 @@
       "result": {
         "status": "received",
         "request_id": "059a1c9eca324e808ae7328046f6b79371bf02cf42b5310f556ca977d582fd3a"
+      }
+    },
+    "ce3bf6fc5acfe7c3b72ae4c7e10cad4294f71183846e89ae3826f973ef5da9d3": {
+      "sha256": "9f2be8059089dd79df203fef5edaedea22e8306edc1d67a084105e9ed17848f5",
+      "result": {
+        "status": "finalized",
+        "request_id": "059a1c9eca324e808ae7328046f6b79371bf02cf42b5310f556ca977d582fd3a",
+        "records": [
+          {
+            "id": 378,
+            "revision": 1,
+            "sha256": "c507273462c85d1e2e3e980b6a1a7d3db9c7b4984ea7a4ddefcd2cb63a9478cc"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
