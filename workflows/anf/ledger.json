@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1167,
-  "updated_at": "2026-11-09T20:08:25.989340+00:00",
+  "generation": 1168,
+  "updated_at": "2026-11-09T20:08:26.972488+00:00",
   "next_id": 379,
   "records": [
     {
@@ -42257,6 +42257,18 @@
         ],
         "duplicates": []
       }
+    },
+    "5914d0103379f184e67ab657de04c0e94060a09f03af08daeedba6fbad5f7b9e": {
+      "sha256": "235571d67ab984eee40fbfa5e39500ee90380e494d1a220f54ce5eed6a104fc7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 378,
+          "revision": 1,
+          "sha256": "c507273462c85d1e2e3e980b6a1a7d3db9c7b4984ea7a4ddefcd2cb63a9478cc"
+        },
+        "editorial_sha256": "98cd92fa13257e0e90fac3ca1007b2a66e1fc0ff534a600d57795b7e526a31c0"
+      }
     }
   },
   "migration": {
@@ -52483,6 +52495,26 @@
         "sha256": "feb8847253663893b0a09a61db567347f9255b7b2f344b2905208553ebdec3c0",
         "reviewed_at": "2026-11-09T19:02:01.774729+00:00",
         "operation_id": "7023d9acfc732af301155f639e4fcf2f211e1b91ee4ed12bb540b4e259a00478"
+      }
+    ],
+    "378:1": [
+      {
+        "reference": {
+          "id": 378,
+          "revision": 1,
+          "sha256": "c507273462c85d1e2e3e980b6a1a7d3db9c7b4984ea7a4ddefcd2cb63a9478cc"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "ChatGPT product feature for connecting multiple local computers to a dot; no ML-technical, developer/API, or hardware terms in the summary.",
+            "evidence_sha256": "f6be371594208dbaf663349f8ae69d6f5dd70a7dce2beb8c5c405f35620a9e0d"
+          }
+        },
+        "sha256": "98cd92fa13257e0e90fac3ca1007b2a66e1fc0ff534a600d57795b7e526a31c0",
+        "reviewed_at": "2026-11-09T20:08:26.972488+00:00",
+        "operation_id": "5914d0103379f184e67ab657de04c0e94060a09f03af08daeedba6fbad5f7b9e"
       }
     ]
   }
