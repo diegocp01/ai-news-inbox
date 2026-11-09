@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1145,
-  "updated_at": "2026-11-09T12:00:58+00:00",
-  "next_id": 371,
+  "generation": 1146,
+  "updated_at": "2026-11-09T12:03:02+00:00",
+  "next_id": 373,
   "records": [
     {
       "id": 1,
@@ -4928,6 +4928,32 @@
           "sha256": "69f00cb572dbe4f19fa887d677ca791f7478c46797bfe6d95a1e85666c14e467",
           "source": "Bloomberg",
           "request_id": "db8dc1c7d8baca7fad81d4e8ecae417c1c43dec4708380e3a394904f67dd5341",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 371,
+      "revisions": [
+        {
+          "created_at": "2026-11-09T12:03:02+00:00",
+          "block": "Title: CPU-ARC Reuses AI Reasoning as Code\nURL: https://arxiv.org/abs/2611.09891\nImage URL: https://api.alphaxiv.org/open-graph/v1/paper/2611.09891.png?v=2\nSummary: Peter Belcak and colleagues turn language-model reasoning traces into reusable CPU-executable routines supported by a small model. The routines matched or exceeded the source model’s accuracy on seven of eight benchmarks, and estimated per-call costs were 16 to 291 times lower. Building each routine costs more upfront, so savings depend on reuse.",
+          "sha256": "8d46efb0cdf5ee5b2f0089cdca313eec07aa84401bf6b7613ee7117aef2744f0",
+          "source": "arXiv",
+          "request_id": "0e9820c50da35abeb7a2e81169e6e1de843100ce738a4ae26c2e05803ec4cfc8",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 372,
+      "revisions": [
+        {
+          "created_at": "2026-11-09T12:03:02+00:00",
+          "block": "Title: Video-Coder Uses 3D Drafts to Guide Video Generation\nURL: https://arxiv.org/abs/2611.09894\nImage URL: https://arxiv.org/html/2611.09894v1/Video-Coder-Teaser-import.png\nSummary: Chaoyang Wang and colleagues train a coding agent to build and render 3D scenes that guide a video generator’s layout and motion. With MiniMax-H3, the authors report that PhyGenBench scores rose from 0.61 to 0.67 and VBench-2.0 scores from 54.58% to 78.19%. These gains are specific to the tested setups.",
+          "sha256": "094c133740214e45c5f7992cdb69dd6847a50f2304d43ab2990e20f7d348f256",
+          "source": "arXiv",
+          "request_id": "0e9820c50da35abeb7a2e81169e6e1de843100ce738a4ae26c2e05803ec4cfc8",
           "mode": "standard"
         }
       ]
@@ -10898,13 +10924,26 @@
       ]
     },
     "0e9820c50da35abeb7a2e81169e6e1de843100ce738a4ae26c2e05803ec4cfc8": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-09T12:00:58+00:00",
       "received_sequence": 338,
       "expected_items": 2,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-09T12:03:02+00:00",
+      "records": [
+        {
+          "id": 371,
+          "revision": 1,
+          "sha256": "8d46efb0cdf5ee5b2f0089cdca313eec07aa84401bf6b7613ee7117aef2744f0"
+        },
+        {
+          "id": 372,
+          "revision": 1,
+          "sha256": "094c133740214e45c5f7992cdb69dd6847a50f2304d43ab2990e20f7d348f256"
+        }
+      ]
     }
   },
   "batches": {
@@ -41195,6 +41234,26 @@
       "result": {
         "status": "received",
         "request_id": "0e9820c50da35abeb7a2e81169e6e1de843100ce738a4ae26c2e05803ec4cfc8"
+      }
+    },
+    "0e9820c50da35abeb7a2e81169e6e1de843100ce738a4ae26c2e05803ec4cfc8-finalize": {
+      "sha256": "46c19b76f7656070252f85a2e96a858bd78f85a53dd6297531595e0d263944ff",
+      "result": {
+        "status": "finalized",
+        "request_id": "0e9820c50da35abeb7a2e81169e6e1de843100ce738a4ae26c2e05803ec4cfc8",
+        "records": [
+          {
+            "id": 371,
+            "revision": 1,
+            "sha256": "8d46efb0cdf5ee5b2f0089cdca313eec07aa84401bf6b7613ee7117aef2744f0"
+          },
+          {
+            "id": 372,
+            "revision": 1,
+            "sha256": "094c133740214e45c5f7992cdb69dd6847a50f2304d43ab2990e20f7d348f256"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
