@@ -1,0 +1,41 @@
+Title: Anthropic Details Claude Dreaming and Leaner Pokémon Memory Notes
+URL: https://www.anthropic.com/research/components-of-agent-memory
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg
+Summary: Anthropic described how Claude agents use downtime dreaming to check memory notes against past work logs and reorganize them. Newer models better judge what to save, and explaining why memory matters beat fixed rules. In Pokémon tests, Fable 5 earned four badges with nine files plus global.md, Sonnet 3.7 one badge with 413 files, and Opus 5.5 beat the game.
+
+Title: Meta Introduces Muse Ember, Its Smallest Everyday Agent Model
+URL: https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/
+Image URL: https://techcrunch.com/wp-content/uploads/2026/11/Blog-Header-Visual.png
+Summary: Meta introduced Muse Ember, its smallest and most efficient Muse model for everyday agent work. Meta says it can carry workflows across apps, call tools in sequence, run tests, and make targeted code fixes, with a 1M-token context window and native text, image, audio, and video support. It is on Meta's Model API at $0.10 per million input tokens.
+ds: true
+
+Title: New AI Model: Anthropic Releases Claude Fable 5.2 and Mythos 5.2
+URL: https://www.anthropic.com/claude-fable-and-mythos-5-2
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg
+Summary: Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 for the hardest technical challenges, with reported gains in coding, reasoning, and vision. They are up to 30% faster than the prior versions and priced lower. Fable is available to all users today; Mythos is the same model reserved for vetted cybersecurity and life-sciences work.
+
+Title: ChatGPT Dots Can Connect Multiple Local Computers
+URL: 
+Image URL: https://www.androidauthority.com/wp-content/uploads/2026/09/ChatGPT-Dots.jpg
+Summary: OpenAI says ChatGPT dots can now connect more than one local computer and choose which one handles a task. According to OpenAI Developers, a dot can build and test an app on a dedicated machine while you keep coding on your laptop.
+
+Title: Claude Fable 5.2 Agents Formalize Fermat’s Last Theorem in 30 Hours
+URL: https://www.anthropic.com/claude-fable-and-mythos-5-2
+Image URL: https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/og.png
+Summary: Anthropic says a team of 1,000 Claude Fable 5.2 agents fully formalized Fermat’s Last Theorem in 30 hours, translating the proof into a language a computer can check step by step. With the same setup, Claude Opus 5.5 completed only 26% in 18 hours and barely made more progress after 30 hours.
+
+Title: Claude Fable 5.2 Solves Two Open Black Hole Physics Problems
+URL: https://www.anthropic.com/claude-fable-and-mythos-5-2
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg
+Summary: Anthropic says Claude Fable 5.2 solved two open problems in theoretical physics. Both concern black holes and the effort to unite relativity and quantum mechanics. Anthropic published preprints on the results, which have not yet undergone independent peer review.
+
+Title: OpenAI Deploys Control Room to Halt Unsafe Research Workloads
+URL: 
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/7CRGR1hiay1UfPVqjUSdAk/da9d8e1e61347fdae6d40e0a72962731/introducing-control-room-social.png
+Summary: OpenAI built Control Room, a central system that tracks model workloads across its research infrastructure and can stop them quickly when safety or security concerns arise. It covers research inference jobs and, OpenAI says, halts model output within 35 seconds of a decision to intervene.
+
+
+
+
+
+.

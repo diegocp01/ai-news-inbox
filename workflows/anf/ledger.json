@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1178,
-  "updated_at": "2026-11-10T12:40:31.463178+00:00",
+  "generation": 1179,
+  "updated_at": "2026-11-10T13:00:57.250508+00:00",
   "next_id": 382,
   "records": [
     {
@@ -20248,9 +20248,128 @@
       },
       "acknowledged_at": "2026-11-09T13:33:19.277520+00:00",
       "checkpoint_after": 374
+    },
+    "bc39f42e1c2006d2b3740742": {
+      "batch_id": "bc39f42e1c2006d2b3740742",
+      "status": "prepared",
+      "checkpoint_before": 374,
+      "prepared_at": "2026-11-10T13:00:57.250508+00:00",
+      "intake_cutoff": 347,
+      "records": [
+        {
+          "id": 375,
+          "revision": 1,
+          "sha256": "ea961f968f6d2154bec2d3e73e28aa11fb451a4fd7706aaa45aa0e868cbcb9e3"
+        },
+        {
+          "id": 376,
+          "revision": 1,
+          "sha256": "3637c8d08c733975d9a3ae4b39a55fd75341694d6c2f67aef67085cdc5fe0afb"
+        },
+        {
+          "id": 377,
+          "revision": 1,
+          "sha256": "e11da078ff5590b27523317349410cc6ce4840691ee9112dff42b29776169a61"
+        },
+        {
+          "id": 378,
+          "revision": 1,
+          "sha256": "c507273462c85d1e2e3e980b6a1a7d3db9c7b4984ea7a4ddefcd2cb63a9478cc"
+        },
+        {
+          "id": 379,
+          "revision": 1,
+          "sha256": "81b3880b961c048ec66d15a388af7804306a9dcaaac506d95409d222c511e710"
+        },
+        {
+          "id": 380,
+          "revision": 1,
+          "sha256": "7ff8478e59cbb65632c1ae2de6bb4a15d6bc2c372fecfee5842dc13567736775"
+        },
+        {
+          "id": 381,
+          "revision": 1,
+          "sha256": "65cf8cbab64bb0d933083ebc24bd8d54d7b9e0a51097fb700abd9243e1f5e6a0"
+        }
+      ],
+      "first_id": 375,
+      "last_id": 381,
+      "count": 7,
+      "txt_path": "workflows/anf/batches/bc39f42e1c2006d2b3740742.txt",
+      "json_path": "workflows/anf/batches/bc39f42e1c2006d2b3740742.json",
+      "txt_sha256": "93a7db851c00e035f6013b69aac8938b04d6a2f339a2cfb587448c56c3bd5b5c",
+      "json_sha256": "1b167812ea908f12b7bdae3927775a42215ddcb141829a553ffe1efb33e2ead7",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Plain-language product research on agent memory notes and Pokémon test results; no ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "b42859664d0c19229fc52ae7afa795645b51411d55f809b21078ed6c5f2040e5"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer Model API release with tool-calling, coding, context-window, and pricing terms.",
+            "evidence_sha256": "737b27c5cd61ffe7e54c0c103b09adefc47a38a03a7b1a1a8ffab57369f40a7b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Non-DS flagship Claude model release; summary kept in plain language without ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "1608aae56a5dd49f5d87ffaf88c61856bc7c6ffc6773fb4100e9ac39295dca54"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "ChatGPT product feature for connecting multiple local computers to a dot; no ML-technical, developer/API, or hardware terms in the summary.",
+            "evidence_sha256": "f6be371594208dbaf663349f8ae69d6f5dd70a7dce2beb8c5c405f35620a9e0d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Company-reported math formalization demo with Fable 5.2 agents; plain-language capability claim, not a new flagship model release; no ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "3c4e55a791a71d27f039d0b27501b55e3c608d7c9382ce8a2885fef81f3e780c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Company-reported physics capability claim about existing Fable 5.2; not a new flagship model release; plain language without ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "62338a1d14d9bd4e2aa7969782d3bfc07afca515100f100da9dd30f224257113"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Safety infrastructure announcement; summary avoids ML-technical, developer/API, and hardware-internals jargon; not a flagship model release.",
+            "evidence_sha256": "109130aece1542c7aac0a9c200400a8aedcaeeaefa18fa1ae1c4d601b5010384"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-10T13:00:00+00:00",
+      "deferred_request_ids": [
+        "2d6986e5832f5bde23286a957312a036f58465a3f1ffd756a0a1ad1d62122319"
+      ]
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "bc39f42e1c2006d2b3740742",
   "replacement_batch": null,
   "checkpoint": 374,
   "checkpoint_history": [
@@ -42477,6 +42596,132 @@
       "result": {
         "status": "received",
         "request_id": "2d6986e5832f5bde23286a957312a036f58465a3f1ffd756a0a1ad1d62122319"
+      }
+    },
+    "muse-compile-20261110-1300-6095": {
+      "sha256": "c10a4a15f11fab62fcafa9eebc06a16f8be6daf9bac71d8b16ffb5322b653f12",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "bc39f42e1c2006d2b3740742",
+          "status": "prepared",
+          "checkpoint_before": 374,
+          "prepared_at": "2026-11-10T13:00:57.250508+00:00",
+          "intake_cutoff": 347,
+          "records": [
+            {
+              "id": 375,
+              "revision": 1,
+              "sha256": "ea961f968f6d2154bec2d3e73e28aa11fb451a4fd7706aaa45aa0e868cbcb9e3"
+            },
+            {
+              "id": 376,
+              "revision": 1,
+              "sha256": "3637c8d08c733975d9a3ae4b39a55fd75341694d6c2f67aef67085cdc5fe0afb"
+            },
+            {
+              "id": 377,
+              "revision": 1,
+              "sha256": "e11da078ff5590b27523317349410cc6ce4840691ee9112dff42b29776169a61"
+            },
+            {
+              "id": 378,
+              "revision": 1,
+              "sha256": "c507273462c85d1e2e3e980b6a1a7d3db9c7b4984ea7a4ddefcd2cb63a9478cc"
+            },
+            {
+              "id": 379,
+              "revision": 1,
+              "sha256": "81b3880b961c048ec66d15a388af7804306a9dcaaac506d95409d222c511e710"
+            },
+            {
+              "id": 380,
+              "revision": 1,
+              "sha256": "7ff8478e59cbb65632c1ae2de6bb4a15d6bc2c372fecfee5842dc13567736775"
+            },
+            {
+              "id": 381,
+              "revision": 1,
+              "sha256": "65cf8cbab64bb0d933083ebc24bd8d54d7b9e0a51097fb700abd9243e1f5e6a0"
+            }
+          ],
+          "first_id": 375,
+          "last_id": 381,
+          "count": 7,
+          "txt_path": "workflows/anf/batches/bc39f42e1c2006d2b3740742.txt",
+          "json_path": "workflows/anf/batches/bc39f42e1c2006d2b3740742.json",
+          "txt_sha256": "93a7db851c00e035f6013b69aac8938b04d6a2f339a2cfb587448c56c3bd5b5c",
+          "json_sha256": "1b167812ea908f12b7bdae3927775a42215ddcb141829a553ffe1efb33e2ead7",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Plain-language product research on agent memory notes and Pokémon test results; no ML-technical, developer/API, or hardware terms.",
+                "evidence_sha256": "b42859664d0c19229fc52ae7afa795645b51411d55f809b21078ed6c5f2040e5"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Developer Model API release with tool-calling, coding, context-window, and pricing terms.",
+                "evidence_sha256": "737b27c5cd61ffe7e54c0c103b09adefc47a38a03a7b1a1a8ffab57369f40a7b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Non-DS flagship Claude model release; summary kept in plain language without ML-technical, developer/API, or hardware terms.",
+                "evidence_sha256": "1608aae56a5dd49f5d87ffaf88c61856bc7c6ffc6773fb4100e9ac39295dca54"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "ChatGPT product feature for connecting multiple local computers to a dot; no ML-technical, developer/API, or hardware terms in the summary.",
+                "evidence_sha256": "f6be371594208dbaf663349f8ae69d6f5dd70a7dce2beb8c5c405f35620a9e0d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Company-reported math formalization demo with Fable 5.2 agents; plain-language capability claim, not a new flagship model release; no ML-technical, developer/API, or hardware terms.",
+                "evidence_sha256": "3c4e55a791a71d27f039d0b27501b55e3c608d7c9382ce8a2885fef81f3e780c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Company-reported physics capability claim about existing Fable 5.2; not a new flagship model release; plain language without ML-technical, developer/API, or hardware terms.",
+                "evidence_sha256": "62338a1d14d9bd4e2aa7969782d3bfc07afca515100f100da9dd30f224257113"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Safety infrastructure announcement; summary avoids ML-technical, developer/API, and hardware-internals jargon; not a flagship model release.",
+                "evidence_sha256": "109130aece1542c7aac0a9c200400a8aedcaeeaefa18fa1ae1c4d601b5010384"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-10T13:00:00+00:00",
+          "deferred_request_ids": [
+            "2d6986e5832f5bde23286a957312a036f58465a3f1ffd756a0a1ad1d62122319"
+          ]
+        }
       }
     }
   },
