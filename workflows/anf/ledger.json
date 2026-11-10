@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1179,
-  "updated_at": "2026-11-10T13:00:57.250508+00:00",
+  "generation": 1180,
+  "updated_at": "2026-11-10T13:09:03.382483+00:00",
   "next_id": 382,
   "records": [
     {
@@ -20251,7 +20251,7 @@
     },
     "bc39f42e1c2006d2b3740742": {
       "batch_id": "bc39f42e1c2006d2b3740742",
-      "status": "prepared",
+      "status": "published",
       "checkpoint_before": 374,
       "prepared_at": "2026-11-10T13:00:57.250508+00:00",
       "intake_cutoff": 347,
@@ -20366,7 +20366,13 @@
       "eligibility_at": "2026-11-10T13:00:00+00:00",
       "deferred_request_ids": [
         "2d6986e5832f5bde23286a957312a036f58465a3f1ffd756a0a1ad1d62122319"
-      ]
+      ],
+      "publication": {
+        "path": "items/2026-11-10.json",
+        "sha256": "1b167812ea908f12b7bdae3927775a42215ddcb141829a553ffe1efb33e2ead7",
+        "published_at": "2026-11-10T13:09:03.382483+00:00",
+        "planned_from_head": "f79d3994f76c246832775a1e801fc78c424a7c9a"
+      }
     }
   },
   "pending_batch_id": "bc39f42e1c2006d2b3740742",
@@ -42721,6 +42727,19 @@
           "deferred_request_ids": [
             "2d6986e5832f5bde23286a957312a036f58465a3f1ffd756a0a1ad1d62122319"
           ]
+        }
+      }
+    },
+    "muse-publish-20261110-1309-3393": {
+      "sha256": "1e390dec46a066cdc56d757cd90c6509019be37e405143b169e3edd50e042139",
+      "result": {
+        "status": "publication_planned",
+        "batch_id": "bc39f42e1c2006d2b3740742",
+        "publication": {
+          "path": "items/2026-11-10.json",
+          "sha256": "1b167812ea908f12b7bdae3927775a42215ddcb141829a553ffe1efb33e2ead7",
+          "published_at": "2026-11-10T13:09:03.382483+00:00",
+          "planned_from_head": "f79d3994f76c246832775a1e801fc78c424a7c9a"
         }
       }
     }
