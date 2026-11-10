@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1184,
-  "updated_at": "2026-11-10T23:22:10.786524+00:00",
-  "next_id": 385,
+  "generation": 1185,
+  "updated_at": "2026-11-10T23:22:11.677985+00:00",
+  "next_id": 386,
   "records": [
     {
       "id": 1,
@@ -5116,6 +5116,19 @@
           "request_id": "2d6986e5832f5bde23286a957312a036f58465a3f1ffd756a0a1ad1d62122319",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 385,
+      "revisions": [
+        {
+          "created_at": "2026-11-10T23:22:11.677985+00:00",
+          "block": "Title: OpenAI Will Retire Advanced and Standard ChatGPT Voice on December 11\nURL: \nImage URL: https://images.ctfassets.net/kftzwdyauwt9/54glGpDpS58mKdx6Y3GobW/6ea5121851a36b8cf0505a96be2de994/bidi-art-card_16_9__1_.png\nSummary: OpenAI will retire Advanced and Standard voice from ChatGPT Voice on December 11, 2026. Users will then be switched to Live voice, powered by GPT-Live, which OpenAI introduced in July. Live video and screen sharing will keep using Advanced voice until GPT-Live supports them.",
+          "sha256": "8dbe1986b8248865c0e1bb7cb3de1e5414f9776f4d597dfacf083eb924747fac",
+          "source": "OpenAI",
+          "request_id": "a5f1fac13b605a69e441e950e3a9ce19847c14ec5d56ebccc8ae300a39cbc222",
+          "mode": "standard"
         }
       ]
     }
@@ -11277,13 +11290,21 @@
       ]
     },
     "a5f1fac13b605a69e441e950e3a9ce19847c14ec5d56ebccc8ae300a39cbc222": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-10T23:22:10.786524+00:00",
       "received_sequence": 348,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-10T23:22:11.677985+00:00",
+      "records": [
+        {
+          "id": 385,
+          "revision": 1,
+          "sha256": "8dbe1986b8248865c0e1bb7cb3de1e5414f9776f4d597dfacf083eb924747fac"
+        }
+      ]
     }
   },
   "batches": {
@@ -42902,6 +42923,21 @@
       "result": {
         "status": "received",
         "request_id": "a5f1fac13b605a69e441e950e3a9ce19847c14ec5d56ebccc8ae300a39cbc222"
+      }
+    },
+    "19559a6f48e0299ddb1b7f7040dd6a10319ea7eda066710e0bf80972cadcb6da": {
+      "sha256": "996ffc573d2b64112dec8a4c6cb6397039a2d914b39611a75585a156474b4365",
+      "result": {
+        "status": "finalized",
+        "request_id": "a5f1fac13b605a69e441e950e3a9ce19847c14ec5d56ebccc8ae300a39cbc222",
+        "records": [
+          {
+            "id": 385,
+            "revision": 1,
+            "sha256": "8dbe1986b8248865c0e1bb7cb3de1e5414f9776f4d597dfacf083eb924747fac"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
