@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1205,
-  "updated_at": "2026-11-11T00:38:09.273679+00:00",
-  "next_id": 392,
+  "generation": 1206,
+  "updated_at": "2026-11-11T00:38:10.092308+00:00",
+  "next_id": 393,
   "records": [
     {
       "id": 1,
@@ -5206,6 +5206,19 @@
           "sha256": "227c510eac1605f5ad001dc156b1f336567f24474d1b1f7fa55fd0911f633b5b",
           "source": "Odessia",
           "request_id": "b02cc275522c8e64de5ea87f7b072925fa94e309fa681b50a29433dcef5e8dd8",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 392,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T00:38:10.092308+00:00",
+          "block": "Title: Google DeepMind Introduces Gemini Robotics 2.5\nURL: https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/\nImage URL: https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w1200-h630-n-nu-rw\nSummary: Google DeepMind introduced Gemini Robotics 2.5, which it calls its latest physical AI for robots. The company says the system can learn hundreds of everyday skills, from folding laundry and serving pastries to sorting car parts on a factory floor, and that it is rolling out to robotics partners.",
+          "sha256": "ff78ed26b6d1a1472c21e0324cf7b2751fb75eaa6f1a6cd996bb1a23ab0fc2f1",
+          "source": "Google DeepMind",
+          "request_id": "85196cfc064dc9f7dff7d7557ece21020c5dcba27d8763fc3d0caf0fedfd4710",
           "mode": "standard"
         }
       ]
@@ -11487,13 +11500,21 @@
       ]
     },
     "85196cfc064dc9f7dff7d7557ece21020c5dcba27d8763fc3d0caf0fedfd4710": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T00:38:09.273679+00:00",
       "received_sequence": 355,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T00:38:10.092308+00:00",
+      "records": [
+        {
+          "id": 392,
+          "revision": 1,
+          "sha256": "ff78ed26b6d1a1472c21e0324cf7b2751fb75eaa6f1a6cd996bb1a23ab0fc2f1"
+        }
+      ]
     }
   },
   "batches": {
@@ -43350,6 +43371,21 @@
       "result": {
         "status": "received",
         "request_id": "85196cfc064dc9f7dff7d7557ece21020c5dcba27d8763fc3d0caf0fedfd4710"
+      }
+    },
+    "d9c778198a267f2e4f682794f8b8431af87c42be70a28eb539932b007df614cf": {
+      "sha256": "c21f2c12a06131be9dcf50f772d22341a0504066308e2124c668ad46486bc20f",
+      "result": {
+        "status": "finalized",
+        "request_id": "85196cfc064dc9f7dff7d7557ece21020c5dcba27d8763fc3d0caf0fedfd4710",
+        "records": [
+          {
+            "id": 392,
+            "revision": 1,
+            "sha256": "ff78ed26b6d1a1472c21e0324cf7b2751fb75eaa6f1a6cd996bb1a23ab0fc2f1"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
