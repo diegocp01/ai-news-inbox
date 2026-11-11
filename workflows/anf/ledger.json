@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1223,
-  "updated_at": "2026-11-11T03:49:43.478401+00:00",
-  "next_id": 398,
+  "generation": 1224,
+  "updated_at": "2026-11-11T03:49:44.227795+00:00",
+  "next_id": 399,
   "records": [
     {
       "id": 1,
@@ -5284,6 +5284,19 @@
           "sha256": "759d9fb2b3b3b0c8b7528c25ffca7f791f208165585c28ef3dfe94bd18899286",
           "source": "AI Futures",
           "request_id": "002b73118b1db09c30ca2042b5f77fead84101d2d8426fb05c71ff933c2a56df",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 398,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T03:49:44.227795+00:00",
+          "block": "Title: Google DeepMind Formally Verifies the Production Code Behind Signal's Protocol\nURL: https://deepmind.google/blog/introducing-alphaproof-code/\nImage URL: https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w1200-h630-n-nu-rw\nSummary: Google DeepMind says its researchers used a new AI system, AlphaProof Code, to mathematically prove key security properties of the actual production code behind the Signal messaging protocol, which the company calls a first for widely deployed software. The work took four weeks with human experts guiding the AI, and the team is releasing the proofs.",
+          "sha256": "7a23cd6cff1be530f9c5b4e5d70c8d6c9f2f1f6d6e41ac2ca406687a09d38ab2",
+          "source": "Google DeepMind",
+          "request_id": "aa59c969faf849ca5bdb023f05120b12e5670ddb84fc84eb68b0d0b1b42e2efe",
           "mode": "standard"
         }
       ]
@@ -11667,13 +11680,21 @@
       ]
     },
     "aa59c969faf849ca5bdb023f05120b12e5670ddb84fc84eb68b0d0b1b42e2efe": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T03:49:43.478401+00:00",
       "received_sequence": 361,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T03:49:44.227795+00:00",
+      "records": [
+        {
+          "id": 398,
+          "revision": 1,
+          "sha256": "7a23cd6cff1be530f9c5b4e5d70c8d6c9f2f1f6d6e41ac2ca406687a09d38ab2"
+        }
+      ]
     }
   },
   "batches": {
@@ -43734,6 +43755,21 @@
       "result": {
         "status": "received",
         "request_id": "aa59c969faf849ca5bdb023f05120b12e5670ddb84fc84eb68b0d0b1b42e2efe"
+      }
+    },
+    "b4cde49e11fa9cdb4cddf50ff4b6c6d79911f7490644f2d4fa6b83a9b83abeba": {
+      "sha256": "bb210748685eda8d6f3fea4df4ad1f6870954b2750dabafd5f48dd7cdd6c10c8",
+      "result": {
+        "status": "finalized",
+        "request_id": "aa59c969faf849ca5bdb023f05120b12e5670ddb84fc84eb68b0d0b1b42e2efe",
+        "records": [
+          {
+            "id": 398,
+            "revision": 1,
+            "sha256": "7a23cd6cff1be530f9c5b4e5d70c8d6c9f2f1f6d6e41ac2ca406687a09d38ab2"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
