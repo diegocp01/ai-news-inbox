@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1233,
-  "updated_at": "2026-11-11T12:48:44.604810+00:00",
+  "generation": 1239,
+  "updated_at": "2026-11-11T13:03:53.806298+00:00",
   "next_id": 404,
   "records": [
     {
@@ -44013,6 +44013,78 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261111-382-4030": {
+      "sha256": "6a901f6c999b526b1cd10318c54f20d9a280aa987f11acc8ce720b30d39db6e6",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 382,
+          "revision": 1,
+          "sha256": "98d960d362bcebf4136cd3df6ca043e9f4c953758c8454aea7a7ef8fbc5a6d48"
+        },
+        "editorial_sha256": "cc689f59d1375d72d8bbf128d37afd7c8fa59af040b75eff920179d66eb8c5b3"
+      }
+    },
+    "muse-backfill-20261111-383-1617": {
+      "sha256": "8f4be6fbedb57420312305cebd5d7a20d4f762674cac41ec06357d7e4feefc82",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 383,
+          "revision": 1,
+          "sha256": "e4616cdeab3428deff04c200a55f7b6ba8458ba424a7b270c526dabd3bf738c4"
+        },
+        "editorial_sha256": "ec834491c9db90f9059da7292f39d56602c6084eb7a019af041b47b7122ace60"
+      }
+    },
+    "muse-backfill-20261111-384-5779": {
+      "sha256": "70874be12ec36dfec8c6707bf61e13f9aa5ae56d3333001f85ed71a4e7da4765",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 384,
+          "revision": 1,
+          "sha256": "106cd7644398ae5a7632f8e64481384c7801e4999a270a35321a1c6dc0544562"
+        },
+        "editorial_sha256": "8d6943ae5941c3e134201998b0f44cfb14ba7cd7b08ccbfe89b1944b491b6809"
+      }
+    },
+    "muse-backfill-20261111-401-6005": {
+      "sha256": "df9a2366672b2cd2f3e5216257b6cf7f22d0ca4d0049da1d50141faee93776bb",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 401,
+          "revision": 1,
+          "sha256": "e609bae300ccf5954154eb95c988fef710cfcf1c77cf1acffbbc6ee3f63b54a5"
+        },
+        "editorial_sha256": "a3cf0a89e8137ee73c86f4fa3b6aadec088656728e8eb38fc7f856d3e9fd1baa"
+      }
+    },
+    "muse-backfill-20261111-402-2547": {
+      "sha256": "d8c478092491c6f32a94ee31abdf1ad4c9cf12ffad2a021ee89f1fc1b9825438",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 402,
+          "revision": 1,
+          "sha256": "7a977ee0856173a81467eb26ad04457cf5339578c2074ac1c49b04087f21ba94"
+        },
+        "editorial_sha256": "d866764f4a04d1815f0ccb8253249443bd44911fbd86043a9bba08af6406e3e8"
+      }
+    },
+    "muse-backfill-20261111-403-3486": {
+      "sha256": "c05c5992d68c2465bba4dbe5a41cf5453efc2ed0d23bb4ca5a83f536ecf7b57d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 403,
+          "revision": 1,
+          "sha256": "d3c4f299b281f75336808215f41b0a1b0a787b2d21ce52fa2927368023b3d074"
+        },
+        "editorial_sha256": "6697b166b8bc38b303e2c76e544d88dd832b390f15f4dba49c9621042ebd8cff"
+      }
     }
   },
   "migration": {
@@ -54639,6 +54711,126 @@
         "sha256": "e1dfcc49a54d52ead141f3716bf78da1610f99c951eb0b5fa9f41bc52956f8a8",
         "reviewed_at": "2026-11-11T12:36:30.143632+00:00",
         "operation_id": "c07adb4008737a37377b967e10def63df15be5464cc20f0e6360e96862766e67"
+      }
+    ],
+    "382:1": [
+      {
+        "reference": {
+          "id": 382,
+          "revision": 1,
+          "sha256": "98d960d362bcebf4136cd3df6ca043e9f4c953758c8454aea7a7ef8fbc5a6d48"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Anthropic released Claude Fable 5.2 and Mythos 5.2 for complex technical work, generating output up to 30% faster than their 5.1 versions at lower prices. Fable includes cybersecurity and biology safeguards; Mythos is available through verification programs for security and life sciences organizations and powers Claude Security for Enterprise customers. This is an AI model release for complex technical work, for research and technical audiences. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "98d960d362bcebf4136cd3df6ca043e9f4c953758c8454aea7a7ef8fbc5a6d48"
+          }
+        },
+        "sha256": "cc689f59d1375d72d8bbf128d37afd7c8fa59af040b75eff920179d66eb8c5b3",
+        "reviewed_at": "2026-11-11T13:03:52.889240+00:00",
+        "operation_id": "muse-backfill-20261111-382-4030"
+      }
+    ],
+    "383:1": [
+      {
+        "reference": {
+          "id": 383,
+          "revision": 1,
+          "sha256": "e4616cdeab3428deff04c200a55f7b6ba8458ba424a7b270c526dabd3bf738c4"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Meta released Muse Ember, a small AI model for repeated tasks in automated assistants, including document processing and coding subtasks. Meta says that at maximum reasoning it roughly matches Claude Haiku 5.5 on the Artificial Analysis Intelligence Index at about one-third the cost per benchmark task, based on estimates using proposed pricing. This is a model release with benchmark evaluation for developers building automated assistants. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e4616cdeab3428deff04c200a55f7b6ba8458ba424a7b270c526dabd3bf738c4"
+          }
+        },
+        "sha256": "ec834491c9db90f9059da7292f39d56602c6084eb7a019af041b47b7122ace60",
+        "reviewed_at": "2026-11-11T13:03:53.101286+00:00",
+        "operation_id": "muse-backfill-20261111-383-1617"
+      }
+    ],
+    "384:1": [
+      {
+        "reference": {
+          "id": 384,
+          "revision": 1,
+          "sha256": "106cd7644398ae5a7632f8e64481384c7801e4999a270a35321a1c6dc0544562"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Google announced two new systems built around its custom AI chips: TPU 8tx and TPU 8i Max. The company says 8tx protects sensitive data during processing for governments and regulated businesses, and 8i Max packages two TPU 8i chips together, providing twice the computing capacity and twice the bandwidth for high-bandwidth memory. This is an AI infrastructure hardware announcement, for technical audiences. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "106cd7644398ae5a7632f8e64481384c7801e4999a270a35321a1c6dc0544562"
+          }
+        },
+        "sha256": "8d6943ae5941c3e134201998b0f44cfb14ba7cd7b08ccbfe89b1944b491b6809",
+        "reviewed_at": "2026-11-11T13:03:53.308402+00:00",
+        "operation_id": "muse-backfill-20261111-384-5779"
+      }
+    ],
+    "401:1": [
+      {
+        "reference": {
+          "id": 401,
+          "revision": 1,
+          "sha256": "e609bae300ccf5954154eb95c988fef710cfcf1c77cf1acffbbc6ee3f63b54a5"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "OpenAI launched Businesses in ChatGPT in beta, letting eligible companies claim profiles, update information, and view aggregated mentions and website clicks. Eligible U.S. ecommerce and online service businesses can create assistants that answer customer questions; those conversations are labeled and separate from ChatGPT's independent answers, and businesses can sponsor their assistants as destinations for clearly labeled ChatGPT ads. This is business product news for a broad audience, not technical research. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e609bae300ccf5954154eb95c988fef710cfcf1c77cf1acffbbc6ee3f63b54a5"
+          }
+        },
+        "sha256": "a3cf0a89e8137ee73c86f4fa3b6aadec088656728e8eb38fc7f856d3e9fd1baa",
+        "reviewed_at": "2026-11-11T13:03:53.471372+00:00",
+        "operation_id": "muse-backfill-20261111-401-6005"
+      }
+    ],
+    "402:1": [
+      {
+        "reference": {
+          "id": 402,
+          "revision": 1,
+          "sha256": "7a977ee0856173a81467eb26ad04457cf5339578c2074ac1c49b04087f21ba94"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic launched Claude Sheets and Whiteboards in beta for paid users and made Claude Data, formerly Dashboards, generally available. The company says Data can turn business metrics into visual stories and narrated videos. It also announced an upcoming Google Meet assistant and expanded connectors for working in other apps within Claude. This is productivity product news for a broad audience, not technical research. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "7a977ee0856173a81467eb26ad04457cf5339578c2074ac1c49b04087f21ba94"
+          }
+        },
+        "sha256": "d866764f4a04d1815f0ccb8253249443bd44911fbd86043a9bba08af6406e3e8",
+        "reviewed_at": "2026-11-11T13:03:53.640245+00:00",
+        "operation_id": "muse-backfill-20261111-402-2547"
+      }
+    ],
+    "403:1": [
+      {
+        "reference": {
+          "id": 403,
+          "revision": 1,
+          "sha256": "d3c4f299b281f75336808215f41b0a1b0a787b2d21ce52fa2927368023b3d074"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The AI Futures Project now forecasts systems matching top AI researchers' judgment and fully automating AI research coding in 2027, assuming no substantial deliberate slowdown. Its biggest influence was METR's uncertain assessment of research acceleration at Anthropic, which relies heavily on redacted evidence. The group urges an industry pause or substantial slowdown if its forecast is right. This is AI timelines forecasting research, for research audiences. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "d3c4f299b281f75336808215f41b0a1b0a787b2d21ce52fa2927368023b3d074"
+          }
+        },
+        "sha256": "6697b166b8bc38b303e2c76e544d88dd832b390f15f4dba49c9621042ebd8cff",
+        "reviewed_at": "2026-11-11T13:03:53.806298+00:00",
+        "operation_id": "muse-backfill-20261111-403-3486"
       }
     ]
   }
