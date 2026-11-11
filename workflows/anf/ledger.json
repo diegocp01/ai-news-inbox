@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1227,
-  "updated_at": "2026-11-11T12:20:48.405152+00:00",
+  "generation": 1228,
+  "updated_at": "2026-11-11T12:20:49.171233+00:00",
   "next_id": 400,
   "records": [
     {
@@ -43835,6 +43835,18 @@
         ],
         "duplicates": []
       }
+    },
+    "ea3ec1bb26f619b1cc3037263ad14b8593c582280e12af7055d0465456752577": {
+      "sha256": "52b1e2f5bef72a7b7f4d2701b8defc3d8d6453556849e397ea114a4fd5971bc4",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 399,
+          "revision": 1,
+          "sha256": "424026695d249303a546048d8d3f08eee1f743d1d127aa907bc32f9b1c82d623"
+        },
+        "editorial_sha256": "244edebf530fac7396d0cf594c97d26853313a6ef7f1b9913983afdde23d18ef"
+      }
     }
   },
   "migration": {
@@ -54421,6 +54433,26 @@
         "sha256": "83bd4871faead71b9ad0eabe1dec5bdca971b7ec6669fb0837a93cc96e25d5cd",
         "reviewed_at": "2026-11-11T03:49:44.968371+00:00",
         "operation_id": "ce4afd753c9fd9bb6968d414c9eeb8831d2bec35afc41b2b3dd7cebf2fba125e"
+      }
+    ],
+    "399:1": [
+      {
+        "reference": {
+          "id": 399,
+          "revision": 1,
+          "sha256": "424026695d249303a546048d8d3f08eee1f743d1d127aa907bc32f9b1c82d623"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer email feature written in plain language with no ML-technical, developer/API, or hardware-internals terms. Not a new flagship model release; Muse already exists and this is a feature rollout of an address previewed at Connect, so no New AI Model prefix.",
+            "evidence_sha256": "89187b16a35a11739dfce9ff1abbbf102268bad2c09c44011b4791751e078382"
+          }
+        },
+        "sha256": "244edebf530fac7396d0cf594c97d26853313a6ef7f1b9913983afdde23d18ef",
+        "reviewed_at": "2026-11-11T12:20:49.171233+00:00",
+        "operation_id": "ea3ec1bb26f619b1cc3037263ad14b8593c582280e12af7055d0465456752577"
       }
     ]
   }
