@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1215,
-  "updated_at": "2026-11-11T00:45:04.096078+00:00",
+  "generation": 1216,
+  "updated_at": "2026-11-11T00:45:04.869219+00:00",
   "next_id": 396,
   "records": [
     {
@@ -43579,6 +43579,18 @@
         ],
         "duplicates": []
       }
+    },
+    "6e3dc803bb316956213632fa002d7f3debda56218c68e4d49e825287102bde77": {
+      "sha256": "4253bc98abfdba276f0c6a27c9314a2df05ec308bc5707ef992aaeb1174ce4f9",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 395,
+          "revision": 1,
+          "sha256": "04438d3ad3d157b3dca6c0683df60a661f6d538d58dd63237844fc04e32a96cb"
+        },
+        "editorial_sha256": "883be2804b98cac754ec8806552adfaec3a52091cdc1cca49648ea461d796ee2"
+      }
     }
   },
   "migration": {
@@ -54085,6 +54097,26 @@
         "sha256": "b97bf1c4f51803ca8eb20d18ffcc79d80e906c78ca5608851500ab953da839f9",
         "reviewed_at": "2026-11-11T00:43:15.371619+00:00",
         "operation_id": "64fd5a476a17bfa5c55fadd36c28fe89211d7efdf2411259c144ab49e0e2dcfc"
+      }
+    ],
+    "395:1": [
+      {
+        "reference": {
+          "id": 395,
+          "revision": 1,
+          "sha256": "04438d3ad3d157b3dca6c0683df60a661f6d538d58dd63237844fc04e32a96cb"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Wider rollout of already-announced Gemini 4 Carbon plus a personal demo, written in plain language with no ML-technical, developer/API, or hardware terms; follow-up to an existing flagship launch so no New AI Model prefix.",
+            "evidence_sha256": "9db12cfae53062290d8b262e487454f8b0d85351af835ef3d493caf72f4cb71b"
+          }
+        },
+        "sha256": "883be2804b98cac754ec8806552adfaec3a52091cdc1cca49648ea461d796ee2",
+        "reviewed_at": "2026-11-11T00:45:04.869219+00:00",
+        "operation_id": "6e3dc803bb316956213632fa002d7f3debda56218c68e4d49e825287102bde77"
       }
     ]
   }
