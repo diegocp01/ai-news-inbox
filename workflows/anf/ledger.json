@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1260,
-  "updated_at": "2026-11-11T18:10:04.059808+00:00",
+  "generation": 1261,
+  "updated_at": "2026-11-11T18:10:04.841578+00:00",
   "next_id": 410,
   "records": [
     {
@@ -45167,6 +45167,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a481cdcd801ceac10e266e8c2ccf0fb22e3fcabc9b9b5c8ca1ee50dbd1b37c92": {
+      "sha256": "239bd2ca094530b8a4f4210b26dfdfcd920b01267be0e37f796942c49f957343",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 409,
+          "revision": 1,
+          "sha256": "e0ced63f1e823e2f5b561baf5dfc668a51ad51e82dac3bf8b195c59df5b6491d"
+        },
+        "editorial_sha256": "707e31bb70639eb0df51683185821c2069e5d5dd9cbae780a4969b2d7ace353c"
+      }
     }
   },
   "migration": {
@@ -56013,6 +56025,26 @@
         "sha256": "37d5774061e72d9cb8255723e1e03f86903a68beeaf682a02fa71de16257917a",
         "reviewed_at": "2026-11-11T18:07:41.782533+00:00",
         "operation_id": "f685cd1d7617192c86fa97c76a69e5fb1f0530a8100da78757d9e7833fcba663"
+      }
+    ],
+    "409:1": [
+      {
+        "reference": {
+          "id": 409,
+          "revision": 1,
+          "sha256": "e0ced63f1e823e2f5b561baf5dfc668a51ad51e82dac3bf8b195c59df5b6491d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Specialized image model described in plain language; no ML-technical, developer/API, or hardware-internals terms. MiniMax is not a flagship-prefix lab, and this is not a new Gemini/GPT/Claude/Grok/Muse model, so no New AI Model prefix.",
+            "evidence_sha256": "749ea1579ea735b3e5aecef7ae89af9e78470705b27890a6346848ac70b3c9c8"
+          }
+        },
+        "sha256": "707e31bb70639eb0df51683185821c2069e5d5dd9cbae780a4969b2d7ace353c",
+        "reviewed_at": "2026-11-11T18:10:04.841578+00:00",
+        "operation_id": "a481cdcd801ceac10e266e8c2ccf0fb22e3fcabc9b9b5c8ca1ee50dbd1b37c92"
       }
     ]
   }
