@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1257,
-  "updated_at": "2026-11-11T18:07:40.967756+00:00",
+  "generation": 1258,
+  "updated_at": "2026-11-11T18:07:41.782533+00:00",
   "next_id": 409,
   "records": [
     {
@@ -45103,6 +45103,18 @@
         ],
         "duplicates": []
       }
+    },
+    "f685cd1d7617192c86fa97c76a69e5fb1f0530a8100da78757d9e7833fcba663": {
+      "sha256": "941ff79e237bd013f8b2e5025c7c16a32d2a6f217ed333c873f11a59f6127bc0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 408,
+          "revision": 1,
+          "sha256": "36b78edb03d2726094819da6848dbfd46b9267ab2e451e1a9eaf3b68c3f17ed7"
+        },
+        "editorial_sha256": "37d5774061e72d9cb8255723e1e03f86903a68beeaf682a02fa71de16257917a"
+      }
     }
   },
   "migration": {
@@ -55929,6 +55941,26 @@
         "sha256": "3bb40b66be07e02570b8fd7531a5c8399f75947cb3d2164985093181df55a98b",
         "reviewed_at": "2026-11-11T17:46:29.197309+00:00",
         "operation_id": "f3e559f4c56e2e93348aeccb30fc0044856fd1458c09e94304356cd723000dee"
+      }
+    ],
+    "408:1": [
+      {
+        "reference": {
+          "id": 408,
+          "revision": 1,
+          "sha256": "36b78edb03d2726094819da6848dbfd46b9267ab2e451e1a9eaf3b68c3f17ed7"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Feature/integration of Uber Courier into the existing Muse agent, described in plain language; no ML-technical, developer/API, or hardware-internals terms. Not a new flagship Muse/Gemini/GPT/Claude/Grok model, so no New AI Model prefix.",
+            "evidence_sha256": "b380da6431261f1089e568e8ae4d52f5115e92c3f3c721d7db0b79ece12c0052"
+          }
+        },
+        "sha256": "37d5774061e72d9cb8255723e1e03f86903a68beeaf682a02fa71de16257917a",
+        "reviewed_at": "2026-11-11T18:07:41.782533+00:00",
+        "operation_id": "f685cd1d7617192c86fa97c76a69e5fb1f0530a8100da78757d9e7833fcba663"
       }
     ]
   }
