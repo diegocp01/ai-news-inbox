@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1190,
-  "updated_at": "2026-11-11T00:32:00.697633+00:00",
-  "next_id": 387,
+  "generation": 1191,
+  "updated_at": "2026-11-11T00:32:01.471435+00:00",
+  "next_id": 388,
   "records": [
     {
       "id": 1,
@@ -5141,6 +5141,19 @@
           "sha256": "127ad9725ea18ba91f8ea91f93751aed9beecdf37a00dee1eaf8450950c9a73d",
           "source": "Anthropic",
           "request_id": "72f6c52c0193fdf54a899277ce35d4b520b323139d8f5c62e8be46cc03b15096",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 387,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T00:32:01.471435+00:00",
+          "block": "Title: Claude Rolls Out Whiteboards, Sheets, and Data\nURL: https://claude.com/resources/articles/sheets-whiteboards-data\nImage URL: https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og\nSummary: Anthropic is rolling out Claude Whiteboards and Claude Sheets in beta, plus Claude Data, the new name for generally available Claude Dashboards. Users can plan on a shared board, build a tracker in a sheet, and tell a story with their data. The features are available on paid plans.",
+          "sha256": "dd6d5fc7434d24d1bf60fba859f8ad4c69962185b656a97d71ea5b4173176e53",
+          "source": "Anthropic",
+          "request_id": "2633a44144bc8c345323eb4d410211b1c90cc345d60605d53649c854257a62ce",
           "mode": "standard"
         }
       ]
@@ -11337,13 +11350,21 @@
       ]
     },
     "2633a44144bc8c345323eb4d410211b1c90cc345d60605d53649c854257a62ce": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T00:32:00.697633+00:00",
       "received_sequence": 350,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T00:32:01.471435+00:00",
+      "records": [
+        {
+          "id": 387,
+          "revision": 1,
+          "sha256": "dd6d5fc7434d24d1bf60fba859f8ad4c69962185b656a97d71ea5b4173176e53"
+        }
+      ]
     }
   },
   "batches": {
@@ -43030,6 +43051,21 @@
       "result": {
         "status": "received",
         "request_id": "2633a44144bc8c345323eb4d410211b1c90cc345d60605d53649c854257a62ce"
+      }
+    },
+    "2aa50fa81edc4aeca05fa501e7c7ce782a32abd5587581446845fcd6297177cf": {
+      "sha256": "b5e3ff31baab0f6dbe1f9d742442f38b32b9a1eb79c5685dc9b2d809fb0958f1",
+      "result": {
+        "status": "finalized",
+        "request_id": "2633a44144bc8c345323eb4d410211b1c90cc345d60605d53649c854257a62ce",
+        "records": [
+          {
+            "id": 387,
+            "revision": 1,
+            "sha256": "dd6d5fc7434d24d1bf60fba859f8ad4c69962185b656a97d71ea5b4173176e53"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
