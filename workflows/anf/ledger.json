@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1253,
-  "updated_at": "2026-11-11T17:46:27.638470+00:00",
-  "next_id": 407,
+  "generation": 1254,
+  "updated_at": "2026-11-11T17:46:28.428575+00:00",
+  "next_id": 408,
   "records": [
     {
       "id": 1,
@@ -5404,6 +5404,19 @@
           "sha256": "c4fa8bcd94d275483529f58bd136caf610a78f8b3fa06203e2caf5dbb2b4bc31",
           "source": "Google Labs",
           "request_id": "fc239fb925238f2846fe31142c5a09dbc7a9e26c5f3d9c401bdd2f2078d81991",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 407,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T17:46:28.428575+00:00",
+          "block": "Title: Muse Is Now Available on Apple Watch and Wear OS\nURL: https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/\nImage URL: https://images.macrumors.com/t/Xim5fv6t6cpkTIwvTX8EpK9xui8=/1874x/article-new/2026/11/muse-apple-watch-app.jpg\nSummary: Meta's Muse personal AI agent is now available on Apple Watch and Wear OS, the official Muse account and Meta's Alexandr Wang announced. Users can reach Muse from the watch by text, dictation, or a voice call, TechCrunch reported.",
+          "sha256": "a5308ebe828df4be61fbebb02bc748b434c49f6e8a44b830017043fa5ff634b3",
+          "source": "Meta",
+          "request_id": "55f248e480a81fade33ef3083d0c1c1aca49a5e051793178ea8ad2d79b50e205",
           "mode": "standard"
         }
       ]
@@ -11917,13 +11930,21 @@
       ]
     },
     "55f248e480a81fade33ef3083d0c1c1aca49a5e051793178ea8ad2d79b50e205": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T17:46:27.638470+00:00",
       "received_sequence": 368,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T17:46:28.428575+00:00",
+      "records": [
+        {
+          "id": 407,
+          "revision": 1,
+          "sha256": "a5308ebe828df4be61fbebb02bc748b434c49f6e8a44b830017043fa5ff634b3"
+        }
+      ]
     }
   },
   "batches": {
@@ -45002,6 +45023,21 @@
       "result": {
         "status": "received",
         "request_id": "55f248e480a81fade33ef3083d0c1c1aca49a5e051793178ea8ad2d79b50e205"
+      }
+    },
+    "66a0c2ca11390232c01624200c4a893744b3d2e7d02abcc948d606b6acea8a19": {
+      "sha256": "71df10c19cfc456e214ad4f8918afb5df5512cf96bc96adbca87c6608103bb8a",
+      "result": {
+        "status": "finalized",
+        "request_id": "55f248e480a81fade33ef3083d0c1c1aca49a5e051793178ea8ad2d79b50e205",
+        "records": [
+          {
+            "id": 407,
+            "revision": 1,
+            "sha256": "a5308ebe828df4be61fbebb02bc748b434c49f6e8a44b830017043fa5ff634b3"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
