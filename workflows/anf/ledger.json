@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1199,
-  "updated_at": "2026-11-11T00:35:57.618396+00:00",
-  "next_id": 390,
+  "generation": 1200,
+  "updated_at": "2026-11-11T00:35:58.460452+00:00",
+  "next_id": 391,
   "records": [
     {
       "id": 1,
@@ -5180,6 +5180,19 @@
           "sha256": "f1934d61034614d065f7132e23f8129495f0c1164a0f2213b18ffaaa3c717ed6",
           "source": "Geodesic",
           "request_id": "182d38d94a393075356b2e561a7c050952a7cddf64fe7933467a93e8e3d360ba",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 390,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T00:35:58.460452+00:00",
+          "block": "Title: Maker Says Claude Reverse-Engineered His 32-Year-Old Jeep\nURL: https://github.com/MZULALI/xj-scanner\nImage URL: https://raw.githubusercontent.com/MZULALI/xj-scanner/main/docs/img/plug.jpg\nSummary: Muhammad Zulali posted a video saying Claude reverse-engineered his 32-year-old Jeep and then started controlling it. He also published a GitHub project, built and tested on a 1994 Jeep Cherokee, that lets a coding agent such as Claude Code read fault codes and live engine data, log a drive, and run the computer's built-in tests through a cheap Arduino.",
+          "sha256": "3749d4178802d04c6582b266e0d4ae7d713e27b90a50d7944dfa8e03c8958caa",
+          "source": "Muhammad Zulali",
+          "request_id": "901e192f34562e64b70aca26cc83111d17caad85582ffd533ec5e754539c97ab",
           "mode": "standard"
         }
       ]
@@ -11427,13 +11440,21 @@
       ]
     },
     "901e192f34562e64b70aca26cc83111d17caad85582ffd533ec5e754539c97ab": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T00:35:57.618396+00:00",
       "received_sequence": 353,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T00:35:58.460452+00:00",
+      "records": [
+        {
+          "id": 390,
+          "revision": 1,
+          "sha256": "3749d4178802d04c6582b266e0d4ae7d713e27b90a50d7944dfa8e03c8958caa"
+        }
+      ]
     }
   },
   "batches": {
@@ -43222,6 +43243,21 @@
       "result": {
         "status": "received",
         "request_id": "901e192f34562e64b70aca26cc83111d17caad85582ffd533ec5e754539c97ab"
+      }
+    },
+    "bba186c5ac0937641c0cfdd581219ae886732b3db37af6a1ce20e9660f25cfd5": {
+      "sha256": "dec8df8dcde27646b9f2eeb76cf520a83551b1d5b4121d07d2a13a8289d4d5b2",
+      "result": {
+        "status": "finalized",
+        "request_id": "901e192f34562e64b70aca26cc83111d17caad85582ffd533ec5e754539c97ab",
+        "records": [
+          {
+            "id": 390,
+            "revision": 1,
+            "sha256": "3749d4178802d04c6582b266e0d4ae7d713e27b90a50d7944dfa8e03c8958caa"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
