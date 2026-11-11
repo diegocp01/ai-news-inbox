@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1259,
-  "updated_at": "2026-11-11T18:10:03.231409+00:00",
-  "next_id": 409,
+  "generation": 1260,
+  "updated_at": "2026-11-11T18:10:04.059808+00:00",
+  "next_id": 410,
   "records": [
     {
       "id": 1,
@@ -5430,6 +5430,19 @@
           "sha256": "36b78edb03d2726094819da6848dbfd46b9267ab2e451e1a9eaf3b68c3f17ed7",
           "source": "Uber",
           "request_id": "d7d07d71d024ce61b45ebe71b1bc0176f93efc59939f41e6caa7ad66051ec57a",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 409,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T18:10:04.059808+00:00",
+          "block": "Title: MiniMax Releases H3-Image, Saying It Makes 4K Pictures in Under 10 Seconds\nURL: https://www.minimax.io/blog/minimax-h3-image\nImage URL: https://file.cdn.minimax.io/public/h3-image-cover-1794323228475.jpg\nSummary: MiniMax released H3-Image, an image model that can create and edit pictures, including 4K images in under 10 seconds, the company said. It can use up to 16 reference images. MiniMax says the tool is available in MiniMax Code and Hailuo AI, with 50% off 4K and higher images during launch week.",
+          "sha256": "e0ced63f1e823e2f5b561baf5dfc668a51ad51e82dac3bf8b195c59df5b6491d",
+          "source": "MiniMax",
+          "request_id": "dd09686ea888a8baab892a76696165885cabb3c61b718955f913ba10c4d53612",
           "mode": "standard"
         }
       ]
@@ -11977,13 +11990,21 @@
       ]
     },
     "dd09686ea888a8baab892a76696165885cabb3c61b718955f913ba10c4d53612": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T18:10:03.231409+00:00",
       "received_sequence": 370,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T18:10:04.059808+00:00",
+      "records": [
+        {
+          "id": 409,
+          "revision": 1,
+          "sha256": "e0ced63f1e823e2f5b561baf5dfc668a51ad51e82dac3bf8b195c59df5b6491d"
+        }
+      ]
     }
   },
   "batches": {
@@ -45130,6 +45151,21 @@
       "result": {
         "status": "received",
         "request_id": "dd09686ea888a8baab892a76696165885cabb3c61b718955f913ba10c4d53612"
+      }
+    },
+    "e88787ee3ae968ff7f4c40a361b055f447be492ddb689fe59e42362ec17f7667": {
+      "sha256": "7e306d2a96b27d8f087d0d4bce836663ae29c348d6c19e386ebcade02721aa4b",
+      "result": {
+        "status": "finalized",
+        "request_id": "dd09686ea888a8baab892a76696165885cabb3c61b718955f913ba10c4d53612",
+        "records": [
+          {
+            "id": 409,
+            "revision": 1,
+            "sha256": "e0ced63f1e823e2f5b561baf5dfc668a51ad51e82dac3bf8b195c59df5b6491d"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
