@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1256,
-  "updated_at": "2026-11-11T18:07:40.203905+00:00",
-  "next_id": 408,
+  "generation": 1257,
+  "updated_at": "2026-11-11T18:07:40.967756+00:00",
+  "next_id": 409,
   "records": [
     {
       "id": 1,
@@ -5417,6 +5417,19 @@
           "sha256": "a5308ebe828df4be61fbebb02bc748b434c49f6e8a44b830017043fa5ff634b3",
           "source": "Meta",
           "request_id": "55f248e480a81fade33ef3083d0c1c1aca49a5e051793178ea8ad2d79b50e205",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 408,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T18:07:40.967756+00:00",
+          "block": "Title: Uber Courier Is Now Available in Meta's Muse\nURL: https://www.allthingsmuse.com/articles/uber-courier-muse/\nImage URL: https://www.allthingsmuse.com/cover-uber-courier-muse.webp\nSummary: Uber Courier is now available in Meta's Muse, Uber CEO Dara Khosrowshahi said. The official Uber account said Muse users can arrange a package delivery in the chat, see the price, approve the booking, and let Uber handle the pickup.",
+          "sha256": "36b78edb03d2726094819da6848dbfd46b9267ab2e451e1a9eaf3b68c3f17ed7",
+          "source": "Uber",
+          "request_id": "d7d07d71d024ce61b45ebe71b1bc0176f93efc59939f41e6caa7ad66051ec57a",
           "mode": "standard"
         }
       ]
@@ -11947,13 +11960,21 @@
       ]
     },
     "d7d07d71d024ce61b45ebe71b1bc0176f93efc59939f41e6caa7ad66051ec57a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T18:07:40.203905+00:00",
       "received_sequence": 369,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T18:07:40.967756+00:00",
+      "records": [
+        {
+          "id": 408,
+          "revision": 1,
+          "sha256": "36b78edb03d2726094819da6848dbfd46b9267ab2e451e1a9eaf3b68c3f17ed7"
+        }
+      ]
     }
   },
   "batches": {
@@ -45066,6 +45087,21 @@
       "result": {
         "status": "received",
         "request_id": "d7d07d71d024ce61b45ebe71b1bc0176f93efc59939f41e6caa7ad66051ec57a"
+      }
+    },
+    "c07828c3090e612b001e819a826c988d2fa55e5feee9c9e72e427cb7ad4ad389": {
+      "sha256": "63ded28ebcba6c628ab7c50ef1ceb89ce44613a28802400bb1616fda47ff2746",
+      "result": {
+        "status": "finalized",
+        "request_id": "d7d07d71d024ce61b45ebe71b1bc0176f93efc59939f41e6caa7ad66051ec57a",
+        "records": [
+          {
+            "id": 408,
+            "revision": 1,
+            "sha256": "36b78edb03d2726094819da6848dbfd46b9267ab2e451e1a9eaf3b68c3f17ed7"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
