@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1188,
-  "updated_at": "2026-11-11T00:26:57.533517+00:00",
+  "generation": 1189,
+  "updated_at": "2026-11-11T00:26:58.410386+00:00",
   "next_id": 387,
   "records": [
     {
@@ -43003,6 +43003,18 @@
         ],
         "duplicates": []
       }
+    },
+    "f57caaeb3b0321ddb2159ff0f3fd248dea2a1f18f38858bedeabed2991988744": {
+      "sha256": "910c150a532f5357f6d28ff28b8cbc061c6dc44f6a4078cc4de724e0be8e04d8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 386,
+          "revision": 1,
+          "sha256": "127ad9725ea18ba91f8ea91f93751aed9beecdf37a00dee1eaf8450950c9a73d"
+        },
+        "editorial_sha256": "ecb5f686f89837ede1110ffec7059ac252ad5a9758248289625712c7428fcff3"
+      }
     }
   },
   "migration": {
@@ -53329,6 +53341,26 @@
         "sha256": "67dc03162a57ae40027dc95ed7daabe1effd681a89e37f11e08019d418c1706c",
         "reviewed_at": "2026-11-10T23:22:12.523903+00:00",
         "operation_id": "e0ee7a5d800b26d3ef355d07615e3f1019d94cc5e0b4fb235f4437406a7034c5"
+      }
+    ],
+    "386:1": [
+      {
+        "reference": {
+          "id": 386,
+          "revision": 1,
+          "sha256": "127ad9725ea18ba91f8ea91f93751aed9beecdf37a00dee1eaf8450950c9a73d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer announcement expanding MCP Apps (app tools and embedded sites) so full apps can run in Claude; public-preview docs for builders.",
+            "evidence_sha256": "05bbb1b6895c61f89f40de3be014827b0b049daf09f60ace3b170fc9394e58b1"
+          }
+        },
+        "sha256": "ecb5f686f89837ede1110ffec7059ac252ad5a9758248289625712c7428fcff3",
+        "reviewed_at": "2026-11-11T00:26:58.410386+00:00",
+        "operation_id": "f57caaeb3b0321ddb2159ff0f3fd248dea2a1f18f38858bedeabed2991988744"
       }
     ]
   }
