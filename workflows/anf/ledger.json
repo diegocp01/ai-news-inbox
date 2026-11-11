@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1276,
-  "updated_at": "2026-11-11T21:01:05.496914+00:00",
-  "next_id": 415,
+  "generation": 1279,
+  "updated_at": "2026-11-11T22:15:53.239944+00:00",
+  "next_id": 416,
   "records": [
     {
       "id": 1,
@@ -5508,6 +5508,19 @@
           "sha256": "44745a65a8b80d843c99381a4c57bc78bf49ed82830a3443b05d2c5f6d8030de",
           "source": "Nuance Labs",
           "request_id": "26580b90ea002d9c4cc18cfaae3f40aedd342903f5720342da071b178111c323",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 415,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T22:15:53.065994+00:00",
+          "block": "Title: United Blocks AI Agents From Booking Flights\nURL: https://www.usatoday.com/story/travel/airline-news/2026/11/11/united-ai-travel-agents-booking/92728156007/\nImage URL: https://www.airportspotting.com/wp-content/uploads/2022/12/Boeing_and_United_Airlines_Order.jpg\nSummary: United Airlines said November 11 it will block third-party AI agents from booking, servicing, or buying travel on its website, app, and through travel agencies and aggregators. The airline cites exposed customer data, unintended purchases, and FAA and DOT rules, noting an agent cannot attest at check-in that bags hold no explosives. Agents can still show United flights and fares.",
+          "sha256": "9cfb383a38927bc98ddf7a83f3af544631a0cb9d70c69a78d6e6969cbf89bc84",
+          "source": "USA Today",
+          "request_id": "muse-intake-20261111-united-ai-agents",
           "mode": "standard"
         }
       ]
@@ -12153,6 +12166,23 @@
           "id": 414,
           "revision": 1,
           "sha256": "44745a65a8b80d843c99381a4c57bc78bf49ed82830a3443b05d2c5f6d8030de"
+        }
+      ]
+    },
+    "muse-intake-20261111-united-ai-agents": {
+      "status": "finalized",
+      "received_at": "2026-11-11T22:15:52.889618+00:00",
+      "received_sequence": 376,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T22:15:53.065994+00:00",
+      "records": [
+        {
+          "id": 415,
+          "revision": 1,
+          "sha256": "9cfb383a38927bc98ddf7a83f3af544631a0cb9d70c69a78d6e6969cbf89bc84"
         }
       ]
     }
@@ -45499,6 +45529,40 @@
         },
         "editorial_sha256": "1a43536df09f07dfb3378fa9a8aee2ce553bcd73b75d88ec79583a59882ee89f"
       }
+    },
+    "muse-intake-20261111-united-receive-2159": {
+      "sha256": "d781579b016a851b1a3598a9b5b59d3bb5edccf12493d441057a0378873c1677",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261111-united-ai-agents"
+      }
+    },
+    "muse-intake-20261111-united-finalize-1659": {
+      "sha256": "ec4cd829ed33c6ac5b85351cea0fe957743b3bc1dd44c6d90e23cd06a282ce1f",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261111-united-ai-agents",
+        "records": [
+          {
+            "id": 415,
+            "revision": 1,
+            "sha256": "9cfb383a38927bc98ddf7a83f3af544631a0cb9d70c69a78d6e6969cbf89bc84"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261111-united-review-4266": {
+      "sha256": "c46ff70205979f6840a5291b5a4778e66dc953c363ab412b1f29c6f649dccdd1",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 415,
+          "revision": 1,
+          "sha256": "9cfb383a38927bc98ddf7a83f3af544631a0cb9d70c69a78d6e6969cbf89bc84"
+        },
+        "editorial_sha256": "2cf229da4e20d1f6e050e7f40a067a580536ddd2bca736fa486d55499e182feb"
+      }
     }
   },
   "migration": {
@@ -56465,6 +56529,26 @@
         "sha256": "1a43536df09f07dfb3378fa9a8aee2ce553bcd73b75d88ec79583a59882ee89f",
         "reviewed_at": "2026-11-11T21:01:05.496914+00:00",
         "operation_id": "db98d45a8fb0284c9353d5da28ea7173279e27932c5f43cc988997de352c22d1"
+      }
+    ],
+    "415:1": [
+      {
+        "reference": {
+          "id": 415,
+          "revision": 1,
+          "sha256": "9cfb383a38927bc98ddf7a83f3af544631a0cb9d70c69a78d6e6969cbf89bc84"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "United's ban on AI booking agents is consumer and industry news about airline policy and regulation, not a developer tool, API, or research result; it matters to general readers tracking how AI agents are being restricted in everyday services. muse-intake 2026-11-11: submitted by Diego via Instagram (Yahoo Finance post https://www.instagram.com/p/DfnWbRBF0Kz/), verified against USA Today, WSJ, and Reuters coverage; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "9cfb383a38927bc98ddf7a83f3af544631a0cb9d70c69a78d6e6969cbf89bc84"
+          }
+        },
+        "sha256": "2cf229da4e20d1f6e050e7f40a067a580536ddd2bca736fa486d55499e182feb",
+        "reviewed_at": "2026-11-11T22:15:53.239944+00:00",
+        "operation_id": "muse-intake-20261111-united-review-4266"
       }
     ]
   }
