@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1272,
-  "updated_at": "2026-11-11T20:49:43.010226+00:00",
+  "generation": 1273,
+  "updated_at": "2026-11-11T20:49:43.730698+00:00",
   "next_id": 414,
   "records": [
     {
@@ -45423,6 +45423,18 @@
         ],
         "duplicates": []
       }
+    },
+    "60b9f98cf275515ad470d970b0fec2d7ded80074ca9aa3c09bea0eea67ad3dd7": {
+      "sha256": "ea6d1c41784c5b0970d81bffb949cb3a1057f1886970ba76ed2ebe049a9170a7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 413,
+          "revision": 1,
+          "sha256": "15bd55c00377f682d1393bbf1d7606d29dd57d01348cc92b4416d2e0927d27a6"
+        },
+        "editorial_sha256": "2c01a5d3cc87964bd518ad7fd6808699522be0c9981d8fda0d071f4ce351e5ae"
+      }
     }
   },
   "migration": {
@@ -56349,6 +56361,26 @@
         "sha256": "a997b19a54123b4700aee4f0a43ab62505099fdfb8a47c8e60ec91efaa427791",
         "reviewed_at": "2026-11-11T19:52:00.788306+00:00",
         "operation_id": "3764dacc28c8a1c37f61e9a878b29cb09bc9f25f39e95e90edd5b524581c2703"
+      }
+    ],
+    "413:1": [
+      {
+        "reference": {
+          "id": 413,
+          "revision": 1,
+          "sha256": "15bd55c00377f682d1393bbf1d7606d29dd57d01348cc92b4416d2e0927d27a6"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Feature rollout of the existing Gemini app to Apple CarPlay. The wording is everyday consumer language with no developer, API, ML-technical, or hardware terms. Not a new flagship Gemini model.",
+            "evidence_sha256": "65928153921b369b27f70a218e3e19e2dccd9f6240eab7ed9262bb645fd4a5a1"
+          }
+        },
+        "sha256": "2c01a5d3cc87964bd518ad7fd6808699522be0c9981d8fda0d071f4ce351e5ae",
+        "reviewed_at": "2026-11-11T20:49:43.730698+00:00",
+        "operation_id": "60b9f98cf275515ad470d970b0fec2d7ded80074ca9aa3c09bea0eea67ad3dd7"
       }
     ]
   }
