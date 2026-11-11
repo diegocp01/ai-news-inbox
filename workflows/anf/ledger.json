@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1209,
-  "updated_at": "2026-11-11T00:38:12.490263+00:00",
+  "generation": 1210,
+  "updated_at": "2026-11-11T00:38:13.238762+00:00",
   "next_id": 394,
   "records": [
     {
@@ -43451,6 +43451,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b06823e724556f025d9eb81c1e6417d5708db4aab16cb1ba0639a65de8c08ad0": {
+      "sha256": "4e9dfb1d536b3161267fec5edc409a3da0385e47c2771573a8d791f866a9ace3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 393,
+          "revision": 1,
+          "sha256": "469c779aee32af32f339e4a1779a432309c87524e32673d7001b690d4ea14468"
+        },
+        "editorial_sha256": "7ce9f5b3cc19ae93cc4b31d05dc20339af1d06f7b1fb268bbbd2c38db88d9fe3"
+      }
     }
   },
   "migration": {
@@ -53917,6 +53929,26 @@
         "sha256": "002c087ec9e2329faa48c5ad0bb3f45250c4f418a8d65f8e57e62cd2e5e23d17",
         "reviewed_at": "2026-11-11T00:38:10.895594+00:00",
         "operation_id": "a3df611bfba0129d6d0530b0efcb243494389daedafba4c3e3a42f52b9daa8e0"
+      }
+    ],
+    "393:1": [
+      {
+        "reference": {
+          "id": 393,
+          "revision": 1,
+          "sha256": "469c779aee32af32f339e4a1779a432309c87524e32673d7001b690d4ea14468"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Cursor coding-tool feature for multiplayer Projects and teammate agent coordination; developer/coding-tool item is DS; not a flagship model release.",
+            "evidence_sha256": "0e62ba92c358786bfa1df80e2d583ab38a96bad1bf0d183390a1a3f08dbd5d93"
+          }
+        },
+        "sha256": "7ce9f5b3cc19ae93cc4b31d05dc20339af1d06f7b1fb268bbbd2c38db88d9fe3",
+        "reviewed_at": "2026-11-11T00:38:13.238762+00:00",
+        "operation_id": "b06823e724556f025d9eb81c1e6417d5708db4aab16cb1ba0639a65de8c08ad0"
       }
     ]
   }
