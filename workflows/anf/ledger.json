@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1274,
-  "updated_at": "2026-11-11T21:01:03.868119+00:00",
-  "next_id": 414,
+  "generation": 1275,
+  "updated_at": "2026-11-11T21:01:04.692612+00:00",
+  "next_id": 415,
   "records": [
     {
       "id": 1,
@@ -5495,6 +5495,19 @@
           "sha256": "15bd55c00377f682d1393bbf1d7606d29dd57d01348cc92b4416d2e0927d27a6",
           "source": "Google",
           "request_id": "5bb87244e9ba22109b6cdd8435bf2058b1453b92520f26b2c660873faef4a85e",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 414,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T21:01:04.692612+00:00",
+          "block": "Title: Nuance Labs Introduces Emma, an AI Character You Can Talk to Face to Face\nURL: https://digitalhuman.news/news/nuance-labs-launches-emma-nuplex-beta-api\nImage URL: https://framerusercontent.com/assets/NeiXc6xrTSgPOs5LeetyhRIHV8.png\nSummary: Nuance Labs introduced Emma, an AI character you can talk with face-to-face in a browser. The company says her face and voice come from a real actress, and that she is upfront she is an AI. Emma is English-only, for adults, and available in the United States except four states, the EU, the UK, and Canada except Quebec.",
+          "sha256": "44745a65a8b80d843c99381a4c57bc78bf49ed82830a3443b05d2c5f6d8030de",
+          "source": "Nuance Labs",
+          "request_id": "26580b90ea002d9c4cc18cfaae3f40aedd342903f5720342da071b178111c323",
           "mode": "standard"
         }
       ]
@@ -12127,13 +12140,21 @@
       ]
     },
     "26580b90ea002d9c4cc18cfaae3f40aedd342903f5720342da071b178111c323": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T21:01:03.868119+00:00",
       "received_sequence": 375,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T21:01:04.692612+00:00",
+      "records": [
+        {
+          "id": 414,
+          "revision": 1,
+          "sha256": "44745a65a8b80d843c99381a4c57bc78bf49ed82830a3443b05d2c5f6d8030de"
+        }
+      ]
     }
   },
   "batches": {
@@ -45450,6 +45471,21 @@
       "result": {
         "status": "received",
         "request_id": "26580b90ea002d9c4cc18cfaae3f40aedd342903f5720342da071b178111c323"
+      }
+    },
+    "2c702a9a1a33a9af571c008c116f1003818d67525b0e21895fca0a43847e3177": {
+      "sha256": "1e8a5cac5ccfd854d714b5d6f2bb7edd020b11cdc123a080b370c3162feb3df0",
+      "result": {
+        "status": "finalized",
+        "request_id": "26580b90ea002d9c4cc18cfaae3f40aedd342903f5720342da071b178111c323",
+        "records": [
+          {
+            "id": 414,
+            "revision": 1,
+            "sha256": "44745a65a8b80d843c99381a4c57bc78bf49ed82830a3443b05d2c5f6d8030de"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
