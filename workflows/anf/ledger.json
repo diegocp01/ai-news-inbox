@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1214,
-  "updated_at": "2026-11-11T00:45:03.297596+00:00",
-  "next_id": 395,
+  "generation": 1215,
+  "updated_at": "2026-11-11T00:45:04.096078+00:00",
+  "next_id": 396,
   "records": [
     {
       "id": 1,
@@ -5245,6 +5245,19 @@
           "sha256": "31f001ebb3b055c0d98ac07d63aaaa17565f028247a244022afe48c1b938f3d5",
           "source": "Grok Bot",
           "request_id": "0bc62535c9a60e4acf6c62acb50bf30d62cfacc72f62f32666cad34cdea72271",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 395,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T00:45:04.096078+00:00",
+          "block": "Title: Gemini 4 Carbon Rolls Out to Developers and Consumers\nURL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg\nSummary: Demis Hassabis says Google DeepMind's latest frontier model, Gemini 4 Carbon, is rolling out today. In a demo, he says Carbon reverse-engineered his original Theme Park game, added a new DeepMind-themed ride, and ported it to the web in one shot. Google says the model is now available to developers, enterprises, scientists, and consumers.",
+          "sha256": "04438d3ad3d157b3dca6c0683df60a661f6d538d58dd63237844fc04e32a96cb",
+          "source": "Google DeepMind",
+          "request_id": "4d96d1b2b76e391fb1a08034edd9413068e2ba35d75c46ef3b73132dc5771dd9",
           "mode": "standard"
         }
       ]
@@ -11577,13 +11590,21 @@
       ]
     },
     "4d96d1b2b76e391fb1a08034edd9413068e2ba35d75c46ef3b73132dc5771dd9": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T00:45:03.297596+00:00",
       "received_sequence": 358,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T00:45:04.096078+00:00",
+      "records": [
+        {
+          "id": 395,
+          "revision": 1,
+          "sha256": "04438d3ad3d157b3dca6c0683df60a661f6d538d58dd63237844fc04e32a96cb"
+        }
+      ]
     }
   },
   "batches": {
@@ -43542,6 +43563,21 @@
       "result": {
         "status": "received",
         "request_id": "4d96d1b2b76e391fb1a08034edd9413068e2ba35d75c46ef3b73132dc5771dd9"
+      }
+    },
+    "4e9c6c87c985e92730ff65311361d4fac7cf0c109d569aca1f9d28f989c4a682": {
+      "sha256": "2c489822b6801b6801badd1e652baba1410ee13350fae2aeb2909ffab1b8fddf",
+      "result": {
+        "status": "finalized",
+        "request_id": "4d96d1b2b76e391fb1a08034edd9413068e2ba35d75c46ef3b73132dc5771dd9",
+        "records": [
+          {
+            "id": 395,
+            "revision": 1,
+            "sha256": "04438d3ad3d157b3dca6c0683df60a661f6d538d58dd63237844fc04e32a96cb"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
