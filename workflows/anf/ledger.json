@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1275,
-  "updated_at": "2026-11-11T21:01:04.692612+00:00",
+  "generation": 1276,
+  "updated_at": "2026-11-11T21:01:05.496914+00:00",
   "next_id": 415,
   "records": [
     {
@@ -45487,6 +45487,18 @@
         ],
         "duplicates": []
       }
+    },
+    "db98d45a8fb0284c9353d5da28ea7173279e27932c5f43cc988997de352c22d1": {
+      "sha256": "d0392048b23de043beab1d69a0c19a9011bf1422298bf03e802592eb9d423987",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 414,
+          "revision": 1,
+          "sha256": "44745a65a8b80d843c99381a4c57bc78bf49ed82830a3443b05d2c5f6d8030de"
+        },
+        "editorial_sha256": "1a43536df09f07dfb3378fa9a8aee2ce553bcd73b75d88ec79583a59882ee89f"
+      }
     }
   },
   "migration": {
@@ -56433,6 +56445,26 @@
         "sha256": "2c01a5d3cc87964bd518ad7fd6808699522be0c9981d8fda0d071f4ce351e5ae",
         "reviewed_at": "2026-11-11T20:49:43.730698+00:00",
         "operation_id": "60b9f98cf275515ad470d970b0fec2d7ded80074ca9aa3c09bea0eea67ad3dd7"
+      }
+    ],
+    "414:1": [
+      {
+        "reference": {
+          "id": 414,
+          "revision": 1,
+          "sha256": "44745a65a8b80d843c99381a4c57bc78bf49ed82830a3443b05d2c5f6d8030de"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer launch of an AI character you can talk with face-to-face. The wording is everyday language with no developer, API, ML-technical, or hardware terms. Nuance Labs is not a flagship-prefix company.",
+            "evidence_sha256": "206e85b89f21ef288318e4cbfa0c2aeaa1cc33511ee58bb3a6fa120dbfda5edc"
+          }
+        },
+        "sha256": "1a43536df09f07dfb3378fa9a8aee2ce553bcd73b75d88ec79583a59882ee89f",
+        "reviewed_at": "2026-11-11T21:01:05.496914+00:00",
+        "operation_id": "db98d45a8fb0284c9353d5da28ea7173279e27932c5f43cc988997de352c22d1"
       }
     ]
   }
