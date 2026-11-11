@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1239,
-  "updated_at": "2026-11-11T13:03:53.806298+00:00",
+  "generation": 1240,
+  "updated_at": "2026-11-11T13:04:09.375862+00:00",
   "next_id": 404,
   "records": [
     {
@@ -21003,9 +21003,321 @@
       },
       "acknowledged_at": "2026-11-10T13:34:04.101194+00:00",
       "checkpoint_after": 381
+    },
+    "7adfb834764415d28c42e9ea": {
+      "batch_id": "7adfb834764415d28c42e9ea",
+      "status": "prepared",
+      "checkpoint_before": 381,
+      "prepared_at": "2026-11-11T13:04:09.375862+00:00",
+      "intake_cutoff": 364,
+      "records": [
+        {
+          "id": 382,
+          "revision": 1,
+          "sha256": "98d960d362bcebf4136cd3df6ca043e9f4c953758c8454aea7a7ef8fbc5a6d48"
+        },
+        {
+          "id": 383,
+          "revision": 1,
+          "sha256": "e4616cdeab3428deff04c200a55f7b6ba8458ba424a7b270c526dabd3bf738c4"
+        },
+        {
+          "id": 384,
+          "revision": 1,
+          "sha256": "106cd7644398ae5a7632f8e64481384c7801e4999a270a35321a1c6dc0544562"
+        },
+        {
+          "id": 385,
+          "revision": 1,
+          "sha256": "8dbe1986b8248865c0e1bb7cb3de1e5414f9776f4d597dfacf083eb924747fac"
+        },
+        {
+          "id": 386,
+          "revision": 1,
+          "sha256": "127ad9725ea18ba91f8ea91f93751aed9beecdf37a00dee1eaf8450950c9a73d"
+        },
+        {
+          "id": 387,
+          "revision": 1,
+          "sha256": "dd6d5fc7434d24d1bf60fba859f8ad4c69962185b656a97d71ea5b4173176e53"
+        },
+        {
+          "id": 388,
+          "revision": 1,
+          "sha256": "54705f31ac1816583e7e0b8276dbdf8809bf81d151c198b655d8bb8e46555108"
+        },
+        {
+          "id": 389,
+          "revision": 1,
+          "sha256": "f1934d61034614d065f7132e23f8129495f0c1164a0f2213b18ffaaa3c717ed6"
+        },
+        {
+          "id": 390,
+          "revision": 1,
+          "sha256": "3749d4178802d04c6582b266e0d4ae7d713e27b90a50d7944dfa8e03c8958caa"
+        },
+        {
+          "id": 391,
+          "revision": 1,
+          "sha256": "227c510eac1605f5ad001dc156b1f336567f24474d1b1f7fa55fd0911f633b5b"
+        },
+        {
+          "id": 392,
+          "revision": 1,
+          "sha256": "ff78ed26b6d1a1472c21e0324cf7b2751fb75eaa6f1a6cd996bb1a23ab0fc2f1"
+        },
+        {
+          "id": 393,
+          "revision": 1,
+          "sha256": "469c779aee32af32f339e4a1779a432309c87524e32673d7001b690d4ea14468"
+        },
+        {
+          "id": 394,
+          "revision": 1,
+          "sha256": "31f001ebb3b055c0d98ac07d63aaaa17565f028247a244022afe48c1b938f3d5"
+        },
+        {
+          "id": 395,
+          "revision": 1,
+          "sha256": "04438d3ad3d157b3dca6c0683df60a661f6d538d58dd63237844fc04e32a96cb"
+        },
+        {
+          "id": 396,
+          "revision": 1,
+          "sha256": "ee57941b628cf3aba759dca2a31995c53652860e53f63a27d617841a6e713e58"
+        },
+        {
+          "id": 397,
+          "revision": 1,
+          "sha256": "759d9fb2b3b3b0c8b7528c25ffca7f791f208165585c28ef3dfe94bd18899286"
+        },
+        {
+          "id": 398,
+          "revision": 1,
+          "sha256": "7a23cd6cff1be530f9c5b4e5d70c8d6c9f2f1f6d6e41ac2ca406687a09d38ab2"
+        },
+        {
+          "id": 399,
+          "revision": 1,
+          "sha256": "424026695d249303a546048d8d3f08eee1f743d1d127aa907bc32f9b1c82d623"
+        },
+        {
+          "id": 400,
+          "revision": 1,
+          "sha256": "1f3920958d82ac225093c6f8676c86da9916db944eb3becc775e21da56d9643b"
+        },
+        {
+          "id": 401,
+          "revision": 1,
+          "sha256": "e609bae300ccf5954154eb95c988fef710cfcf1c77cf1acffbbc6ee3f63b54a5"
+        },
+        {
+          "id": 402,
+          "revision": 1,
+          "sha256": "7a977ee0856173a81467eb26ad04457cf5339578c2074ac1c49b04087f21ba94"
+        },
+        {
+          "id": 403,
+          "revision": 1,
+          "sha256": "d3c4f299b281f75336808215f41b0a1b0a787b2d21ce52fa2927368023b3d074"
+        }
+      ],
+      "first_id": 382,
+      "last_id": 403,
+      "count": 22,
+      "txt_path": "workflows/anf/batches/7adfb834764415d28c42e9ea.txt",
+      "json_path": "workflows/anf/batches/7adfb834764415d28c42e9ea.json",
+      "txt_sha256": "41f94a81cf378ffd5708cf3c66e2282870acbc2cbe30d006d4b9f965e80ee224",
+      "json_sha256": "fa6b3fc0bc8c6103040e917bb945b9bb8b87376edcfd599a558abe7676bbe686",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Anthropic released Claude Fable 5.2 and Mythos 5.2 for complex technical work, generating output up to 30% faster than their 5.1 versions at lower prices. Fable includes cybersecurity and biology safeguards; Mythos is available through verification programs for security and life sciences organizations and powers Claude Security for Enterprise customers. This is an AI model release for complex technical work, for research and technical audiences. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "98d960d362bcebf4136cd3df6ca043e9f4c953758c8454aea7a7ef8fbc5a6d48"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Meta released Muse Ember, a small AI model for repeated tasks in automated assistants, including document processing and coding subtasks. Meta says that at maximum reasoning it roughly matches Claude Haiku 5.5 on the Artificial Analysis Intelligence Index at about one-third the cost per benchmark task, based on estimates using proposed pricing. This is a model release with benchmark evaluation for developers building automated assistants. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e4616cdeab3428deff04c200a55f7b6ba8458ba424a7b270c526dabd3bf738c4"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Google announced two new systems built around its custom AI chips: TPU 8tx and TPU 8i Max. The company says 8tx protects sensitive data during processing for governments and regulated businesses, and 8i Max packages two TPU 8i chips together, providing twice the computing capacity and twice the bandwidth for high-bandwidth memory. This is an AI infrastructure hardware announcement, for technical audiences. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "106cd7644398ae5a7632f8e64481384c7801e4999a270a35321a1c6dc0544562"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Product change retiring older ChatGPT Voice options in favor of GPT-Live; not a new flagship model; no ML-technical, developer/API, or hardware terms.",
+            "evidence_sha256": "8f7d3e0bdf2fd89939bdd9bc758e6fac0da445399d6ef46486f16090f02b44a9"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer announcement expanding MCP Apps (app tools and embedded sites) so full apps can run in Claude; public-preview docs for builders.",
+            "evidence_sha256": "05bbb1b6895c61f89f40de3be014827b0b049daf09f60ace3b170fc9394e58b1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer product launch of Whiteboards, Sheets, and Data in Claude; no ML-technical, developer/API, or hardware terms; not a new flagship model.",
+            "evidence_sha256": "a9363cdf7cdfc4e6cd93cfbe9c46aecf2007bb45ec3a143ea7d0782a5f2b18d1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer business-profile feature in ChatGPT; no ML-technical, developer/API, or hardware terms; not a new flagship model.",
+            "evidence_sha256": "42f69be4158e0a962cb82194cc2c53f5675a87519dc749674009f01e917174a2"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Scientific structure-prediction model launch with company-reported benchmarks and API availability; not a five-lab flagship model.",
+            "evidence_sha256": "25da9d5df25b7ee836d65c11107d43804d34fe93a0a9d1687555230f86d624f3"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Creator project and personal claim, written in plain language with no ML-technical, developer/API, or hardware-internals terms; not a flagship model release.",
+            "evidence_sha256": "50042fe43d8f71b618162c041bc9575feedf61feb83872d59d4b63353f4da895"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Company acquisition announcement written in plain language with no ML-technical, developer/API, or hardware terms; not a new flagship model.",
+            "evidence_sha256": "b2448fc8c87f00c4f61881429892db89fbe0c245228df8ffaf596edfdc2f9a64"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Specialized robotics/physical-AI model written in plain language without ML-technical, developer/API, or hardware-internals terms; not a flagship general Gemini model, so no New AI Model prefix.",
+            "evidence_sha256": "f74f074ebcd13ba601d7c249cbc60fd212c785f77e2280ad4a55d88f2cc2f5e3"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Cursor coding-tool feature for multiplayer Projects and teammate agent coordination; developer/coding-tool item is DS; not a flagship model release.",
+            "evidence_sha256": "0e62ba92c358786bfa1df80e2d583ab38a96bad1bf0d183390a1a3f08dbd5d93"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer networking feature that names MCP servers and private internal tools; not a new flagship model.",
+            "evidence_sha256": "0de80c9adcfcebb656b9cbf1faf8bde9ac27bc18be8f9ad5794ada9d8283fbc4"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Wider rollout of already-announced Gemini 4 Carbon plus a personal demo, written in plain language with no ML-technical, developer/API, or hardware terms; follow-up to an existing flagship launch so no New AI Model prefix.",
+            "evidence_sha256": "9db12cfae53062290d8b262e487454f8b0d85351af835ef3d493caf72f4cb71b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Benchmark result and CAIS projection written in plain language with no ML-technical, developer/API, or hardware-internals terms; not a new flagship model release.",
+            "evidence_sha256": "b543b7731764d786196af94bff97e48bdd872c3942e342600854b6d922c5cf98"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Author forecast update written in plain language with no ML-technical, developer/API, or hardware-internals terms; not a new flagship model release.",
+            "evidence_sha256": "dc1d0d943fb8128c48e817228cbf1455c4932bd8c4e471b3897c473da19346cd"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Formal-verification and machine-code security research with a new agentic proof framework; developer/research-technical terms a regular person would not know. Specialized verification tool, not a new flagship Gemini/GPT/Claude/Grok/Muse model.",
+            "evidence_sha256": "03136a26ae9a943a7184073862b1ab75710d2bfe68acb97e01b5e01a03199b0a"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer email feature written in plain language with no ML-technical, developer/API, or hardware-internals terms. Not a new flagship model release; Muse already exists and this is a feature rollout of an address previewed at Connect, so no New AI Model prefix.",
+            "evidence_sha256": "89187b16a35a11739dfce9ff1abbbf102268bad2c09c44011b4791751e078382"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Incident report written in plain language with no ML-technical, developer/API, or hardware-internals terms. Not a new flagship model release.",
+            "evidence_sha256": "5df565c3e611be4e0b11e9bdb895889aa367eed8314db7bfdda62df621f426ea"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "OpenAI launched Businesses in ChatGPT in beta, letting eligible companies claim profiles, update information, and view aggregated mentions and website clicks. Eligible U.S. ecommerce and online service businesses can create assistants that answer customer questions; those conversations are labeled and separate from ChatGPT's independent answers, and businesses can sponsor their assistants as destinations for clearly labeled ChatGPT ads. This is business product news for a broad audience, not technical research. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e609bae300ccf5954154eb95c988fef710cfcf1c77cf1acffbbc6ee3f63b54a5"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic launched Claude Sheets and Whiteboards in beta for paid users and made Claude Data, formerly Dashboards, generally available. The company says Data can turn business metrics into visual stories and narrated videos. It also announced an upcoming Google Meet assistant and expanded connectors for working in other apps within Claude. This is productivity product news for a broad audience, not technical research. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "7a977ee0856173a81467eb26ad04457cf5339578c2074ac1c49b04087f21ba94"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The AI Futures Project now forecasts systems matching top AI researchers' judgment and fully automating AI research coding in 2027, assuming no substantial deliberate slowdown. Its biggest influence was METR's uncertain assessment of research acceleration at Anthropic, which relies heavily on redacted evidence. The group urges an industry pause or substantial slowdown if its forecast is right. This is AI timelines forecasting research, for research audiences. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "d3c4f299b281f75336808215f41b0a1b0a787b2d21ce52fa2927368023b3d074"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-11T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "7adfb834764415d28c42e9ea",
   "replacement_batch": null,
   "checkpoint": 381,
   "checkpoint_history": [
@@ -44084,6 +44396,325 @@
           "sha256": "d3c4f299b281f75336808215f41b0a1b0a787b2d21ce52fa2927368023b3d074"
         },
         "editorial_sha256": "6697b166b8bc38b303e2c76e544d88dd832b390f15f4dba49c9621042ebd8cff"
+      }
+    },
+    "muse-compile-20261111-1304-4719": {
+      "sha256": "32af14c70acc07494ec1eb834410e27098582c80fb0d6e394c09f93ccf476410",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "7adfb834764415d28c42e9ea",
+          "status": "prepared",
+          "checkpoint_before": 381,
+          "prepared_at": "2026-11-11T13:04:09.375862+00:00",
+          "intake_cutoff": 364,
+          "records": [
+            {
+              "id": 382,
+              "revision": 1,
+              "sha256": "98d960d362bcebf4136cd3df6ca043e9f4c953758c8454aea7a7ef8fbc5a6d48"
+            },
+            {
+              "id": 383,
+              "revision": 1,
+              "sha256": "e4616cdeab3428deff04c200a55f7b6ba8458ba424a7b270c526dabd3bf738c4"
+            },
+            {
+              "id": 384,
+              "revision": 1,
+              "sha256": "106cd7644398ae5a7632f8e64481384c7801e4999a270a35321a1c6dc0544562"
+            },
+            {
+              "id": 385,
+              "revision": 1,
+              "sha256": "8dbe1986b8248865c0e1bb7cb3de1e5414f9776f4d597dfacf083eb924747fac"
+            },
+            {
+              "id": 386,
+              "revision": 1,
+              "sha256": "127ad9725ea18ba91f8ea91f93751aed9beecdf37a00dee1eaf8450950c9a73d"
+            },
+            {
+              "id": 387,
+              "revision": 1,
+              "sha256": "dd6d5fc7434d24d1bf60fba859f8ad4c69962185b656a97d71ea5b4173176e53"
+            },
+            {
+              "id": 388,
+              "revision": 1,
+              "sha256": "54705f31ac1816583e7e0b8276dbdf8809bf81d151c198b655d8bb8e46555108"
+            },
+            {
+              "id": 389,
+              "revision": 1,
+              "sha256": "f1934d61034614d065f7132e23f8129495f0c1164a0f2213b18ffaaa3c717ed6"
+            },
+            {
+              "id": 390,
+              "revision": 1,
+              "sha256": "3749d4178802d04c6582b266e0d4ae7d713e27b90a50d7944dfa8e03c8958caa"
+            },
+            {
+              "id": 391,
+              "revision": 1,
+              "sha256": "227c510eac1605f5ad001dc156b1f336567f24474d1b1f7fa55fd0911f633b5b"
+            },
+            {
+              "id": 392,
+              "revision": 1,
+              "sha256": "ff78ed26b6d1a1472c21e0324cf7b2751fb75eaa6f1a6cd996bb1a23ab0fc2f1"
+            },
+            {
+              "id": 393,
+              "revision": 1,
+              "sha256": "469c779aee32af32f339e4a1779a432309c87524e32673d7001b690d4ea14468"
+            },
+            {
+              "id": 394,
+              "revision": 1,
+              "sha256": "31f001ebb3b055c0d98ac07d63aaaa17565f028247a244022afe48c1b938f3d5"
+            },
+            {
+              "id": 395,
+              "revision": 1,
+              "sha256": "04438d3ad3d157b3dca6c0683df60a661f6d538d58dd63237844fc04e32a96cb"
+            },
+            {
+              "id": 396,
+              "revision": 1,
+              "sha256": "ee57941b628cf3aba759dca2a31995c53652860e53f63a27d617841a6e713e58"
+            },
+            {
+              "id": 397,
+              "revision": 1,
+              "sha256": "759d9fb2b3b3b0c8b7528c25ffca7f791f208165585c28ef3dfe94bd18899286"
+            },
+            {
+              "id": 398,
+              "revision": 1,
+              "sha256": "7a23cd6cff1be530f9c5b4e5d70c8d6c9f2f1f6d6e41ac2ca406687a09d38ab2"
+            },
+            {
+              "id": 399,
+              "revision": 1,
+              "sha256": "424026695d249303a546048d8d3f08eee1f743d1d127aa907bc32f9b1c82d623"
+            },
+            {
+              "id": 400,
+              "revision": 1,
+              "sha256": "1f3920958d82ac225093c6f8676c86da9916db944eb3becc775e21da56d9643b"
+            },
+            {
+              "id": 401,
+              "revision": 1,
+              "sha256": "e609bae300ccf5954154eb95c988fef710cfcf1c77cf1acffbbc6ee3f63b54a5"
+            },
+            {
+              "id": 402,
+              "revision": 1,
+              "sha256": "7a977ee0856173a81467eb26ad04457cf5339578c2074ac1c49b04087f21ba94"
+            },
+            {
+              "id": 403,
+              "revision": 1,
+              "sha256": "d3c4f299b281f75336808215f41b0a1b0a787b2d21ce52fa2927368023b3d074"
+            }
+          ],
+          "first_id": 382,
+          "last_id": 403,
+          "count": 22,
+          "txt_path": "workflows/anf/batches/7adfb834764415d28c42e9ea.txt",
+          "json_path": "workflows/anf/batches/7adfb834764415d28c42e9ea.json",
+          "txt_sha256": "41f94a81cf378ffd5708cf3c66e2282870acbc2cbe30d006d4b9f965e80ee224",
+          "json_sha256": "fa6b3fc0bc8c6103040e917bb945b9bb8b87376edcfd599a558abe7676bbe686",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Anthropic released Claude Fable 5.2 and Mythos 5.2 for complex technical work, generating output up to 30% faster than their 5.1 versions at lower prices. Fable includes cybersecurity and biology safeguards; Mythos is available through verification programs for security and life sciences organizations and powers Claude Security for Enterprise customers. This is an AI model release for complex technical work, for research and technical audiences. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "98d960d362bcebf4136cd3df6ca043e9f4c953758c8454aea7a7ef8fbc5a6d48"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Meta released Muse Ember, a small AI model for repeated tasks in automated assistants, including document processing and coding subtasks. Meta says that at maximum reasoning it roughly matches Claude Haiku 5.5 on the Artificial Analysis Intelligence Index at about one-third the cost per benchmark task, based on estimates using proposed pricing. This is a model release with benchmark evaluation for developers building automated assistants. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "e4616cdeab3428deff04c200a55f7b6ba8458ba424a7b270c526dabd3bf738c4"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Google announced two new systems built around its custom AI chips: TPU 8tx and TPU 8i Max. The company says 8tx protects sensitive data during processing for governments and regulated businesses, and 8i Max packages two TPU 8i chips together, providing twice the computing capacity and twice the bandwidth for high-bandwidth memory. This is an AI infrastructure hardware announcement, for technical audiences. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "106cd7644398ae5a7632f8e64481384c7801e4999a270a35321a1c6dc0544562"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Product change retiring older ChatGPT Voice options in favor of GPT-Live; not a new flagship model; no ML-technical, developer/API, or hardware terms.",
+                "evidence_sha256": "8f7d3e0bdf2fd89939bdd9bc758e6fac0da445399d6ef46486f16090f02b44a9"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Developer announcement expanding MCP Apps (app tools and embedded sites) so full apps can run in Claude; public-preview docs for builders.",
+                "evidence_sha256": "05bbb1b6895c61f89f40de3be014827b0b049daf09f60ace3b170fc9394e58b1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer product launch of Whiteboards, Sheets, and Data in Claude; no ML-technical, developer/API, or hardware terms; not a new flagship model.",
+                "evidence_sha256": "a9363cdf7cdfc4e6cd93cfbe9c46aecf2007bb45ec3a143ea7d0782a5f2b18d1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer business-profile feature in ChatGPT; no ML-technical, developer/API, or hardware terms; not a new flagship model.",
+                "evidence_sha256": "42f69be4158e0a962cb82194cc2c53f5675a87519dc749674009f01e917174a2"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Scientific structure-prediction model launch with company-reported benchmarks and API availability; not a five-lab flagship model.",
+                "evidence_sha256": "25da9d5df25b7ee836d65c11107d43804d34fe93a0a9d1687555230f86d624f3"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Creator project and personal claim, written in plain language with no ML-technical, developer/API, or hardware-internals terms; not a flagship model release.",
+                "evidence_sha256": "50042fe43d8f71b618162c041bc9575feedf61feb83872d59d4b63353f4da895"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Company acquisition announcement written in plain language with no ML-technical, developer/API, or hardware terms; not a new flagship model.",
+                "evidence_sha256": "b2448fc8c87f00c4f61881429892db89fbe0c245228df8ffaf596edfdc2f9a64"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Specialized robotics/physical-AI model written in plain language without ML-technical, developer/API, or hardware-internals terms; not a flagship general Gemini model, so no New AI Model prefix.",
+                "evidence_sha256": "f74f074ebcd13ba601d7c249cbc60fd212c785f77e2280ad4a55d88f2cc2f5e3"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Cursor coding-tool feature for multiplayer Projects and teammate agent coordination; developer/coding-tool item is DS; not a flagship model release.",
+                "evidence_sha256": "0e62ba92c358786bfa1df80e2d583ab38a96bad1bf0d183390a1a3f08dbd5d93"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Developer networking feature that names MCP servers and private internal tools; not a new flagship model.",
+                "evidence_sha256": "0de80c9adcfcebb656b9cbf1faf8bde9ac27bc18be8f9ad5794ada9d8283fbc4"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Wider rollout of already-announced Gemini 4 Carbon plus a personal demo, written in plain language with no ML-technical, developer/API, or hardware terms; follow-up to an existing flagship launch so no New AI Model prefix.",
+                "evidence_sha256": "9db12cfae53062290d8b262e487454f8b0d85351af835ef3d493caf72f4cb71b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Benchmark result and CAIS projection written in plain language with no ML-technical, developer/API, or hardware-internals terms; not a new flagship model release.",
+                "evidence_sha256": "b543b7731764d786196af94bff97e48bdd872c3942e342600854b6d922c5cf98"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Author forecast update written in plain language with no ML-technical, developer/API, or hardware-internals terms; not a new flagship model release.",
+                "evidence_sha256": "dc1d0d943fb8128c48e817228cbf1455c4932bd8c4e471b3897c473da19346cd"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Formal-verification and machine-code security research with a new agentic proof framework; developer/research-technical terms a regular person would not know. Specialized verification tool, not a new flagship Gemini/GPT/Claude/Grok/Muse model.",
+                "evidence_sha256": "03136a26ae9a943a7184073862b1ab75710d2bfe68acb97e01b5e01a03199b0a"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer email feature written in plain language with no ML-technical, developer/API, or hardware-internals terms. Not a new flagship model release; Muse already exists and this is a feature rollout of an address previewed at Connect, so no New AI Model prefix.",
+                "evidence_sha256": "89187b16a35a11739dfce9ff1abbbf102268bad2c09c44011b4791751e078382"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Incident report written in plain language with no ML-technical, developer/API, or hardware-internals terms. Not a new flagship model release.",
+                "evidence_sha256": "5df565c3e611be4e0b11e9bdb895889aa367eed8314db7bfdda62df621f426ea"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "OpenAI launched Businesses in ChatGPT in beta, letting eligible companies claim profiles, update information, and view aggregated mentions and website clicks. Eligible U.S. ecommerce and online service businesses can create assistants that answer customer questions; those conversations are labeled and separate from ChatGPT's independent answers, and businesses can sponsor their assistants as destinations for clearly labeled ChatGPT ads. This is business product news for a broad audience, not technical research. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "e609bae300ccf5954154eb95c988fef710cfcf1c77cf1acffbbc6ee3f63b54a5"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Anthropic launched Claude Sheets and Whiteboards in beta for paid users and made Claude Data, formerly Dashboards, generally available. The company says Data can turn business metrics into visual stories and narrated videos. It also announced an upcoming Google Meet assistant and expanded connectors for working in other apps within Claude. This is productivity product news for a broad audience, not technical research. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "7a977ee0856173a81467eb26ad04457cf5339578c2074ac1c49b04087f21ba94"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The AI Futures Project now forecasts systems matching top AI researchers' judgment and fully automating AI research coding in 2027, assuming no substantial deliberate slowdown. Its biggest influence was METR's uncertain assessment of research acceleration at Anthropic, which relies heavily on redacted evidence. The group urges an industry pause or substantial slowdown if its forecast is right. This is AI timelines forecasting research, for research audiences. muse-compile-backfill 2026-11-11: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "d3c4f299b281f75336808215f41b0a1b0a787b2d21ce52fa2927368023b3d074"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-11T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
