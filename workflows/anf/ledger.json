@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1250,
-  "updated_at": "2026-11-11T16:42:52.774609+00:00",
-  "next_id": 406,
+  "generation": 1251,
+  "updated_at": "2026-11-11T16:42:53.566759+00:00",
+  "next_id": 407,
   "records": [
     {
       "id": 1,
@@ -5391,6 +5391,19 @@
           "sha256": "eabff955a74c914cfe1beaf4cfa587bb7c381d3b0e41f19b064b223aeefb89d7",
           "source": "Google DeepMind",
           "request_id": "b72a0dd95ed7031a0b067300675d874ed3a1d1270edd20db67e9ef6b7f554017",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 406,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T16:42:53.566759+00:00",
+          "block": "Title: Google Labs Introduces Tabletop, a Shared Space for Group Planning\nURL: https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1566.max-1440x810.jpg\nSummary: Google Labs introduced Tabletop, a new experiment for real-time group planning. Users add links, files, and ideas, then ask Tabletop or pick a template to create shared tools such as trip itineraries, dinner polls, expense splitters, and tournament brackets. It is rolling out in the U.S. for people 18 and older via a waitlist.",
+          "sha256": "c4fa8bcd94d275483529f58bd136caf610a78f8b3fa06203e2caf5dbb2b4bc31",
+          "source": "Google Labs",
+          "request_id": "fc239fb925238f2846fe31142c5a09dbc7a9e26c5f3d9c401bdd2f2078d81991",
           "mode": "standard"
         }
       ]
@@ -11887,13 +11900,21 @@
       ]
     },
     "fc239fb925238f2846fe31142c5a09dbc7a9e26c5f3d9c401bdd2f2078d81991": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T16:42:52.774609+00:00",
       "received_sequence": 367,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T16:42:53.566759+00:00",
+      "records": [
+        {
+          "id": 406,
+          "revision": 1,
+          "sha256": "c4fa8bcd94d275483529f58bd136caf610a78f8b3fa06203e2caf5dbb2b4bc31"
+        }
+      ]
     }
   },
   "batches": {
@@ -44938,6 +44959,21 @@
       "result": {
         "status": "received",
         "request_id": "fc239fb925238f2846fe31142c5a09dbc7a9e26c5f3d9c401bdd2f2078d81991"
+      }
+    },
+    "a92c6d6f70dd144685d4b4de586b5f7dee3acf52ca8abfce2c7a35ff9f0c558b": {
+      "sha256": "c16e6836d17fddde2e444b8ce673214c782d23a180e3331f89e0898d0f7d33fa",
+      "result": {
+        "status": "finalized",
+        "request_id": "fc239fb925238f2846fe31142c5a09dbc7a9e26c5f3d9c401bdd2f2078d81991",
+        "records": [
+          {
+            "id": 406,
+            "revision": 1,
+            "sha256": "c4fa8bcd94d275483529f58bd136caf610a78f8b3fa06203e2caf5dbb2b4bc31"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
