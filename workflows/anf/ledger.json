@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1197,
-  "updated_at": "2026-11-11T00:33:18.787442+00:00",
+  "generation": 1198,
+  "updated_at": "2026-11-11T00:33:19.522723+00:00",
   "next_id": 390,
   "records": [
     {
@@ -43195,6 +43195,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9a2207dfe9967c22749a850e1509339d7ab330333a4a1ee97c5990db7bbd19aa": {
+      "sha256": "61178d70dd12063b97e71ac2dfb5c720e00ec10f13dcb7f01b97e06d9f8895f4",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 389,
+          "revision": 1,
+          "sha256": "f1934d61034614d065f7132e23f8129495f0c1164a0f2213b18ffaaa3c717ed6"
+        },
+        "editorial_sha256": "5552e81b963a81b12168ef7addbcf1c00495dbb7727a02616275f6ca7b7e69fa"
+      }
     }
   },
   "migration": {
@@ -53581,6 +53593,26 @@
         "sha256": "cf779c23be656917d1269d786b7969e812ee5a2314f520c9036400e0294e0f1c",
         "reviewed_at": "2026-11-11T00:33:17.301867+00:00",
         "operation_id": "88468affd0848a283f362f9ee02d015d0546a73ad4ca2bbecaa2ea32b5d1378f"
+      }
+    ],
+    "389:1": [
+      {
+        "reference": {
+          "id": 389,
+          "revision": 1,
+          "sha256": "f1934d61034614d065f7132e23f8129495f0c1164a0f2213b18ffaaa3c717ed6"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Scientific structure-prediction model launch with company-reported benchmarks and API availability; not a five-lab flagship model.",
+            "evidence_sha256": "25da9d5df25b7ee836d65c11107d43804d34fe93a0a9d1687555230f86d624f3"
+          }
+        },
+        "sha256": "5552e81b963a81b12168ef7addbcf1c00495dbb7727a02616275f6ca7b7e69fa",
+        "reviewed_at": "2026-11-11T00:33:19.522723+00:00",
+        "operation_id": "9a2207dfe9967c22749a850e1509339d7ab330333a4a1ee97c5990db7bbd19aa"
       }
     ]
   }
