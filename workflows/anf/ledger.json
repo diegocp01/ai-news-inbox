@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1251,
-  "updated_at": "2026-11-11T16:42:53.566759+00:00",
+  "generation": 1252,
+  "updated_at": "2026-11-11T16:42:54.316046+00:00",
   "next_id": 407,
   "records": [
     {
@@ -44975,6 +44975,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a47038166b986286f6c1e40c58f0d102491eb39c4cc84a7ce99f6956b566a7f8": {
+      "sha256": "a2536f133d1c67684b7d38243fa88271a59dac33c2074bc737cd7a9c6dee40f0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 406,
+          "revision": 1,
+          "sha256": "c4fa8bcd94d275483529f58bd136caf610a78f8b3fa06203e2caf5dbb2b4bc31"
+        },
+        "editorial_sha256": "9d8771677f45d686d539478e00f6ea4ec894f1ba687d05e519efeb614169ec4b"
+      }
     }
   },
   "migration": {
@@ -55761,6 +55773,26 @@
         "sha256": "d920d226c7764c74c888b4f4626774433139c9e96c0d9bf009bec6d96e6effb1",
         "reviewed_at": "2026-11-11T16:40:03.903998+00:00",
         "operation_id": "a6fdfa66679c9548086bec062044f3522a6829e0a109c7b0312d8c713eb101a7"
+      }
+    ],
+    "406:1": [
+      {
+        "reference": {
+          "id": 406,
+          "revision": 1,
+          "sha256": "c4fa8bcd94d275483529f58bd136caf610a78f8b3fa06203e2caf5dbb2b4bc31"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google Labs experiment/tool described in plain language; no ML-technical, developer/API, or hardware terms. Not a new flagship Gemini/GPT/Claude/Grok/Muse model, so no New AI Model prefix.",
+            "evidence_sha256": "ce4ccf3cf8a5d43f5a2afc1fa5dd4ef686dffa012d2cc325e9b4b171979fc00d"
+          }
+        },
+        "sha256": "9d8771677f45d686d539478e00f6ea4ec894f1ba687d05e519efeb614169ec4b",
+        "reviewed_at": "2026-11-11T16:42:54.316046+00:00",
+        "operation_id": "a47038166b986286f6c1e40c58f0d102491eb39c4cc84a7ce99f6956b566a7f8"
       }
     ]
   }
