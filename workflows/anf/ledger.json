@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1187,
-  "updated_at": "2026-11-11T00:26:56.574051+00:00",
-  "next_id": 386,
+  "generation": 1188,
+  "updated_at": "2026-11-11T00:26:57.533517+00:00",
+  "next_id": 387,
   "records": [
     {
       "id": 1,
@@ -5128,6 +5128,19 @@
           "sha256": "8dbe1986b8248865c0e1bb7cb3de1e5414f9776f4d597dfacf083eb924747fac",
           "source": "OpenAI",
           "request_id": "a5f1fac13b605a69e441e950e3a9ce19847c14ec5d56ebccc8ae300a39cbc222",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 386,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T00:26:57.533517+00:00",
+          "block": "Title: Claude Expands MCP Apps So Full Apps Can Run Inside Chat\nURL: https://claude.com/resources/articles/interactive-connectors-full-tool\nImage URL: https://assets.claude.com/98d2cbf9c0392a81da0d53ea7666bf08528db80e.png\nSummary: Anthropic says Claude now supports more of the MCP Apps extension, including app tools and embedded sites, so a developer's full app can run inside Claude. The company says these capabilities are in public preview, and points developers to its MCP Apps documentation.",
+          "sha256": "127ad9725ea18ba91f8ea91f93751aed9beecdf37a00dee1eaf8450950c9a73d",
+          "source": "Anthropic",
+          "request_id": "72f6c52c0193fdf54a899277ce35d4b520b323139d8f5c62e8be46cc03b15096",
           "mode": "standard"
         }
       ]
@@ -11307,13 +11320,21 @@
       ]
     },
     "72f6c52c0193fdf54a899277ce35d4b520b323139d8f5c62e8be46cc03b15096": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T00:26:56.574051+00:00",
       "received_sequence": 349,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T00:26:57.533517+00:00",
+      "records": [
+        {
+          "id": 386,
+          "revision": 1,
+          "sha256": "127ad9725ea18ba91f8ea91f93751aed9beecdf37a00dee1eaf8450950c9a73d"
+        }
+      ]
     }
   },
   "batches": {
@@ -42966,6 +42987,21 @@
       "result": {
         "status": "received",
         "request_id": "72f6c52c0193fdf54a899277ce35d4b520b323139d8f5c62e8be46cc03b15096"
+      }
+    },
+    "5eb1c4815672c6de40b0881a9ba0401d5e9bf98d2eca42d76b1426c7c27330a6": {
+      "sha256": "6635fdfcc5cc6e4bcf6aff923c4ef1c8ed16f9e00c5a1ca6f7bd96b89fa4d23b",
+      "result": {
+        "status": "finalized",
+        "request_id": "72f6c52c0193fdf54a899277ce35d4b520b323139d8f5c62e8be46cc03b15096",
+        "records": [
+          {
+            "id": 386,
+            "revision": 1,
+            "sha256": "127ad9725ea18ba91f8ea91f93751aed9beecdf37a00dee1eaf8450950c9a73d"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
