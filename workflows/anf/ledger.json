@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1202,
-  "updated_at": "2026-11-11T00:38:06.770949+00:00",
-  "next_id": 391,
+  "generation": 1203,
+  "updated_at": "2026-11-11T00:38:07.603116+00:00",
+  "next_id": 392,
   "records": [
     {
       "id": 1,
@@ -5193,6 +5193,19 @@
           "sha256": "3749d4178802d04c6582b266e0d4ae7d713e27b90a50d7944dfa8e03c8958caa",
           "source": "Muhammad Zulali",
           "request_id": "901e192f34562e64b70aca26cc83111d17caad85582ffd533ec5e754539c97ab",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 391,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T00:38:07.603116+00:00",
+          "block": "Title: OpenAI Acquires Travel Startup Odessia\nURL: https://odessia.com/\nImage URL: https://skift.com/wp-content/uploads/2025/11/francis-davidson-cover-image.jpg\nSummary: Odessia, an AI travel-planning startup founded by Francis Davidson, says it has been acquired by OpenAI, and that Davidson is joining the company to work on the future of travel. An OpenAI spokesperson confirmed the hire to TechCrunch. Terms were not disclosed, and Odessia says its service is no longer available.",
+          "sha256": "227c510eac1605f5ad001dc156b1f336567f24474d1b1f7fa55fd0911f633b5b",
+          "source": "Odessia",
+          "request_id": "b02cc275522c8e64de5ea87f7b072925fa94e309fa681b50a29433dcef5e8dd8",
           "mode": "standard"
         }
       ]
@@ -11457,13 +11470,21 @@
       ]
     },
     "b02cc275522c8e64de5ea87f7b072925fa94e309fa681b50a29433dcef5e8dd8": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T00:38:06.770949+00:00",
       "received_sequence": 354,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T00:38:07.603116+00:00",
+      "records": [
+        {
+          "id": 391,
+          "revision": 1,
+          "sha256": "227c510eac1605f5ad001dc156b1f336567f24474d1b1f7fa55fd0911f633b5b"
+        }
+      ]
     }
   },
   "batches": {
@@ -43286,6 +43307,21 @@
       "result": {
         "status": "received",
         "request_id": "b02cc275522c8e64de5ea87f7b072925fa94e309fa681b50a29433dcef5e8dd8"
+      }
+    },
+    "db07bf726a77d1fb767925203414f784fd277ab711017fe9f47ac29074c4dcfd": {
+      "sha256": "6498eab26b7474eb28c69f75359f30243a494fae114527021863b4a3a6d73e3b",
+      "result": {
+        "status": "finalized",
+        "request_id": "b02cc275522c8e64de5ea87f7b072925fa94e309fa681b50a29433dcef5e8dd8",
+        "records": [
+          {
+            "id": 391,
+            "revision": 1,
+            "sha256": "227c510eac1605f5ad001dc156b1f336567f24474d1b1f7fa55fd0911f633b5b"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
