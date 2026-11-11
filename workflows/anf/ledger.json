@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1217,
-  "updated_at": "2026-11-11T01:44:36.942139+00:00",
-  "next_id": 396,
+  "generation": 1218,
+  "updated_at": "2026-11-11T01:44:37.824355+00:00",
+  "next_id": 397,
   "records": [
     {
       "id": 1,
@@ -5258,6 +5258,19 @@
           "sha256": "04438d3ad3d157b3dca6c0683df60a661f6d538d58dd63237844fc04e32a96cb",
           "source": "Google DeepMind",
           "request_id": "4d96d1b2b76e391fb1a08034edd9413068e2ba35d75c46ef3b73132dc5771dd9",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 396,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T01:44:37.824355+00:00",
+          "block": "Title: Claude Fable 5.2 Automates 41.3% of Projects on a Freelance Work Test\nURL: https://labs.scale.com/leaderboard/rli\nImage URL: https://the-decoder.com/wp-content/uploads/2026/11/RLI-Bench-Fable5-2.png\nSummary: The Center for AI Safety and Scale Labs say Claude Fable 5.2 automated 41.3% of real freelance projects on their Remote Labor Index, up from 2.5% for the best system a year ago. CAIS says the rate is doubling about every three months and that AIs may soon do all remote work faster and more cheaply than people.",
+          "sha256": "ee57941b628cf3aba759dca2a31995c53652860e53f63a27d617841a6e713e58",
+          "source": "Center for AI Safety",
+          "request_id": "a73e2d431f053d5d00323b2ead9dbdbf96966749bac52a5de8a0fcb68cab5ef7",
           "mode": "standard"
         }
       ]
@@ -11607,13 +11620,21 @@
       ]
     },
     "a73e2d431f053d5d00323b2ead9dbdbf96966749bac52a5de8a0fcb68cab5ef7": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T01:44:36.942139+00:00",
       "received_sequence": 359,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T01:44:37.824355+00:00",
+      "records": [
+        {
+          "id": 396,
+          "revision": 1,
+          "sha256": "ee57941b628cf3aba759dca2a31995c53652860e53f63a27d617841a6e713e58"
+        }
+      ]
     }
   },
   "batches": {
@@ -43606,6 +43627,21 @@
       "result": {
         "status": "received",
         "request_id": "a73e2d431f053d5d00323b2ead9dbdbf96966749bac52a5de8a0fcb68cab5ef7"
+      }
+    },
+    "f3a11fcd7696138ef9c1445b862d5a3f2daeb866152ba8b5db617f8b94e743d3": {
+      "sha256": "bb12761464dba66317d92e91a67cdace698e11850400fc67c1ef3ab6c917368e",
+      "result": {
+        "status": "finalized",
+        "request_id": "a73e2d431f053d5d00323b2ead9dbdbf96966749bac52a5de8a0fcb68cab5ef7",
+        "records": [
+          {
+            "id": 396,
+            "revision": 1,
+            "sha256": "ee57941b628cf3aba759dca2a31995c53652860e53f63a27d617841a6e713e58"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
