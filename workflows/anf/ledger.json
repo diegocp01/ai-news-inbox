@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1245,
-  "updated_at": "2026-11-11T14:20:15.781679+00:00",
+  "generation": 1246,
+  "updated_at": "2026-11-11T14:20:16.679216+00:00",
   "next_id": 405,
   "records": [
     {
@@ -44847,6 +44847,18 @@
         ],
         "duplicates": []
       }
+    },
+    "ffa2ce27d46a05f693cf5e9eb49c349e9bf33e39eb77bfe7ec44fcd174abd01a": {
+      "sha256": "c13bab1460fc27fab8479ff24cdc5d959b33e10a11116afea5ddd84895a887d4",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 404,
+          "revision": 1,
+          "sha256": "bed2203978baddbea99f2464cf5fafa555cd669eb4e4afd8d34a48eaaaa89650"
+        },
+        "editorial_sha256": "574f6a827339e5d8c0556a7b302f48c547368e29414c09c9700f4f9fc99664e7"
+      }
     }
   },
   "migration": {
@@ -55593,6 +55605,26 @@
         "sha256": "6697b166b8bc38b303e2c76e544d88dd832b390f15f4dba49c9621042ebd8cff",
         "reviewed_at": "2026-11-11T13:03:53.806298+00:00",
         "operation_id": "muse-backfill-20261111-403-3486"
+      }
+    ],
+    "404:1": [
+      {
+        "reference": {
+          "id": 404,
+          "revision": 1,
+          "sha256": "bed2203978baddbea99f2464cf5fafa555cd669eb4e4afd8d34a48eaaaa89650"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Workplace product feature written in plain language with no ML-technical, developer/API, or hardware-internals terms. Not a new flagship model release.",
+            "evidence_sha256": "d1e5a72b045a0062beb583606cb8d9de02a46102290822c37aba4bb9052ca04f"
+          }
+        },
+        "sha256": "574f6a827339e5d8c0556a7b302f48c547368e29414c09c9700f4f9fc99664e7",
+        "reviewed_at": "2026-11-11T14:20:16.679216+00:00",
+        "operation_id": "ffa2ce27d46a05f693cf5e9eb49c349e9bf33e39eb77bfe7ec44fcd174abd01a"
       }
     ]
   }
