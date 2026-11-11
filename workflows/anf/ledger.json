@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1191,
-  "updated_at": "2026-11-11T00:32:01.471435+00:00",
+  "generation": 1192,
+  "updated_at": "2026-11-11T00:32:02.286663+00:00",
   "next_id": 388,
   "records": [
     {
@@ -43067,6 +43067,18 @@
         ],
         "duplicates": []
       }
+    },
+    "3b90472a2f6ba5062f73dbd07162b2bbdabe8ec7439b321b3163474ebb28cd6a": {
+      "sha256": "699e2bb7ad3a78aa1c6da1dd0b845316ff9aa637cebc04b856ff6e05efa68fe8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 387,
+          "revision": 1,
+          "sha256": "dd6d5fc7434d24d1bf60fba859f8ad4c69962185b656a97d71ea5b4173176e53"
+        },
+        "editorial_sha256": "a4426abeca017d0a63abb41d9fcb33d5a29d7d74b41a2ebe830527c54e58a71a"
+      }
     }
   },
   "migration": {
@@ -53413,6 +53425,26 @@
         "sha256": "ecb5f686f89837ede1110ffec7059ac252ad5a9758248289625712c7428fcff3",
         "reviewed_at": "2026-11-11T00:26:58.410386+00:00",
         "operation_id": "f57caaeb3b0321ddb2159ff0f3fd248dea2a1f18f38858bedeabed2991988744"
+      }
+    ],
+    "387:1": [
+      {
+        "reference": {
+          "id": 387,
+          "revision": 1,
+          "sha256": "dd6d5fc7434d24d1bf60fba859f8ad4c69962185b656a97d71ea5b4173176e53"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer product launch of Whiteboards, Sheets, and Data in Claude; no ML-technical, developer/API, or hardware terms; not a new flagship model.",
+            "evidence_sha256": "a9363cdf7cdfc4e6cd93cfbe9c46aecf2007bb45ec3a143ea7d0782a5f2b18d1"
+          }
+        },
+        "sha256": "a4426abeca017d0a63abb41d9fcb33d5a29d7d74b41a2ebe830527c54e58a71a",
+        "reviewed_at": "2026-11-11T00:32:02.286663+00:00",
+        "operation_id": "3b90472a2f6ba5062f73dbd07162b2bbdabe8ec7439b321b3163474ebb28cd6a"
       }
     ]
   }
