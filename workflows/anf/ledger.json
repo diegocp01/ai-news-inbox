@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1194,
-  "updated_at": "2026-11-11T00:33:16.577692+00:00",
+  "generation": 1195,
+  "updated_at": "2026-11-11T00:33:17.301867+00:00",
   "next_id": 389,
   "records": [
     {
@@ -43131,6 +43131,18 @@
         ],
         "duplicates": []
       }
+    },
+    "88468affd0848a283f362f9ee02d015d0546a73ad4ca2bbecaa2ea32b5d1378f": {
+      "sha256": "8efd414a8bc6d29b71e0141a83472bec3d722e3adb65303f9da0b93bd03a2451",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 388,
+          "revision": 1,
+          "sha256": "54705f31ac1816583e7e0b8276dbdf8809bf81d151c198b655d8bb8e46555108"
+        },
+        "editorial_sha256": "cf779c23be656917d1269d786b7969e812ee5a2314f520c9036400e0294e0f1c"
+      }
     }
   },
   "migration": {
@@ -53497,6 +53509,26 @@
         "sha256": "a4426abeca017d0a63abb41d9fcb33d5a29d7d74b41a2ebe830527c54e58a71a",
         "reviewed_at": "2026-11-11T00:32:02.286663+00:00",
         "operation_id": "3b90472a2f6ba5062f73dbd07162b2bbdabe8ec7439b321b3163474ebb28cd6a"
+      }
+    ],
+    "388:1": [
+      {
+        "reference": {
+          "id": 388,
+          "revision": 1,
+          "sha256": "54705f31ac1816583e7e0b8276dbdf8809bf81d151c198b655d8bb8e46555108"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer business-profile feature in ChatGPT; no ML-technical, developer/API, or hardware terms; not a new flagship model.",
+            "evidence_sha256": "42f69be4158e0a962cb82194cc2c53f5675a87519dc749674009f01e917174a2"
+          }
+        },
+        "sha256": "cf779c23be656917d1269d786b7969e812ee5a2314f520c9036400e0294e0f1c",
+        "reviewed_at": "2026-11-11T00:33:17.301867+00:00",
+        "operation_id": "88468affd0848a283f362f9ee02d015d0546a73ad4ca2bbecaa2ea32b5d1378f"
       }
     ]
   }
