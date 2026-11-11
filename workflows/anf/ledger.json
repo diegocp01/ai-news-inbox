@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1265,
-  "updated_at": "2026-11-11T19:46:35.930749+00:00",
-  "next_id": 411,
+  "generation": 1266,
+  "updated_at": "2026-11-11T19:46:36.768741+00:00",
+  "next_id": 412,
   "records": [
     {
       "id": 1,
@@ -5456,6 +5456,19 @@
           "sha256": "e21190afcfd94ca2257ce249e98826b09e01ecda6172c1ce35d7a2c45300db3c",
           "source": "Google",
           "request_id": "ae9f17c4ca600d9cd0cc4915bc683d30dcf56756be331125a38be8a16cbbe205",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 411,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T19:46:36.768741+00:00",
+          "block": "Title: JPMorganChase Expands Claude Code to More Employees Across the Firm\nURL: https://claude.com/resources/articles/jpmorganchase-expands-claude-code\nImage URL: https://claude.com/resources/articles/jpmorganchase-expands-claude-code/opengraph-image/og\nSummary: JPMorganChase is expanding Claude Code beyond engineers to more employees across the firm, Anthropic said. Product teams are using it for planning, and other teams for risk assessments, operations, and wealth-management work. Anthropic says the tool runs on the bank's own systems in controlled environments, with staged access, and that people remain accountable for every production change.",
+          "sha256": "56b19eef68cc5e53183a388aa4ce00ee8c875ae118900bf1c9ed4d4da2b71fa3",
+          "source": "Anthropic",
+          "request_id": "da79ec2e1c74a1b345e3924d5ff70caf8a3e26098abcfe383888d47efc595a05",
           "mode": "standard"
         }
       ]
@@ -12037,13 +12050,21 @@
       ]
     },
     "da79ec2e1c74a1b345e3924d5ff70caf8a3e26098abcfe383888d47efc595a05": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T19:46:35.930749+00:00",
       "received_sequence": 372,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T19:46:36.768741+00:00",
+      "records": [
+        {
+          "id": 411,
+          "revision": 1,
+          "sha256": "56b19eef68cc5e53183a388aa4ce00ee8c875ae118900bf1c9ed4d4da2b71fa3"
+        }
+      ]
     }
   },
   "batches": {
@@ -45258,6 +45279,21 @@
       "result": {
         "status": "received",
         "request_id": "da79ec2e1c74a1b345e3924d5ff70caf8a3e26098abcfe383888d47efc595a05"
+      }
+    },
+    "a7d3a81423007733b58780f43daa0c458039e95160ba08af82f1a2773aaf20f5": {
+      "sha256": "33aab2f9b83bc80d66aa45232f1240e605b0ceca1f487c8700c1bdd2848bdd64",
+      "result": {
+        "status": "finalized",
+        "request_id": "da79ec2e1c74a1b345e3924d5ff70caf8a3e26098abcfe383888d47efc595a05",
+        "records": [
+          {
+            "id": 411,
+            "revision": 1,
+            "sha256": "56b19eef68cc5e53183a388aa4ce00ee8c875ae118900bf1c9ed4d4da2b71fa3"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
