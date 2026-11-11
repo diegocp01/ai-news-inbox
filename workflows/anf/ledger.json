@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1206,
-  "updated_at": "2026-11-11T00:38:10.092308+00:00",
+  "generation": 1207,
+  "updated_at": "2026-11-11T00:38:10.895594+00:00",
   "next_id": 393,
   "records": [
     {
@@ -43387,6 +43387,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a3df611bfba0129d6d0530b0efcb243494389daedafba4c3e3a42f52b9daa8e0": {
+      "sha256": "5039167c636e5dc51e559d10d5134a8d1f42679dfe3166eadb982624089f513d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 392,
+          "revision": 1,
+          "sha256": "ff78ed26b6d1a1472c21e0324cf7b2751fb75eaa6f1a6cd996bb1a23ab0fc2f1"
+        },
+        "editorial_sha256": "002c087ec9e2329faa48c5ad0bb3f45250c4f418a8d65f8e57e62cd2e5e23d17"
+      }
     }
   },
   "migration": {
@@ -53833,6 +53845,26 @@
         "sha256": "65f80afc76c4cdff06d00287f0308e67161b10e7007f4fa80668373a436a57ef",
         "reviewed_at": "2026-11-11T00:38:08.436993+00:00",
         "operation_id": "62d57d5c15be9482275ac3fe7ccabe43afc315c2def46bf8cdf0d2030a46b312"
+      }
+    ],
+    "392:1": [
+      {
+        "reference": {
+          "id": 392,
+          "revision": 1,
+          "sha256": "ff78ed26b6d1a1472c21e0324cf7b2751fb75eaa6f1a6cd996bb1a23ab0fc2f1"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Specialized robotics/physical-AI model written in plain language without ML-technical, developer/API, or hardware-internals terms; not a flagship general Gemini model, so no New AI Model prefix.",
+            "evidence_sha256": "f74f074ebcd13ba601d7c249cbc60fd212c785f77e2280ad4a55d88f2cc2f5e3"
+          }
+        },
+        "sha256": "002c087ec9e2329faa48c5ad0bb3f45250c4f418a8d65f8e57e62cd2e5e23d17",
+        "reviewed_at": "2026-11-11T00:38:10.895594+00:00",
+        "operation_id": "a3df611bfba0129d6d0530b0efcb243494389daedafba4c3e3a42f52b9daa8e0"
       }
     ]
   }
