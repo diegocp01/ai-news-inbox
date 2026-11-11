@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1232,
-  "updated_at": "2026-11-11T12:40:07.679123+00:00",
-  "next_id": 401,
+  "generation": 1233,
+  "updated_at": "2026-11-11T12:48:44.604810+00:00",
+  "next_id": 404,
   "records": [
     {
       "id": 1,
@@ -5324,6 +5324,48 @@
           "source": "OpenAI",
           "request_id": "96b36c190d8e3d8d90a6073b6eba5131503d276ccb56244e4a28730970e7b78a",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 401,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T12:48:44.604810+00:00",
+          "block": "Title: OpenAI Launches Business Profiles and Agents in ChatGPT\nURL: https://thenextweb.com/news/openai-businesses-in-chatgpt-business-agents\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/7Eicp7g84HA3PCzyVJTfbT/d423890d5a1a863bf69a57bcbbbf6e99/business-agents-blog-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI launched Businesses in ChatGPT in beta, letting eligible companies claim profiles, update information and view aggregated mentions and website clicks. Eligible U.S. ecommerce and online service businesses can create assistants that answer customer questions. These conversations are labeled and separate from ChatGPT’s independent answers. Businesses can also sponsor their assistants as destinations for clearly labeled ChatGPT ads.",
+          "sha256": "e609bae300ccf5954154eb95c988fef710cfcf1c77cf1acffbbc6ee3f63b54a5",
+          "source": "thenextweb.com",
+          "request_id": "c081f806374febb04fa2650e8226a37c68ff1acae330620c79f33a29f73da26a",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T12:48:44.604810+00:00",
+          "block": "Title: Anthropic Announces Claude Spreadsheets, Whiteboards, and Meeting Tools\nURL: https://claude.com/resources/articles/sheets-whiteboards-data\nImage URL: https://images.axios.com/1n-8cbCRu69pkVg_ohk2gCRce5o=/0x0:1920x1080/1920x1080/2026/11/09/1794262936787.png?w=3840\nSummary: Anthropic launched Claude Sheets and Whiteboards in beta for paid users and made Claude Data, formerly Dashboards, generally available. The company says Data can turn business metrics into visual stories and narrated videos. It also announced an upcoming Google Meet assistant and expanded connectors that let users work in other apps within Claude.",
+          "sha256": "7a977ee0856173a81467eb26ad04457cf5339578c2074ac1c49b04087f21ba94",
+          "source": "claude.com",
+          "request_id": "c081f806374febb04fa2650e8226a37c68ff1acae330620c79f33a29f73da26a",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 403,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T12:48:44.604810+00:00",
+          "block": "Title: AI Futures Project Forecasts Superhuman AI Researchers in 2027\nURL: https://blog.aifutures.org/p/q35-timelines-update-looks-like-the\nImage URL: https://substackcdn.com/image/fetch/$s_!Q8oC!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e84b6c4-6dc9-44ea-9efb-4ef6a943aaf5_2400x1260.png\nSummary: The AI Futures Project now forecasts systems matching top AI researchers’ judgment and fully automating AI research coding in 2027, assuming no substantial deliberate slowdown. Its biggest influence was METR’s uncertain assessment of research acceleration at Anthropic, which relies heavily on redacted evidence. The group urges an industry pause or substantial slowdown if its forecast is right.",
+          "sha256": "d3c4f299b281f75336808215f41b0a1b0a787b2d21ce52fa2927368023b3d074",
+          "source": "blog.aifutures.org",
+          "request_id": "c081f806374febb04fa2650e8226a37c68ff1acae330620c79f33a29f73da26a",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -11757,14 +11799,32 @@
       ]
     },
     "c081f806374febb04fa2650e8226a37c68ff1acae330620c79f33a29f73da26a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T12:40:07.679123+00:00",
       "received_sequence": 364,
       "expected_items": 3,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-11T12:48:44.604810+00:00",
+      "records": [
+        {
+          "id": 401,
+          "revision": 1,
+          "sha256": "e609bae300ccf5954154eb95c988fef710cfcf1c77cf1acffbbc6ee3f63b54a5"
+        },
+        {
+          "id": 402,
+          "revision": 1,
+          "sha256": "7a977ee0856173a81467eb26ad04457cf5339578c2074ac1c49b04087f21ba94"
+        },
+        {
+          "id": 403,
+          "revision": 1,
+          "sha256": "d3c4f299b281f75336808215f41b0a1b0a787b2d21ce52fa2927368023b3d074"
+        }
+      ]
     }
   },
   "batches": {
@@ -43927,6 +43987,31 @@
       "result": {
         "status": "received",
         "request_id": "c081f806374febb04fa2650e8226a37c68ff1acae330620c79f33a29f73da26a"
+      }
+    },
+    "929ee2933cfaf17a4af26b7dc5cab71d484907e53afcebf05a014eb99923698f": {
+      "sha256": "05b501206f6b91774af73832ec9c0077423ac20c7e5c508d54fe1603503d093a",
+      "result": {
+        "status": "finalized",
+        "request_id": "c081f806374febb04fa2650e8226a37c68ff1acae330620c79f33a29f73da26a",
+        "records": [
+          {
+            "id": 401,
+            "revision": 1,
+            "sha256": "e609bae300ccf5954154eb95c988fef710cfcf1c77cf1acffbbc6ee3f63b54a5"
+          },
+          {
+            "id": 402,
+            "revision": 1,
+            "sha256": "7a977ee0856173a81467eb26ad04457cf5339578c2074ac1c49b04087f21ba94"
+          },
+          {
+            "id": 403,
+            "revision": 1,
+            "sha256": "d3c4f299b281f75336808215f41b0a1b0a787b2d21ce52fa2927368023b3d074"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
