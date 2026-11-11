@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1208,
-  "updated_at": "2026-11-11T00:38:11.732865+00:00",
-  "next_id": 393,
+  "generation": 1209,
+  "updated_at": "2026-11-11T00:38:12.490263+00:00",
+  "next_id": 394,
   "records": [
     {
       "id": 1,
@@ -5219,6 +5219,19 @@
           "sha256": "ff78ed26b6d1a1472c21e0324cf7b2751fb75eaa6f1a6cd996bb1a23ab0fc2f1",
           "source": "Google DeepMind",
           "request_id": "85196cfc064dc9f7dff7d7557ece21020c5dcba27d8763fc3d0caf0fedfd4710",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 393,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T00:38:12.490263+00:00",
+          "block": "Title: Cursor Makes Projects Multiplayer So Teammates' Agents Can Work Together\nURL: https://cursor.com/blog/projects-multiplayer\nImage URL: https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/projects-mp-UBYHzU2mlANxiKl3n44qnRePiRTOgt.jpg\nSummary: Cursor said it rebuilt Projects for multiplayer, so teammates and their agents can plan, build, and ship in one shared workspace. The company says the workspace includes a shared task board and shared context, that teammates' agents can coordinate with each other, and that the feature is rolling out in beta to all Cursor users.",
+          "sha256": "469c779aee32af32f339e4a1779a432309c87524e32673d7001b690d4ea14468",
+          "source": "Cursor",
+          "request_id": "70015e5b774ced39991fb989ac0f4b98d9fe2fb7b0a448471cb29d96334b7d6a",
           "mode": "standard"
         }
       ]
@@ -11517,13 +11530,21 @@
       ]
     },
     "70015e5b774ced39991fb989ac0f4b98d9fe2fb7b0a448471cb29d96334b7d6a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T00:38:11.732865+00:00",
       "received_sequence": 356,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T00:38:12.490263+00:00",
+      "records": [
+        {
+          "id": 393,
+          "revision": 1,
+          "sha256": "469c779aee32af32f339e4a1779a432309c87524e32673d7001b690d4ea14468"
+        }
+      ]
     }
   },
   "batches": {
@@ -43414,6 +43435,21 @@
       "result": {
         "status": "received",
         "request_id": "70015e5b774ced39991fb989ac0f4b98d9fe2fb7b0a448471cb29d96334b7d6a"
+      }
+    },
+    "616f0919c726334575a91af4d099cd45b478bf0ff4ace365e3cead50e6d4bd75": {
+      "sha256": "6046b96a2fd66247b6f60522a594020313e7709453c8097895470ea30c23a29d",
+      "result": {
+        "status": "finalized",
+        "request_id": "70015e5b774ced39991fb989ac0f4b98d9fe2fb7b0a448471cb29d96334b7d6a",
+        "records": [
+          {
+            "id": 393,
+            "revision": 1,
+            "sha256": "469c779aee32af32f339e4a1779a432309c87524e32673d7001b690d4ea14468"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
