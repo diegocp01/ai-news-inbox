@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1263,
-  "updated_at": "2026-11-11T18:34:01.676363+00:00",
+  "generation": 1264,
+  "updated_at": "2026-11-11T18:34:31.518642+00:00",
   "next_id": 411,
   "records": [
     {
@@ -45231,6 +45231,18 @@
         ],
         "duplicates": []
       }
+    },
+    "137ca2a78d5ee0910a5c2ff8ee749250e2dbd62b089ec2b0b1e4ec2a10c392dd": {
+      "sha256": "e6958f609d695f0875ef414de90377b960105b5feaaa9ca95e22f18094e0c0c1",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 410,
+          "revision": 1,
+          "sha256": "e21190afcfd94ca2257ce249e98826b09e01ecda6172c1ce35d7a2c45300db3c"
+        },
+        "editorial_sha256": "edc3d081fffb4ba905c65059ec1bdb186ea22631108665f997d843ab74c5988c"
+      }
     }
   },
   "migration": {
@@ -56097,6 +56109,26 @@
         "sha256": "707e31bb70639eb0df51683185821c2069e5d5dd9cbae780a4969b2d7ace353c",
         "reviewed_at": "2026-11-11T18:10:04.841578+00:00",
         "operation_id": "a481cdcd801ceac10e266e8c2ccf0fb22e3fcabc9b9b5c8ca1ee50dbd1b37c92"
+      }
+    ],
+    "410:1": [
+      {
+        "reference": {
+          "id": 410,
+          "revision": 1,
+          "sha256": "e21190afcfd94ca2257ce249e98826b09e01ecda6172c1ce35d7a2c45300db3c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "api",
+            "rationale": "Developer/API announcement: summary uses Gemini API, AI Studio, and token pricing, which are developer terms and require ds:true. Specialized decision model in the Gemini API, not a non-DS new flagship Gemini, so no New AI Model prefix.",
+            "evidence_sha256": "4d8ac13897cbc65c69685bd9f6c154d13150c566defd5329b6c57b856b09b735"
+          }
+        },
+        "sha256": "edc3d081fffb4ba905c65059ec1bdb186ea22631108665f997d843ab74c5988c",
+        "reviewed_at": "2026-11-11T18:34:31.518642+00:00",
+        "operation_id": "137ca2a78d5ee0910a5c2ff8ee749250e2dbd62b089ec2b0b1e4ec2a10c392dd"
       }
     ]
   }
