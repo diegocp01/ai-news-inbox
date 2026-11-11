@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1247,
-  "updated_at": "2026-11-11T16:40:02.383487+00:00",
-  "next_id": 405,
+  "generation": 1248,
+  "updated_at": "2026-11-11T16:40:03.180405+00:00",
+  "next_id": 406,
   "records": [
     {
       "id": 1,
@@ -5378,6 +5378,19 @@
           "sha256": "bed2203978baddbea99f2464cf5fafa555cd669eb4e4afd8d34a48eaaaa89650",
           "source": "Anthropic",
           "request_id": "059ae095e8a5173b05db587d06e6f145ba544b71aab511e53845640fd487b4d0",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 405,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T16:40:03.180405+00:00",
+          "block": "Title: Google DeepMind Introduces AlphaGenome 2 to Help Study How DNA Changes Affect Cells\nURL: https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/\nImage URL: https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w1920-h1080-n-nu\nSummary: Google DeepMind introduced AlphaGenome 2, a DNA model that predicts how genetic changes affect specific human cell types, to help researchers study disease. DeepMind says it finds nearly twice as many gene-changing variants as the previous version. It is available for non-commercial research today, with a private preview for commercial research, and is not approved for clinical use.",
+          "sha256": "eabff955a74c914cfe1beaf4cfa587bb7c381d3b0e41f19b064b223aeefb89d7",
+          "source": "Google DeepMind",
+          "request_id": "b72a0dd95ed7031a0b067300675d874ed3a1d1270edd20db67e9ef6b7f554017",
           "mode": "standard"
         }
       ]
@@ -11857,13 +11870,21 @@
       ]
     },
     "b72a0dd95ed7031a0b067300675d874ed3a1d1270edd20db67e9ef6b7f554017": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T16:40:02.383487+00:00",
       "received_sequence": 366,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T16:40:03.180405+00:00",
+      "records": [
+        {
+          "id": 405,
+          "revision": 1,
+          "sha256": "eabff955a74c914cfe1beaf4cfa587bb7c381d3b0e41f19b064b223aeefb89d7"
+        }
+      ]
     }
   },
   "batches": {
@@ -44874,6 +44895,21 @@
       "result": {
         "status": "received",
         "request_id": "b72a0dd95ed7031a0b067300675d874ed3a1d1270edd20db67e9ef6b7f554017"
+      }
+    },
+    "d5586ca2286bf901d7e0cb5cbaf5fd00feeff2f58b15f862852e817f6600b19e": {
+      "sha256": "b1011b9324c308735f4e008e72e755a71a343bd88bf4affb426d7eebbed1981d",
+      "result": {
+        "status": "finalized",
+        "request_id": "b72a0dd95ed7031a0b067300675d874ed3a1d1270edd20db67e9ef6b7f554017",
+        "records": [
+          {
+            "id": 405,
+            "revision": 1,
+            "sha256": "eabff955a74c914cfe1beaf4cfa587bb7c381d3b0e41f19b064b223aeefb89d7"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
