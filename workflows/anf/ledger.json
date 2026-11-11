@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1220,
-  "updated_at": "2026-11-11T02:42:00.998373+00:00",
-  "next_id": 397,
+  "generation": 1221,
+  "updated_at": "2026-11-11T02:42:01.783602+00:00",
+  "next_id": 398,
   "records": [
     {
       "id": 1,
@@ -5271,6 +5271,19 @@
           "sha256": "ee57941b628cf3aba759dca2a31995c53652860e53f63a27d617841a6e713e58",
           "source": "Center for AI Safety",
           "request_id": "a73e2d431f053d5d00323b2ead9dbdbf96966749bac52a5de8a0fcb68cab5ef7",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 397,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T02:42:01.783602+00:00",
+          "block": "Title: AI 2027 Authors Now Forecast a Superhuman AI Researcher in 2027\nURL: https://blog.aifutures.org/p/q35-timelines-update-looks-like-the\nImage URL: https://substack-post-media.s3.amazonaws.com/public/images/7e84b6c4-6dc9-44ea-9efb-4ef6a943aaf5_2400x1260.png\nSummary: AI 2027's authors updated their forecasts after a METR report that Anthropic's AI progress has roughly doubled, with most of the speedup possibly due to AI itself. They now say a superhuman AI researcher is likely in 2027 if companies do not slow down, and they give a 35-65% chance that AIs can automate all white-collar work before 2028.",
+          "sha256": "759d9fb2b3b3b0c8b7528c25ffca7f791f208165585c28ef3dfe94bd18899286",
+          "source": "AI Futures",
+          "request_id": "002b73118b1db09c30ca2042b5f77fead84101d2d8426fb05c71ff933c2a56df",
           "mode": "standard"
         }
       ]
@@ -11637,13 +11650,21 @@
       ]
     },
     "002b73118b1db09c30ca2042b5f77fead84101d2d8426fb05c71ff933c2a56df": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T02:42:00.998373+00:00",
       "received_sequence": 360,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T02:42:01.783602+00:00",
+      "records": [
+        {
+          "id": 397,
+          "revision": 1,
+          "sha256": "759d9fb2b3b3b0c8b7528c25ffca7f791f208165585c28ef3dfe94bd18899286"
+        }
+      ]
     }
   },
   "batches": {
@@ -43670,6 +43691,21 @@
       "result": {
         "status": "received",
         "request_id": "002b73118b1db09c30ca2042b5f77fead84101d2d8426fb05c71ff933c2a56df"
+      }
+    },
+    "f4bb6a8432db7b26df7ae1a5c01b6aad0114d8cd3a82eaa2dc02defc9e674f0d": {
+      "sha256": "92994f14ec400ce154ba45532993ec1820a38f0a792e47706ba02564b36cc9a0",
+      "result": {
+        "status": "finalized",
+        "request_id": "002b73118b1db09c30ca2042b5f77fead84101d2d8426fb05c71ff933c2a56df",
+        "records": [
+          {
+            "id": 397,
+            "revision": 1,
+            "sha256": "759d9fb2b3b3b0c8b7528c25ffca7f791f208165585c28ef3dfe94bd18899286"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
