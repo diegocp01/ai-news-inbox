@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1226,
-  "updated_at": "2026-11-11T12:20:47.567905+00:00",
-  "next_id": 399,
+  "generation": 1227,
+  "updated_at": "2026-11-11T12:20:48.405152+00:00",
+  "next_id": 400,
   "records": [
     {
       "id": 1,
@@ -5297,6 +5297,19 @@
           "sha256": "7a23cd6cff1be530f9c5b4e5d70c8d6c9f2f1f6d6e41ac2ca406687a09d38ab2",
           "source": "Google DeepMind",
           "request_id": "aa59c969faf849ca5bdb023f05120b12e5670ddb84fc84eb68b0d0b1b42e2efe",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 399,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T12:20:48.405152+00:00",
+          "block": "Title: Muse Can Now Send and Receive Email for Paid Subscribers in the US and Canada\nURL: https://www.theverge.com/tech/1031029/metas-muse-can-now-deal-with-a-forwarded-email\nImage URL: https://www.allthingsmuse.com/cover-muse-mail-available-paid-subscribers.webp\nSummary: Meta's Muse agent now has its own email address and can send and receive emails on a user's behalf, the official Muse account said. The feature is available now for paid subscribers in the US and Canada. Muse says users can add the address to a thread or forward it an email.",
+          "sha256": "424026695d249303a546048d8d3f08eee1f743d1d127aa907bc32f9b1c82d623",
+          "source": "Meta",
+          "request_id": "4a94e0894d928dbc13b61fe069adcfc6a0a9d4ed212c3a6d6e3673f96219f80b",
           "mode": "standard"
         }
       ]
@@ -11697,13 +11710,21 @@
       ]
     },
     "4a94e0894d928dbc13b61fe069adcfc6a0a9d4ed212c3a6d6e3673f96219f80b": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T12:20:47.567905+00:00",
       "received_sequence": 362,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T12:20:48.405152+00:00",
+      "records": [
+        {
+          "id": 399,
+          "revision": 1,
+          "sha256": "424026695d249303a546048d8d3f08eee1f743d1d127aa907bc32f9b1c82d623"
+        }
+      ]
     }
   },
   "batches": {
@@ -43798,6 +43819,21 @@
       "result": {
         "status": "received",
         "request_id": "4a94e0894d928dbc13b61fe069adcfc6a0a9d4ed212c3a6d6e3673f96219f80b"
+      }
+    },
+    "948c60a489d67f15e249d354a7b6b14968fec185af38349d497946ef4d51d9cc": {
+      "sha256": "af574134fe2b466e0dde08a5f56fdf3567968f6126d18dee94e93636525a80af",
+      "result": {
+        "status": "finalized",
+        "request_id": "4a94e0894d928dbc13b61fe069adcfc6a0a9d4ed212c3a6d6e3673f96219f80b",
+        "records": [
+          {
+            "id": 399,
+            "revision": 1,
+            "sha256": "424026695d249303a546048d8d3f08eee1f743d1d127aa907bc32f9b1c82d623"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
