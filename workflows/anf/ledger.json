@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1269,
-  "updated_at": "2026-11-11T19:52:00.056198+00:00",
+  "generation": 1270,
+  "updated_at": "2026-11-11T19:52:00.788306+00:00",
   "next_id": 413,
   "records": [
     {
@@ -45359,6 +45359,18 @@
         ],
         "duplicates": []
       }
+    },
+    "3764dacc28c8a1c37f61e9a878b29cb09bc9f25f39e95e90edd5b524581c2703": {
+      "sha256": "915bb9df42befa20fc5c93cee9928aef2c9a9148dc801782aee9ead569508517",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 412,
+          "revision": 1,
+          "sha256": "2c66af418c8e7eb3f3b8c0f23756289cb77d873ce6abc5c1a21b0978a7654ba9"
+        },
+        "editorial_sha256": "a997b19a54123b4700aee4f0a43ab62505099fdfb8a47c8e60ec91efaa427791"
+      }
     }
   },
   "migration": {
@@ -56265,6 +56277,26 @@
         "sha256": "a5c805cad57af79af72a8723f8d978f55c502acb29ba0f268185226aa68e5c27",
         "reviewed_at": "2026-11-11T19:46:37.527220+00:00",
         "operation_id": "8be34be3a7140006fb6e9642dc0c4ae155d6208839ff0af52e153b205c149edc"
+      }
+    ],
+    "412:1": [
+      {
+        "reference": {
+          "id": 412,
+          "revision": 1,
+          "sha256": "2c66af418c8e7eb3f3b8c0f23756289cb77d873ce6abc5c1a21b0978a7654ba9"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Feature rollout of existing ChatGPT Finances to the desktop app. The wording is everyday consumer language with no developer, API, ML-technical, or hardware terms. Not a new flagship model.",
+            "evidence_sha256": "da16445d4afa060077ede171c68e2dadf03fc32a9f877be472c7e16d98a80dc3"
+          }
+        },
+        "sha256": "a997b19a54123b4700aee4f0a43ab62505099fdfb8a47c8e60ec91efaa427791",
+        "reviewed_at": "2026-11-11T19:52:00.788306+00:00",
+        "operation_id": "3764dacc28c8a1c37f61e9a878b29cb09bc9f25f39e95e90edd5b524581c2703"
       }
     ]
   }
