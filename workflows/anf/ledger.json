@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1230,
-  "updated_at": "2026-11-11T12:36:29.332466+00:00",
+  "generation": 1231,
+  "updated_at": "2026-11-11T12:36:30.143632+00:00",
   "next_id": 401,
   "records": [
     {
@@ -43899,6 +43899,18 @@
         ],
         "duplicates": []
       }
+    },
+    "c07adb4008737a37377b967e10def63df15be5464cc20f0e6360e96862766e67": {
+      "sha256": "2b9d9d015b7dcfc63e37a1d99d45f22d6f17ec1db5e8e9cc5d6c71dcdd130397",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 400,
+          "revision": 1,
+          "sha256": "1f3920958d82ac225093c6f8676c86da9916db944eb3becc775e21da56d9643b"
+        },
+        "editorial_sha256": "e1dfcc49a54d52ead141f3716bf78da1610f99c951eb0b5fa9f41bc52956f8a8"
+      }
     }
   },
   "migration": {
@@ -54505,6 +54517,26 @@
         "sha256": "244edebf530fac7396d0cf594c97d26853313a6ef7f1b9913983afdde23d18ef",
         "reviewed_at": "2026-11-11T12:20:49.171233+00:00",
         "operation_id": "ea3ec1bb26f619b1cc3037263ad14b8593c582280e12af7055d0465456752577"
+      }
+    ],
+    "400:1": [
+      {
+        "reference": {
+          "id": 400,
+          "revision": 1,
+          "sha256": "1f3920958d82ac225093c6f8676c86da9916db944eb3becc775e21da56d9643b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Incident report written in plain language with no ML-technical, developer/API, or hardware-internals terms. Not a new flagship model release.",
+            "evidence_sha256": "5df565c3e611be4e0b11e9bdb895889aa367eed8314db7bfdda62df621f426ea"
+          }
+        },
+        "sha256": "e1dfcc49a54d52ead141f3716bf78da1610f99c951eb0b5fa9f41bc52956f8a8",
+        "reviewed_at": "2026-11-11T12:36:30.143632+00:00",
+        "operation_id": "c07adb4008737a37377b967e10def63df15be5464cc20f0e6360e96862766e67"
       }
     ]
   }
