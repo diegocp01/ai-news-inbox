@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1196,
-  "updated_at": "2026-11-11T00:33:18.075535+00:00",
-  "next_id": 389,
+  "generation": 1197,
+  "updated_at": "2026-11-11T00:33:18.787442+00:00",
+  "next_id": 390,
   "records": [
     {
       "id": 1,
@@ -5167,6 +5167,19 @@
           "sha256": "54705f31ac1816583e7e0b8276dbdf8809bf81d151c198b655d8bb8e46555108",
           "source": "OpenAI",
           "request_id": "069051f6262b91e96b153034997bad880a282627877baa053da1cbd8ed3e6fe7",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 389,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T00:33:18.787442+00:00",
+          "block": "Title: Geodesic Introduces NovaAtom-Lite for Drug-Discovery Structures\nURL: https://www.geodesiclab.com/news/introducing-novaatom-lite\nImage URL: https://www.geodesiclab.com/news/novaatom-launch/976006aebdff.webp\nSummary: Geodesic introduced NovaAtom-Lite, a model that predicts the structures of proteins, nucleic acids, and the molecules they bind. The company says it outperformed IsoDDE and AlphaFold 3 on an antibody-antigen structure test, and that the model is available through Geodesic's API and NovaDDE.",
+          "sha256": "f1934d61034614d065f7132e23f8129495f0c1164a0f2213b18ffaaa3c717ed6",
+          "source": "Geodesic",
+          "request_id": "182d38d94a393075356b2e561a7c050952a7cddf64fe7933467a93e8e3d360ba",
           "mode": "standard"
         }
       ]
@@ -11397,13 +11410,21 @@
       ]
     },
     "182d38d94a393075356b2e561a7c050952a7cddf64fe7933467a93e8e3d360ba": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T00:33:18.075535+00:00",
       "received_sequence": 352,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T00:33:18.787442+00:00",
+      "records": [
+        {
+          "id": 389,
+          "revision": 1,
+          "sha256": "f1934d61034614d065f7132e23f8129495f0c1164a0f2213b18ffaaa3c717ed6"
+        }
+      ]
     }
   },
   "batches": {
@@ -43158,6 +43179,21 @@
       "result": {
         "status": "received",
         "request_id": "182d38d94a393075356b2e561a7c050952a7cddf64fe7933467a93e8e3d360ba"
+      }
+    },
+    "0f5a8eface0fb5fe7c480bbda1f424a2609eb2ddb9ef87f152ce7fc9f3f2b765": {
+      "sha256": "76e68866302bf71d018ff39277d4a743487c925cb607b32a99f1d6b254ba4f07",
+      "result": {
+        "status": "finalized",
+        "request_id": "182d38d94a393075356b2e561a7c050952a7cddf64fe7933467a93e8e3d360ba",
+        "records": [
+          {
+            "id": 389,
+            "revision": 1,
+            "sha256": "f1934d61034614d065f7132e23f8129495f0c1164a0f2213b18ffaaa3c717ed6"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
