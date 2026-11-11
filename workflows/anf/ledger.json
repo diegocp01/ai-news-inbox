@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1271,
-  "updated_at": "2026-11-11T20:49:42.275263+00:00",
-  "next_id": 413,
+  "generation": 1272,
+  "updated_at": "2026-11-11T20:49:43.010226+00:00",
+  "next_id": 414,
   "records": [
     {
       "id": 1,
@@ -5482,6 +5482,19 @@
           "sha256": "2c66af418c8e7eb3f3b8c0f23756289cb77d873ce6abc5c1a21b0978a7654ba9",
           "source": "OpenAI",
           "request_id": "1f8b07164ae2467540d8a79e0e6840d8b3b41230676b810b9527731b4ea1451f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 413,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T20:49:43.010226+00:00",
+          "block": "Title: Google Brings the Gemini App to Apple CarPlay\nURL: https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Carplay_hero_image.width-1300.png\nSummary: Google said the Gemini app is now available on Apple CarPlay, letting iOS users have hands-free conversations with Gemini Live from the car's display. Google says it is rolling out globally starting today to all Gemini users on iOS, in every supported Gemini Live language. Conversations sync with the Gemini app on the iPhone.",
+          "sha256": "15bd55c00377f682d1393bbf1d7606d29dd57d01348cc92b4416d2e0927d27a6",
+          "source": "Google",
+          "request_id": "5bb87244e9ba22109b6cdd8435bf2058b1453b92520f26b2c660873faef4a85e",
           "mode": "standard"
         }
       ]
@@ -12097,13 +12110,21 @@
       ]
     },
     "5bb87244e9ba22109b6cdd8435bf2058b1453b92520f26b2c660873faef4a85e": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T20:49:42.275263+00:00",
       "received_sequence": 374,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T20:49:43.010226+00:00",
+      "records": [
+        {
+          "id": 413,
+          "revision": 1,
+          "sha256": "15bd55c00377f682d1393bbf1d7606d29dd57d01348cc92b4416d2e0927d27a6"
+        }
+      ]
     }
   },
   "batches": {
@@ -45386,6 +45407,21 @@
       "result": {
         "status": "received",
         "request_id": "5bb87244e9ba22109b6cdd8435bf2058b1453b92520f26b2c660873faef4a85e"
+      }
+    },
+    "db25624a297c83ae15813d0f1933310c0621f0add46e08af6ee34e2177b0acb6": {
+      "sha256": "3515562ab285dbca5b218a91a1777ae060452a57c072088e16fc1cb4d2f30364",
+      "result": {
+        "status": "finalized",
+        "request_id": "5bb87244e9ba22109b6cdd8435bf2058b1453b92520f26b2c660873faef4a85e",
+        "records": [
+          {
+            "id": 413,
+            "revision": 1,
+            "sha256": "15bd55c00377f682d1393bbf1d7606d29dd57d01348cc92b4416d2e0927d27a6"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
