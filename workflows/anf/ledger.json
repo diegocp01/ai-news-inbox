@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1212,
-  "updated_at": "2026-11-11T00:43:14.455112+00:00",
+  "generation": 1213,
+  "updated_at": "2026-11-11T00:43:15.371619+00:00",
   "next_id": 395,
   "records": [
     {
@@ -43515,6 +43515,18 @@
         ],
         "duplicates": []
       }
+    },
+    "64fd5a476a17bfa5c55fadd36c28fe89211d7efdf2411259c144ab49e0e2dcfc": {
+      "sha256": "fbc2d2e8c6161b121167dbc9bed055a09219ace7171e0185df09573043874391",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 394,
+          "revision": 1,
+          "sha256": "31f001ebb3b055c0d98ac07d63aaaa17565f028247a244022afe48c1b938f3d5"
+        },
+        "editorial_sha256": "b97bf1c4f51803ca8eb20d18ffcc79d80e906c78ca5608851500ab953da839f9"
+      }
     }
   },
   "migration": {
@@ -54001,6 +54013,26 @@
         "sha256": "7ce9f5b3cc19ae93cc4b31d05dc20339af1d06f7b1fb268bbbd2c38db88d9fe3",
         "reviewed_at": "2026-11-11T00:38:13.238762+00:00",
         "operation_id": "b06823e724556f025d9eb81c1e6417d5708db4aab16cb1ba0639a65de8c08ad0"
+      }
+    ],
+    "394:1": [
+      {
+        "reference": {
+          "id": 394,
+          "revision": 1,
+          "sha256": "31f001ebb3b055c0d98ac07d63aaaa17565f028247a244022afe48c1b938f3d5"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Developer networking feature that names MCP servers and private internal tools; not a new flagship model.",
+            "evidence_sha256": "0de80c9adcfcebb656b9cbf1faf8bde9ac27bc18be8f9ad5794ada9d8283fbc4"
+          }
+        },
+        "sha256": "b97bf1c4f51803ca8eb20d18ffcc79d80e906c78ca5608851500ab953da839f9",
+        "reviewed_at": "2026-11-11T00:43:15.371619+00:00",
+        "operation_id": "64fd5a476a17bfa5c55fadd36c28fe89211d7efdf2411259c144ab49e0e2dcfc"
       }
     ]
   }
