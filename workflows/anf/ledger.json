@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1248,
-  "updated_at": "2026-11-11T16:40:03.180405+00:00",
+  "generation": 1249,
+  "updated_at": "2026-11-11T16:40:03.903998+00:00",
   "next_id": 406,
   "records": [
     {
@@ -44911,6 +44911,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a6fdfa66679c9548086bec062044f3522a6829e0a109c7b0312d8c713eb101a7": {
+      "sha256": "72607675d8cbe29e7a19d6bfb4a3f1b26dcb93b93b31162f8ee8ac97d2a10d7e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 405,
+          "revision": 1,
+          "sha256": "eabff955a74c914cfe1beaf4cfa587bb7c381d3b0e41f19b064b223aeefb89d7"
+        },
+        "editorial_sha256": "d920d226c7764c74c888b4f4626774433139c9e96c0d9bf009bec6d96e6effb1"
+      }
     }
   },
   "migration": {
@@ -55677,6 +55689,26 @@
         "sha256": "574f6a827339e5d8c0556a7b302f48c547368e29414c09c9700f4f9fc99664e7",
         "reviewed_at": "2026-11-11T14:20:16.679216+00:00",
         "operation_id": "ffa2ce27d46a05f693cf5e9eb49c349e9bf33e39eb77bfe7ec44fcd174abd01a"
+      }
+    ],
+    "405:1": [
+      {
+        "reference": {
+          "id": 405,
+          "revision": 1,
+          "sha256": "eabff955a74c914cfe1beaf4cfa587bb7c381d3b0e41f19b064b223aeefb89d7"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Specialized DNA/genomics model described in plain language; biology terms are not ML-technical, developer/API, or hardware jargon. Not a new flagship Gemini/GPT/Claude/Grok/Muse model, so no New AI Model prefix.",
+            "evidence_sha256": "8580e1c5c108a77b2f19882ce209e26da5f78e601907576797bccdf020dbfa26"
+          }
+        },
+        "sha256": "d920d226c7764c74c888b4f4626774433139c9e96c0d9bf009bec6d96e6effb1",
+        "reviewed_at": "2026-11-11T16:40:03.903998+00:00",
+        "operation_id": "a6fdfa66679c9548086bec062044f3522a6829e0a109c7b0312d8c713eb101a7"
       }
     ]
   }
