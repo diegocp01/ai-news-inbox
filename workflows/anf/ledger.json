@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1203,
-  "updated_at": "2026-11-11T00:38:07.603116+00:00",
+  "generation": 1204,
+  "updated_at": "2026-11-11T00:38:08.436993+00:00",
   "next_id": 392,
   "records": [
     {
@@ -43323,6 +43323,18 @@
         ],
         "duplicates": []
       }
+    },
+    "62d57d5c15be9482275ac3fe7ccabe43afc315c2def46bf8cdf0d2030a46b312": {
+      "sha256": "40feb6f917171e624eda88560c3c8d7f24c9e1442f8ad7dce0ca618562373bed",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 391,
+          "revision": 1,
+          "sha256": "227c510eac1605f5ad001dc156b1f336567f24474d1b1f7fa55fd0911f633b5b"
+        },
+        "editorial_sha256": "65f80afc76c4cdff06d00287f0308e67161b10e7007f4fa80668373a436a57ef"
+      }
     }
   },
   "migration": {
@@ -53749,6 +53761,26 @@
         "sha256": "4ce62522164d79fe06253d532590462e8da8023048e90a2bb7f98492f51d1220",
         "reviewed_at": "2026-11-11T00:35:59.363257+00:00",
         "operation_id": "5d96f0725ff093facb6e201c4a7e4d6a33695048793e367690029762594d67c9"
+      }
+    ],
+    "391:1": [
+      {
+        "reference": {
+          "id": 391,
+          "revision": 1,
+          "sha256": "227c510eac1605f5ad001dc156b1f336567f24474d1b1f7fa55fd0911f633b5b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Company acquisition announcement written in plain language with no ML-technical, developer/API, or hardware terms; not a new flagship model.",
+            "evidence_sha256": "b2448fc8c87f00c4f61881429892db89fbe0c245228df8ffaf596edfdc2f9a64"
+          }
+        },
+        "sha256": "65f80afc76c4cdff06d00287f0308e67161b10e7007f4fa80668373a436a57ef",
+        "reviewed_at": "2026-11-11T00:38:08.436993+00:00",
+        "operation_id": "62d57d5c15be9482275ac3fe7ccabe43afc315c2def46bf8cdf0d2030a46b312"
       }
     ]
   }
