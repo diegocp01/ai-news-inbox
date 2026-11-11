@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1193,
-  "updated_at": "2026-11-11T00:33:15.811479+00:00",
-  "next_id": 388,
+  "generation": 1194,
+  "updated_at": "2026-11-11T00:33:16.577692+00:00",
+  "next_id": 389,
   "records": [
     {
       "id": 1,
@@ -5154,6 +5154,19 @@
           "sha256": "dd6d5fc7434d24d1bf60fba859f8ad4c69962185b656a97d71ea5b4173176e53",
           "source": "Anthropic",
           "request_id": "2633a44144bc8c345323eb4d410211b1c90cc345d60605d53649c854257a62ce",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 388,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T00:33:16.577692+00:00",
+          "block": "Title: ChatGPT Adds Business Profiles and Business Agents in Beta\nURL: https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/7Eicp7g84HA3PCzyVJTfbT/d423890d5a1a863bf69a57bcbbbf6e99/business-agents-blog-social.png\nSummary: OpenAI launched Businesses in ChatGPT in beta. Companies can claim their business, manage their information, and see how people engage with them. Eligible U.S. ecommerce and online service businesses can also build a Business Agent to answer customer questions and help people explore what they offer.",
+          "sha256": "54705f31ac1816583e7e0b8276dbdf8809bf81d151c198b655d8bb8e46555108",
+          "source": "OpenAI",
+          "request_id": "069051f6262b91e96b153034997bad880a282627877baa053da1cbd8ed3e6fe7",
           "mode": "standard"
         }
       ]
@@ -11367,13 +11380,21 @@
       ]
     },
     "069051f6262b91e96b153034997bad880a282627877baa053da1cbd8ed3e6fe7": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T00:33:15.811479+00:00",
       "received_sequence": 351,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T00:33:16.577692+00:00",
+      "records": [
+        {
+          "id": 388,
+          "revision": 1,
+          "sha256": "54705f31ac1816583e7e0b8276dbdf8809bf81d151c198b655d8bb8e46555108"
+        }
+      ]
     }
   },
   "batches": {
@@ -43094,6 +43115,21 @@
       "result": {
         "status": "received",
         "request_id": "069051f6262b91e96b153034997bad880a282627877baa053da1cbd8ed3e6fe7"
+      }
+    },
+    "365c3f7b685c6cdab9b7de67a604cf5a3b1ba0bacd81a49e19950b42b96d5cc3": {
+      "sha256": "5652c7a923b620ffd0044e9e030735f7637343a199300d4e574026f78a440a2a",
+      "result": {
+        "status": "finalized",
+        "request_id": "069051f6262b91e96b153034997bad880a282627877baa053da1cbd8ed3e6fe7",
+        "records": [
+          {
+            "id": 388,
+            "revision": 1,
+            "sha256": "54705f31ac1816583e7e0b8276dbdf8809bf81d151c198b655d8bb8e46555108"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
