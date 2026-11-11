@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1262,
-  "updated_at": "2026-11-11T18:34:00.869218+00:00",
-  "next_id": 410,
+  "generation": 1263,
+  "updated_at": "2026-11-11T18:34:01.676363+00:00",
+  "next_id": 411,
   "records": [
     {
       "id": 1,
@@ -5443,6 +5443,19 @@
           "sha256": "e0ced63f1e823e2f5b561baf5dfc668a51ad51e82dac3bf8b195c59df5b6491d",
           "source": "MiniMax",
           "request_id": "dd09686ea888a8baab892a76696165885cabb3c61b718955f913ba10c4d53612",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 410,
+      "revisions": [
+        {
+          "created_at": "2026-11-11T18:34:01.676363+00:00",
+          "block": "Title: Google Launches the Gemini Decisions API With Gemini Decision 1\nURL: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png\nSummary: Google introduced the Gemini Decisions API, powered by Gemini Decision 1, in Google AI Studio and the Gemini API. Google says it can score up to 1,000 yes/no, multiple-choice, or rating questions in one pass across text, images, audio, video, and PDFs, at $0.10 per 1M input tokens with no output-token charge. A no-cost tier is available in AI Studio.",
+          "sha256": "e21190afcfd94ca2257ce249e98826b09e01ecda6172c1ce35d7a2c45300db3c",
+          "source": "Google",
+          "request_id": "ae9f17c4ca600d9cd0cc4915bc683d30dcf56756be331125a38be8a16cbbe205",
           "mode": "standard"
         }
       ]
@@ -12007,13 +12020,21 @@
       ]
     },
     "ae9f17c4ca600d9cd0cc4915bc683d30dcf56756be331125a38be8a16cbbe205": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-11T18:34:00.869218+00:00",
       "received_sequence": 371,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-11T18:34:01.676363+00:00",
+      "records": [
+        {
+          "id": 410,
+          "revision": 1,
+          "sha256": "e21190afcfd94ca2257ce249e98826b09e01ecda6172c1ce35d7a2c45300db3c"
+        }
+      ]
     }
   },
   "batches": {
@@ -45194,6 +45215,21 @@
       "result": {
         "status": "received",
         "request_id": "ae9f17c4ca600d9cd0cc4915bc683d30dcf56756be331125a38be8a16cbbe205"
+      }
+    },
+    "4ed08890fb3d4d17bec6e822f9071ccd6e23396b7f68fb3d9f16a04283ab0f54": {
+      "sha256": "48cb388ed094ac3490af71ef26876eff0fd382c945ac7a7daee0886ae68b7475",
+      "result": {
+        "status": "finalized",
+        "request_id": "ae9f17c4ca600d9cd0cc4915bc683d30dcf56756be331125a38be8a16cbbe205",
+        "records": [
+          {
+            "id": 410,
+            "revision": 1,
+            "sha256": "e21190afcfd94ca2257ce249e98826b09e01ecda6172c1ce35d7a2c45300db3c"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
