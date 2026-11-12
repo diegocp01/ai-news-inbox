@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1286,
-  "updated_at": "2026-11-12T12:54:31.516476+00:00",
+  "generation": 1290,
+  "updated_at": "2026-11-12T13:03:46.533292+00:00",
   "next_id": 421,
   "records": [
     {
@@ -45780,6 +45780,54 @@
         },
         "editorial_sha256": "7d438f87c7c7fa4c04138181c1bd9566c5b7f013c9bdbf6c9897bb3d6d434370"
       }
+    },
+    "muse-backfill-20261112-416-0260": {
+      "sha256": "a630354b8301399f9ad50f03c10ec777602bf1102442cc5532d0ae3a15a09e45",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 416,
+          "revision": 1,
+          "sha256": "719ebbf2dec7d1b33474b19ba43d4006a987fe9f59f8334f8ee170946b538827"
+        },
+        "editorial_sha256": "b5d920aeff1bdcda3bacfc3ffdefe8557b442c6d0b2577decd2b0eea6aeb311c"
+      }
+    },
+    "muse-backfill-20261112-417-4855": {
+      "sha256": "8da82f9ea794828ee16256031f8acb9f8d1034d646a1ea04d9a25253628b1821",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 417,
+          "revision": 1,
+          "sha256": "f5426b58c43cf6dd63015efb8d043bf97d26c8dd080282aad94dce44aa3595cb"
+        },
+        "editorial_sha256": "aa808055422777c14087874922c7641cbaebce1b5691407c55a0ab2adba366d6"
+      }
+    },
+    "muse-backfill-20261112-418-1549": {
+      "sha256": "50f07d2d502a5cccb61e136ca8bb2e032bbe971c2115360f6f4fdcbc13ebf1c7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 418,
+          "revision": 1,
+          "sha256": "0740811ccc38df82868029a12822ab6970ff6645e1dff7ba85ffd65e567a25fc"
+        },
+        "editorial_sha256": "d7d5227392b9b3f2c8ee5955f12bf945c727fa6179c7b951f935df3216e92879"
+      }
+    },
+    "muse-backfill-20261112-419-6543": {
+      "sha256": "00483c4571884168b04e9c59a48be9806af6f237b8a468d9a624e86a8c480da4",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 419,
+          "revision": 1,
+          "sha256": "90d38bb39bea9c970d3f36d7cbae7cc0640b8b529f1a3cbbc85fa3fedc89a24b"
+        },
+        "editorial_sha256": "debcef32e7cb94e064e380dfc13c784b46145eb1d03fc00997d8bfeedd606049"
+      }
     }
   },
   "migration": {
@@ -56786,6 +56834,86 @@
         "sha256": "7d438f87c7c7fa4c04138181c1bd9566c5b7f013c9bdbf6c9897bb3d6d434370",
         "reviewed_at": "2026-11-12T12:54:31.516476+00:00",
         "operation_id": "23a58f9b29e85f0574c82894c7a323ddb81740224f1662aa9dd48cb2c123feeb"
+      }
+    ],
+    "416:1": [
+      {
+        "reference": {
+          "id": 416,
+          "revision": 1,
+          "sha256": "719ebbf2dec7d1b33474b19ba43d4006a987fe9f59f8334f8ee170946b538827"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Hadi Salloum and Ammar Ali use sparse bit-level weight edits to reduce repetitive reasoning in small language models. Their Qwen3.5-0.8B repair scored 54.6% on MATH-500 versus 51.7% for a prior agent-designed edit under the same evaluation. The study covers two models from one family and does not measure effects outside math benchmarks. This is AI research on model reasoning efficiency with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-12: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "719ebbf2dec7d1b33474b19ba43d4006a987fe9f59f8334f8ee170946b538827"
+          }
+        },
+        "sha256": "b5d920aeff1bdcda3bacfc3ffdefe8557b442c6d0b2577decd2b0eea6aeb311c",
+        "reviewed_at": "2026-11-12T13:03:45.994984+00:00",
+        "operation_id": "muse-backfill-20261112-416-0260"
+      }
+    ],
+    "417:1": [
+      {
+        "reference": {
+          "id": 417,
+          "revision": 1,
+          "sha256": "f5426b58c43cf6dd63015efb8d043bf97d26c8dd080282aad94dce44aa3595cb"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Deyuan Liu and colleagues adapt APEX to estimate the distribution of generated videos within the generator itself, removing a separate training network. In matched tests, peak allocated memory fell 4.4% per GPU and mean training iteration time fell 9.2%. Human raters favored APEX on instruction following but preferred S2-Avatar on motion quality. This is AI research on streaming video model training, for research audiences. muse-compile-backfill 2026-11-12: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "f5426b58c43cf6dd63015efb8d043bf97d26c8dd080282aad94dce44aa3595cb"
+          }
+        },
+        "sha256": "aa808055422777c14087874922c7641cbaebce1b5691407c55a0ab2adba366d6",
+        "reviewed_at": "2026-11-12T13:03:46.174986+00:00",
+        "operation_id": "muse-backfill-20261112-417-4855"
+      }
+    ],
+    "418:1": [
+      {
+        "reference": {
+          "id": 418,
+          "revision": 1,
+          "sha256": "0740811ccc38df82868029a12822ab6970ff6645e1dff7ba85ffd65e567a25fc"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The Wall Street Journal reports that Nvidia's board is preparing to remove CEO Jensen Huang following reports of two extramarital affairs. Reuters separately reports that directors met Wednesday to consider his future. Nvidia has announced no decision. In its November 8 statement, the board expressed confidence in Huang while announcing an independent investigation. This is business news about a public company for a broad audience, not technical research. muse-compile-backfill 2026-11-12: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "0740811ccc38df82868029a12822ab6970ff6645e1dff7ba85ffd65e567a25fc"
+          }
+        },
+        "sha256": "d7d5227392b9b3f2c8ee5955f12bf945c727fa6179c7b951f935df3216e92879",
+        "reviewed_at": "2026-11-12T13:03:46.351158+00:00",
+        "operation_id": "muse-backfill-20261112-418-1549"
+      }
+    ],
+    "419:1": [
+      {
+        "reference": {
+          "id": 419,
+          "revision": 1,
+          "sha256": "90d38bb39bea9c970d3f36d7cbae7cc0640b8b529f1a3cbbc85fa3fedc89a24b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Google DeepMind released AlphaGenome 2 to predict how DNA changes affect gene activity in specific cell types. DeepMind says the model identified 30% of causal variants in a test across 28 immune cell types, versus 16% for its predecessor adapted to single-cell data. The company says it can predict effects in new cell states without retraining. This is AI research on genomics modeling, for research and technical audiences. muse-compile-backfill 2026-11-12: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "90d38bb39bea9c970d3f36d7cbae7cc0640b8b529f1a3cbbc85fa3fedc89a24b"
+          }
+        },
+        "sha256": "debcef32e7cb94e064e380dfc13c784b46145eb1d03fc00997d8bfeedd606049",
+        "reviewed_at": "2026-11-12T13:03:46.533292+00:00",
+        "operation_id": "muse-backfill-20261112-419-6543"
       }
     ]
   }
