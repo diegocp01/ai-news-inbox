@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1310,
-  "updated_at": "2026-11-12T23:39:10.566174+00:00",
-  "next_id": 425,
+  "generation": 1311,
+  "updated_at": "2026-11-12T23:39:11.305756+00:00",
+  "next_id": 426,
   "records": [
     {
       "id": 1,
@@ -5648,6 +5648,19 @@
           "sha256": "841d4db2a16035b980350eff02cd74b7daaa754e2a82026b73fc960ebe6dd231",
           "source": "OpenAI",
           "request_id": "4c5087036467dd921bab1c0078d45fb7c5381d112dc5d90e7b5fd0ffa2382d7c",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 425,
+      "revisions": [
+        {
+          "created_at": "2026-11-12T23:39:11.305756+00:00",
+          "block": "Title: Grok Bot on Mac Can Now Use Messages, Mail, Notes and Other Apple Apps\nURL: https://9to5mac.com/2026/11/12/grok-bot-for-mac-adds-integration-with-apple-mail-messages-notes-and-more/\nImage URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628\nSummary: Grok Bot said its Mac app can now use Messages, Mail, Notes, Reminders, Calendar, Location, and Contacts. An official screenshot shows a Connect Apps screen where each item has its own Allow control, including reading and sending Messages and searching and drafting Mail.",
+          "sha256": "1624e2bf68a658d5b70e93e2a1d8831f2f1336461756841a4e511881a1ff5e51",
+          "source": "Grok Bot",
+          "request_id": "de625f5d70e051fb58f45c470bd4e83fbdb04b8389e3cdde1b978f6bb61fb387",
           "mode": "standard"
         }
       ]
@@ -12461,13 +12474,21 @@
       ]
     },
     "de625f5d70e051fb58f45c470bd4e83fbdb04b8389e3cdde1b978f6bb61fb387": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-12T23:39:10.566174+00:00",
       "received_sequence": 385,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-12T23:39:11.305756+00:00",
+      "records": [
+        {
+          "id": 425,
+          "revision": 1,
+          "sha256": "1624e2bf68a658d5b70e93e2a1d8831f2f1336461756841a4e511881a1ff5e51"
+        }
+      ]
     }
   },
   "batches": {
@@ -46734,6 +46755,21 @@
       "result": {
         "status": "received",
         "request_id": "de625f5d70e051fb58f45c470bd4e83fbdb04b8389e3cdde1b978f6bb61fb387"
+      }
+    },
+    "b8e6beb180542185d4b93c5f762982f4555dc328d160a109dfe6473068034961": {
+      "sha256": "436a62e6caf28a07540772ff620f5aa66b296a737422529a77783d48d0aec1be",
+      "result": {
+        "status": "finalized",
+        "request_id": "de625f5d70e051fb58f45c470bd4e83fbdb04b8389e3cdde1b978f6bb61fb387",
+        "records": [
+          {
+            "id": 425,
+            "revision": 1,
+            "sha256": "1624e2bf68a658d5b70e93e2a1d8831f2f1336461756841a4e511881a1ff5e51"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
