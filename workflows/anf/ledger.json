@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1313,
-  "updated_at": "2026-11-12T23:43:41.769134+00:00",
-  "next_id": 426,
+  "generation": 1314,
+  "updated_at": "2026-11-12T23:43:42.589613+00:00",
+  "next_id": 427,
   "records": [
     {
       "id": 1,
@@ -5661,6 +5661,19 @@
           "sha256": "1624e2bf68a658d5b70e93e2a1d8831f2f1336461756841a4e511881a1ff5e51",
           "source": "Grok Bot",
           "request_id": "de625f5d70e051fb58f45c470bd4e83fbdb04b8389e3cdde1b978f6bb61fb387",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 426,
+      "revisions": [
+        {
+          "created_at": "2026-11-12T23:43:42.589613+00:00",
+          "block": "Title: Researcher Says Six Chinese AI Models Carry Fingerprints of Export-Controlled NVIDIA Chips\nURL: https://unemploymentlabs.com/checkpoint-forensics\nImage URL: https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4\nSummary: Will DePue of Unemployment Labs says six models from DeepSeek, Moonshot AI, MiniMax and Ant Group, including DeepSeek-V4-Pro and Kimi K3, carry patterns matching NVIDIA Blackwell chips barred from export to China without a license. He says this shows how the models were first set up, not where the chips were or whether rules were broken.",
+          "sha256": "249c1f3ea70dcbbf317ec2c699e3c800ab34e21174368e102ae0654b9f5124e1",
+          "source": "Will DePue",
+          "request_id": "7e8b959c63e92318685dfb670bddc5c634890ba552eea2d92a670825fe2956d4",
           "mode": "standard"
         }
       ]
@@ -12491,13 +12504,21 @@
       ]
     },
     "7e8b959c63e92318685dfb670bddc5c634890ba552eea2d92a670825fe2956d4": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-12T23:43:41.769134+00:00",
       "received_sequence": 386,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-12T23:43:42.589613+00:00",
+      "records": [
+        {
+          "id": 426,
+          "revision": 1,
+          "sha256": "249c1f3ea70dcbbf317ec2c699e3c800ab34e21174368e102ae0654b9f5124e1"
+        }
+      ]
     }
   },
   "batches": {
@@ -46798,6 +46819,21 @@
       "result": {
         "status": "received",
         "request_id": "7e8b959c63e92318685dfb670bddc5c634890ba552eea2d92a670825fe2956d4"
+      }
+    },
+    "6bb7f847a6f070d3edc89c7ebb56986934e84b07d8dd943d21dae2cf22dc874a": {
+      "sha256": "bff001c32d6fd3c01cf0463c3d3cb6dd68a151ec550b77743289886017af44e9",
+      "result": {
+        "status": "finalized",
+        "request_id": "7e8b959c63e92318685dfb670bddc5c634890ba552eea2d92a670825fe2956d4",
+        "records": [
+          {
+            "id": 426,
+            "revision": 1,
+            "sha256": "249c1f3ea70dcbbf317ec2c699e3c800ab34e21174368e102ae0654b9f5124e1"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
