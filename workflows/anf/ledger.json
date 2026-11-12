@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1305,
-  "updated_at": "2026-11-12T22:16:56.247500+00:00",
+  "generation": 1306,
+  "updated_at": "2026-11-12T22:16:57.186554+00:00",
   "next_id": 424,
   "records": [
     {
@@ -46643,6 +46643,18 @@
           "sha256": "d1aeea5ec440a19a911200d155d7f2037f190b2f3ddc1dec907a411879b373f5"
         }
       }
+    },
+    "3210908d47af0d5a28102fd2ab3b56f84152a9aa0c556533488da5438594bb1b": {
+      "sha256": "ed793e90c4a09759464383d4ac6fcf0efec1a21b803813aa08f507d806a9e595",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 422,
+          "revision": 2,
+          "sha256": "d1aeea5ec440a19a911200d155d7f2037f190b2f3ddc1dec907a411879b373f5"
+        },
+        "editorial_sha256": "b220876a40a60f2b12b1ec16907df9e502f4e75bbee033e5fea223006062e7cc"
+      }
     }
   },
   "migration": {
@@ -57789,6 +57801,26 @@
         "sha256": "5d8aa21272f57c4ecafbe8c28c583918bb33ca84568c1c9311da3299c96eb249",
         "reviewed_at": "2026-11-12T20:56:46.023626+00:00",
         "operation_id": "9cb14a69f9329488d7499b47cd885eaa3ea28287650a7f025f2137bf678c9fda"
+      }
+    ],
+    "422:2": [
+      {
+        "reference": {
+          "id": 422,
+          "revision": 2,
+          "sha256": "d1aeea5ec440a19a911200d155d7f2037f190b2f3ddc1dec907a411879b373f5"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The official announcement is a consumer and everyday-work model rollout in the Gemini app and Google Search, written without API, token, or other developer jargon.",
+            "evidence_sha256": "ba6b1384e23e68dc52579f4065810a801eab11deb0d13631435db132e06e1287"
+          }
+        },
+        "sha256": "b220876a40a60f2b12b1ec16907df9e502f4e75bbee033e5fea223006062e7cc",
+        "reviewed_at": "2026-11-12T22:16:57.186554+00:00",
+        "operation_id": "3210908d47af0d5a28102fd2ab3b56f84152a9aa0c556533488da5438594bb1b"
       }
     ]
   }
