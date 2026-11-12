@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1285,
-  "updated_at": "2026-11-12T12:54:30.747980+00:00",
+  "generation": 1286,
+  "updated_at": "2026-11-12T12:54:31.516476+00:00",
   "next_id": 421,
   "records": [
     {
@@ -45768,6 +45768,18 @@
         ],
         "duplicates": []
       }
+    },
+    "23a58f9b29e85f0574c82894c7a323ddb81740224f1662aa9dd48cb2c123feeb": {
+      "sha256": "988c26f9e5008e341109e312eddd85b71e4208cee1acf7842f8c5708c4d0b326",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 420,
+          "revision": 1,
+          "sha256": "fcf0f535b7bce14df97e7e493828eadac577d3391121dd1e87fdadff443d1a43"
+        },
+        "editorial_sha256": "7d438f87c7c7fa4c04138181c1bd9566c5b7f013c9bdbf6c9897bb3d6d434370"
+      }
     }
   },
   "migration": {
@@ -56754,6 +56766,26 @@
         "sha256": "2cf229da4e20d1f6e050e7f40a067a580536ddd2bca736fa486d55499e182feb",
         "reviewed_at": "2026-11-11T22:15:53.239944+00:00",
         "operation_id": "muse-intake-20261111-united-review-4266"
+      }
+    ],
+    "420:1": [
+      {
+        "reference": {
+          "id": 420,
+          "revision": 1,
+          "sha256": "fcf0f535b7bce14df97e7e493828eadac577d3391121dd1e87fdadff443d1a43"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Security research disclosure about a Codex vulnerability and official package publishing pipeline, with developer and security terms a regular reader would not know. Not a new flagship model.",
+            "evidence_sha256": "3e2120f85f8e3855b6ccc0d64c930798e47db072e7bb3dfd7b9ee25b4e3d55a3"
+          }
+        },
+        "sha256": "7d438f87c7c7fa4c04138181c1bd9566c5b7f013c9bdbf6c9897bb3d6d434370",
+        "reviewed_at": "2026-11-12T12:54:31.516476+00:00",
+        "operation_id": "23a58f9b29e85f0574c82894c7a323ddb81740224f1662aa9dd48cb2c123feeb"
       }
     ]
   }
