@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1280,
-  "updated_at": "2026-11-12T12:01:06+00:00",
-  "next_id": 416,
+  "generation": 1281,
+  "updated_at": "2026-11-12T12:03:26+00:00",
+  "next_id": 418,
   "records": [
     {
       "id": 1,
@@ -5521,6 +5521,32 @@
           "sha256": "9cfb383a38927bc98ddf7a83f3af544631a0cb9d70c69a78d6e6969cbf89bc84",
           "source": "USA Today",
           "request_id": "muse-intake-20261111-united-ai-agents",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 416,
+      "revisions": [
+        {
+          "created_at": "2026-11-12T12:03:26+00:00",
+          "block": "Title: Bit-Level Weight Edits Reduce Reasoning Loops\nURL: https://arxiv.org/abs/2611.14210\nImage URL: https://paper-assets.alphaxiv.org/paper-figures/01a1c926-3cb1-703c-807a-0c04abbcf3f4/01a1cb06-1bf5-7c4a-8d69-bdfed2031061.png\nSummary: Hadi Salloum and Ammar Ali use sparse bit-level weight edits to reduce repetitive reasoning in small language models. Their Qwen3.5-0.8B repair scored 54.6% on MATH-500 versus 51.7% for a prior agent-designed edit under the same evaluation. The study covers two models from one family and does not measure effects outside math benchmarks.",
+          "sha256": "719ebbf2dec7d1b33474b19ba43d4006a987fe9f59f8334f8ee170946b538827",
+          "source": "arXiv",
+          "request_id": "f553162e749dc8c9c7fd3dce17e6b2a44a612cd7248c41c2208c1df862e8eb7e",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 417,
+      "revisions": [
+        {
+          "created_at": "2026-11-12T12:03:26+00:00",
+          "block": "Title: APEX Shares a Network to Train Streaming Video Models\nURL: https://arxiv.org/abs/2611.14033\nImage URL: https://arxiv.org/html/2611.14033v1/3_case_gallery.png\nSummary: Deyuan Liu and colleagues adapt APEX to estimate the distribution of generated videos within the generator itself, removing a separate training network. In matched tests, peak allocated memory fell 4.4% per GPU and mean training iteration time fell 9.2%. Human raters favored APEX on instruction following but preferred S2-Avatar on motion quality.",
+          "sha256": "f5426b58c43cf6dd63015efb8d043bf97d26c8dd080282aad94dce44aa3595cb",
+          "source": "arXiv",
+          "request_id": "f553162e749dc8c9c7fd3dce17e6b2a44a612cd7248c41c2208c1df862e8eb7e",
           "mode": "standard"
         }
       ]
@@ -12187,13 +12213,26 @@
       ]
     },
     "f553162e749dc8c9c7fd3dce17e6b2a44a612cd7248c41c2208c1df862e8eb7e": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-12T12:01:06+00:00",
       "received_sequence": 377,
       "expected_items": 2,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-12T12:03:26+00:00",
+      "records": [
+        {
+          "id": 416,
+          "revision": 1,
+          "sha256": "719ebbf2dec7d1b33474b19ba43d4006a987fe9f59f8334f8ee170946b538827"
+        },
+        {
+          "id": 417,
+          "revision": 1,
+          "sha256": "f5426b58c43cf6dd63015efb8d043bf97d26c8dd080282aad94dce44aa3595cb"
+        }
+      ]
     }
   },
   "batches": {
@@ -45578,6 +45617,26 @@
       "result": {
         "status": "received",
         "request_id": "f553162e749dc8c9c7fd3dce17e6b2a44a612cd7248c41c2208c1df862e8eb7e"
+      }
+    },
+    "f553162e749dc8c9c7fd3dce17e6b2a44a612cd7248c41c2208c1df862e8eb7e-finalize": {
+      "sha256": "ef7ee347020d9c782d56557a3fa45bdddd4a1518d2e9b070d015fb526e1ab2d5",
+      "result": {
+        "status": "finalized",
+        "request_id": "f553162e749dc8c9c7fd3dce17e6b2a44a612cd7248c41c2208c1df862e8eb7e",
+        "records": [
+          {
+            "id": 416,
+            "revision": 1,
+            "sha256": "719ebbf2dec7d1b33474b19ba43d4006a987fe9f59f8334f8ee170946b538827"
+          },
+          {
+            "id": 417,
+            "revision": 1,
+            "sha256": "f5426b58c43cf6dd63015efb8d043bf97d26c8dd080282aad94dce44aa3595cb"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
