@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1302,
-  "updated_at": "2026-11-12T20:56:45.213901+00:00",
+  "generation": 1303,
+  "updated_at": "2026-11-12T20:56:46.023626+00:00",
   "next_id": 424,
   "records": [
     {
@@ -46588,6 +46588,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9cb14a69f9329488d7499b47cd885eaa3ea28287650a7f025f2137bf678c9fda": {
+      "sha256": "ddbb528664b077a7b3d839156c777f8283ed5217368178aa5b31881fb0005c20",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 423,
+          "revision": 1,
+          "sha256": "624a6700a10789089f1b4ab53d7578f6b7e2e0ac1447124533f7f6e7b8ab4cee"
+        },
+        "editorial_sha256": "5d8aa21272f57c4ecafbe8c28c583918bb33ca84568c1c9311da3299c96eb249"
+      }
     }
   },
   "migration": {
@@ -57714,6 +57726,26 @@
         "sha256": "0025b20105cb81672963eee7ef33746e7f942f564d613e726396996c21a1d986",
         "reviewed_at": "2026-11-12T20:56:37.672907+00:00",
         "operation_id": "7156b8d23e824083b052310aebbe04499fbefc48a64641be1486e664331a97e8"
+      }
+    ],
+    "423:1": [
+      {
+        "reference": {
+          "id": 423,
+          "revision": 1,
+          "sha256": "624a6700a10789089f1b4ab53d7578f6b7e2e0ac1447124533f7f6e7b8ab4cee"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The announcement is a corporate IPO roadshow with share count, expected price, and ticker, written for a general reader without ML, API, or hardware terms.",
+            "evidence_sha256": "c00b2b13ea8ea8fff746e1f863db75b6e8cf0f9a13dfb3afdc3742d8c45ddc3a"
+          }
+        },
+        "sha256": "5d8aa21272f57c4ecafbe8c28c583918bb33ca84568c1c9311da3299c96eb249",
+        "reviewed_at": "2026-11-12T20:56:46.023626+00:00",
+        "operation_id": "9cb14a69f9329488d7499b47cd885eaa3ea28287650a7f025f2137bf678c9fda"
       }
     ]
   }
