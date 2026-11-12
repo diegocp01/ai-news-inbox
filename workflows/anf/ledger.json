@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1284,
-  "updated_at": "2026-11-12T12:54:30.007081+00:00",
-  "next_id": 420,
+  "generation": 1285,
+  "updated_at": "2026-11-12T12:54:30.747980+00:00",
+  "next_id": 421,
   "records": [
     {
       "id": 1,
@@ -5576,6 +5576,19 @@
           "request_id": "c161fef40dda801d71036650c4024f115c325838fb4db00644605ede2174d1c5",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 420,
+      "revisions": [
+        {
+          "created_at": "2026-11-12T12:54:30.747980+00:00",
+          "block": "Title: Depi Researchers Say a Codex Flaw Let Them Reach OpenAI's Official Package Pipeline\nURL: https://depi.security/blog/20261111-backdooring-codex/\nImage URL: https://depi.security/_astro/codex-thumbnail.BtyWjjx0_FVxVB.jpg\nSummary: Depi researchers said they found a vulnerability in OpenAI Codex that let them control the publishing pipeline for OpenAI's official Codex package, which they say is downloaded millions of times a month. They reported it to OpenAI through Bugcrowd. Depi says OpenAI fixed the core issue quickly and paid an initial $1,000 bounty, with the report still under review.",
+          "sha256": "fcf0f535b7bce14df97e7e493828eadac577d3391121dd1e87fdadff443d1a43",
+          "source": "Depi",
+          "request_id": "5e099b294ff78b7f1b3c8b086a46ad9eeeaed4ec21cb990c3721edd621e72e13",
+          "mode": "standard"
         }
       ]
     }
@@ -12286,13 +12299,21 @@
       ]
     },
     "5e099b294ff78b7f1b3c8b086a46ad9eeeaed4ec21cb990c3721edd621e72e13": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-12T12:54:30.007081+00:00",
       "received_sequence": 379,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-12T12:54:30.747980+00:00",
+      "records": [
+        {
+          "id": 420,
+          "revision": 1,
+          "sha256": "fcf0f535b7bce14df97e7e493828eadac577d3391121dd1e87fdadff443d1a43"
+        }
+      ]
     }
   },
   "batches": {
@@ -45731,6 +45752,21 @@
       "result": {
         "status": "received",
         "request_id": "5e099b294ff78b7f1b3c8b086a46ad9eeeaed4ec21cb990c3721edd621e72e13"
+      }
+    },
+    "2711c7f6f2a02b2e0e8ad6fad5f632c464e7161148bc60168d79befcc360e0bc": {
+      "sha256": "5c94d8aa9d036f199ee11baade3814ad988e62450f4515a36c6299df3ad2e788",
+      "result": {
+        "status": "finalized",
+        "request_id": "5e099b294ff78b7f1b3c8b086a46ad9eeeaed4ec21cb990c3721edd621e72e13",
+        "records": [
+          {
+            "id": 420,
+            "revision": 1,
+            "sha256": "fcf0f535b7bce14df97e7e493828eadac577d3391121dd1e87fdadff443d1a43"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
