@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1314,
-  "updated_at": "2026-11-12T23:43:42.589613+00:00",
+  "generation": 1315,
+  "updated_at": "2026-11-12T23:43:43.381626+00:00",
   "next_id": 427,
   "records": [
     {
@@ -46835,6 +46835,18 @@
         ],
         "duplicates": []
       }
+    },
+    "a84219437bb4264e940b5a2a44aef10b91eef12962655f1a4ce1469151107626": {
+      "sha256": "6e028b8fc7237a63a5240b18d9982208f43f2d559b9b2d3cba629bf40cc98ba8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 426,
+          "revision": 1,
+          "sha256": "249c1f3ea70dcbbf317ec2c699e3c800ab34e21174368e102ae0654b9f5124e1"
+        },
+        "editorial_sha256": "cb25d0634789730242d1585a212e9a25244de4f727cbb1852c7cac7d7cf56280"
+      }
     }
   },
   "migration": {
@@ -58041,6 +58053,26 @@
         "sha256": "fb33bd2b88b8318a1b412d3b4a766206e4716cc31654813aca5f3e82f4fe68a9",
         "reviewed_at": "2026-11-12T23:39:12.102638+00:00",
         "operation_id": "cb15b799d65bc3d890c0932dd751f5b6c9f60be4bef77f449694c65f57df42c8"
+      }
+    ],
+    "426:1": [
+      {
+        "reference": {
+          "id": 426,
+          "revision": 1,
+          "sha256": "249c1f3ea70dcbbf317ec2c699e3c800ab34e21174368e102ae0654b9f5124e1"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The report is hardware and model-weight forensics research: GPU initialization fingerprints, chip layouts, and statistical matches, which a general reader would not know.",
+            "evidence_sha256": "8451b775dfccd42dd00746d2455ebe50333180725d8f0efb944f89d56aad9318"
+          }
+        },
+        "sha256": "cb25d0634789730242d1585a212e9a25244de4f727cbb1852c7cac7d7cf56280",
+        "reviewed_at": "2026-11-12T23:43:43.381626+00:00",
+        "operation_id": "a84219437bb4264e940b5a2a44aef10b91eef12962655f1a4ce1469151107626"
       }
     ]
   }
