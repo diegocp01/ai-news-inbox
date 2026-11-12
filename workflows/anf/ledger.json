@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1308,
-  "updated_at": "2026-11-12T22:17:55.433061+00:00",
+  "generation": 1309,
+  "updated_at": "2026-11-12T22:17:56.180580+00:00",
   "next_id": 425,
   "records": [
     {
@@ -46707,6 +46707,18 @@
         ],
         "duplicates": []
       }
+    },
+    "4dfd4bb12defb6b9e054ba6fc891e989be75f1f1b2e3bab98486b7df18b479af": {
+      "sha256": "ac64ae780c5be93649b5e4a8c01297629696341ab49daa2ac7abb01ffc2c8554",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 424,
+          "revision": 1,
+          "sha256": "841d4db2a16035b980350eff02cd74b7daaa754e2a82026b73fc960ebe6dd231"
+        },
+        "editorial_sha256": "942ef487eaba740674e1960f96ea649766053447efa4e4687535776d461f4fb5"
+      }
     }
   },
   "migration": {
@@ -57873,6 +57885,26 @@
         "sha256": "b220876a40a60f2b12b1ec16907df9e502f4e75bbee033e5fea223006062e7cc",
         "reviewed_at": "2026-11-12T22:16:57.186554+00:00",
         "operation_id": "3210908d47af0d5a28102fd2ab3b56f84152a9aa0c556533488da5438594bb1b"
+      }
+    ],
+    "424:1": [
+      {
+        "reference": {
+          "id": 424,
+          "revision": 1,
+          "sha256": "841d4db2a16035b980350eff02cd74b7daaa754e2a82026b73fc960ebe6dd231"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a consumer product feature update for ChatGPT dots, written without ML, API, or hardware terms.",
+            "evidence_sha256": "00988c6cff14b27f6a715f86a1b983cb5b3d3490676ec7d324dbca5493e95233"
+          }
+        },
+        "sha256": "942ef487eaba740674e1960f96ea649766053447efa4e4687535776d461f4fb5",
+        "reviewed_at": "2026-11-12T22:17:56.180580+00:00",
+        "operation_id": "4dfd4bb12defb6b9e054ba6fc891e989be75f1f1b2e3bab98486b7df18b479af"
       }
     ]
   }
