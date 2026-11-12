@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1299,
-  "updated_at": "2026-11-12T20:56:36.895875+00:00",
+  "generation": 1300,
+  "updated_at": "2026-11-12T20:56:37.672907+00:00",
   "next_id": 423,
   "records": [
     {
@@ -46524,6 +46524,18 @@
         ],
         "duplicates": []
       }
+    },
+    "7156b8d23e824083b052310aebbe04499fbefc48a64641be1486e664331a97e8": {
+      "sha256": "b6dd64b5aaf62209f40b9c0ab6e4e62bff1cdfaf7346769e28c0994e63558c5a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 422,
+          "revision": 1,
+          "sha256": "f416656c557430034ddfbf4e660f6a9d94346a97cb629c08168dc2d8fc97c598"
+        },
+        "editorial_sha256": "0025b20105cb81672963eee7ef33746e7f942f564d613e726396996c21a1d986"
+      }
     }
   },
   "migration": {
@@ -57630,6 +57642,26 @@
         "sha256": "b0f4fc2a4e5c1789f2d652020df7609e17b2ca7237be637e8413397f79711826",
         "reviewed_at": "2026-11-12T15:17:19.303782+00:00",
         "operation_id": "2e3ef409a9385cbaad6b10f158d754ceea58575bf6b686f0d60c2545d0015dc6"
+      }
+    ],
+    "422:1": [
+      {
+        "reference": {
+          "id": 422,
+          "revision": 1,
+          "sha256": "f416656c557430034ddfbf4e660f6a9d94346a97cb629c08168dc2d8fc97c598"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The official announcement is a consumer and everyday-work model rollout in the Gemini app and Google Search, written without API, token, or other developer jargon.",
+            "evidence_sha256": "4a2bdc305577f69d30f1fb83934cbc5e23d875d074a773cab12c479d39f72af0"
+          }
+        },
+        "sha256": "0025b20105cb81672963eee7ef33746e7f942f564d613e726396996c21a1d986",
+        "reviewed_at": "2026-11-12T20:56:37.672907+00:00",
+        "operation_id": "7156b8d23e824083b052310aebbe04499fbefc48a64641be1486e664331a97e8"
       }
     ]
   }
