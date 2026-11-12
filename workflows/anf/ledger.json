@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1307,
-  "updated_at": "2026-11-12T22:17:54.635195+00:00",
-  "next_id": 424,
+  "generation": 1308,
+  "updated_at": "2026-11-12T22:17:55.433061+00:00",
+  "next_id": 425,
   "records": [
     {
       "id": 1,
@@ -5635,6 +5635,19 @@
           "sha256": "624a6700a10789089f1b4ab53d7578f6b7e2e0ac1447124533f7f6e7b8ab4cee",
           "source": "Anthropic",
           "request_id": "26b958bef3dccd5338a84d9081e994cf1521a9c2a1c53cabbac96f092033c39c",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 424,
+      "revisions": [
+        {
+          "created_at": "2026-11-12T22:17:55.433061+00:00",
+          "block": "Title: ChatGPT Says Dots Now Follow Custom Instructions and Reply Faster\nURL:\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill\nSummary: ChatGPT said its dots now reply faster, use less jargon, and follow through better. They can also follow custom instructions: users can tell a dot in the conversation how to behave or which actions need approval, or set those rules in Customize > Behavior on mobile, or through the dot's menu on web and desktop.",
+          "sha256": "841d4db2a16035b980350eff02cd74b7daaa754e2a82026b73fc960ebe6dd231",
+          "source": "OpenAI",
+          "request_id": "4c5087036467dd921bab1c0078d45fb7c5381d112dc5d90e7b5fd0ffa2382d7c",
           "mode": "standard"
         }
       ]
@@ -12431,13 +12444,21 @@
       ]
     },
     "4c5087036467dd921bab1c0078d45fb7c5381d112dc5d90e7b5fd0ffa2382d7c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-12T22:17:54.635195+00:00",
       "received_sequence": 384,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-12T22:17:55.433061+00:00",
+      "records": [
+        {
+          "id": 424,
+          "revision": 1,
+          "sha256": "841d4db2a16035b980350eff02cd74b7daaa754e2a82026b73fc960ebe6dd231"
+        }
+      ]
     }
   },
   "batches": {
@@ -46670,6 +46691,21 @@
       "result": {
         "status": "received",
         "request_id": "4c5087036467dd921bab1c0078d45fb7c5381d112dc5d90e7b5fd0ffa2382d7c"
+      }
+    },
+    "f3c293f312526c9337c6b10f0a63f79fa4ba47341a9aafabbedaa3fb53985491": {
+      "sha256": "3ae811923262c250fca4a0b8a0549f4c903f8edf510610a6f1e4214f94ea83aa",
+      "result": {
+        "status": "finalized",
+        "request_id": "4c5087036467dd921bab1c0078d45fb7c5381d112dc5d90e7b5fd0ffa2382d7c",
+        "records": [
+          {
+            "id": 424,
+            "revision": 1,
+            "sha256": "841d4db2a16035b980350eff02cd74b7daaa754e2a82026b73fc960ebe6dd231"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
