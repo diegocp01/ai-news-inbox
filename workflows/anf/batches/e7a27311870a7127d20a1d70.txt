@@ -1,0 +1,95 @@
+Title: Anthropic Announces Claude Meetings to Turn Calls Into Plans and Tasks
+URL: https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/
+Image URL: https://techcrunch.com/wp-content/uploads/2026/11/Claude-Meetings.png
+Summary: Anthropic announced Claude Meetings, which it says will let teams add Claude to a call to take notes and update documents while people talk. The company's product page lists the feature as coming soon. TechCrunch reports it is launching in beta on Team and Enterprise plans, starting with Google Meet, and can draft plans and answer questions in the chat.
+
+Title: Google DeepMind Introduces AlphaGenome 2 to Help Study How DNA Changes Affect Cells
+URL: https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/
+Image URL: https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w1920-h1080-n-nu
+Summary: Google DeepMind introduced AlphaGenome 2, a DNA model that predicts how genetic changes affect specific human cell types, to help researchers study disease. DeepMind says it finds nearly twice as many gene-changing variants as the previous version. It is available for non-commercial research today, with a private preview for commercial research, and is not approved for clinical use.
+
+Title: Google Labs Introduces Tabletop, a Shared Space for Group Planning
+URL: https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1566.max-1440x810.jpg
+Summary: Google Labs introduced Tabletop, a new experiment for real-time group planning. Users add links, files, and ideas, then ask Tabletop or pick a template to create shared tools such as trip itineraries, dinner polls, expense splitters, and tournament brackets. It is rolling out in the U.S. for people 18 and older via a waitlist.
+
+Title: Muse Is Now Available on Apple Watch and Wear OS
+URL: https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/
+Image URL: https://images.macrumors.com/t/Xim5fv6t6cpkTIwvTX8EpK9xui8=/1874x/article-new/2026/11/muse-apple-watch-app.jpg
+Summary: Meta's Muse personal AI agent is now available on Apple Watch and Wear OS, the official Muse account and Meta's Alexandr Wang announced. Users can reach Muse from the watch by text, dictation, or a voice call, TechCrunch reported.
+
+Title: Uber Courier Is Now Available in Meta's Muse
+URL: https://www.allthingsmuse.com/articles/uber-courier-muse/
+Image URL: https://www.allthingsmuse.com/cover-uber-courier-muse.webp
+Summary: Uber Courier is now available in Meta's Muse, Uber CEO Dara Khosrowshahi said. The official Uber account said Muse users can arrange a package delivery in the chat, see the price, approve the booking, and let Uber handle the pickup.
+
+Title: MiniMax Releases H3-Image, Saying It Makes 4K Pictures in Under 10 Seconds
+URL: https://www.minimax.io/blog/minimax-h3-image
+Image URL: https://file.cdn.minimax.io/public/h3-image-cover-1794323228475.jpg
+Summary: MiniMax released H3-Image, an image model that can create and edit pictures, including 4K images in under 10 seconds, the company said. It can use up to 16 reference images. MiniMax says the tool is available in MiniMax Code and Hailuo AI, with 50% off 4K and higher images during launch week.
+
+Title: Google Launches the Gemini Decisions API With Gemini Decision 1
+URL: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png
+Summary: Google introduced the Gemini Decisions API, powered by Gemini Decision 1, in Google AI Studio and the Gemini API. Google says it can score up to 1,000 yes/no, multiple-choice, or rating questions in one pass across text, images, audio, video, and PDFs, at $0.10 per 1M input tokens with no output-token charge. A no-cost tier is available in AI Studio.
+ds: true
+
+Title: JPMorganChase Expands Claude Code to More Employees Across the Firm
+URL: https://claude.com/resources/articles/jpmorganchase-expands-claude-code
+Image URL: https://claude.com/resources/articles/jpmorganchase-expands-claude-code/opengraph-image/og
+Summary: JPMorganChase is expanding Claude Code beyond engineers to more employees across the firm, Anthropic said. Product teams are using it for planning, and other teams for risk assessments, operations, and wealth-management work. Anthropic says the tool runs on the bank's own systems in controlled environments, with staged access, and that people remain accountable for every production change.
+
+Title: ChatGPT Adds Finances to Its Desktop App for US Users
+URL:
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/LOx9hwb9FayMVDsvnMHBI/a50d14deb15ce97f1ae869a7e4afc964/SEO-Personal-Finance.jpg?w=1600&h=900&fit=fill
+Summary: OpenAI's ChatGPT account said Finances is now in the ChatGPT desktop app for Free, Go, Plus, and Pro users in the U.S. The post says users can find ways to save, understand their spending, and make sense of their investments, and can also build custom financial tools after updating the app.
+
+Title: Google Brings the Gemini App to Apple CarPlay
+URL: https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Carplay_hero_image.width-1300.png
+Summary: Google said the Gemini app is now available on Apple CarPlay, letting iOS users have hands-free conversations with Gemini Live from the car's display. Google says it is rolling out globally starting today to all Gemini users on iOS, in every supported Gemini Live language. Conversations sync with the Gemini app on the iPhone.
+
+Title: Nuance Labs Introduces Emma, an AI Character You Can Talk to Face to Face
+URL: https://digitalhuman.news/news/nuance-labs-launches-emma-nuplex-beta-api
+Image URL: https://framerusercontent.com/assets/NeiXc6xrTSgPOs5LeetyhRIHV8.png
+Summary: Nuance Labs introduced Emma, an AI character you can talk with face-to-face in a browser. The company says her face and voice come from a real actress, and that she is upfront she is an AI. Emma is English-only, for adults, and available in the United States except four states, the EU, the UK, and Canada except Quebec.
+
+Title: United Blocks AI Agents From Booking Flights
+URL: https://www.usatoday.com/story/travel/airline-news/2026/11/11/united-ai-travel-agents-booking/92728156007/
+Image URL: https://www.airportspotting.com/wp-content/uploads/2022/12/Boeing_and_United_Airlines_Order.jpg
+Summary: United Airlines said November 11 it will block third-party AI agents from booking, servicing, or buying travel on its website, app, and through travel agencies and aggregators. The airline cites exposed customer data, unintended purchases, and FAA and DOT rules, noting an agent cannot attest at check-in that bags hold no explosives. Agents can still show United flights and fares.
+
+Title: Bit-Level Weight Edits Reduce Reasoning Loops
+URL: https://arxiv.org/abs/2611.14210
+Image URL: https://paper-assets.alphaxiv.org/paper-figures/01a1c926-3cb1-703c-807a-0c04abbcf3f4/01a1cb06-1bf5-7c4a-8d69-bdfed2031061.png
+Summary: Hadi Salloum and Ammar Ali use sparse bit-level weight edits to reduce repetitive reasoning in small language models. Their Qwen3.5-0.8B repair scored 54.6% on MATH-500 versus 51.7% for a prior agent-designed edit under the same evaluation. The study covers two models from one family and does not measure effects outside math benchmarks.
+ds: true
+
+Title: APEX Shares a Network to Train Streaming Video Models
+URL: https://arxiv.org/abs/2611.14033
+Image URL: https://arxiv.org/html/2611.14033v1/3_case_gallery.png
+Summary: Deyuan Liu and colleagues adapt APEX to estimate the distribution of generated videos within the generator itself, removing a separate training network. In matched tests, peak allocated memory fell 4.4% per GPU and mean training iteration time fell 9.2%. Human raters favored APEX on instruction following but preferred S2-Avatar on motion quality.
+ds: true
+
+Title: Nvidia Board Reportedly Prepares to Remove CEO Jensen Huang
+URL: https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad
+Image URL: https://images.axios.com/z49QJcNmJLnBFQER2_v_mSwpacg=/0x191:4096x2495/1920x1080/2026/11/11/1794435759385.jpeg?w=3840
+Summary: The Wall Street Journal reports that Nvidia’s board is preparing to remove CEO Jensen Huang following reports of two extramarital affairs. Reuters separately reports that directors met Wednesday to consider his future. Nvidia has announced no decision. In its November 8 statement, the board expressed confidence in Huang while announcing an independent investigation.
+
+Title: Google DeepMind Releases AlphaGenome 2
+URL: https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/
+Image URL: https://lh3.googleusercontent.com/7eOcEXEyA41RlNbAgNmBUQLy34StN16i5xFpfAZ5hUxQmBQKZDYd3vVlnIbl_eK-4azSQ9QJBmi3wm2leu9zY0gflvcLBD5Vwdkmb6q9D1uwtfj-5A=w1440-h810-n-nu
+Summary: Google DeepMind released AlphaGenome 2 to predict how DNA changes affect gene activity in specific cell types. DeepMind says the model identified 30% of causal variants in a test across 28 immune cell types, versus 16% for its predecessor adapted to single-cell data. The company says it can predict effects in new cell states without retraining.
+ds: true
+
+Title: Depi Researchers Say a Codex Flaw Let Them Reach OpenAI's Official Package Pipeline
+URL: https://depi.security/blog/20261111-backdooring-codex/
+Image URL: https://depi.security/_astro/codex-thumbnail.BtyWjjx0_FVxVB.jpg
+Summary: Depi researchers said they found a vulnerability in OpenAI Codex that let them control the publishing pipeline for OpenAI's official Codex package, which they say is downloaded millions of times a month. They reported it to OpenAI through Bugcrowd. Depi says OpenAI fixed the core issue quickly and paid an initial $1,000 bounty, with the report still under review.
+ds: true
+
+
+
+
+
+.

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1290,
-  "updated_at": "2026-11-12T13:03:46.533292+00:00",
+  "generation": 1291,
+  "updated_at": "2026-11-12T13:03:59.961086+00:00",
   "next_id": 421,
   "records": [
     {
@@ -21830,9 +21830,256 @@
       },
       "acknowledged_at": "2026-11-11T13:14:03.853149+00:00",
       "checkpoint_after": 403
+    },
+    "e7a27311870a7127d20a1d70": {
+      "batch_id": "e7a27311870a7127d20a1d70",
+      "status": "prepared",
+      "checkpoint_before": 403,
+      "prepared_at": "2026-11-12T13:03:59.961086+00:00",
+      "intake_cutoff": 379,
+      "records": [
+        {
+          "id": 404,
+          "revision": 1,
+          "sha256": "bed2203978baddbea99f2464cf5fafa555cd669eb4e4afd8d34a48eaaaa89650"
+        },
+        {
+          "id": 405,
+          "revision": 1,
+          "sha256": "eabff955a74c914cfe1beaf4cfa587bb7c381d3b0e41f19b064b223aeefb89d7"
+        },
+        {
+          "id": 406,
+          "revision": 1,
+          "sha256": "c4fa8bcd94d275483529f58bd136caf610a78f8b3fa06203e2caf5dbb2b4bc31"
+        },
+        {
+          "id": 407,
+          "revision": 1,
+          "sha256": "a5308ebe828df4be61fbebb02bc748b434c49f6e8a44b830017043fa5ff634b3"
+        },
+        {
+          "id": 408,
+          "revision": 1,
+          "sha256": "36b78edb03d2726094819da6848dbfd46b9267ab2e451e1a9eaf3b68c3f17ed7"
+        },
+        {
+          "id": 409,
+          "revision": 1,
+          "sha256": "e0ced63f1e823e2f5b561baf5dfc668a51ad51e82dac3bf8b195c59df5b6491d"
+        },
+        {
+          "id": 410,
+          "revision": 1,
+          "sha256": "e21190afcfd94ca2257ce249e98826b09e01ecda6172c1ce35d7a2c45300db3c"
+        },
+        {
+          "id": 411,
+          "revision": 1,
+          "sha256": "56b19eef68cc5e53183a388aa4ce00ee8c875ae118900bf1c9ed4d4da2b71fa3"
+        },
+        {
+          "id": 412,
+          "revision": 1,
+          "sha256": "2c66af418c8e7eb3f3b8c0f23756289cb77d873ce6abc5c1a21b0978a7654ba9"
+        },
+        {
+          "id": 413,
+          "revision": 1,
+          "sha256": "15bd55c00377f682d1393bbf1d7606d29dd57d01348cc92b4416d2e0927d27a6"
+        },
+        {
+          "id": 414,
+          "revision": 1,
+          "sha256": "44745a65a8b80d843c99381a4c57bc78bf49ed82830a3443b05d2c5f6d8030de"
+        },
+        {
+          "id": 415,
+          "revision": 1,
+          "sha256": "9cfb383a38927bc98ddf7a83f3af544631a0cb9d70c69a78d6e6969cbf89bc84"
+        },
+        {
+          "id": 416,
+          "revision": 1,
+          "sha256": "719ebbf2dec7d1b33474b19ba43d4006a987fe9f59f8334f8ee170946b538827"
+        },
+        {
+          "id": 417,
+          "revision": 1,
+          "sha256": "f5426b58c43cf6dd63015efb8d043bf97d26c8dd080282aad94dce44aa3595cb"
+        },
+        {
+          "id": 418,
+          "revision": 1,
+          "sha256": "0740811ccc38df82868029a12822ab6970ff6645e1dff7ba85ffd65e567a25fc"
+        },
+        {
+          "id": 419,
+          "revision": 1,
+          "sha256": "90d38bb39bea9c970d3f36d7cbae7cc0640b8b529f1a3cbbc85fa3fedc89a24b"
+        },
+        {
+          "id": 420,
+          "revision": 1,
+          "sha256": "fcf0f535b7bce14df97e7e493828eadac577d3391121dd1e87fdadff443d1a43"
+        }
+      ],
+      "first_id": 404,
+      "last_id": 420,
+      "count": 17,
+      "txt_path": "workflows/anf/batches/e7a27311870a7127d20a1d70.txt",
+      "json_path": "workflows/anf/batches/e7a27311870a7127d20a1d70.json",
+      "txt_sha256": "c347e24880fd77c33f6ce4c29d4857e0beedae2461121c0bc031844baec62fd8",
+      "json_sha256": "bb1ff963c2fd3cbe749beae9635f4244483ff649ad4531b0feb83971b95869b0",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Workplace product feature written in plain language with no ML-technical, developer/API, or hardware-internals terms. Not a new flagship model release.",
+            "evidence_sha256": "d1e5a72b045a0062beb583606cb8d9de02a46102290822c37aba4bb9052ca04f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Specialized DNA/genomics model described in plain language; biology terms are not ML-technical, developer/API, or hardware jargon. Not a new flagship Gemini/GPT/Claude/Grok/Muse model, so no New AI Model prefix.",
+            "evidence_sha256": "8580e1c5c108a77b2f19882ce209e26da5f78e601907576797bccdf020dbfa26"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google Labs experiment/tool described in plain language; no ML-technical, developer/API, or hardware terms. Not a new flagship Gemini/GPT/Claude/Grok/Muse model, so no New AI Model prefix.",
+            "evidence_sha256": "ce4ccf3cf8a5d43f5a2afc1fa5dd4ef686dffa012d2cc325e9b4b171979fc00d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Feature/device rollout of the existing Muse agent, described in plain language; no ML-technical, developer/API, or hardware-internals terms. Not a new flagship Muse/Gemini/GPT/Claude/Grok model, so no New AI Model prefix.",
+            "evidence_sha256": "1b89ae94eb1890158209a6971bf5486eac235da8e9380e614c5a371423dcc577"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Feature/integration of Uber Courier into the existing Muse agent, described in plain language; no ML-technical, developer/API, or hardware-internals terms. Not a new flagship Muse/Gemini/GPT/Claude/Grok model, so no New AI Model prefix.",
+            "evidence_sha256": "b380da6431261f1089e568e8ae4d52f5115e92c3f3c721d7db0b79ece12c0052"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Specialized image model described in plain language; no ML-technical, developer/API, or hardware-internals terms. MiniMax is not a flagship-prefix lab, and this is not a new Gemini/GPT/Claude/Grok/Muse model, so no New AI Model prefix.",
+            "evidence_sha256": "749ea1579ea735b3e5aecef7ae89af9e78470705b27890a6346848ac70b3c9c8"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "api",
+            "rationale": "Developer/API announcement: summary uses Gemini API, AI Studio, and token pricing, which are developer terms and require ds:true. Specialized decision model in the Gemini API, not a non-DS new flagship Gemini, so no New AI Model prefix.",
+            "evidence_sha256": "4d8ac13897cbc65c69685bd9f6c154d13150c566defd5329b6c57b856b09b735"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Customer deployment described in plain language; Claude Code is used as a product name. No ML-technical, developer/API, or hardware-internals terms. Not a new model release, so no New AI Model prefix.",
+            "evidence_sha256": "2005ab78716af30933938a539a1b7b142463060bfb34ed188ff3ee7ae5e71122"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Feature rollout of existing ChatGPT Finances to the desktop app. The wording is everyday consumer language with no developer, API, ML-technical, or hardware terms. Not a new flagship model.",
+            "evidence_sha256": "da16445d4afa060077ede171c68e2dadf03fc32a9f877be472c7e16d98a80dc3"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Feature rollout of the existing Gemini app to Apple CarPlay. The wording is everyday consumer language with no developer, API, ML-technical, or hardware terms. Not a new flagship Gemini model.",
+            "evidence_sha256": "65928153921b369b27f70a218e3e19e2dccd9f6240eab7ed9262bb645fd4a5a1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer launch of an AI character you can talk with face-to-face. The wording is everyday language with no developer, API, ML-technical, or hardware terms. Nuance Labs is not a flagship-prefix company.",
+            "evidence_sha256": "206e85b89f21ef288318e4cbfa0c2aeaa1cc33511ee58bb3a6fa120dbfda5edc"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "United's ban on AI booking agents is consumer and industry news about airline policy and regulation, not a developer tool, API, or research result; it matters to general readers tracking how AI agents are being restricted in everyday services. muse-intake 2026-11-11: submitted by Diego via Instagram (Yahoo Finance post https://www.instagram.com/p/DfnWbRBF0Kz/), verified against USA Today, WSJ, and Reuters coverage; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "9cfb383a38927bc98ddf7a83f3af544631a0cb9d70c69a78d6e6969cbf89bc84"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Hadi Salloum and Ammar Ali use sparse bit-level weight edits to reduce repetitive reasoning in small language models. Their Qwen3.5-0.8B repair scored 54.6% on MATH-500 versus 51.7% for a prior agent-designed edit under the same evaluation. The study covers two models from one family and does not measure effects outside math benchmarks. This is AI research on model reasoning efficiency with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-12: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "719ebbf2dec7d1b33474b19ba43d4006a987fe9f59f8334f8ee170946b538827"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Deyuan Liu and colleagues adapt APEX to estimate the distribution of generated videos within the generator itself, removing a separate training network. In matched tests, peak allocated memory fell 4.4% per GPU and mean training iteration time fell 9.2%. Human raters favored APEX on instruction following but preferred S2-Avatar on motion quality. This is AI research on streaming video model training, for research audiences. muse-compile-backfill 2026-11-12: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "f5426b58c43cf6dd63015efb8d043bf97d26c8dd080282aad94dce44aa3595cb"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The Wall Street Journal reports that Nvidia's board is preparing to remove CEO Jensen Huang following reports of two extramarital affairs. Reuters separately reports that directors met Wednesday to consider his future. Nvidia has announced no decision. In its November 8 statement, the board expressed confidence in Huang while announcing an independent investigation. This is business news about a public company for a broad audience, not technical research. muse-compile-backfill 2026-11-12: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "0740811ccc38df82868029a12822ab6970ff6645e1dff7ba85ffd65e567a25fc"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Google DeepMind released AlphaGenome 2 to predict how DNA changes affect gene activity in specific cell types. DeepMind says the model identified 30% of causal variants in a test across 28 immune cell types, versus 16% for its predecessor adapted to single-cell data. The company says it can predict effects in new cell states without retraining. This is AI research on genomics modeling, for research and technical audiences. muse-compile-backfill 2026-11-12: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "90d38bb39bea9c970d3f36d7cbae7cc0640b8b529f1a3cbbc85fa3fedc89a24b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Security research disclosure about a Codex vulnerability and official package publishing pipeline, with developer and security terms a regular reader would not know. Not a new flagship model.",
+            "evidence_sha256": "3e2120f85f8e3855b6ccc0d64c930798e47db072e7bb3dfd7b9ee25b4e3d55a3"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-12T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "e7a27311870a7127d20a1d70",
   "replacement_batch": null,
   "checkpoint": 403,
   "checkpoint_history": [
@@ -45827,6 +46074,260 @@
           "sha256": "90d38bb39bea9c970d3f36d7cbae7cc0640b8b529f1a3cbbc85fa3fedc89a24b"
         },
         "editorial_sha256": "debcef32e7cb94e064e380dfc13c784b46145eb1d03fc00997d8bfeedd606049"
+      }
+    },
+    "muse-compile-20261112-1303-1591": {
+      "sha256": "2d82b8fa2007a0d5b62176c83da8580678f4970536d0cf6109b58ca613f6ae15",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "e7a27311870a7127d20a1d70",
+          "status": "prepared",
+          "checkpoint_before": 403,
+          "prepared_at": "2026-11-12T13:03:59.961086+00:00",
+          "intake_cutoff": 379,
+          "records": [
+            {
+              "id": 404,
+              "revision": 1,
+              "sha256": "bed2203978baddbea99f2464cf5fafa555cd669eb4e4afd8d34a48eaaaa89650"
+            },
+            {
+              "id": 405,
+              "revision": 1,
+              "sha256": "eabff955a74c914cfe1beaf4cfa587bb7c381d3b0e41f19b064b223aeefb89d7"
+            },
+            {
+              "id": 406,
+              "revision": 1,
+              "sha256": "c4fa8bcd94d275483529f58bd136caf610a78f8b3fa06203e2caf5dbb2b4bc31"
+            },
+            {
+              "id": 407,
+              "revision": 1,
+              "sha256": "a5308ebe828df4be61fbebb02bc748b434c49f6e8a44b830017043fa5ff634b3"
+            },
+            {
+              "id": 408,
+              "revision": 1,
+              "sha256": "36b78edb03d2726094819da6848dbfd46b9267ab2e451e1a9eaf3b68c3f17ed7"
+            },
+            {
+              "id": 409,
+              "revision": 1,
+              "sha256": "e0ced63f1e823e2f5b561baf5dfc668a51ad51e82dac3bf8b195c59df5b6491d"
+            },
+            {
+              "id": 410,
+              "revision": 1,
+              "sha256": "e21190afcfd94ca2257ce249e98826b09e01ecda6172c1ce35d7a2c45300db3c"
+            },
+            {
+              "id": 411,
+              "revision": 1,
+              "sha256": "56b19eef68cc5e53183a388aa4ce00ee8c875ae118900bf1c9ed4d4da2b71fa3"
+            },
+            {
+              "id": 412,
+              "revision": 1,
+              "sha256": "2c66af418c8e7eb3f3b8c0f23756289cb77d873ce6abc5c1a21b0978a7654ba9"
+            },
+            {
+              "id": 413,
+              "revision": 1,
+              "sha256": "15bd55c00377f682d1393bbf1d7606d29dd57d01348cc92b4416d2e0927d27a6"
+            },
+            {
+              "id": 414,
+              "revision": 1,
+              "sha256": "44745a65a8b80d843c99381a4c57bc78bf49ed82830a3443b05d2c5f6d8030de"
+            },
+            {
+              "id": 415,
+              "revision": 1,
+              "sha256": "9cfb383a38927bc98ddf7a83f3af544631a0cb9d70c69a78d6e6969cbf89bc84"
+            },
+            {
+              "id": 416,
+              "revision": 1,
+              "sha256": "719ebbf2dec7d1b33474b19ba43d4006a987fe9f59f8334f8ee170946b538827"
+            },
+            {
+              "id": 417,
+              "revision": 1,
+              "sha256": "f5426b58c43cf6dd63015efb8d043bf97d26c8dd080282aad94dce44aa3595cb"
+            },
+            {
+              "id": 418,
+              "revision": 1,
+              "sha256": "0740811ccc38df82868029a12822ab6970ff6645e1dff7ba85ffd65e567a25fc"
+            },
+            {
+              "id": 419,
+              "revision": 1,
+              "sha256": "90d38bb39bea9c970d3f36d7cbae7cc0640b8b529f1a3cbbc85fa3fedc89a24b"
+            },
+            {
+              "id": 420,
+              "revision": 1,
+              "sha256": "fcf0f535b7bce14df97e7e493828eadac577d3391121dd1e87fdadff443d1a43"
+            }
+          ],
+          "first_id": 404,
+          "last_id": 420,
+          "count": 17,
+          "txt_path": "workflows/anf/batches/e7a27311870a7127d20a1d70.txt",
+          "json_path": "workflows/anf/batches/e7a27311870a7127d20a1d70.json",
+          "txt_sha256": "c347e24880fd77c33f6ce4c29d4857e0beedae2461121c0bc031844baec62fd8",
+          "json_sha256": "bb1ff963c2fd3cbe749beae9635f4244483ff649ad4531b0feb83971b95869b0",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Workplace product feature written in plain language with no ML-technical, developer/API, or hardware-internals terms. Not a new flagship model release.",
+                "evidence_sha256": "d1e5a72b045a0062beb583606cb8d9de02a46102290822c37aba4bb9052ca04f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Specialized DNA/genomics model described in plain language; biology terms are not ML-technical, developer/API, or hardware jargon. Not a new flagship Gemini/GPT/Claude/Grok/Muse model, so no New AI Model prefix.",
+                "evidence_sha256": "8580e1c5c108a77b2f19882ce209e26da5f78e601907576797bccdf020dbfa26"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Google Labs experiment/tool described in plain language; no ML-technical, developer/API, or hardware terms. Not a new flagship Gemini/GPT/Claude/Grok/Muse model, so no New AI Model prefix.",
+                "evidence_sha256": "ce4ccf3cf8a5d43f5a2afc1fa5dd4ef686dffa012d2cc325e9b4b171979fc00d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Feature/device rollout of the existing Muse agent, described in plain language; no ML-technical, developer/API, or hardware-internals terms. Not a new flagship Muse/Gemini/GPT/Claude/Grok model, so no New AI Model prefix.",
+                "evidence_sha256": "1b89ae94eb1890158209a6971bf5486eac235da8e9380e614c5a371423dcc577"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Feature/integration of Uber Courier into the existing Muse agent, described in plain language; no ML-technical, developer/API, or hardware-internals terms. Not a new flagship Muse/Gemini/GPT/Claude/Grok model, so no New AI Model prefix.",
+                "evidence_sha256": "b380da6431261f1089e568e8ae4d52f5115e92c3f3c721d7db0b79ece12c0052"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Specialized image model described in plain language; no ML-technical, developer/API, or hardware-internals terms. MiniMax is not a flagship-prefix lab, and this is not a new Gemini/GPT/Claude/Grok/Muse model, so no New AI Model prefix.",
+                "evidence_sha256": "749ea1579ea735b3e5aecef7ae89af9e78470705b27890a6346848ac70b3c9c8"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "api",
+                "rationale": "Developer/API announcement: summary uses Gemini API, AI Studio, and token pricing, which are developer terms and require ds:true. Specialized decision model in the Gemini API, not a non-DS new flagship Gemini, so no New AI Model prefix.",
+                "evidence_sha256": "4d8ac13897cbc65c69685bd9f6c154d13150c566defd5329b6c57b856b09b735"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Customer deployment described in plain language; Claude Code is used as a product name. No ML-technical, developer/API, or hardware-internals terms. Not a new model release, so no New AI Model prefix.",
+                "evidence_sha256": "2005ab78716af30933938a539a1b7b142463060bfb34ed188ff3ee7ae5e71122"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Feature rollout of existing ChatGPT Finances to the desktop app. The wording is everyday consumer language with no developer, API, ML-technical, or hardware terms. Not a new flagship model.",
+                "evidence_sha256": "da16445d4afa060077ede171c68e2dadf03fc32a9f877be472c7e16d98a80dc3"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Feature rollout of the existing Gemini app to Apple CarPlay. The wording is everyday consumer language with no developer, API, ML-technical, or hardware terms. Not a new flagship Gemini model.",
+                "evidence_sha256": "65928153921b369b27f70a218e3e19e2dccd9f6240eab7ed9262bb645fd4a5a1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer launch of an AI character you can talk with face-to-face. The wording is everyday language with no developer, API, ML-technical, or hardware terms. Nuance Labs is not a flagship-prefix company.",
+                "evidence_sha256": "206e85b89f21ef288318e4cbfa0c2aeaa1cc33511ee58bb3a6fa120dbfda5edc"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "United's ban on AI booking agents is consumer and industry news about airline policy and regulation, not a developer tool, API, or research result; it matters to general readers tracking how AI agents are being restricted in everyday services. muse-intake 2026-11-11: submitted by Diego via Instagram (Yahoo Finance post https://www.instagram.com/p/DfnWbRBF0Kz/), verified against USA Today, WSJ, and Reuters coverage; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "9cfb383a38927bc98ddf7a83f3af544631a0cb9d70c69a78d6e6969cbf89bc84"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Hadi Salloum and Ammar Ali use sparse bit-level weight edits to reduce repetitive reasoning in small language models. Their Qwen3.5-0.8B repair scored 54.6% on MATH-500 versus 51.7% for a prior agent-designed edit under the same evaluation. The study covers two models from one family and does not measure effects outside math benchmarks. This is AI research on model reasoning efficiency with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-12: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "719ebbf2dec7d1b33474b19ba43d4006a987fe9f59f8334f8ee170946b538827"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Deyuan Liu and colleagues adapt APEX to estimate the distribution of generated videos within the generator itself, removing a separate training network. In matched tests, peak allocated memory fell 4.4% per GPU and mean training iteration time fell 9.2%. Human raters favored APEX on instruction following but preferred S2-Avatar on motion quality. This is AI research on streaming video model training, for research audiences. muse-compile-backfill 2026-11-12: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "f5426b58c43cf6dd63015efb8d043bf97d26c8dd080282aad94dce44aa3595cb"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "The Wall Street Journal reports that Nvidia's board is preparing to remove CEO Jensen Huang following reports of two extramarital affairs. Reuters separately reports that directors met Wednesday to consider his future. Nvidia has announced no decision. In its November 8 statement, the board expressed confidence in Huang while announcing an independent investigation. This is business news about a public company for a broad audience, not technical research. muse-compile-backfill 2026-11-12: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "0740811ccc38df82868029a12822ab6970ff6645e1dff7ba85ffd65e567a25fc"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Google DeepMind released AlphaGenome 2 to predict how DNA changes affect gene activity in specific cell types. DeepMind says the model identified 30% of causal variants in a test across 28 immune cell types, versus 16% for its predecessor adapted to single-cell data. The company says it can predict effects in new cell states without retraining. This is AI research on genomics modeling, for research and technical audiences. muse-compile-backfill 2026-11-12: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "90d38bb39bea9c970d3f36d7cbae7cc0640b8b529f1a3cbbc85fa3fedc89a24b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Security research disclosure about a Codex vulnerability and official package publishing pipeline, with developer and security terms a regular reader would not know. Not a new flagship model.",
+                "evidence_sha256": "3e2120f85f8e3855b6ccc0d64c930798e47db072e7bb3dfd7b9ee25b4e3d55a3"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-12T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },

@@ -1,0 +1,143 @@
+[
+  {
+    "title": "Anthropic Announces Claude Meetings to Turn Calls Into Plans and Tasks",
+    "description": "Anthropic announced Claude Meetings, which it says will let teams add Claude to a call to take notes and update documents while people talk. The company's product page lists the feature as coming soon. TechCrunch reports it is launching in beta on Team and Enterprise plans, starting with Google Meet, and can draft plans and answer questions in the chat.",
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Meetings.png",
+    "learn_more_url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+    "date": "2026-11-12",
+    "source": "Anthropic"
+  },
+  {
+    "title": "Google DeepMind Introduces AlphaGenome 2 to Help Study How DNA Changes Affect Cells",
+    "description": "Google DeepMind introduced AlphaGenome 2, a DNA model that predicts how genetic changes affect specific human cell types, to help researchers study disease. DeepMind says it finds nearly twice as many gene-changing variants as the previous version. It is available for non-commercial research today, with a private preview for commercial research, and is not approved for clinical use.",
+    "image_url": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w1920-h1080-n-nu",
+    "learn_more_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "date": "2026-11-12",
+    "source": "Google DeepMind"
+  },
+  {
+    "title": "Google Labs Introduces Tabletop, a Shared Space for Group Planning",
+    "description": "Google Labs introduced Tabletop, a new experiment for real-time group planning. Users add links, files, and ideas, then ask Tabletop or pick a template to create shared tools such as trip itineraries, dinner polls, expense splitters, and tournament brackets. It is rolling out in the U.S. for people 18 and older via a waitlist.",
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1566.max-1440x810.jpg",
+    "learn_more_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+    "date": "2026-11-12",
+    "source": "Google Labs"
+  },
+  {
+    "title": "Muse Is Now Available on Apple Watch and Wear OS",
+    "description": "Meta's Muse personal AI agent is now available on Apple Watch and Wear OS, the official Muse account and Meta's Alexandr Wang announced. Users can reach Muse from the watch by text, dictation, or a voice call, TechCrunch reported.",
+    "image_url": "https://images.macrumors.com/t/Xim5fv6t6cpkTIwvTX8EpK9xui8=/1874x/article-new/2026/11/muse-apple-watch-app.jpg",
+    "learn_more_url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+    "date": "2026-11-12",
+    "source": "Meta"
+  },
+  {
+    "title": "Uber Courier Is Now Available in Meta's Muse",
+    "description": "Uber Courier is now available in Meta's Muse, Uber CEO Dara Khosrowshahi said. The official Uber account said Muse users can arrange a package delivery in the chat, see the price, approve the booking, and let Uber handle the pickup.",
+    "image_url": "https://www.allthingsmuse.com/cover-uber-courier-muse.webp",
+    "learn_more_url": "https://www.allthingsmuse.com/articles/uber-courier-muse/",
+    "date": "2026-11-12",
+    "source": "Uber"
+  },
+  {
+    "title": "MiniMax Releases H3-Image, Saying It Makes 4K Pictures in Under 10 Seconds",
+    "description": "MiniMax released H3-Image, an image model that can create and edit pictures, including 4K images in under 10 seconds, the company said. It can use up to 16 reference images. MiniMax says the tool is available in MiniMax Code and Hailuo AI, with 50% off 4K and higher images during launch week.",
+    "image_url": "https://file.cdn.minimax.io/public/h3-image-cover-1794323228475.jpg",
+    "learn_more_url": "https://www.minimax.io/blog/minimax-h3-image",
+    "date": "2026-11-12",
+    "source": "MiniMax"
+  },
+  {
+    "title": "Google Launches the Gemini Decisions API With Gemini Decision 1",
+    "description": "Google introduced the Gemini Decisions API, powered by Gemini Decision 1, in Google AI Studio and the Gemini API. Google says it can score up to 1,000 yes/no, multiple-choice, or rating questions in one pass across text, images, audio, video, and PDFs, at $0.10 per 1M input tokens with no output-token charge. A no-cost tier is available in AI Studio.",
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+    "learn_more_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "date": "2026-11-12",
+    "source": "Google",
+    "ds": true
+  },
+  {
+    "title": "JPMorganChase Expands Claude Code to More Employees Across the Firm",
+    "description": "JPMorganChase is expanding Claude Code beyond engineers to more employees across the firm, Anthropic said. Product teams are using it for planning, and other teams for risk assessments, operations, and wealth-management work. Anthropic says the tool runs on the bank's own systems in controlled environments, with staged access, and that people remain accountable for every production change.",
+    "image_url": "https://claude.com/resources/articles/jpmorganchase-expands-claude-code/opengraph-image/og",
+    "learn_more_url": "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
+    "date": "2026-11-12",
+    "source": "Anthropic"
+  },
+  {
+    "title": "ChatGPT Adds Finances to Its Desktop App for US Users",
+    "description": "OpenAI's ChatGPT account said Finances is now in the ChatGPT desktop app for Free, Go, Plus, and Pro users in the U.S. The post says users can find ways to save, understand their spending, and make sense of their investments, and can also build custom financial tools after updating the app.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/LOx9hwb9FayMVDsvnMHBI/a50d14deb15ce97f1ae869a7e4afc964/SEO-Personal-Finance.jpg?w=1600&h=900&fit=fill",
+    "learn_more_url": "",
+    "date": "2026-11-12",
+    "source": "OpenAI"
+  },
+  {
+    "title": "Google Brings the Gemini App to Apple CarPlay",
+    "description": "Google said the Gemini app is now available on Apple CarPlay, letting iOS users have hands-free conversations with Gemini Live from the car's display. Google says it is rolling out globally starting today to all Gemini users on iOS, in every supported Gemini Live language. Conversations sync with the Gemini app on the iPhone.",
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Carplay_hero_image.width-1300.png",
+    "learn_more_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+    "date": "2026-11-12",
+    "source": "Google"
+  },
+  {
+    "title": "Nuance Labs Introduces Emma, an AI Character You Can Talk to Face to Face",
+    "description": "Nuance Labs introduced Emma, an AI character you can talk with face-to-face in a browser. The company says her face and voice come from a real actress, and that she is upfront she is an AI. Emma is English-only, for adults, and available in the United States except four states, the EU, the UK, and Canada except Quebec.",
+    "image_url": "https://framerusercontent.com/assets/NeiXc6xrTSgPOs5LeetyhRIHV8.png",
+    "learn_more_url": "https://digitalhuman.news/news/nuance-labs-launches-emma-nuplex-beta-api",
+    "date": "2026-11-12",
+    "source": "Nuance Labs"
+  },
+  {
+    "title": "United Blocks AI Agents From Booking Flights",
+    "description": "United Airlines said November 11 it will block third-party AI agents from booking, servicing, or buying travel on its website, app, and through travel agencies and aggregators. The airline cites exposed customer data, unintended purchases, and FAA and DOT rules, noting an agent cannot attest at check-in that bags hold no explosives. Agents can still show United flights and fares.",
+    "image_url": "https://www.airportspotting.com/wp-content/uploads/2022/12/Boeing_and_United_Airlines_Order.jpg",
+    "learn_more_url": "https://www.usatoday.com/story/travel/airline-news/2026/11/11/united-ai-travel-agents-booking/92728156007/",
+    "date": "2026-11-12",
+    "source": "USA Today"
+  },
+  {
+    "title": "Bit-Level Weight Edits Reduce Reasoning Loops",
+    "description": "Hadi Salloum and Ammar Ali use sparse bit-level weight edits to reduce repetitive reasoning in small language models. Their Qwen3.5-0.8B repair scored 54.6% on MATH-500 versus 51.7% for a prior agent-designed edit under the same evaluation. The study covers two models from one family and does not measure effects outside math benchmarks.",
+    "image_url": "https://paper-assets.alphaxiv.org/paper-figures/01a1c926-3cb1-703c-807a-0c04abbcf3f4/01a1cb06-1bf5-7c4a-8d69-bdfed2031061.png",
+    "learn_more_url": "https://arxiv.org/abs/2611.14210",
+    "date": "2026-11-12",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "APEX Shares a Network to Train Streaming Video Models",
+    "description": "Deyuan Liu and colleagues adapt APEX to estimate the distribution of generated videos within the generator itself, removing a separate training network. In matched tests, peak allocated memory fell 4.4% per GPU and mean training iteration time fell 9.2%. Human raters favored APEX on instruction following but preferred S2-Avatar on motion quality.",
+    "image_url": "https://arxiv.org/html/2611.14033v1/3_case_gallery.png",
+    "learn_more_url": "https://arxiv.org/abs/2611.14033",
+    "date": "2026-11-12",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "Nvidia Board Reportedly Prepares to Remove CEO Jensen Huang",
+    "description": "The Wall Street Journal reports that Nvidia’s board is preparing to remove CEO Jensen Huang following reports of two extramarital affairs. Reuters separately reports that directors met Wednesday to consider his future. Nvidia has announced no decision. In its November 8 statement, the board expressed confidence in Huang while announcing an independent investigation.",
+    "image_url": "https://images.axios.com/z49QJcNmJLnBFQER2_v_mSwpacg=/0x191:4096x2495/1920x1080/2026/11/11/1794435759385.jpeg?w=3840",
+    "learn_more_url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+    "date": "2026-11-12",
+    "source": "wsj.com"
+  },
+  {
+    "title": "Google DeepMind Releases AlphaGenome 2",
+    "description": "Google DeepMind released AlphaGenome 2 to predict how DNA changes affect gene activity in specific cell types. DeepMind says the model identified 30% of causal variants in a test across 28 immune cell types, versus 16% for its predecessor adapted to single-cell data. The company says it can predict effects in new cell states without retraining.",
+    "image_url": "https://lh3.googleusercontent.com/7eOcEXEyA41RlNbAgNmBUQLy34StN16i5xFpfAZ5hUxQmBQKZDYd3vVlnIbl_eK-4azSQ9QJBmi3wm2leu9zY0gflvcLBD5Vwdkmb6q9D1uwtfj-5A=w1440-h810-n-nu",
+    "learn_more_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "date": "2026-11-12",
+    "source": "deepmind.google",
+    "ds": true
+  },
+  {
+    "title": "Depi Researchers Say a Codex Flaw Let Them Reach OpenAI's Official Package Pipeline",
+    "description": "Depi researchers said they found a vulnerability in OpenAI Codex that let them control the publishing pipeline for OpenAI's official Codex package, which they say is downloaded millions of times a month. They reported it to OpenAI through Bugcrowd. Depi says OpenAI fixed the core issue quickly and paid an initial $1,000 bounty, with the report still under review.",
+    "image_url": "https://depi.security/_astro/codex-thumbnail.BtyWjjx0_FVxVB.jpg",
+    "learn_more_url": "https://depi.security/blog/20261111-backdooring-codex/",
+    "date": "2026-11-12",
+    "source": "Depi",
+    "ds": true
+  }
+]
