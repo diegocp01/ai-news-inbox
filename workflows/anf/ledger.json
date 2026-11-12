@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1296,
-  "updated_at": "2026-11-12T15:17:18.326661+00:00",
+  "generation": 1297,
+  "updated_at": "2026-11-12T15:17:19.303782+00:00",
   "next_id": 422,
   "records": [
     {
@@ -46460,6 +46460,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2e3ef409a9385cbaad6b10f158d754ceea58575bf6b686f0d60c2545d0015dc6": {
+      "sha256": "a0bfe062d1fcb8d285360bbae22e2628bb381a2e4e6c9eaa0d15aa9c77a4c85f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 421,
+          "revision": 1,
+          "sha256": "5d9386426a2fad1c2a42861e81d145703154e7d83e534dba581cc0f50828f564"
+        },
+        "editorial_sha256": "b0f4fc2a4e5c1789f2d652020df7609e17b2ca7237be637e8413397f79711826"
+      }
     }
   },
   "migration": {
@@ -57546,6 +57558,26 @@
         "sha256": "debcef32e7cb94e064e380dfc13c784b46145eb1d03fc00997d8bfeedd606049",
         "reviewed_at": "2026-11-12T13:03:46.533292+00:00",
         "operation_id": "muse-backfill-20261112-419-6543"
+      }
+    ],
+    "421:1": [
+      {
+        "reference": {
+          "id": 421,
+          "revision": 1,
+          "sha256": "5d9386426a2fad1c2a42861e81d145703154e7d83e534dba581cc0f50828f564"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Corporate leadership change written in everyday language with no developer, API, ML-technical, or hardware terms. Not a new flagship model.",
+            "evidence_sha256": "93417fd9f5657208f72179be1fb3fff2510080195437e191013e5d593933ed6f"
+          }
+        },
+        "sha256": "b0f4fc2a4e5c1789f2d652020df7609e17b2ca7237be637e8413397f79711826",
+        "reviewed_at": "2026-11-12T15:17:19.303782+00:00",
+        "operation_id": "2e3ef409a9385cbaad6b10f158d754ceea58575bf6b686f0d60c2545d0015dc6"
       }
     ]
   }
