@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1295,
-  "updated_at": "2026-11-12T15:17:17.281497+00:00",
-  "next_id": 421,
+  "generation": 1296,
+  "updated_at": "2026-11-12T15:17:18.326661+00:00",
+  "next_id": 422,
   "records": [
     {
       "id": 1,
@@ -5588,6 +5588,19 @@
           "sha256": "fcf0f535b7bce14df97e7e493828eadac577d3391121dd1e87fdadff443d1a43",
           "source": "Depi",
           "request_id": "5e099b294ff78b7f1b3c8b086a46ad9eeeaed4ec21cb990c3721edd621e72e13",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 421,
+      "revisions": [
+        {
+          "created_at": "2026-11-12T15:17:18.326661+00:00",
+          "block": "Title: Jensen Huang Resigns as NVIDIA CEO; Colette Kress Named Interim Chief\nURL: https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition\nImage URL: https://nvidianews.nvidia.com/media/sites/219/images/social-image.jpg\nSummary: NVIDIA's board announced that Jensen Huang has resigned as president, chief executive officer, and a member of the board, effective immediately. The company appointed CFO Colette Kress as interim CEO; she will keep her CFO role while the board searches for a permanent successor, considering internal and external candidates. Harvey C. Jones was named the board's first chair.",
+          "sha256": "5d9386426a2fad1c2a42861e81d145703154e7d83e534dba581cc0f50828f564",
+          "source": "NVIDIA",
+          "request_id": "a2970fb8f70abd032bc972a2d6b1e7b9e2c037880532f63ff81988a9b11c798d",
           "mode": "standard"
         }
       ]
@@ -12316,13 +12329,21 @@
       ]
     },
     "a2970fb8f70abd032bc972a2d6b1e7b9e2c037880532f63ff81988a9b11c798d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-12T15:17:17.281497+00:00",
       "received_sequence": 380,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-12T15:17:18.326661+00:00",
+      "records": [
+        {
+          "id": 421,
+          "revision": 1,
+          "sha256": "5d9386426a2fad1c2a42861e81d145703154e7d83e534dba581cc0f50828f564"
+        }
+      ]
     }
   },
   "batches": {
@@ -46423,6 +46444,21 @@
       "result": {
         "status": "received",
         "request_id": "a2970fb8f70abd032bc972a2d6b1e7b9e2c037880532f63ff81988a9b11c798d"
+      }
+    },
+    "2ef56de3c8432e038ad8b4ab036bec29c9eef698ccdb43d07fac3827e9ec8dcb": {
+      "sha256": "03a288ff7082dd2b21901c299e6866b5b88f8bcfd4914a93478277ab6eddfe2e",
+      "result": {
+        "status": "finalized",
+        "request_id": "a2970fb8f70abd032bc972a2d6b1e7b9e2c037880532f63ff81988a9b11c798d",
+        "records": [
+          {
+            "id": 421,
+            "revision": 1,
+            "sha256": "5d9386426a2fad1c2a42861e81d145703154e7d83e534dba581cc0f50828f564"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
