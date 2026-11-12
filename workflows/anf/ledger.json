@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1298,
-  "updated_at": "2026-11-12T20:56:36.062045+00:00",
-  "next_id": 422,
+  "generation": 1299,
+  "updated_at": "2026-11-12T20:56:36.895875+00:00",
+  "next_id": 423,
   "records": [
     {
       "id": 1,
@@ -5601,6 +5601,19 @@
           "sha256": "5d9386426a2fad1c2a42861e81d145703154e7d83e534dba581cc0f50828f564",
           "source": "NVIDIA",
           "request_id": "a2970fb8f70abd032bc972a2d6b1e7b9e2c037880532f63ff81988a9b11c798d",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 422,
+      "revisions": [
+        {
+          "created_at": "2026-11-12T20:56:36.895875+00:00",
+          "block": "Title: Google DeepMind Introduces Gemini 4 Hydrogen\nURL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg\nSummary: Google DeepMind introduced Gemini 4 Hydrogen for everyday coding and daily work. Google says it finishes tasks 2.5 times faster than 3.8 Flash at its default high setting. It is rolling out today in the Gemini app and Google Search for everyone. Google describes Carbon and Argon as its frontier models.",
+          "sha256": "f416656c557430034ddfbf4e660f6a9d94346a97cb629c08168dc2d8fc97c598",
+          "source": "Google DeepMind",
+          "request_id": "50f835199040075d59c5f7f969ae6c174820af41a086c01248684c60535ef710",
           "mode": "standard"
         }
       ]
@@ -12346,13 +12359,21 @@
       ]
     },
     "50f835199040075d59c5f7f969ae6c174820af41a086c01248684c60535ef710": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-12T20:56:36.062045+00:00",
       "received_sequence": 381,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-12T20:56:36.895875+00:00",
+      "records": [
+        {
+          "id": 422,
+          "revision": 1,
+          "sha256": "f416656c557430034ddfbf4e660f6a9d94346a97cb629c08168dc2d8fc97c598"
+        }
+      ]
     }
   },
   "batches": {
@@ -46487,6 +46508,21 @@
       "result": {
         "status": "received",
         "request_id": "50f835199040075d59c5f7f969ae6c174820af41a086c01248684c60535ef710"
+      }
+    },
+    "86e40d0d228dd27a6fea4a68bb865a06768b71fecfe21b213cb73e343b7a077c": {
+      "sha256": "1a45beb1a3f4c7f9714c3d4ef0e4918bb39cba8537dddf8d535d6600490d72df",
+      "result": {
+        "status": "finalized",
+        "request_id": "50f835199040075d59c5f7f969ae6c174820af41a086c01248684c60535ef710",
+        "records": [
+          {
+            "id": 422,
+            "revision": 1,
+            "sha256": "f416656c557430034ddfbf4e660f6a9d94346a97cb629c08168dc2d8fc97c598"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
