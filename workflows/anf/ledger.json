@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1282,
-  "updated_at": "2026-11-12T12:38:41.887173+00:00",
-  "next_id": 418,
+  "generation": 1283,
+  "updated_at": "2026-11-12T12:46:11.397840+00:00",
+  "next_id": 420,
   "records": [
     {
       "id": 1,
@@ -5548,6 +5548,34 @@
           "source": "arXiv",
           "request_id": "f553162e749dc8c9c7fd3dce17e6b2a44a612cd7248c41c2208c1df862e8eb7e",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 418,
+      "revisions": [
+        {
+          "created_at": "2026-11-12T12:46:11.397840+00:00",
+          "block": "Title: Nvidia Board Reportedly Prepares to Remove CEO Jensen Huang\nURL: https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad\nImage URL: https://images.axios.com/z49QJcNmJLnBFQER2_v_mSwpacg=/0x191:4096x2495/1920x1080/2026/11/11/1794435759385.jpeg?w=3840\nSummary: The Wall Street Journal reports that Nvidia’s board is preparing to remove CEO Jensen Huang following reports of two extramarital affairs. Reuters separately reports that directors met Wednesday to consider his future. Nvidia has announced no decision. In its November 8 statement, the board expressed confidence in Huang while announcing an independent investigation.",
+          "sha256": "0740811ccc38df82868029a12822ab6970ff6645e1dff7ba85ffd65e567a25fc",
+          "source": "wsj.com",
+          "request_id": "c161fef40dda801d71036650c4024f115c325838fb4db00644605ede2174d1c5",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 419,
+      "revisions": [
+        {
+          "created_at": "2026-11-12T12:46:11.397840+00:00",
+          "block": "Title: Google DeepMind Releases AlphaGenome 2\nURL: https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/\nImage URL: https://lh3.googleusercontent.com/7eOcEXEyA41RlNbAgNmBUQLy34StN16i5xFpfAZ5hUxQmBQKZDYd3vVlnIbl_eK-4azSQ9QJBmi3wm2leu9zY0gflvcLBD5Vwdkmb6q9D1uwtfj-5A=w1440-h810-n-nu\nSummary: Google DeepMind released AlphaGenome 2 to predict how DNA changes affect gene activity in specific cell types. DeepMind says the model identified 30% of causal variants in a test across 28 immune cell types, versus 16% for its predecessor adapted to single-cell data. The company says it can predict effects in new cell states without retraining.",
+          "sha256": "90d38bb39bea9c970d3f36d7cbae7cc0640b8b529f1a3cbbc85fa3fedc89a24b",
+          "source": "deepmind.google",
+          "request_id": "c161fef40dda801d71036650c4024f115c325838fb4db00644605ede2174d1c5",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -12235,14 +12263,27 @@
       ]
     },
     "c161fef40dda801d71036650c4024f115c325838fb4db00644605ede2174d1c5": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-12T12:38:41.887173+00:00",
       "received_sequence": 378,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-12T12:46:11.397840+00:00",
+      "records": [
+        {
+          "id": 418,
+          "revision": 1,
+          "sha256": "0740811ccc38df82868029a12822ab6970ff6645e1dff7ba85ffd65e567a25fc"
+        },
+        {
+          "id": 419,
+          "revision": 1,
+          "sha256": "90d38bb39bea9c970d3f36d7cbae7cc0640b8b529f1a3cbbc85fa3fedc89a24b"
+        }
+      ]
     }
   },
   "batches": {
@@ -45654,6 +45695,26 @@
       "result": {
         "status": "received",
         "request_id": "c161fef40dda801d71036650c4024f115c325838fb4db00644605ede2174d1c5"
+      }
+    },
+    "8357c13bdd99b05993a08a74557341f96b590dca41e5bbf7f01daf25299dde42": {
+      "sha256": "82705e6b86862b0d849a78ff6dcd2ad579b49d2b812b68a9909b9102720afe18",
+      "result": {
+        "status": "finalized",
+        "request_id": "c161fef40dda801d71036650c4024f115c325838fb4db00644605ede2174d1c5",
+        "records": [
+          {
+            "id": 418,
+            "revision": 1,
+            "sha256": "0740811ccc38df82868029a12822ab6970ff6645e1dff7ba85ffd65e567a25fc"
+          },
+          {
+            "id": 419,
+            "revision": 1,
+            "sha256": "90d38bb39bea9c970d3f36d7cbae7cc0640b8b529f1a3cbbc85fa3fedc89a24b"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
