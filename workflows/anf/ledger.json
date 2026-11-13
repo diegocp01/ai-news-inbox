@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1333,
-  "updated_at": "2026-11-13T21:55:57.859096+00:00",
+  "generation": 1334,
+  "updated_at": "2026-11-13T21:55:58.705785+00:00",
   "next_id": 432,
   "records": [
     {
@@ -5741,6 +5741,14 @@
           "sha256": "488a41dbcf5290349592947c2fc394e82f1b3469443ef9f9e6da2a0a6a5e717f",
           "source": "Anthropic",
           "request_id": "bfbe875ab91cc693413761974eb6d8b0f68cf1b5580f40230540f4a245b64e3e",
+          "mode": "standard"
+        },
+        {
+          "created_at": "2026-11-13T21:55:58.705785+00:00",
+          "block": "Title: Anthropic’s Claude Duet Is a Proactive Agent in US Research Preview\nURL: https://claude.com/product/claude-duet\nImage URL: https://claude.com/static/claude-duet/og.jpg\nSummary: Anthropic’s Claude Duet is a waitlisted research preview for US Pro, Max, and Ultra users; Team and Enterprise are not included yet. Powered by Opus 5.5, it sends a morning brief, keeps working while the user is away, and asks for approval before steps such as sending messages or paying. It works with more than 6,000 connectors, Anthropic says.",
+          "sha256": "f059b6c2c5c3cf302881f9947c558f9159bd09dce2053b3c61955e3312dda6e3",
+          "source": "Anthropic",
+          "request_id": "f1b368c29c69a87fe5cc632fdf79f808adc8347333ac49306ce86db9a0a4391a",
           "mode": "standard"
         }
       ]
@@ -12662,13 +12670,21 @@
       ]
     },
     "f1b368c29c69a87fe5cc632fdf79f808adc8347333ac49306ce86db9a0a4391a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-13T21:55:57.859096+00:00",
       "received_sequence": 391,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": 431
+      "corrects_record_id": 431,
+      "finalized_at": "2026-11-13T21:55:58.705785+00:00",
+      "records": [
+        {
+          "id": 431,
+          "revision": 2,
+          "sha256": "f059b6c2c5c3cf302881f9947c558f9159bd09dce2053b3c61955e3312dda6e3"
+        }
+      ]
     }
   },
   "batches": {
@@ -47528,6 +47544,17 @@
       "result": {
         "status": "received",
         "request_id": "f1b368c29c69a87fe5cc632fdf79f808adc8347333ac49306ce86db9a0a4391a"
+      }
+    },
+    "e6adc4c0ed477503106dff4d808a45e8eea4d8bf0cf67f186211c71fd00e33a6": {
+      "sha256": "2ee53043f40c6cfa852cced56b62d71e0b06b5330b8db20eb3f554baf92e41dc",
+      "result": {
+        "status": "corrected",
+        "record": {
+          "id": 431,
+          "revision": 2,
+          "sha256": "f059b6c2c5c3cf302881f9947c558f9159bd09dce2053b3c61955e3312dda6e3"
+        }
       }
     }
   },
