@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1320,
-  "updated_at": "2026-11-13T12:47:22.238884+00:00",
+  "generation": 1322,
+  "updated_at": "2026-11-13T13:04:47.501867+00:00",
   "next_id": 430,
   "records": [
     {
@@ -46989,6 +46989,30 @@
         },
         "editorial_sha256": "17f5b0115cae3c8f82978ea9b8faad3ff9a9984e5acd0fc0849882f7448f02af"
       }
+    },
+    "muse-backfill-20261113-427-2913": {
+      "sha256": "e39e0a337db393f97f1bdb0aa4c61a08ac66f31662b266889bf544adf9df15b0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 427,
+          "revision": 1,
+          "sha256": "5df69beeab7c496fcd8e3da48d18b247d7f32575ab0dffb04f6f1fc44d6a685f"
+        },
+        "editorial_sha256": "84a5ce3503a82e2cc8184432a8cf83c1570d3797b782180acdf4a7a4a1032570"
+      }
+    },
+    "muse-backfill-20261113-428-2158": {
+      "sha256": "52bf38e176a62f54c717198c3af00cd5b915f6af72e5314163e1b745bc01238b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 428,
+          "revision": 1,
+          "sha256": "6e39f2ea6acd3b481e3eee6d75ace09f643f9f9d16f374a0172645bfa774853d"
+        },
+        "editorial_sha256": "f60355880045603ca4bb4f854bbf1e3f063e782e7ff399f12e28dd1e4346895d"
+      }
     }
   },
   "migration": {
@@ -58235,6 +58259,46 @@
         "sha256": "17f5b0115cae3c8f82978ea9b8faad3ff9a9984e5acd0fc0849882f7448f02af",
         "reviewed_at": "2026-11-13T12:47:22.238884+00:00",
         "operation_id": "5c98ecc2c216248f1bed9c500f5eaafeda49ad8a96ce54c91c5c947689a77e5f"
+      }
+    ],
+    "427:1": [
+      {
+        "reference": {
+          "id": 427,
+          "revision": 1,
+          "sha256": "5df69beeab7c496fcd8e3da48d18b247d7f32575ab0dffb04f6f1fc44d6a685f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Nvidia announced that Jensen Huang resigned as president, CEO and a board member, effective immediately. CFO Colette Kress will serve as interim CEO while continuing her finance role, and the board is searching for a permanent successor. The announcement followed Huang's November 8 statement admitting he had been unfaithful to his wife. This is business news about a public company's leadership change for a broad audience, not technical research. muse-compile-backfill 2026-11-13: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "5df69beeab7c496fcd8e3da48d18b247d7f32575ab0dffb04f6f1fc44d6a685f"
+          }
+        },
+        "sha256": "84a5ce3503a82e2cc8184432a8cf83c1570d3797b782180acdf4a7a4a1032570",
+        "reviewed_at": "2026-11-13T13:04:47.311760+00:00",
+        "operation_id": "muse-backfill-20261113-427-2913"
+      }
+    ],
+    "428:1": [
+      {
+        "reference": {
+          "id": 428,
+          "revision": 1,
+          "sha256": "6e39f2ea6acd3b481e3eee6d75ace09f643f9f9d16f374a0172645bfa774853d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google opened preorders for Gemini glasses developed with Samsung, Warby Parker and Gentle Monster. Google lists U.S. Warby Parker models from $395, arriving December 10. Features include spoken directions and live translation. Google says privacy protections are designed to redact bystanders' faces before Gemini processes visuals and stop recording when the indicator light is covered. This is consumer product news about AI glasses for a broad audience, not technical research. muse-compile-backfill 2026-11-13: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "6e39f2ea6acd3b481e3eee6d75ace09f643f9f9d16f374a0172645bfa774853d"
+          }
+        },
+        "sha256": "f60355880045603ca4bb4f854bbf1e3f063e782e7ff399f12e28dd1e4346895d",
+        "reviewed_at": "2026-11-13T13:04:47.501867+00:00",
+        "operation_id": "muse-backfill-20261113-428-2158"
       }
     ]
   }
