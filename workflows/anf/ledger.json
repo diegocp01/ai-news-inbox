@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1331,
-  "updated_at": "2026-11-13T21:55:22.251274+00:00",
+  "generation": 1332,
+  "updated_at": "2026-11-13T21:55:23.037386+00:00",
   "next_id": 432,
   "records": [
     {
@@ -47501,6 +47501,18 @@
         ],
         "duplicates": []
       }
+    },
+    "38863f068b122270a3d3a963a18da909994c0b3868e9acaca21a6970624c0c3b": {
+      "sha256": "cc791a1dcdec0065faebde713a0c76f3dc7aa97342e67c92c4bcc816503a4c4c",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 431,
+          "revision": 1,
+          "sha256": "488a41dbcf5290349592947c2fc394e82f1b3469443ef9f9e6da2a0a6a5e717f"
+        },
+        "editorial_sha256": "8a7fe757afec8ed6d32a4796f16eeb9af6b13c9d938649527fc9ce78d4610e21"
+      }
     }
   },
   "migration": {
@@ -58807,6 +58819,26 @@
         "sha256": "ae60dca2406c35e4b7fbbb52adf476808444dd779501b1de2146fff35a17fad8",
         "reviewed_at": "2026-11-13T17:29:29.242898+00:00",
         "operation_id": "f4dc23ba2d96d2f143d53900ef4024e74cd5eaa947b00ff8c2813acf03c3df01"
+      }
+    ],
+    "431:1": [
+      {
+        "reference": {
+          "id": 431,
+          "revision": 1,
+          "sha256": "488a41dbcf5290349592947c2fc394e82f1b3469443ef9f9e6da2a0a6a5e717f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer product page for a proactive assistant; the summary uses everyday wording and avoids ML, API, or hardware jargon.",
+            "evidence_sha256": "99befc75ef3606b6d7f16f8e0166036a6a3b57bc794a3f86ef80a96f9cb0173e"
+          }
+        },
+        "sha256": "8a7fe757afec8ed6d32a4796f16eeb9af6b13c9d938649527fc9ce78d4610e21",
+        "reviewed_at": "2026-11-13T21:55:23.037386+00:00",
+        "operation_id": "38863f068b122270a3d3a963a18da909994c0b3868e9acaca21a6970624c0c3b"
       }
     ]
   }
