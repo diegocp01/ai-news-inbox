@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1328,
-  "updated_at": "2026-11-13T17:29:28.463634+00:00",
+  "generation": 1329,
+  "updated_at": "2026-11-13T17:29:29.242898+00:00",
   "next_id": 431,
   "records": [
     {
@@ -47437,6 +47437,18 @@
         ],
         "duplicates": []
       }
+    },
+    "f4dc23ba2d96d2f143d53900ef4024e74cd5eaa947b00ff8c2813acf03c3df01": {
+      "sha256": "188ff24bc2a5ccc22f1f8210fbe590d9f9b711cb276db3f66a4141d0a17c9114",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 430,
+          "revision": 1,
+          "sha256": "e6cd07d1072fa1df1ddb77f4212e25ad6ad4c53ead9256548a960b1b47d64c0f"
+        },
+        "editorial_sha256": "ae60dca2406c35e4b7fbbb52adf476808444dd779501b1de2146fff35a17fad8"
+      }
     }
   },
   "migration": {
@@ -58723,6 +58735,26 @@
         "sha256": "f60355880045603ca4bb4f854bbf1e3f063e782e7ff399f12e28dd1e4346895d",
         "reviewed_at": "2026-11-13T13:04:47.501867+00:00",
         "operation_id": "muse-backfill-20261113-428-2158"
+      }
+    ],
+    "430:1": [
+      {
+        "reference": {
+          "id": 430,
+          "revision": 1,
+          "sha256": "e6cd07d1072fa1df1ddb77f4212e25ad6ad4c53ead9256548a960b1b47d64c0f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer payments feature for ChatGPT dots; the summary uses everyday wording and avoids ML, API, or hardware jargon.",
+            "evidence_sha256": "b23bc9cb68074ca4c021786b864cee3c4f6ea655a05ee16f059c588ca0983f48"
+          }
+        },
+        "sha256": "ae60dca2406c35e4b7fbbb52adf476808444dd779501b1de2146fff35a17fad8",
+        "reviewed_at": "2026-11-13T17:29:29.242898+00:00",
+        "operation_id": "f4dc23ba2d96d2f143d53900ef4024e74cd5eaa947b00ff8c2813acf03c3df01"
       }
     ]
   }
