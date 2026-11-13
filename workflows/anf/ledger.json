@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1316,
-  "updated_at": "2026-11-13T12:37:20.277579+00:00",
-  "next_id": 427,
+  "generation": 1317,
+  "updated_at": "2026-11-13T12:43:26.995637+00:00",
+  "next_id": 429,
   "records": [
     {
       "id": 1,
@@ -5675,6 +5675,34 @@
           "source": "Will DePue",
           "request_id": "7e8b959c63e92318685dfb670bddc5c634890ba552eea2d92a670825fe2956d4",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 427,
+      "revisions": [
+        {
+          "created_at": "2026-11-13T12:43:26.995637+00:00",
+          "block": "Title: Nvidia Names Interim CEO After Jensen Huang Resigns\nURL: https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition/\nImage URL: https://nvidianews.nvidia.com/media/sites/219/images/social-image.jpg\nSummary: Nvidia announced that Jensen Huang resigned as president, CEO and a board member, effective immediately. CFO Colette Kress will serve as interim CEO while continuing her finance role. The board is searching for a permanent successor. The announcement followed Huang’s November 8 statement admitting he had been unfaithful to his wife.",
+          "sha256": "5df69beeab7c496fcd8e3da48d18b247d7f32575ab0dffb04f6f1fc44d6a685f",
+          "source": "nvidianews.nvidia.com",
+          "request_id": "05560b34e62c577623ba12f8f7e2a635c8b5359e65a994b358635fb74a9222dc",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 428,
+      "revisions": [
+        {
+          "created_at": "2026-11-13T12:43:26.995637+00:00",
+          "block": "Title: Google Opens Preorders for Gemini AI Glasses\nURL: https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/\nImage URL: https://img.global.news.samsung.com/global/wp-content/uploads/2026/11/12152225/Samsung-Mobile-Intelligent-Eyewear-Launch-Gentle-Monster-Warby-Parker_main1.jpg\nSummary: Google opened preorders for Gemini glasses developed with Samsung, Warby Parker and Gentle Monster. Google lists U.S. Warby Parker models from $395, arriving December 10. Features include spoken directions and live translation. Google says privacy protections are designed to redact bystanders’ faces before Gemini processes visuals and stop recording when the indicator light is covered.",
+          "sha256": "6e39f2ea6acd3b481e3eee6d75ace09f643f9f9d16f374a0172645bfa774853d",
+          "source": "blog.google",
+          "request_id": "05560b34e62c577623ba12f8f7e2a635c8b5359e65a994b358635fb74a9222dc",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -12521,14 +12549,27 @@
       ]
     },
     "05560b34e62c577623ba12f8f7e2a635c8b5359e65a994b358635fb74a9222dc": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-13T12:37:20.277579+00:00",
       "received_sequence": 387,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-13T12:43:26.995637+00:00",
+      "records": [
+        {
+          "id": 427,
+          "revision": 1,
+          "sha256": "5df69beeab7c496fcd8e3da48d18b247d7f32575ab0dffb04f6f1fc44d6a685f"
+        },
+        {
+          "id": 428,
+          "revision": 1,
+          "sha256": "6e39f2ea6acd3b481e3eee6d75ace09f643f9f9d16f374a0172645bfa774853d"
+        }
+      ]
     }
   },
   "batches": {
@@ -46863,6 +46904,26 @@
       "result": {
         "status": "received",
         "request_id": "05560b34e62c577623ba12f8f7e2a635c8b5359e65a994b358635fb74a9222dc"
+      }
+    },
+    "1440f2d20f2fb50c401e04262b7a3cedad0a4092194d44dfe8387233f23f02dc": {
+      "sha256": "ab6408de5c3f78e29e0b0db7fc4133ae4d4adc6883610e52416a6b0cc447f4d5",
+      "result": {
+        "status": "finalized",
+        "request_id": "05560b34e62c577623ba12f8f7e2a635c8b5359e65a994b358635fb74a9222dc",
+        "records": [
+          {
+            "id": 427,
+            "revision": 1,
+            "sha256": "5df69beeab7c496fcd8e3da48d18b247d7f32575ab0dffb04f6f1fc44d6a685f"
+          },
+          {
+            "id": 428,
+            "revision": 1,
+            "sha256": "6e39f2ea6acd3b481e3eee6d75ace09f643f9f9d16f374a0172645bfa774853d"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
