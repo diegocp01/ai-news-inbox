@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1322,
-  "updated_at": "2026-11-13T13:04:47.501867+00:00",
+  "generation": 1323,
+  "updated_at": "2026-11-13T13:05:06.812453+00:00",
   "next_id": 430,
   "records": [
     {
@@ -22389,9 +22389,152 @@
       },
       "acknowledged_at": "2026-11-12T13:14:25.229327+00:00",
       "checkpoint_after": 420
+    },
+    "9108fdecb9267905b9238775": {
+      "batch_id": "9108fdecb9267905b9238775",
+      "status": "prepared",
+      "checkpoint_before": 420,
+      "prepared_at": "2026-11-13T13:05:06.812453+00:00",
+      "intake_cutoff": 388,
+      "records": [
+        {
+          "id": 421,
+          "revision": 1,
+          "sha256": "5d9386426a2fad1c2a42861e81d145703154e7d83e534dba581cc0f50828f564"
+        },
+        {
+          "id": 422,
+          "revision": 2,
+          "sha256": "d1aeea5ec440a19a911200d155d7f2037f190b2f3ddc1dec907a411879b373f5"
+        },
+        {
+          "id": 423,
+          "revision": 1,
+          "sha256": "624a6700a10789089f1b4ab53d7578f6b7e2e0ac1447124533f7f6e7b8ab4cee"
+        },
+        {
+          "id": 424,
+          "revision": 1,
+          "sha256": "841d4db2a16035b980350eff02cd74b7daaa754e2a82026b73fc960ebe6dd231"
+        },
+        {
+          "id": 425,
+          "revision": 1,
+          "sha256": "1624e2bf68a658d5b70e93e2a1d8831f2f1336461756841a4e511881a1ff5e51"
+        },
+        {
+          "id": 426,
+          "revision": 1,
+          "sha256": "249c1f3ea70dcbbf317ec2c699e3c800ab34e21174368e102ae0654b9f5124e1"
+        },
+        {
+          "id": 427,
+          "revision": 1,
+          "sha256": "5df69beeab7c496fcd8e3da48d18b247d7f32575ab0dffb04f6f1fc44d6a685f"
+        },
+        {
+          "id": 428,
+          "revision": 1,
+          "sha256": "6e39f2ea6acd3b481e3eee6d75ace09f643f9f9d16f374a0172645bfa774853d"
+        },
+        {
+          "id": 429,
+          "revision": 1,
+          "sha256": "ce344ab68cee618c3f00fbe8f12455f0a73d081fb9b5123d44bb2690adfe3144"
+        }
+      ],
+      "first_id": 421,
+      "last_id": 429,
+      "count": 9,
+      "txt_path": "workflows/anf/batches/9108fdecb9267905b9238775.txt",
+      "json_path": "workflows/anf/batches/9108fdecb9267905b9238775.json",
+      "txt_sha256": "e4f42645b699847c9991c1986a9e9c4c92bd0c7551107123526e577226cfdb7d",
+      "json_sha256": "9ceacf2cc846e2c3d8c1e82a48a6624fd79ff84e43f7e00362de5220adba1b18",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Corporate leadership change written in everyday language with no developer, API, ML-technical, or hardware terms. Not a new flagship model.",
+            "evidence_sha256": "93417fd9f5657208f72179be1fb3fff2510080195437e191013e5d593933ed6f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The official announcement is a consumer and everyday-work model rollout in the Gemini app and Google Search, written without API, token, or other developer jargon.",
+            "evidence_sha256": "ba6b1384e23e68dc52579f4065810a801eab11deb0d13631435db132e06e1287"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The announcement is a corporate IPO roadshow with share count, expected price, and ticker, written for a general reader without ML, API, or hardware terms.",
+            "evidence_sha256": "c00b2b13ea8ea8fff746e1f863db75b6e8cf0f9a13dfb3afdc3742d8c45ddc3a"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a consumer product feature update for ChatGPT dots, written without ML, API, or hardware terms.",
+            "evidence_sha256": "00988c6cff14b27f6a715f86a1b983cb5b3d3490676ec7d324dbca5493e95233"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a consumer Mac app integration update, written without ML, API, security, or hardware terms.",
+            "evidence_sha256": "512867f66021d513591097922dbabf57a25e5f196a2ac33ca807c193e2613fe1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The report is hardware and model-weight forensics research: GPU initialization fingerprints, chip layouts, and statistical matches, which a general reader would not know.",
+            "evidence_sha256": "8451b775dfccd42dd00746d2455ebe50333180725d8f0efb944f89d56aad9318"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Nvidia announced that Jensen Huang resigned as president, CEO and a board member, effective immediately. CFO Colette Kress will serve as interim CEO while continuing her finance role, and the board is searching for a permanent successor. The announcement followed Huang's November 8 statement admitting he had been unfaithful to his wife. This is business news about a public company's leadership change for a broad audience, not technical research. muse-compile-backfill 2026-11-13: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "5df69beeab7c496fcd8e3da48d18b247d7f32575ab0dffb04f6f1fc44d6a685f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google opened preorders for Gemini glasses developed with Samsung, Warby Parker and Gentle Monster. Google lists U.S. Warby Parker models from $395, arriving December 10. Features include spoken directions and live translation. Google says privacy protections are designed to redact bystanders' faces before Gemini processes visuals and stop recording when the indicator light is covered. This is consumer product news about AI glasses for a broad audience, not technical research. muse-compile-backfill 2026-11-13: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "6e39f2ea6acd3b481e3eee6d75ace09f643f9f9d16f374a0172645bfa774853d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "This is a security and developer blog about sandboxing, agent identity, and control-plane practices for deploying persistent agents, which a general reader would not know.",
+            "evidence_sha256": "735fd2467e779f995108d49dea0894bdd791417fa3c7dde95a06c18885a4f4c9"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-13T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "9108fdecb9267905b9238775",
   "replacement_batch": null,
   "checkpoint": 420,
   "checkpoint_history": [
@@ -47012,6 +47155,156 @@
           "sha256": "6e39f2ea6acd3b481e3eee6d75ace09f643f9f9d16f374a0172645bfa774853d"
         },
         "editorial_sha256": "f60355880045603ca4bb4f854bbf1e3f063e782e7ff399f12e28dd1e4346895d"
+      }
+    },
+    "muse-compile-20261113-1305-8408": {
+      "sha256": "a5ff1b42d2c0738111193743c8ad5b844fa859b76844a932751923a5a938e2d0",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "9108fdecb9267905b9238775",
+          "status": "prepared",
+          "checkpoint_before": 420,
+          "prepared_at": "2026-11-13T13:05:06.812453+00:00",
+          "intake_cutoff": 388,
+          "records": [
+            {
+              "id": 421,
+              "revision": 1,
+              "sha256": "5d9386426a2fad1c2a42861e81d145703154e7d83e534dba581cc0f50828f564"
+            },
+            {
+              "id": 422,
+              "revision": 2,
+              "sha256": "d1aeea5ec440a19a911200d155d7f2037f190b2f3ddc1dec907a411879b373f5"
+            },
+            {
+              "id": 423,
+              "revision": 1,
+              "sha256": "624a6700a10789089f1b4ab53d7578f6b7e2e0ac1447124533f7f6e7b8ab4cee"
+            },
+            {
+              "id": 424,
+              "revision": 1,
+              "sha256": "841d4db2a16035b980350eff02cd74b7daaa754e2a82026b73fc960ebe6dd231"
+            },
+            {
+              "id": 425,
+              "revision": 1,
+              "sha256": "1624e2bf68a658d5b70e93e2a1d8831f2f1336461756841a4e511881a1ff5e51"
+            },
+            {
+              "id": 426,
+              "revision": 1,
+              "sha256": "249c1f3ea70dcbbf317ec2c699e3c800ab34e21174368e102ae0654b9f5124e1"
+            },
+            {
+              "id": 427,
+              "revision": 1,
+              "sha256": "5df69beeab7c496fcd8e3da48d18b247d7f32575ab0dffb04f6f1fc44d6a685f"
+            },
+            {
+              "id": 428,
+              "revision": 1,
+              "sha256": "6e39f2ea6acd3b481e3eee6d75ace09f643f9f9d16f374a0172645bfa774853d"
+            },
+            {
+              "id": 429,
+              "revision": 1,
+              "sha256": "ce344ab68cee618c3f00fbe8f12455f0a73d081fb9b5123d44bb2690adfe3144"
+            }
+          ],
+          "first_id": 421,
+          "last_id": 429,
+          "count": 9,
+          "txt_path": "workflows/anf/batches/9108fdecb9267905b9238775.txt",
+          "json_path": "workflows/anf/batches/9108fdecb9267905b9238775.json",
+          "txt_sha256": "e4f42645b699847c9991c1986a9e9c4c92bd0c7551107123526e577226cfdb7d",
+          "json_sha256": "9ceacf2cc846e2c3d8c1e82a48a6624fd79ff84e43f7e00362de5220adba1b18",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Corporate leadership change written in everyday language with no developer, API, ML-technical, or hardware terms. Not a new flagship model.",
+                "evidence_sha256": "93417fd9f5657208f72179be1fb3fff2510080195437e191013e5d593933ed6f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "The official announcement is a consumer and everyday-work model rollout in the Gemini app and Google Search, written without API, token, or other developer jargon.",
+                "evidence_sha256": "ba6b1384e23e68dc52579f4065810a801eab11deb0d13631435db132e06e1287"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "The announcement is a corporate IPO roadshow with share count, expected price, and ticker, written for a general reader without ML, API, or hardware terms.",
+                "evidence_sha256": "c00b2b13ea8ea8fff746e1f863db75b6e8cf0f9a13dfb3afdc3742d8c45ddc3a"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a consumer product feature update for ChatGPT dots, written without ML, API, or hardware terms.",
+                "evidence_sha256": "00988c6cff14b27f6a715f86a1b983cb5b3d3490676ec7d324dbca5493e95233"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a consumer Mac app integration update, written without ML, API, security, or hardware terms.",
+                "evidence_sha256": "512867f66021d513591097922dbabf57a25e5f196a2ac33ca807c193e2613fe1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The report is hardware and model-weight forensics research: GPU initialization fingerprints, chip layouts, and statistical matches, which a general reader would not know.",
+                "evidence_sha256": "8451b775dfccd42dd00746d2455ebe50333180725d8f0efb944f89d56aad9318"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Nvidia announced that Jensen Huang resigned as president, CEO and a board member, effective immediately. CFO Colette Kress will serve as interim CEO while continuing her finance role, and the board is searching for a permanent successor. The announcement followed Huang's November 8 statement admitting he had been unfaithful to his wife. This is business news about a public company's leadership change for a broad audience, not technical research. muse-compile-backfill 2026-11-13: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "5df69beeab7c496fcd8e3da48d18b247d7f32575ab0dffb04f6f1fc44d6a685f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Google opened preorders for Gemini glasses developed with Samsung, Warby Parker and Gentle Monster. Google lists U.S. Warby Parker models from $395, arriving December 10. Features include spoken directions and live translation. Google says privacy protections are designed to redact bystanders' faces before Gemini processes visuals and stop recording when the indicator light is covered. This is consumer product news about AI glasses for a broad audience, not technical research. muse-compile-backfill 2026-11-13: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "6e39f2ea6acd3b481e3eee6d75ace09f643f9f9d16f374a0172645bfa774853d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "technical_practice",
+                "rationale": "This is a security and developer blog about sandboxing, agent identity, and control-plane practices for deploying persistent agents, which a general reader would not know.",
+                "evidence_sha256": "735fd2467e779f995108d49dea0894bdd791417fa3c7dde95a06c18885a4f4c9"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-13T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
