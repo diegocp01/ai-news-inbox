@@ -1,0 +1,76 @@
+[
+  {
+    "title": "Jensen Huang Resigns as NVIDIA CEO; Colette Kress Named Interim Chief",
+    "description": "NVIDIA's board announced that Jensen Huang has resigned as president, chief executive officer, and a member of the board, effective immediately. The company appointed CFO Colette Kress as interim CEO; she will keep her CFO role while the board searches for a permanent successor, considering internal and external candidates. Harvey C. Jones was named the board's first chair.",
+    "image_url": "https://nvidianews.nvidia.com/media/sites/219/images/social-image.jpg",
+    "learn_more_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "date": "2026-11-13",
+    "source": "NVIDIA"
+  },
+  {
+    "title": "New AI Model: Google DeepMind Introduces Gemini 4 Hydrogen",
+    "description": "Google DeepMind introduced Gemini 4 Hydrogen for everyday coding and daily work. Google says it finishes tasks 2.5 times faster than 3.8 Flash at its default high setting. It is rolling out today in the Gemini app and Google Search for everyone. Google describes Carbon and Argon as its frontier models.",
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+    "learn_more_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "date": "2026-11-13",
+    "source": "Google DeepMind"
+  },
+  {
+    "title": "Anthropic Launches the Roadshow for Its Proposed IPO",
+    "description": "Anthropic launched the roadshow for its proposed IPO. The company said it plans to offer 825 million Class A shares at an expected $70 to $78 each, and has applied to list on Nasdaq under the ticker ANT. Anthropic said the registration has been filed with the SEC but is not yet effective.",
+    "image_url": "https://ipo.anthropic.com/assets/share-image-eAr8nJRP.jpg",
+    "learn_more_url": "https://www.anthropic.com/news/roadshow-launch",
+    "date": "2026-11-13",
+    "source": "Anthropic"
+  },
+  {
+    "title": "ChatGPT Says Dots Now Follow Custom Instructions and Reply Faster",
+    "description": "ChatGPT said its dots now reply faster, use less jargon, and follow through better. They can also follow custom instructions: users can tell a dot in the conversation how to behave or which actions need approval, or set those rules in Customize > Behavior on mobile, or through the dot's menu on web and desktop.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "",
+    "date": "2026-11-13",
+    "source": "OpenAI"
+  },
+  {
+    "title": "Grok Bot on Mac Can Now Use Messages, Mail, Notes and Other Apple Apps",
+    "description": "Grok Bot said its Mac app can now use Messages, Mail, Notes, Reminders, Calendar, Location, and Contacts. An official screenshot shows a Connect Apps screen where each item has its own Allow control, including reading and sending Messages and searching and drafting Mail.",
+    "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/grokbot.webp?resize=1200,628",
+    "learn_more_url": "https://9to5mac.com/2026/11/12/grok-bot-for-mac-adds-integration-with-apple-mail-messages-notes-and-more/",
+    "date": "2026-11-13",
+    "source": "Grok Bot"
+  },
+  {
+    "title": "Researcher Says Six Chinese AI Models Carry Fingerprints of Export-Controlled NVIDIA Chips",
+    "description": "Will DePue of Unemployment Labs says six models from DeepSeek, Moonshot AI, MiniMax and Ant Group, including DeepSeek-V4-Pro and Kimi K3, carry patterns matching NVIDIA Blackwell chips barred from export to China without a license. He says this shows how the models were first set up, not where the chips were or whether rules were broken.",
+    "image_url": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4",
+    "learn_more_url": "https://unemploymentlabs.com/checkpoint-forensics",
+    "date": "2026-11-13",
+    "source": "Will DePue",
+    "ds": true
+  },
+  {
+    "title": "Nvidia Names Interim CEO After Jensen Huang Resigns",
+    "description": "Nvidia announced that Jensen Huang resigned as president, CEO and a board member, effective immediately. CFO Colette Kress will serve as interim CEO while continuing her finance role. The board is searching for a permanent successor. The announcement followed Huang’s November 8 statement admitting he had been unfaithful to his wife.",
+    "image_url": "https://nvidianews.nvidia.com/media/sites/219/images/social-image.jpg",
+    "learn_more_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition/",
+    "date": "2026-11-13",
+    "source": "nvidianews.nvidia.com"
+  },
+  {
+    "title": "Google Opens Preorders for Gemini AI Glasses",
+    "description": "Google opened preorders for Gemini glasses developed with Samsung, Warby Parker and Gentle Monster. Google lists U.S. Warby Parker models from $395, arriving December 10. Features include spoken directions and live translation. Google says privacy protections are designed to redact bystanders’ faces before Gemini processes visuals and stop recording when the indicator light is covered.",
+    "image_url": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/11/12152225/Samsung-Mobile-Intelligent-Eyewear-Launch-Gentle-Monster-Warby-Parker_main1.jpg",
+    "learn_more_url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/",
+    "date": "2026-11-13",
+    "source": "blog.google"
+  },
+  {
+    "title": "OpenAI Describes How It Secures Hundreds of Internal OpenClaw Agents",
+    "description": "OpenAI says it has more than 500 agents running proactively, including hundreds of OpenClaw agents. Kevin S Lin describes controls that separate trusted systems from agent work, limit access, use a second agent to review actions, and give each agent its own identity. Open-source OpenClaw Enterprise remains in pilot, with 1.0 planned by year-end.",
+    "image_url": "https://superpowerdaily.com/posts/openai-explains-how-it-secures-more-than-500-proactive-openclaw-agents/opengraph-image",
+    "learn_more_url": "https://superpowerdaily.com/posts/openai-explains-how-it-secures-more-than-500-proactive-openclaw-agents",
+    "date": "2026-11-13",
+    "source": "OpenAI",
+    "ds": true
+  }
+]
