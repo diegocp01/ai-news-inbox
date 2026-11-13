@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1330,
-  "updated_at": "2026-11-13T21:55:21.414174+00:00",
-  "next_id": 431,
+  "generation": 1331,
+  "updated_at": "2026-11-13T21:55:22.251274+00:00",
+  "next_id": 432,
   "records": [
     {
       "id": 1,
@@ -5728,6 +5728,19 @@
           "sha256": "e6cd07d1072fa1df1ddb77f4212e25ad6ad4c53ead9256548a960b1b47d64c0f",
           "source": "OpenAI",
           "request_id": "b4f519e7647edc1e70039b6663013d28894be22be66f5ad273c97e0e105c45e5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 431,
+      "revisions": [
+        {
+          "created_at": "2026-11-13T21:55:22.251274+00:00",
+          "block": "Title: Anthropic Begins Letting US Max Users Off the Claude Duet Waitlist\nURL: https://claude.com/product/claude-duet\nImage URL: https://claude.com/static/claude-duet/og.jpg\nSummary: Karan Ahuja, who leads Anthropic's Claude Duet team, says all US Max subscribers are being let off the waitlist first, with US Pro users invited next. Access outside the US has no date yet. Duet, a proactive agent app in research preview, briefs users each morning, handles tasks in the background and checks in before acting, Anthropic says.",
+          "sha256": "488a41dbcf5290349592947c2fc394e82f1b3469443ef9f9e6da2a0a6a5e717f",
+          "source": "Anthropic",
+          "request_id": "bfbe875ab91cc693413761974eb6d8b0f68cf1b5580f40230540f4a245b64e3e",
           "mode": "standard"
         }
       ]
@@ -12632,13 +12645,21 @@
       ]
     },
     "bfbe875ab91cc693413761974eb6d8b0f68cf1b5580f40230540f4a245b64e3e": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-13T21:55:21.414174+00:00",
       "received_sequence": 390,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-13T21:55:22.251274+00:00",
+      "records": [
+        {
+          "id": 431,
+          "revision": 1,
+          "sha256": "488a41dbcf5290349592947c2fc394e82f1b3469443ef9f9e6da2a0a6a5e717f"
+        }
+      ]
     }
   },
   "batches": {
@@ -47464,6 +47485,21 @@
       "result": {
         "status": "received",
         "request_id": "bfbe875ab91cc693413761974eb6d8b0f68cf1b5580f40230540f4a245b64e3e"
+      }
+    },
+    "f96a17e2a20cfb679a801724d87e77c009fd5ed011a2f814627ec9e48d6071f9": {
+      "sha256": "4ffbaedb33760cc918a453faadf2d3219f8edb03d3e23c5eef2849ebd1ec035a",
+      "result": {
+        "status": "finalized",
+        "request_id": "bfbe875ab91cc693413761974eb6d8b0f68cf1b5580f40230540f4a245b64e3e",
+        "records": [
+          {
+            "id": 431,
+            "revision": 1,
+            "sha256": "488a41dbcf5290349592947c2fc394e82f1b3469443ef9f9e6da2a0a6a5e717f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
