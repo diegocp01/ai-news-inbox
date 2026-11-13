@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1319,
-  "updated_at": "2026-11-13T12:47:21.207582+00:00",
+  "generation": 1320,
+  "updated_at": "2026-11-13T12:47:22.238884+00:00",
   "next_id": 430,
   "records": [
     {
@@ -46977,6 +46977,18 @@
         ],
         "duplicates": []
       }
+    },
+    "5c98ecc2c216248f1bed9c500f5eaafeda49ad8a96ce54c91c5c947689a77e5f": {
+      "sha256": "e5d7dd72f3dcc088fe79ede9925ec7b0e0e0e8768f490de48c123c23630cc5bd",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 429,
+          "revision": 1,
+          "sha256": "ce344ab68cee618c3f00fbe8f12455f0a73d081fb9b5123d44bb2690adfe3144"
+        },
+        "editorial_sha256": "17f5b0115cae3c8f82978ea9b8faad3ff9a9984e5acd0fc0849882f7448f02af"
+      }
     }
   },
   "migration": {
@@ -58203,6 +58215,26 @@
         "sha256": "cb25d0634789730242d1585a212e9a25244de4f727cbb1852c7cac7d7cf56280",
         "reviewed_at": "2026-11-12T23:43:43.381626+00:00",
         "operation_id": "a84219437bb4264e940b5a2a44aef10b91eef12962655f1a4ce1469151107626"
+      }
+    ],
+    "429:1": [
+      {
+        "reference": {
+          "id": 429,
+          "revision": 1,
+          "sha256": "ce344ab68cee618c3f00fbe8f12455f0a73d081fb9b5123d44bb2690adfe3144"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "This is a security and developer blog about sandboxing, agent identity, and control-plane practices for deploying persistent agents, which a general reader would not know.",
+            "evidence_sha256": "735fd2467e779f995108d49dea0894bdd791417fa3c7dde95a06c18885a4f4c9"
+          }
+        },
+        "sha256": "17f5b0115cae3c8f82978ea9b8faad3ff9a9984e5acd0fc0849882f7448f02af",
+        "reviewed_at": "2026-11-13T12:47:22.238884+00:00",
+        "operation_id": "5c98ecc2c216248f1bed9c500f5eaafeda49ad8a96ce54c91c5c947689a77e5f"
       }
     ]
   }
