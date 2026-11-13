@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1318,
-  "updated_at": "2026-11-13T12:47:19.836153+00:00",
-  "next_id": 429,
+  "generation": 1319,
+  "updated_at": "2026-11-13T12:47:21.207582+00:00",
+  "next_id": 430,
   "records": [
     {
       "id": 1,
@@ -5703,6 +5703,19 @@
           "request_id": "05560b34e62c577623ba12f8f7e2a635c8b5359e65a994b358635fb74a9222dc",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 429,
+      "revisions": [
+        {
+          "created_at": "2026-11-13T12:47:21.207582+00:00",
+          "block": "Title: OpenAI Describes How It Secures Hundreds of Internal OpenClaw Agents\nURL: https://superpowerdaily.com/posts/openai-explains-how-it-secures-more-than-500-proactive-openclaw-agents\nImage URL: https://superpowerdaily.com/posts/openai-explains-how-it-secures-more-than-500-proactive-openclaw-agents/opengraph-image\nSummary: OpenAI says it has more than 500 agents running proactively, including hundreds of OpenClaw agents. Kevin S Lin describes controls that separate trusted systems from agent work, limit access, use a second agent to review actions, and give each agent its own identity. Open-source OpenClaw Enterprise remains in pilot, with 1.0 planned by year-end.",
+          "sha256": "ce344ab68cee618c3f00fbe8f12455f0a73d081fb9b5123d44bb2690adfe3144",
+          "source": "OpenAI",
+          "request_id": "a3da254e992bd57d0a2ea55f5152517c829f85012324a4212825fc0fa1d80b2d",
+          "mode": "standard"
         }
       ]
     }
@@ -12572,13 +12585,21 @@
       ]
     },
     "a3da254e992bd57d0a2ea55f5152517c829f85012324a4212825fc0fa1d80b2d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-13T12:47:19.836153+00:00",
       "received_sequence": 388,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-13T12:47:21.207582+00:00",
+      "records": [
+        {
+          "id": 429,
+          "revision": 1,
+          "sha256": "ce344ab68cee618c3f00fbe8f12455f0a73d081fb9b5123d44bb2690adfe3144"
+        }
+      ]
     }
   },
   "batches": {
@@ -46940,6 +46961,21 @@
       "result": {
         "status": "received",
         "request_id": "a3da254e992bd57d0a2ea55f5152517c829f85012324a4212825fc0fa1d80b2d"
+      }
+    },
+    "46f4f39fcd42b53a6ee259ee40db0db68325def74488afcf4a5bfd544956aeb3": {
+      "sha256": "836802e653f36b2b283c9291d0d5bebbd1e606316e2a35c45dbcf5e2e2e6f6f5",
+      "result": {
+        "status": "finalized",
+        "request_id": "a3da254e992bd57d0a2ea55f5152517c829f85012324a4212825fc0fa1d80b2d",
+        "records": [
+          {
+            "id": 429,
+            "revision": 1,
+            "sha256": "ce344ab68cee618c3f00fbe8f12455f0a73d081fb9b5123d44bb2690adfe3144"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
