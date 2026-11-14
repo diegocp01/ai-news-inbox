@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1336,
-  "updated_at": "2026-11-14T01:07:31.673843+00:00",
-  "next_id": 432,
+  "generation": 1337,
+  "updated_at": "2026-11-14T01:07:32.545241+00:00",
+  "next_id": 433,
   "records": [
     {
       "id": 1,
@@ -5749,6 +5749,19 @@
           "sha256": "f059b6c2c5c3cf302881f9947c558f9159bd09dce2053b3c61955e3312dda6e3",
           "source": "Anthropic",
           "request_id": "f1b368c29c69a87fe5cc632fdf79f808adc8347333ac49306ce86db9a0a4391a",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 432,
+      "revisions": [
+        {
+          "created_at": "2026-11-14T01:07:32.545241+00:00",
+          "block": "Title: Anthropic Makes the Claude Code Projects Coordinator More Proactive\nURL: https://code.claude.com/docs/en/claude-projects\nImage URL: https://claude-code.mintlify.site/docs/_mintlify/api/og/v2?division=Platforms+and+integrations&title=Let+Claude+coordinate+ongoing+work+with+Projects&description=Hand+Claude+a+stream+of+related+tasks+in+one+conversation+and+let+it+run+them+as+parallel+cloud+sessions+that+share+repositories%2C+instructions%2C+and+memory.&theme=e2d30309a4005a9870b526a1&signature=aa9217d76a91f5623781099a511bdf1f6a83525191890c7affe2a4fd8bb63ea9\nSummary: Anthropic says it has updated Projects in Claude Code so the coordinator is now much more proactive. In a project, Claude coordinates tasks across parallel threads, answers questions in the project chat, and gives updates on the status of ongoing threads. Official docs say Projects are in a public beta for Pro, Max, and Ultra plans.",
+          "sha256": "d41860d014853836437974425c25bd8df823c91d1f8f8f632680c42fe457c0c0",
+          "source": "Anthropic",
+          "request_id": "12f04ea2183f2b87736f8f1cd0c56976251a0a36fb7a3e985f92f1c13ed32c22",
           "mode": "standard"
         }
       ]
@@ -12687,13 +12700,21 @@
       ]
     },
     "12f04ea2183f2b87736f8f1cd0c56976251a0a36fb7a3e985f92f1c13ed32c22": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-14T01:07:31.673843+00:00",
       "received_sequence": 392,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-14T01:07:32.545241+00:00",
+      "records": [
+        {
+          "id": 432,
+          "revision": 1,
+          "sha256": "d41860d014853836437974425c25bd8df823c91d1f8f8f632680c42fe457c0c0"
+        }
+      ]
     }
   },
   "batches": {
@@ -47583,6 +47604,21 @@
       "result": {
         "status": "received",
         "request_id": "12f04ea2183f2b87736f8f1cd0c56976251a0a36fb7a3e985f92f1c13ed32c22"
+      }
+    },
+    "e1f64aeccfb790823995d7b57cd6e365e982d1a52b2e8f82e0a768e7a3ab4fd7": {
+      "sha256": "12c06d9288d0f3a247627fbe126a6025b8a3be34ca34ad4f2e7bec129ed8b3d6",
+      "result": {
+        "status": "finalized",
+        "request_id": "12f04ea2183f2b87736f8f1cd0c56976251a0a36fb7a3e985f92f1c13ed32c22",
+        "records": [
+          {
+            "id": 432,
+            "revision": 1,
+            "sha256": "d41860d014853836437974425c25bd8df823c91d1f8f8f632680c42fe457c0c0"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
