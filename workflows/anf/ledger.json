@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1355,
-  "updated_at": "2026-11-14T14:52:01.116148+00:00",
+  "generation": 1356,
+  "updated_at": "2026-11-14T14:52:01.925826+00:00",
   "next_id": 439,
   "records": [
     {
@@ -48004,6 +48004,18 @@
         ],
         "duplicates": []
       }
+    },
+    "89b1d9b3e54bf8d5b46359d637ba16f891c45759e589d72c53e1a90be930160d": {
+      "sha256": "d99b04fcadd7f23ec14775cc582bb904f8b6fd28eca0e7ce557f28574a0d3159",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 438,
+          "revision": 1,
+          "sha256": "af2a41c5ca5fa3ae47799d4f9aa862e85dde7f74add8124dc552549cc9641129"
+        },
+        "editorial_sha256": "b9a1408eb5356ec02eb43c149f6cb5e1e057f89d8c9be33f99c2edc16e4f1548"
+      }
     }
   },
   "migration": {
@@ -59470,6 +59482,26 @@
         "sha256": "71932db89a0626a9bdecc62989bcb0573df34471abfaff46e8448b82325ad332",
         "reviewed_at": "2026-11-14T04:21:59.797061+00:00",
         "operation_id": "aa20f8a7ec1d51306503423f9523ba8aa3fdd27fea6fa61bcaa36f603a93c56c"
+      }
+    ],
+    "438:1": [
+      {
+        "reference": {
+          "id": 438,
+          "revision": 1,
+          "sha256": "af2a41c5ca5fa3ae47799d4f9aa862e85dde7f74add8124dc552549cc9641129"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a company reorganization story that can be summarized in everyday language without ML, API, or hardware jargon.",
+            "evidence_sha256": "b4a40bdae68d4e82222c6a3d5eb243fd52585d0f29946d73353b892833e4de34"
+          }
+        },
+        "sha256": "b9a1408eb5356ec02eb43c149f6cb5e1e057f89d8c9be33f99c2edc16e4f1548",
+        "reviewed_at": "2026-11-14T14:52:01.925826+00:00",
+        "operation_id": "89b1d9b3e54bf8d5b46359d637ba16f891c45759e589d72c53e1a90be930160d"
       }
     ]
   }
