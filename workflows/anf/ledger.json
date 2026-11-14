@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1349,
-  "updated_at": "2026-11-14T04:20:22.455512+00:00",
+  "generation": 1350,
+  "updated_at": "2026-11-14T04:20:23.245260+00:00",
   "next_id": 437,
   "records": [
     {
@@ -47876,6 +47876,18 @@
         ],
         "duplicates": []
       }
+    },
+    "0d05581749d8bf280ead4cc58e73eccaf1bd105c1a7b38a979667bc3dcf85145": {
+      "sha256": "0b3d228c5e3de30307b07d15d1ce0bc57bfe78ef4a2e78c8f5285e60f2b7fc9a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 436,
+          "revision": 1,
+          "sha256": "d0c2fcd61e1363518937b3861c1f3c4f64d8e768e14b1048dd9ab7550a250c5d"
+        },
+        "editorial_sha256": "d036935fe50ee6de3399a6e9f44ecb59390959584370bab8e949c3d501dc520a"
+      }
     }
   },
   "migration": {
@@ -59302,6 +59314,26 @@
         "sha256": "85a604baecd97a326e77ff76bae0996520e55ebf19cac8571b0a7a9ec5a6b7ac",
         "reviewed_at": "2026-11-14T04:18:32.940846+00:00",
         "operation_id": "9abc817b9e64e739b2834666d67c9da1174673788a8c79caed866a29c9b592cc"
+      }
+    ],
+    "436:1": [
+      {
+        "reference": {
+          "id": 436,
+          "revision": 1,
+          "sha256": "d0c2fcd61e1363518937b3861c1f3c4f64d8e768e14b1048dd9ab7550a250c5d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a consumer product feature about a bot joining video meetings, summarized in everyday language without ML, API, or hardware jargon.",
+            "evidence_sha256": "209892d2baad6bf4544ec31b58d192083e0a723144759f466db015d9c5010c04"
+          }
+        },
+        "sha256": "d036935fe50ee6de3399a6e9f44ecb59390959584370bab8e949c3d501dc520a",
+        "reviewed_at": "2026-11-14T04:20:23.245260+00:00",
+        "operation_id": "0d05581749d8bf280ead4cc58e73eccaf1bd105c1a7b38a979667bc3dcf85145"
       }
     ]
   }
