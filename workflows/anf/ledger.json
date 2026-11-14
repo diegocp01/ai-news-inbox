@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1340,
-  "updated_at": "2026-11-14T03:40:36.016442+00:00",
+  "generation": 1341,
+  "updated_at": "2026-11-14T03:40:36.861034+00:00",
   "next_id": 434,
   "records": [
     {
@@ -47684,6 +47684,18 @@
         ],
         "duplicates": []
       }
+    },
+    "c711a4235c2ed4454f5965d973e4a9240d864b4c9d2593a3555838e52feaca5d": {
+      "sha256": "b8532acf324181ee4c9db7d528aefc7dca1e1e92a1c8d6cada67c2f07b13f091",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 433,
+          "revision": 1,
+          "sha256": "110b0635263aa2edf0fe5b9072acb7994f40012c89e62dbde8a01d3d8f50769d"
+        },
+        "editorial_sha256": "7f45e29051257e31a16118a32b834b906a556bcc31062a61eb46b68dcc0ce2be"
+      }
     }
   },
   "migration": {
@@ -59050,6 +59062,26 @@
         "sha256": "75949e1cf6a71a14d54bbc24d29ebbab342891e825053c0f5f585f40e1e9ecdc",
         "reviewed_at": "2026-11-14T01:07:33.282998+00:00",
         "operation_id": "026c0545012b3af1b1cda52fda60f208f71c7bfdeb0c574d3b56bf475b73b513"
+      }
+    ],
+    "433:1": [
+      {
+        "reference": {
+          "id": 433,
+          "revision": 1,
+          "sha256": "110b0635263aa2edf0fe5b9072acb7994f40012c89e62dbde8a01d3d8f50769d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "This Antigravity post is about a coding IDE, CLI, editor extensions, and /swarm multi-agent developer tooling, which a general reader would not know.",
+            "evidence_sha256": "e31b8343a120ade50bdc5c3b9c2c99de439e0b3b18903ffb0602847acdcfb70d"
+          }
+        },
+        "sha256": "7f45e29051257e31a16118a32b834b906a556bcc31062a61eb46b68dcc0ce2be",
+        "reviewed_at": "2026-11-14T03:40:36.861034+00:00",
+        "operation_id": "c711a4235c2ed4454f5965d973e4a9240d864b4c9d2593a3555838e52feaca5d"
       }
     ]
   }
