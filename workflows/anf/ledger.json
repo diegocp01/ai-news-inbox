@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1352,
-  "updated_at": "2026-11-14T04:21:59.065698+00:00",
+  "generation": 1353,
+  "updated_at": "2026-11-14T04:21:59.797061+00:00",
   "next_id": 438,
   "records": [
     {
@@ -47940,6 +47940,18 @@
         ],
         "duplicates": []
       }
+    },
+    "aa20f8a7ec1d51306503423f9523ba8aa3fdd27fea6fa61bcaa36f603a93c56c": {
+      "sha256": "a0ccdc7b099e20448218673ac25e112df686d7249f83f19cd45c58f47c1a773f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 437,
+          "revision": 1,
+          "sha256": "106105af2eef52a65166d1349983785cd5acf8414a559202a5733f0b60ef3742"
+        },
+        "editorial_sha256": "71932db89a0626a9bdecc62989bcb0573df34471abfaff46e8448b82325ad332"
+      }
     }
   },
   "migration": {
@@ -59386,6 +59398,26 @@
         "sha256": "d036935fe50ee6de3399a6e9f44ecb59390959584370bab8e949c3d501dc520a",
         "reviewed_at": "2026-11-14T04:20:23.245260+00:00",
         "operation_id": "0d05581749d8bf280ead4cc58e73eccaf1bd105c1a7b38a979667bc3dcf85145"
+      }
+    ],
+    "437:1": [
+      {
+        "reference": {
+          "id": 437,
+          "revision": 1,
+          "sha256": "106105af2eef52a65166d1349983785cd5acf8414a559202a5733f0b60ef3742"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The post is about models writing neural-network weights and using reward-hacking tricks, which are ML-technical terms a general reader would not know.",
+            "evidence_sha256": "ff4b2fdd7d251194b67da5f215cffe842ffa86fb03f63af836de90f893d04b5c"
+          }
+        },
+        "sha256": "71932db89a0626a9bdecc62989bcb0573df34471abfaff46e8448b82325ad332",
+        "reviewed_at": "2026-11-14T04:21:59.797061+00:00",
+        "operation_id": "aa20f8a7ec1d51306503423f9523ba8aa3fdd27fea6fa61bcaa36f603a93c56c"
       }
     ]
   }
