@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1345,
-  "updated_at": "2026-11-14T04:18:31.166038+00:00",
-  "next_id": 435,
+  "generation": 1346,
+  "updated_at": "2026-11-14T04:18:32.115731+00:00",
+  "next_id": 436,
   "records": [
     {
       "id": 1,
@@ -5788,6 +5788,19 @@
           "sha256": "c500d73a1a000206c7c7603e0a04dba380aa79094ac1232cd9f89f0c928707da",
           "source": "Anthropic",
           "request_id": "03510283ad80421bb809a933b2f7f50809f51828066e4e8275d3061b7383cf05",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 435,
+      "revisions": [
+        {
+          "created_at": "2026-11-14T04:18:32.115731+00:00",
+          "block": "Title: Dwarkesh Patel Now Expects Superintelligence by 2030\nURL: https://www.dwarkesh.com/p/rsi\nImage URL: https://substack-post-media.s3.amazonaws.com/public/images/7dc29226-8d97-44fb-a2f3-5798522ed0df_1551x812.png\nSummary: In a Nov 13 essay, Dwarkesh Patel says he now expects superintelligence by 2030, up from at least most of a decade. He argues AI may soon match top humans at AI research, and that automating that work could then quickly produce expert-level systems in every field. He cites METR, Anthropic, and OpenAI on AI already speeding lab research.",
+          "sha256": "7d3f5f2bc179d154a90d06b5f00f3bf6aa162275972c6b5d3be1f88b47745fc2",
+          "source": "Dwarkesh Patel",
+          "request_id": "58ace18d8e2d55b71087fb5578bffd1a49ebae7630a50c15462d0bd7917b9ca6",
           "mode": "standard"
         }
       ]
@@ -12777,13 +12790,21 @@
       ]
     },
     "58ace18d8e2d55b71087fb5578bffd1a49ebae7630a50c15462d0bd7917b9ca6": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-14T04:18:31.166038+00:00",
       "received_sequence": 395,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-14T04:18:32.115731+00:00",
+      "records": [
+        {
+          "id": 435,
+          "revision": 1,
+          "sha256": "7d3f5f2bc179d154a90d06b5f00f3bf6aa162275972c6b5d3be1f88b47745fc2"
+        }
+      ]
     }
   },
   "batches": {
@@ -47775,6 +47796,21 @@
       "result": {
         "status": "received",
         "request_id": "58ace18d8e2d55b71087fb5578bffd1a49ebae7630a50c15462d0bd7917b9ca6"
+      }
+    },
+    "20a98bf47bf42ad68dec96e4991b9f47ffb4e2c1d0cfdd144b71cd41cb352151": {
+      "sha256": "b7e9c22cbb2ee2556183284dd342c391af2c31f293b49a86b33b7a5c73a0d802",
+      "result": {
+        "status": "finalized",
+        "request_id": "58ace18d8e2d55b71087fb5578bffd1a49ebae7630a50c15462d0bd7917b9ca6",
+        "records": [
+          {
+            "id": 435,
+            "revision": 1,
+            "sha256": "7d3f5f2bc179d154a90d06b5f00f3bf6aa162275972c6b5d3be1f88b47745fc2"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
