@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1346,
-  "updated_at": "2026-11-14T04:18:32.115731+00:00",
+  "generation": 1347,
+  "updated_at": "2026-11-14T04:18:32.940846+00:00",
   "next_id": 436,
   "records": [
     {
@@ -47812,6 +47812,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9abc817b9e64e739b2834666d67c9da1174673788a8c79caed866a29c9b592cc": {
+      "sha256": "23ffc2b65022ea7b2dd982daeb51ca2fcb89334f7e6f4faae704242909acd461",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 435,
+          "revision": 1,
+          "sha256": "7d3f5f2bc179d154a90d06b5f00f3bf6aa162275972c6b5d3be1f88b47745fc2"
+        },
+        "editorial_sha256": "85a604baecd97a326e77ff76bae0996520e55ebf19cac8571b0a7a9ec5a6b7ac"
+      }
     }
   },
   "migration": {
@@ -59218,6 +59230,26 @@
         "sha256": "5b30380493cd9817d0a1b167c1eb03d0d068d99830b60a720852c399ef69db22",
         "reviewed_at": "2026-11-14T03:45:34.717518+00:00",
         "operation_id": "e1908233a21306c77a10492bdf9de6e5b1bee8967e0c94915edb3e6d641dafce"
+      }
+    ],
+    "435:1": [
+      {
+        "reference": {
+          "id": 435,
+          "revision": 1,
+          "sha256": "7d3f5f2bc179d154a90d06b5f00f3bf6aa162275972c6b5d3be1f88b47745fc2"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is an essay about AI timelines that can be summarized in everyday language without ML-training, RL, or other jargon a general reader would not know.",
+            "evidence_sha256": "873d65d907daf22e8f59ee0605a42b1d06c7453836f1da442e8541b5c0d34c39"
+          }
+        },
+        "sha256": "85a604baecd97a326e77ff76bae0996520e55ebf19cac8571b0a7a9ec5a6b7ac",
+        "reviewed_at": "2026-11-14T04:18:32.940846+00:00",
+        "operation_id": "9abc817b9e64e739b2834666d67c9da1174673788a8c79caed866a29c9b592cc"
       }
     ]
   }
