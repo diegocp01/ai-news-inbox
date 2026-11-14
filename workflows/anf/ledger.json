@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1337,
-  "updated_at": "2026-11-14T01:07:32.545241+00:00",
+  "generation": 1338,
+  "updated_at": "2026-11-14T01:07:33.282998+00:00",
   "next_id": 433,
   "records": [
     {
@@ -47620,6 +47620,18 @@
         ],
         "duplicates": []
       }
+    },
+    "026c0545012b3af1b1cda52fda60f208f71c7bfdeb0c574d3b56bf475b73b513": {
+      "sha256": "761f7410d7279053229abcee13a1459cb80115d5df74c2e644f34c920a681920",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 432,
+          "revision": 1,
+          "sha256": "d41860d014853836437974425c25bd8df823c91d1f8f8f632680c42fe457c0c0"
+        },
+        "editorial_sha256": "75949e1cf6a71a14d54bbc24d29ebbab342891e825053c0f5f585f40e1e9ecdc"
+      }
     }
   },
   "migration": {
@@ -58966,6 +58978,26 @@
         "sha256": "84fec61c6143364056ebd6f3b36b91760a033eadb8f9755a4517d4ccd0d3df78",
         "reviewed_at": "2026-11-13T21:55:59.432253+00:00",
         "operation_id": "a84f65a87425cb2d45fb4900f1a2edd0869c8f0dd0ad1be40b356e0107ed8a6e"
+      }
+    ],
+    "432:1": [
+      {
+        "reference": {
+          "id": 432,
+          "revision": 1,
+          "sha256": "d41860d014853836437974425c25bd8df823c91d1f8f8f632680c42fe457c0c0"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "This is a Claude Code developer-tool update about a project coordinator, parallel threads, and project chat; those are developer-product terms a general reader would not know.",
+            "evidence_sha256": "44aa9f6a3e19b82e759d7d59fcc27a157b8ac81e9311f82718e98bf1de99631c"
+          }
+        },
+        "sha256": "75949e1cf6a71a14d54bbc24d29ebbab342891e825053c0f5f585f40e1e9ecdc",
+        "reviewed_at": "2026-11-14T01:07:33.282998+00:00",
+        "operation_id": "026c0545012b3af1b1cda52fda60f208f71c7bfdeb0c574d3b56bf475b73b513"
       }
     ]
   }
