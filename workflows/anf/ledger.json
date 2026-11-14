@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1354,
-  "updated_at": "2026-11-14T14:52:00.054393+00:00",
-  "next_id": 438,
+  "generation": 1355,
+  "updated_at": "2026-11-14T14:52:01.116148+00:00",
+  "next_id": 439,
   "records": [
     {
       "id": 1,
@@ -5827,6 +5827,19 @@
           "sha256": "106105af2eef52a65166d1349983785cd5acf8414a559202a5733f0b60ef3742",
           "source": "Kimon Navridis",
           "request_id": "baed0c0d2b480254d58de9bc95ab39f2988e49fc27d46ea41bb353245b7b9d71",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 438,
+      "revisions": [
+        {
+          "created_at": "2026-11-14T14:52:01.116148+00:00",
+          "block": "Title: OpenAI Disbands Its Stand-Alone Robotics Team, Fortune Reports\nURL: https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/\nImage URL: https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2304572308-e1794587995495.jpg?resize=1200,600\nSummary: Fortune reports that OpenAI has disbanded its stand-alone robotics team and reassigned the researchers to other parts of the company, a move OpenAI confirmed. A spokesperson said robotics remains part of its long-term vision, and that the company now believes general-purpose models, including GPT-6 Astra, can be applied directly to robots.",
+          "sha256": "af2a41c5ca5fa3ae47799d4f9aa862e85dde7f74add8124dc552549cc9641129",
+          "source": "Fortune",
+          "request_id": "7ddfd3f5dcb61f0a4f4b406c1db09f25948a32d0ee018b267161d3c8a45ee8e7",
           "mode": "standard"
         }
       ]
@@ -12867,13 +12880,21 @@
       ]
     },
     "7ddfd3f5dcb61f0a4f4b406c1db09f25948a32d0ee018b267161d3c8a45ee8e7": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-14T14:52:00.054393+00:00",
       "received_sequence": 398,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-14T14:52:01.116148+00:00",
+      "records": [
+        {
+          "id": 438,
+          "revision": 1,
+          "sha256": "af2a41c5ca5fa3ae47799d4f9aa862e85dde7f74add8124dc552549cc9641129"
+        }
+      ]
     }
   },
   "batches": {
@@ -47967,6 +47988,21 @@
       "result": {
         "status": "received",
         "request_id": "7ddfd3f5dcb61f0a4f4b406c1db09f25948a32d0ee018b267161d3c8a45ee8e7"
+      }
+    },
+    "a6e420131bcfb0cfcde1eb975ff0a4c6f1b409340c6629c9fb61d193512c5229": {
+      "sha256": "b009281cff35dce99d25d8925b1289537001373d38856f9943926a9a5a636a52",
+      "result": {
+        "status": "finalized",
+        "request_id": "7ddfd3f5dcb61f0a4f4b406c1db09f25948a32d0ee018b267161d3c8a45ee8e7",
+        "records": [
+          {
+            "id": 438,
+            "revision": 1,
+            "sha256": "af2a41c5ca5fa3ae47799d4f9aa862e85dde7f74add8124dc552549cc9641129"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
