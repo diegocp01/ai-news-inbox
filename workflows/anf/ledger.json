@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1358,
-  "updated_at": "2026-11-14T14:52:18.196572+00:00",
+  "generation": 1359,
+  "updated_at": "2026-11-14T14:52:18.928164+00:00",
   "next_id": 440,
   "records": [
     {
@@ -48068,6 +48068,18 @@
         ],
         "duplicates": []
       }
+    },
+    "fcc5d4cf1313003f7b8a13a2819c2634da6fdb0a918189169414dcb71952e55d": {
+      "sha256": "349f22c524758d2c09c33facd8c8f438fe153fd27f969a787cbc8d697b52fd1a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 439,
+          "revision": 1,
+          "sha256": "70007875f2ac9c234e1751b7f0100691889965f1131238960ab34118e9c2a2dd"
+        },
+        "editorial_sha256": "f39009f21823253b5174a6627e355ff020baef92c6cabe06148817a867d79952"
+      }
     }
   },
   "migration": {
@@ -59554,6 +59566,26 @@
         "sha256": "b9a1408eb5356ec02eb43c149f6cb5e1e057f89d8c9be33f99c2edc16e4f1548",
         "reviewed_at": "2026-11-14T14:52:01.925826+00:00",
         "operation_id": "89b1d9b3e54bf8d5b46359d637ba16f891c45759e589d72c53e1a90be930160d"
+      }
+    ],
+    "439:1": [
+      {
+        "reference": {
+          "id": 439,
+          "revision": 1,
+          "sha256": "70007875f2ac9c234e1751b7f0100691889965f1131238960ab34118e9c2a2dd"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The robotics results can be summarized in everyday language about a model getting better at controlling robots and posting a higher score on a public test, without ML, API, or hardware jargon.",
+            "evidence_sha256": "7645a214da3884a93eda1f6723f9571fcaea97feb067c1103e35270a4f40e443"
+          }
+        },
+        "sha256": "f39009f21823253b5174a6627e355ff020baef92c6cabe06148817a867d79952",
+        "reviewed_at": "2026-11-14T14:52:18.928164+00:00",
+        "operation_id": "fcc5d4cf1313003f7b8a13a2819c2634da6fdb0a918189169414dcb71952e55d"
       }
     ]
   }
