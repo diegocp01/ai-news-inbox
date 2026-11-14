@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1343,
-  "updated_at": "2026-11-14T03:45:33.891674+00:00",
+  "generation": 1344,
+  "updated_at": "2026-11-14T03:45:34.717518+00:00",
   "next_id": 435,
   "records": [
     {
@@ -47748,6 +47748,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e1908233a21306c77a10492bdf9de6e5b1bee8967e0c94915edb3e6d641dafce": {
+      "sha256": "c3beafa4f3dcb3b4e5963e2744720a37706df5e2732db63e939ed00da3eab863",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 434,
+          "revision": 1,
+          "sha256": "c500d73a1a000206c7c7603e0a04dba380aa79094ac1232cd9f89f0c928707da"
+        },
+        "editorial_sha256": "5b30380493cd9817d0a1b167c1eb03d0d068d99830b60a720852c399ef69db22"
+      }
     }
   },
   "migration": {
@@ -59134,6 +59146,26 @@
         "sha256": "7f45e29051257e31a16118a32b834b906a556bcc31062a61eb46b68dcc0ce2be",
         "reviewed_at": "2026-11-14T03:40:36.861034+00:00",
         "operation_id": "c711a4235c2ed4454f5965d973e4a9240d864b4c9d2593a3555838e52feaca5d"
+      }
+    ],
+    "434:1": [
+      {
+        "reference": {
+          "id": 434,
+          "revision": 1,
+          "sha256": "c500d73a1a000206c7c7603e0a04dba380aa79094ac1232cd9f89f0c928707da"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "This is a Claude Code desktop feature about mods, plugins, and theming the Code tab, which a general reader would not know.",
+            "evidence_sha256": "d66547ffd3443af128236479489fec72c273ace57ba31f5d78f8850257eef401"
+          }
+        },
+        "sha256": "5b30380493cd9817d0a1b167c1eb03d0d068d99830b60a720852c399ef69db22",
+        "reviewed_at": "2026-11-14T03:45:34.717518+00:00",
+        "operation_id": "e1908233a21306c77a10492bdf9de6e5b1bee8967e0c94915edb3e6d641dafce"
       }
     ]
   }
