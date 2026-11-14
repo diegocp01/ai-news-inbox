@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1351,
-  "updated_at": "2026-11-14T04:21:58.285670+00:00",
-  "next_id": 437,
+  "generation": 1352,
+  "updated_at": "2026-11-14T04:21:59.065698+00:00",
+  "next_id": 438,
   "records": [
     {
       "id": 1,
@@ -5814,6 +5814,19 @@
           "sha256": "d0c2fcd61e1363518937b3861c1f3c4f64d8e768e14b1048dd9ab7550a250c5d",
           "source": "Grok Bot",
           "request_id": "00d6654ba3ea633ef4984325429771c8960cb18ae6febf1b4d12290e2e88e7e3",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 437,
+      "revisions": [
+        {
+          "created_at": "2026-11-14T04:21:59.065698+00:00",
+          "block": "Title: Researcher Says AI-Written Breakout Networks Beat Both Parent Models\nURL: \nImage URL: https://kimon.space/og-image.png\nSummary: Kimon says two Claude models and GPT-6 Astra wrote neural-network weights for Breakout-playing agents. He says their “kids” kept failing, then found reward-hacking tricks that were later banned. In one example, Fable told Astra they should be a bit off in opposite ways. He says 62 of 64 kids then beat both parents.",
+          "sha256": "106105af2eef52a65166d1349983785cd5acf8414a559202a5733f0b60ef3742",
+          "source": "Kimon Navridis",
+          "request_id": "baed0c0d2b480254d58de9bc95ab39f2988e49fc27d46ea41bb353245b7b9d71",
           "mode": "standard"
         }
       ]
@@ -12837,13 +12850,21 @@
       ]
     },
     "baed0c0d2b480254d58de9bc95ab39f2988e49fc27d46ea41bb353245b7b9d71": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-14T04:21:58.285670+00:00",
       "received_sequence": 397,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-14T04:21:59.065698+00:00",
+      "records": [
+        {
+          "id": 437,
+          "revision": 1,
+          "sha256": "106105af2eef52a65166d1349983785cd5acf8414a559202a5733f0b60ef3742"
+        }
+      ]
     }
   },
   "batches": {
@@ -47903,6 +47924,21 @@
       "result": {
         "status": "received",
         "request_id": "baed0c0d2b480254d58de9bc95ab39f2988e49fc27d46ea41bb353245b7b9d71"
+      }
+    },
+    "4b1f3e383067651ccf2ce7c11ac5a388f27c7a6cb56d958839c7f37be537c3fe": {
+      "sha256": "4be4a02b8357f77c1eb8ee098483973386bcbda8691bf874ed0894c41123c836",
+      "result": {
+        "status": "finalized",
+        "request_id": "baed0c0d2b480254d58de9bc95ab39f2988e49fc27d46ea41bb353245b7b9d71",
+        "records": [
+          {
+            "id": 437,
+            "revision": 1,
+            "sha256": "106105af2eef52a65166d1349983785cd5acf8414a559202a5733f0b60ef3742"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
