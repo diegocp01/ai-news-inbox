@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1339,
-  "updated_at": "2026-11-14T03:40:35.256522+00:00",
-  "next_id": 433,
+  "generation": 1340,
+  "updated_at": "2026-11-14T03:40:36.016442+00:00",
+  "next_id": 434,
   "records": [
     {
       "id": 1,
@@ -5762,6 +5762,19 @@
           "sha256": "d41860d014853836437974425c25bd8df823c91d1f8f8f632680c42fe457c0c0",
           "source": "Anthropic",
           "request_id": "12f04ea2183f2b87736f8f1cd0c56976251a0a36fb7a3e985f92f1c13ed32c22",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 433,
+      "revisions": [
+        {
+          "created_at": "2026-11-14T03:40:36.016442+00:00",
+          "block": "Title: Google Rolls Out Gemini 4 Carbon in Antigravity Alongside /swarm\nURL: https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity/\nImage URL: https://antigravity.google/assets/image/blog/4-Carbon---Wide.png\nSummary: On Nov 10, Google rolled out Gemini 4 Carbon in Antigravity, along with /swarm in preview. Google AI Ultra subscribers can use Carbon in the Antigravity app, CLI, and IDE extensions. /swarm lets a coordinator run specialized agents in parallel. Enterprises can use Carbon in Gemini for business, and researchers can apply for six months of free high-tier access.",
+          "sha256": "110b0635263aa2edf0fe5b9072acb7994f40012c89e62dbde8a01d3d8f50769d",
+          "source": "Google",
+          "request_id": "0ce37f7534b3a092015717a1c3232c8d05ad93a7b0a2b506ddc703dd5e133737",
           "mode": "standard"
         }
       ]
@@ -12717,13 +12730,21 @@
       ]
     },
     "0ce37f7534b3a092015717a1c3232c8d05ad93a7b0a2b506ddc703dd5e133737": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-14T03:40:35.256522+00:00",
       "received_sequence": 393,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-14T03:40:36.016442+00:00",
+      "records": [
+        {
+          "id": 433,
+          "revision": 1,
+          "sha256": "110b0635263aa2edf0fe5b9072acb7994f40012c89e62dbde8a01d3d8f50769d"
+        }
+      ]
     }
   },
   "batches": {
@@ -47647,6 +47668,21 @@
       "result": {
         "status": "received",
         "request_id": "0ce37f7534b3a092015717a1c3232c8d05ad93a7b0a2b506ddc703dd5e133737"
+      }
+    },
+    "3d090221f36643221e4df8800ff0b191152ba48225a09ed2992ff744f3f499b5": {
+      "sha256": "0aa445f4ffbadf82c5466a8995c2f758ffa0a771ff969cea5023bb514b5a0f6d",
+      "result": {
+        "status": "finalized",
+        "request_id": "0ce37f7534b3a092015717a1c3232c8d05ad93a7b0a2b506ddc703dd5e133737",
+        "records": [
+          {
+            "id": 433,
+            "revision": 1,
+            "sha256": "110b0635263aa2edf0fe5b9072acb7994f40012c89e62dbde8a01d3d8f50769d"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
