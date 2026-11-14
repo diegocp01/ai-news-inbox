@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1348,
-  "updated_at": "2026-11-14T04:20:21.726491+00:00",
-  "next_id": 436,
+  "generation": 1349,
+  "updated_at": "2026-11-14T04:20:22.455512+00:00",
+  "next_id": 437,
   "records": [
     {
       "id": 1,
@@ -5801,6 +5801,19 @@
           "sha256": "7d3f5f2bc179d154a90d06b5f00f3bf6aa162275972c6b5d3be1f88b47745fc2",
           "source": "Dwarkesh Patel",
           "request_id": "58ace18d8e2d55b71087fb5578bffd1a49ebae7630a50c15462d0bd7917b9ca6",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 436,
+      "revisions": [
+        {
+          "created_at": "2026-11-14T04:20:22.455512+00:00",
+          "block": "Title: Grok Bot Can Now Join Google Meet, Zoom and Microsoft Teams Calls\nURL: https://ai-oriens.com/en/news/grok-bot-meetings/\nImage URL: https://ai-oriens.com/art/grok-bot-meetings.jpg\nSummary: Grok Bot says it can now join meetings, where users can ask it questions, assign it work, or have it keep track of team decisions. Official docs say it can join Google Meet, Zoom, or Microsoft Teams calls on Team, Enterprise, and Ultra plans, take notes, answer in the meeting chat, and send a summary and action items afterward.",
+          "sha256": "d0c2fcd61e1363518937b3861c1f3c4f64d8e768e14b1048dd9ab7550a250c5d",
+          "source": "Grok Bot",
+          "request_id": "00d6654ba3ea633ef4984325429771c8960cb18ae6febf1b4d12290e2e88e7e3",
           "mode": "standard"
         }
       ]
@@ -12807,13 +12820,21 @@
       ]
     },
     "00d6654ba3ea633ef4984325429771c8960cb18ae6febf1b4d12290e2e88e7e3": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-14T04:20:21.726491+00:00",
       "received_sequence": 396,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-14T04:20:22.455512+00:00",
+      "records": [
+        {
+          "id": 436,
+          "revision": 1,
+          "sha256": "d0c2fcd61e1363518937b3861c1f3c4f64d8e768e14b1048dd9ab7550a250c5d"
+        }
+      ]
     }
   },
   "batches": {
@@ -47839,6 +47860,21 @@
       "result": {
         "status": "received",
         "request_id": "00d6654ba3ea633ef4984325429771c8960cb18ae6febf1b4d12290e2e88e7e3"
+      }
+    },
+    "5a2a68efd9ad0e4ee4b138d902d433f7a4a5fe15e1ff772a652582298d19b6fd": {
+      "sha256": "b63dc0496fa07fce6f608238f66fb28e92e20061134bd894058aec7fc0d6368d",
+      "result": {
+        "status": "finalized",
+        "request_id": "00d6654ba3ea633ef4984325429771c8960cb18ae6febf1b4d12290e2e88e7e3",
+        "records": [
+          {
+            "id": 436,
+            "revision": 1,
+            "sha256": "d0c2fcd61e1363518937b3861c1f3c4f64d8e768e14b1048dd9ab7550a250c5d"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
