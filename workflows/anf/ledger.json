@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1342,
-  "updated_at": "2026-11-14T03:45:33.114753+00:00",
-  "next_id": 434,
+  "generation": 1343,
+  "updated_at": "2026-11-14T03:45:33.891674+00:00",
+  "next_id": 435,
   "records": [
     {
       "id": 1,
@@ -5775,6 +5775,19 @@
           "sha256": "110b0635263aa2edf0fe5b9072acb7994f40012c89e62dbde8a01d3d8f50769d",
           "source": "Google",
           "request_id": "0ce37f7534b3a092015717a1c3232c8d05ad93a7b0a2b506ddc703dd5e133737",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 434,
+      "revisions": [
+        {
+          "created_at": "2026-11-14T03:45:33.891674+00:00",
+          "block": "Title: Anthropic Adds Custom Themes for Claude Code on Desktop\nURL: https://code.claude.com/docs/en/plugins/mods/interface\nImage URL: https://claude-code.mintlify.site/docs/_mintlify/api/og/v2?division=Build&title=Draw+in+the+interface+with+a+mod&description=Draw+panes%2C+a+band+above+the+prompt%2C+buttons%2C+and+text+fields+from+a+Claude+Code+mod%2C+handle+presses+and+input%2C+and+keep+state+between+redraws+and+sessions.&theme=e2d30309a4005a9870b526a1&signature=81f7ee93b9befa729b232bfc14410614711b0549ff8ad8d8ffde2c885ea2b5d7\nSummary: Anthropic says you can now build custom themes for Claude Code on desktop with mods, including new colors and an animated background. Users can describe the look they want, or start with the theme-examples plugin. Official docs say an animated backdrop can appear in the desktop or mobile app, but not in the terminal.",
+          "sha256": "c500d73a1a000206c7c7603e0a04dba380aa79094ac1232cd9f89f0c928707da",
+          "source": "Anthropic",
+          "request_id": "03510283ad80421bb809a933b2f7f50809f51828066e4e8275d3061b7383cf05",
           "mode": "standard"
         }
       ]
@@ -12747,13 +12760,21 @@
       ]
     },
     "03510283ad80421bb809a933b2f7f50809f51828066e4e8275d3061b7383cf05": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-14T03:45:33.114753+00:00",
       "received_sequence": 394,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-14T03:45:33.891674+00:00",
+      "records": [
+        {
+          "id": 434,
+          "revision": 1,
+          "sha256": "c500d73a1a000206c7c7603e0a04dba380aa79094ac1232cd9f89f0c928707da"
+        }
+      ]
     }
   },
   "batches": {
@@ -47711,6 +47732,21 @@
       "result": {
         "status": "received",
         "request_id": "03510283ad80421bb809a933b2f7f50809f51828066e4e8275d3061b7383cf05"
+      }
+    },
+    "3dfd2076a92fbdbcdd0222aa1c679bbc17d822138b539df622a027d3a4288532": {
+      "sha256": "2e783d62ac427da4dd86b4e0c6c97062d31343998f9b5f3959a0c85859195e0e",
+      "result": {
+        "status": "finalized",
+        "request_id": "03510283ad80421bb809a933b2f7f50809f51828066e4e8275d3061b7383cf05",
+        "records": [
+          {
+            "id": 434,
+            "revision": 1,
+            "sha256": "c500d73a1a000206c7c7603e0a04dba380aa79094ac1232cd9f89f0c928707da"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
