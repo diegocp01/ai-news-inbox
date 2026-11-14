@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1357,
-  "updated_at": "2026-11-14T14:52:17.383801+00:00",
-  "next_id": 439,
+  "generation": 1358,
+  "updated_at": "2026-11-14T14:52:18.196572+00:00",
+  "next_id": 440,
   "records": [
     {
       "id": 1,
@@ -5840,6 +5840,19 @@
           "sha256": "af2a41c5ca5fa3ae47799d4f9aa862e85dde7f74add8124dc552549cc9641129",
           "source": "Fortune",
           "request_id": "7ddfd3f5dcb61f0a4f4b406c1db09f25948a32d0ee018b267161d3c8a45ee8e7",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 439,
+      "revisions": [
+        {
+          "created_at": "2026-11-14T14:52:18.196572+00:00",
+          "block": "Title: Anthropic Says Claude Fable 5.2 Makes a Large Jump in Robot Control\nURL: https://www.anthropic.com/claude-fable-and-mythos-5-2\nImage URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg\nSummary: Anthropic says Claude Fable 5.2 is substantially better at controlling physical robots than earlier Claude models, including on tasks it was never trained for. On Anthropic’s run of a public robot-control test, it scored 64.9%, more than double GPT-6 Astra and Fable 5.1. A video shows it solving a puzzle cube, unscrewing a bottle cap, and drawing.",
+          "sha256": "70007875f2ac9c234e1751b7f0100691889965f1131238960ab34118e9c2a2dd",
+          "source": "Anthropic",
+          "request_id": "721195f34657997958bd2b25864eb3ae583437bfb73893aa9777d3bb8ff2ee6c",
           "mode": "standard"
         }
       ]
@@ -12897,13 +12910,21 @@
       ]
     },
     "721195f34657997958bd2b25864eb3ae583437bfb73893aa9777d3bb8ff2ee6c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-14T14:52:17.383801+00:00",
       "received_sequence": 399,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-14T14:52:18.196572+00:00",
+      "records": [
+        {
+          "id": 439,
+          "revision": 1,
+          "sha256": "70007875f2ac9c234e1751b7f0100691889965f1131238960ab34118e9c2a2dd"
+        }
+      ]
     }
   },
   "batches": {
@@ -48031,6 +48052,21 @@
       "result": {
         "status": "received",
         "request_id": "721195f34657997958bd2b25864eb3ae583437bfb73893aa9777d3bb8ff2ee6c"
+      }
+    },
+    "7cb00bfd4108db954577c75268bd82fda6fb78cd5eb767e68553ab53a2f3b36a": {
+      "sha256": "4a74c8afb9ea7de4b084d1be1183732495f7293d38404f4b096667d5a4f64765",
+      "result": {
+        "status": "finalized",
+        "request_id": "721195f34657997958bd2b25864eb3ae583437bfb73893aa9777d3bb8ff2ee6c",
+        "records": [
+          {
+            "id": 439,
+            "revision": 1,
+            "sha256": "70007875f2ac9c234e1751b7f0100691889965f1131238960ab34118e9c2a2dd"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
