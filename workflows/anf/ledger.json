@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1364,
-  "updated_at": "2026-11-15T17:24:16.524442+00:00",
+  "generation": 1365,
+  "updated_at": "2026-11-15T17:24:17.298237+00:00",
   "next_id": 442,
   "records": [
     {
@@ -48196,6 +48196,18 @@
         ],
         "duplicates": []
       }
+    },
+    "9eb9afe69f218a271de963ab01fb737ebbd96667af309c71153c069a10a4b1e8": {
+      "sha256": "fecc3a7d40a1744fadb7b9eff33b15bf8e6d4c2bcf1bd3aea56ad46e1eacc6a1",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 441,
+          "revision": 1,
+          "sha256": "33335ec88e02bc23ef6d5a83d8ca6f9f6531e92d92197b1d0be7df7a1ec3ea7f"
+        },
+        "editorial_sha256": "97138d4563c218965530fc2c42c114e2549bc1b700509f7a776912b1c940948e"
+      }
     }
   },
   "migration": {
@@ -59722,6 +59734,26 @@
         "sha256": "0770cf459aba459f361cb93ce00ff52a53fa5d2847e52acce81e090b34b8c72b",
         "reviewed_at": "2026-11-15T15:36:18.575176+00:00",
         "operation_id": "7e280e1512fa35571d14765629e93ecf429bf4ad14d3f401bfd40ce14bd38824"
+      }
+    ],
+    "441:1": [
+      {
+        "reference": {
+          "id": 441,
+          "revision": 1,
+          "sha256": "33335ec88e02bc23ef6d5a83d8ca6f9f6531e92d92197b1d0be7df7a1ec3ea7f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a song and music-video release that can be summarized in everyday language without ML, API, or hardware jargon.",
+            "evidence_sha256": "f2c453517b51568d6f969e4320f038e4aaea26614802d06356a13cf32d6040d7"
+          }
+        },
+        "sha256": "97138d4563c218965530fc2c42c114e2549bc1b700509f7a776912b1c940948e",
+        "reviewed_at": "2026-11-15T17:24:17.298237+00:00",
+        "operation_id": "9eb9afe69f218a271de963ab01fb737ebbd96667af309c71153c069a10a4b1e8"
       }
     ]
   }
