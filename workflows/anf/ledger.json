@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1360,
-  "updated_at": "2026-11-15T15:36:16.970973+00:00",
-  "next_id": 440,
+  "generation": 1361,
+  "updated_at": "2026-11-15T15:36:17.834077+00:00",
+  "next_id": 441,
   "records": [
     {
       "id": 1,
@@ -5853,6 +5853,19 @@
           "sha256": "70007875f2ac9c234e1751b7f0100691889965f1131238960ab34118e9c2a2dd",
           "source": "Anthropic",
           "request_id": "721195f34657997958bd2b25864eb3ae583437bfb73893aa9777d3bb8ff2ee6c",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 440,
+      "revisions": [
+        {
+          "created_at": "2026-11-15T15:36:17.834077+00:00",
+          "block": "Title: Muhammed Nazeem Releases tiny-voca, a Speech Model Trained Without Real Voices\nURL: https://github.com/n4ze3m/tiny-voca\nImage URL: https://opengraph.githubassets.com/b54b9a4e77411f1af07622b9435187f83d3ad07e3b8ef0a8d6511ca66ca7faef/n4ze3m/tiny-voca\nSummary: Muhammed Nazeem has released tiny-voca, a 4.5-million-parameter English text-to-speech model he says has never heard a real human voice. Official docs say it is 18 MB, runs on a CPU or in a browser, and was trained from scratch on 17.6 hours of synthetic speech, with no real-speaker recordings. It has two voices and is open under Apache-2.0.",
+          "sha256": "4a4c8db29a8d5ab599285feb558aa70779f179167fc111865707b8e5217b6b13",
+          "source": "Muhammed Nazeem",
+          "request_id": "f48b9af57f140d95f734e59969b6c6bdb5b4f4953e836a941cf821c1cb4bbecf",
           "mode": "standard"
         }
       ]
@@ -12927,13 +12940,21 @@
       ]
     },
     "f48b9af57f140d95f734e59969b6c6bdb5b4f4953e836a941cf821c1cb4bbecf": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-15T15:36:16.970973+00:00",
       "received_sequence": 400,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-15T15:36:17.834077+00:00",
+      "records": [
+        {
+          "id": 440,
+          "revision": 1,
+          "sha256": "4a4c8db29a8d5ab599285feb558aa70779f179167fc111865707b8e5217b6b13"
+        }
+      ]
     }
   },
   "batches": {
@@ -48095,6 +48116,21 @@
       "result": {
         "status": "received",
         "request_id": "f48b9af57f140d95f734e59969b6c6bdb5b4f4953e836a941cf821c1cb4bbecf"
+      }
+    },
+    "92abda2021d28e571012250d64cf8f3a0098bd36e63a8fc6755cdfba18343351": {
+      "sha256": "d21f21a2562d4ef308bff722ccef37f66319814ce5daf0437c5f298cedfc6b35",
+      "result": {
+        "status": "finalized",
+        "request_id": "f48b9af57f140d95f734e59969b6c6bdb5b4f4953e836a941cf821c1cb4bbecf",
+        "records": [
+          {
+            "id": 440,
+            "revision": 1,
+            "sha256": "4a4c8db29a8d5ab599285feb558aa70779f179167fc111865707b8e5217b6b13"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
