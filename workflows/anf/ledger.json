@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1361,
-  "updated_at": "2026-11-15T15:36:17.834077+00:00",
+  "generation": 1362,
+  "updated_at": "2026-11-15T15:36:18.575176+00:00",
   "next_id": 441,
   "records": [
     {
@@ -48132,6 +48132,18 @@
         ],
         "duplicates": []
       }
+    },
+    "7e280e1512fa35571d14765629e93ecf429bf4ad14d3f401bfd40ce14bd38824": {
+      "sha256": "bb588880c40d2efc27567bfbc516eaa82241ee4419c0ef70a23debb71b03a5dc",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 440,
+          "revision": 1,
+          "sha256": "4a4c8db29a8d5ab599285feb558aa70779f179167fc111865707b8e5217b6b13"
+        },
+        "editorial_sha256": "0770cf459aba459f361cb93ce00ff52a53fa5d2847e52acce81e090b34b8c72b"
+      }
     }
   },
   "migration": {
@@ -59638,6 +59650,26 @@
         "sha256": "f39009f21823253b5174a6627e355ff020baef92c6cabe06148817a867d79952",
         "reviewed_at": "2026-11-14T14:52:18.928164+00:00",
         "operation_id": "fcc5d4cf1313003f7b8a13a2819c2634da6fdb0a918189169414dcb71952e55d"
+      }
+    ],
+    "440:1": [
+      {
+        "reference": {
+          "id": 440,
+          "revision": 1,
+          "sha256": "4a4c8db29a8d5ab599285feb558aa70779f179167fc111865707b8e5217b6b13"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The item is about a text-to-speech model, its parameter count, and training on synthetic speech, which are ML-technical terms a general reader would not take as everyday language.",
+            "evidence_sha256": "b97094de96941540fc3ca2b75080dd5b90649e0789337b23374df6b2e570ae8b"
+          }
+        },
+        "sha256": "0770cf459aba459f361cb93ce00ff52a53fa5d2847e52acce81e090b34b8c72b",
+        "reviewed_at": "2026-11-15T15:36:18.575176+00:00",
+        "operation_id": "7e280e1512fa35571d14765629e93ecf429bf4ad14d3f401bfd40ce14bd38824"
       }
     ]
   }
