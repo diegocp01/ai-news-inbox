@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1363,
-  "updated_at": "2026-11-15T17:24:15.638761+00:00",
-  "next_id": 441,
+  "generation": 1364,
+  "updated_at": "2026-11-15T17:24:16.524442+00:00",
+  "next_id": 442,
   "records": [
     {
       "id": 1,
@@ -5866,6 +5866,19 @@
           "sha256": "4a4c8db29a8d5ab599285feb558aa70779f179167fc111865707b8e5217b6b13",
           "source": "Muhammed Nazeem",
           "request_id": "f48b9af57f140d95f734e59969b6c6bdb5b4f4953e836a941cf821c1cb4bbecf",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 441,
+      "revisions": [
+        {
+          "created_at": "2026-11-15T17:24:16.524442+00:00",
+          "block": "Title: Kenneth Shock Premieres “ALLOW ALWAYS,” an AI-Made Music Video Featuring Claudia\nURL: https://www.kennethshock.com/p/allow-always-is-out\nImage URL: https://substack-video.s3.amazonaws.com/video_upload/post/223705452/aee320a3-e959-48ab-b01d-5aa89b06d434/transcoded-00001.png\nSummary: Kenneth Shock, who has ALS and uses a Neuralink brain implant, has premiered “ALLOW ALWAYS,” a song and music video featuring Claudia, an open character by anabology. He says he made it with Suno for the music and vocals and Claude for the lyrics, and released it as Cyborg 21 on Shockwave Records with full AI disclosure.",
+          "sha256": "33335ec88e02bc23ef6d5a83d8ca6f9f6531e92d92197b1d0be7df7a1ec3ea7f",
+          "source": "Kenneth Shock",
+          "request_id": "7882555ae2fb31708dd6df16a85636fb75632f80aa3e3b47418df45c8e0a5ce0",
           "mode": "standard"
         }
       ]
@@ -12957,13 +12970,21 @@
       ]
     },
     "7882555ae2fb31708dd6df16a85636fb75632f80aa3e3b47418df45c8e0a5ce0": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-15T17:24:15.638761+00:00",
       "received_sequence": 401,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-15T17:24:16.524442+00:00",
+      "records": [
+        {
+          "id": 441,
+          "revision": 1,
+          "sha256": "33335ec88e02bc23ef6d5a83d8ca6f9f6531e92d92197b1d0be7df7a1ec3ea7f"
+        }
+      ]
     }
   },
   "batches": {
@@ -48159,6 +48180,21 @@
       "result": {
         "status": "received",
         "request_id": "7882555ae2fb31708dd6df16a85636fb75632f80aa3e3b47418df45c8e0a5ce0"
+      }
+    },
+    "062c70bc2f4d901709ba79de8a79f7118618acbd9da6c5469905b17ba7477380": {
+      "sha256": "8d0ce647a32228f87711102adea6415e847a344a3d2e7d1c082a9133b08054d8",
+      "result": {
+        "status": "finalized",
+        "request_id": "7882555ae2fb31708dd6df16a85636fb75632f80aa3e3b47418df45c8e0a5ce0",
+        "records": [
+          {
+            "id": 441,
+            "revision": 1,
+            "sha256": "33335ec88e02bc23ef6d5a83d8ca6f9f6531e92d92197b1d0be7df7a1ec3ea7f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
