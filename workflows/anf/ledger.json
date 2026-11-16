@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1366,
-  "updated_at": "2026-11-16T00:52:29.332861+00:00",
-  "next_id": 442,
+  "generation": 1367,
+  "updated_at": "2026-11-16T00:52:30.802613+00:00",
+  "next_id": 443,
   "records": [
     {
       "id": 1,
@@ -5879,6 +5879,19 @@
           "sha256": "33335ec88e02bc23ef6d5a83d8ca6f9f6531e92d92197b1d0be7df7a1ec3ea7f",
           "source": "Kenneth Shock",
           "request_id": "7882555ae2fb31708dd6df16a85636fb75632f80aa3e3b47418df45c8e0a5ce0",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 442,
+      "revisions": [
+        {
+          "created_at": "2026-11-16T00:52:30.802613+00:00",
+          "block": "Title: Physicist Credits GPT-6 Astra With Proof Work on a Lattice Standard Model\nURL: https://superpowerdaily.com/posts/physicist-credits-gpt-6-astra-with-leading-proof-work-on-standard-model-proposal\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/1RdsG8XilINGFZUscLvAnj/b3bfb7912b44166e8075581574a7b777/toward-defining-the-standard-model-social.png?w=1600&h=900&fit=fill\nSummary: Physicist Nathaniel Craig says he worked with GPT-6 Astra on a candidate way to define the Standard Model of particle physics on a spacetime grid. He says he had a strategy but could not prove it in every needed case, and that Astra took the lead on the detailed proof. He calls the result a beginning, not a finished solution.",
+          "sha256": "8819ce180546cf3d7a61bbfaff91ec4c09a116280d70f38eea8a192468b0e987",
+          "source": "OpenAI",
+          "request_id": "5b42f14b31b0c47c0a22a8def94bbcb816a819cf4d184cae44ac428fed4ada9f",
           "mode": "standard"
         }
       ]
@@ -12987,13 +13000,21 @@
       ]
     },
     "5b42f14b31b0c47c0a22a8def94bbcb816a819cf4d184cae44ac428fed4ada9f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-16T00:52:29.332861+00:00",
       "received_sequence": 402,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-16T00:52:30.802613+00:00",
+      "records": [
+        {
+          "id": 442,
+          "revision": 1,
+          "sha256": "8819ce180546cf3d7a61bbfaff91ec4c09a116280d70f38eea8a192468b0e987"
+        }
+      ]
     }
   },
   "batches": {
@@ -48223,6 +48244,21 @@
       "result": {
         "status": "received",
         "request_id": "5b42f14b31b0c47c0a22a8def94bbcb816a819cf4d184cae44ac428fed4ada9f"
+      }
+    },
+    "4dd877889752b0ee05b517f0d55b0b0b1560c98c315f4a155a61adbcb029e25e": {
+      "sha256": "96cc6ac40954ead1cbc2bdf3d16e95df4b46e3ab859bf763cc66a9f18dc44407",
+      "result": {
+        "status": "finalized",
+        "request_id": "5b42f14b31b0c47c0a22a8def94bbcb816a819cf4d184cae44ac428fed4ada9f",
+        "records": [
+          {
+            "id": 442,
+            "revision": 1,
+            "sha256": "8819ce180546cf3d7a61bbfaff91ec4c09a116280d70f38eea8a192468b0e987"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
