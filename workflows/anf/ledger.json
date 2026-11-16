@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1385,
-  "updated_at": "2026-11-16T18:05:16.173820+00:00",
-  "next_id": 449,
+  "generation": 1386,
+  "updated_at": "2026-11-16T18:05:16.948203+00:00",
+  "next_id": 450,
   "records": [
     {
       "id": 1,
@@ -5972,6 +5972,19 @@
           "sha256": "f188be4163eee0f4b24ebea97bfb54c3033bf0dc2a57e6429cb2ca2b05d533db",
           "source": "Alibaba",
           "request_id": "530103a56b8192aba1d308232e4a14b4845cdfa2f138de26c8f7be44ce2907de",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 449,
+      "revisions": [
+        {
+          "created_at": "2026-11-16T18:05:16.948203+00:00",
+          "block": "Title: OpenAI Publishes Study of How More Than 1,800 Scientists Used ChatGPT\nURL: https://tpsreport.news/news/openai-science-at-the-frontier-scientists-chatgpt\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/r0NQL0JSQTS1Kzvpq9Fqm/6b10f87bd44e394bb04737e1ca00b017/science-at-the-frontier-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI's Economic Research team studied 580,186 scientific messages from 1,819 scientists in the ChatGPT for Academic Researchers summer pilot and surveyed 251 participants. Surveyed scientists estimated that the same work, at the same quality, would have taken 1.9 times as long without AI. Of those asked about discovery timelines, 98% expected AI to speed discovery in their field.",
+          "sha256": "2ae6ef92f6c999e4f1e588d551419c76c26b4c13e97fcb8b9abb3c018f19553b",
+          "source": "OpenAI",
+          "request_id": "31f5ceb4743db7855b6e6f773a7d6174c8f51914f9e47e0d38dc6989048a57c1",
           "mode": "standard"
         }
       ]
@@ -13176,13 +13189,21 @@
       ]
     },
     "31f5ceb4743db7855b6e6f773a7d6174c8f51914f9e47e0d38dc6989048a57c1": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-16T18:05:16.173820+00:00",
       "received_sequence": 407,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-16T18:05:16.948203+00:00",
+      "records": [
+        {
+          "id": 449,
+          "revision": 1,
+          "sha256": "2ae6ef92f6c999e4f1e588d551419c76c26b4c13e97fcb8b9abb3c018f19553b"
+        }
+      ]
     }
   },
   "batches": {
@@ -49136,6 +49157,21 @@
       "result": {
         "status": "received",
         "request_id": "31f5ceb4743db7855b6e6f773a7d6174c8f51914f9e47e0d38dc6989048a57c1"
+      }
+    },
+    "1b7b88330def5980c01058ec19d44e9a596683aa45605393222eac323b655fa5": {
+      "sha256": "024106e719c354c2608a6c2d480c6e6716108ed2b770e9cbcaf9f3283ba34a52",
+      "result": {
+        "status": "finalized",
+        "request_id": "31f5ceb4743db7855b6e6f773a7d6174c8f51914f9e47e0d38dc6989048a57c1",
+        "records": [
+          {
+            "id": 449,
+            "revision": 1,
+            "sha256": "2ae6ef92f6c999e4f1e588d551419c76c26b4c13e97fcb8b9abb3c018f19553b"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
