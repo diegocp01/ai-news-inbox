@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1380,
-  "updated_at": "2026-11-16T16:31:10.443091+00:00",
+  "generation": 1381,
+  "updated_at": "2026-11-16T16:31:11.285161+00:00",
   "next_id": 448,
   "records": [
     {
@@ -49045,6 +49045,18 @@
         ],
         "duplicates": []
       }
+    },
+    "3fc20fa92a06034bdb186a32bfca221afdb34e52029b6ddb1864b29c7299cb8c": {
+      "sha256": "5e9a17256a002677816ec60bc6ec06d6551c2a2f65d078fd8333ee6517d03504",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 447,
+          "revision": 1,
+          "sha256": "770370b68ba4c392e8fd310c45a8402f345c44bb81849ac277d4d22cabdf4af1"
+        },
+        "editorial_sha256": "dc8451d0f26d873b4281229ab3339dff72a44d95783ff9e5c2a65dfa05c7eb62"
+      }
     }
   },
   "migration": {
@@ -60691,6 +60703,26 @@
         "sha256": "ec8ced450e7fd53b3f06cad16764dea8a626a2321831aa3cf67a5fab8fddd4be",
         "reviewed_at": "2026-11-16T13:18:22.478681+00:00",
         "operation_id": "muse-backfill-20261116-446-4716"
+      }
+    ],
+    "447:1": [
+      {
+        "reference": {
+          "id": 447,
+          "revision": 1,
+          "sha256": "770370b68ba4c392e8fd310c45a8402f345c44bb81849ac277d4d22cabdf4af1"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "The announcement is about independent safety assessments with deep access to internal models, training runs, and safeguards, which are ML-technical and security terms.",
+            "evidence_sha256": "89923918a223837c120e22bdf06b43cb2b2ccd702aff8f154ee5d0af618f59fb"
+          }
+        },
+        "sha256": "dc8451d0f26d873b4281229ab3339dff72a44d95783ff9e5c2a65dfa05c7eb62",
+        "reviewed_at": "2026-11-16T16:31:11.285161+00:00",
+        "operation_id": "3fc20fa92a06034bdb186a32bfca221afdb34e52029b6ddb1864b29c7299cb8c"
       }
     ]
   }
