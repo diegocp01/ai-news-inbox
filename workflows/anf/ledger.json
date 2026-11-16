@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1383,
-  "updated_at": "2026-11-16T16:35:19.360417+00:00",
+  "generation": 1384,
+  "updated_at": "2026-11-16T16:35:20.118645+00:00",
   "next_id": 449,
   "records": [
     {
@@ -49109,6 +49109,18 @@
         ],
         "duplicates": []
       }
+    },
+    "05494e266d1a07b833024df8f59522bde4f9bcfd12f911df8d232e839614516d": {
+      "sha256": "814c316b7cb6c04daea113aa55953854db6f152868f97c447e0676e38dcc40a8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 448,
+          "revision": 1,
+          "sha256": "f188be4163eee0f4b24ebea97bfb54c3033bf0dc2a57e6429cb2ca2b05d533db"
+        },
+        "editorial_sha256": "57649616c915b84da2918108fd26a4eaf9cc5c03ce65c59da2bde1f6baf0354d"
+      }
     }
   },
   "migration": {
@@ -60775,6 +60787,26 @@
         "sha256": "dc8451d0f26d873b4281229ab3339dff72a44d95783ff9e5c2a65dfa05c7eb62",
         "reviewed_at": "2026-11-16T16:31:11.285161+00:00",
         "operation_id": "3fc20fa92a06034bdb186a32bfca221afdb34e52029b6ddb1864b29c7299cb8c"
+      }
+    ],
+    "448:1": [
+      {
+        "reference": {
+          "id": 448,
+          "revision": 1,
+          "sha256": "f188be4163eee0f4b24ebea97bfb54c3033bf0dc2a57e6429cb2ca2b05d533db"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "This is a new model launch described with mixture-of-experts architecture, parameter counts, token usage, and an API product page, which are ML-technical and developer/API terms.",
+            "evidence_sha256": "261094d5d89b5e7ed0ae5cef899b6625690e7f0c12ce931a53a69ceea7cef73e"
+          }
+        },
+        "sha256": "57649616c915b84da2918108fd26a4eaf9cc5c03ce65c59da2bde1f6baf0354d",
+        "reviewed_at": "2026-11-16T16:35:20.118645+00:00",
+        "operation_id": "05494e266d1a07b833024df8f59522bde4f9bcfd12f911df8d232e839614516d"
       }
     ]
   }
