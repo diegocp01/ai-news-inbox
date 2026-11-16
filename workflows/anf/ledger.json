@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1371,
-  "updated_at": "2026-11-16T12:38:30.628325+00:00",
-  "next_id": 445,
+  "generation": 1372,
+  "updated_at": "2026-11-16T12:45:19.542345+00:00",
+  "next_id": 447,
   "records": [
     {
       "id": 1,
@@ -5919,6 +5919,34 @@
           "source": "arXiv",
           "request_id": "5b155a031bf2b609870a5bd80d75c68e8b0f51db9613826bd2122fb28e053d1a",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 445,
+      "revisions": [
+        {
+          "created_at": "2026-11-16T12:45:19.542345+00:00",
+          "block": "Title: Musk Backs Petition for Jensen Huang’s Return to Nvidia\nURL: https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/\nImage URL: https://imagenes.elpais.com/resizer/v2/2AC4CQEX7ZFWTCAZ6USQX6P5QE.JPG?auth=b2c3496700911a861266a8403a6099e807330c55ced695e6705b39f79c500b17&height=233&smart=true&width=414\nSummary: Elon Musk said he would sign a petition seeking Jensen Huang’s reinstatement as Nvidia CEO. An online campaign calls for his return while an independent investigation establishes the facts. Nvidia announced Huang’s resignation on November 12 and appointed finance chief Colette Kress as interim CEO while it searches for a permanent successor.",
+          "sha256": "eb56bfe5a6c37a38a697d4cbe9102df5b562063cdab5d36458984689786811e2",
+          "source": "techcrunch.com",
+          "request_id": "0fa2b42cc437379f62b8cec53e2812819c94548db989979ac8fce300c145b38b",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 446,
+      "revisions": [
+        {
+          "created_at": "2026-11-16T12:45:19.542345+00:00",
+          "block": "Title: OpenAI Reorganizes Robotics Team, Disputes Shutdown Report\nURL: https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/\nImage URL: https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2304572308-e1794587995495.jpg?format=webp&quality=75&w=1440\nSummary: Fortune reported that OpenAI moved robotics staff into its main research and Applied groups. OpenAI told The Boston Report the team was reorganized, not disbanded, and its work continues. Employees also disputed the shutdown framing: Scott Cory said the program, roadmap and goals were unchanged, while David Schnurr pointed to ongoing hiring.",
+          "sha256": "1916c99318623b71792624979cc2f92ec2b04e43d21bb6eeff4bd7d30928116b",
+          "source": "fortune.com",
+          "request_id": "0fa2b42cc437379f62b8cec53e2812819c94548db989979ac8fce300c145b38b",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -13065,14 +13093,27 @@
       ]
     },
     "0fa2b42cc437379f62b8cec53e2812819c94548db989979ac8fce300c145b38b": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-16T12:38:30.628325+00:00",
       "received_sequence": 404,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-16T12:45:19.542345+00:00",
+      "records": [
+        {
+          "id": 445,
+          "revision": 1,
+          "sha256": "eb56bfe5a6c37a38a697d4cbe9102df5b562063cdab5d36458984689786811e2"
+        },
+        {
+          "id": 446,
+          "revision": 1,
+          "sha256": "1916c99318623b71792624979cc2f92ec2b04e43d21bb6eeff4bd7d30928116b"
+        }
+      ]
     }
   },
   "batches": {
@@ -48363,6 +48404,26 @@
       "result": {
         "status": "received",
         "request_id": "0fa2b42cc437379f62b8cec53e2812819c94548db989979ac8fce300c145b38b"
+      }
+    },
+    "64f82f95be29e24043ad4f09dbef98f6ff0ec033d5021e91e5cede395a013ffb": {
+      "sha256": "aac29885eecd801e90bd0d8eee1c0133ac809b3ff94f403f8549737d3fca99ff",
+      "result": {
+        "status": "finalized",
+        "request_id": "0fa2b42cc437379f62b8cec53e2812819c94548db989979ac8fce300c145b38b",
+        "records": [
+          {
+            "id": 445,
+            "revision": 1,
+            "sha256": "eb56bfe5a6c37a38a697d4cbe9102df5b562063cdab5d36458984689786811e2"
+          },
+          {
+            "id": 446,
+            "revision": 1,
+            "sha256": "1916c99318623b71792624979cc2f92ec2b04e43d21bb6eeff4bd7d30928116b"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
