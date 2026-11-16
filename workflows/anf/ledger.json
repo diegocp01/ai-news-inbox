@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1382,
-  "updated_at": "2026-11-16T16:35:18.570326+00:00",
-  "next_id": 448,
+  "generation": 1383,
+  "updated_at": "2026-11-16T16:35:19.360417+00:00",
+  "next_id": 449,
   "records": [
     {
       "id": 1,
@@ -5959,6 +5959,19 @@
           "sha256": "770370b68ba4c392e8fd310c45a8402f345c44bb81849ac277d4d22cabdf4af1",
           "source": "OpenAI",
           "request_id": "d11c04bb54dbda975321b2ede2b68a581dce51a366c88855abaabb125b7f25f1",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 448,
+      "revisions": [
+        {
+          "created_at": "2026-11-16T16:35:19.360417+00:00",
+          "block": "Title: Alibaba Releases Qwen4-Max, a Flagship Model With a 1-Million-Token Context\nURL: https://www.qwencloud.com/models/qwen4-max\nImage URL: https://img.alicdn.com/imgextra/i3/O1CN01flbbkpi4wHD3Zo0O_!!6000000007689-0-tps-1762-950.jpg\nSummary: Alibaba has released Qwen4-Max, which it calls the most capable model in the Qwen family. It is a mixture-of-experts model with 2.4 trillion total parameters, 71 billion active per token, native vision, and a 1-million-token context window. Alibaba says it outperforms Qwen3.8-Max while using 35% fewer tokens at high effort and cutting average cost per task by about 60%.",
+          "sha256": "f188be4163eee0f4b24ebea97bfb54c3033bf0dc2a57e6429cb2ca2b05d533db",
+          "source": "Alibaba",
+          "request_id": "530103a56b8192aba1d308232e4a14b4845cdfa2f138de26c8f7be44ce2907de",
           "mode": "standard"
         }
       ]
@@ -13146,13 +13159,21 @@
       ]
     },
     "530103a56b8192aba1d308232e4a14b4845cdfa2f138de26c8f7be44ce2907de": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-16T16:35:18.570326+00:00",
       "received_sequence": 406,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-16T16:35:19.360417+00:00",
+      "records": [
+        {
+          "id": 448,
+          "revision": 1,
+          "sha256": "f188be4163eee0f4b24ebea97bfb54c3033bf0dc2a57e6429cb2ca2b05d533db"
+        }
+      ]
     }
   },
   "batches": {
@@ -49072,6 +49093,21 @@
       "result": {
         "status": "received",
         "request_id": "530103a56b8192aba1d308232e4a14b4845cdfa2f138de26c8f7be44ce2907de"
+      }
+    },
+    "94a6ed231236b5daa33bdf83e5838dceb5a3a5d418d0eec4f6cf982be17bf7bc": {
+      "sha256": "6ca088cb55981823f47c4fea6c14f5139bc4f16854727e4cfd1316a276700f39",
+      "result": {
+        "status": "finalized",
+        "request_id": "530103a56b8192aba1d308232e4a14b4845cdfa2f138de26c8f7be44ce2907de",
+        "records": [
+          {
+            "id": 448,
+            "revision": 1,
+            "sha256": "f188be4163eee0f4b24ebea97bfb54c3033bf0dc2a57e6429cb2ca2b05d533db"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
