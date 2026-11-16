@@ -1,0 +1,97 @@
+Title: OpenAI Introduces ChatGPT Wallet So Dots Can Complete Purchases
+URL: https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/2xTvIZkcQhKk3VNFioQ4CR/4efb84a6adbddb41311f6b18158fad8b/introducing-chatgpt-wallet-social.png?w=1600&h=900&fit=fill
+Summary: OpenAI is rolling out ChatGPT Wallet today in dots for US ChatGPT Pro subscribers 18 and older with eligible US-issued cards. Built with American Express, Mastercard, and Visa, it lets an agent complete a purchase after the user reviews it and approves with a check such as Face ID, without sharing actual card details.
+
+Title: Anthropic’s Claude Duet Is a Proactive Agent in US Research Preview
+URL: https://claude.com/product/claude-duet
+Image URL: https://claude.com/static/claude-duet/og.jpg
+Summary: Anthropic’s Claude Duet is a waitlisted research preview for US Pro, Max, and Ultra users; Team and Enterprise are not included yet. Powered by Opus 5.5, it sends a morning brief, keeps working while the user is away, and asks for approval before steps such as sending messages or paying. It works with more than 6,000 connectors, Anthropic says.
+
+Title: Anthropic Makes the Claude Code Projects Coordinator More Proactive
+URL: https://code.claude.com/docs/en/claude-projects
+Image URL: https://claude-code.mintlify.site/docs/_mintlify/api/og/v2?division=Platforms+and+integrations&title=Let+Claude+coordinate+ongoing+work+with+Projects&description=Hand+Claude+a+stream+of+related+tasks+in+one+conversation+and+let+it+run+them+as+parallel+cloud+sessions+that+share+repositories%2C+instructions%2C+and+memory.&theme=e2d30309a4005a9870b526a1&signature=aa9217d76a91f5623781099a511bdf1f6a83525191890c7affe2a4fd8bb63ea9
+Summary: Anthropic says it has updated Projects in Claude Code so the coordinator is now much more proactive. In a project, Claude coordinates tasks across parallel threads, answers questions in the project chat, and gives updates on the status of ongoing threads. Official docs say Projects are in a public beta for Pro, Max, and Ultra plans.
+ds: true
+
+Title: Google Rolls Out Gemini 4 Carbon in Antigravity Alongside /swarm
+URL: https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity/
+Image URL: https://antigravity.google/assets/image/blog/4-Carbon---Wide.png
+Summary: On Nov 10, Google rolled out Gemini 4 Carbon in Antigravity, along with /swarm in preview. Google AI Ultra subscribers can use Carbon in the Antigravity app, CLI, and IDE extensions. /swarm lets a coordinator run specialized agents in parallel. Enterprises can use Carbon in Gemini for business, and researchers can apply for six months of free high-tier access.
+ds: true
+
+Title: Anthropic Adds Custom Themes for Claude Code on Desktop
+URL: https://code.claude.com/docs/en/plugins/mods/interface
+Image URL: https://claude-code.mintlify.site/docs/_mintlify/api/og/v2?division=Build&title=Draw+in+the+interface+with+a+mod&description=Draw+panes%2C+a+band+above+the+prompt%2C+buttons%2C+and+text+fields+from+a+Claude+Code+mod%2C+handle+presses+and+input%2C+and+keep+state+between+redraws+and+sessions.&theme=e2d30309a4005a9870b526a1&signature=81f7ee93b9befa729b232bfc14410614711b0549ff8ad8d8ffde2c885ea2b5d7
+Summary: Anthropic says you can now build custom themes for Claude Code on desktop with mods, including new colors and an animated background. Users can describe the look they want, or start with the theme-examples plugin. Official docs say an animated backdrop can appear in the desktop or mobile app, but not in the terminal.
+ds: true
+
+Title: Dwarkesh Patel Now Expects Superintelligence by 2030
+URL: https://www.dwarkesh.com/p/rsi
+Image URL: https://substack-post-media.s3.amazonaws.com/public/images/7dc29226-8d97-44fb-a2f3-5798522ed0df_1551x812.png
+Summary: In a Nov 13 essay, Dwarkesh Patel says he now expects superintelligence by 2030, up from at least most of a decade. He argues AI may soon match top humans at AI research, and that automating that work could then quickly produce expert-level systems in every field. He cites METR, Anthropic, and OpenAI on AI already speeding lab research.
+
+Title: Grok Bot Can Now Join Google Meet, Zoom and Microsoft Teams Calls
+URL: https://ai-oriens.com/en/news/grok-bot-meetings/
+Image URL: https://ai-oriens.com/art/grok-bot-meetings.jpg
+Summary: Grok Bot says it can now join meetings, where users can ask it questions, assign it work, or have it keep track of team decisions. Official docs say it can join Google Meet, Zoom, or Microsoft Teams calls on Team, Enterprise, and Ultra plans, take notes, answer in the meeting chat, and send a summary and action items afterward.
+
+Title: Researcher Says AI-Written Breakout Networks Beat Both Parent Models
+URL: 
+Image URL: https://kimon.space/og-image.png
+Summary: Kimon says two Claude models and GPT-6 Astra wrote neural-network weights for Breakout-playing agents. He says their “kids” kept failing, then found reward-hacking tricks that were later banned. In one example, Fable told Astra they should be a bit off in opposite ways. He says 62 of 64 kids then beat both parents.
+ds: true
+
+Title: OpenAI Disbands Its Stand-Alone Robotics Team, Fortune Reports
+URL: https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/
+Image URL: https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2304572308-e1794587995495.jpg?resize=1200,600
+Summary: Fortune reports that OpenAI has disbanded its stand-alone robotics team and reassigned the researchers to other parts of the company, a move OpenAI confirmed. A spokesperson said robotics remains part of its long-term vision, and that the company now believes general-purpose models, including GPT-6 Astra, can be applied directly to robots.
+
+Title: Anthropic Says Claude Fable 5.2 Makes a Large Jump in Robot Control
+URL: https://www.anthropic.com/claude-fable-and-mythos-5-2
+Image URL: https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg
+Summary: Anthropic says Claude Fable 5.2 is substantially better at controlling physical robots than earlier Claude models, including on tasks it was never trained for. On Anthropic’s run of a public robot-control test, it scored 64.9%, more than double GPT-6 Astra and Fable 5.1. A video shows it solving a puzzle cube, unscrewing a bottle cap, and drawing.
+
+Title: Muhammed Nazeem Releases tiny-voca, a Speech Model Trained Without Real Voices
+URL: https://github.com/n4ze3m/tiny-voca
+Image URL: https://opengraph.githubassets.com/b54b9a4e77411f1af07622b9435187f83d3ad07e3b8ef0a8d6511ca66ca7faef/n4ze3m/tiny-voca
+Summary: Muhammed Nazeem has released tiny-voca, a 4.5-million-parameter English text-to-speech model he says has never heard a real human voice. Official docs say it is 18 MB, runs on a CPU or in a browser, and was trained from scratch on 17.6 hours of synthetic speech, with no real-speaker recordings. It has two voices and is open under Apache-2.0.
+ds: true
+
+Title: Kenneth Shock Premieres “ALLOW ALWAYS,” an AI-Made Music Video Featuring Claudia
+URL: https://www.kennethshock.com/p/allow-always-is-out
+Image URL: https://substack-video.s3.amazonaws.com/video_upload/post/223705452/aee320a3-e959-48ab-b01d-5aa89b06d434/transcoded-00001.png
+Summary: Kenneth Shock, who has ALS and uses a Neuralink brain implant, has premiered “ALLOW ALWAYS,” a song and music video featuring Claudia, an open character by anabology. He says he made it with Suno for the music and vocals and Claude for the lyrics, and released it as Cyborg 21 on Shockwave Records with full AI disclosure.
+
+Title: Physicist Credits GPT-6 Astra With Proof Work on a Lattice Standard Model
+URL: https://superpowerdaily.com/posts/physicist-credits-gpt-6-astra-with-leading-proof-work-on-standard-model-proposal
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/1RdsG8XilINGFZUscLvAnj/b3bfb7912b44166e8075581574a7b777/toward-defining-the-standard-model-social.png?w=1600&h=900&fit=fill
+Summary: Physicist Nathaniel Craig says he worked with GPT-6 Astra on a candidate way to define the Standard Model of particle physics on a spacetime grid. He says he had a strategy but could not prove it in every needed case, and that Astra took the lead on the detailed proof. He calls the result a beginning, not a finished solution.
+
+Title: V-JEPA-LM Learns to Read Motion in Video
+URL: https://arxiv.org/abs/2611.17831
+Image URL: https://arxiv.org/html/2611.17831v1/overview.png
+Summary: Keuntae Kim and colleagues train video-language models on altered clips that change the correct answer, encouraging them to use motion already encoded by V-JEPA. Their 4B model averaged 72.1 across the paper’s video benchmarks versus 61.1 for the strongest open 4B comparator. The evaluation focuses on short clips.
+ds: true
+
+Title: JVT Generates Video and Depth Directly in Pixel Space
+URL: https://arxiv.org/abs/2611.18549
+Image URL: https://arxiv.org/html/2611.18549v1/teaser.png
+Summary: Jianjun Zhou and colleagues generate video directly in pixel space with a transformer, without a pretrained autoencoder. On RealEstate10K, jointly generating color and disparity raised five-degree relative translation accuracy from 72.4% to 79.5% over their RGB-only version. Translation remained less accurate than rotation.
+ds: true
+
+Title: Musk Backs Petition for Jensen Huang’s Return to Nvidia
+URL: https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/
+Image URL: https://imagenes.elpais.com/resizer/v2/2AC4CQEX7ZFWTCAZ6USQX6P5QE.JPG?auth=b2c3496700911a861266a8403a6099e807330c55ced695e6705b39f79c500b17&height=233&smart=true&width=414
+Summary: Elon Musk said he would sign a petition seeking Jensen Huang’s reinstatement as Nvidia CEO. An online campaign calls for his return while an independent investigation establishes the facts. Nvidia announced Huang’s resignation on November 12 and appointed finance chief Colette Kress as interim CEO while it searches for a permanent successor.
+
+Title: OpenAI Reorganizes Robotics Team, Disputes Shutdown Report
+URL: https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/
+Image URL: https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2304572308-e1794587995495.jpg?format=webp&quality=75&w=1440
+Summary: Fortune reported that OpenAI moved robotics staff into its main research and Applied groups. OpenAI told The Boston Report the team was reorganized, not disbanded, and its work continues. Employees also disputed the shutdown framing: Scott Cory said the program, roadmap and goals were unchanged, while David Schnurr pointed to ongoing hiring.
+
+
+
+
+
+.

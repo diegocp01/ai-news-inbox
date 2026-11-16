@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1376,
-  "updated_at": "2026-11-16T13:18:22.478681+00:00",
+  "generation": 1377,
+  "updated_at": "2026-11-16T13:18:39.788994+00:00",
   "next_id": 447,
   "records": [
     {
@@ -23072,9 +23072,256 @@
       },
       "acknowledged_at": "2026-11-13T13:15:21.239523+00:00",
       "checkpoint_after": 429
+    },
+    "13bee4e34935053f6c360fd1": {
+      "batch_id": "13bee4e34935053f6c360fd1",
+      "status": "prepared",
+      "checkpoint_before": 429,
+      "prepared_at": "2026-11-16T13:18:39.788994+00:00",
+      "intake_cutoff": 404,
+      "records": [
+        {
+          "id": 430,
+          "revision": 1,
+          "sha256": "e6cd07d1072fa1df1ddb77f4212e25ad6ad4c53ead9256548a960b1b47d64c0f"
+        },
+        {
+          "id": 431,
+          "revision": 2,
+          "sha256": "f059b6c2c5c3cf302881f9947c558f9159bd09dce2053b3c61955e3312dda6e3"
+        },
+        {
+          "id": 432,
+          "revision": 1,
+          "sha256": "d41860d014853836437974425c25bd8df823c91d1f8f8f632680c42fe457c0c0"
+        },
+        {
+          "id": 433,
+          "revision": 1,
+          "sha256": "110b0635263aa2edf0fe5b9072acb7994f40012c89e62dbde8a01d3d8f50769d"
+        },
+        {
+          "id": 434,
+          "revision": 1,
+          "sha256": "c500d73a1a000206c7c7603e0a04dba380aa79094ac1232cd9f89f0c928707da"
+        },
+        {
+          "id": 435,
+          "revision": 1,
+          "sha256": "7d3f5f2bc179d154a90d06b5f00f3bf6aa162275972c6b5d3be1f88b47745fc2"
+        },
+        {
+          "id": 436,
+          "revision": 1,
+          "sha256": "d0c2fcd61e1363518937b3861c1f3c4f64d8e768e14b1048dd9ab7550a250c5d"
+        },
+        {
+          "id": 437,
+          "revision": 1,
+          "sha256": "106105af2eef52a65166d1349983785cd5acf8414a559202a5733f0b60ef3742"
+        },
+        {
+          "id": 438,
+          "revision": 1,
+          "sha256": "af2a41c5ca5fa3ae47799d4f9aa862e85dde7f74add8124dc552549cc9641129"
+        },
+        {
+          "id": 439,
+          "revision": 1,
+          "sha256": "70007875f2ac9c234e1751b7f0100691889965f1131238960ab34118e9c2a2dd"
+        },
+        {
+          "id": 440,
+          "revision": 1,
+          "sha256": "4a4c8db29a8d5ab599285feb558aa70779f179167fc111865707b8e5217b6b13"
+        },
+        {
+          "id": 441,
+          "revision": 1,
+          "sha256": "33335ec88e02bc23ef6d5a83d8ca6f9f6531e92d92197b1d0be7df7a1ec3ea7f"
+        },
+        {
+          "id": 442,
+          "revision": 1,
+          "sha256": "8819ce180546cf3d7a61bbfaff91ec4c09a116280d70f38eea8a192468b0e987"
+        },
+        {
+          "id": 443,
+          "revision": 1,
+          "sha256": "5d1b5dacc8456f98f37998d1465585ac380ff5537c32d66ac9d68c7784d1b756"
+        },
+        {
+          "id": 444,
+          "revision": 1,
+          "sha256": "76fea6fba6246e2ef161f288acdafb58596c8471d544749e4dd124b0a7cc04d3"
+        },
+        {
+          "id": 445,
+          "revision": 1,
+          "sha256": "eb56bfe5a6c37a38a697d4cbe9102df5b562063cdab5d36458984689786811e2"
+        },
+        {
+          "id": 446,
+          "revision": 1,
+          "sha256": "1916c99318623b71792624979cc2f92ec2b04e43d21bb6eeff4bd7d30928116b"
+        }
+      ],
+      "first_id": 430,
+      "last_id": 446,
+      "count": 17,
+      "txt_path": "workflows/anf/batches/13bee4e34935053f6c360fd1.txt",
+      "json_path": "workflows/anf/batches/13bee4e34935053f6c360fd1.json",
+      "txt_sha256": "97f5707ba4fd5d7846c76667b77a26064bc43019eabec2734f64585554b6c70d",
+      "json_sha256": "04617f65c9c6b8976b790cff6cd95c14db2af539c345ab03000cfa3e76774be6",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer payments feature for ChatGPT dots; the summary uses everyday wording and avoids ML, API, or hardware jargon.",
+            "evidence_sha256": "b23bc9cb68074ca4c021786b864cee3c4f6ea655a05ee16f059c588ca0983f48"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Consumer product page for a proactive assistant; the summary uses everyday wording and avoids ML, API, or hardware jargon.",
+            "evidence_sha256": "27f14fe74709a1b8322586efb5ae9b126e060ef205eb722595f6bb40935441de"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "This is a Claude Code developer-tool update about a project coordinator, parallel threads, and project chat; those are developer-product terms a general reader would not know.",
+            "evidence_sha256": "44aa9f6a3e19b82e759d7d59fcc27a157b8ac81e9311f82718e98bf1de99631c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "This Antigravity post is about a coding IDE, CLI, editor extensions, and /swarm multi-agent developer tooling, which a general reader would not know.",
+            "evidence_sha256": "e31b8343a120ade50bdc5c3b9c2c99de439e0b3b18903ffb0602847acdcfb70d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "This is a Claude Code desktop feature about mods, plugins, and theming the Code tab, which a general reader would not know.",
+            "evidence_sha256": "d66547ffd3443af128236479489fec72c273ace57ba31f5d78f8850257eef401"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is an essay about AI timelines that can be summarized in everyday language without ML-training, RL, or other jargon a general reader would not know.",
+            "evidence_sha256": "873d65d907daf22e8f59ee0605a42b1d06c7453836f1da442e8541b5c0d34c39"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a consumer product feature about a bot joining video meetings, summarized in everyday language without ML, API, or hardware jargon.",
+            "evidence_sha256": "209892d2baad6bf4544ec31b58d192083e0a723144759f466db015d9c5010c04"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The post is about models writing neural-network weights and using reward-hacking tricks, which are ML-technical terms a general reader would not know.",
+            "evidence_sha256": "ff4b2fdd7d251194b67da5f215cffe842ffa86fb03f63af836de90f893d04b5c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a company reorganization story that can be summarized in everyday language without ML, API, or hardware jargon.",
+            "evidence_sha256": "b4a40bdae68d4e82222c6a3d5eb243fd52585d0f29946d73353b892833e4de34"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The robotics results can be summarized in everyday language about a model getting better at controlling robots and posting a higher score on a public test, without ML, API, or hardware jargon.",
+            "evidence_sha256": "7645a214da3884a93eda1f6723f9571fcaea97feb067c1103e35270a4f40e443"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The item is about a text-to-speech model, its parameter count, and training on synthetic speech, which are ML-technical terms a general reader would not take as everyday language.",
+            "evidence_sha256": "b97094de96941540fc3ca2b75080dd5b90649e0789337b23374df6b2e570ae8b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a song and music-video release that can be summarized in everyday language without ML, API, or hardware jargon.",
+            "evidence_sha256": "f2c453517b51568d6f969e4320f038e4aaea26614802d06356a13cf32d6040d7"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Physics and math subject matter is not a DS trigger, and the post can be summarized in everyday language without ML-technical, developer/API, security, or hardware jargon.",
+            "evidence_sha256": "08e7306a4f47187689a2e96d49a9e1f66758b4f1e63955dba8cf8169941c043e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "V-JEPA-LM learns to read motion in video: Keuntae Kim and colleagues train video-language models on altered clips that change the correct answer, encouraging them to use motion already encoded by V-JEPA. Their 4B model averaged 72.1 across the paper's video benchmarks versus 61.1 for the strongest open 4B comparator. This is an arXiv research paper on video-language model training for a technical audience, not general business news. muse-compile-backfill 2026-11-16: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "5d1b5dacc8456f98f37998d1465585ac380ff5537c32d66ac9d68c7784d1b756"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "JVT generates video and depth directly in pixel space: Jianjun Zhou and colleagues generate video directly in pixel space with a transformer, without a pretrained autoencoder. On RealEstate10K, jointly generating color and disparity raised five-degree relative translation accuracy from 72.4% to 79.5% over their RGB-only version. This is an arXiv research paper on video generation models for a technical audience, not general business news. muse-compile-backfill 2026-11-16: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "76fea6fba6246e2ef161f288acdafb58596c8471d544749e4dd124b0a7cc04d3"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Elon Musk said he would sign a petition seeking Jensen Huang's reinstatement as Nvidia CEO. An online campaign calls for his return while an independent investigation establishes the facts. Nvidia announced Huang's resignation on November 12 and appointed finance chief Colette Kress as interim CEO while it searches for a permanent successor. This is business news about a public company's leadership for a broad audience, not technical research. muse-compile-backfill 2026-11-16: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "eb56bfe5a6c37a38a697d4cbe9102df5b562063cdab5d36458984689786811e2"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Fortune reported that OpenAI moved robotics staff into its main research and Applied groups. OpenAI told The Boston Report the team was reorganized, not disbanded, and its work continues. Employees also disputed the shutdown framing: Scott Cory said the program, roadmap and goals were unchanged, while David Schnurr pointed to ongoing hiring. This is business news about a company's internal reorganization for a broad audience, not technical research. muse-compile-backfill 2026-11-16: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "1916c99318623b71792624979cc2f92ec2b04e43d21bb6eeff4bd7d30928116b"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-16T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "13bee4e34935053f6c360fd1",
   "replacement_batch": null,
   "checkpoint": 429,
   "checkpoint_history": [
@@ -48472,6 +48719,260 @@
           "sha256": "1916c99318623b71792624979cc2f92ec2b04e43d21bb6eeff4bd7d30928116b"
         },
         "editorial_sha256": "ec8ced450e7fd53b3f06cad16764dea8a626a2321831aa3cf67a5fab8fddd4be"
+      }
+    },
+    "muse-compile-20261116-1318-8504": {
+      "sha256": "fac53370ed95aab29857ca62f797098ef76d11683ae00a85b027f8219339398e",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "13bee4e34935053f6c360fd1",
+          "status": "prepared",
+          "checkpoint_before": 429,
+          "prepared_at": "2026-11-16T13:18:39.788994+00:00",
+          "intake_cutoff": 404,
+          "records": [
+            {
+              "id": 430,
+              "revision": 1,
+              "sha256": "e6cd07d1072fa1df1ddb77f4212e25ad6ad4c53ead9256548a960b1b47d64c0f"
+            },
+            {
+              "id": 431,
+              "revision": 2,
+              "sha256": "f059b6c2c5c3cf302881f9947c558f9159bd09dce2053b3c61955e3312dda6e3"
+            },
+            {
+              "id": 432,
+              "revision": 1,
+              "sha256": "d41860d014853836437974425c25bd8df823c91d1f8f8f632680c42fe457c0c0"
+            },
+            {
+              "id": 433,
+              "revision": 1,
+              "sha256": "110b0635263aa2edf0fe5b9072acb7994f40012c89e62dbde8a01d3d8f50769d"
+            },
+            {
+              "id": 434,
+              "revision": 1,
+              "sha256": "c500d73a1a000206c7c7603e0a04dba380aa79094ac1232cd9f89f0c928707da"
+            },
+            {
+              "id": 435,
+              "revision": 1,
+              "sha256": "7d3f5f2bc179d154a90d06b5f00f3bf6aa162275972c6b5d3be1f88b47745fc2"
+            },
+            {
+              "id": 436,
+              "revision": 1,
+              "sha256": "d0c2fcd61e1363518937b3861c1f3c4f64d8e768e14b1048dd9ab7550a250c5d"
+            },
+            {
+              "id": 437,
+              "revision": 1,
+              "sha256": "106105af2eef52a65166d1349983785cd5acf8414a559202a5733f0b60ef3742"
+            },
+            {
+              "id": 438,
+              "revision": 1,
+              "sha256": "af2a41c5ca5fa3ae47799d4f9aa862e85dde7f74add8124dc552549cc9641129"
+            },
+            {
+              "id": 439,
+              "revision": 1,
+              "sha256": "70007875f2ac9c234e1751b7f0100691889965f1131238960ab34118e9c2a2dd"
+            },
+            {
+              "id": 440,
+              "revision": 1,
+              "sha256": "4a4c8db29a8d5ab599285feb558aa70779f179167fc111865707b8e5217b6b13"
+            },
+            {
+              "id": 441,
+              "revision": 1,
+              "sha256": "33335ec88e02bc23ef6d5a83d8ca6f9f6531e92d92197b1d0be7df7a1ec3ea7f"
+            },
+            {
+              "id": 442,
+              "revision": 1,
+              "sha256": "8819ce180546cf3d7a61bbfaff91ec4c09a116280d70f38eea8a192468b0e987"
+            },
+            {
+              "id": 443,
+              "revision": 1,
+              "sha256": "5d1b5dacc8456f98f37998d1465585ac380ff5537c32d66ac9d68c7784d1b756"
+            },
+            {
+              "id": 444,
+              "revision": 1,
+              "sha256": "76fea6fba6246e2ef161f288acdafb58596c8471d544749e4dd124b0a7cc04d3"
+            },
+            {
+              "id": 445,
+              "revision": 1,
+              "sha256": "eb56bfe5a6c37a38a697d4cbe9102df5b562063cdab5d36458984689786811e2"
+            },
+            {
+              "id": 446,
+              "revision": 1,
+              "sha256": "1916c99318623b71792624979cc2f92ec2b04e43d21bb6eeff4bd7d30928116b"
+            }
+          ],
+          "first_id": 430,
+          "last_id": 446,
+          "count": 17,
+          "txt_path": "workflows/anf/batches/13bee4e34935053f6c360fd1.txt",
+          "json_path": "workflows/anf/batches/13bee4e34935053f6c360fd1.json",
+          "txt_sha256": "97f5707ba4fd5d7846c76667b77a26064bc43019eabec2734f64585554b6c70d",
+          "json_sha256": "04617f65c9c6b8976b790cff6cd95c14db2af539c345ab03000cfa3e76774be6",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer payments feature for ChatGPT dots; the summary uses everyday wording and avoids ML, API, or hardware jargon.",
+                "evidence_sha256": "b23bc9cb68074ca4c021786b864cee3c4f6ea655a05ee16f059c588ca0983f48"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Consumer product page for a proactive assistant; the summary uses everyday wording and avoids ML, API, or hardware jargon.",
+                "evidence_sha256": "27f14fe74709a1b8322586efb5ae9b126e060ef205eb722595f6bb40935441de"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "This is a Claude Code developer-tool update about a project coordinator, parallel threads, and project chat; those are developer-product terms a general reader would not know.",
+                "evidence_sha256": "44aa9f6a3e19b82e759d7d59fcc27a157b8ac81e9311f82718e98bf1de99631c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "This Antigravity post is about a coding IDE, CLI, editor extensions, and /swarm multi-agent developer tooling, which a general reader would not know.",
+                "evidence_sha256": "e31b8343a120ade50bdc5c3b9c2c99de439e0b3b18903ffb0602847acdcfb70d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "This is a Claude Code desktop feature about mods, plugins, and theming the Code tab, which a general reader would not know.",
+                "evidence_sha256": "d66547ffd3443af128236479489fec72c273ace57ba31f5d78f8850257eef401"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is an essay about AI timelines that can be summarized in everyday language without ML-training, RL, or other jargon a general reader would not know.",
+                "evidence_sha256": "873d65d907daf22e8f59ee0605a42b1d06c7453836f1da442e8541b5c0d34c39"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a consumer product feature about a bot joining video meetings, summarized in everyday language without ML, API, or hardware jargon.",
+                "evidence_sha256": "209892d2baad6bf4544ec31b58d192083e0a723144759f466db015d9c5010c04"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The post is about models writing neural-network weights and using reward-hacking tricks, which are ML-technical terms a general reader would not know.",
+                "evidence_sha256": "ff4b2fdd7d251194b67da5f215cffe842ffa86fb03f63af836de90f893d04b5c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a company reorganization story that can be summarized in everyday language without ML, API, or hardware jargon.",
+                "evidence_sha256": "b4a40bdae68d4e82222c6a3d5eb243fd52585d0f29946d73353b892833e4de34"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "The robotics results can be summarized in everyday language about a model getting better at controlling robots and posting a higher score on a public test, without ML, API, or hardware jargon.",
+                "evidence_sha256": "7645a214da3884a93eda1f6723f9571fcaea97feb067c1103e35270a4f40e443"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The item is about a text-to-speech model, its parameter count, and training on synthetic speech, which are ML-technical terms a general reader would not take as everyday language.",
+                "evidence_sha256": "b97094de96941540fc3ca2b75080dd5b90649e0789337b23374df6b2e570ae8b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a song and music-video release that can be summarized in everyday language without ML, API, or hardware jargon.",
+                "evidence_sha256": "f2c453517b51568d6f969e4320f038e4aaea26614802d06356a13cf32d6040d7"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Physics and math subject matter is not a DS trigger, and the post can be summarized in everyday language without ML-technical, developer/API, security, or hardware jargon.",
+                "evidence_sha256": "08e7306a4f47187689a2e96d49a9e1f66758b4f1e63955dba8cf8169941c043e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "V-JEPA-LM learns to read motion in video: Keuntae Kim and colleagues train video-language models on altered clips that change the correct answer, encouraging them to use motion already encoded by V-JEPA. Their 4B model averaged 72.1 across the paper's video benchmarks versus 61.1 for the strongest open 4B comparator. This is an arXiv research paper on video-language model training for a technical audience, not general business news. muse-compile-backfill 2026-11-16: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "5d1b5dacc8456f98f37998d1465585ac380ff5537c32d66ac9d68c7784d1b756"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "JVT generates video and depth directly in pixel space: Jianjun Zhou and colleagues generate video directly in pixel space with a transformer, without a pretrained autoencoder. On RealEstate10K, jointly generating color and disparity raised five-degree relative translation accuracy from 72.4% to 79.5% over their RGB-only version. This is an arXiv research paper on video generation models for a technical audience, not general business news. muse-compile-backfill 2026-11-16: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "76fea6fba6246e2ef161f288acdafb58596c8471d544749e4dd124b0a7cc04d3"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Elon Musk said he would sign a petition seeking Jensen Huang's reinstatement as Nvidia CEO. An online campaign calls for his return while an independent investigation establishes the facts. Nvidia announced Huang's resignation on November 12 and appointed finance chief Colette Kress as interim CEO while it searches for a permanent successor. This is business news about a public company's leadership for a broad audience, not technical research. muse-compile-backfill 2026-11-16: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "eb56bfe5a6c37a38a697d4cbe9102df5b562063cdab5d36458984689786811e2"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Fortune reported that OpenAI moved robotics staff into its main research and Applied groups. OpenAI told The Boston Report the team was reorganized, not disbanded, and its work continues. Employees also disputed the shutdown framing: Scott Cory said the program, roadmap and goals were unchanged, while David Schnurr pointed to ongoing hiring. This is business news about a company's internal reorganization for a broad audience, not technical research. muse-compile-backfill 2026-11-16: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "1916c99318623b71792624979cc2f92ec2b04e43d21bb6eeff4bd7d30928116b"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-16T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
