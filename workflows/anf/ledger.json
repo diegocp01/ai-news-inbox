@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1369,
-  "updated_at": "2026-11-16T12:03:26+00:00",
-  "next_id": 443,
+  "generation": 1370,
+  "updated_at": "2026-11-16T12:05:34+00:00",
+  "next_id": 445,
   "records": [
     {
       "id": 1,
@@ -5892,6 +5892,32 @@
           "sha256": "8819ce180546cf3d7a61bbfaff91ec4c09a116280d70f38eea8a192468b0e987",
           "source": "OpenAI",
           "request_id": "5b42f14b31b0c47c0a22a8def94bbcb816a819cf4d184cae44ac428fed4ada9f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 443,
+      "revisions": [
+        {
+          "created_at": "2026-11-16T12:05:34+00:00",
+          "block": "Title: V-JEPA-LM Learns to Read Motion in Video\nURL: https://arxiv.org/abs/2611.17831\nImage URL: https://arxiv.org/html/2611.17831v1/overview.png\nSummary: Keuntae Kim and colleagues train video-language models on altered clips that change the correct answer, encouraging them to use motion already encoded by V-JEPA. Their 4B model averaged 72.1 across the paper’s video benchmarks versus 61.1 for the strongest open 4B comparator. The evaluation focuses on short clips.",
+          "sha256": "5d1b5dacc8456f98f37998d1465585ac380ff5537c32d66ac9d68c7784d1b756",
+          "source": "arXiv",
+          "request_id": "5b155a031bf2b609870a5bd80d75c68e8b0f51db9613826bd2122fb28e053d1a",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 444,
+      "revisions": [
+        {
+          "created_at": "2026-11-16T12:05:34+00:00",
+          "block": "Title: JVT Generates Video and Depth Directly in Pixel Space\nURL: https://arxiv.org/abs/2611.18549\nImage URL: https://arxiv.org/html/2611.18549v1/teaser.png\nSummary: Jianjun Zhou and colleagues generate video directly in pixel space with a transformer, without a pretrained autoencoder. On RealEstate10K, jointly generating color and disparity raised five-degree relative translation accuracy from 72.4% to 79.5% over their RGB-only version. Translation remained less accurate than rotation.",
+          "sha256": "76fea6fba6246e2ef161f288acdafb58596c8471d544749e4dd124b0a7cc04d3",
+          "source": "arXiv",
+          "request_id": "5b155a031bf2b609870a5bd80d75c68e8b0f51db9613826bd2122fb28e053d1a",
           "mode": "standard"
         }
       ]
@@ -13017,13 +13043,26 @@
       ]
     },
     "5b155a031bf2b609870a5bd80d75c68e8b0f51db9613826bd2122fb28e053d1a": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-16T12:03:26+00:00",
       "received_sequence": 403,
       "expected_items": 2,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-16T12:05:34+00:00",
+      "records": [
+        {
+          "id": 443,
+          "revision": 1,
+          "sha256": "5d1b5dacc8456f98f37998d1465585ac380ff5537c32d66ac9d68c7784d1b756"
+        },
+        {
+          "id": 444,
+          "revision": 1,
+          "sha256": "76fea6fba6246e2ef161f288acdafb58596c8471d544749e4dd124b0a7cc04d3"
+        }
+      ]
     }
   },
   "batches": {
@@ -48287,6 +48326,26 @@
       "result": {
         "status": "received",
         "request_id": "5b155a031bf2b609870a5bd80d75c68e8b0f51db9613826bd2122fb28e053d1a"
+      }
+    },
+    "5b155a031bf2b609870a5bd80d75c68e8b0f51db9613826bd2122fb28e053d1a-finalize": {
+      "sha256": "82999600cbdd9982a1adea0f0728e1d844af3c0b79b8495c5245d25ef37ba27e",
+      "result": {
+        "status": "finalized",
+        "request_id": "5b155a031bf2b609870a5bd80d75c68e8b0f51db9613826bd2122fb28e053d1a",
+        "records": [
+          {
+            "id": 443,
+            "revision": 1,
+            "sha256": "5d1b5dacc8456f98f37998d1465585ac380ff5537c32d66ac9d68c7784d1b756"
+          },
+          {
+            "id": 444,
+            "revision": 1,
+            "sha256": "76fea6fba6246e2ef161f288acdafb58596c8471d544749e4dd124b0a7cc04d3"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
