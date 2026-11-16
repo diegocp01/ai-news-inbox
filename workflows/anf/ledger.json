@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1386,
-  "updated_at": "2026-11-16T18:05:16.948203+00:00",
+  "generation": 1387,
+  "updated_at": "2026-11-16T18:05:17.762435+00:00",
   "next_id": 450,
   "records": [
     {
@@ -49173,6 +49173,18 @@
         ],
         "duplicates": []
       }
+    },
+    "4049233846e73ff5da5550ef8b0783e1c5ff981ad7db133b38f834f63595415b": {
+      "sha256": "bf8cc389dba0d9ee78bf9dbb3a565ec8ff95e56145c95908e57e5674d534eba0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 449,
+          "revision": 1,
+          "sha256": "2ae6ef92f6c999e4f1e588d551419c76c26b4c13e97fcb8b9abb3c018f19553b"
+        },
+        "editorial_sha256": "d9e64d5bb1a520e79f1b68697d5784b45f51bc328ca0fc85917032363ef5176d"
+      }
     }
   },
   "migration": {
@@ -60859,6 +60871,26 @@
         "sha256": "57649616c915b84da2918108fd26a4eaf9cc5c03ce65c59da2bde1f6baf0354d",
         "reviewed_at": "2026-11-16T16:35:20.118645+00:00",
         "operation_id": "05494e266d1a07b833024df8f59522bde4f9bcfd12f911df8d232e839614516d"
+      }
+    ],
+    "449:1": [
+      {
+        "reference": {
+          "id": 449,
+          "revision": 1,
+          "sha256": "2ae6ef92f6c999e4f1e588d551419c76c26b4c13e97fcb8b9abb3c018f19553b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is an economic and usage study of how scientists use ChatGPT. It can be summarized in everyday language, and physics or science subject matter alone is not a DS trigger. The item is not about model architecture, APIs, security, or hardware.",
+            "evidence_sha256": "bdbf1d37b62db48bc3f2c1f9b3e1a93a2e576dcec03d3df1ef995dc367f28934"
+          }
+        },
+        "sha256": "d9e64d5bb1a520e79f1b68697d5784b45f51bc328ca0fc85917032363ef5176d",
+        "reviewed_at": "2026-11-16T18:05:17.762435+00:00",
+        "operation_id": "4049233846e73ff5da5550ef8b0783e1c5ff981ad7db133b38f834f63595415b"
       }
     ]
   }
