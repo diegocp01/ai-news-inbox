@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1379,
-  "updated_at": "2026-11-16T16:31:09.298390+00:00",
-  "next_id": 447,
+  "generation": 1380,
+  "updated_at": "2026-11-16T16:31:10.443091+00:00",
+  "next_id": 448,
   "records": [
     {
       "id": 1,
@@ -5947,6 +5947,19 @@
           "request_id": "0fa2b42cc437379f62b8cec53e2812819c94548db989979ac8fce300c145b38b",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 447,
+      "revisions": [
+        {
+          "created_at": "2026-11-16T16:31:10.443091+00:00",
+          "block": "Title: OpenAI Signs Four Independent Groups for Embedded Safety Assessments\nURL: https://www.techmeme.com/261116/p33\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/1KkjAzVSr4nz5D67tGCxVH/8a47206051b698db4cbdad829eff241b/embedded-assessments-neutral-023-social-revised.png?w=1600&h=900&fit=fill\nSummary: OpenAI says it has signed agreements with four independent groups, Apollo Research, METR, Transluce, and Goodfire, for its first phase of embedded assessments. The groups will get deep access to internal models and systems to check alignment and safeguards, including during training and internal use. They will be able to publish findings, though OpenAI can redact confidential information.",
+          "sha256": "770370b68ba4c392e8fd310c45a8402f345c44bb81849ac277d4d22cabdf4af1",
+          "source": "OpenAI",
+          "request_id": "d11c04bb54dbda975321b2ede2b68a581dce51a366c88855abaabb125b7f25f1",
+          "mode": "standard"
         }
       ]
     }
@@ -13116,13 +13129,21 @@
       ]
     },
     "d11c04bb54dbda975321b2ede2b68a581dce51a366c88855abaabb125b7f25f1": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-16T16:31:09.298390+00:00",
       "received_sequence": 405,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-16T16:31:10.443091+00:00",
+      "records": [
+        {
+          "id": 447,
+          "revision": 1,
+          "sha256": "770370b68ba4c392e8fd310c45a8402f345c44bb81849ac277d4d22cabdf4af1"
+        }
+      ]
     }
   },
   "batches": {
@@ -49008,6 +49029,21 @@
       "result": {
         "status": "received",
         "request_id": "d11c04bb54dbda975321b2ede2b68a581dce51a366c88855abaabb125b7f25f1"
+      }
+    },
+    "4b9d8df6e4e18e6f630c0d44a7b9654fc7acce28a17f500fa95c943e1cae6974": {
+      "sha256": "6238036eb1937561ddd3f4a5ddab0d01bc800b7b66015aa14798117c897d2456",
+      "result": {
+        "status": "finalized",
+        "request_id": "d11c04bb54dbda975321b2ede2b68a581dce51a366c88855abaabb125b7f25f1",
+        "records": [
+          {
+            "id": 447,
+            "revision": 1,
+            "sha256": "770370b68ba4c392e8fd310c45a8402f345c44bb81849ac277d4d22cabdf4af1"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
