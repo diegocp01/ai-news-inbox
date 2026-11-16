@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1391,
-  "updated_at": "2026-11-16T23:44:06.746115+00:00",
-  "next_id": 451,
+  "generation": 1392,
+  "updated_at": "2026-11-16T23:44:07.597129+00:00",
+  "next_id": 452,
   "records": [
     {
       "id": 1,
@@ -5998,6 +5998,19 @@
           "sha256": "82c8b2fc77f21e655be0b6d30c1f56948234dac43065b5c6e5a5b6e31d5bb9aa",
           "source": "OpenAI",
           "request_id": "85e6b1aba16c8a975186afc65bdbd9fb0487b7c0d61e87ca3f73842e06c206b9",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 451,
+      "revisions": [
+        {
+          "created_at": "2026-11-16T23:44:07.597129+00:00",
+          "block": "Title: Google Says It Has Seen Autonomous LLM Frameworks Turn Patches Into Exploits\nURL: https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gtig-ai-threat-tracker-q4-2026/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Threat_Tracker.max-1440x810.jpg\nSummary: Google Threat Intelligence Group says it has, for the first time, seen attackers use LLM frameworks to scan software updates, identify newly patched flaws, and automatically build and run exploits. Google is offering Google AI Threat Defense, combining Gemini and other frontier models with Wiz, CodeMender, and Mandiant to find and fix flaws before attackers exploit them.",
+          "sha256": "8aa5dce3b90b6808623028df598f0e21647453edeaf27503f48b6bab7cc74c87",
+          "source": "Google",
+          "request_id": "40cdb3cf707a1df11858ff43bce0c94376ae3d45e68c40f5a55c767de5cc97b5",
           "mode": "standard"
         }
       ]
@@ -13236,13 +13249,21 @@
       ]
     },
     "40cdb3cf707a1df11858ff43bce0c94376ae3d45e68c40f5a55c767de5cc97b5": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-16T23:44:06.746115+00:00",
       "received_sequence": 409,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-16T23:44:07.597129+00:00",
+      "records": [
+        {
+          "id": 451,
+          "revision": 1,
+          "sha256": "8aa5dce3b90b6808623028df598f0e21647453edeaf27503f48b6bab7cc74c87"
+        }
+      ]
     }
   },
   "batches": {
@@ -49264,6 +49285,21 @@
       "result": {
         "status": "received",
         "request_id": "40cdb3cf707a1df11858ff43bce0c94376ae3d45e68c40f5a55c767de5cc97b5"
+      }
+    },
+    "1b62c93291ba393abfe4675eaf9b10b1b095008661baaa24818140e98c21db95": {
+      "sha256": "17e929bcd255c087ee21bf84e0da94f059a9498847d4cd030c09bd18343eb94d",
+      "result": {
+        "status": "finalized",
+        "request_id": "40cdb3cf707a1df11858ff43bce0c94376ae3d45e68c40f5a55c767de5cc97b5",
+        "records": [
+          {
+            "id": 451,
+            "revision": 1,
+            "sha256": "8aa5dce3b90b6808623028df598f0e21647453edeaf27503f48b6bab7cc74c87"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
