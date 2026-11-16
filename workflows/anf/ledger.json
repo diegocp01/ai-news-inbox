@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1372,
-  "updated_at": "2026-11-16T12:45:19.542345+00:00",
+  "generation": 1376,
+  "updated_at": "2026-11-16T13:18:22.478681+00:00",
   "next_id": 447,
   "records": [
     {
@@ -48425,6 +48425,54 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261116-443-8594": {
+      "sha256": "21dc6eaf7a731c4fe0016880ec0c363e6c194e05b38195c331f4d35064907c91",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 443,
+          "revision": 1,
+          "sha256": "5d1b5dacc8456f98f37998d1465585ac380ff5537c32d66ac9d68c7784d1b756"
+        },
+        "editorial_sha256": "e163e2f6856645508a70561b4f0d4a5cc02e91700b463b88a880949e3d0f56d3"
+      }
+    },
+    "muse-backfill-20261116-444-9925": {
+      "sha256": "81eaa563c5b580ddfca8494105ca6b699708fa78c60406c8b921e440448b2fad",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 444,
+          "revision": 1,
+          "sha256": "76fea6fba6246e2ef161f288acdafb58596c8471d544749e4dd124b0a7cc04d3"
+        },
+        "editorial_sha256": "cd0d9f099d27123beb16db113d45f69faea8906b7164bc2cebbb2c071cae51e2"
+      }
+    },
+    "muse-backfill-20261116-445-3180": {
+      "sha256": "d280cd9c3f3992029eacb65dc083437c1eed2cd276be73529eda8577cc328014",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 445,
+          "revision": 1,
+          "sha256": "eb56bfe5a6c37a38a697d4cbe9102df5b562063cdab5d36458984689786811e2"
+        },
+        "editorial_sha256": "9b5829f39e31a3972c3c2ec9b15dc3c1315785265b6a11a58e355d520ebd71aa"
+      }
+    },
+    "muse-backfill-20261116-446-4716": {
+      "sha256": "bfc3b56a4c26c13e5fc2be5f5f4931087723bac5a42b5f556a6c216a18db5ca1",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 446,
+          "revision": 1,
+          "sha256": "1916c99318623b71792624979cc2f92ec2b04e43d21bb6eeff4bd7d30928116b"
+        },
+        "editorial_sha256": "ec8ced450e7fd53b3f06cad16764dea8a626a2321831aa3cf67a5fab8fddd4be"
+      }
     }
   },
   "migration": {
@@ -59991,6 +60039,86 @@
         "sha256": "97820634978f9c37d328468d3421bf04fcef6cfd7b26b1cebd0428d8efd76be9",
         "reviewed_at": "2026-11-16T00:52:31.602291+00:00",
         "operation_id": "b875040ddac13b2b4a10695f3319cb0f8af15be349458e8f73e93ab7b8a5d7f0"
+      }
+    ],
+    "443:1": [
+      {
+        "reference": {
+          "id": 443,
+          "revision": 1,
+          "sha256": "5d1b5dacc8456f98f37998d1465585ac380ff5537c32d66ac9d68c7784d1b756"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "V-JEPA-LM learns to read motion in video: Keuntae Kim and colleagues train video-language models on altered clips that change the correct answer, encouraging them to use motion already encoded by V-JEPA. Their 4B model averaged 72.1 across the paper's video benchmarks versus 61.1 for the strongest open 4B comparator. This is an arXiv research paper on video-language model training for a technical audience, not general business news. muse-compile-backfill 2026-11-16: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "5d1b5dacc8456f98f37998d1465585ac380ff5537c32d66ac9d68c7784d1b756"
+          }
+        },
+        "sha256": "e163e2f6856645508a70561b4f0d4a5cc02e91700b463b88a880949e3d0f56d3",
+        "reviewed_at": "2026-11-16T13:18:21.893304+00:00",
+        "operation_id": "muse-backfill-20261116-443-8594"
+      }
+    ],
+    "444:1": [
+      {
+        "reference": {
+          "id": 444,
+          "revision": 1,
+          "sha256": "76fea6fba6246e2ef161f288acdafb58596c8471d544749e4dd124b0a7cc04d3"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "JVT generates video and depth directly in pixel space: Jianjun Zhou and colleagues generate video directly in pixel space with a transformer, without a pretrained autoencoder. On RealEstate10K, jointly generating color and disparity raised five-degree relative translation accuracy from 72.4% to 79.5% over their RGB-only version. This is an arXiv research paper on video generation models for a technical audience, not general business news. muse-compile-backfill 2026-11-16: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "76fea6fba6246e2ef161f288acdafb58596c8471d544749e4dd124b0a7cc04d3"
+          }
+        },
+        "sha256": "cd0d9f099d27123beb16db113d45f69faea8906b7164bc2cebbb2c071cae51e2",
+        "reviewed_at": "2026-11-16T13:18:22.094068+00:00",
+        "operation_id": "muse-backfill-20261116-444-9925"
+      }
+    ],
+    "445:1": [
+      {
+        "reference": {
+          "id": 445,
+          "revision": 1,
+          "sha256": "eb56bfe5a6c37a38a697d4cbe9102df5b562063cdab5d36458984689786811e2"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Elon Musk said he would sign a petition seeking Jensen Huang's reinstatement as Nvidia CEO. An online campaign calls for his return while an independent investigation establishes the facts. Nvidia announced Huang's resignation on November 12 and appointed finance chief Colette Kress as interim CEO while it searches for a permanent successor. This is business news about a public company's leadership for a broad audience, not technical research. muse-compile-backfill 2026-11-16: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "eb56bfe5a6c37a38a697d4cbe9102df5b562063cdab5d36458984689786811e2"
+          }
+        },
+        "sha256": "9b5829f39e31a3972c3c2ec9b15dc3c1315785265b6a11a58e355d520ebd71aa",
+        "reviewed_at": "2026-11-16T13:18:22.287429+00:00",
+        "operation_id": "muse-backfill-20261116-445-3180"
+      }
+    ],
+    "446:1": [
+      {
+        "reference": {
+          "id": 446,
+          "revision": 1,
+          "sha256": "1916c99318623b71792624979cc2f92ec2b04e43d21bb6eeff4bd7d30928116b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Fortune reported that OpenAI moved robotics staff into its main research and Applied groups. OpenAI told The Boston Report the team was reorganized, not disbanded, and its work continues. Employees also disputed the shutdown framing: Scott Cory said the program, roadmap and goals were unchanged, while David Schnurr pointed to ongoing hiring. This is business news about a company's internal reorganization for a broad audience, not technical research. muse-compile-backfill 2026-11-16: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "1916c99318623b71792624979cc2f92ec2b04e43d21bb6eeff4bd7d30928116b"
+          }
+        },
+        "sha256": "ec8ced450e7fd53b3f06cad16764dea8a626a2321831aa3cf67a5fab8fddd4be",
+        "reviewed_at": "2026-11-16T13:18:22.478681+00:00",
+        "operation_id": "muse-backfill-20261116-446-4716"
       }
     ]
   }
