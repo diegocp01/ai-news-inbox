@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1388,
-  "updated_at": "2026-11-16T20:13:15.421915+00:00",
-  "next_id": 450,
+  "generation": 1389,
+  "updated_at": "2026-11-16T20:13:16.214643+00:00",
+  "next_id": 451,
   "records": [
     {
       "id": 1,
@@ -5985,6 +5985,19 @@
           "sha256": "2ae6ef92f6c999e4f1e588d551419c76c26b4c13e97fcb8b9abb3c018f19553b",
           "source": "OpenAI",
           "request_id": "31f5ceb4743db7855b6e6f773a7d6174c8f51914f9e47e0d38dc6989048a57c1",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 450,
+      "revisions": [
+        {
+          "created_at": "2026-11-16T20:13:16.214643+00:00",
+          "block": "Title: OpenAI Advances Computer-Use Agents for Healthcare Teams\nURL: https://www.fiercehealthcare.com/ai-and-machine-learning/hlth26-cvs-health-cigna-and-ambience-collaborating-openai-test-computer-use\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/JEPsGb10RBI3TRoCF2MGd/07abdbf116e0a370e7e20edddca5e96b/advancing-computer-use-for-healthcare-teams-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI is advancing computer-use agents that click, type, and move between healthcare applications, working with Abridge, Ambience, Cigna Healthcare, and CVS Health on authorizations, referrals, and related workflows. The tools are available through the OpenAI API, ChatGPT for Healthcare, and ChatGPT for Clinicians. In OpenAI's evaluation, GPT-6 Astra was rated safe on 99% of 325 reviewed EHR inbox tasks.",
+          "sha256": "82c8b2fc77f21e655be0b6d30c1f56948234dac43065b5c6e5a5b6e31d5bb9aa",
+          "source": "OpenAI",
+          "request_id": "85e6b1aba16c8a975186afc65bdbd9fb0487b7c0d61e87ca3f73842e06c206b9",
           "mode": "standard"
         }
       ]
@@ -13206,13 +13219,21 @@
       ]
     },
     "85e6b1aba16c8a975186afc65bdbd9fb0487b7c0d61e87ca3f73842e06c206b9": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-16T20:13:15.421915+00:00",
       "received_sequence": 408,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-16T20:13:16.214643+00:00",
+      "records": [
+        {
+          "id": 450,
+          "revision": 1,
+          "sha256": "82c8b2fc77f21e655be0b6d30c1f56948234dac43065b5c6e5a5b6e31d5bb9aa"
+        }
+      ]
     }
   },
   "batches": {
@@ -49200,6 +49221,21 @@
       "result": {
         "status": "received",
         "request_id": "85e6b1aba16c8a975186afc65bdbd9fb0487b7c0d61e87ca3f73842e06c206b9"
+      }
+    },
+    "abca552096a1464cbd7b79898fc8c6842a6e10ac12920135c44a6909a59866bd": {
+      "sha256": "bac1483c4b26ec354416b6c8ee39dc3a3cce778546f9a0fff7af2f8b89c51198",
+      "result": {
+        "status": "finalized",
+        "request_id": "85e6b1aba16c8a975186afc65bdbd9fb0487b7c0d61e87ca3f73842e06c206b9",
+        "records": [
+          {
+            "id": 450,
+            "revision": 1,
+            "sha256": "82c8b2fc77f21e655be0b6d30c1f56948234dac43065b5c6e5a5b6e31d5bb9aa"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
