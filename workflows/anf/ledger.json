@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1389,
-  "updated_at": "2026-11-16T20:13:16.214643+00:00",
+  "generation": 1390,
+  "updated_at": "2026-11-16T20:13:16.924659+00:00",
   "next_id": 451,
   "records": [
     {
@@ -49237,6 +49237,18 @@
         ],
         "duplicates": []
       }
+    },
+    "1f91499fe0f895c6b6b52ae5b93a022572e4dffb58b56756341454615cd0623a": {
+      "sha256": "9052f6c984bf8829f1300528e76df3948b8dd5c9d1bd0933e4f26776cc317623",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 450,
+          "revision": 1,
+          "sha256": "82c8b2fc77f21e655be0b6d30c1f56948234dac43065b5c6e5a5b6e31d5bb9aa"
+        },
+        "editorial_sha256": "dbc2f9d573cf2341f34745fcadfe22080ac6778a3e20e4d90546b00684dd6f73"
+      }
     }
   },
   "migration": {
@@ -60943,6 +60955,26 @@
         "sha256": "d9e64d5bb1a520e79f1b68697d5784b45f51bc328ca0fc85917032363ef5176d",
         "reviewed_at": "2026-11-16T18:05:17.762435+00:00",
         "operation_id": "4049233846e73ff5da5550ef8b0783e1c5ff981ad7db133b38f834f63595415b"
+      }
+    ],
+    "450:1": [
+      {
+        "reference": {
+          "id": 450,
+          "revision": 1,
+          "sha256": "82c8b2fc77f21e655be0b6d30c1f56948234dac43065b5c6e5a5b6e31d5bb9aa"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "This is a product and API rollout of computer-use agents for healthcare, with model evaluations, HIPAA and audit-log controls, and partner deployments, which are developer/API, ML-technical, and security terms.",
+            "evidence_sha256": "ddd0375a21848601cea1e8b36271a8c3e108aa1502af7956aaab1fc84878c9fd"
+          }
+        },
+        "sha256": "dbc2f9d573cf2341f34745fcadfe22080ac6778a3e20e4d90546b00684dd6f73",
+        "reviewed_at": "2026-11-16T20:13:16.924659+00:00",
+        "operation_id": "1f91499fe0f895c6b6b52ae5b93a022572e4dffb58b56756341454615cd0623a"
       }
     ]
   }
