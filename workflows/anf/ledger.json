@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1367,
-  "updated_at": "2026-11-16T00:52:30.802613+00:00",
+  "generation": 1368,
+  "updated_at": "2026-11-16T00:52:31.602291+00:00",
   "next_id": 443,
   "records": [
     {
@@ -48260,6 +48260,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b875040ddac13b2b4a10695f3319cb0f8af15be349458e8f73e93ab7b8a5d7f0": {
+      "sha256": "01ab2c769bda89e7f1681c22ead4cd47b705502cd4b82e16586d69d52c4cb2b2",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 442,
+          "revision": 1,
+          "sha256": "8819ce180546cf3d7a61bbfaff91ec4c09a116280d70f38eea8a192468b0e987"
+        },
+        "editorial_sha256": "97820634978f9c37d328468d3421bf04fcef6cfd7b26b1cebd0428d8efd76be9"
+      }
     }
   },
   "migration": {
@@ -59806,6 +59818,26 @@
         "sha256": "97138d4563c218965530fc2c42c114e2549bc1b700509f7a776912b1c940948e",
         "reviewed_at": "2026-11-15T17:24:17.298237+00:00",
         "operation_id": "9eb9afe69f218a271de963ab01fb737ebbd96667af309c71153c069a10a4b1e8"
+      }
+    ],
+    "442:1": [
+      {
+        "reference": {
+          "id": 442,
+          "revision": 1,
+          "sha256": "8819ce180546cf3d7a61bbfaff91ec4c09a116280d70f38eea8a192468b0e987"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Physics and math subject matter is not a DS trigger, and the post can be summarized in everyday language without ML-technical, developer/API, security, or hardware jargon.",
+            "evidence_sha256": "08e7306a4f47187689a2e96d49a9e1f66758b4f1e63955dba8cf8169941c043e"
+          }
+        },
+        "sha256": "97820634978f9c37d328468d3421bf04fcef6cfd7b26b1cebd0428d8efd76be9",
+        "reviewed_at": "2026-11-16T00:52:31.602291+00:00",
+        "operation_id": "b875040ddac13b2b4a10695f3319cb0f8af15be349458e8f73e93ab7b8a5d7f0"
       }
     ]
   }
