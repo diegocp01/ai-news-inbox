@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1405,
-  "updated_at": "2026-11-17T13:15:14.405480+00:00",
-  "next_id": 457,
+  "generation": 1406,
+  "updated_at": "2026-11-17T13:15:15.311682+00:00",
+  "next_id": 458,
   "records": [
     {
       "id": 1,
@@ -6080,6 +6080,19 @@
           "request_id": "8486b282872fdd333e489056fc23db5b215a04b389d04120e13e63d0e257a87b",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 457,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T13:15:15.311682+00:00",
+          "block": "Title: Meta Publishes a Chrome Extension for Its Muse AI Agent\nURL: https://chromewebstore.google.com/detail/muse-from-meta/jnakhhjmpmoohbjgfccbccfoifnmbdjd\nImage URL: https://lh3.googleusercontent.com/PmXow9UDtsKrC0RMGLwcdqRA8_y_LoUytmkKU5TT0mrKb_nvEfwbqC-M4IKohLYLIblLZw03wG2nwa9oY_PtyZvy=s1280-w1280-h800\nSummary: Meta has published a Chrome extension called Muse from Meta on the Chrome Web Store. The listing, offered by Meta and updated November 16, 2026, says it opens Muse in Chrome's side panel so people can continue conversations and hand off tasks such as filling out forms and comparing prices, approving actions before they happen.",
+          "sha256": "a0e15d84ddd8757f0d78adb2df547d2456fcce64e34d20133f83ce9dc93daa6a",
+          "source": "Meta",
+          "request_id": "fa7e81297014842e6349e7570b5bc145013382be9f1e7d8cb5996baa85c40d7c",
+          "mode": "standard"
         }
       ]
     }
@@ -13396,13 +13409,21 @@
       ]
     },
     "fa7e81297014842e6349e7570b5bc145013382be9f1e7d8cb5996baa85c40d7c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-17T13:15:14.405480+00:00",
       "received_sequence": 413,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-17T13:15:15.311682+00:00",
+      "records": [
+        {
+          "id": 457,
+          "revision": 1,
+          "sha256": "a0e15d84ddd8757f0d78adb2df547d2456fcce64e34d20133f83ce9dc93daa6a"
+        }
+      ]
     }
   },
   "batches": {
@@ -49594,6 +49615,21 @@
       "result": {
         "status": "received",
         "request_id": "fa7e81297014842e6349e7570b5bc145013382be9f1e7d8cb5996baa85c40d7c"
+      }
+    },
+    "f31f6d956a80578cc6d3698cb6597f43c9acb7cd825febad3e826c03fc58acc1": {
+      "sha256": "dcd123a509c365c7f24f06b334bce8831b6e3a92ef55d8808463db24d14c0b16",
+      "result": {
+        "status": "finalized",
+        "request_id": "fa7e81297014842e6349e7570b5bc145013382be9f1e7d8cb5996baa85c40d7c",
+        "records": [
+          {
+            "id": 457,
+            "revision": 1,
+            "sha256": "a0e15d84ddd8757f0d78adb2df547d2456fcce64e34d20133f83ce9dc93daa6a"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
