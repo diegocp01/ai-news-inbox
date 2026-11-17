@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1426,
-  "updated_at": "2026-11-17T17:15:30.723157+00:00",
-  "next_id": 462,
+  "generation": 1427,
+  "updated_at": "2026-11-17T17:15:31.578054+00:00",
+  "next_id": 463,
   "records": [
     {
       "id": 1,
@@ -6144,6 +6144,19 @@
           "sha256": "461ea4682231a99d6c4fe58a7799a84d96afac095a91de4089c2438677c7aacd",
           "source": "Google",
           "request_id": "80137f26c385eb36ba173be0f1bb7ba1a35945c7ce546e8c55f9066c4abc9f7f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 462,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T17:15:31.578054+00:00",
+          "block": "Title: Perplexity Rolls Out Multiagent, a New Effort Level in Computer and Teammates\nURL: \nImage URL: https://anaxvaojmxbbluwefvce.supabase.co/storage/v1/object/public/media/og/perplexity-rolls-out-multiagent-effort-level-in-computer-and-teammates-ae2cca-16x9-rmwkxooua.png\nSummary: Perplexity is rolling out Multiagent, a new effort level above Ultra in Computer and Teammates. A lead agent can assign up to 16 agents on different frontier models that work in parallel, share findings, and check each other's work. It is available to Max and Enterprise Max subscribers on the web, and Perplexity says it is credit-intensive.",
+          "sha256": "7e41b3fdbd45581f2209e89c21bc329ceac0e540a9156e965136e1a284a2b1a4",
+          "source": "Perplexity",
+          "request_id": "5468a82d4398dc6607dbfacc4dfed7548d8e3914455a86a10e6118b565817d99",
           "mode": "standard"
         }
       ]
@@ -13546,13 +13559,21 @@
       ]
     },
     "5468a82d4398dc6607dbfacc4dfed7548d8e3914455a86a10e6118b565817d99": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-17T17:15:30.723157+00:00",
       "received_sequence": 418,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-17T17:15:31.578054+00:00",
+      "records": [
+        {
+          "id": 462,
+          "revision": 1,
+          "sha256": "7e41b3fdbd45581f2209e89c21bc329ceac0e540a9156e965136e1a284a2b1a4"
+        }
+      ]
     }
   },
   "batches": {
@@ -50372,6 +50393,21 @@
       "result": {
         "status": "received",
         "request_id": "5468a82d4398dc6607dbfacc4dfed7548d8e3914455a86a10e6118b565817d99"
+      }
+    },
+    "3eaee7a62e31ec9a69ca90c4d27581f0a51a82dd9232cb7a3fc1c887e8e3769e": {
+      "sha256": "c1bf29c47a40deac6677437d5262f1332fad27e1336e266ccb93894eec122098",
+      "result": {
+        "status": "finalized",
+        "request_id": "5468a82d4398dc6607dbfacc4dfed7548d8e3914455a86a10e6118b565817d99",
+        "records": [
+          {
+            "id": 462,
+            "revision": 1,
+            "sha256": "7e41b3fdbd45581f2209e89c21bc329ceac0e540a9156e965136e1a284a2b1a4"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
