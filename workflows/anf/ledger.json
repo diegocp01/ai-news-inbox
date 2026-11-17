@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1400,
-  "updated_at": "2026-11-17T12:39:05.390859+00:00",
-  "next_id": 454,
+  "generation": 1401,
+  "updated_at": "2026-11-17T12:59:37.311676+00:00",
+  "next_id": 457,
   "records": [
     {
       "id": 1,
@@ -6038,6 +6038,48 @@
           "source": "Reuters",
           "request_id": "muse-intake-20261116-bonta-openai-lawsuit",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 454,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T12:59:37.311676+00:00",
+          "block": "Title: California Sues OpenAI Over AI Agent Security Incidents\nURL: https://www.oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over\nImage URL: https://cms.therecord.media/uploads/large_sam_altman_wef_flickr53470643027_5e36f13b10_o_25656afdee.jpg\nSummary: California sued OpenAI over the July Hugging Face cyberattack, alleging inadequate safeguards and more than 80 incidents in which it lost control of AI agents during testing. The state seeks stronger safeguards and civil penalties. OpenAI says it strengthened protections, published reports and engaged with Bonta’s office, and argues the lawsuit singles it out over an industrywide challenge.",
+          "sha256": "340baf0342a3f8d6d7bfbcaa8efeffff2404ab875e1cdf1e5d2e03a00ffea4ab",
+          "source": "oag.ca.gov",
+          "request_id": "8486b282872fdd333e489056fc23db5b215a04b389d04120e13e63d0e257a87b",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 455,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T12:59:37.311676+00:00",
+          "block": "Title: U.S. Reportedly Plans AI National Champions Designations\nURL: https://www.wsj.com/tech/ai/trump-administration-to-name-nvidia-among-ai-national-champions-c9284344\nImage URL: https://images.wsj.net/im-77892472?height=466&width=700\nSummary: The Trump administration plans to designate more than two dozen AI companies, including Nvidia, as “national champions” to help them win overseas business, The Wall Street Journal reports. Commerce says its AI export program supports packages combining U.S. technology, with potential benefits including government advocacy, access to federal financing and faster export licensing reviews.",
+          "sha256": "0cde0ddaaeadc0b457ab4cbf01714daba006628523e2999825c2bfd4fb670408",
+          "source": "wsj.com",
+          "request_id": "8486b282872fdd333e489056fc23db5b215a04b389d04120e13e63d0e257a87b",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 456,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T12:59:37.311676+00:00",
+          "block": "Title: OpenAI Study Examines How Scientists Use ChatGPT\nURL: https://news.sulat.com/2026/11/17/openai-scientists-chatgpt-study/\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/r0NQL0JSQTS1Kzvpq9Fqm/6b10f87bd44e394bb04737e1ca00b017/science-at-the-frontier-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI analyzed ChatGPT use by 1,819 scientists in its academic pilot. In a survey of 251 participants, researchers estimated the same work at the same quality would take 1.9 times as long without AI. OpenAI says applications for 50,000 grants providing eligible researchers free ChatGPT Plus access open November 23, 2026.",
+          "sha256": "ae44aa234f776a3fc703759b41f3e69347dc4d367186a8e1d3bb406c35c09b1f",
+          "source": "news.sulat.com",
+          "request_id": "8486b282872fdd333e489056fc23db5b215a04b389d04120e13e63d0e257a87b",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -13326,14 +13368,32 @@
       ]
     },
     "8486b282872fdd333e489056fc23db5b215a04b389d04120e13e63d0e257a87b": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-17T12:39:05.390859+00:00",
       "received_sequence": 412,
       "expected_items": 3,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-17T12:59:37.311676+00:00",
+      "records": [
+        {
+          "id": 454,
+          "revision": 1,
+          "sha256": "340baf0342a3f8d6d7bfbcaa8efeffff2404ab875e1cdf1e5d2e03a00ffea4ab"
+        },
+        {
+          "id": 455,
+          "revision": 1,
+          "sha256": "0cde0ddaaeadc0b457ab4cbf01714daba006628523e2999825c2bfd4fb670408"
+        },
+        {
+          "id": 456,
+          "revision": 1,
+          "sha256": "ae44aa234f776a3fc703759b41f3e69347dc4d367186a8e1d3bb406c35c09b1f"
+        }
+      ]
     }
   },
   "batches": {
@@ -49457,6 +49517,31 @@
       "result": {
         "status": "received",
         "request_id": "8486b282872fdd333e489056fc23db5b215a04b389d04120e13e63d0e257a87b"
+      }
+    },
+    "8f08be7bb31dfc7b382faaf6ec6e3b46fb616b72e267e55f5041fe514d25992f": {
+      "sha256": "d8fcd787b87ecdb548253e42d4bdee1da2f2e9e4157aad7cbeeb64da404813ab",
+      "result": {
+        "status": "finalized",
+        "request_id": "8486b282872fdd333e489056fc23db5b215a04b389d04120e13e63d0e257a87b",
+        "records": [
+          {
+            "id": 454,
+            "revision": 1,
+            "sha256": "340baf0342a3f8d6d7bfbcaa8efeffff2404ab875e1cdf1e5d2e03a00ffea4ab"
+          },
+          {
+            "id": 455,
+            "revision": 1,
+            "sha256": "0cde0ddaaeadc0b457ab4cbf01714daba006628523e2999825c2bfd4fb670408"
+          },
+          {
+            "id": 456,
+            "revision": 1,
+            "sha256": "ae44aa234f776a3fc703759b41f3e69347dc4d367186a8e1d3bb406c35c09b1f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
