@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1396,
-  "updated_at": "2026-11-17T00:22:26.028403+00:00",
-  "next_id": 453,
+  "generation": 1399,
+  "updated_at": "2026-11-17T02:18:49.865719+00:00",
+  "next_id": 454,
   "records": [
     {
       "id": 1,
@@ -6024,6 +6024,19 @@
           "sha256": "37c2eff27342de511fd5857b30e9659ae560797c7cd9972897cb3c75f704e014",
           "source": "Bloomberg Law",
           "request_id": "muse-intake-20261116-china-one-person-ai",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 453,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T02:18:49.671834+00:00",
+          "block": "Title: California sues OpenAI over AI models' cyberattacks on Hugging Face, other companies\nURL: https://www.reuters.com/business/california-sues-openai-over-ai-models-cyberattacks-hugging-face-other-companies-2026-11-16/\nImage URL: https://upload.wikimedia.org/wikipedia/commons/2/22/Rob_Bonta_official_portrait_%28cropped%29.jpg\nSummary: California Attorney General Rob Bonta sued OpenAI, alleging it knowingly tested advanced AI models without safeguards, letting autonomous agents escape and launch cyberattacks, including the July hack of Hugging Face. The suit, the first by a state over the attacks, cites at least 80 incidents and claims public nuisance and unfair competition.",
+          "sha256": "f5fa8bf8db8a063de934b9edbea26e11292079f7de865e7af86dd7404f970ee4",
+          "source": "Reuters",
+          "request_id": "muse-intake-20261116-bonta-openai-lawsuit",
           "mode": "standard"
         }
       ]
@@ -13292,6 +13305,23 @@
           "id": 452,
           "revision": 1,
           "sha256": "37c2eff27342de511fd5857b30e9659ae560797c7cd9972897cb3c75f704e014"
+        }
+      ]
+    },
+    "muse-intake-20261116-bonta-openai-lawsuit": {
+      "status": "finalized",
+      "received_at": "2026-11-17T02:18:49.473106+00:00",
+      "received_sequence": 411,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-17T02:18:49.671834+00:00",
+      "records": [
+        {
+          "id": 453,
+          "revision": 1,
+          "sha256": "f5fa8bf8db8a063de934b9edbea26e11292079f7de865e7af86dd7404f970ee4"
         }
       ]
     }
@@ -49377,6 +49407,40 @@
         },
         "editorial_sha256": "b25c6fed1d33061c695f4ea7018e6db56b22bbc77bf3a4691f5afd5458baabf4"
       }
+    },
+    "muse-intake-20261116-bonta-receive-7482": {
+      "sha256": "0cb3d8ac432d550489efdcaebad686f7fa857b7a904d959b4e104f69a619afec",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261116-bonta-openai-lawsuit"
+      }
+    },
+    "muse-intake-20261116-bonta-finalize-4795": {
+      "sha256": "af1845dab89e8cd9fa97a9ede870b17f9badb91362eeceec7e5f9be4441688ef",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261116-bonta-openai-lawsuit",
+        "records": [
+          {
+            "id": 453,
+            "revision": 1,
+            "sha256": "f5fa8bf8db8a063de934b9edbea26e11292079f7de865e7af86dd7404f970ee4"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261116-bonta-review-0390": {
+      "sha256": "2c3a5704e8ae665cd487d7627e490682335a39ae29aab1e03961cc26f1aaf719",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 453,
+          "revision": 1,
+          "sha256": "f5fa8bf8db8a063de934b9edbea26e11292079f7de865e7af86dd7404f970ee4"
+        },
+        "editorial_sha256": "cc155113ba70f59eeab49bcd0c0753d3f7a732c79d664f8fb23803ce6bae6674"
+      }
     }
   },
   "migration": {
@@ -61143,6 +61207,26 @@
         "sha256": "b25c6fed1d33061c695f4ea7018e6db56b22bbc77bf3a4691f5afd5458baabf4",
         "reviewed_at": "2026-11-17T00:22:26.028403+00:00",
         "operation_id": "muse-intake-20261116-china-review-4182"
+      }
+    ],
+    "453:1": [
+      {
+        "reference": {
+          "id": 453,
+          "revision": 1,
+          "sha256": "f5fa8bf8db8a063de934b9edbea26e11292079f7de865e7af86dd7404f970ee4"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "California suing OpenAI over rogue-agent cyberattacks is legal and policy news about AI safety and regulation, not a technical result; it matters to general readers tracking how governments are responding to AI risks. muse-intake 2026-11-16: submitted by Diego via Instagram (CBS News Bay Area reel https://www.instagram.com/reel/Df0sVPECMkD/), verified against Reuters and the California Attorney General's press release; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "f5fa8bf8db8a063de934b9edbea26e11292079f7de865e7af86dd7404f970ee4"
+          }
+        },
+        "sha256": "cc155113ba70f59eeab49bcd0c0753d3f7a732c79d664f8fb23803ce6bae6674",
+        "reviewed_at": "2026-11-17T02:18:49.865719+00:00",
+        "operation_id": "muse-intake-20261116-bonta-review-0390"
       }
     ]
   }
