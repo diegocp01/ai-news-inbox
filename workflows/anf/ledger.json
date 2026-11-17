@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1393,
-  "updated_at": "2026-11-16T23:44:08.456839+00:00",
-  "next_id": 452,
+  "generation": 1396,
+  "updated_at": "2026-11-17T00:22:26.028403+00:00",
+  "next_id": 453,
   "records": [
     {
       "id": 1,
@@ -6011,6 +6011,19 @@
           "sha256": "8aa5dce3b90b6808623028df598f0e21647453edeaf27503f48b6bab7cc74c87",
           "source": "Google",
           "request_id": "40cdb3cf707a1df11858ff43bce0c94376ae3d45e68c40f5a55c767de5cc97b5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 452,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T00:22:25.822521+00:00",
+          "block": "Title: How China's Push to Create AI Entrepreneurs Looks on the Ground\nURL: https://news.bloomberglaw.com/artificial-intelligence/how-chinas-push-to-create-ai-entrepreneurs-looks-on-the-ground\nImage URL: https://threatbeat.com/app/uploads/2026/10/91157-1888x1259.jpg\nSummary: China's government is pushing citizens to become AI entrepreneurs, with local governments building incubators and offering subsidies for AI-fueled one-person companies. The drive follows the State Council's goal of global AI leadership by 2030 and comes amid high youth unemployment, though fierce competition is already squeezing the new solo founders.",
+          "sha256": "37c2eff27342de511fd5857b30e9659ae560797c7cd9972897cb3c75f704e014",
+          "source": "Bloomberg Law",
+          "request_id": "muse-intake-20261116-china-one-person-ai",
           "mode": "standard"
         }
       ]
@@ -13262,6 +13275,23 @@
           "id": 451,
           "revision": 1,
           "sha256": "8aa5dce3b90b6808623028df598f0e21647453edeaf27503f48b6bab7cc74c87"
+        }
+      ]
+    },
+    "muse-intake-20261116-china-one-person-ai": {
+      "status": "finalized",
+      "received_at": "2026-11-17T00:22:25.622478+00:00",
+      "received_sequence": 410,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-17T00:22:25.822521+00:00",
+      "records": [
+        {
+          "id": 452,
+          "revision": 1,
+          "sha256": "37c2eff27342de511fd5857b30e9659ae560797c7cd9972897cb3c75f704e014"
         }
       ]
     }
@@ -49313,6 +49343,40 @@
         },
         "editorial_sha256": "724b1d817af140a1d7d88da9459b2bc3cdd1a7de83b9ad208d5a58daa4db69cb"
       }
+    },
+    "muse-intake-20261116-china-receive-9924": {
+      "sha256": "3a4c20cf20d936626b2149a54eae5fb04cea20352b8dc4b7eca3fff5313dcab6",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261116-china-one-person-ai"
+      }
+    },
+    "muse-intake-20261116-china-finalize-9079": {
+      "sha256": "4d39bdf0d45368ff1748072648f7e8ed94ad80c472e9190d772bb9ff9a52c072",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261116-china-one-person-ai",
+        "records": [
+          {
+            "id": 452,
+            "revision": 1,
+            "sha256": "37c2eff27342de511fd5857b30e9659ae560797c7cd9972897cb3c75f704e014"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261116-china-review-4182": {
+      "sha256": "56e218a20d08eb4afd509e16d1b8e07c05fff2da1e932ccd393ba1649f753311",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 452,
+          "revision": 1,
+          "sha256": "37c2eff27342de511fd5857b30e9659ae560797c7cd9972897cb3c75f704e014"
+        },
+        "editorial_sha256": "b25c6fed1d33061c695f4ea7018e6db56b22bbc77bf3a4691f5afd5458baabf4"
+      }
     }
   },
   "migration": {
@@ -61059,6 +61123,26 @@
         "sha256": "724b1d817af140a1d7d88da9459b2bc3cdd1a7de83b9ad208d5a58daa4db69cb",
         "reviewed_at": "2026-11-16T23:44:08.456839+00:00",
         "operation_id": "2c8dcc21e841d6f4ef91e535342d25237667e37301dd69928c0d54934d0ac07b"
+      }
+    ],
+    "452:1": [
+      {
+        "reference": {
+          "id": 452,
+          "revision": 1,
+          "sha256": "37c2eff27342de511fd5857b30e9659ae560797c7cd9972897cb3c75f704e014"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "China's state-backed push for one-person AI companies is policy and economic news about how AI is reshaping work and entrepreneurship, not a developer tool, API, or research result; it matters to general readers tracking AI's societal impact. muse-intake 2026-11-16: submitted by Diego via Instagram (Bloomberg Businessweek post https://www.instagram.com/p/DfyVxZVlQHx/), verified against Bloomberg Law (same Bloomberg story, Nov 12, 2026) and ThreatBeat coverage; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "37c2eff27342de511fd5857b30e9659ae560797c7cd9972897cb3c75f704e014"
+          }
+        },
+        "sha256": "b25c6fed1d33061c695f4ea7018e6db56b22bbc77bf3a4691f5afd5458baabf4",
+        "reviewed_at": "2026-11-17T00:22:26.028403+00:00",
+        "operation_id": "muse-intake-20261116-china-review-4182"
       }
     ]
   }
