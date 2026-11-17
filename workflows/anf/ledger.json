@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1436,
-  "updated_at": "2026-11-17T22:19:04.185150+00:00",
+  "generation": 1437,
+  "updated_at": "2026-11-17T22:19:05.007702+00:00",
   "next_id": 466,
   "records": [
     {
@@ -50601,6 +50601,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d497aa1a282167ec5fd8f8a5d9ff167c032cace1a2cc5f0b7428d60a39317f9b": {
+      "sha256": "c9cc8e6d925df8141aa7d281b2adc87b89b9e47aad1497aca984ff2fea5ad800",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 465,
+          "revision": 1,
+          "sha256": "2e1653b058494b19bcd0e8de1904c97deedbb86090b9cc9c94635a5472baa5d6"
+        },
+        "editorial_sha256": "33697e8b632114f2b95ece744ab912d83fd24e2cbb2a69f2c3d87746e4e4ec56"
+      }
     }
   },
   "migration": {
@@ -62607,6 +62619,26 @@
         "sha256": "0b6f90cf45fa69c1b026f44dab4da34e8dd0a7480ca48873b6c055f0b5cc4dc2",
         "reviewed_at": "2026-11-17T19:41:14.210135+00:00",
         "operation_id": "dd3853089366ac0e91706fb67998c7fdf526e6ba06851a8c398f198a17cf3ecd"
+      }
+    ],
+    "465:1": [
+      {
+        "reference": {
+          "id": 465,
+          "revision": 1,
+          "sha256": "2e1653b058494b19bcd0e8de1904c97deedbb86090b9cc9c94635a5472baa5d6"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a SpaceXSI case study about assigning Grok Bots to accounting jobs. It is a product use case, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "245d746508aa3d995c3539921cfbb4ce03b708be06590fa376973328fbd498ad"
+          }
+        },
+        "sha256": "33697e8b632114f2b95ece744ab912d83fd24e2cbb2a69f2c3d87746e4e4ec56",
+        "reviewed_at": "2026-11-17T22:19:05.007702+00:00",
+        "operation_id": "d497aa1a282167ec5fd8f8a5d9ff167c032cace1a2cc5f0b7428d60a39317f9b"
       }
     ]
   }
