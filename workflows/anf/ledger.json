@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1415,
-  "updated_at": "2026-11-17T15:38:41.697687+00:00",
+  "generation": 1416,
+  "updated_at": "2026-11-17T15:38:42.581866+00:00",
   "next_id": 459,
   "records": [
     {
@@ -50153,6 +50153,18 @@
         ],
         "duplicates": []
       }
+    },
+    "16692bd994b3a13f87ca9aa7809e35b60c89f7142484dd852cbb0887cd8e8865": {
+      "sha256": "b2d09676cffa0c8440f7ac97d44c5af7da8b8a9051de5359337fd31491c7d3c4",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 458,
+          "revision": 1,
+          "sha256": "c0a979dd3df3cac77e9de3e3e8578b84e92b5cdb30bfe3fc06b404bf9ee83564"
+        },
+        "editorial_sha256": "8a3daf4b7a30a1b31e471722caf5453c866642f136596cc633cef9ce9b72b3ac"
+      }
     }
   },
   "migration": {
@@ -62019,6 +62031,26 @@
         "sha256": "af0cf3c33324c9f4a8ca975e066a1cc432d21d46eb6e3c049b3f2b013b9dde2b",
         "reviewed_at": "2026-11-17T13:15:16.206169+00:00",
         "operation_id": "59981d923e40fc6ca54655d1b431a3cd4b7ddee42120bcdfe0deb6e949e6de14"
+      }
+    ],
+    "458:1": [
+      {
+        "reference": {
+          "id": 458,
+          "revision": 1,
+          "sha256": "c0a979dd3df3cac77e9de3e3e8578b84e92b5cdb30bfe3fc06b404bf9ee83564"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "This is a cybersecurity partnership giving NATO access to OpenAI Daybreak models for authorized vulnerability review and network defense, which are security terms.",
+            "evidence_sha256": "21b31a39ad66258134128cc48b55a0652241f6fe89b075c54b345c4cb1348643"
+          }
+        },
+        "sha256": "8a3daf4b7a30a1b31e471722caf5453c866642f136596cc633cef9ce9b72b3ac",
+        "reviewed_at": "2026-11-17T15:38:42.581866+00:00",
+        "operation_id": "16692bd994b3a13f87ca9aa7809e35b60c89f7142484dd852cbb0887cd8e8865"
       }
     ]
   }
