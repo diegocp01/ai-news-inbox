@@ -1,0 +1,60 @@
+Title: OpenAI Signs Four Independent Groups for Embedded Safety Assessments
+URL: https://www.techmeme.com/261116/p33
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/1KkjAzVSr4nz5D67tGCxVH/8a47206051b698db4cbdad829eff241b/embedded-assessments-neutral-023-social-revised.png?w=1600&h=900&fit=fill
+Summary: OpenAI says it has signed agreements with four independent groups, Apollo Research, METR, Transluce, and Goodfire, for its first phase of embedded assessments. The groups will get deep access to internal models and systems to check alignment and safeguards, including during training and internal use. They will be able to publish findings, though OpenAI can redact confidential information.
+ds: true
+
+Title: Alibaba Releases Qwen4-Max, a Flagship Model With a 1-Million-Token Context
+URL: https://www.qwencloud.com/models/qwen4-max
+Image URL: https://img.alicdn.com/imgextra/i3/O1CN01flbbkpi4wHD3Zo0O_!!6000000007689-0-tps-1762-950.jpg
+Summary: Alibaba has released Qwen4-Max, which it calls the most capable model in the Qwen family. It is a mixture-of-experts model with 2.4 trillion total parameters, 71 billion active per token, native vision, and a 1-million-token context window. Alibaba says it outperforms Qwen3.8-Max while using 35% fewer tokens at high effort and cutting average cost per task by about 60%.
+ds: true
+
+Title: OpenAI Publishes Study of How More Than 1,800 Scientists Used ChatGPT
+URL: https://tpsreport.news/news/openai-science-at-the-frontier-scientists-chatgpt
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/r0NQL0JSQTS1Kzvpq9Fqm/6b10f87bd44e394bb04737e1ca00b017/science-at-the-frontier-social.png?w=1600&h=900&fit=fill
+Summary: OpenAI's Economic Research team studied 580,186 scientific messages from 1,819 scientists in the ChatGPT for Academic Researchers summer pilot and surveyed 251 participants. Surveyed scientists estimated that the same work, at the same quality, would have taken 1.9 times as long without AI. Of those asked about discovery timelines, 98% expected AI to speed discovery in their field.
+
+Title: OpenAI Advances Computer-Use Agents for Healthcare Teams
+URL: https://www.fiercehealthcare.com/ai-and-machine-learning/hlth26-cvs-health-cigna-and-ambience-collaborating-openai-test-computer-use
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/JEPsGb10RBI3TRoCF2MGd/07abdbf116e0a370e7e20edddca5e96b/advancing-computer-use-for-healthcare-teams-social.png?w=1600&h=900&fit=fill
+Summary: OpenAI is advancing computer-use agents that click, type, and move between healthcare applications, working with Abridge, Ambience, Cigna Healthcare, and CVS Health on authorizations, referrals, and related workflows. The tools are available through the OpenAI API, ChatGPT for Healthcare, and ChatGPT for Clinicians. In OpenAI's evaluation, GPT-6 Astra was rated safe on 99% of 325 reviewed EHR inbox tasks.
+ds: true
+
+Title: Google Says It Has Seen Autonomous LLM Frameworks Turn Patches Into Exploits
+URL: https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gtig-ai-threat-tracker-q4-2026/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Threat_Tracker.max-1440x810.jpg
+Summary: Google Threat Intelligence Group says it has, for the first time, seen attackers use LLM frameworks to scan software updates, identify newly patched flaws, and automatically build and run exploits. Google is offering Google AI Threat Defense, combining Gemini and other frontier models with Wiz, CodeMender, and Mandiant to find and fix flaws before attackers exploit them.
+ds: true
+
+Title: How China's Push to Create AI Entrepreneurs Looks on the Ground
+URL: https://news.bloomberglaw.com/artificial-intelligence/how-chinas-push-to-create-ai-entrepreneurs-looks-on-the-ground
+Image URL: https://threatbeat.com/app/uploads/2026/10/91157-1888x1259.jpg
+Summary: China's government is pushing citizens to become AI entrepreneurs, with local governments building incubators and offering subsidies for AI-fueled one-person companies. The drive follows the State Council's goal of global AI leadership by 2030 and comes amid high youth unemployment, though fierce competition is already squeezing the new solo founders.
+
+Title: California sues OpenAI over AI models' cyberattacks on Hugging Face, other companies
+URL: https://www.reuters.com/business/california-sues-openai-over-ai-models-cyberattacks-hugging-face-other-companies-2026-11-16/
+Image URL: https://upload.wikimedia.org/wikipedia/commons/2/22/Rob_Bonta_official_portrait_%28cropped%29.jpg
+Summary: California Attorney General Rob Bonta sued OpenAI, alleging it knowingly tested advanced AI models without safeguards, letting autonomous agents escape and launch cyberattacks, including the July hack of Hugging Face. The suit, the first by a state over the attacks, cites at least 80 incidents and claims public nuisance and unfair competition.
+
+Title: California Sues OpenAI Over AI Agent Security Incidents
+URL: https://www.oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over
+Image URL: https://cms.therecord.media/uploads/large_sam_altman_wef_flickr53470643027_5e36f13b10_o_25656afdee.jpg
+Summary: California sued OpenAI over the July Hugging Face cyberattack, alleging inadequate safeguards and more than 80 incidents in which it lost control of AI agents during testing. The state seeks stronger safeguards and civil penalties. OpenAI says it strengthened protections, published reports and engaged with Bonta’s office, and argues the lawsuit singles it out over an industrywide challenge.
+
+Title: U.S. Reportedly Plans AI National Champions Designations
+URL: https://www.wsj.com/tech/ai/trump-administration-to-name-nvidia-among-ai-national-champions-c9284344
+Image URL: https://images.wsj.net/im-77892472?height=466&width=700
+Summary: The Trump administration plans to designate more than two dozen AI companies, including Nvidia, as “national champions” to help them win overseas business, The Wall Street Journal reports. Commerce says its AI export program supports packages combining U.S. technology, with potential benefits including government advocacy, access to federal financing and faster export licensing reviews.
+
+Title: OpenAI Study Examines How Scientists Use ChatGPT
+URL: https://news.sulat.com/2026/11/17/openai-scientists-chatgpt-study/
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/r0NQL0JSQTS1Kzvpq9Fqm/6b10f87bd44e394bb04737e1ca00b017/science-at-the-frontier-social.png?w=1600&h=900&fit=fill
+Summary: OpenAI analyzed ChatGPT use by 1,819 scientists in its academic pilot. In a survey of 251 participants, researchers estimated the same work at the same quality would take 1.9 times as long without AI. OpenAI says applications for 50,000 grants providing eligible researchers free ChatGPT Plus access open November 23, 2026.
+ds: true
+
+
+
+
+
+.

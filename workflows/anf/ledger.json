@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1409,
-  "updated_at": "2026-11-17T13:23:30.572528+00:00",
+  "generation": 1410,
+  "updated_at": "2026-11-17T13:23:58.477971+00:00",
   "next_id": 458,
   "records": [
     {
@@ -23655,9 +23655,165 @@
       },
       "acknowledged_at": "2026-11-17T13:23:30.572528+00:00",
       "checkpoint_after": 446
+    },
+    "bd3e9e4ca89ee0a3cc69a8e6": {
+      "batch_id": "bd3e9e4ca89ee0a3cc69a8e6",
+      "status": "prepared",
+      "checkpoint_before": 446,
+      "prepared_at": "2026-11-17T13:23:58.477971+00:00",
+      "intake_cutoff": 413,
+      "records": [
+        {
+          "id": 447,
+          "revision": 1,
+          "sha256": "770370b68ba4c392e8fd310c45a8402f345c44bb81849ac277d4d22cabdf4af1"
+        },
+        {
+          "id": 448,
+          "revision": 1,
+          "sha256": "f188be4163eee0f4b24ebea97bfb54c3033bf0dc2a57e6429cb2ca2b05d533db"
+        },
+        {
+          "id": 449,
+          "revision": 1,
+          "sha256": "2ae6ef92f6c999e4f1e588d551419c76c26b4c13e97fcb8b9abb3c018f19553b"
+        },
+        {
+          "id": 450,
+          "revision": 1,
+          "sha256": "82c8b2fc77f21e655be0b6d30c1f56948234dac43065b5c6e5a5b6e31d5bb9aa"
+        },
+        {
+          "id": 451,
+          "revision": 1,
+          "sha256": "8aa5dce3b90b6808623028df598f0e21647453edeaf27503f48b6bab7cc74c87"
+        },
+        {
+          "id": 452,
+          "revision": 1,
+          "sha256": "37c2eff27342de511fd5857b30e9659ae560797c7cd9972897cb3c75f704e014"
+        },
+        {
+          "id": 453,
+          "revision": 1,
+          "sha256": "f5fa8bf8db8a063de934b9edbea26e11292079f7de865e7af86dd7404f970ee4"
+        },
+        {
+          "id": 454,
+          "revision": 1,
+          "sha256": "340baf0342a3f8d6d7bfbcaa8efeffff2404ab875e1cdf1e5d2e03a00ffea4ab"
+        },
+        {
+          "id": 455,
+          "revision": 1,
+          "sha256": "0cde0ddaaeadc0b457ab4cbf01714daba006628523e2999825c2bfd4fb670408"
+        },
+        {
+          "id": 456,
+          "revision": 1,
+          "sha256": "ae44aa234f776a3fc703759b41f3e69347dc4d367186a8e1d3bb406c35c09b1f"
+        }
+      ],
+      "first_id": 447,
+      "last_id": 456,
+      "count": 10,
+      "txt_path": "workflows/anf/batches/bd3e9e4ca89ee0a3cc69a8e6.txt",
+      "json_path": "workflows/anf/batches/bd3e9e4ca89ee0a3cc69a8e6.json",
+      "txt_sha256": "f69ec8ee0506a73b9f8f219b9ccae092e33c764de1c8676114a38243f1ed891a",
+      "json_sha256": "1e26d5a50e64c58c4df308fed9525da35efecd9cd0b44195ea58b629b04f37ae",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "The announcement is about independent safety assessments with deep access to internal models, training runs, and safeguards, which are ML-technical and security terms.",
+            "evidence_sha256": "89923918a223837c120e22bdf06b43cb2b2ccd702aff8f154ee5d0af618f59fb"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "This is a new model launch described with mixture-of-experts architecture, parameter counts, token usage, and an API product page, which are ML-technical and developer/API terms.",
+            "evidence_sha256": "261094d5d89b5e7ed0ae5cef899b6625690e7f0c12ce931a53a69ceea7cef73e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is an economic and usage study of how scientists use ChatGPT. It can be summarized in everyday language, and physics or science subject matter alone is not a DS trigger. The item is not about model architecture, APIs, security, or hardware.",
+            "evidence_sha256": "bdbf1d37b62db48bc3f2c1f9b3e1a93a2e576dcec03d3df1ef995dc367f28934"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "This is a product and API rollout of computer-use agents for healthcare, with model evaluations, HIPAA and audit-log controls, and partner deployments, which are developer/API, ML-technical, and security terms.",
+            "evidence_sha256": "ddd0375a21848601cea1e8b36271a8c3e108aa1502af7956aaab1fc84878c9fd"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "This is a threat-intelligence report on attackers using LLM frameworks to automate vulnerability exploitation, plus a security-defense product, which are security terms.",
+            "evidence_sha256": "f479212d9c09e3d11ab67985853769c7d87178b76ff099aab3faf5cc7e27095f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "China's state-backed push for one-person AI companies is policy and economic news about how AI is reshaping work and entrepreneurship, not a developer tool, API, or research result; it matters to general readers tracking AI's societal impact. muse-intake 2026-11-16: submitted by Diego via Instagram (Bloomberg Businessweek post https://www.instagram.com/p/DfyVxZVlQHx/), verified against Bloomberg Law (same Bloomberg story, Nov 12, 2026) and ThreatBeat coverage; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "37c2eff27342de511fd5857b30e9659ae560797c7cd9972897cb3c75f704e014"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "California suing OpenAI over rogue-agent cyberattacks is legal and policy news about AI safety and regulation, not a technical result; it matters to general readers tracking how governments are responding to AI risks. muse-intake 2026-11-16: submitted by Diego via Instagram (CBS News Bay Area reel https://www.instagram.com/reel/Df0sVPECMkD/), verified against Reuters and the California Attorney General's press release; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "f5fa8bf8db8a063de934b9edbea26e11292079f7de865e7af86dd7404f970ee4"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "California sued OpenAI over the July Hugging Face cyberattack, alleging inadequate safeguards and more than 80 incidents in which it lost control of AI agents during testing. The state seeks stronger safeguards and civil penalties. OpenAI says it strengthened protections, published reports and engaged with the Attorney General's office, and argues the lawsuit singles it out over an industrywide challenge. This is legal and regulatory news about a public company's AI safety practices for a broad audience, not technical research. muse-compile-backfill 2026-11-17: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "340baf0342a3f8d6d7bfbcaa8efeffff2404ab875e1cdf1e5d2e03a00ffea4ab"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The Trump administration plans to designate more than two dozen AI companies, including Nvidia, as national champions to help them win overseas business. Commerce says its AI export program supports packages combining U.S. technology, with potential benefits including government advocacy, access to federal financing and faster export licensing reviews. This is policy and business news about government AI export strategy for a broad audience, not technical research. muse-compile-backfill 2026-11-17: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "0cde0ddaaeadc0b457ab4cbf01714daba006628523e2999825c2bfd4fb670408"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "OpenAI analyzed ChatGPT use by 1,819 scientists in its academic pilot. In a survey of 251 participants, researchers estimated the same work at the same quality would take 1.9 times as long without AI. OpenAI says applications for 50,000 grants providing eligible researchers free ChatGPT Plus access open November 23, 2026. This is an empirical study of AI use in scientific research, with survey methodology and quantitative findings, for a research audience, not general business news. muse-compile-backfill 2026-11-17: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "ae44aa234f776a3fc703759b41f3e69347dc4d367186a8e1d3bb406c35c09b1f"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-17T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "bd3e9e4ca89ee0a3cc69a8e6",
   "replacement_batch": null,
   "checkpoint": 446,
   "checkpoint_history": [
@@ -49701,6 +49857,169 @@
           "sha256": "04617f65c9c6b8976b790cff6cd95c14db2af539c345ab03000cfa3e76774be6",
           "published_at": "2026-11-16T13:23:24.305564+00:00",
           "planned_from_head": "093428efa4254b09a064e99eebc5d90ce1e7dca2"
+        }
+      }
+    },
+    "muse-compile-20261117-1323-2808": {
+      "sha256": "2784fc4a566c07a9548faedada5721a8df7783576ec6c7c52b233c4c92b851b3",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "bd3e9e4ca89ee0a3cc69a8e6",
+          "status": "prepared",
+          "checkpoint_before": 446,
+          "prepared_at": "2026-11-17T13:23:58.477971+00:00",
+          "intake_cutoff": 413,
+          "records": [
+            {
+              "id": 447,
+              "revision": 1,
+              "sha256": "770370b68ba4c392e8fd310c45a8402f345c44bb81849ac277d4d22cabdf4af1"
+            },
+            {
+              "id": 448,
+              "revision": 1,
+              "sha256": "f188be4163eee0f4b24ebea97bfb54c3033bf0dc2a57e6429cb2ca2b05d533db"
+            },
+            {
+              "id": 449,
+              "revision": 1,
+              "sha256": "2ae6ef92f6c999e4f1e588d551419c76c26b4c13e97fcb8b9abb3c018f19553b"
+            },
+            {
+              "id": 450,
+              "revision": 1,
+              "sha256": "82c8b2fc77f21e655be0b6d30c1f56948234dac43065b5c6e5a5b6e31d5bb9aa"
+            },
+            {
+              "id": 451,
+              "revision": 1,
+              "sha256": "8aa5dce3b90b6808623028df598f0e21647453edeaf27503f48b6bab7cc74c87"
+            },
+            {
+              "id": 452,
+              "revision": 1,
+              "sha256": "37c2eff27342de511fd5857b30e9659ae560797c7cd9972897cb3c75f704e014"
+            },
+            {
+              "id": 453,
+              "revision": 1,
+              "sha256": "f5fa8bf8db8a063de934b9edbea26e11292079f7de865e7af86dd7404f970ee4"
+            },
+            {
+              "id": 454,
+              "revision": 1,
+              "sha256": "340baf0342a3f8d6d7bfbcaa8efeffff2404ab875e1cdf1e5d2e03a00ffea4ab"
+            },
+            {
+              "id": 455,
+              "revision": 1,
+              "sha256": "0cde0ddaaeadc0b457ab4cbf01714daba006628523e2999825c2bfd4fb670408"
+            },
+            {
+              "id": 456,
+              "revision": 1,
+              "sha256": "ae44aa234f776a3fc703759b41f3e69347dc4d367186a8e1d3bb406c35c09b1f"
+            }
+          ],
+          "first_id": 447,
+          "last_id": 456,
+          "count": 10,
+          "txt_path": "workflows/anf/batches/bd3e9e4ca89ee0a3cc69a8e6.txt",
+          "json_path": "workflows/anf/batches/bd3e9e4ca89ee0a3cc69a8e6.json",
+          "txt_sha256": "f69ec8ee0506a73b9f8f219b9ccae092e33c764de1c8676114a38243f1ed891a",
+          "json_sha256": "1e26d5a50e64c58c4df308fed9525da35efecd9cd0b44195ea58b629b04f37ae",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "technical_practice",
+                "rationale": "The announcement is about independent safety assessments with deep access to internal models, training runs, and safeguards, which are ML-technical and security terms.",
+                "evidence_sha256": "89923918a223837c120e22bdf06b43cb2b2ccd702aff8f154ee5d0af618f59fb"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "This is a new model launch described with mixture-of-experts architecture, parameter counts, token usage, and an API product page, which are ML-technical and developer/API terms.",
+                "evidence_sha256": "261094d5d89b5e7ed0ae5cef899b6625690e7f0c12ce931a53a69ceea7cef73e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is an economic and usage study of how scientists use ChatGPT. It can be summarized in everyday language, and physics or science subject matter alone is not a DS trigger. The item is not about model architecture, APIs, security, or hardware.",
+                "evidence_sha256": "bdbf1d37b62db48bc3f2c1f9b3e1a93a2e576dcec03d3df1ef995dc367f28934"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "technical_practice",
+                "rationale": "This is a product and API rollout of computer-use agents for healthcare, with model evaluations, HIPAA and audit-log controls, and partner deployments, which are developer/API, ML-technical, and security terms.",
+                "evidence_sha256": "ddd0375a21848601cea1e8b36271a8c3e108aa1502af7956aaab1fc84878c9fd"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "This is a threat-intelligence report on attackers using LLM frameworks to automate vulnerability exploitation, plus a security-defense product, which are security terms.",
+                "evidence_sha256": "f479212d9c09e3d11ab67985853769c7d87178b76ff099aab3faf5cc7e27095f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "China's state-backed push for one-person AI companies is policy and economic news about how AI is reshaping work and entrepreneurship, not a developer tool, API, or research result; it matters to general readers tracking AI's societal impact. muse-intake 2026-11-16: submitted by Diego via Instagram (Bloomberg Businessweek post https://www.instagram.com/p/DfyVxZVlQHx/), verified against Bloomberg Law (same Bloomberg story, Nov 12, 2026) and ThreatBeat coverage; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "37c2eff27342de511fd5857b30e9659ae560797c7cd9972897cb3c75f704e014"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "California suing OpenAI over rogue-agent cyberattacks is legal and policy news about AI safety and regulation, not a technical result; it matters to general readers tracking how governments are responding to AI risks. muse-intake 2026-11-16: submitted by Diego via Instagram (CBS News Bay Area reel https://www.instagram.com/reel/Df0sVPECMkD/), verified against Reuters and the California Attorney General's press release; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "f5fa8bf8db8a063de934b9edbea26e11292079f7de865e7af86dd7404f970ee4"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "California sued OpenAI over the July Hugging Face cyberattack, alleging inadequate safeguards and more than 80 incidents in which it lost control of AI agents during testing. The state seeks stronger safeguards and civil penalties. OpenAI says it strengthened protections, published reports and engaged with the Attorney General's office, and argues the lawsuit singles it out over an industrywide challenge. This is legal and regulatory news about a public company's AI safety practices for a broad audience, not technical research. muse-compile-backfill 2026-11-17: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "340baf0342a3f8d6d7bfbcaa8efeffff2404ab875e1cdf1e5d2e03a00ffea4ab"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "The Trump administration plans to designate more than two dozen AI companies, including Nvidia, as national champions to help them win overseas business. Commerce says its AI export program supports packages combining U.S. technology, with potential benefits including government advocacy, access to federal financing and faster export licensing reviews. This is policy and business news about government AI export strategy for a broad audience, not technical research. muse-compile-backfill 2026-11-17: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "0cde0ddaaeadc0b457ab4cbf01714daba006628523e2999825c2bfd4fb670408"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "OpenAI analyzed ChatGPT use by 1,819 scientists in its academic pilot. In a survey of 251 participants, researchers estimated the same work at the same quality would take 1.9 times as long without AI. OpenAI says applications for 50,000 grants providing eligible researchers free ChatGPT Plus access open November 23, 2026. This is an empirical study of AI use in scientific research, with survey methodology and quantitative findings, for a research audience, not general business news. muse-compile-backfill 2026-11-17: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "ae44aa234f776a3fc703759b41f3e69347dc4d367186a8e1d3bb406c35c09b1f"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-17T13:00:00+00:00",
+          "deferred_request_ids": []
         }
       }
     }
