@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1429,
-  "updated_at": "2026-11-17T17:15:38.956330+00:00",
-  "next_id": 463,
+  "generation": 1430,
+  "updated_at": "2026-11-17T17:15:39.794973+00:00",
+  "next_id": 464,
   "records": [
     {
       "id": 1,
@@ -6157,6 +6157,19 @@
           "sha256": "7e41b3fdbd45581f2209e89c21bc329ceac0e540a9156e965136e1a284a2b1a4",
           "source": "Perplexity",
           "request_id": "5468a82d4398dc6607dbfacc4dfed7548d8e3914455a86a10e6118b565817d99",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 463,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T17:15:39.794973+00:00",
+          "block": "Title: Google Adds Holiday Travel Features to Ask Maps and Expands It Across Europe\nURL: https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.width-1300.png\nSummary: Google is launching new Ask Maps features. Users can build custom road trip itineraries, get tips on tolls, weather delays, and charging stops, and have Ask Maps find appointments and call local businesses. The updates start on Android and iOS, with appointment finding and route tips first in the U.S., and Ask Maps expanding to 30 countries in Europe.",
+          "sha256": "1f2909074abdd446b3facc3aea537ed2985dbbf626e0d03f528a37bf5164cf4e",
+          "source": "Google",
+          "request_id": "09caef1b80bccfd9c3053edd47e71e5a42c92c037d24e92a0a72d574ce47eeb6",
           "mode": "standard"
         }
       ]
@@ -13576,13 +13589,21 @@
       ]
     },
     "09caef1b80bccfd9c3053edd47e71e5a42c92c037d24e92a0a72d574ce47eeb6": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-17T17:15:38.956330+00:00",
       "received_sequence": 419,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-17T17:15:39.794973+00:00",
+      "records": [
+        {
+          "id": 463,
+          "revision": 1,
+          "sha256": "1f2909074abdd446b3facc3aea537ed2985dbbf626e0d03f528a37bf5164cf4e"
+        }
+      ]
     }
   },
   "batches": {
@@ -50436,6 +50457,21 @@
       "result": {
         "status": "received",
         "request_id": "09caef1b80bccfd9c3053edd47e71e5a42c92c037d24e92a0a72d574ce47eeb6"
+      }
+    },
+    "1d020559fa129f7e4db21ad18d8fccb7c222a0217f2ed8c62210f28f724bd0d9": {
+      "sha256": "b0b518f0ef77836e1d8936c3966582fadd687af8c2a2f779f76117c4959f404b",
+      "result": {
+        "status": "finalized",
+        "request_id": "09caef1b80bccfd9c3053edd47e71e5a42c92c037d24e92a0a72d574ce47eeb6",
+        "records": [
+          {
+            "id": 463,
+            "revision": 1,
+            "sha256": "1f2909074abdd446b3facc3aea537ed2985dbbf626e0d03f528a37bf5164cf4e"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
