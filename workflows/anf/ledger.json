@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1424,
-  "updated_at": "2026-11-17T17:13:14.266394+00:00",
+  "generation": 1425,
+  "updated_at": "2026-11-17T17:13:15.313826+00:00",
   "next_id": 462,
   "records": [
     {
@@ -50345,6 +50345,18 @@
         ],
         "duplicates": []
       }
+    },
+    "ca8f9855366b4bd4ce6b98b0821141ca180d919190de84dfd7e4eab9722330bd": {
+      "sha256": "9ea7f13f1a7e786b439abe3361fe0e4ebd5a52be747a2d1ade736b2a8294599f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 461,
+          "revision": 1,
+          "sha256": "461ea4682231a99d6c4fe58a7799a84d96afac095a91de4089c2438677c7aacd"
+        },
+        "editorial_sha256": "9497321cadb471299a5fa2e4664710d826633ba6860f7d931a3cca3deca9bd62"
+      }
     }
   },
   "migration": {
@@ -62271,6 +62283,26 @@
         "sha256": "f48221b21e726a95e4d455934317b495a965db2feea54b0b9c4ddef9fc034610",
         "reviewed_at": "2026-11-17T17:09:05.131575+00:00",
         "operation_id": "c225883127b86ff929a4b9bf6c875ddea62c3b37a7557c98c8a3c9e435fb78fe"
+      }
+    ],
+    "461:1": [
+      {
+        "reference": {
+          "id": 461,
+          "revision": 1,
+          "sha256": "461ea4682231a99d6c4fe58a7799a84d96afac095a91de4089c2438677c7aacd"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a consumer product update making Gemini Tasks free and adding calling, payments, and email handoff. Those are features, not ML-technical, developer/API, security, or hardware-internals terms in the news itself.",
+            "evidence_sha256": "a52def13770f175a35b08aba4e7de5ec63273732db299d5ad65744ecd7c525cf"
+          }
+        },
+        "sha256": "9497321cadb471299a5fa2e4664710d826633ba6860f7d931a3cca3deca9bd62",
+        "reviewed_at": "2026-11-17T17:13:15.313826+00:00",
+        "operation_id": "ca8f9855366b4bd4ce6b98b0821141ca180d919190de84dfd7e4eab9722330bd"
       }
     ]
   }
