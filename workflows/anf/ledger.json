@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1435,
-  "updated_at": "2026-11-17T22:19:03.336239+00:00",
-  "next_id": 465,
+  "generation": 1436,
+  "updated_at": "2026-11-17T22:19:04.185150+00:00",
+  "next_id": 466,
   "records": [
     {
       "id": 1,
@@ -6183,6 +6183,19 @@
           "sha256": "ec9a3e4080413a430bb86010e94b6209f56fbeaaf3b53bf2a82e9c047e5f3379",
           "source": "OpenAI",
           "request_id": "c0e47cdf310080a4e43532785ee6eadb16bb9c9a4877fb65ab97693a67b58f5f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 465,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T22:19:04.185150+00:00",
+          "block": "Title: SpaceXSI Assigns Five Grok Bots Full-Time Roles on Its Accounting Team\nURL: \nImage URL: https://pub-2497fbbf9c374dbbb68f9cc735096b68.r2.dev/news-thumbs/5a510767-6275-4b34-9a93-bd6db2b4306b-v2.webp\nSummary: SpaceXSI says five Grok Bots each own an accounting job end to end, from provisioning a customer account to collecting payment, and involve a person only when the work needs judgment. The Bots handle provisioning, billing, billing support, cash applications, and collections. SpaceXSI says the work would otherwise have required more than doubling the team's headcount.",
+          "sha256": "2e1653b058494b19bcd0e8de1904c97deedbb86090b9cc9c94635a5472baa5d6",
+          "source": "SpaceXSI",
+          "request_id": "c4fc9fab5428e8c15c9afb263b694728d730599a736539d81beb904bf5f05471",
           "mode": "standard"
         }
       ]
@@ -13636,13 +13649,21 @@
       ]
     },
     "c4fc9fab5428e8c15c9afb263b694728d730599a736539d81beb904bf5f05471": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-17T22:19:03.336239+00:00",
       "received_sequence": 421,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-17T22:19:04.185150+00:00",
+      "records": [
+        {
+          "id": 465,
+          "revision": 1,
+          "sha256": "2e1653b058494b19bcd0e8de1904c97deedbb86090b9cc9c94635a5472baa5d6"
+        }
+      ]
     }
   },
   "batches": {
@@ -50564,6 +50585,21 @@
       "result": {
         "status": "received",
         "request_id": "c4fc9fab5428e8c15c9afb263b694728d730599a736539d81beb904bf5f05471"
+      }
+    },
+    "44999d61db42c155d7bae372d2e987725a4b33ab70f661cee9c6df5db095f354": {
+      "sha256": "094a35d59eb288dfe5f7555c7f8de19fd3d1cd3aff7ee9ffd67e06356a6ba2ac",
+      "result": {
+        "status": "finalized",
+        "request_id": "c4fc9fab5428e8c15c9afb263b694728d730599a736539d81beb904bf5f05471",
+        "records": [
+          {
+            "id": 465,
+            "revision": 1,
+            "sha256": "2e1653b058494b19bcd0e8de1904c97deedbb86090b9cc9c94635a5472baa5d6"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
