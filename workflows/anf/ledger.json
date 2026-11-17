@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1401,
-  "updated_at": "2026-11-17T12:59:37.311676+00:00",
+  "generation": 1404,
+  "updated_at": "2026-11-17T13:13:53.425562+00:00",
   "next_id": 457,
   "records": [
     {
@@ -49543,6 +49543,42 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261117-454-1766": {
+      "sha256": "e6686dc9a013d90cf02e6faf58b7429db22106cfc6b44c2889c490b17437b79c",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 454,
+          "revision": 1,
+          "sha256": "340baf0342a3f8d6d7bfbcaa8efeffff2404ab875e1cdf1e5d2e03a00ffea4ab"
+        },
+        "editorial_sha256": "28a2646105f244b9e6bc398e5c835fb91a18114f9515404f413b50926e520de2"
+      }
+    },
+    "muse-backfill-20261117-455-9326": {
+      "sha256": "ccd2591b2b214abdda6ca0289b6d28d3c5a0b0578aa127d230d50ea83d4a28ce",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 455,
+          "revision": 1,
+          "sha256": "0cde0ddaaeadc0b457ab4cbf01714daba006628523e2999825c2bfd4fb670408"
+        },
+        "editorial_sha256": "972353e20a7e7b4b6d89c4497d5f38a45c53d168fe5b00df6430f9732748bf00"
+      }
+    },
+    "muse-backfill-20261117-456-2867": {
+      "sha256": "6a5a49e4a4a22ad894de57a59cc39e2f03b221d44ef3926980717dbf343b1ade",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 456,
+          "revision": 1,
+          "sha256": "ae44aa234f776a3fc703759b41f3e69347dc4d367186a8e1d3bb406c35c09b1f"
+        },
+        "editorial_sha256": "1dd07ae142c35a1ce3d2c1d87df7ddcb3edce94148064b9b1c7bcda79466cb41"
+      }
     }
   },
   "migration": {
@@ -61329,6 +61365,66 @@
         "sha256": "cc155113ba70f59eeab49bcd0c0753d3f7a732c79d664f8fb23803ce6bae6674",
         "reviewed_at": "2026-11-17T02:18:49.865719+00:00",
         "operation_id": "muse-intake-20261116-bonta-review-0390"
+      }
+    ],
+    "454:1": [
+      {
+        "reference": {
+          "id": 454,
+          "revision": 1,
+          "sha256": "340baf0342a3f8d6d7bfbcaa8efeffff2404ab875e1cdf1e5d2e03a00ffea4ab"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "California sued OpenAI over the July Hugging Face cyberattack, alleging inadequate safeguards and more than 80 incidents in which it lost control of AI agents during testing. The state seeks stronger safeguards and civil penalties. OpenAI says it strengthened protections, published reports and engaged with the Attorney General's office, and argues the lawsuit singles it out over an industrywide challenge. This is legal and regulatory news about a public company's AI safety practices for a broad audience, not technical research. muse-compile-backfill 2026-11-17: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "340baf0342a3f8d6d7bfbcaa8efeffff2404ab875e1cdf1e5d2e03a00ffea4ab"
+          }
+        },
+        "sha256": "28a2646105f244b9e6bc398e5c835fb91a18114f9515404f413b50926e520de2",
+        "reviewed_at": "2026-11-17T13:13:52.961057+00:00",
+        "operation_id": "muse-backfill-20261117-454-1766"
+      }
+    ],
+    "455:1": [
+      {
+        "reference": {
+          "id": 455,
+          "revision": 1,
+          "sha256": "0cde0ddaaeadc0b457ab4cbf01714daba006628523e2999825c2bfd4fb670408"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The Trump administration plans to designate more than two dozen AI companies, including Nvidia, as national champions to help them win overseas business. Commerce says its AI export program supports packages combining U.S. technology, with potential benefits including government advocacy, access to federal financing and faster export licensing reviews. This is policy and business news about government AI export strategy for a broad audience, not technical research. muse-compile-backfill 2026-11-17: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "0cde0ddaaeadc0b457ab4cbf01714daba006628523e2999825c2bfd4fb670408"
+          }
+        },
+        "sha256": "972353e20a7e7b4b6d89c4497d5f38a45c53d168fe5b00df6430f9732748bf00",
+        "reviewed_at": "2026-11-17T13:13:53.187018+00:00",
+        "operation_id": "muse-backfill-20261117-455-9326"
+      }
+    ],
+    "456:1": [
+      {
+        "reference": {
+          "id": 456,
+          "revision": 1,
+          "sha256": "ae44aa234f776a3fc703759b41f3e69347dc4d367186a8e1d3bb406c35c09b1f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "OpenAI analyzed ChatGPT use by 1,819 scientists in its academic pilot. In a survey of 251 participants, researchers estimated the same work at the same quality would take 1.9 times as long without AI. OpenAI says applications for 50,000 grants providing eligible researchers free ChatGPT Plus access open November 23, 2026. This is an empirical study of AI use in scientific research, with survey methodology and quantitative findings, for a research audience, not general business news. muse-compile-backfill 2026-11-17: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "ae44aa234f776a3fc703759b41f3e69347dc4d367186a8e1d3bb406c35c09b1f"
+          }
+        },
+        "sha256": "1dd07ae142c35a1ce3d2c1d87df7ddcb3edce94148064b9b1c7bcda79466cb41",
+        "reviewed_at": "2026-11-17T13:13:53.425562+00:00",
+        "operation_id": "muse-backfill-20261117-456-2867"
       }
     ]
   }
