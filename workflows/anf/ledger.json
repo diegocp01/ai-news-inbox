@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1432,
-  "updated_at": "2026-11-17T19:41:12.452607+00:00",
-  "next_id": 464,
+  "generation": 1433,
+  "updated_at": "2026-11-17T19:41:13.368020+00:00",
+  "next_id": 465,
   "records": [
     {
       "id": 1,
@@ -6170,6 +6170,19 @@
           "sha256": "1f2909074abdd446b3facc3aea537ed2985dbbf626e0d03f528a37bf5164cf4e",
           "source": "Google",
           "request_id": "09caef1b80bccfd9c3053edd47e71e5a42c92c037d24e92a0a72d574ce47eeb6",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 464,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T19:41:13.368020+00:00",
+          "block": "Title: New AI Model: OpenAI Releases GPT-6.2 Astra and GPT-6.2 Sol\nURL: https://www.techmeme.com/261117/p43\nImage URL: https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/size/w1200/2026/11/banner-11.webp\nSummary: OpenAI has released GPT-6.2 Astra, its new frontier model for the hardest projects, and GPT-6.2 Sol, an efficient model for everyday work. Both are available today to Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex. OpenAI says Astra sets new highs on professional and scientific evaluations at less than a third of GPT-6 Astra's cost per task.",
+          "sha256": "ec9a3e4080413a430bb86010e94b6209f56fbeaaf3b53bf2a82e9c047e5f3379",
+          "source": "OpenAI",
+          "request_id": "c0e47cdf310080a4e43532785ee6eadb16bb9c9a4877fb65ab97693a67b58f5f",
           "mode": "standard"
         }
       ]
@@ -13606,13 +13619,21 @@
       ]
     },
     "c0e47cdf310080a4e43532785ee6eadb16bb9c9a4877fb65ab97693a67b58f5f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-17T19:41:12.452607+00:00",
       "received_sequence": 420,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-17T19:41:13.368020+00:00",
+      "records": [
+        {
+          "id": 464,
+          "revision": 1,
+          "sha256": "ec9a3e4080413a430bb86010e94b6209f56fbeaaf3b53bf2a82e9c047e5f3379"
+        }
+      ]
     }
   },
   "batches": {
@@ -50500,6 +50521,21 @@
       "result": {
         "status": "received",
         "request_id": "c0e47cdf310080a4e43532785ee6eadb16bb9c9a4877fb65ab97693a67b58f5f"
+      }
+    },
+    "fb4bc496787f6b4940a1b25130ae06c036b99d26b77a481678efb7e3c4ce209d": {
+      "sha256": "180c2522af9f16325701e58cd156f7a18452c5f54c9fd7cc42c6a187dd971a0e",
+      "result": {
+        "status": "finalized",
+        "request_id": "c0e47cdf310080a4e43532785ee6eadb16bb9c9a4877fb65ab97693a67b58f5f",
+        "records": [
+          {
+            "id": 464,
+            "revision": 1,
+            "sha256": "ec9a3e4080413a430bb86010e94b6209f56fbeaaf3b53bf2a82e9c047e5f3379"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
