@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1417,
-  "updated_at": "2026-11-17T16:38:13.496191+00:00",
-  "next_id": 459,
+  "generation": 1418,
+  "updated_at": "2026-11-17T16:38:14.811444+00:00",
+  "next_id": 460,
   "records": [
     {
       "id": 1,
@@ -6105,6 +6105,19 @@
           "sha256": "c0a979dd3df3cac77e9de3e3e8578b84e92b5cdb30bfe3fc06b404bf9ee83564",
           "source": "OpenAI",
           "request_id": "48b711aaea5416ed0ce74e7205f6522585a786cab4f2b1ae2696a86890251891",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 459,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T16:38:14.811444+00:00",
+          "block": "Title: Jensen Huang Says He Would Return as Nvidia CEO if the Board Asks\nURL: https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html\nImage URL: https://image.cnbcfm.com/api/v1/image/108548918-1794403575214-gettyimages-2192346840-widak-nvidiasc250106_npmp9.jpeg?v=1794403600&w=1920&h=1080\nSummary: In his first public statement since resigning as Nvidia CEO, Jensen Huang said he would be honored to return if the board decides it is in the best interest of shareholders, employees, the company, and America. He cited calls from employees, investors, partners, and customers, said he owns his mistakes, and pledged to cooperate with the board's investigation.",
+          "sha256": "1513f95853f696beb243752d6fd9a471979a0d788d6fedd71e742e32544cf83a",
+          "source": "Jensen Huang",
+          "request_id": "9a043b554a4181d9985eb623e16490be36e90b429de8070a6ed9ca033a0a6d42",
           "mode": "standard"
         }
       ]
@@ -13456,13 +13469,21 @@
       ]
     },
     "9a043b554a4181d9985eb623e16490be36e90b429de8070a6ed9ca033a0a6d42": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-17T16:38:13.496191+00:00",
       "received_sequence": 415,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-17T16:38:14.811444+00:00",
+      "records": [
+        {
+          "id": 459,
+          "revision": 1,
+          "sha256": "1513f95853f696beb243752d6fd9a471979a0d788d6fedd71e742e32544cf83a"
+        }
+      ]
     }
   },
   "batches": {
@@ -50180,6 +50201,21 @@
       "result": {
         "status": "received",
         "request_id": "9a043b554a4181d9985eb623e16490be36e90b429de8070a6ed9ca033a0a6d42"
+      }
+    },
+    "a252441e98a17f6219c570fc401cce1d52f5a9cf823a3a3cf21447768df48573": {
+      "sha256": "fa3559dd9bbc10475d8b1b00d55e6a245c894991e45c27fcc97c3dd6b586cfdf",
+      "result": {
+        "status": "finalized",
+        "request_id": "9a043b554a4181d9985eb623e16490be36e90b429de8070a6ed9ca033a0a6d42",
+        "records": [
+          {
+            "id": 459,
+            "revision": 1,
+            "sha256": "1513f95853f696beb243752d6fd9a471979a0d788d6fedd71e742e32544cf83a"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
