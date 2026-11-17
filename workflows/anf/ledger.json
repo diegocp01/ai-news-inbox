@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1433,
-  "updated_at": "2026-11-17T19:41:13.368020+00:00",
+  "generation": 1434,
+  "updated_at": "2026-11-17T19:41:14.210135+00:00",
   "next_id": 465,
   "records": [
     {
@@ -50537,6 +50537,18 @@
         ],
         "duplicates": []
       }
+    },
+    "dd3853089366ac0e91706fb67998c7fdf526e6ba06851a8c398f198a17cf3ecd": {
+      "sha256": "a4bbbec5c8ce10b74ad34b3096c8a589edf67d68dec41cc5666f30a95d17cbda",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 464,
+          "revision": 1,
+          "sha256": "ec9a3e4080413a430bb86010e94b6209f56fbeaaf3b53bf2a82e9c047e5f3379"
+        },
+        "editorial_sha256": "0b6f90cf45fa69c1b026f44dab4da34e8dd0a7480ca48873b6c055f0b5cc4dc2"
+      }
     }
   },
   "migration": {
@@ -62523,6 +62535,26 @@
         "sha256": "eb6ca6f8c6d5ba8a683e763268b089b70a0cda34d86813c228b69dde75c6811c",
         "reviewed_at": "2026-11-17T17:15:40.664641+00:00",
         "operation_id": "2a5133cd01bdb3bcc764548cbb3245149cf47d6370c19ba0ae1e8c659723ce00"
+      }
+    ],
+    "464:1": [
+      {
+        "reference": {
+          "id": 464,
+          "revision": 1,
+          "sha256": "ec9a3e4080413a430bb86010e94b6209f56fbeaaf3b53bf2a82e9c047e5f3379"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a new general model-tier release of GPT-6.2 Astra and GPT-6.2 Sol. The summary is written for a general reader and does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "5e1404186e13d3a12348a8d72298a37215cac0f883fd1cff6df2fde2d79780c2"
+          }
+        },
+        "sha256": "0b6f90cf45fa69c1b026f44dab4da34e8dd0a7480ca48873b6c055f0b5cc4dc2",
+        "reviewed_at": "2026-11-17T19:41:14.210135+00:00",
+        "operation_id": "dd3853089366ac0e91706fb67998c7fdf526e6ba06851a8c398f198a17cf3ecd"
       }
     ]
   }
