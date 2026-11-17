@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1430,
-  "updated_at": "2026-11-17T17:15:39.794973+00:00",
+  "generation": 1431,
+  "updated_at": "2026-11-17T17:15:40.664641+00:00",
   "next_id": 464,
   "records": [
     {
@@ -50473,6 +50473,18 @@
         ],
         "duplicates": []
       }
+    },
+    "2a5133cd01bdb3bcc764548cbb3245149cf47d6370c19ba0ae1e8c659723ce00": {
+      "sha256": "acadfa54b23bd948e461e47a418eb3a67c6060e3872c019d8c7d0c04074660e4",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 463,
+          "revision": 1,
+          "sha256": "1f2909074abdd446b3facc3aea537ed2985dbbf626e0d03f528a37bf5164cf4e"
+        },
+        "editorial_sha256": "eb6ca6f8c6d5ba8a683e763268b089b70a0cda34d86813c228b69dde75c6811c"
+      }
     }
   },
   "migration": {
@@ -62439,6 +62451,26 @@
         "sha256": "477ad67201c02778dd9bd3e3ce364081430f473630f14967f4cabcf679958cb8",
         "reviewed_at": "2026-11-17T17:15:32.518984+00:00",
         "operation_id": "f48992f9497a2499d15ce4fa0a33ff35447269958a57fdc48514b3dfe3279673"
+      }
+    ],
+    "463:1": [
+      {
+        "reference": {
+          "id": 463,
+          "revision": 1,
+          "sha256": "1f2909074abdd446b3facc3aea537ed2985dbbf626e0d03f528a37bf5164cf4e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a Google Maps consumer feature update for Ask Maps holiday travel tools and a European expansion, not ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "e3150d93c422b0e1f8aadf08a386a1e1d8071f4ae65ef9b6089b72427b541f2d"
+          }
+        },
+        "sha256": "eb6ca6f8c6d5ba8a683e763268b089b70a0cda34d86813c228b69dde75c6811c",
+        "reviewed_at": "2026-11-17T17:15:40.664641+00:00",
+        "operation_id": "2a5133cd01bdb3bcc764548cbb3245149cf47d6370c19ba0ae1e8c659723ce00"
       }
     ]
   }
