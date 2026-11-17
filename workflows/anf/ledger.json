@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1418,
-  "updated_at": "2026-11-17T16:38:14.811444+00:00",
+  "generation": 1419,
+  "updated_at": "2026-11-17T16:38:15.867092+00:00",
   "next_id": 460,
   "records": [
     {
@@ -50217,6 +50217,18 @@
         ],
         "duplicates": []
       }
+    },
+    "3f069d4866bb9e4e66f35198155e50fe06123581dcc77e3c2fd517aab57df005": {
+      "sha256": "0f9f2c27015eff3b5ee80308c98787747a96e7b6ddf38363a71ecabcbc42e4c8",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 459,
+          "revision": 1,
+          "sha256": "1513f95853f696beb243752d6fd9a471979a0d788d6fedd71e742e32544cf83a"
+        },
+        "editorial_sha256": "01c317615d6b08c6dc466a782df193fc59897a5cb42719bb40e037862510b23e"
+      }
     }
   },
   "migration": {
@@ -62103,6 +62115,26 @@
         "sha256": "8a3daf4b7a30a1b31e471722caf5453c866642f136596cc633cef9ce9b72b3ac",
         "reviewed_at": "2026-11-17T15:38:42.581866+00:00",
         "operation_id": "16692bd994b3a13f87ca9aa7809e35b60c89f7142484dd852cbb0887cd8e8865"
+      }
+    ],
+    "459:1": [
+      {
+        "reference": {
+          "id": 459,
+          "revision": 1,
+          "sha256": "1513f95853f696beb243752d6fd9a471979a0d788d6fedd71e742e32544cf83a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a corporate leadership statement about a possible CEO return that can be summarized in everyday language. Finance and business subject matter alone is not a DS trigger.",
+            "evidence_sha256": "30641697a8435b99aba3fbf31413c453937731e9795fd215eb2347ccf6a76ae8"
+          }
+        },
+        "sha256": "01c317615d6b08c6dc466a782df193fc59897a5cb42719bb40e037862510b23e",
+        "reviewed_at": "2026-11-17T16:38:15.867092+00:00",
+        "operation_id": "3f069d4866bb9e4e66f35198155e50fe06123581dcc77e3c2fd517aab57df005"
       }
     ]
   }
