@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1414,
-  "updated_at": "2026-11-17T15:38:40.875063+00:00",
-  "next_id": 458,
+  "generation": 1415,
+  "updated_at": "2026-11-17T15:38:41.697687+00:00",
+  "next_id": 459,
   "records": [
     {
       "id": 1,
@@ -6092,6 +6092,19 @@
           "sha256": "a0e15d84ddd8757f0d78adb2df547d2456fcce64e34d20133f83ce9dc93daa6a",
           "source": "Meta",
           "request_id": "fa7e81297014842e6349e7570b5bc145013382be9f1e7d8cb5996baa85c40d7c",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 458,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T15:38:41.697687+00:00",
+          "block": "Title: OpenAI Says It Is Working With NATO on Cyber Defense, Using Up to 300 Billion Tokens a Month\nURL: https://www.techmeme.com/261117/p16\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/4AvTdfi4XgE0hchiQH8UhY/6c9c5278cafc000de19c0892beecbf8c/strengthening-nato-and-allied-cyber-defences-with-ai-seo.png?w=1600&h=900&fit=fill\nSummary: OpenAI says it is working with NATO's Communications and Information Agency to give the alliance's core institutions access to advanced cybersecurity models through its Daybreak program. NATO has used up to 300 billion raw input and output tokens per month as part of this work. OpenAI says Daybreak helps authorized defenders review software, investigate suspicious activity, and test fixes.",
+          "sha256": "c0a979dd3df3cac77e9de3e3e8578b84e92b5cdb30bfe3fc06b404bf9ee83564",
+          "source": "OpenAI",
+          "request_id": "48b711aaea5416ed0ce74e7205f6522585a786cab4f2b1ae2696a86890251891",
           "mode": "standard"
         }
       ]
@@ -13426,13 +13439,21 @@
       ]
     },
     "48b711aaea5416ed0ce74e7205f6522585a786cab4f2b1ae2696a86890251891": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-17T15:38:40.875063+00:00",
       "received_sequence": 414,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-17T15:38:41.697687+00:00",
+      "records": [
+        {
+          "id": 458,
+          "revision": 1,
+          "sha256": "c0a979dd3df3cac77e9de3e3e8578b84e92b5cdb30bfe3fc06b404bf9ee83564"
+        }
+      ]
     }
   },
   "batches": {
@@ -50116,6 +50137,21 @@
       "result": {
         "status": "received",
         "request_id": "48b711aaea5416ed0ce74e7205f6522585a786cab4f2b1ae2696a86890251891"
+      }
+    },
+    "2385f339be22b7add486c943125f6f85cc23e78ddd0cb84adb422194efabaabc": {
+      "sha256": "22ffd392325290eaa50ac9fc73b0bfe0d25d86f39a42ab7975bb2b1a77ab9b64",
+      "result": {
+        "status": "finalized",
+        "request_id": "48b711aaea5416ed0ce74e7205f6522585a786cab4f2b1ae2696a86890251891",
+        "records": [
+          {
+            "id": 458,
+            "revision": 1,
+            "sha256": "c0a979dd3df3cac77e9de3e3e8578b84e92b5cdb30bfe3fc06b404bf9ee83564"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
