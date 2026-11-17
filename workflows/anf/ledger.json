@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1423,
-  "updated_at": "2026-11-17T17:13:13.344970+00:00",
-  "next_id": 461,
+  "generation": 1424,
+  "updated_at": "2026-11-17T17:13:14.266394+00:00",
+  "next_id": 462,
   "records": [
     {
       "id": 1,
@@ -6131,6 +6131,19 @@
           "sha256": "506566f1a0dcfe6a33d2883e3df7ea81b4c9ff3615559f3843443b058db5ac06",
           "source": "FBI",
           "request_id": "7760fc7d2dbfcfb27892ab9aaa2cb5be89e617aeeec5b5847008a31a8712b513",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 461,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T17:13:14.266394+00:00",
+          "block": "Title: Google Makes Gemini Tasks Free in Six Countries and Adds Calling and Payments\nURL: https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566_1.width-1300.png\nSummary: Google says Tasks in Gemini is now rolling out free of charge for hundreds of millions of people in the United States, Japan, Korea, Canada, Australia, and India, using Gemini 4 Hydrogen. Starting in the U.S., Gemini can place calls on a user's behalf, check out with Google Pay, and accept forwarded emails at gemini@google.com to add events to Calendar.",
+          "sha256": "461ea4682231a99d6c4fe58a7799a84d96afac095a91de4089c2438677c7aacd",
+          "source": "Google",
+          "request_id": "80137f26c385eb36ba173be0f1bb7ba1a35945c7ce546e8c55f9066c4abc9f7f",
           "mode": "standard"
         }
       ]
@@ -13516,13 +13529,21 @@
       ]
     },
     "80137f26c385eb36ba173be0f1bb7ba1a35945c7ce546e8c55f9066c4abc9f7f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-17T17:13:13.344970+00:00",
       "received_sequence": 417,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-17T17:13:14.266394+00:00",
+      "records": [
+        {
+          "id": 461,
+          "revision": 1,
+          "sha256": "461ea4682231a99d6c4fe58a7799a84d96afac095a91de4089c2438677c7aacd"
+        }
+      ]
     }
   },
   "batches": {
@@ -50308,6 +50329,21 @@
       "result": {
         "status": "received",
         "request_id": "80137f26c385eb36ba173be0f1bb7ba1a35945c7ce546e8c55f9066c4abc9f7f"
+      }
+    },
+    "7b2f127c732b065084e2d454b2744971764df32641ac46f744ccd226ff845ec8": {
+      "sha256": "0a5f1e1c14b197b0839c55eaa76686a4ef65b9cc4a8bb8b635c440fe8c0322d6",
+      "result": {
+        "status": "finalized",
+        "request_id": "80137f26c385eb36ba173be0f1bb7ba1a35945c7ce546e8c55f9066c4abc9f7f",
+        "records": [
+          {
+            "id": 461,
+            "revision": 1,
+            "sha256": "461ea4682231a99d6c4fe58a7799a84d96afac095a91de4089c2438677c7aacd"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
