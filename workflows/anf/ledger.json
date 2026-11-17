@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1421,
-  "updated_at": "2026-11-17T17:09:04.258662+00:00",
+  "generation": 1422,
+  "updated_at": "2026-11-17T17:09:05.131575+00:00",
   "next_id": 461,
   "records": [
     {
@@ -50281,6 +50281,18 @@
         ],
         "duplicates": []
       }
+    },
+    "c225883127b86ff929a4b9bf6c875ddea62c3b37a7557c98c8a3c9e435fb78fe": {
+      "sha256": "df9bd45b876ef1c9c7e036314ee4b171a879492b3c06221ff0db16f765ed3e25",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 460,
+          "revision": 1,
+          "sha256": "506566f1a0dcfe6a33d2883e3df7ea81b4c9ff3615559f3843443b058db5ac06"
+        },
+        "editorial_sha256": "f48221b21e726a95e4d455934317b495a965db2feea54b0b9c4ddef9fc034610"
+      }
     }
   },
   "migration": {
@@ -62187,6 +62199,26 @@
         "sha256": "01c317615d6b08c6dc466a782df193fc59897a5cb42719bb40e037862510b23e",
         "reviewed_at": "2026-11-17T16:38:15.867092+00:00",
         "operation_id": "3f069d4866bb9e4e66f35198155e50fe06123581dcc77e3c2fd517aab57df005"
+      }
+    ],
+    "460:1": [
+      {
+        "reference": {
+          "id": 460,
+          "revision": 1,
+          "sha256": "506566f1a0dcfe6a33d2883e3df7ea81b4c9ff3615559f3843443b058db5ac06"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "This is an FBI FLASH advisory about an LLM-driven agentic penetration testing framework used to automate cyber intrusions, which are security and ML-technical terms.",
+            "evidence_sha256": "4902d4f4ad1bf6a5c9c695fe79b7df76ced08d6a84f7b580687f62478bdc6fd2"
+          }
+        },
+        "sha256": "f48221b21e726a95e4d455934317b495a965db2feea54b0b9c4ddef9fc034610",
+        "reviewed_at": "2026-11-17T17:09:05.131575+00:00",
+        "operation_id": "c225883127b86ff929a4b9bf6c875ddea62c3b37a7557c98c8a3c9e435fb78fe"
       }
     ]
   }
