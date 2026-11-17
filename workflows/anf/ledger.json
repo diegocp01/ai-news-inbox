@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1420,
-  "updated_at": "2026-11-17T17:09:03.291511+00:00",
-  "next_id": 460,
+  "generation": 1421,
+  "updated_at": "2026-11-17T17:09:04.258662+00:00",
+  "next_id": 461,
   "records": [
     {
       "id": 1,
@@ -6118,6 +6118,19 @@
           "sha256": "1513f95853f696beb243752d6fd9a471979a0d788d6fedd71e742e32544cf83a",
           "source": "Jensen Huang",
           "request_id": "9a043b554a4181d9985eb623e16490be36e90b429de8070a6ed9ca033a0a6d42",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 460,
+      "revisions": [
+        {
+          "created_at": "2026-11-17T17:09:04.258662+00:00",
+          "block": "Title: FBI Warns That Hackers Are Using the ARTEX AI Framework to Automate Intrusions\nURL: https://www.ic3.gov/CSA/2026/261113.pdf\nImage URL: https://www.bleepstatic.com/content/hl-images/2025/10/23/AI-2.jpg\nSummary: The FBI has issued a FLASH advisory warning that threat actors have weaponized ARTEX, an open-source large language model-driven agentic penetration testing framework, to automate cyber intrusions. Some attacks have gone from initial targeting to privileged access in under three hours. Campaigns include a ConnectWise Cloud Backup supply-chain compromise that enabled access to more than 2,250 downstream tenants.",
+          "sha256": "506566f1a0dcfe6a33d2883e3df7ea81b4c9ff3615559f3843443b058db5ac06",
+          "source": "FBI",
+          "request_id": "7760fc7d2dbfcfb27892ab9aaa2cb5be89e617aeeec5b5847008a31a8712b513",
           "mode": "standard"
         }
       ]
@@ -13486,13 +13499,21 @@
       ]
     },
     "7760fc7d2dbfcfb27892ab9aaa2cb5be89e617aeeec5b5847008a31a8712b513": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-17T17:09:03.291511+00:00",
       "received_sequence": 416,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-17T17:09:04.258662+00:00",
+      "records": [
+        {
+          "id": 460,
+          "revision": 1,
+          "sha256": "506566f1a0dcfe6a33d2883e3df7ea81b4c9ff3615559f3843443b058db5ac06"
+        }
+      ]
     }
   },
   "batches": {
@@ -50244,6 +50265,21 @@
       "result": {
         "status": "received",
         "request_id": "7760fc7d2dbfcfb27892ab9aaa2cb5be89e617aeeec5b5847008a31a8712b513"
+      }
+    },
+    "7c586b4adc7abcaae87c40cc7f8aaccf685a554dcd1ce7d2af6a1d84d51b0d0c": {
+      "sha256": "a90ef47be1374e430be8e897bd5a7f57c72bb5aa80d301cf13aff08ce2f4d30c",
+      "result": {
+        "status": "finalized",
+        "request_id": "7760fc7d2dbfcfb27892ab9aaa2cb5be89e617aeeec5b5847008a31a8712b513",
+        "records": [
+          {
+            "id": 460,
+            "revision": 1,
+            "sha256": "506566f1a0dcfe6a33d2883e3df7ea81b4c9ff3615559f3843443b058db5ac06"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
