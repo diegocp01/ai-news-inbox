@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1457,
-  "updated_at": "2026-11-18T12:55:43.717939+00:00",
+  "generation": 1460,
+  "updated_at": "2026-11-18T13:04:22.379366+00:00",
   "next_id": 475,
   "records": [
     {
@@ -51099,6 +51099,42 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261118-472-8639": {
+      "sha256": "25297e241fadfa168bd56764e56f9bafae1039a6d05e11e2ae14c5afd2a32e18",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 472,
+          "revision": 1,
+          "sha256": "09d6b448f9ac067a4cbddd04bf17d6f328f21e8076ab4c05f85e8ccf3dccaed9"
+        },
+        "editorial_sha256": "c99094242f04efe95ab9b58373316f775436f6407530d588d5616f34704934d0"
+      }
+    },
+    "muse-backfill-20261118-473-5133": {
+      "sha256": "8e76cfa543178aed4e53969fadac728b27ded46e23e77a8e58d2ee3843aba4de",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 473,
+          "revision": 1,
+          "sha256": "3843a4be36a0a20004b2f42a307e2ed7cc3b2fe15481a53066176739ff47fa04"
+        },
+        "editorial_sha256": "3c23132eb74767dcef7e8481ae1e26e320a117da8be17c53a7635e21806bfb8d"
+      }
+    },
+    "muse-backfill-20261118-474-8745": {
+      "sha256": "aa570a1f7064cc8fd7cae13e2a6108e8b591f1569332f051d27a7ccb668d3891",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 474,
+          "revision": 1,
+          "sha256": "0ba8641d6da3f4ceeb05c5562c636c3c9db617a9f82771be270d0f1e9055d690"
+        },
+        "editorial_sha256": "c5a430a16646d0777b27ad308d2e84e6b4b430fc7ef7d8f2614342a390122910"
+      }
     }
   },
   "migration": {
@@ -63245,6 +63281,66 @@
         "sha256": "842726c36749b3a2e15c714b0db1afc5b3273d24bddb23cbe992cd46a0daca4a",
         "reviewed_at": "2026-11-18T01:36:53.488853+00:00",
         "operation_id": "muse-intake-20261117-microsoft-mai-review-5779"
+      }
+    ],
+    "472:1": [
+      {
+        "reference": {
+          "id": 472,
+          "revision": 1,
+          "sha256": "09d6b448f9ac067a4cbddd04bf17d6f328f21e8076ab4c05f85e8ccf3dccaed9"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "OpenAI released GPT-6.2 Astra for complex projects and GPT-6.2 Sol for everyday work, reporting Astra improvements in science, legal work and 3D design, with lower costs on selected benchmarks. OpenAI also classified Astra as its first externally released model to meet the High threshold for AI self-improvement, meaning assistance that can accelerate AI research. This is a model release with benchmark and capability findings for a research and technical audience, not general business news. muse-compile-backfill 2026-11-18: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "09d6b448f9ac067a4cbddd04bf17d6f328f21e8076ab4c05f85e8ccf3dccaed9"
+          }
+        },
+        "sha256": "c99094242f04efe95ab9b58373316f775436f6407530d588d5616f34704934d0",
+        "reviewed_at": "2026-11-18T13:04:21.951263+00:00",
+        "operation_id": "muse-backfill-20261118-472-8639"
+      }
+    ],
+    "473:1": [
+      {
+        "reference": {
+          "id": 473,
+          "revision": 1,
+          "sha256": "3843a4be36a0a20004b2f42a307e2ed7cc3b2fe15481a53066176739ff47fa04"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Former Nvidia CEO Jensen Huang apologized for personal mistakes in his first public statement since resigning, said he would cooperate with the board's independent investigation and return as CEO if directors approved. Nvidia chair Harvey Jones said the board does not intend to reinstate him, and Colette Kress is serving as interim CEO. This is corporate leadership and business news for a broad audience, not technical research. muse-compile-backfill 2026-11-18: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "3843a4be36a0a20004b2f42a307e2ed7cc3b2fe15481a53066176739ff47fa04"
+          }
+        },
+        "sha256": "3c23132eb74767dcef7e8481ae1e26e320a117da8be17c53a7635e21806bfb8d",
+        "reviewed_at": "2026-11-18T13:04:22.163167+00:00",
+        "operation_id": "muse-backfill-20261118-473-5133"
+      }
+    ],
+    "474:1": [
+      {
+        "reference": {
+          "id": 474,
+          "revision": 1,
+          "sha256": "0ba8641d6da3f4ceeb05c5562c636c3c9db617a9f82771be270d0f1e9055d690"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "OpenAI says it works with NATO's technology agency to supply cybersecurity models that help protect allied networks. Separately, Calif says AI helped researchers find a flaw in OpenJDK, which runs Java applications, and Oracle released a fix on November 17. OpenAI also says ENISA found four vulnerabilities using its models, with fixes published for all four. This is technical cybersecurity news about AI models and vulnerability discovery for a technical audience, not general business news. muse-compile-backfill 2026-11-18: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "0ba8641d6da3f4ceeb05c5562c636c3c9db617a9f82771be270d0f1e9055d690"
+          }
+        },
+        "sha256": "c5a430a16646d0777b27ad308d2e84e6b4b430fc7ef7d8f2614342a390122910",
+        "reviewed_at": "2026-11-18T13:04:22.379366+00:00",
+        "operation_id": "muse-backfill-20261118-474-8745"
       }
     ]
   }
