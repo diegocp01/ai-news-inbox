@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1445,
-  "updated_at": "2026-11-18T00:48:33.501552+00:00",
+  "generation": 1446,
+  "updated_at": "2026-11-18T00:48:34.668529+00:00",
   "next_id": 469,
   "records": [
     {
@@ -50793,6 +50793,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e6b7479aaa5ea581a403126c080899e8a3d0f1858c47a992a7d05ff572757dc8": {
+      "sha256": "d3986b60b7ddb2652002db1c6abcecf14777cf0c1d25dc0e273e5e1371fa1d0a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 468,
+          "revision": 1,
+          "sha256": "9ef433232c309133b842c71b5f4225d1afee7012650b98c4480eed5d49581102"
+        },
+        "editorial_sha256": "e4894f60fde681cc237ac9104187aa7b85a7e51f289d8f78229f7f1e19f50c09"
+      }
     }
   },
   "migration": {
@@ -62859,6 +62871,26 @@
         "sha256": "63f0a1678b8673b84e98cd997e34fbbe410329448a05ea026816e7b07803cca7",
         "reviewed_at": "2026-11-18T00:11:48.102899+00:00",
         "operation_id": "e75047a2c97ce2abf020821b28cca0e7014484a64d3a30be5256727b9efce3f4"
+      }
+    ],
+    "468:1": [
+      {
+        "reference": {
+          "id": 468,
+          "revision": 1,
+          "sha256": "9ef433232c309133b842c71b5f4225d1afee7012650b98c4480eed5d49581102"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "This is a research paper proposing Self-Improvement Memory for a harness optimizer, so recursive self-improvement can continue across benchmarks and policy models, which are ML-technical terms.",
+            "evidence_sha256": "6d7fedf7e19461880e4f53a3be7c4c63a67f58a613693a0ab3166641cf55cf53"
+          }
+        },
+        "sha256": "e4894f60fde681cc237ac9104187aa7b85a7e51f289d8f78229f7f1e19f50c09",
+        "reviewed_at": "2026-11-18T00:48:34.668529+00:00",
+        "operation_id": "e6b7479aaa5ea581a403126c080899e8a3d0f1858c47a992a7d05ff572757dc8"
       }
     ]
   }
