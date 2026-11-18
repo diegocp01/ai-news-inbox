@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1478,
-  "updated_at": "2026-11-18T19:59:49.922500+00:00",
+  "generation": 1479,
+  "updated_at": "2026-11-18T19:59:50.792861+00:00",
   "next_id": 480,
   "records": [
     {
@@ -52049,6 +52049,18 @@
         ],
         "duplicates": []
       }
+    },
+    "7b290bacbe15dcf537427cb70256e15de1ecdfb34d01fbe2bbada32c6a4e57cc": {
+      "sha256": "af46e2ad934b75675c553d21a838ca5be8f090134b2e384a7a8b194c4c7b938e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 479,
+          "revision": 1,
+          "sha256": "4fd9a3b345305b8295e37966ac8c473c7d605183ae9ba0f41471104ace4506ff"
+        },
+        "editorial_sha256": "abbd007cbddd36be4a0a64eae2f2485d78fe16cf50abd7d0732c219fa4204590"
+      }
     }
   },
   "migration": {
@@ -64335,6 +64347,26 @@
         "sha256": "8a1fb18f671d828e8f89cf550547bc0388504008912895922b0bc364c77b64ff",
         "reviewed_at": "2026-11-18T19:45:07.680008+00:00",
         "operation_id": "b26802d09cabdb034119dc8c1c10e0682c3b50a5e6c3a0616ce15d8d45f9588c"
+      }
+    ],
+    "479:1": [
+      {
+        "reference": {
+          "id": 479,
+          "revision": 1,
+          "sha256": "4fd9a3b345305b8295e37966ac8c473c7d605183ae9ba0f41471104ace4506ff"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Product feature rollout of travel booking in Grok Bot; no ML-technical, developer/API, security, or hardware-internals terms are required.",
+            "evidence_sha256": "f0df3324d8f6be004d92ce7a7b5d75fede6bac575eb5f45512b486811f7d599e"
+          }
+        },
+        "sha256": "abbd007cbddd36be4a0a64eae2f2485d78fe16cf50abd7d0732c219fa4204590",
+        "reviewed_at": "2026-11-18T19:59:50.792861+00:00",
+        "operation_id": "7b290bacbe15dcf537427cb70256e15de1ecdfb34d01fbe2bbada32c6a4e57cc"
       }
     ]
   }
