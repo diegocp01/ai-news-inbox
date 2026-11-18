@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1439,
-  "updated_at": "2026-11-18T00:09:04.828144+00:00",
+  "generation": 1440,
+  "updated_at": "2026-11-18T00:09:05.734659+00:00",
   "next_id": 467,
   "records": [
     {
@@ -50665,6 +50665,18 @@
         ],
         "duplicates": []
       }
+    },
+    "ba0a4a3137ee7305353908db419a6870510c822f74fbc10829e5f866bbdbeabb": {
+      "sha256": "4cd0b316cd055d6ca4c0dbdf6c3b9b96ae45624eadca916103c8e918f9681665",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 466,
+          "revision": 1,
+          "sha256": "7fa135504b1f878d09b4e49fd6ba353a53e297570e23caa5f46c32d524a22977"
+        },
+        "editorial_sha256": "2d6cbcedef1d0110691aa65ecc842d0626ac4b60cfe462ac303de27d6f52d70c"
+      }
     }
   },
   "migration": {
@@ -62691,6 +62703,26 @@
         "sha256": "33697e8b632114f2b95ece744ab912d83fd24e2cbb2a69f2c3d87746e4e4ec56",
         "reviewed_at": "2026-11-17T22:19:05.007702+00:00",
         "operation_id": "d497aa1a282167ec5fd8f8a5d9ff167c032cace1a2cc5f0b7428d60a39317f9b"
+      }
+    ],
+    "466:1": [
+      {
+        "reference": {
+          "id": 466,
+          "revision": 1,
+          "sha256": "7fa135504b1f878d09b4e49fd6ba353a53e297570e23caa5f46c32d524a22977"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a Muse product feature announcement that voice is available on Apple Watch and Android Wear OS. It is a feature rollout, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "3ce419d3f0f9bc78cbe4fc9691736ae10ffcbe9fefa711128d1b2d8b520d29b2"
+          }
+        },
+        "sha256": "2d6cbcedef1d0110691aa65ecc842d0626ac4b60cfe462ac303de27d6f52d70c",
+        "reviewed_at": "2026-11-18T00:09:05.734659+00:00",
+        "operation_id": "ba0a4a3137ee7305353908db419a6870510c822f74fbc10829e5f866bbdbeabb"
       }
     ]
   }
