@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1447,
-  "updated_at": "2026-11-18T00:50:55.819836+00:00",
-  "next_id": 469,
+  "generation": 1448,
+  "updated_at": "2026-11-18T00:50:56.701824+00:00",
+  "next_id": 470,
   "records": [
     {
       "id": 1,
@@ -6235,6 +6235,19 @@
           "sha256": "9ef433232c309133b842c71b5f4225d1afee7012650b98c4480eed5d49581102",
           "source": "Google",
           "request_id": "a1aa818dc1bb3e0fd3c34c969648f761d63cf0eaa253f4bd6b52cab159c07644",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 469,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T00:50:56.701824+00:00",
+          "block": "Title: Microsoft Begins Rolling Out Autopilot, a Personal Work Agent, to Frontier Customers\nURL: https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/autopilot-meet-your-trusted-personal-teammate/4572611\nImage URL: https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTcyNjExLUZiQWw5Ng?revision=3\nSummary: Microsoft is beginning to roll out Autopilot, an always-on personal work agent, to eligible customers in its Frontier program. Autopilot has its own identity, memory, workspace, and remote computer, and can work in Teams and Outlook. Users give it a name, a role, and a goal, and it can keep work moving in the cloud even with a closed laptop.",
+          "sha256": "fe2ebf13184a8cb4b30e1e33743768e793c43953a8695b4975409af4bbd0595a",
+          "source": "Microsoft",
+          "request_id": "b8c912c4c7a615e0c47a881fad783f9cd71fcaeaba2d269bf400290bdd3e826f",
           "mode": "standard"
         }
       ]
@@ -13756,13 +13769,21 @@
       ]
     },
     "b8c912c4c7a615e0c47a881fad783f9cd71fcaeaba2d269bf400290bdd3e826f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-18T00:50:55.819836+00:00",
       "received_sequence": 425,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-18T00:50:56.701824+00:00",
+      "records": [
+        {
+          "id": 469,
+          "revision": 1,
+          "sha256": "fe2ebf13184a8cb4b30e1e33743768e793c43953a8695b4975409af4bbd0595a"
+        }
+      ]
     }
   },
   "batches": {
@@ -50820,6 +50841,21 @@
       "result": {
         "status": "received",
         "request_id": "b8c912c4c7a615e0c47a881fad783f9cd71fcaeaba2d269bf400290bdd3e826f"
+      }
+    },
+    "361366f1ccb01450781a175613b655da5718a658f81b50adcec0615d81971826": {
+      "sha256": "5ce7376e328c719e7f677d0e655d6fad6446a3561008d32896119f821cf7232a",
+      "result": {
+        "status": "finalized",
+        "request_id": "b8c912c4c7a615e0c47a881fad783f9cd71fcaeaba2d269bf400290bdd3e826f",
+        "records": [
+          {
+            "id": 469,
+            "revision": 1,
+            "sha256": "fe2ebf13184a8cb4b30e1e33743768e793c43953a8695b4975409af4bbd0595a"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
