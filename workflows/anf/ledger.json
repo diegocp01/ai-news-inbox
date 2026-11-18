@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1479,
-  "updated_at": "2026-11-18T19:59:50.792861+00:00",
-  "next_id": 480,
+  "generation": 1482,
+  "updated_at": "2026-11-18T20:42:15.054478+00:00",
+  "next_id": 481,
   "records": [
     {
       "id": 1,
@@ -6381,6 +6381,19 @@
           "sha256": "4fd9a3b345305b8295e37966ac8c473c7d605183ae9ba0f41471104ace4506ff",
           "source": "Grok Bot",
           "request_id": "ea4d7dce7a72da34bf2f200fe7bc216dad8954c48b6cc11092dee74ff7cbd5da",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 480,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T20:42:14.845573+00:00",
+          "block": "Title: Waymo suspends driverless freeway rides nationwide after California DMV order\nURL: https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/\nImage URL: https://techcrunch.com/wp-content/uploads/2025/11/SF_WAYMO-FREEWAY_FRONT.jpg?resize=1200,801\nSummary: California's DMV barred Waymo from state freeways on Nov 11, calling its driverless freeway operations an imminent hazard after three robotaxis entered an active construction closure on Route 101 and another incident with Highway Patrol vehicles on Highway 280. Waymo voluntarily paused freeway rides in all its markets; surface-street service continues.",
+          "sha256": "91748d09604462fac71e43b4e23b6068ce889d96dc5ee1fe722eee7f585182b6",
+          "source": "TechCrunch",
+          "request_id": "muse-intake-20261118-waymo-freeway-suspension",
           "mode": "standard"
         }
       ]
@@ -14062,6 +14075,23 @@
           "id": 479,
           "revision": 1,
           "sha256": "4fd9a3b345305b8295e37966ac8c473c7d605183ae9ba0f41471104ace4506ff"
+        }
+      ]
+    },
+    "muse-intake-20261118-waymo-freeway-suspension": {
+      "status": "finalized",
+      "received_at": "2026-11-18T20:42:14.625633+00:00",
+      "received_sequence": 434,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-18T20:42:14.845573+00:00",
+      "records": [
+        {
+          "id": 480,
+          "revision": 1,
+          "sha256": "91748d09604462fac71e43b4e23b6068ce889d96dc5ee1fe722eee7f585182b6"
         }
       ]
     }
@@ -52061,6 +52091,40 @@
         },
         "editorial_sha256": "abbd007cbddd36be4a0a64eae2f2485d78fe16cf50abd7d0732c219fa4204590"
       }
+    },
+    "muse-intake-20261118-waymo-freeway-receive-7149": {
+      "sha256": "1ec199bad3bf70b3e7c0f64027b1508bf214c20be138ba041110985c8da175d9",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261118-waymo-freeway-suspension"
+      }
+    },
+    "muse-intake-20261118-waymo-freeway-finalize-5835": {
+      "sha256": "247207a2f3c686621208eae1c3e15d55303829410dc39266be9e746973099a65",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261118-waymo-freeway-suspension",
+        "records": [
+          {
+            "id": 480,
+            "revision": 1,
+            "sha256": "91748d09604462fac71e43b4e23b6068ce889d96dc5ee1fe722eee7f585182b6"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261118-waymo-freeway-review-9187": {
+      "sha256": "b4edd7a69785bb303c202a8b4c7d23c162f379f7e314bc617eb073e26909b44f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 480,
+          "revision": 1,
+          "sha256": "91748d09604462fac71e43b4e23b6068ce889d96dc5ee1fe722eee7f585182b6"
+        },
+        "editorial_sha256": "c82e1672383d9cdbeb74ab6b551524d63e65822f7c17b4961d79fa184221f485"
+      }
     }
   },
   "migration": {
@@ -64367,6 +64431,26 @@
         "sha256": "abbd007cbddd36be4a0a64eae2f2485d78fe16cf50abd7d0732c219fa4204590",
         "reviewed_at": "2026-11-18T19:59:50.792861+00:00",
         "operation_id": "7b290bacbe15dcf537427cb70256e15de1ecdfb34d01fbe2bbada32c6a4e57cc"
+      }
+    ],
+    "480:1": [
+      {
+        "reference": {
+          "id": 480,
+          "revision": 1,
+          "sha256": "91748d09604462fac71e43b4e23b6068ce889d96dc5ee1fe722eee7f585182b6"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Waymo losing freeway access nationwide is general tech and transport news about autonomous-vehicle regulation and a widely used robotaxi service, not a technical result; it matters to general readers tracking self-driving cars. muse-intake 2026-11-18: submitted by Diego via Instagram (Yahoo News reel https://www.instagram.com/reel/Df45ZB0v_ww/), verified against TechCrunch; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "91748d09604462fac71e43b4e23b6068ce889d96dc5ee1fe722eee7f585182b6"
+          }
+        },
+        "sha256": "c82e1672383d9cdbeb74ab6b551524d63e65822f7c17b4961d79fa184221f485",
+        "reviewed_at": "2026-11-18T20:42:15.054478+00:00",
+        "operation_id": "muse-intake-20261118-waymo-freeway-review-9187"
       }
     ]
   }
