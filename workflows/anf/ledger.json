@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1456,
-  "updated_at": "2026-11-18T12:43:54.773183+00:00",
-  "next_id": 472,
+  "generation": 1457,
+  "updated_at": "2026-11-18T12:55:43.717939+00:00",
+  "next_id": 475,
   "records": [
     {
       "id": 1,
@@ -6275,6 +6275,48 @@
           "source": "Cryptopolitan",
           "request_id": "muse-intake-20261117-microsoft-mai-models",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 472,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T12:55:43.717939+00:00",
+          "block": "Title: OpenAI Releases GPT-6.2 Astra and Sol Models\nURL: https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/\nImage URL: https://us1.discourse-cdn.com/openai1/optimized/4X/4/0/f/40f1a336e701ceff44f36f4e0a72367ae301e1c5_2_690x388.jpeg\nSummary: OpenAI released GPT-6.2 Astra for complex projects and GPT-6.2 Sol for everyday work. The company reports Astra improvements in science, legal work and 3D design, with lower costs on selected benchmarks. OpenAI also classified Astra as its first externally released model to meet the High threshold for AI self-improvement, meaning assistance that can accelerate AI research.",
+          "sha256": "09d6b448f9ac067a4cbddd04bf17d6f328f21e8076ab4c05f85e8ccf3dccaed9",
+          "source": "the-decoder.com",
+          "request_id": "d66633996a9f2e89141f01b0638dba7c6ddbff7de804c800679dad0b9f50007d",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 473,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T12:55:43.717939+00:00",
+          "block": "Title: Jensen Huang Apologizes, Says He Would Return to Nvidia\nURL: https://www.cbsnews.com/news/jensen-huang-nvidia-ceo-return-statement/\nImage URL: https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/51779405-afcc-4d02-9a40-4c95399dbc3e/thumbnail/1200x630/f6294eed103f0baf6b4185c0415b1e43/gettyimages-2301328017.jpg\nSummary: Former Nvidia CEO Jensen Huang apologized for personal mistakes in his first public statement since resigning. He said he would cooperate with the board’s independent investigation and return as CEO if directors approved. Nvidia chair Harvey Jones said the board does not intend to reinstate him. Colette Kress is serving as interim CEO.",
+          "sha256": "3843a4be36a0a20004b2f42a307e2ed7cc3b2fe15481a53066176739ff47fa04",
+          "source": "cbsnews.com",
+          "request_id": "d66633996a9f2e89141f01b0638dba7c6ddbff7de804c800679dad0b9f50007d",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 474,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T12:55:43.717939+00:00",
+          "block": "Title: OpenAI Details NATO Cybersecurity Work; Calif Reports Java Flaw\nURL: https://www.helpnetsecurity.com/2026/11/17/openai-nato-ai-cyber-defense/\nImage URL: https://calif.io/java4shell/poster.jpg\nSummary: OpenAI says it works with NATO’s technology agency to supply cybersecurity models that help protect allied networks. Separately, Calif says AI helped researchers find a flaw in OpenJDK, which runs Java applications. Oracle released a fix on November 17. OpenAI also says ENISA found four vulnerabilities using its models, with fixes published for all four.",
+          "sha256": "0ba8641d6da3f4ceeb05c5562c636c3c9db617a9f82771be270d0f1e9055d690",
+          "source": "helpnetsecurity.com",
+          "request_id": "d66633996a9f2e89141f01b0638dba7c6ddbff7de804c800679dad0b9f50007d",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -13846,14 +13888,32 @@
       ]
     },
     "d66633996a9f2e89141f01b0638dba7c6ddbff7de804c800679dad0b9f50007d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-18T12:43:54.773183+00:00",
       "received_sequence": 428,
       "expected_items": 3,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-18T12:55:43.717939+00:00",
+      "records": [
+        {
+          "id": 472,
+          "revision": 1,
+          "sha256": "09d6b448f9ac067a4cbddd04bf17d6f328f21e8076ab4c05f85e8ccf3dccaed9"
+        },
+        {
+          "id": 473,
+          "revision": 1,
+          "sha256": "3843a4be36a0a20004b2f42a307e2ed7cc3b2fe15481a53066176739ff47fa04"
+        },
+        {
+          "id": 474,
+          "revision": 1,
+          "sha256": "0ba8641d6da3f4ceeb05c5562c636c3c9db617a9f82771be270d0f1e9055d690"
+        }
+      ]
     }
   },
   "batches": {
@@ -51013,6 +51073,31 @@
       "result": {
         "status": "received",
         "request_id": "d66633996a9f2e89141f01b0638dba7c6ddbff7de804c800679dad0b9f50007d"
+      }
+    },
+    "a22c0753578974c2386a5d71e8cdc62497be94021d8ecb0a1fb8158f893edce9": {
+      "sha256": "f13e54b09f85ad5301101ceeaf907db921d495a83f302c2e207093d6588fa8cd",
+      "result": {
+        "status": "finalized",
+        "request_id": "d66633996a9f2e89141f01b0638dba7c6ddbff7de804c800679dad0b9f50007d",
+        "records": [
+          {
+            "id": 472,
+            "revision": 1,
+            "sha256": "09d6b448f9ac067a4cbddd04bf17d6f328f21e8076ab4c05f85e8ccf3dccaed9"
+          },
+          {
+            "id": 473,
+            "revision": 1,
+            "sha256": "3843a4be36a0a20004b2f42a307e2ed7cc3b2fe15481a53066176739ff47fa04"
+          },
+          {
+            "id": 474,
+            "revision": 1,
+            "sha256": "0ba8641d6da3f4ceeb05c5562c636c3c9db617a9f82771be270d0f1e9055d690"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
