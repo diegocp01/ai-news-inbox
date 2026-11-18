@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1451,
-  "updated_at": "2026-11-18T00:57:37.687137+00:00",
+  "generation": 1452,
+  "updated_at": "2026-11-18T00:57:38.575504+00:00",
   "next_id": 471,
   "records": [
     {
@@ -50921,6 +50921,18 @@
         ],
         "duplicates": []
       }
+    },
+    "5798be3849a07e9d8e512078e6c42097c5a49acc71b6957bc2a3a0a9c1e053a7": {
+      "sha256": "85f502942a16d449f04f01f1f745767cb85fedcfa27ba81c007a423524629064",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 470,
+          "revision": 1,
+          "sha256": "9ecf4987e93a8592d5e9356f4d69f2c2a2468656b6278041de978267ed156e0c"
+        },
+        "editorial_sha256": "aad42759c11b0e908a9668431ff5ab489a592c1e7b02c43c56c03509e0de5b20"
+      }
     }
   },
   "migration": {
@@ -63027,6 +63039,26 @@
         "sha256": "b87781f36c7a8b96bd17b4ff98f207a140e8ec74a4bf82f8fcc1739217a8caf4",
         "reviewed_at": "2026-11-18T00:50:57.665799+00:00",
         "operation_id": "4be398b1071670936ecc7bb8ff0530e0b26e518b0c7fb9ad700ec4a7df2ad78e"
+      }
+    ],
+    "470:1": [
+      {
+        "reference": {
+          "id": 470,
+          "revision": 1,
+          "sha256": "9ecf4987e93a8592d5e9356f4d69f2c2a2468656b6278041de978267ed156e0c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a Mirelo product launch of Sound Agent, a prompt-based audio editor for video. It is a feature/product from a company that is not a listed lab, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "d4dd1e0fd90254ae1a902f5ff35a248dab9e3da518b2e24d3b0ef5a4840f3b01"
+          }
+        },
+        "sha256": "aad42759c11b0e908a9668431ff5ab489a592c1e7b02c43c56c03509e0de5b20",
+        "reviewed_at": "2026-11-18T00:57:38.575504+00:00",
+        "operation_id": "5798be3849a07e9d8e512078e6c42097c5a49acc71b6957bc2a3a0a9c1e053a7"
       }
     ]
   }
