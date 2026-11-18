@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1472,
-  "updated_at": "2026-11-18T19:33:38.906449+00:00",
+  "generation": 1473,
+  "updated_at": "2026-11-18T19:33:39.757968+00:00",
   "next_id": 478,
   "records": [
     {
@@ -51921,6 +51921,18 @@
         ],
         "duplicates": []
       }
+    },
+    "cdb2517d9a830f9a522b957edf98b2e947c79b839aab3def6a38b1daaee4d712": {
+      "sha256": "922ae0cd3b9fe3b146e080623c1a35536305005676aeb13091dfc4e54f726a14",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 477,
+          "revision": 1,
+          "sha256": "4dfbb985ae42da675d7157aef7a63fe7e46c9a21916fa41163dcc3e6cdef9a28"
+        },
+        "editorial_sha256": "eeb4072bb1093db762e1c592ac47528e5a86ca1f935e1f2756860f673f2f0d46"
+      }
     }
   },
   "migration": {
@@ -64167,6 +64179,26 @@
         "sha256": "f6753ca98652787d16a5ed9e2358e5bb8e5d6fe68767bbb8d6d207fcec2ee1e2",
         "reviewed_at": "2026-11-18T18:27:00.814296+00:00",
         "operation_id": "96a18760aebd4626548291b292711ffd0fecee9eb7f337abde62d56377ff9c82"
+      }
+    ],
+    "477:1": [
+      {
+        "reference": {
+          "id": 477,
+          "revision": 1,
+          "sha256": "4dfbb985ae42da675d7157aef7a63fe7e46c9a21916fa41163dcc3e6cdef9a28"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Availability rollout of a specialized interactive world model and Project Genie product features; no ML-technical, developer/API, security, or hardware-internals terms are required.",
+            "evidence_sha256": "a7922c9dde45a9d4d9db4774b76a13d3f777b5ef32caf0a513439c2171b218d0"
+          }
+        },
+        "sha256": "eeb4072bb1093db762e1c592ac47528e5a86ca1f935e1f2756860f673f2f0d46",
+        "reviewed_at": "2026-11-18T19:33:39.757968+00:00",
+        "operation_id": "cdb2517d9a830f9a522b957edf98b2e947c79b839aab3def6a38b1daaee4d712"
       }
     ]
   }
