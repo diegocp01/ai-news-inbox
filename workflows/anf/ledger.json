@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1477,
-  "updated_at": "2026-11-18T19:59:49.004409+00:00",
-  "next_id": 479,
+  "generation": 1478,
+  "updated_at": "2026-11-18T19:59:49.922500+00:00",
+  "next_id": 480,
   "records": [
     {
       "id": 1,
@@ -6368,6 +6368,19 @@
           "sha256": "dc9b732fc8109acf70e7754c88f638706f4fce649d0dddbe73f299b0fd3b06c7",
           "source": "Reuters",
           "request_id": "56d09dc523a52332864d58093eb5c225a4dbec8654f980b9a1ade68e4592df85",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 479,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T19:59:49.922500+00:00",
+          "block": "Title: Grok Bot Can Now Book Flights, Hotels and Rental Cars\nURL: \nImage URL: https://swarm.school/og/p/guides-grok-bot-flights-and-hotels.jpg\nSummary: Grok Bot can now book flights, hotels, and rental cars, the official Grok Bot account said, and it says the assistant will find the best deal. An official demo shows flight price comparisons, a hotel page with a Book button, and a paid confirmation plus boarding pass.",
+          "sha256": "4fd9a3b345305b8295e37966ac8c473c7d605183ae9ba0f41471104ace4506ff",
+          "source": "Grok Bot",
+          "request_id": "ea4d7dce7a72da34bf2f200fe7bc216dad8954c48b6cc11092dee74ff7cbd5da",
           "mode": "standard"
         }
       ]
@@ -14036,13 +14049,21 @@
       ]
     },
     "ea4d7dce7a72da34bf2f200fe7bc216dad8954c48b6cc11092dee74ff7cbd5da": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-18T19:59:49.004409+00:00",
       "received_sequence": 433,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-18T19:59:49.922500+00:00",
+      "records": [
+        {
+          "id": 479,
+          "revision": 1,
+          "sha256": "4fd9a3b345305b8295e37966ac8c473c7d605183ae9ba0f41471104ace4506ff"
+        }
+      ]
     }
   },
   "batches": {
@@ -52012,6 +52033,21 @@
       "result": {
         "status": "received",
         "request_id": "ea4d7dce7a72da34bf2f200fe7bc216dad8954c48b6cc11092dee74ff7cbd5da"
+      }
+    },
+    "a41b82e6b3dcca96c5a760cf53a9eb24224653c74f6308fcfdfc095ff69da5ca": {
+      "sha256": "66d8a53e1f97fa9143d7dd234a16c411e75204d2c30f0b6e7bffd76305905250",
+      "result": {
+        "status": "finalized",
+        "request_id": "ea4d7dce7a72da34bf2f200fe7bc216dad8954c48b6cc11092dee74ff7cbd5da",
+        "records": [
+          {
+            "id": 479,
+            "revision": 1,
+            "sha256": "4fd9a3b345305b8295e37966ac8c473c7d605183ae9ba0f41471104ace4506ff"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
