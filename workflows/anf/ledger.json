@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1441,
-  "updated_at": "2026-11-18T00:11:46.287455+00:00",
-  "next_id": 467,
+  "generation": 1442,
+  "updated_at": "2026-11-18T00:11:47.223652+00:00",
+  "next_id": 468,
   "records": [
     {
       "id": 1,
@@ -6209,6 +6209,19 @@
           "sha256": "7fa135504b1f878d09b4e49fd6ba353a53e297570e23caa5f46c32d524a22977",
           "source": "Muse",
           "request_id": "5ba0f5103e996af1a3cff6e9659fedaa3b766270097e24bf589ca2576cc7112c",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 467,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T00:11:47.223652+00:00",
+          "block": "Title: Meta AI Introduces Self-Improving Memory for Continual Learning Agents\nURL: https://facebookresearch.github.io/RAM/blogs/self_improving_memory/\nImage URL: https://facebookresearch.github.io/RAM/blogs/self_improving_memory/fig1_teaser.png\nSummary: Meta AI researchers introduced Self-Improving Memory, a method that lets a model discover its own memory skills and train them into its weights. A meta agent rewrites the model's memory prompts, which beat the best hand-written ones on three Continual Learning Bench tasks (56.0 vs 44.6). Fine-tuning on those runs raised the score with generic prompts to 43.1 from 37.6.",
+          "sha256": "4d868249774ece84dd58bf8ab59497de648b03956ef68cd825d7de568fc86c9f",
+          "source": "Meta",
+          "request_id": "346eb6966e7ddf76bbd521ded4b9145d7cd5d7e8d5c0304a1e6c4cdb21766131",
           "mode": "standard"
         }
       ]
@@ -13696,13 +13709,21 @@
       ]
     },
     "346eb6966e7ddf76bbd521ded4b9145d7cd5d7e8d5c0304a1e6c4cdb21766131": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-18T00:11:46.287455+00:00",
       "received_sequence": 423,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-18T00:11:47.223652+00:00",
+      "records": [
+        {
+          "id": 467,
+          "revision": 1,
+          "sha256": "4d868249774ece84dd58bf8ab59497de648b03956ef68cd825d7de568fc86c9f"
+        }
+      ]
     }
   },
   "batches": {
@@ -50692,6 +50713,21 @@
       "result": {
         "status": "received",
         "request_id": "346eb6966e7ddf76bbd521ded4b9145d7cd5d7e8d5c0304a1e6c4cdb21766131"
+      }
+    },
+    "8b9b3d9487938c5e185d8cc9d76a132970a4649dd9b564fe697660cdc2669009": {
+      "sha256": "35ab0d760296049c7c6799829d353e33900f098fae854d4fa4ca229ac242f592",
+      "result": {
+        "status": "finalized",
+        "request_id": "346eb6966e7ddf76bbd521ded4b9145d7cd5d7e8d5c0304a1e6c4cdb21766131",
+        "records": [
+          {
+            "id": 467,
+            "revision": 1,
+            "sha256": "4d868249774ece84dd58bf8ab59497de648b03956ef68cd825d7de568fc86c9f"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
