@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1474,
-  "updated_at": "2026-11-18T19:45:05.638821+00:00",
-  "next_id": 478,
+  "generation": 1475,
+  "updated_at": "2026-11-18T19:45:06.766469+00:00",
+  "next_id": 479,
   "records": [
     {
       "id": 1,
@@ -6355,6 +6355,19 @@
           "sha256": "4dfbb985ae42da675d7157aef7a63fe7e46c9a21916fa41163dcc3e6cdef9a28",
           "source": "Google DeepMind",
           "request_id": "39dfa34f13e92e1bec24cd5e0fe0fc8250a418d15e2a7f67c00f024148a7cdad",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 478,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T19:45:06.766469+00:00",
+          "block": "Title: Judge Approves Google's $10 Million Purchase of Spirit Airlines Business Data\nURL: https://www.channelnewsasia.com/business/us-bankruptcy-judge-approves-spirit-airlines-data-sale-google-6560551\nImage URL: https://bloomberg-bna-brightspot.s3.us-east-1.amazonaws.com/e8/9a/f5fd3ebc454ab9062c517f535370/455318107.jpg\nSummary: A New York bankruptcy judge on Tuesday approved Google's $10 million purchase of Spirit Airlines data for product development and AI training. Judge Sean Lane cleared the deal after Google agreed to privacy protections, following concerns from unions and more than 120 lawmakers. The de-identified data includes emails, spreadsheets and calendars. Passenger personal information and employee health records are excluded.",
+          "sha256": "dc9b732fc8109acf70e7754c88f638706f4fce649d0dddbe73f299b0fd3b06c7",
+          "source": "Reuters",
+          "request_id": "56d09dc523a52332864d58093eb5c225a4dbec8654f980b9a1ade68e4592df85",
           "mode": "standard"
         }
       ]
@@ -14006,13 +14019,21 @@
       ]
     },
     "56d09dc523a52332864d58093eb5c225a4dbec8654f980b9a1ade68e4592df85": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-18T19:45:05.638821+00:00",
       "received_sequence": 432,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-18T19:45:06.766469+00:00",
+      "records": [
+        {
+          "id": 478,
+          "revision": 1,
+          "sha256": "dc9b732fc8109acf70e7754c88f638706f4fce649d0dddbe73f299b0fd3b06c7"
+        }
+      ]
     }
   },
   "batches": {
@@ -51948,6 +51969,21 @@
       "result": {
         "status": "received",
         "request_id": "56d09dc523a52332864d58093eb5c225a4dbec8654f980b9a1ade68e4592df85"
+      }
+    },
+    "5e3e4360d6e53c3fcf7d9b182b3e816805ab400cbcf31fbdf9992d2841af7248": {
+      "sha256": "ef91efbc26dacb2a5a940ddec13cd0f7d67dcf143329df80a18c4fa9857d5559",
+      "result": {
+        "status": "finalized",
+        "request_id": "56d09dc523a52332864d58093eb5c225a4dbec8654f980b9a1ade68e4592df85",
+        "records": [
+          {
+            "id": 478,
+            "revision": 1,
+            "sha256": "dc9b732fc8109acf70e7754c88f638706f4fce649d0dddbe73f299b0fd3b06c7"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
