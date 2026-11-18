@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1465,
-  "updated_at": "2026-11-18T15:46:56.864989+00:00",
-  "next_id": 475,
+  "generation": 1466,
+  "updated_at": "2026-11-18T15:46:57.888942+00:00",
+  "next_id": 476,
   "records": [
     {
       "id": 1,
@@ -6317,6 +6317,19 @@
           "request_id": "d66633996a9f2e89141f01b0638dba7c6ddbff7de804c800679dad0b9f50007d",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 475,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T15:46:57.888942+00:00",
+          "block": "Title: KPMG Says AI Agents Asked Better Questions Than Accountants in a Pilot Audit\nURL: https://www.irishtimes.com/business/2026/11/18/ai-asked-better-questions-than-kpmg-accountants-in-pilot-audit-of-effectiveness/\nImage URL: https://the-decoder.com/wp-content/uploads/2026/11/KPMG-Audit-Agents-1200x670.png\nSummary: KPMG used more than 100 AI agents in a parallel pilot audit of an unnamed FTSE 250 company. Head of audit Cath Burnet said the AI went deeper in several cases and sometimes asked \"better questions.\" A human had to intervene when an agent failed to match regulations to documents, and the trial was not used for the formal opinion.",
+          "sha256": "f601c5318c4851a1b8a1ecd603101ed8c3ad57f13893ee7896fb52c9acaaa18c",
+          "source": "Financial Times",
+          "request_id": "205d73a257ffafaebeac2757e9e96d3f2bc56d135cfdc73c55affc00d6df29cc",
+          "mode": "standard"
         }
       ]
     }
@@ -13916,13 +13929,21 @@
       ]
     },
     "205d73a257ffafaebeac2757e9e96d3f2bc56d135cfdc73c55affc00d6df29cc": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-18T15:46:56.864989+00:00",
       "received_sequence": 429,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-18T15:46:57.888942+00:00",
+      "records": [
+        {
+          "id": 475,
+          "revision": 1,
+          "sha256": "f601c5318c4851a1b8a1ecd603101ed8c3ad57f13893ee7896fb52c9acaaa18c"
+        }
+      ]
     }
   },
   "batches": {
@@ -51756,6 +51777,21 @@
       "result": {
         "status": "received",
         "request_id": "205d73a257ffafaebeac2757e9e96d3f2bc56d135cfdc73c55affc00d6df29cc"
+      }
+    },
+    "bde048c10a9d4721ccf318a0513f9436d812c7656e440274cf540bf349edfe26": {
+      "sha256": "287a3570b4f137713d0f14b837729e95d158b514072e7f1f30e90a3b983bc553",
+      "result": {
+        "status": "finalized",
+        "request_id": "205d73a257ffafaebeac2757e9e96d3f2bc56d135cfdc73c55affc00d6df29cc",
+        "records": [
+          {
+            "id": 475,
+            "revision": 1,
+            "sha256": "f601c5318c4851a1b8a1ecd603101ed8c3ad57f13893ee7896fb52c9acaaa18c"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
