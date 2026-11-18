@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1469,
-  "updated_at": "2026-11-18T18:26:59.835578+00:00",
+  "generation": 1470,
+  "updated_at": "2026-11-18T18:27:00.814296+00:00",
   "next_id": 477,
   "records": [
     {
@@ -51857,6 +51857,18 @@
         ],
         "duplicates": []
       }
+    },
+    "96a18760aebd4626548291b292711ffd0fecee9eb7f337abde62d56377ff9c82": {
+      "sha256": "c2accc7a934a17452465aa57cd18eecc20642a02614f7460c9729d4e5a736f48",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 476,
+          "revision": 1,
+          "sha256": "ba754a2951fc80a175f95adee17e644a6806aad2bfc8a89fa8334f9ea5a5e969"
+        },
+        "editorial_sha256": "f6753ca98652787d16a5ed9e2358e5bb8e5d6fe68767bbb8d6d207fcec2ee1e2"
+      }
     }
   },
   "migration": {
@@ -64083,6 +64095,26 @@
         "sha256": "5ca3f73d89177921f8ed7c2743b86e4bb21a17292b8f1f0e063adc4753e708da",
         "reviewed_at": "2026-11-18T15:46:58.875338+00:00",
         "operation_id": "d9d926cab473121b8def4e0e9fd70810808aedda0e88f6e577d3feb09cf5c469"
+      }
+    ],
+    "476:1": [
+      {
+        "reference": {
+          "id": 476,
+          "revision": 1,
+          "sha256": "ba754a2951fc80a175f95adee17e644a6806aad2bfc8a89fa8334f9ea5a5e969"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Product feature rollout of live speech-to-text in the ChatGPT composer; no ML-technical, developer/API, security, or hardware-internals terms are required.",
+            "evidence_sha256": "b0ed36a2793224c835f3bee6c04c464d86a8ce199912a7b39839a5439709a4dd"
+          }
+        },
+        "sha256": "f6753ca98652787d16a5ed9e2358e5bb8e5d6fe68767bbb8d6d207fcec2ee1e2",
+        "reviewed_at": "2026-11-18T18:27:00.814296+00:00",
+        "operation_id": "96a18760aebd4626548291b292711ffd0fecee9eb7f337abde62d56377ff9c82"
       }
     ]
   }
