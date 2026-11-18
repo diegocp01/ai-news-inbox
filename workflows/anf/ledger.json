@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1471,
-  "updated_at": "2026-11-18T19:33:37.738600+00:00",
-  "next_id": 477,
+  "generation": 1472,
+  "updated_at": "2026-11-18T19:33:38.906449+00:00",
+  "next_id": 478,
   "records": [
     {
       "id": 1,
@@ -6342,6 +6342,19 @@
           "sha256": "ba754a2951fc80a175f95adee17e644a6806aad2bfc8a89fa8334f9ea5a5e969",
           "source": "OpenAI",
           "request_id": "a2cb6d78c58ee4588613e626b2082cd55298304870a4151bc3696ec3b9073c8d",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 477,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T19:33:38.906449+00:00",
+          "block": "Title: Genie 4 Is Now Available in Project Genie for Google AI Ultra Subscribers\nURL: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png\nSummary: Eligible Google AI Ultra subscribers can now use Genie 4 in Project Genie. The update adds an agent for building worlds from a conversation, a community gallery to discover and remix creations, and real-time editing with native audio. Genie 3 stays available with sessions of up to three minutes, and Google AI Pro members can join a waitlist.",
+          "sha256": "4dfbb985ae42da675d7157aef7a63fe7e46c9a21916fa41163dcc3e6cdef9a28",
+          "source": "Google DeepMind",
+          "request_id": "39dfa34f13e92e1bec24cd5e0fe0fc8250a418d15e2a7f67c00f024148a7cdad",
           "mode": "standard"
         }
       ]
@@ -13976,13 +13989,21 @@
       ]
     },
     "39dfa34f13e92e1bec24cd5e0fe0fc8250a418d15e2a7f67c00f024148a7cdad": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-18T19:33:37.738600+00:00",
       "received_sequence": 431,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-18T19:33:38.906449+00:00",
+      "records": [
+        {
+          "id": 477,
+          "revision": 1,
+          "sha256": "4dfbb985ae42da675d7157aef7a63fe7e46c9a21916fa41163dcc3e6cdef9a28"
+        }
+      ]
     }
   },
   "batches": {
@@ -51884,6 +51905,21 @@
       "result": {
         "status": "received",
         "request_id": "39dfa34f13e92e1bec24cd5e0fe0fc8250a418d15e2a7f67c00f024148a7cdad"
+      }
+    },
+    "17c7e2390fda27c819f95ca906475f76e4b06a7b61dc661abd8fa30730d01816": {
+      "sha256": "2ebb14ddc44703df0651d537ec9b42e2ef91b05aa49be373e6e852772e46b14b",
+      "result": {
+        "status": "finalized",
+        "request_id": "39dfa34f13e92e1bec24cd5e0fe0fc8250a418d15e2a7f67c00f024148a7cdad",
+        "records": [
+          {
+            "id": 477,
+            "revision": 1,
+            "sha256": "4dfbb985ae42da675d7157aef7a63fe7e46c9a21916fa41163dcc3e6cdef9a28"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
