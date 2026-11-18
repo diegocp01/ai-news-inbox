@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1466,
-  "updated_at": "2026-11-18T15:46:57.888942+00:00",
+  "generation": 1467,
+  "updated_at": "2026-11-18T15:46:58.875338+00:00",
   "next_id": 476,
   "records": [
     {
@@ -51793,6 +51793,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d9d926cab473121b8def4e0e9fd70810808aedda0e88f6e577d3feb09cf5c469": {
+      "sha256": "8dd9b57e0af0a31f471ab4c1c49e63311f8378e3d0bae7affe586c1ff7289e83",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 475,
+          "revision": 1,
+          "sha256": "f601c5318c4851a1b8a1ecd603101ed8c3ad57f13893ee7896fb52c9acaaa18c"
+        },
+        "editorial_sha256": "5ca3f73d89177921f8ed7c2743b86e4bb21a17292b8f1f0e063adc4753e708da"
+      }
     }
   },
   "migration": {
@@ -63999,6 +64011,26 @@
         "sha256": "c5a430a16646d0777b27ad308d2e84e6b4b430fc7ef7d8f2614342a390122910",
         "reviewed_at": "2026-11-18T13:04:22.379366+00:00",
         "operation_id": "muse-backfill-20261118-474-8745"
+      }
+    ],
+    "475:1": [
+      {
+        "reference": {
+          "id": 475,
+          "revision": 1,
+          "sha256": "f601c5318c4851a1b8a1ecd603101ed8c3ad57f13893ee7896fb52c9acaaa18c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a report on a KPMG pilot audit using AI agents. It is a business and professional-services story, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "354fa9dee43c1de1b021f5ab40806e272f270b7cb3b86a7aaff872bf392a5701"
+          }
+        },
+        "sha256": "5ca3f73d89177921f8ed7c2743b86e4bb21a17292b8f1f0e063adc4753e708da",
+        "reviewed_at": "2026-11-18T15:46:58.875338+00:00",
+        "operation_id": "d9d926cab473121b8def4e0e9fd70810808aedda0e88f6e577d3feb09cf5c469"
       }
     ]
   }
