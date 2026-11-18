@@ -1,0 +1,153 @@
+[
+  {
+    "title": "Meta Publishes a Chrome Extension for Its Muse AI Agent",
+    "description": "Meta has published a Chrome extension called Muse from Meta on the Chrome Web Store. The listing, offered by Meta and updated November 16, 2026, says it opens Muse in Chrome's side panel so people can continue conversations and hand off tasks such as filling out forms and comparing prices, approving actions before they happen.",
+    "image_url": "https://lh3.googleusercontent.com/PmXow9UDtsKrC0RMGLwcdqRA8_y_LoUytmkKU5TT0mrKb_nvEfwbqC-M4IKohLYLIblLZw03wG2nwa9oY_PtyZvy=s1280-w1280-h800",
+    "learn_more_url": "https://chromewebstore.google.com/detail/muse-from-meta/jnakhhjmpmoohbjgfccbccfoifnmbdjd",
+    "date": "2026-11-18",
+    "source": "Meta"
+  },
+  {
+    "title": "OpenAI Says It Is Working With NATO on Cyber Defense, Using Up to 300 Billion Tokens a Month",
+    "description": "OpenAI says it is working with NATO's Communications and Information Agency to give the alliance's core institutions access to advanced cybersecurity models through its Daybreak program. NATO has used up to 300 billion raw input and output tokens per month as part of this work. OpenAI says Daybreak helps authorized defenders review software, investigate suspicious activity, and test fixes.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4AvTdfi4XgE0hchiQH8UhY/6c9c5278cafc000de19c0892beecbf8c/strengthening-nato-and-allied-cyber-defences-with-ai-seo.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://www.techmeme.com/261117/p16",
+    "date": "2026-11-18",
+    "source": "OpenAI",
+    "ds": true
+  },
+  {
+    "title": "Jensen Huang Says He Would Return as Nvidia CEO if the Board Asks",
+    "description": "In his first public statement since resigning as Nvidia CEO, Jensen Huang said he would be honored to return if the board decides it is in the best interest of shareholders, employees, the company, and America. He cited calls from employees, investors, partners, and customers, said he owns his mistakes, and pledged to cooperate with the board's investigation.",
+    "image_url": "https://image.cnbcfm.com/api/v1/image/108548918-1794403575214-gettyimages-2192346840-widak-nvidiasc250106_npmp9.jpeg?v=1794403600&w=1920&h=1080",
+    "learn_more_url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
+    "date": "2026-11-18",
+    "source": "Jensen Huang"
+  },
+  {
+    "title": "FBI Warns That Hackers Are Using the ARTEX AI Framework to Automate Intrusions",
+    "description": "The FBI has issued a FLASH advisory warning that threat actors have weaponized ARTEX, an open-source large language model-driven agentic penetration testing framework, to automate cyber intrusions. Some attacks have gone from initial targeting to privileged access in under three hours. Campaigns include a ConnectWise Cloud Backup supply-chain compromise that enabled access to more than 2,250 downstream tenants.",
+    "image_url": "https://www.bleepstatic.com/content/hl-images/2025/10/23/AI-2.jpg",
+    "learn_more_url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+    "date": "2026-11-18",
+    "source": "FBI",
+    "ds": true
+  },
+  {
+    "title": "Google Makes Gemini Tasks Free in Six Countries and Adds Calling and Payments",
+    "description": "Google says Tasks in Gemini is now rolling out free of charge for hundreds of millions of people in the United States, Japan, Korea, Canada, Australia, and India, using Gemini 4 Hydrogen. Starting in the U.S., Gemini can place calls on a user's behalf, check out with Google Pay, and accept forwarded emails at gemini@google.com to add events to Calendar.",
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566_1.width-1300.png",
+    "learn_more_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+    "date": "2026-11-18",
+    "source": "Google"
+  },
+  {
+    "title": "Perplexity Rolls Out Multiagent, a New Effort Level in Computer and Teammates",
+    "description": "Perplexity is rolling out Multiagent, a new effort level above Ultra in Computer and Teammates. A lead agent can assign up to 16 agents on different frontier models that work in parallel, share findings, and check each other's work. It is available to Max and Enterprise Max subscribers on the web, and Perplexity says it is credit-intensive.",
+    "image_url": "https://anaxvaojmxbbluwefvce.supabase.co/storage/v1/object/public/media/og/perplexity-rolls-out-multiagent-effort-level-in-computer-and-teammates-ae2cca-16x9-rmwkxooua.png",
+    "learn_more_url": "",
+    "date": "2026-11-18",
+    "source": "Perplexity",
+    "ds": true
+  },
+  {
+    "title": "Google Adds Holiday Travel Features to Ask Maps and Expands It Across Europe",
+    "description": "Google is launching new Ask Maps features. Users can build custom road trip itineraries, get tips on tolls, weather delays, and charging stops, and have Ask Maps find appointments and call local businesses. The updates start on Android and iOS, with appointment finding and route tips first in the U.S., and Ask Maps expanding to 30 countries in Europe.",
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.width-1300.png",
+    "learn_more_url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+    "date": "2026-11-18",
+    "source": "Google"
+  },
+  {
+    "title": "New AI Model: OpenAI Releases GPT-6.2 Astra and GPT-6.2 Sol",
+    "description": "OpenAI has released GPT-6.2 Astra, its new frontier model for the hardest projects, and GPT-6.2 Sol, an efficient model for everyday work. Both are available today to Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex. OpenAI says Astra sets new highs on professional and scientific evaluations at less than a third of GPT-6 Astra's cost per task.",
+    "image_url": "https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/size/w1200/2026/11/banner-11.webp",
+    "learn_more_url": "https://www.techmeme.com/261117/p43",
+    "date": "2026-11-18",
+    "source": "OpenAI"
+  },
+  {
+    "title": "SpaceXSI Assigns Five Grok Bots Full-Time Roles on Its Accounting Team",
+    "description": "SpaceXSI says five Grok Bots each own an accounting job end to end, from provisioning a customer account to collecting payment, and involve a person only when the work needs judgment. The Bots handle provisioning, billing, billing support, cash applications, and collections. SpaceXSI says the work would otherwise have required more than doubling the team's headcount.",
+    "image_url": "https://pub-2497fbbf9c374dbbb68f9cc735096b68.r2.dev/news-thumbs/5a510767-6275-4b34-9a93-bd6db2b4306b-v2.webp",
+    "learn_more_url": "",
+    "date": "2026-11-18",
+    "source": "SpaceXSI"
+  },
+  {
+    "title": "Muse Voice Is Now Available on Apple Watch and Android Wear OS",
+    "description": "The official Muse account said voice is now available on Apple Watch and Android Wear OS. People can speak to Meta's Muse personal AI agent on those watches instead of typing.",
+    "image_url": "https://images.macrumors.com/t/Xim5fv6t6cpkTIwvTX8EpK9xui8=/1874x/article-new/2026/11/muse-apple-watch-app.jpg",
+    "learn_more_url": "",
+    "date": "2026-11-18",
+    "source": "Muse"
+  },
+  {
+    "title": "Meta AI Introduces Self-Improving Memory for Continual Learning Agents",
+    "description": "Meta AI researchers introduced Self-Improving Memory, a method that lets a model discover its own memory skills and train them into its weights. A meta agent rewrites the model's memory prompts, which beat the best hand-written ones on three Continual Learning Bench tasks (56.0 vs 44.6). Fine-tuning on those runs raised the score with generic prompts to 43.1 from 37.6.",
+    "image_url": "https://facebookresearch.github.io/RAM/blogs/self_improving_memory/fig1_teaser.png",
+    "learn_more_url": "https://facebookresearch.github.io/RAM/blogs/self_improving_memory/",
+    "date": "2026-11-18",
+    "source": "Meta",
+    "ds": true
+  },
+  {
+    "title": "Google Researchers Propose Self-Improvement Memory for Continual Harness Optimization",
+    "description": "Google researchers propose Self-Improvement Memory, a record for the harness optimizer rather than the task-solving policy, so optimization can continue when the benchmark or model changes. It groups edits by problem and stores their rationale, results, and evaluation context. In experiments across four domains, it beat harness-only continuation; in coding, paired runs improved final scores by 2.36 points (p=0.003).",
+    "image_url": "https://arxiv.org/html/2611.18856v1/overview.svg",
+    "learn_more_url": "https://arxiv.org/abs/2611.18856",
+    "date": "2026-11-18",
+    "source": "Google",
+    "ds": true
+  },
+  {
+    "title": "Microsoft Begins Rolling Out Autopilot, a Personal Work Agent, to Frontier Customers",
+    "description": "Microsoft is beginning to roll out Autopilot, an always-on personal work agent, to eligible customers in its Frontier program. Autopilot has its own identity, memory, workspace, and remote computer, and can work in Teams and Outlook. Users give it a name, a role, and a goal, and it can keep work moving in the cloud even with a closed laptop.",
+    "image_url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTcyNjExLUZiQWw5Ng?revision=3",
+    "learn_more_url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/autopilot-meet-your-trusted-personal-teammate/4572611",
+    "date": "2026-11-18",
+    "source": "Microsoft"
+  },
+  {
+    "title": "Mirelo Introduces Sound Agent to Edit Video Audio From Plain-Language Prompts",
+    "description": "Mirelo introduced Sound Agent in Mirelo Editor, a tool that edits a video's audio from plain-language prompts. Users can add sound effects, swap or remove music, separate dialogue, and dub speech into 32 languages, while the picture stays as cut. The agent shows the cost before each paid step.",
+    "image_url": "https://iacompa.com/og/news/mirelo-ai-sound-agent-video-sound-design",
+    "learn_more_url": "https://iacompa.com/news/mirelo-ai-sound-agent-video-sound-design",
+    "date": "2026-11-18",
+    "source": "Mirelo"
+  },
+  {
+    "title": "Microsoft launches six in-house AI models to challenge OpenAI and Anthropic on cost",
+    "description": "Microsoft unveiled six MAI models at Ignite, covering coding, cybersecurity, image editing, transcription and voice. It claims MAI Code 2 delivers 98% of GPT-6.1 Sol's coding performance at 40% of the cost, now in GitHub Copilot, while Cyber 2 Flash beat GPT-6 Astra on a security benchmark at under 2% of the cost. The benchmarks are Microsoft's own, unconfirmed independently.",
+    "image_url": "https://www.cryptopolitan.com/wp-content/uploads/2026/11/Six-AI-Models-One-Price-War-1024x576.png",
+    "learn_more_url": "https://www.cryptopolitan.com/microsoft-six-mai-models-challenge-rivals/",
+    "date": "2026-11-18",
+    "source": "Cryptopolitan"
+  },
+  {
+    "title": "OpenAI Releases GPT-6.2 Astra and Sol Models",
+    "description": "OpenAI released GPT-6.2 Astra for complex projects and GPT-6.2 Sol for everyday work. The company reports Astra improvements in science, legal work and 3D design, with lower costs on selected benchmarks. OpenAI also classified Astra as its first externally released model to meet the High threshold for AI self-improvement, meaning assistance that can accelerate AI research.",
+    "image_url": "https://us1.discourse-cdn.com/openai1/optimized/4X/4/0/f/40f1a336e701ceff44f36f4e0a72367ae301e1c5_2_690x388.jpeg",
+    "learn_more_url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
+    "date": "2026-11-18",
+    "source": "the-decoder.com",
+    "ds": true
+  },
+  {
+    "title": "Jensen Huang Apologizes, Says He Would Return to Nvidia",
+    "description": "Former Nvidia CEO Jensen Huang apologized for personal mistakes in his first public statement since resigning. He said he would cooperate with the board’s independent investigation and return as CEO if directors approved. Nvidia chair Harvey Jones said the board does not intend to reinstate him. Colette Kress is serving as interim CEO.",
+    "image_url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/17/51779405-afcc-4d02-9a40-4c95399dbc3e/thumbnail/1200x630/f6294eed103f0baf6b4185c0415b1e43/gettyimages-2301328017.jpg",
+    "learn_more_url": "https://www.cbsnews.com/news/jensen-huang-nvidia-ceo-return-statement/",
+    "date": "2026-11-18",
+    "source": "cbsnews.com"
+  },
+  {
+    "title": "OpenAI Details NATO Cybersecurity Work; Calif Reports Java Flaw",
+    "description": "OpenAI says it works with NATO’s technology agency to supply cybersecurity models that help protect allied networks. Separately, Calif says AI helped researchers find a flaw in OpenJDK, which runs Java applications. Oracle released a fix on November 17. OpenAI also says ENISA found four vulnerabilities using its models, with fixes published for all four.",
+    "image_url": "https://calif.io/java4shell/poster.jpg",
+    "learn_more_url": "https://www.helpnetsecurity.com/2026/11/17/openai-nato-ai-cyber-defense/",
+    "date": "2026-11-18",
+    "source": "helpnetsecurity.com",
+    "ds": true
+  }
+]

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1460,
-  "updated_at": "2026-11-18T13:04:22.379366+00:00",
+  "generation": 1461,
+  "updated_at": "2026-11-18T13:04:37.075554+00:00",
   "next_id": 475,
   "records": [
     {
@@ -24327,9 +24327,269 @@
       },
       "acknowledged_at": "2026-11-17T13:33:02.317187+00:00",
       "checkpoint_after": 456
+    },
+    "cee8910b6fca67f48a9142ca": {
+      "batch_id": "cee8910b6fca67f48a9142ca",
+      "status": "prepared",
+      "checkpoint_before": 456,
+      "prepared_at": "2026-11-18T13:04:37.075554+00:00",
+      "intake_cutoff": 428,
+      "records": [
+        {
+          "id": 457,
+          "revision": 1,
+          "sha256": "a0e15d84ddd8757f0d78adb2df547d2456fcce64e34d20133f83ce9dc93daa6a"
+        },
+        {
+          "id": 458,
+          "revision": 1,
+          "sha256": "c0a979dd3df3cac77e9de3e3e8578b84e92b5cdb30bfe3fc06b404bf9ee83564"
+        },
+        {
+          "id": 459,
+          "revision": 1,
+          "sha256": "1513f95853f696beb243752d6fd9a471979a0d788d6fedd71e742e32544cf83a"
+        },
+        {
+          "id": 460,
+          "revision": 1,
+          "sha256": "506566f1a0dcfe6a33d2883e3df7ea81b4c9ff3615559f3843443b058db5ac06"
+        },
+        {
+          "id": 461,
+          "revision": 1,
+          "sha256": "461ea4682231a99d6c4fe58a7799a84d96afac095a91de4089c2438677c7aacd"
+        },
+        {
+          "id": 462,
+          "revision": 1,
+          "sha256": "7e41b3fdbd45581f2209e89c21bc329ceac0e540a9156e965136e1a284a2b1a4"
+        },
+        {
+          "id": 463,
+          "revision": 1,
+          "sha256": "1f2909074abdd446b3facc3aea537ed2985dbbf626e0d03f528a37bf5164cf4e"
+        },
+        {
+          "id": 464,
+          "revision": 1,
+          "sha256": "ec9a3e4080413a430bb86010e94b6209f56fbeaaf3b53bf2a82e9c047e5f3379"
+        },
+        {
+          "id": 465,
+          "revision": 1,
+          "sha256": "2e1653b058494b19bcd0e8de1904c97deedbb86090b9cc9c94635a5472baa5d6"
+        },
+        {
+          "id": 466,
+          "revision": 1,
+          "sha256": "7fa135504b1f878d09b4e49fd6ba353a53e297570e23caa5f46c32d524a22977"
+        },
+        {
+          "id": 467,
+          "revision": 1,
+          "sha256": "4d868249774ece84dd58bf8ab59497de648b03956ef68cd825d7de568fc86c9f"
+        },
+        {
+          "id": 468,
+          "revision": 1,
+          "sha256": "9ef433232c309133b842c71b5f4225d1afee7012650b98c4480eed5d49581102"
+        },
+        {
+          "id": 469,
+          "revision": 1,
+          "sha256": "fe2ebf13184a8cb4b30e1e33743768e793c43953a8695b4975409af4bbd0595a"
+        },
+        {
+          "id": 470,
+          "revision": 1,
+          "sha256": "9ecf4987e93a8592d5e9356f4d69f2c2a2468656b6278041de978267ed156e0c"
+        },
+        {
+          "id": 471,
+          "revision": 1,
+          "sha256": "59417a8b9466f8e485b7bc7410275c793de3ffa0d42352df88e6d0fbc9e3fe49"
+        },
+        {
+          "id": 472,
+          "revision": 1,
+          "sha256": "09d6b448f9ac067a4cbddd04bf17d6f328f21e8076ab4c05f85e8ccf3dccaed9"
+        },
+        {
+          "id": 473,
+          "revision": 1,
+          "sha256": "3843a4be36a0a20004b2f42a307e2ed7cc3b2fe15481a53066176739ff47fa04"
+        },
+        {
+          "id": 474,
+          "revision": 1,
+          "sha256": "0ba8641d6da3f4ceeb05c5562c636c3c9db617a9f82771be270d0f1e9055d690"
+        }
+      ],
+      "first_id": 457,
+      "last_id": 474,
+      "count": 18,
+      "txt_path": "workflows/anf/batches/cee8910b6fca67f48a9142ca.txt",
+      "json_path": "workflows/anf/batches/cee8910b6fca67f48a9142ca.json",
+      "txt_sha256": "b88693f9879c6fdafcc4350a70afab7bf3ef84ac7462d24cc1abe9209f841c67",
+      "json_sha256": "37035a94b48930374a07bc0fa6e14ec5dec097c852f6fb48006888a9e162cfa5",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a consumer Chrome extension and product feature that can be summarized in everyday language without ML-technical, developer/API, security, or hardware jargon.",
+            "evidence_sha256": "51a748195aec2c0c242462a9848fe6541ae914faa6645f86790c75a0b5d53a1f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "This is a cybersecurity partnership giving NATO access to OpenAI Daybreak models for authorized vulnerability review and network defense, which are security terms.",
+            "evidence_sha256": "21b31a39ad66258134128cc48b55a0652241f6fe89b075c54b345c4cb1348643"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a corporate leadership statement about a possible CEO return that can be summarized in everyday language. Finance and business subject matter alone is not a DS trigger.",
+            "evidence_sha256": "30641697a8435b99aba3fbf31413c453937731e9795fd215eb2347ccf6a76ae8"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "This is an FBI FLASH advisory about an LLM-driven agentic penetration testing framework used to automate cyber intrusions, which are security and ML-technical terms.",
+            "evidence_sha256": "4902d4f4ad1bf6a5c9c695fe79b7df76ced08d6a84f7b580687f62478bdc6fd2"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a consumer product update making Gemini Tasks free and adding calling, payments, and email handoff. Those are features, not ML-technical, developer/API, security, or hardware-internals terms in the news itself.",
+            "evidence_sha256": "a52def13770f175a35b08aba4e7de5ec63273732db299d5ad65744ecd7c525cf"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "This is a new multi-agent effort level in which a lead agent assigns work to teams of agents on different frontier models that share findings and check each other, which are ML-technical terms.",
+            "evidence_sha256": "e2d11995f2746bc579f914edf31fd134b0fc27df858e15ebbd9f6cc774cefe6b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a Google Maps consumer feature update for Ask Maps holiday travel tools and a European expansion, not ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "e3150d93c422b0e1f8aadf08a386a1e1d8071f4ae65ef9b6089b72427b541f2d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a new general model-tier release of GPT-6.2 Astra and GPT-6.2 Sol. The summary is written for a general reader and does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "5e1404186e13d3a12348a8d72298a37215cac0f883fd1cff6df2fde2d79780c2"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a SpaceXSI case study about assigning Grok Bots to accounting jobs. It is a product use case, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "245d746508aa3d995c3539921cfbb4ce03b708be06590fa376973328fbd498ad"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a Muse product feature announcement that voice is available on Apple Watch and Android Wear OS. It is a feature rollout, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "3ce419d3f0f9bc78cbe4fc9691736ae10ffcbe9fefa711128d1b2d8b520d29b2"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "This is a Meta AI research method that has a model discover memory skills and fine-tune them into its weights through harness optimization and distillation, which are ML-technical training-method terms.",
+            "evidence_sha256": "392b8f5c70ca0094bbcf970fc0af0d2775ac5d2af10b0ffa79eb8c771857018b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "This is a research paper proposing Self-Improvement Memory for a harness optimizer, so recursive self-improvement can continue across benchmarks and policy models, which are ML-technical terms.",
+            "evidence_sha256": "6d7fedf7e19461880e4f53a3be7c4c63a67f58a613693a0ab3166641cf55cf53"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a Microsoft product rollout of Autopilot, a personal work agent for Frontier customers. It is a feature/product, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "5922d13526ef6ed72b923f905ea07c90e0d1a3cd074401b3c0a7d18fc8c2995f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a Mirelo product launch of Sound Agent, a prompt-based audio editor for video. It is a feature/product from a company that is not a listed lab, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "d4dd1e0fd90254ae1a902f5ff35a248dab9e3da518b2e24d3b0ef5a4840f3b01"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Microsoft launching its own cheaper models to rival OpenAI and Anthropic is industry news about AI competition and pricing, not a technical result; it matters to general readers tracking the AI model market. muse-intake 2026-11-17: submitted by Diego via Instagram (The Rundown AI post https://www.instagram.com/p/Df2wDvwklfm/), verified against Cryptopolitan, Microsoft's Tech Community blog, and SiliconANGLE; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "59417a8b9466f8e485b7bc7410275c793de3ffa0d42352df88e6d0fbc9e3fe49"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "OpenAI released GPT-6.2 Astra for complex projects and GPT-6.2 Sol for everyday work, reporting Astra improvements in science, legal work and 3D design, with lower costs on selected benchmarks. OpenAI also classified Astra as its first externally released model to meet the High threshold for AI self-improvement, meaning assistance that can accelerate AI research. This is a model release with benchmark and capability findings for a research and technical audience, not general business news. muse-compile-backfill 2026-11-18: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "09d6b448f9ac067a4cbddd04bf17d6f328f21e8076ab4c05f85e8ccf3dccaed9"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Former Nvidia CEO Jensen Huang apologized for personal mistakes in his first public statement since resigning, said he would cooperate with the board's independent investigation and return as CEO if directors approved. Nvidia chair Harvey Jones said the board does not intend to reinstate him, and Colette Kress is serving as interim CEO. This is corporate leadership and business news for a broad audience, not technical research. muse-compile-backfill 2026-11-18: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "3843a4be36a0a20004b2f42a307e2ed7cc3b2fe15481a53066176739ff47fa04"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "OpenAI says it works with NATO's technology agency to supply cybersecurity models that help protect allied networks. Separately, Calif says AI helped researchers find a flaw in OpenJDK, which runs Java applications, and Oracle released a fix on November 17. OpenAI also says ENISA found four vulnerabilities using its models, with fixes published for all four. This is technical cybersecurity news about AI models and vulnerability discovery for a technical audience, not general business news. muse-compile-backfill 2026-11-18: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "0ba8641d6da3f4ceeb05c5562c636c3c9db617a9f82771be270d0f1e9055d690"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-18T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "cee8910b6fca67f48a9142ca",
   "replacement_batch": null,
   "checkpoint": 456,
   "checkpoint_history": [
@@ -51134,6 +51394,273 @@
           "sha256": "0ba8641d6da3f4ceeb05c5562c636c3c9db617a9f82771be270d0f1e9055d690"
         },
         "editorial_sha256": "c5a430a16646d0777b27ad308d2e84e6b4b430fc7ef7d8f2614342a390122910"
+      }
+    },
+    "muse-compile-20261118-1304-1458": {
+      "sha256": "bfa22533733acbc11579f4d7e569b7942f616fa2a573d750cd23156b5b575d3c",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "cee8910b6fca67f48a9142ca",
+          "status": "prepared",
+          "checkpoint_before": 456,
+          "prepared_at": "2026-11-18T13:04:37.075554+00:00",
+          "intake_cutoff": 428,
+          "records": [
+            {
+              "id": 457,
+              "revision": 1,
+              "sha256": "a0e15d84ddd8757f0d78adb2df547d2456fcce64e34d20133f83ce9dc93daa6a"
+            },
+            {
+              "id": 458,
+              "revision": 1,
+              "sha256": "c0a979dd3df3cac77e9de3e3e8578b84e92b5cdb30bfe3fc06b404bf9ee83564"
+            },
+            {
+              "id": 459,
+              "revision": 1,
+              "sha256": "1513f95853f696beb243752d6fd9a471979a0d788d6fedd71e742e32544cf83a"
+            },
+            {
+              "id": 460,
+              "revision": 1,
+              "sha256": "506566f1a0dcfe6a33d2883e3df7ea81b4c9ff3615559f3843443b058db5ac06"
+            },
+            {
+              "id": 461,
+              "revision": 1,
+              "sha256": "461ea4682231a99d6c4fe58a7799a84d96afac095a91de4089c2438677c7aacd"
+            },
+            {
+              "id": 462,
+              "revision": 1,
+              "sha256": "7e41b3fdbd45581f2209e89c21bc329ceac0e540a9156e965136e1a284a2b1a4"
+            },
+            {
+              "id": 463,
+              "revision": 1,
+              "sha256": "1f2909074abdd446b3facc3aea537ed2985dbbf626e0d03f528a37bf5164cf4e"
+            },
+            {
+              "id": 464,
+              "revision": 1,
+              "sha256": "ec9a3e4080413a430bb86010e94b6209f56fbeaaf3b53bf2a82e9c047e5f3379"
+            },
+            {
+              "id": 465,
+              "revision": 1,
+              "sha256": "2e1653b058494b19bcd0e8de1904c97deedbb86090b9cc9c94635a5472baa5d6"
+            },
+            {
+              "id": 466,
+              "revision": 1,
+              "sha256": "7fa135504b1f878d09b4e49fd6ba353a53e297570e23caa5f46c32d524a22977"
+            },
+            {
+              "id": 467,
+              "revision": 1,
+              "sha256": "4d868249774ece84dd58bf8ab59497de648b03956ef68cd825d7de568fc86c9f"
+            },
+            {
+              "id": 468,
+              "revision": 1,
+              "sha256": "9ef433232c309133b842c71b5f4225d1afee7012650b98c4480eed5d49581102"
+            },
+            {
+              "id": 469,
+              "revision": 1,
+              "sha256": "fe2ebf13184a8cb4b30e1e33743768e793c43953a8695b4975409af4bbd0595a"
+            },
+            {
+              "id": 470,
+              "revision": 1,
+              "sha256": "9ecf4987e93a8592d5e9356f4d69f2c2a2468656b6278041de978267ed156e0c"
+            },
+            {
+              "id": 471,
+              "revision": 1,
+              "sha256": "59417a8b9466f8e485b7bc7410275c793de3ffa0d42352df88e6d0fbc9e3fe49"
+            },
+            {
+              "id": 472,
+              "revision": 1,
+              "sha256": "09d6b448f9ac067a4cbddd04bf17d6f328f21e8076ab4c05f85e8ccf3dccaed9"
+            },
+            {
+              "id": 473,
+              "revision": 1,
+              "sha256": "3843a4be36a0a20004b2f42a307e2ed7cc3b2fe15481a53066176739ff47fa04"
+            },
+            {
+              "id": 474,
+              "revision": 1,
+              "sha256": "0ba8641d6da3f4ceeb05c5562c636c3c9db617a9f82771be270d0f1e9055d690"
+            }
+          ],
+          "first_id": 457,
+          "last_id": 474,
+          "count": 18,
+          "txt_path": "workflows/anf/batches/cee8910b6fca67f48a9142ca.txt",
+          "json_path": "workflows/anf/batches/cee8910b6fca67f48a9142ca.json",
+          "txt_sha256": "b88693f9879c6fdafcc4350a70afab7bf3ef84ac7462d24cc1abe9209f841c67",
+          "json_sha256": "37035a94b48930374a07bc0fa6e14ec5dec097c852f6fb48006888a9e162cfa5",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a consumer Chrome extension and product feature that can be summarized in everyday language without ML-technical, developer/API, security, or hardware jargon.",
+                "evidence_sha256": "51a748195aec2c0c242462a9848fe6541ae914faa6645f86790c75a0b5d53a1f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "technical_practice",
+                "rationale": "This is a cybersecurity partnership giving NATO access to OpenAI Daybreak models for authorized vulnerability review and network defense, which are security terms.",
+                "evidence_sha256": "21b31a39ad66258134128cc48b55a0652241f6fe89b075c54b345c4cb1348643"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a corporate leadership statement about a possible CEO return that can be summarized in everyday language. Finance and business subject matter alone is not a DS trigger.",
+                "evidence_sha256": "30641697a8435b99aba3fbf31413c453937731e9795fd215eb2347ccf6a76ae8"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "technical_practice",
+                "rationale": "This is an FBI FLASH advisory about an LLM-driven agentic penetration testing framework used to automate cyber intrusions, which are security and ML-technical terms.",
+                "evidence_sha256": "4902d4f4ad1bf6a5c9c695fe79b7df76ced08d6a84f7b580687f62478bdc6fd2"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a consumer product update making Gemini Tasks free and adding calling, payments, and email handoff. Those are features, not ML-technical, developer/API, security, or hardware-internals terms in the news itself.",
+                "evidence_sha256": "a52def13770f175a35b08aba4e7de5ec63273732db299d5ad65744ecd7c525cf"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "technical_practice",
+                "rationale": "This is a new multi-agent effort level in which a lead agent assigns work to teams of agents on different frontier models that share findings and check each other, which are ML-technical terms.",
+                "evidence_sha256": "e2d11995f2746bc579f914edf31fd134b0fc27df858e15ebbd9f6cc774cefe6b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a Google Maps consumer feature update for Ask Maps holiday travel tools and a European expansion, not ML-technical, developer/API, security, or hardware-internals terms.",
+                "evidence_sha256": "e3150d93c422b0e1f8aadf08a386a1e1d8071f4ae65ef9b6089b72427b541f2d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a new general model-tier release of GPT-6.2 Astra and GPT-6.2 Sol. The summary is written for a general reader and does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+                "evidence_sha256": "5e1404186e13d3a12348a8d72298a37215cac0f883fd1cff6df2fde2d79780c2"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a SpaceXSI case study about assigning Grok Bots to accounting jobs. It is a product use case, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+                "evidence_sha256": "245d746508aa3d995c3539921cfbb4ce03b708be06590fa376973328fbd498ad"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a Muse product feature announcement that voice is available on Apple Watch and Android Wear OS. It is a feature rollout, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+                "evidence_sha256": "3ce419d3f0f9bc78cbe4fc9691736ae10ffcbe9fefa711128d1b2d8b520d29b2"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "technical_practice",
+                "rationale": "This is a Meta AI research method that has a model discover memory skills and fine-tune them into its weights through harness optimization and distillation, which are ML-technical training-method terms.",
+                "evidence_sha256": "392b8f5c70ca0094bbcf970fc0af0d2775ac5d2af10b0ffa79eb8c771857018b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "technical_practice",
+                "rationale": "This is a research paper proposing Self-Improvement Memory for a harness optimizer, so recursive self-improvement can continue across benchmarks and policy models, which are ML-technical terms.",
+                "evidence_sha256": "6d7fedf7e19461880e4f53a3be7c4c63a67f58a613693a0ab3166641cf55cf53"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a Microsoft product rollout of Autopilot, a personal work agent for Frontier customers. It is a feature/product, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+                "evidence_sha256": "5922d13526ef6ed72b923f905ea07c90e0d1a3cd074401b3c0a7d18fc8c2995f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a Mirelo product launch of Sound Agent, a prompt-based audio editor for video. It is a feature/product from a company that is not a listed lab, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+                "evidence_sha256": "d4dd1e0fd90254ae1a902f5ff35a248dab9e3da518b2e24d3b0ef5a4840f3b01"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Microsoft launching its own cheaper models to rival OpenAI and Anthropic is industry news about AI competition and pricing, not a technical result; it matters to general readers tracking the AI model market. muse-intake 2026-11-17: submitted by Diego via Instagram (The Rundown AI post https://www.instagram.com/p/Df2wDvwklfm/), verified against Cryptopolitan, Microsoft's Tech Community blog, and SiliconANGLE; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "59417a8b9466f8e485b7bc7410275c793de3ffa0d42352df88e6d0fbc9e3fe49"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "OpenAI released GPT-6.2 Astra for complex projects and GPT-6.2 Sol for everyday work, reporting Astra improvements in science, legal work and 3D design, with lower costs on selected benchmarks. OpenAI also classified Astra as its first externally released model to meet the High threshold for AI self-improvement, meaning assistance that can accelerate AI research. This is a model release with benchmark and capability findings for a research and technical audience, not general business news. muse-compile-backfill 2026-11-18: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "09d6b448f9ac067a4cbddd04bf17d6f328f21e8076ab4c05f85e8ccf3dccaed9"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Former Nvidia CEO Jensen Huang apologized for personal mistakes in his first public statement since resigning, said he would cooperate with the board's independent investigation and return as CEO if directors approved. Nvidia chair Harvey Jones said the board does not intend to reinstate him, and Colette Kress is serving as interim CEO. This is corporate leadership and business news for a broad audience, not technical research. muse-compile-backfill 2026-11-18: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "3843a4be36a0a20004b2f42a307e2ed7cc3b2fe15481a53066176739ff47fa04"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "OpenAI says it works with NATO's technology agency to supply cybersecurity models that help protect allied networks. Separately, Calif says AI helped researchers find a flaw in OpenJDK, which runs Java applications, and Oracle released a fix on November 17. OpenAI also says ENISA found four vulnerabilities using its models, with fixes published for all four. This is technical cybersecurity news about AI models and vulnerability discovery for a technical audience, not general business news. muse-compile-backfill 2026-11-18: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "0ba8641d6da3f4ceeb05c5562c636c3c9db617a9f82771be270d0f1e9055d690"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-18T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
