@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1452,
-  "updated_at": "2026-11-18T00:57:38.575504+00:00",
-  "next_id": 471,
+  "generation": 1455,
+  "updated_at": "2026-11-18T01:36:53.488853+00:00",
+  "next_id": 472,
   "records": [
     {
       "id": 1,
@@ -6261,6 +6261,19 @@
           "sha256": "9ecf4987e93a8592d5e9356f4d69f2c2a2468656b6278041de978267ed156e0c",
           "source": "Mirelo",
           "request_id": "27e45e00b0fe9c669bf518a8d895c04ae56a7ec13ce564f9fdb177e121f3a6c2",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 471,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T01:36:53.287233+00:00",
+          "block": "Title: Microsoft launches six in-house AI models to challenge OpenAI and Anthropic on cost\nURL: https://www.cryptopolitan.com/microsoft-six-mai-models-challenge-rivals/\nImage URL: https://www.cryptopolitan.com/wp-content/uploads/2026/11/Six-AI-Models-One-Price-War-1024x576.png\nSummary: Microsoft unveiled six MAI models at Ignite, covering coding, cybersecurity, image editing, transcription and voice. It claims MAI Code 2 delivers 98% of GPT-6.1 Sol's coding performance at 40% of the cost, now in GitHub Copilot, while Cyber 2 Flash beat GPT-6 Astra on a security benchmark at under 2% of the cost. The benchmarks are Microsoft's own, unconfirmed independently.",
+          "sha256": "59417a8b9466f8e485b7bc7410275c793de3ffa0d42352df88e6d0fbc9e3fe49",
+          "source": "Cryptopolitan",
+          "request_id": "muse-intake-20261117-microsoft-mai-models",
           "mode": "standard"
         }
       ]
@@ -13812,6 +13825,23 @@
           "id": 470,
           "revision": 1,
           "sha256": "9ecf4987e93a8592d5e9356f4d69f2c2a2468656b6278041de978267ed156e0c"
+        }
+      ]
+    },
+    "muse-intake-20261117-microsoft-mai-models": {
+      "status": "finalized",
+      "received_at": "2026-11-18T01:36:53.082574+00:00",
+      "received_sequence": 427,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-18T01:36:53.287233+00:00",
+      "records": [
+        {
+          "id": 471,
+          "revision": 1,
+          "sha256": "59417a8b9466f8e485b7bc7410275c793de3ffa0d42352df88e6d0fbc9e3fe49"
         }
       ]
     }
@@ -50933,6 +50963,40 @@
         },
         "editorial_sha256": "aad42759c11b0e908a9668431ff5ab489a592c1e7b02c43c56c03509e0de5b20"
       }
+    },
+    "muse-intake-20261117-microsoft-mai-receive-7350": {
+      "sha256": "8cbe022533e8ac497dea94e222c96b72977e16761104a594263e6cbe1d896435",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261117-microsoft-mai-models"
+      }
+    },
+    "muse-intake-20261117-microsoft-mai-finalize-2311": {
+      "sha256": "76f22fcfdabf31060800483786e7de90dc168eedb50442d03d46ca8e4bb99044",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261117-microsoft-mai-models",
+        "records": [
+          {
+            "id": 471,
+            "revision": 1,
+            "sha256": "59417a8b9466f8e485b7bc7410275c793de3ffa0d42352df88e6d0fbc9e3fe49"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261117-microsoft-mai-review-5779": {
+      "sha256": "937c3595a17f6f686617b75018f11586013c8ccde1a54c34e74dd4a59acb8993",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 471,
+          "revision": 1,
+          "sha256": "59417a8b9466f8e485b7bc7410275c793de3ffa0d42352df88e6d0fbc9e3fe49"
+        },
+        "editorial_sha256": "842726c36749b3a2e15c714b0db1afc5b3273d24bddb23cbe992cd46a0daca4a"
+      }
     }
   },
   "migration": {
@@ -63059,6 +63123,26 @@
         "sha256": "aad42759c11b0e908a9668431ff5ab489a592c1e7b02c43c56c03509e0de5b20",
         "reviewed_at": "2026-11-18T00:57:38.575504+00:00",
         "operation_id": "5798be3849a07e9d8e512078e6c42097c5a49acc71b6957bc2a3a0a9c1e053a7"
+      }
+    ],
+    "471:1": [
+      {
+        "reference": {
+          "id": 471,
+          "revision": 1,
+          "sha256": "59417a8b9466f8e485b7bc7410275c793de3ffa0d42352df88e6d0fbc9e3fe49"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Microsoft launching its own cheaper models to rival OpenAI and Anthropic is industry news about AI competition and pricing, not a technical result; it matters to general readers tracking the AI model market. muse-intake 2026-11-17: submitted by Diego via Instagram (The Rundown AI post https://www.instagram.com/p/Df2wDvwklfm/), verified against Cryptopolitan, Microsoft's Tech Community blog, and SiliconANGLE; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "59417a8b9466f8e485b7bc7410275c793de3ffa0d42352df88e6d0fbc9e3fe49"
+          }
+        },
+        "sha256": "842726c36749b3a2e15c714b0db1afc5b3273d24bddb23cbe992cd46a0daca4a",
+        "reviewed_at": "2026-11-18T01:36:53.488853+00:00",
+        "operation_id": "muse-intake-20261117-microsoft-mai-review-5779"
       }
     ]
   }
