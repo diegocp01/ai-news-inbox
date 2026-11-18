@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1475,
-  "updated_at": "2026-11-18T19:45:06.766469+00:00",
+  "generation": 1476,
+  "updated_at": "2026-11-18T19:45:07.680008+00:00",
   "next_id": 479,
   "records": [
     {
@@ -51985,6 +51985,18 @@
         ],
         "duplicates": []
       }
+    },
+    "b26802d09cabdb034119dc8c1c10e0682c3b50a5e6c3a0616ce15d8d45f9588c": {
+      "sha256": "4b5a707a12c4cf7706f4129a60c7feb7386376b55e9cd1796a86299bc0cb10a1",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 478,
+          "revision": 1,
+          "sha256": "dc9b732fc8109acf70e7754c88f638706f4fce649d0dddbe73f299b0fd3b06c7"
+        },
+        "editorial_sha256": "8a1fb18f671d828e8f89cf550547bc0388504008912895922b0bc364c77b64ff"
+      }
     }
   },
   "migration": {
@@ -64251,6 +64263,26 @@
         "sha256": "eeb4072bb1093db762e1c592ac47528e5a86ca1f935e1f2756860f673f2f0d46",
         "reviewed_at": "2026-11-18T19:33:39.757968+00:00",
         "operation_id": "cdb2517d9a830f9a522b957edf98b2e947c79b839aab3def6a38b1daaee4d712"
+      }
+    ],
+    "478:1": [
+      {
+        "reference": {
+          "id": 478,
+          "revision": 1,
+          "sha256": "dc9b732fc8109acf70e7754c88f638706f4fce649d0dddbe73f299b0fd3b06c7"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business and legal story about a bankruptcy-court data sale; no ML-technical, developer/API, security, or hardware-internals terms are required.",
+            "evidence_sha256": "0b6c1a26cc8de1a25b00987470b8c497be204f4c3e19603e525044963c9748d1"
+          }
+        },
+        "sha256": "8a1fb18f671d828e8f89cf550547bc0388504008912895922b0bc364c77b64ff",
+        "reviewed_at": "2026-11-18T19:45:07.680008+00:00",
+        "operation_id": "b26802d09cabdb034119dc8c1c10e0682c3b50a5e6c3a0616ce15d8d45f9588c"
       }
     ]
   }
