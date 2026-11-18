@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1438,
-  "updated_at": "2026-11-18T00:09:03.895936+00:00",
-  "next_id": 466,
+  "generation": 1439,
+  "updated_at": "2026-11-18T00:09:04.828144+00:00",
+  "next_id": 467,
   "records": [
     {
       "id": 1,
@@ -6196,6 +6196,19 @@
           "sha256": "2e1653b058494b19bcd0e8de1904c97deedbb86090b9cc9c94635a5472baa5d6",
           "source": "SpaceXSI",
           "request_id": "c4fc9fab5428e8c15c9afb263b694728d730599a736539d81beb904bf5f05471",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 466,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T00:09:04.828144+00:00",
+          "block": "Title: Muse Voice Is Now Available on Apple Watch and Android Wear OS\nURL: \nImage URL: https://images.macrumors.com/t/Xim5fv6t6cpkTIwvTX8EpK9xui8=/1874x/article-new/2026/11/muse-apple-watch-app.jpg\nSummary: The official Muse account said voice is now available on Apple Watch and Android Wear OS. People can speak to Meta's Muse personal AI agent on those watches instead of typing.",
+          "sha256": "7fa135504b1f878d09b4e49fd6ba353a53e297570e23caa5f46c32d524a22977",
+          "source": "Muse",
+          "request_id": "5ba0f5103e996af1a3cff6e9659fedaa3b766270097e24bf589ca2576cc7112c",
           "mode": "standard"
         }
       ]
@@ -13666,13 +13679,21 @@
       ]
     },
     "5ba0f5103e996af1a3cff6e9659fedaa3b766270097e24bf589ca2576cc7112c": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-18T00:09:03.895936+00:00",
       "received_sequence": 422,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-18T00:09:04.828144+00:00",
+      "records": [
+        {
+          "id": 466,
+          "revision": 1,
+          "sha256": "7fa135504b1f878d09b4e49fd6ba353a53e297570e23caa5f46c32d524a22977"
+        }
+      ]
     }
   },
   "batches": {
@@ -50628,6 +50649,21 @@
       "result": {
         "status": "received",
         "request_id": "5ba0f5103e996af1a3cff6e9659fedaa3b766270097e24bf589ca2576cc7112c"
+      }
+    },
+    "6c3076c33720e1712e2e8e089847dd57dab936b96b7efcc1e389900f20f0c84d": {
+      "sha256": "2db0dd9f3064b679a79239bff0312d47880cf55a26bad3831d8082ac8de54e3f",
+      "result": {
+        "status": "finalized",
+        "request_id": "5ba0f5103e996af1a3cff6e9659fedaa3b766270097e24bf589ca2576cc7112c",
+        "records": [
+          {
+            "id": 466,
+            "revision": 1,
+            "sha256": "7fa135504b1f878d09b4e49fd6ba353a53e297570e23caa5f46c32d524a22977"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
