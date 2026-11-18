@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1444,
-  "updated_at": "2026-11-18T00:48:32.258550+00:00",
-  "next_id": 468,
+  "generation": 1445,
+  "updated_at": "2026-11-18T00:48:33.501552+00:00",
+  "next_id": 469,
   "records": [
     {
       "id": 1,
@@ -6222,6 +6222,19 @@
           "sha256": "4d868249774ece84dd58bf8ab59497de648b03956ef68cd825d7de568fc86c9f",
           "source": "Meta",
           "request_id": "346eb6966e7ddf76bbd521ded4b9145d7cd5d7e8d5c0304a1e6c4cdb21766131",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 468,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T00:48:33.501552+00:00",
+          "block": "Title: Google Researchers Propose Self-Improvement Memory for Continual Harness Optimization\nURL: https://arxiv.org/abs/2611.18856\nImage URL: https://arxiv.org/html/2611.18856v1/overview.svg\nSummary: Google researchers propose Self-Improvement Memory, a record for the harness optimizer rather than the task-solving policy, so optimization can continue when the benchmark or model changes. It groups edits by problem and stores their rationale, results, and evaluation context. In experiments across four domains, it beat harness-only continuation; in coding, paired runs improved final scores by 2.36 points (p=0.003).",
+          "sha256": "9ef433232c309133b842c71b5f4225d1afee7012650b98c4480eed5d49581102",
+          "source": "Google",
+          "request_id": "a1aa818dc1bb3e0fd3c34c969648f761d63cf0eaa253f4bd6b52cab159c07644",
           "mode": "standard"
         }
       ]
@@ -13726,13 +13739,21 @@
       ]
     },
     "a1aa818dc1bb3e0fd3c34c969648f761d63cf0eaa253f4bd6b52cab159c07644": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-18T00:48:32.258550+00:00",
       "received_sequence": 424,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-18T00:48:33.501552+00:00",
+      "records": [
+        {
+          "id": 468,
+          "revision": 1,
+          "sha256": "9ef433232c309133b842c71b5f4225d1afee7012650b98c4480eed5d49581102"
+        }
+      ]
     }
   },
   "batches": {
@@ -50756,6 +50777,21 @@
       "result": {
         "status": "received",
         "request_id": "a1aa818dc1bb3e0fd3c34c969648f761d63cf0eaa253f4bd6b52cab159c07644"
+      }
+    },
+    "9dd67f35ffd911654533b6aeea7da45ee3bf3964ece466d54e741ee9576104bb": {
+      "sha256": "fa2a2cc59ab488b09dbf81af60b736c25565581939f579a4f2999d434b877449",
+      "result": {
+        "status": "finalized",
+        "request_id": "a1aa818dc1bb3e0fd3c34c969648f761d63cf0eaa253f4bd6b52cab159c07644",
+        "records": [
+          {
+            "id": 468,
+            "revision": 1,
+            "sha256": "9ef433232c309133b842c71b5f4225d1afee7012650b98c4480eed5d49581102"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
