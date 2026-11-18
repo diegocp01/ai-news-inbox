@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1448,
-  "updated_at": "2026-11-18T00:50:56.701824+00:00",
+  "generation": 1449,
+  "updated_at": "2026-11-18T00:50:57.665799+00:00",
   "next_id": 470,
   "records": [
     {
@@ -50857,6 +50857,18 @@
         ],
         "duplicates": []
       }
+    },
+    "4be398b1071670936ecc7bb8ff0530e0b26e518b0c7fb9ad700ec4a7df2ad78e": {
+      "sha256": "de08fd8293b6fe21136ccee92c3296a8d3262383d633ff6f736ef74099137053",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 469,
+          "revision": 1,
+          "sha256": "fe2ebf13184a8cb4b30e1e33743768e793c43953a8695b4975409af4bbd0595a"
+        },
+        "editorial_sha256": "b87781f36c7a8b96bd17b4ff98f207a140e8ec74a4bf82f8fcc1739217a8caf4"
+      }
     }
   },
   "migration": {
@@ -62943,6 +62955,26 @@
         "sha256": "e4894f60fde681cc237ac9104187aa7b85a7e51f289d8f78229f7f1e19f50c09",
         "reviewed_at": "2026-11-18T00:48:34.668529+00:00",
         "operation_id": "e6b7479aaa5ea581a403126c080899e8a3d0f1858c47a992a7d05ff572757dc8"
+      }
+    ],
+    "469:1": [
+      {
+        "reference": {
+          "id": 469,
+          "revision": 1,
+          "sha256": "fe2ebf13184a8cb4b30e1e33743768e793c43953a8695b4975409af4bbd0595a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a Microsoft product rollout of Autopilot, a personal work agent for Frontier customers. It is a feature/product, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "5922d13526ef6ed72b923f905ea07c90e0d1a3cd074401b3c0a7d18fc8c2995f"
+          }
+        },
+        "sha256": "b87781f36c7a8b96bd17b4ff98f207a140e8ec74a4bf82f8fcc1739217a8caf4",
+        "reviewed_at": "2026-11-18T00:50:57.665799+00:00",
+        "operation_id": "4be398b1071670936ecc7bb8ff0530e0b26e518b0c7fb9ad700ec4a7df2ad78e"
       }
     ]
   }
