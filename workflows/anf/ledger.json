@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1450,
-  "updated_at": "2026-11-18T00:57:36.594157+00:00",
-  "next_id": 470,
+  "generation": 1451,
+  "updated_at": "2026-11-18T00:57:37.687137+00:00",
+  "next_id": 471,
   "records": [
     {
       "id": 1,
@@ -6248,6 +6248,19 @@
           "sha256": "fe2ebf13184a8cb4b30e1e33743768e793c43953a8695b4975409af4bbd0595a",
           "source": "Microsoft",
           "request_id": "b8c912c4c7a615e0c47a881fad783f9cd71fcaeaba2d269bf400290bdd3e826f",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 470,
+      "revisions": [
+        {
+          "created_at": "2026-11-18T00:57:37.687137+00:00",
+          "block": "Title: Mirelo Introduces Sound Agent to Edit Video Audio From Plain-Language Prompts\nURL: https://iacompa.com/news/mirelo-ai-sound-agent-video-sound-design\nImage URL: https://iacompa.com/og/news/mirelo-ai-sound-agent-video-sound-design\nSummary: Mirelo introduced Sound Agent in Mirelo Editor, a tool that edits a video's audio from plain-language prompts. Users can add sound effects, swap or remove music, separate dialogue, and dub speech into 32 languages, while the picture stays as cut. The agent shows the cost before each paid step.",
+          "sha256": "9ecf4987e93a8592d5e9356f4d69f2c2a2468656b6278041de978267ed156e0c",
+          "source": "Mirelo",
+          "request_id": "27e45e00b0fe9c669bf518a8d895c04ae56a7ec13ce564f9fdb177e121f3a6c2",
           "mode": "standard"
         }
       ]
@@ -13786,13 +13799,21 @@
       ]
     },
     "27e45e00b0fe9c669bf518a8d895c04ae56a7ec13ce564f9fdb177e121f3a6c2": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-18T00:57:36.594157+00:00",
       "received_sequence": 426,
       "expected_items": 1,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-18T00:57:37.687137+00:00",
+      "records": [
+        {
+          "id": 470,
+          "revision": 1,
+          "sha256": "9ecf4987e93a8592d5e9356f4d69f2c2a2468656b6278041de978267ed156e0c"
+        }
+      ]
     }
   },
   "batches": {
@@ -50884,6 +50905,21 @@
       "result": {
         "status": "received",
         "request_id": "27e45e00b0fe9c669bf518a8d895c04ae56a7ec13ce564f9fdb177e121f3a6c2"
+      }
+    },
+    "75570f13dd50fcc20f5a1279f3310eee309a9b614d1efb55f6712e5836d753b1": {
+      "sha256": "c2d45a495b19040957b6eb9b8b4d050b3f014c61d9e16aa4cbc16d3f5737ae0c",
+      "result": {
+        "status": "finalized",
+        "request_id": "27e45e00b0fe9c669bf518a8d895c04ae56a7ec13ce564f9fdb177e121f3a6c2",
+        "records": [
+          {
+            "id": 470,
+            "revision": 1,
+            "sha256": "9ecf4987e93a8592d5e9356f4d69f2c2a2468656b6278041de978267ed156e0c"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
