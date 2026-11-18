@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1442,
-  "updated_at": "2026-11-18T00:11:47.223652+00:00",
+  "generation": 1443,
+  "updated_at": "2026-11-18T00:11:48.102899+00:00",
   "next_id": 468,
   "records": [
     {
@@ -50729,6 +50729,18 @@
         ],
         "duplicates": []
       }
+    },
+    "e75047a2c97ce2abf020821b28cca0e7014484a64d3a30be5256727b9efce3f4": {
+      "sha256": "83229ff6f0a1355f05fb773cf050078ee68563e499afe796314684da09243829",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 467,
+          "revision": 1,
+          "sha256": "4d868249774ece84dd58bf8ab59497de648b03956ef68cd825d7de568fc86c9f"
+        },
+        "editorial_sha256": "63f0a1678b8673b84e98cd997e34fbbe410329448a05ea026816e7b07803cca7"
+      }
     }
   },
   "migration": {
@@ -62775,6 +62787,26 @@
         "sha256": "2d6cbcedef1d0110691aa65ecc842d0626ac4b60cfe462ac303de27d6f52d70c",
         "reviewed_at": "2026-11-18T00:09:05.734659+00:00",
         "operation_id": "ba0a4a3137ee7305353908db419a6870510c822f74fbc10829e5f866bbdbeabb"
+      }
+    ],
+    "467:1": [
+      {
+        "reference": {
+          "id": 467,
+          "revision": 1,
+          "sha256": "4d868249774ece84dd58bf8ab59497de648b03956ef68cd825d7de568fc86c9f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "This is a Meta AI research method that has a model discover memory skills and fine-tune them into its weights through harness optimization and distillation, which are ML-technical training-method terms.",
+            "evidence_sha256": "392b8f5c70ca0094bbcf970fc0af0d2775ac5d2af10b0ffa79eb8c771857018b"
+          }
+        },
+        "sha256": "63f0a1678b8673b84e98cd997e34fbbe410329448a05ea026816e7b07803cca7",
+        "reviewed_at": "2026-11-18T00:11:48.102899+00:00",
+        "operation_id": "e75047a2c97ce2abf020821b28cca0e7014484a64d3a30be5256727b9efce3f4"
       }
     ]
   }
