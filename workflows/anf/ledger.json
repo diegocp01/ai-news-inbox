@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1533,
-  "updated_at": "2026-11-19T22:25:29.316343+00:00",
-  "next_id": 498,
+  "generation": 1536,
+  "updated_at": "2026-11-19T23:46:53.915366+00:00",
+  "next_id": 499,
   "records": [
     {
       "id": 1,
@@ -6617,6 +6617,19 @@
           "sha256": "16257f413ab40fad755f0337c2c681f6c41da846618031b4285340d25b5e1455",
           "source": "Bloomberg",
           "request_id": "muse-intake-20261119-apple-ai-agent",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 498,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T23:46:53.685248+00:00",
+          "block": "Title: ChatGPT's new mobile experience gives your dot its own tab\nURL: https://apps.apple.com/us/app/chatgpt/id6448311069\nImage URL: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1920px-ChatGPT_logo.svg.png\nSummary: OpenAI is rolling out a new mobile experience for ChatGPT, starting with Pro users who have a dot or can create one. The dot gets its own tab, and Codex, Projects, Images and more can be pinned to the tab bar. Some users see it by default; toggle it in Settings > New ChatGPT Design before a wider rollout.",
+          "sha256": "dd7a24317368bb36523a66d7ffe803a6769ccfdec8b95d938d87851c0c06ed7c",
+          "source": "OpenAI",
+          "request_id": "muse-intake-20261119-chatgpt-mobile-experience",
           "mode": "standard"
         }
       ]
@@ -14581,6 +14594,23 @@
           "id": 497,
           "revision": 1,
           "sha256": "16257f413ab40fad755f0337c2c681f6c41da846618031b4285340d25b5e1455"
+        }
+      ]
+    },
+    "muse-intake-20261119-chatgpt-mobile-experience": {
+      "status": "finalized",
+      "received_at": "2026-11-19T23:46:53.428953+00:00",
+      "received_sequence": 450,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T23:46:53.685248+00:00",
+      "records": [
+        {
+          "id": 498,
+          "revision": 1,
+          "sha256": "dd7a24317368bb36523a66d7ffe803a6769ccfdec8b95d938d87851c0c06ed7c"
         }
       ]
     }
@@ -53686,6 +53716,40 @@
         },
         "editorial_sha256": "55ead57eb57db5553c57cf10661e43f29e82f41169cbc8afa3328bbac79179fa"
       }
+    },
+    "muse-intake-20261119-chatgpt-mobile-receive-8115": {
+      "sha256": "26875a171a77fda6b0804fb4a355a86aa4a1be8c7a45a4a6bc64dd8723b68d8f",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261119-chatgpt-mobile-experience"
+      }
+    },
+    "muse-intake-20261119-chatgpt-mobile-finalize-8213": {
+      "sha256": "8d874fc0975e5d10381d51f9b4b948e811ae8b5893ca57725d5e59274cdcd6a5",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261119-chatgpt-mobile-experience",
+        "records": [
+          {
+            "id": 498,
+            "revision": 1,
+            "sha256": "dd7a24317368bb36523a66d7ffe803a6769ccfdec8b95d938d87851c0c06ed7c"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261119-chatgpt-mobile-review-0416": {
+      "sha256": "31c35e2031ea0ec72c219f5068aa37ff7d2aa61bc66d29f392795f63b05de317",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 498,
+          "revision": 1,
+          "sha256": "dd7a24317368bb36523a66d7ffe803a6769ccfdec8b95d938d87851c0c06ed7c"
+        },
+        "editorial_sha256": "f2f70730a9242910b1ba23f20b6b8ff1ae45cac58b2b2918def37f5ca285ea51"
+      }
     }
   },
   "migration": {
@@ -66352,6 +66416,26 @@
         "sha256": "55ead57eb57db5553c57cf10661e43f29e82f41169cbc8afa3328bbac79179fa",
         "reviewed_at": "2026-11-19T22:25:29.316343+00:00",
         "operation_id": "muse-intake-20261119-apple-agent-review-1629"
+      }
+    ],
+    "498:1": [
+      {
+        "reference": {
+          "id": 498,
+          "revision": 1,
+          "sha256": "dd7a24317368bb36523a66d7ffe803a6769ccfdec8b95d938d87851c0c06ed7c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A new mobile experience for the ChatGPT app is a consumer product update: it changes how everyday users reach features on their phones, starting with Pro users who have a dot. It matters to general ChatGPT users, not to developers or researchers. muse-intake 2026-11-19: submitted by Diego via Tibo Sottiaux's X post https://x.com/thsottiaux/status/2123557171321561133 (6:20 PM Nov 19, 2026), verified by a live browser read; no same-day secondary coverage exists yet, so the record URL is the ChatGPT App Store listing (version 1.2026.314, released Nov 19, 2026); finalized by Muse per Diego's direction.",
+            "evidence_sha256": "dd7a24317368bb36523a66d7ffe803a6769ccfdec8b95d938d87851c0c06ed7c"
+          }
+        },
+        "sha256": "f2f70730a9242910b1ba23f20b6b8ff1ae45cac58b2b2918def37f5ca285ea51",
+        "reviewed_at": "2026-11-19T23:46:53.915366+00:00",
+        "operation_id": "muse-intake-20261119-chatgpt-mobile-review-0416"
       }
     ]
   }
