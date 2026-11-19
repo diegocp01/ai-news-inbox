@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1524,
-  "updated_at": "2026-11-19T21:18:28.742899+00:00",
-  "next_id": 495,
+  "generation": 1527,
+  "updated_at": "2026-11-19T22:05:23.750921+00:00",
+  "next_id": 496,
   "records": [
     {
       "id": 1,
@@ -6578,6 +6578,19 @@
           "sha256": "c0856db2e2aadb7ddd0fe5103735eb2ba8da85f681a081a50165af3d014b5f73",
           "source": "AICoder",
           "request_id": "muse-intake-20261119-gpt-live-1-1-api",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 495,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T22:05:23.475544+00:00",
+          "block": "Title: alphaXiv launches a preprint server for AI agents; 936 agents publish 936 studies\nURL: https://www.alphaxiv.org/abs/2611.society-ai-scientists\nImage URL: https://paper-assets.alphaxiv.org/paper-figures/01a1f28c-d013-7659-98c6-786c5e646052/01a1f28e-7775-78f2-b028-b77cf14abaf4.jpg\nSummary: alphaXiv launched a preprint server for AI agents: in a 12-week study, 936 agents from 35 labs published 936 studies with code and data, exchanging 9,500 messages. Agents publicly corrected their own errors and founded the Journal of Agent Research, whose executable reviews overturned headline conclusions in nearly half of major objections. The full archive is open-sourced.",
+          "sha256": "5d7c7e46105c3d24260d33848f34559a3da21322f3cea2bf570c9462081c5f51",
+          "source": "alphaXiv",
+          "request_id": "muse-intake-20261119-alphaxiv-preprint-server",
           "mode": "standard"
         }
       ]
@@ -14491,6 +14504,23 @@
           "id": 494,
           "revision": 1,
           "sha256": "c0856db2e2aadb7ddd0fe5103735eb2ba8da85f681a081a50165af3d014b5f73"
+        }
+      ]
+    },
+    "muse-intake-20261119-alphaxiv-preprint-server": {
+      "status": "finalized",
+      "received_at": "2026-11-19T22:05:23.259329+00:00",
+      "received_sequence": 447,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T22:05:23.475544+00:00",
+      "records": [
+        {
+          "id": 495,
+          "revision": 1,
+          "sha256": "5d7c7e46105c3d24260d33848f34559a3da21322f3cea2bf570c9462081c5f51"
         }
       ]
     }
@@ -53494,6 +53524,40 @@
         },
         "editorial_sha256": "6c2554f23cbf1bfe5333d02460b19c83f2a8969a0590e1339fca6f4c22303e65"
       }
+    },
+    "muse-intake-20261119-alphaxiv-receive-0708": {
+      "sha256": "b3dfc568ae5602c3afac1eecc885df9ad2496dff261c0b19a58ab95fe16855ef",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261119-alphaxiv-preprint-server"
+      }
+    },
+    "muse-intake-20261119-alphaxiv-finalize-4114": {
+      "sha256": "a085e5c646ae96b2ef6b61b036ea22e0f5c3f689bbea12d81a8655d76a4dbed1",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261119-alphaxiv-preprint-server",
+        "records": [
+          {
+            "id": 495,
+            "revision": 1,
+            "sha256": "5d7c7e46105c3d24260d33848f34559a3da21322f3cea2bf570c9462081c5f51"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261119-alphaxiv-review-8151": {
+      "sha256": "cc40b51f016cc8dd2e04d7d3437f563e8d62e5164c37708fefc4190fa290e061",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 495,
+          "revision": 1,
+          "sha256": "5d7c7e46105c3d24260d33848f34559a3da21322f3cea2bf570c9462081c5f51"
+        },
+        "editorial_sha256": "bd2214e9de4746a1d779a86345bf2f10c12f7afcadb78906b71b2d84f7b3ef62"
+      }
     }
   },
   "migration": {
@@ -66100,6 +66164,26 @@
         "sha256": "6c2554f23cbf1bfe5333d02460b19c83f2a8969a0590e1339fca6f4c22303e65",
         "reviewed_at": "2026-11-19T21:18:28.742899+00:00",
         "operation_id": "muse-intake-20261119-gpt-live-1-1-review-9038"
+      }
+    ],
+    "495:1": [
+      {
+        "reference": {
+          "id": 495,
+          "revision": 1,
+          "sha256": "5d7c7e46105c3d24260d33848f34559a3da21322f3cea2bf570c9462081c5f51"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A 12-week study of 936 autonomous AI agents conducting and peer-reviewing research is a research story: it matters to AI researchers tracking agent science, self-correction, and executable peer review, not general consumers. muse-intake 2026-11-19: submitted by Diego via alphaXiv's X post https://x.com/askalphaxiv/status/2123456265858740600 (Nov 19, 2026), verified against the alphaXiv study page 'A Society of AI Scientists'; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "5d7c7e46105c3d24260d33848f34559a3da21322f3cea2bf570c9462081c5f51"
+          }
+        },
+        "sha256": "bd2214e9de4746a1d779a86345bf2f10c12f7afcadb78906b71b2d84f7b3ef62",
+        "reviewed_at": "2026-11-19T22:05:23.750921+00:00",
+        "operation_id": "muse-intake-20261119-alphaxiv-review-8151"
       }
     ]
   }
