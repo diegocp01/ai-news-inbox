@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1488,
-  "updated_at": "2026-11-19T02:53:12.401980+00:00",
-  "next_id": 483,
+  "generation": 1491,
+  "updated_at": "2026-11-19T02:58:33.190507+00:00",
+  "next_id": 484,
   "records": [
     {
       "id": 1,
@@ -6420,6 +6420,19 @@
           "sha256": "35f81e4d48972f42fd2f8527aa4a05464a2aa7d846506b89e694afb5ea18e001",
           "source": "New Runtime",
           "request_id": "muse-intake-20261118-openai-jagged-frontier",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 483,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T02:58:32.971957+00:00",
+          "block": "Title: Google launches Gemini 4 Neon, a mid-tier model balancing intelligence, speed and cost\nURL: https://www.talkandroid.com/535672-gemini-4-neon-google-ai-model/\nImage URL: https://www.talkandroid.com/wp-content/uploads/2026/11/gemini-4-neon-google-ai-model-img1.jpg\nSummary: Google launched Gemini 4 Neon on Nov 18, a mid-tier model between Hydrogen and Carbon, priced at $3 input and $15 output per million tokens. It rolls out in the Gemini API, Antigravity and the Gemini app for Pro and Ultra subscribers. Google claims it scores 61 on the Artificial Analysis Intelligence Index; its benchmarks are its own, unverified independently.",
+          "sha256": "5504d0e207fd4d393b8b2f6d45c791554dda1d5af50499e5b3bf6446b93ad649",
+          "source": "TalkAndroid",
+          "request_id": "muse-intake-20261118-gemini-4-neon",
           "mode": "standard"
         }
       ]
@@ -14152,6 +14165,23 @@
           "id": 482,
           "revision": 1,
           "sha256": "35f81e4d48972f42fd2f8527aa4a05464a2aa7d846506b89e694afb5ea18e001"
+        }
+      ]
+    },
+    "muse-intake-20261118-gemini-4-neon": {
+      "status": "finalized",
+      "received_at": "2026-11-19T02:58:32.755009+00:00",
+      "received_sequence": 437,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T02:58:32.971957+00:00",
+      "records": [
+        {
+          "id": 483,
+          "revision": 1,
+          "sha256": "5504d0e207fd4d393b8b2f6d45c791554dda1d5af50499e5b3bf6446b93ad649"
         }
       ]
     }
@@ -52253,6 +52283,40 @@
         },
         "editorial_sha256": "63092acc236c94fefdd63166638c1453f26638a19e2243cfb70f4f92f73a6ad6"
       }
+    },
+    "muse-intake-20261118-gemini-4-neon-receive-4347": {
+      "sha256": "148c0649e6d031385727fbd7689a6f00197836260ccd52127e5b141482e1d91d",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261118-gemini-4-neon"
+      }
+    },
+    "muse-intake-20261118-gemini-4-neon-finalize-1165": {
+      "sha256": "6a3fb73f8a1a1648e1f3896b70362f1e46f354a853510e88842dc9f432d1d36b",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261118-gemini-4-neon",
+        "records": [
+          {
+            "id": 483,
+            "revision": 1,
+            "sha256": "5504d0e207fd4d393b8b2f6d45c791554dda1d5af50499e5b3bf6446b93ad649"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261118-gemini-4-neon-review-2639": {
+      "sha256": "f8293b10571b34b677d409825ec45a8ee801821bbfa451cbe5667f3074a0b1ab",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 483,
+          "revision": 1,
+          "sha256": "5504d0e207fd4d393b8b2f6d45c791554dda1d5af50499e5b3bf6446b93ad649"
+        },
+        "editorial_sha256": "a069f5626dd41dc05a75e1bc487fba08b1ef9853e9219558f9887a2b96719248"
+      }
     }
   },
   "migration": {
@@ -64619,6 +64683,26 @@
         "sha256": "63092acc236c94fefdd63166638c1453f26638a19e2243cfb70f4f92f73a6ad6",
         "reviewed_at": "2026-11-19T02:53:12.401980+00:00",
         "operation_id": "muse-intake-20261118-openai-jagged-review-8827"
+      }
+    ],
+    "483:1": [
+      {
+        "reference": {
+          "id": 483,
+          "revision": 1,
+          "sha256": "5504d0e207fd4d393b8b2f6d45c791554dda1d5af50499e5b3bf6446b93ad649"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google launching a new mid-tier frontier model that directly compares itself to Claude Opus 5.5 and GPT-6.2 Sol is industry news about AI competition and pricing, not a technical result; it matters to general readers tracking the AI model market. muse-intake 2026-11-18: submitted by Diego via X (Logan Kilpatrick post https://x.com/officiallogank/status/2123167791922741362, verified by live browser read; the post text and benchmark table are from Google DeepMind's Logan Kilpatrick), verified against TalkAndroid coverage of the Nov 18 launch and Google's launch blog; record URL is TalkAndroid because x.com is forbidden as a learn-more URL by ledger policy; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "5504d0e207fd4d393b8b2f6d45c791554dda1d5af50499e5b3bf6446b93ad649"
+          }
+        },
+        "sha256": "a069f5626dd41dc05a75e1bc487fba08b1ef9853e9219558f9887a2b96719248",
+        "reviewed_at": "2026-11-19T02:58:33.190507+00:00",
+        "operation_id": "muse-intake-20261118-gemini-4-neon-review-2639"
       }
     ]
   }
