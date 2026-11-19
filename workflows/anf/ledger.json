@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1491,
-  "updated_at": "2026-11-19T02:58:33.190507+00:00",
-  "next_id": 484,
+  "generation": 1494,
+  "updated_at": "2026-11-19T03:49:59.153876+00:00",
+  "next_id": 485,
   "records": [
     {
       "id": 1,
@@ -6433,6 +6433,19 @@
           "sha256": "5504d0e207fd4d393b8b2f6d45c791554dda1d5af50499e5b3bf6446b93ad649",
           "source": "TalkAndroid",
           "request_id": "muse-intake-20261118-gemini-4-neon",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 484,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T03:49:58.941586+00:00",
+          "block": "Title: OpenAI's Dean Ball rejects the 'silent consensus' that humans must yield primacy to AI\nURL: https://blockchain.news/news/dean-ball-silent-consensus-ai-impact\nImage URL: https://image.blockchain.news:443/features/D11B7CFCA58E34BD7D45FE96B9319DC677103B086D2B5DC6241654AB7083E58E.jpg\nSummary: Dean Ball, OpenAI's Head of Strategic Futures, argues in a Nov 18 essay that the tech industry silently assumes humans will forfeit primacy over commerce and governance to superintelligent machines. He rejects that inevitability, calling for human accountability, guardrails on autonomous agents, and AI built to keep people in charge. The essay adapts his Harvard Vik-Bailey Lecture.",
+          "sha256": "087a53a8b013fb94dbaac66dbdead26a5282175b7407ab01eddb3a95d4f71d65",
+          "source": "Blockchain.News",
+          "request_id": "muse-intake-20261118-openai-silent-consensus",
           "mode": "standard"
         }
       ]
@@ -14182,6 +14195,23 @@
           "id": 483,
           "revision": 1,
           "sha256": "5504d0e207fd4d393b8b2f6d45c791554dda1d5af50499e5b3bf6446b93ad649"
+        }
+      ]
+    },
+    "muse-intake-20261118-openai-silent-consensus": {
+      "status": "finalized",
+      "received_at": "2026-11-19T03:49:58.702472+00:00",
+      "received_sequence": 438,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T03:49:58.941586+00:00",
+      "records": [
+        {
+          "id": 484,
+          "revision": 1,
+          "sha256": "087a53a8b013fb94dbaac66dbdead26a5282175b7407ab01eddb3a95d4f71d65"
         }
       ]
     }
@@ -52317,6 +52347,40 @@
         },
         "editorial_sha256": "a069f5626dd41dc05a75e1bc487fba08b1ef9853e9219558f9887a2b96719248"
       }
+    },
+    "muse-intake-20261118-openai-silent-receive-2431": {
+      "sha256": "f3665b6434edd82ae5c733a56043a990c3edcebdf534d4b1691c449937ffcbb5",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261118-openai-silent-consensus"
+      }
+    },
+    "muse-intake-20261118-openai-silent-finalize-8823": {
+      "sha256": "1d0cfd5194068cd7fdeb50c413863d20bb0a3ceb9dc389731a276629bcfef22d",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261118-openai-silent-consensus",
+        "records": [
+          {
+            "id": 484,
+            "revision": 1,
+            "sha256": "087a53a8b013fb94dbaac66dbdead26a5282175b7407ab01eddb3a95d4f71d65"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261118-openai-silent-review-0529": {
+      "sha256": "7bee17be3d05254f81c1e2c1968b7c0a8a0877d16337abbf02c1c46debe661d9",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 484,
+          "revision": 1,
+          "sha256": "087a53a8b013fb94dbaac66dbdead26a5282175b7407ab01eddb3a95d4f71d65"
+        },
+        "editorial_sha256": "13d308881923c7a2ec71909d6d096107dbca919cddfe1ec8ffea8b60b3840b54"
+      }
     }
   },
   "migration": {
@@ -64703,6 +64767,26 @@
         "sha256": "a069f5626dd41dc05a75e1bc487fba08b1ef9853e9219558f9887a2b96719248",
         "reviewed_at": "2026-11-19T02:58:33.190507+00:00",
         "operation_id": "muse-intake-20261118-gemini-4-neon-review-2639"
+      }
+    ],
+    "484:1": [
+      {
+        "reference": {
+          "id": 484,
+          "revision": 1,
+          "sha256": "087a53a8b013fb94dbaac66dbdead26a5282175b7407ab01eddb3a95d4f71d65"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Dean Ball's essay is an argument about AI's impact on human institutions and the future of human primacy, written for a broad audience as a public lecture; it matters to general readers tracking AI's societal impact, not only researchers. muse-intake 2026-11-18: submitted by Diego via OpenAI page https://openai.com/index/the-silent-consensus/, read via browser.open and corroborated by Blockchain.News, WittyWires and StartupHub; the record links the Blockchain.News article because the ledger policy forbids openai.com learn-more URLs; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "087a53a8b013fb94dbaac66dbdead26a5282175b7407ab01eddb3a95d4f71d65"
+          }
+        },
+        "sha256": "13d308881923c7a2ec71909d6d096107dbca919cddfe1ec8ffea8b60b3840b54",
+        "reviewed_at": "2026-11-19T03:49:59.153876+00:00",
+        "operation_id": "muse-intake-20261118-openai-silent-review-0529"
       }
     ]
   }
