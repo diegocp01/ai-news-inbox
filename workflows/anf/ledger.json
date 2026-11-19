@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1515,
-  "updated_at": "2026-11-19T16:58:01.356355+00:00",
-  "next_id": 492,
+  "generation": 1518,
+  "updated_at": "2026-11-19T17:53:03.199066+00:00",
+  "next_id": 493,
   "records": [
     {
       "id": 1,
@@ -6539,6 +6539,19 @@
           "sha256": "f6626569feb1af0ccf5e88e8fffc6cd07c009df42f0d5ee248453a98fa5e0bd6",
           "source": "arXiv",
           "request_id": "muse-intake-20261119-guard-recursive-self-improvement",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 492,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T17:53:02.989715+00:00",
+          "block": "Title: Genie 4 now available in the Gemini API and Google AI Studio\nURL: https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Genie_4_Social_Share.max-1440x810.png\nSummary: Google's Genie 4 world model is now available to developers through the Gemini API (via the Interactions API) and Google AI Studio. From a text prompt or reference image it generates continuous 720p worlds at 24fps with synchronized native audio, navigable with real-time controls while Gemini reasoning keeps the world coherent. All output carries SynthID watermarking.",
+          "sha256": "46ea7ef2137a90db9ab647630f00f0009a66a4d084a47e87f7e13b31487d170b",
+          "source": "Google",
+          "request_id": "muse-intake-20261119-genie-4-gemini-api",
           "mode": "standard"
         }
       ]
@@ -14401,6 +14414,23 @@
           "id": 491,
           "revision": 1,
           "sha256": "f6626569feb1af0ccf5e88e8fffc6cd07c009df42f0d5ee248453a98fa5e0bd6"
+        }
+      ]
+    },
+    "muse-intake-20261119-genie-4-gemini-api": {
+      "status": "finalized",
+      "received_at": "2026-11-19T17:53:02.757922+00:00",
+      "received_sequence": 444,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T17:53:02.989715+00:00",
+      "records": [
+        {
+          "id": 492,
+          "revision": 1,
+          "sha256": "46ea7ef2137a90db9ab647630f00f0009a66a4d084a47e87f7e13b31487d170b"
         }
       ]
     }
@@ -53302,6 +53332,40 @@
         },
         "editorial_sha256": "c1dc79e14d3870d2425e94544ac2e13b2a53db400eb56546115d95c17924bb18"
       }
+    },
+    "muse-intake-20261119-genie-4-receive-0388": {
+      "sha256": "67313504e7fba0a836af3eb9ec6f2fb020d585a36de3adf30e23a7921fe02e5e",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261119-genie-4-gemini-api"
+      }
+    },
+    "muse-intake-20261119-genie-4-finalize-1103": {
+      "sha256": "68955082cb4a5abf27e03d0b97726752d3369c523651c64992055d5f6c93c93a",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261119-genie-4-gemini-api",
+        "records": [
+          {
+            "id": 492,
+            "revision": 1,
+            "sha256": "46ea7ef2137a90db9ab647630f00f0009a66a4d084a47e87f7e13b31487d170b"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261119-genie-4-review-2404": {
+      "sha256": "d8f5c77a8621b7e87773287df82bed06308d68251d21720f3b5aea99aca06456",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 492,
+          "revision": 1,
+          "sha256": "46ea7ef2137a90db9ab647630f00f0009a66a4d084a47e87f7e13b31487d170b"
+        },
+        "editorial_sha256": "f7064cf7912c9d8b25958210f60b88f40c65cfacf1499accfeac48f86b05037e"
+      }
     }
   },
   "migration": {
@@ -65848,6 +65912,26 @@
         "sha256": "c1dc79e14d3870d2425e94544ac2e13b2a53db400eb56546115d95c17924bb18",
         "reviewed_at": "2026-11-19T16:58:01.356355+00:00",
         "operation_id": "muse-intake-20261119-guard-review-3833"
+      }
+    ],
+    "492:1": [
+      {
+        "reference": {
+          "id": 492,
+          "revision": 1,
+          "sha256": "46ea7ef2137a90db9ab647630f00f0009a66a4d084a47e87f7e13b31487d170b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Genie 4 reaching the Gemini API and AI Studio is a developer-tool launch: a world model developers can now build with. It matters to developers and researchers tracking interactive AI and world models, not general consumers. muse-intake 2026-11-19: submitted by Diego via Logan Kilpatrick's X post https://x.com/officiallogank/status/2123467449257623770 (12:24 PM Nov 19, 2026), verified against the Google blog post; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "46ea7ef2137a90db9ab647630f00f0009a66a4d084a47e87f7e13b31487d170b"
+          }
+        },
+        "sha256": "f7064cf7912c9d8b25958210f60b88f40c65cfacf1499accfeac48f86b05037e",
+        "reviewed_at": "2026-11-19T17:53:03.199066+00:00",
+        "operation_id": "muse-intake-20261119-genie-4-review-2404"
       }
     ]
   }
