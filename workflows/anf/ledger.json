@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1498,
-  "updated_at": "2026-11-19T12:01:40+00:00",
-  "next_id": 486,
+  "generation": 1499,
+  "updated_at": "2026-11-19T12:03:43+00:00",
+  "next_id": 488,
   "records": [
     {
       "id": 1,
@@ -6459,6 +6459,32 @@
           "sha256": "131cc0e9b7ee44c61d25e3329bddef0d0620ba5b067529265199a425b25b6a84",
           "source": "AI Frontier Post",
           "request_id": "muse-intake-20261119-vals-autoform-hard",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 486,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T12:03:43+00:00",
+          "block": "Title: π⁴ Reconstructs Scene Geometry and Motion Together\nURL: https://arxiv.org/abs/2611.23144\nImage URL: https://arxiv.org/html/2611.23144v1/teaser.png\nSummary: Yifan Wang and colleagues introduce π⁴, which jointly reconstructs geometry and tracks motion from uncalibrated images or video. It achieved the best overall average rank among ten methods in the paper’s geometry evaluation. With about 0.5 billion parameters, it processes scenes in one forward pass, but can confuse camera and object motion.",
+          "sha256": "b6ad574ef0b50a63264e6d340385a99408bec3e660f61acbe214df14f1f6cfe5",
+          "source": "arXiv",
+          "request_id": "ba624cdb589b7188521f0f80b69cb05900dd3befc9450e7e17c36059279e43d9",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 487,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T12:03:43+00:00",
+          "block": "Title: World Models Estimate Alternative Outcomes Without Retraining\nURL: https://arxiv.org/abs/2611.24778\nImage URL: https://api.alphaxiv.org/open-graph/v1/paper/2611.24778.png?v=2\nSummary: Randall Balestriero and colleagues reuse an observed outcome’s prediction residual to estimate what a different action would have produced under the same disturbance. Across four rendered simulators, they report counterfactual R² increasing from 38–46% to 86–96%, without retraining the predictor. Results are simulation-only; contacts and action-dependent disturbances can invalidate the approximation.",
+          "sha256": "f32c7431ae7d48d9270ae5f5c3a32dc846cae84b5f72e12b1b032926bf1c7ecd",
+          "source": "arXiv",
+          "request_id": "ba624cdb589b7188521f0f80b69cb05900dd3befc9450e7e17c36059279e43d9",
           "mode": "standard"
         }
       ]
@@ -14246,13 +14272,26 @@
       ]
     },
     "ba624cdb589b7188521f0f80b69cb05900dd3befc9450e7e17c36059279e43d9": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-19T12:01:40+00:00",
       "received_sequence": 440,
       "expected_items": 2,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T12:03:43+00:00",
+      "records": [
+        {
+          "id": 486,
+          "revision": 1,
+          "sha256": "b6ad574ef0b50a63264e6d340385a99408bec3e660f61acbe214df14f1f6cfe5"
+        },
+        {
+          "id": 487,
+          "revision": 1,
+          "sha256": "f32c7431ae7d48d9270ae5f5c3a32dc846cae84b5f72e12b1b032926bf1c7ecd"
+        }
+      ]
     }
   },
   "batches": {
@@ -52460,6 +52499,26 @@
       "result": {
         "status": "received",
         "request_id": "ba624cdb589b7188521f0f80b69cb05900dd3befc9450e7e17c36059279e43d9"
+      }
+    },
+    "ba624cdb589b7188521f0f80b69cb05900dd3befc9450e7e17c36059279e43d9-finalize": {
+      "sha256": "90900c8c9fbd6be188d793badd3927f199af7b486057fe6f65d77b630f4ebec5",
+      "result": {
+        "status": "finalized",
+        "request_id": "ba624cdb589b7188521f0f80b69cb05900dd3befc9450e7e17c36059279e43d9",
+        "records": [
+          {
+            "id": 486,
+            "revision": 1,
+            "sha256": "b6ad574ef0b50a63264e6d340385a99408bec3e660f61acbe214df14f1f6cfe5"
+          },
+          {
+            "id": 487,
+            "revision": 1,
+            "sha256": "f32c7431ae7d48d9270ae5f5c3a32dc846cae84b5f72e12b1b032926bf1c7ecd"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
