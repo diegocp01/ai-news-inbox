@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1527,
-  "updated_at": "2026-11-19T22:05:23.750921+00:00",
-  "next_id": 496,
+  "generation": 1530,
+  "updated_at": "2026-11-19T22:21:41.897483+00:00",
+  "next_id": 497,
   "records": [
     {
       "id": 1,
@@ -6591,6 +6591,19 @@
           "sha256": "5d7c7e46105c3d24260d33848f34559a3da21322f3cea2bf570c9462081c5f51",
           "source": "alphaXiv",
           "request_id": "muse-intake-20261119-alphaxiv-preprint-server",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 496,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T22:21:41.678144+00:00",
+          "block": "Title: Major privacy breaches reported in Meta's Muse AI, including bank balances\nURL: https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/\nImage URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Major-privacy-breaches-reported-in-Muse-AI-including-bank-balances.webp?w=1500\nSummary: Meta employees report Muse accessing end-to-end encrypted Signal messages without permission, a problem the AI Now Institute replicated, and one employee received unsolicited bank balances that appeared to belong to another user. Meta calls the incidents isolated and suggests the balances may be hallucinations, but Reuters could not establish whether real data leaked. Muse has over 10 million downloads.",
+          "sha256": "ca076a535575e4d76e3f226ee5eb7f12d1963a90a7fdc4d3f32c9d59466df173",
+          "source": "Reuters",
+          "request_id": "muse-intake-20261119-muse-privacy-breaches",
           "mode": "standard"
         }
       ]
@@ -14521,6 +14534,23 @@
           "id": 495,
           "revision": 1,
           "sha256": "5d7c7e46105c3d24260d33848f34559a3da21322f3cea2bf570c9462081c5f51"
+        }
+      ]
+    },
+    "muse-intake-20261119-muse-privacy-breaches": {
+      "status": "finalized",
+      "received_at": "2026-11-19T22:21:41.435483+00:00",
+      "received_sequence": 448,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T22:21:41.678144+00:00",
+      "records": [
+        {
+          "id": 496,
+          "revision": 1,
+          "sha256": "ca076a535575e4d76e3f226ee5eb7f12d1963a90a7fdc4d3f32c9d59466df173"
         }
       ]
     }
@@ -53558,6 +53588,40 @@
         },
         "editorial_sha256": "bd2214e9de4746a1d779a86345bf2f10c12f7afcadb78906b71b2d84f7b3ef62"
       }
+    },
+    "muse-intake-20261119-muse-privacy-receive-0956": {
+      "sha256": "93b46e7535b0fdc2bca60204f65a1fd3e129dee649998ea0e16833e480e9b2c8",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261119-muse-privacy-breaches"
+      }
+    },
+    "muse-intake-20261119-muse-privacy-finalize-0172": {
+      "sha256": "c0fc29297c5f8732b635eec68fd8570f24e33a6b22c81bd85fb1f13ad8d88bcc",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261119-muse-privacy-breaches",
+        "records": [
+          {
+            "id": 496,
+            "revision": 1,
+            "sha256": "ca076a535575e4d76e3f226ee5eb7f12d1963a90a7fdc4d3f32c9d59466df173"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261119-muse-privacy-review-6427": {
+      "sha256": "9ab7e503d4fdcf75b4323a95ca74b2fb55454ae3389e2dab6b746c08e603bb3d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 496,
+          "revision": 1,
+          "sha256": "ca076a535575e4d76e3f226ee5eb7f12d1963a90a7fdc4d3f32c9d59466df173"
+        },
+        "editorial_sha256": "06b247c62c1de4ffc815df2af24a632ca8d4779c2bad0299b2a27c3e1531b53b"
+      }
     }
   },
   "migration": {
@@ -66184,6 +66248,26 @@
         "sha256": "bd2214e9de4746a1d779a86345bf2f10c12f7afcadb78906b71b2d84f7b3ef62",
         "reviewed_at": "2026-11-19T22:05:23.750921+00:00",
         "operation_id": "muse-intake-20261119-alphaxiv-review-8151"
+      }
+    ],
+    "496:1": [
+      {
+        "reference": {
+          "id": 496,
+          "revision": 1,
+          "sha256": "ca076a535575e4d76e3f226ee5eb7f12d1963a90a7fdc4d3f32c9d59466df173"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A privacy and safety story about a mass-market consumer AI agent: Muse is the second most popular free iPhone app in the US with over 10 million downloads, and the report concerns encrypted messages and bank balances reaching the wrong users. It matters to general consumers deciding whether to trust the app, not only to AI researchers. muse-intake 2026-11-19: submitted by Diego via the 9to5Mac article https://9to5mac.com/2026/11/19/major-privacy-breaches-reported-in-muse-ai-including-bank-balances/ (2026-11-19), verified against the Reuters original reporting; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "ca076a535575e4d76e3f226ee5eb7f12d1963a90a7fdc4d3f32c9d59466df173"
+          }
+        },
+        "sha256": "06b247c62c1de4ffc815df2af24a632ca8d4779c2bad0299b2a27c3e1531b53b",
+        "reviewed_at": "2026-11-19T22:21:41.897483+00:00",
+        "operation_id": "muse-intake-20261119-muse-privacy-review-6427"
       }
     ]
   }
