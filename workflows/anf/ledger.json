@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1485,
-  "updated_at": "2026-11-19T02:46:26.053837+00:00",
-  "next_id": 482,
+  "generation": 1488,
+  "updated_at": "2026-11-19T02:53:12.401980+00:00",
+  "next_id": 483,
   "records": [
     {
       "id": 1,
@@ -6407,6 +6407,19 @@
           "sha256": "d695d279be4778a47c27a221f408560ab705e7dd7040532c3acdd02493f9735d",
           "source": "Switch AI",
           "request_id": "muse-intake-20261118-switch-buddy",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 482,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T02:53:12.185933+00:00",
+          "block": "Title: OpenAI: coding agents now complete nearly half of two-to-four-hour research tasks alone\nURL: https://newruntime.com/posts/research-acceleration-the-jagged-frontier-5f108d/\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/2YS8yWiGpKflhlEnAkcLU/f51ead4391706f6c3198f0d61a0f147a/research-acceleration-the-jagged-frontier-social.png\nSummary: OpenAI reports coding agents completed 46% of two-to-four-hour research tasks unaided in October, up from 23% in March, though success varies sharply by task type. Median researcher agent spend hit $2,400 a day, and agent workdays per researcher rose elevenfold to 5.7. Safety and Alignment work grew 77% since January. Humans remain central to the research loop.",
+          "sha256": "35f81e4d48972f42fd2f8527aa4a05464a2aa7d846506b89e694afb5ea18e001",
+          "source": "New Runtime",
+          "request_id": "muse-intake-20261118-openai-jagged-frontier",
           "mode": "standard"
         }
       ]
@@ -14122,6 +14135,23 @@
           "id": 481,
           "revision": 1,
           "sha256": "d695d279be4778a47c27a221f408560ab705e7dd7040532c3acdd02493f9735d"
+        }
+      ]
+    },
+    "muse-intake-20261118-openai-jagged-frontier": {
+      "status": "finalized",
+      "received_at": "2026-11-19T02:53:11.969906+00:00",
+      "received_sequence": 436,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T02:53:12.185933+00:00",
+      "records": [
+        {
+          "id": 482,
+          "revision": 1,
+          "sha256": "35f81e4d48972f42fd2f8527aa4a05464a2aa7d846506b89e694afb5ea18e001"
         }
       ]
     }
@@ -52189,6 +52219,40 @@
         },
         "editorial_sha256": "4146d079912c74939da563e1274399f4db2d766a58b45804c854a9e397fa7f30"
       }
+    },
+    "muse-intake-20261118-openai-jagged-receive-5919": {
+      "sha256": "f305689701a972357d97ab49f381a34dc6d9902361d38d63daee02e40a681bba",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261118-openai-jagged-frontier"
+      }
+    },
+    "muse-intake-20261118-openai-jagged-finalize-1171": {
+      "sha256": "edfd9f8f0248bf480be091ced00f5d0b56c3effddae028bc1f4a571b329bd18c",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261118-openai-jagged-frontier",
+        "records": [
+          {
+            "id": 482,
+            "revision": 1,
+            "sha256": "35f81e4d48972f42fd2f8527aa4a05464a2aa7d846506b89e694afb5ea18e001"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261118-openai-jagged-review-8827": {
+      "sha256": "79d4a911ffde2753d53a3f4745669488e6a50254fc91b47c0f664f257b3478b6",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 482,
+          "revision": 1,
+          "sha256": "35f81e4d48972f42fd2f8527aa4a05464a2aa7d846506b89e694afb5ea18e001"
+        },
+        "editorial_sha256": "63092acc236c94fefdd63166638c1453f26638a19e2243cfb70f4f92f73a6ad6"
+      }
     }
   },
   "migration": {
@@ -64535,6 +64599,26 @@
         "sha256": "4146d079912c74939da563e1274399f4db2d766a58b45804c854a9e397fa7f30",
         "reviewed_at": "2026-11-19T02:46:26.053837+00:00",
         "operation_id": "muse-intake-20261118-switch-buddy-review-9883"
+      }
+    ],
+    "482:1": [
+      {
+        "reference": {
+          "id": 482,
+          "revision": 1,
+          "sha256": "35f81e4d48972f42fd2f8527aa4a05464a2aa7d846506b89e694afb5ea18e001"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "OpenAI's research-acceleration report is a research publication with internal benchmarks on AI R&D automation and recursive self-improvement indicators; it matters to researchers tracking AI research progress, not general consumers. muse-intake 2026-11-18: submitted by Diego via OpenAI page https://openai.com/index/research-acceleration-jagged-frontier/, read via browser.open and corroborated by New Runtime, dev.to, Superpower Daily and KuCoin; the record links the New Runtime summary because the ledger policy forbids openai.com learn-more URLs; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "35f81e4d48972f42fd2f8527aa4a05464a2aa7d846506b89e694afb5ea18e001"
+          }
+        },
+        "sha256": "63092acc236c94fefdd63166638c1453f26638a19e2243cfb70f4f92f73a6ad6",
+        "reviewed_at": "2026-11-19T02:53:12.401980+00:00",
+        "operation_id": "muse-intake-20261118-openai-jagged-review-8827"
       }
     ]
   }
