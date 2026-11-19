@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1530,
-  "updated_at": "2026-11-19T22:21:41.897483+00:00",
-  "next_id": 497,
+  "generation": 1533,
+  "updated_at": "2026-11-19T22:25:29.316343+00:00",
+  "next_id": 498,
   "records": [
     {
       "id": 1,
@@ -6604,6 +6604,19 @@
           "sha256": "ca076a535575e4d76e3f226ee5eb7f12d1963a90a7fdc4d3f32c9d59466df173",
           "source": "Reuters",
           "request_id": "muse-intake-20261119-muse-privacy-breaches",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 497,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T22:25:29.099591+00:00",
+          "block": "Title: Apple is building an AI agent to code, browse, and control devices\nURL: https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding\nImage URL: https://media.appleinsider.com/gallery/69938-147378-Writing-Tools-iOS-26-xl.jpg\nSummary: Apple is developing an AI agent that writes code, browses the web, controls apps, and navigates devices, per job listings posted this week, including a senior engineering manager for a proactive, agentic AI assistant. The target is as soon as end of next year, but the work is early-stage; Apple is tightening Mac controls on rival agents in macOS 27.3.",
+          "sha256": "16257f413ab40fad755f0337c2c681f6c41da846618031b4285340d25b5e1455",
+          "source": "Bloomberg",
+          "request_id": "muse-intake-20261119-apple-ai-agent",
           "mode": "standard"
         }
       ]
@@ -14551,6 +14564,23 @@
           "id": 496,
           "revision": 1,
           "sha256": "ca076a535575e4d76e3f226ee5eb7f12d1963a90a7fdc4d3f32c9d59466df173"
+        }
+      ]
+    },
+    "muse-intake-20261119-apple-ai-agent": {
+      "status": "finalized",
+      "received_at": "2026-11-19T22:25:28.869650+00:00",
+      "received_sequence": 449,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T22:25:29.099591+00:00",
+      "records": [
+        {
+          "id": 497,
+          "revision": 1,
+          "sha256": "16257f413ab40fad755f0337c2c681f6c41da846618031b4285340d25b5e1455"
         }
       ]
     }
@@ -53622,6 +53652,40 @@
         },
         "editorial_sha256": "06b247c62c1de4ffc815df2af24a632ca8d4779c2bad0299b2a27c3e1531b53b"
       }
+    },
+    "muse-intake-20261119-apple-agent-receive-1886": {
+      "sha256": "ca1bc0d12a089b3e82d6586a8ffc1850e65531fa83b70848952cfcbecacafea3",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261119-apple-ai-agent"
+      }
+    },
+    "muse-intake-20261119-apple-agent-finalize-4671": {
+      "sha256": "f9ab0b27a09622c13df5213b47b04a2b1d66261eeb8036665eabc55292660170",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261119-apple-ai-agent",
+        "records": [
+          {
+            "id": 497,
+            "revision": 1,
+            "sha256": "16257f413ab40fad755f0337c2c681f6c41da846618031b4285340d25b5e1455"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261119-apple-agent-review-1629": {
+      "sha256": "94e82ae7493dfe03e0e89e4d29df0c2cbedfbeaa1d4b9d374436476b2eb571e5",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 497,
+          "revision": 1,
+          "sha256": "16257f413ab40fad755f0337c2c681f6c41da846618031b4285340d25b5e1455"
+        },
+        "editorial_sha256": "55ead57eb57db5553c57cf10661e43f29e82f41169cbc8afa3328bbac79179fa"
+      }
     }
   },
   "migration": {
@@ -66268,6 +66332,26 @@
         "sha256": "06b247c62c1de4ffc815df2af24a632ca8d4779c2bad0299b2a27c3e1531b53b",
         "reviewed_at": "2026-11-19T22:21:41.897483+00:00",
         "operation_id": "muse-intake-20261119-muse-privacy-review-6427"
+      }
+    ],
+    "497:1": [
+      {
+        "reference": {
+          "id": 497,
+          "revision": 1,
+          "sha256": "16257f413ab40fad755f0337c2c681f6c41da846618031b4285340d25b5e1455"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Apple building its own autonomous agent is a major platform and competition story: device control, privacy, and the friction Apple is adding for rival agents, plus the DOJ suit and the market reaction. It matters to general readers following Apple and AI, not only developers. muse-intake 2026-11-19: submitted by Diego via the Bloomberg gift link https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9 (Mark Gurman, with Natalie Lung; published Nov 19, 2026 4:37 PM EST), verified by a live browser read; record URL is the clean Bloomberg URL (gift token expires ~Nov 26); image is AppleInsider's same-day coverage art, verified live; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "16257f413ab40fad755f0337c2c681f6c41da846618031b4285340d25b5e1455"
+          }
+        },
+        "sha256": "55ead57eb57db5553c57cf10661e43f29e82f41169cbc8afa3328bbac79179fa",
+        "reviewed_at": "2026-11-19T22:25:29.316343+00:00",
+        "operation_id": "muse-intake-20261119-apple-agent-review-1629"
       }
     ]
   }
