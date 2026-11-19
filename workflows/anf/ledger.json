@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1501,
-  "updated_at": "2026-11-19T12:41:10.750954+00:00",
+  "generation": 1505,
+  "updated_at": "2026-11-19T13:04:13.105588+00:00",
   "next_id": 490,
   "records": [
     {
@@ -52598,6 +52598,54 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261119-486-8173": {
+      "sha256": "003f97110532faa909fb88c03ac31f0f97e1e53e4779506fb018f17f4fb6595b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 486,
+          "revision": 1,
+          "sha256": "b6ad574ef0b50a63264e6d340385a99408bec3e660f61acbe214df14f1f6cfe5"
+        },
+        "editorial_sha256": "858426b2fc6f776ca2f3b088821cdf259f088cf626b7d89e8861af3c6f94cd1d"
+      }
+    },
+    "muse-backfill-20261119-487-3767": {
+      "sha256": "d101193af59bc145b961306ffcbf0f6da1356980eecba2dff1eb24817d31b9b2",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 487,
+          "revision": 1,
+          "sha256": "f32c7431ae7d48d9270ae5f5c3a32dc846cae84b5f72e12b1b032926bf1c7ecd"
+        },
+        "editorial_sha256": "17652818650f15f5f2fbf32bffbe3e0c55d4e27dde50f3e9f91e354db3d45415"
+      }
+    },
+    "muse-backfill-20261119-488-8212": {
+      "sha256": "21b306744b8b66bc03f429570721d2b47a07b1f7ade1c76e059178d247c96d8d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 488,
+          "revision": 1,
+          "sha256": "e40ae5c2aca3e1f99ebf337050c1f97416baa0235b9e4dc93b9a4ee1cdd4d20a"
+        },
+        "editorial_sha256": "41493d86bce3827a984b72b44bf3917fe1b374f40717529c43a9fde2c8338cac"
+      }
+    },
+    "muse-backfill-20261119-489-2569": {
+      "sha256": "e155462e4ccbec2e5497805da933df156ffbe30491a993e16b0292cd7c783d12",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 489,
+          "revision": 1,
+          "sha256": "cc60d00eaa9b6e66078c5a37ef7bb77da426d4a46a12191d327a632d05f7d517"
+        },
+        "editorial_sha256": "6e0a2e471d750ee1b2e6107d47a5fee9ea0a037a27a86ed3c3676bdaf146b775"
+      }
     }
   },
   "migration": {
@@ -65024,6 +65072,86 @@
         "sha256": "047ff1a323e9a6550a42a4942173ce6a07f4468db6e740c7e770adb014cd9b0a",
         "reviewed_at": "2026-11-19T05:16:03.334111+00:00",
         "operation_id": "muse-intake-20261119-vals-autoform-review-3275"
+      }
+    ],
+    "486:1": [
+      {
+        "reference": {
+          "id": 486,
+          "revision": 1,
+          "sha256": "b6ad574ef0b50a63264e6d340385a99408bec3e660f61acbe214df14f1f6cfe5"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Yifan Wang and colleagues introduce pi-four, which jointly reconstructs scene geometry and tracks motion from uncalibrated images or video. It achieved the best overall average rank among ten methods in the paper's geometry evaluation. With about 0.5 billion parameters it processes scenes in one forward pass, but can confuse camera and object motion. This is a research paper on 3D geometry and motion estimation for a research and technical audience, not general business news. muse-compile-backfill 2026-11-19: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "b6ad574ef0b50a63264e6d340385a99408bec3e660f61acbe214df14f1f6cfe5"
+          }
+        },
+        "sha256": "858426b2fc6f776ca2f3b088821cdf259f088cf626b7d89e8861af3c6f94cd1d",
+        "reviewed_at": "2026-11-19T13:04:12.445282+00:00",
+        "operation_id": "muse-backfill-20261119-486-8173"
+      }
+    ],
+    "487:1": [
+      {
+        "reference": {
+          "id": 487,
+          "revision": 1,
+          "sha256": "f32c7431ae7d48d9270ae5f5c3a32dc846cae84b5f72e12b1b032926bf1c7ecd"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Randall Balestriero and colleagues reuse an observed outcome's prediction residual to estimate what a different action would have produced under the same disturbance. Across four rendered simulators they report counterfactual R-squared increasing from 38-46 percent to 86-96 percent, without retraining the predictor. Results are simulation-only; contacts and action-dependent disturbances can invalidate the approximation. This is a research paper on world models and counterfactual estimation for a research and technical audience, not general business news. muse-compile-backfill 2026-11-19: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "f32c7431ae7d48d9270ae5f5c3a32dc846cae84b5f72e12b1b032926bf1c7ecd"
+          }
+        },
+        "sha256": "17652818650f15f5f2fbf32bffbe3e0c55d4e27dde50f3e9f91e354db3d45415",
+        "reviewed_at": "2026-11-19T13:04:12.687792+00:00",
+        "operation_id": "muse-backfill-20261119-487-3767"
+      }
+    ],
+    "488:1": [
+      {
+        "reference": {
+          "id": 488,
+          "revision": 1,
+          "sha256": "e40ae5c2aca3e1f99ebf337050c1f97416baa0235b9e4dc93b9a4ee1cdd4d20a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Google introduced Gemini 4 Neon on November 18 for coding, analysis and office work. The model is rolling out to Google AI Pro and Ultra subscribers in the Gemini app and through the paid Gemini API. Google lists standard API prices at $3 per million input tokens and $15 per million output tokens. This is a model release aimed at developers and technical users building with the API, not general business news. muse-compile-backfill 2026-11-19: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e40ae5c2aca3e1f99ebf337050c1f97416baa0235b9e4dc93b9a4ee1cdd4d20a"
+          }
+        },
+        "sha256": "41493d86bce3827a984b72b44bf3917fe1b374f40717529c43a9fde2c8338cac",
+        "reviewed_at": "2026-11-19T13:04:12.899241+00:00",
+        "operation_id": "muse-backfill-20261119-488-8212"
+      }
+    ],
+    "489:1": [
+      {
+        "reference": {
+          "id": 489,
+          "revision": 1,
+          "sha256": "cc60d00eaa9b6e66078c5a37ef7bb77da426d4a46a12191d327a632d05f7d517"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Pika introduced Enact, a research preview for directing AI video scenes as they play. Users can reposition actors and objects, give spoken or typed instructions, and steer a virtual camera during generation. Pika says actors retain rehearsal notes for fresh takes. Enact remains experimental and is unavailable for consumer use. This is a technical product preview for creators and developers working with AI video generation tools, not general business news. muse-compile-backfill 2026-11-19: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "cc60d00eaa9b6e66078c5a37ef7bb77da426d4a46a12191d327a632d05f7d517"
+          }
+        },
+        "sha256": "6e0a2e471d750ee1b2e6107d47a5fee9ea0a037a27a86ed3c3676bdaf146b775",
+        "reviewed_at": "2026-11-19T13:04:13.105588+00:00",
+        "operation_id": "muse-backfill-20261119-489-2569"
       }
     ]
   }
