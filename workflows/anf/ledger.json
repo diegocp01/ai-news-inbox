@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1509,
-  "updated_at": "2026-11-19T13:14:44.270194+00:00",
-  "next_id": 490,
+  "generation": 1512,
+  "updated_at": "2026-11-19T16:48:32.948623+00:00",
+  "next_id": 491,
   "records": [
     {
       "id": 1,
@@ -6514,6 +6514,19 @@
           "request_id": "5cf1379db3d3d9ed70f20b74f6418e72a8816c2379f0b1b9f7263090e1a4264f",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 490,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T16:48:32.737370+00:00",
+          "block": "Title: DeepMind Institute maps the roads from AGI to superintelligence\nURL: https://institute.deepmind.com/essays/what-comes-after-agi/\nImage URL: https://lh3.googleusercontent.com/MtcSyuy2GVyxylszKhwxAUP_OVh-e9ETmOtE5kLDGL8AIl59WmqxO5QJjRU3NDBnLsjBPmR3Wn5c4V0gVeOKge7MOF1oXMhqB5WWz8MCb89aH_e2=w1200-h630-n-nu-rw\nSummary: DeepMind Institute's new essay argues AGI is within reach and maps four pathways to superintelligence: scaling models and data, paradigm shifts, agent coordination, and recursive self-improvement. It warns restricting one dimension won't stop progress and could create a capability overhang, and calls for modelling, measuring and forecasting the transition.",
+          "sha256": "be6fcaadd428b5f82e95ec756c99bff06dd1a4bdcdda4cf768bb20a7fe4c8f86",
+          "source": "DeepMind Institute",
+          "request_id": "muse-intake-20261119-deepmind-what-comes-after-agi",
+          "mode": "standard"
         }
       ]
     }
@@ -14341,6 +14354,23 @@
           "id": 489,
           "revision": 1,
           "sha256": "cc60d00eaa9b6e66078c5a37ef7bb77da426d4a46a12191d327a632d05f7d517"
+        }
+      ]
+    },
+    "muse-intake-20261119-deepmind-what-comes-after-agi": {
+      "status": "finalized",
+      "received_at": "2026-11-19T16:48:32.514619+00:00",
+      "received_sequence": 442,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T16:48:32.737370+00:00",
+      "records": [
+        {
+          "id": 490,
+          "revision": 1,
+          "sha256": "be6fcaadd428b5f82e95ec756c99bff06dd1a4bdcdda4cf768bb20a7fe4c8f86"
         }
       ]
     }
@@ -53174,6 +53204,40 @@
           "planned_from_head": "ccac0a91a8917a2717be155cd31d5cb74d779760"
         }
       }
+    },
+    "muse-intake-20261119-deepmind-agi-receive-1890": {
+      "sha256": "e0624a91fbe5da821f6d090553dbbc6d6a02ede0136cf6f1d52df129f1fa641a",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261119-deepmind-what-comes-after-agi"
+      }
+    },
+    "muse-intake-20261119-deepmind-agi-finalize-7821": {
+      "sha256": "95a52d93663a6c03fcea1b4616ed3c4cf4906f53efdf365b3f27b8a3e6779149",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261119-deepmind-what-comes-after-agi",
+        "records": [
+          {
+            "id": 490,
+            "revision": 1,
+            "sha256": "be6fcaadd428b5f82e95ec756c99bff06dd1a4bdcdda4cf768bb20a7fe4c8f86"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261119-deepmind-agi-review-8782": {
+      "sha256": "a89948fae036157569e34a27f48a95476da368261b21ab444f1f7804f3aacbf3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 490,
+          "revision": 1,
+          "sha256": "be6fcaadd428b5f82e95ec756c99bff06dd1a4bdcdda4cf768bb20a7fe4c8f86"
+        },
+        "editorial_sha256": "8154a51488c93f846aee116d2822f700acefec70266a216aa8826387c7003c86"
+      }
     }
   },
   "migration": {
@@ -65680,6 +65744,26 @@
         "sha256": "6e0a2e471d750ee1b2e6107d47a5fee9ea0a037a27a86ed3c3676bdaf146b775",
         "reviewed_at": "2026-11-19T13:04:13.105588+00:00",
         "operation_id": "muse-backfill-20261119-489-2569"
+      }
+    ],
+    "490:1": [
+      {
+        "reference": {
+          "id": 490,
+          "revision": 1,
+          "sha256": "be6fcaadd428b5f82e95ec756c99bff06dd1a4bdcdda4cf768bb20a7fe4c8f86"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The DeepMind Institute's essay on the AGI-to-ASI transition is a research publication mapping technical pathways to superintelligence; it matters to researchers tracking AI progress and governance, not general consumers. muse-intake 2026-11-19: submitted by Diego via DeepMind Institute essay https://institute.deepmind.com/essays/what-comes-after-agi/?utm_source=x&utm_medium=social&utm_campaign=dmi&utm_content=sl (UTM parameters stripped for the record URL), read via browser.open; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "be6fcaadd428b5f82e95ec756c99bff06dd1a4bdcdda4cf768bb20a7fe4c8f86"
+          }
+        },
+        "sha256": "8154a51488c93f846aee116d2822f700acefec70266a216aa8826387c7003c86",
+        "reviewed_at": "2026-11-19T16:48:32.948623+00:00",
+        "operation_id": "muse-intake-20261119-deepmind-agi-review-8782"
       }
     ]
   }
