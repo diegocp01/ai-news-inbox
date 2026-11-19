@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1500,
-  "updated_at": "2026-11-19T12:32:41.087520+00:00",
-  "next_id": 488,
+  "generation": 1501,
+  "updated_at": "2026-11-19T12:41:10.750954+00:00",
+  "next_id": 490,
   "records": [
     {
       "id": 1,
@@ -6486,6 +6486,34 @@
           "source": "arXiv",
           "request_id": "ba624cdb589b7188521f0f80b69cb05900dd3befc9450e7e17c36059279e43d9",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 488,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T12:41:10.750954+00:00",
+          "block": "Title: Google Introduces Gemini 4 Neon\nURL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png\nSummary: Google introduced Gemini 4 Neon on November 18 for coding, analysis and office work. The model is rolling out to Google AI Pro and Ultra subscribers in the Gemini app and through the paid Gemini API. Google lists standard API prices at $3 per million input tokens and $15 per million output tokens.",
+          "sha256": "e40ae5c2aca3e1f99ebf337050c1f97416baa0235b9e4dc93b9a4ee1cdd4d20a",
+          "source": "blog.google",
+          "request_id": "5cf1379db3d3d9ed70f20b74f6418e72a8816c2379f0b1b9f7263090e1a4264f",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 489,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T12:41:10.750954+00:00",
+          "block": "Title: Pika Previews Enact for Directing AI Video Scenes\nURL: https://pika.art/blog/pika-enact\nImage URL: https://piqvbzhttirzocvnnlhc.supabase.co/storage/v1/object/public/story-images/thumbnails/7adc8ba9-462f-41fd-a398-aa4317975b7f/4b89243d-ac8a-4704-8c38-06e7110b7a54-1.jpg\nSummary: Pika introduced Enact, a research preview for directing AI video scenes as they play. The company says users can reposition actors and objects, give spoken or typed instructions, and steer a virtual camera during generation. Pika says actors retain rehearsal notes for fresh takes. Enact remains experimental and is unavailable for consumer use.",
+          "sha256": "cc60d00eaa9b6e66078c5a37ef7bb77da426d4a46a12191d327a632d05f7d517",
+          "source": "pika.art",
+          "request_id": "5cf1379db3d3d9ed70f20b74f6418e72a8816c2379f0b1b9f7263090e1a4264f",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -14294,14 +14322,27 @@
       ]
     },
     "5cf1379db3d3d9ed70f20b74f6418e72a8816c2379f0b1b9f7263090e1a4264f": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-19T12:32:41.087520+00:00",
       "received_sequence": 441,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-19T12:41:10.750954+00:00",
+      "records": [
+        {
+          "id": 488,
+          "revision": 1,
+          "sha256": "e40ae5c2aca3e1f99ebf337050c1f97416baa0235b9e4dc93b9a4ee1cdd4d20a"
+        },
+        {
+          "id": 489,
+          "revision": 1,
+          "sha256": "cc60d00eaa9b6e66078c5a37ef7bb77da426d4a46a12191d327a632d05f7d517"
+        }
+      ]
     }
   },
   "batches": {
@@ -52536,6 +52577,26 @@
       "result": {
         "status": "received",
         "request_id": "5cf1379db3d3d9ed70f20b74f6418e72a8816c2379f0b1b9f7263090e1a4264f"
+      }
+    },
+    "daa2ca613eb4eb5f9fb998b4d7505a781bdabb85919add3dcc6b50c7e3a99ec3": {
+      "sha256": "52f15e873e6ee40fcc68809fa71a2f705b51ac2df792f0b0cffa34ff67d681a2",
+      "result": {
+        "status": "finalized",
+        "request_id": "5cf1379db3d3d9ed70f20b74f6418e72a8816c2379f0b1b9f7263090e1a4264f",
+        "records": [
+          {
+            "id": 488,
+            "revision": 1,
+            "sha256": "e40ae5c2aca3e1f99ebf337050c1f97416baa0235b9e4dc93b9a4ee1cdd4d20a"
+          },
+          {
+            "id": 489,
+            "revision": 1,
+            "sha256": "cc60d00eaa9b6e66078c5a37ef7bb77da426d4a46a12191d327a632d05f7d517"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
