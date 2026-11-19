@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1494,
-  "updated_at": "2026-11-19T03:49:59.153876+00:00",
-  "next_id": 485,
+  "generation": 1497,
+  "updated_at": "2026-11-19T05:16:03.334111+00:00",
+  "next_id": 486,
   "records": [
     {
       "id": 1,
@@ -6446,6 +6446,19 @@
           "sha256": "087a53a8b013fb94dbaac66dbdead26a5282175b7407ab01eddb3a95d4f71d65",
           "source": "Blockchain.News",
           "request_id": "muse-intake-20261118-openai-silent-consensus",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 485,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T05:16:03.125191+00:00",
+          "block": "Title: GPT-6.2 Astra produces first Lean proof of Smoktunowicz's Gap Theorem, Vals AI reports\nURL: https://aifrontierpost.com/articles/gpt-6-2-astra-smoktunowicz-gap-theorem-lean-proof/\nImage URL: https://aifrontierpost.com/articles/gpt-6-2-astra-smoktunowicz-gap-theorem-lean-proof/img2.webp\nSummary: Vals AI reports GPT-6.2 Astra produced what it believes is the first Lean formalization of Smoktunowicz's 2006 Gap Theorem: 1,794 lines in 94 minutes for $21.58 on Autoform-Hard, taking its route. It solved 49 of 56 tasks, one more than GPT-6.2 Sol and Claude Fable 5.2. The proof passed clean-room grading; the 'first' claim is Vals's, not independently verified.",
+          "sha256": "131cc0e9b7ee44c61d25e3329bddef0d0620ba5b067529265199a425b25b6a84",
+          "source": "AI Frontier Post",
+          "request_id": "muse-intake-20261119-vals-autoform-hard",
           "mode": "standard"
         }
       ]
@@ -14212,6 +14225,23 @@
           "id": 484,
           "revision": 1,
           "sha256": "087a53a8b013fb94dbaac66dbdead26a5282175b7407ab01eddb3a95d4f71d65"
+        }
+      ]
+    },
+    "muse-intake-20261119-vals-autoform-hard": {
+      "status": "finalized",
+      "received_at": "2026-11-19T05:16:02.897912+00:00",
+      "received_sequence": 439,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T05:16:03.125191+00:00",
+      "records": [
+        {
+          "id": 485,
+          "revision": 1,
+          "sha256": "131cc0e9b7ee44c61d25e3329bddef0d0620ba5b067529265199a425b25b6a84"
         }
       ]
     }
@@ -52381,6 +52411,40 @@
         },
         "editorial_sha256": "13d308881923c7a2ec71909d6d096107dbca919cddfe1ec8ffea8b60b3840b54"
       }
+    },
+    "muse-intake-20261119-vals-autoform-receive-6034": {
+      "sha256": "b4a275bd4065a5cf2ee0d6c2ef62b7f475a668a6676b280ba21f7e1fa3fab678",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261119-vals-autoform-hard"
+      }
+    },
+    "muse-intake-20261119-vals-autoform-finalize-2827": {
+      "sha256": "de1839bcda77bedd33f1fd9403bee05e71eb77a2a9fc8479669c3acf2bf2e6a1",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261119-vals-autoform-hard",
+        "records": [
+          {
+            "id": 485,
+            "revision": 1,
+            "sha256": "131cc0e9b7ee44c61d25e3329bddef0d0620ba5b067529265199a425b25b6a84"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261119-vals-autoform-review-3275": {
+      "sha256": "4f67bdbe27ca08efe08b811b46fe1de27dc755687c48288c3a1ef42305b6a154",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 485,
+          "revision": 1,
+          "sha256": "131cc0e9b7ee44c61d25e3329bddef0d0620ba5b067529265199a425b25b6a84"
+        },
+        "editorial_sha256": "047ff1a323e9a6550a42a4942173ce6a07f4468db6e740c7e770adb014cd9b0a"
+      }
     }
   },
   "migration": {
@@ -64787,6 +64851,26 @@
         "sha256": "13d308881923c7a2ec71909d6d096107dbca919cddfe1ec8ffea8b60b3840b54",
         "reviewed_at": "2026-11-19T03:49:59.153876+00:00",
         "operation_id": "muse-intake-20261118-openai-silent-review-0529"
+      }
+    ],
+    "485:1": [
+      {
+        "reference": {
+          "id": 485,
+          "revision": 1,
+          "sha256": "131cc0e9b7ee44c61d25e3329bddef0d0620ba5b067529265199a425b25b6a84"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A frontier model producing a machine-checked Lean proof of a 2006 algebra theorem, on a research-level formalization benchmark, is a research result in AI-driven formal mathematics; it matters to researchers tracking AI reasoning progress, not general consumers. muse-intake 2026-11-19: submitted by Diego via Vals AI X post https://x.com/valsai/status/2123129588066959380, post text verified by a live browser read and corroborated by AI Frontier Post and Vals AI's own write-up; the record links AI Frontier Post because the ledger policy forbids x.com and .ai-suffix learn-more URLs; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "131cc0e9b7ee44c61d25e3329bddef0d0620ba5b067529265199a425b25b6a84"
+          }
+        },
+        "sha256": "047ff1a323e9a6550a42a4942173ce6a07f4468db6e740c7e770adb014cd9b0a",
+        "reviewed_at": "2026-11-19T05:16:03.334111+00:00",
+        "operation_id": "muse-intake-20261119-vals-autoform-review-3275"
       }
     ]
   }
