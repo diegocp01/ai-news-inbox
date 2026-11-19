@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1499,
-  "updated_at": "2026-11-19T12:03:43+00:00",
+  "generation": 1500,
+  "updated_at": "2026-11-19T12:32:41.087520+00:00",
   "next_id": 488,
   "records": [
     {
@@ -14292,6 +14292,16 @@
           "sha256": "f32c7431ae7d48d9270ae5f5c3a32dc846cae84b5f72e12b1b032926bf1c7ecd"
         }
       ]
+    },
+    "5cf1379db3d3d9ed70f20b74f6418e72a8816c2379f0b1b9f7263090e1a4264f": {
+      "status": "received",
+      "received_at": "2026-11-19T12:32:41.087520+00:00",
+      "received_sequence": 441,
+      "expected_items": 2,
+      "mode": "image_url_only",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
     }
   },
   "batches": {
@@ -52519,6 +52529,13 @@
           }
         ],
         "duplicates": []
+      }
+    },
+    "ed642fad1890857b27d7aed6fde9a3a4493b3092fa0220a3ddca260be50907a5": {
+      "sha256": "ed13c29dbf6765e5d2852d029b29efb345487e22f9c0934b62d959ede10404ac",
+      "result": {
+        "status": "received",
+        "request_id": "5cf1379db3d3d9ed70f20b74f6418e72a8816c2379f0b1b9f7263090e1a4264f"
       }
     }
   },
