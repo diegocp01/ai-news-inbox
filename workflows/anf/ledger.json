@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1518,
-  "updated_at": "2026-11-19T17:53:03.199066+00:00",
-  "next_id": 493,
+  "generation": 1521,
+  "updated_at": "2026-11-19T21:11:18.582333+00:00",
+  "next_id": 494,
   "records": [
     {
       "id": 1,
@@ -6552,6 +6552,19 @@
           "sha256": "46ea7ef2137a90db9ab647630f00f0009a66a4d084a47e87f7e13b31487d170b",
           "source": "Google",
           "request_id": "muse-intake-20261119-genie-4-gemini-api",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 493,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T21:11:18.365608+00:00",
+          "block": "Title: Gemini can now control Mac apps for you in a separate window\nURL: https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/\nImage URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_header_CU_copy.width-1300.png\nSummary: Google added computer use to the Gemini app for Mac, letting Gemini finish multi-step tasks across local files, desktop apps, and the web. It runs in an isolated background window with a preview in chat, the user's screen and cursor stay free, and users pick which apps it can access, pause it, and approve key actions. Rolling out in English.",
+          "sha256": "b7d90be9f56ab45f6cd1af0b7fbf3324f7f9af174040046e4ee01c10dd222d96",
+          "source": "Google",
+          "request_id": "muse-intake-20261119-gemini-mac-computer-use",
           "mode": "standard"
         }
       ]
@@ -14431,6 +14444,23 @@
           "id": 492,
           "revision": 1,
           "sha256": "46ea7ef2137a90db9ab647630f00f0009a66a4d084a47e87f7e13b31487d170b"
+        }
+      ]
+    },
+    "muse-intake-20261119-gemini-mac-computer-use": {
+      "status": "finalized",
+      "received_at": "2026-11-19T21:11:18.127431+00:00",
+      "received_sequence": 445,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T21:11:18.365608+00:00",
+      "records": [
+        {
+          "id": 493,
+          "revision": 1,
+          "sha256": "b7d90be9f56ab45f6cd1af0b7fbf3324f7f9af174040046e4ee01c10dd222d96"
         }
       ]
     }
@@ -53366,6 +53396,40 @@
         },
         "editorial_sha256": "f7064cf7912c9d8b25958210f60b88f40c65cfacf1499accfeac48f86b05037e"
       }
+    },
+    "muse-intake-20261119-gemini-mac-receive-7778": {
+      "sha256": "712bd46278c5ac7a64299077cb3ce6364113835dbb02899d671d6670a8b14f93",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261119-gemini-mac-computer-use"
+      }
+    },
+    "muse-intake-20261119-gemini-mac-finalize-2915": {
+      "sha256": "817f71fed945d66e8cac1b0cef867207ba716ec6474cb026dec390073fe9a345",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261119-gemini-mac-computer-use",
+        "records": [
+          {
+            "id": 493,
+            "revision": 1,
+            "sha256": "b7d90be9f56ab45f6cd1af0b7fbf3324f7f9af174040046e4ee01c10dd222d96"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261119-gemini-mac-review-0737": {
+      "sha256": "77f24a5b19ddb270424f81941d33d8099c4ecce87f1f1f7fd807438af0843fb1",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 493,
+          "revision": 1,
+          "sha256": "b7d90be9f56ab45f6cd1af0b7fbf3324f7f9af174040046e4ee01c10dd222d96"
+        },
+        "editorial_sha256": "5c6b9b57b50354033975f135dbb3a06e7de3e564c15bcc5e06c0278615c9a375"
+      }
     }
   },
   "migration": {
@@ -65932,6 +65996,26 @@
         "sha256": "f7064cf7912c9d8b25958210f60b88f40c65cfacf1499accfeac48f86b05037e",
         "reviewed_at": "2026-11-19T17:53:03.199066+00:00",
         "operation_id": "muse-intake-20261119-genie-4-review-2404"
+      }
+    ],
+    "493:1": [
+      {
+        "reference": {
+          "id": 493,
+          "revision": 1,
+          "sha256": "b7d90be9f56ab45f6cd1af0b7fbf3324f7f9af174040046e4ee01c10dd222d96"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Gemini gaining the ability to operate Mac apps on the user's behalf is a significant consumer AI capability launch with real security and privacy implications; it matters to general readers who use Macs and follow AI agents, not only developers. muse-intake 2026-11-19: submitted by Diego via Polymarket's X post https://x.com/polymarket/status/2123495515119661358 (2:15 PM Nov 19, 2026), verified against Google's announcement blog and independent coverage; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "b7d90be9f56ab45f6cd1af0b7fbf3324f7f9af174040046e4ee01c10dd222d96"
+          }
+        },
+        "sha256": "5c6b9b57b50354033975f135dbb3a06e7de3e564c15bcc5e06c0278615c9a375",
+        "reviewed_at": "2026-11-19T21:11:18.582333+00:00",
+        "operation_id": "muse-intake-20261119-gemini-mac-review-0737"
       }
     ]
   }
