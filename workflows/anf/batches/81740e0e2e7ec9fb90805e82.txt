@@ -1,0 +1,87 @@
+Title: KPMG Says AI Agents Asked Better Questions Than Accountants in a Pilot Audit
+URL: https://www.irishtimes.com/business/2026/11/18/ai-asked-better-questions-than-kpmg-accountants-in-pilot-audit-of-effectiveness/
+Image URL: https://the-decoder.com/wp-content/uploads/2026/11/KPMG-Audit-Agents-1200x670.png
+Summary: KPMG used more than 100 AI agents in a parallel pilot audit of an unnamed FTSE 250 company. Head of audit Cath Burnet said the AI went deeper in several cases and sometimes asked "better questions." A human had to intervene when an agent failed to match regulations to documents, and the trial was not used for the formal opinion.
+
+Title: ChatGPT Rolls Out Live Dictation on All Plans and Major Platforms
+URL: 
+Image URL: https://upload.wikimedia.org/wikipedia/commons/9/91/Screenshot_ChatGPT_Nederlands_%282025%29.jpg
+Summary: OpenAI is rolling out Live Dictation in ChatGPT to all plans globally on iOS, Android, web, and the desktop app. Speech turns into text as you talk, so you spend less time waiting for transcription to finish. You can tap or click the waveform to show or hide text, and the 10-minute recording limit has been removed.
+
+Title: Genie 4 Is Now Available in Project Genie for Google AI Ultra Subscribers
+URL: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png
+Summary: Eligible Google AI Ultra subscribers can now use Genie 4 in Project Genie. The update adds an agent for building worlds from a conversation, a community gallery to discover and remix creations, and real-time editing with native audio. Genie 3 stays available with sessions of up to three minutes, and Google AI Pro members can join a waitlist.
+
+Title: Judge Approves Google's $10 Million Purchase of Spirit Airlines Business Data
+URL: https://www.channelnewsasia.com/business/us-bankruptcy-judge-approves-spirit-airlines-data-sale-google-6560551
+Image URL: https://bloomberg-bna-brightspot.s3.us-east-1.amazonaws.com/e8/9a/f5fd3ebc454ab9062c517f535370/455318107.jpg
+Summary: A New York bankruptcy judge on Tuesday approved Google's $10 million purchase of Spirit Airlines data for product development and AI training. Judge Sean Lane cleared the deal after Google agreed to privacy protections, following concerns from unions and more than 120 lawmakers. The de-identified data includes emails, spreadsheets and calendars. Passenger personal information and employee health records are excluded.
+
+Title: Grok Bot Can Now Book Flights, Hotels and Rental Cars
+URL: 
+Image URL: https://swarm.school/og/p/guides-grok-bot-flights-and-hotels.jpg
+Summary: Grok Bot can now book flights, hotels, and rental cars, the official Grok Bot account said, and it says the assistant will find the best deal. An official demo shows flight price comparisons, a hotel page with a Book button, and a paid confirmation plus boarding pass.
+
+Title: Waymo suspends driverless freeway rides nationwide after California DMV order
+URL: https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/
+Image URL: https://techcrunch.com/wp-content/uploads/2025/11/SF_WAYMO-FREEWAY_FRONT.jpg?resize=1200,801
+Summary: California's DMV barred Waymo from state freeways on Nov 11, calling its driverless freeway operations an imminent hazard after three robotaxis entered an active construction closure on Route 101 and another incident with Highway Patrol vehicles on Highway 280. Waymo voluntarily paused freeway rides in all its markets; surface-street service continues.
+
+Title: Switch AI launches Switch Buddy, an assistant that sets up multi-agent rooms in minutes
+URL: https://github.com/sandbox-quantum/switch
+Image URL: https://cdn.prod.website-files.com/6a2c3f0218f8baf356f2c7d9/6afd11db909075f07b103e9a_6afd11981e150f2dcda3263e_switch-rooms-nov-2026-room.webp
+Summary: Switch AI's November release adds Switch Buddy, a conversational assistant that creates agents and rooms, connects Slack, Teams, Discord or Telegram, and gets a first working room running in minutes. The release also adds in-app chat, eight tool connectors including GitHub and Jira, reusable room templates, and workspace admin controls. Switch Rooms is open source.
+ds: true
+
+Title: OpenAI: coding agents now complete nearly half of two-to-four-hour research tasks alone
+URL: https://newruntime.com/posts/research-acceleration-the-jagged-frontier-5f108d/
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/2YS8yWiGpKflhlEnAkcLU/f51ead4391706f6c3198f0d61a0f147a/research-acceleration-the-jagged-frontier-social.png
+Summary: OpenAI reports coding agents completed 46% of two-to-four-hour research tasks unaided in October, up from 23% in March, though success varies sharply by task type. Median researcher agent spend hit $2,400 a day, and agent workdays per researcher rose elevenfold to 5.7. Safety and Alignment work grew 77% since January. Humans remain central to the research loop.
+ds: true
+
+Title: Google launches Gemini 4 Neon, a mid-tier model balancing intelligence, speed and cost
+URL: https://www.talkandroid.com/535672-gemini-4-neon-google-ai-model/
+Image URL: https://www.talkandroid.com/wp-content/uploads/2026/11/gemini-4-neon-google-ai-model-img1.jpg
+Summary: Google launched Gemini 4 Neon on Nov 18, a mid-tier model between Hydrogen and Carbon, priced at $3 input and $15 output per million tokens. It rolls out in the Gemini API, Antigravity and the Gemini app for Pro and Ultra subscribers. Google claims it scores 61 on the Artificial Analysis Intelligence Index; its benchmarks are its own, unverified independently.
+
+Title: OpenAI's Dean Ball rejects the 'silent consensus' that humans must yield primacy to AI
+URL: https://blockchain.news/news/dean-ball-silent-consensus-ai-impact
+Image URL: https://image.blockchain.news:443/features/D11B7CFCA58E34BD7D45FE96B9319DC677103B086D2B5DC6241654AB7083E58E.jpg
+Summary: Dean Ball, OpenAI's Head of Strategic Futures, argues in a Nov 18 essay that the tech industry silently assumes humans will forfeit primacy over commerce and governance to superintelligent machines. He rejects that inevitability, calling for human accountability, guardrails on autonomous agents, and AI built to keep people in charge. The essay adapts his Harvard Vik-Bailey Lecture.
+
+Title: GPT-6.2 Astra produces first Lean proof of Smoktunowicz's Gap Theorem, Vals AI reports
+URL: https://aifrontierpost.com/articles/gpt-6-2-astra-smoktunowicz-gap-theorem-lean-proof/
+Image URL: https://aifrontierpost.com/articles/gpt-6-2-astra-smoktunowicz-gap-theorem-lean-proof/img2.webp
+Summary: Vals AI reports GPT-6.2 Astra produced what it believes is the first Lean formalization of Smoktunowicz's 2006 Gap Theorem: 1,794 lines in 94 minutes for $21.58 on Autoform-Hard, taking its route. It solved 49 of 56 tasks, one more than GPT-6.2 Sol and Claude Fable 5.2. The proof passed clean-room grading; the 'first' claim is Vals's, not independently verified.
+ds: true
+
+Title: π⁴ Reconstructs Scene Geometry and Motion Together
+URL: https://arxiv.org/abs/2611.23144
+Image URL: https://arxiv.org/html/2611.23144v1/teaser.png
+Summary: Yifan Wang and colleagues introduce π⁴, which jointly reconstructs geometry and tracks motion from uncalibrated images or video. It achieved the best overall average rank among ten methods in the paper’s geometry evaluation. With about 0.5 billion parameters, it processes scenes in one forward pass, but can confuse camera and object motion.
+ds: true
+
+Title: World Models Estimate Alternative Outcomes Without Retraining
+URL: https://arxiv.org/abs/2611.24778
+Image URL: https://api.alphaxiv.org/open-graph/v1/paper/2611.24778.png?v=2
+Summary: Randall Balestriero and colleagues reuse an observed outcome’s prediction residual to estimate what a different action would have produced under the same disturbance. Across four rendered simulators, they report counterfactual R² increasing from 38–46% to 86–96%, without retraining the predictor. Results are simulation-only; contacts and action-dependent disturbances can invalidate the approximation.
+ds: true
+
+Title: Google Introduces Gemini 4 Neon
+URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png
+Summary: Google introduced Gemini 4 Neon on November 18 for coding, analysis and office work. The model is rolling out to Google AI Pro and Ultra subscribers in the Gemini app and through the paid Gemini API. Google lists standard API prices at $3 per million input tokens and $15 per million output tokens.
+ds: true
+
+Title: Pika Previews Enact for Directing AI Video Scenes
+URL: https://pika.art/blog/pika-enact
+Image URL: https://piqvbzhttirzocvnnlhc.supabase.co/storage/v1/object/public/story-images/thumbnails/7adc8ba9-462f-41fd-a398-aa4317975b7f/4b89243d-ac8a-4704-8c38-06e7110b7a54-1.jpg
+Summary: Pika introduced Enact, a research preview for directing AI video scenes as they play. The company says users can reposition actors and objects, give spoken or typed instructions, and steer a virtual camera during generation. Pika says actors retain rehearsal notes for fresh takes. Enact remains experimental and is unavailable for consumer use.
+ds: true
+
+
+
+
+
+.

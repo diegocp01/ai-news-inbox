@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1505,
-  "updated_at": "2026-11-19T13:04:13.105588+00:00",
+  "generation": 1506,
+  "updated_at": "2026-11-19T13:04:27.775398+00:00",
   "next_id": 490,
   "records": [
     {
@@ -25042,9 +25042,230 @@
       },
       "acknowledged_at": "2026-11-18T13:15:27.905360+00:00",
       "checkpoint_after": 474
+    },
+    "81740e0e2e7ec9fb90805e82": {
+      "batch_id": "81740e0e2e7ec9fb90805e82",
+      "status": "prepared",
+      "checkpoint_before": 474,
+      "prepared_at": "2026-11-19T13:04:27.775398+00:00",
+      "intake_cutoff": 441,
+      "records": [
+        {
+          "id": 475,
+          "revision": 1,
+          "sha256": "f601c5318c4851a1b8a1ecd603101ed8c3ad57f13893ee7896fb52c9acaaa18c"
+        },
+        {
+          "id": 476,
+          "revision": 1,
+          "sha256": "ba754a2951fc80a175f95adee17e644a6806aad2bfc8a89fa8334f9ea5a5e969"
+        },
+        {
+          "id": 477,
+          "revision": 1,
+          "sha256": "4dfbb985ae42da675d7157aef7a63fe7e46c9a21916fa41163dcc3e6cdef9a28"
+        },
+        {
+          "id": 478,
+          "revision": 1,
+          "sha256": "dc9b732fc8109acf70e7754c88f638706f4fce649d0dddbe73f299b0fd3b06c7"
+        },
+        {
+          "id": 479,
+          "revision": 1,
+          "sha256": "4fd9a3b345305b8295e37966ac8c473c7d605183ae9ba0f41471104ace4506ff"
+        },
+        {
+          "id": 480,
+          "revision": 1,
+          "sha256": "91748d09604462fac71e43b4e23b6068ce889d96dc5ee1fe722eee7f585182b6"
+        },
+        {
+          "id": 481,
+          "revision": 1,
+          "sha256": "d695d279be4778a47c27a221f408560ab705e7dd7040532c3acdd02493f9735d"
+        },
+        {
+          "id": 482,
+          "revision": 1,
+          "sha256": "35f81e4d48972f42fd2f8527aa4a05464a2aa7d846506b89e694afb5ea18e001"
+        },
+        {
+          "id": 483,
+          "revision": 1,
+          "sha256": "5504d0e207fd4d393b8b2f6d45c791554dda1d5af50499e5b3bf6446b93ad649"
+        },
+        {
+          "id": 484,
+          "revision": 1,
+          "sha256": "087a53a8b013fb94dbaac66dbdead26a5282175b7407ab01eddb3a95d4f71d65"
+        },
+        {
+          "id": 485,
+          "revision": 1,
+          "sha256": "131cc0e9b7ee44c61d25e3329bddef0d0620ba5b067529265199a425b25b6a84"
+        },
+        {
+          "id": 486,
+          "revision": 1,
+          "sha256": "b6ad574ef0b50a63264e6d340385a99408bec3e660f61acbe214df14f1f6cfe5"
+        },
+        {
+          "id": 487,
+          "revision": 1,
+          "sha256": "f32c7431ae7d48d9270ae5f5c3a32dc846cae84b5f72e12b1b032926bf1c7ecd"
+        },
+        {
+          "id": 488,
+          "revision": 1,
+          "sha256": "e40ae5c2aca3e1f99ebf337050c1f97416baa0235b9e4dc93b9a4ee1cdd4d20a"
+        },
+        {
+          "id": 489,
+          "revision": 1,
+          "sha256": "cc60d00eaa9b6e66078c5a37ef7bb77da426d4a46a12191d327a632d05f7d517"
+        }
+      ],
+      "first_id": 475,
+      "last_id": 489,
+      "count": 15,
+      "txt_path": "workflows/anf/batches/81740e0e2e7ec9fb90805e82.txt",
+      "json_path": "workflows/anf/batches/81740e0e2e7ec9fb90805e82.json",
+      "txt_sha256": "22e6064abf58982e5c2a10d924e624ea03da322c9e5be491b50d65f78e175fe6",
+      "json_sha256": "3e822f9bde6b50c8415e83e47dedfc128f7d75e18104cdb9a68506063d4b88f6",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "This is a report on a KPMG pilot audit using AI agents. It is a business and professional-services story, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+            "evidence_sha256": "354fa9dee43c1de1b021f5ab40806e272f270b7cb3b86a7aaff872bf392a5701"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Product feature rollout of live speech-to-text in the ChatGPT composer; no ML-technical, developer/API, security, or hardware-internals terms are required.",
+            "evidence_sha256": "b0ed36a2793224c835f3bee6c04c464d86a8ce199912a7b39839a5439709a4dd"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Availability rollout of a specialized interactive world model and Project Genie product features; no ML-technical, developer/API, security, or hardware-internals terms are required.",
+            "evidence_sha256": "a7922c9dde45a9d4d9db4774b76a13d3f777b5ef32caf0a513439c2171b218d0"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Business and legal story about a bankruptcy-court data sale; no ML-technical, developer/API, security, or hardware-internals terms are required.",
+            "evidence_sha256": "0b6c1a26cc8de1a25b00987470b8c497be204f4c3e19603e525044963c9748d1"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Product feature rollout of travel booking in Grok Bot; no ML-technical, developer/API, security, or hardware-internals terms are required.",
+            "evidence_sha256": "f0df3324d8f6be004d92ce7a7b5d75fede6bac575eb5f45512b486811f7d599e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Waymo losing freeway access nationwide is general tech and transport news about autonomous-vehicle regulation and a widely used robotaxi service, not a technical result; it matters to general readers tracking self-driving cars. muse-intake 2026-11-18: submitted by Diego via Instagram (Yahoo News reel https://www.instagram.com/reel/Df45ZB0v_ww/), verified against TechCrunch; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "91748d09604462fac71e43b4e23b6068ce889d96dc5ee1fe722eee7f585182b6"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Switch Buddy is a developer tool for teams running multiple AI coding agents together in shared rooms; it matters to developers and teams orchestrating agents, not general consumers. muse-intake 2026-11-18: submitted by Diego via X (Switch AI post https://x.com/switch_ai_/status/2123083871830913124, read by parent via browser Nov 18 20:53 EST), details verified against the Switch AI release blog; the record links the GitHub repo because the ledger policy forbids .ai learn-more URLs; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "d695d279be4778a47c27a221f408560ab705e7dd7040532c3acdd02493f9735d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "OpenAI's research-acceleration report is a research publication with internal benchmarks on AI R&D automation and recursive self-improvement indicators; it matters to researchers tracking AI research progress, not general consumers. muse-intake 2026-11-18: submitted by Diego via OpenAI page https://openai.com/index/research-acceleration-jagged-frontier/, read via browser.open and corroborated by New Runtime, dev.to, Superpower Daily and KuCoin; the record links the New Runtime summary because the ledger policy forbids openai.com learn-more URLs; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "35f81e4d48972f42fd2f8527aa4a05464a2aa7d846506b89e694afb5ea18e001"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Google launching a new mid-tier frontier model that directly compares itself to Claude Opus 5.5 and GPT-6.2 Sol is industry news about AI competition and pricing, not a technical result; it matters to general readers tracking the AI model market. muse-intake 2026-11-18: submitted by Diego via X (Logan Kilpatrick post https://x.com/officiallogank/status/2123167791922741362, verified by live browser read; the post text and benchmark table are from Google DeepMind's Logan Kilpatrick), verified against TalkAndroid coverage of the Nov 18 launch and Google's launch blog; record URL is TalkAndroid because x.com is forbidden as a learn-more URL by ledger policy; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "5504d0e207fd4d393b8b2f6d45c791554dda1d5af50499e5b3bf6446b93ad649"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Dean Ball's essay is an argument about AI's impact on human institutions and the future of human primacy, written for a broad audience as a public lecture; it matters to general readers tracking AI's societal impact, not only researchers. muse-intake 2026-11-18: submitted by Diego via OpenAI page https://openai.com/index/the-silent-consensus/, read via browser.open and corroborated by Blockchain.News, WittyWires and StartupHub; the record links the Blockchain.News article because the ledger policy forbids openai.com learn-more URLs; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "087a53a8b013fb94dbaac66dbdead26a5282175b7407ab01eddb3a95d4f71d65"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A frontier model producing a machine-checked Lean proof of a 2006 algebra theorem, on a research-level formalization benchmark, is a research result in AI-driven formal mathematics; it matters to researchers tracking AI reasoning progress, not general consumers. muse-intake 2026-11-19: submitted by Diego via Vals AI X post https://x.com/valsai/status/2123129588066959380, post text verified by a live browser read and corroborated by AI Frontier Post and Vals AI's own write-up; the record links AI Frontier Post because the ledger policy forbids x.com and .ai-suffix learn-more URLs; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "131cc0e9b7ee44c61d25e3329bddef0d0620ba5b067529265199a425b25b6a84"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Yifan Wang and colleagues introduce pi-four, which jointly reconstructs scene geometry and tracks motion from uncalibrated images or video. It achieved the best overall average rank among ten methods in the paper's geometry evaluation. With about 0.5 billion parameters it processes scenes in one forward pass, but can confuse camera and object motion. This is a research paper on 3D geometry and motion estimation for a research and technical audience, not general business news. muse-compile-backfill 2026-11-19: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "b6ad574ef0b50a63264e6d340385a99408bec3e660f61acbe214df14f1f6cfe5"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Randall Balestriero and colleagues reuse an observed outcome's prediction residual to estimate what a different action would have produced under the same disturbance. Across four rendered simulators they report counterfactual R-squared increasing from 38-46 percent to 86-96 percent, without retraining the predictor. Results are simulation-only; contacts and action-dependent disturbances can invalidate the approximation. This is a research paper on world models and counterfactual estimation for a research and technical audience, not general business news. muse-compile-backfill 2026-11-19: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "f32c7431ae7d48d9270ae5f5c3a32dc846cae84b5f72e12b1b032926bf1c7ecd"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Google introduced Gemini 4 Neon on November 18 for coding, analysis and office work. The model is rolling out to Google AI Pro and Ultra subscribers in the Gemini app and through the paid Gemini API. Google lists standard API prices at $3 per million input tokens and $15 per million output tokens. This is a model release aimed at developers and technical users building with the API, not general business news. muse-compile-backfill 2026-11-19: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e40ae5c2aca3e1f99ebf337050c1f97416baa0235b9e4dc93b9a4ee1cdd4d20a"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Pika introduced Enact, a research preview for directing AI video scenes as they play. Users can reposition actors and objects, give spoken or typed instructions, and steer a virtual camera during generation. Pika says actors retain rehearsal notes for fresh takes. Enact remains experimental and is unavailable for consumer use. This is a technical product preview for creators and developers working with AI video generation tools, not general business news. muse-compile-backfill 2026-11-19: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "cc60d00eaa9b6e66078c5a37ef7bb77da426d4a46a12191d327a632d05f7d517"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-19T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "81740e0e2e7ec9fb90805e82",
   "replacement_batch": null,
   "checkpoint": 474,
   "checkpoint_history": [
@@ -52645,6 +52866,234 @@
           "sha256": "cc60d00eaa9b6e66078c5a37ef7bb77da426d4a46a12191d327a632d05f7d517"
         },
         "editorial_sha256": "6e0a2e471d750ee1b2e6107d47a5fee9ea0a037a27a86ed3c3676bdaf146b775"
+      }
+    },
+    "muse-compile-20261119-1304-2764": {
+      "sha256": "f1afdfa58efffa9e88c210f6300489e5d077b48f402e13c1c2edac87ec31540a",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "81740e0e2e7ec9fb90805e82",
+          "status": "prepared",
+          "checkpoint_before": 474,
+          "prepared_at": "2026-11-19T13:04:27.775398+00:00",
+          "intake_cutoff": 441,
+          "records": [
+            {
+              "id": 475,
+              "revision": 1,
+              "sha256": "f601c5318c4851a1b8a1ecd603101ed8c3ad57f13893ee7896fb52c9acaaa18c"
+            },
+            {
+              "id": 476,
+              "revision": 1,
+              "sha256": "ba754a2951fc80a175f95adee17e644a6806aad2bfc8a89fa8334f9ea5a5e969"
+            },
+            {
+              "id": 477,
+              "revision": 1,
+              "sha256": "4dfbb985ae42da675d7157aef7a63fe7e46c9a21916fa41163dcc3e6cdef9a28"
+            },
+            {
+              "id": 478,
+              "revision": 1,
+              "sha256": "dc9b732fc8109acf70e7754c88f638706f4fce649d0dddbe73f299b0fd3b06c7"
+            },
+            {
+              "id": 479,
+              "revision": 1,
+              "sha256": "4fd9a3b345305b8295e37966ac8c473c7d605183ae9ba0f41471104ace4506ff"
+            },
+            {
+              "id": 480,
+              "revision": 1,
+              "sha256": "91748d09604462fac71e43b4e23b6068ce889d96dc5ee1fe722eee7f585182b6"
+            },
+            {
+              "id": 481,
+              "revision": 1,
+              "sha256": "d695d279be4778a47c27a221f408560ab705e7dd7040532c3acdd02493f9735d"
+            },
+            {
+              "id": 482,
+              "revision": 1,
+              "sha256": "35f81e4d48972f42fd2f8527aa4a05464a2aa7d846506b89e694afb5ea18e001"
+            },
+            {
+              "id": 483,
+              "revision": 1,
+              "sha256": "5504d0e207fd4d393b8b2f6d45c791554dda1d5af50499e5b3bf6446b93ad649"
+            },
+            {
+              "id": 484,
+              "revision": 1,
+              "sha256": "087a53a8b013fb94dbaac66dbdead26a5282175b7407ab01eddb3a95d4f71d65"
+            },
+            {
+              "id": 485,
+              "revision": 1,
+              "sha256": "131cc0e9b7ee44c61d25e3329bddef0d0620ba5b067529265199a425b25b6a84"
+            },
+            {
+              "id": 486,
+              "revision": 1,
+              "sha256": "b6ad574ef0b50a63264e6d340385a99408bec3e660f61acbe214df14f1f6cfe5"
+            },
+            {
+              "id": 487,
+              "revision": 1,
+              "sha256": "f32c7431ae7d48d9270ae5f5c3a32dc846cae84b5f72e12b1b032926bf1c7ecd"
+            },
+            {
+              "id": 488,
+              "revision": 1,
+              "sha256": "e40ae5c2aca3e1f99ebf337050c1f97416baa0235b9e4dc93b9a4ee1cdd4d20a"
+            },
+            {
+              "id": 489,
+              "revision": 1,
+              "sha256": "cc60d00eaa9b6e66078c5a37ef7bb77da426d4a46a12191d327a632d05f7d517"
+            }
+          ],
+          "first_id": 475,
+          "last_id": 489,
+          "count": 15,
+          "txt_path": "workflows/anf/batches/81740e0e2e7ec9fb90805e82.txt",
+          "json_path": "workflows/anf/batches/81740e0e2e7ec9fb90805e82.json",
+          "txt_sha256": "22e6064abf58982e5c2a10d924e624ea03da322c9e5be491b50d65f78e175fe6",
+          "json_sha256": "3e822f9bde6b50c8415e83e47dedfc128f7d75e18104cdb9a68506063d4b88f6",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "This is a report on a KPMG pilot audit using AI agents. It is a business and professional-services story, not a new model tier, and the summary does not rely on ML-technical, developer/API, security, or hardware-internals terms.",
+                "evidence_sha256": "354fa9dee43c1de1b021f5ab40806e272f270b7cb3b86a7aaff872bf392a5701"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Product feature rollout of live speech-to-text in the ChatGPT composer; no ML-technical, developer/API, security, or hardware-internals terms are required.",
+                "evidence_sha256": "b0ed36a2793224c835f3bee6c04c464d86a8ce199912a7b39839a5439709a4dd"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Availability rollout of a specialized interactive world model and Project Genie product features; no ML-technical, developer/API, security, or hardware-internals terms are required.",
+                "evidence_sha256": "a7922c9dde45a9d4d9db4774b76a13d3f777b5ef32caf0a513439c2171b218d0"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Business and legal story about a bankruptcy-court data sale; no ML-technical, developer/API, security, or hardware-internals terms are required.",
+                "evidence_sha256": "0b6c1a26cc8de1a25b00987470b8c497be204f4c3e19603e525044963c9748d1"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Product feature rollout of travel booking in Grok Bot; no ML-technical, developer/API, security, or hardware-internals terms are required.",
+                "evidence_sha256": "f0df3324d8f6be004d92ce7a7b5d75fede6bac575eb5f45512b486811f7d599e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Waymo losing freeway access nationwide is general tech and transport news about autonomous-vehicle regulation and a widely used robotaxi service, not a technical result; it matters to general readers tracking self-driving cars. muse-intake 2026-11-18: submitted by Diego via Instagram (Yahoo News reel https://www.instagram.com/reel/Df45ZB0v_ww/), verified against TechCrunch; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "91748d09604462fac71e43b4e23b6068ce889d96dc5ee1fe722eee7f585182b6"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Switch Buddy is a developer tool for teams running multiple AI coding agents together in shared rooms; it matters to developers and teams orchestrating agents, not general consumers. muse-intake 2026-11-18: submitted by Diego via X (Switch AI post https://x.com/switch_ai_/status/2123083871830913124, read by parent via browser Nov 18 20:53 EST), details verified against the Switch AI release blog; the record links the GitHub repo because the ledger policy forbids .ai learn-more URLs; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "d695d279be4778a47c27a221f408560ab705e7dd7040532c3acdd02493f9735d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "OpenAI's research-acceleration report is a research publication with internal benchmarks on AI R&D automation and recursive self-improvement indicators; it matters to researchers tracking AI research progress, not general consumers. muse-intake 2026-11-18: submitted by Diego via OpenAI page https://openai.com/index/research-acceleration-jagged-frontier/, read via browser.open and corroborated by New Runtime, dev.to, Superpower Daily and KuCoin; the record links the New Runtime summary because the ledger policy forbids openai.com learn-more URLs; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "35f81e4d48972f42fd2f8527aa4a05464a2aa7d846506b89e694afb5ea18e001"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Google launching a new mid-tier frontier model that directly compares itself to Claude Opus 5.5 and GPT-6.2 Sol is industry news about AI competition and pricing, not a technical result; it matters to general readers tracking the AI model market. muse-intake 2026-11-18: submitted by Diego via X (Logan Kilpatrick post https://x.com/officiallogank/status/2123167791922741362, verified by live browser read; the post text and benchmark table are from Google DeepMind's Logan Kilpatrick), verified against TalkAndroid coverage of the Nov 18 launch and Google's launch blog; record URL is TalkAndroid because x.com is forbidden as a learn-more URL by ledger policy; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "5504d0e207fd4d393b8b2f6d45c791554dda1d5af50499e5b3bf6446b93ad649"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Dean Ball's essay is an argument about AI's impact on human institutions and the future of human primacy, written for a broad audience as a public lecture; it matters to general readers tracking AI's societal impact, not only researchers. muse-intake 2026-11-18: submitted by Diego via OpenAI page https://openai.com/index/the-silent-consensus/, read via browser.open and corroborated by Blockchain.News, WittyWires and StartupHub; the record links the Blockchain.News article because the ledger policy forbids openai.com learn-more URLs; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "087a53a8b013fb94dbaac66dbdead26a5282175b7407ab01eddb3a95d4f71d65"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "A frontier model producing a machine-checked Lean proof of a 2006 algebra theorem, on a research-level formalization benchmark, is a research result in AI-driven formal mathematics; it matters to researchers tracking AI reasoning progress, not general consumers. muse-intake 2026-11-19: submitted by Diego via Vals AI X post https://x.com/valsai/status/2123129588066959380, post text verified by a live browser read and corroborated by AI Frontier Post and Vals AI's own write-up; the record links AI Frontier Post because the ledger policy forbids x.com and .ai-suffix learn-more URLs; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "131cc0e9b7ee44c61d25e3329bddef0d0620ba5b067529265199a425b25b6a84"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Yifan Wang and colleagues introduce pi-four, which jointly reconstructs scene geometry and tracks motion from uncalibrated images or video. It achieved the best overall average rank among ten methods in the paper's geometry evaluation. With about 0.5 billion parameters it processes scenes in one forward pass, but can confuse camera and object motion. This is a research paper on 3D geometry and motion estimation for a research and technical audience, not general business news. muse-compile-backfill 2026-11-19: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "b6ad574ef0b50a63264e6d340385a99408bec3e660f61acbe214df14f1f6cfe5"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Randall Balestriero and colleagues reuse an observed outcome's prediction residual to estimate what a different action would have produced under the same disturbance. Across four rendered simulators they report counterfactual R-squared increasing from 38-46 percent to 86-96 percent, without retraining the predictor. Results are simulation-only; contacts and action-dependent disturbances can invalidate the approximation. This is a research paper on world models and counterfactual estimation for a research and technical audience, not general business news. muse-compile-backfill 2026-11-19: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "f32c7431ae7d48d9270ae5f5c3a32dc846cae84b5f72e12b1b032926bf1c7ecd"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Google introduced Gemini 4 Neon on November 18 for coding, analysis and office work. The model is rolling out to Google AI Pro and Ultra subscribers in the Gemini app and through the paid Gemini API. Google lists standard API prices at $3 per million input tokens and $15 per million output tokens. This is a model release aimed at developers and technical users building with the API, not general business news. muse-compile-backfill 2026-11-19: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "e40ae5c2aca3e1f99ebf337050c1f97416baa0235b9e4dc93b9a4ee1cdd4d20a"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Pika introduced Enact, a research preview for directing AI video scenes as they play. Users can reposition actors and objects, give spoken or typed instructions, and steer a virtual camera during generation. Pika says actors retain rehearsal notes for fresh takes. Enact remains experimental and is unavailable for consumer use. This is a technical product preview for creators and developers working with AI video generation tools, not general business news. muse-compile-backfill 2026-11-19: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "cc60d00eaa9b6e66078c5a37ef7bb77da426d4a46a12191d327a632d05f7d517"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-19T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
