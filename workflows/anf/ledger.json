@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1482,
-  "updated_at": "2026-11-18T20:42:15.054478+00:00",
-  "next_id": 481,
+  "generation": 1485,
+  "updated_at": "2026-11-19T02:46:26.053837+00:00",
+  "next_id": 482,
   "records": [
     {
       "id": 1,
@@ -6394,6 +6394,19 @@
           "sha256": "91748d09604462fac71e43b4e23b6068ce889d96dc5ee1fe722eee7f585182b6",
           "source": "TechCrunch",
           "request_id": "muse-intake-20261118-waymo-freeway-suspension",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 481,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T02:46:25.849379+00:00",
+          "block": "Title: Switch AI launches Switch Buddy, an assistant that sets up multi-agent rooms in minutes\nURL: https://github.com/sandbox-quantum/switch\nImage URL: https://cdn.prod.website-files.com/6a2c3f0218f8baf356f2c7d9/6afd11db909075f07b103e9a_6afd11981e150f2dcda3263e_switch-rooms-nov-2026-room.webp\nSummary: Switch AI's November release adds Switch Buddy, a conversational assistant that creates agents and rooms, connects Slack, Teams, Discord or Telegram, and gets a first working room running in minutes. The release also adds in-app chat, eight tool connectors including GitHub and Jira, reusable room templates, and workspace admin controls. Switch Rooms is open source.",
+          "sha256": "d695d279be4778a47c27a221f408560ab705e7dd7040532c3acdd02493f9735d",
+          "source": "Switch AI",
+          "request_id": "muse-intake-20261118-switch-buddy",
           "mode": "standard"
         }
       ]
@@ -14092,6 +14105,23 @@
           "id": 480,
           "revision": 1,
           "sha256": "91748d09604462fac71e43b4e23b6068ce889d96dc5ee1fe722eee7f585182b6"
+        }
+      ]
+    },
+    "muse-intake-20261118-switch-buddy": {
+      "status": "finalized",
+      "received_at": "2026-11-19T02:46:25.629656+00:00",
+      "received_sequence": 435,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T02:46:25.849379+00:00",
+      "records": [
+        {
+          "id": 481,
+          "revision": 1,
+          "sha256": "d695d279be4778a47c27a221f408560ab705e7dd7040532c3acdd02493f9735d"
         }
       ]
     }
@@ -52125,6 +52155,40 @@
         },
         "editorial_sha256": "c82e1672383d9cdbeb74ab6b551524d63e65822f7c17b4961d79fa184221f485"
       }
+    },
+    "muse-intake-20261118-switch-buddy-receive-1769": {
+      "sha256": "ecb1dfea35f4382e6c47d12e25443f70df9c2455a5481042b298efe5552884ba",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261118-switch-buddy"
+      }
+    },
+    "muse-intake-20261118-switch-buddy-finalize-4339": {
+      "sha256": "0ad6f3b3c41c4c804952f46541c1b19f44797ccb75450976bfa86766377d767a",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261118-switch-buddy",
+        "records": [
+          {
+            "id": 481,
+            "revision": 1,
+            "sha256": "d695d279be4778a47c27a221f408560ab705e7dd7040532c3acdd02493f9735d"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261118-switch-buddy-review-9883": {
+      "sha256": "eb74c5c8536080f31b26b36f0611acd89800b4838d04450e176c73df3e6b544d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 481,
+          "revision": 1,
+          "sha256": "d695d279be4778a47c27a221f408560ab705e7dd7040532c3acdd02493f9735d"
+        },
+        "editorial_sha256": "4146d079912c74939da563e1274399f4db2d766a58b45804c854a9e397fa7f30"
+      }
     }
   },
   "migration": {
@@ -64451,6 +64515,26 @@
         "sha256": "c82e1672383d9cdbeb74ab6b551524d63e65822f7c17b4961d79fa184221f485",
         "reviewed_at": "2026-11-18T20:42:15.054478+00:00",
         "operation_id": "muse-intake-20261118-waymo-freeway-review-9187"
+      }
+    ],
+    "481:1": [
+      {
+        "reference": {
+          "id": 481,
+          "revision": 1,
+          "sha256": "d695d279be4778a47c27a221f408560ab705e7dd7040532c3acdd02493f9735d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Switch Buddy is a developer tool for teams running multiple AI coding agents together in shared rooms; it matters to developers and teams orchestrating agents, not general consumers. muse-intake 2026-11-18: submitted by Diego via X (Switch AI post https://x.com/switch_ai_/status/2123083871830913124, read by parent via browser Nov 18 20:53 EST), details verified against the Switch AI release blog; the record links the GitHub repo because the ledger policy forbids .ai learn-more URLs; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "d695d279be4778a47c27a221f408560ab705e7dd7040532c3acdd02493f9735d"
+          }
+        },
+        "sha256": "4146d079912c74939da563e1274399f4db2d766a58b45804c854a9e397fa7f30",
+        "reviewed_at": "2026-11-19T02:46:26.053837+00:00",
+        "operation_id": "muse-intake-20261118-switch-buddy-review-9883"
       }
     ]
   }
