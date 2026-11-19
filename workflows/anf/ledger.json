@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1512,
-  "updated_at": "2026-11-19T16:48:32.948623+00:00",
-  "next_id": 491,
+  "generation": 1515,
+  "updated_at": "2026-11-19T16:58:01.356355+00:00",
+  "next_id": 492,
   "records": [
     {
       "id": 1,
@@ -6526,6 +6526,19 @@
           "sha256": "be6fcaadd428b5f82e95ec756c99bff06dd1a4bdcdda4cf768bb20a7fe4c8f86",
           "source": "DeepMind Institute",
           "request_id": "muse-intake-20261119-deepmind-what-comes-after-agi",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 491,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T16:58:01.123082+00:00",
+          "block": "Title: Google Cloud's GUARD stabilizes recursive self-improvement of AI agents without graders\nURL: https://arxiv.org/abs/2611.23476\nImage URL: https://q8hjubmp9nqjv97t.public.blob.vercel-storage.com/papers/hero/cmwnhhm8q000008jvgphamtmp-pdf-page-1.png\nSummary: Google Cloud researchers introduce GUARD, a grader-free framework that lets autonomous AI agents continually improve their own harness of prompts, skills and memory without external graders or weight updates. Pre-execution self-checks and directional regret guide edits, and a Soft-HURT gate promotes only changes whose gains outweigh regressions, improving performance without forgetting while cutting token use.",
+          "sha256": "f6626569feb1af0ccf5e88e8fffc6cd07c009df42f0d5ee248453a98fa5e0bd6",
+          "source": "arXiv",
+          "request_id": "muse-intake-20261119-guard-recursive-self-improvement",
           "mode": "standard"
         }
       ]
@@ -14371,6 +14384,23 @@
           "id": 490,
           "revision": 1,
           "sha256": "be6fcaadd428b5f82e95ec756c99bff06dd1a4bdcdda4cf768bb20a7fe4c8f86"
+        }
+      ]
+    },
+    "muse-intake-20261119-guard-recursive-self-improvement": {
+      "status": "finalized",
+      "received_at": "2026-11-19T16:58:00.899290+00:00",
+      "received_sequence": 443,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T16:58:01.123082+00:00",
+      "records": [
+        {
+          "id": 491,
+          "revision": 1,
+          "sha256": "f6626569feb1af0ccf5e88e8fffc6cd07c009df42f0d5ee248453a98fa5e0bd6"
         }
       ]
     }
@@ -53238,6 +53268,40 @@
         },
         "editorial_sha256": "8154a51488c93f846aee116d2822f700acefec70266a216aa8826387c7003c86"
       }
+    },
+    "muse-intake-20261119-guard-receive-6809": {
+      "sha256": "ba9913264d6109395c9f4f2ab0b555a22961a37bbae045861e49e0e80ec1b3be",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261119-guard-recursive-self-improvement"
+      }
+    },
+    "muse-intake-20261119-guard-finalize-7685": {
+      "sha256": "060df79f9f2cf27967b118f0a7779b819fc3eb41c2f9f36a190b22b219e77b6a",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261119-guard-recursive-self-improvement",
+        "records": [
+          {
+            "id": 491,
+            "revision": 1,
+            "sha256": "f6626569feb1af0ccf5e88e8fffc6cd07c009df42f0d5ee248453a98fa5e0bd6"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261119-guard-review-3833": {
+      "sha256": "9fa7cdc2bcc8217e3443deb4f5db454f15303a0d7ad3861164d65f88f1040c49",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 491,
+          "revision": 1,
+          "sha256": "f6626569feb1af0ccf5e88e8fffc6cd07c009df42f0d5ee248453a98fa5e0bd6"
+        },
+        "editorial_sha256": "c1dc79e14d3870d2425e94544ac2e13b2a53db400eb56546115d95c17924bb18"
+      }
     }
   },
   "migration": {
@@ -65764,6 +65828,26 @@
         "sha256": "8154a51488c93f846aee116d2822f700acefec70266a216aa8826387c7003c86",
         "reviewed_at": "2026-11-19T16:48:32.948623+00:00",
         "operation_id": "muse-intake-20261119-deepmind-agi-review-8782"
+      }
+    ],
+    "491:1": [
+      {
+        "reference": {
+          "id": 491,
+          "revision": 1,
+          "sha256": "f6626569feb1af0ccf5e88e8fffc6cd07c009df42f0d5ee248453a98fa5e0bd6"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The GUARD paper is a technical research result on stabilizing recursive self-improvement of AI agent harnesses; it matters to researchers and engineers tracking agent methods, not general consumers. muse-intake 2026-11-19: submitted by Diego via arXiv link https://arxiv.org/abs/2611.23476, read via browser.open (abstract page and HTML full text); secondary coverage by AI FYD and DAIR.AI confirmed the paper's claims; image is DAIR.AI's hero render of the paper's first page, verified live 200 OK, PNG 1190x1683; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "f6626569feb1af0ccf5e88e8fffc6cd07c009df42f0d5ee248453a98fa5e0bd6"
+          }
+        },
+        "sha256": "c1dc79e14d3870d2425e94544ac2e13b2a53db400eb56546115d95c17924bb18",
+        "reviewed_at": "2026-11-19T16:58:01.356355+00:00",
+        "operation_id": "muse-intake-20261119-guard-review-3833"
       }
     ]
   }
