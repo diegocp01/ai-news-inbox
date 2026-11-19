@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1521,
-  "updated_at": "2026-11-19T21:11:18.582333+00:00",
-  "next_id": 494,
+  "generation": 1524,
+  "updated_at": "2026-11-19T21:18:28.742899+00:00",
+  "next_id": 495,
   "records": [
     {
       "id": 1,
@@ -6565,6 +6565,19 @@
           "sha256": "b7d90be9f56ab45f6cd1af0b7fbf3324f7f9af174040046e4ee01c10dd222d96",
           "source": "Google",
           "request_id": "muse-intake-20261119-gemini-mac-computer-use",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 494,
+      "revisions": [
+        {
+          "created_at": "2026-11-19T21:18:28.515296+00:00",
+          "block": "Title: GPT-Live-1.1 reaches the OpenAI API with a cheaper standby mode\nURL: https://aicoder.com/news/news-20261119-openai-gpt-live-1-1-api-available-standby-mode-0-02-per-minute-accent-consistency-backend-delegation\nImage URL: https://i.ytimg.com/vi/GyO8Ao7yKJc/maxresdefault.jpg\nSummary: OpenAI's GPT-Live-1.1 voice model is now in the API, bringing ChatGPT Voice's model to developers. It speaks with more natural, consistent accents across languages, transcribes exact details more reliably, and follows instructions better. New Standby mode pauses inference after 5 to 60 seconds of silence, cutting idle billing from $0.05 to $0.02 per minute.",
+          "sha256": "c0856db2e2aadb7ddd0fe5103735eb2ba8da85f681a081a50165af3d014b5f73",
+          "source": "AICoder",
+          "request_id": "muse-intake-20261119-gpt-live-1-1-api",
           "mode": "standard"
         }
       ]
@@ -14461,6 +14474,23 @@
           "id": 493,
           "revision": 1,
           "sha256": "b7d90be9f56ab45f6cd1af0b7fbf3324f7f9af174040046e4ee01c10dd222d96"
+        }
+      ]
+    },
+    "muse-intake-20261119-gpt-live-1-1-api": {
+      "status": "finalized",
+      "received_at": "2026-11-19T21:18:28.255223+00:00",
+      "received_sequence": 446,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-19T21:18:28.515296+00:00",
+      "records": [
+        {
+          "id": 494,
+          "revision": 1,
+          "sha256": "c0856db2e2aadb7ddd0fe5103735eb2ba8da85f681a081a50165af3d014b5f73"
         }
       ]
     }
@@ -53430,6 +53460,40 @@
         },
         "editorial_sha256": "5c6b9b57b50354033975f135dbb3a06e7de3e564c15bcc5e06c0278615c9a375"
       }
+    },
+    "muse-intake-20261119-gpt-live-1-1-receive-3022": {
+      "sha256": "87427b7bf14d5def0f2452b542b580a8ff7782fa21308f91adbe6bd15fe84d1f",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261119-gpt-live-1-1-api"
+      }
+    },
+    "muse-intake-20261119-gpt-live-1-1-finalize-1267": {
+      "sha256": "8df64a9f9ab5c681bc4b130ce5c7b76102f824d43f2184f8c70c5e8997285c6f",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261119-gpt-live-1-1-api",
+        "records": [
+          {
+            "id": 494,
+            "revision": 1,
+            "sha256": "c0856db2e2aadb7ddd0fe5103735eb2ba8da85f681a081a50165af3d014b5f73"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261119-gpt-live-1-1-review-9038": {
+      "sha256": "40686807d31409053fc3672e1369f4d6a80446ac4cd79c08bcc3f43954120749",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 494,
+          "revision": 1,
+          "sha256": "c0856db2e2aadb7ddd0fe5103735eb2ba8da85f681a081a50165af3d014b5f73"
+        },
+        "editorial_sha256": "6c2554f23cbf1bfe5333d02460b19c83f2a8969a0590e1339fca6f4c22303e65"
+      }
     }
   },
   "migration": {
@@ -66016,6 +66080,26 @@
         "sha256": "5c6b9b57b50354033975f135dbb3a06e7de3e564c15bcc5e06c0278615c9a375",
         "reviewed_at": "2026-11-19T21:11:18.582333+00:00",
         "operation_id": "muse-intake-20261119-gemini-mac-review-0737"
+      }
+    ],
+    "494:1": [
+      {
+        "reference": {
+          "id": 494,
+          "revision": 1,
+          "sha256": "c0856db2e2aadb7ddd0fe5103735eb2ba8da85f681a081a50165af3d014b5f73"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "GPT-Live-1.1 reaching the API is a developer-tool launch: a full-duplex voice model developers can now build voice agents with, plus a standby mode that cuts idle session costs by 60%. It matters to developers and researchers tracking voice agents, not general consumers. muse-intake 2026-11-19: submitted by Diego via OpenAI Developers' X post https://x.com/openaidevs/status/2123506733524136446 (3:00 PM Nov 19, 2026), verified against the AICoder write-up and OpenAI's developer changelog; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "c0856db2e2aadb7ddd0fe5103735eb2ba8da85f681a081a50165af3d014b5f73"
+          }
+        },
+        "sha256": "6c2554f23cbf1bfe5333d02460b19c83f2a8969a0590e1339fca6f4c22303e65",
+        "reviewed_at": "2026-11-19T21:18:28.742899+00:00",
+        "operation_id": "muse-intake-20261119-gpt-live-1-1-review-9038"
       }
     ]
   }
