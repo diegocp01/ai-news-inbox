@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1544,
-  "updated_at": "2026-11-20T12:42:10.981767+00:00",
+  "generation": 1546,
+  "updated_at": "2026-11-20T13:02:02.286783+00:00",
   "next_id": 503,
   "records": [
     {
@@ -53956,6 +53956,30 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261120-501-4460": {
+      "sha256": "fb6c3b692243b5b8574c818a449d0b0d68892ece6d932591de2bab8322e58385",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 501,
+          "revision": 1,
+          "sha256": "47d99663ee8634e6cb11550926a6bee84df0b3d41c52f7299432c061c6988b9b"
+        },
+        "editorial_sha256": "eccf825c8bb5f925067b751709c0bf707a989ce4924a2b609789298204504b07"
+      }
+    },
+    "muse-backfill-20261120-502-8329": {
+      "sha256": "a242adbc93c76d00f2d01c2cdca743c8de3248aae0fe405e520fc8274a254e6e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 502,
+          "revision": 1,
+          "sha256": "bb4391808a22e58a716e7c6507eb260a8a954b6529cdd7968b6736f0d5161b76"
+        },
+        "editorial_sha256": "af72cc56679ba6148d1b68b67f237aec28d94f0c52b0b39fb74f0a1372ffc36d"
+      }
     }
   },
   "migration": {
@@ -66682,6 +66706,46 @@
         "sha256": "53fcb1d0ca1b3e89ebaa353fa00d38afb30dbfef7c1378c82846902815e42058",
         "reviewed_at": "2026-11-20T03:38:40.031980+00:00",
         "operation_id": "muse-intake-20261119-blueprint-bench-2-review-7804"
+      }
+    ],
+    "501:1": [
+      {
+        "reference": {
+          "id": 501,
+          "revision": 1,
+          "sha256": "47d99663ee8634e6cb11550926a6bee84df0b3d41c52f7299432c061c6988b9b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic began trading on Nasdaq as ANT on November 19, 2026, pricing 980 million shares at $83 each in an $81.3 billion offering, with shares closing the first day at $97.17, about 17 percent above the IPO price. This is general business and financial news about a major AI company's public listing, of interest to a general audience, not a technical product or research story. muse-compile-backfill 2026-11-20: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "47d99663ee8634e6cb11550926a6bee84df0b3d41c52f7299432c061c6988b9b"
+          }
+        },
+        "sha256": "eccf825c8bb5f925067b751709c0bf707a989ce4924a2b609789298204504b07",
+        "reviewed_at": "2026-11-20T13:02:02.044347+00:00",
+        "operation_id": "muse-backfill-20261120-501-4460"
+      }
+    ],
+    "502:1": [
+      {
+        "reference": {
+          "id": 502,
+          "revision": 1,
+          "sha256": "bb4391808a22e58a716e7c6507eb260a8a954b6529cdd7968b6736f0d5161b76"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "OpenAI estimates its agents completed 46 percent of delegated research tasks without human intervention in October, up from 23 percent in March, for tasks estimated to take people two to four hours. The company cautions that changing task selection may affect the comparison, and researcher interviews stress the need for close human oversight. This is a research finding on AI agent capabilities for a research and technical audience, not general business news. muse-compile-backfill 2026-11-20: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "bb4391808a22e58a716e7c6507eb260a8a954b6529cdd7968b6736f0d5161b76"
+          }
+        },
+        "sha256": "af72cc56679ba6148d1b68b67f237aec28d94f0c52b0b39fb74f0a1372ffc36d",
+        "reviewed_at": "2026-11-20T13:02:02.286783+00:00",
+        "operation_id": "muse-backfill-20261120-502-8329"
       }
     ]
   }
