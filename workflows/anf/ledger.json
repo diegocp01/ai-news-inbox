@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1539,
-  "updated_at": "2026-11-20T00:08:37.779434+00:00",
-  "next_id": 500,
+  "generation": 1542,
+  "updated_at": "2026-11-20T03:38:40.031980+00:00",
+  "next_id": 501,
   "records": [
     {
       "id": 1,
@@ -6643,6 +6643,19 @@
           "sha256": "6b8df599d912c6416dbc7b342748331bfb47db29562d1804a0319e78421281b9",
           "source": "OpenAI",
           "request_id": "muse-intake-20261119-openai-dots-plus-test-empty-url",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 500,
+      "revisions": [
+        {
+          "created_at": "2026-11-20T03:38:39.821862+00:00",
+          "block": "Title: GPT-6.2 Astra ranks #1 on Blueprint-Bench 2 for floorplans from photos\nURL: https://andonlabs.com/evals/blueprint-bench-2\nImage URL: https://andonlabs.com/images/evals/blueprint-bench/fig2.png\nSummary: GPT-6.2 Astra leads Andon Labs' Blueprint-Bench 2 at 0.614, the first model to beat the human baseline of 0.586 on drawing 2D floor plans from apartment photographs. GPT-6.2 Sol scores 0.570, third among models behind Gemini 4 Carbon at 0.586. Agents convert about 20 interior photos per apartment into floor plans, scored on room connectivity, counts, and orientation.",
+          "sha256": "baf79adf687862f7db7c35d1d84d65f2136a4a23c75e78db269c6946d6c3769a",
+          "source": "Andon Labs",
+          "request_id": "muse-intake-20261119-blueprint-bench-2",
           "mode": "standard"
         }
       ]
@@ -14641,6 +14654,23 @@
           "id": 499,
           "revision": 1,
           "sha256": "6b8df599d912c6416dbc7b342748331bfb47db29562d1804a0319e78421281b9"
+        }
+      ]
+    },
+    "muse-intake-20261119-blueprint-bench-2": {
+      "status": "finalized",
+      "received_at": "2026-11-20T03:38:39.594008+00:00",
+      "received_sequence": 452,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-20T03:38:39.821862+00:00",
+      "records": [
+        {
+          "id": 500,
+          "revision": 1,
+          "sha256": "baf79adf687862f7db7c35d1d84d65f2136a4a23c75e78db269c6946d6c3769a"
         }
       ]
     }
@@ -53814,6 +53844,40 @@
         },
         "editorial_sha256": "73c7d1391f5de1e4d07822049ff2729bdabd597fd3913e2ae634d7bac47ec829"
       }
+    },
+    "muse-intake-20261119-blueprint-bench-2-receive-0853": {
+      "sha256": "aabb47c7a2614c92eca97e4b5df6ea56ee276e0df3d02511abb24b773deca2d2",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261119-blueprint-bench-2"
+      }
+    },
+    "muse-intake-20261119-blueprint-bench-2-finalize-3694": {
+      "sha256": "51d5299fe4a229933bce73098239683963d988fa7a72dc431bafe15d5623c04e",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261119-blueprint-bench-2",
+        "records": [
+          {
+            "id": 500,
+            "revision": 1,
+            "sha256": "baf79adf687862f7db7c35d1d84d65f2136a4a23c75e78db269c6946d6c3769a"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261119-blueprint-bench-2-review-7804": {
+      "sha256": "b3308b4ed47bf7e28439f47a1d84dd10e239ff5beb2a4b9b8a87a12763f21466",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 500,
+          "revision": 1,
+          "sha256": "baf79adf687862f7db7c35d1d84d65f2136a4a23c75e78db269c6946d6c3769a"
+        },
+        "editorial_sha256": "53fcb1d0ca1b3e89ebaa353fa00d38afb30dbfef7c1378c82846902815e42058"
+      }
     }
   },
   "migration": {
@@ -66520,6 +66584,26 @@
         "sha256": "73c7d1391f5de1e4d07822049ff2729bdabd597fd3913e2ae634d7bac47ec829",
         "reviewed_at": "2026-11-20T00:08:37.779434+00:00",
         "operation_id": "muse-intake-20261119-openai-dots-plus-test-empty-url-review-2951"
+      }
+    ],
+    "500:1": [
+      {
+        "reference": {
+          "id": 500,
+          "revision": 1,
+          "sha256": "baf79adf687862f7db7c35d1d84d65f2136a4a23c75e78db269c6946d6c3769a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Blueprint-Bench 2 measures frontier models' spatial reasoning by drawing floor plans from photographs; Astra's first above-human score is a research result tracked by researchers and developers, not general consumer news. muse-intake 2026-11-19: submitted by Diego via Andon Labs' X post https://x.com/andonlabs/status/2123570732575989832 (7:14 PM Nov 19, 2026), verified against Andon Labs' Blueprint-Bench 2 leaderboard page; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "baf79adf687862f7db7c35d1d84d65f2136a4a23c75e78db269c6946d6c3769a"
+          }
+        },
+        "sha256": "53fcb1d0ca1b3e89ebaa353fa00d38afb30dbfef7c1378c82846902815e42058",
+        "reviewed_at": "2026-11-20T03:38:40.031980+00:00",
+        "operation_id": "muse-intake-20261119-blueprint-bench-2-review-7804"
       }
     ]
   }
