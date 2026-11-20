@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1536,
-  "updated_at": "2026-11-19T23:46:53.915366+00:00",
-  "next_id": 499,
+  "generation": 1539,
+  "updated_at": "2026-11-20T00:08:37.779434+00:00",
+  "next_id": 500,
   "records": [
     {
       "id": 1,
@@ -6630,6 +6630,19 @@
           "sha256": "dd7a24317368bb36523a66d7ffe803a6769ccfdec8b95d938d87851c0c06ed7c",
           "source": "OpenAI",
           "request_id": "muse-intake-20261119-chatgpt-mobile-experience",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 499,
+      "revisions": [
+        {
+          "created_at": "2026-11-20T00:08:37.553296+00:00",
+          "block": "Title: OpenAI tests dots with ChatGPT Plus users and brings them to Business Standard\nURL: \nImage URL: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1920px-ChatGPT_logo.svg.png\nSummary: OpenAI is testing dots with a small number of ChatGPT Plus users and rolling them out to all ChatGPT Business Standard members in the United States starting today. Business Standard members can create one personal dot in their workspace to help with ongoing projects, with usage limits applying. Dots are OpenAI's always-on agents that keep working between chats.",
+          "sha256": "6b8df599d912c6416dbc7b342748331bfb47db29562d1804a0319e78421281b9",
+          "source": "OpenAI",
+          "request_id": "muse-intake-20261119-openai-dots-plus-test-empty-url",
           "mode": "standard"
         }
       ]
@@ -14611,6 +14624,23 @@
           "id": 498,
           "revision": 1,
           "sha256": "dd7a24317368bb36523a66d7ffe803a6769ccfdec8b95d938d87851c0c06ed7c"
+        }
+      ]
+    },
+    "muse-intake-20261119-openai-dots-plus-test-empty-url": {
+      "status": "finalized",
+      "received_at": "2026-11-20T00:08:37.317719+00:00",
+      "received_sequence": 451,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-20T00:08:37.553296+00:00",
+      "records": [
+        {
+          "id": 499,
+          "revision": 1,
+          "sha256": "6b8df599d912c6416dbc7b342748331bfb47db29562d1804a0319e78421281b9"
         }
       ]
     }
@@ -53750,6 +53780,40 @@
         },
         "editorial_sha256": "f2f70730a9242910b1ba23f20b6b8ff1ae45cac58b2b2918def37f5ca285ea51"
       }
+    },
+    "muse-intake-20261119-openai-dots-plus-test-empty-url-receive-9998": {
+      "sha256": "7fbde811d055da48de32e24eca87d703a614448185d0919be9076622066e0887",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261119-openai-dots-plus-test-empty-url"
+      }
+    },
+    "muse-intake-20261119-openai-dots-plus-test-empty-url-finalize-1198": {
+      "sha256": "cf673ffa4931ef66d5f08b9e9522719dd4f324e240c07b54205b1aabbe11a3ca",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261119-openai-dots-plus-test-empty-url",
+        "records": [
+          {
+            "id": 499,
+            "revision": 1,
+            "sha256": "6b8df599d912c6416dbc7b342748331bfb47db29562d1804a0319e78421281b9"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261119-openai-dots-plus-test-empty-url-review-2951": {
+      "sha256": "bee81a97986138807d64393d82bc2d872a58b0118cc43c7c0666f6e369fe1e23",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 499,
+          "revision": 1,
+          "sha256": "6b8df599d912c6416dbc7b342748331bfb47db29562d1804a0319e78421281b9"
+        },
+        "editorial_sha256": "73c7d1391f5de1e4d07822049ff2729bdabd597fd3913e2ae634d7bac47ec829"
+      }
     }
   },
   "migration": {
@@ -66436,6 +66500,26 @@
         "sha256": "f2f70730a9242910b1ba23f20b6b8ff1ae45cac58b2b2918def37f5ca285ea51",
         "reviewed_at": "2026-11-19T23:46:53.915366+00:00",
         "operation_id": "muse-intake-20261119-chatgpt-mobile-review-0416"
+      }
+    ],
+    "499:1": [
+      {
+        "reference": {
+          "id": 499,
+          "revision": 1,
+          "sha256": "6b8df599d912c6416dbc7b342748331bfb47db29562d1804a0319e78421281b9"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Dots expanding beyond Pro and Business Premium matters to general ChatGPT users: Plus users are now in testing and Business Standard members get a personal dot. It is a ChatGPT product rollout, not a developer tool or a research paper. muse-intake 2026-11-19: submitted by Diego via Tibo Sottiaux's X post (6:17 PM Nov 19, 2026), verified live by the parent's browser read; the Business Standard half is corroborated by OpenAI's Help Center ChatGPT Business release notes, Nov 19, 2026 entry 'Dots for ChatGPT Business Standard', read live. Learn-more URL left empty per Diego's instruction: his one-off exception to use the release-notes URL was approved in chat, but the engine rejects it under policy and policy.json was not edited; no substitute link was used.",
+            "evidence_sha256": "6b8df599d912c6416dbc7b342748331bfb47db29562d1804a0319e78421281b9"
+          }
+        },
+        "sha256": "73c7d1391f5de1e4d07822049ff2729bdabd597fd3913e2ae634d7bac47ec829",
+        "reviewed_at": "2026-11-20T00:08:37.779434+00:00",
+        "operation_id": "muse-intake-20261119-openai-dots-plus-test-empty-url-review-2951"
       }
     ]
   }
