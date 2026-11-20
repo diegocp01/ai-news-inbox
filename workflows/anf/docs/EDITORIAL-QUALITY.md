@@ -1,4 +1,4 @@
-# ANF audience and output quality, updated 2026-10-05
+# ANF audience and output quality, updated 2026-10-06
 
 ## Latest instruction: quality checks belong to single-article work (2026-10-05)
 
@@ -315,6 +315,21 @@ scientific result that was not established, or erase meaningful uncertainty.
 Audience classification still follows the article's actual substance, not the
 simplified title. This is future editorial guidance, not permission to rewrite
 already delivered articles or today's immutable batch.
+
+
+## No em dashes (Diego, 2026-10-06)
+
+Titles and descriptions never contain an em dash (—). Where one would go, use
+a comma: write “available to Pro users, not free ones,” not “available to Pro
+users—not free ones.” If a comma reads badly there, rewrite the sentence; two
+short sentences are fine. En dashes in ranges (2–3 pm, 2024–2025) are not
+affected. Check before compiling: an item whose title or description contains
+“—” is not ready yet.
+
+Like the rest of this guidance it applies to new items; delivered batches stay
+immutable. GPT AI Academy also turns any em dash into a comma when it collects
+and shows stories, so the page keeps the rule either way, but writing it right
+here keeps the inbox and everything built from it consistent.
 
 
 ## Preserve repeated submissions; deduplicate only technical retries
