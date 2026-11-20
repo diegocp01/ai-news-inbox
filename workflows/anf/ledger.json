@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1562,
-  "updated_at": "2026-11-20T19:07:47.486514+00:00",
-  "next_id": 507,
+  "generation": 1565,
+  "updated_at": "2026-11-20T21:34:04.548608+00:00",
+  "next_id": 508,
   "records": [
     {
       "id": 1,
@@ -6736,6 +6736,19 @@
           "sha256": "f05035cdb8ad61214e159dde1591437cbe0abda535a2b8e773233bc7637ab850",
           "source": "Engadget",
           "request_id": "muse-intake-20261120-chatgpt-space-plus",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 507,
+      "revisions": [
+        {
+          "created_at": "2026-11-20T21:34:04.319007+00:00",
+          "block": "Title: Thinking Machines releases Inkling 2 Mini, a 26B looped model that runs on a laptop\nURL: https://vllm-project.github.io/2026/11/20/inkling2-mini\nImage URL: https://vllm-project.github.io/assets/figures/2026-11-20-inkling2-mini/hero.png\nSummary: Thinking Machines has released Inkling 2 Mini, a 26-billion-parameter open-weights looped transformer small enough to run on a laptop. Its middle 12 layers run three times per token, giving it the reach of a much larger model: it scores 20.1 on the Artificial Analysis Intelligence Index and leads open-weights models under 100B parameters on agentic coding benchmarks.",
+          "sha256": "85ab63313046b243f4b0f2f078b034a4f84031146bf1b7063efc50323fbb2a59",
+          "source": "vLLM Blog",
+          "request_id": "muse-intake-20261120-inkling-2-mini",
           "mode": "standard"
         }
       ]
@@ -14842,6 +14855,23 @@
           "id": 506,
           "revision": 1,
           "sha256": "f05035cdb8ad61214e159dde1591437cbe0abda535a2b8e773233bc7637ab850"
+        }
+      ]
+    },
+    "muse-intake-20261120-inkling-2-mini": {
+      "status": "finalized",
+      "received_at": "2026-11-20T21:34:04.065609+00:00",
+      "received_sequence": 458,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-20T21:34:04.319007+00:00",
+      "records": [
+        {
+          "id": 507,
+          "revision": 1,
+          "sha256": "85ab63313046b243f4b0f2f078b034a4f84031146bf1b7063efc50323fbb2a59"
         }
       ]
     }
@@ -54712,6 +54742,40 @@
         },
         "editorial_sha256": "c15f7ac7069aec9a57dfa409c5a0ebb38ca07ddeb09535f08e9c0612c6b6bd7b"
       }
+    },
+    "muse-intake-20261120-inkling-2-mini-receive-3350": {
+      "sha256": "42d2f4c631a4171f1bd4b986439d5445df969bace69d53d57a1c4658737266f5",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261120-inkling-2-mini"
+      }
+    },
+    "muse-intake-20261120-inkling-2-mini-finalize-6929": {
+      "sha256": "cd937d23d679701ba9db241f0904bef2cc5a64b39e9e38e9d7cf8d8126d81e2a",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261120-inkling-2-mini",
+        "records": [
+          {
+            "id": 507,
+            "revision": 1,
+            "sha256": "85ab63313046b243f4b0f2f078b034a4f84031146bf1b7063efc50323fbb2a59"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261120-inkling-2-mini-review-8672": {
+      "sha256": "217284ba05d200a4cb15723964dba47c23d090b8ffff22a3204f4877d039d3f2",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 507,
+          "revision": 1,
+          "sha256": "85ab63313046b243f4b0f2f078b034a4f84031146bf1b7063efc50323fbb2a59"
+        },
+        "editorial_sha256": "a75469fd1a9218013c197a2ca6dcf36fd1b8b202a24ec382a67599b0930977b5"
+      }
     }
   },
   "migration": {
@@ -67558,6 +67622,26 @@
         "sha256": "c15f7ac7069aec9a57dfa409c5a0ebb38ca07ddeb09535f08e9c0612c6b6bd7b",
         "reviewed_at": "2026-11-20T19:07:47.486514+00:00",
         "operation_id": "muse-intake-20261120-chatgpt-space-plus-review-9913"
+      }
+    ],
+    "507:1": [
+      {
+        "reference": {
+          "id": 507,
+          "revision": 1,
+          "sha256": "85ab63313046b243f4b0f2f078b034a4f84031146bf1b7063efc50323fbb2a59"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Inkling 2 Mini is an open-weights model release for developers building agentic and tool-use systems, evaluated on coding and research benchmarks; the audience is technical/research. muse-intake 2026-11-20: submitted by Diego via Thinking Machines' X post https://x.com/thinkymachines/status/2123871643797995872 (3:10 PM EST Nov 20, 2026), verified via X's syndication endpoint; finalized by Muse per Diego's direction. Thinking Machines' own announcement page is policy-forbidden (.ai suffix) as a record URL, so the vLLM day-0 blog is the record URL; the announcement was read as corroboration.",
+            "evidence_sha256": "85ab63313046b243f4b0f2f078b034a4f84031146bf1b7063efc50323fbb2a59"
+          }
+        },
+        "sha256": "a75469fd1a9218013c197a2ca6dcf36fd1b8b202a24ec382a67599b0930977b5",
+        "reviewed_at": "2026-11-20T21:34:04.548608+00:00",
+        "operation_id": "muse-intake-20261120-inkling-2-mini-review-8672"
       }
     ]
   }
