@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1556,
-  "updated_at": "2026-11-20T15:31:51.509649+00:00",
-  "next_id": 505,
+  "generation": 1559,
+  "updated_at": "2026-11-20T19:03:37.507533+00:00",
+  "next_id": 506,
   "records": [
     {
       "id": 1,
@@ -6710,6 +6710,19 @@
           "sha256": "4ff0211e47ff06abe2174ef0d17cbd7e9ae3a8a327d48414842e60c8faf966b5",
           "source": "Scientific American",
           "request_id": "muse-intake-20261120-riemann-hypothesis-proof",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 505,
+      "revisions": [
+        {
+          "created_at": "2026-11-20T19:03:37.275847+00:00",
+          "block": "Title: Grok Bot now connects to Intuit QuickBooks\nURL: https://teslanorth.com/2026/11/20/grok-bot-quickbooks-invoices-us/\nImage URL: https://cdn.teslanorth.com/wp-content/uploads/2026/09/grok-bot-qol-web.jpg\nSummary: Grok Bot now connects to Intuit QuickBooks in the US. Business owners can ask about cash flow, profit, and who still owes them, and have the bot draft invoices, estimates, and payment reminders for approval. The connector was already listed in the Nov 11 changelog; the Nov 20 announcement spells out what businesses can do with it.",
+          "sha256": "f9cbbe7947c8edd135efc387f4ca3b0c53e901631dd10c10acbbd58ada4d7b09",
+          "source": "Tesla North",
+          "request_id": "muse-intake-20261120-grok-quickbooks",
           "mode": "standard"
         }
       ]
@@ -14782,6 +14795,23 @@
           "id": 504,
           "revision": 1,
           "sha256": "4ff0211e47ff06abe2174ef0d17cbd7e9ae3a8a327d48414842e60c8faf966b5"
+        }
+      ]
+    },
+    "muse-intake-20261120-grok-quickbooks": {
+      "status": "finalized",
+      "received_at": "2026-11-20T19:03:36.956597+00:00",
+      "received_sequence": 456,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-20T19:03:37.275847+00:00",
+      "records": [
+        {
+          "id": 505,
+          "revision": 1,
+          "sha256": "f9cbbe7947c8edd135efc387f4ca3b0c53e901631dd10c10acbbd58ada4d7b09"
         }
       ]
     }
@@ -54584,6 +54614,40 @@
         },
         "editorial_sha256": "0c5a09cc848583bfa49efd805a29dce6307855c51761263fcf7324ab66167fa1"
       }
+    },
+    "muse-intake-20261120-grok-quickbooks-receive-0776": {
+      "sha256": "105c9da7a4ff4e0bdae3b111c1ebcccd0c5a30557101e7e1b42f3bf39029b982",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261120-grok-quickbooks"
+      }
+    },
+    "muse-intake-20261120-grok-quickbooks-finalize-4046": {
+      "sha256": "cfe0661a9a5b8b656db9b36db7ed4cc5c021c018546c2cf6c2fc3b2ace16d868",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261120-grok-quickbooks",
+        "records": [
+          {
+            "id": 505,
+            "revision": 1,
+            "sha256": "f9cbbe7947c8edd135efc387f4ca3b0c53e901631dd10c10acbbd58ada4d7b09"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261120-grok-quickbooks-review-4133": {
+      "sha256": "be708a1d030784b0b5f9c4c20aa23cae86ff7ae8f04e37aec14e3603cdaeebbb",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 505,
+          "revision": 1,
+          "sha256": "f9cbbe7947c8edd135efc387f4ca3b0c53e901631dd10c10acbbd58ada4d7b09"
+        },
+        "editorial_sha256": "524a2aacdaaf161ccea7c807f00e2e4ef6d3819873e45ff3282e54824ccdc99c"
+      }
     }
   },
   "migration": {
@@ -67390,6 +67454,26 @@
         "sha256": "0c5a09cc848583bfa49efd805a29dce6307855c51761263fcf7324ab66167fa1",
         "reviewed_at": "2026-11-20T15:31:51.509649+00:00",
         "operation_id": "muse-intake-20261120-riemann-hypothesis-proof-review-3044"
+      }
+    ],
+    "505:1": [
+      {
+        "reference": {
+          "id": 505,
+          "revision": 1,
+          "sha256": "f9cbbe7947c8edd135efc387f4ca3b0c53e901631dd10c10acbbd58ada4d7b09"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Grok Bot's QuickBooks connection is a small-business product feature for owners checking cash flow and chasing invoices, not a research result or developer tool; the audience is general. muse-intake 2026-11-20: submitted by Diego via Grok Bot's X post https://x.com/bot/status/2123840024747946383 (1:04 PM Nov 20, 2026), verified via X's own embed route and corroborated by Tesla North coverage; finalized by Muse per Diego's direction. The post's image is on forbidden pbs.twimg.com, so the article's og:image is used.",
+            "evidence_sha256": "f9cbbe7947c8edd135efc387f4ca3b0c53e901631dd10c10acbbd58ada4d7b09"
+          }
+        },
+        "sha256": "524a2aacdaaf161ccea7c807f00e2e4ef6d3819873e45ff3282e54824ccdc99c",
+        "reviewed_at": "2026-11-20T19:03:37.507533+00:00",
+        "operation_id": "muse-intake-20261120-grok-quickbooks-review-4133"
       }
     ]
   }
