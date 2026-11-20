@@ -1,0 +1,77 @@
+Title: DeepMind Institute maps the roads from AGI to superintelligence
+URL: https://institute.deepmind.com/essays/what-comes-after-agi/
+Image URL: https://lh3.googleusercontent.com/MtcSyuy2GVyxylszKhwxAUP_OVh-e9ETmOtE5kLDGL8AIl59WmqxO5QJjRU3NDBnLsjBPmR3Wn5c4V0gVeOKge7MOF1oXMhqB5WWz8MCb89aH_e2=w1200-h630-n-nu-rw
+Summary: DeepMind Institute's new essay argues AGI is within reach and maps four pathways to superintelligence: scaling models and data, paradigm shifts, agent coordination, and recursive self-improvement. It warns restricting one dimension won't stop progress and could create a capability overhang, and calls for modelling, measuring and forecasting the transition.
+ds: true
+
+Title: Google Cloud's GUARD stabilizes recursive self-improvement of AI agents without graders
+URL: https://arxiv.org/abs/2611.23476
+Image URL: https://q8hjubmp9nqjv97t.public.blob.vercel-storage.com/papers/hero/cmwnhhm8q000008jvgphamtmp-pdf-page-1.png
+Summary: Google Cloud researchers introduce GUARD, a grader-free framework that lets autonomous AI agents continually improve their own harness of prompts, skills and memory without external graders or weight updates. Pre-execution self-checks and directional regret guide edits, and a Soft-HURT gate promotes only changes whose gains outweigh regressions, improving performance without forgetting while cutting token use.
+ds: true
+
+Title: Genie 4 now available in the Gemini API and Google AI Studio
+URL: https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Genie_4_Social_Share.max-1440x810.png
+Summary: Google's Genie 4 world model is now available to developers through the Gemini API (via the Interactions API) and Google AI Studio. From a text prompt or reference image it generates continuous 720p worlds at 24fps with synchronized native audio, navigable with real-time controls while Gemini reasoning keeps the world coherent. All output carries SynthID watermarking.
+ds: true
+
+Title: Gemini can now control Mac apps for you in a separate window
+URL: https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/
+Image URL: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_header_CU_copy.width-1300.png
+Summary: Google added computer use to the Gemini app for Mac, letting Gemini finish multi-step tasks across local files, desktop apps, and the web. It runs in an isolated background window with a preview in chat, the user's screen and cursor stay free, and users pick which apps it can access, pause it, and approve key actions. Rolling out in English.
+
+Title: GPT-Live-1.1 reaches the OpenAI API with a cheaper standby mode
+URL: https://aicoder.com/news/news-20261119-openai-gpt-live-1-1-api-available-standby-mode-0-02-per-minute-accent-consistency-backend-delegation
+Image URL: https://i.ytimg.com/vi/GyO8Ao7yKJc/maxresdefault.jpg
+Summary: OpenAI's GPT-Live-1.1 voice model is now in the API, bringing ChatGPT Voice's model to developers. It speaks with more natural, consistent accents across languages, transcribes exact details more reliably, and follows instructions better. New Standby mode pauses inference after 5 to 60 seconds of silence, cutting idle billing from $0.05 to $0.02 per minute.
+ds: true
+
+Title: alphaXiv launches a preprint server for AI agents; 936 agents publish 936 studies
+URL: https://www.alphaxiv.org/abs/2611.society-ai-scientists
+Image URL: https://paper-assets.alphaxiv.org/paper-figures/01a1f28c-d013-7659-98c6-786c5e646052/01a1f28e-7775-78f2-b028-b77cf14abaf4.jpg
+Summary: alphaXiv launched a preprint server for AI agents: in a 12-week study, 936 agents from 35 labs published 936 studies with code and data, exchanging 9,500 messages. Agents publicly corrected their own errors and founded the Journal of Agent Research, whose executable reviews overturned headline conclusions in nearly half of major objections. The full archive is open-sourced.
+ds: true
+
+Title: Major privacy breaches reported in Meta's Muse AI, including bank balances
+URL: https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/
+Image URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Major-privacy-breaches-reported-in-Muse-AI-including-bank-balances.webp?w=1500
+Summary: Meta employees report Muse accessing end-to-end encrypted Signal messages without permission, a problem the AI Now Institute replicated, and one employee received unsolicited bank balances that appeared to belong to another user. Meta calls the incidents isolated and suggests the balances may be hallucinations, but Reuters could not establish whether real data leaked. Muse has over 10 million downloads.
+
+Title: Apple is building an AI agent to code, browse, and control devices
+URL: https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding
+Image URL: https://media.appleinsider.com/gallery/69938-147378-Writing-Tools-iOS-26-xl.jpg
+Summary: Apple is developing an AI agent that writes code, browses the web, controls apps, and navigates devices, per job listings posted this week, including a senior engineering manager for a proactive, agentic AI assistant. The target is as soon as end of next year, but the work is early-stage; Apple is tightening Mac controls on rival agents in macOS 27.3.
+
+Title: ChatGPT's new mobile experience gives your dot its own tab
+URL: https://apps.apple.com/us/app/chatgpt/id6448311069
+Image URL: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1920px-ChatGPT_logo.svg.png
+Summary: OpenAI is rolling out a new mobile experience for ChatGPT, starting with Pro users who have a dot or can create one. The dot gets its own tab, and Codex, Projects, Images and more can be pinned to the tab bar. Some users see it by default; toggle it in Settings > New ChatGPT Design before a wider rollout.
+
+Title: OpenAI tests dots with ChatGPT Plus users and brings them to Business Standard
+URL: 
+Image URL: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1920px-ChatGPT_logo.svg.png
+Summary: OpenAI is testing dots with a small number of ChatGPT Plus users and rolling them out to all ChatGPT Business Standard members in the United States starting today. Business Standard members can create one personal dot in their workspace to help with ongoing projects, with usage limits applying. Dots are OpenAI's always-on agents that keep working between chats.
+
+Title: GPT-6.2 Astra ranks #1 on Blueprint-Bench 2 for floorplans from photos
+URL: https://andonlabs.com/evals/blueprint-bench-2
+Image URL: https://andonlabs.com/images/evals/blueprint-bench/fig2.png
+Summary: GPT-6.2 Astra leads Andon Labs' Blueprint-Bench 2 at 0.614, the first model to beat the human baseline of 0.586 on drawing 2D floor plans from apartment photographs. GPT-6.2 Sol scores 0.570, third among models behind Gemini 4 Carbon at 0.586. Agents convert about 20 interior photos per apartment into floor plans, scored on room connectivity, counts, and orientation.
+ds: true
+
+Title: Anthropic Begins Nasdaq Trading After $81.3 Billion IPO
+URL: https://www.anthropic.com/news/anthropic-prices-initial-public-offering
+Image URL: https://dims.apnews.com/dims4/default/c162a22/2147483647/strip/true/crop/7173x4782%2B0%2B0/resize/599x399%21/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc2%2Ff2%2Ffa9e67d1b70bc6ab33e91de52d86%2F3647538bc83c4bffb75edbcf3a66d3cc
+Summary: Anthropic, the company behind Claude, began trading on Nasdaq as ANT on November 19, 2026. The company said it priced 980 million shares at $83 each, an $81.3 billion offering including sales by existing shareholders. Reuters reported that shares closed their first trading day at $97.17, about 17% above the IPO price.
+
+Title: OpenAI Reports Higher Success Rates on Delegated Research Tasks
+URL: https://dataphoenix.info/news/openai-coding-agents-research-task-success
+Image URL: https://cf.img.soft4fun.net/2026/03/image-15-1-scaled.jpg
+Summary: OpenAI estimates that its agents completed 46% of delegated research tasks without human intervention in October, up from 23% in March, for tasks estimated to take people two to four hours. The company cautions that changing task selection may affect the comparison, while researcher interviews highlight the need for close human oversight to prevent poor outputs and flawed analysis.
+ds: true
+
+
+
+
+
+.

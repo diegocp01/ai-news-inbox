@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1546,
-  "updated_at": "2026-11-20T13:02:02.286783+00:00",
+  "generation": 1547,
+  "updated_at": "2026-11-20T13:02:22.049121+00:00",
   "next_id": 503,
   "records": [
     {
@@ -25670,9 +25670,204 @@
       },
       "acknowledged_at": "2026-11-19T13:14:44.270194+00:00",
       "checkpoint_after": 489
+    },
+    "c93eb8f20275c7e04a093290": {
+      "batch_id": "c93eb8f20275c7e04a093290",
+      "status": "prepared",
+      "checkpoint_before": 489,
+      "prepared_at": "2026-11-20T13:02:22.049121+00:00",
+      "intake_cutoff": 453,
+      "records": [
+        {
+          "id": 490,
+          "revision": 1,
+          "sha256": "be6fcaadd428b5f82e95ec756c99bff06dd1a4bdcdda4cf768bb20a7fe4c8f86"
+        },
+        {
+          "id": 491,
+          "revision": 1,
+          "sha256": "f6626569feb1af0ccf5e88e8fffc6cd07c009df42f0d5ee248453a98fa5e0bd6"
+        },
+        {
+          "id": 492,
+          "revision": 1,
+          "sha256": "46ea7ef2137a90db9ab647630f00f0009a66a4d084a47e87f7e13b31487d170b"
+        },
+        {
+          "id": 493,
+          "revision": 1,
+          "sha256": "b7d90be9f56ab45f6cd1af0b7fbf3324f7f9af174040046e4ee01c10dd222d96"
+        },
+        {
+          "id": 494,
+          "revision": 1,
+          "sha256": "c0856db2e2aadb7ddd0fe5103735eb2ba8da85f681a081a50165af3d014b5f73"
+        },
+        {
+          "id": 495,
+          "revision": 1,
+          "sha256": "5d7c7e46105c3d24260d33848f34559a3da21322f3cea2bf570c9462081c5f51"
+        },
+        {
+          "id": 496,
+          "revision": 1,
+          "sha256": "ca076a535575e4d76e3f226ee5eb7f12d1963a90a7fdc4d3f32c9d59466df173"
+        },
+        {
+          "id": 497,
+          "revision": 1,
+          "sha256": "16257f413ab40fad755f0337c2c681f6c41da846618031b4285340d25b5e1455"
+        },
+        {
+          "id": 498,
+          "revision": 1,
+          "sha256": "dd7a24317368bb36523a66d7ffe803a6769ccfdec8b95d938d87851c0c06ed7c"
+        },
+        {
+          "id": 499,
+          "revision": 1,
+          "sha256": "6b8df599d912c6416dbc7b342748331bfb47db29562d1804a0319e78421281b9"
+        },
+        {
+          "id": 500,
+          "revision": 1,
+          "sha256": "baf79adf687862f7db7c35d1d84d65f2136a4a23c75e78db269c6946d6c3769a"
+        },
+        {
+          "id": 501,
+          "revision": 1,
+          "sha256": "47d99663ee8634e6cb11550926a6bee84df0b3d41c52f7299432c061c6988b9b"
+        },
+        {
+          "id": 502,
+          "revision": 1,
+          "sha256": "bb4391808a22e58a716e7c6507eb260a8a954b6529cdd7968b6736f0d5161b76"
+        }
+      ],
+      "first_id": 490,
+      "last_id": 502,
+      "count": 13,
+      "txt_path": "workflows/anf/batches/c93eb8f20275c7e04a093290.txt",
+      "json_path": "workflows/anf/batches/c93eb8f20275c7e04a093290.json",
+      "txt_sha256": "ac07d14ff2d8fbb074fef1401db1bb0cfc3d4986c33411aea9ee4ce9f503c9f4",
+      "json_sha256": "90af37e7df83d65475f16bd6be8b37f8cdaa5c6e214076d312bb383ea9d6945b",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The DeepMind Institute's essay on the AGI-to-ASI transition is a research publication mapping technical pathways to superintelligence; it matters to researchers tracking AI progress and governance, not general consumers. muse-intake 2026-11-19: submitted by Diego via DeepMind Institute essay https://institute.deepmind.com/essays/what-comes-after-agi/?utm_source=x&utm_medium=social&utm_campaign=dmi&utm_content=sl (UTM parameters stripped for the record URL), read via browser.open; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "be6fcaadd428b5f82e95ec756c99bff06dd1a4bdcdda4cf768bb20a7fe4c8f86"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The GUARD paper is a technical research result on stabilizing recursive self-improvement of AI agent harnesses; it matters to researchers and engineers tracking agent methods, not general consumers. muse-intake 2026-11-19: submitted by Diego via arXiv link https://arxiv.org/abs/2611.23476, read via browser.open (abstract page and HTML full text); secondary coverage by AI FYD and DAIR.AI confirmed the paper's claims; image is DAIR.AI's hero render of the paper's first page, verified live 200 OK, PNG 1190x1683; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "f6626569feb1af0ccf5e88e8fffc6cd07c009df42f0d5ee248453a98fa5e0bd6"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "Genie 4 reaching the Gemini API and AI Studio is a developer-tool launch: a world model developers can now build with. It matters to developers and researchers tracking interactive AI and world models, not general consumers. muse-intake 2026-11-19: submitted by Diego via Logan Kilpatrick's X post https://x.com/officiallogank/status/2123467449257623770 (12:24 PM Nov 19, 2026), verified against the Google blog post; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "46ea7ef2137a90db9ab647630f00f0009a66a4d084a47e87f7e13b31487d170b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Gemini gaining the ability to operate Mac apps on the user's behalf is a significant consumer AI capability launch with real security and privacy implications; it matters to general readers who use Macs and follow AI agents, not only developers. muse-intake 2026-11-19: submitted by Diego via Polymarket's X post https://x.com/polymarket/status/2123495515119661358 (2:15 PM Nov 19, 2026), verified against Google's announcement blog and independent coverage; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "b7d90be9f56ab45f6cd1af0b7fbf3324f7f9af174040046e4ee01c10dd222d96"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "GPT-Live-1.1 reaching the API is a developer-tool launch: a full-duplex voice model developers can now build voice agents with, plus a standby mode that cuts idle session costs by 60%. It matters to developers and researchers tracking voice agents, not general consumers. muse-intake 2026-11-19: submitted by Diego via OpenAI Developers' X post https://x.com/openaidevs/status/2123506733524136446 (3:00 PM Nov 19, 2026), verified against the AICoder write-up and OpenAI's developer changelog; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "c0856db2e2aadb7ddd0fe5103735eb2ba8da85f681a081a50165af3d014b5f73"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A 12-week study of 936 autonomous AI agents conducting and peer-reviewing research is a research story: it matters to AI researchers tracking agent science, self-correction, and executable peer review, not general consumers. muse-intake 2026-11-19: submitted by Diego via alphaXiv's X post https://x.com/askalphaxiv/status/2123456265858740600 (Nov 19, 2026), verified against the alphaXiv study page 'A Society of AI Scientists'; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "5d7c7e46105c3d24260d33848f34559a3da21322f3cea2bf570c9462081c5f51"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A privacy and safety story about a mass-market consumer AI agent: Muse is the second most popular free iPhone app in the US with over 10 million downloads, and the report concerns encrypted messages and bank balances reaching the wrong users. It matters to general consumers deciding whether to trust the app, not only to AI researchers. muse-intake 2026-11-19: submitted by Diego via the 9to5Mac article https://9to5mac.com/2026/11/19/major-privacy-breaches-reported-in-muse-ai-including-bank-balances/ (2026-11-19), verified against the Reuters original reporting; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "ca076a535575e4d76e3f226ee5eb7f12d1963a90a7fdc4d3f32c9d59466df173"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Apple building its own autonomous agent is a major platform and competition story: device control, privacy, and the friction Apple is adding for rival agents, plus the DOJ suit and the market reaction. It matters to general readers following Apple and AI, not only developers. muse-intake 2026-11-19: submitted by Diego via the Bloomberg gift link https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9 (Mark Gurman, with Natalie Lung; published Nov 19, 2026 4:37 PM EST), verified by a live browser read; record URL is the clean Bloomberg URL (gift token expires ~Nov 26); image is AppleInsider's same-day coverage art, verified live; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "16257f413ab40fad755f0337c2c681f6c41da846618031b4285340d25b5e1455"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A new mobile experience for the ChatGPT app is a consumer product update: it changes how everyday users reach features on their phones, starting with Pro users who have a dot. It matters to general ChatGPT users, not to developers or researchers. muse-intake 2026-11-19: submitted by Diego via Tibo Sottiaux's X post https://x.com/thsottiaux/status/2123557171321561133 (6:20 PM Nov 19, 2026), verified by a live browser read; no same-day secondary coverage exists yet, so the record URL is the ChatGPT App Store listing (version 1.2026.314, released Nov 19, 2026); finalized by Muse per Diego's direction.",
+            "evidence_sha256": "dd7a24317368bb36523a66d7ffe803a6769ccfdec8b95d938d87851c0c06ed7c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Dots expanding beyond Pro and Business Premium matters to general ChatGPT users: Plus users are now in testing and Business Standard members get a personal dot. It is a ChatGPT product rollout, not a developer tool or a research paper. muse-intake 2026-11-19: submitted by Diego via Tibo Sottiaux's X post (6:17 PM Nov 19, 2026), verified live by the parent's browser read; the Business Standard half is corroborated by OpenAI's Help Center ChatGPT Business release notes, Nov 19, 2026 entry 'Dots for ChatGPT Business Standard', read live. Learn-more URL left empty per Diego's instruction: his one-off exception to use the release-notes URL was approved in chat, but the engine rejects it under policy and policy.json was not edited; no substitute link was used.",
+            "evidence_sha256": "6b8df599d912c6416dbc7b342748331bfb47db29562d1804a0319e78421281b9"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Blueprint-Bench 2 measures frontier models' spatial reasoning by drawing floor plans from photographs; Astra's first above-human score is a research result tracked by researchers and developers, not general consumer news. muse-intake 2026-11-19: submitted by Diego via Andon Labs' X post https://x.com/andonlabs/status/2123570732575989832 (7:14 PM Nov 19, 2026), verified against Andon Labs' Blueprint-Bench 2 leaderboard page; finalized by Muse per Diego's direction.",
+            "evidence_sha256": "baf79adf687862f7db7c35d1d84d65f2136a4a23c75e78db269c6946d6c3769a"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic began trading on Nasdaq as ANT on November 19, 2026, pricing 980 million shares at $83 each in an $81.3 billion offering, with shares closing the first day at $97.17, about 17 percent above the IPO price. This is general business and financial news about a major AI company's public listing, of interest to a general audience, not a technical product or research story. muse-compile-backfill 2026-11-20: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "47d99663ee8634e6cb11550926a6bee84df0b3d41c52f7299432c061c6988b9b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "OpenAI estimates its agents completed 46 percent of delegated research tasks without human intervention in October, up from 23 percent in March, for tasks estimated to take people two to four hours. The company cautions that changing task selection may affect the comparison, and researcher interviews stress the need for close human oversight. This is a research finding on AI agent capabilities for a research and technical audience, not general business news. muse-compile-backfill 2026-11-20: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "bb4391808a22e58a716e7c6507eb260a8a954b6529cdd7968b6736f0d5161b76"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-20T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "c93eb8f20275c7e04a093290",
   "replacement_batch": null,
   "checkpoint": 489,
   "checkpoint_history": [
@@ -53979,6 +54174,208 @@
           "sha256": "bb4391808a22e58a716e7c6507eb260a8a954b6529cdd7968b6736f0d5161b76"
         },
         "editorial_sha256": "af72cc56679ba6148d1b68b67f237aec28d94f0c52b0b39fb74f0a1372ffc36d"
+      }
+    },
+    "muse-compile-20261120-1302-5542": {
+      "sha256": "1613e2cc868e35e971d78fce8334bda7e5f3d440b417d5ef51eb0295f3fe2f55",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "c93eb8f20275c7e04a093290",
+          "status": "prepared",
+          "checkpoint_before": 489,
+          "prepared_at": "2026-11-20T13:02:22.049121+00:00",
+          "intake_cutoff": 453,
+          "records": [
+            {
+              "id": 490,
+              "revision": 1,
+              "sha256": "be6fcaadd428b5f82e95ec756c99bff06dd1a4bdcdda4cf768bb20a7fe4c8f86"
+            },
+            {
+              "id": 491,
+              "revision": 1,
+              "sha256": "f6626569feb1af0ccf5e88e8fffc6cd07c009df42f0d5ee248453a98fa5e0bd6"
+            },
+            {
+              "id": 492,
+              "revision": 1,
+              "sha256": "46ea7ef2137a90db9ab647630f00f0009a66a4d084a47e87f7e13b31487d170b"
+            },
+            {
+              "id": 493,
+              "revision": 1,
+              "sha256": "b7d90be9f56ab45f6cd1af0b7fbf3324f7f9af174040046e4ee01c10dd222d96"
+            },
+            {
+              "id": 494,
+              "revision": 1,
+              "sha256": "c0856db2e2aadb7ddd0fe5103735eb2ba8da85f681a081a50165af3d014b5f73"
+            },
+            {
+              "id": 495,
+              "revision": 1,
+              "sha256": "5d7c7e46105c3d24260d33848f34559a3da21322f3cea2bf570c9462081c5f51"
+            },
+            {
+              "id": 496,
+              "revision": 1,
+              "sha256": "ca076a535575e4d76e3f226ee5eb7f12d1963a90a7fdc4d3f32c9d59466df173"
+            },
+            {
+              "id": 497,
+              "revision": 1,
+              "sha256": "16257f413ab40fad755f0337c2c681f6c41da846618031b4285340d25b5e1455"
+            },
+            {
+              "id": 498,
+              "revision": 1,
+              "sha256": "dd7a24317368bb36523a66d7ffe803a6769ccfdec8b95d938d87851c0c06ed7c"
+            },
+            {
+              "id": 499,
+              "revision": 1,
+              "sha256": "6b8df599d912c6416dbc7b342748331bfb47db29562d1804a0319e78421281b9"
+            },
+            {
+              "id": 500,
+              "revision": 1,
+              "sha256": "baf79adf687862f7db7c35d1d84d65f2136a4a23c75e78db269c6946d6c3769a"
+            },
+            {
+              "id": 501,
+              "revision": 1,
+              "sha256": "47d99663ee8634e6cb11550926a6bee84df0b3d41c52f7299432c061c6988b9b"
+            },
+            {
+              "id": 502,
+              "revision": 1,
+              "sha256": "bb4391808a22e58a716e7c6507eb260a8a954b6529cdd7968b6736f0d5161b76"
+            }
+          ],
+          "first_id": 490,
+          "last_id": 502,
+          "count": 13,
+          "txt_path": "workflows/anf/batches/c93eb8f20275c7e04a093290.txt",
+          "json_path": "workflows/anf/batches/c93eb8f20275c7e04a093290.json",
+          "txt_sha256": "ac07d14ff2d8fbb074fef1401db1bb0cfc3d4986c33411aea9ee4ce9f503c9f4",
+          "json_sha256": "90af37e7df83d65475f16bd6be8b37f8cdaa5c6e214076d312bb383ea9d6945b",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The DeepMind Institute's essay on the AGI-to-ASI transition is a research publication mapping technical pathways to superintelligence; it matters to researchers tracking AI progress and governance, not general consumers. muse-intake 2026-11-19: submitted by Diego via DeepMind Institute essay https://institute.deepmind.com/essays/what-comes-after-agi/?utm_source=x&utm_medium=social&utm_campaign=dmi&utm_content=sl (UTM parameters stripped for the record URL), read via browser.open; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "be6fcaadd428b5f82e95ec756c99bff06dd1a4bdcdda4cf768bb20a7fe4c8f86"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The GUARD paper is a technical research result on stabilizing recursive self-improvement of AI agent harnesses; it matters to researchers and engineers tracking agent methods, not general consumers. muse-intake 2026-11-19: submitted by Diego via arXiv link https://arxiv.org/abs/2611.23476, read via browser.open (abstract page and HTML full text); secondary coverage by AI FYD and DAIR.AI confirmed the paper's claims; image is DAIR.AI's hero render of the paper's first page, verified live 200 OK, PNG 1190x1683; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "f6626569feb1af0ccf5e88e8fffc6cd07c009df42f0d5ee248453a98fa5e0bd6"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "Genie 4 reaching the Gemini API and AI Studio is a developer-tool launch: a world model developers can now build with. It matters to developers and researchers tracking interactive AI and world models, not general consumers. muse-intake 2026-11-19: submitted by Diego via Logan Kilpatrick's X post https://x.com/officiallogank/status/2123467449257623770 (12:24 PM Nov 19, 2026), verified against the Google blog post; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "46ea7ef2137a90db9ab647630f00f0009a66a4d084a47e87f7e13b31487d170b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Gemini gaining the ability to operate Mac apps on the user's behalf is a significant consumer AI capability launch with real security and privacy implications; it matters to general readers who use Macs and follow AI agents, not only developers. muse-intake 2026-11-19: submitted by Diego via Polymarket's X post https://x.com/polymarket/status/2123495515119661358 (2:15 PM Nov 19, 2026), verified against Google's announcement blog and independent coverage; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "b7d90be9f56ab45f6cd1af0b7fbf3324f7f9af174040046e4ee01c10dd222d96"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "GPT-Live-1.1 reaching the API is a developer-tool launch: a full-duplex voice model developers can now build voice agents with, plus a standby mode that cuts idle session costs by 60%. It matters to developers and researchers tracking voice agents, not general consumers. muse-intake 2026-11-19: submitted by Diego via OpenAI Developers' X post https://x.com/openaidevs/status/2123506733524136446 (3:00 PM Nov 19, 2026), verified against the AICoder write-up and OpenAI's developer changelog; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "c0856db2e2aadb7ddd0fe5103735eb2ba8da85f681a081a50165af3d014b5f73"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "A 12-week study of 936 autonomous AI agents conducting and peer-reviewing research is a research story: it matters to AI researchers tracking agent science, self-correction, and executable peer review, not general consumers. muse-intake 2026-11-19: submitted by Diego via alphaXiv's X post https://x.com/askalphaxiv/status/2123456265858740600 (Nov 19, 2026), verified against the alphaXiv study page 'A Society of AI Scientists'; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "5d7c7e46105c3d24260d33848f34559a3da21322f3cea2bf570c9462081c5f51"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A privacy and safety story about a mass-market consumer AI agent: Muse is the second most popular free iPhone app in the US with over 10 million downloads, and the report concerns encrypted messages and bank balances reaching the wrong users. It matters to general consumers deciding whether to trust the app, not only to AI researchers. muse-intake 2026-11-19: submitted by Diego via the 9to5Mac article https://9to5mac.com/2026/11/19/major-privacy-breaches-reported-in-muse-ai-including-bank-balances/ (2026-11-19), verified against the Reuters original reporting; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "ca076a535575e4d76e3f226ee5eb7f12d1963a90a7fdc4d3f32c9d59466df173"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Apple building its own autonomous agent is a major platform and competition story: device control, privacy, and the friction Apple is adding for rival agents, plus the DOJ suit and the market reaction. It matters to general readers following Apple and AI, not only developers. muse-intake 2026-11-19: submitted by Diego via the Bloomberg gift link https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9 (Mark Gurman, with Natalie Lung; published Nov 19, 2026 4:37 PM EST), verified by a live browser read; record URL is the clean Bloomberg URL (gift token expires ~Nov 26); image is AppleInsider's same-day coverage art, verified live; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "16257f413ab40fad755f0337c2c681f6c41da846618031b4285340d25b5e1455"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A new mobile experience for the ChatGPT app is a consumer product update: it changes how everyday users reach features on their phones, starting with Pro users who have a dot. It matters to general ChatGPT users, not to developers or researchers. muse-intake 2026-11-19: submitted by Diego via Tibo Sottiaux's X post https://x.com/thsottiaux/status/2123557171321561133 (6:20 PM Nov 19, 2026), verified by a live browser read; no same-day secondary coverage exists yet, so the record URL is the ChatGPT App Store listing (version 1.2026.314, released Nov 19, 2026); finalized by Muse per Diego's direction.",
+                "evidence_sha256": "dd7a24317368bb36523a66d7ffe803a6769ccfdec8b95d938d87851c0c06ed7c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Dots expanding beyond Pro and Business Premium matters to general ChatGPT users: Plus users are now in testing and Business Standard members get a personal dot. It is a ChatGPT product rollout, not a developer tool or a research paper. muse-intake 2026-11-19: submitted by Diego via Tibo Sottiaux's X post (6:17 PM Nov 19, 2026), verified live by the parent's browser read; the Business Standard half is corroborated by OpenAI's Help Center ChatGPT Business release notes, Nov 19, 2026 entry 'Dots for ChatGPT Business Standard', read live. Learn-more URL left empty per Diego's instruction: his one-off exception to use the release-notes URL was approved in chat, but the engine rejects it under policy and policy.json was not edited; no substitute link was used.",
+                "evidence_sha256": "6b8df599d912c6416dbc7b342748331bfb47db29562d1804a0319e78421281b9"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Blueprint-Bench 2 measures frontier models' spatial reasoning by drawing floor plans from photographs; Astra's first above-human score is a research result tracked by researchers and developers, not general consumer news. muse-intake 2026-11-19: submitted by Diego via Andon Labs' X post https://x.com/andonlabs/status/2123570732575989832 (7:14 PM Nov 19, 2026), verified against Andon Labs' Blueprint-Bench 2 leaderboard page; finalized by Muse per Diego's direction.",
+                "evidence_sha256": "baf79adf687862f7db7c35d1d84d65f2136a4a23c75e78db269c6946d6c3769a"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Anthropic began trading on Nasdaq as ANT on November 19, 2026, pricing 980 million shares at $83 each in an $81.3 billion offering, with shares closing the first day at $97.17, about 17 percent above the IPO price. This is general business and financial news about a major AI company's public listing, of interest to a general audience, not a technical product or research story. muse-compile-backfill 2026-11-20: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "47d99663ee8634e6cb11550926a6bee84df0b3d41c52f7299432c061c6988b9b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "OpenAI estimates its agents completed 46 percent of delegated research tasks without human intervention in October, up from 23 percent in March, for tasks estimated to take people two to four hours. The company cautions that changing task selection may affect the comparison, and researcher interviews stress the need for close human oversight. This is a research finding on AI agent capabilities for a research and technical audience, not general business news. muse-compile-backfill 2026-11-20: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "bb4391808a22e58a716e7c6507eb260a8a954b6529cdd7968b6736f0d5161b76"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-20T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
