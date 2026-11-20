@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1568,
-  "updated_at": "2026-11-20T21:44:17.538742+00:00",
-  "next_id": 509,
+  "generation": 1571,
+  "updated_at": "2026-11-20T23:55:07.930484+00:00",
+  "next_id": 510,
   "records": [
     {
       "id": 1,
@@ -6762,6 +6762,19 @@
           "sha256": "5c79e31b44fd326300f0d752ac9863e6fd442ed7202f7b438e2a62c523c5649c",
           "source": "METR",
           "request_id": "muse-intake-20261120-metr-q4-capability-update",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 509,
+      "revisions": [
+        {
+          "created_at": "2026-11-20T23:55:07.665089+00:00",
+          "block": "Title: Report: Cursor is being renamed Grok Build, with CLI 2.0 in alpha\nURL: https://sinch.com/blog/sinch-spacexsi-partner-network-grok-build-plugin/\nImage URL: https://sinch.com/wp-content/uploads/2026/09/Sinch_Cursor_Rock_Bank_1-scaled.png\nSummary: GrokInsider reports Cursor is being renamed Grok Build, with a faster app and CLI 2.0 already in alpha on a unified channel tied to the unified subscription, while the cube logo stays. Sinch's partner page already calls Grok Build the new name for Cursor, SpaceX Super Intelligence's AI coding tool. No official Cursor or SpaceXSI announcement confirms the rename yet.",
+          "sha256": "b70c90e1bedb6725f99a2f2e3d7a3c67529c573bc11b5c746d61751c5fc1246d",
+          "source": "Sinch",
+          "request_id": "muse-intake-20261120-cursor-grok-build",
           "mode": "standard"
         }
       ]
@@ -14902,6 +14915,23 @@
           "id": 508,
           "revision": 1,
           "sha256": "5c79e31b44fd326300f0d752ac9863e6fd442ed7202f7b438e2a62c523c5649c"
+        }
+      ]
+    },
+    "muse-intake-20261120-cursor-grok-build": {
+      "status": "finalized",
+      "received_at": "2026-11-20T23:55:07.439225+00:00",
+      "received_sequence": 460,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-20T23:55:07.665089+00:00",
+      "records": [
+        {
+          "id": 509,
+          "revision": 1,
+          "sha256": "b70c90e1bedb6725f99a2f2e3d7a3c67529c573bc11b5c746d61751c5fc1246d"
         }
       ]
     }
@@ -54840,6 +54870,40 @@
         },
         "editorial_sha256": "bc12fc0407e34bce6da9b1e9f456f7437ba84fd13d10db896780c199e63a4fda"
       }
+    },
+    "muse-intake-20261120-cursor-grok-build-receive-4116": {
+      "sha256": "a5c78d6287837195b7c73e442c72870cf6b1263a27ed7023389974ab595da372",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261120-cursor-grok-build"
+      }
+    },
+    "muse-intake-20261120-cursor-grok-build-finalize-3767": {
+      "sha256": "434845db9f2e93c3cafbb9c7a9cc9cf0012b50d425adb9ea843326f306c3b4eb",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261120-cursor-grok-build",
+        "records": [
+          {
+            "id": 509,
+            "revision": 1,
+            "sha256": "b70c90e1bedb6725f99a2f2e3d7a3c67529c573bc11b5c746d61751c5fc1246d"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261120-cursor-grok-build-review-6953": {
+      "sha256": "f38e0a88d54dfa4d86237e50c60487a9bd46c202f7abbdda1c9987b5a03dbf1e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 509,
+          "revision": 1,
+          "sha256": "b70c90e1bedb6725f99a2f2e3d7a3c67529c573bc11b5c746d61751c5fc1246d"
+        },
+        "editorial_sha256": "ac31ee48cf025732f9114de1dd6faf6f4bb022d0650f07b4e829e6667b10befa"
+      }
     }
   },
   "migration": {
@@ -67726,6 +67790,26 @@
         "sha256": "bc12fc0407e34bce6da9b1e9f456f7437ba84fd13d10db896780c199e63a4fda",
         "reviewed_at": "2026-11-20T21:44:17.538742+00:00",
         "operation_id": "muse-intake-20261120-metr-q4-capability-update-review-2554"
+      }
+    ],
+    "509:1": [
+      {
+        "reference": {
+          "id": 509,
+          "revision": 1,
+          "sha256": "b70c90e1bedb6725f99a2f2e3d7a3c67529c573bc11b5c746d61751c5fc1246d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The Cursor to Grok Build rename is a developer-tool story: it concerns an AI coding editor and its CLI, and the details that matter (CLI 2.0 alpha, unified subscription) are for developers using the tool; the audience is technical/developer_tool. muse-intake 2026-11-20: submitted by Diego via Puck's (@GrokInsider) X post https://x.com/GrokInsider/status/2123867269553938671 (2:53 PM EST Nov 20, 2026), full text verified via X's syndication endpoint; finalized by Muse per Diego's direction. The post is an insider report, not an official announcement; Sinch's partner page corroborates the rename and is the record URL (x.com is forbidden).",
+            "evidence_sha256": "b70c90e1bedb6725f99a2f2e3d7a3c67529c573bc11b5c746d61751c5fc1246d"
+          }
+        },
+        "sha256": "ac31ee48cf025732f9114de1dd6faf6f4bb022d0650f07b4e829e6667b10befa",
+        "reviewed_at": "2026-11-20T23:55:07.930484+00:00",
+        "operation_id": "muse-intake-20261120-cursor-grok-build-review-6953"
       }
     ]
   }
