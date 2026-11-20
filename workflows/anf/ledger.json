@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1543,
-  "updated_at": "2026-11-20T12:34:26.312164+00:00",
-  "next_id": 501,
+  "generation": 1544,
+  "updated_at": "2026-11-20T12:42:10.981767+00:00",
+  "next_id": 503,
   "records": [
     {
       "id": 1,
@@ -6657,6 +6657,34 @@
           "source": "Andon Labs",
           "request_id": "muse-intake-20261119-blueprint-bench-2",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 501,
+      "revisions": [
+        {
+          "created_at": "2026-11-20T12:42:10.981767+00:00",
+          "block": "Title: Anthropic Begins Nasdaq Trading After $81.3 Billion IPO\nURL: https://www.anthropic.com/news/anthropic-prices-initial-public-offering\nImage URL: https://dims.apnews.com/dims4/default/c162a22/2147483647/strip/true/crop/7173x4782%2B0%2B0/resize/599x399%21/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc2%2Ff2%2Ffa9e67d1b70bc6ab33e91de52d86%2F3647538bc83c4bffb75edbcf3a66d3cc\nSummary: Anthropic, the company behind Claude, began trading on Nasdaq as ANT on November 19, 2026. The company said it priced 980 million shares at $83 each, an $81.3 billion offering including sales by existing shareholders. Reuters reported that shares closed their first trading day at $97.17, about 17% above the IPO price.",
+          "sha256": "47d99663ee8634e6cb11550926a6bee84df0b3d41c52f7299432c061c6988b9b",
+          "source": "anthropic.com",
+          "request_id": "bd013d876a738cfa4e96ff1020ad7acb7c2dc8d1335d93b6d0ac4373c361aef4",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 502,
+      "revisions": [
+        {
+          "created_at": "2026-11-20T12:42:10.981767+00:00",
+          "block": "Title: OpenAI Reports Higher Success Rates on Delegated Research Tasks\nURL: https://dataphoenix.info/news/openai-coding-agents-research-task-success\nImage URL: https://cf.img.soft4fun.net/2026/03/image-15-1-scaled.jpg\nSummary: OpenAI estimates that its agents completed 46% of delegated research tasks without human intervention in October, up from 23% in March, for tasks estimated to take people two to four hours. The company cautions that changing task selection may affect the comparison, while researcher interviews highlight the need for close human oversight to prevent poor outputs and flawed analysis.",
+          "sha256": "bb4391808a22e58a716e7c6507eb260a8a954b6529cdd7968b6736f0d5161b76",
+          "source": "dataphoenix.info",
+          "request_id": "bd013d876a738cfa4e96ff1020ad7acb7c2dc8d1335d93b6d0ac4373c361aef4",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -14675,14 +14703,27 @@
       ]
     },
     "bd013d876a738cfa4e96ff1020ad7acb7c2dc8d1335d93b6d0ac4373c361aef4": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-20T12:34:26.312164+00:00",
       "received_sequence": 453,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-20T12:42:10.981767+00:00",
+      "records": [
+        {
+          "id": 501,
+          "revision": 1,
+          "sha256": "47d99663ee8634e6cb11550926a6bee84df0b3d41c52f7299432c061c6988b9b"
+        },
+        {
+          "id": 502,
+          "revision": 1,
+          "sha256": "bb4391808a22e58a716e7c6507eb260a8a954b6529cdd7968b6736f0d5161b76"
+        }
+      ]
     }
   },
   "batches": {
@@ -53894,6 +53935,26 @@
       "result": {
         "status": "received",
         "request_id": "bd013d876a738cfa4e96ff1020ad7acb7c2dc8d1335d93b6d0ac4373c361aef4"
+      }
+    },
+    "1417e022ba77a510ed6111eda618bbb71a7249b48fcd0ddd6677b23091f5a009": {
+      "sha256": "f40e1c0840afa505254b5bb9c9d8847165fed466bdb8e7a2de38ab2bf7d9f41b",
+      "result": {
+        "status": "finalized",
+        "request_id": "bd013d876a738cfa4e96ff1020ad7acb7c2dc8d1335d93b6d0ac4373c361aef4",
+        "records": [
+          {
+            "id": 501,
+            "revision": 1,
+            "sha256": "47d99663ee8634e6cb11550926a6bee84df0b3d41c52f7299432c061c6988b9b"
+          },
+          {
+            "id": 502,
+            "revision": 1,
+            "sha256": "bb4391808a22e58a716e7c6507eb260a8a954b6529cdd7968b6736f0d5161b76"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
