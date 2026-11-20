@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1553,
-  "updated_at": "2026-11-20T13:54:43.102200+00:00",
-  "next_id": 504,
+  "generation": 1556,
+  "updated_at": "2026-11-20T15:31:51.509649+00:00",
+  "next_id": 505,
   "records": [
     {
       "id": 1,
@@ -6697,6 +6697,19 @@
           "sha256": "0d432bac8ed7d4fe8e7ffdcbbd84ae3f23b8c8ce3d617441d3928707d9391ebd",
           "source": "The Tech Outlook",
           "request_id": "muse-intake-20261120-muse-mail-rollout",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 504,
+      "revisions": [
+        {
+          "created_at": "2026-11-20T15:31:51.267756+00:00",
+          "block": "Title: Levent Alpoge claims a Claude-assisted proof of the Riemann Hypothesis\nURL: https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/\nImage URL: https://static.scientificamerican.com/dam/asset/cee10388-a264-4ba7-b944-7f0a8daf537d/riemann.jpg?m=1795183538.4&w=600\nSummary: Anthropic mathematician Levent Alpoge says he and Claude have proved the Riemann Hypothesis, with the method also covering the Generalized Riemann Hypothesis. The argument is released only as Lean code on his site, with no readable paper yet. The claim is unverified: nobody outside his circle has confirmed the formalization builds or states the hypothesis correctly.",
+          "sha256": "4ff0211e47ff06abe2174ef0d17cbd7e9ae3a8a327d48414842e60c8faf966b5",
+          "source": "Scientific American",
+          "request_id": "muse-intake-20261120-riemann-hypothesis-proof",
           "mode": "standard"
         }
       ]
@@ -14752,6 +14765,23 @@
           "id": 503,
           "revision": 1,
           "sha256": "0d432bac8ed7d4fe8e7ffdcbbd84ae3f23b8c8ce3d617441d3928707d9391ebd"
+        }
+      ]
+    },
+    "muse-intake-20261120-riemann-hypothesis-proof": {
+      "status": "finalized",
+      "received_at": "2026-11-20T15:31:51.032355+00:00",
+      "received_sequence": 455,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-20T15:31:51.267756+00:00",
+      "records": [
+        {
+          "id": 504,
+          "revision": 1,
+          "sha256": "4ff0211e47ff06abe2174ef0d17cbd7e9ae3a8a327d48414842e60c8faf966b5"
         }
       ]
     }
@@ -54520,6 +54550,40 @@
           "planned_from_head": "286d4e45ded08139c88a490bc298ba56296dac26"
         }
       }
+    },
+    "muse-intake-20261120-riemann-hypothesis-proof-receive-5960": {
+      "sha256": "2cb20f5cad1c2ec801e1480711de9d7f19cd690042c56b1173b054de17a2b723",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261120-riemann-hypothesis-proof"
+      }
+    },
+    "muse-intake-20261120-riemann-hypothesis-proof-finalize-2404": {
+      "sha256": "7057132a6b10a84a370c9938b277c5348d8766e16f6db17a6aea8d57c438db0e",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261120-riemann-hypothesis-proof",
+        "records": [
+          {
+            "id": 504,
+            "revision": 1,
+            "sha256": "4ff0211e47ff06abe2174ef0d17cbd7e9ae3a8a327d48414842e60c8faf966b5"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261120-riemann-hypothesis-proof-review-3044": {
+      "sha256": "9c583ae9f1652ddfee78e31d25478957f8d3f748cdf492e393cb212de57f24ba",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 504,
+          "revision": 1,
+          "sha256": "4ff0211e47ff06abe2174ef0d17cbd7e9ae3a8a327d48414842e60c8faf966b5"
+        },
+        "editorial_sha256": "0c5a09cc848583bfa49efd805a29dce6307855c51761263fcf7324ab66167fa1"
+      }
     }
   },
   "migration": {
@@ -67306,6 +67370,26 @@
         "sha256": "dd20264c9abe59b8f6ea972f0d3540ec887d1418e8e972b6fdc1463b2d454633",
         "reviewed_at": "2026-11-20T13:49:25.955070+00:00",
         "operation_id": "muse-intake-20261120-muse-mail-rollout-review-2207"
+      }
+    ],
+    "504:1": [
+      {
+        "reference": {
+          "id": 504,
+          "revision": 1,
+          "sha256": "4ff0211e47ff06abe2174ef0d17cbd7e9ae3a8a327d48414842e60c8faf966b5"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A claimed proof of the most famous open problem in mathematics, formalized in Lean with a theta-lift argument extending to the Generalized Riemann Hypothesis, is research mathematics; its verification (whether the Lean archive builds and states the hypothesis) is a technical question for researchers and technically literate readers. muse-intake 2026-11-20: submitted by Diego via https://alpo.ge/remark.pdf, verified by a live browser read of the PDF and Scientific American's Nov 20 coverage; finalized by Muse per Diego's direction. The note is unsigned; authorship attributed to Levent Alpoge via Scientific American and OfficeChai coverage of his personal site alpo.ge. The claim is unverified and framed as the author's claim; the PDF is corroboration for the Scientific American record URL.",
+            "evidence_sha256": "4ff0211e47ff06abe2174ef0d17cbd7e9ae3a8a327d48414842e60c8faf966b5"
+          }
+        },
+        "sha256": "0c5a09cc848583bfa49efd805a29dce6307855c51761263fcf7324ab66167fa1",
+        "reviewed_at": "2026-11-20T15:31:51.509649+00:00",
+        "operation_id": "muse-intake-20261120-riemann-hypothesis-proof-review-3044"
       }
     ]
   }
