@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1548,
-  "updated_at": "2026-11-20T13:07:10.064269+00:00",
-  "next_id": 503,
+  "generation": 1551,
+  "updated_at": "2026-11-20T13:49:25.955070+00:00",
+  "next_id": 504,
   "records": [
     {
       "id": 1,
@@ -6685,6 +6685,19 @@
           "request_id": "bd013d876a738cfa4e96ff1020ad7acb7c2dc8d1335d93b6d0ac4373c361aef4",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 503,
+      "revisions": [
+        {
+          "created_at": "2026-11-20T13:49:25.735169+00:00",
+          "block": "Title: Muse Mail rolls out to everyone: your Muse gets its own @muse.ai address\nURL: https://www.thetechoutlook.com/new-release/software-apps/muse-now-supports-dedicated-muse-ai-email-addresses/\nImage URL: https://www.thetechoutlook.com/wp-content/uploads/2026/11/Muse_email_address1.jpg\nSummary: Muse's own email address is now rolling out to everyone in supported markets. Your Muse gets a @muse.ai handle and can send and receive email on your behalf, with you reviewing and approving before anything is sent. It opened to paid US and Canada subscribers Nov 10; the Nov 19 announcement extends it to all plans.",
+          "sha256": "0d432bac8ed7d4fe8e7ffdcbbd84ae3f23b8c8ce3d617441d3928707d9391ebd",
+          "source": "The Tech Outlook",
+          "request_id": "muse-intake-20261120-muse-mail-rollout",
+          "mode": "standard"
         }
       ]
     }
@@ -14722,6 +14735,23 @@
           "id": 502,
           "revision": 1,
           "sha256": "bb4391808a22e58a716e7c6507eb260a8a954b6529cdd7968b6736f0d5161b76"
+        }
+      ]
+    },
+    "muse-intake-20261120-muse-mail-rollout": {
+      "status": "finalized",
+      "received_at": "2026-11-20T13:49:25.501690+00:00",
+      "received_sequence": 454,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-20T13:49:25.735169+00:00",
+      "records": [
+        {
+          "id": 503,
+          "revision": 1,
+          "sha256": "0d432bac8ed7d4fe8e7ffdcbbd84ae3f23b8c8ce3d617441d3928707d9391ebd"
         }
       ]
     }
@@ -54396,6 +54426,40 @@
           "planned_from_head": "286d4e45ded08139c88a490bc298ba56296dac26"
         }
       }
+    },
+    "muse-intake-20261120-muse-mail-rollout-receive-6762": {
+      "sha256": "4cad2dd358301befbc2d31eac360b270a1b01499ce6a650bbe551dcf59d1d48c",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261120-muse-mail-rollout"
+      }
+    },
+    "muse-intake-20261120-muse-mail-rollout-finalize-8819": {
+      "sha256": "0575f12685a3fd6f023f9fdab222eaca14a0253bb54e2f8d5d30c954619b2e9e",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261120-muse-mail-rollout",
+        "records": [
+          {
+            "id": 503,
+            "revision": 1,
+            "sha256": "0d432bac8ed7d4fe8e7ffdcbbd84ae3f23b8c8ce3d617441d3928707d9391ebd"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261120-muse-mail-rollout-review-2207": {
+      "sha256": "5b5d7fff082fba456ad603ee6612f59230d9874460b52f2512cdc70b78df3955",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 503,
+          "revision": 1,
+          "sha256": "0d432bac8ed7d4fe8e7ffdcbbd84ae3f23b8c8ce3d617441d3928707d9391ebd"
+        },
+        "editorial_sha256": "dd20264c9abe59b8f6ea972f0d3540ec887d1418e8e972b6fdc1463b2d454633"
+      }
     }
   },
   "migration": {
@@ -67162,6 +67226,26 @@
         "sha256": "af72cc56679ba6148d1b68b67f237aec28d94f0c52b0b39fb74f0a1372ffc36d",
         "reviewed_at": "2026-11-20T13:02:02.286783+00:00",
         "operation_id": "muse-backfill-20261120-502-8329"
+      }
+    ],
+    "503:1": [
+      {
+        "reference": {
+          "id": 503,
+          "revision": 1,
+          "sha256": "0d432bac8ed7d4fe8e7ffdcbbd84ae3f23b8c8ce3d617441d3928707d9391ebd"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Muse Mail is a consumer product rollout reaching every Muse user in supported markets, not a research result or developer tool; the audience is general. muse-intake 2026-11-20: submitted by Diego via Muse's X post https://x.com/muse/status/2123602791356883032 (9:22 PM Nov 19, 2026), verified via X's syndication data service and corroborated by The Tech Outlook coverage; finalized by Muse per Diego's direction. muse.ai is policy-forbidden as a record URL, so The Tech Outlook is the record URL.",
+            "evidence_sha256": "0d432bac8ed7d4fe8e7ffdcbbd84ae3f23b8c8ce3d617441d3928707d9391ebd"
+          }
+        },
+        "sha256": "dd20264c9abe59b8f6ea972f0d3540ec887d1418e8e972b6fdc1463b2d454633",
+        "reviewed_at": "2026-11-20T13:49:25.955070+00:00",
+        "operation_id": "muse-intake-20261120-muse-mail-rollout-review-2207"
       }
     ]
   }
