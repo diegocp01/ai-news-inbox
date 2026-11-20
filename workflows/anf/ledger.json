@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1565,
-  "updated_at": "2026-11-20T21:34:04.548608+00:00",
-  "next_id": 508,
+  "generation": 1568,
+  "updated_at": "2026-11-20T21:44:17.538742+00:00",
+  "next_id": 509,
   "records": [
     {
       "id": 1,
@@ -6749,6 +6749,19 @@
           "sha256": "85ab63313046b243f4b0f2f078b034a4f84031146bf1b7063efc50323fbb2a59",
           "source": "vLLM Blog",
           "request_id": "muse-intake-20261120-inkling-2-mini",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 508,
+      "revisions": [
+        {
+          "created_at": "2026-11-20T21:44:17.321382+00:00",
+          "block": "Title: METR: AI R&D capabilities are improving rapidly and getting harder to measure\nURL: https://metr.org/blog/2026-11-20-q4-2026-capability-update/\nImage URL: https://metr.org/assets/images/q4-2026-capability-update/1eb15f15412f8e86.webp\nSummary: METR's Q4 2026 update finds public models now match or beat skilled humans on coding and optimization tasks relevant to AI R&D, with time horizons doubling about every 3.6 months. Its Capability Index shows no clear acceleration or slowdown, but current evidence cannot rule out drastic AI R&D acceleration in the next couple of years.",
+          "sha256": "5c79e31b44fd326300f0d752ac9863e6fd442ed7202f7b438e2a62c523c5649c",
+          "source": "METR",
+          "request_id": "muse-intake-20261120-metr-q4-capability-update",
           "mode": "standard"
         }
       ]
@@ -14872,6 +14885,23 @@
           "id": 507,
           "revision": 1,
           "sha256": "85ab63313046b243f4b0f2f078b034a4f84031146bf1b7063efc50323fbb2a59"
+        }
+      ]
+    },
+    "muse-intake-20261120-metr-q4-capability-update": {
+      "status": "finalized",
+      "received_at": "2026-11-20T21:44:17.085592+00:00",
+      "received_sequence": 459,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-20T21:44:17.321382+00:00",
+      "records": [
+        {
+          "id": 508,
+          "revision": 1,
+          "sha256": "5c79e31b44fd326300f0d752ac9863e6fd442ed7202f7b438e2a62c523c5649c"
         }
       ]
     }
@@ -54776,6 +54806,40 @@
         },
         "editorial_sha256": "a75469fd1a9218013c197a2ca6dcf36fd1b8b202a24ec382a67599b0930977b5"
       }
+    },
+    "muse-intake-20261120-metr-q4-capability-update-receive-1043": {
+      "sha256": "6d7a090eda722c00dfb6ef1348b6564f3453c9b5429ee48e67cb15c3bf95eeed",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261120-metr-q4-capability-update"
+      }
+    },
+    "muse-intake-20261120-metr-q4-capability-update-finalize-8372": {
+      "sha256": "92754e77c6dd863ae888e2e23063e023a36a18fb3d1f6876a57567fa2494963c",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261120-metr-q4-capability-update",
+        "records": [
+          {
+            "id": 508,
+            "revision": 1,
+            "sha256": "5c79e31b44fd326300f0d752ac9863e6fd442ed7202f7b438e2a62c523c5649c"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261120-metr-q4-capability-update-review-2554": {
+      "sha256": "b670ff8afa855679300875a25aa4a49e070f2a32ca1b7dd849010c2e28619bfb",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 508,
+          "revision": 1,
+          "sha256": "5c79e31b44fd326300f0d752ac9863e6fd442ed7202f7b438e2a62c523c5649c"
+        },
+        "editorial_sha256": "bc12fc0407e34bce6da9b1e9f456f7437ba84fd13d10db896780c199e63a4fda"
+      }
     }
   },
   "migration": {
@@ -67642,6 +67706,26 @@
         "sha256": "a75469fd1a9218013c197a2ca6dcf36fd1b8b202a24ec382a67599b0930977b5",
         "reviewed_at": "2026-11-20T21:34:04.548608+00:00",
         "operation_id": "muse-intake-20261120-inkling-2-mini-review-8672"
+      }
+    ],
+    "508:1": [
+      {
+        "reference": {
+          "id": 508,
+          "revision": 1,
+          "sha256": "5c79e31b44fd326300f0d752ac9863e6fd442ed7202f7b438e2a62c523c5649c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "METR's Q4 capability update is a research evaluation of AI R&D-relevant model capabilities — time horizons, the METR Capability Index, and whether AI R&D acceleration is coming — written for researchers and technical readers tracking the frontier; the audience is technical/research. muse-intake 2026-11-20: submitted by Diego via the METR blog link https://metr.org/blog/2026-11-20-q4-2026-capability-update/ (Nov 20, 2026), article read in full via browser.open; finalized by Muse per Diego's direction. metr.org is not among the ledger policy's forbidden domains/suffixes, so the article itself is the record URL.",
+            "evidence_sha256": "5c79e31b44fd326300f0d752ac9863e6fd442ed7202f7b438e2a62c523c5649c"
+          }
+        },
+        "sha256": "bc12fc0407e34bce6da9b1e9f456f7437ba84fd13d10db896780c199e63a4fda",
+        "reviewed_at": "2026-11-20T21:44:17.538742+00:00",
+        "operation_id": "muse-intake-20261120-metr-q4-capability-update-review-2554"
       }
     ]
   }
