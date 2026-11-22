@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1574,
-  "updated_at": "2026-11-22T13:49:37.839169+00:00",
-  "next_id": 511,
+  "generation": 1577,
+  "updated_at": "2026-11-22T14:10:26.897607+00:00",
+  "next_id": 512,
   "records": [
     {
       "id": 1,
@@ -6788,6 +6788,19 @@
           "sha256": "698048d1dcb7bce7cf1343de69b0038b8538db5206bce09dd94584ea06a0f463",
           "source": "John Suh",
           "request_id": "muse-intake-20261122-john-suh-agent-platform-2027",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 511,
+      "revisions": [
+        {
+          "created_at": "2026-11-22T14:10:26.660233+00:00",
+          "block": "Title: Elon Musk explains how Tesla's FSD Reality View works: a pixel-perfect world model\nURL: \nImage URL: https://electrek.co/wp-content/uploads/sites/3/2026/11/Tesla-FSD-v15-update.jpeg?quality=82&strip=all&resize=1200,628\nSummary: Musk explains Tesla's FSD Reality View: a pixel-perfect world model built for synthetic data feeds a smaller conditional mean-flow model in the car. It forks from Universal Vision Encoder features, runs a ~1B diffusion model on half a TRIP engine at 18 Hz, and renders 8-frame chunks at 36 fps. Latency is still high; interleaving newer features could cut ~35%.",
+          "sha256": "7971c8d6a2fc0b71885173012eae0e2f88b4be62fc6278d66df94a37ff5c2f83",
+          "source": "Elon Musk",
+          "request_id": "muse-intake-20261122-elon-musk-fsd-reality-view-world-model",
           "mode": "standard"
         }
       ]
@@ -14962,6 +14975,23 @@
           "id": 510,
           "revision": 1,
           "sha256": "698048d1dcb7bce7cf1343de69b0038b8538db5206bce09dd94584ea06a0f463"
+        }
+      ]
+    },
+    "muse-intake-20261122-elon-musk-fsd-reality-view-world-model": {
+      "status": "finalized",
+      "received_at": "2026-11-22T14:10:26.433693+00:00",
+      "received_sequence": 462,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-22T14:10:26.660233+00:00",
+      "records": [
+        {
+          "id": 511,
+          "revision": 1,
+          "sha256": "7971c8d6a2fc0b71885173012eae0e2f88b4be62fc6278d66df94a37ff5c2f83"
         }
       ]
     }
@@ -54968,6 +54998,40 @@
         },
         "editorial_sha256": "d5a474c32b5a039b110c7a2be3ce1e576f0993ef18d25f6292c5b8fcef92f551"
       }
+    },
+    "muse-intake-20261122-elon-musk-fsd-reality-view-world-model-receive-3231": {
+      "sha256": "8507127254c55e50132aa2e0ee5a47a51243ef89f63967f314075d2f65bf7b1f",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261122-elon-musk-fsd-reality-view-world-model"
+      }
+    },
+    "muse-intake-20261122-elon-musk-fsd-reality-view-world-model-finalize-7125": {
+      "sha256": "c6e42f10ada3f9e1ada3f8d5aeab6acee73b5aca9aaca211c98d7f43be4238cd",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261122-elon-musk-fsd-reality-view-world-model",
+        "records": [
+          {
+            "id": 511,
+            "revision": 1,
+            "sha256": "7971c8d6a2fc0b71885173012eae0e2f88b4be62fc6278d66df94a37ff5c2f83"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261122-elon-musk-fsd-reality-view-world-model-review-5692": {
+      "sha256": "07b24204a368c5378f51938b36dbd75b1ee6c166c2b0c20a1067ea875ec2604e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 511,
+          "revision": 1,
+          "sha256": "7971c8d6a2fc0b71885173012eae0e2f88b4be62fc6278d66df94a37ff5c2f83"
+        },
+        "editorial_sha256": "0899b8dce5587de7013d6327ec7fd308deedf96953c16d73f48082917889e06e"
+      }
     }
   },
   "migration": {
@@ -67894,6 +67958,26 @@
         "sha256": "d5a474c32b5a039b110c7a2be3ce1e576f0993ef18d25f6292c5b8fcef92f551",
         "reviewed_at": "2026-11-22T13:49:37.839169+00:00",
         "operation_id": "muse-intake-20261122-john-suh-agent-platform-2027-review-1185"
+      }
+    ],
+    "511:1": [
+      {
+        "reference": {
+          "id": 511,
+          "revision": 1,
+          "sha256": "7971c8d6a2fc0b71885173012eae0e2f88b4be62fc6278d66df94a37ff5c2f83"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Musk's post is a detailed technical explanation of how FSD v15's Reality View works: world model, Universal Vision Encoder, mean-flow model, ~1B diffusion model, TRIP engine. It is engineering detail for readers following autonomous-driving AI, not a general consumer announcement. muse-intake 2026-11-22: submitted by Diego via Elon Musk's (@elonmusk) X post https://x.com/elonmusk/status/2124458557525397780 (Nov 22, 2026, 06:02 EST), full text verified via AMP route, FxTwitter mirror and syndication endpoint after x.com 403'd; finalized by Muse per Diego's direction. Learn-more URL left empty per Diego's rule: no policy-allowed secondary coverage of this specific post was found; Nov 21 rollout coverage does not cover this technical explanation. Image is Electrek's FSD v15 article image, verified live (JPEG 1200x628).",
+            "evidence_sha256": "7971c8d6a2fc0b71885173012eae0e2f88b4be62fc6278d66df94a37ff5c2f83"
+          }
+        },
+        "sha256": "0899b8dce5587de7013d6327ec7fd308deedf96953c16d73f48082917889e06e",
+        "reviewed_at": "2026-11-22T14:10:26.897607+00:00",
+        "operation_id": "muse-intake-20261122-elon-musk-fsd-reality-view-world-model-review-5692"
       }
     ]
   }
