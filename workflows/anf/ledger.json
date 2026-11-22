@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1577,
-  "updated_at": "2026-11-22T14:10:26.897607+00:00",
-  "next_id": 512,
+  "generation": 1580,
+  "updated_at": "2026-11-22T20:22:10.483358+00:00",
+  "next_id": 513,
   "records": [
     {
       "id": 1,
@@ -6801,6 +6801,19 @@
           "sha256": "7971c8d6a2fc0b71885173012eae0e2f88b4be62fc6278d66df94a37ff5c2f83",
           "source": "Elon Musk",
           "request_id": "muse-intake-20261122-elon-musk-fsd-reality-view-world-model",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 512,
+      "revisions": [
+        {
+          "created_at": "2026-11-22T20:22:10.255365+00:00",
+          "block": "Title: OpenAI: Perplexity should be the shared metric for AI progress — and the basis for common limits\nURL: https://aiparabellum.com/openai-proposes-perplexity-limits-ai-safety-standard/\nImage URL: https://aiparabellum.com/wp-content/uploads/2026/11/openai-proposes-perplexity-limits-ai-safety-standard.webp\nSummary: OpenAI chief scientist Jakub Pachocki publishes OpenAI's log-perplexity scores and argues perplexity should be the shared metric for tracking AI progress and safety limits. GPT-3.5 scored ~0.99, GPT-4 ~0.91, models below 0.8, and a math model at ~0.76 solved open problems. He expects transformative capabilities in the 0.68-0.7 window and proposes limits labs would not cross until monitoring catches up.",
+          "sha256": "31b67c493d6c05eb6132e955da0ad38cd74278def671a598331690cb5782b434",
+          "source": "AI Parabellum",
+          "request_id": "muse-intake-20261122-openai-perplexity-intelligence",
           "mode": "standard"
         }
       ]
@@ -14992,6 +15005,23 @@
           "id": 511,
           "revision": 1,
           "sha256": "7971c8d6a2fc0b71885173012eae0e2f88b4be62fc6278d66df94a37ff5c2f83"
+        }
+      ]
+    },
+    "muse-intake-20261122-openai-perplexity-intelligence": {
+      "status": "finalized",
+      "received_at": "2026-11-22T20:22:10.000612+00:00",
+      "received_sequence": 463,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-22T20:22:10.255365+00:00",
+      "records": [
+        {
+          "id": 512,
+          "revision": 1,
+          "sha256": "31b67c493d6c05eb6132e955da0ad38cd74278def671a598331690cb5782b434"
         }
       ]
     }
@@ -55032,6 +55062,40 @@
         },
         "editorial_sha256": "0899b8dce5587de7013d6327ec7fd308deedf96953c16d73f48082917889e06e"
       }
+    },
+    "muse-intake-20261122-openai-perplexity-intelligence-receive-5964": {
+      "sha256": "8fcd21c18f655c79aeb7167ff5677c6f3ada38488471e0992b66a91fca9e00ab",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261122-openai-perplexity-intelligence"
+      }
+    },
+    "muse-intake-20261122-openai-perplexity-intelligence-finalize-1429": {
+      "sha256": "4f2d7d53e50e14e3e6784ea03da1f19135482ecb8198f56bcdaa528908b98e7a",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261122-openai-perplexity-intelligence",
+        "records": [
+          {
+            "id": 512,
+            "revision": 1,
+            "sha256": "31b67c493d6c05eb6132e955da0ad38cd74278def671a598331690cb5782b434"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261122-openai-perplexity-intelligence-review-9084": {
+      "sha256": "1fcbf62a1c67c286d629c6b3dc41f5aef5aad25577db663fd82ddf19c903f1fc",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 512,
+          "revision": 1,
+          "sha256": "31b67c493d6c05eb6132e955da0ad38cd74278def671a598331690cb5782b434"
+        },
+        "editorial_sha256": "844bfdeb8460b0b3dadcfb1d33a1c4875104d89e2059df3a3980636a34f02568"
+      }
     }
   },
   "migration": {
@@ -67978,6 +68042,26 @@
         "sha256": "0899b8dce5587de7013d6327ec7fd308deedf96953c16d73f48082917889e06e",
         "reviewed_at": "2026-11-22T14:10:26.897607+00:00",
         "operation_id": "muse-intake-20261122-elon-musk-fsd-reality-view-world-model-review-5692"
+      }
+    ],
+    "512:1": [
+      {
+        "reference": {
+          "id": 512,
+          "revision": 1,
+          "sha256": "31b67c493d6c05eb6132e955da0ad38cd74278def671a598331690cb5782b434"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Pachocki's essay is a research-level proposal: it publishes OpenAI's internal log-perplexity scores, argues perplexity (cross-entropy loss) should be the shared metric for tracking pretraining progress, and proposes common development limits tied to it. It is aimed at readers following frontier-model research and AI safety, not a general consumer announcement. muse-intake 2026-11-22: submitted by Diego via OpenAI's essay \"Perplexity and Intelligence\" by chief scientist Jakub Pachocki (https://openai.com/index/perplexity-and-intelligence/, Nov 22, 2026), read in full; finalized by Muse per Diego's direction. Learn-more URL is AI Parabellum's same-day coverage, verified in full: openai.com is policy-forbidden and the MLQ.ai piece is a forbidden .ai domain. Image is AI Parabellum's article image, verified live (WebP 1200x675).",
+            "evidence_sha256": "31b67c493d6c05eb6132e955da0ad38cd74278def671a598331690cb5782b434"
+          }
+        },
+        "sha256": "844bfdeb8460b0b3dadcfb1d33a1c4875104d89e2059df3a3980636a34f02568",
+        "reviewed_at": "2026-11-22T20:22:10.483358+00:00",
+        "operation_id": "muse-intake-20261122-openai-perplexity-intelligence-review-9084"
       }
     ]
   }
