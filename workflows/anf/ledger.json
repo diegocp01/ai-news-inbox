@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1571,
-  "updated_at": "2026-11-20T23:55:07.930484+00:00",
-  "next_id": 510,
+  "generation": 1574,
+  "updated_at": "2026-11-22T13:49:37.839169+00:00",
+  "next_id": 511,
   "records": [
     {
       "id": 1,
@@ -6775,6 +6775,19 @@
           "sha256": "b70c90e1bedb6725f99a2f2e3d7a3c67529c573bc11b5c746d61751c5fc1246d",
           "source": "Sinch",
           "request_id": "muse-intake-20261120-cursor-grok-build",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 510,
+      "revisions": [
+        {
+          "created_at": "2026-11-22T13:49:37.622804+00:00",
+          "block": "Title: John Suh: the agent platform of 2027 is the end game for the application layer\nURL: \nImage URL: https://cdn.prod.website-files.com/68021b30bfc57a46cf6259a9/6ad0a456008d4bcb256dac0d_John%20Suh_Website.png\nSummary: John Suh argues the agent platform of 2027 is the end game: one application layer, an everything agentic operating system for a million-agent swarm, with other software effectively becoming databases for it. He believes an independent company will own that layer, while most enterprise agent platform and vertical SaaS firms are too narrowly focused and lack the product vision.",
+          "sha256": "698048d1dcb7bce7cf1343de69b0038b8538db5206bce09dd94584ea06a0f463",
+          "source": "John Suh",
+          "request_id": "muse-intake-20261122-john-suh-agent-platform-2027",
           "mode": "standard"
         }
       ]
@@ -14932,6 +14945,23 @@
           "id": 509,
           "revision": 1,
           "sha256": "b70c90e1bedb6725f99a2f2e3d7a3c67529c573bc11b5c746d61751c5fc1246d"
+        }
+      ]
+    },
+    "muse-intake-20261122-john-suh-agent-platform-2027": {
+      "status": "finalized",
+      "received_at": "2026-11-22T13:49:37.399959+00:00",
+      "received_sequence": 461,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-22T13:49:37.622804+00:00",
+      "records": [
+        {
+          "id": 510,
+          "revision": 1,
+          "sha256": "698048d1dcb7bce7cf1343de69b0038b8538db5206bce09dd94584ea06a0f463"
         }
       ]
     }
@@ -54904,6 +54934,40 @@
         },
         "editorial_sha256": "ac31ee48cf025732f9114de1dd6faf6f4bb022d0650f07b4e829e6667b10befa"
       }
+    },
+    "muse-intake-20261122-john-suh-agent-platform-2027-receive-6649": {
+      "sha256": "7b477cd88d82c7ff71bcf6d74715613598ef6b0d3065c23024df5964c51770fd",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261122-john-suh-agent-platform-2027"
+      }
+    },
+    "muse-intake-20261122-john-suh-agent-platform-2027-finalize-4270": {
+      "sha256": "e98473e65daffbd171a630ef3ff7c049ce743118229f9c98fb734b7743352996",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261122-john-suh-agent-platform-2027",
+        "records": [
+          {
+            "id": 510,
+            "revision": 1,
+            "sha256": "698048d1dcb7bce7cf1343de69b0038b8538db5206bce09dd94584ea06a0f463"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261122-john-suh-agent-platform-2027-review-1185": {
+      "sha256": "9f727375741508085357fcd484130eee926b3d2343175c92ef453c1b4a2a2754",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 510,
+          "revision": 1,
+          "sha256": "698048d1dcb7bce7cf1343de69b0038b8538db5206bce09dd94584ea06a0f463"
+        },
+        "editorial_sha256": "d5a474c32b5a039b110c7a2be3ce1e576f0993ef18d25f6292c5b8fcef92f551"
+      }
     }
   },
   "migration": {
@@ -67810,6 +67874,26 @@
         "sha256": "ac31ee48cf025732f9114de1dd6faf6f4bb022d0650f07b4e829e6667b10befa",
         "reviewed_at": "2026-11-20T23:55:07.930484+00:00",
         "operation_id": "muse-intake-20261120-cursor-grok-build-review-6953"
+      }
+    ],
+    "510:1": [
+      {
+        "reference": {
+          "id": 510,
+          "revision": 1,
+          "sha256": "698048d1dcb7bce7cf1343de69b0038b8538db5206bce09dd94584ea06a0f463"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Suh's agent-platform-of-2027 vision is a broad industry argument about where the application layer goes: one agentic operating system with other software as databases. It is a strategy take for general readers following AI, not a developer tool or a research result. muse-intake 2026-11-22: submitted by Diego via John Suh's (@john_ssuh) X post https://x.com/john_ssuh/status/2124336124172935336 (Nov 22, 2026, 02:56 UTC), full text verified via X syndication endpoint and FxTwitter mirror after x.com 403'd; finalized by Muse per Diego's direction. Learn-more URL left empty per Diego's rule: no policy-allowed secondary coverage of this post was found; the Navigate VC interview page is a bio profile, not coverage of the post. Image is Suh's portrait from that page's og:image, verified live (PNG 954x574).",
+            "evidence_sha256": "698048d1dcb7bce7cf1343de69b0038b8538db5206bce09dd94584ea06a0f463"
+          }
+        },
+        "sha256": "d5a474c32b5a039b110c7a2be3ce1e576f0993ef18d25f6292c5b8fcef92f551",
+        "reviewed_at": "2026-11-22T13:49:37.839169+00:00",
+        "operation_id": "muse-intake-20261122-john-suh-agent-platform-2027-review-1185"
       }
     ]
   }
