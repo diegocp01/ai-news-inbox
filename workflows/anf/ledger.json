@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1649,
-  "updated_at": "2026-11-23T22:01:55.368256+00:00",
-  "next_id": 536,
+  "generation": 1652,
+  "updated_at": "2026-11-23T22:41:03.627323+00:00",
+  "next_id": 537,
   "records": [
     {
       "id": 1,
@@ -7115,6 +7115,19 @@
           "sha256": "60fb7d3e320e6c891b770a2df6e97cefd3b0085335b27d50877580398e5e0d5f",
           "source": "OpenAI",
           "request_id": "muse-intake-20261123-shirudo",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 536,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T22:41:03.361199+00:00",
+          "block": "Title: P-Zero Research: GPT-6.2 Astra has 4.9x the research taste of top human experts on TasteVal\nURL: https://pzeroresearch.com/work/tasteval/\nImage URL: https://pzeroresearch.com/assets/og/tasteval.png\nSummary: P-Zero Research estimates GPT-6.2 Astra has 4.9 times the research taste of the best human experts on TasteVal, the highest score they have measured. Claude Fable 5.2 scores 2.5 times. TasteVal measures how efficiently a model designs experiments and interprets results on eight AI R&D tasks, relative to expert baseliners. Research taste has doubled every three months since December 2025.",
+          "sha256": "e53bfae5d15b7c38641025c435f298a5907239c40a27d9958e8aa5b4c02f0be7",
+          "source": "P-Zero Research",
+          "request_id": "muse-intake-20261123-pzero-tasteval",
           "mode": "standard"
         }
       ]
@@ -15691,6 +15704,23 @@
           "id": 535,
           "revision": 1,
           "sha256": "60fb7d3e320e6c891b770a2df6e97cefd3b0085335b27d50877580398e5e0d5f"
+        }
+      ]
+    },
+    "muse-intake-20261123-pzero-tasteval": {
+      "status": "finalized",
+      "received_at": "2026-11-23T22:41:03.113468+00:00",
+      "received_sequence": 485,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T22:41:03.361199+00:00",
+      "records": [
+        {
+          "id": 536,
+          "revision": 1,
+          "sha256": "e53bfae5d15b7c38641025c435f298a5907239c40a27d9958e8aa5b4c02f0be7"
         }
       ]
     }
@@ -57067,6 +57097,40 @@
         },
         "editorial_sha256": "a2328aff32b36f28fbbf7c55f7dd0c29083548c9b60f76ef1506a747129376c1"
       }
+    },
+    "muse-intake-20261123-pzero-tasteval-receive-2506": {
+      "sha256": "f1e9ec810afa2491eea71f55b2cf3ae69e8e4bcca06554544d96974302015795",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-pzero-tasteval"
+      }
+    },
+    "muse-intake-20261123-pzero-tasteval-finalize-7038": {
+      "sha256": "dda2c1ac52a46ea866e94df2b0721ddbcefe84a385445a7ee9c85d252cb04099",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-pzero-tasteval",
+        "records": [
+          {
+            "id": 536,
+            "revision": 1,
+            "sha256": "e53bfae5d15b7c38641025c435f298a5907239c40a27d9958e8aa5b4c02f0be7"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-pzero-tasteval-review-6465": {
+      "sha256": "149d088ea722fea81c0e67d7c491b12d93b9a0c047d689aea8a90a9bc50b61b6",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 536,
+          "revision": 1,
+          "sha256": "e53bfae5d15b7c38641025c435f298a5907239c40a27d9958e8aa5b4c02f0be7"
+        },
+        "editorial_sha256": "a8e5867c172acd5676e2120f5504e7f9195d59dc02d3fc770c459ec8da63f8da"
+      }
     }
   },
   "migration": {
@@ -70493,6 +70557,26 @@
         "sha256": "a2328aff32b36f28fbbf7c55f7dd0c29083548c9b60f76ef1506a747129376c1",
         "reviewed_at": "2026-11-23T22:01:55.368256+00:00",
         "operation_id": "muse-intake-20261123-shirudo-review-9958"
+      }
+    ],
+    "536:1": [
+      {
+        "reference": {
+          "id": 536,
+          "revision": 1,
+          "sha256": "e53bfae5d15b7c38641025c435f298a5907239c40a27d9958e8aa5b4c02f0be7"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A research-evaluation result: a benchmark measuring experimental research taste, how efficiently models design experiments and interpret results on AI R&D tasks relative to human experts. A research finding about model capability trajectories, not a product launch or developer tool. muse-intake 2026-11-23: submitted by Diego via the @pzeroresearch X post (https://x.com/pzeroresearch/status/2124973722989957377, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes; TasteVal write-up read in full. Learn-more URL is the TasteVal write-up; pzeroresearch.com verified against live policy.json (not forbidden, no .ai suffix). Image is the write-up og:image, verified live (PNG 1200x630).",
+            "evidence_sha256": "e53bfae5d15b7c38641025c435f298a5907239c40a27d9958e8aa5b4c02f0be7"
+          }
+        },
+        "sha256": "a8e5867c172acd5676e2120f5504e7f9195d59dc02d3fc770c459ec8da63f8da",
+        "reviewed_at": "2026-11-23T22:41:03.627323+00:00",
+        "operation_id": "muse-intake-20261123-pzero-tasteval-review-6465"
       }
     ]
   }
