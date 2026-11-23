@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1640,
-  "updated_at": "2026-11-23T20:46:25.919803+00:00",
-  "next_id": 533,
+  "generation": 1643,
+  "updated_at": "2026-11-23T20:50:53.665567+00:00",
+  "next_id": 534,
   "records": [
     {
       "id": 1,
@@ -7076,6 +7076,19 @@
           "sha256": "6834878748e2d01a5de6bba64b31f6862a4b04645ab58e0b381dc0573e06ed9f",
           "source": "Anthropic",
           "request_id": "muse-intake-20261123-claude-ship",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 533,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T20:50:53.391492+00:00",
+          "block": "Title: Gemini 4 Neon takes the FrontierRSI lead, ahead of Fable 5.2 and Astra 6.2\nURL: https://frontier-rsi.org/\nImage URL: https://news.sulat.com/wp-content/uploads/2026/11/hero-frontierrsi-abundant-benchmark.jpg\nSummary: Google's Gemini 4 Neon now leads Abundant's FrontierRSI benchmark at 35.2%, ahead of Claude Fable 5.2 at 33.6% and GPT-6.2 Astra at 30.8%. FrontierRSI scores agents on 27 AI research and engineering tasks across pre-training, post-training, inference and GPU kernels, testing whether AI can improve AI itself. Neon tops a board that Claude Opus 5.5 led at launch with 34.3%.",
+          "sha256": "a7178bcbe2125d12c721577dd21ed9904be91eaf0fbddb5bf6a43597584b431e",
+          "source": "FrontierRSI leaderboard (frontier-rsi.org)",
+          "request_id": "muse-intake-20261123-gemini-neon-frontierrsi-lead",
           "mode": "standard"
         }
       ]
@@ -15601,6 +15614,23 @@
           "id": 532,
           "revision": 1,
           "sha256": "6834878748e2d01a5de6bba64b31f6862a4b04645ab58e0b381dc0573e06ed9f"
+        }
+      ]
+    },
+    "muse-intake-20261123-gemini-neon-frontierrsi-lead": {
+      "status": "finalized",
+      "received_at": "2026-11-23T20:50:53.138367+00:00",
+      "received_sequence": 482,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T20:50:53.391492+00:00",
+      "records": [
+        {
+          "id": 533,
+          "revision": 1,
+          "sha256": "a7178bcbe2125d12c721577dd21ed9904be91eaf0fbddb5bf6a43597584b431e"
         }
       ]
     }
@@ -56875,6 +56905,40 @@
         },
         "editorial_sha256": "0940e617e2849d085a178de6f82ebc920de0e000dee6f86ea43225234f9b226f"
       }
+    },
+    "muse-intake-20261123-gemini-neon-frontierrsi-lead-receive-5579": {
+      "sha256": "1e8f3aa866448f6d6bb120b2ab9b318a9cd6feab4cebf2d7b971ec8fe692f25f",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-gemini-neon-frontierrsi-lead"
+      }
+    },
+    "muse-intake-20261123-gemini-neon-frontierrsi-lead-finalize-7106": {
+      "sha256": "84d0d2e35d3bffd5886c0348114caf2eff8e81825129562666459bc2d6cd3242",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-gemini-neon-frontierrsi-lead",
+        "records": [
+          {
+            "id": 533,
+            "revision": 1,
+            "sha256": "a7178bcbe2125d12c721577dd21ed9904be91eaf0fbddb5bf6a43597584b431e"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-gemini-neon-frontierrsi-lead-review-1695": {
+      "sha256": "c6ecc3e9df3dd24a4bd9e3dc0a4ca5e93cbd15ca5a211514587ed5ddbeb53162",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 533,
+          "revision": 1,
+          "sha256": "a7178bcbe2125d12c721577dd21ed9904be91eaf0fbddb5bf6a43597584b431e"
+        },
+        "editorial_sha256": "0f94aabcaf91e921fd83a74ed0e75a4d5fec63573925acae66faef85ccb06301"
+      }
     }
   },
   "migration": {
@@ -70241,6 +70305,26 @@
         "sha256": "0940e617e2849d085a178de6f82ebc920de0e000dee6f86ea43225234f9b226f",
         "reviewed_at": "2026-11-23T20:46:25.919803+00:00",
         "operation_id": "muse-intake-20261123-claude-ship-review-8550"
+      }
+    ],
+    "533:1": [
+      {
+        "reference": {
+          "id": 533,
+          "revision": 1,
+          "sha256": "a7178bcbe2125d12c721577dd21ed9904be91eaf0fbddb5bf6a43597584b431e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A model benchmark leaderboard for a research audience: Gemini 4 Neon now tops Abundant's recursive self-improvement benchmark, which tests whether AI agents can do the research and engineering needed to improve AI itself. The ranking itself, not a product launch, is the news. muse-intake 2026-11-23: submitted by Diego via the @abundant_labs X post (https://x.com/abundant_labs/status/2124921114329821361, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes. Claim verified from the FrontierRSI leaderboard itself, read live (frontier-rsi.org, Nov 23): Neon 35.2%, Fable 5.2 33.6%, GPT-6.2 Astra 30.8%. Learn-more URL is the leaderboard; frontier-rsi.org verified against live policy.json (not forbidden). Image is the Sulat article og:image, verified live (JPEG 2560x1440).",
+            "evidence_sha256": "a7178bcbe2125d12c721577dd21ed9904be91eaf0fbddb5bf6a43597584b431e"
+          }
+        },
+        "sha256": "0f94aabcaf91e921fd83a74ed0e75a4d5fec63573925acae66faef85ccb06301",
+        "reviewed_at": "2026-11-23T20:50:53.665567+00:00",
+        "operation_id": "muse-intake-20261123-gemini-neon-frontierrsi-lead-review-1695"
       }
     ]
   }
