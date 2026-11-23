@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1610,
-  "updated_at": "2026-11-23T16:36:31.644148+00:00",
-  "next_id": 523,
+  "generation": 1613,
+  "updated_at": "2026-11-23T18:02:58.013528+00:00",
+  "next_id": 524,
   "records": [
     {
       "id": 1,
@@ -6946,6 +6946,19 @@
           "sha256": "f7af7b893f0d8eac1ef1df9a8570ff9c1f21ef566934b712d04eea21f899f5a9",
           "source": "The Verge",
           "request_id": "muse-intake-20261123-walmart-agent-gateway-muse",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 523,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T18:02:57.786591+00:00",
+          "block": "Title: OpenAI launches OpenWorks to fund local AI experts for small businesses\nURL: https://www.instagram.com/reel/DgF69Upp1B0/\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/7aa6tcgDHkwnetFrFVoKCS/cb5490ae628061277ce0c2453951fd1c/tiny-things-story-photo.jpg?w=1200&q=90&fm=webp\nSummary: OpenAI launches OpenWorks, a nationwide network of funded local AI experts who give small businesses free, hands-on help with AI. OpenWorks Partners work on-site with owners on projects they choose, from reaching customers to building tools teams can keep using. Partners earn up to $8,000 a month; the pilot is now live in 20 U.S. communities, with more to come.",
+          "sha256": "7dfed2c80ccee497bfb5499026b17b7e9e55d5173f325c31d21ce4554074aeae",
+          "source": "OpenAI",
+          "request_id": "muse-intake-20261123-openai-openworks",
           "mode": "standard"
         }
       ]
@@ -15301,6 +15314,23 @@
           "id": 522,
           "revision": 1,
           "sha256": "f7af7b893f0d8eac1ef1df9a8570ff9c1f21ef566934b712d04eea21f899f5a9"
+        }
+      ]
+    },
+    "muse-intake-20261123-openai-openworks": {
+      "status": "finalized",
+      "received_at": "2026-11-23T18:02:57.554328+00:00",
+      "received_sequence": 472,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T18:02:57.786591+00:00",
+      "records": [
+        {
+          "id": 523,
+          "revision": 1,
+          "sha256": "7dfed2c80ccee497bfb5499026b17b7e9e55d5173f325c31d21ce4554074aeae"
         }
       ]
     }
@@ -56235,6 +56265,40 @@
         },
         "editorial_sha256": "af0bfbe64f5a2eed7d4029bfee9119de88ad292d7e66a7a1689df0ea52d88ae2"
       }
+    },
+    "muse-intake-20261123-openai-openworks-receive-8023": {
+      "sha256": "d1a5c90a189590583777571dd6c923e8e11e8e1581f15c078418c9d7c4aea646",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-openai-openworks"
+      }
+    },
+    "muse-intake-20261123-openai-openworks-finalize-1898": {
+      "sha256": "20cc652d95fc12bd40aac796108a674b02f32a00fe64722f74a8ecff81f3f081",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-openai-openworks",
+        "records": [
+          {
+            "id": 523,
+            "revision": 1,
+            "sha256": "7dfed2c80ccee497bfb5499026b17b7e9e55d5173f325c31d21ce4554074aeae"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-openai-openworks-review-1281": {
+      "sha256": "7c9d9fb1747bde974422148e395d2f81392e9f25450ff4240c24ac6bf465c97f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 523,
+          "revision": 1,
+          "sha256": "7dfed2c80ccee497bfb5499026b17b7e9e55d5173f325c31d21ce4554074aeae"
+        },
+        "editorial_sha256": "bcfac47cbb616291555e1ac2bd11e6fb8fd2e64c899cff521adb2d11a5b7b298"
+      }
     }
   },
   "migration": {
@@ -69401,6 +69465,26 @@
         "sha256": "af0bfbe64f5a2eed7d4029bfee9119de88ad292d7e66a7a1689df0ea52d88ae2",
         "reviewed_at": "2026-11-23T16:36:31.644148+00:00",
         "operation_id": "muse-intake-20261123-walmart-agent-gateway-muse-review-0099"
+      }
+    ],
+    "523:1": [
+      {
+        "reference": {
+          "id": 523,
+          "revision": 1,
+          "sha256": "7dfed2c80ccee497bfb5499026b17b7e9e55d5173f325c31d21ce4554074aeae"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A small-business story with broad general appeal: OpenAI will pay local AI experts up to $8,000 a month to give small businesses free, hands-on help adopting AI, starting with a pilot in 20 U.S. communities. It matters to any owner wondering how AI fits a real shop, not just to technologists. muse-intake 2026-11-23: submitted by Diego via OpenAI's X post (https://x.com/OpenAI/status/2124922133545714160, Nov 23, 2026), read via syndication and the FxTwitter mirror; facts verified against OpenAI's OpenWorks page and its Instagram launch reel. Learn-more URL is the Instagram reel because openai.com is policy-forbidden. Image is the Tiny Things story photo from OpenAI's OpenWorks page on images.ctfassets.net, inspected and verified live (WebP 1200x1800).",
+            "evidence_sha256": "7dfed2c80ccee497bfb5499026b17b7e9e55d5173f325c31d21ce4554074aeae"
+          }
+        },
+        "sha256": "bcfac47cbb616291555e1ac2bd11e6fb8fd2e64c899cff521adb2d11a5b7b298",
+        "reviewed_at": "2026-11-23T18:02:58.013528+00:00",
+        "operation_id": "muse-intake-20261123-openai-openworks-review-1281"
       }
     ]
   }
