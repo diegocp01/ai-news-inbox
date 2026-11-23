@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1634,
-  "updated_at": "2026-11-23T19:54:12.977919+00:00",
-  "next_id": 531,
+  "generation": 1637,
+  "updated_at": "2026-11-23T20:03:51.003500+00:00",
+  "next_id": 532,
   "records": [
     {
       "id": 1,
@@ -7050,6 +7050,19 @@
           "sha256": "4a723975ce04a87253efcb4f8f56d190b5ef8c95bfbc9c9e99986c7feffb94b7",
           "source": "Google AI Studio",
           "request_id": "muse-intake-20261123-gemini-multimodal-function-results",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 531,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T20:03:50.765393+00:00",
+          "block": "Title: UK launches world's largest AI breast cancer screening trial, EDITH, with nearly 700,000 women\nURL: https://cambridgebrc.nihr.ac.uk/2026/11/23/cambridgeshire-women-are-first-to-join-world-leading-ai-breast-screening-trial/\nImage URL: https://cambridgebrc.nihr.ac.uk/wp-content/uploads/2026/11/Health-and-Social-Care-Secretary-Yvette-Cooper-with-EDITH-trial-co-leads-Professor-Fiona-Gilbert-left-Professor-Sian-Taylor-Phillips-second-left-and-Chief-Executive-of-Ca.jpg\nSummary: The UK has launched the world's largest AI breast cancer screening trial, EDITH, involving nearly 700,000 women at 30 sites over three years. The £10 million NIHR-funded study tests whether an AI-assisted mammogram tool can help specialists spot cancers earlier and review images faster. Recruitment has begun in Cambridgeshire, with every scan still reviewed by at least one human radiologist.",
+          "sha256": "bcaccc84a2307b82ddc4af8670eb91f686229141ca16e17d9b2d791230fd8273",
+          "source": "NIHR Biomedical Research Centre: Cambridge",
+          "request_id": "muse-intake-20261123-uk-edith-ai-breast-screening",
           "mode": "standard"
         }
       ]
@@ -15541,6 +15554,23 @@
           "id": 530,
           "revision": 1,
           "sha256": "4a723975ce04a87253efcb4f8f56d190b5ef8c95bfbc9c9e99986c7feffb94b7"
+        }
+      ]
+    },
+    "muse-intake-20261123-uk-edith-ai-breast-screening": {
+      "status": "finalized",
+      "received_at": "2026-11-23T20:03:50.524651+00:00",
+      "received_sequence": 480,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T20:03:50.765393+00:00",
+      "records": [
+        {
+          "id": 531,
+          "revision": 1,
+          "sha256": "bcaccc84a2307b82ddc4af8670eb91f686229141ca16e17d9b2d791230fd8273"
         }
       ]
     }
@@ -56747,6 +56777,40 @@
         },
         "editorial_sha256": "f3de15bbe58a409f5aedb14fb5b3003c1f366d36dc05f14f3296aea3cc6ec5be"
       }
+    },
+    "muse-intake-20261123-uk-edith-ai-breast-screening-receive-0317": {
+      "sha256": "0f35b9c012bd3ac1a3d05b73eb719fcd780af8d8fead56d7d78b7d8b4f298246",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-uk-edith-ai-breast-screening"
+      }
+    },
+    "muse-intake-20261123-uk-edith-ai-breast-screening-finalize-3142": {
+      "sha256": "62e993984edf0689a9d19f3a8b01f80a9fd92f6570f0db1a1ac930b7bfe718c7",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-uk-edith-ai-breast-screening",
+        "records": [
+          {
+            "id": 531,
+            "revision": 1,
+            "sha256": "bcaccc84a2307b82ddc4af8670eb91f686229141ca16e17d9b2d791230fd8273"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-uk-edith-ai-breast-screening-review-4698": {
+      "sha256": "5743341005c4b525d043244476c06febb5e8337ebb7fd7f5c646f133b925da57",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 531,
+          "revision": 1,
+          "sha256": "bcaccc84a2307b82ddc4af8670eb91f686229141ca16e17d9b2d791230fd8273"
+        },
+        "editorial_sha256": "bcb6e4c0b372084927cf9d88962daedf0dc576c1a70dd84bcbf87f33e3bcb593"
+      }
     }
   },
   "migration": {
@@ -70073,6 +70137,26 @@
         "sha256": "f3de15bbe58a409f5aedb14fb5b3003c1f366d36dc05f14f3296aea3cc6ec5be",
         "reviewed_at": "2026-11-23T19:54:12.977919+00:00",
         "operation_id": "muse-intake-20261123-gemini-multimodal-function-results-review-6987"
+      }
+    ],
+    "531:1": [
+      {
+        "reference": {
+          "id": 531,
+          "revision": 1,
+          "sha256": "bcaccc84a2307b82ddc4af8670eb91f686229141ca16e17d9b2d791230fd8273"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A public-health AI story for a general audience: the UK NHS has begun the world's largest AI-assisted breast screening trial, testing whether AI can help specialists spot cancers earlier. A landmark deployment of AI in everyday healthcare, not a model release. muse-intake 2026-11-23: submitted by Diego via the @Polymarket X post (https://x.com/polymarket/status/2124816729838870652, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes. Facts filled in from the NIHR Biomedical Research Centre: Cambridge article, read in full. Learn-more URL is the NIHR article; cambridgebrc.nihr.ac.uk verified against live policy.json (not forbidden). Image is the article og:image, verified live (JPEG 840x558). Trial first announced Feb 2025; this record is the Nov 23 recruitment launch.",
+            "evidence_sha256": "bcaccc84a2307b82ddc4af8670eb91f686229141ca16e17d9b2d791230fd8273"
+          }
+        },
+        "sha256": "bcb6e4c0b372084927cf9d88962daedf0dc576c1a70dd84bcbf87f33e3bcb593",
+        "reviewed_at": "2026-11-23T20:03:51.003500+00:00",
+        "operation_id": "muse-intake-20261123-uk-edith-ai-breast-screening-review-4698"
       }
     ]
   }
