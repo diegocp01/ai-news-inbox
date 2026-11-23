@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1607,
-  "updated_at": "2026-11-23T16:30:47.110748+00:00",
-  "next_id": 522,
+  "generation": 1610,
+  "updated_at": "2026-11-23T16:36:31.644148+00:00",
+  "next_id": 523,
   "records": [
     {
       "id": 1,
@@ -6933,6 +6933,19 @@
           "sha256": "8a501548c9b6ca8c49276aa5eee36ffeb7d6cbcec34adea23e67799462e4e972",
           "source": "9to5Mac",
           "request_id": "muse-intake-20261123-dots-apple-health",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 522,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T16:36:31.410388+00:00",
+          "block": "Title: Meta Muse can now do your Black Friday shopping at Walmart\nURL: https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday\nImage URL: https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Walmart-Meta-Muse-Agent-Gateway.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200\nSummary: Walmart's Agent Gateway is live with Meta Muse support, letting the AI agent find and buy Walmart products, including Black Friday deals. Muse shops through Agent Profiles, a dedicated space in your Walmart account with spending limits, purchase approval, and full history. The gateway shares no purchase history with the agent, and other apps and agents are on the way.",
+          "sha256": "f7af7b893f0d8eac1ef1df9a8570ff9c1f21ef566934b712d04eea21f899f5a9",
+          "source": "The Verge",
+          "request_id": "muse-intake-20261123-walmart-agent-gateway-muse",
           "mode": "standard"
         }
       ]
@@ -15271,6 +15284,23 @@
           "id": 521,
           "revision": 1,
           "sha256": "8a501548c9b6ca8c49276aa5eee36ffeb7d6cbcec34adea23e67799462e4e972"
+        }
+      ]
+    },
+    "muse-intake-20261123-walmart-agent-gateway-muse": {
+      "status": "finalized",
+      "received_at": "2026-11-23T16:36:31.165889+00:00",
+      "received_sequence": 471,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T16:36:31.410388+00:00",
+      "records": [
+        {
+          "id": 522,
+          "revision": 1,
+          "sha256": "f7af7b893f0d8eac1ef1df9a8570ff9c1f21ef566934b712d04eea21f899f5a9"
         }
       ]
     }
@@ -56171,6 +56201,40 @@
         },
         "editorial_sha256": "4422370ee18f7fab0fe5f6a9f60a1bb368bb04bf1d23cc2ff4d422d5f449967a"
       }
+    },
+    "muse-intake-20261123-walmart-agent-gateway-muse-receive-1943": {
+      "sha256": "951efc293179a0f90b259d79f4356bd4f27b19f19dad0b53e58f1221271c41c3",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-walmart-agent-gateway-muse"
+      }
+    },
+    "muse-intake-20261123-walmart-agent-gateway-muse-finalize-9469": {
+      "sha256": "3958f57ef5b5844a18b02d7c146463daa22f3e986a1c105daaeb816b25f7b6de",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-walmart-agent-gateway-muse",
+        "records": [
+          {
+            "id": 522,
+            "revision": 1,
+            "sha256": "f7af7b893f0d8eac1ef1df9a8570ff9c1f21ef566934b712d04eea21f899f5a9"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-walmart-agent-gateway-muse-review-0099": {
+      "sha256": "47ad46e050e58b61f1e5e457bdaecd673c886c39b4b64e45632a375397290fc7",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 522,
+          "revision": 1,
+          "sha256": "f7af7b893f0d8eac1ef1df9a8570ff9c1f21ef566934b712d04eea21f899f5a9"
+        },
+        "editorial_sha256": "af0bfbe64f5a2eed7d4029bfee9119de88ad292d7e66a7a1689df0ea52d88ae2"
+      }
     }
   },
   "migration": {
@@ -69317,6 +69381,26 @@
         "sha256": "4422370ee18f7fab0fe5f6a9f60a1bb368bb04bf1d23cc2ff4d422d5f449967a",
         "reviewed_at": "2026-11-23T16:30:47.110748+00:00",
         "operation_id": "muse-intake-20261123-dots-apple-health-review-3280"
+      }
+    ],
+    "522:1": [
+      {
+        "reference": {
+          "id": 522,
+          "revision": 1,
+          "sha256": "f7af7b893f0d8eac1ef1df9a8570ff9c1f21ef566934b712d04eea21f899f5a9"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A consumer shopping story with broad general appeal: Meta's Muse can now find and buy Walmart products, including Black Friday deals, through a new Agent Gateway with spending limits and purchase approval. It is the first major retailer to open its doors to an AI shopping agent while Amazon and eBay block them. muse-intake 2026-11-23: submitted by Diego via The Verge's X post (https://x.com/verge/status/2124821529750032710, Nov 23, 2026), read via syndication and the FxTwitter mirror; finalized by Muse per Diego's direction. Learn-more URL is the Verge article, verified via full-text mirrors. Image is the article's hero image on platform.theverge.com, inspected and verified live (JPEG 1200x624).",
+            "evidence_sha256": "f7af7b893f0d8eac1ef1df9a8570ff9c1f21ef566934b712d04eea21f899f5a9"
+          }
+        },
+        "sha256": "af0bfbe64f5a2eed7d4029bfee9119de88ad292d7e66a7a1689df0ea52d88ae2",
+        "reviewed_at": "2026-11-23T16:36:31.644148+00:00",
+        "operation_id": "muse-intake-20261123-walmart-agent-gateway-muse-review-0099"
       }
     ]
   }
