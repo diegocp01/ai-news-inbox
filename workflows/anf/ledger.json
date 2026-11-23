@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1631,
-  "updated_at": "2026-11-23T19:14:47.943074+00:00",
-  "next_id": 530,
+  "generation": 1634,
+  "updated_at": "2026-11-23T19:54:12.977919+00:00",
+  "next_id": 531,
   "records": [
     {
       "id": 1,
@@ -7037,6 +7037,19 @@
           "sha256": "8d7b5d5136a79092612cdd2b02712d45dee4113f17f44eb7af1877cbd4a98cae",
           "source": "CTech",
           "request_id": "muse-intake-20261123-alexandr-wang-superintelligence-arriving",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 530,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T19:54:12.696320+00:00",
+          "block": "Title: Gemini 4 Neon can now natively read video and audio from tools and subagents\nURL: https://aistudio.google.com/docs/function-calling\nImage URL: https://eigenradar.com/assets/briefs/2026-11-05/gemini-document-media-tool-results-1280.09de8c03f677.webp\nSummary: Google is rolling out document, audio, and video function results in the Gemini API, so Gemini 4 Neon can read video and audio chunks returned by tools or subagents. Function calling covers all native modalities, bringing tool use closer to native inputs. It enables agentic video editors, search that hears tone, UI subagents replaying bugs as video, and podcast clippers.",
+          "sha256": "4a723975ce04a87253efcb4f8f56d190b5ef8c95bfbc9c9e99986c7feffb94b7",
+          "source": "Google AI Studio",
+          "request_id": "muse-intake-20261123-gemini-multimodal-function-results",
           "mode": "standard"
         }
       ]
@@ -15511,6 +15524,23 @@
           "id": 529,
           "revision": 1,
           "sha256": "8d7b5d5136a79092612cdd2b02712d45dee4113f17f44eb7af1877cbd4a98cae"
+        }
+      ]
+    },
+    "muse-intake-20261123-gemini-multimodal-function-results": {
+      "status": "finalized",
+      "received_at": "2026-11-23T19:54:12.457655+00:00",
+      "received_sequence": 479,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T19:54:12.696320+00:00",
+      "records": [
+        {
+          "id": 530,
+          "revision": 1,
+          "sha256": "4a723975ce04a87253efcb4f8f56d190b5ef8c95bfbc9c9e99986c7feffb94b7"
         }
       ]
     }
@@ -56683,6 +56713,40 @@
         },
         "editorial_sha256": "de6e0d749a10a444050bc548095fa1c27d78c29a05db7e5f38f8b3bc36db63c6"
       }
+    },
+    "muse-intake-20261123-gemini-multimodal-function-results-receive-4538": {
+      "sha256": "3e7d2a297bedd590fbd8874914fadc169dd0e5ab5cb89292f78583474a326bc1",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-gemini-multimodal-function-results"
+      }
+    },
+    "muse-intake-20261123-gemini-multimodal-function-results-finalize-0518": {
+      "sha256": "7e51cd8fd2498b75383d446f0f75e46dc344356af10a8adeb82bfe62cb022678",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-gemini-multimodal-function-results",
+        "records": [
+          {
+            "id": 530,
+            "revision": 1,
+            "sha256": "4a723975ce04a87253efcb4f8f56d190b5ef8c95bfbc9c9e99986c7feffb94b7"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-gemini-multimodal-function-results-review-6987": {
+      "sha256": "f08a7a98379c5298da73b697ef4d87d50ea86592bb7473f42018fcd595668212",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 530,
+          "revision": 1,
+          "sha256": "4a723975ce04a87253efcb4f8f56d190b5ef8c95bfbc9c9e99986c7feffb94b7"
+        },
+        "editorial_sha256": "f3de15bbe58a409f5aedb14fb5b3003c1f366d36dc05f14f3296aea3cc6ec5be"
+      }
     }
   },
   "migration": {
@@ -69989,6 +70053,26 @@
         "sha256": "de6e0d749a10a444050bc548095fa1c27d78c29a05db7e5f38f8b3bc36db63c6",
         "reviewed_at": "2026-11-23T19:14:47.943074+00:00",
         "operation_id": "muse-intake-20261123-alexandr-wang-superintelligence-arriving-review-7196"
+      }
+    ],
+    "530:1": [
+      {
+        "reference": {
+          "id": 530,
+          "revision": 1,
+          "sha256": "4a723975ce04a87253efcb4f8f56d190b5ef8c95bfbc9c9e99986c7feffb94b7"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "A developer-tool story for technical readers: Gemini API function calling now returns document, audio, and video results, so Gemini 4 Neon can read tool and subagent media natively. A concrete API capability for building agentic tools, not a model release. muse-intake 2026-11-23: submitted by Diego via the @_philschmid X post (https://x.com/_philschmid/status/2124929125974450503, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes, docs page read in full. Learn-more URL is the Google AI Studio function-calling docs; aistudio.google.com verified against live policy.json (not forbidden). Image is the Eigen Radar coverage image, verified live (WebP 1280x720); the docs og:image 404s and the post video thumbnail is on forbidden pbs.twimg.com. Underlying capability dates to Nov 5, 2026 per coverage; the Nov 23 post announces it for Gemini 4 Neon.",
+            "evidence_sha256": "4a723975ce04a87253efcb4f8f56d190b5ef8c95bfbc9c9e99986c7feffb94b7"
+          }
+        },
+        "sha256": "f3de15bbe58a409f5aedb14fb5b3003c1f366d36dc05f14f3296aea3cc6ec5be",
+        "reviewed_at": "2026-11-23T19:54:12.977919+00:00",
+        "operation_id": "muse-intake-20261123-gemini-multimodal-function-results-review-6987"
       }
     ]
   }
