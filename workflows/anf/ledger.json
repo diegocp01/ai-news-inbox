@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1622,
-  "updated_at": "2026-11-23T18:28:31.456647+00:00",
-  "next_id": 527,
+  "generation": 1625,
+  "updated_at": "2026-11-23T18:56:15.840838+00:00",
+  "next_id": 528,
   "records": [
     {
       "id": 1,
@@ -6998,6 +6998,19 @@
           "sha256": "8e89d46e1cd7fc4d658617f7109d398e0748fa1d2269a6f58769e4d0074731ce",
           "source": "Anthropic",
           "request_id": "muse-intake-20261123-anthropic-enterprise-frontier-safeguards",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 527,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T18:56:15.616647+00:00",
+          "block": "Title: MemOS launches MemT-1.0-Pro, a 554B memory-native model with NVIDIA\nURL: https://arxiv.org/abs/2610.26825\nImage URL: https://arxiv.org/html/2610.26825v4/figure_performance.png\nSummary: MemOS and NVIDIA launched MemT-1.0-Pro, a 554-billion-parameter memory-native model built on NVIDIA Nemotron 3 Ultra. It stores history in native memory, so later interactions use it without keeping the original history in context. Versus MemT-1.0-Flash it gains 4.76 points on BEAM-1M and 6.51 on MemoryAgentBench, aiming at long-horizon AI agents. It activates 59 billion parameters, with distributed training on Megatron-Core.",
+          "sha256": "72e9c4031517316d307d19c6e0b642c756409ee1f7908717ee05658d0a65e77d",
+          "source": "MemOS",
+          "request_id": "muse-intake-20261123-memt-1-0-pro",
           "mode": "standard"
         }
       ]
@@ -15421,6 +15434,23 @@
           "id": 526,
           "revision": 1,
           "sha256": "8e89d46e1cd7fc4d658617f7109d398e0748fa1d2269a6f58769e4d0074731ce"
+        }
+      ]
+    },
+    "muse-intake-20261123-memt-1-0-pro": {
+      "status": "finalized",
+      "received_at": "2026-11-23T18:56:15.375465+00:00",
+      "received_sequence": 476,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T18:56:15.616647+00:00",
+      "records": [
+        {
+          "id": 527,
+          "revision": 1,
+          "sha256": "72e9c4031517316d307d19c6e0b642c756409ee1f7908717ee05658d0a65e77d"
         }
       ]
     }
@@ -56491,6 +56521,40 @@
         },
         "editorial_sha256": "413f46de3bb653324c2a92525bb287dfa60efea311533768601d1c481d0888d0"
       }
+    },
+    "muse-intake-20261123-memt-1-0-pro-receive-5052": {
+      "sha256": "35bf6077b9f3ddff0b0f9e65c241cd4b5075f09b85af40944f697c5fc1beccb1",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-memt-1-0-pro"
+      }
+    },
+    "muse-intake-20261123-memt-1-0-pro-finalize-5814": {
+      "sha256": "6abc4498af8cb1193bd6d9f7327fb7f391eecfa4347be258352db07ce2974796",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-memt-1-0-pro",
+        "records": [
+          {
+            "id": 527,
+            "revision": 1,
+            "sha256": "72e9c4031517316d307d19c6e0b642c756409ee1f7908717ee05658d0a65e77d"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-memt-1-0-pro-review-1722": {
+      "sha256": "cf0e4e14ba08dec87c4d1bc92a09756db591f4129b3cbfc52ea6e1a776113669",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 527,
+          "revision": 1,
+          "sha256": "72e9c4031517316d307d19c6e0b642c756409ee1f7908717ee05658d0a65e77d"
+        },
+        "editorial_sha256": "a797bfa3be31730673ae31a9020e665889d617987b9820187b597a96ef1fc6b3"
+      }
     }
   },
   "migration": {
@@ -69737,6 +69801,26 @@
         "sha256": "413f46de3bb653324c2a92525bb287dfa60efea311533768601d1c481d0888d0",
         "reviewed_at": "2026-11-23T18:28:31.456647+00:00",
         "operation_id": "muse-intake-20261123-anthropic-efs-review-0054"
+      }
+    ],
+    "527:1": [
+      {
+        "reference": {
+          "id": 527,
+          "revision": 1,
+          "sha256": "72e9c4031517316d307d19c6e0b642c756409ee1f7908717ee05658d0a65e77d"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A research story for technical readers: MemOS and NVIDIA's 554B-parameter memory-native model internalizes history as part of model computation, beating its Flash predecessor by 4.76 points on BEAM-1M and 6.51 on MemoryAgentBench. It shows memory becoming a native model capability for long-horizon agents, backed by an arXiv technical report. muse-intake 2026-11-23: submitted by Diego via the MemOS X post (https://x.com/memos_dev/status/2124623963087126562, Nov 22, 2026), read via syndication + FxTwitter mirrors. Learn-more URL is the arXiv technical report (arxiv.org/abs/2610.26825); arxiv.org verified against live workflows/anf/policy.json (not forbidden). Parameter count settled from the paper itself: 554B (59B activated), not the 565B on the Hugging Face card. Image is Figure 1 from the paper, inspected and verified live (PNG 2006x924).",
+            "evidence_sha256": "72e9c4031517316d307d19c6e0b642c756409ee1f7908717ee05658d0a65e77d"
+          }
+        },
+        "sha256": "a797bfa3be31730673ae31a9020e665889d617987b9820187b597a96ef1fc6b3",
+        "reviewed_at": "2026-11-23T18:56:15.840838+00:00",
+        "operation_id": "muse-intake-20261123-memt-1-0-pro-review-1722"
       }
     ]
   }
