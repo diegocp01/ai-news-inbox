@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1584,
-  "updated_at": "2026-11-23T11:57:50+00:00",
-  "next_id": 514,
+  "generation": 1585,
+  "updated_at": "2026-11-23T11:59:56+00:00",
+  "next_id": 516,
   "records": [
     {
       "id": 1,
@@ -6827,6 +6827,32 @@
           "sha256": "93c2f0c4843a110acd3bb9bd6fca4093b82b9ba8036889d20b8e1970500d1aaf",
           "source": "The GenAI Magazine",
           "request_id": "muse-intake-20261122-tufazip",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 514,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T11:59:56+00:00",
+          "block": "Title: cmHC Balances Information Sharing Across Model Streams\nURL: https://arxiv.org/abs/2611.27193\nImage URL: https://arxiv.org/html/2611.27193v1/birkhoff.png\nSummary: Haowei He and colleagues introduce cmHC to balance information sharing across language-model streams without collapsing their differences. They report effective training across dense and mixture-of-experts models. Fused Ascend operators reduced hyper-connection execution latency by up to 44.8% in their tests, excluding the Transformer sublayer; this is not an end-to-end model speedup.",
+          "sha256": "e57a500b709545f001455bb1c32e26b27bab7b4a8ac04fe2e4b0fb3bdeea6b90",
+          "source": "arXiv",
+          "request_id": "78997a9fa2df5391e422ded91ef2dceb2b6618c71480b10cbaed7c1510347713",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 515,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T11:59:56+00:00",
+          "block": "Title: NoPeWorld Reduces Wall-Penetration Errors in Generated Video\nURL: https://arxiv.org/abs/2611.27963\nImage URL: https://arxiv.org/html/2611.27963v1/fig_teaser.png\nSummary: Yuhang Dai and colleagues introduce NoPeBench and NoPeWorld to address obstacle penetration in interactive video models. A small head on a frozen generator predicts unsafe actions and replaces them with alternatives. Across six tested models, the authors report average physical violation rates falling from 74% to 16%. The results concern generated video, not real-world safety.",
+          "sha256": "66b6a6dc88e0894ccba5c67fc877c0a6941acbd2b2014021160ca00bca1fd7ff",
+          "source": "arXiv",
+          "request_id": "78997a9fa2df5391e422ded91ef2dceb2b6618c71480b10cbaed7c1510347713",
           "mode": "standard"
         }
       ]
@@ -15056,13 +15082,26 @@
       ]
     },
     "78997a9fa2df5391e422ded91ef2dceb2b6618c71480b10cbaed7c1510347713": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-23T11:57:50+00:00",
       "received_sequence": 465,
       "expected_items": 2,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T11:59:56+00:00",
+      "records": [
+        {
+          "id": 514,
+          "revision": 1,
+          "sha256": "e57a500b709545f001455bb1c32e26b27bab7b4a8ac04fe2e4b0fb3bdeea6b90"
+        },
+        {
+          "id": 515,
+          "revision": 1,
+          "sha256": "66b6a6dc88e0894ccba5c67fc877c0a6941acbd2b2014021160ca00bca1fd7ff"
+        }
+      ]
     }
   },
   "batches": {
@@ -55175,6 +55214,26 @@
       "result": {
         "status": "received",
         "request_id": "78997a9fa2df5391e422ded91ef2dceb2b6618c71480b10cbaed7c1510347713"
+      }
+    },
+    "78997a9fa2df5391e422ded91ef2dceb2b6618c71480b10cbaed7c1510347713-finalize": {
+      "sha256": "022b97d7aa7fba670f1a6f2de177c1444c16b86c7478ac29da79795bf3d278f1",
+      "result": {
+        "status": "finalized",
+        "request_id": "78997a9fa2df5391e422ded91ef2dceb2b6618c71480b10cbaed7c1510347713",
+        "records": [
+          {
+            "id": 514,
+            "revision": 1,
+            "sha256": "e57a500b709545f001455bb1c32e26b27bab7b4a8ac04fe2e4b0fb3bdeea6b90"
+          },
+          {
+            "id": 515,
+            "revision": 1,
+            "sha256": "66b6a6dc88e0894ccba5c67fc877c0a6941acbd2b2014021160ca00bca1fd7ff"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
