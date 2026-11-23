@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1590,
-  "updated_at": "2026-11-23T12:46:42.734978+00:00",
+  "generation": 1594,
+  "updated_at": "2026-11-23T13:02:15.205579+00:00",
   "next_id": 519,
   "records": [
     {
@@ -55377,6 +55377,54 @@
         ],
         "duplicates": []
       }
+    },
+    "muse-backfill-20261123-514-3624": {
+      "sha256": "ffcb7c341a94825d0e0dcd473c16810e1702ea412d449e7d2af3b26400cf3a5a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 514,
+          "revision": 1,
+          "sha256": "e57a500b709545f001455bb1c32e26b27bab7b4a8ac04fe2e4b0fb3bdeea6b90"
+        },
+        "editorial_sha256": "22b371ccbf3ec81a975943415b70e59bc13136783d1501def7200c730aa71fa1"
+      }
+    },
+    "muse-backfill-20261123-515-4988": {
+      "sha256": "4dccd176016d39a7db37c7dce34ea949fca1e0c5c81a0522bee8e5cca8bbfe3d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 515,
+          "revision": 1,
+          "sha256": "66b6a6dc88e0894ccba5c67fc877c0a6941acbd2b2014021160ca00bca1fd7ff"
+        },
+        "editorial_sha256": "24d90c8d92166cbcabe4a1721df6a2c404eaf7804d71fe63543d7c0c5635d215"
+      }
+    },
+    "muse-backfill-20261123-517-6655": {
+      "sha256": "11d6dac6962395830d9c13a1d7a74ef54086f3dd51acbf5926f5407ff17c5ed0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 517,
+          "revision": 1,
+          "sha256": "e802249efa24b485ec59e2e186af4471b49063b741766854b53b78381c0b4e8c"
+        },
+        "editorial_sha256": "37b356c03162b8394098f4c30b364794db777855ec2fe76246b2938a7b055bdd"
+      }
+    },
+    "muse-backfill-20261123-518-1840": {
+      "sha256": "58e6ab9bb96bedca91df582d28245497cbb7239af9c0609ad05e0562679b4503",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 518,
+          "revision": 1,
+          "sha256": "2062f180adc1b65f828c16b3c6df2e8cb7ba5a27b188494a51868e63d9a3b8f7"
+        },
+        "editorial_sha256": "9dca26fffc32e2b147bb1747c87db1a74c84d84f097ca4df59deaae11f65b1b7"
+      }
     }
   },
   "migration": {
@@ -68383,6 +68431,86 @@
         "sha256": "c9a0ba6f99808bcdd09cd7936696c9cdcb4804469e3d971ea421af9753d805f9",
         "reviewed_at": "2026-11-23T12:44:28.952457+00:00",
         "operation_id": "muse-intake-20261123-glm-5-4-review-4861"
+      }
+    ],
+    "514:1": [
+      {
+        "reference": {
+          "id": 514,
+          "revision": 1,
+          "sha256": "e57a500b709545f001455bb1c32e26b27bab7b4a8ac04fe2e4b0fb3bdeea6b90"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Haowei He and colleagues introduce cmHC to balance information sharing across language-model streams without collapsing their differences, reporting effective training across dense and mixture-of-experts models. Fused Ascend operators reduced hyper-connection execution latency by up to 44.8 percent in their tests, excluding the Transformer sublayer. This is AI research on model architecture and training efficiency with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e57a500b709545f001455bb1c32e26b27bab7b4a8ac04fe2e4b0fb3bdeea6b90"
+          }
+        },
+        "sha256": "22b371ccbf3ec81a975943415b70e59bc13136783d1501def7200c730aa71fa1",
+        "reviewed_at": "2026-11-23T13:02:14.527483+00:00",
+        "operation_id": "muse-backfill-20261123-514-3624"
+      }
+    ],
+    "515:1": [
+      {
+        "reference": {
+          "id": 515,
+          "revision": 1,
+          "sha256": "66b6a6dc88e0894ccba5c67fc877c0a6941acbd2b2014021160ca00bca1fd7ff"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Yuhang Dai and colleagues introduce NoPeBench and NoPeWorld to address obstacle penetration in interactive video models. A small head on a frozen generator predicts unsafe actions and replaces them with alternatives, and across six tested models the authors report average physical violation rates falling from 74 percent to 16 percent. This is AI research on generative video models with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "66b6a6dc88e0894ccba5c67fc877c0a6941acbd2b2014021160ca00bca1fd7ff"
+          }
+        },
+        "sha256": "24d90c8d92166cbcabe4a1721df6a2c404eaf7804d71fe63543d7c0c5635d215",
+        "reviewed_at": "2026-11-23T13:02:14.759406+00:00",
+        "operation_id": "muse-backfill-20261123-515-4988"
+      }
+    ],
+    "517:1": [
+      {
+        "reference": {
+          "id": 517,
+          "revision": 1,
+          "sha256": "e802249efa24b485ec59e2e186af4471b49063b741766854b53b78381c0b4e8c"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic mathematician Levent Alpoge says he developed a proof of the Riemann hypothesis with Claude and released about 17 million lines of Lean code. The Lean FRO and Mathlib Initiative say checks confirm the statement and proof are correct, while researchers are still working to explain the mathematical ideas behind the argument. This is landmark mathematics news of broad general interest, not a technical paper for researchers. muse-compile-backfill 2026-11-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e802249efa24b485ec59e2e186af4471b49063b741766854b53b78381c0b4e8c"
+          }
+        },
+        "sha256": "37b356c03162b8394098f4c30b364794db777855ec2fe76246b2938a7b055bdd",
+        "reviewed_at": "2026-11-23T13:02:14.984013+00:00",
+        "operation_id": "muse-backfill-20261123-517-6655"
+      }
+    ],
+    "518:1": [
+      {
+        "reference": {
+          "id": 518,
+          "revision": 1,
+          "sha256": "2062f180adc1b65f828c16b3c6df2e8cb7ba5a27b188494a51868e63d9a3b8f7"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "OpenAI published internal log-perplexity scores tracking how well its models predict code, and chief scientist Jakub Pachocki proposes shared development limits tied to such measurements, with further progress conditional on concrete milestones in understanding and monitoring AI behavior. This is AI policy and governance news about a major lab's proposals, for a general audience, not a technical research paper. muse-compile-backfill 2026-11-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "2062f180adc1b65f828c16b3c6df2e8cb7ba5a27b188494a51868e63d9a3b8f7"
+          }
+        },
+        "sha256": "9dca26fffc32e2b147bb1747c87db1a74c84d84f097ca4df59deaae11f65b1b7",
+        "reviewed_at": "2026-11-23T13:02:15.205579+00:00",
+        "operation_id": "muse-backfill-20261123-518-1840"
       }
     ]
   }
