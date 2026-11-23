@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1643,
-  "updated_at": "2026-11-23T20:50:53.665567+00:00",
-  "next_id": 534,
+  "generation": 1646,
+  "updated_at": "2026-11-23T21:56:34.583424+00:00",
+  "next_id": 535,
   "records": [
     {
       "id": 1,
@@ -7089,6 +7089,19 @@
           "sha256": "a7178bcbe2125d12c721577dd21ed9904be91eaf0fbddb5bf6a43597584b431e",
           "source": "FrontierRSI leaderboard (frontier-rsi.org)",
           "request_id": "muse-intake-20261123-gemini-neon-frontierrsi-lead",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 534,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T21:56:34.354542+00:00",
+          "block": "Title: OpenAI deprecates GPT-5.6 Sol and Terra on December 23, 2026\nURL: \nImage URL: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1920px-ChatGPT_logo.svg.png\nSummary: OpenAI is retiring GPT-5.6 on December 23, 2026: GPT-5.6 Sol leaves Chat, and Sol and Terra leave Work and Codex. The sunset follows today's rollout of GPT-6.2 Sol to the Chat tab, as the newer generation now takes over everyday conversations across ChatGPT. OpenAI says every model has its day in the sun, and hints more is on the horizon.",
+          "sha256": "e6bbb8d3c4797d8106bb76b7b484756c8f534f4c1bbde1c6cbdf4b288e148dec",
+          "source": "OpenAI",
+          "request_id": "muse-intake-20261123-gpt-5-6-deprecation",
           "mode": "standard"
         }
       ]
@@ -15631,6 +15644,23 @@
           "id": 533,
           "revision": 1,
           "sha256": "a7178bcbe2125d12c721577dd21ed9904be91eaf0fbddb5bf6a43597584b431e"
+        }
+      ]
+    },
+    "muse-intake-20261123-gpt-5-6-deprecation": {
+      "status": "finalized",
+      "received_at": "2026-11-23T21:56:34.111867+00:00",
+      "received_sequence": 483,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T21:56:34.354542+00:00",
+      "records": [
+        {
+          "id": 534,
+          "revision": 1,
+          "sha256": "e6bbb8d3c4797d8106bb76b7b484756c8f534f4c1bbde1c6cbdf4b288e148dec"
         }
       ]
     }
@@ -56939,6 +56969,40 @@
         },
         "editorial_sha256": "0f94aabcaf91e921fd83a74ed0e75a4d5fec63573925acae66faef85ccb06301"
       }
+    },
+    "muse-intake-20261123-gpt-5-6-deprecation-receive-7886": {
+      "sha256": "888baf84857cad03ffe1c9e34e92e7a4243ea70ee2922238a4e5c9d2e9e586e2",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-gpt-5-6-deprecation"
+      }
+    },
+    "muse-intake-20261123-gpt-5-6-deprecation-finalize-4671": {
+      "sha256": "b0aaff2ebd8f94c816b3716aa9e0a76a5c3c36419b69957cdde0912d2f0b12a6",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-gpt-5-6-deprecation",
+        "records": [
+          {
+            "id": 534,
+            "revision": 1,
+            "sha256": "e6bbb8d3c4797d8106bb76b7b484756c8f534f4c1bbde1c6cbdf4b288e148dec"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-gpt-5-6-deprecation-review-7139": {
+      "sha256": "468392c726956ab7cf531e50a49513ac9d62eaa533e90900fc9ff6235e04e1bc",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 534,
+          "revision": 1,
+          "sha256": "e6bbb8d3c4797d8106bb76b7b484756c8f534f4c1bbde1c6cbdf4b288e148dec"
+        },
+        "editorial_sha256": "b0f4e456b1c3fe6ac6c719d7e775b20d409b0e3f4e68bba2d877ebcb426aa4ab"
+      }
     }
   },
   "migration": {
@@ -70325,6 +70389,26 @@
         "sha256": "0f94aabcaf91e921fd83a74ed0e75a4d5fec63573925acae66faef85ccb06301",
         "reviewed_at": "2026-11-23T20:50:53.665567+00:00",
         "operation_id": "muse-intake-20261123-gemini-neon-frontierrsi-lead-review-1695"
+      }
+    ],
+    "534:1": [
+      {
+        "reference": {
+          "id": 534,
+          "revision": 1,
+          "sha256": "e6bbb8d3c4797d8106bb76b7b484756c8f534f4c1bbde1c6cbdf4b288e148dec"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A ChatGPT model retirement affecting everyday users: OpenAI is deprecating GPT-5.6 Sol in Chat and Sol and Terra in Work and Codex on December 23, 2026, the follow-on to today's GPT-6.2 Sol rollout to the Chat tab as the newer generation takes over. muse-intake 2026-11-23: submitted by Diego via the @ChatGPT X post (https://x.com/chatgpt/status/2124981905380569283, Nov 23, 2026, 4:42 PM EST), read via syndication + FxTwitter mirrors. Learn-more URL left empty per Diego's rule: no policy-allowed same-day coverage of this Dec 23 Chat/Work/Codex deprecation exists yet; Dec 11 API snapshot removals are different models and were not substituted. Image is the Wikimedia ChatGPT logo, verified live (PNG 1920x1920). No successor is named in the post; none claimed.",
+            "evidence_sha256": "e6bbb8d3c4797d8106bb76b7b484756c8f534f4c1bbde1c6cbdf4b288e148dec"
+          }
+        },
+        "sha256": "b0f4e456b1c3fe6ac6c719d7e775b20d409b0e3f4e68bba2d877ebcb426aa4ab",
+        "reviewed_at": "2026-11-23T21:56:34.583424+00:00",
+        "operation_id": "muse-intake-20261123-gpt-5-6-deprecation-review-7139"
       }
     ]
   }
