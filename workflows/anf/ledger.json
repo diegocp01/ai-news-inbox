@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1625,
-  "updated_at": "2026-11-23T18:56:15.840838+00:00",
-  "next_id": 528,
+  "generation": 1628,
+  "updated_at": "2026-11-23T19:11:28.654746+00:00",
+  "next_id": 529,
   "records": [
     {
       "id": 1,
@@ -7011,6 +7011,19 @@
           "sha256": "72e9c4031517316d307d19c6e0b642c756409ee1f7908717ee05658d0a65e77d",
           "source": "MemOS",
           "request_id": "muse-intake-20261123-memt-1-0-pro",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 528,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T19:11:28.426095+00:00",
+          "block": "Title: OpenAI rolls GPT-6.2 Sol out to the ChatGPT Chat tab for everyday chats\nURL: \nImage URL: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1920px-ChatGPT_logo.svg.png\nSummary: OpenAI is rolling out a version of GPT-6.2 Sol in ChatGPT's Chat tab, optimized for everyday conversation. It handles complex requests better, especially with detailed instructions or research. It picks up finer photo details, narrows online comparisons by price or location, and knows when to offer follow-ups like price-drop alerts. Rolling out today to Plus, Pro, Business, and Enterprise users.",
+          "sha256": "731bf756c88b43cfd78b9b3261b2a1acc13d2cd3446dc8616f9f9f5085aade15",
+          "source": "OpenAI",
+          "request_id": "muse-intake-20261123-gpt-6-2-sol-chat-tab",
           "mode": "standard"
         }
       ]
@@ -15451,6 +15464,23 @@
           "id": 527,
           "revision": 1,
           "sha256": "72e9c4031517316d307d19c6e0b642c756409ee1f7908717ee05658d0a65e77d"
+        }
+      ]
+    },
+    "muse-intake-20261123-gpt-6-2-sol-chat-tab": {
+      "status": "finalized",
+      "received_at": "2026-11-23T19:11:28.145967+00:00",
+      "received_sequence": 477,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T19:11:28.426095+00:00",
+      "records": [
+        {
+          "id": 528,
+          "revision": 1,
+          "sha256": "731bf756c88b43cfd78b9b3261b2a1acc13d2cd3446dc8616f9f9f5085aade15"
         }
       ]
     }
@@ -56555,6 +56585,40 @@
         },
         "editorial_sha256": "a797bfa3be31730673ae31a9020e665889d617987b9820187b597a96ef1fc6b3"
       }
+    },
+    "muse-intake-20261123-gpt-6-2-sol-chat-tab-receive-0172": {
+      "sha256": "f8b7bceca8118eb550ade0f4f8cc5f17170db35dd8ba7fc0c1180996b97e6ace",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-gpt-6-2-sol-chat-tab"
+      }
+    },
+    "muse-intake-20261123-gpt-6-2-sol-chat-tab-finalize-8206": {
+      "sha256": "b921f395202b1160a4a8e51c1d9b4e23e421547fc78bf6b61ef1a5363ce20d22",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-gpt-6-2-sol-chat-tab",
+        "records": [
+          {
+            "id": 528,
+            "revision": 1,
+            "sha256": "731bf756c88b43cfd78b9b3261b2a1acc13d2cd3446dc8616f9f9f5085aade15"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-gpt-6-2-sol-chat-tab-review-1903": {
+      "sha256": "9049ff246b36ce986fd179ad97a1711c6736e3d935a302cff07380d82161d419",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 528,
+          "revision": 1,
+          "sha256": "731bf756c88b43cfd78b9b3261b2a1acc13d2cd3446dc8616f9f9f5085aade15"
+        },
+        "editorial_sha256": "2e37e50951c8b519686cb9fad4899a5a29a1e95db60e2eb3941a0aec3f1cbd8f"
+      }
     }
   },
   "migration": {
@@ -69821,6 +69885,26 @@
         "sha256": "a797bfa3be31730673ae31a9020e665889d617987b9820187b597a96ef1fc6b3",
         "reviewed_at": "2026-11-23T18:56:15.840838+00:00",
         "operation_id": "muse-intake-20261123-memt-1-0-pro-review-1722"
+      }
+    ],
+    "528:1": [
+      {
+        "reference": {
+          "id": 528,
+          "revision": 1,
+          "sha256": "731bf756c88b43cfd78b9b3261b2a1acc13d2cd3446dc8616f9f9f5085aade15"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A ChatGPT product rollout for everyday users: GPT-6.2 Sol, previously confined to Work and Codex, is now coming to the regular Chat tab for Plus, Pro, Business, and Enterprise users, with better photo detail, sharper online comparisons, and smarter follow-ups. muse-intake 2026-11-23: submitted by Diego via the @ChatGPT X post (https://x.com/chatgpt/status/2124942186425069836, Nov 23, 2026, 2:04 PM EST), read via syndication + FxTwitter mirrors. Learn-more URL left empty per Diego's rule: no policy-allowed secondary coverage of this Nov 23 Chat-tab rollout exists yet; Nov 17 launch coverage (Work/Codex only) contradicts this story and was not substituted. Image is the Wikimedia ChatGPT logo, verified live (PNG 1920x1920). Free tier not mentioned in the post, not claimed.",
+            "evidence_sha256": "731bf756c88b43cfd78b9b3261b2a1acc13d2cd3446dc8616f9f9f5085aade15"
+          }
+        },
+        "sha256": "2e37e50951c8b519686cb9fad4899a5a29a1e95db60e2eb3941a0aec3f1cbd8f",
+        "reviewed_at": "2026-11-23T19:11:28.654746+00:00",
+        "operation_id": "muse-intake-20261123-gpt-6-2-sol-chat-tab-review-1903"
       }
     ]
   }
