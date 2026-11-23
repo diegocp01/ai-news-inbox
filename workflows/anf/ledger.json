@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1637,
-  "updated_at": "2026-11-23T20:03:51.003500+00:00",
-  "next_id": 532,
+  "generation": 1640,
+  "updated_at": "2026-11-23T20:46:25.919803+00:00",
+  "next_id": 533,
   "records": [
     {
       "id": 1,
@@ -7063,6 +7063,19 @@
           "sha256": "bcaccc84a2307b82ddc4af8670eb91f686229141ca16e17d9b2d791230fd8273",
           "source": "NIHR Biomedical Research Centre: Cambridge",
           "request_id": "muse-intake-20261123-uk-edith-ai-breast-screening",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 532,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T20:46:25.674283+00:00",
+          "block": "Title: Anthropic launches Claude Ship in beta to review, fix, and approve pull requests\nURL: https://claude.com/resources/articles/introducing-claude-ship\nImage URL: https://assets.claude.com/2a72b687af32e0d798bd2859b12576be1f607f13.png\nSummary: Anthropic launched Claude Ship in beta: Claude reviews pull requests, fixes them, and approves the ones a team's policy allows, aiming to help teams ship code as fast as they write it. It combines generally available Code Review with two new beta agents, PR Steward and Claude Approvals, plus a /ship command in Claude Code for Team and Enterprise plans.",
+          "sha256": "6834878748e2d01a5de6bba64b31f6862a4b04645ab58e0b381dc0573e06ed9f",
+          "source": "Anthropic",
+          "request_id": "muse-intake-20261123-claude-ship",
           "mode": "standard"
         }
       ]
@@ -15571,6 +15584,23 @@
           "id": 531,
           "revision": 1,
           "sha256": "bcaccc84a2307b82ddc4af8670eb91f686229141ca16e17d9b2d791230fd8273"
+        }
+      ]
+    },
+    "muse-intake-20261123-claude-ship": {
+      "status": "finalized",
+      "received_at": "2026-11-23T20:46:25.404975+00:00",
+      "received_sequence": 481,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T20:46:25.674283+00:00",
+      "records": [
+        {
+          "id": 532,
+          "revision": 1,
+          "sha256": "6834878748e2d01a5de6bba64b31f6862a4b04645ab58e0b381dc0573e06ed9f"
         }
       ]
     }
@@ -56811,6 +56841,40 @@
         },
         "editorial_sha256": "bcb6e4c0b372084927cf9d88962daedf0dc576c1a70dd84bcbf87f33e3bcb593"
       }
+    },
+    "muse-intake-20261123-claude-ship-receive-3983": {
+      "sha256": "9ec49f03b13631d47beef0df9095328c6c6e1d6d34fd8b47efed9ba8f7013729",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-claude-ship"
+      }
+    },
+    "muse-intake-20261123-claude-ship-finalize-1620": {
+      "sha256": "febfccd20260f9a426841e100e085020ddb09b88051be2631a25dcccdbe01824",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-claude-ship",
+        "records": [
+          {
+            "id": 532,
+            "revision": 1,
+            "sha256": "6834878748e2d01a5de6bba64b31f6862a4b04645ab58e0b381dc0573e06ed9f"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-claude-ship-review-8550": {
+      "sha256": "367d07c156c0b4715cd546e9dd45ea3b2fc9b408baa48102251335661a71689a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 532,
+          "revision": 1,
+          "sha256": "6834878748e2d01a5de6bba64b31f6862a4b04645ab58e0b381dc0573e06ed9f"
+        },
+        "editorial_sha256": "0940e617e2849d085a178de6f82ebc920de0e000dee6f86ea43225234f9b226f"
+      }
     }
   },
   "migration": {
@@ -70157,6 +70221,26 @@
         "sha256": "bcb6e4c0b372084927cf9d88962daedf0dc576c1a70dd84bcbf87f33e3bcb593",
         "reviewed_at": "2026-11-23T20:03:51.003500+00:00",
         "operation_id": "muse-intake-20261123-uk-edith-ai-breast-screening-review-4698"
+      }
+    ],
+    "532:1": [
+      {
+        "reference": {
+          "id": 532,
+          "revision": 1,
+          "sha256": "6834878748e2d01a5de6bba64b31f6862a4b04645ab58e0b381dc0573e06ed9f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "A developer-tool story for technical readers: Anthropic's Claude Ship puts Claude to work on GitHub pull requests, reviewing, fixing failing checks, and approving routine changes under a team-written policy. A concrete coding-workflow product for teams, not a model release. muse-intake 2026-11-23: submitted by Diego via the @ClaudeDevs X post (https://x.com/claudedevs/status/2124959436640858475, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes, claude.com announcement read in full. Learn-more URL is the claude.com announcement; claude.com verified against live policy.json (not forbidden, used for record 526). Image is the announcement lead image, verified live (PNG 3000x1530); the post video thumbnail is on forbidden pbs.twimg.com.",
+            "evidence_sha256": "6834878748e2d01a5de6bba64b31f6862a4b04645ab58e0b381dc0573e06ed9f"
+          }
+        },
+        "sha256": "0940e617e2849d085a178de6f82ebc920de0e000dee6f86ea43225234f9b226f",
+        "reviewed_at": "2026-11-23T20:46:25.919803+00:00",
+        "operation_id": "muse-intake-20261123-claude-ship-review-8550"
       }
     ]
   }
