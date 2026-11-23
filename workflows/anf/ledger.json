@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1604,
-  "updated_at": "2026-11-23T16:05:18.935398+00:00",
-  "next_id": 521,
+  "generation": 1607,
+  "updated_at": "2026-11-23T16:30:47.110748+00:00",
+  "next_id": 522,
   "records": [
     {
       "id": 1,
@@ -6920,6 +6920,19 @@
           "sha256": "e33ddc82798071c4634bc33e972b20783c51de06762d7a9e3186a1c60cbaa15b",
           "source": "Lean Community Blog",
           "request_id": "muse-intake-20261123-riemann-certification-followup-504",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 521,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T16:30:46.849696+00:00",
+          "block": "Title: OpenAI dot connects to Apple Health data and medical records\nURL: https://9to5mac.com/2026/11/19/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more/\nImage URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/01/apple-health-chatgpt.jpg?quality=82&strip=all&w=1600\nSummary: OpenAI's dot can now connect to your Apple Health data and supported medical records through ChatGPT Health, so it can adjust race training around your workouts or remind you to book a physical. The feature is US-only and needs your permission. Health also now works on the Mac app, Android, and ChatGPT Sites, with call transcripts and hands-free CarPlay use.",
+          "sha256": "8a501548c9b6ca8c49276aa5eee36ffeb7d6cbcec34adea23e67799462e4e972",
+          "source": "9to5Mac",
+          "request_id": "muse-intake-20261123-dots-apple-health",
           "mode": "standard"
         }
       ]
@@ -15241,6 +15254,23 @@
           "id": 520,
           "revision": 1,
           "sha256": "e33ddc82798071c4634bc33e972b20783c51de06762d7a9e3186a1c60cbaa15b"
+        }
+      ]
+    },
+    "muse-intake-20261123-dots-apple-health": {
+      "status": "finalized",
+      "received_at": "2026-11-23T16:30:46.598465+00:00",
+      "received_sequence": 470,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T16:30:46.849696+00:00",
+      "records": [
+        {
+          "id": 521,
+          "revision": 1,
+          "sha256": "8a501548c9b6ca8c49276aa5eee36ffeb7d6cbcec34adea23e67799462e4e972"
         }
       ]
     }
@@ -56107,6 +56137,40 @@
         },
         "editorial_sha256": "fbf17c0437c005e30369122e9bfec234c77ef599caed741ad6bef40c2e0ab149"
       }
+    },
+    "muse-intake-20261123-dots-apple-health-receive-2472": {
+      "sha256": "44bf4bb44d4aaa2e97b2a151ded25a7ec7159dcfc522e00a78b75e6e6c255916",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-dots-apple-health"
+      }
+    },
+    "muse-intake-20261123-dots-apple-health-finalize-6621": {
+      "sha256": "f9f9b5370665a132c13c4768c4c75ed0254df9914ee381578a61e1b378db0314",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-dots-apple-health",
+        "records": [
+          {
+            "id": 521,
+            "revision": 1,
+            "sha256": "8a501548c9b6ca8c49276aa5eee36ffeb7d6cbcec34adea23e67799462e4e972"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-dots-apple-health-review-3280": {
+      "sha256": "a816e96a01cb6b1341a45687c44aef34dab5158febb38533989d0865c705167c",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 521,
+          "revision": 1,
+          "sha256": "8a501548c9b6ca8c49276aa5eee36ffeb7d6cbcec34adea23e67799462e4e972"
+        },
+        "editorial_sha256": "4422370ee18f7fab0fe5f6a9f60a1bb368bb04bf1d23cc2ff4d422d5f449967a"
+      }
     }
   },
   "migration": {
@@ -69233,6 +69297,26 @@
         "sha256": "fbf17c0437c005e30369122e9bfec234c77ef599caed741ad6bef40c2e0ab149",
         "reviewed_at": "2026-11-23T16:05:18.935398+00:00",
         "operation_id": "muse-intake-20261123-riemann-followup-504-review-4059"
+      }
+    ],
+    "521:1": [
+      {
+        "reference": {
+          "id": 521,
+          "revision": 1,
+          "sha256": "8a501548c9b6ca8c49276aa5eee36ffeb7d6cbcec34adea23e67799462e4e972"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A consumer health feature on OpenAI's proactive assistant: your dot can read Apple Health and medical records to personalize training and reminders. Broad general audience, not a developer or research item. muse-intake 2026-11-23: submitted by Diego via samir (@_samirism)'s X post (https://x.com/_samirism/status/2124862753714450859, Nov 23, 2026), read via syndication and the FxTwitter mirror; finalized by Muse per Diego's direction. Learn-more URL is 9to5Mac's Nov 19 coverage, verified in full. Image is the article's hero image, inspected and verified live (JPEG 1600x800).",
+            "evidence_sha256": "8a501548c9b6ca8c49276aa5eee36ffeb7d6cbcec34adea23e67799462e4e972"
+          }
+        },
+        "sha256": "4422370ee18f7fab0fe5f6a9f60a1bb368bb04bf1d23cc2ff4d422d5f449967a",
+        "reviewed_at": "2026-11-23T16:30:47.110748+00:00",
+        "operation_id": "muse-intake-20261123-dots-apple-health-review-3280"
       }
     ]
   }
