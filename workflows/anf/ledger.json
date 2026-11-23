@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1613,
-  "updated_at": "2026-11-23T18:02:58.013528+00:00",
-  "next_id": 524,
+  "generation": 1616,
+  "updated_at": "2026-11-23T18:11:25.514363+00:00",
+  "next_id": 525,
   "records": [
     {
       "id": 1,
@@ -6959,6 +6959,19 @@
           "sha256": "7dfed2c80ccee497bfb5499026b17b7e9e55d5173f325c31d21ce4554074aeae",
           "source": "OpenAI",
           "request_id": "muse-intake-20261123-openai-openworks",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 524,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T18:11:25.271526+00:00",
+          "block": "Title: DeepMind Gemini 4 agents find faster quantum algorithms, proved in Lean\nURL: https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/\nImage URL: https://lh3.googleusercontent.com/jIoM2lo98EDqLMQjIaXBlXPmXgPbUPpM2GgtXcDsGekZBOPUY41IjBsnuZIhLac7MSOuRkklNBsp20a5M25oDz-xTIY0BIqoBxUqmmXvEHwlM3MJJw=w1200-h630-n-nu-rw\nSummary: Teams of Gemini 4 agents improved well-known quantum algorithms, with every result proved in Lean and open-sourced. Fusion calculations got 11.8 times cheaper, a light-sensitive molecule simulation 8 times cheaper, and Cytochrome P450 work 2.5 times cheaper, while Grover's algorithm gained 2.57 times and arcsin 290 times. Still, scientific simulations need more resources than first error-corrected quantum computers will offer.",
+          "sha256": "74a2309362b2555b4a0e9c88555e7c9c0b90b332c30d8bb7471344d3656f303a",
+          "source": "Google DeepMind",
+          "request_id": "muse-intake-20261123-deepmind-quantum-algorithms",
           "mode": "standard"
         }
       ]
@@ -15331,6 +15344,23 @@
           "id": 523,
           "revision": 1,
           "sha256": "7dfed2c80ccee497bfb5499026b17b7e9e55d5173f325c31d21ce4554074aeae"
+        }
+      ]
+    },
+    "muse-intake-20261123-deepmind-quantum-algorithms": {
+      "status": "finalized",
+      "received_at": "2026-11-23T18:11:24.992857+00:00",
+      "received_sequence": 473,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T18:11:25.271526+00:00",
+      "records": [
+        {
+          "id": 524,
+          "revision": 1,
+          "sha256": "74a2309362b2555b4a0e9c88555e7c9c0b90b332c30d8bb7471344d3656f303a"
         }
       ]
     }
@@ -56299,6 +56329,40 @@
         },
         "editorial_sha256": "bcfac47cbb616291555e1ac2bd11e6fb8fd2e64c899cff521adb2d11a5b7b298"
       }
+    },
+    "muse-intake-20261123-deepmind-quantum-algorithms-receive-1054": {
+      "sha256": "8ddcc3855b7fad04971bd3ea5fb288ea69ce6e445f0eea23d61a94a828f73262",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-deepmind-quantum-algorithms"
+      }
+    },
+    "muse-intake-20261123-deepmind-quantum-algorithms-finalize-9108": {
+      "sha256": "1710d068bf7ef9445d082238e187e14c552a86f58283168498c03a0da608322e",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-deepmind-quantum-algorithms",
+        "records": [
+          {
+            "id": 524,
+            "revision": 1,
+            "sha256": "74a2309362b2555b4a0e9c88555e7c9c0b90b332c30d8bb7471344d3656f303a"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-deepmind-quantum-algorithms-review-6042": {
+      "sha256": "4229d44243541c2712457e43b23a4eed0d271f8117eafc40748e4ca76ea81a7d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 524,
+          "revision": 1,
+          "sha256": "74a2309362b2555b4a0e9c88555e7c9c0b90b332c30d8bb7471344d3656f303a"
+        },
+        "editorial_sha256": "4ef1bc3bfb96721315f0feac70b55af9fb363173531cc8b55ce0c01083b4a59e"
+      }
     }
   },
   "migration": {
@@ -69485,6 +69549,26 @@
         "sha256": "bcfac47cbb616291555e1ac2bd11e6fb8fd2e64c899cff521adb2d11a5b7b298",
         "reviewed_at": "2026-11-23T18:02:58.013528+00:00",
         "operation_id": "muse-intake-20261123-openai-openworks-review-1281"
+      }
+    ],
+    "524:1": [
+      {
+        "reference": {
+          "id": 524,
+          "revision": 1,
+          "sha256": "74a2309362b2555b4a0e9c88555e7c9c0b90b332c30d8bb7471344d3656f303a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A research story for technical readers: teams of Gemini 4 agents improved well-known quantum algorithms, with each result proved mathematically in Lean and open-sourced, cutting costs up to 290x on key routines. It shows agentic AI doing real scientific work with formal guarantees, not just demos. muse-intake 2026-11-23: submitted by Diego via the DeepMind blog post (https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/, Nov 23, 2026), read in full. Learn-more URL is the blog post itself; deepmind.google verified against live workflows/anf/policy.json (not forbidden). Image is the blog page's og:image on lh3.googleusercontent.com, inspected and verified live (WebP 1200x630).",
+            "evidence_sha256": "74a2309362b2555b4a0e9c88555e7c9c0b90b332c30d8bb7471344d3656f303a"
+          }
+        },
+        "sha256": "4ef1bc3bfb96721315f0feac70b55af9fb363173531cc8b55ce0c01083b4a59e",
+        "reviewed_at": "2026-11-23T18:11:25.514363+00:00",
+        "operation_id": "muse-intake-20261123-deepmind-quantum-algorithms-review-6042"
       }
     ]
   }
