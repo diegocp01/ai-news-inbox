@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1598,
-  "updated_at": "2026-11-23T14:32:51.278770+00:00",
-  "next_id": 519,
+  "generation": 1601,
+  "updated_at": "2026-11-23T16:02:46.164368+00:00",
+  "next_id": 520,
   "records": [
     {
       "id": 1,
@@ -6895,6 +6895,19 @@
           "request_id": "20060d066abdf7059adf538da5249cae2affa55a0a34fb1c400971dc7dc8ecc9",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 519,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T16:02:45.929165+00:00",
+          "block": "Title: NVIDIA board reinstates Jensen Huang as president, CEO and board director\nURL: https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director\nImage URL: https://nvidianews.nvidia.com/media/sites/219/images/social-image.jpg\nSummary: Today, NVIDIA's board unanimously reinstated Jensen Huang as president, CEO and board director, effective immediately, reversing his November 12 resignation. The board said it was satisfied with his candor and leadership, citing input from senior US government levels and confidence the return poses no national security risk. Colette Kress, interim CEO, continues as CFO; the board's investigation proceeds to conclusion.",
+          "sha256": "caa38ccf66ad7fdbd31be2855386b83e9e6a5f4ffda63e3015278a1289cc3cac",
+          "source": "NVIDIA Newsroom",
+          "request_id": "muse-intake-20261123-nvidia-huang-reinstated",
+          "mode": "standard"
         }
       ]
     }
@@ -15181,6 +15194,23 @@
           "id": 516,
           "revision": 1,
           "sha256": "82423d3f08681fdfb9f73d48db3c0014f221082ce2882cb685b3014db4a85d8c"
+        }
+      ]
+    },
+    "muse-intake-20261123-nvidia-huang-reinstated": {
+      "status": "finalized",
+      "received_at": "2026-11-23T16:02:45.698083+00:00",
+      "received_sequence": 468,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T16:02:45.929165+00:00",
+      "records": [
+        {
+          "id": 519,
+          "revision": 1,
+          "sha256": "caa38ccf66ad7fdbd31be2855386b83e9e6a5f4ffda63e3015278a1289cc3cac"
         }
       ]
     }
@@ -55979,6 +56009,40 @@
           "planned_from_head": "1b65707d8f6594d0dae6a455918772a7545d02b2"
         }
       }
+    },
+    "muse-intake-20261123-nvidia-huang-reinstated-receive-8421": {
+      "sha256": "ac01819bb924b4f26a2cbd977d40b53dacb2b6a09336fce9fd11a51ac522613d",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-nvidia-huang-reinstated"
+      }
+    },
+    "muse-intake-20261123-nvidia-huang-reinstated-finalize-0482": {
+      "sha256": "2264b42da559d20d9238985235cc0b7ac43b01677f7d8c9a414ca0755167ebcb",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-nvidia-huang-reinstated",
+        "records": [
+          {
+            "id": 519,
+            "revision": 1,
+            "sha256": "caa38ccf66ad7fdbd31be2855386b83e9e6a5f4ffda63e3015278a1289cc3cac"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-nvidia-huang-reinstated-review-3562": {
+      "sha256": "429352dccf7aba649bbd2e95a0fe6b70200413e129d31652ed704eac2f3ede43",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 519,
+          "revision": 1,
+          "sha256": "caa38ccf66ad7fdbd31be2855386b83e9e6a5f4ffda63e3015278a1289cc3cac"
+        },
+        "editorial_sha256": "b22f72401c33037acab2cdf108385f6f99b2de2fdb05b8701358ad68bbeac020"
+      }
     }
   },
   "migration": {
@@ -69065,6 +69129,26 @@
         "sha256": "9dca26fffc32e2b147bb1747c87db1a74c84d84f097ca4df59deaae11f65b1b7",
         "reviewed_at": "2026-11-23T13:02:15.205579+00:00",
         "operation_id": "muse-backfill-20261123-518-1840"
+      }
+    ],
+    "519:1": [
+      {
+        "reference": {
+          "id": 519,
+          "revision": 1,
+          "sha256": "caa38ccf66ad7fdbd31be2855386b83e9e6a5f4ffda63e3015278a1289cc3cac"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A CEO reinstatement at the world's most valuable chipmaker, reversing a resignation amid a foreign-intelligence investigation and with US government input, is major general business news for a broad audience, not a developer or research item. muse-intake 2026-11-23: submitted by Diego via NVIDIA Newsroom's X post (https://x.com/nvidianewsroom/status/2124865060397019480, Nov 23, 2026), read via syndication and the FxTwitter mirror; finalized by Muse per Diego's direction. Learn-more URL is the NVIDIA newsroom release, verified in full. Image is the release page's og:image, inspected and verified live (JPEG 1200x630).",
+            "evidence_sha256": "caa38ccf66ad7fdbd31be2855386b83e9e6a5f4ffda63e3015278a1289cc3cac"
+          }
+        },
+        "sha256": "b22f72401c33037acab2cdf108385f6f99b2de2fdb05b8701358ad68bbeac020",
+        "reviewed_at": "2026-11-23T16:02:46.164368+00:00",
+        "operation_id": "muse-intake-20261123-nvidia-huang-reinstated-review-3562"
       }
     ]
   }
