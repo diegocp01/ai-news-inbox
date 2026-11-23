@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1616,
-  "updated_at": "2026-11-23T18:11:25.514363+00:00",
-  "next_id": 525,
+  "generation": 1619,
+  "updated_at": "2026-11-23T18:24:30.207865+00:00",
+  "next_id": 526,
   "records": [
     {
       "id": 1,
@@ -6972,6 +6972,19 @@
           "sha256": "74a2309362b2555b4a0e9c88555e7c9c0b90b332c30d8bb7471344d3656f303a",
           "source": "Google DeepMind",
           "request_id": "muse-intake-20261123-deepmind-quantum-algorithms",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 525,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T18:24:29.972066+00:00",
+          "block": "Title: Gemini API adds file slicing controls to cut token costs on large files\nURL: https://aistudio.google.com/docs/document-processing\nImage URL: https://toolnavs.com/uploads/articles/20261118-gemini-api-office-slicing.jpg\nSummary: The Gemini API offers file slicing controls, letting developers send only selected pages, sheet ranges, or media segments to the model and pay only for what Gemini inspects. PDFs, Office files, spreadsheets, video, and audio slice by page, cell, time interval, or content layer. Files upload once via the Files API and reuse across turns, on all Gemini 4 models.",
+          "sha256": "669e067b2c49e301d711386ef6c0bcfe34e9f3e16226b2263edde9bd14f0d7bd",
+          "source": "Google AI Studio",
+          "request_id": "muse-intake-20261123-gemini-file-slicing",
           "mode": "standard"
         }
       ]
@@ -15361,6 +15374,23 @@
           "id": 524,
           "revision": 1,
           "sha256": "74a2309362b2555b4a0e9c88555e7c9c0b90b332c30d8bb7471344d3656f303a"
+        }
+      ]
+    },
+    "muse-intake-20261123-gemini-file-slicing": {
+      "status": "finalized",
+      "received_at": "2026-11-23T18:24:29.731855+00:00",
+      "received_sequence": 474,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T18:24:29.972066+00:00",
+      "records": [
+        {
+          "id": 525,
+          "revision": 1,
+          "sha256": "669e067b2c49e301d711386ef6c0bcfe34e9f3e16226b2263edde9bd14f0d7bd"
         }
       ]
     }
@@ -56363,6 +56393,40 @@
         },
         "editorial_sha256": "4ef1bc3bfb96721315f0feac70b55af9fb363173531cc8b55ce0c01083b4a59e"
       }
+    },
+    "muse-intake-20261123-gemini-file-slicing-receive-1837": {
+      "sha256": "1507c8c36a10ac378e55f6e4a442573965feffba1ff8003d5c41f693439d6337",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-gemini-file-slicing"
+      }
+    },
+    "muse-intake-20261123-gemini-file-slicing-finalize-9705": {
+      "sha256": "39d17310b0b7b55865cbba280aaad7b94383f9abad90cff6755da7f3fa3317b8",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-gemini-file-slicing",
+        "records": [
+          {
+            "id": 525,
+            "revision": 1,
+            "sha256": "669e067b2c49e301d711386ef6c0bcfe34e9f3e16226b2263edde9bd14f0d7bd"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-gemini-file-slicing-review-8673": {
+      "sha256": "c2f2e550e321800ebe4c1ad51ca48f38c5ea39d9913cce60cafac8687528c8df",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 525,
+          "revision": 1,
+          "sha256": "669e067b2c49e301d711386ef6c0bcfe34e9f3e16226b2263edde9bd14f0d7bd"
+        },
+        "editorial_sha256": "cbd410e60075a9a4f95dbe02f3c1e447f96298a161b8c2577b50b07ff0867cd8"
+      }
     }
   },
   "migration": {
@@ -69569,6 +69633,26 @@
         "sha256": "4ef1bc3bfb96721315f0feac70b55af9fb363173531cc8b55ce0c01083b4a59e",
         "reviewed_at": "2026-11-23T18:11:25.514363+00:00",
         "operation_id": "muse-intake-20261123-deepmind-quantum-algorithms-review-6042"
+      }
+    ],
+    "525:1": [
+      {
+        "reference": {
+          "id": 525,
+          "revision": 1,
+          "sha256": "669e067b2c49e301d711386ef6c0bcfe34e9f3e16226b2263edde9bd14f0d7bd"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "A developer-tool story for technical readers: the Gemini API now lets developers slice files by page, cell, time interval or content layer and pay only for what the model inspects, with Files API reuse across turns. It is a concrete API cost and workflow change, not a model release. muse-intake 2026-11-23: submitted by Diego via the @GoogleAIStudio X post (https://x.com/GoogleAIStudio/status/2124928707529674979, Nov 23, 2026) linking X Article 2124919844235513856 'Introducing file slicing controls in the Gemini API'; article text verified via the FxTwitter mirror route, docs page read in full. Learn-more URL is the Google AI Studio docs page; aistudio.google.com verified against live workflows/anf/policy.json (not forbidden). Image is the og:image of the Toolnavs coverage article, inspected and verified live (JPEG 2048x1152); the docs page's own og:image 404s and the X cover image is on forbidden pbs.twimg.com.",
+            "evidence_sha256": "669e067b2c49e301d711386ef6c0bcfe34e9f3e16226b2263edde9bd14f0d7bd"
+          }
+        },
+        "sha256": "cbd410e60075a9a4f95dbe02f3c1e447f96298a161b8c2577b50b07ff0867cd8",
+        "reviewed_at": "2026-11-23T18:24:30.207865+00:00",
+        "operation_id": "muse-intake-20261123-gemini-file-slicing-review-8673"
       }
     ]
   }
