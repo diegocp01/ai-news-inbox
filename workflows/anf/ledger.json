@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1646,
-  "updated_at": "2026-11-23T21:56:34.583424+00:00",
-  "next_id": 535,
+  "generation": 1649,
+  "updated_at": "2026-11-23T22:01:55.368256+00:00",
+  "next_id": 536,
   "records": [
     {
       "id": 1,
@@ -7102,6 +7102,19 @@
           "sha256": "e6bbb8d3c4797d8106bb76b7b484756c8f534f4c1bbde1c6cbdf4b288e148dec",
           "source": "OpenAI",
           "request_id": "muse-intake-20261123-gpt-5-6-deprecation",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 535,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T22:01:55.124714+00:00",
+          "block": "Title: OpenAI and Cisco launch Shirudo, an open-source runtime for self-defending Linux systems\nURL: https://github.com/shirudo-dev/shirudo\nImage URL: https://blogs.cisco.com/gcs/ciscoblogs/1/2026/11/Option-2_B.png\nSummary: OpenAI and Cisco launched Shirudo, an open-source Linux runtime that lets AI agents defend systems without downtime. Agents write dynamic eBPF controls that shield systems from exploits, buying defenders time to test and roll out patches. Each shield is cryptographically signed and retires when the real patch lands, a first step toward self-defending infrastructure that adapts to new threats today.",
+          "sha256": "60fb7d3e320e6c891b770a2df6e97cefd3b0085335b27d50877580398e5e0d5f",
+          "source": "OpenAI",
+          "request_id": "muse-intake-20261123-shirudo",
           "mode": "standard"
         }
       ]
@@ -15661,6 +15674,23 @@
           "id": 534,
           "revision": 1,
           "sha256": "e6bbb8d3c4797d8106bb76b7b484756c8f534f4c1bbde1c6cbdf4b288e148dec"
+        }
+      ]
+    },
+    "muse-intake-20261123-shirudo": {
+      "status": "finalized",
+      "received_at": "2026-11-23T22:01:54.882740+00:00",
+      "received_sequence": 484,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T22:01:55.124714+00:00",
+      "records": [
+        {
+          "id": 535,
+          "revision": 1,
+          "sha256": "60fb7d3e320e6c891b770a2df6e97cefd3b0085335b27d50877580398e5e0d5f"
         }
       ]
     }
@@ -57003,6 +57033,40 @@
         },
         "editorial_sha256": "b0f4e456b1c3fe6ac6c719d7e775b20d409b0e3f4e68bba2d877ebcb426aa4ab"
       }
+    },
+    "muse-intake-20261123-shirudo-receive-7910": {
+      "sha256": "cd39fd7cf4d055f92ef99f8f1f6d92d1d3aca6105b3dd06242ff5d558a67fb4e",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-shirudo"
+      }
+    },
+    "muse-intake-20261123-shirudo-finalize-6841": {
+      "sha256": "96a018aae7eb3752a528127eee43f376f5cb95eda09e6161fba30bbe9241b740",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-shirudo",
+        "records": [
+          {
+            "id": 535,
+            "revision": 1,
+            "sha256": "60fb7d3e320e6c891b770a2df6e97cefd3b0085335b27d50877580398e5e0d5f"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-shirudo-review-9958": {
+      "sha256": "f48f47f95d5dbfce5820ff5e2e552c1c732ad377aba3c5ff215cb34c8fff5203",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 535,
+          "revision": 1,
+          "sha256": "60fb7d3e320e6c891b770a2df6e97cefd3b0085335b27d50877580398e5e0d5f"
+        },
+        "editorial_sha256": "a2328aff32b36f28fbbf7c55f7dd0c29083548c9b60f76ef1506a747129376c1"
+      }
     }
   },
   "migration": {
@@ -70409,6 +70473,26 @@
         "sha256": "b0f4e456b1c3fe6ac6c719d7e775b20d409b0e3f4e68bba2d877ebcb426aa4ab",
         "reviewed_at": "2026-11-23T21:56:34.583424+00:00",
         "operation_id": "muse-intake-20261123-gpt-5-6-deprecation-review-7139"
+      }
+    ],
+    "535:1": [
+      {
+        "reference": {
+          "id": 535,
+          "revision": 1,
+          "sha256": "60fb7d3e320e6c891b770a2df6e97cefd3b0085335b27d50877580398e5e0d5f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "A developer and security-operations story: an open-source Linux runtime that makes eBPF kernel defenses agent-native, so AI agents can write and deploy signed exploit shields without downtime. A concrete infrastructure and security tool, not a model release. muse-intake 2026-11-23: submitted by Diego via the @OpenAI X post (https://x.com/openai/status/2124980590717911527, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes; GitHub repo and Cisco blog read in full. Learn-more URL is the GitHub repo; github.com verified against live policy.json (not forbidden, used for record 481). Image is the Cisco blog og:image, verified live (PNG 1340x477).",
+            "evidence_sha256": "60fb7d3e320e6c891b770a2df6e97cefd3b0085335b27d50877580398e5e0d5f"
+          }
+        },
+        "sha256": "a2328aff32b36f28fbbf7c55f7dd0c29083548c9b60f76ef1506a747129376c1",
+        "reviewed_at": "2026-11-23T22:01:55.368256+00:00",
+        "operation_id": "muse-intake-20261123-shirudo-review-9958"
       }
     ]
   }
