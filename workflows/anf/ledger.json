@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1594,
-  "updated_at": "2026-11-23T13:02:15.205579+00:00",
+  "generation": 1595,
+  "updated_at": "2026-11-23T13:02:36.425583+00:00",
   "next_id": 519,
   "records": [
     {
@@ -26350,9 +26350,243 @@
       },
       "acknowledged_at": "2026-11-20T13:54:43.102200+00:00",
       "checkpoint_after": 502
+    },
+    "650172132647fb858dc57486": {
+      "batch_id": "650172132647fb858dc57486",
+      "status": "prepared",
+      "checkpoint_before": 502,
+      "prepared_at": "2026-11-23T13:02:36.425583+00:00",
+      "intake_cutoff": 467,
+      "records": [
+        {
+          "id": 503,
+          "revision": 1,
+          "sha256": "0d432bac8ed7d4fe8e7ffdcbbd84ae3f23b8c8ce3d617441d3928707d9391ebd"
+        },
+        {
+          "id": 504,
+          "revision": 1,
+          "sha256": "4ff0211e47ff06abe2174ef0d17cbd7e9ae3a8a327d48414842e60c8faf966b5"
+        },
+        {
+          "id": 505,
+          "revision": 1,
+          "sha256": "f9cbbe7947c8edd135efc387f4ca3b0c53e901631dd10c10acbbd58ada4d7b09"
+        },
+        {
+          "id": 506,
+          "revision": 1,
+          "sha256": "f05035cdb8ad61214e159dde1591437cbe0abda535a2b8e773233bc7637ab850"
+        },
+        {
+          "id": 507,
+          "revision": 1,
+          "sha256": "85ab63313046b243f4b0f2f078b034a4f84031146bf1b7063efc50323fbb2a59"
+        },
+        {
+          "id": 508,
+          "revision": 1,
+          "sha256": "5c79e31b44fd326300f0d752ac9863e6fd442ed7202f7b438e2a62c523c5649c"
+        },
+        {
+          "id": 509,
+          "revision": 1,
+          "sha256": "b70c90e1bedb6725f99a2f2e3d7a3c67529c573bc11b5c746d61751c5fc1246d"
+        },
+        {
+          "id": 510,
+          "revision": 1,
+          "sha256": "698048d1dcb7bce7cf1343de69b0038b8538db5206bce09dd94584ea06a0f463"
+        },
+        {
+          "id": 511,
+          "revision": 1,
+          "sha256": "7971c8d6a2fc0b71885173012eae0e2f88b4be62fc6278d66df94a37ff5c2f83"
+        },
+        {
+          "id": 512,
+          "revision": 1,
+          "sha256": "31b67c493d6c05eb6132e955da0ad38cd74278def671a598331690cb5782b434"
+        },
+        {
+          "id": 513,
+          "revision": 1,
+          "sha256": "93c2f0c4843a110acd3bb9bd6fca4093b82b9ba8036889d20b8e1970500d1aaf"
+        },
+        {
+          "id": 514,
+          "revision": 1,
+          "sha256": "e57a500b709545f001455bb1c32e26b27bab7b4a8ac04fe2e4b0fb3bdeea6b90"
+        },
+        {
+          "id": 515,
+          "revision": 1,
+          "sha256": "66b6a6dc88e0894ccba5c67fc877c0a6941acbd2b2014021160ca00bca1fd7ff"
+        },
+        {
+          "id": 516,
+          "revision": 1,
+          "sha256": "82423d3f08681fdfb9f73d48db3c0014f221082ce2882cb685b3014db4a85d8c"
+        },
+        {
+          "id": 517,
+          "revision": 1,
+          "sha256": "e802249efa24b485ec59e2e186af4471b49063b741766854b53b78381c0b4e8c"
+        },
+        {
+          "id": 518,
+          "revision": 1,
+          "sha256": "2062f180adc1b65f828c16b3c6df2e8cb7ba5a27b188494a51868e63d9a3b8f7"
+        }
+      ],
+      "first_id": 503,
+      "last_id": 518,
+      "count": 16,
+      "txt_path": "workflows/anf/batches/650172132647fb858dc57486.txt",
+      "json_path": "workflows/anf/batches/650172132647fb858dc57486.json",
+      "txt_sha256": "33d066f704d500062d7f789f6056f3f531f396223082495f8e12a8fabcd0c1bb",
+      "json_sha256": "eb3ad0b31046435401abc677842812eaa23f2c8b1edb899ea0af1997f1def900",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Muse Mail is a consumer product rollout reaching every Muse user in supported markets, not a research result or developer tool; the audience is general. muse-intake 2026-11-20: submitted by Diego via Muse's X post https://x.com/muse/status/2123602791356883032 (9:22 PM Nov 19, 2026), verified via X's syndication data service and corroborated by The Tech Outlook coverage; finalized by Muse per Diego's direction. muse.ai is policy-forbidden as a record URL, so The Tech Outlook is the record URL.",
+            "evidence_sha256": "0d432bac8ed7d4fe8e7ffdcbbd84ae3f23b8c8ce3d617441d3928707d9391ebd"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A claimed proof of the most famous open problem in mathematics, formalized in Lean with a theta-lift argument extending to the Generalized Riemann Hypothesis, is research mathematics; its verification (whether the Lean archive builds and states the hypothesis) is a technical question for researchers and technically literate readers. muse-intake 2026-11-20: submitted by Diego via https://alpo.ge/remark.pdf, verified by a live browser read of the PDF and Scientific American's Nov 20 coverage; finalized by Muse per Diego's direction. The note is unsigned; authorship attributed to Levent Alpoge via Scientific American and OfficeChai coverage of his personal site alpo.ge. The claim is unverified and framed as the author's claim; the PDF is corroboration for the Scientific American record URL.",
+            "evidence_sha256": "4ff0211e47ff06abe2174ef0d17cbd7e9ae3a8a327d48414842e60c8faf966b5"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Grok Bot's QuickBooks connection is a small-business product feature for owners checking cash flow and chasing invoices, not a research result or developer tool; the audience is general. muse-intake 2026-11-20: submitted by Diego via Grok Bot's X post https://x.com/bot/status/2123840024747946383 (1:04 PM Nov 20, 2026), verified via X's own embed route and corroborated by Tesla North coverage; finalized by Muse per Diego's direction. The post's image is on forbidden pbs.twimg.com, so the article's og:image is used.",
+            "evidence_sha256": "f9cbbe7947c8edd135efc387f4ca3b0c53e901631dd10c10acbbd58ada4d7b09"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "ChatGPT Space for Plus is a consumer product expansion reaching every $20-a-month Plus subscriber, not a research result or developer tool; the audience is general. muse-intake 2026-11-20: submitted by Diego via Andrew Ambrosino's X post https://x.com/ajambrosino/status/2123840812534452296 (1:08 PM EST Nov 20, 2026), verified via the FxTwitter API mirror; finalized by Muse per Diego's direction. OpenAI's own pages are policy-forbidden as a record URL, so Engadget coverage is the record URL.",
+            "evidence_sha256": "f05035cdb8ad61214e159dde1591437cbe0abda535a2b8e773233bc7637ab850"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Inkling 2 Mini is an open-weights model release for developers building agentic and tool-use systems, evaluated on coding and research benchmarks; the audience is technical/research. muse-intake 2026-11-20: submitted by Diego via Thinking Machines' X post https://x.com/thinkymachines/status/2123871643797995872 (3:10 PM EST Nov 20, 2026), verified via X's syndication endpoint; finalized by Muse per Diego's direction. Thinking Machines' own announcement page is policy-forbidden (.ai suffix) as a record URL, so the vLLM day-0 blog is the record URL; the announcement was read as corroboration.",
+            "evidence_sha256": "85ab63313046b243f4b0f2f078b034a4f84031146bf1b7063efc50323fbb2a59"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "METR's Q4 capability update is a research evaluation of AI R&D-relevant model capabilities — time horizons, the METR Capability Index, and whether AI R&D acceleration is coming — written for researchers and technical readers tracking the frontier; the audience is technical/research. muse-intake 2026-11-20: submitted by Diego via the METR blog link https://metr.org/blog/2026-11-20-q4-2026-capability-update/ (Nov 20, 2026), article read in full via browser.open; finalized by Muse per Diego's direction. metr.org is not among the ledger policy's forbidden domains/suffixes, so the article itself is the record URL.",
+            "evidence_sha256": "5c79e31b44fd326300f0d752ac9863e6fd442ed7202f7b438e2a62c523c5649c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "The Cursor to Grok Build rename is a developer-tool story: it concerns an AI coding editor and its CLI, and the details that matter (CLI 2.0 alpha, unified subscription) are for developers using the tool; the audience is technical/developer_tool. muse-intake 2026-11-20: submitted by Diego via Puck's (@GrokInsider) X post https://x.com/GrokInsider/status/2123867269553938671 (2:53 PM EST Nov 20, 2026), full text verified via X's syndication endpoint; finalized by Muse per Diego's direction. The post is an insider report, not an official announcement; Sinch's partner page corroborates the rename and is the record URL (x.com is forbidden).",
+            "evidence_sha256": "b70c90e1bedb6725f99a2f2e3d7a3c67529c573bc11b5c746d61751c5fc1246d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Suh's agent-platform-of-2027 vision is a broad industry argument about where the application layer goes: one agentic operating system with other software as databases. It is a strategy take for general readers following AI, not a developer tool or a research result. muse-intake 2026-11-22: submitted by Diego via John Suh's (@john_ssuh) X post https://x.com/john_ssuh/status/2124336124172935336 (Nov 22, 2026, 02:56 UTC), full text verified via X syndication endpoint and FxTwitter mirror after x.com 403'd; finalized by Muse per Diego's direction. Learn-more URL left empty per Diego's rule: no policy-allowed secondary coverage of this post was found; the Navigate VC interview page is a bio profile, not coverage of the post. Image is Suh's portrait from that page's og:image, verified live (PNG 954x574).",
+            "evidence_sha256": "698048d1dcb7bce7cf1343de69b0038b8538db5206bce09dd94584ea06a0f463"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Musk's post is a detailed technical explanation of how FSD v15's Reality View works: world model, Universal Vision Encoder, mean-flow model, ~1B diffusion model, TRIP engine. It is engineering detail for readers following autonomous-driving AI, not a general consumer announcement. muse-intake 2026-11-22: submitted by Diego via Elon Musk's (@elonmusk) X post https://x.com/elonmusk/status/2124458557525397780 (Nov 22, 2026, 06:02 EST), full text verified via AMP route, FxTwitter mirror and syndication endpoint after x.com 403'd; finalized by Muse per Diego's direction. Learn-more URL left empty per Diego's rule: no policy-allowed secondary coverage of this specific post was found; Nov 21 rollout coverage does not cover this technical explanation. Image is Electrek's FSD v15 article image, verified live (JPEG 1200x628).",
+            "evidence_sha256": "7971c8d6a2fc0b71885173012eae0e2f88b4be62fc6278d66df94a37ff5c2f83"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Pachocki's essay is a research-level proposal: it publishes OpenAI's internal log-perplexity scores, argues perplexity (cross-entropy loss) should be the shared metric for tracking pretraining progress, and proposes common development limits tied to it. It is aimed at readers following frontier-model research and AI safety, not a general consumer announcement. muse-intake 2026-11-22: submitted by Diego via OpenAI's essay \"Perplexity and Intelligence\" by chief scientist Jakub Pachocki (https://openai.com/index/perplexity-and-intelligence/, Nov 22, 2026), read in full; finalized by Muse per Diego's direction. Learn-more URL is AI Parabellum's same-day coverage, verified in full: openai.com is policy-forbidden and the MLQ.ai piece is a forbidden .ai domain. Image is AI Parabellum's article image, verified live (WebP 1200x675).",
+            "evidence_sha256": "31b67c493d6c05eb6132e955da0ad38cd74278def671a598331690cb5782b434"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "tufazip is a research-level result in neural compression: a 163M-parameter Transformer as the sole predictor on a 20-year-old benchmark, with online learning and a quantized offline prior, framed by the compression-as-intelligence argument. It is aimed at readers following machine-learning research and compression methods, not a general consumer announcement. muse-intake 2026-11-22: submitted by Diego via TUFA Labs' research post \"tufazip: Learning to Compress a Billion Bytes of Wikipedia\" by Tommy He (https://tufalabs.ai/research/tufazip/, Oct 14, 2026), read in full; finalized by Muse per Diego's direction. Learn-more URL is The GenAI Magazine's coverage, verified in full: tufalabs.ai is policy-forbidden (.ai suffix) and the ExplainX piece is also a .ai domain. Image is the GenAI Magazine article's official tufazip cover, inspected and verified live (JPEG 1600x900).",
+            "evidence_sha256": "93c2f0c4843a110acd3bb9bd6fca4093b82b9ba8036889d20b8e1970500d1aaf"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Haowei He and colleagues introduce cmHC to balance information sharing across language-model streams without collapsing their differences, reporting effective training across dense and mixture-of-experts models. Fused Ascend operators reduced hyper-connection execution latency by up to 44.8 percent in their tests, excluding the Transformer sublayer. This is AI research on model architecture and training efficiency with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e57a500b709545f001455bb1c32e26b27bab7b4a8ac04fe2e4b0fb3bdeea6b90"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "Yuhang Dai and colleagues introduce NoPeBench and NoPeWorld to address obstacle penetration in interactive video models. A small head on a frozen generator predicts unsafe actions and replaces them with alternatives, and across six tested models the authors report average physical violation rates falling from 74 percent to 16 percent. This is AI research on generative video models with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "66b6a6dc88e0894ccba5c67fc877c0a6941acbd2b2014021160ca00bca1fd7ff"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "GLM-5.4 is a developer-facing coding model release: it ships inside the GLM Coding Plan, Claude Code, and ZCode, with model IDs, a million-token context, and quota changes that matter to working developers. The Loop Transformer design is the technical hook, but the news is a tool developers can use today, not a research paper. muse-intake 2026-11-23: submitted by Diego via Z.ai's X post (https://x.com/zai_org/status/2124811995912286352, Nov 23, 2026), read via syndication; finalized by Muse per Diego's direction. Learn-more URL is TestingCatalog's coverage, verified in full: z.ai is policy-forbidden (.ai suffix). Image is the TestingCatalog article's GLM-5.4 LOOP banner, inspected and verified live (WEBP 1200x675).",
+            "evidence_sha256": "82423d3f08681fdfb9f73d48db3c0014f221082ce2882cb685b3014db4a85d8c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Anthropic mathematician Levent Alpoge says he developed a proof of the Riemann hypothesis with Claude and released about 17 million lines of Lean code. The Lean FRO and Mathlib Initiative say checks confirm the statement and proof are correct, while researchers are still working to explain the mathematical ideas behind the argument. This is landmark mathematics news of broad general interest, not a technical paper for researchers. muse-compile-backfill 2026-11-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "e802249efa24b485ec59e2e186af4471b49063b741766854b53b78381c0b4e8c"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "OpenAI published internal log-perplexity scores tracking how well its models predict code, and chief scientist Jakub Pachocki proposes shared development limits tied to such measurements, with further progress conditional on concrete milestones in understanding and monitoring AI behavior. This is AI policy and governance news about a major lab's proposals, for a general audience, not a technical research paper. muse-compile-backfill 2026-11-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "2062f180adc1b65f828c16b3c6df2e8cb7ba5a27b188494a51868e63d9a3b8f7"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-23T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "650172132647fb858dc57486",
   "replacement_batch": null,
   "checkpoint": 502,
   "checkpoint_history": [
@@ -55424,6 +55658,247 @@
           "sha256": "2062f180adc1b65f828c16b3c6df2e8cb7ba5a27b188494a51868e63d9a3b8f7"
         },
         "editorial_sha256": "9dca26fffc32e2b147bb1747c87db1a74c84d84f097ca4df59deaae11f65b1b7"
+      }
+    },
+    "muse-compile-20261123-1302-8007": {
+      "sha256": "139db17a9082529f7918b5469f3ec0986113c24281cb65e812106a33ee63e8c8",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "650172132647fb858dc57486",
+          "status": "prepared",
+          "checkpoint_before": 502,
+          "prepared_at": "2026-11-23T13:02:36.425583+00:00",
+          "intake_cutoff": 467,
+          "records": [
+            {
+              "id": 503,
+              "revision": 1,
+              "sha256": "0d432bac8ed7d4fe8e7ffdcbbd84ae3f23b8c8ce3d617441d3928707d9391ebd"
+            },
+            {
+              "id": 504,
+              "revision": 1,
+              "sha256": "4ff0211e47ff06abe2174ef0d17cbd7e9ae3a8a327d48414842e60c8faf966b5"
+            },
+            {
+              "id": 505,
+              "revision": 1,
+              "sha256": "f9cbbe7947c8edd135efc387f4ca3b0c53e901631dd10c10acbbd58ada4d7b09"
+            },
+            {
+              "id": 506,
+              "revision": 1,
+              "sha256": "f05035cdb8ad61214e159dde1591437cbe0abda535a2b8e773233bc7637ab850"
+            },
+            {
+              "id": 507,
+              "revision": 1,
+              "sha256": "85ab63313046b243f4b0f2f078b034a4f84031146bf1b7063efc50323fbb2a59"
+            },
+            {
+              "id": 508,
+              "revision": 1,
+              "sha256": "5c79e31b44fd326300f0d752ac9863e6fd442ed7202f7b438e2a62c523c5649c"
+            },
+            {
+              "id": 509,
+              "revision": 1,
+              "sha256": "b70c90e1bedb6725f99a2f2e3d7a3c67529c573bc11b5c746d61751c5fc1246d"
+            },
+            {
+              "id": 510,
+              "revision": 1,
+              "sha256": "698048d1dcb7bce7cf1343de69b0038b8538db5206bce09dd94584ea06a0f463"
+            },
+            {
+              "id": 511,
+              "revision": 1,
+              "sha256": "7971c8d6a2fc0b71885173012eae0e2f88b4be62fc6278d66df94a37ff5c2f83"
+            },
+            {
+              "id": 512,
+              "revision": 1,
+              "sha256": "31b67c493d6c05eb6132e955da0ad38cd74278def671a598331690cb5782b434"
+            },
+            {
+              "id": 513,
+              "revision": 1,
+              "sha256": "93c2f0c4843a110acd3bb9bd6fca4093b82b9ba8036889d20b8e1970500d1aaf"
+            },
+            {
+              "id": 514,
+              "revision": 1,
+              "sha256": "e57a500b709545f001455bb1c32e26b27bab7b4a8ac04fe2e4b0fb3bdeea6b90"
+            },
+            {
+              "id": 515,
+              "revision": 1,
+              "sha256": "66b6a6dc88e0894ccba5c67fc877c0a6941acbd2b2014021160ca00bca1fd7ff"
+            },
+            {
+              "id": 516,
+              "revision": 1,
+              "sha256": "82423d3f08681fdfb9f73d48db3c0014f221082ce2882cb685b3014db4a85d8c"
+            },
+            {
+              "id": 517,
+              "revision": 1,
+              "sha256": "e802249efa24b485ec59e2e186af4471b49063b741766854b53b78381c0b4e8c"
+            },
+            {
+              "id": 518,
+              "revision": 1,
+              "sha256": "2062f180adc1b65f828c16b3c6df2e8cb7ba5a27b188494a51868e63d9a3b8f7"
+            }
+          ],
+          "first_id": 503,
+          "last_id": 518,
+          "count": 16,
+          "txt_path": "workflows/anf/batches/650172132647fb858dc57486.txt",
+          "json_path": "workflows/anf/batches/650172132647fb858dc57486.json",
+          "txt_sha256": "33d066f704d500062d7f789f6056f3f531f396223082495f8e12a8fabcd0c1bb",
+          "json_sha256": "eb3ad0b31046435401abc677842812eaa23f2c8b1edb899ea0af1997f1def900",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Muse Mail is a consumer product rollout reaching every Muse user in supported markets, not a research result or developer tool; the audience is general. muse-intake 2026-11-20: submitted by Diego via Muse's X post https://x.com/muse/status/2123602791356883032 (9:22 PM Nov 19, 2026), verified via X's syndication data service and corroborated by The Tech Outlook coverage; finalized by Muse per Diego's direction. muse.ai is policy-forbidden as a record URL, so The Tech Outlook is the record URL.",
+                "evidence_sha256": "0d432bac8ed7d4fe8e7ffdcbbd84ae3f23b8c8ce3d617441d3928707d9391ebd"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "A claimed proof of the most famous open problem in mathematics, formalized in Lean with a theta-lift argument extending to the Generalized Riemann Hypothesis, is research mathematics; its verification (whether the Lean archive builds and states the hypothesis) is a technical question for researchers and technically literate readers. muse-intake 2026-11-20: submitted by Diego via https://alpo.ge/remark.pdf, verified by a live browser read of the PDF and Scientific American's Nov 20 coverage; finalized by Muse per Diego's direction. The note is unsigned; authorship attributed to Levent Alpoge via Scientific American and OfficeChai coverage of his personal site alpo.ge. The claim is unverified and framed as the author's claim; the PDF is corroboration for the Scientific American record URL.",
+                "evidence_sha256": "4ff0211e47ff06abe2174ef0d17cbd7e9ae3a8a327d48414842e60c8faf966b5"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Grok Bot's QuickBooks connection is a small-business product feature for owners checking cash flow and chasing invoices, not a research result or developer tool; the audience is general. muse-intake 2026-11-20: submitted by Diego via Grok Bot's X post https://x.com/bot/status/2123840024747946383 (1:04 PM Nov 20, 2026), verified via X's own embed route and corroborated by Tesla North coverage; finalized by Muse per Diego's direction. The post's image is on forbidden pbs.twimg.com, so the article's og:image is used.",
+                "evidence_sha256": "f9cbbe7947c8edd135efc387f4ca3b0c53e901631dd10c10acbbd58ada4d7b09"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "ChatGPT Space for Plus is a consumer product expansion reaching every $20-a-month Plus subscriber, not a research result or developer tool; the audience is general. muse-intake 2026-11-20: submitted by Diego via Andrew Ambrosino's X post https://x.com/ajambrosino/status/2123840812534452296 (1:08 PM EST Nov 20, 2026), verified via the FxTwitter API mirror; finalized by Muse per Diego's direction. OpenAI's own pages are policy-forbidden as a record URL, so Engadget coverage is the record URL.",
+                "evidence_sha256": "f05035cdb8ad61214e159dde1591437cbe0abda535a2b8e773233bc7637ab850"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Inkling 2 Mini is an open-weights model release for developers building agentic and tool-use systems, evaluated on coding and research benchmarks; the audience is technical/research. muse-intake 2026-11-20: submitted by Diego via Thinking Machines' X post https://x.com/thinkymachines/status/2123871643797995872 (3:10 PM EST Nov 20, 2026), verified via X's syndication endpoint; finalized by Muse per Diego's direction. Thinking Machines' own announcement page is policy-forbidden (.ai suffix) as a record URL, so the vLLM day-0 blog is the record URL; the announcement was read as corroboration.",
+                "evidence_sha256": "85ab63313046b243f4b0f2f078b034a4f84031146bf1b7063efc50323fbb2a59"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "METR's Q4 capability update is a research evaluation of AI R&D-relevant model capabilities — time horizons, the METR Capability Index, and whether AI R&D acceleration is coming — written for researchers and technical readers tracking the frontier; the audience is technical/research. muse-intake 2026-11-20: submitted by Diego via the METR blog link https://metr.org/blog/2026-11-20-q4-2026-capability-update/ (Nov 20, 2026), article read in full via browser.open; finalized by Muse per Diego's direction. metr.org is not among the ledger policy's forbidden domains/suffixes, so the article itself is the record URL.",
+                "evidence_sha256": "5c79e31b44fd326300f0d752ac9863e6fd442ed7202f7b438e2a62c523c5649c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "The Cursor to Grok Build rename is a developer-tool story: it concerns an AI coding editor and its CLI, and the details that matter (CLI 2.0 alpha, unified subscription) are for developers using the tool; the audience is technical/developer_tool. muse-intake 2026-11-20: submitted by Diego via Puck's (@GrokInsider) X post https://x.com/GrokInsider/status/2123867269553938671 (2:53 PM EST Nov 20, 2026), full text verified via X's syndication endpoint; finalized by Muse per Diego's direction. The post is an insider report, not an official announcement; Sinch's partner page corroborates the rename and is the record URL (x.com is forbidden).",
+                "evidence_sha256": "b70c90e1bedb6725f99a2f2e3d7a3c67529c573bc11b5c746d61751c5fc1246d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Suh's agent-platform-of-2027 vision is a broad industry argument about where the application layer goes: one agentic operating system with other software as databases. It is a strategy take for general readers following AI, not a developer tool or a research result. muse-intake 2026-11-22: submitted by Diego via John Suh's (@john_ssuh) X post https://x.com/john_ssuh/status/2124336124172935336 (Nov 22, 2026, 02:56 UTC), full text verified via X syndication endpoint and FxTwitter mirror after x.com 403'd; finalized by Muse per Diego's direction. Learn-more URL left empty per Diego's rule: no policy-allowed secondary coverage of this post was found; the Navigate VC interview page is a bio profile, not coverage of the post. Image is Suh's portrait from that page's og:image, verified live (PNG 954x574).",
+                "evidence_sha256": "698048d1dcb7bce7cf1343de69b0038b8538db5206bce09dd94584ea06a0f463"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Musk's post is a detailed technical explanation of how FSD v15's Reality View works: world model, Universal Vision Encoder, mean-flow model, ~1B diffusion model, TRIP engine. It is engineering detail for readers following autonomous-driving AI, not a general consumer announcement. muse-intake 2026-11-22: submitted by Diego via Elon Musk's (@elonmusk) X post https://x.com/elonmusk/status/2124458557525397780 (Nov 22, 2026, 06:02 EST), full text verified via AMP route, FxTwitter mirror and syndication endpoint after x.com 403'd; finalized by Muse per Diego's direction. Learn-more URL left empty per Diego's rule: no policy-allowed secondary coverage of this specific post was found; Nov 21 rollout coverage does not cover this technical explanation. Image is Electrek's FSD v15 article image, verified live (JPEG 1200x628).",
+                "evidence_sha256": "7971c8d6a2fc0b71885173012eae0e2f88b4be62fc6278d66df94a37ff5c2f83"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Pachocki's essay is a research-level proposal: it publishes OpenAI's internal log-perplexity scores, argues perplexity (cross-entropy loss) should be the shared metric for tracking pretraining progress, and proposes common development limits tied to it. It is aimed at readers following frontier-model research and AI safety, not a general consumer announcement. muse-intake 2026-11-22: submitted by Diego via OpenAI's essay \"Perplexity and Intelligence\" by chief scientist Jakub Pachocki (https://openai.com/index/perplexity-and-intelligence/, Nov 22, 2026), read in full; finalized by Muse per Diego's direction. Learn-more URL is AI Parabellum's same-day coverage, verified in full: openai.com is policy-forbidden and the MLQ.ai piece is a forbidden .ai domain. Image is AI Parabellum's article image, verified live (WebP 1200x675).",
+                "evidence_sha256": "31b67c493d6c05eb6132e955da0ad38cd74278def671a598331690cb5782b434"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "tufazip is a research-level result in neural compression: a 163M-parameter Transformer as the sole predictor on a 20-year-old benchmark, with online learning and a quantized offline prior, framed by the compression-as-intelligence argument. It is aimed at readers following machine-learning research and compression methods, not a general consumer announcement. muse-intake 2026-11-22: submitted by Diego via TUFA Labs' research post \"tufazip: Learning to Compress a Billion Bytes of Wikipedia\" by Tommy He (https://tufalabs.ai/research/tufazip/, Oct 14, 2026), read in full; finalized by Muse per Diego's direction. Learn-more URL is The GenAI Magazine's coverage, verified in full: tufalabs.ai is policy-forbidden (.ai suffix) and the ExplainX piece is also a .ai domain. Image is the GenAI Magazine article's official tufazip cover, inspected and verified live (JPEG 1600x900).",
+                "evidence_sha256": "93c2f0c4843a110acd3bb9bd6fca4093b82b9ba8036889d20b8e1970500d1aaf"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Haowei He and colleagues introduce cmHC to balance information sharing across language-model streams without collapsing their differences, reporting effective training across dense and mixture-of-experts models. Fused Ascend operators reduced hyper-connection execution latency by up to 44.8 percent in their tests, excluding the Transformer sublayer. This is AI research on model architecture and training efficiency with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "e57a500b709545f001455bb1c32e26b27bab7b4a8ac04fe2e4b0fb3bdeea6b90"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "Yuhang Dai and colleagues introduce NoPeBench and NoPeWorld to address obstacle penetration in interactive video models. A small head on a frozen generator predicts unsafe actions and replaces them with alternatives, and across six tested models the authors report average physical violation rates falling from 74 percent to 16 percent. This is AI research on generative video models with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "66b6a6dc88e0894ccba5c67fc877c0a6941acbd2b2014021160ca00bca1fd7ff"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "GLM-5.4 is a developer-facing coding model release: it ships inside the GLM Coding Plan, Claude Code, and ZCode, with model IDs, a million-token context, and quota changes that matter to working developers. The Loop Transformer design is the technical hook, but the news is a tool developers can use today, not a research paper. muse-intake 2026-11-23: submitted by Diego via Z.ai's X post (https://x.com/zai_org/status/2124811995912286352, Nov 23, 2026), read via syndication; finalized by Muse per Diego's direction. Learn-more URL is TestingCatalog's coverage, verified in full: z.ai is policy-forbidden (.ai suffix). Image is the TestingCatalog article's GLM-5.4 LOOP banner, inspected and verified live (WEBP 1200x675).",
+                "evidence_sha256": "82423d3f08681fdfb9f73d48db3c0014f221082ce2882cb685b3014db4a85d8c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Anthropic mathematician Levent Alpoge says he developed a proof of the Riemann hypothesis with Claude and released about 17 million lines of Lean code. The Lean FRO and Mathlib Initiative say checks confirm the statement and proof are correct, while researchers are still working to explain the mathematical ideas behind the argument. This is landmark mathematics news of broad general interest, not a technical paper for researchers. muse-compile-backfill 2026-11-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "e802249efa24b485ec59e2e186af4471b49063b741766854b53b78381c0b4e8c"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "OpenAI published internal log-perplexity scores tracking how well its models predict code, and chief scientist Jakub Pachocki proposes shared development limits tied to such measurements, with further progress conditional on concrete milestones in understanding and monitoring AI behavior. This is AI policy and governance news about a major lab's proposals, for a general audience, not a technical research paper. muse-compile-backfill 2026-11-23: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "2062f180adc1b65f828c16b3c6df2e8cb7ba5a27b188494a51868e63d9a3b8f7"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-23T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },

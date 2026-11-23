@@ -1,0 +1,140 @@
+[
+  {
+    "title": "Muse Mail rolls out to everyone: your Muse gets its own @muse.ai address",
+    "description": "Muse's own email address is now rolling out to everyone in supported markets. Your Muse gets a @muse.ai handle and can send and receive email on your behalf, with you reviewing and approving before anything is sent. It opened to paid US and Canada subscribers Nov 10; the Nov 19 announcement extends it to all plans.",
+    "image_url": "https://www.thetechoutlook.com/wp-content/uploads/2026/11/Muse_email_address1.jpg",
+    "learn_more_url": "https://www.thetechoutlook.com/new-release/software-apps/muse-now-supports-dedicated-muse-ai-email-addresses/",
+    "date": "2026-11-23",
+    "source": "The Tech Outlook"
+  },
+  {
+    "title": "Levent Alpoge claims a Claude-assisted proof of the Riemann Hypothesis",
+    "description": "Anthropic mathematician Levent Alpoge says he and Claude have proved the Riemann Hypothesis, with the method also covering the Generalized Riemann Hypothesis. The argument is released only as Lean code on his site, with no readable paper yet. The claim is unverified: nobody outside his circle has confirmed the formalization builds or states the hypothesis correctly.",
+    "image_url": "https://static.scientificamerican.com/dam/asset/cee10388-a264-4ba7-b944-7f0a8daf537d/riemann.jpg?m=1795183538.4&w=600",
+    "learn_more_url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/",
+    "date": "2026-11-23",
+    "source": "Scientific American",
+    "ds": true
+  },
+  {
+    "title": "Grok Bot now connects to Intuit QuickBooks",
+    "description": "Grok Bot now connects to Intuit QuickBooks in the US. Business owners can ask about cash flow, profit, and who still owes them, and have the bot draft invoices, estimates, and payment reminders for approval. The connector was already listed in the Nov 11 changelog; the Nov 20 announcement spells out what businesses can do with it.",
+    "image_url": "https://cdn.teslanorth.com/wp-content/uploads/2026/09/grok-bot-qol-web.jpg",
+    "learn_more_url": "https://teslanorth.com/2026/11/20/grok-bot-quickbooks-invoices-us/",
+    "date": "2026-11-23",
+    "source": "Tesla North"
+  },
+  {
+    "title": "ChatGPT Space comes to Plus, with a simpler design and faster threads",
+    "description": "OpenAI is bringing ChatGPT Space, its collaborative hub for shared pages and files, to $20-a-month Plus subscribers starting today, after launching it for Pro, Business and Enterprise at Dev Day in September. The same announcement adds a simpler visual design, rebuilt threads, a redesigned Space home, faster pages and slides, mobile page editing, and more reliable Codex Remote.",
+    "image_url": "https://www.engadget.com/img/gallery/openai-brings-its-collaborative-space-hubs-to-plus-users/intro-1795191035.jpg",
+    "learn_more_url": "https://www.engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users/",
+    "date": "2026-11-23",
+    "source": "Engadget"
+  },
+  {
+    "title": "Thinking Machines releases Inkling 2 Mini, a 26B looped model that runs on a laptop",
+    "description": "Thinking Machines has released Inkling 2 Mini, a 26-billion-parameter open-weights looped transformer small enough to run on a laptop. Its middle 12 layers run three times per token, giving it the reach of a much larger model: it scores 20.1 on the Artificial Analysis Intelligence Index and leads open-weights models under 100B parameters on agentic coding benchmarks.",
+    "image_url": "https://vllm-project.github.io/assets/figures/2026-11-20-inkling2-mini/hero.png",
+    "learn_more_url": "https://vllm-project.github.io/2026/11/20/inkling2-mini",
+    "date": "2026-11-23",
+    "source": "vLLM Blog",
+    "ds": true
+  },
+  {
+    "title": "METR: AI R&D capabilities are improving rapidly and getting harder to measure",
+    "description": "METR's Q4 2026 update finds public models now match or beat skilled humans on coding and optimization tasks relevant to AI R&D, with time horizons doubling about every 3.6 months. Its Capability Index shows no clear acceleration or slowdown, but current evidence cannot rule out drastic AI R&D acceleration in the next couple of years.",
+    "image_url": "https://metr.org/assets/images/q4-2026-capability-update/1eb15f15412f8e86.webp",
+    "learn_more_url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+    "date": "2026-11-23",
+    "source": "METR",
+    "ds": true
+  },
+  {
+    "title": "Report: Cursor is being renamed Grok Build, with CLI 2.0 in alpha",
+    "description": "GrokInsider reports Cursor is being renamed Grok Build, with a faster app and CLI 2.0 already in alpha on a unified channel tied to the unified subscription, while the cube logo stays. Sinch's partner page already calls Grok Build the new name for Cursor, SpaceX Super Intelligence's AI coding tool. No official Cursor or SpaceXSI announcement confirms the rename yet.",
+    "image_url": "https://sinch.com/wp-content/uploads/2026/09/Sinch_Cursor_Rock_Bank_1-scaled.png",
+    "learn_more_url": "https://sinch.com/blog/sinch-spacexsi-partner-network-grok-build-plugin/",
+    "date": "2026-11-23",
+    "source": "Sinch",
+    "ds": true
+  },
+  {
+    "title": "John Suh: the agent platform of 2027 is the end game for the application layer",
+    "description": "John Suh argues the agent platform of 2027 is the end game: one application layer, an everything agentic operating system for a million-agent swarm, with other software effectively becoming databases for it. He believes an independent company will own that layer, while most enterprise agent platform and vertical SaaS firms are too narrowly focused and lack the product vision.",
+    "image_url": "https://cdn.prod.website-files.com/68021b30bfc57a46cf6259a9/6ad0a456008d4bcb256dac0d_John%20Suh_Website.png",
+    "learn_more_url": "",
+    "date": "2026-11-23",
+    "source": "John Suh"
+  },
+  {
+    "title": "Elon Musk explains how Tesla's FSD Reality View works: a pixel-perfect world model",
+    "description": "Musk explains Tesla's FSD Reality View: a pixel-perfect world model built for synthetic data feeds a smaller conditional mean-flow model in the car. It forks from Universal Vision Encoder features, runs a ~1B diffusion model on half a TRIP engine at 18 Hz, and renders 8-frame chunks at 36 fps. Latency is still high; interleaving newer features could cut ~35%.",
+    "image_url": "https://electrek.co/wp-content/uploads/sites/3/2026/11/Tesla-FSD-v15-update.jpeg?quality=82&strip=all&resize=1200,628",
+    "learn_more_url": "",
+    "date": "2026-11-23",
+    "source": "Elon Musk",
+    "ds": true
+  },
+  {
+    "title": "OpenAI: Perplexity should be the shared metric for AI progress — and the basis for common limits",
+    "description": "OpenAI chief scientist Jakub Pachocki publishes OpenAI's log-perplexity scores and argues perplexity should be the shared metric for tracking AI progress and safety limits. GPT-3.5 scored ~0.99, GPT-4 ~0.91, models below 0.8, and a math model at ~0.76 solved open problems. He expects transformative capabilities in the 0.68-0.7 window and proposes limits labs would not cross until monitoring catches up.",
+    "image_url": "https://aiparabellum.com/wp-content/uploads/2026/11/openai-proposes-perplexity-limits-ai-safety-standard.webp",
+    "learn_more_url": "https://aiparabellum.com/openai-proposes-perplexity-limits-ai-safety-standard/",
+    "date": "2026-11-23",
+    "source": "AI Parabellum",
+    "ds": true
+  },
+  {
+    "title": "TUFA Labs' tufazip squeezes 1 GB of Wikipedia into 105 MB with a Transformer that learns online",
+    "description": "TUFA Labs' tufazip compresses one billion bytes of Wikipedia into 105.39 MB, taking second place on the Large Text Compression Benchmark as the best entry using a neural network as its sole predictor. A 12-layer, 163-million-parameter Transformer predicts tokens while learning, so the decoder relearns the weights instead of receiving them. Decoding takes 7.5 days on two Nvidia B200 GPUs.",
+    "image_url": "https://thegenaimagazine.com/images/articles/tufazip-official-cover.jpg",
+    "learn_more_url": "https://thegenaimagazine.com/tufazip-ai-compression-wikipedia-size-compute-tradeoff",
+    "date": "2026-11-23",
+    "source": "The GenAI Magazine",
+    "ds": true
+  },
+  {
+    "title": "cmHC Balances Information Sharing Across Model Streams",
+    "description": "Haowei He and colleagues introduce cmHC to balance information sharing across language-model streams without collapsing their differences. They report effective training across dense and mixture-of-experts models. Fused Ascend operators reduced hyper-connection execution latency by up to 44.8% in their tests, excluding the Transformer sublayer; this is not an end-to-end model speedup.",
+    "image_url": "https://arxiv.org/html/2611.27193v1/birkhoff.png",
+    "learn_more_url": "https://arxiv.org/abs/2611.27193",
+    "date": "2026-11-23",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "NoPeWorld Reduces Wall-Penetration Errors in Generated Video",
+    "description": "Yuhang Dai and colleagues introduce NoPeBench and NoPeWorld to address obstacle penetration in interactive video models. A small head on a frozen generator predicts unsafe actions and replaces them with alternatives. Across six tested models, the authors report average physical violation rates falling from 74% to 16%. The results concern generated video, not real-world safety.",
+    "image_url": "https://arxiv.org/html/2611.27963v1/fig_teaser.png",
+    "learn_more_url": "https://arxiv.org/abs/2611.27963",
+    "date": "2026-11-23",
+    "source": "arXiv",
+    "ds": true
+  },
+  {
+    "title": "Z.ai's GLM-5.4 loops 28 GLM-5 layers twice, adding vision for generalized coding",
+    "description": "Z.ai released GLM-5.4, its first Loop Transformer flagship, running 28 layers of the roughly 750-billion-parameter GLM-5 base twice for deeper reasoning without adding parameters. It adds vision and a million-token context, pushing coding beyond software into video, games, 3D shaders, and CAD modeling. Available today to all GLM Coding Plan users, with API access and open weights following safety evaluation.",
+    "image_url": "https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/size/w1200/2026/11/banner-27.webp",
+    "learn_more_url": "https://www.testingcatalog.com/z-ai-launches-glm-5-4-its-first-loop-transformer-model/",
+    "date": "2026-11-23",
+    "source": "TestingCatalog",
+    "ds": true
+  },
+  {
+    "title": "Lean and Mathlib Endorse Alpöge’s Riemann Hypothesis Proof",
+    "description": "Anthropic mathematician Levent Alpöge says he developed a proof of the Riemann hypothesis with Claude and released about 17 million lines of Lean code. The Lean FRO and Mathlib Initiative say checks confirm the statement and proof are correct. Researchers are still working to explain the mathematical ideas behind the argument.",
+    "image_url": "https://leanprover-community.github.io/blog/meta-twitter.png",
+    "learn_more_url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+    "date": "2026-11-23",
+    "source": "leanprover-community.github.io"
+  },
+  {
+    "title": "OpenAI Publishes Internal AI Scores, Proposes Shared Development Limits",
+    "description": "OpenAI published internal log-perplexity scores tracking how well its models predict code, with lower scores indicating better predictions. Chief scientist Jakub Pachocki says improvements have accompanied new mathematics and cybersecurity capabilities. He proposes shared development limits tied to such measurements, with further progress conditional on concrete milestones in understanding and monitoring AI behavior.",
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+    "learn_more_url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+    "date": "2026-11-23",
+    "source": "techcrunch.com"
+  }
+]
