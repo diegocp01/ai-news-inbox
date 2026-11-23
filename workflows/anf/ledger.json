@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1580,
-  "updated_at": "2026-11-22T20:22:10.483358+00:00",
-  "next_id": 513,
+  "generation": 1583,
+  "updated_at": "2026-11-23T00:34:53.126282+00:00",
+  "next_id": 514,
   "records": [
     {
       "id": 1,
@@ -6814,6 +6814,19 @@
           "sha256": "31b67c493d6c05eb6132e955da0ad38cd74278def671a598331690cb5782b434",
           "source": "AI Parabellum",
           "request_id": "muse-intake-20261122-openai-perplexity-intelligence",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 513,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T00:34:52.899600+00:00",
+          "block": "Title: TUFA Labs' tufazip squeezes 1 GB of Wikipedia into 105 MB with a Transformer that learns online\nURL: https://thegenaimagazine.com/tufazip-ai-compression-wikipedia-size-compute-tradeoff\nImage URL: https://thegenaimagazine.com/images/articles/tufazip-official-cover.jpg\nSummary: TUFA Labs' tufazip compresses one billion bytes of Wikipedia into 105.39 MB, taking second place on the Large Text Compression Benchmark as the best entry using a neural network as its sole predictor. A 12-layer, 163-million-parameter Transformer predicts tokens while learning, so the decoder relearns the weights instead of receiving them. Decoding takes 7.5 days on two Nvidia B200 GPUs.",
+          "sha256": "93c2f0c4843a110acd3bb9bd6fca4093b82b9ba8036889d20b8e1970500d1aaf",
+          "source": "The GenAI Magazine",
+          "request_id": "muse-intake-20261122-tufazip",
           "mode": "standard"
         }
       ]
@@ -15022,6 +15035,23 @@
           "id": 512,
           "revision": 1,
           "sha256": "31b67c493d6c05eb6132e955da0ad38cd74278def671a598331690cb5782b434"
+        }
+      ]
+    },
+    "muse-intake-20261122-tufazip": {
+      "status": "finalized",
+      "received_at": "2026-11-23T00:34:52.665936+00:00",
+      "received_sequence": 464,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T00:34:52.899600+00:00",
+      "records": [
+        {
+          "id": 513,
+          "revision": 1,
+          "sha256": "93c2f0c4843a110acd3bb9bd6fca4093b82b9ba8036889d20b8e1970500d1aaf"
         }
       ]
     }
@@ -55096,6 +55126,40 @@
         },
         "editorial_sha256": "844bfdeb8460b0b3dadcfb1d33a1c4875104d89e2059df3a3980636a34f02568"
       }
+    },
+    "muse-intake-20261122-tufazip-receive-1383": {
+      "sha256": "8e0ed90d6ba7f91819f5e5f0c3a9a1e2b793d77fe989afbe129bf947ef0cad38",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261122-tufazip"
+      }
+    },
+    "muse-intake-20261122-tufazip-finalize-3901": {
+      "sha256": "73d7daf56cd8ffe8764e54dd4efa7d96d76381ca411898e4964754252e40a9be",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261122-tufazip",
+        "records": [
+          {
+            "id": 513,
+            "revision": 1,
+            "sha256": "93c2f0c4843a110acd3bb9bd6fca4093b82b9ba8036889d20b8e1970500d1aaf"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261122-tufazip-review-6758": {
+      "sha256": "04b479978163ca6c144cd6f58fc65d83f3beae8aa4b19bfdf6925a007a32140f",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 513,
+          "revision": 1,
+          "sha256": "93c2f0c4843a110acd3bb9bd6fca4093b82b9ba8036889d20b8e1970500d1aaf"
+        },
+        "editorial_sha256": "fc63a31c0ee6818cf1b070ac3e93e3b92d96a09e72d63853fa532e9aedc31fdd"
+      }
     }
   },
   "migration": {
@@ -68062,6 +68126,26 @@
         "sha256": "844bfdeb8460b0b3dadcfb1d33a1c4875104d89e2059df3a3980636a34f02568",
         "reviewed_at": "2026-11-22T20:22:10.483358+00:00",
         "operation_id": "muse-intake-20261122-openai-perplexity-intelligence-review-9084"
+      }
+    ],
+    "513:1": [
+      {
+        "reference": {
+          "id": 513,
+          "revision": 1,
+          "sha256": "93c2f0c4843a110acd3bb9bd6fca4093b82b9ba8036889d20b8e1970500d1aaf"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "tufazip is a research-level result in neural compression: a 163M-parameter Transformer as the sole predictor on a 20-year-old benchmark, with online learning and a quantized offline prior, framed by the compression-as-intelligence argument. It is aimed at readers following machine-learning research and compression methods, not a general consumer announcement. muse-intake 2026-11-22: submitted by Diego via TUFA Labs' research post \"tufazip: Learning to Compress a Billion Bytes of Wikipedia\" by Tommy He (https://tufalabs.ai/research/tufazip/, Oct 14, 2026), read in full; finalized by Muse per Diego's direction. Learn-more URL is The GenAI Magazine's coverage, verified in full: tufalabs.ai is policy-forbidden (.ai suffix) and the ExplainX piece is also a .ai domain. Image is the GenAI Magazine article's official tufazip cover, inspected and verified live (JPEG 1600x900).",
+            "evidence_sha256": "93c2f0c4843a110acd3bb9bd6fca4093b82b9ba8036889d20b8e1970500d1aaf"
+          }
+        },
+        "sha256": "fc63a31c0ee6818cf1b070ac3e93e3b92d96a09e72d63853fa532e9aedc31fdd",
+        "reviewed_at": "2026-11-23T00:34:53.126282+00:00",
+        "operation_id": "muse-intake-20261122-tufazip-review-6758"
       }
     ]
   }
