@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1589,
-  "updated_at": "2026-11-23T12:44:28.952457+00:00",
-  "next_id": 517,
+  "generation": 1590,
+  "updated_at": "2026-11-23T12:46:42.734978+00:00",
+  "next_id": 519,
   "records": [
     {
       "id": 1,
@@ -6867,6 +6867,34 @@
           "source": "TestingCatalog",
           "request_id": "muse-intake-20261123-glm-5-4",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 517,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T12:46:42.734978+00:00",
+          "block": "Title: Lean and Mathlib Endorse Alpöge’s Riemann Hypothesis Proof\nURL: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/\nImage URL: https://leanprover-community.github.io/blog/meta-twitter.png\nSummary: Anthropic mathematician Levent Alpöge says he developed a proof of the Riemann hypothesis with Claude and released about 17 million lines of Lean code. The Lean FRO and Mathlib Initiative say checks confirm the statement and proof are correct. Researchers are still working to explain the mathematical ideas behind the argument.",
+          "sha256": "e802249efa24b485ec59e2e186af4471b49063b741766854b53b78381c0b4e8c",
+          "source": "leanprover-community.github.io",
+          "request_id": "20060d066abdf7059adf538da5249cae2affa55a0a34fb1c400971dc7dc8ecc9",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 518,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T12:46:42.734978+00:00",
+          "block": "Title: OpenAI Publishes Internal AI Scores, Proposes Shared Development Limits\nURL: https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/\nImage URL: https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill\nSummary: OpenAI published internal log-perplexity scores tracking how well its models predict code, with lower scores indicating better predictions. Chief scientist Jakub Pachocki says improvements have accompanied new mathematics and cybersecurity capabilities. He proposes shared development limits tied to such measurements, with further progress conditional on concrete milestones in understanding and monitoring AI behavior.",
+          "sha256": "2062f180adc1b65f828c16b3c6df2e8cb7ba5a27b188494a51868e63d9a3b8f7",
+          "source": "techcrunch.com",
+          "request_id": "20060d066abdf7059adf538da5249cae2affa55a0a34fb1c400971dc7dc8ecc9",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -15117,14 +15145,27 @@
       ]
     },
     "20060d066abdf7059adf538da5249cae2affa55a0a34fb1c400971dc7dc8ecc9": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-23T12:33:32.643696+00:00",
       "received_sequence": 466,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-23T12:46:42.734978+00:00",
+      "records": [
+        {
+          "id": 517,
+          "revision": 1,
+          "sha256": "e802249efa24b485ec59e2e186af4471b49063b741766854b53b78381c0b4e8c"
+        },
+        {
+          "id": 518,
+          "revision": 1,
+          "sha256": "2062f180adc1b65f828c16b3c6df2e8cb7ba5a27b188494a51868e63d9a3b8f7"
+        }
+      ]
     },
     "muse-intake-20261123-glm-5-4": {
       "status": "finalized",
@@ -55315,6 +55356,26 @@
           "sha256": "82423d3f08681fdfb9f73d48db3c0014f221082ce2882cb685b3014db4a85d8c"
         },
         "editorial_sha256": "c9a0ba6f99808bcdd09cd7936696c9cdcb4804469e3d971ea421af9753d805f9"
+      }
+    },
+    "93f1c6748855f9c2a8d2e523b2cb9986d3537aa422052e772549c8e619cb8cdc": {
+      "sha256": "d964f798fe3c65d52510937da5f46d8d7affcd197b6f694f44cb22c82da0eaa1",
+      "result": {
+        "status": "finalized",
+        "request_id": "20060d066abdf7059adf538da5249cae2affa55a0a34fb1c400971dc7dc8ecc9",
+        "records": [
+          {
+            "id": 517,
+            "revision": 1,
+            "sha256": "e802249efa24b485ec59e2e186af4471b49063b741766854b53b78381c0b4e8c"
+          },
+          {
+            "id": 518,
+            "revision": 1,
+            "sha256": "2062f180adc1b65f828c16b3c6df2e8cb7ba5a27b188494a51868e63d9a3b8f7"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
