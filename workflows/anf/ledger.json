@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1628,
-  "updated_at": "2026-11-23T19:11:28.654746+00:00",
-  "next_id": 529,
+  "generation": 1631,
+  "updated_at": "2026-11-23T19:14:47.943074+00:00",
+  "next_id": 530,
   "records": [
     {
       "id": 1,
@@ -7024,6 +7024,19 @@
           "sha256": "731bf756c88b43cfd78b9b3261b2a1acc13d2cd3446dc8616f9f9f5085aade15",
           "source": "OpenAI",
           "request_id": "muse-intake-20261123-gpt-6-2-sol-chat-tab",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 529,
+      "revisions": [
+        {
+          "created_at": "2026-11-23T19:14:47.658432+00:00",
+          "block": "Title: Alexandr Wang: superintelligence is arriving; humanity must reject an AI 'handover'\nURL: https://www.calcalistech.com/ctechnews/article/hked2tbjqx\nImage URL: https://pic1.calcalist.co.il/picserver3/crop_images/2025/06/24/HkgHn7lO4ee/HkgHn7lO4ee_114_712_2291_1289_0_x-large.jpg\nSummary: Meta AI officer Alexandr Wang says superintelligence is arriving, pointing to the Lean/Mathlib-certified Riemann proof — still open to critique, no human-readable proof, Clay prize unclaimed — as the turning point. With coding nearly solved and models set to automate AI research, he warns humanity may not keep control of recursive self-improvement and rejects a 'handover' of society to AI.",
+          "sha256": "8d7b5d5136a79092612cdd2b02712d45dee4113f17f44eb7af1877cbd4a98cae",
+          "source": "CTech",
+          "request_id": "muse-intake-20261123-alexandr-wang-superintelligence-arriving",
           "mode": "standard"
         }
       ]
@@ -15481,6 +15494,23 @@
           "id": 528,
           "revision": 1,
           "sha256": "731bf756c88b43cfd78b9b3261b2a1acc13d2cd3446dc8616f9f9f5085aade15"
+        }
+      ]
+    },
+    "muse-intake-20261123-alexandr-wang-superintelligence-arriving": {
+      "status": "finalized",
+      "received_at": "2026-11-23T19:14:47.407373+00:00",
+      "received_sequence": 478,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-23T19:14:47.658432+00:00",
+      "records": [
+        {
+          "id": 529,
+          "revision": 1,
+          "sha256": "8d7b5d5136a79092612cdd2b02712d45dee4113f17f44eb7af1877cbd4a98cae"
         }
       ]
     }
@@ -56619,6 +56649,40 @@
         },
         "editorial_sha256": "2e37e50951c8b519686cb9fad4899a5a29a1e95db60e2eb3941a0aec3f1cbd8f"
       }
+    },
+    "muse-intake-20261123-alexandr-wang-superintelligence-arriving-receive-5897": {
+      "sha256": "ff3fb9f4a7ec3f0bf94ce1d13c3f69cd24fb251a435c866c11287f5c71e261a9",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-alexandr-wang-superintelligence-arriving"
+      }
+    },
+    "muse-intake-20261123-alexandr-wang-superintelligence-arriving-finalize-4140": {
+      "sha256": "e5ba9c1bf57efd8f9433568fe12b79874f222fabb714e1e8483e7b06ab721b13",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-alexandr-wang-superintelligence-arriving",
+        "records": [
+          {
+            "id": 529,
+            "revision": 1,
+            "sha256": "8d7b5d5136a79092612cdd2b02712d45dee4113f17f44eb7af1877cbd4a98cae"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-alexandr-wang-superintelligence-arriving-review-7196": {
+      "sha256": "d98f09473822156709ceb791456319b7529d1b8a7c4ef3ec0e9d4beeb8fa93d6",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 529,
+          "revision": 1,
+          "sha256": "8d7b5d5136a79092612cdd2b02712d45dee4113f17f44eb7af1877cbd4a98cae"
+        },
+        "editorial_sha256": "de6e0d749a10a444050bc548095fa1c27d78c29a05db7e5f38f8b3bc36db63c6"
+      }
     }
   },
   "migration": {
@@ -69905,6 +69969,26 @@
         "sha256": "2e37e50951c8b519686cb9fad4899a5a29a1e95db60e2eb3941a0aec3f1cbd8f",
         "reviewed_at": "2026-11-23T19:11:28.654746+00:00",
         "operation_id": "muse-intake-20261123-gpt-6-2-sol-chat-tab-review-1903"
+      }
+    ],
+    "529:1": [
+      {
+        "reference": {
+          "id": 529,
+          "revision": 1,
+          "sha256": "8d7b5d5136a79092612cdd2b02712d45dee4113f17f44eb7af1877cbd4a98cae"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience story: Meta's chief AI officer publishes a public essay arguing superintelligence is arriving, using the Lean/Mathlib-certified Riemann proof as the turning point, and warning humanity may lose control of recursive self-improvement. It is a named leader's public warning, not a research paper. muse-intake 2026-11-23: submitted by Diego via a screenshot of Alexandr Wang's X post 'Superintelligence is Arriving' (@alexandr_wang, Nov 22, 2026, 22:50 UTC); screenshot text read and verified. Learn-more URL is CTech same-day coverage (calcalistech.com/ctechnews/article/hked2tbjqx), read in full; The Wrap coverage cross-checked. x.com forbidden as record URL. Image is the CTech Wang portrait (AP Photo/Jeff Chiu), verified live (JPEG 1024x576). Framing follows record 520: Lean/Mathlib-certified proof, open critiques, no human-readable proof, rival proof exists, Clay $1M prize still open.",
+            "evidence_sha256": "8d7b5d5136a79092612cdd2b02712d45dee4113f17f44eb7af1877cbd4a98cae"
+          }
+        },
+        "sha256": "de6e0d749a10a444050bc548095fa1c27d78c29a05db7e5f38f8b3bc36db63c6",
+        "reviewed_at": "2026-11-23T19:14:47.943074+00:00",
+        "operation_id": "muse-intake-20261123-alexandr-wang-superintelligence-arriving-review-7196"
       }
     ]
   }
