@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1668,
-  "updated_at": "2026-11-24T17:46:20.634879+00:00",
-  "next_id": 541,
+  "generation": 1671,
+  "updated_at": "2026-11-24T20:49:45.650272+00:00",
+  "next_id": 542,
   "records": [
     {
       "id": 1,
@@ -7182,6 +7182,19 @@
           "sha256": "db66ff75e7fa33d59d656e224c97a49e32767d0d7beaded63f25b1b1e61430ef",
           "source": "Fortune",
           "request_id": "muse-intake-20261124-stryker-lobo-china-robots",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 541,
+      "revisions": [
+        {
+          "created_at": "2026-11-24T20:49:45.408609+00:00",
+          "block": "Title: Claude artifacts now install as Mac and Windows apps\nURL: https://claude.com/resources/articles/install-as-app\nImage URL: https://assets.claude.com/1d558aa9dd6599dfad2f4ae46a5f7bcff085d8bb.png\nSummary: Anthropic says Claude artifacts can now install as desktop apps on Mac and Windows, in beta. Each app gets its own icon and window, can use Claude and your connectors, and updates when the artifact changes. Installed apps can send notifications or add a menu bar item, with permissions you control for each app.",
+          "sha256": "fbfca9659b41fc1459a06445970ebcd0bf0baec8b6253d1fcf0b4aae7510b450",
+          "source": "Claude",
+          "request_id": "muse-intake-20261124-claude-artifacts-desktop-apps",
           "mode": "standard"
         }
       ]
@@ -15845,6 +15858,23 @@
           "id": 540,
           "revision": 1,
           "sha256": "db66ff75e7fa33d59d656e224c97a49e32767d0d7beaded63f25b1b1e61430ef"
+        }
+      ]
+    },
+    "muse-intake-20261124-claude-artifacts-desktop-apps": {
+      "status": "finalized",
+      "received_at": "2026-11-24T20:49:45.163811+00:00",
+      "received_sequence": 490,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-24T20:49:45.408609+00:00",
+      "records": [
+        {
+          "id": 541,
+          "revision": 1,
+          "sha256": "fbfca9659b41fc1459a06445970ebcd0bf0baec8b6253d1fcf0b4aae7510b450"
         }
       ]
     }
@@ -58023,6 +58053,40 @@
         },
         "editorial_sha256": "8a33a91142dd5c3d643f959527ff7d9037063af3c6c402fea36eb9dec40bb33e"
       }
+    },
+    "muse-intake-20261124-claude-artifacts-desktop-apps-receive-5081": {
+      "sha256": "4751479c7c4ff8167d522448b71e0d8f03c20f979fd0cd36bafb9bb64a0ce5b7",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261124-claude-artifacts-desktop-apps"
+      }
+    },
+    "muse-intake-20261124-claude-artifacts-desktop-apps-finalize-0518": {
+      "sha256": "b89c23e2d5344f9ce4535606745e33b2fcb7b0ec010810dec6d44e4a6b0ea745",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261124-claude-artifacts-desktop-apps",
+        "records": [
+          {
+            "id": 541,
+            "revision": 1,
+            "sha256": "fbfca9659b41fc1459a06445970ebcd0bf0baec8b6253d1fcf0b4aae7510b450"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261124-claude-artifacts-desktop-apps-review-8947": {
+      "sha256": "80a53e8aa4228c3f2d012bb085e40994691550a8edc10b30c5de475110805b5e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 541,
+          "revision": 1,
+          "sha256": "fbfca9659b41fc1459a06445970ebcd0bf0baec8b6253d1fcf0b4aae7510b450"
+        },
+        "editorial_sha256": "a088112b0c48ce1d0a5c030e0b533200c9ea063bd8e17f76213f5f3342ddb471"
+      }
     }
   },
   "migration": {
@@ -71549,6 +71613,26 @@
         "sha256": "8a33a91142dd5c3d643f959527ff7d9037063af3c6c402fea36eb9dec40bb33e",
         "reviewed_at": "2026-11-24T17:46:20.634879+00:00",
         "operation_id": "muse-intake-20261124-stryker-lobo-china-robots-review-3422"
+      }
+    ],
+    "541:1": [
+      {
+        "reference": {
+          "id": 541,
+          "revision": 1,
+          "sha256": "fbfca9659b41fc1459a06445970ebcd0bf0baec8b6253d1fcf0b4aae7510b450"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience product story: Claude's artifacts can now become desktop apps on Mac and Windows, in beta on all plans. No developer terms; a regular reader can follow it. muse-intake 2026-11-24: submitted by Diego via X link (ClaudeDevs status 2125315491522650299, posted 2026-11-24 19:47 UTC); full text verified via the FxTwitter API mirror (syndication endpoint returned empty; x.com 403s). Cross-checked against the claude.com announcement (read in full) and 9to5Mac coverage. The tweet's video thumbnail is pbs.twimg.com, forbidden as an image, so the image is the claude.com article art, verified live (PNG 3840x2160).",
+            "evidence_sha256": "fbfca9659b41fc1459a06445970ebcd0bf0baec8b6253d1fcf0b4aae7510b450"
+          }
+        },
+        "sha256": "a088112b0c48ce1d0a5c030e0b533200c9ea063bd8e17f76213f5f3342ddb471",
+        "reviewed_at": "2026-11-24T20:49:45.650272+00:00",
+        "operation_id": "muse-intake-20261124-claude-artifacts-desktop-apps-review-8947"
       }
     ]
   }
