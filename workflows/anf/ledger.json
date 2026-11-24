@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1663,
-  "updated_at": "2026-11-24T17:18:18.365809+00:00",
-  "next_id": 539,
+  "generation": 1664,
+  "updated_at": "2026-11-24T17:21:35.245003+00:00",
+  "next_id": 540,
   "records": [
     {
       "id": 1,
@@ -7154,6 +7154,20 @@
           "sha256": "eb6efbd3ed576b13367540de3d9b89f096276105b82f03846be01359a76fff6a",
           "source": "Axios",
           "request_id": "094289aa9c6f604ffa6beaeb26fff32d790b9242b4b899e34b4fc3ccd9a20938",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 539,
+      "revisions": [
+        {
+          "created_at": "2026-11-24T17:21:35.245003+00:00",
+          "block": "Title: OpenAI posts a claimed proof separating VP and VNP\nURL: https://github.com/openai/math/blob/main/preprints/VP-and-VNP-are-different-November-23-2026/paper.pdf\nImage URL: https://i0.wp.com/fourweekmba.com/wp-content/uploads/2026/11/chart_oai_vp_vnp_1124-1.png?ssl=1&w=1920\nSummary: OpenAI published a preprint from an internal model claiming that VP and VNP differ over every field. The result would show that some polynomials cannot be computed efficiently with arithmetic circuits. OpenAI’s Lean formalization covers exact circuits, not the paper’s stronger bound for border circuits. This does not resolve P versus NP.",
+          "sha256": "519559e8419162fb2bca68121c319b268043cb3e51d3206168964f81e38143f6",
+          "source": "GitHub",
+          "request_id": "2af048dd29fb2a04d050b7e4771505c9b6c80e132f45f05bd18aabaf05583135",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
         }
@@ -15787,14 +15801,22 @@
       ]
     },
     "2af048dd29fb2a04d050b7e4771505c9b6c80e132f45f05bd18aabaf05583135": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-24T17:18:18.365809+00:00",
       "received_sequence": 488,
       "expected_items": 1,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "db36c1c21e3573f8f74152d4c9472475e36884b0b50a1ad6d13eb2f881752b8f"
+      "image_review_deferral_evidence_sha256": "db36c1c21e3573f8f74152d4c9472475e36884b0b50a1ad6d13eb2f881752b8f",
+      "finalized_at": "2026-11-24T17:21:35.245003+00:00",
+      "records": [
+        {
+          "id": 539,
+          "revision": 1,
+          "sha256": "519559e8419162fb2bca68121c319b268043cb3e51d3206168964f81e38143f6"
+        }
+      ]
     }
   },
   "batches": {
@@ -57909,6 +57931,21 @@
       "result": {
         "status": "received",
         "request_id": "2af048dd29fb2a04d050b7e4771505c9b6c80e132f45f05bd18aabaf05583135"
+      }
+    },
+    "82215d9b8807379f62a26db22eeab389fcfd9cf1dd6db830f6b35bb2180940d5": {
+      "sha256": "6aba6e48131135d1ef7c440f048247c7f6700666f8730d47176b2d1105f5ce04",
+      "result": {
+        "status": "finalized",
+        "request_id": "2af048dd29fb2a04d050b7e4771505c9b6c80e132f45f05bd18aabaf05583135",
+        "records": [
+          {
+            "id": 539,
+            "revision": 1,
+            "sha256": "519559e8419162fb2bca68121c319b268043cb3e51d3206168964f81e38143f6"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
