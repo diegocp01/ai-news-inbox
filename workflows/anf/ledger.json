@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1664,
-  "updated_at": "2026-11-24T17:21:35.245003+00:00",
+  "generation": 1665,
+  "updated_at": "2026-11-24T17:21:51.335578+00:00",
   "next_id": 540,
   "records": [
     {
@@ -57947,6 +57947,18 @@
         ],
         "duplicates": []
       }
+    },
+    "42600baa6c63d2eb53bcfc53e16868bb9373f273e675d1ee2bd97edce07eca9f": {
+      "sha256": "5522087840cdaba570c9b74942c6b3e10d2a2f038c94304985fda5a3258ece56",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 539,
+          "revision": 1,
+          "sha256": "519559e8419162fb2bca68121c319b268043cb3e51d3206168964f81e38143f6"
+        },
+        "editorial_sha256": "873b1fbf190cab8fed71d5dc914d2f4796f3cac34b8f6e7b684c67f5966cadb7"
+      }
     }
   },
   "migration": {
@@ -71433,6 +71445,26 @@
         "sha256": "f770ce1129a05c88e36836615f63fa7495beade6ab8fd66c9e5910697769d7d5",
         "reviewed_at": "2026-11-24T14:00:30.931478+00:00",
         "operation_id": "5a56622bc55acfdb798e2220180ec1c719b393d40d7581f7a7163d93cd3d4f48"
+      }
+    ],
+    "539:1": [
+      {
+        "reference": {
+          "id": 539,
+          "revision": 1,
+          "sha256": "519559e8419162fb2bca68121c319b268043cb3e51d3206168964f81e38143f6"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The primary preprint presents a theorem and quantitative arithmetic circuit lower bound in algebraic complexity, with a companion Lean formalization.",
+            "evidence_sha256": "e4c3779023ab58d0aa20f54e8dcbc08b9ba91b5244bb4c0d792367cb338b902f"
+          }
+        },
+        "sha256": "873b1fbf190cab8fed71d5dc914d2f4796f3cac34b8f6e7b684c67f5966cadb7",
+        "reviewed_at": "2026-11-24T17:21:51.335578+00:00",
+        "operation_id": "42600baa6c63d2eb53bcfc53e16868bb9373f273e675d1ee2bd97edce07eca9f"
       }
     ]
   }
