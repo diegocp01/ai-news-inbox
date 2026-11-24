@@ -1,0 +1,111 @@
+Title: NVIDIA board reinstates Jensen Huang as president, CEO and board director
+URL: https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director
+Image URL: https://nvidianews.nvidia.com/media/sites/219/images/social-image.jpg
+Summary: Today, NVIDIA's board unanimously reinstated Jensen Huang as president, CEO and board director, effective immediately, reversing his November 12 resignation. The board said it was satisfied with his candor and leadership, citing input from senior US government levels and confidence the return poses no national security risk. Colette Kress, interim CEO, continues as CFO; the board's investigation proceeds to conclusion.
+
+Title: Lean and Mathlib certify Alpöge's Riemann proof, but critiques remain open
+URL: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/
+Image URL: https://leanprover-community.github.io/blog/meta-twitter.png
+Summary: Follow-up to record 504: the Lean FRO and Mathlib Initiative certified on November 21 that they have full confidence Alpöge's Riemann proof is correct, after dozens of independent compilations of all 175,187 modules and checks by Lean's kernel and independent checkers. Caveats remain: a rival proof drew flags, a critique questions a geometry predicate, and the Clay prize stays open.
+ds: true
+
+Title: OpenAI dot connects to Apple Health data and medical records
+URL: https://9to5mac.com/2026/11/19/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more/
+Image URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/01/apple-health-chatgpt.jpg?quality=82&strip=all&w=1600
+Summary: OpenAI's dot can now connect to your Apple Health data and supported medical records through ChatGPT Health, so it can adjust race training around your workouts or remind you to book a physical. The feature is US-only and needs your permission. Health also now works on the Mac app, Android, and ChatGPT Sites, with call transcripts and hands-free CarPlay use.
+
+Title: Meta Muse can now do your Black Friday shopping at Walmart
+URL: https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday
+Image URL: https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Walmart-Meta-Muse-Agent-Gateway.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200
+Summary: Walmart's Agent Gateway is live with Meta Muse support, letting the AI agent find and buy Walmart products, including Black Friday deals. Muse shops through Agent Profiles, a dedicated space in your Walmart account with spending limits, purchase approval, and full history. The gateway shares no purchase history with the agent, and other apps and agents are on the way.
+
+Title: OpenAI launches OpenWorks to fund local AI experts for small businesses
+URL: https://www.instagram.com/reel/DgF69Upp1B0/
+Image URL: https://images.ctfassets.net/kftzwdyauwt9/7aa6tcgDHkwnetFrFVoKCS/cb5490ae628061277ce0c2453951fd1c/tiny-things-story-photo.jpg?w=1200&q=90&fm=webp
+Summary: OpenAI launches OpenWorks, a nationwide network of funded local AI experts who give small businesses free, hands-on help with AI. OpenWorks Partners work on-site with owners on projects they choose, from reaching customers to building tools teams can keep using. Partners earn up to $8,000 a month; the pilot is now live in 20 U.S. communities, with more to come.
+
+Title: DeepMind Gemini 4 agents find faster quantum algorithms, proved in Lean
+URL: https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/
+Image URL: https://lh3.googleusercontent.com/jIoM2lo98EDqLMQjIaXBlXPmXgPbUPpM2GgtXcDsGekZBOPUY41IjBsnuZIhLac7MSOuRkklNBsp20a5M25oDz-xTIY0BIqoBxUqmmXvEHwlM3MJJw=w1200-h630-n-nu-rw
+Summary: Teams of Gemini 4 agents improved well-known quantum algorithms, with every result proved in Lean and open-sourced. Fusion calculations got 11.8 times cheaper, a light-sensitive molecule simulation 8 times cheaper, and Cytochrome P450 work 2.5 times cheaper, while Grover's algorithm gained 2.57 times and arcsin 290 times. Still, scientific simulations need more resources than first error-corrected quantum computers will offer.
+ds: true
+
+Title: Gemini API adds file slicing controls to cut token costs on large files
+URL: https://aistudio.google.com/docs/document-processing
+Image URL: https://toolnavs.com/uploads/articles/20261118-gemini-api-office-slicing.jpg
+Summary: The Gemini API offers file slicing controls, letting developers send only selected pages, sheet ranges, or media segments to the model and pay only for what Gemini inspects. PDFs, Office files, spreadsheets, video, and audio slice by page, cell, time interval, or content layer. Files upload once via the Files API and reuse across turns, on all Gemini 4 models.
+ds: true
+
+Title: Enterprise Frontier Safeguards enters public beta with zero data retention
+URL: https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards
+Image URL: https://assets.claude.com/407895af12324a5800318809efd87eda92ff500d.webp
+Summary: Anthropic opened Enterprise Frontier Safeguards in public beta, adding automated safety monitoring that catches misuse split across many requests while preserving zero data retention. Monitoring runs on customer-controlled infrastructure, so neither Anthropic nor cloud providers retain data. Safety Cases flag risks without exposing inputs or outputs, and the system never trains on customer data. Available on Claude Platform, AWS, Bedrock.
+ds: true
+
+Title: MemOS launches MemT-1.0-Pro, a 554B memory-native model with NVIDIA
+URL: https://arxiv.org/abs/2610.26825
+Image URL: https://arxiv.org/html/2610.26825v4/figure_performance.png
+Summary: MemOS and NVIDIA launched MemT-1.0-Pro, a 554-billion-parameter memory-native model built on NVIDIA Nemotron 3 Ultra. It stores history in native memory, so later interactions use it without keeping the original history in context. Versus MemT-1.0-Flash it gains 4.76 points on BEAM-1M and 6.51 on MemoryAgentBench, aiming at long-horizon AI agents. It activates 59 billion parameters, with distributed training on Megatron-Core.
+ds: true
+
+Title: OpenAI rolls GPT-6.2 Sol out to the ChatGPT Chat tab for everyday chats
+URL: 
+Image URL: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1920px-ChatGPT_logo.svg.png
+Summary: OpenAI is rolling out a version of GPT-6.2 Sol in ChatGPT's Chat tab, optimized for everyday conversation. It handles complex requests better, especially with detailed instructions or research. It picks up finer photo details, narrows online comparisons by price or location, and knows when to offer follow-ups like price-drop alerts. Rolling out today to Plus, Pro, Business, and Enterprise users.
+
+Title: Alexandr Wang: superintelligence is arriving; humanity must reject an AI 'handover'
+URL: https://www.calcalistech.com/ctechnews/article/hked2tbjqx
+Image URL: https://pic1.calcalist.co.il/picserver3/crop_images/2025/06/24/HkgHn7lO4ee/HkgHn7lO4ee_114_712_2291_1289_0_x-large.jpg
+Summary: Meta AI officer Alexandr Wang says superintelligence is arriving, pointing to the Lean/Mathlib-certified Riemann proof — still open to critique, no human-readable proof, Clay prize unclaimed — as the turning point. With coding nearly solved and models set to automate AI research, he warns humanity may not keep control of recursive self-improvement and rejects a 'handover' of society to AI.
+
+Title: Gemini 4 Neon can now natively read video and audio from tools and subagents
+URL: https://aistudio.google.com/docs/function-calling
+Image URL: https://eigenradar.com/assets/briefs/2026-11-05/gemini-document-media-tool-results-1280.09de8c03f677.webp
+Summary: Google is rolling out document, audio, and video function results in the Gemini API, so Gemini 4 Neon can read video and audio chunks returned by tools or subagents. Function calling covers all native modalities, bringing tool use closer to native inputs. It enables agentic video editors, search that hears tone, UI subagents replaying bugs as video, and podcast clippers.
+ds: true
+
+Title: UK launches world's largest AI breast cancer screening trial, EDITH, with nearly 700,000 women
+URL: https://cambridgebrc.nihr.ac.uk/2026/11/23/cambridgeshire-women-are-first-to-join-world-leading-ai-breast-screening-trial/
+Image URL: https://cambridgebrc.nihr.ac.uk/wp-content/uploads/2026/11/Health-and-Social-Care-Secretary-Yvette-Cooper-with-EDITH-trial-co-leads-Professor-Fiona-Gilbert-left-Professor-Sian-Taylor-Phillips-second-left-and-Chief-Executive-of-Ca.jpg
+Summary: The UK has launched the world's largest AI breast cancer screening trial, EDITH, involving nearly 700,000 women at 30 sites over three years. The £10 million NIHR-funded study tests whether an AI-assisted mammogram tool can help specialists spot cancers earlier and review images faster. Recruitment has begun in Cambridgeshire, with every scan still reviewed by at least one human radiologist.
+
+Title: Anthropic launches Claude Ship in beta to review, fix, and approve pull requests
+URL: https://claude.com/resources/articles/introducing-claude-ship
+Image URL: https://assets.claude.com/2a72b687af32e0d798bd2859b12576be1f607f13.png
+Summary: Anthropic launched Claude Ship in beta: Claude reviews pull requests, fixes them, and approves the ones a team's policy allows, aiming to help teams ship code as fast as they write it. It combines generally available Code Review with two new beta agents, PR Steward and Claude Approvals, plus a /ship command in Claude Code for Team and Enterprise plans.
+ds: true
+
+Title: Gemini 4 Neon takes the FrontierRSI lead, ahead of Fable 5.2 and Astra 6.2
+URL: https://frontier-rsi.org/
+Image URL: https://news.sulat.com/wp-content/uploads/2026/11/hero-frontierrsi-abundant-benchmark.jpg
+Summary: Google's Gemini 4 Neon now leads Abundant's FrontierRSI benchmark at 35.2%, ahead of Claude Fable 5.2 at 33.6% and GPT-6.2 Astra at 30.8%. FrontierRSI scores agents on 27 AI research and engineering tasks across pre-training, post-training, inference and GPU kernels, testing whether AI can improve AI itself. Neon tops a board that Claude Opus 5.5 led at launch with 34.3%.
+ds: true
+
+Title: OpenAI deprecates GPT-5.6 Sol and Terra on December 23, 2026
+URL: 
+Image URL: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1920px-ChatGPT_logo.svg.png
+Summary: OpenAI is retiring GPT-5.6 on December 23, 2026: GPT-5.6 Sol leaves Chat, and Sol and Terra leave Work and Codex. The sunset follows today's rollout of GPT-6.2 Sol to the Chat tab, as the newer generation now takes over everyday conversations across ChatGPT. OpenAI says every model has its day in the sun, and hints more is on the horizon.
+
+Title: OpenAI and Cisco launch Shirudo, an open-source runtime for self-defending Linux systems
+URL: https://github.com/shirudo-dev/shirudo
+Image URL: https://blogs.cisco.com/gcs/ciscoblogs/1/2026/11/Option-2_B.png
+Summary: OpenAI and Cisco launched Shirudo, an open-source Linux runtime that lets AI agents defend systems without downtime. Agents write dynamic eBPF controls that shield systems from exploits, buying defenders time to test and roll out patches. Each shield is cryptographically signed and retires when the real patch lands, a first step toward self-defending infrastructure that adapts to new threats today.
+ds: true
+
+Title: P-Zero Research: GPT-6.2 Astra has 4.9x the research taste of top human experts on TasteVal
+URL: https://pzeroresearch.com/work/tasteval/
+Image URL: https://pzeroresearch.com/assets/og/tasteval.png
+Summary: P-Zero Research estimates GPT-6.2 Astra has 4.9 times the research taste of the best human experts on TasteVal, the highest score they have measured. Claude Fable 5.2 scores 2.5 times. TasteVal measures how efficiently a model designs experiments and interprets results on eight AI R&D tasks, relative to expert baseliners. Research taste has doubled every three months since December 2025.
+ds: true
+
+Title: Anthropic's Claude claims VP ≠ VNP over every field, formalized in Lean, unchecked by humans
+URL: https://github.com/anthropics/formal-math/tree/main/vp-vnp
+Image URL: https://hexagonmath.org/social-card/2611.00954v1
+Summary: Anthropic's formal-math repo claims VP ≠ VNP over every field: circuits for the Hamiltonian cycle polynomial, and the permanent outside characteristic 2, need more than m^(c (log m)^(1/3)) gates, so VP is a proper subset of VNP, though it does not settle P vs NP. Claude discovered it; the paper and Lean formalization are AI-written, with no human check yet.
+ds: true
+
+
+
+
+
+.

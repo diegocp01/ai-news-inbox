@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1655,
-  "updated_at": "2026-11-24T00:03:35.465992+00:00",
+  "generation": 1656,
+  "updated_at": "2026-11-24T13:01:15.849040+00:00",
   "next_id": 538,
   "records": [
     {
@@ -27180,9 +27180,282 @@
       },
       "acknowledged_at": "2026-11-23T14:32:51.278770+00:00",
       "checkpoint_after": 518
+    },
+    "011a2340b16dfd98526738c1": {
+      "batch_id": "011a2340b16dfd98526738c1",
+      "status": "prepared",
+      "checkpoint_before": 518,
+      "prepared_at": "2026-11-24T13:01:15.849040+00:00",
+      "intake_cutoff": 486,
+      "records": [
+        {
+          "id": 519,
+          "revision": 1,
+          "sha256": "caa38ccf66ad7fdbd31be2855386b83e9e6a5f4ffda63e3015278a1289cc3cac"
+        },
+        {
+          "id": 520,
+          "revision": 1,
+          "sha256": "e33ddc82798071c4634bc33e972b20783c51de06762d7a9e3186a1c60cbaa15b"
+        },
+        {
+          "id": 521,
+          "revision": 1,
+          "sha256": "8a501548c9b6ca8c49276aa5eee36ffeb7d6cbcec34adea23e67799462e4e972"
+        },
+        {
+          "id": 522,
+          "revision": 1,
+          "sha256": "f7af7b893f0d8eac1ef1df9a8570ff9c1f21ef566934b712d04eea21f899f5a9"
+        },
+        {
+          "id": 523,
+          "revision": 1,
+          "sha256": "7dfed2c80ccee497bfb5499026b17b7e9e55d5173f325c31d21ce4554074aeae"
+        },
+        {
+          "id": 524,
+          "revision": 1,
+          "sha256": "74a2309362b2555b4a0e9c88555e7c9c0b90b332c30d8bb7471344d3656f303a"
+        },
+        {
+          "id": 525,
+          "revision": 1,
+          "sha256": "669e067b2c49e301d711386ef6c0bcfe34e9f3e16226b2263edde9bd14f0d7bd"
+        },
+        {
+          "id": 526,
+          "revision": 1,
+          "sha256": "8e89d46e1cd7fc4d658617f7109d398e0748fa1d2269a6f58769e4d0074731ce"
+        },
+        {
+          "id": 527,
+          "revision": 1,
+          "sha256": "72e9c4031517316d307d19c6e0b642c756409ee1f7908717ee05658d0a65e77d"
+        },
+        {
+          "id": 528,
+          "revision": 1,
+          "sha256": "731bf756c88b43cfd78b9b3261b2a1acc13d2cd3446dc8616f9f9f5085aade15"
+        },
+        {
+          "id": 529,
+          "revision": 1,
+          "sha256": "8d7b5d5136a79092612cdd2b02712d45dee4113f17f44eb7af1877cbd4a98cae"
+        },
+        {
+          "id": 530,
+          "revision": 1,
+          "sha256": "4a723975ce04a87253efcb4f8f56d190b5ef8c95bfbc9c9e99986c7feffb94b7"
+        },
+        {
+          "id": 531,
+          "revision": 1,
+          "sha256": "bcaccc84a2307b82ddc4af8670eb91f686229141ca16e17d9b2d791230fd8273"
+        },
+        {
+          "id": 532,
+          "revision": 1,
+          "sha256": "6834878748e2d01a5de6bba64b31f6862a4b04645ab58e0b381dc0573e06ed9f"
+        },
+        {
+          "id": 533,
+          "revision": 1,
+          "sha256": "a7178bcbe2125d12c721577dd21ed9904be91eaf0fbddb5bf6a43597584b431e"
+        },
+        {
+          "id": 534,
+          "revision": 1,
+          "sha256": "e6bbb8d3c4797d8106bb76b7b484756c8f534f4c1bbde1c6cbdf4b288e148dec"
+        },
+        {
+          "id": 535,
+          "revision": 1,
+          "sha256": "60fb7d3e320e6c891b770a2df6e97cefd3b0085335b27d50877580398e5e0d5f"
+        },
+        {
+          "id": 536,
+          "revision": 1,
+          "sha256": "e53bfae5d15b7c38641025c435f298a5907239c40a27d9958e8aa5b4c02f0be7"
+        },
+        {
+          "id": 537,
+          "revision": 1,
+          "sha256": "2d73e5ab3941466f9b2245c35172d50108c7ae553628a131e4d539ec0888cc49"
+        }
+      ],
+      "first_id": 519,
+      "last_id": 537,
+      "count": 19,
+      "txt_path": "workflows/anf/batches/011a2340b16dfd98526738c1.txt",
+      "json_path": "workflows/anf/batches/011a2340b16dfd98526738c1.json",
+      "txt_sha256": "b054f729182992d038ac2960722dcb27d07c9e5f0838c5e5643e5761eb2abcc5",
+      "json_sha256": "7aed77f37eeb3954d938dfae3238d03c3cdb409d206358440a65f6672accffdc",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A CEO reinstatement at the world's most valuable chipmaker, reversing a resignation amid a foreign-intelligence investigation and with US government input, is major general business news for a broad audience, not a developer or research item. muse-intake 2026-11-23: submitted by Diego via NVIDIA Newsroom's X post (https://x.com/nvidianewsroom/status/2124865060397019480, Nov 23, 2026), read via syndication and the FxTwitter mirror; finalized by Muse per Diego's direction. Learn-more URL is the NVIDIA newsroom release, verified in full. Image is the release page's og:image, inspected and verified live (JPEG 1200x630).",
+            "evidence_sha256": "caa38ccf66ad7fdbd31be2855386b83e9e6a5f4ffda63e3015278a1289cc3cac"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A formal-verification certification of the most famous open problem in mathematics, decided by Lean kernel checks, comparator runs and independent checkers, is a technical research question; the follow-up corrects a research record and its open critiques matter to researchers. muse-intake 2026-11-23: follow-up to record 504, filed per Diego's yes. The Lean FRO / Mathlib Initiative joint certification (Nov 21) was read in full on the Lean community blog; Scientific American's Nov 21 update and The Rundown AI email Nov 23 corroborate. Record 517 already reports the endorsement standalone; this record corrects 504's unverified framing and carries the caveats 517 omits (Masullo rival proof, PhilArchive critique, Clay prize open). Image is the blog's twitter image, inspected live (PNG 600x600).",
+            "evidence_sha256": "e33ddc82798071c4634bc33e972b20783c51de06762d7a9e3186a1c60cbaa15b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A consumer health feature on OpenAI's proactive assistant: your dot can read Apple Health and medical records to personalize training and reminders. Broad general audience, not a developer or research item. muse-intake 2026-11-23: submitted by Diego via samir (@_samirism)'s X post (https://x.com/_samirism/status/2124862753714450859, Nov 23, 2026), read via syndication and the FxTwitter mirror; finalized by Muse per Diego's direction. Learn-more URL is 9to5Mac's Nov 19 coverage, verified in full. Image is the article's hero image, inspected and verified live (JPEG 1600x800).",
+            "evidence_sha256": "8a501548c9b6ca8c49276aa5eee36ffeb7d6cbcec34adea23e67799462e4e972"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A consumer shopping story with broad general appeal: Meta's Muse can now find and buy Walmart products, including Black Friday deals, through a new Agent Gateway with spending limits and purchase approval. It is the first major retailer to open its doors to an AI shopping agent while Amazon and eBay block them. muse-intake 2026-11-23: submitted by Diego via The Verge's X post (https://x.com/verge/status/2124821529750032710, Nov 23, 2026), read via syndication and the FxTwitter mirror; finalized by Muse per Diego's direction. Learn-more URL is the Verge article, verified via full-text mirrors. Image is the article's hero image on platform.theverge.com, inspected and verified live (JPEG 1200x624).",
+            "evidence_sha256": "f7af7b893f0d8eac1ef1df9a8570ff9c1f21ef566934b712d04eea21f899f5a9"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A small-business story with broad general appeal: OpenAI will pay local AI experts up to $8,000 a month to give small businesses free, hands-on help adopting AI, starting with a pilot in 20 U.S. communities. It matters to any owner wondering how AI fits a real shop, not just to technologists. muse-intake 2026-11-23: submitted by Diego via OpenAI's X post (https://x.com/OpenAI/status/2124922133545714160, Nov 23, 2026), read via syndication and the FxTwitter mirror; facts verified against OpenAI's OpenWorks page and its Instagram launch reel. Learn-more URL is the Instagram reel because openai.com is policy-forbidden. Image is the Tiny Things story photo from OpenAI's OpenWorks page on images.ctfassets.net, inspected and verified live (WebP 1200x1800).",
+            "evidence_sha256": "7dfed2c80ccee497bfb5499026b17b7e9e55d5173f325c31d21ce4554074aeae"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A research story for technical readers: teams of Gemini 4 agents improved well-known quantum algorithms, with each result proved mathematically in Lean and open-sourced, cutting costs up to 290x on key routines. It shows agentic AI doing real scientific work with formal guarantees, not just demos. muse-intake 2026-11-23: submitted by Diego via the DeepMind blog post (https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/, Nov 23, 2026), read in full. Learn-more URL is the blog post itself; deepmind.google verified against live workflows/anf/policy.json (not forbidden). Image is the blog page's og:image on lh3.googleusercontent.com, inspected and verified live (WebP 1200x630).",
+            "evidence_sha256": "74a2309362b2555b4a0e9c88555e7c9c0b90b332c30d8bb7471344d3656f303a"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "A developer-tool story for technical readers: the Gemini API now lets developers slice files by page, cell, time interval or content layer and pay only for what the model inspects, with Files API reuse across turns. It is a concrete API cost and workflow change, not a model release. muse-intake 2026-11-23: submitted by Diego via the @GoogleAIStudio X post (https://x.com/GoogleAIStudio/status/2124928707529674979, Nov 23, 2026) linking X Article 2124919844235513856 'Introducing file slicing controls in the Gemini API'; article text verified via the FxTwitter mirror route, docs page read in full. Learn-more URL is the Google AI Studio docs page; aistudio.google.com verified against live workflows/anf/policy.json (not forbidden). Image is the og:image of the Toolnavs coverage article, inspected and verified live (JPEG 2048x1152); the docs page's own og:image 404s and the X cover image is on forbidden pbs.twimg.com.",
+            "evidence_sha256": "669e067b2c49e301d711386ef6c0bcfe34e9f3e16226b2263edde9bd14f0d7bd"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "An enterprise safety product for Claude Platform customers: automated misuse monitoring that preserves zero data retention. Aimed at developers and enterprise security teams deploying Claude, not a general consumer story or a research paper. muse-intake 2026-11-23: submitted by Diego via a t.co short link (https://t.co/M8riFzHDPY), resolving to Anthropic's claude.com news post (published Nov 23, 2026), read in full; finalized by Muse per Diego's direction. Learn-more URL is the canonical claude.com article URL, verified allowed against live policy.json. Image is the article's lead image, inspected and verified live (WebP 3840x2712).",
+            "evidence_sha256": "8e89d46e1cd7fc4d658617f7109d398e0748fa1d2269a6f58769e4d0074731ce"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A research story for technical readers: MemOS and NVIDIA's 554B-parameter memory-native model internalizes history as part of model computation, beating its Flash predecessor by 4.76 points on BEAM-1M and 6.51 on MemoryAgentBench. It shows memory becoming a native model capability for long-horizon agents, backed by an arXiv technical report. muse-intake 2026-11-23: submitted by Diego via the MemOS X post (https://x.com/memos_dev/status/2124623963087126562, Nov 22, 2026), read via syndication + FxTwitter mirrors. Learn-more URL is the arXiv technical report (arxiv.org/abs/2610.26825); arxiv.org verified against live workflows/anf/policy.json (not forbidden). Parameter count settled from the paper itself: 554B (59B activated), not the 565B on the Hugging Face card. Image is Figure 1 from the paper, inspected and verified live (PNG 2006x924).",
+            "evidence_sha256": "72e9c4031517316d307d19c6e0b642c756409ee1f7908717ee05658d0a65e77d"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A ChatGPT product rollout for everyday users: GPT-6.2 Sol, previously confined to Work and Codex, is now coming to the regular Chat tab for Plus, Pro, Business, and Enterprise users, with better photo detail, sharper online comparisons, and smarter follow-ups. muse-intake 2026-11-23: submitted by Diego via the @ChatGPT X post (https://x.com/chatgpt/status/2124942186425069836, Nov 23, 2026, 2:04 PM EST), read via syndication + FxTwitter mirrors. Learn-more URL left empty per Diego's rule: no policy-allowed secondary coverage of this Nov 23 Chat-tab rollout exists yet; Nov 17 launch coverage (Work/Codex only) contradicts this story and was not substituted. Image is the Wikimedia ChatGPT logo, verified live (PNG 1920x1920). Free tier not mentioned in the post, not claimed.",
+            "evidence_sha256": "731bf756c88b43cfd78b9b3261b2a1acc13d2cd3446dc8616f9f9f5085aade15"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience story: Meta's chief AI officer publishes a public essay arguing superintelligence is arriving, using the Lean/Mathlib-certified Riemann proof as the turning point, and warning humanity may lose control of recursive self-improvement. It is a named leader's public warning, not a research paper. muse-intake 2026-11-23: submitted by Diego via a screenshot of Alexandr Wang's X post 'Superintelligence is Arriving' (@alexandr_wang, Nov 22, 2026, 22:50 UTC); screenshot text read and verified. Learn-more URL is CTech same-day coverage (calcalistech.com/ctechnews/article/hked2tbjqx), read in full; The Wrap coverage cross-checked. x.com forbidden as record URL. Image is the CTech Wang portrait (AP Photo/Jeff Chiu), verified live (JPEG 1024x576). Framing follows record 520: Lean/Mathlib-certified proof, open critiques, no human-readable proof, rival proof exists, Clay $1M prize still open.",
+            "evidence_sha256": "8d7b5d5136a79092612cdd2b02712d45dee4113f17f44eb7af1877cbd4a98cae"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "A developer-tool story for technical readers: Gemini API function calling now returns document, audio, and video results, so Gemini 4 Neon can read tool and subagent media natively. A concrete API capability for building agentic tools, not a model release. muse-intake 2026-11-23: submitted by Diego via the @_philschmid X post (https://x.com/_philschmid/status/2124929125974450503, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes, docs page read in full. Learn-more URL is the Google AI Studio function-calling docs; aistudio.google.com verified against live policy.json (not forbidden). Image is the Eigen Radar coverage image, verified live (WebP 1280x720); the docs og:image 404s and the post video thumbnail is on forbidden pbs.twimg.com. Underlying capability dates to Nov 5, 2026 per coverage; the Nov 23 post announces it for Gemini 4 Neon.",
+            "evidence_sha256": "4a723975ce04a87253efcb4f8f56d190b5ef8c95bfbc9c9e99986c7feffb94b7"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A public-health AI story for a general audience: the UK NHS has begun the world's largest AI-assisted breast screening trial, testing whether AI can help specialists spot cancers earlier. A landmark deployment of AI in everyday healthcare, not a model release. muse-intake 2026-11-23: submitted by Diego via the @Polymarket X post (https://x.com/polymarket/status/2124816729838870652, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes. Facts filled in from the NIHR Biomedical Research Centre: Cambridge article, read in full. Learn-more URL is the NIHR article; cambridgebrc.nihr.ac.uk verified against live policy.json (not forbidden). Image is the article og:image, verified live (JPEG 840x558). Trial first announced Feb 2025; this record is the Nov 23 recruitment launch.",
+            "evidence_sha256": "bcaccc84a2307b82ddc4af8670eb91f686229141ca16e17d9b2d791230fd8273"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "A developer-tool story for technical readers: Anthropic's Claude Ship puts Claude to work on GitHub pull requests, reviewing, fixing failing checks, and approving routine changes under a team-written policy. A concrete coding-workflow product for teams, not a model release. muse-intake 2026-11-23: submitted by Diego via the @ClaudeDevs X post (https://x.com/claudedevs/status/2124959436640858475, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes, claude.com announcement read in full. Learn-more URL is the claude.com announcement; claude.com verified against live policy.json (not forbidden, used for record 526). Image is the announcement lead image, verified live (PNG 3000x1530); the post video thumbnail is on forbidden pbs.twimg.com.",
+            "evidence_sha256": "6834878748e2d01a5de6bba64b31f6862a4b04645ab58e0b381dc0573e06ed9f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A model benchmark leaderboard for a research audience: Gemini 4 Neon now tops Abundant's recursive self-improvement benchmark, which tests whether AI agents can do the research and engineering needed to improve AI itself. The ranking itself, not a product launch, is the news. muse-intake 2026-11-23: submitted by Diego via the @abundant_labs X post (https://x.com/abundant_labs/status/2124921114329821361, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes. Claim verified from the FrontierRSI leaderboard itself, read live (frontier-rsi.org, Nov 23): Neon 35.2%, Fable 5.2 33.6%, GPT-6.2 Astra 30.8%. Learn-more URL is the leaderboard; frontier-rsi.org verified against live policy.json (not forbidden). Image is the Sulat article og:image, verified live (JPEG 2560x1440).",
+            "evidence_sha256": "a7178bcbe2125d12c721577dd21ed9904be91eaf0fbddb5bf6a43597584b431e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A ChatGPT model retirement affecting everyday users: OpenAI is deprecating GPT-5.6 Sol in Chat and Sol and Terra in Work and Codex on December 23, 2026, the follow-on to today's GPT-6.2 Sol rollout to the Chat tab as the newer generation takes over. muse-intake 2026-11-23: submitted by Diego via the @ChatGPT X post (https://x.com/chatgpt/status/2124981905380569283, Nov 23, 2026, 4:42 PM EST), read via syndication + FxTwitter mirrors. Learn-more URL left empty per Diego's rule: no policy-allowed same-day coverage of this Dec 23 Chat/Work/Codex deprecation exists yet; Dec 11 API snapshot removals are different models and were not substituted. Image is the Wikimedia ChatGPT logo, verified live (PNG 1920x1920). No successor is named in the post; none claimed.",
+            "evidence_sha256": "e6bbb8d3c4797d8106bb76b7b484756c8f534f4c1bbde1c6cbdf4b288e148dec"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "developer_tool",
+            "rationale": "A developer and security-operations story: an open-source Linux runtime that makes eBPF kernel defenses agent-native, so AI agents can write and deploy signed exploit shields without downtime. A concrete infrastructure and security tool, not a model release. muse-intake 2026-11-23: submitted by Diego via the @OpenAI X post (https://x.com/openai/status/2124980590717911527, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes; GitHub repo and Cisco blog read in full. Learn-more URL is the GitHub repo; github.com verified against live policy.json (not forbidden, used for record 481). Image is the Cisco blog og:image, verified live (PNG 1340x477).",
+            "evidence_sha256": "60fb7d3e320e6c891b770a2df6e97cefd3b0085335b27d50877580398e5e0d5f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A research-evaluation result: a benchmark measuring experimental research taste, how efficiently models design experiments and interpret results on AI R&D tasks relative to human experts. A research finding about model capability trajectories, not a product launch or developer tool. muse-intake 2026-11-23: submitted by Diego via the @pzeroresearch X post (https://x.com/pzeroresearch/status/2124973722989957377, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes; TasteVal write-up read in full. Learn-more URL is the TasteVal write-up; pzeroresearch.com verified against live policy.json (not forbidden, no .ai suffix). Image is the write-up og:image, verified live (PNG 1200x630).",
+            "evidence_sha256": "e53bfae5d15b7c38641025c435f298a5907239c40a27d9958e8aa5b4c02f0be7"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A claimed proof of Valiant's hypothesis in algebraic complexity: VP is a proper subset of VNP over every field, with a Lean 4 formalization. A research result for complexity theorists and formal-methods researchers, framed as an unverified AI-discovered claim, not a product or general news. muse-intake 2026-11-23: submitted by Diego via the anthropics/formal-math vp-vnp GitHub link; README read in full (Nov 23). Learn-more URL is the repo folder; github.com verified against live policy.json. Image is the paper's social card via hexagonmath.org (full-text mirror, read in full), verified live (PNG 1200x630). No independent verification exists yet: no human mathematician has checked the proof, per the README.",
+            "evidence_sha256": "2d73e5ab3941466f9b2245c35172d50108c7ae553628a131e4d539ec0888cc49"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-24T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "011a2340b16dfd98526738c1",
   "replacement_batch": null,
   "checkpoint": 518,
   "checkpoint_history": [
@@ -57194,6 +57467,286 @@
           "sha256": "2d73e5ab3941466f9b2245c35172d50108c7ae553628a131e4d539ec0888cc49"
         },
         "editorial_sha256": "5e873fa6fae85ede53a4d92045ad0b138ffda4fce3a4efbb048a8810610bfbe7"
+      }
+    },
+    "muse-compile-20261124-1301-5138": {
+      "sha256": "3d794e5da3cf647a9b5641a8eb4dfa446e7bfcbfa220ddfa427648bfe4cd2a66",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "011a2340b16dfd98526738c1",
+          "status": "prepared",
+          "checkpoint_before": 518,
+          "prepared_at": "2026-11-24T13:01:15.849040+00:00",
+          "intake_cutoff": 486,
+          "records": [
+            {
+              "id": 519,
+              "revision": 1,
+              "sha256": "caa38ccf66ad7fdbd31be2855386b83e9e6a5f4ffda63e3015278a1289cc3cac"
+            },
+            {
+              "id": 520,
+              "revision": 1,
+              "sha256": "e33ddc82798071c4634bc33e972b20783c51de06762d7a9e3186a1c60cbaa15b"
+            },
+            {
+              "id": 521,
+              "revision": 1,
+              "sha256": "8a501548c9b6ca8c49276aa5eee36ffeb7d6cbcec34adea23e67799462e4e972"
+            },
+            {
+              "id": 522,
+              "revision": 1,
+              "sha256": "f7af7b893f0d8eac1ef1df9a8570ff9c1f21ef566934b712d04eea21f899f5a9"
+            },
+            {
+              "id": 523,
+              "revision": 1,
+              "sha256": "7dfed2c80ccee497bfb5499026b17b7e9e55d5173f325c31d21ce4554074aeae"
+            },
+            {
+              "id": 524,
+              "revision": 1,
+              "sha256": "74a2309362b2555b4a0e9c88555e7c9c0b90b332c30d8bb7471344d3656f303a"
+            },
+            {
+              "id": 525,
+              "revision": 1,
+              "sha256": "669e067b2c49e301d711386ef6c0bcfe34e9f3e16226b2263edde9bd14f0d7bd"
+            },
+            {
+              "id": 526,
+              "revision": 1,
+              "sha256": "8e89d46e1cd7fc4d658617f7109d398e0748fa1d2269a6f58769e4d0074731ce"
+            },
+            {
+              "id": 527,
+              "revision": 1,
+              "sha256": "72e9c4031517316d307d19c6e0b642c756409ee1f7908717ee05658d0a65e77d"
+            },
+            {
+              "id": 528,
+              "revision": 1,
+              "sha256": "731bf756c88b43cfd78b9b3261b2a1acc13d2cd3446dc8616f9f9f5085aade15"
+            },
+            {
+              "id": 529,
+              "revision": 1,
+              "sha256": "8d7b5d5136a79092612cdd2b02712d45dee4113f17f44eb7af1877cbd4a98cae"
+            },
+            {
+              "id": 530,
+              "revision": 1,
+              "sha256": "4a723975ce04a87253efcb4f8f56d190b5ef8c95bfbc9c9e99986c7feffb94b7"
+            },
+            {
+              "id": 531,
+              "revision": 1,
+              "sha256": "bcaccc84a2307b82ddc4af8670eb91f686229141ca16e17d9b2d791230fd8273"
+            },
+            {
+              "id": 532,
+              "revision": 1,
+              "sha256": "6834878748e2d01a5de6bba64b31f6862a4b04645ab58e0b381dc0573e06ed9f"
+            },
+            {
+              "id": 533,
+              "revision": 1,
+              "sha256": "a7178bcbe2125d12c721577dd21ed9904be91eaf0fbddb5bf6a43597584b431e"
+            },
+            {
+              "id": 534,
+              "revision": 1,
+              "sha256": "e6bbb8d3c4797d8106bb76b7b484756c8f534f4c1bbde1c6cbdf4b288e148dec"
+            },
+            {
+              "id": 535,
+              "revision": 1,
+              "sha256": "60fb7d3e320e6c891b770a2df6e97cefd3b0085335b27d50877580398e5e0d5f"
+            },
+            {
+              "id": 536,
+              "revision": 1,
+              "sha256": "e53bfae5d15b7c38641025c435f298a5907239c40a27d9958e8aa5b4c02f0be7"
+            },
+            {
+              "id": 537,
+              "revision": 1,
+              "sha256": "2d73e5ab3941466f9b2245c35172d50108c7ae553628a131e4d539ec0888cc49"
+            }
+          ],
+          "first_id": 519,
+          "last_id": 537,
+          "count": 19,
+          "txt_path": "workflows/anf/batches/011a2340b16dfd98526738c1.txt",
+          "json_path": "workflows/anf/batches/011a2340b16dfd98526738c1.json",
+          "txt_sha256": "b054f729182992d038ac2960722dcb27d07c9e5f0838c5e5643e5761eb2abcc5",
+          "json_sha256": "7aed77f37eeb3954d938dfae3238d03c3cdb409d206358440a65f6672accffdc",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A CEO reinstatement at the world's most valuable chipmaker, reversing a resignation amid a foreign-intelligence investigation and with US government input, is major general business news for a broad audience, not a developer or research item. muse-intake 2026-11-23: submitted by Diego via NVIDIA Newsroom's X post (https://x.com/nvidianewsroom/status/2124865060397019480, Nov 23, 2026), read via syndication and the FxTwitter mirror; finalized by Muse per Diego's direction. Learn-more URL is the NVIDIA newsroom release, verified in full. Image is the release page's og:image, inspected and verified live (JPEG 1200x630).",
+                "evidence_sha256": "caa38ccf66ad7fdbd31be2855386b83e9e6a5f4ffda63e3015278a1289cc3cac"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "A formal-verification certification of the most famous open problem in mathematics, decided by Lean kernel checks, comparator runs and independent checkers, is a technical research question; the follow-up corrects a research record and its open critiques matter to researchers. muse-intake 2026-11-23: follow-up to record 504, filed per Diego's yes. The Lean FRO / Mathlib Initiative joint certification (Nov 21) was read in full on the Lean community blog; Scientific American's Nov 21 update and The Rundown AI email Nov 23 corroborate. Record 517 already reports the endorsement standalone; this record corrects 504's unverified framing and carries the caveats 517 omits (Masullo rival proof, PhilArchive critique, Clay prize open). Image is the blog's twitter image, inspected live (PNG 600x600).",
+                "evidence_sha256": "e33ddc82798071c4634bc33e972b20783c51de06762d7a9e3186a1c60cbaa15b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A consumer health feature on OpenAI's proactive assistant: your dot can read Apple Health and medical records to personalize training and reminders. Broad general audience, not a developer or research item. muse-intake 2026-11-23: submitted by Diego via samir (@_samirism)'s X post (https://x.com/_samirism/status/2124862753714450859, Nov 23, 2026), read via syndication and the FxTwitter mirror; finalized by Muse per Diego's direction. Learn-more URL is 9to5Mac's Nov 19 coverage, verified in full. Image is the article's hero image, inspected and verified live (JPEG 1600x800).",
+                "evidence_sha256": "8a501548c9b6ca8c49276aa5eee36ffeb7d6cbcec34adea23e67799462e4e972"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A consumer shopping story with broad general appeal: Meta's Muse can now find and buy Walmart products, including Black Friday deals, through a new Agent Gateway with spending limits and purchase approval. It is the first major retailer to open its doors to an AI shopping agent while Amazon and eBay block them. muse-intake 2026-11-23: submitted by Diego via The Verge's X post (https://x.com/verge/status/2124821529750032710, Nov 23, 2026), read via syndication and the FxTwitter mirror; finalized by Muse per Diego's direction. Learn-more URL is the Verge article, verified via full-text mirrors. Image is the article's hero image on platform.theverge.com, inspected and verified live (JPEG 1200x624).",
+                "evidence_sha256": "f7af7b893f0d8eac1ef1df9a8570ff9c1f21ef566934b712d04eea21f899f5a9"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A small-business story with broad general appeal: OpenAI will pay local AI experts up to $8,000 a month to give small businesses free, hands-on help adopting AI, starting with a pilot in 20 U.S. communities. It matters to any owner wondering how AI fits a real shop, not just to technologists. muse-intake 2026-11-23: submitted by Diego via OpenAI's X post (https://x.com/OpenAI/status/2124922133545714160, Nov 23, 2026), read via syndication and the FxTwitter mirror; facts verified against OpenAI's OpenWorks page and its Instagram launch reel. Learn-more URL is the Instagram reel because openai.com is policy-forbidden. Image is the Tiny Things story photo from OpenAI's OpenWorks page on images.ctfassets.net, inspected and verified live (WebP 1200x1800).",
+                "evidence_sha256": "7dfed2c80ccee497bfb5499026b17b7e9e55d5173f325c31d21ce4554074aeae"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "A research story for technical readers: teams of Gemini 4 agents improved well-known quantum algorithms, with each result proved mathematically in Lean and open-sourced, cutting costs up to 290x on key routines. It shows agentic AI doing real scientific work with formal guarantees, not just demos. muse-intake 2026-11-23: submitted by Diego via the DeepMind blog post (https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/, Nov 23, 2026), read in full. Learn-more URL is the blog post itself; deepmind.google verified against live workflows/anf/policy.json (not forbidden). Image is the blog page's og:image on lh3.googleusercontent.com, inspected and verified live (WebP 1200x630).",
+                "evidence_sha256": "74a2309362b2555b4a0e9c88555e7c9c0b90b332c30d8bb7471344d3656f303a"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "A developer-tool story for technical readers: the Gemini API now lets developers slice files by page, cell, time interval or content layer and pay only for what the model inspects, with Files API reuse across turns. It is a concrete API cost and workflow change, not a model release. muse-intake 2026-11-23: submitted by Diego via the @GoogleAIStudio X post (https://x.com/GoogleAIStudio/status/2124928707529674979, Nov 23, 2026) linking X Article 2124919844235513856 'Introducing file slicing controls in the Gemini API'; article text verified via the FxTwitter mirror route, docs page read in full. Learn-more URL is the Google AI Studio docs page; aistudio.google.com verified against live workflows/anf/policy.json (not forbidden). Image is the og:image of the Toolnavs coverage article, inspected and verified live (JPEG 2048x1152); the docs page's own og:image 404s and the X cover image is on forbidden pbs.twimg.com.",
+                "evidence_sha256": "669e067b2c49e301d711386ef6c0bcfe34e9f3e16226b2263edde9bd14f0d7bd"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "An enterprise safety product for Claude Platform customers: automated misuse monitoring that preserves zero data retention. Aimed at developers and enterprise security teams deploying Claude, not a general consumer story or a research paper. muse-intake 2026-11-23: submitted by Diego via a t.co short link (https://t.co/M8riFzHDPY), resolving to Anthropic's claude.com news post (published Nov 23, 2026), read in full; finalized by Muse per Diego's direction. Learn-more URL is the canonical claude.com article URL, verified allowed against live policy.json. Image is the article's lead image, inspected and verified live (WebP 3840x2712).",
+                "evidence_sha256": "8e89d46e1cd7fc4d658617f7109d398e0748fa1d2269a6f58769e4d0074731ce"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "A research story for technical readers: MemOS and NVIDIA's 554B-parameter memory-native model internalizes history as part of model computation, beating its Flash predecessor by 4.76 points on BEAM-1M and 6.51 on MemoryAgentBench. It shows memory becoming a native model capability for long-horizon agents, backed by an arXiv technical report. muse-intake 2026-11-23: submitted by Diego via the MemOS X post (https://x.com/memos_dev/status/2124623963087126562, Nov 22, 2026), read via syndication + FxTwitter mirrors. Learn-more URL is the arXiv technical report (arxiv.org/abs/2610.26825); arxiv.org verified against live workflows/anf/policy.json (not forbidden). Parameter count settled from the paper itself: 554B (59B activated), not the 565B on the Hugging Face card. Image is Figure 1 from the paper, inspected and verified live (PNG 2006x924).",
+                "evidence_sha256": "72e9c4031517316d307d19c6e0b642c756409ee1f7908717ee05658d0a65e77d"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A ChatGPT product rollout for everyday users: GPT-6.2 Sol, previously confined to Work and Codex, is now coming to the regular Chat tab for Plus, Pro, Business, and Enterprise users, with better photo detail, sharper online comparisons, and smarter follow-ups. muse-intake 2026-11-23: submitted by Diego via the @ChatGPT X post (https://x.com/chatgpt/status/2124942186425069836, Nov 23, 2026, 2:04 PM EST), read via syndication + FxTwitter mirrors. Learn-more URL left empty per Diego's rule: no policy-allowed secondary coverage of this Nov 23 Chat-tab rollout exists yet; Nov 17 launch coverage (Work/Codex only) contradicts this story and was not substituted. Image is the Wikimedia ChatGPT logo, verified live (PNG 1920x1920). Free tier not mentioned in the post, not claimed.",
+                "evidence_sha256": "731bf756c88b43cfd78b9b3261b2a1acc13d2cd3446dc8616f9f9f5085aade15"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A general-audience story: Meta's chief AI officer publishes a public essay arguing superintelligence is arriving, using the Lean/Mathlib-certified Riemann proof as the turning point, and warning humanity may lose control of recursive self-improvement. It is a named leader's public warning, not a research paper. muse-intake 2026-11-23: submitted by Diego via a screenshot of Alexandr Wang's X post 'Superintelligence is Arriving' (@alexandr_wang, Nov 22, 2026, 22:50 UTC); screenshot text read and verified. Learn-more URL is CTech same-day coverage (calcalistech.com/ctechnews/article/hked2tbjqx), read in full; The Wrap coverage cross-checked. x.com forbidden as record URL. Image is the CTech Wang portrait (AP Photo/Jeff Chiu), verified live (JPEG 1024x576). Framing follows record 520: Lean/Mathlib-certified proof, open critiques, no human-readable proof, rival proof exists, Clay $1M prize still open.",
+                "evidence_sha256": "8d7b5d5136a79092612cdd2b02712d45dee4113f17f44eb7af1877cbd4a98cae"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "A developer-tool story for technical readers: Gemini API function calling now returns document, audio, and video results, so Gemini 4 Neon can read tool and subagent media natively. A concrete API capability for building agentic tools, not a model release. muse-intake 2026-11-23: submitted by Diego via the @_philschmid X post (https://x.com/_philschmid/status/2124929125974450503, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes, docs page read in full. Learn-more URL is the Google AI Studio function-calling docs; aistudio.google.com verified against live policy.json (not forbidden). Image is the Eigen Radar coverage image, verified live (WebP 1280x720); the docs og:image 404s and the post video thumbnail is on forbidden pbs.twimg.com. Underlying capability dates to Nov 5, 2026 per coverage; the Nov 23 post announces it for Gemini 4 Neon.",
+                "evidence_sha256": "4a723975ce04a87253efcb4f8f56d190b5ef8c95bfbc9c9e99986c7feffb94b7"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A public-health AI story for a general audience: the UK NHS has begun the world's largest AI-assisted breast screening trial, testing whether AI can help specialists spot cancers earlier. A landmark deployment of AI in everyday healthcare, not a model release. muse-intake 2026-11-23: submitted by Diego via the @Polymarket X post (https://x.com/polymarket/status/2124816729838870652, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes. Facts filled in from the NIHR Biomedical Research Centre: Cambridge article, read in full. Learn-more URL is the NIHR article; cambridgebrc.nihr.ac.uk verified against live policy.json (not forbidden). Image is the article og:image, verified live (JPEG 840x558). Trial first announced Feb 2025; this record is the Nov 23 recruitment launch.",
+                "evidence_sha256": "bcaccc84a2307b82ddc4af8670eb91f686229141ca16e17d9b2d791230fd8273"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "A developer-tool story for technical readers: Anthropic's Claude Ship puts Claude to work on GitHub pull requests, reviewing, fixing failing checks, and approving routine changes under a team-written policy. A concrete coding-workflow product for teams, not a model release. muse-intake 2026-11-23: submitted by Diego via the @ClaudeDevs X post (https://x.com/claudedevs/status/2124959436640858475, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes, claude.com announcement read in full. Learn-more URL is the claude.com announcement; claude.com verified against live policy.json (not forbidden, used for record 526). Image is the announcement lead image, verified live (PNG 3000x1530); the post video thumbnail is on forbidden pbs.twimg.com.",
+                "evidence_sha256": "6834878748e2d01a5de6bba64b31f6862a4b04645ab58e0b381dc0573e06ed9f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "A model benchmark leaderboard for a research audience: Gemini 4 Neon now tops Abundant's recursive self-improvement benchmark, which tests whether AI agents can do the research and engineering needed to improve AI itself. The ranking itself, not a product launch, is the news. muse-intake 2026-11-23: submitted by Diego via the @abundant_labs X post (https://x.com/abundant_labs/status/2124921114329821361, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes. Claim verified from the FrontierRSI leaderboard itself, read live (frontier-rsi.org, Nov 23): Neon 35.2%, Fable 5.2 33.6%, GPT-6.2 Astra 30.8%. Learn-more URL is the leaderboard; frontier-rsi.org verified against live policy.json (not forbidden). Image is the Sulat article og:image, verified live (JPEG 2560x1440).",
+                "evidence_sha256": "a7178bcbe2125d12c721577dd21ed9904be91eaf0fbddb5bf6a43597584b431e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A ChatGPT model retirement affecting everyday users: OpenAI is deprecating GPT-5.6 Sol in Chat and Sol and Terra in Work and Codex on December 23, 2026, the follow-on to today's GPT-6.2 Sol rollout to the Chat tab as the newer generation takes over. muse-intake 2026-11-23: submitted by Diego via the @ChatGPT X post (https://x.com/chatgpt/status/2124981905380569283, Nov 23, 2026, 4:42 PM EST), read via syndication + FxTwitter mirrors. Learn-more URL left empty per Diego's rule: no policy-allowed same-day coverage of this Dec 23 Chat/Work/Codex deprecation exists yet; Dec 11 API snapshot removals are different models and were not substituted. Image is the Wikimedia ChatGPT logo, verified live (PNG 1920x1920). No successor is named in the post; none claimed.",
+                "evidence_sha256": "e6bbb8d3c4797d8106bb76b7b484756c8f534f4c1bbde1c6cbdf4b288e148dec"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "developer_tool",
+                "rationale": "A developer and security-operations story: an open-source Linux runtime that makes eBPF kernel defenses agent-native, so AI agents can write and deploy signed exploit shields without downtime. A concrete infrastructure and security tool, not a model release. muse-intake 2026-11-23: submitted by Diego via the @OpenAI X post (https://x.com/openai/status/2124980590717911527, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes; GitHub repo and Cisco blog read in full. Learn-more URL is the GitHub repo; github.com verified against live policy.json (not forbidden, used for record 481). Image is the Cisco blog og:image, verified live (PNG 1340x477).",
+                "evidence_sha256": "60fb7d3e320e6c891b770a2df6e97cefd3b0085335b27d50877580398e5e0d5f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "A research-evaluation result: a benchmark measuring experimental research taste, how efficiently models design experiments and interpret results on AI R&D tasks relative to human experts. A research finding about model capability trajectories, not a product launch or developer tool. muse-intake 2026-11-23: submitted by Diego via the @pzeroresearch X post (https://x.com/pzeroresearch/status/2124973722989957377, Nov 23, 2026); post text verified via syndication and FxTwitter mirror routes; TasteVal write-up read in full. Learn-more URL is the TasteVal write-up; pzeroresearch.com verified against live policy.json (not forbidden, no .ai suffix). Image is the write-up og:image, verified live (PNG 1200x630).",
+                "evidence_sha256": "e53bfae5d15b7c38641025c435f298a5907239c40a27d9958e8aa5b4c02f0be7"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "A claimed proof of Valiant's hypothesis in algebraic complexity: VP is a proper subset of VNP over every field, with a Lean 4 formalization. A research result for complexity theorists and formal-methods researchers, framed as an unverified AI-discovered claim, not a product or general news. muse-intake 2026-11-23: submitted by Diego via the anthropics/formal-math vp-vnp GitHub link; README read in full (Nov 23). Learn-more URL is the repo folder; github.com verified against live policy.json. Image is the paper's social card via hexagonmath.org (full-text mirror, read in full), verified live (PNG 1200x630). No independent verification exists yet: no human mathematician has checked the proof, per the README.",
+                "evidence_sha256": "2d73e5ab3941466f9b2245c35172d50108c7ae553628a131e4d539ec0888cc49"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-24T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
