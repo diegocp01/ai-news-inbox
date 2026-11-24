@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1671,
-  "updated_at": "2026-11-24T20:49:45.650272+00:00",
-  "next_id": 542,
+  "generation": 1674,
+  "updated_at": "2026-11-24T20:52:56.024280+00:00",
+  "next_id": 543,
   "records": [
     {
       "id": 1,
@@ -7195,6 +7195,19 @@
           "sha256": "fbfca9659b41fc1459a06445970ebcd0bf0baec8b6253d1fcf0b4aae7510b450",
           "source": "Claude",
           "request_id": "muse-intake-20261124-claude-artifacts-desktop-apps",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 542,
+      "revisions": [
+        {
+          "created_at": "2026-11-24T20:52:55.777661+00:00",
+          "block": "Title: Meta puts Muse in Instagram DMs to organize saves\nURL: https://www.engadget.com/2326663/meta-is-bringing-muse-to-instagram/\nImage URL: https://www.engadget.com/img/gallery/meta-is-bringing-muse-to-instagram/intro-1795537071.jpg\nSummary: Meta says Muse is now in Instagram DMs, so users can send it a message to turn saved posts into plans, like a trip. Saving a post will prompt Muse to sort it into collections, starting in the U.S. and Canada. DMs roll out in five countries, and chats also appear in the Muse app.",
+          "sha256": "298e4e75f9091cbc6657296ff3b1dfb8b02b33eb9aea9b255381a232c6400290",
+          "source": "Engadget",
+          "request_id": "muse-intake-20261124-muse-instagram-dms",
           "mode": "standard"
         }
       ]
@@ -15875,6 +15888,23 @@
           "id": 541,
           "revision": 1,
           "sha256": "fbfca9659b41fc1459a06445970ebcd0bf0baec8b6253d1fcf0b4aae7510b450"
+        }
+      ]
+    },
+    "muse-intake-20261124-muse-instagram-dms": {
+      "status": "finalized",
+      "received_at": "2026-11-24T20:52:55.540057+00:00",
+      "received_sequence": 491,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-24T20:52:55.777661+00:00",
+      "records": [
+        {
+          "id": 542,
+          "revision": 1,
+          "sha256": "298e4e75f9091cbc6657296ff3b1dfb8b02b33eb9aea9b255381a232c6400290"
         }
       ]
     }
@@ -58087,6 +58117,40 @@
         },
         "editorial_sha256": "a088112b0c48ce1d0a5c030e0b533200c9ea063bd8e17f76213f5f3342ddb471"
       }
+    },
+    "muse-intake-20261124-muse-instagram-dms-receive-9712": {
+      "sha256": "f68c6ec9a3ecd6438d39e11f322bf1f2085e883e433a1080dac814a5a69005a4",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261124-muse-instagram-dms"
+      }
+    },
+    "muse-intake-20261124-muse-instagram-dms-finalize-5907": {
+      "sha256": "563575280eaa59443fdbc6fb296b0ba828c3f303d4a2568a1472b33fc76277b0",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261124-muse-instagram-dms",
+        "records": [
+          {
+            "id": 542,
+            "revision": 1,
+            "sha256": "298e4e75f9091cbc6657296ff3b1dfb8b02b33eb9aea9b255381a232c6400290"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261124-muse-instagram-dms-review-4046": {
+      "sha256": "fa834376de43d727a6da2f21dd2344f9bb98de21f975a44096f72eec391b3fdb",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 542,
+          "revision": 1,
+          "sha256": "298e4e75f9091cbc6657296ff3b1dfb8b02b33eb9aea9b255381a232c6400290"
+        },
+        "editorial_sha256": "08ee2b5756393437acb488ddb00a690397b569fd1b86694d13dfa90cefdd9035"
+      }
     }
   },
   "migration": {
@@ -71633,6 +71697,26 @@
         "sha256": "a088112b0c48ce1d0a5c030e0b533200c9ea063bd8e17f76213f5f3342ddb471",
         "reviewed_at": "2026-11-24T20:49:45.650272+00:00",
         "operation_id": "muse-intake-20261124-claude-artifacts-desktop-apps-review-8947"
+      }
+    ],
+    "542:1": [
+      {
+        "reference": {
+          "id": 542,
+          "revision": 1,
+          "sha256": "298e4e75f9091cbc6657296ff3b1dfb8b02b33eb9aea9b255381a232c6400290"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience product story: Meta's Muse assistant is now reachable in Instagram DMs and can turn saved posts into plans. No developer terms; a regular reader can follow it. muse-intake 2026-11-24: submitted by Diego via X link (Muse status 2125284171417637002, posted 2026-11-24 17:43 UTC); full text verified via the FxTwitter API mirror (syndication endpoint returned empty; x.com 403s). Cross-checked against Engadget coverage (read in full) and Superpower Daily / Unite.ai. The tweet's video thumbnail is pbs.twimg.com, forbidden as an image, so the image is the Engadget article hero, verified live (JPEG 780x438).",
+            "evidence_sha256": "298e4e75f9091cbc6657296ff3b1dfb8b02b33eb9aea9b255381a232c6400290"
+          }
+        },
+        "sha256": "08ee2b5756393437acb488ddb00a690397b569fd1b86694d13dfa90cefdd9035",
+        "reviewed_at": "2026-11-24T20:52:56.024280+00:00",
+        "operation_id": "muse-intake-20261124-muse-instagram-dms-review-4046"
       }
     ]
   }
