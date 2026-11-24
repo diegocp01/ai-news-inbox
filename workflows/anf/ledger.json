@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1665,
-  "updated_at": "2026-11-24T17:21:51.335578+00:00",
-  "next_id": 540,
+  "generation": 1668,
+  "updated_at": "2026-11-24T17:46:20.634879+00:00",
+  "next_id": 541,
   "records": [
     {
       "id": 1,
@@ -7170,6 +7170,19 @@
           "request_id": "2af048dd29fb2a04d050b7e4771505c9b6c80e132f45f05bd18aabaf05583135",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 540,
+      "revisions": [
+        {
+          "created_at": "2026-11-24T17:46:20.402475+00:00",
+          "block": "Title: Stryker CEO rules out building orthopedic robots in China\nURL: https://d33gy59ovltp76.cloudfront.net/news/stryker-ceo-kevin-lobo-says-robots-now-do-2-of-every-3-knee-replacements-and-he-wont-build-them-in-china-because-the-ip-is-a-massive-worry\nImage URL: https://fortune.com/img-assets/wp-content/uploads/2026/11/kevin-lobo-stryker-fortune-500-innovation-forum-2026.jpg?w=2048\nSummary: Fortune reports Stryker CEO Kevin Lobo says the company will keep building its surgery robots in the U.S., calling intellectual property in China 'a massive worry.' Lobo said Chinese firms are copying other surgical robots. Two of every three Stryker knee replacements now use its Mako system, used in 2.5 million procedures in 47 countries.",
+          "sha256": "db66ff75e7fa33d59d656e224c97a49e32767d0d7beaded63f25b1b1e61430ef",
+          "source": "Fortune",
+          "request_id": "muse-intake-20261124-stryker-lobo-china-robots",
+          "mode": "standard"
         }
       ]
     }
@@ -15815,6 +15828,23 @@
           "id": 539,
           "revision": 1,
           "sha256": "519559e8419162fb2bca68121c319b268043cb3e51d3206168964f81e38143f6"
+        }
+      ]
+    },
+    "muse-intake-20261124-stryker-lobo-china-robots": {
+      "status": "finalized",
+      "received_at": "2026-11-24T17:46:20.157835+00:00",
+      "received_sequence": 489,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-24T17:46:20.402475+00:00",
+      "records": [
+        {
+          "id": 540,
+          "revision": 1,
+          "sha256": "db66ff75e7fa33d59d656e224c97a49e32767d0d7beaded63f25b1b1e61430ef"
         }
       ]
     }
@@ -57959,6 +57989,40 @@
         },
         "editorial_sha256": "873b1fbf190cab8fed71d5dc914d2f4796f3cac34b8f6e7b684c67f5966cadb7"
       }
+    },
+    "muse-intake-20261124-stryker-lobo-china-robots-receive-1507": {
+      "sha256": "bbf9c88e7c3c5c732a841fc347028a2f09dcf4b9f890572cc7687f7762ac5bc0",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261124-stryker-lobo-china-robots"
+      }
+    },
+    "muse-intake-20261124-stryker-lobo-china-robots-finalize-8925": {
+      "sha256": "322c0058c6d7ad19cfc1cca5e19e09462aef3c4ca2eedf4573cbf30a6dfa1aba",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261124-stryker-lobo-china-robots",
+        "records": [
+          {
+            "id": 540,
+            "revision": 1,
+            "sha256": "db66ff75e7fa33d59d656e224c97a49e32767d0d7beaded63f25b1b1e61430ef"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261124-stryker-lobo-china-robots-review-3422": {
+      "sha256": "fb70771d2bae8239e1fb62fcb63ff300e14cb8a651390fd2673f3827e35276a2",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 540,
+          "revision": 1,
+          "sha256": "db66ff75e7fa33d59d656e224c97a49e32767d0d7beaded63f25b1b1e61430ef"
+        },
+        "editorial_sha256": "8a33a91142dd5c3d643f959527ff7d9037063af3c6c402fea36eb9dec40bb33e"
+      }
     }
   },
   "migration": {
@@ -71465,6 +71529,26 @@
         "sha256": "873b1fbf190cab8fed71d5dc914d2f4796f3cac34b8f6e7b684c67f5966cadb7",
         "reviewed_at": "2026-11-24T17:21:51.335578+00:00",
         "operation_id": "42600baa6c63d2eb53bcfc53e16868bb9373f273e675d1ee2bd97edce07eca9f"
+      }
+    ],
+    "540:1": [
+      {
+        "reference": {
+          "id": 540,
+          "revision": 1,
+          "sha256": "db66ff75e7fa33d59d656e224c97a49e32767d0d7beaded63f25b1b1e61430ef"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience business story: Stryker's CEO publicly rules out manufacturing surgical robots in China over IP worries, while robots now do two of every three Stryker knee replacements. No technical or developer terms; a regular reader can follow it. muse-intake 2026-11-24: submitted by Diego via Instagram reel link (fortunemag reel DgIHvFooznI, posted 2026-11-24 06:01 ET); caption read via instagram-cli and cross-checked against the Fortune article (inkl mirror, read in full). Learn-more URL is the inkl mirror reproducing the Fortune article verbatim; fortune.com is unreachable from Muse's tools (browser.open blocks the domain), so the mirror is used. Image is the Fortune hero photo of Lobo onstage (Rebecca Greenfield/Fortune), verified live (JPEG 2048x1365).",
+            "evidence_sha256": "db66ff75e7fa33d59d656e224c97a49e32767d0d7beaded63f25b1b1e61430ef"
+          }
+        },
+        "sha256": "8a33a91142dd5c3d643f959527ff7d9037063af3c6c402fea36eb9dec40bb33e",
+        "reviewed_at": "2026-11-24T17:46:20.634879+00:00",
+        "operation_id": "muse-intake-20261124-stryker-lobo-china-robots-review-3422"
       }
     ]
   }
