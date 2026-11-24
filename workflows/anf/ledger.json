@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1661,
-  "updated_at": "2026-11-24T13:59:36.220466+00:00",
+  "generation": 1662,
+  "updated_at": "2026-11-24T14:00:30.931478+00:00",
   "next_id": 539,
   "records": [
     {
@@ -57881,6 +57881,18 @@
         ],
         "duplicates": []
       }
+    },
+    "5a56622bc55acfdb798e2220180ec1c719b393d40d7581f7a7163d93cd3d4f48": {
+      "sha256": "b674c271aad25e5f3484b0783325727aeff527ae097b3c0c7c54cc0674551289",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 538,
+          "revision": 1,
+          "sha256": "eb6efbd3ed576b13367540de3d9b89f096276105b82f03846be01359a76fff6a"
+        },
+        "editorial_sha256": "f770ce1129a05c88e36836615f63fa7495beade6ab8fd66c9e5910697769d7d5"
+      }
     }
   },
   "migration": {
@@ -71347,6 +71359,26 @@
         "sha256": "5e873fa6fae85ede53a4d92045ad0b138ffda4fce3a4efbb048a8810610bfbe7",
         "reviewed_at": "2026-11-24T00:03:35.465992+00:00",
         "operation_id": "muse-intake-20261123-vp-vnp-review-1078"
+      }
+    ],
+    "538:1": [
+      {
+        "reference": {
+          "id": 538,
+          "revision": 1,
+          "sha256": "eb6efbd3ed576b13367540de3d9b89f096276105b82f03846be01359a76fff6a"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The article reports internal release and safety debates for a general news audience, not a technical method or implementation.",
+            "evidence_sha256": "da822af63b0251d3f8783f1f3abf4cf18de4ac0546e9bb7f25b28be91273dd78"
+          }
+        },
+        "sha256": "f770ce1129a05c88e36836615f63fa7495beade6ab8fd66c9e5910697769d7d5",
+        "reviewed_at": "2026-11-24T14:00:30.931478+00:00",
+        "operation_id": "5a56622bc55acfdb798e2220180ec1c719b393d40d7581f7a7163d93cd3d4f48"
       }
     ]
   }
