@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1652,
-  "updated_at": "2026-11-23T22:41:03.627323+00:00",
-  "next_id": 537,
+  "generation": 1655,
+  "updated_at": "2026-11-24T00:03:35.465992+00:00",
+  "next_id": 538,
   "records": [
     {
       "id": 1,
@@ -7128,6 +7128,19 @@
           "sha256": "e53bfae5d15b7c38641025c435f298a5907239c40a27d9958e8aa5b4c02f0be7",
           "source": "P-Zero Research",
           "request_id": "muse-intake-20261123-pzero-tasteval",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 537,
+      "revisions": [
+        {
+          "created_at": "2026-11-24T00:03:35.172759+00:00",
+          "block": "Title: Anthropic's Claude claims VP ≠ VNP over every field, formalized in Lean, unchecked by humans\nURL: https://github.com/anthropics/formal-math/tree/main/vp-vnp\nImage URL: https://hexagonmath.org/social-card/2611.00954v1\nSummary: Anthropic's formal-math repo claims VP ≠ VNP over every field: circuits for the Hamiltonian cycle polynomial, and the permanent outside characteristic 2, need more than m^(c (log m)^(1/3)) gates, so VP is a proper subset of VNP, though it does not settle P vs NP. Claude discovered it; the paper and Lean formalization are AI-written, with no human check yet.",
+          "sha256": "2d73e5ab3941466f9b2245c35172d50108c7ae553628a131e4d539ec0888cc49",
+          "source": "Anthropic",
+          "request_id": "muse-intake-20261123-vp-vnp",
           "mode": "standard"
         }
       ]
@@ -15721,6 +15734,23 @@
           "id": 536,
           "revision": 1,
           "sha256": "e53bfae5d15b7c38641025c435f298a5907239c40a27d9958e8aa5b4c02f0be7"
+        }
+      ]
+    },
+    "muse-intake-20261123-vp-vnp": {
+      "status": "finalized",
+      "received_at": "2026-11-24T00:03:34.907543+00:00",
+      "received_sequence": 486,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-24T00:03:35.172759+00:00",
+      "records": [
+        {
+          "id": 537,
+          "revision": 1,
+          "sha256": "2d73e5ab3941466f9b2245c35172d50108c7ae553628a131e4d539ec0888cc49"
         }
       ]
     }
@@ -57131,6 +57161,40 @@
         },
         "editorial_sha256": "a8e5867c172acd5676e2120f5504e7f9195d59dc02d3fc770c459ec8da63f8da"
       }
+    },
+    "muse-intake-20261123-vp-vnp-receive-5070": {
+      "sha256": "7803ca3a55bd9476f4e8ea1f8972769b8f731eec27c384dcd4a16823c81872f8",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261123-vp-vnp"
+      }
+    },
+    "muse-intake-20261123-vp-vnp-finalize-3928": {
+      "sha256": "47318630a9ac5feb235cd542c041e2f8174be1cf661c54ea579898b6514f5607",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261123-vp-vnp",
+        "records": [
+          {
+            "id": 537,
+            "revision": 1,
+            "sha256": "2d73e5ab3941466f9b2245c35172d50108c7ae553628a131e4d539ec0888cc49"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261123-vp-vnp-review-1078": {
+      "sha256": "a12461d9567cf65609f717dc1bc72910d379dfb739361131f9911faa3a8344b6",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 537,
+          "revision": 1,
+          "sha256": "2d73e5ab3941466f9b2245c35172d50108c7ae553628a131e4d539ec0888cc49"
+        },
+        "editorial_sha256": "5e873fa6fae85ede53a4d92045ad0b138ffda4fce3a4efbb048a8810610bfbe7"
+      }
     }
   },
   "migration": {
@@ -70577,6 +70641,26 @@
         "sha256": "a8e5867c172acd5676e2120f5504e7f9195d59dc02d3fc770c459ec8da63f8da",
         "reviewed_at": "2026-11-23T22:41:03.627323+00:00",
         "operation_id": "muse-intake-20261123-pzero-tasteval-review-6465"
+      }
+    ],
+    "537:1": [
+      {
+        "reference": {
+          "id": 537,
+          "revision": 1,
+          "sha256": "2d73e5ab3941466f9b2245c35172d50108c7ae553628a131e4d539ec0888cc49"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A claimed proof of Valiant's hypothesis in algebraic complexity: VP is a proper subset of VNP over every field, with a Lean 4 formalization. A research result for complexity theorists and formal-methods researchers, framed as an unverified AI-discovered claim, not a product or general news. muse-intake 2026-11-23: submitted by Diego via the anthropics/formal-math vp-vnp GitHub link; README read in full (Nov 23). Learn-more URL is the repo folder; github.com verified against live policy.json. Image is the paper's social card via hexagonmath.org (full-text mirror, read in full), verified live (PNG 1200x630). No independent verification exists yet: no human mathematician has checked the proof, per the README.",
+            "evidence_sha256": "2d73e5ab3941466f9b2245c35172d50108c7ae553628a131e4d539ec0888cc49"
+          }
+        },
+        "sha256": "5e873fa6fae85ede53a4d92045ad0b138ffda4fce3a4efbb048a8810610bfbe7",
+        "reviewed_at": "2026-11-24T00:03:35.465992+00:00",
+        "operation_id": "muse-intake-20261123-vp-vnp-review-1078"
       }
     ]
   }
