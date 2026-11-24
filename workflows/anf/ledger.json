@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1660,
-  "updated_at": "2026-11-24T13:39:59.263752+00:00",
-  "next_id": 538,
+  "generation": 1661,
+  "updated_at": "2026-11-24T13:59:36.220466+00:00",
+  "next_id": 539,
   "records": [
     {
       "id": 1,
@@ -7142,6 +7142,20 @@
           "source": "Anthropic",
           "request_id": "muse-intake-20261123-vp-vnp",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 538,
+      "revisions": [
+        {
+          "created_at": "2026-11-24T13:59:36.220466+00:00",
+          "block": "Title: AI researchers raise safety concerns about unreleased models\nURL: https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks\nImage URL: https://images.axios.com/Is5mjwzgpfkXm3bDNl_xy00WxtA%3D/0x0%3A1280x720/2026/11/23/1795461762036.gif?w=3840\nSummary: Axios reports that some employees at Anthropic and OpenAI believe their most capable unreleased models are not safe enough for public access. More than two dozen sources described internal debates over whether to limit future models to internal use or pause training. Neither company announced a halt to public releases.",
+          "sha256": "eb6efbd3ed576b13367540de3d9b89f096276105b82f03846be01359a76fff6a",
+          "source": "Axios",
+          "request_id": "094289aa9c6f604ffa6beaeb26fff32d790b9242b4b899e34b4fc3ccd9a20938",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -15755,14 +15769,22 @@
       ]
     },
     "094289aa9c6f604ffa6beaeb26fff32d790b9242b4b899e34b4fc3ccd9a20938": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-24T13:39:59.263752+00:00",
       "received_sequence": 487,
       "expected_items": 1,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "db36c1c21e3573f8f74152d4c9472475e36884b0b50a1ad6d13eb2f881752b8f"
+      "image_review_deferral_evidence_sha256": "db36c1c21e3573f8f74152d4c9472475e36884b0b50a1ad6d13eb2f881752b8f",
+      "finalized_at": "2026-11-24T13:59:36.220466+00:00",
+      "records": [
+        {
+          "id": 538,
+          "revision": 1,
+          "sha256": "eb6efbd3ed576b13367540de3d9b89f096276105b82f03846be01359a76fff6a"
+        }
+      ]
     }
   },
   "batches": {
@@ -57843,6 +57865,21 @@
       "result": {
         "status": "received",
         "request_id": "094289aa9c6f604ffa6beaeb26fff32d790b9242b4b899e34b4fc3ccd9a20938"
+      }
+    },
+    "503dd0c2ffc121967b59af2c5918cc0a8f07c5789f3dba0e91f1cab85ecaf056": {
+      "sha256": "937de7ee78d82c4361411a7e05f4fba51289af6d3db83d461b297e222190bbb2",
+      "result": {
+        "status": "finalized",
+        "request_id": "094289aa9c6f604ffa6beaeb26fff32d790b9242b4b899e34b4fc3ccd9a20938",
+        "records": [
+          {
+            "id": 538,
+            "revision": 1,
+            "sha256": "eb6efbd3ed576b13367540de3d9b89f096276105b82f03846be01359a76fff6a"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
