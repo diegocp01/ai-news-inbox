@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1686,
-  "updated_at": "2026-11-25T13:24:35.011375+00:00",
-  "next_id": 548,
+  "generation": 1689,
+  "updated_at": "2026-11-25T13:59:02.360476+00:00",
+  "next_id": 549,
   "records": [
     {
       "id": 1,
@@ -7276,6 +7276,19 @@
           "sha256": "0c1a59918e5a5af3ed38dedcefb3e33ce8b901ef193564266219247d909aca91",
           "source": "alphaXiv",
           "request_id": "muse-intake-20261125-matrix-multiplication-exponent",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 548,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T13:59:02.110218+00:00",
+          "block": "Title: Google's Cogentic agent posts six new math papers\nURL: https://aiparabellum.com/google-cogentic-ai-six-math-papers-factoring/\nImage URL: https://aiparabellum.com/wp-content/uploads/2026/11/google-cogentic-ai-six-math-papers-factoring.webp\nSummary: Google's Cogentic agent posted six math papers to a public GitHub folder, including a claimed proof that factoring takes L[1/3] time and a deterministic factoring method. The papers say no human helped beyond the first prompt, but none is peer reviewed and the promised Lean proofs are not public yet.",
+          "sha256": "5509463377b377f7ff396c9b3896668e987b38f7f231719c1f3320a8380ed8aa",
+          "source": "AI Parabellum",
+          "request_id": "muse-intake-20261125-cogentic-six-math-papers",
           "mode": "standard"
         }
       ]
@@ -16035,6 +16048,23 @@
           "id": 547,
           "revision": 1,
           "sha256": "0c1a59918e5a5af3ed38dedcefb3e33ce8b901ef193564266219247d909aca91"
+        }
+      ]
+    },
+    "muse-intake-20261125-cogentic-six-math-papers": {
+      "status": "finalized",
+      "received_at": "2026-11-25T13:59:01.835375+00:00",
+      "received_sequence": 495,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-25T13:59:02.110218+00:00",
+      "records": [
+        {
+          "id": 548,
+          "revision": 1,
+          "sha256": "5509463377b377f7ff396c9b3896668e987b38f7f231719c1f3320a8380ed8aa"
         }
       ]
     }
@@ -58675,6 +58705,40 @@
         },
         "editorial_sha256": "3263126342f257c8b082c7c0a0a497376acbb8157b5379f8afdc86431e4dd4ad"
       }
+    },
+    "muse-intake-20261125-cogentic-six-math-papers-receive-2904": {
+      "sha256": "e6f40e67a9109e68ff2501c625259763d04112c173d5b98aad2ab59c8bb3cbf3",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261125-cogentic-six-math-papers"
+      }
+    },
+    "muse-intake-20261125-cogentic-six-math-papers-finalize-2721": {
+      "sha256": "cd122733d4edd30c0fc08d98554656f06bfbca747446fc9990ddd859154a9dda",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261125-cogentic-six-math-papers",
+        "records": [
+          {
+            "id": 548,
+            "revision": 1,
+            "sha256": "5509463377b377f7ff396c9b3896668e987b38f7f231719c1f3320a8380ed8aa"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261125-cogentic-six-math-papers-review-9247": {
+      "sha256": "ddf8891935362ec78755bfa1426be7f336cb1b9ad731b507f48a2848abd247a3",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 548,
+          "revision": 1,
+          "sha256": "5509463377b377f7ff396c9b3896668e987b38f7f231719c1f3320a8380ed8aa"
+        },
+        "editorial_sha256": "ebb7cea7affa556d692a0f8ddd5840867bc8f8faa85b636697e910602a71af74"
+      }
     }
   },
   "migration": {
@@ -72281,6 +72345,26 @@
         "sha256": "3263126342f257c8b082c7c0a0a497376acbb8157b5379f8afdc86431e4dd4ad",
         "reviewed_at": "2026-11-25T13:24:35.011375+00:00",
         "operation_id": "muse-intake-20261125-matrix-multiplication-exponent-review-9200"
+      }
+    ],
+    "548:1": [
+      {
+        "reference": {
+          "id": 548,
+          "revision": 1,
+          "sha256": "5509463377b377f7ff396c9b3896668e987b38f7f231719c1f3320a8380ed8aa"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience news story: Google's AI agent posted six math papers, including a factoring claim, with none peer reviewed yet. A regular reader can follow the news and the caveat without the papers' own terms. muse-intake 2026-11-25: submitted by Diego via X link (@kimmonismus status 2125574747882704951, posted 2026-11-25 12:58 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Corroborated by AI Parabellum (read in full), the arXiv Cogentic harness paper (2609.40324), and the Google Research GitHub folder (read, 10 papers listed). The tweet's images are pbs.twimg.com, forbidden as an image, so the image is the article's hero graphic, verified live (WebP 1200x675) and visually inspected. The tweet overstates the log-rank and Harary claims; the summary follows the article's corrected framing.",
+            "evidence_sha256": "5509463377b377f7ff396c9b3896668e987b38f7f231719c1f3320a8380ed8aa"
+          }
+        },
+        "sha256": "ebb7cea7affa556d692a0f8ddd5840867bc8f8faa85b636697e910602a71af74",
+        "reviewed_at": "2026-11-25T13:59:02.360476+00:00",
+        "operation_id": "muse-intake-20261125-cogentic-six-math-papers-review-9247"
       }
     ]
   }
