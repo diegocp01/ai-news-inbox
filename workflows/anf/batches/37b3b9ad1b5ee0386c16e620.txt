@@ -1,0 +1,37 @@
+Title: AI researchers raise safety concerns about unreleased models
+URL: https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks
+Image URL: https://images.axios.com/Is5mjwzgpfkXm3bDNl_xy00WxtA%3D/0x0%3A1280x720/2026/11/23/1795461762036.gif?w=3840
+Summary: Axios reports that some employees at Anthropic and OpenAI believe their most capable unreleased models are not safe enough for public access. More than two dozen sources described internal debates over whether to limit future models to internal use or pause training. Neither company announced a halt to public releases.
+
+Title: OpenAI posts a claimed proof separating VP and VNP
+URL: https://github.com/openai/math/blob/main/preprints/VP-and-VNP-are-different-November-23-2026/paper.pdf
+Image URL: https://i0.wp.com/fourweekmba.com/wp-content/uploads/2026/11/chart_oai_vp_vnp_1124-1.png?ssl=1&w=1920
+Summary: OpenAI published a preprint from an internal model claiming that VP and VNP differ over every field. The result would show that some polynomials cannot be computed efficiently with arithmetic circuits. OpenAI’s Lean formalization covers exact circuits, not the paper’s stronger bound for border circuits. This does not resolve P versus NP.
+ds: true
+
+Title: Stryker CEO rules out building orthopedic robots in China
+URL: https://d33gy59ovltp76.cloudfront.net/news/stryker-ceo-kevin-lobo-says-robots-now-do-2-of-every-3-knee-replacements-and-he-wont-build-them-in-china-because-the-ip-is-a-massive-worry
+Image URL: https://fortune.com/img-assets/wp-content/uploads/2026/11/kevin-lobo-stryker-fortune-500-innovation-forum-2026.jpg?w=2048
+Summary: Fortune reports Stryker CEO Kevin Lobo says the company will keep building its surgery robots in the U.S., calling intellectual property in China 'a massive worry.' Lobo said Chinese firms are copying other surgical robots. Two of every three Stryker knee replacements now use its Mako system, used in 2.5 million procedures in 47 countries.
+
+Title: Claude artifacts now install as Mac and Windows apps
+URL: https://claude.com/resources/articles/install-as-app
+Image URL: https://assets.claude.com/1d558aa9dd6599dfad2f4ae46a5f7bcff085d8bb.png
+Summary: Anthropic says Claude artifacts can now install as desktop apps on Mac and Windows, in beta. Each app gets its own icon and window, can use Claude and your connectors, and updates when the artifact changes. Installed apps can send notifications or add a menu bar item, with permissions you control for each app.
+
+Title: Meta puts Muse in Instagram DMs to organize saves
+URL: https://www.engadget.com/2326663/meta-is-bringing-muse-to-instagram/
+Image URL: https://www.engadget.com/img/gallery/meta-is-bringing-muse-to-instagram/intro-1795537071.jpg
+Summary: Meta says Muse is now in Instagram DMs, so users can send it a message to turn saved posts into plans, like a trip. Saving a post will prompt Muse to sort it into collections, starting in the U.S. and Canada. DMs roll out in five countries, and chats also appear in the Muse app.
+
+Title: Sleep lets language models learn more from less context
+URL: https://www.alphaxiv.org/abs/2611.sample-efficient-in-context-adaptation-sleep
+Image URL: https://paper-assets.alphaxiv.org/paper-figures/01a20e2c-c346-7eec-9ccd-11213f8f4961/01a20e65-14b8-7629-ab4b-40e6dc454a2a.jpg
+Summary: Lee and colleagues report a 'sleep' step that helps language models adapt from context: after reading a chunk, the model replays it to refine its stored key-value cache before decoding resumes. A 1.2B model matched the no-sleep baseline on held-out code with 2.1 times fewer context tokens, though sleep costs roughly twice the training compute.
+ds: true
+
+
+
+
+
+.

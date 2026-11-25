@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1679,
-  "updated_at": "2026-11-25T13:03:47.117593+00:00",
+  "generation": 1680,
+  "updated_at": "2026-11-25T13:04:41.321107+00:00",
   "next_id": 547,
   "records": [
     {
@@ -27733,9 +27733,113 @@
       },
       "acknowledged_at": "2026-11-24T13:15:17.569372+00:00",
       "checkpoint_after": 537
+    },
+    "37b3b9ad1b5ee0386c16e620": {
+      "batch_id": "37b3b9ad1b5ee0386c16e620",
+      "status": "prepared",
+      "checkpoint_before": 537,
+      "prepared_at": "2026-11-25T13:04:41.321107+00:00",
+      "intake_cutoff": 493,
+      "records": [
+        {
+          "id": 538,
+          "revision": 1,
+          "sha256": "eb6efbd3ed576b13367540de3d9b89f096276105b82f03846be01359a76fff6a"
+        },
+        {
+          "id": 539,
+          "revision": 1,
+          "sha256": "519559e8419162fb2bca68121c319b268043cb3e51d3206168964f81e38143f6"
+        },
+        {
+          "id": 540,
+          "revision": 1,
+          "sha256": "db66ff75e7fa33d59d656e224c97a49e32767d0d7beaded63f25b1b1e61430ef"
+        },
+        {
+          "id": 541,
+          "revision": 1,
+          "sha256": "fbfca9659b41fc1459a06445970ebcd0bf0baec8b6253d1fcf0b4aae7510b450"
+        },
+        {
+          "id": 542,
+          "revision": 1,
+          "sha256": "298e4e75f9091cbc6657296ff3b1dfb8b02b33eb9aea9b255381a232c6400290"
+        },
+        {
+          "id": 543,
+          "revision": 1,
+          "sha256": "c53cc39a5398ff04e5193980fa4523e2be967a9ae6c2fe2577747f5f201995cc"
+        }
+      ],
+      "first_id": 538,
+      "last_id": 543,
+      "count": 6,
+      "txt_path": "workflows/anf/batches/37b3b9ad1b5ee0386c16e620.txt",
+      "json_path": "workflows/anf/batches/37b3b9ad1b5ee0386c16e620.json",
+      "txt_sha256": "d39691c9fa5c08f36b2106daa6066f8c3dc06ee37f87db4cfb4205ae39f3d81a",
+      "json_sha256": "f033bd85917a49ebeda1b13123d59b6100b50b5a1a4fabdfcad625129706bad9",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "The article reports internal release and safety debates for a general news audience, not a technical method or implementation.",
+            "evidence_sha256": "da822af63b0251d3f8783f1f3abf4cf18de4ac0546e9bb7f25b28be91273dd78"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The primary preprint presents a theorem and quantitative arithmetic circuit lower bound in algebraic complexity, with a companion Lean formalization.",
+            "evidence_sha256": "e4c3779023ab58d0aa20f54e8dcbc08b9ba91b5244bb4c0d792367cb338b902f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience business story: Stryker's CEO publicly rules out manufacturing surgical robots in China over IP worries, while robots now do two of every three Stryker knee replacements. No technical or developer terms; a regular reader can follow it. muse-intake 2026-11-24: submitted by Diego via Instagram reel link (fortunemag reel DgIHvFooznI, posted 2026-11-24 06:01 ET); caption read via instagram-cli and cross-checked against the Fortune article (inkl mirror, read in full). Learn-more URL is the inkl mirror reproducing the Fortune article verbatim; fortune.com is unreachable from Muse's tools (browser.open blocks the domain), so the mirror is used. Image is the Fortune hero photo of Lobo onstage (Rebecca Greenfield/Fortune), verified live (JPEG 2048x1365).",
+            "evidence_sha256": "db66ff75e7fa33d59d656e224c97a49e32767d0d7beaded63f25b1b1e61430ef"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience product story: Claude's artifacts can now become desktop apps on Mac and Windows, in beta on all plans. No developer terms; a regular reader can follow it. muse-intake 2026-11-24: submitted by Diego via X link (ClaudeDevs status 2125315491522650299, posted 2026-11-24 19:47 UTC); full text verified via the FxTwitter API mirror (syndication endpoint returned empty; x.com 403s). Cross-checked against the claude.com announcement (read in full) and 9to5Mac coverage. The tweet's video thumbnail is pbs.twimg.com, forbidden as an image, so the image is the claude.com article art, verified live (PNG 3840x2160).",
+            "evidence_sha256": "fbfca9659b41fc1459a06445970ebcd0bf0baec8b6253d1fcf0b4aae7510b450"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience product story: Meta's Muse assistant is now reachable in Instagram DMs and can turn saved posts into plans. No developer terms; a regular reader can follow it. muse-intake 2026-11-24: submitted by Diego via X link (Muse status 2125284171417637002, posted 2026-11-24 17:43 UTC); full text verified via the FxTwitter API mirror (syndication endpoint returned empty; x.com 403s). Cross-checked against Engadget coverage (read in full) and Superpower Daily / Unite.ai. The tweet's video thumbnail is pbs.twimg.com, forbidden as an image, so the image is the Engadget article hero, verified live (JPEG 780x438).",
+            "evidence_sha256": "298e4e75f9091cbc6657296ff3b1dfb8b02b33eb9aea9b255381a232c6400290"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A technical research paper for the data-science audience: it proposes a 'sleep' refinement step for Transformer KV caches and reports measured context-efficiency gains on code. The method and the numbers need the paper's own terms, so it is not general-audience. muse-intake 2026-11-24: submitted by Diego via alphaXiv link (pdf URL, published 2026-11-24). Paper read via the alphaXiv abstract page (read in full) and the live browser for the author list and abstract (alphaXiv Exclusive, no arXiv ID). The schematic image was verified live (JPEG 1615x769) and visually inspected; the loss chart (591x552) falls below the 600px minimum width and was not used.",
+            "evidence_sha256": "c53cc39a5398ff04e5193980fa4523e2be967a9ae6c2fe2577747f5f201995cc"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-25T13:00:00+00:00",
+      "deferred_request_ids": []
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "37b3b9ad1b5ee0386c16e620",
   "replacement_batch": null,
   "checkpoint": 537,
   "checkpoint_history": [
@@ -58316,6 +58420,117 @@
           }
         ],
         "duplicates": []
+      }
+    },
+    "muse-compile-20261125-1304-2794": {
+      "sha256": "6baea0f2831236fe717f553cf48c91da87ea4e227b3f7d90ed40d79c52c30f16",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "37b3b9ad1b5ee0386c16e620",
+          "status": "prepared",
+          "checkpoint_before": 537,
+          "prepared_at": "2026-11-25T13:04:41.321107+00:00",
+          "intake_cutoff": 493,
+          "records": [
+            {
+              "id": 538,
+              "revision": 1,
+              "sha256": "eb6efbd3ed576b13367540de3d9b89f096276105b82f03846be01359a76fff6a"
+            },
+            {
+              "id": 539,
+              "revision": 1,
+              "sha256": "519559e8419162fb2bca68121c319b268043cb3e51d3206168964f81e38143f6"
+            },
+            {
+              "id": 540,
+              "revision": 1,
+              "sha256": "db66ff75e7fa33d59d656e224c97a49e32767d0d7beaded63f25b1b1e61430ef"
+            },
+            {
+              "id": 541,
+              "revision": 1,
+              "sha256": "fbfca9659b41fc1459a06445970ebcd0bf0baec8b6253d1fcf0b4aae7510b450"
+            },
+            {
+              "id": 542,
+              "revision": 1,
+              "sha256": "298e4e75f9091cbc6657296ff3b1dfb8b02b33eb9aea9b255381a232c6400290"
+            },
+            {
+              "id": 543,
+              "revision": 1,
+              "sha256": "c53cc39a5398ff04e5193980fa4523e2be967a9ae6c2fe2577747f5f201995cc"
+            }
+          ],
+          "first_id": 538,
+          "last_id": 543,
+          "count": 6,
+          "txt_path": "workflows/anf/batches/37b3b9ad1b5ee0386c16e620.txt",
+          "json_path": "workflows/anf/batches/37b3b9ad1b5ee0386c16e620.json",
+          "txt_sha256": "d39691c9fa5c08f36b2106daa6066f8c3dc06ee37f87db4cfb4205ae39f3d81a",
+          "json_sha256": "f033bd85917a49ebeda1b13123d59b6100b50b5a1a4fabdfcad625129706bad9",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "The article reports internal release and safety debates for a general news audience, not a technical method or implementation.",
+                "evidence_sha256": "da822af63b0251d3f8783f1f3abf4cf18de4ac0546e9bb7f25b28be91273dd78"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The primary preprint presents a theorem and quantitative arithmetic circuit lower bound in algebraic complexity, with a companion Lean formalization.",
+                "evidence_sha256": "e4c3779023ab58d0aa20f54e8dcbc08b9ba91b5244bb4c0d792367cb338b902f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A general-audience business story: Stryker's CEO publicly rules out manufacturing surgical robots in China over IP worries, while robots now do two of every three Stryker knee replacements. No technical or developer terms; a regular reader can follow it. muse-intake 2026-11-24: submitted by Diego via Instagram reel link (fortunemag reel DgIHvFooznI, posted 2026-11-24 06:01 ET); caption read via instagram-cli and cross-checked against the Fortune article (inkl mirror, read in full). Learn-more URL is the inkl mirror reproducing the Fortune article verbatim; fortune.com is unreachable from Muse's tools (browser.open blocks the domain), so the mirror is used. Image is the Fortune hero photo of Lobo onstage (Rebecca Greenfield/Fortune), verified live (JPEG 2048x1365).",
+                "evidence_sha256": "db66ff75e7fa33d59d656e224c97a49e32767d0d7beaded63f25b1b1e61430ef"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A general-audience product story: Claude's artifacts can now become desktop apps on Mac and Windows, in beta on all plans. No developer terms; a regular reader can follow it. muse-intake 2026-11-24: submitted by Diego via X link (ClaudeDevs status 2125315491522650299, posted 2026-11-24 19:47 UTC); full text verified via the FxTwitter API mirror (syndication endpoint returned empty; x.com 403s). Cross-checked against the claude.com announcement (read in full) and 9to5Mac coverage. The tweet's video thumbnail is pbs.twimg.com, forbidden as an image, so the image is the claude.com article art, verified live (PNG 3840x2160).",
+                "evidence_sha256": "fbfca9659b41fc1459a06445970ebcd0bf0baec8b6253d1fcf0b4aae7510b450"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A general-audience product story: Meta's Muse assistant is now reachable in Instagram DMs and can turn saved posts into plans. No developer terms; a regular reader can follow it. muse-intake 2026-11-24: submitted by Diego via X link (Muse status 2125284171417637002, posted 2026-11-24 17:43 UTC); full text verified via the FxTwitter API mirror (syndication endpoint returned empty; x.com 403s). Cross-checked against Engadget coverage (read in full) and Superpower Daily / Unite.ai. The tweet's video thumbnail is pbs.twimg.com, forbidden as an image, so the image is the Engadget article hero, verified live (JPEG 780x438).",
+                "evidence_sha256": "298e4e75f9091cbc6657296ff3b1dfb8b02b33eb9aea9b255381a232c6400290"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "A technical research paper for the data-science audience: it proposes a 'sleep' refinement step for Transformer KV caches and reports measured context-efficiency gains on code. The method and the numbers need the paper's own terms, so it is not general-audience. muse-intake 2026-11-24: submitted by Diego via alphaXiv link (pdf URL, published 2026-11-24). Paper read via the alphaXiv abstract page (read in full) and the live browser for the author list and abstract (alphaXiv Exclusive, no arXiv ID). The schematic image was verified live (JPEG 1615x769) and visually inspected; the loss chart (591x552) falls below the 600px minimum width and was not used.",
+                "evidence_sha256": "c53cc39a5398ff04e5193980fa4523e2be967a9ae6c2fe2577747f5f201995cc"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-25T13:00:00+00:00",
+          "deferred_request_ids": []
+        }
       }
     }
   },
