@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1695,
-  "updated_at": "2026-11-25T16:02:45.098394+00:00",
-  "next_id": 551,
+  "generation": 1698,
+  "updated_at": "2026-11-25T16:06:04.155218+00:00",
+  "next_id": 552,
   "records": [
     {
       "id": 1,
@@ -7315,6 +7315,19 @@
           "sha256": "261c78794bd02f3099e97cae226cf84880cacda152be8fdd67ec7fbe00fa3a64",
           "source": "Playground",
           "request_id": "muse-intake-20261125-playground-robot-frontier",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 551,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T16:06:03.845627+00:00",
+          "block": "Title: Amazon and Meta in talks to lift Muse blockade\nURL: https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/\nImage URL: https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1024\nSummary: Fortune reports Amazon and Meta have held multiple rounds of talks about letting Meta's AI agent Muse connect directly to Amazon's store, ending a blockade in place since September. Two issues remain: how search results appear and how advertising works. Any deal would need both CEOs' approval.",
+          "sha256": "1df91193d4742adb4d682b1980cd2f0499586dc131b3f79910e5befb5e0d3054",
+          "source": "TechCrunch",
+          "request_id": "muse-intake-20261125-amazon-meta-muse-blockade",
           "mode": "standard"
         }
       ]
@@ -16125,6 +16138,23 @@
           "id": 550,
           "revision": 1,
           "sha256": "261c78794bd02f3099e97cae226cf84880cacda152be8fdd67ec7fbe00fa3a64"
+        }
+      ]
+    },
+    "muse-intake-20261125-amazon-meta-muse-blockade": {
+      "status": "finalized",
+      "received_at": "2026-11-25T16:06:03.494629+00:00",
+      "received_sequence": 498,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-25T16:06:03.845627+00:00",
+      "records": [
+        {
+          "id": 551,
+          "revision": 1,
+          "sha256": "1df91193d4742adb4d682b1980cd2f0499586dc131b3f79910e5befb5e0d3054"
         }
       ]
     }
@@ -58867,6 +58897,40 @@
         },
         "editorial_sha256": "081209fa036344d6ed32516325b3b9d6fb67320d49c11b225319ffbbb356b6c7"
       }
+    },
+    "muse-intake-20261125-amazon-meta-muse-blockade-receive-0368": {
+      "sha256": "c7e6147794dc3730de9c5486fcd43873ed0a1d3c4033c52b0199baa7fa571bdf",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261125-amazon-meta-muse-blockade"
+      }
+    },
+    "muse-intake-20261125-amazon-meta-muse-blockade-finalize-6684": {
+      "sha256": "2965bae412767ba805adc0d77b9d3a79e44eb766be1e32bdd9974f916d5cb01f",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261125-amazon-meta-muse-blockade",
+        "records": [
+          {
+            "id": 551,
+            "revision": 1,
+            "sha256": "1df91193d4742adb4d682b1980cd2f0499586dc131b3f79910e5befb5e0d3054"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261125-amazon-meta-muse-blockade-review-6419": {
+      "sha256": "646e48906a0a1b1a37a4ea103b7e5300ccbdec941274a7e402a9561d993fb89c",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 551,
+          "revision": 1,
+          "sha256": "1df91193d4742adb4d682b1980cd2f0499586dc131b3f79910e5befb5e0d3054"
+        },
+        "editorial_sha256": "90f901f50e580fdae57b8317cd3bc52e96e9d0a1f1ff863c94f03ef9f2ba76d3"
+      }
     }
   },
   "migration": {
@@ -72533,6 +72597,26 @@
         "sha256": "081209fa036344d6ed32516325b3b9d6fb67320d49c11b225319ffbbb356b6c7",
         "reviewed_at": "2026-11-25T16:02:45.098394+00:00",
         "operation_id": "muse-intake-20261125-playground-robot-frontier-review-4853"
+      }
+    ],
+    "551:1": [
+      {
+        "reference": {
+          "id": 551,
+          "revision": 1,
+          "sha256": "1df91193d4742adb4d682b1980cd2f0499586dc131b3f79910e5befb5e0d3054"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience business story: two companies are talking about ending a blockade on an AI shopping agent. A regular reader can follow the talks and the two open issues without any technical terms. muse-intake 2026-11-25: submitted by Diego via X link (@techcrunch status 2125593622368125118, posted 2026-11-25 14:13 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Story verified against the TechCrunch article (read in full, posted 6:10 AM PST Nov 25, 2026, Lauren Forristal), which cites Fortune's reporting (people familiar). Single-source 'reportedly' story, so the summary attributes to Fortune. Image is the article's hero (Meta Muse mascot), verified live (WebP 1024x537) and visually inspected; a plain curl 403s, full browser headers required.",
+            "evidence_sha256": "1df91193d4742adb4d682b1980cd2f0499586dc131b3f79910e5befb5e0d3054"
+          }
+        },
+        "sha256": "90f901f50e580fdae57b8317cd3bc52e96e9d0a1f1ff863c94f03ef9f2ba76d3",
+        "reviewed_at": "2026-11-25T16:06:04.155218+00:00",
+        "operation_id": "muse-intake-20261125-amazon-meta-muse-blockade-review-6419"
       }
     ]
   }
