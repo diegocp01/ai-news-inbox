@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1710,
-  "updated_at": "2026-11-25T16:55:25.652612+00:00",
-  "next_id": 556,
+  "generation": 1713,
+  "updated_at": "2026-11-25T17:33:16.742401+00:00",
+  "next_id": 557,
   "records": [
     {
       "id": 1,
@@ -7380,6 +7380,19 @@
           "sha256": "b09efcddabb937b80ebb97e2eed471b3e0202034f3bb11e52e1cb43498eda5db",
           "source": "New York Governor's Office",
           "request_id": "muse-intake-20261125-ny-ai-chatbot-toys-ban",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 556,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T17:33:16.488494+00:00",
+          "block": "Title: FCC authorizes SpaceX's million satellites for space data centers\nURL: https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/\nImage URL: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Starlink_12-12_Mission_Launches_from_CCSFS_%288829108%29.jpg/1280px-Starlink_12-12_Mission_Launches_from_CCSFS_%288829108%29.jpg\nSummary: The FCC has authorized SpaceX to deploy up to one million satellites for its Starmind constellation, the first US approval for data centers in space. The satellites would process data in orbit to meet growing AI computing demand. SpaceX must launch one satellite by 2033 and reach one million by 2040.",
+          "sha256": "929a0f8880b2b42b9c72211a28aaa23eb4527829ac816aa6ee00665f1f7514dd",
+          "source": "Reuters",
+          "request_id": "muse-intake-20261125-fcc-spacex-starmind-million-satellites",
           "mode": "standard"
         }
       ]
@@ -16275,6 +16288,23 @@
           "id": 555,
           "revision": 1,
           "sha256": "b09efcddabb937b80ebb97e2eed471b3e0202034f3bb11e52e1cb43498eda5db"
+        }
+      ]
+    },
+    "muse-intake-20261125-fcc-spacex-starmind-million-satellites": {
+      "status": "finalized",
+      "received_at": "2026-11-25T17:33:16.204344+00:00",
+      "received_sequence": 503,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-25T17:33:16.488494+00:00",
+      "records": [
+        {
+          "id": 556,
+          "revision": 1,
+          "sha256": "929a0f8880b2b42b9c72211a28aaa23eb4527829ac816aa6ee00665f1f7514dd"
         }
       ]
     }
@@ -59187,6 +59217,40 @@
         },
         "editorial_sha256": "d17f4b1f4b38dfefcd1be53e6e4a7c03e5d5ba5565faac9d409df75612dfa161"
       }
+    },
+    "muse-intake-20261125-fcc-spacex-starmind-receive-0077": {
+      "sha256": "30a9c72d00a0c4aac45f6636ac9675d6c7a95eb480e62bba2f45b3c69bf7f65f",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261125-fcc-spacex-starmind-million-satellites"
+      }
+    },
+    "muse-intake-20261125-fcc-spacex-starmind-finalize-4018": {
+      "sha256": "182c3580598283ea67085d4870a2a307320477ce6cccac7cef8658f2b903f773",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261125-fcc-spacex-starmind-million-satellites",
+        "records": [
+          {
+            "id": 556,
+            "revision": 1,
+            "sha256": "929a0f8880b2b42b9c72211a28aaa23eb4527829ac816aa6ee00665f1f7514dd"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261125-fcc-spacex-starmind-review-0253": {
+      "sha256": "599b6d4266753426f53916731a16db6fda25e8fb2b8397452bf6756e90f866d6",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 556,
+          "revision": 1,
+          "sha256": "929a0f8880b2b42b9c72211a28aaa23eb4527829ac816aa6ee00665f1f7514dd"
+        },
+        "editorial_sha256": "0802fdfe226eded6877face065d467fc4f953a5d11b1ed598a0007a6b1374743"
+      }
     }
   },
   "migration": {
@@ -72953,6 +73017,26 @@
         "sha256": "d17f4b1f4b38dfefcd1be53e6e4a7c03e5d5ba5565faac9d409df75612dfa161",
         "reviewed_at": "2026-11-25T16:55:25.652612+00:00",
         "operation_id": "muse-intake-20261125-ny-ai-chatbot-toys-ban-review-8225"
+      }
+    ],
+    "556:1": [
+      {
+        "reference": {
+          "id": 556,
+          "revision": 1,
+          "sha256": "929a0f8880b2b42b9c72211a28aaa23eb4527829ac816aa6ee00665f1f7514dd"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A regulatory approval and space story: the FCC authorizing a million-satellite constellation for orbital data centers, what it is for and the deployment deadlines. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via X link (@Polymarket status 2125635058753057236, posted 2026-11-25 16:57 UTC); tweet text verified via api.fxtwitter.com. Story verified against Reuters (read) and the FCC press release (Nov 25, 2026), corroborated by RBR and Tesla North. Record URL is the Reuters article (the title search's first articles were the January Starlink approval and the February application acceptance, not this approval). Image is a Wikimedia Commons photo of a Falcon 9 Starlink launch, verified live (JPEG 1280x853) and visually inspected; the Reuters page blocks curl so its hero could not be fetched.",
+            "evidence_sha256": "929a0f8880b2b42b9c72211a28aaa23eb4527829ac816aa6ee00665f1f7514dd"
+          }
+        },
+        "sha256": "0802fdfe226eded6877face065d467fc4f953a5d11b1ed598a0007a6b1374743",
+        "reviewed_at": "2026-11-25T17:33:16.742401+00:00",
+        "operation_id": "muse-intake-20261125-fcc-spacex-starmind-review-0253"
       }
     ]
   }
