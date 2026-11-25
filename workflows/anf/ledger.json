@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1692,
-  "updated_at": "2026-11-25T15:45:44.131409+00:00",
-  "next_id": 550,
+  "generation": 1695,
+  "updated_at": "2026-11-25T16:02:45.098394+00:00",
+  "next_id": 551,
   "records": [
     {
       "id": 1,
@@ -7302,6 +7302,19 @@
           "sha256": "3c726924e223a44426b271ca7c838b887b50d5c2fef2ce2ab541cf7ea539687b",
           "source": "Generative History",
           "request_id": "muse-intake-20261125-gpt62-astra-sketchbook",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 550,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T16:02:44.685197+00:00",
+          "block": "Title: GPT-6.2 Astra sits five times above robot benchmark trend\nURL: \nImage URL: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/MA-3_Robotic_Manipulator_Arm-IMG_6022.JPG/1280px-MA-3_Robotic_Manipulator_Arm-IMG_6022.JPG\nSummary: Playground's Robot Intelligence Index shows GPT-6.2 Astra beating the 2024 leader pi0 at odds of about 100 to 1, far above the two-year trend. The firm says robot benchmarks are saturating about ten times faster than last year, and the top models remain slow and costly on real tasks.",
+          "sha256": "261c78794bd02f3099e97cae226cf84880cacda152be8fdd67ec7fbe00fa3a64",
+          "source": "Playground",
+          "request_id": "muse-intake-20261125-playground-robot-frontier",
           "mode": "standard"
         }
       ]
@@ -16095,6 +16108,23 @@
           "id": 549,
           "revision": 1,
           "sha256": "3c726924e223a44426b271ca7c838b887b50d5c2fef2ce2ab541cf7ea539687b"
+        }
+      ]
+    },
+    "muse-intake-20261125-playground-robot-frontier": {
+      "status": "finalized",
+      "received_at": "2026-11-25T16:02:44.305519+00:00",
+      "received_sequence": 497,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-25T16:02:44.685197+00:00",
+      "records": [
+        {
+          "id": 550,
+          "revision": 1,
+          "sha256": "261c78794bd02f3099e97cae226cf84880cacda152be8fdd67ec7fbe00fa3a64"
         }
       ]
     }
@@ -58803,6 +58833,40 @@
         },
         "editorial_sha256": "023a357e6d2db470ca7cd32142dc64a49986b078c5a732f3099a9177c16911fa"
       }
+    },
+    "muse-intake-20261125-playground-robot-frontier-receive-3081": {
+      "sha256": "0b2109595578405e0ee971a42a1c40d71a4ae7a398f8dfb877886f8cfc1c0cca",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261125-playground-robot-frontier"
+      }
+    },
+    "muse-intake-20261125-playground-robot-frontier-finalize-1067": {
+      "sha256": "2eb1620d942c3c8363b3cfb63d7eac0428d739e5b89cacc31821c9ff96ed71db",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261125-playground-robot-frontier",
+        "records": [
+          {
+            "id": 550,
+            "revision": 1,
+            "sha256": "261c78794bd02f3099e97cae226cf84880cacda152be8fdd67ec7fbe00fa3a64"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261125-playground-robot-frontier-review-4853": {
+      "sha256": "9d33b52ff515032ad2289a2fd725445e2fdd53159e38ac01f3b964b77dcfe027",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 550,
+          "revision": 1,
+          "sha256": "261c78794bd02f3099e97cae226cf84880cacda152be8fdd67ec7fbe00fa3a64"
+        },
+        "editorial_sha256": "081209fa036344d6ed32516325b3b9d6fb67320d49c11b225319ffbbb356b6c7"
+      }
     }
   },
   "migration": {
@@ -72449,6 +72513,26 @@
         "sha256": "023a357e6d2db470ca7cd32142dc64a49986b078c5a732f3099a9177c16911fa",
         "reviewed_at": "2026-11-25T15:45:44.131409+00:00",
         "operation_id": "muse-intake-20261125-gpt62-astra-sketchbook-review-2259"
+      }
+    ],
+    "550:1": [
+      {
+        "reference": {
+          "id": 550,
+          "revision": 1,
+          "sha256": "261c78794bd02f3099e97cae226cf84880cacda152be8fdd67ec7fbe00fa3a64"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience benchmark story: robot capabilities are accelerating past their trend, with GPT-6.2 Astra far above it. A regular reader can follow the trend and the caveat without the index's own terms. muse-intake 2026-11-25: submitted by Diego via X link (@withplayground status 2125085282139508903, posted 2026-11-24 04:33 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Story verified against the primary source, Playground's research post 'The Robot Frontier Is Accelerating' (read in full, published 2026-11-23), corroborated by the XDOF Ember-0 results (41.2% vs 19.6%) and the chart's Threads reposts. URL is EMPTY per Diego's rule: the Playground post is a .ai domain, forbidden by the engine, and no independent article covers the report. The image is a Wikimedia Commons robot-hand photo, verified live (JPEG 1280x853) and visually inspected; the post's own chart is .ai-hosted and forbidden.",
+            "evidence_sha256": "261c78794bd02f3099e97cae226cf84880cacda152be8fdd67ec7fbe00fa3a64"
+          }
+        },
+        "sha256": "081209fa036344d6ed32516325b3b9d6fb67320d49c11b225319ffbbb356b6c7",
+        "reviewed_at": "2026-11-25T16:02:45.098394+00:00",
+        "operation_id": "muse-intake-20261125-playground-robot-frontier-review-4853"
       }
     ]
   }
