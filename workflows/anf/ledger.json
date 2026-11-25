@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1713,
-  "updated_at": "2026-11-25T17:33:16.742401+00:00",
-  "next_id": 557,
+  "generation": 1716,
+  "updated_at": "2026-11-25T17:35:51.869954+00:00",
+  "next_id": 558,
   "records": [
     {
       "id": 1,
@@ -7393,6 +7393,19 @@
           "sha256": "929a0f8880b2b42b9c72211a28aaa23eb4527829ac816aa6ee00665f1f7514dd",
           "source": "Reuters",
           "request_id": "muse-intake-20261125-fcc-spacex-starmind-million-satellites",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 557,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T17:35:51.617426+00:00",
+          "block": "Title: Writing skill and CS achievement predict vibe coding\nURL: https://arxiv.org/abs/2603.14133\nImage URL: https://arxiv.org/html/2603.14133v1/img/teaser.png\nSummary: A study of 100 university students found that writing skill and computer-science achievement both predict how well someone does at vibe coding, programming by describing what they want in natural language. CS achievement still predicted performance after accounting for general cognitive skills. The findings could shape how tools and courses teach prompting.",
+          "sha256": "a36be1ed5db07913da99b44c1f77eec257fba4c952fde3448dac787f62680d4e",
+          "source": "arXiv",
+          "request_id": "muse-intake-20261125-vibe-coding-writing-cs-skills",
           "mode": "standard"
         }
       ]
@@ -16305,6 +16318,23 @@
           "id": 556,
           "revision": 1,
           "sha256": "929a0f8880b2b42b9c72211a28aaa23eb4527829ac816aa6ee00665f1f7514dd"
+        }
+      ]
+    },
+    "muse-intake-20261125-vibe-coding-writing-cs-skills": {
+      "status": "finalized",
+      "received_at": "2026-11-25T17:35:51.355966+00:00",
+      "received_sequence": 504,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-25T17:35:51.617426+00:00",
+      "records": [
+        {
+          "id": 557,
+          "revision": 1,
+          "sha256": "a36be1ed5db07913da99b44c1f77eec257fba4c952fde3448dac787f62680d4e"
         }
       ]
     }
@@ -59251,6 +59281,40 @@
         },
         "editorial_sha256": "0802fdfe226eded6877face065d467fc4f953a5d11b1ed598a0007a6b1374743"
       }
+    },
+    "muse-intake-20261125-vibe-coding-receive-0914": {
+      "sha256": "88c81ea0af8d6e1c60c2d9c537fc1d5121ee26fcb826e87efe37809881c4a53e",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261125-vibe-coding-writing-cs-skills"
+      }
+    },
+    "muse-intake-20261125-vibe-coding-finalize-1468": {
+      "sha256": "43b54a6950c157fffbe67fa8101cb8e1fd6f0a0351109a1024435ae8ea8223c5",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261125-vibe-coding-writing-cs-skills",
+        "records": [
+          {
+            "id": 557,
+            "revision": 1,
+            "sha256": "a36be1ed5db07913da99b44c1f77eec257fba4c952fde3448dac787f62680d4e"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261125-vibe-coding-review-5746": {
+      "sha256": "1c95c2021f1a9e8a8f42314a4a9e9982ffbf6431d0bd73a624595246a6823c41",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 557,
+          "revision": 1,
+          "sha256": "a36be1ed5db07913da99b44c1f77eec257fba4c952fde3448dac787f62680d4e"
+        },
+        "editorial_sha256": "e31c73d4359cb8c5dba33c32e318e33498e49f7b5f355c596d10ad8d818b2a12"
+      }
     }
   },
   "migration": {
@@ -73037,6 +73101,26 @@
         "sha256": "0802fdfe226eded6877face065d467fc4f953a5d11b1ed598a0007a6b1374743",
         "reviewed_at": "2026-11-25T17:33:16.742401+00:00",
         "operation_id": "muse-intake-20261125-fcc-spacex-starmind-review-0253"
+      }
+    ],
+    "557:1": [
+      {
+        "reference": {
+          "id": 557,
+          "revision": 1,
+          "sha256": "a36be1ed5db07913da99b44c1f77eec257fba4c952fde3448dac787f62680d4e"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A research paper: a preregistered study with 100 students, correlations and regression results on what predicts vibe-coding performance. The findings and the statistics behind them are the kind of research detail the technical audience covers. muse-intake 2026-11-25: submitted by Diego via arXiv PDF link (arXiv:2603.14133); paper read via the arXiv abstract and the alphaXiv overview (read in full). Preregistered cross-sectional study, N = 100 tertiary students, authors Thorgeirsson, Weidmann, Su, submitted Mar 14, 2026. Image is the paper's teaser figure from the arXiv HTML version, verified live (PNG 3216x1118) and visually inspected.",
+            "evidence_sha256": "a36be1ed5db07913da99b44c1f77eec257fba4c952fde3448dac787f62680d4e"
+          }
+        },
+        "sha256": "e31c73d4359cb8c5dba33c32e318e33498e49f7b5f355c596d10ad8d818b2a12",
+        "reviewed_at": "2026-11-25T17:35:51.869954+00:00",
+        "operation_id": "muse-intake-20261125-vibe-coding-review-5746"
       }
     ]
   }
