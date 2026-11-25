@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1689,
-  "updated_at": "2026-11-25T13:59:02.360476+00:00",
-  "next_id": 549,
+  "generation": 1692,
+  "updated_at": "2026-11-25T15:45:44.131409+00:00",
+  "next_id": 550,
   "records": [
     {
       "id": 1,
@@ -7289,6 +7289,19 @@
           "sha256": "5509463377b377f7ff396c9b3896668e987b38f7f231719c1f3320a8380ed8aa",
           "source": "AI Parabellum",
           "request_id": "muse-intake-20261125-cogentic-six-math-papers",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 549,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T15:45:43.825050+00:00",
+          "block": "Title: GPT-6.2 Astra identifies the artist of an 1808 sketchbook\nURL: https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical\nImage URL: https://substack-post-media.s3.amazonaws.com/public/images/3308b848-1190-43ea-a105-f7b2878a688a_2000x1208.jpeg\nSummary: Historian Mark Humphries gave GPT-6.2 Astra images of an anonymous 1808 sketchbook held at Yale, and the model named French aristocrat Louis de Rohan-Chabot as the artist in 22 minutes. Humphries ordered Chabot's travel journal, and its entry for 18 June 1808 reads 'I took a sketch.'",
+          "sha256": "3c726924e223a44426b271ca7c838b887b50d5c2fef2ce2ab541cf7ea539687b",
+          "source": "Generative History",
+          "request_id": "muse-intake-20261125-gpt62-astra-sketchbook",
           "mode": "standard"
         }
       ]
@@ -16065,6 +16078,23 @@
           "id": 548,
           "revision": 1,
           "sha256": "5509463377b377f7ff396c9b3896668e987b38f7f231719c1f3320a8380ed8aa"
+        }
+      ]
+    },
+    "muse-intake-20261125-gpt62-astra-sketchbook": {
+      "status": "finalized",
+      "received_at": "2026-11-25T15:45:43.492780+00:00",
+      "received_sequence": 496,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-25T15:45:43.825050+00:00",
+      "records": [
+        {
+          "id": 549,
+          "revision": 1,
+          "sha256": "3c726924e223a44426b271ca7c838b887b50d5c2fef2ce2ab541cf7ea539687b"
         }
       ]
     }
@@ -58739,6 +58769,40 @@
         },
         "editorial_sha256": "ebb7cea7affa556d692a0f8ddd5840867bc8f8faa85b636697e910602a71af74"
       }
+    },
+    "muse-intake-20261125-gpt62-astra-sketchbook-receive-2939": {
+      "sha256": "6bdd26bec18c64ad7bb006c98ca03046a784d123f842742d55fe73118432a87d",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261125-gpt62-astra-sketchbook"
+      }
+    },
+    "muse-intake-20261125-gpt62-astra-sketchbook-finalize-5329": {
+      "sha256": "9383012673d286bf3c3515e86f226ff2282e9058914c0d1f7322d0968cf5b997",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261125-gpt62-astra-sketchbook",
+        "records": [
+          {
+            "id": 549,
+            "revision": 1,
+            "sha256": "3c726924e223a44426b271ca7c838b887b50d5c2fef2ce2ab541cf7ea539687b"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261125-gpt62-astra-sketchbook-review-2259": {
+      "sha256": "71b75155112d19c4f9df7427b7b8799dd2c724616cfee0cec843add757caa56a",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 549,
+          "revision": 1,
+          "sha256": "3c726924e223a44426b271ca7c838b887b50d5c2fef2ce2ab541cf7ea539687b"
+        },
+        "editorial_sha256": "023a357e6d2db470ca7cd32142dc64a49986b078c5a732f3099a9177c16911fa"
+      }
     }
   },
   "migration": {
@@ -72365,6 +72429,26 @@
         "sha256": "ebb7cea7affa556d692a0f8ddd5840867bc8f8faa85b636697e910602a71af74",
         "reviewed_at": "2026-11-25T13:59:02.360476+00:00",
         "operation_id": "muse-intake-20261125-cogentic-six-math-papers-review-9247"
+      }
+    ],
+    "549:1": [
+      {
+        "reference": {
+          "id": 549,
+          "revision": 1,
+          "sha256": "3c726924e223a44426b271ca7c838b887b50d5c2fef2ce2ab541cf7ea539687b"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience story about AI doing historical research: a historian, a mystery sketchbook, and a diary entry that settles it. A regular reader can follow it without the model's own terms. muse-intake 2026-11-25: submitted by Diego via X link (@polymarket status 2125368149877166475, posted 2026-11-24 23:17 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Story verified against the primary source, Mark Humphries' Substack post 'GPT 6.2 Astra Solves a Historical Mystery' (read in full, published 2026-11-24T10:01:24Z), corroborated by The Neuron, Forklog, and Simon Willison's linkblog. The post's hero image is an AI-generated illustration, so the image is the journal entry instead: Chabot's 18 June 1808 diary pages, verified live (JPEG 2000x1208) and visually inspected.",
+            "evidence_sha256": "3c726924e223a44426b271ca7c838b887b50d5c2fef2ce2ab541cf7ea539687b"
+          }
+        },
+        "sha256": "023a357e6d2db470ca7cd32142dc64a49986b078c5a732f3099a9177c16911fa",
+        "reviewed_at": "2026-11-25T15:45:44.131409+00:00",
+        "operation_id": "muse-intake-20261125-gpt62-astra-sketchbook-review-2259"
       }
     ]
   }
