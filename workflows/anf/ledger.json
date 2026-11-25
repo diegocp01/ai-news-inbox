@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1704,
-  "updated_at": "2026-11-25T16:33:38.203566+00:00",
-  "next_id": 554,
+  "generation": 1707,
+  "updated_at": "2026-11-25T16:43:18.443176+00:00",
+  "next_id": 555,
   "records": [
     {
       "id": 1,
@@ -7354,6 +7354,19 @@
           "sha256": "273d31ed693900ac7174715091b108832e8b038d6c549c13b4f59a563d433f02",
           "source": "DailyFoxNews",
           "request_id": "muse-intake-20261125-mcdonalds-archy-drive-thru",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 554,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T16:43:18.191430+00:00",
+          "block": "Title: PrismML releases Ternary Bonsai 2.5 for agentic coding\nURL: https://prismml.com/news/bonsai-2-5-27b\nImage URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/11/PrismML.png?resize=1200,628\nSummary: PrismML has released Ternary Bonsai 2.5 27B, an upgrade to its Ternary Bonsai 2 coding model based on Qwen3.8 27B. The company says it scores 73.9 on tau3-bench and 75.6 on SWE-Bench-Verified, the strongest of its memory footprint for agentic work. It fits in 5.9 GB and is available under Apache 2.0.",
+          "sha256": "6aadd91b16341db313fe4f5e07d3f41883b20b0a8e04e9b527fd0c4ab9da4e03",
+          "source": "PrismML",
+          "request_id": "muse-intake-20261125-prismml-ternary-bonsai-2-5",
           "mode": "standard"
         }
       ]
@@ -16215,6 +16228,23 @@
           "id": 553,
           "revision": 1,
           "sha256": "273d31ed693900ac7174715091b108832e8b038d6c549c13b4f59a563d433f02"
+        }
+      ]
+    },
+    "muse-intake-20261125-prismml-ternary-bonsai-2-5": {
+      "status": "finalized",
+      "received_at": "2026-11-25T16:43:17.942134+00:00",
+      "received_sequence": 501,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-25T16:43:18.191430+00:00",
+      "records": [
+        {
+          "id": 554,
+          "revision": 1,
+          "sha256": "6aadd91b16341db313fe4f5e07d3f41883b20b0a8e04e9b527fd0c4ab9da4e03"
         }
       ]
     }
@@ -59059,6 +59089,40 @@
         },
         "editorial_sha256": "46515b43868b801175a372b76f80bccbd70f9291e13944863f4cc178d8517bc8"
       }
+    },
+    "muse-intake-20261125-prismml-ternary-bonsai-2-5-receive-8244": {
+      "sha256": "b9f89619d8830c744c2886ca84aafe85346bca7658a57fb1ff14fd5aeed89d5a",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261125-prismml-ternary-bonsai-2-5"
+      }
+    },
+    "muse-intake-20261125-prismml-ternary-bonsai-2-5-finalize-1305": {
+      "sha256": "171898d6221db867d489bdbb45883f75ee7de452121c826419dc1391444b2b08",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261125-prismml-ternary-bonsai-2-5",
+        "records": [
+          {
+            "id": 554,
+            "revision": 1,
+            "sha256": "6aadd91b16341db313fe4f5e07d3f41883b20b0a8e04e9b527fd0c4ab9da4e03"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261125-prismml-ternary-bonsai-2-5-review-7222": {
+      "sha256": "5cc5503e73cc99c5c9a3ea320cd9570a380c0a6d4c188a279fc15aca5a5b8b7d",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 554,
+          "revision": 1,
+          "sha256": "6aadd91b16341db313fe4f5e07d3f41883b20b0a8e04e9b527fd0c4ab9da4e03"
+        },
+        "editorial_sha256": "0799cd9629b6a6418240353ea69a6011b7890aeff82a2b047cc70a9890293067"
+      }
     }
   },
   "migration": {
@@ -72785,6 +72849,26 @@
         "sha256": "46515b43868b801175a372b76f80bccbd70f9291e13944863f4cc178d8517bc8",
         "reviewed_at": "2026-11-25T16:33:38.203566+00:00",
         "operation_id": "muse-intake-20261125-mcdonalds-archy-drive-thru-review-6581"
+      }
+    ],
+    "554:1": [
+      {
+        "reference": {
+          "id": 554,
+          "revision": 1,
+          "sha256": "6aadd91b16341db313fe4f5e07d3f41883b20b0a8e04e9b527fd0c4ab9da4e03"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A model release announcement with benchmark scores, written for a general reader: what the model is, what the company says it scores, how small it is and how it is licensed. No research-paper depth and no technical terms a regular reader cannot follow. muse-intake 2026-11-25: submitted by Diego via X link (@prismml status 2125310762390552588, posted 2026-11-24 19:29 UTC); tweet text verified via api.fxtwitter.com. Story verified against PrismML's own announcement page (read in full, published Nov 24, 2026), corroborated by the PR Newswire release and 9to5mac. Record URL is the company's announcement (the title search's first articles were forbidden social posts and earlier Bonsai 2 coverage). Image is the 9to5mac article hero (announcement title card), verified live (WebP 1200x628) and visually inspected; the tweet's photo is pbs.twimg.com (forbidden) and the announcement page has no usable image.",
+            "evidence_sha256": "6aadd91b16341db313fe4f5e07d3f41883b20b0a8e04e9b527fd0c4ab9da4e03"
+          }
+        },
+        "sha256": "0799cd9629b6a6418240353ea69a6011b7890aeff82a2b047cc70a9890293067",
+        "reviewed_at": "2026-11-25T16:43:18.443176+00:00",
+        "operation_id": "muse-intake-20261125-prismml-ternary-bonsai-2-5-review-7222"
       }
     ]
   }
