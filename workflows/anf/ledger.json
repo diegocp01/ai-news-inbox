@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1674,
-  "updated_at": "2026-11-24T20:52:56.024280+00:00",
-  "next_id": 543,
+  "generation": 1677,
+  "updated_at": "2026-11-25T01:35:35.686301+00:00",
+  "next_id": 544,
   "records": [
     {
       "id": 1,
@@ -7208,6 +7208,19 @@
           "sha256": "298e4e75f9091cbc6657296ff3b1dfb8b02b33eb9aea9b255381a232c6400290",
           "source": "Engadget",
           "request_id": "muse-intake-20261124-muse-instagram-dms",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 543,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T01:35:35.447971+00:00",
+          "block": "Title: Sleep lets language models learn more from less context\nURL: https://www.alphaxiv.org/abs/2611.sample-efficient-in-context-adaptation-sleep\nImage URL: https://paper-assets.alphaxiv.org/paper-figures/01a20e2c-c346-7eec-9ccd-11213f8f4961/01a20e65-14b8-7629-ab4b-40e6dc454a2a.jpg\nSummary: Lee and colleagues report a 'sleep' step that helps language models adapt from context: after reading a chunk, the model replays it to refine its stored key-value cache before decoding resumes. A 1.2B model matched the no-sleep baseline on held-out code with 2.1 times fewer context tokens, though sleep costs roughly twice the training compute.",
+          "sha256": "c53cc39a5398ff04e5193980fa4523e2be967a9ae6c2fe2577747f5f201995cc",
+          "source": "alphaXiv",
+          "request_id": "muse-intake-20261124-sleep-in-context-adaptation",
           "mode": "standard"
         }
       ]
@@ -15905,6 +15918,23 @@
           "id": 542,
           "revision": 1,
           "sha256": "298e4e75f9091cbc6657296ff3b1dfb8b02b33eb9aea9b255381a232c6400290"
+        }
+      ]
+    },
+    "muse-intake-20261124-sleep-in-context-adaptation": {
+      "status": "finalized",
+      "received_at": "2026-11-25T01:35:35.198917+00:00",
+      "received_sequence": 492,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-25T01:35:35.447971+00:00",
+      "records": [
+        {
+          "id": 543,
+          "revision": 1,
+          "sha256": "c53cc39a5398ff04e5193980fa4523e2be967a9ae6c2fe2577747f5f201995cc"
         }
       ]
     }
@@ -58151,6 +58181,40 @@
         },
         "editorial_sha256": "08ee2b5756393437acb488ddb00a690397b569fd1b86694d13dfa90cefdd9035"
       }
+    },
+    "muse-intake-20261124-sleep-in-context-adaptation-receive-4184": {
+      "sha256": "30ee4cbd1da84be09da6e57ab4536ea746e4a9a3741e5223d8d4042633a715db",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261124-sleep-in-context-adaptation"
+      }
+    },
+    "muse-intake-20261124-sleep-in-context-adaptation-finalize-6174": {
+      "sha256": "ee2cefafeac49683af5cb660d50434d051bd10a8676bc6b12b86ad853d2daf8a",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261124-sleep-in-context-adaptation",
+        "records": [
+          {
+            "id": 543,
+            "revision": 1,
+            "sha256": "c53cc39a5398ff04e5193980fa4523e2be967a9ae6c2fe2577747f5f201995cc"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261124-sleep-in-context-adaptation-review-7422": {
+      "sha256": "ccd4e396beac119312b5be76166a08b03625d25d212a7f59f3c8ec1f8b51444e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 543,
+          "revision": 1,
+          "sha256": "c53cc39a5398ff04e5193980fa4523e2be967a9ae6c2fe2577747f5f201995cc"
+        },
+        "editorial_sha256": "e6de716e2d82da15f2e61ae09b36a131e4784ec8bff3ee73133659bcdfaacdb4"
+      }
     }
   },
   "migration": {
@@ -71717,6 +71781,26 @@
         "sha256": "08ee2b5756393437acb488ddb00a690397b569fd1b86694d13dfa90cefdd9035",
         "reviewed_at": "2026-11-24T20:52:56.024280+00:00",
         "operation_id": "muse-intake-20261124-muse-instagram-dms-review-4046"
+      }
+    ],
+    "543:1": [
+      {
+        "reference": {
+          "id": 543,
+          "revision": 1,
+          "sha256": "c53cc39a5398ff04e5193980fa4523e2be967a9ae6c2fe2577747f5f201995cc"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A technical research paper for the data-science audience: it proposes a 'sleep' refinement step for Transformer KV caches and reports measured context-efficiency gains on code. The method and the numbers need the paper's own terms, so it is not general-audience. muse-intake 2026-11-24: submitted by Diego via alphaXiv link (pdf URL, published 2026-11-24). Paper read via the alphaXiv abstract page (read in full) and the live browser for the author list and abstract (alphaXiv Exclusive, no arXiv ID). The schematic image was verified live (JPEG 1615x769) and visually inspected; the loss chart (591x552) falls below the 600px minimum width and was not used.",
+            "evidence_sha256": "c53cc39a5398ff04e5193980fa4523e2be967a9ae6c2fe2577747f5f201995cc"
+          }
+        },
+        "sha256": "e6de716e2d82da15f2e61ae09b36a131e4784ec8bff3ee73133659bcdfaacdb4",
+        "reviewed_at": "2026-11-25T01:35:35.686301+00:00",
+        "operation_id": "muse-intake-20261124-sleep-in-context-adaptation-review-7422"
       }
     ]
   }
