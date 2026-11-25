@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1707,
-  "updated_at": "2026-11-25T16:43:18.443176+00:00",
-  "next_id": 555,
+  "generation": 1710,
+  "updated_at": "2026-11-25T16:55:25.652612+00:00",
+  "next_id": 556,
   "records": [
     {
       "id": 1,
@@ -7367,6 +7367,19 @@
           "sha256": "6aadd91b16341db313fe4f5e07d3f41883b20b0a8e04e9b527fd0c4ab9da4e03",
           "source": "PrismML",
           "request_id": "muse-intake-20261125-prismml-ternary-bonsai-2-5",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 555,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T16:55:25.409118+00:00",
+          "block": "Title: New York bans AI chatbot toys for five years\nURL: https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot\nImage URL: https://live.staticflickr.com/65535/55672076365_413e3c9852_z.jpg\nSummary: Governor Kathy Hochul has signed a five-year ban on AI chatbot toys in New York, covering talking dolls, stuffed animals and robots that converse with children. The ban follows watchdog tests in which toys discussed sexually explicit topics and pointed children to dangerous items at home. It takes effect in 90 days, with fines up to $15,000 a day.",
+          "sha256": "b09efcddabb937b80ebb97e2eed471b3e0202034f3bb11e52e1cb43498eda5db",
+          "source": "New York Governor's Office",
+          "request_id": "muse-intake-20261125-ny-ai-chatbot-toys-ban",
           "mode": "standard"
         }
       ]
@@ -16245,6 +16258,23 @@
           "id": 554,
           "revision": 1,
           "sha256": "6aadd91b16341db313fe4f5e07d3f41883b20b0a8e04e9b527fd0c4ab9da4e03"
+        }
+      ]
+    },
+    "muse-intake-20261125-ny-ai-chatbot-toys-ban": {
+      "status": "finalized",
+      "received_at": "2026-11-25T16:55:25.160390+00:00",
+      "received_sequence": 502,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-25T16:55:25.409118+00:00",
+      "records": [
+        {
+          "id": 555,
+          "revision": 1,
+          "sha256": "b09efcddabb937b80ebb97e2eed471b3e0202034f3bb11e52e1cb43498eda5db"
         }
       ]
     }
@@ -59123,6 +59153,40 @@
         },
         "editorial_sha256": "0799cd9629b6a6418240353ea69a6011b7890aeff82a2b047cc70a9890293067"
       }
+    },
+    "muse-intake-20261125-ny-ai-chatbot-toys-ban-receive-7516": {
+      "sha256": "9568ba43ed07b51ba06aa5c26f9cb5f663a8a9648f118afcaca04b3003dc8353",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261125-ny-ai-chatbot-toys-ban"
+      }
+    },
+    "muse-intake-20261125-ny-ai-chatbot-toys-ban-finalize-5199": {
+      "sha256": "65566c4b5e487ca8e02c5e59d5cf4b5dc3b562d3c95a271e7094074201717cb7",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261125-ny-ai-chatbot-toys-ban",
+        "records": [
+          {
+            "id": 555,
+            "revision": 1,
+            "sha256": "b09efcddabb937b80ebb97e2eed471b3e0202034f3bb11e52e1cb43498eda5db"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261125-ny-ai-chatbot-toys-ban-review-8225": {
+      "sha256": "4ba7ab3fa5ab6c9922b05847878001afa4d33defa502ed15d0e79c80d986910b",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 555,
+          "revision": 1,
+          "sha256": "b09efcddabb937b80ebb97e2eed471b3e0202034f3bb11e52e1cb43498eda5db"
+        },
+        "editorial_sha256": "d17f4b1f4b38dfefcd1be53e6e4a7c03e5d5ba5565faac9d409df75612dfa161"
+      }
     }
   },
   "migration": {
@@ -72869,6 +72933,26 @@
         "sha256": "0799cd9629b6a6418240353ea69a6011b7890aeff82a2b047cc70a9890293067",
         "reviewed_at": "2026-11-25T16:43:18.443176+00:00",
         "operation_id": "muse-intake-20261125-prismml-ternary-bonsai-2-5-review-7222"
+      }
+    ],
+    "555:1": [
+      {
+        "reference": {
+          "id": 555,
+          "revision": 1,
+          "sha256": "b09efcddabb937b80ebb97e2eed471b3e0202034f3bb11e52e1cb43498eda5db"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A consumer-protection law story: a governor signing a five-year ban on AI toys for kids, why it happened and when it takes effect. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via Facebook share link (Hashem Al-Ghaili / ScienceNaturePage post, Nov 25 09:00 EST, citing NBC News Nov 24); post read via facebook-cli. Story verified against the Governor's press release (read in full), corroborated by Notebookcheck, lohud, the bill text (S.9408A/A.11144B) and MLQ.ai. Record URL is the Governor's announcement (the title search's first article was an aggregator). Image is the release's photo of Hochul at the signing event, verified live (JPEG 640x427) and visually inspected.",
+            "evidence_sha256": "b09efcddabb937b80ebb97e2eed471b3e0202034f3bb11e52e1cb43498eda5db"
+          }
+        },
+        "sha256": "d17f4b1f4b38dfefcd1be53e6e4a7c03e5d5ba5565faac9d409df75612dfa161",
+        "reviewed_at": "2026-11-25T16:55:25.652612+00:00",
+        "operation_id": "muse-intake-20261125-ny-ai-chatbot-toys-ban-review-8225"
       }
     ]
   }
