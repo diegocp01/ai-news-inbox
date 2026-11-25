@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1721,
-  "updated_at": "2026-11-25T23:25:23.731907+00:00",
+  "generation": 1722,
+  "updated_at": "2026-11-25T23:25:24.612236+00:00",
   "next_id": 560,
   "records": [
     {
@@ -59431,6 +59431,18 @@
         ],
         "duplicates": []
       }
+    },
+    "d558fbade21bdbb189cc8e1f05eb1fd03f10019d19be57517317b45252009ee1": {
+      "sha256": "53a9453b39fdc4242779f27b187e4113d4a725f1a64e08926e95f4945d0e64f9",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 559,
+          "revision": 1,
+          "sha256": "0206b58702bcafa9b0ff44b70f41befed12996afac5802bf00cd4b636ebc39af"
+        },
+        "editorial_sha256": "90dee4d5d7367274a0d3d98562cbf27b25f7913ec5339f92ae1c8ea50008c5b3"
+      }
     }
   },
   "migration": {
@@ -73257,6 +73269,26 @@
         "sha256": "14f1cc0ff894830c723bee4a13efbfdc6e980d0ca553b3c74c1f064ef66d221c",
         "reviewed_at": "2026-11-25T20:29:43.528481+00:00",
         "operation_id": "muse-intake-20261125-gemini-api-cli-review-0471"
+      }
+    ],
+    "559:1": [
+      {
+        "reference": {
+          "id": 559,
+          "revision": 1,
+          "sha256": "0206b58702bcafa9b0ff44b70f41befed12996afac5802bf00cd4b636ebc39af"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "The item is about Anthropic migrating its Messages API from Python to Rust and reports CPU-per-request and time-to-first-token figures, which are developer/API and ML-technical terms.",
+            "evidence_sha256": "4307f9daba34fb828a00ead1d29dae3885abf45679b5b80d0585e943701e3a87"
+          }
+        },
+        "sha256": "90dee4d5d7367274a0d3d98562cbf27b25f7913ec5339f92ae1c8ea50008c5b3",
+        "reviewed_at": "2026-11-25T23:25:24.612236+00:00",
+        "operation_id": "d558fbade21bdbb189cc8e1f05eb1fd03f10019d19be57517317b45252009ee1"
       }
     ]
   }
