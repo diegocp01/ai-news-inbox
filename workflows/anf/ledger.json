@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1683,
-  "updated_at": "2026-11-25T13:21:45.266887+00:00",
-  "next_id": 547,
+  "generation": 1686,
+  "updated_at": "2026-11-25T13:24:35.011375+00:00",
+  "next_id": 548,
   "records": [
     {
       "id": 1,
@@ -7264,6 +7264,19 @@
           "request_id": "74de482c1dd1a59d570bb10ae5c52e8b8617fcfebcf26c15c749e2768798e10d",
           "mode": "image_url_only",
           "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 547,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T13:24:34.756821+00:00",
+          "block": "Title: OpenAI claims the matrix multiplication exponent is exactly 2.25\nURL: https://www.alphaxiv.org/abs/2611.matrix-multiplication-exponent-lower-bound\nImage URL: https://paper-assets.alphaxiv.org/paper-figures/01a210a6-b607-7089-9c9c-75f805393369/01a210a8-0f2b-7b02-b360-eb5ca8ef87b9.jpg\nSummary: OpenAI reports a proof that the matrix multiplication exponent is exactly 2.25, matching its October algorithm with a lower bound that rules out any faster exponent. The claim covers formal arithmetic circuits over every field, with no promise of faster real-world multiplication. The paper is unverified, and its Lean formalization covers only division-free circuits.",
+          "sha256": "0c1a59918e5a5af3ed38dedcefb3e33ce8b901ef193564266219247d909aca91",
+          "source": "alphaXiv",
+          "request_id": "muse-intake-20261125-matrix-multiplication-exponent",
+          "mode": "standard"
         }
       ]
     }
@@ -16005,6 +16018,23 @@
           "id": 546,
           "revision": 1,
           "sha256": "f77e88ae67bc0cd7c0d5e5ac5f378d823bfb66b7e79417f7e92ad341d3e9d9a9"
+        }
+      ]
+    },
+    "muse-intake-20261125-matrix-multiplication-exponent": {
+      "status": "finalized",
+      "received_at": "2026-11-25T13:24:34.485871+00:00",
+      "received_sequence": 494,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-25T13:24:34.756821+00:00",
+      "records": [
+        {
+          "id": 547,
+          "revision": 1,
+          "sha256": "0c1a59918e5a5af3ed38dedcefb3e33ce8b901ef193564266219247d909aca91"
         }
       ]
     }
@@ -58611,6 +58641,40 @@
           "planned_from_head": "ffb4bd42adc40c2388cd736faac5deae2d63c0a6"
         }
       }
+    },
+    "muse-intake-20261125-matrix-multiplication-exponent-receive-2621": {
+      "sha256": "42be2df104912a9d1b5b9849f573ce521b2c6b283eb75bc0f5ca3a3e50ad359c",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261125-matrix-multiplication-exponent"
+      }
+    },
+    "muse-intake-20261125-matrix-multiplication-exponent-finalize-3100": {
+      "sha256": "8921125c83ae193224592baf72eeada93b502756ff3da9b56a78a19d0ddc8cfc",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261125-matrix-multiplication-exponent",
+        "records": [
+          {
+            "id": 547,
+            "revision": 1,
+            "sha256": "0c1a59918e5a5af3ed38dedcefb3e33ce8b901ef193564266219247d909aca91"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261125-matrix-multiplication-exponent-review-9200": {
+      "sha256": "86fd120a65947c71bf32e866ade9ec3d4bccb711a64624bc4cbf6ff6c0c690d1",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 547,
+          "revision": 1,
+          "sha256": "0c1a59918e5a5af3ed38dedcefb3e33ce8b901ef193564266219247d909aca91"
+        },
+        "editorial_sha256": "3263126342f257c8b082c7c0a0a497376acbb8157b5379f8afdc86431e4dd4ad"
+      }
     }
   },
   "migration": {
@@ -72197,6 +72261,26 @@
         "sha256": "e6de716e2d82da15f2e61ae09b36a131e4784ec8bff3ee73133659bcdfaacdb4",
         "reviewed_at": "2026-11-25T01:35:35.686301+00:00",
         "operation_id": "muse-intake-20261124-sleep-in-context-adaptation-review-7422"
+      }
+    ],
+    "547:1": [
+      {
+        "reference": {
+          "id": 547,
+          "revision": 1,
+          "sha256": "0c1a59918e5a5af3ed38dedcefb3e33ce8b901ef193564266219247d909aca91"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A technical research paper for the data-science audience: it claims a lower bound pinning the matrix multiplication exponent at 9/4, with the model, the caveats and the formalization limits needing the paper's own terms, so it is not general-audience. muse-intake 2026-11-25: submitted by Diego via X link (@askalphaxiv status 2125424907228209258, posted 2026-11-25 03:02 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Paper read via the alphaXiv abstract page (read in full). The tweet's image is pbs.twimg.com, forbidden as an image, so the image is the paper's proof-roadmap figure, verified live (JPEG 965x460) and visually inspected; the triangle figure (368x237) falls below the 600px minimum width and was not used.",
+            "evidence_sha256": "0c1a59918e5a5af3ed38dedcefb3e33ce8b901ef193564266219247d909aca91"
+          }
+        },
+        "sha256": "3263126342f257c8b082c7c0a0a497376acbb8157b5379f8afdc86431e4dd4ad",
+        "reviewed_at": "2026-11-25T13:24:35.011375+00:00",
+        "operation_id": "muse-intake-20261125-matrix-multiplication-exponent-review-9200"
       }
     ]
   }
