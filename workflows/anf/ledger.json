@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1678,
-  "updated_at": "2026-11-25T12:52:59.656057+00:00",
-  "next_id": 544,
+  "generation": 1679,
+  "updated_at": "2026-11-25T13:03:47.117593+00:00",
+  "next_id": 547,
   "records": [
     {
       "id": 1,
@@ -7222,6 +7222,48 @@
           "source": "alphaXiv",
           "request_id": "muse-intake-20261124-sleep-in-context-adaptation",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 544,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T13:03:47.117593+00:00",
+          "block": "Title: Epochal Launches Time Portal to Test AI Forecasts\nURL: https://epochal.com/blog/introducing-epochal\nImage URL: https://news.sulat.com/wp-content/uploads/2026/11/hero-epochal-time-portal-xai-cofounders-launch.jpg\nSummary: Epochal, whose team includes three members of xAI’s founding team, has launched Time Portal, its first product. The company says it lets AI agents browse archived web pages from a chosen past moment to test forecasts using information available then. Its documentation cautions that models can still recall later facts learned during training.",
+          "sha256": "10d542e6032f827f9f90b903ecea4623d5a209b3088f8e9c8008c9c21194890f",
+          "source": "epochal.com",
+          "request_id": "74de482c1dd1a59d570bb10ae5c52e8b8617fcfebcf26c15c749e2768798e10d",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 545,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T13:03:47.117593+00:00",
+          "block": "Title: Axios Reports Staff Concerns About Unreleased OpenAI and Anthropic Models\nURL: https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks\nImage URL: https://9to5google.com/wp-content/uploads/sites/4/2026/09/claude-chatgpt-1.jpg?quality=82&strip=all&resize=1200,628\nSummary: Axios reports, citing more than two dozen sources, that employees at OpenAI and Anthropic question whether unreleased models can be safely released. Anthropic said keeping models internal does not ensure safety and that it may slow or withhold releases. OpenAI said it has adopted new safety requirements that could slow the pace of model releases.",
+          "sha256": "f0983af9b643cfedbe6c930f9aa71bdba4b6424e3ce267c756ddf9ab703ab388",
+          "source": "axios.com",
+          "request_id": "74de482c1dd1a59d570bb10ae5c52e8b8617fcfebcf26c15c749e2768798e10d",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 546,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T13:03:47.117593+00:00",
+          "block": "Title: Tidal to Ban Fully AI-Generated Recordings\nURL: https://support.tidal.com/hc/en-us/articles/48031883413521-AI-Policy\nImage URL: https://www.musicbusinessworldwide.com/files/2026/11/Screenshot-2026-11-24-at-15.43.42.jpg\nSummary: Tidal will begin rejecting and removing fully AI-generated recordings on December 9, 2026. Music made with AI assistance will still be allowed. The company says 43% of tracks delivered to its platform over the past 90 days were identified as wholly AI-generated, using detection technology from its partner Ircam Amplify.",
+          "sha256": "f77e88ae67bc0cd7c0d5e5ac5f378d823bfb66b7e79417f7e92ad341d3e9d9a9",
+          "source": "support.tidal.com",
+          "request_id": "74de482c1dd1a59d570bb10ae5c52e8b8617fcfebcf26c15c749e2768798e10d",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -15939,14 +15981,32 @@
       ]
     },
     "74de482c1dd1a59d570bb10ae5c52e8b8617fcfebcf26c15c749e2768798e10d": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-25T12:52:59.656057+00:00",
       "received_sequence": 493,
       "expected_items": 3,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-25T13:03:47.117593+00:00",
+      "records": [
+        {
+          "id": 544,
+          "revision": 1,
+          "sha256": "10d542e6032f827f9f90b903ecea4623d5a209b3088f8e9c8008c9c21194890f"
+        },
+        {
+          "id": 545,
+          "revision": 1,
+          "sha256": "f0983af9b643cfedbe6c930f9aa71bdba4b6424e3ce267c756ddf9ab703ab388"
+        },
+        {
+          "id": 546,
+          "revision": 1,
+          "sha256": "f77e88ae67bc0cd7c0d5e5ac5f378d823bfb66b7e79417f7e92ad341d3e9d9a9"
+        }
+      ]
     }
   },
   "batches": {
@@ -58231,6 +58291,31 @@
       "result": {
         "status": "received",
         "request_id": "74de482c1dd1a59d570bb10ae5c52e8b8617fcfebcf26c15c749e2768798e10d"
+      }
+    },
+    "b24262af04d7cb53025cf7edbc360da3dbd45c7830807d9a0177ae26e2e82b08": {
+      "sha256": "81b5ccd539d17b75327ceb3fb7a9f2966a41cee8ecb9cb1e26d1a45f6f34869a",
+      "result": {
+        "status": "finalized",
+        "request_id": "74de482c1dd1a59d570bb10ae5c52e8b8617fcfebcf26c15c749e2768798e10d",
+        "records": [
+          {
+            "id": 544,
+            "revision": 1,
+            "sha256": "10d542e6032f827f9f90b903ecea4623d5a209b3088f8e9c8008c9c21194890f"
+          },
+          {
+            "id": 545,
+            "revision": 1,
+            "sha256": "f0983af9b643cfedbe6c930f9aa71bdba4b6424e3ce267c756ddf9ab703ab388"
+          },
+          {
+            "id": 546,
+            "revision": 1,
+            "sha256": "f77e88ae67bc0cd7c0d5e5ac5f378d823bfb66b7e79417f7e92ad341d3e9d9a9"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
