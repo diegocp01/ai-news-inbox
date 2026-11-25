@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1698,
-  "updated_at": "2026-11-25T16:06:04.155218+00:00",
-  "next_id": 552,
+  "generation": 1701,
+  "updated_at": "2026-11-25T16:19:56.492215+00:00",
+  "next_id": 553,
   "records": [
     {
       "id": 1,
@@ -7328,6 +7328,19 @@
           "sha256": "1df91193d4742adb4d682b1980cd2f0499586dc131b3f79910e5befb5e0d3054",
           "source": "TechCrunch",
           "request_id": "muse-intake-20261125-amazon-meta-muse-blockade",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 552,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T16:19:56.163035+00:00",
+          "block": "Title: Google files patent for AI TV channel starring you\nURL: https://gizmodo.com/google-wants-to-make-ai-tv-shows-starring-you-2000844299\nImage URL: https://gizmodo.com/app/uploads/2026/11/google-patent-filing-1200x675.jpg\nSummary: Google filed a patent application for My Channel, a TV feature that would generate AI videos starring the viewer, built from their photos, voice, watch history and profile, with ads stitched in before each video. Patentlyze reports a patent examiner has already rejected the application, and Google has announced no plans to build it.",
+          "sha256": "e1f1bd3ea1cb28279a0257417ca9edf82a808c63326089ca33909b42ec2af675",
+          "source": "Gizmodo",
+          "request_id": "muse-intake-20261125-google-my-channel-patent",
           "mode": "standard"
         }
       ]
@@ -16155,6 +16168,23 @@
           "id": 551,
           "revision": 1,
           "sha256": "1df91193d4742adb4d682b1980cd2f0499586dc131b3f79910e5befb5e0d3054"
+        }
+      ]
+    },
+    "muse-intake-20261125-google-my-channel-patent": {
+      "status": "finalized",
+      "received_at": "2026-11-25T16:19:55.772006+00:00",
+      "received_sequence": 499,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-25T16:19:56.163035+00:00",
+      "records": [
+        {
+          "id": 552,
+          "revision": 1,
+          "sha256": "e1f1bd3ea1cb28279a0257417ca9edf82a808c63326089ca33909b42ec2af675"
         }
       ]
     }
@@ -58931,6 +58961,40 @@
         },
         "editorial_sha256": "90f901f50e580fdae57b8317cd3bc52e96e9d0a1f1ff863c94f03ef9f2ba76d3"
       }
+    },
+    "muse-intake-20261125-google-my-channel-patent-receive-8479": {
+      "sha256": "199c0c53a23f08f82f6f72e5256aa3eb5b4ad8d542373645bc682dfe5ce64832",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261125-google-my-channel-patent"
+      }
+    },
+    "muse-intake-20261125-google-my-channel-patent-finalize-4854": {
+      "sha256": "2f13e60146eedb641a687a71d7ef33e551175a10ea267027a1b96af438e4ef2f",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261125-google-my-channel-patent",
+        "records": [
+          {
+            "id": 552,
+            "revision": 1,
+            "sha256": "e1f1bd3ea1cb28279a0257417ca9edf82a808c63326089ca33909b42ec2af675"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261125-google-my-channel-patent-review-5119": {
+      "sha256": "bb290bebd3c93675ccfb3a33c5ecef99f0cbed3fe3aa585c1e420e0023877d20",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 552,
+          "revision": 1,
+          "sha256": "e1f1bd3ea1cb28279a0257417ca9edf82a808c63326089ca33909b42ec2af675"
+        },
+        "editorial_sha256": "25b21253690fd21eac627f93111ce449e493b2f3a7bd3c4e1132813fb69060a9"
+      }
     }
   },
   "migration": {
@@ -72617,6 +72681,26 @@
         "sha256": "90f901f50e580fdae57b8317cd3bc52e96e9d0a1f1ff863c94f03ef9f2ba76d3",
         "reviewed_at": "2026-11-25T16:06:04.155218+00:00",
         "operation_id": "muse-intake-20261125-amazon-meta-muse-blockade-review-6419"
+      }
+    ],
+    "552:1": [
+      {
+        "reference": {
+          "id": 552,
+          "revision": 1,
+          "sha256": "e1f1bd3ea1cb28279a0257417ca9edf82a808c63326089ca33909b42ec2af675"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience patent story: a TV feature that would star the viewer in AI-generated shows, with ads and an already rejected application. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via Instagram link (@theartificialintelligence post DgKNWcwjUgZ, posted 2026-11-25 01:28 UTC); caption verified via instagram-cli. Story verified against the Gizmodo article (read in full, published Nov 24, 2026) and the Digital Trends article (read in full); first reported by Patentlyze and 404 Media. Record URL is the first article from Googling the ANF title, per Diego's Nov 25 rule. Image is the Gizmodo hero (patent drawing), verified live (WebP 1200x675) and visually inspected.",
+            "evidence_sha256": "e1f1bd3ea1cb28279a0257417ca9edf82a808c63326089ca33909b42ec2af675"
+          }
+        },
+        "sha256": "25b21253690fd21eac627f93111ce449e493b2f3a7bd3c4e1132813fb69060a9",
+        "reviewed_at": "2026-11-25T16:19:56.492215+00:00",
+        "operation_id": "muse-intake-20261125-google-my-channel-patent-review-5119"
       }
     ]
   }
