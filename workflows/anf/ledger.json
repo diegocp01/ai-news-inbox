@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1701,
-  "updated_at": "2026-11-25T16:19:56.492215+00:00",
-  "next_id": 553,
+  "generation": 1704,
+  "updated_at": "2026-11-25T16:33:38.203566+00:00",
+  "next_id": 554,
   "records": [
     {
       "id": 1,
@@ -7341,6 +7341,19 @@
           "sha256": "e1f1bd3ea1cb28279a0257417ca9edf82a808c63326089ca33909b42ec2af675",
           "source": "Gizmodo",
           "request_id": "muse-intake-20261125-google-my-channel-patent",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 553,
+      "revisions": [
+        {
+          "created_at": "2026-11-25T16:33:37.961657+00:00",
+          "block": "Title: McDonald's bets on Archy AI drive-thrus to revive formula\nURL: https://dailyfoxnews.com/news/19835/mcdonald-s-plots-radical-overhaul-of-its-restaurants-and-drive-thrus-as\nImage URL: https://www.dailyfoxnews.com/media/2026/11/fe8d6f2b4be2496b2093.jpg\nSummary: Bloomberg reports McDonald's is betting on AI drive-thru ordering, hand-breaded chicken and open kitchens to revive its restaurants and fend off rivals like Raising Cane's. Its Archy system takes drive-thru orders at about 90 percent accuracy. Franchisees face an $800,000 bill per restaurant for the overhaul.",
+          "sha256": "273d31ed693900ac7174715091b108832e8b038d6c549c13b4f59a563d433f02",
+          "source": "DailyFoxNews",
+          "request_id": "muse-intake-20261125-mcdonalds-archy-drive-thru",
           "mode": "standard"
         }
       ]
@@ -16185,6 +16198,23 @@
           "id": 552,
           "revision": 1,
           "sha256": "e1f1bd3ea1cb28279a0257417ca9edf82a808c63326089ca33909b42ec2af675"
+        }
+      ]
+    },
+    "muse-intake-20261125-mcdonalds-archy-drive-thru": {
+      "status": "finalized",
+      "received_at": "2026-11-25T16:33:37.711483+00:00",
+      "received_sequence": 500,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-25T16:33:37.961657+00:00",
+      "records": [
+        {
+          "id": 553,
+          "revision": 1,
+          "sha256": "273d31ed693900ac7174715091b108832e8b038d6c549c13b4f59a563d433f02"
         }
       ]
     }
@@ -58995,6 +59025,40 @@
         },
         "editorial_sha256": "25b21253690fd21eac627f93111ce449e493b2f3a7bd3c4e1132813fb69060a9"
       }
+    },
+    "muse-intake-20261125-mcdonalds-archy-drive-thru-receive-1641": {
+      "sha256": "de48dcbf9ab5180b99824493ce1922107ca5032797c9850ac8be63afc8973fb4",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261125-mcdonalds-archy-drive-thru"
+      }
+    },
+    "muse-intake-20261125-mcdonalds-archy-drive-thru-finalize-7336": {
+      "sha256": "a7e93349a0ba986dae34fa9f3c0e389bbd78e4073b68f5fc5b143e296e1a5457",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261125-mcdonalds-archy-drive-thru",
+        "records": [
+          {
+            "id": 553,
+            "revision": 1,
+            "sha256": "273d31ed693900ac7174715091b108832e8b038d6c549c13b4f59a563d433f02"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261125-mcdonalds-archy-drive-thru-review-6581": {
+      "sha256": "f0b142d38fb9e6b1d27920b4de75b791aff106b65023c7407f8498c6dce49faa",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 553,
+          "revision": 1,
+          "sha256": "273d31ed693900ac7174715091b108832e8b038d6c549c13b4f59a563d433f02"
+        },
+        "editorial_sha256": "46515b43868b801175a372b76f80bccbd70f9291e13944863f4cc178d8517bc8"
+      }
     }
   },
   "migration": {
@@ -72701,6 +72765,26 @@
         "sha256": "25b21253690fd21eac627f93111ce449e493b2f3a7bd3c4e1132813fb69060a9",
         "reviewed_at": "2026-11-25T16:19:56.492215+00:00",
         "operation_id": "muse-intake-20261125-google-my-channel-patent-review-5119"
+      }
+    ],
+    "553:1": [
+      {
+        "reference": {
+          "id": 553,
+          "revision": 1,
+          "sha256": "273d31ed693900ac7174715091b108832e8b038d6c549c13b4f59a563d433f02"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience business story: a fast-food chain betting on an AI order-taker, new chicken and open kitchens, with franchisees facing a large bill. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via Instagram reel link (@bloombergbusiness reel DgIkbB2ziWC, posted 2026-11-24 12:30 UTC); caption verified via instagram-cli. Story verified against the DailyFoxNews article (read in full, published Nov 24, 2026), which reports Bloomberg's story, corroborated by QSR Web (Nov 25) and Restaurant Dive (Nov 5). Record URL is the same-story article per Diego's settled rule (title searches returned earlier-angle pieces, not this report). Image is the article's hero (redesigned restaurant), verified live (JPEG 1200x675) and visually inspected.",
+            "evidence_sha256": "273d31ed693900ac7174715091b108832e8b038d6c549c13b4f59a563d433f02"
+          }
+        },
+        "sha256": "46515b43868b801175a372b76f80bccbd70f9291e13944863f4cc178d8517bc8",
+        "reviewed_at": "2026-11-25T16:33:38.203566+00:00",
+        "operation_id": "muse-intake-20261125-mcdonalds-archy-drive-thru-review-6581"
       }
     ]
   }
