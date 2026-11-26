@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1734,
-  "updated_at": "2026-11-26T13:21:09.940605+00:00",
-  "next_id": 562,
+  "generation": 1737,
+  "updated_at": "2026-11-26T13:29:56.843774+00:00",
+  "next_id": 563,
   "records": [
     {
       "id": 1,
@@ -7458,6 +7458,19 @@
           "sha256": "6230bd43ce70e391002d10a47f4c38efa02e61f70b42c6a6cd1575d347494d47",
           "source": "arXiv",
           "request_id": "f9b92cd3006c58c3560485234ca90c5360d87290b7fae712f1d8e425a3d7c640",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 562,
+      "revisions": [
+        {
+          "created_at": "2026-11-26T13:29:56.589380+00:00",
+          "block": "Title: Stanford physicist proposes quantum gravity theory with GPT-6 Astra\nURL: https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/\nImage URL: https://thequantuminsider.com/wp-content/uploads/2026/11/Black-Hole-Shadow-Causal-Diamonds-1.png\nSummary: Stanford physicist Venkatesa Chandrasekaran posted a preprint proposing a quantum theory of vacuum gravity built on intersecting light cones. The paper reports a finite graviton-pair amplitude and recovers the known black-hole entropy correction. He says he developed several calculations with OpenAI's GPT-6 Astra over months, using about 400 million tokens. The preprint is unverified.",
+          "sha256": "27e74bca21d98e7d19e913fb42b8f4495d8eb56caa7adebfcfefb00d7e352226",
+          "source": "The Quantum Insider",
+          "request_id": "muse-intake-20261126-chandrasekaran-quantum-gravity-null-cone",
           "mode": "standard"
         }
       ]
@@ -16455,6 +16468,23 @@
       "trusted_route_sha256": null,
       "corrects_record_id": null,
       "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+    },
+    "muse-intake-20261126-chandrasekaran-quantum-gravity-null-cone": {
+      "status": "finalized",
+      "received_at": "2026-11-26T13:29:56.307578+00:00",
+      "received_sequence": 509,
+      "expected_items": 1,
+      "mode": "standard",
+      "trusted_route_sha256": null,
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-26T13:29:56.589380+00:00",
+      "records": [
+        {
+          "id": 562,
+          "revision": 1,
+          "sha256": "27e74bca21d98e7d19e913fb42b8f4495d8eb56caa7adebfcfefb00d7e352226"
+        }
+      ]
     }
   },
   "batches": {
@@ -60205,6 +60235,40 @@
           "planned_from_head": "6d75c3462543c0fa0e51695ab7f550cfdeabe2e9"
         }
       }
+    },
+    "muse-intake-20261126-chandrasekaran-quantum-gravity-receive-5597": {
+      "sha256": "b90309a768a29355b67220e5782716c353ba5b88442827fac1038bc9c718b5c2",
+      "result": {
+        "status": "received",
+        "request_id": "muse-intake-20261126-chandrasekaran-quantum-gravity-null-cone"
+      }
+    },
+    "muse-intake-20261126-chandrasekaran-quantum-gravity-finalize-0588": {
+      "sha256": "eb95ee8331e0e48efe44827dcdf48445475fd25871efd59a2a3124580263f450",
+      "result": {
+        "status": "finalized",
+        "request_id": "muse-intake-20261126-chandrasekaran-quantum-gravity-null-cone",
+        "records": [
+          {
+            "id": 562,
+            "revision": 1,
+            "sha256": "27e74bca21d98e7d19e913fb42b8f4495d8eb56caa7adebfcfefb00d7e352226"
+          }
+        ],
+        "duplicates": []
+      }
+    },
+    "muse-intake-20261126-chandrasekaran-quantum-gravity-review-1329": {
+      "sha256": "411e2977e8f0ec77fb0ff1a02295359c88bf7a8c8422a04dc517d3b0dca094be",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 562,
+          "revision": 1,
+          "sha256": "27e74bca21d98e7d19e913fb42b8f4495d8eb56caa7adebfcfefb00d7e352226"
+        },
+        "editorial_sha256": "e80c7778744991dae5ab785b45e14a92652a3a47e88ca68c3c2cda41327f5396"
+      }
     }
   },
   "migration": {
@@ -74151,6 +74215,26 @@
         "sha256": "053803e5e18704be5e34964e9498ae5894f5c0dfef39f1ec15c3e2b4c62580a8",
         "reviewed_at": "2026-11-26T13:07:49.554154+00:00",
         "operation_id": "muse-backfill-20261126-561-6839"
+      }
+    ],
+    "562:1": [
+      {
+        "reference": {
+          "id": 562,
+          "revision": 1,
+          "sha256": "27e74bca21d98e7d19e913fb42b8f4495d8eb56caa7adebfcfefb00d7e352226"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A hep-th preprint proposing a background-independent quantization of vacuum gravity from the null cone, with a finite graviton-pair amplitude and a black-hole entropy check. The author credits months of work with OpenAI's GPT-6 Astra. A technical research story: the physics, the algebra and the AI-disclosure details need a reader who follows research papers. muse-intake 2026-11-26: submitted by Diego via X link (Jimmy Apples @apples_jimmy status 2125821522350919841, via roon @tszzl linking arXiv:2611.34924). Paper read via arXiv abs (Nov 25, 2026, hep-th, sole author Chandrasekaran, Stanford). URL is the 2nd article from Googling the title (The Quantum Insider, read in full); the 1st, explainx.ai, is forbidden by the ledger .ai policy, as is its image. Image is the TQI hero, verified live (1672x941). OpenAI employment NOT claimed; dual affiliation unconfirmed.",
+            "evidence_sha256": "27e74bca21d98e7d19e913fb42b8f4495d8eb56caa7adebfcfefb00d7e352226"
+          }
+        },
+        "sha256": "e80c7778744991dae5ab785b45e14a92652a3a47e88ca68c3c2cda41327f5396",
+        "reviewed_at": "2026-11-26T13:29:56.843774+00:00",
+        "operation_id": "muse-intake-20261126-chandrasekaran-quantum-gravity-review-1329"
       }
     ]
   }
