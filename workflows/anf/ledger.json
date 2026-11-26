@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1725,
-  "updated_at": "2026-11-26T12:34:41.993193+00:00",
+  "generation": 1730,
+  "updated_at": "2026-11-26T13:07:49.554154+00:00",
   "next_id": 562,
   "records": [
     {
@@ -59535,6 +59535,66 @@
         "status": "received",
         "request_id": "ae2c667f765924a769d8608c785b6257ae76a1314614ff91ed463ff5fce38ba6"
       }
+    },
+    "muse-backfill-20261126-544-4267": {
+      "sha256": "57dc346c4dfb072e95a52766afd0ad4f8a47baa6acf12c2dc08bc31ac9a6e85e",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 544,
+          "revision": 1,
+          "sha256": "10d542e6032f827f9f90b903ecea4623d5a209b3088f8e9c8008c9c21194890f"
+        },
+        "editorial_sha256": "b70b094e787da2a9891792a7ce376d92d2645f8aed385a14cf51b48e4615e452"
+      }
+    },
+    "muse-backfill-20261126-545-4549": {
+      "sha256": "d61d0436b293441d8d2b359a6510624063274e17b46cdddcd17ae7a87d2628ef",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 545,
+          "revision": 1,
+          "sha256": "f0983af9b643cfedbe6c930f9aa71bdba4b6424e3ce267c756ddf9ab703ab388"
+        },
+        "editorial_sha256": "6c92ee79ca69abf0bec38ad7fd9984bdb2d20c7c0fd9c93c5a1e92029f4c01a5"
+      }
+    },
+    "muse-backfill-20261126-546-7204": {
+      "sha256": "34f82737f285196dd6eb2a2cedd09b3f4b66b6a83ea854f58ed1857c91d24802",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 546,
+          "revision": 1,
+          "sha256": "f77e88ae67bc0cd7c0d5e5ac5f378d823bfb66b7e79417f7e92ad341d3e9d9a9"
+        },
+        "editorial_sha256": "167286e773fc7b07e2905c300c507e99ec60d8d82320c8af621ac3ec2a32c563"
+      }
+    },
+    "muse-backfill-20261126-560-9982": {
+      "sha256": "8612fd34355bf69e03818c975b8a3387df1edd31cb3a8b25fd22774401fe4ce0",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 560,
+          "revision": 1,
+          "sha256": "cca7381f0b67632653bdb6fdb8f192d7ecdbc5485179fb5d4398f87cc3271d86"
+        },
+        "editorial_sha256": "62a5cbebf30e9f715eff943fecb38cb92394a2945726070a7b74490d19825c15"
+      }
+    },
+    "muse-backfill-20261126-561-6839": {
+      "sha256": "a660edc26d175582d6b733c7fe9ba3a4cd7a1791aba545f170de253d9fb2a3be",
+      "result": {
+        "status": "editorial_reviewed",
+        "record": {
+          "id": 561,
+          "revision": 1,
+          "sha256": "6230bd43ce70e391002d10a47f4c38efa02e61f70b42c6a6cd1575d347494d47"
+        },
+        "editorial_sha256": "053803e5e18704be5e34964e9498ae5894f5c0dfef39f1ec15c3e2b4c62580a8"
+      }
     }
   },
   "migration": {
@@ -73381,6 +73441,106 @@
         "sha256": "90dee4d5d7367274a0d3d98562cbf27b25f7913ec5339f92ae1c8ea50008c5b3",
         "reviewed_at": "2026-11-25T23:25:24.612236+00:00",
         "operation_id": "d558fbade21bdbb189cc8e1f05eb1fd03f10019d19be57517317b45252009ee1"
+      }
+    ],
+    "544:1": [
+      {
+        "reference": {
+          "id": 544,
+          "revision": 1,
+          "sha256": "10d542e6032f827f9f90b903ecea4623d5a209b3088f8e9c8008c9c21194890f"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Epochal, whose team includes three members of xAI's founding team, has launched Time Portal, its first product. The company says it lets AI agents browse archived web pages from a chosen past moment to test forecasts using only the information available then. Its documentation cautions that models can still recall later facts learned during training. This is a product launch about testing AI forecasts, for a general audience, not a technical research paper. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "10d542e6032f827f9f90b903ecea4623d5a209b3088f8e9c8008c9c21194890f"
+          }
+        },
+        "sha256": "b70b094e787da2a9891792a7ce376d92d2645f8aed385a14cf51b48e4615e452",
+        "reviewed_at": "2026-11-26T13:07:48.537801+00:00",
+        "operation_id": "muse-backfill-20261126-544-4267"
+      }
+    ],
+    "545:1": [
+      {
+        "reference": {
+          "id": 545,
+          "revision": 1,
+          "sha256": "f0983af9b643cfedbe6c930f9aa71bdba4b6424e3ce267c756ddf9ab703ab388"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Axios reports, citing more than two dozen sources, that employees at OpenAI and Anthropic question whether unreleased models can be safely released. Anthropic said keeping models internal does not ensure safety and that it may slow or withhold releases. OpenAI said it has adopted new safety requirements that could slow the pace of model releases. This is AI safety and industry news about major labs' unreleased models, for a general audience. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "f0983af9b643cfedbe6c930f9aa71bdba4b6424e3ce267c756ddf9ab703ab388"
+          }
+        },
+        "sha256": "6c92ee79ca69abf0bec38ad7fd9984bdb2d20c7c0fd9c93c5a1e92029f4c01a5",
+        "reviewed_at": "2026-11-26T13:07:48.799418+00:00",
+        "operation_id": "muse-backfill-20261126-545-4549"
+      }
+    ],
+    "546:1": [
+      {
+        "reference": {
+          "id": 546,
+          "revision": 1,
+          "sha256": "f77e88ae67bc0cd7c0d5e5ac5f378d823bfb66b7e79417f7e92ad341d3e9d9a9"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Tidal will begin rejecting and removing fully AI-generated recordings on December 9, 2026, while music made with AI assistance will still be allowed. The company says 43 percent of tracks delivered to its platform over the past 90 days were identified as wholly AI-generated, using detection technology from its partner Ircam Amplify. This is music-industry policy news about AI-generated content, for a general audience. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "f77e88ae67bc0cd7c0d5e5ac5f378d823bfb66b7e79417f7e92ad341d3e9d9a9"
+          }
+        },
+        "sha256": "167286e773fc7b07e2905c300c507e99ec60d8d82320c8af621ac3ec2a32c563",
+        "reviewed_at": "2026-11-26T13:07:49.044800+00:00",
+        "operation_id": "muse-backfill-20261126-546-7204"
+      }
+    ],
+    "560:1": [
+      {
+        "reference": {
+          "id": 560,
+          "revision": 1,
+          "sha256": "cca7381f0b67632653bdb6fdb8f192d7ecdbc5485179fb5d4398f87cc3271d86"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The authors introduce RLVB, which uses simulator-computed probabilities to reward evidence gathering before an agent answers. Across three vision-language models and three benchmarks, it improved accuracy in all nine settings. The method currently requires known task rules and does not establish comparable gains on open-ended real-world tasks. This is AI research on agent reasoning with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "cca7381f0b67632653bdb6fdb8f192d7ecdbc5485179fb5d4398f87cc3271d86"
+          }
+        },
+        "sha256": "62a5cbebf30e9f715eff943fecb38cb92394a2945726070a7b74490d19825c15",
+        "reviewed_at": "2026-11-26T13:07:49.282442+00:00",
+        "operation_id": "muse-backfill-20261126-560-9982"
+      }
+    ],
+    "561:1": [
+      {
+        "reference": {
+          "id": 561,
+          "revision": 1,
+          "sha256": "6230bd43ce70e391002d10a47f4c38efa02e61f70b42c6a6cd1575d347494d47"
+        },
+        "editorial": {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The authors introduce Mixture-of-Loops Transformer, reusing attention memory across shared-layer passes. At 700 million parameters, U-MoLT matched the baseline's prediction loss with 1.7 times fewer tokens. The complete training run used roughly twice the compute, so this is a data-efficiency result, not a demonstrated training-cost reduction. This is AI research on model architecture and training efficiency, for research audiences. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "6230bd43ce70e391002d10a47f4c38efa02e61f70b42c6a6cd1575d347494d47"
+          }
+        },
+        "sha256": "053803e5e18704be5e34964e9498ae5894f5c0dfef39f1ec15c3e2b4c62580a8",
+        "reviewed_at": "2026-11-26T13:07:49.554154+00:00",
+        "operation_id": "muse-backfill-20261126-561-6839"
       }
     ]
   }
