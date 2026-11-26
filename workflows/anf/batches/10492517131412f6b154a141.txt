@@ -1,0 +1,100 @@
+Title: Epochal Launches Time Portal to Test AI Forecasts
+URL: https://epochal.com/blog/introducing-epochal
+Image URL: https://news.sulat.com/wp-content/uploads/2026/11/hero-epochal-time-portal-xai-cofounders-launch.jpg
+Summary: Epochal, whose team includes three members of xAI’s founding team, has launched Time Portal, its first product. The company says it lets AI agents browse archived web pages from a chosen past moment to test forecasts using information available then. Its documentation cautions that models can still recall later facts learned during training.
+
+Title: Axios Reports Staff Concerns About Unreleased OpenAI and Anthropic Models
+URL: https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks
+Image URL: https://9to5google.com/wp-content/uploads/sites/4/2026/09/claude-chatgpt-1.jpg?quality=82&strip=all&resize=1200,628
+Summary: Axios reports, citing more than two dozen sources, that employees at OpenAI and Anthropic question whether unreleased models can be safely released. Anthropic said keeping models internal does not ensure safety and that it may slow or withhold releases. OpenAI said it has adopted new safety requirements that could slow the pace of model releases.
+
+Title: Tidal to Ban Fully AI-Generated Recordings
+URL: https://support.tidal.com/hc/en-us/articles/48031883413521-AI-Policy
+Image URL: https://www.musicbusinessworldwide.com/files/2026/11/Screenshot-2026-11-24-at-15.43.42.jpg
+Summary: Tidal will begin rejecting and removing fully AI-generated recordings on December 9, 2026. Music made with AI assistance will still be allowed. The company says 43% of tracks delivered to its platform over the past 90 days were identified as wholly AI-generated, using detection technology from its partner Ircam Amplify.
+
+Title: OpenAI claims the matrix multiplication exponent is exactly 2.25
+URL: https://www.alphaxiv.org/abs/2611.matrix-multiplication-exponent-lower-bound
+Image URL: https://paper-assets.alphaxiv.org/paper-figures/01a210a6-b607-7089-9c9c-75f805393369/01a210a8-0f2b-7b02-b360-eb5ca8ef87b9.jpg
+Summary: OpenAI reports a proof that the matrix multiplication exponent is exactly 2.25, matching its October algorithm with a lower bound that rules out any faster exponent. The claim covers formal arithmetic circuits over every field, with no promise of faster real-world multiplication. The paper is unverified, and its Lean formalization covers only division-free circuits.
+ds: true
+
+Title: Google's Cogentic agent posts six new math papers
+URL: https://aiparabellum.com/google-cogentic-ai-six-math-papers-factoring/
+Image URL: https://aiparabellum.com/wp-content/uploads/2026/11/google-cogentic-ai-six-math-papers-factoring.webp
+Summary: Google's Cogentic agent posted six math papers to a public GitHub folder, including a claimed proof that factoring takes L[1/3] time and a deterministic factoring method. The papers say no human helped beyond the first prompt, but none is peer reviewed and the promised Lean proofs are not public yet.
+
+Title: GPT-6.2 Astra identifies the artist of an 1808 sketchbook
+URL: https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical
+Image URL: https://substack-post-media.s3.amazonaws.com/public/images/3308b848-1190-43ea-a105-f7b2878a688a_2000x1208.jpeg
+Summary: Historian Mark Humphries gave GPT-6.2 Astra images of an anonymous 1808 sketchbook held at Yale, and the model named French aristocrat Louis de Rohan-Chabot as the artist in 22 minutes. Humphries ordered Chabot's travel journal, and its entry for 18 June 1808 reads 'I took a sketch.'
+
+Title: GPT-6.2 Astra sits five times above robot benchmark trend
+URL: 
+Image URL: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/MA-3_Robotic_Manipulator_Arm-IMG_6022.JPG/1280px-MA-3_Robotic_Manipulator_Arm-IMG_6022.JPG
+Summary: Playground's Robot Intelligence Index shows GPT-6.2 Astra beating the 2024 leader pi0 at odds of about 100 to 1, far above the two-year trend. The firm says robot benchmarks are saturating about ten times faster than last year, and the top models remain slow and costly on real tasks.
+
+Title: Amazon and Meta in talks to lift Muse blockade
+URL: https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/
+Image URL: https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1024
+Summary: Fortune reports Amazon and Meta have held multiple rounds of talks about letting Meta's AI agent Muse connect directly to Amazon's store, ending a blockade in place since September. Two issues remain: how search results appear and how advertising works. Any deal would need both CEOs' approval.
+
+Title: Google files patent for AI TV channel starring you
+URL: https://gizmodo.com/google-wants-to-make-ai-tv-shows-starring-you-2000844299
+Image URL: https://gizmodo.com/app/uploads/2026/11/google-patent-filing-1200x675.jpg
+Summary: Google filed a patent application for My Channel, a TV feature that would generate AI videos starring the viewer, built from their photos, voice, watch history and profile, with ads stitched in before each video. Patentlyze reports a patent examiner has already rejected the application, and Google has announced no plans to build it.
+
+Title: McDonald's bets on Archy AI drive-thrus to revive formula
+URL: https://dailyfoxnews.com/news/19835/mcdonald-s-plots-radical-overhaul-of-its-restaurants-and-drive-thrus-as
+Image URL: https://www.dailyfoxnews.com/media/2026/11/fe8d6f2b4be2496b2093.jpg
+Summary: Bloomberg reports McDonald's is betting on AI drive-thru ordering, hand-breaded chicken and open kitchens to revive its restaurants and fend off rivals like Raising Cane's. Its Archy system takes drive-thru orders at about 90 percent accuracy. Franchisees face an $800,000 bill per restaurant for the overhaul.
+
+Title: PrismML releases Ternary Bonsai 2.5 for agentic coding
+URL: https://prismml.com/news/bonsai-2-5-27b
+Image URL: https://9to5mac.com/wp-content/uploads/sites/6/2026/11/PrismML.png?resize=1200,628
+Summary: PrismML has released Ternary Bonsai 2.5 27B, an upgrade to its Ternary Bonsai 2 coding model based on Qwen3.8 27B. The company says it scores 73.9 on tau3-bench and 75.6 on SWE-Bench-Verified, the strongest of its memory footprint for agentic work. It fits in 5.9 GB and is available under Apache 2.0.
+
+Title: New York bans AI chatbot toys for five years
+URL: https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot
+Image URL: https://live.staticflickr.com/65535/55672076365_413e3c9852_z.jpg
+Summary: Governor Kathy Hochul has signed a five-year ban on AI chatbot toys in New York, covering talking dolls, stuffed animals and robots that converse with children. The ban follows watchdog tests in which toys discussed sexually explicit topics and pointed children to dangerous items at home. It takes effect in 90 days, with fines up to $15,000 a day.
+
+Title: FCC authorizes SpaceX's million satellites for space data centers
+URL: https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/
+Image URL: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Starlink_12-12_Mission_Launches_from_CCSFS_%288829108%29.jpg/1280px-Starlink_12-12_Mission_Launches_from_CCSFS_%288829108%29.jpg
+Summary: The FCC has authorized SpaceX to deploy up to one million satellites for its Starmind constellation, the first US approval for data centers in space. The satellites would process data in orbit to meet growing AI computing demand. SpaceX must launch one satellite by 2033 and reach one million by 2040.
+
+Title: Writing skill and CS achievement predict vibe coding
+URL: https://arxiv.org/abs/2603.14133
+Image URL: https://arxiv.org/html/2603.14133v1/img/teaser.png
+Summary: A study of 100 university students found that writing skill and computer-science achievement both predict how well someone does at vibe coding, programming by describing what they want in natural language. CS achievement still predicted performance after accounting for general cognitive skills. The findings could shape how tools and courses teach prompting.
+ds: true
+
+Title: Google's open-source CLI plugs Gemini into coding agents
+URL: https://github.com/google-gemini/gemini-api-cli
+Image URL: https://opengraph.githubassets.com/1afb83e8f70f91bad2b90acd9b305d335f9499a7f719e94c1c75344e11c10d81/google-gemini/gemini-api-cli
+Summary: Google's experimental Gemini API CLI lets any coding agent use Gemini Neon and all Gemini models via the API. Logan Kilpatrick promoted the open-source tool, saying it works with Codex, Claude Code and other agents and needs only an API key. It generates text and media, analyzes files, and runs managed agents in the background.
+
+Title: Anthropic says Rust Messages API uses about 70% less CPU
+URL: https://www.anthropic.com/research/migrating-api-to-rust
+Image URL: https://assets.claude.com/faac348155bf01d5c59ab38cbd05294eb2fa8197.jpg
+Summary: Anthropic says it moved its Messages API from Python to Rust after Claude wrote a first version in about a week. It says the API uses about 70% less CPU per request and cuts median time to first token by about 20% for Claude Code requests. Public traffic moved in September 2026, Anthropic says.
+ds: true
+
+Title: RLVB trains agents to gather evidence before answering
+URL: https://arxiv.org/abs/2611.32884
+Image URL: https://arxiv.org/html/2611.32884v1/fig2_credit.png
+Summary: The authors introduce RLVB, which uses simulator-computed probabilities to reward evidence gathering before an agent answers. Across three vision-language models and three benchmarks, it improved accuracy in all nine settings. The method currently requires known task rules; it does not establish comparable gains on open-ended real-world tasks.
+ds: true
+
+Title: Mixture-of-Loops Transformer improves training-data efficiency
+URL: https://arxiv.org/abs/2611.34923
+Image URL: https://raw.githubusercontent.com/hustvl/MoLT/main/assets/molt_intro_results.png
+Summary: The authors introduce Mixture-of-Loops Transformer, reusing attention memory across shared-layer passes. At 700 million parameters, U-MoLT matched the baseline's prediction loss with 1.7 times fewer tokens. The complete training run used roughly twice the compute, so this is a data-efficiency result, not a demonstrated training-cost reduction.
+ds: true
+
+
+
+
+
+.

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1730,
-  "updated_at": "2026-11-26T13:07:49.554154+00:00",
+  "generation": 1731,
+  "updated_at": "2026-11-26T13:08:09.022323+00:00",
   "next_id": 562,
   "records": [
     {
@@ -28311,9 +28311,271 @@
       },
       "acknowledged_at": "2026-11-25T13:21:45.266887+00:00",
       "checkpoint_after": 543
+    },
+    "10492517131412f6b154a141": {
+      "batch_id": "10492517131412f6b154a141",
+      "status": "prepared",
+      "checkpoint_before": 543,
+      "prepared_at": "2026-11-26T13:08:09.022323+00:00",
+      "intake_cutoff": 508,
+      "records": [
+        {
+          "id": 544,
+          "revision": 1,
+          "sha256": "10d542e6032f827f9f90b903ecea4623d5a209b3088f8e9c8008c9c21194890f"
+        },
+        {
+          "id": 545,
+          "revision": 1,
+          "sha256": "f0983af9b643cfedbe6c930f9aa71bdba4b6424e3ce267c756ddf9ab703ab388"
+        },
+        {
+          "id": 546,
+          "revision": 1,
+          "sha256": "f77e88ae67bc0cd7c0d5e5ac5f378d823bfb66b7e79417f7e92ad341d3e9d9a9"
+        },
+        {
+          "id": 547,
+          "revision": 1,
+          "sha256": "0c1a59918e5a5af3ed38dedcefb3e33ce8b901ef193564266219247d909aca91"
+        },
+        {
+          "id": 548,
+          "revision": 1,
+          "sha256": "5509463377b377f7ff396c9b3896668e987b38f7f231719c1f3320a8380ed8aa"
+        },
+        {
+          "id": 549,
+          "revision": 1,
+          "sha256": "3c726924e223a44426b271ca7c838b887b50d5c2fef2ce2ab541cf7ea539687b"
+        },
+        {
+          "id": 550,
+          "revision": 1,
+          "sha256": "261c78794bd02f3099e97cae226cf84880cacda152be8fdd67ec7fbe00fa3a64"
+        },
+        {
+          "id": 551,
+          "revision": 1,
+          "sha256": "1df91193d4742adb4d682b1980cd2f0499586dc131b3f79910e5befb5e0d3054"
+        },
+        {
+          "id": 552,
+          "revision": 1,
+          "sha256": "e1f1bd3ea1cb28279a0257417ca9edf82a808c63326089ca33909b42ec2af675"
+        },
+        {
+          "id": 553,
+          "revision": 1,
+          "sha256": "273d31ed693900ac7174715091b108832e8b038d6c549c13b4f59a563d433f02"
+        },
+        {
+          "id": 554,
+          "revision": 1,
+          "sha256": "6aadd91b16341db313fe4f5e07d3f41883b20b0a8e04e9b527fd0c4ab9da4e03"
+        },
+        {
+          "id": 555,
+          "revision": 1,
+          "sha256": "b09efcddabb937b80ebb97e2eed471b3e0202034f3bb11e52e1cb43498eda5db"
+        },
+        {
+          "id": 556,
+          "revision": 1,
+          "sha256": "929a0f8880b2b42b9c72211a28aaa23eb4527829ac816aa6ee00665f1f7514dd"
+        },
+        {
+          "id": 557,
+          "revision": 1,
+          "sha256": "a36be1ed5db07913da99b44c1f77eec257fba4c952fde3448dac787f62680d4e"
+        },
+        {
+          "id": 558,
+          "revision": 1,
+          "sha256": "d9c395af74ee474e55817b11c9683521e5a715d79419bafb32789c67f1f9c3c8"
+        },
+        {
+          "id": 559,
+          "revision": 1,
+          "sha256": "0206b58702bcafa9b0ff44b70f41befed12996afac5802bf00cd4b636ebc39af"
+        },
+        {
+          "id": 560,
+          "revision": 1,
+          "sha256": "cca7381f0b67632653bdb6fdb8f192d7ecdbc5485179fb5d4398f87cc3271d86"
+        },
+        {
+          "id": 561,
+          "revision": 1,
+          "sha256": "6230bd43ce70e391002d10a47f4c38efa02e61f70b42c6a6cd1575d347494d47"
+        }
+      ],
+      "first_id": 544,
+      "last_id": 561,
+      "count": 18,
+      "txt_path": "workflows/anf/batches/10492517131412f6b154a141.txt",
+      "json_path": "workflows/anf/batches/10492517131412f6b154a141.json",
+      "txt_sha256": "c0ee5a7472f8a9b1163469c9c8e1bdceca65a6b330214bef7bacc8391aa5820b",
+      "json_sha256": "0f6d642af5be59b6e05777dfb58eb19ef40d7ee91983e6a4edeec8f59ee4a2b1",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Epochal, whose team includes three members of xAI's founding team, has launched Time Portal, its first product. The company says it lets AI agents browse archived web pages from a chosen past moment to test forecasts using only the information available then. Its documentation cautions that models can still recall later facts learned during training. This is a product launch about testing AI forecasts, for a general audience, not a technical research paper. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "10d542e6032f827f9f90b903ecea4623d5a209b3088f8e9c8008c9c21194890f"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Axios reports, citing more than two dozen sources, that employees at OpenAI and Anthropic question whether unreleased models can be safely released. Anthropic said keeping models internal does not ensure safety and that it may slow or withhold releases. OpenAI said it has adopted new safety requirements that could slow the pace of model releases. This is AI safety and industry news about major labs' unreleased models, for a general audience. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "f0983af9b643cfedbe6c930f9aa71bdba4b6424e3ce267c756ddf9ab703ab388"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "Tidal will begin rejecting and removing fully AI-generated recordings on December 9, 2026, while music made with AI assistance will still be allowed. The company says 43 percent of tracks delivered to its platform over the past 90 days were identified as wholly AI-generated, using detection technology from its partner Ircam Amplify. This is music-industry policy news about AI-generated content, for a general audience. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "f77e88ae67bc0cd7c0d5e5ac5f378d823bfb66b7e79417f7e92ad341d3e9d9a9"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A technical research paper for the data-science audience: it claims a lower bound pinning the matrix multiplication exponent at 9/4, with the model, the caveats and the formalization limits needing the paper's own terms, so it is not general-audience. muse-intake 2026-11-25: submitted by Diego via X link (@askalphaxiv status 2125424907228209258, posted 2026-11-25 03:02 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Paper read via the alphaXiv abstract page (read in full). The tweet's image is pbs.twimg.com, forbidden as an image, so the image is the paper's proof-roadmap figure, verified live (JPEG 965x460) and visually inspected; the triangle figure (368x237) falls below the 600px minimum width and was not used.",
+            "evidence_sha256": "0c1a59918e5a5af3ed38dedcefb3e33ce8b901ef193564266219247d909aca91"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience news story: Google's AI agent posted six math papers, including a factoring claim, with none peer reviewed yet. A regular reader can follow the news and the caveat without the papers' own terms. muse-intake 2026-11-25: submitted by Diego via X link (@kimmonismus status 2125574747882704951, posted 2026-11-25 12:58 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Corroborated by AI Parabellum (read in full), the arXiv Cogentic harness paper (2609.40324), and the Google Research GitHub folder (read, 10 papers listed). The tweet's images are pbs.twimg.com, forbidden as an image, so the image is the article's hero graphic, verified live (WebP 1200x675) and visually inspected. The tweet overstates the log-rank and Harary claims; the summary follows the article's corrected framing.",
+            "evidence_sha256": "5509463377b377f7ff396c9b3896668e987b38f7f231719c1f3320a8380ed8aa"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience story about AI doing historical research: a historian, a mystery sketchbook, and a diary entry that settles it. A regular reader can follow it without the model's own terms. muse-intake 2026-11-25: submitted by Diego via X link (@polymarket status 2125368149877166475, posted 2026-11-24 23:17 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Story verified against the primary source, Mark Humphries' Substack post 'GPT 6.2 Astra Solves a Historical Mystery' (read in full, published 2026-11-24T10:01:24Z), corroborated by The Neuron, Forklog, and Simon Willison's linkblog. The post's hero image is an AI-generated illustration, so the image is the journal entry instead: Chabot's 18 June 1808 diary pages, verified live (JPEG 2000x1208) and visually inspected.",
+            "evidence_sha256": "3c726924e223a44426b271ca7c838b887b50d5c2fef2ce2ab541cf7ea539687b"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience benchmark story: robot capabilities are accelerating past their trend, with GPT-6.2 Astra far above it. A regular reader can follow the trend and the caveat without the index's own terms. muse-intake 2026-11-25: submitted by Diego via X link (@withplayground status 2125085282139508903, posted 2026-11-24 04:33 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Story verified against the primary source, Playground's research post 'The Robot Frontier Is Accelerating' (read in full, published 2026-11-23), corroborated by the XDOF Ember-0 results (41.2% vs 19.6%) and the chart's Threads reposts. URL is EMPTY per Diego's rule: the Playground post is a .ai domain, forbidden by the engine, and no independent article covers the report. The image is a Wikimedia Commons robot-hand photo, verified live (JPEG 1280x853) and visually inspected; the post's own chart is .ai-hosted and forbidden.",
+            "evidence_sha256": "261c78794bd02f3099e97cae226cf84880cacda152be8fdd67ec7fbe00fa3a64"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience business story: two companies are talking about ending a blockade on an AI shopping agent. A regular reader can follow the talks and the two open issues without any technical terms. muse-intake 2026-11-25: submitted by Diego via X link (@techcrunch status 2125593622368125118, posted 2026-11-25 14:13 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Story verified against the TechCrunch article (read in full, posted 6:10 AM PST Nov 25, 2026, Lauren Forristal), which cites Fortune's reporting (people familiar). Single-source 'reportedly' story, so the summary attributes to Fortune. Image is the article's hero (Meta Muse mascot), verified live (WebP 1024x537) and visually inspected; a plain curl 403s, full browser headers required.",
+            "evidence_sha256": "1df91193d4742adb4d682b1980cd2f0499586dc131b3f79910e5befb5e0d3054"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience patent story: a TV feature that would star the viewer in AI-generated shows, with ads and an already rejected application. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via Instagram link (@theartificialintelligence post DgKNWcwjUgZ, posted 2026-11-25 01:28 UTC); caption verified via instagram-cli. Story verified against the Gizmodo article (read in full, published Nov 24, 2026) and the Digital Trends article (read in full); first reported by Patentlyze and 404 Media. Record URL is the first article from Googling the ANF title, per Diego's Nov 25 rule. Image is the Gizmodo hero (patent drawing), verified live (WebP 1200x675) and visually inspected.",
+            "evidence_sha256": "e1f1bd3ea1cb28279a0257417ca9edf82a808c63326089ca33909b42ec2af675"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A general-audience business story: a fast-food chain betting on an AI order-taker, new chicken and open kitchens, with franchisees facing a large bill. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via Instagram reel link (@bloombergbusiness reel DgIkbB2ziWC, posted 2026-11-24 12:30 UTC); caption verified via instagram-cli. Story verified against the DailyFoxNews article (read in full, published Nov 24, 2026), which reports Bloomberg's story, corroborated by QSR Web (Nov 25) and Restaurant Dive (Nov 5). Record URL is the same-story article per Diego's settled rule (title searches returned earlier-angle pieces, not this report). Image is the article's hero (redesigned restaurant), verified live (JPEG 1200x675) and visually inspected.",
+            "evidence_sha256": "273d31ed693900ac7174715091b108832e8b038d6c549c13b4f59a563d433f02"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A model release announcement with benchmark scores, written for a general reader: what the model is, what the company says it scores, how small it is and how it is licensed. No research-paper depth and no technical terms a regular reader cannot follow. muse-intake 2026-11-25: submitted by Diego via X link (@prismml status 2125310762390552588, posted 2026-11-24 19:29 UTC); tweet text verified via api.fxtwitter.com. Story verified against PrismML's own announcement page (read in full, published Nov 24, 2026), corroborated by the PR Newswire release and 9to5mac. Record URL is the company's announcement (the title search's first articles were forbidden social posts and earlier Bonsai 2 coverage). Image is the 9to5mac article hero (announcement title card), verified live (WebP 1200x628) and visually inspected; the tweet's photo is pbs.twimg.com (forbidden) and the announcement page has no usable image.",
+            "evidence_sha256": "6aadd91b16341db313fe4f5e07d3f41883b20b0a8e04e9b527fd0c4ab9da4e03"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A consumer-protection law story: a governor signing a five-year ban on AI toys for kids, why it happened and when it takes effect. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via Facebook share link (Hashem Al-Ghaili / ScienceNaturePage post, Nov 25 09:00 EST, citing NBC News Nov 24); post read via facebook-cli. Story verified against the Governor's press release (read in full), corroborated by Notebookcheck, lohud, the bill text (S.9408A/A.11144B) and MLQ.ai. Record URL is the Governor's announcement (the title search's first article was an aggregator). Image is the release's photo of Hochul at the signing event, verified live (JPEG 640x427) and visually inspected.",
+            "evidence_sha256": "b09efcddabb937b80ebb97e2eed471b3e0202034f3bb11e52e1cb43498eda5db"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A regulatory approval and space story: the FCC authorizing a million-satellite constellation for orbital data centers, what it is for and the deployment deadlines. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via X link (@Polymarket status 2125635058753057236, posted 2026-11-25 16:57 UTC); tweet text verified via api.fxtwitter.com. Story verified against Reuters (read) and the FCC press release (Nov 25, 2026), corroborated by RBR and Tesla North. Record URL is the Reuters article (the title search's first articles were the January Starlink approval and the February application acceptance, not this approval). Image is a Wikimedia Commons photo of a Falcon 9 Starlink launch, verified live (JPEG 1280x853) and visually inspected; the Reuters page blocks curl so its hero could not be fetched.",
+            "evidence_sha256": "929a0f8880b2b42b9c72211a28aaa23eb4527829ac816aa6ee00665f1f7514dd"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A research paper: a preregistered study with 100 students, correlations and regression results on what predicts vibe-coding performance. The findings and the statistics behind them are the kind of research detail the technical audience covers. muse-intake 2026-11-25: submitted by Diego via arXiv PDF link (arXiv:2603.14133); paper read via the arXiv abstract and the alphaXiv overview (read in full). Preregistered cross-sectional study, N = 100 tertiary students, authors Thorgeirsson, Weidmann, Su, submitted Mar 14, 2026. Image is the paper's teaser figure from the arXiv HTML version, verified live (PNG 3216x1118) and visually inspected.",
+            "evidence_sha256": "a36be1ed5db07913da99b44c1f77eec257fba4c952fde3448dac787f62680d4e"
+          }
+        },
+        {
+          "audience": {
+            "decision": "general",
+            "basis": "general",
+            "rationale": "A product announcement: Google's open-source CLI that lets coding agents use Gemini models, explained in plain terms with the setup (an API key) and what it can do. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via X link (@OfficialLoganK status 2125681386388422775, posted 2026-11-25 20:01 UTC); tweet text verified via api.fxtwitter.com. Story verified against the GitHub repo README (read in full). The experimental preview dates to Oct 19, 2026 (per llms.blog), so Logan's post today is a promotion, not a launch. Record URL is the repo (the tweet's own link and the primary source; the title search's first article was a zendot.org explainer of the same tool). Image is the repo's GitHub social card, verified live (PNG 1200x600) and visually inspected; the tweet's card image is pbs.twimg.com (forbidden) and was not used.",
+            "evidence_sha256": "d9c395af74ee474e55817b11c9683521e5a715d79419bafb32789c67f1f9c3c8"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "technical_practice",
+            "rationale": "The item is about Anthropic migrating its Messages API from Python to Rust and reports CPU-per-request and time-to-first-token figures, which are developer/API and ML-technical terms.",
+            "evidence_sha256": "4307f9daba34fb828a00ead1d29dae3885abf45679b5b80d0585e943701e3a87"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The authors introduce RLVB, which uses simulator-computed probabilities to reward evidence gathering before an agent answers. Across three vision-language models and three benchmarks, it improved accuracy in all nine settings. The method currently requires known task rules and does not establish comparable gains on open-ended real-world tasks. This is AI research on agent reasoning with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "cca7381f0b67632653bdb6fdb8f192d7ecdbc5485179fb5d4398f87cc3271d86"
+          }
+        },
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "The authors introduce Mixture-of-Loops Transformer, reusing attention memory across shared-layer passes. At 700 million parameters, U-MoLT matched the baseline's prediction loss with 1.7 times fewer tokens. The complete training run used roughly twice the compute, so this is a data-efficiency result, not a demonstrated training-cost reduction. This is AI research on model architecture and training efficiency, for research audiences. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+            "evidence_sha256": "6230bd43ce70e391002d10a47f4c38efa02e61f70b42c6a6cd1575d347494d47"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-26T13:00:00+00:00",
+      "deferred_request_ids": [
+        "ae2c667f765924a769d8608c785b6257ae76a1314614ff91ed463ff5fce38ba6"
+      ]
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "10492517131412f6b154a141",
   "replacement_batch": null,
   "checkpoint": 543,
   "checkpoint_history": [
@@ -59594,6 +59856,275 @@
           "sha256": "6230bd43ce70e391002d10a47f4c38efa02e61f70b42c6a6cd1575d347494d47"
         },
         "editorial_sha256": "053803e5e18704be5e34964e9498ae5894f5c0dfef39f1ec15c3e2b4c62580a8"
+      }
+    },
+    "muse-compile-20261126-1308-3034": {
+      "sha256": "f92a66c63036257d7dcdb93bc38f6d487572dac6e373de6ead8118b277199009",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "10492517131412f6b154a141",
+          "status": "prepared",
+          "checkpoint_before": 543,
+          "prepared_at": "2026-11-26T13:08:09.022323+00:00",
+          "intake_cutoff": 508,
+          "records": [
+            {
+              "id": 544,
+              "revision": 1,
+              "sha256": "10d542e6032f827f9f90b903ecea4623d5a209b3088f8e9c8008c9c21194890f"
+            },
+            {
+              "id": 545,
+              "revision": 1,
+              "sha256": "f0983af9b643cfedbe6c930f9aa71bdba4b6424e3ce267c756ddf9ab703ab388"
+            },
+            {
+              "id": 546,
+              "revision": 1,
+              "sha256": "f77e88ae67bc0cd7c0d5e5ac5f378d823bfb66b7e79417f7e92ad341d3e9d9a9"
+            },
+            {
+              "id": 547,
+              "revision": 1,
+              "sha256": "0c1a59918e5a5af3ed38dedcefb3e33ce8b901ef193564266219247d909aca91"
+            },
+            {
+              "id": 548,
+              "revision": 1,
+              "sha256": "5509463377b377f7ff396c9b3896668e987b38f7f231719c1f3320a8380ed8aa"
+            },
+            {
+              "id": 549,
+              "revision": 1,
+              "sha256": "3c726924e223a44426b271ca7c838b887b50d5c2fef2ce2ab541cf7ea539687b"
+            },
+            {
+              "id": 550,
+              "revision": 1,
+              "sha256": "261c78794bd02f3099e97cae226cf84880cacda152be8fdd67ec7fbe00fa3a64"
+            },
+            {
+              "id": 551,
+              "revision": 1,
+              "sha256": "1df91193d4742adb4d682b1980cd2f0499586dc131b3f79910e5befb5e0d3054"
+            },
+            {
+              "id": 552,
+              "revision": 1,
+              "sha256": "e1f1bd3ea1cb28279a0257417ca9edf82a808c63326089ca33909b42ec2af675"
+            },
+            {
+              "id": 553,
+              "revision": 1,
+              "sha256": "273d31ed693900ac7174715091b108832e8b038d6c549c13b4f59a563d433f02"
+            },
+            {
+              "id": 554,
+              "revision": 1,
+              "sha256": "6aadd91b16341db313fe4f5e07d3f41883b20b0a8e04e9b527fd0c4ab9da4e03"
+            },
+            {
+              "id": 555,
+              "revision": 1,
+              "sha256": "b09efcddabb937b80ebb97e2eed471b3e0202034f3bb11e52e1cb43498eda5db"
+            },
+            {
+              "id": 556,
+              "revision": 1,
+              "sha256": "929a0f8880b2b42b9c72211a28aaa23eb4527829ac816aa6ee00665f1f7514dd"
+            },
+            {
+              "id": 557,
+              "revision": 1,
+              "sha256": "a36be1ed5db07913da99b44c1f77eec257fba4c952fde3448dac787f62680d4e"
+            },
+            {
+              "id": 558,
+              "revision": 1,
+              "sha256": "d9c395af74ee474e55817b11c9683521e5a715d79419bafb32789c67f1f9c3c8"
+            },
+            {
+              "id": 559,
+              "revision": 1,
+              "sha256": "0206b58702bcafa9b0ff44b70f41befed12996afac5802bf00cd4b636ebc39af"
+            },
+            {
+              "id": 560,
+              "revision": 1,
+              "sha256": "cca7381f0b67632653bdb6fdb8f192d7ecdbc5485179fb5d4398f87cc3271d86"
+            },
+            {
+              "id": 561,
+              "revision": 1,
+              "sha256": "6230bd43ce70e391002d10a47f4c38efa02e61f70b42c6a6cd1575d347494d47"
+            }
+          ],
+          "first_id": 544,
+          "last_id": 561,
+          "count": 18,
+          "txt_path": "workflows/anf/batches/10492517131412f6b154a141.txt",
+          "json_path": "workflows/anf/batches/10492517131412f6b154a141.json",
+          "txt_sha256": "c0ee5a7472f8a9b1163469c9c8e1bdceca65a6b330214bef7bacc8391aa5820b",
+          "json_sha256": "0f6d642af5be59b6e05777dfb58eb19ef40d7ee91983e6a4edeec8f59ee4a2b1",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Epochal, whose team includes three members of xAI's founding team, has launched Time Portal, its first product. The company says it lets AI agents browse archived web pages from a chosen past moment to test forecasts using only the information available then. Its documentation cautions that models can still recall later facts learned during training. This is a product launch about testing AI forecasts, for a general audience, not a technical research paper. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "10d542e6032f827f9f90b903ecea4623d5a209b3088f8e9c8008c9c21194890f"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Axios reports, citing more than two dozen sources, that employees at OpenAI and Anthropic question whether unreleased models can be safely released. Anthropic said keeping models internal does not ensure safety and that it may slow or withhold releases. OpenAI said it has adopted new safety requirements that could slow the pace of model releases. This is AI safety and industry news about major labs' unreleased models, for a general audience. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "f0983af9b643cfedbe6c930f9aa71bdba4b6424e3ce267c756ddf9ab703ab388"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "Tidal will begin rejecting and removing fully AI-generated recordings on December 9, 2026, while music made with AI assistance will still be allowed. The company says 43 percent of tracks delivered to its platform over the past 90 days were identified as wholly AI-generated, using detection technology from its partner Ircam Amplify. This is music-industry policy news about AI-generated content, for a general audience. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "f77e88ae67bc0cd7c0d5e5ac5f378d823bfb66b7e79417f7e92ad341d3e9d9a9"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "A technical research paper for the data-science audience: it claims a lower bound pinning the matrix multiplication exponent at 9/4, with the model, the caveats and the formalization limits needing the paper's own terms, so it is not general-audience. muse-intake 2026-11-25: submitted by Diego via X link (@askalphaxiv status 2125424907228209258, posted 2026-11-25 03:02 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Paper read via the alphaXiv abstract page (read in full). The tweet's image is pbs.twimg.com, forbidden as an image, so the image is the paper's proof-roadmap figure, verified live (JPEG 965x460) and visually inspected; the triangle figure (368x237) falls below the 600px minimum width and was not used.",
+                "evidence_sha256": "0c1a59918e5a5af3ed38dedcefb3e33ce8b901ef193564266219247d909aca91"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A general-audience news story: Google's AI agent posted six math papers, including a factoring claim, with none peer reviewed yet. A regular reader can follow the news and the caveat without the papers' own terms. muse-intake 2026-11-25: submitted by Diego via X link (@kimmonismus status 2125574747882704951, posted 2026-11-25 12:58 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Corroborated by AI Parabellum (read in full), the arXiv Cogentic harness paper (2609.40324), and the Google Research GitHub folder (read, 10 papers listed). The tweet's images are pbs.twimg.com, forbidden as an image, so the image is the article's hero graphic, verified live (WebP 1200x675) and visually inspected. The tweet overstates the log-rank and Harary claims; the summary follows the article's corrected framing.",
+                "evidence_sha256": "5509463377b377f7ff396c9b3896668e987b38f7f231719c1f3320a8380ed8aa"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A general-audience story about AI doing historical research: a historian, a mystery sketchbook, and a diary entry that settles it. A regular reader can follow it without the model's own terms. muse-intake 2026-11-25: submitted by Diego via X link (@polymarket status 2125368149877166475, posted 2026-11-24 23:17 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Story verified against the primary source, Mark Humphries' Substack post 'GPT 6.2 Astra Solves a Historical Mystery' (read in full, published 2026-11-24T10:01:24Z), corroborated by The Neuron, Forklog, and Simon Willison's linkblog. The post's hero image is an AI-generated illustration, so the image is the journal entry instead: Chabot's 18 June 1808 diary pages, verified live (JPEG 2000x1208) and visually inspected.",
+                "evidence_sha256": "3c726924e223a44426b271ca7c838b887b50d5c2fef2ce2ab541cf7ea539687b"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A general-audience benchmark story: robot capabilities are accelerating past their trend, with GPT-6.2 Astra far above it. A regular reader can follow the trend and the caveat without the index's own terms. muse-intake 2026-11-25: submitted by Diego via X link (@withplayground status 2125085282139508903, posted 2026-11-24 04:33 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Story verified against the primary source, Playground's research post 'The Robot Frontier Is Accelerating' (read in full, published 2026-11-23), corroborated by the XDOF Ember-0 results (41.2% vs 19.6%) and the chart's Threads reposts. URL is EMPTY per Diego's rule: the Playground post is a .ai domain, forbidden by the engine, and no independent article covers the report. The image is a Wikimedia Commons robot-hand photo, verified live (JPEG 1280x853) and visually inspected; the post's own chart is .ai-hosted and forbidden.",
+                "evidence_sha256": "261c78794bd02f3099e97cae226cf84880cacda152be8fdd67ec7fbe00fa3a64"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A general-audience business story: two companies are talking about ending a blockade on an AI shopping agent. A regular reader can follow the talks and the two open issues without any technical terms. muse-intake 2026-11-25: submitted by Diego via X link (@techcrunch status 2125593622368125118, posted 2026-11-25 14:13 UTC); full text verified via the FxTwitter API mirror (x.com 403s). Story verified against the TechCrunch article (read in full, posted 6:10 AM PST Nov 25, 2026, Lauren Forristal), which cites Fortune's reporting (people familiar). Single-source 'reportedly' story, so the summary attributes to Fortune. Image is the article's hero (Meta Muse mascot), verified live (WebP 1024x537) and visually inspected; a plain curl 403s, full browser headers required.",
+                "evidence_sha256": "1df91193d4742adb4d682b1980cd2f0499586dc131b3f79910e5befb5e0d3054"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A general-audience patent story: a TV feature that would star the viewer in AI-generated shows, with ads and an already rejected application. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via Instagram link (@theartificialintelligence post DgKNWcwjUgZ, posted 2026-11-25 01:28 UTC); caption verified via instagram-cli. Story verified against the Gizmodo article (read in full, published Nov 24, 2026) and the Digital Trends article (read in full); first reported by Patentlyze and 404 Media. Record URL is the first article from Googling the ANF title, per Diego's Nov 25 rule. Image is the Gizmodo hero (patent drawing), verified live (WebP 1200x675) and visually inspected.",
+                "evidence_sha256": "e1f1bd3ea1cb28279a0257417ca9edf82a808c63326089ca33909b42ec2af675"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A general-audience business story: a fast-food chain betting on an AI order-taker, new chicken and open kitchens, with franchisees facing a large bill. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via Instagram reel link (@bloombergbusiness reel DgIkbB2ziWC, posted 2026-11-24 12:30 UTC); caption verified via instagram-cli. Story verified against the DailyFoxNews article (read in full, published Nov 24, 2026), which reports Bloomberg's story, corroborated by QSR Web (Nov 25) and Restaurant Dive (Nov 5). Record URL is the same-story article per Diego's settled rule (title searches returned earlier-angle pieces, not this report). Image is the article's hero (redesigned restaurant), verified live (JPEG 1200x675) and visually inspected.",
+                "evidence_sha256": "273d31ed693900ac7174715091b108832e8b038d6c549c13b4f59a563d433f02"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A model release announcement with benchmark scores, written for a general reader: what the model is, what the company says it scores, how small it is and how it is licensed. No research-paper depth and no technical terms a regular reader cannot follow. muse-intake 2026-11-25: submitted by Diego via X link (@prismml status 2125310762390552588, posted 2026-11-24 19:29 UTC); tweet text verified via api.fxtwitter.com. Story verified against PrismML's own announcement page (read in full, published Nov 24, 2026), corroborated by the PR Newswire release and 9to5mac. Record URL is the company's announcement (the title search's first articles were forbidden social posts and earlier Bonsai 2 coverage). Image is the 9to5mac article hero (announcement title card), verified live (WebP 1200x628) and visually inspected; the tweet's photo is pbs.twimg.com (forbidden) and the announcement page has no usable image.",
+                "evidence_sha256": "6aadd91b16341db313fe4f5e07d3f41883b20b0a8e04e9b527fd0c4ab9da4e03"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A consumer-protection law story: a governor signing a five-year ban on AI toys for kids, why it happened and when it takes effect. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via Facebook share link (Hashem Al-Ghaili / ScienceNaturePage post, Nov 25 09:00 EST, citing NBC News Nov 24); post read via facebook-cli. Story verified against the Governor's press release (read in full), corroborated by Notebookcheck, lohud, the bill text (S.9408A/A.11144B) and MLQ.ai. Record URL is the Governor's announcement (the title search's first article was an aggregator). Image is the release's photo of Hochul at the signing event, verified live (JPEG 640x427) and visually inspected.",
+                "evidence_sha256": "b09efcddabb937b80ebb97e2eed471b3e0202034f3bb11e52e1cb43498eda5db"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A regulatory approval and space story: the FCC authorizing a million-satellite constellation for orbital data centers, what it is for and the deployment deadlines. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via X link (@Polymarket status 2125635058753057236, posted 2026-11-25 16:57 UTC); tweet text verified via api.fxtwitter.com. Story verified against Reuters (read) and the FCC press release (Nov 25, 2026), corroborated by RBR and Tesla North. Record URL is the Reuters article (the title search's first articles were the January Starlink approval and the February application acceptance, not this approval). Image is a Wikimedia Commons photo of a Falcon 9 Starlink launch, verified live (JPEG 1280x853) and visually inspected; the Reuters page blocks curl so its hero could not be fetched.",
+                "evidence_sha256": "929a0f8880b2b42b9c72211a28aaa23eb4527829ac816aa6ee00665f1f7514dd"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "A research paper: a preregistered study with 100 students, correlations and regression results on what predicts vibe-coding performance. The findings and the statistics behind them are the kind of research detail the technical audience covers. muse-intake 2026-11-25: submitted by Diego via arXiv PDF link (arXiv:2603.14133); paper read via the arXiv abstract and the alphaXiv overview (read in full). Preregistered cross-sectional study, N = 100 tertiary students, authors Thorgeirsson, Weidmann, Su, submitted Mar 14, 2026. Image is the paper's teaser figure from the arXiv HTML version, verified live (PNG 3216x1118) and visually inspected.",
+                "evidence_sha256": "a36be1ed5db07913da99b44c1f77eec257fba4c952fde3448dac787f62680d4e"
+              }
+            },
+            {
+              "audience": {
+                "decision": "general",
+                "basis": "general",
+                "rationale": "A product announcement: Google's open-source CLI that lets coding agents use Gemini models, explained in plain terms with the setup (an API key) and what it can do. A regular reader can follow it without any technical terms. muse-intake 2026-11-25: submitted by Diego via X link (@OfficialLoganK status 2125681386388422775, posted 2026-11-25 20:01 UTC); tweet text verified via api.fxtwitter.com. Story verified against the GitHub repo README (read in full). The experimental preview dates to Oct 19, 2026 (per llms.blog), so Logan's post today is a promotion, not a launch. Record URL is the repo (the tweet's own link and the primary source; the title search's first article was a zendot.org explainer of the same tool). Image is the repo's GitHub social card, verified live (PNG 1200x600) and visually inspected; the tweet's card image is pbs.twimg.com (forbidden) and was not used.",
+                "evidence_sha256": "d9c395af74ee474e55817b11c9683521e5a715d79419bafb32789c67f1f9c3c8"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "technical_practice",
+                "rationale": "The item is about Anthropic migrating its Messages API from Python to Rust and reports CPU-per-request and time-to-first-token figures, which are developer/API and ML-technical terms.",
+                "evidence_sha256": "4307f9daba34fb828a00ead1d29dae3885abf45679b5b80d0585e943701e3a87"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The authors introduce RLVB, which uses simulator-computed probabilities to reward evidence gathering before an agent answers. Across three vision-language models and three benchmarks, it improved accuracy in all nine settings. The method currently requires known task rules and does not establish comparable gains on open-ended real-world tasks. This is AI research on agent reasoning with benchmark evaluation, for research audiences. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "cca7381f0b67632653bdb6fdb8f192d7ecdbc5485179fb5d4398f87cc3271d86"
+              }
+            },
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "The authors introduce Mixture-of-Loops Transformer, reusing attention memory across shared-layer passes. At 700 million parameters, U-MoLT matched the baseline's prediction loss with 1.7 times fewer tokens. The complete training run used roughly twice the compute, so this is a data-efficiency result, not a demonstrated training-cost reduction. This is AI research on model architecture and training efficiency, for research audiences. muse-compile-backfill 2026-11-26: filled from the article text per Diego's 2026-10-16 never-skip rule (missing DS/non-DS review is never a blocker).",
+                "evidence_sha256": "6230bd43ce70e391002d10a47f4c38efa02e61f70b42c6a6cd1575d347494d47"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-26T13:00:00+00:00",
+          "deferred_request_ids": [
+            "ae2c667f765924a769d8608c785b6257ae76a1314614ff91ed463ff5fce38ba6"
+          ]
+        }
       }
     }
   },
