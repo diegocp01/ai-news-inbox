@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1723,
-  "updated_at": "2026-11-26T12:05:15+00:00",
-  "next_id": 560,
+  "generation": 1724,
+  "updated_at": "2026-11-26T12:08:15+00:00",
+  "next_id": 562,
   "records": [
     {
       "id": 1,
@@ -7432,6 +7432,32 @@
           "sha256": "0206b58702bcafa9b0ff44b70f41befed12996afac5802bf00cd4b636ebc39af",
           "source": "Anthropic",
           "request_id": "e46da788fd3d95e386bf29c573d766cbd52ca619c4b56732df897173f7cce9bb",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 560,
+      "revisions": [
+        {
+          "created_at": "2026-11-26T12:08:15+00:00",
+          "block": "Title: RLVB trains agents to gather evidence before answering\nURL: https://arxiv.org/abs/2611.32884\nImage URL: https://arxiv.org/html/2611.32884v1/fig2_credit.png\nSummary: The authors introduce RLVB, which uses simulator-computed probabilities to reward evidence gathering before an agent answers. Across three vision-language models and three benchmarks, it improved accuracy in all nine settings. The method currently requires known task rules; it does not establish comparable gains on open-ended real-world tasks.",
+          "sha256": "cca7381f0b67632653bdb6fdb8f192d7ecdbc5485179fb5d4398f87cc3271d86",
+          "source": "arXiv",
+          "request_id": "f9b92cd3006c58c3560485234ca90c5360d87290b7fae712f1d8e425a3d7c640",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 561,
+      "revisions": [
+        {
+          "created_at": "2026-11-26T12:08:15+00:00",
+          "block": "Title: Mixture-of-Loops Transformer improves training-data efficiency\nURL: https://arxiv.org/abs/2611.34923\nImage URL: https://raw.githubusercontent.com/hustvl/MoLT/main/assets/molt_intro_results.png\nSummary: The authors introduce Mixture-of-Loops Transformer, reusing attention memory across shared-layer passes. At 700 million parameters, U-MoLT matched the baseline's prediction loss with 1.7 times fewer tokens. The complete training run used roughly twice the compute, so this is a data-efficiency result, not a demonstrated training-cost reduction.",
+          "sha256": "6230bd43ce70e391002d10a47f4c38efa02e61f70b42c6a6cd1575d347494d47",
+          "source": "arXiv",
+          "request_id": "f9b92cd3006c58c3560485234ca90c5360d87290b7fae712f1d8e425a3d7c640",
           "mode": "standard"
         }
       ]
@@ -16399,13 +16425,26 @@
       ]
     },
     "f9b92cd3006c58c3560485234ca90c5360d87290b7fae712f1d8e425a3d7c640": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-26T12:05:15+00:00",
       "received_sequence": 507,
       "expected_items": 2,
       "mode": "standard",
       "trusted_route_sha256": null,
-      "corrects_record_id": null
+      "corrects_record_id": null,
+      "finalized_at": "2026-11-26T12:08:15+00:00",
+      "records": [
+        {
+          "id": 560,
+          "revision": 1,
+          "sha256": "cca7381f0b67632653bdb6fdb8f192d7ecdbc5485179fb5d4398f87cc3271d86"
+        },
+        {
+          "id": 561,
+          "revision": 1,
+          "sha256": "6230bd43ce70e391002d10a47f4c38efa02e61f70b42c6a6cd1575d347494d47"
+        }
+      ]
     }
   },
   "batches": {
@@ -59458,6 +59497,26 @@
       "result": {
         "status": "received",
         "request_id": "f9b92cd3006c58c3560485234ca90c5360d87290b7fae712f1d8e425a3d7c640"
+      }
+    },
+    "f9b92cd3006c58c3560485234ca90c5360d87290b7fae712f1d8e425a3d7c640-finalize": {
+      "sha256": "74638cf364ec71906eea9b6b3f1d7e2365fd77fd30daeaf8ea3ef7ef46117728",
+      "result": {
+        "status": "finalized",
+        "request_id": "f9b92cd3006c58c3560485234ca90c5360d87290b7fae712f1d8e425a3d7c640",
+        "records": [
+          {
+            "id": 560,
+            "revision": 1,
+            "sha256": "cca7381f0b67632653bdb6fdb8f192d7ecdbc5485179fb5d4398f87cc3271d86"
+          },
+          {
+            "id": 561,
+            "revision": 1,
+            "sha256": "6230bd43ce70e391002d10a47f4c38efa02e61f70b42c6a6cd1575d347494d47"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
