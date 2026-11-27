@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1737,
-  "updated_at": "2026-11-26T13:29:56.843774+00:00",
+  "generation": 1738,
+  "updated_at": "2026-11-27T13:05:31.290901+00:00",
   "next_id": 563,
   "records": [
     {
@@ -28629,9 +28629,50 @@
       },
       "acknowledged_at": "2026-11-26T13:21:09.940605+00:00",
       "checkpoint_after": 561
+    },
+    "f8564faf156b0761e1d60e4a": {
+      "batch_id": "f8564faf156b0761e1d60e4a",
+      "status": "prepared",
+      "checkpoint_before": 561,
+      "prepared_at": "2026-11-27T13:05:31.290901+00:00",
+      "intake_cutoff": 509,
+      "records": [
+        {
+          "id": 562,
+          "revision": 1,
+          "sha256": "27e74bca21d98e7d19e913fb42b8f4495d8eb56caa7adebfcfefb00d7e352226"
+        }
+      ],
+      "first_id": 562,
+      "last_id": 562,
+      "count": 1,
+      "txt_path": "workflows/anf/batches/f8564faf156b0761e1d60e4a.txt",
+      "json_path": "workflows/anf/batches/f8564faf156b0761e1d60e4a.json",
+      "txt_sha256": "5404ecc17c50638dd707303cb9e6a34013fc9c6760c824ae395ede7c6a49d7a9",
+      "json_sha256": "586d39aed6a28c3b53498cb99fec863d8d811a78ace1791f19d98b8146a1da30",
+      "delivery": {
+        "status": "not_started",
+        "attempts": []
+      },
+      "format_version": 2,
+      "editorial": [
+        {
+          "audience": {
+            "decision": "technical",
+            "basis": "research",
+            "rationale": "A hep-th preprint proposing a background-independent quantization of vacuum gravity from the null cone, with a finite graviton-pair amplitude and a black-hole entropy check. The author credits months of work with OpenAI's GPT-6 Astra. A technical research story: the physics, the algebra and the AI-disclosure details need a reader who follows research papers. muse-intake 2026-11-26: submitted by Diego via X link (Jimmy Apples @apples_jimmy status 2125821522350919841, via roon @tszzl linking arXiv:2611.34924). Paper read via arXiv abs (Nov 25, 2026, hep-th, sole author Chandrasekaran, Stanford). URL is the 2nd article from Googling the title (The Quantum Insider, read in full); the 1st, explainx.ai, is forbidden by the ledger .ai policy, as is its image. Image is the TQI hero, verified live (1672x941). OpenAI employment NOT claimed; dual affiliation unconfirmed.",
+            "evidence_sha256": "27e74bca21d98e7d19e913fb42b8f4495d8eb56caa7adebfcfefb00d7e352226"
+          }
+        }
+      ],
+      "deferred_records": [],
+      "eligibility_at": "2026-11-27T13:00:00+00:00",
+      "deferred_request_ids": [
+        "ae2c667f765924a769d8608c785b6257ae76a1314614ff91ed463ff5fce38ba6"
+      ]
     }
   },
-  "pending_batch_id": null,
+  "pending_batch_id": "f8564faf156b0761e1d60e4a",
   "replacement_batch": null,
   "checkpoint": 561,
   "checkpoint_history": [
@@ -60268,6 +60309,54 @@
           "sha256": "27e74bca21d98e7d19e913fb42b8f4495d8eb56caa7adebfcfefb00d7e352226"
         },
         "editorial_sha256": "e80c7778744991dae5ab785b45e14a92652a3a47e88ca68c3c2cda41327f5396"
+      }
+    },
+    "muse-compile-20261127-1305-6454": {
+      "sha256": "54f5c8c2a3d4c0bf1a096d8c50dd484aa096e00d7e825042018ecab9a350fdcf",
+      "result": {
+        "status": "prepared",
+        "retry": false,
+        "batch": {
+          "batch_id": "f8564faf156b0761e1d60e4a",
+          "status": "prepared",
+          "checkpoint_before": 561,
+          "prepared_at": "2026-11-27T13:05:31.290901+00:00",
+          "intake_cutoff": 509,
+          "records": [
+            {
+              "id": 562,
+              "revision": 1,
+              "sha256": "27e74bca21d98e7d19e913fb42b8f4495d8eb56caa7adebfcfefb00d7e352226"
+            }
+          ],
+          "first_id": 562,
+          "last_id": 562,
+          "count": 1,
+          "txt_path": "workflows/anf/batches/f8564faf156b0761e1d60e4a.txt",
+          "json_path": "workflows/anf/batches/f8564faf156b0761e1d60e4a.json",
+          "txt_sha256": "5404ecc17c50638dd707303cb9e6a34013fc9c6760c824ae395ede7c6a49d7a9",
+          "json_sha256": "586d39aed6a28c3b53498cb99fec863d8d811a78ace1791f19d98b8146a1da30",
+          "delivery": {
+            "status": "not_started",
+            "attempts": []
+          },
+          "format_version": 2,
+          "editorial": [
+            {
+              "audience": {
+                "decision": "technical",
+                "basis": "research",
+                "rationale": "A hep-th preprint proposing a background-independent quantization of vacuum gravity from the null cone, with a finite graviton-pair amplitude and a black-hole entropy check. The author credits months of work with OpenAI's GPT-6 Astra. A technical research story: the physics, the algebra and the AI-disclosure details need a reader who follows research papers. muse-intake 2026-11-26: submitted by Diego via X link (Jimmy Apples @apples_jimmy status 2125821522350919841, via roon @tszzl linking arXiv:2611.34924). Paper read via arXiv abs (Nov 25, 2026, hep-th, sole author Chandrasekaran, Stanford). URL is the 2nd article from Googling the title (The Quantum Insider, read in full); the 1st, explainx.ai, is forbidden by the ledger .ai policy, as is its image. Image is the TQI hero, verified live (1672x941). OpenAI employment NOT claimed; dual affiliation unconfirmed.",
+                "evidence_sha256": "27e74bca21d98e7d19e913fb42b8f4495d8eb56caa7adebfcfefb00d7e352226"
+              }
+            }
+          ],
+          "deferred_records": [],
+          "eligibility_at": "2026-11-27T13:00:00+00:00",
+          "deferred_request_ids": [
+            "ae2c667f765924a769d8608c785b6257ae76a1314614ff91ed463ff5fce38ba6"
+          ]
+        }
       }
     }
   },

@@ -1,0 +1,11 @@
+Title: Stanford physicist proposes quantum gravity theory with GPT-6 Astra
+URL: https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/
+Image URL: https://thequantuminsider.com/wp-content/uploads/2026/11/Black-Hole-Shadow-Causal-Diamonds-1.png
+Summary: Stanford physicist Venkatesa Chandrasekaran posted a preprint proposing a quantum theory of vacuum gravity built on intersecting light cones. The paper reports a finite graviton-pair amplitude and recovers the known black-hole entropy correction. He says he developed several calculations with OpenAI's GPT-6 Astra over months, using about 400 million tokens. The preprint is unverified.
+ds: true
+
+
+
+
+
+.
