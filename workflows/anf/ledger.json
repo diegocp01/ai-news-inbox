@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generation": 1741,
-  "updated_at": "2026-11-27T13:26:17.128998+00:00",
+  "generation": 1742,
+  "updated_at": "2026-11-27T15:33:41.979330+00:00",
   "next_id": 563,
   "records": [
     {
@@ -16460,14 +16460,24 @@
       ]
     },
     "ae2c667f765924a769d8608c785b6257ae76a1314614ff91ed463ff5fce38ba6": {
-      "status": "received",
+      "status": "cancelled",
       "received_at": "2026-11-26T12:34:41.993193+00:00",
       "received_sequence": 508,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "cancelled_at": "2026-11-27T15:33:41.979330+00:00",
+      "cancellation": {
+        "at": "2026-11-27T15:33:41.979330+00:00",
+        "authorization_sha256": "6c04569bb70e2b059581c38b339c232bc0c143e4365c381118d3d4b9be5acd46",
+        "expected_request_sha256": "e13f1b28c609c2fef2ffc4459a27679d9a62f2f327565b2acd8a675aa3a8877e",
+        "kind": "cancel_intake",
+        "operation_id": "64b71e196977ec4c6e4237e1fb8e58633017897f72410df84afa5dca3bf9f5da",
+        "reason_code": "user_requested_cancellation",
+        "request_id": "ae2c667f765924a769d8608c785b6257ae76a1314614ff91ed463ff5fce38ba6"
+      }
     },
     "muse-intake-20261126-chandrasekaran-quantum-gravity-null-cone": {
       "status": "finalized",
@@ -60436,6 +60446,16 @@
           "published_at": "2026-11-27T13:16:02.823297+00:00",
           "planned_from_head": "5be0c30723aead445a21c5c7827eb10d1c017cbb"
         }
+      }
+    },
+    "64b71e196977ec4c6e4237e1fb8e58633017897f72410df84afa5dca3bf9f5da": {
+      "sha256": "1a9ce90087d901658178ef5a931f42a0b298cfc38273efa7da2395cb551a9372",
+      "result": {
+        "status": "intake_cancelled",
+        "request_id": "ae2c667f765924a769d8608c785b6257ae76a1314614ff91ed463ff5fce38ba6",
+        "expected_items": 2,
+        "cancelled_at": "2026-11-27T15:33:41.979330+00:00",
+        "checkpoint_advanced": false
       }
     }
   },
