@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generation": 1743,
-  "updated_at": "2026-11-27T15:40:26.903273+00:00",
-  "next_id": 563,
+  "generation": 1744,
+  "updated_at": "2026-11-27T15:47:22.366174+00:00",
+  "next_id": 565,
   "records": [
     {
       "id": 1,
@@ -7472,6 +7472,34 @@
           "source": "The Quantum Insider",
           "request_id": "muse-intake-20261126-chandrasekaran-quantum-gravity-null-cone",
           "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": 563,
+      "revisions": [
+        {
+          "created_at": "2026-11-27T15:47:22.366174+00:00",
+          "block": "Title: Physicist Credits GPT-6 Astra in Quantum Gravity Preprint\nURL: https://arxiv.org/abs/2611.34924\nImage URL: https://aiprovedwhat.com/episodes/s02-quantum-gravity-null-cone/thumbnail.jpg\nSummary: Physicist Venkatesa Chandrasekaran has posted a preprint proposing a quantum description of gravity. He credits OpenAI’s GPT-6 Astra with helping develop several calculations and proofs. The four-dimensional proposal uses intersecting light cones and covers gravity without matter. It has not been peer reviewed, so the paper’s claimed results should be treated as provisional.",
+          "sha256": "652f38a75dfada2132db53b4c78bd9954c58eee6898c6f6bd8e70504b0c46e9c",
+          "source": "arxiv.org",
+          "request_id": "481539f56fbc0714d8d472e65201b999f27084f9a83f530cc211e6ac19160077",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
+        }
+      ]
+    },
+    {
+      "id": 564,
+      "revisions": [
+        {
+          "created_at": "2026-11-27T15:47:22.366174+00:00",
+          "block": "Title: Reuters: U.S. Chip Curbs Could Delay Chinese AI Models\nURL: https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/\nImage URL: https://s.yimg.com/lo/mysterio/api/5a5b461d8ca5c8f6dae672fa90aca414b4db8e5010089ed2acc189cf99d431e7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2Fb01a7122386dae8949187b0d2c10dc99.jpg_up.jpg\nSummary: U.S. chip restrictions could delay Chinese AI releases, Reuters reported, citing unnamed sources. One source estimated Moonshot AI’s Kimi K4 could slip to mid-2027 if the company loses all overseas computing access. Another said Moonshot is seeking computing power in Europe and plans to approach Chinese chipmakers. Moonshot did not immediately comment.",
+          "sha256": "b11704be35da72417acfec9bf5b3dd2a98d0bdd2efc6798d80ef26204d2ecfcf",
+          "source": "reuters.com",
+          "request_id": "481539f56fbc0714d8d472e65201b999f27084f9a83f530cc211e6ac19160077",
+          "mode": "image_url_only",
+          "image_verification": "pending_compilation_review"
         }
       ]
     }
@@ -16497,14 +16525,27 @@
       ]
     },
     "481539f56fbc0714d8d472e65201b999f27084f9a83f530cc211e6ac19160077": {
-      "status": "received",
+      "status": "finalized",
       "received_at": "2026-11-27T15:40:26.903273+00:00",
       "received_sequence": 510,
       "expected_items": 2,
       "mode": "image_url_only",
       "trusted_route_sha256": null,
       "corrects_record_id": null,
-      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88"
+      "image_review_deferral_evidence_sha256": "b26d86635825fafb51f292f48fe2b5151c3636e67c039fe8b8f0db734c122d88",
+      "finalized_at": "2026-11-27T15:47:22.366174+00:00",
+      "records": [
+        {
+          "id": 563,
+          "revision": 1,
+          "sha256": "652f38a75dfada2132db53b4c78bd9954c58eee6898c6f6bd8e70504b0c46e9c"
+        },
+        {
+          "id": 564,
+          "revision": 1,
+          "sha256": "b11704be35da72417acfec9bf5b3dd2a98d0bdd2efc6798d80ef26204d2ecfcf"
+        }
+      ]
     }
   },
   "batches": {
@@ -60473,6 +60514,26 @@
       "result": {
         "status": "received",
         "request_id": "481539f56fbc0714d8d472e65201b999f27084f9a83f530cc211e6ac19160077"
+      }
+    },
+    "9e2e3f9e1df4f23d5439cfe0d31966c930d56cd128cd9aa61f2d7ed31e534595": {
+      "sha256": "7903df90ac9f464629420b3228f56588b40724c0cc764d1c8119f2fc02b00d15",
+      "result": {
+        "status": "finalized",
+        "request_id": "481539f56fbc0714d8d472e65201b999f27084f9a83f530cc211e6ac19160077",
+        "records": [
+          {
+            "id": 563,
+            "revision": 1,
+            "sha256": "652f38a75dfada2132db53b4c78bd9954c58eee6898c6f6bd8e70504b0c46e9c"
+          },
+          {
+            "id": 564,
+            "revision": 1,
+            "sha256": "b11704be35da72417acfec9bf5b3dd2a98d0bdd2efc6798d80ef26204d2ecfcf"
+          }
+        ],
+        "duplicates": []
       }
     }
   },
